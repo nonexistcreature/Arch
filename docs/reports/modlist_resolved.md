@@ -1,6 +1,6 @@
 # modlist_resolved (авто, tools/resolve_pack.py)
 
-Всего: **254** (явных: 203, зависимостей: 51)
+Всего: **250** (явных: 199, зависимостей: 51)
 
 | slug | название | версия | тип | сторона | волна | роль | обновлён |
 |---|---|---|---|---|---|---|---|
@@ -52,12 +52,10 @@
 | create-confectionery | Create Confectionery | 1.1.3.b | release | both | 4 | сладости | 2026-08-15 |
 | create-connected | Create: Connected | 1.3.3-mc1.21.1 | release | both | 4 | Create | 2026-08-31 |
 | create-deco | Create Deco | 2.1.3 | release | both | 4 | декор | 2026-04-18 |
-| create-diesel-generators | Create: Diesel Generators | 1.21.1-1.3.15 | release | both | 4 | энергия | 2026-07-30 |
 | create-dragons-plus | Create: Dragons Plus | 1.11.9 | release | both | 4 | зависимость create-enchantment-industry | 2026-09-17 |
 | create-enchantment-industry | Create: Enchantment Industry | 2.5.4b | beta | both | 4 | зачарование | 2026-10-09 |
 | create-grappling-hooks | Create Grappling Hooks | 1.2.0 | beta | both | 7 | крюки | 2026-06-15 |
 | create-jetpack | Create Jetpack | 5.2.1 | release | both | 4 | полёт | 2026-07-31 |
-| create-new-age | Create: New Age | 1.2.0+mc1.21.1 | release | both | 4 | энергия | 2026-06-08 |
 | create-power-loader | Create: Power Loader | 2.0.5-mc1.21.1 | release | both | 4 | чанклоадер | 2026-05-22 |
 | create-steam-n-rails-1.21.1 | Steam 'n' Rails Neoforge | 0.2.1+neoforge-mc1.21.1 | release | both | 4 | поезда | 2026-06-13 |
 | create-tfmg | Create: The Factory Must Grow | 1.2.0 | release | both | 4 | нефть | 2026-01-07 |
@@ -67,7 +65,6 @@
 | critters-and-companions | Critters and Companions | 2.7.0 | release | both | 3 | существа | 2026-08-14 |
 | ct-overhaul-village | ChoiceTheorem's Overhauled Village | 3.6.3 | release | server | 2 | деревни | 2026-03-21 |
 | cucumber | Cucumber Library | 8.0.16 | release | both | 2 | зависимость mystical-agriculture | 2026-05-04 |
-| cultural-delights | Cultural Delights | 0.19.2-1.21.1 | release | both | 2 | еда | 2026-10-13 |
 | curios | Curios API | 9.5.1+1.21.1 | release | both | 6 | зависимость occultism | 2025-05-14 |
 | custom-machinery | Custom Machinery | 1.21.1-0.10.74 | beta | both | 5 | запасной MMR | 2026-10-10 |
 | data-anchor | Data Anchor | 2.0.0.17-neoforge | release | both | 9 | зависимость enhanced-celestials | 2026-09-19 |
@@ -95,7 +92,6 @@
 | entitytexturefeatures | [ETF] Entity Texture Features | 7.2.5-neoforge-1.21 | release | client | 10 | текстуры | 2026-10-04 |
 | euphoria-patches | Euphoria Patches | 1.10.5-r5.9.3-neoforge | release | client | 10 | шейдеры | 2026-09-15 |
 | every-compat | Every Compat (Wood Good) | 1.21-2.11.53 | release | both | 2 | совместимость пород | 2026-10-09 |
-| expanded-delight | Expanded Delight | 0.1.4-neoforge | beta | both | 2 | еда | 2026-01-10 |
 | explorify | Explorify | v1.6.5 | release | both | 2 | структуры | 2026-05-13 |
 | extended-ae | Extended AE | 1.21-2.2.35-neoforge | release | both | 5 | AE2 | 2026-08-08 |
 | falling-leaves | Falling Leaves | 1.0 | release | client | 10 | листья | 2025-10-05 |

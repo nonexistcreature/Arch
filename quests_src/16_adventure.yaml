@@ -1,0 +1,315 @@
+chapter:
+  id: adventure
+  order: 16
+  icon: minecraft:filled_map
+  ru: {title: "Приключения", subtitle: "Данжи, измерения и боссы — по желанию"}
+  en: {title: "Adventure", subtitle: "Dungeons, dimensions and bosses — when you want them"}
+quests:
+  - id: adv_start
+    deps: [welcome_danger_atlas]
+    roles: [warrior]
+    icon: minecraft:iron_sword
+    shape: gear
+    tasks: [{type: item, item: minecraft:iron_sword}, {type: item, item: minecraft:shield}]
+    rewards:
+      - {type: item, item: minecraft:cooked_beef, count: 16}
+      - {type: item, item: minecraft:arrow, count: 32}
+    ru:
+      title: "В путь"
+      subtitle: "Меч, щит и еда"
+      text: |
+        **Что это:** глава для тех, кто ищет приключения. Всё здесь — в **зонах 2–3**: дикие земли, данжи, измерения.
+        **Как подготовиться:** меч, щит, броня, еда с баффами от повара, зелья от алхимика, свиток возврата.
+        Лут в сундуках у каждого свой — ходите компанией.
+    en:
+      title: "On the Road"
+      subtitle: "Sword, shield and food"
+      text: |
+        **What:** this chapter is for adventure seekers. Everything here is in **zones 2–3**: wilds, dungeons, dimensions.
+        **How to prepare:** sword, shield, armour, buff food from the cook, potions from the alchemist, a return scroll.
+        Chest loot is per player — go as a group.
+
+  - id: adv_dungeon
+    deps: [adv_start]
+    roles: [warrior]
+    icon: lootr:lootr_chest
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Первый данж"
+      subtitle: "YUNG's, When Dungeons Arise, Dungeons and Taverns"
+      text: |
+        По миру разбросаны десятки новых построек: подземелья, башни, корабли, храмы, таверны.
+        Найди любое и опустоши хотя бы один сундук. Таверны — безопасны, там можно передохнуть.
+    en:
+      title: "The First Dungeon"
+      subtitle: "YUNG's, When Dungeons Arise, Dungeons and Taverns"
+      text: |
+        Dozens of new structures dot the world: dungeons, towers, ships, temples, taverns.
+        Find any of them and empty at least one chest. Taverns are safe — rest there.
+
+  - id: adv_nether
+    deps: [adv_start]
+    roles: [warrior]
+    icon: minecraft:obsidian
+    tasks: [{type: dimension, dimension: minecraft:the_nether}]
+    ru:
+      title: "Жар Нижнего мира"
+      subtitle: "Зона 3"
+      text: |
+        Построй портал из обсидиана и шагни внутрь. Там — ифриты для Create, кварц для AE2, адские кухни и крепости.
+        **Совет:** зелье огнестойкости (или «Жар горна») спасает жизнь.
+    en:
+      title: "The Nether's Heat"
+      subtitle: "Zone 3"
+      text: |
+        Build an obsidian portal and step through. Inside: blazes for Create, quartz for AE2, nether cuisine and fortresses.
+        **Tip:** fire resistance (or Forge Heat) saves lives.
+
+  - id: adv_twilight
+    deps: [adv_start]
+    roles: [warrior]
+    icon: twilightforest:magic_map_focus
+    shape: hexagon
+    tasks: [{type: dimension, dimension: twilightforest:twilight_forest}]
+    ru:
+      title: "Сумеречный лес"
+      subtitle: "Вечные сумерки и цепочка боссов"
+      text: |
+        **Как попасть:** брось алмаз в пруд, окружённый цветами — откроется портал.
+        Сумеречный лес — целое измерение с прогрессией: Нага → Лич → Гидра → Минотавр → Рыцари-призраки → Ур-гаст → Йети → Снежная королева.
+        Каждый босс открывает следующую часть леса.
+    en:
+      title: "The Twilight Forest"
+      subtitle: "Eternal dusk and a chain of bosses"
+      text: |
+        **How to get there:** throw a diamond into a pool ringed with flowers — a portal opens.
+        The Twilight Forest is a whole dimension with progression: Naga → Lich → Hydra → Minoshroom → Knight Phantoms → Ur-Ghast → Yeti → Snow Queen.
+        Each boss unlocks the next part of the forest.
+
+  - id: adv_naga
+    deps: [adv_twilight]
+    roles: [warrior]
+    icon: twilightforest:naga_trophy
+    tasks: [{type: kill, entity: twilightforest:naga}]
+    rewards:
+      - {type: item, item: twilightforest:charm_of_life_1}
+    ru:
+      title: "Нага"
+      subtitle: "Первый страж"
+      text: |
+        Огромная змея в каменном дворе. Держись подальше от её рывка и бей в бока.
+    en:
+      title: "The Naga"
+      subtitle: "The first guardian"
+      text: |
+        A giant serpent in a stone courtyard. Stay clear of her charge and hit her sides.
+
+  - id: adv_lich
+    deps: [adv_naga]
+    roles: [warrior, mage]
+    icon: twilightforest:lich_trophy
+    tasks: [{type: kill, entity: twilightforest:lich}]
+    ru:
+      title: "Лич"
+      subtitle: "Башня тёмного мага"
+      text: |
+        Лич прячется за щитами и копиями. Разбей щиты — и бей настоящего. Маги компании здесь очень пригодятся.
+    en:
+      title: "The Lich"
+      subtitle: "The dark mage's tower"
+      text: |
+        The Lich hides behind shields and decoys. Break the shields — then hit the real one. Your group's mages shine here.
+
+  - id: adv_hydra
+    deps: [adv_lich]
+    roles: [warrior]
+    icon: twilightforest:hydra_trophy
+    tasks: [{type: kill, entity: twilightforest:hydra}]
+    optional: true
+    ru:
+      title: "Гидра"
+      subtitle: "Огненное болото"
+      text: |
+        Трёхглавая гидра в огненном болоте. Огнестойкость обязательна. Награда — огненная кровь для лучшей брони леса.
+    en:
+      title: "The Hydra"
+      subtitle: "The fire swamp"
+      text: |
+        A three-headed hydra in the fire swamp. Fire resistance is a must. The reward: fiery blood for the forest's best armour.
+
+  - id: adv_aether
+    deps: [adv_start]
+    roles: [warrior]
+    icon: aether:aether_portal_frame
+    tasks: [{type: dimension, dimension: aether:the_aether}]
+    ru:
+      title: "Эфир"
+      subtitle: "Небесные острова"
+      text: |
+        **Как попасть:** рамка из светокамня и ведро воды. Эфир — небо из облаков и парящих островов.
+        Там свои руды, моа-ездовые птицы и небесные данжи с Валькириями.
+    en:
+      title: "The Aether"
+      subtitle: "Islands in the sky"
+      text: |
+        **How to get there:** a glowstone frame and a water bucket. The Aether is a sky of clouds and floating islands.
+        It has its own ores, rideable moas and sky dungeons with Valkyries.
+
+  - id: adv_slider
+    deps: [adv_aether]
+    roles: [warrior]
+    icon: aether:bronze_dungeon_key
+    tasks: [{type: kill, entity: aether:slider}]
+    optional: true
+    ru:
+      title: "Скользун"
+      subtitle: "Бронзовый данж"
+      text: |
+        Каменный куб-страж бронзового данжа. Не стой у него на пути.
+    en:
+      title: "The Slider"
+      subtitle: "The bronze dungeon"
+      text: |
+        The stone cube guarding the bronze dungeon. Don't stand in its way.
+
+  - id: adv_undergarden
+    deps: [adv_start]
+    roles: [warrior]
+    icon: minecraft:stone_bricks
+    tasks: [{type: dimension, dimension: undergarden:undergarden}]
+    optional: true
+    ru:
+      title: "Подсад"
+      subtitle: "The Undergarden"
+      text: |
+        Мрачное подземное измерение с гигантскими грибами и странными тварями. Портал — из каменных кирпичей и катализатора.
+    en:
+      title: "The Undergarden"
+      subtitle: "A world below"
+      text: |
+        A gloomy underground dimension of giant fungi and strange beasts. The portal uses stone bricks and a catalyst.
+
+  - id: adv_otherside
+    deps: [adv_start]
+    roles: [warrior]
+    icon: minecraft:sculk
+    tasks: [{type: dimension, dimension: deeperdarker:otherside}]
+    optional: true
+    ru:
+      title: "Иная сторона"
+      subtitle: "Deeper and Darker"
+      text: |
+        За порталом в Древнем городе — измерение скалка. Тихо: здесь слушают каждый твой шаг.
+    en:
+      title: "The Otherside"
+      subtitle: "Deeper and Darker"
+      text: |
+        Beyond the portal in an Ancient City lies the sculk dimension. Quiet: here, every step is heard.
+
+  - id: adv_bumblezone
+    deps: [a_bees_intro]
+    roles: [breeder, warrior]
+    icon: minecraft:honeycomb
+    tasks: [{type: dimension, dimension: the_bumblezone:the_bumblezone}]
+    optional: true
+    ru:
+      title: "Пчелиное измерение"
+      subtitle: "The Bumblezone"
+      text: |
+        Брось жемчуг Края в пчелиное гнездо — и окажешься в мире мёда и сот. Не зли пчёл!
+    en:
+      title: "The Bee Dimension"
+      subtitle: "The Bumblezone"
+      text: |
+        Throw an ender pearl into a bee nest — and you're in a world of honey and comb. Don't anger the bees!
+
+  - id: adv_cataclysm
+    deps: [adv_dungeon]
+    roles: [warrior]
+    icon: cataclysm:ignitium_ingot
+    shape: hexagon
+    tasks: [{type: kill, entity: cataclysm:netherite_monstrosity}]
+    optional: true
+    ru:
+      title: "Катаклизм"
+      subtitle: "Боссы L_Ender's Cataclysm"
+      text: |
+        Гигантские боссы в особых структурах: Незеритовый монстр, Игнис, Страж Края, Левиафан…
+        Это вершина боевой ветки. Готовьтесь серьёзно: лучшая броня, еда, зелья, друзья.
+    en:
+      title: "Cataclysm"
+      subtitle: "L_Ender's Cataclysm bosses"
+      text: |
+        Giant bosses in special structures: the Netherite Monstrosity, Ignis, the Ender Guardian, the Leviathan…
+        The peak of the combat branch. Prepare seriously: best armour, food, potions, friends.
+
+  - id: adv_mowzie
+    deps: [adv_dungeon]
+    roles: [warrior]
+    icon: mowziesmobs:wrought_helmet
+    tasks: [{type: kill, entity: mowziesmobs:ferrous_wroughtnaut}]
+    optional: true
+    ru:
+      title: "Железный рыцарь"
+      subtitle: "Mowzie's Mobs"
+      text: |
+        Железный Wroughtnaut спит в подземной зале. Бей в спину, когда он застрянет топором в полу.
+    en:
+      title: "The Iron Knight"
+      subtitle: "Mowzie's Mobs"
+      text: |
+        The Ferrous Wroughtnaut sleeps in an underground hall. Hit his back when his axe gets stuck in the floor.
+
+  - id: adv_cornelia
+    deps: [adv_dungeon]
+    roles: [warrior]
+    icon: aquamirae:dead_sea_scroll
+    tasks: [{type: kill, entity: aquamirae:captain_cornelia}]
+    optional: true
+    ru:
+      title: "Ледяное море"
+      subtitle: "Aquamirae"
+      text: |
+        В ледяных морях стоят корабли-призраки. Капитан Корнелия ждёт на одном из них. Холодно, страшно, красиво.
+    en:
+      title: "The Ice Sea"
+      subtitle: "Aquamirae"
+      text: |
+        Ghost ships stand in the frozen seas. Captain Cornelia waits on one of them. Cold, scary, beautiful.
+
+  - id: adv_end
+    deps: [adv_nether]
+    roles: [warrior]
+    icon: minecraft:ender_eye
+    tasks: [{type: dimension, dimension: minecraft:the_end}]
+    optional: true
+    ru:
+      title: "Край"
+      subtitle: "Дракон ждёт"
+      text: |
+        Найди крепость с порталом Края. Дракон — классическое испытание, а за ним — острова End с хорусом и шалкерами.
+    en:
+      title: "The End"
+      subtitle: "The dragon awaits"
+      text: |
+        Find a stronghold with an End portal. The dragon is the classic trial; beyond it lie the End islands with chorus and shulkers.
+
+  - id: adv_hero
+    deps: [adv_lich, adv_nether, adv_aether]
+    roles: [warrior]
+    icon: minecraft:netherite_sword
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: xp_levels, count: 10}
+      - {type: item, item: minecraft:golden_apple, count: 4}
+    ru:
+      title: "Герой Арк-Хейвена"
+      subtitle: "Три мира пройдены"
+      text: |
+        Нижний мир, Сумеречный лес и Эфир — позади. Трофеи боссов нужны для **Великих строек** — неси их домой.
+    en:
+      title: "Hero of Arkhaven"
+      subtitle: "Three worlds conquered"
+      text: |
+        The Nether, the Twilight Forest and the Aether are behind you. Boss trophies feed the **Great Works** — bring them home.

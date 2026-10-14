@@ -1,0 +1,224 @@
+chapter:
+  id: alchemy
+  order: 15
+  icon: minecraft:brewing_stand
+  ru: {title: "Алхимия", subtitle: "Зелья, которые нужны всем"}
+  en: {title: "Alchemy", subtitle: "Potions everyone needs"}
+quests:
+  - id: al_stand
+    deps: [welcome_start]
+    roles: [alchemist]
+    icon: minecraft:brewing_stand
+    shape: gear
+    tasks: [{type: item, item: minecraft:brewing_stand}]
+    rewards:
+      - {type: item, item: minecraft:glass_bottle, count: 16}
+      - {type: item, item: minecraft:nether_wart, count: 8}
+    ru:
+      title: "Варочная стойка"
+      subtitle: "Начало алхимии"
+      text: |
+        **Что это:** алхимик — центр торговли. Его ингредиенты приходят **от всех ролей**, а зелья нужны каждому.
+        **Как начать:** варочная стойка + адский нарост + бутылки воды — это база. Огненный порошок — топливо.
+        **Совет:** все рецепты зелий — в EMI (**U** по бутылке воды).
+    en:
+      title: "The Brewing Stand"
+      subtitle: "Where alchemy begins"
+      text: |
+        **What:** the alchemist is the trade hub. Ingredients come **from every role**, and everyone needs the potions.
+        **How to start:** a brewing stand + nether wart + water bottles is the base. Blaze powder is the fuel.
+        **Tip:** every potion recipe is in EMI (**U** on a water bottle).
+
+  - id: al_cauldron
+    deps: [al_stand]
+    roles: [alchemist, mage]
+    icon: irons_spellbooks:alchemist_cauldron
+    tasks: [{type: item, item: irons_spellbooks:alchemist_cauldron}]
+    ru:
+      title: "Котёл алхимика"
+      subtitle: "Iron's Spells"
+      text: |
+        Котёл алхимика варит зелья большими партиями и делает **чернила** для свитков. Поставь его на огонь.
+        **Ценится у:** магов Iron's — без чернил нет новых свитков.
+    en:
+      title: "The Alchemist's Cauldron"
+      subtitle: "Iron's Spells"
+      text: |
+        The alchemist's cauldron brews potions in big batches and makes **ink** for scrolls. Put it over a fire.
+        **Valued by:** Iron's mages — no ink, no new scrolls.
+
+  - id: al_quiet
+    deps: [al_stand]
+    roles: [alchemist]
+    icon: herbalbrews:lavender
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: herbalbrews:lavender, count: 8}
+    ru:
+      title: "Зелье «Тишина»"
+      subtitle: "Мир не замечает тебя"
+      text: |
+        **Эффект:** враждебные мобы не замечают тебя 8 минут — пока ты сам не ударишь.
+        **Рецепт:** бутылка воды + лаванда (у **садовода**) + перо (у **заводчика**) + осколок аметиста.
+        Сделай и отметь квест. Это лучший подарок тем, кто любит гулять, а не драться.
+    en:
+      title: "Potion of Quiet"
+      subtitle: "The world doesn't notice you"
+      text: |
+        **Effect:** hostile mobs ignore you for 8 minutes — until you strike first.
+        **Recipe:** water bottle + lavender (from the **gardener**) + feather (from the **breeder**) + amethyst shard.
+        Brew it and tick the quest. The best gift for those who'd rather stroll than fight.
+
+  - id: al_sea_wolf
+    deps: [al_quiet]
+    roles: [alchemist, breeder]
+    icon: minecraft:prismarine_crystals
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Зелье «Морской волк»"
+      subtitle: "Для рыбака"
+      text: |
+        Удача рыбалки, дыхание под водой и ночное зрение на 8 минут.
+        **Рецепт:** вода + сырая рыба (у **рыбака**) + кристаллы призмарина + светящийся чернильный мешок.
+    en:
+      title: "Potion of the Sea Wolf"
+      subtitle: "For the angler"
+      text: |
+        Fishing luck, water breathing and night vision for 8 minutes.
+        **Recipe:** water + raw fish (from the **angler**) + prismarine crystals + glow ink sac.
+
+  - id: al_fertility
+    deps: [al_quiet]
+    roles: [alchemist, gardener]
+    icon: minecraft:honey_bottle
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Зелье «Плодородие»"
+      subtitle: "Для садовода"
+      text: |
+        Посевы вокруг тебя растут быстрее 5 минут. Пройдись по грядкам — и урожай поспеет на глазах.
+        **Рецепт:** вода + мёд (у **заводчика** пчёл) + костная мука + органический компост (у **повара**).
+    en:
+      title: "Potion of Fertility"
+      subtitle: "For the gardener"
+      text: |
+        Crops around you grow faster for 5 minutes. Walk your fields and watch the harvest ripen.
+        **Recipe:** water + honey (from the **beekeeper**) + bone meal + organic compost (from the **cook**).
+
+  - id: al_beast_trust
+    deps: [al_quiet]
+    roles: [alchemist, breeder]
+    icon: minecraft:golden_carrot
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Зелье «Звериное доверие»"
+      subtitle: "Для заводчика"
+      text: |
+        Детёныши животных рядом с тобой растут гораздо быстрее 8 минут.
+        **Рецепт:** вода + карп кои (у **рыбака**) + золотая морковь + пшеница.
+    en:
+      title: "Potion of Beast Trust"
+      subtitle: "For the breeder"
+      text: |
+        Young animals near you grow up much faster for 8 minutes.
+        **Recipe:** water + koi (from the **angler**) + golden carrot + wheat.
+
+  - id: al_forge_heat
+    deps: [al_quiet]
+    roles: [alchemist, engineer]
+    icon: minecraft:blaze_powder
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Зелье «Жар горна»"
+      subtitle: "Для инженера"
+      text: |
+        Огнестойкость и спешка II на 8 минут — работать у лавы и плавилен одно удовольствие.
+        **Рецепт:** вода + огненный порошок + самородок древнего металла (у **исследователя** руин Cataclysm) + сгусток магмы.
+    en:
+      title: "Potion of Forge Heat"
+      subtitle: "For the engineer"
+      text: |
+        Fire resistance and Haste II for 8 minutes — working by lava and smelters becomes a pleasure.
+        **Recipe:** water + blaze powder + ancient metal nugget (from the **explorer** of Cataclysm ruins) + magma cream.
+
+  - id: al_clean_breath
+    deps: [al_quiet, air_pollution]
+    roles: [alchemist, mage]
+    icon: minecraft:moss_block
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Зелье «Чистое дыхание»"
+      subtitle: "Против смога и кислотных дождей"
+      text: |
+        10 минут защищает от яда, тошноты, иссушения и слепоты — того, чем вредят смог и кислотные осадки.
+        **Рецепт:** вода + камень Источника (у **мага**) + блок мха + ламинария.
+    en:
+      title: "Potion of Clean Breath"
+      subtitle: "Against smog and acid rain"
+      text: |
+        For 10 minutes it shields you from poison, nausea, wither and blindness — what smog and acid rain inflict.
+        **Recipe:** water + source gem (from the **mage**) + moss block + kelp.
+
+  - id: al_lead_blood
+    deps: [al_clean_breath, m_radiation_kit]
+    roles: [alchemist, engineer]
+    icon: mekanism:ingot_lead
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Зелье «Свинцовая кровь»"
+      subtitle: "Выводит радиацию"
+      text: |
+        Каждые 10 секунд из тела уходит часть радиации — 3 минуты подряд. Держи пару бутылок у реактора.
+        **Рецепт:** вода + свинцовый слиток (у **инженера**) + камень Источника (у **мага**) + ведро молока.
+    en:
+      title: "Potion of Lead Blood"
+      subtitle: "Flushes radiation"
+      text: |
+        Every 10 seconds some radiation leaves your body — for 3 minutes. Keep a couple of bottles by the reactor.
+        **Recipe:** water + lead ingot (from the **engineer**) + source gem (from the **mage**) + milk bucket.
+
+  - id: al_star_sight
+    deps: [al_quiet]
+    roles: [alchemist, warrior]
+    icon: minecraft:spyglass
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Зелье «Звёздное зрение»"
+      subtitle: "Видеть опасность сквозь стены"
+      text: |
+        5 минут враждебные существа в радиусе 48 блоков светятся сквозь стены. Незаменимо в данжах.
+        **Рецепт:** вода + око Края (у **воина**) + светокаменная пыль + подзорная труба.
+    en:
+      title: "Potion of Star Sight"
+      subtitle: "See danger through walls"
+      text: |
+        For 5 minutes hostile creatures within 48 blocks glow through walls. Indispensable in dungeons.
+        **Recipe:** water + eye of ender (from the **warrior**) + glowstone dust + spyglass.
+
+  - id: al_master
+    deps: [al_quiet, al_clean_breath, al_cauldron]
+    roles: [alchemist]
+    icon: minecraft:dragon_breath
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: minecraft:blaze_rod, count: 8}
+      - {type: xp_levels, count: 5}
+    ru:
+      title: "Лавка алхимика"
+      subtitle: "Зелья для всей компании"
+      text: |
+        Поставь у себя витрину с зельями для друзей. Ты нужен всем — от повара до воина.
+        **Совет:** молоко снимает любые эффекты — и хорошие, и плохие. Носи с собой ведро на крайний случай.
+    en:
+      title: "The Alchemist's Shop"
+      subtitle: "Potions for the whole group"
+      text: |
+        Set up a potion display for your friends. Everyone needs you — from cook to warrior.
+        **Tip:** milk clears every effect, good or bad. Carry a bucket for emergencies.

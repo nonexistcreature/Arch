@@ -6,7 +6,10 @@ ServerEvents.loaded(event => {
     item: dump(R.ITEM), block: dump(R.BLOCK), fluid: dump(R.FLUID),
     entity_type: dump(R.ENTITY_TYPE), mob_effect: dump(R.MOB_EFFECT),
     recipe_type: dump(R.RECIPE_TYPE),
+    potion: dump(R.POTION),
+    recipes_arkhaven: [],
   }
+  event.server.recipeManager.getRecipes().forEach(h => { const id = String(h.id()); if (id.startsWith('arkhaven:')) data.recipes_arkhaven.push(id) })
   JsonIO.write('kubejs/exported/registry.json', data)
   console.info('ARKHAVEN_REGISTRY_DUMP items=' + data.item.length)
 })

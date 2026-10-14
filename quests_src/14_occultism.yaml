@@ -1,0 +1,151 @@
+chapter:
+  id: occultism
+  order: 14
+  icon: occultism:dictionary_of_spirits
+  ru: {title: "Occultism", subtitle: "Ритуалы и духи-работники"}
+  en: {title: "Occultism", subtitle: "Rituals and spirit workers"}
+quests:
+  - id: occ_dictionary
+    deps: [welcome_start]
+    roles: [mage]
+    icon: occultism:dictionary_of_spirits
+    shape: gear
+    tasks: [{type: item, item: occultism:dictionary_of_spirits}]
+    ru:
+      title: "Словарь духов"
+      subtitle: "Гид по Occultism"
+      text: |
+        **Что это:** Occultism — ритуалы с мелом и жертвенными чашами, призыв духов-слуг и магическое хранилище.
+        **Зачем:** духи работают за тебя: рубят лес, переносят предметы, чистят территорию, управляют машинами.
+        Всё описано в Словаре духов — начни с раздела «Первые шаги».
+    en:
+      title: "The Dictionary of Spirits"
+      subtitle: "The Occultism guide"
+      text: |
+        **What:** Occultism is rituals with chalk and sacrificial bowls, summoning spirit servants and magical storage.
+        **Why:** spirits work for you: chop trees, move items, clean up, run machines.
+        It's all in the Dictionary of Spirits — start with "Getting Started".
+
+  - id: occ_datura
+    deps: [occ_dictionary]
+    roles: [mage, gardener]
+    icon: occultism:datura
+    tasks: [{type: item, item: occultism:datura, count: 4}]
+    ru:
+      title: "Дурман"
+      subtitle: "Видеть Иной мир"
+      text: |
+        Дурман (datura) растёт из семян, которые выпадают из травы. Из него варят **Демонический сон** —
+        после него видно скрытые руды и деревья Иного мира.
+        **Ценится у:** садоводов — помогите магу с грядкой.
+    en:
+      title: "Datura"
+      subtitle: "Seeing the Otherworld"
+      text: |
+        Datura grows from seeds dropped by grass. It makes **Demon's Dream** —
+        after which you can see hidden Otherworld ores and trees.
+        **Valued by:** gardeners — help the mage with a bed.
+
+  - id: occ_chalk
+    deps: [occ_datura]
+    roles: [mage]
+    icon: occultism:chalk_white
+    tasks: [{type: item, item: occultism:chalk_white}, {type: item, item: occultism:golden_sacrificial_bowl}]
+    ru:
+      title: "Мел и чаша"
+      subtitle: "Первый пентакль"
+      text: |
+        Ритуал рисуется мелом на полу по схеме из Словаря, в центре — золотая жертвенная чаша, по кругу — чаши с ингредиентами.
+        **Совет:** ведите строительство ритуальной комнаты сразу красиво — свечи и черепа тоже часть схемы.
+    en:
+      title: "Chalk and Bowl"
+      subtitle: "Your first pentacle"
+      text: |
+        A ritual is drawn on the floor in chalk following the Dictionary's diagram, a golden sacrificial bowl in the centre, ingredient bowls around it.
+        **Tip:** build the ritual room pretty from the start — candles and skulls are part of the pattern.
+
+  - id: occ_foliot
+    deps: [occ_chalk]
+    roles: [mage]
+    icon: occultism:book_of_binding_foliot
+    tasks: [{type: item, item: occultism:book_of_binding_bound_foliot}]
+    ru:
+      title: "Фолиот"
+      subtitle: "Первый дух-слуга"
+      text: |
+        Свяжи фолиота в книге, затем призови его ритуалом. Фолиот может стать лесорубом, уборщиком или переносчиком предметов.
+    en:
+      title: "The Foliot"
+      subtitle: "Your first spirit servant"
+      text: |
+        Bind a foliot in a book, then summon it with a ritual. A foliot can become a lumberjack, a cleaner or an item carrier.
+
+  - id: occ_lumberjack
+    deps: [occ_foliot]
+    roles: [mage]
+    icon: occultism:book_of_calling_foliot_lumberjack
+    tasks: [{type: item, item: occultism:book_of_calling_foliot_lumberjack}]
+    optional: true
+    ru:
+      title: "Лесоруб"
+      subtitle: "Дух валит лес"
+      text: |
+        Дух-лесоруб сам рубит деревья в своей зоне, сажает саженцы и складывает брёвна в сундук. Строители будут в восторге.
+    en:
+      title: "The Lumberjack"
+      subtitle: "A spirit fells the forest"
+      text: |
+        A lumberjack spirit chops trees in its area, replants saplings and stacks logs in a chest. Builders will be thrilled.
+
+  - id: occ_djinni
+    deps: [occ_foliot]
+    roles: [mage]
+    icon: occultism:book_of_binding_djinni
+    tasks: [{type: item, item: occultism:book_of_binding_bound_djinni}]
+    ru:
+      title: "Джинн"
+      subtitle: "Сильнее и умнее"
+      text: |
+        Джинн — дух следующего ранга. Он управляет машинами, а ещё нужен для магического хранилища.
+    en:
+      title: "The Djinni"
+      subtitle: "Stronger and smarter"
+      text: |
+        A djinni is the next rank of spirit. It runs machines and is needed for magical storage.
+
+  - id: occ_storage
+    deps: [occ_djinni]
+    roles: [mage, engineer]
+    icon: occultism:storage_controller
+    tasks: [{type: item, item: occultism:storage_controller}]
+    optional: true
+    ru:
+      title: "Склад в измерении"
+      subtitle: "Пространственное хранилище"
+      text: |
+        Магическое хранилище Occultism держит предметы в карманном измерении. Это магический ответ AE2 —
+        выберите в компании один путь хранилища или стройте оба для красоты.
+    en:
+      title: "A Warehouse in a Dimension"
+      subtitle: "Dimensional storage"
+      text: |
+        Occultism's storage keeps items in a pocket dimension. It's the magical answer to AE2 —
+        pick one storage path for the group or build both for style.
+
+  - id: occ_afrit
+    deps: [occ_djinni]
+    roles: [mage, warrior]
+    icon: occultism:book_of_binding_afrit
+    shape: gear
+    tasks: [{type: item, item: occultism:book_of_binding_bound_afrit}]
+    optional: true
+    ru:
+      title: "Африт"
+      subtitle: "Огненный дух"
+      text: |
+        Африт — опасный и сильный дух. Его призыв — испытание, а награда — доступ к самым мощным ритуалам.
+    en:
+      title: "The Afrit"
+      subtitle: "A spirit of fire"
+      text: |
+        The afrit is a dangerous, powerful spirit. Summoning it is a trial; the reward is access to the strongest rituals.

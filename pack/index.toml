@@ -5,6 +5,14 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/first_steps.snbt"
+hash = "f18d67cf9f49764aac807bab7e1b79765ddfd147deeeca7d21bfb70fde6ffb9d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/origins.snbt"
+hash = "5a09b98504d4382c33cc29dabce18604140b35a832cf71a0fa1c3119d862992b"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
 hash = "44e0959c3a8eb7368863286ee8e0871c13667f54df4a3ea95fb02745d69a68a6"
 
@@ -14,23 +22,27 @@ hash = "d04d5331950919436864583a7ee324582806e147abc33f1a921cc15f2c01d0ab"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "b4b596e540fbf914501ae04c07b4fdea29f12283b542d66e94db7a8353ab24e8"
+hash = "de9688c9736b7d6d4d01badf0e22c6476e87ce178e8c321c193cec80a1e439fe"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "8c0a65380b014ccdef33a46ceb6e6d9d1377d3ac6ed9f70efe20ad2201cb5f2f"
+hash = "46b8f2483bd87f8fa48c98f96b505508a7923fc306320e27f83ebc61060ee3c8"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "9ae616263bf102121143b8f53efaeb566c2b444619bc6f37314fed731a4e84d0"
+hash = "9439db041e32f77e3e36b0249e96e243d1c870f7ea033eea8499535ff354554e"
+
+[[files]]
+file = "config/iris.properties"
+hash = "f97c06d3901e4a8959977cb83dbac06f0b395ec01f0b7c6b1d34be06393c4ead"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/en_us.json"
-hash = "e71006536fca0ecb5642b7c6594ca84d113da359acbc46d7b79d643e7a650344"
+hash = "3856bc7aeeb18b78f879c855aec387c6aced9eed3db53a66392c5ae53c4b62c8"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/ru_ru.json"
-hash = "2d2e757713922e1b995e3be8c7e28d9fefb526f567d0ceae21be3c3722674773"
+hash = "a2877c3edebc6435721ed50eaa47e76a456f4e980349848cd358b6e443ef7423"
 
 [[files]]
 file = "kubejs/server_scripts/00_world_rules.js"
@@ -39,6 +51,14 @@ hash = "7ba35214a3b2f167a5280bcfb431e6622f0a1936cc109731cd1d9c64e64dd31d"
 [[files]]
 file = "kubejs/server_scripts/10_welcome.js"
 hash = "df85f847cfb09a5ad29a894de471284502e274f60195d1396f1e35a3ce3cfd25"
+
+[[files]]
+file = "kubejs/server_scripts/20_alchemy_logic.js"
+hash = "836bf5df60c2b33244861a61cd279483b6b35cb2f6f0d2d9603224d05f618bf7"
+
+[[files]]
+file = "kubejs/startup_scripts/alchemy_effects.js"
+hash = "fa664889139a0967e7f920dfe3cf92f33860f12a6eed110fcb075e2ba2e422e1"
 
 [[files]]
 file = "mods/ae2.pw.toml"
@@ -336,11 +356,6 @@ hash = "67a405e6307f900d168deaa954a4309c3b44a6025e4efd7b8e774b6f9d3a69cd"
 metafile = true
 
 [[files]]
-file = "mods/create-diesel-generators.pw.toml"
-hash = "456f66abd180b3f5765473cda5e8acb1a6ea8b15b7ee34442be9a7af414cfc63"
-metafile = true
-
-[[files]]
 file = "mods/create-dragons-plus.pw.toml"
 hash = "dcbb37e828a2f915e64a2ef839a742761a553a2e3b923b000ffba95db7503ac3"
 metafile = true
@@ -358,11 +373,6 @@ metafile = true
 [[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "157b009cd9b2a7f55f2b7d0abdc2f9f7d49eade208a786c71cc6d2f8430bba4a"
-metafile = true
-
-[[files]]
-file = "mods/create-new-age.pw.toml"
-hash = "39499039e11a6e0f50542d80af94c172342fdb686f3a59d5ee4457d978a54e75"
 metafile = true
 
 [[files]]
@@ -413,11 +423,6 @@ metafile = true
 [[files]]
 file = "mods/cucumber.pw.toml"
 hash = "b2059d79bf6e41281a26b5b75a8f0cb20804079fe49a22042a26aa5ce28ba7f5"
-metafile = true
-
-[[files]]
-file = "mods/cultural-delights.pw.toml"
-hash = "9d1870a782fc6b9cc2fa1cd1a509fbbe713f271287713132c311e83e157e45f8"
 metafile = true
 
 [[files]]
@@ -558,11 +563,6 @@ metafile = true
 [[files]]
 file = "mods/every-compat.pw.toml"
 hash = "cc230dd39acdfe8845b6b0c8c3a0f9799a1c1109ea14b5b11c05313f15ed4fc9"
-metafile = true
-
-[[files]]
-file = "mods/expanded-delight.pw.toml"
-hash = "e0ad7cb6cf33d7958b7c9b7af321807190adf45ada89d65892fe2d437fe3024d"
 metafile = true
 
 [[files]]
@@ -1467,7 +1467,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "0cffca16ad1d82df8d0870eccac3e66ae0200feee84bc09b18dec5bde9f5e225"
+hash = "96662c82b098360d4d25846eb346b2817714ba0677861e58163f71d4ebe53863"
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"

@@ -1,0 +1,225 @@
+chapter:
+  id: ars
+  order: 12
+  icon: ars_nouveau:novice_spell_book
+  ru: {title: "Ars Nouveau", subtitle: "Магия, которую собираешь сам"}
+  en: {title: "Ars Nouveau", subtitle: "Magic you build yourself"}
+quests:
+  - id: ars_book
+    deps: [welcome_start]
+    roles: [mage]
+    icon: ars_nouveau:novice_spell_book
+    shape: gear
+    tasks: [{type: item, item: ars_nouveau:novice_spell_book}]
+    rewards:
+      - {type: item, item: ars_nouveau:source_gem, count: 8}
+    ru:
+      title: "Книга новичка"
+      subtitle: "Заклинания из глифов"
+      text: |
+        **Что это:** в Ars Nouveau ты **сам собираешь** заклинания из глифов: форма (снаряд, касание, на себя) + эффекты.
+        «Снаряд + Ломать» — копает издалека. «На себя + Лечение» — лечит. Комбинаций — тысячи.
+        Гид по моду — **Потрёпанная записная книжка** (Worn Notebook), её дают при первом входе.
+    en:
+      title: "The Novice Spellbook"
+      subtitle: "Spells made of glyphs"
+      text: |
+        **What:** in Ars Nouveau you **build** spells from glyphs: a form (projectile, touch, self) + effects.
+        "Projectile + Break" mines from afar. "Self + Heal" heals. Thousands of combinations.
+        The mod's guide is the **Worn Notebook** — you get one on first join.
+
+  - id: ars_source_gem
+    deps: [ars_book]
+    roles: [mage]
+    icon: ars_nouveau:source_gem
+    tasks: [{type: item, item: ars_nouveau:source_gem, count: 16}]
+    ru:
+      title: "Камни Источника"
+      subtitle: "Аметист + лазурит"
+      text: |
+        Камень Источника делается из аметиста и лазурита в **камере наполнения** или просто на верстаке (первые).
+        Источник (Source) — топливо всей магии Ars.
+    en:
+      title: "Source Gems"
+      subtitle: "Amethyst + lapis"
+      text: |
+        Source gems come from amethyst and lapis in an **imbuement chamber**, or crafted early on.
+        Source is the fuel for all Ars magic.
+
+  - id: ars_scribe
+    deps: [ars_source_gem]
+    roles: [mage]
+    icon: ars_nouveau:scribes_table
+    tasks: [{type: item, item: ars_nouveau:scribes_table}]
+    ru:
+      title: "Стол писаря"
+      subtitle: "Учим новые глифы"
+      text: |
+        На столе писаря ты переписываешь глифы в книгу. Каждый новый глиф — новые возможности.
+        **Совет:** первыми возьми «Снаряд», «Ломать», «Свет» и «Прыжок» — жизнь станет проще.
+    en:
+      title: "The Scribe's Table"
+      subtitle: "Learning new glyphs"
+      text: |
+        At the scribe's table you write glyphs into your book. Each new glyph opens new tricks.
+        **Tip:** grab Projectile, Break, Light and Leap first — life gets easier.
+
+  - id: ars_jar
+    deps: [ars_source_gem]
+    roles: [mage]
+    icon: ars_nouveau:source_jar
+    tasks: [{type: item, item: ars_nouveau:source_jar}]
+    ru:
+      title: "Банка Источника"
+      subtitle: "Склад магической энергии"
+      text: |
+        Банки хранят Источник. Их наполняют **связи** (sourcelinks) — блоки, которые делают Источник из разных занятий.
+    en:
+      title: "The Source Jar"
+      subtitle: "Storage for magical energy"
+      text: |
+        Jars store Source. **Sourcelinks** fill them — blocks that turn various activities into Source.
+
+  - id: ars_mycelial
+    deps: [ars_jar]
+    roles: [mage, cook]
+    icon: ars_nouveau:mycelial_sourcelink
+    shape: hexagon
+    tasks: [{type: item, item: ars_nouveau:mycelial_sourcelink}]
+    ru:
+      title: "Магия на еде"
+      subtitle: "Мицелиальная связь"
+      text: |
+        **Мицелиальная связь** превращает **еду** в Источник. Чем сытнее блюдо, тем больше магии.
+        **Кому пригодится:** вот где маг и повар становятся лучшими друзьями. Попроси у таверны остатки пира.
+    en:
+      title: "Magic from Food"
+      subtitle: "The mycelial sourcelink"
+      text: |
+        The **mycelial sourcelink** turns **food** into Source. The more filling the dish, the more magic.
+        **Who helps:** this is where the mage and the cook become best friends. Ask the tavern for feast leftovers.
+
+  - id: ars_agronomic
+    deps: [ars_jar]
+    roles: [mage, gardener]
+    icon: ars_nouveau:agronomic_sourcelink
+    tasks: [{type: item, item: ars_nouveau:agronomic_sourcelink}]
+    optional: true
+    ru:
+      title: "Магия сада"
+      subtitle: "Агрономическая связь"
+      text: |
+        Растения, растущие рядом с агрономической связью, дают Источник. Поставь её у грядок садовода.
+    en:
+      title: "Garden Magic"
+      subtitle: "The agronomic sourcelink"
+      text: |
+        Plants growing near an agronomic sourcelink produce Source. Place it by the gardener's beds.
+
+  - id: ars_apparatus
+    deps: [ars_jar, ars_scribe]
+    roles: [mage]
+    icon: ars_nouveau:enchanting_apparatus
+    tasks: [{type: item, item: ars_nouveau:enchanting_apparatus}, {type: item, item: ars_nouveau:arcane_core}]
+    ru:
+      title: "Зачаровательный аппарат"
+      subtitle: "Ритуальный крафт"
+      text: |
+        Аппарат на магическом ядре с пьедесталами вокруг собирает сложные магические предметы: кольца, пояса, книгу ученика.
+    en:
+      title: "The Enchanting Apparatus"
+      subtitle: "Ritual crafting"
+      text: |
+        The apparatus on an arcane core, surrounded by pedestals, assembles complex magic items: rings, belts, the apprentice book.
+
+  - id: ars_apprentice
+    deps: [ars_apparatus]
+    roles: [mage]
+    icon: ars_nouveau:apprentice_spell_book
+    tasks: [{type: item, item: ars_nouveau:apprentice_spell_book}]
+    rewards:
+      - {type: xp_levels, count: 5}
+    ru:
+      title: "Ученик мага"
+      subtitle: "Больше маны, сильнее заклинания"
+      text: |
+        Книга ученика открывает глифы второго уровня и больше слотов. Следующая — книга архимага.
+    en:
+      title: "The Apprentice"
+      subtitle: "More mana, stronger spells"
+      text: |
+        The apprentice book unlocks tier-two glyphs and more slots. Next comes the archmage book.
+
+  - id: ars_starbuncle
+    deps: [ars_apparatus]
+    roles: [mage, engineer]
+    icon: ars_nouveau:starbuncle_charm
+    tasks: [{type: item, item: ars_nouveau:starbuncle_charm}]
+    optional: true
+    ru:
+      title: "Старбанкл-почтальон"
+      subtitle: "Магическая логистика"
+      text: |
+        Старбанкл переносит предметы из сундука в сундук. Мило, бесшумно и без кабелей.
+        Есть и другие помощники: виксы крафтят, дригми собирают дроп с мобов, вихрилисты ускоряют рост.
+    en:
+      title: "The Starbuncle Courier"
+      subtitle: "Magical logistics"
+      text: |
+        A starbuncle moves items from chest to chest. Cute, quiet, cable-free.
+        There are other helpers too: wixies craft, drygmies collect mob drops, whirlisprigs speed up growth.
+
+  - id: ars_ritual_flight
+    deps: [ars_apprentice]
+    roles: [mage]
+    icon: ars_nouveau:ritual_flight
+    tasks: [{type: item, item: ars_nouveau:ritual_flight}, {type: item, item: ars_nouveau:ritual_brazier}]
+    optional: true
+    ru:
+      title: "Ритуал полёта"
+      subtitle: "Летать рядом с жаровней"
+      text: |
+        Ритуал полёта на жаровне даёт полёт всем рядом. Для строительства высоких башен — бесценно.
+        **Ценится у:** строителей и инженеров дирижаблей.
+    en:
+      title: "The Ritual of Flight"
+      subtitle: "Fly near the brazier"
+      text: |
+        The flight ritual on a brazier grants flight to everyone nearby. Priceless for building tall towers.
+        **Valued by:** builders and airship engineers.
+
+  - id: ars_warp
+    deps: [ars_apprentice]
+    roles: [mage]
+    icon: ars_nouveau:stable_warp_scroll
+    tasks: [{type: item, item: ars_nouveau:stable_warp_scroll}]
+    optional: true
+    ru:
+      title: "Порталы"
+      subtitle: "Свиток стабильного перемещения"
+      text: |
+        Привяжи свиток к месту — и он откроет туда портал. Из свитков делают постоянные порталы между базами.
+    en:
+      title: "Portals"
+      subtitle: "The stable warp scroll"
+      text: |
+        Bind a scroll to a place and it opens a portal there. Scrolls make permanent portals between bases.
+
+  - id: ars_create
+    deps: [ars_starbuncle, c_brass]
+    roles: [mage, engineer]
+    icon: create:brass_casing
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Магия и шестерни"
+      subtitle: "Ars Creo"
+      text: |
+        С Ars Creo старбанклы крутят колёса Create, а заклинания работают в механизмах.
+        Это мост между башней мага и мастерской инженера. Сделайте что-нибудь вместе!
+    en:
+      title: "Magic and Cogs"
+      subtitle: "Ars Creo"
+      text: |
+        With Ars Creo starbuncles turn Create wheels and spells work inside contraptions.
+        It's a bridge between the mage's tower and the engineer's workshop. Build something together!

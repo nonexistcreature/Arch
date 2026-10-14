@@ -1,6 +1,6 @@
 # quests_summary (авто, tools/validate_quests.py)
 
-Всего квестов: **169**, глав: 12
+Всего квестов: **236**, глав: 18
 
 | файл | глава | квестов |
 |---|---|---|
@@ -16,7 +16,13 @@
 | 09_mekanism.yaml | Mekanism и атом | 15 |
 | 10_steel_oil.yaml | Сталь и нефть | 11 |
 | 11_storage.yaml | Хранилище | 8 |
+| 12_ars.yaml | Ars Nouveau | 12 |
+| 13_irons.yaml | Iron's Spells | 9 |
+| 14_occultism.yaml | Occultism | 8 |
+| 15_alchemy.yaml | Алхимия | 11 |
+| 16_adventure.yaml | Приключения | 17 |
+| 17_weapons.yaml | Оружие и снаряжение | 10 |
 
-Роли: engineer: 69, cook: 32, breeder: 25, gardener: 23, warrior: 7, builder: 2, mage: 1
+Роли: engineer: 77, warrior: 38, cook: 33, mage: 33, breeder: 28, gardener: 26, alchemist: 11, builder: 3
 
 Ошибок: 0, предупреждений: 0

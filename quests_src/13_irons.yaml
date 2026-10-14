@@ -1,0 +1,165 @@
+chapter:
+  id: irons
+  order: 13
+  icon: irons_spellbooks:iron_spell_book
+  ru: {title: "Iron's Spells", subtitle: "Школы боевой магии"}
+  en: {title: "Iron's Spells", subtitle: "Schools of battle magic"}
+quests:
+  - id: irons_scroll
+    deps: [welcome_start]
+    roles: [mage, warrior]
+    icon: irons_spellbooks:scroll
+    shape: gear
+    tasks: [{type: item, item: irons_spellbooks:scroll}]
+    ru:
+      title: "Свиток с заклинанием"
+      subtitle: "Найди или купи"
+      text: |
+        **Что это:** Iron's Spells — магия с **школами**: огонь, лёд, молния, святая, кровь, природа, эндер, вызов.
+        Заклинания хранятся в **свитках**: их находят в сундуках данжей и покупают у странствующих магов.
+        Использовать свиток можно и без книги — один раз.
+    en:
+      title: "A Spell Scroll"
+      subtitle: "Find one or buy one"
+      text: |
+        **What:** Iron's Spells is magic with **schools**: fire, ice, lightning, holy, blood, nature, ender, evocation.
+        Spells are stored in **scrolls**: find them in dungeon chests or buy them from wandering mages.
+        You can cast a scroll without a book — once.
+
+  - id: irons_book
+    deps: [irons_scroll]
+    roles: [mage]
+    icon: irons_spellbooks:iron_spell_book
+    tasks: [{type: item, item: irons_spellbooks:iron_spell_book}]
+    ru:
+      title: "Книга заклинаний"
+      subtitle: "Навсегда"
+      text: |
+        Книга (в слоте аксессуара) хранит заклинания навсегда. Чем лучше книга, тем больше слотов.
+        Заклинание выбирается колесом, а колдуется отдельной клавишей — смотри *Управление → Iron's Spells*.
+    en:
+      title: "A Spellbook"
+      subtitle: "Forever"
+      text: |
+        A book (in an accessory slot) keeps spells forever. Better books have more slots.
+        Choose a spell with the wheel key and cast it — see *Controls → Iron's Spells* for the bindings.
+
+  - id: irons_inscription
+    deps: [irons_book]
+    roles: [mage]
+    icon: irons_spellbooks:inscription_table
+    tasks: [{type: item, item: irons_spellbooks:inscription_table}]
+    ru:
+      title: "Стол надписей"
+      subtitle: "Свиток → книга"
+      text: |
+        На столе надписей заклинание со свитка переносится в книгу. Свиток при этом тратится.
+    en:
+      title: "The Inscription Table"
+      subtitle: "Scroll → book"
+      text: |
+        At the inscription table a spell moves from a scroll into your book. The scroll is used up.
+
+  - id: irons_forge
+    deps: [irons_inscription]
+    roles: [mage]
+    icon: irons_spellbooks:scroll_forge
+    tasks: [{type: item, item: irons_spellbooks:scroll_forge}, {type: item, item: irons_spellbooks:common_ink}]
+    ru:
+      title: "Кузня свитков"
+      subtitle: "Создавай свои свитки"
+      text: |
+        Кузня делает свиток **выбранного** заклинания из бумаги, чернил и фокуса школы. Редкие чернила — сильнее заклинание.
+        **Ценится у:** алхимиков — чернила делаются в котле.
+    en:
+      title: "The Scroll Forge"
+      subtitle: "Make your own scrolls"
+      text: |
+        The forge makes a scroll of the spell **you choose** from paper, ink and a school focus. Rarer ink means a stronger spell.
+        **Valued by:** alchemists — ink is brewed in their cauldron.
+
+  - id: irons_essence
+    deps: [irons_scroll]
+    roles: [mage]
+    icon: irons_spellbooks:arcane_essence
+    tasks: [{type: item, item: irons_spellbooks:arcane_essence, count: 16}]
+    ru:
+      title: "Тайная эссенция"
+      subtitle: "Распыли лишние свитки"
+      text: |
+        Ненужные свитки разбираются в тайную эссенцию — из неё делают руны, улучшения и книги.
+    en:
+      title: "Arcane Essence"
+      subtitle: "Break down spare scrolls"
+      text: |
+        Spare scrolls break down into arcane essence — used for runes, upgrades and books.
+
+  - id: irons_runes
+    deps: [irons_essence]
+    roles: [mage]
+    icon: irons_spellbooks:fire_rune
+    tasks: [{type: item, item: irons_spellbooks:fire_rune}]
+    optional: true
+    ru:
+      title: "Руны школ"
+      subtitle: "Огонь, лёд, молния…"
+      text: |
+        Руна школы нужна, чтобы делать её фокусы и улучшения. Выбери любимую школу — дерево умений этой школы будет расти, пока ты колдуешь.
+    en:
+      title: "School Runes"
+      subtitle: "Fire, ice, lightning…"
+      text: |
+        A school rune is needed for its foci and upgrades. Pick a favourite school — its skill tree grows as you cast.
+
+  - id: irons_armor
+    deps: [irons_runes]
+    roles: [mage]
+    icon: irons_spellbooks:wizard_hat
+    tasks: [{type: item, item: irons_spellbooks:wizard_hat}]
+    optional: true
+    ru:
+      title: "Мантия волшебника"
+      subtitle: "Больше маны"
+      text: |
+        Броня магов даёт ману и силу школы. Шляпа волшебника — ещё и неплохой повод для фото.
+    en:
+      title: "The Wizard's Robes"
+      subtitle: "More mana"
+      text: |
+        Mage armour grants mana and school power. The wizard hat is also a fine photo opportunity.
+
+  - id: irons_upgrade
+    deps: [irons_runes]
+    roles: [mage]
+    icon: irons_spellbooks:upgrade_orb
+    tasks: [{type: item, item: irons_spellbooks:arcane_anvil}, {type: item, item: irons_spellbooks:upgrade_orb}]
+    optional: true
+    ru:
+      title: "Улучшения"
+      subtitle: "Тайная наковальня"
+      text: |
+        На тайной наковальне сферы улучшения добавляют к броне ману, силу школы и снижение перезарядки.
+    en:
+      title: "Upgrades"
+      subtitle: "The arcane anvil"
+      text: |
+        On the arcane anvil, upgrade orbs add mana, school power and cooldown reduction to armour.
+
+  - id: irons_boss
+    deps: [irons_book]
+    roles: [mage, warrior]
+    icon: irons_spellbooks:legendary_ink
+    shape: gear
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Башня колдуна"
+      subtitle: "Боссы-маги"
+      text: |
+        В мире стоят башни и лагеря враждебных магов — некромантов, пиромантов, культистов. Это **зона 3**.
+        Победа над ними даёт редкие книги, чернила и школьные трофеи. Ходи компанией и с запасом еды.
+    en:
+      title: "The Warlock's Tower"
+      subtitle: "Mage bosses"
+      text: |
+        Towers and camps of hostile mages dot the world — necromancers, pyromancers, cultists. This is **zone 3**.
+        Beating them yields rare books, inks and school trophies. Go as a group and bring food.

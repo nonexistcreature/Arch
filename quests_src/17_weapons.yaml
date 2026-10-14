@@ -1,0 +1,195 @@
+chapter:
+  id: weapons
+  order: 17
+  icon: simplyswords:iron_longsword
+  ru: {title: "Оружие и снаряжение", subtitle: "Мечи, ружья, пушки и крюки-кошки"}
+  en: {title: "Weapons & Gear", subtitle: "Swords, guns, cannons and grappling hooks"}
+quests:
+  - id: w_combat
+    deps: [adv_start]
+    roles: [warrior]
+    icon: simplyswords:iron_longsword
+    shape: gear
+    tasks: [{type: item, item: simplyswords:iron_longsword}]
+    ru:
+      title: "Бой с размахом"
+      subtitle: "Better Combat + Simply Swords"
+      text: |
+        **Что это:** удары здесь — с анимацией и комбо: длинный меч бьёт широкой дугой, кинжал — быстро, молот — тяжело.
+        **Перекат** (Combat Roll) уводит из-под удара — посмотри клавишу в *Управлении*.
+        Попробуй разные виды оружия: катана, глефа, коса, двойные клинки…
+    en:
+      title: "Combat with Flair"
+      subtitle: "Better Combat + Simply Swords"
+      text: |
+        **What:** attacks here are animated with combos: a longsword sweeps wide, a dagger is quick, a hammer is heavy.
+        A **roll** (Combat Roll) dodges a blow — check its key in *Controls*.
+        Try different weapons: katana, glaive, scythe, twinblades…
+
+  - id: w_greathammer
+    deps: [w_combat]
+    roles: [warrior]
+    icon: simplyswords:iron_greathammer
+    tasks: [{type: item, item: simplyswords:iron_greathammer}]
+    optional: true
+    ru:
+      title: "Большой молот"
+      subtitle: "Медленно, но громко"
+      text: |
+        Двуручный молот бьёт по площади. Хорош против толпы, плох против быстрых врагов.
+    en:
+      title: "The Greathammer"
+      subtitle: "Slow but loud"
+      text: |
+        A two-handed hammer hits an area. Great against crowds, poor against fast enemies.
+
+  - id: w_gunsmith
+    deps: [w_combat, c_brass]
+    roles: [warrior, engineer]
+    icon: tacz:gun_smith_table
+    shape: hexagon
+    tasks: [{type: item, item: tacz:gun_smith_table}]
+    ru:
+      title: "Оружейная мастерская"
+      subtitle: "TaCZ"
+      text: |
+        **Что это:** огнестрельное оружие — пистолеты, винтовки, дробовики — с прицелами, обвесами и перезарядкой.
+        В **оружейном столе** выбираешь ствол, патроны и модули. Металл и порох — у **инженера**.
+        **Внимание:** PvP выключен — это против мобов и боссов.
+    en:
+      title: "The Gunsmith's Workshop"
+      subtitle: "TaCZ"
+      text: |
+        **What:** firearms — pistols, rifles, shotguns — with scopes, attachments and reloading.
+        The **gunsmith table** builds guns, ammo and attachments. Metal and powder come from the **engineer**.
+        **Note:** PvP is off — guns are for mobs and bosses.
+
+  - id: w_ammo
+    deps: [w_gunsmith]
+    roles: [warrior]
+    icon: tacz:ammo_box
+    tasks: [{type: item, item: tacz:ammo_box}]
+    optional: true
+    ru:
+      title: "Ящик патронов"
+      subtitle: "Не таскай россыпью"
+      text: |
+        Ящик хранит патроны одного калибра и подаёт их при перезарядке. Экономит место в инвентаре.
+    en:
+      title: "An Ammo Box"
+      subtitle: "Don't carry them loose"
+      text: |
+        An ammo box holds one calibre and feeds it on reload. Saves inventory space.
+
+  - id: w_cannon
+    deps: [c_brass]
+    roles: [engineer, warrior]
+    icon: createbigcannons:cannon_mount
+    tasks: [{type: item, item: createbigcannons:cannon_mount}, {type: item, item: createbigcannons:cast_iron_cannon_barrel}]
+    ru:
+      title: "Большая пушка"
+      subtitle: "Create Big Cannons"
+      text: |
+        Пушки отливают в формах, собирают на лафете и заряжают ядрами и пороховыми зарядами. Наводка — вращением Create.
+        Поставь пушку на дирижабль — и у тебя **боевой корабль**. Для обороны колонии от рейдов — тоже отлично.
+    en:
+      title: "A Big Cannon"
+      subtitle: "Create Big Cannons"
+      text: |
+        Cannons are cast in moulds, assembled on a mount and loaded with shot and powder charges. Aiming uses Create rotation.
+        Put one on an airship and you have a **warship**. Great for defending a colony from raids, too.
+
+  - id: w_hook
+    deps: [fs_iron]
+    roles: [warrior, builder]
+    icon: grappling_hook_neo:grapplinghook
+    shape: hexagon
+    tasks: [{type: item, item: grappling_hook_neo:grapplinghook}]
+    rewards:
+      - {type: item, item: grappling_hook_neo:ropeupgradeitem}
+    ru:
+      title: "Крюк-кошка"
+      subtitle: "Ранний крюк"
+      text: |
+        Выстрели крюком в блок — и подтянись. Скалы, ущелья, крыши — больше не преграда.
+        **Улучшения** (на станции модификаций): длинная верёвка, двойной крюк, ракета, раскачка.
+    en:
+      title: "The Grappling Hook"
+      subtitle: "An early hook"
+      text: |
+        Fire the hook at a block and pull yourself up. Cliffs, ravines, rooftops are no longer obstacles.
+        **Upgrades** (at the modifier station): longer rope, double hook, rocket, swing.
+
+  - id: w_hook_double
+    deps: [w_hook]
+    roles: [warrior]
+    icon: grappling_hook_neo:doubleupgradeitem
+    tasks: [{type: item, item: grappling_hook_neo:doubleupgradeitem}]
+    optional: true
+    ru:
+      title: "Человек-паук"
+      subtitle: "Двойной крюк"
+      text: |
+        С двумя крюками можно раскачиваться между деревьями и пролетать над рекой. Тренируйся над водой!
+    en:
+      title: "Spider-Style"
+      subtitle: "The double hook"
+      text: |
+        With two hooks you can swing between trees and sail over a river. Practise over water!
+
+  - id: w_boarding
+    deps: [w_hook, s_rope]
+    roles: [warrior, engineer]
+    icon: simulated:rope_connector
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "На абордаж!"
+      subtitle: "Крюк + дирижабль"
+      text: |
+        Зацепись крюком за летящий дирижабль друга и подтянись на борт. А тросы Create позволяют сделать **канатную дорогу**
+        между башнями. Отметь квест, когда получится хоть раз.
+    en:
+      title: "Board Her!"
+      subtitle: "Hook + airship"
+      text: |
+        Hook a friend's passing airship and pull yourself aboard. Create ropes also let you build a **cable car**
+        between towers. Tick the quest once you've pulled it off.
+
+  - id: w_set_bonus
+    deps: [w_combat]
+    roles: [warrior]
+    icon: minecraft:diamond_chestplate
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Полный комплект"
+      subtitle: "Бонусы наборов брони"
+      text: |
+        Полный комплект брони одного вида даёт **бонус**: у мифриловой — мана, у огненной — огнестойкость, у рыцарской — защита.
+        Подсказка с бонусом видна в описании брони.
+    en:
+      title: "The Full Set"
+      subtitle: "Armour set bonuses"
+      text: |
+        A full set of one armour type grants a **bonus**: mithril gives mana, fiery gives fire resistance, knightmetal gives protection.
+        The bonus is shown in the armour tooltip.
+
+  - id: w_master
+    deps: [w_gunsmith, w_hook, w_cannon]
+    roles: [warrior]
+    icon: minecraft:netherite_sword
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: xp_levels, count: 5}
+    ru:
+      title: "Вооружён и опасен"
+      subtitle: "Меч, ружьё, пушка, крюк"
+      text: |
+        Ты готов к чему угодно. Помни про спокойные зоны: дома — мир, а приключения — там, где ты сам их ищешь.
+    en:
+      title: "Armed and Dangerous"
+      subtitle: "Sword, gun, cannon, hook"
+      text: |
+        You're ready for anything. Remember the calm zones: home is peaceful; adventure is where you go looking for it.
