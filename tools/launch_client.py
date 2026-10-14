@@ -146,7 +146,7 @@ def main():
                     shot = opt("--screenshot", None)
                     if shot:  # focus the game, press the given key (e.g. L = quest book) and grab the screen
                         from PIL import ImageGrab
-                        ps = ("$w=New-Object -ComObject WScript.Shell; [void]$w.AppActivate('Minecraft'); Start-Sleep -Milliseconds 800; "
+                        ps = ("$w=New-Object -ComObject WScript.Shell; [void]$w.AppActivate('Minecraft'); Start-Sleep -Milliseconds 800; " +
                               (f"$w.SendKeys('{opt('--key', '')}'); " if opt('--key', '') else "") + "Start-Sleep -Seconds 4")
                         subprocess.run(["powershell", "-NoProfile", "-Command", ps])
                         ImageGrab.grab().save(shot)
