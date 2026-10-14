@@ -85,7 +85,7 @@
 	quest.5921FC2BA0B77A22.quest_desc: [
 		"Toggle shaders with &lK&r (Iris shader menu — &lO&r). Low FPS? Turn them off or pick a lighter preset."
 		"Switch graphics presets with the \"Arkhaven — graphics\" desktop shortcut."
-		"&lTip:&r far terrain (Distant Horizons) shows mountains dozens of chunks away almost for free."
+		"&lTip:&r if FPS is low, lower render distance to 8–10 chunks — it has the biggest impact."
 	]
 	quest.43626AEC27FFE561.title: "Language"
 	quest.43626AEC27FFE561.quest_subtitle: "Russian by default, English in settings"

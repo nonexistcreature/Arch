@@ -20,3 +20,10 @@
 | 2026-10-14 18:43 | noshader | FAILED | | | | 2560x1377 | ['CLIENT EXITED 1 after 3s'] |
 | 2026-10-14 18:48 | current | 68 | 15 | 106 | 56 | 2560x1377 | - |
 | 2026-10-14 18:51 | noshader | FAILED | | | | 2560x1377 | ['   [18:48:52.360] [main/WARN] [mixin/]: Error loading class: com/mrcrayfish/controllable/client/binding/context/BindingContext (java.lang.ClassNotFoundException: com.mrcrayfish.controllable.client.binding.context.BindingContext)'] |
+| 2026-10-14 19:55 | current | 52 | 16 | 92 | 52 | 2560x1377 | - |
+| 2026-10-14 19:58 | shader_medium | 88 | 60 | 123 | 90 | 2560x1377 | - |
+| 2026-10-14 20:01 | no_dh | 147 | 82 | 160 | 136 | 2560x1377 | DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar |
+| 2026-10-14 20:04 | rd8 | 45 | 42 | 108 | 60 | 2560x1377 | - |
+| 2026-10-14 20:06 | noshader | 140 | 84 | 190 | 127 | 2560x1377 | - |
+| 2026-10-14 20:10 | no_dh_medium | 56 | 51 | 94 | 61 | 2560x1377 | DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar |
+| 2026-10-14 20:12 | no_dh_medium | 52 | 15 | 55 | 40 | 2560x1377 | DistantHorizons-3.3.3-1.21.1-fabric-neoforge.jar |

@@ -1,6 +1,6 @@
 # modlist_resolved (авто, tools/resolve_pack.py)
 
-Всего: **255** (явных: 204, зависимостей: 51)
+Всего: **254** (явных: 203, зависимостей: 51)
 
 | slug | название | версия | тип | сторона | волна | роль | обновлён |
 |---|---|---|---|---|---|---|---|
@@ -73,7 +73,6 @@
 | decorative-blocks-reborn | Decorative Blocks Reborn | 6.0.2 | release | both | 2 | декор | 2026-04-14 |
 | deep-aether | Deep Aether | 1.21.1-1.1.5.1 | release | both | 2 | Aether | 2026-03-29 |
 | deeperdarker | Deeper and Darker | 1.4.1-neoforge-1.21.1 | release | both | 2 | измерение | 2026-06-05 |
-| distanthorizons | Distant Horizons | 3.3.3-1.21.1 | release | both | 1 | дальность | 2026-09-29 |
 | dmr | Dragon Mounts Remastered | 1.9.2 | release | both | 3 | драконы | 2025-09-07 |
 | drippy-loading-screen | Drippy Loading Screen | 3.1.5-1.21.1-neoforge | release | client | 4 | загрузка | 2026-08-01 |
 | dungeons-and-taverns | Dungeons and Taverns | v4.4.4+mod | release | both | 2 | структуры | 2024-09-29 |

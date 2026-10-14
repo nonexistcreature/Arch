@@ -13,8 +13,13 @@ ROOT = Path(__file__).resolve().parent.parent
 GAME = ROOT / "tests/client_run/game"
 WORLD_SRC = ROOT / "tests/server_run/world"
 RES = "2560x1377"
-WARMUP = 24   # 2 minutes of samples discarded: chunks around the spot must finish generating
-SAMPLES = 24 + 18  # the owner's maximised window
+WARMUP = 4    # 20 s discarded (owner: every run <= 3 minutes)
+SAMPLES = 4 + 10  # the owner's maximised window
+
+MEDIUM = "\n".join([
+    "SHADOW_QUALITY=2", "shadowDistance=128.0", "WATER_REFLECT_QUALITY=2", "BLOCK_REFLECT_QUALITY=1",
+    "LIGHTSHAFT_QUALI_DEFINE=1", "SSAO_QUALI_DEFINE=2", "FXAA_DEFINE=1", "DETAIL_QUALITY=2", "CLOUD_QUALITY=2",
+    "ANISOTROPIC_FILTER=0", "COLORED_LIGHTING=0", "WORLD_SPACE_REFLECTIONS=-1", "ENTITY_SHADOW=-1", "RAIN_PUDDLES=0"]) + "\n"
 
 G1 = "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=50 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=20 -XX:InitiatingHeapOccupancyPercent=15"
 ZGC = "-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+DisableExplicitGC"
@@ -48,6 +53,8 @@ VARIANTS = {
     "no_dh":         ({"renderDistance": 12}, True, {}, "-Xms4G -Xmx12G " + G1, ["DistantHorizons*"]),
     "lite_client":   ({"renderDistance": 12}, True, {}, "-Xms4G -Xmx12G " + G1,
                       ["DistantHorizons*", "visuality*", "particlerain*", "SubtleEffects*", "fallingleaves*", "AmbientSounds*", "PresenceFootsteps*", "pf-*"]),
+    "no_dh_medium":  ({"renderDistance": 12}, True, {"SHADER": MEDIUM}, "-Xms4G -Xmx12G " + G1, ["DistantHorizons*"]),
+    "shader_medium": ({"renderDistance": 12}, True, {"SHADER": MEDIUM}, "-Xms4G -Xmx12G " + G1, []),
     "rd8":           ({"renderDistance": 8, "simulationDistance": 6}, True, {}, "-Xms4G -Xmx12G " + G1, []),
     # DH tuned: 128-chunk LOD radius, 2-block LOD columns, low vertical quality, no DH SSAO (shaders do AO)
     "dh_tuned":      ({"renderDistance": 12}, True, {"DH": DH_TUNED}, "-Xms4G -Xmx12G " + G1, []),
@@ -68,6 +75,13 @@ def set_options(over):
             out.append(l)
     out += [f"{k}:{v}" for k, v in keys.items() if k not in seen]
     p.write_text("\n".join(out) + "\n", "utf8")
+
+
+
+def set_shader_profile(text):
+    p = GAME / "shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt"
+    if text: p.write_text(text, "utf8")
+    elif p.exists(): p.unlink()
 
 
 def set_iris(on):
@@ -100,12 +114,13 @@ def prepare_world():
 def run(name):
     over, shaders, extra, jvm, off = VARIANTS[name]
     set_dh(extra.get("DH", []))
+    set_shader_profile(extra.get("SHADER", ""))
     set_options(over)
     set_iris(shaders)
     moved = toggle_mods(off, True)
     t0 = time.time()
     r = subprocess.run([sys.executable, str(ROOT / "tools/launch_client.py"), "--world", "bench", "--res", RES, "--jvm", jvm,
-                        "--fps-samples", str(SAMPLES), "--warmup", str(WARMUP), "--timeout", "1200"], capture_output=True, text=True, encoding="utf8", errors="replace")
+                        "--fps-samples", str(SAMPLES), "--warmup", str(WARMUP), "--timeout", "180"], capture_output=True, text=True, encoding="utf8", errors="replace")
     toggle_mods(off, False)
     m = re.search(r"FPS median=(\d+) min=(\d+) max=(\d+) avg=(\d+)", r.stdout)
     line = (f"| {time.strftime('%Y-%m-%d %H:%M')} | {name} | {m.group(1)} | {m.group(2)} | {m.group(3)} | {m.group(4)} | {RES} | {', '.join(moved) or '-'} |"

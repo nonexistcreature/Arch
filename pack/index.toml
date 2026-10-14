@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/DistantHorizons.toml"
-hash = "416fcb10afe74ab6274b2453d98e5af41dc27e9f96d851138a1fd327fa157b0f"
-
-[[files]]
 file = "config/ae2-common.toml"
 hash = "f7f961878f3627c237b089cc50a9aaebc66d3ea8af6687e352f8701b03eb6bec"
 
@@ -122,11 +118,11 @@ hash = "d04d5331950919436864583a7ee324582806e147abc33f1a921cc15f2c01d0ab"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "4443d15ee58ae6fbd9927a2793176598e6ecaa8180cc9604ce4110448a31b412"
+hash = "4a01a3451e97bc3641039ea6827e95bc7874597a66f641ac4bb1e7035fbdfde0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "089a1bf42bd621e2bdcf5b57d08fff77790abcde69761bd6f9bb37006afd685d"
+hash = "2627601a190844ad2b18ee3656f57d5e1a0da0b63aeab2a4a66e834c776f5a22"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -703,11 +699,6 @@ metafile = true
 [[files]]
 file = "mods/deeperdarker.pw.toml"
 hash = "a9ecc4476d26e707189e9f988c19f22961c33dfd5e5b4db1dfd6f87c6a81c545"
-metafile = true
-
-[[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "0c20fea3407ed0db85b4b171f1820a24987f2659946fadd30bae044205041b09"
 metafile = true
 
 [[files]]

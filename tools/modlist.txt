@@ -17,7 +17,6 @@ async-locator-refined | 1 | TPS
 dynamic-fps | 1 | FPS
 modelfix | 1 | визуал
 spark | 1 | профайлер
-distanthorizons | 1 | дальность
 crash-assistant | 1 | краши
 # --- P. scripts
 kubejs | 1 | скрипты

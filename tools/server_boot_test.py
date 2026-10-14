@@ -24,6 +24,9 @@ with open(log, "wb") as lf:
     cmds = sys.argv[sys.argv.index("--cmds") + 1].split(";") if "--cmds" in sys.argv else []
     if ok and p.poll() is None:
         for c in cmds:
+            if c.strip().startswith("sleep "):  # pseudo-command: wait N seconds
+                time.sleep(int(c.split()[1]))
+                continue
             p.stdin.write((c.strip() + "\n").encode()); p.stdin.flush(); time.sleep(3)
     if p.poll() is None:
         try: p.stdin.write(b"stop\n"); p.stdin.flush()

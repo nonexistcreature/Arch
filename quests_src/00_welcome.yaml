@@ -224,14 +224,14 @@ quests:
       text: |
         Шейдеры включаются клавишей **K** (меню шейдеров Iris — **O**). Если кадров мало — выключи их или выбери пресет полегче.
         Пресеты графики можно сменить ярлыком «Arkhaven — графика» на рабочем столе.
-        **Совет:** дальняя прорисовка (Distant Horizons) показывает горы за десятки чанков почти бесплатно.
+        **Совет:** если кадров мало — уменьши дальность прорисовки до 8–10 чанков, это сильнее всего влияет на FPS.
     en:
       title: "Pretty or Fast"
       subtitle: "Shaders and graphics presets"
       text: |
         Toggle shaders with **K** (Iris shader menu — **O**). Low FPS? Turn them off or pick a lighter preset.
         Switch graphics presets with the "Arkhaven — graphics" desktop shortcut.
-        **Tip:** far terrain (Distant Horizons) shows mountains dozens of chunks away almost for free.
+        **Tip:** if FPS is low, lower render distance to 8–10 chunks — it has the biggest impact.
 
   - id: welcome_language
     deps: [welcome_start]
