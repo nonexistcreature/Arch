@@ -1,0 +1,273 @@
+chapter:
+  id: welcome
+  order: 0
+  icon: minecraft:compass
+  ru: {title: "Добро пожаловать в Arkhaven", subtitle: "С чего начать и как тут всё устроено"}
+  en: {title: "Welcome to Arkhaven", subtitle: "Where to start and how things work here"}
+quests:
+  - id: welcome_start
+    icon: minecraft:compass
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: minecraft:bread, count: 8}
+      - {type: item, item: minecraft:torch, count: 16}
+    ru:
+      title: "Ты в Гавани"
+      subtitle: "Нажми на галочку, чтобы начать"
+      text: |
+        **Arkhaven** — сборка для компании, где каждый найдёт своё: кухня, сад, животные, техника, магия, приключения, город.
+        Здесь **спокойно**: у спавна и в твоих приватах враждебные мобы не появляются.
+        Опасность — по желанию: в диких землях, данжах и других измерениях.
+        Эта книга — твой гид. Каждый квест отвечает на три вопроса: *что это, зачем, как начать*.
+    en:
+      title: "You're in the Haven"
+      subtitle: "Tick the box to begin"
+      text: |
+        **Arkhaven** is a pack for a group of friends where everyone finds their thing: cooking, gardening, animals, machines, magic, adventure, towns.
+        It's **calm** here: hostile mobs don't spawn near spawn or inside your claims.
+        Danger is opt-in: the wilds, dungeons and other dimensions.
+        This book is your guide. Every quest answers three questions: *what is it, why care, how to start*.
+
+  - id: welcome_roles
+    deps: [welcome_start]
+    icon: minecraft:writable_book
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Кто ты сегодня?"
+      subtitle: "Восемь ролей — выбирай любую или все сразу"
+      text: |
+        🍳 **Повар** — Farmer's Delight, вино и сыр Let's Do. 🌱 **Садовод** — сезоны, теплицы, эссенции.
+        🐄 **Заводчик** — пчёлы, драконы, рыбалка. ⚙️ **Инженер** — Create, дирижабли, атом.
+        🔮 **Маг** — Ars Nouveau, Iron's Spells, Occultism. ⚔️ **Воин** — данжи и боссы.
+        🏛 **Градостроитель** — колонии MineColonies. ⚗️ **Алхимик** — котёл и зелья.
+        Каждая роль справится сама, но в середине игры **дружить выгоднее**: подсказки «Ценится у…» покажут, кому нужен твой товар.
+    en:
+      title: "Who Are You Today?"
+      subtitle: "Eight roles — pick one or all of them"
+      text: |
+        🍳 **Cook** — Farmer's Delight, Let's Do wine and cheese. 🌱 **Gardener** — seasons, greenhouses, essences.
+        🐄 **Breeder** — bees, dragons, fishing. ⚙️ **Engineer** — Create, airships, nuclear power.
+        🔮 **Mage** — Ars Nouveau, Iron's Spells, Occultism. ⚔️ **Warrior** — dungeons and bosses.
+        🏛 **Town builder** — MineColonies. ⚗️ **Alchemist** — cauldrons and potions.
+        Every role works solo, but mid-game **teaming up pays off**: "Valued by…" hints show who needs your goods.
+
+  - id: welcome_keys_emi
+    deps: [welcome_start]
+    icon: minecraft:crafting_table
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Как узнать рецепт чего угодно"
+      subtitle: "EMI: клавиши R и U"
+      text: |
+        **Что это:** справа в инвентаре — список всех предметов сборки (EMI).
+        **Как:** наведи на предмет и нажми **R** — как его сделать, **U** — куда он нужен.
+        Поиск сверху понимает **@мод**: например, *@create* покажет только предметы Create.
+        **Совет:** вкладка «Лут» показывает, где предмет выпадает.
+    en:
+      title: "How to Find Any Recipe"
+      subtitle: "EMI: the R and U keys"
+      text: |
+        **What:** the list on the right of your inventory is every item in the pack (EMI).
+        **How:** hover an item and press **R** for how to make it, **U** for what it's used in.
+        The search bar understands **@mod**: *@create* shows only Create items.
+        **Tip:** the loot tab shows where an item drops.
+
+  - id: welcome_keys_ponder
+    deps: [welcome_keys_emi]
+    icon: create:wrench
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Живые подсказки"
+      subtitle: "Ponder (W) и Jade"
+      text: |
+        Наведи на блок **Create** в инвентаре и **зажми W** — откроется анимированная сцена, как он работает.
+        Над любым блоком в мире подсказка **Jade** сверху экрана покажет, что это и из какого мода.
+        У многих модов есть своя книга-гид — квесты будут говорить, где её взять.
+    en:
+      title: "Living Tooltips"
+      subtitle: "Ponder (W) and Jade"
+      text: |
+        Hover a **Create** block in your inventory and **hold W** — an animated scene shows how it works.
+        Look at any block in the world and the **Jade** popup at the top tells you what it is and which mod it's from.
+        Many mods have their own guide book — quests will tell you where to get it.
+
+  - id: welcome_keys_map
+    deps: [welcome_start]
+    icon: minecraft:map
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Карта и путевые точки"
+      subtitle: "M — большая карта, B — новая точка"
+      text: |
+        Мини-карта всегда в углу экрана. **M** — карта мира, **B** — поставить путевую точку.
+        Смерть отмечается на карте сама, а вещи ждут тебя в **надгробии**.
+        **Совет:** поделиться точкой с друзьями можно прямо в чате — кнопкой в меню точек.
+    en:
+      title: "Maps and Waypoints"
+      subtitle: "M for the world map, B for a new waypoint"
+      text: |
+        The minimap lives in the corner of your screen. **M** opens the world map, **B** adds a waypoint.
+        Your death point is marked automatically and your items wait in a **gravestone**.
+        **Tip:** you can share a waypoint with friends in chat from the waypoint menu.
+
+  - id: welcome_keys_ultimine
+    deps: [welcome_start]
+    icon: minecraft:iron_pickaxe
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Копать жилу целиком"
+      subtitle: "FTB Ultimine — зажми ` (тильда)"
+      text: |
+        **Зажми клавишу `** (тильда, слева от 1) и ломай блок — сломается вся жила руды или всё дерево сразу.
+        Это экономит часы: здесь не надо выкапывать каждый блок угля по одному.
+        Работает и с мотыгой (вспахать поле), и с топором.
+    en:
+      title: "Mine the Whole Vein"
+      subtitle: "FTB Ultimine — hold ` (backtick)"
+      text: |
+        **Hold the ` key** (left of 1) and break a block — the whole ore vein or the whole tree goes at once.
+        It saves hours: no need to dig out every coal block one by one.
+        It also works with a hoe (till a field) and an axe.
+
+  - id: welcome_keys_voice
+    deps: [welcome_start]
+    icon: minecraft:note_block
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Говори голосом"
+      subtitle: "Simple Voice Chat — V"
+      text: |
+        Голосовой чат по близости: тебя слышат те, кто рядом, и чем дальше — тем тише.
+        **V** — меню голосового чата (микрофон, громкость, группы). По умолчанию говоришь, зажав **Caps Lock**.
+        **Совет:** создай группу — и слышно будет на любом расстоянии.
+    en:
+      title: "Talk Out Loud"
+      subtitle: "Simple Voice Chat — V"
+      text: |
+        Proximity voice chat: people nearby hear you, quieter the farther they are.
+        **V** opens the voice menu (mic, volume, groups). By default you talk by holding **Caps Lock**.
+        **Tip:** create a group and you'll hear each other at any distance.
+
+  - id: welcome_danger_atlas
+    deps: [welcome_roles]
+    icon: minecraft:filled_map
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Атлас опасностей"
+      subtitle: "Где гулять спокойно, а где держать меч наготове"
+      text: |
+        **Зона 0 — безопасно:** Гавань (256 блоков вокруг спавна), твои приваты, колонии, радиус Мегафакела. Враги не появляются.
+        **Зона 1 — спокойно:** до ~1500 блоков от спавна. Ночью изредка ванильные мобы.
+        **Зона 2 — дикие земли:** дальше, тёмные леса, болота, глубокие пещеры. Модовые враги и элиты.
+        **Зона 3 — опасно:** данжи, Нижний мир, Сумеречный лес, кровавая луна. Боссы.
+        При входе в новое место титры покажут уровень опасности звёздами ★.
+    en:
+      title: "The Danger Atlas"
+      subtitle: "Where to stroll and where to keep your sword ready"
+      text: |
+        **Zone 0 — safe:** the Haven (256 blocks around spawn), your claims, colonies, Mega Torch radius. No enemies spawn.
+        **Zone 1 — calm:** up to ~1500 blocks from spawn. A few vanilla mobs at night.
+        **Zone 2 — the wilds:** beyond that, dark forests, swamps, deep caves. Modded enemies and elites.
+        **Zone 3 — dangerous:** dungeons, the Nether, the Twilight Forest, blood moons. Bosses.
+        Entering a new place, the title card shows its danger level in stars ★.
+
+  - id: welcome_events
+    deps: [welcome_danger_atlas]
+    icon: minecraft:lightning_rod
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Мир живой, но честный"
+      subtitle: "Бури, метеориты, кровавые луны"
+      text: |
+        Иногда мир устраивает **события**: торнадо, метеоритный дождь, кровавую луну, разломы.
+        Правила честные: события идут **только когда вы онлайн**, о них **предупреждают заранее**, и от каждого есть защита.
+        Перед первым событием каждого типа глава «Стихии и защита» научит, как от него укрыться.
+        Награда за смелость — метеоритное железо, редкие дропы и красивые кадры.
+    en:
+      title: "A Living World That Plays Fair"
+      subtitle: "Storms, meteors, blood moons"
+      text: |
+        Sometimes the world stages **events**: tornadoes, meteor showers, blood moons, rifts.
+        The rules are fair: events happen **only while you're online**, come **with a warning**, and each has a defence.
+        Before the first event of each kind, the "Elements & Defence" chapter teaches you how to stay safe.
+        The reward for bravery: meteoric iron, rare drops and great screenshots.
+
+  - id: welcome_team
+    deps: [welcome_roles]
+    icon: minecraft:white_banner
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Одна команда"
+      subtitle: "Общий прогресс квестов"
+      text: |
+        Все игроки сервера — в одной команде **Arkhaven**: квест, выполненный другом, засчитывается и тебе.
+        Награды каждый забирает сам, так что никто не останется без своего.
+        Хотите соревноваться? Админ может разделить команды командой */ftbteams*.
+    en:
+      title: "One Team"
+      subtitle: "Shared quest progress"
+      text: |
+        Everyone on the server is in one team, **Arkhaven**: a quest your friend completes counts for you too.
+        Everyone claims rewards for themselves, so no one misses out.
+        Want to compete? An admin can split teams with */ftbteams*.
+
+  - id: welcome_graphics
+    deps: [welcome_start]
+    icon: minecraft:spyglass
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Красиво или быстро"
+      subtitle: "Шейдеры и пресеты графики"
+      text: |
+        Шейдеры включаются клавишей **K** (меню шейдеров Iris — **O**). Если кадров мало — выключи их или выбери пресет полегче.
+        Пресеты графики можно сменить ярлыком «Arkhaven — графика» на рабочем столе.
+        **Совет:** дальняя прорисовка (Distant Horizons) показывает горы за десятки чанков почти бесплатно.
+    en:
+      title: "Pretty or Fast"
+      subtitle: "Shaders and graphics presets"
+      text: |
+        Toggle shaders with **K** (Iris shader menu — **O**). Low FPS? Turn them off or pick a lighter preset.
+        Switch graphics presets with the "Arkhaven — graphics" desktop shortcut.
+        **Tip:** far terrain (Distant Horizons) shows mountains dozens of chunks away almost for free.
+
+  - id: welcome_language
+    deps: [welcome_start]
+    icon: minecraft:name_tag
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Язык"
+      subtitle: "Русский по умолчанию, английский — в настройках"
+      text: |
+        Квесты и подсказки написаны на двух языках. Сменить язык: **Настройки → Язык**.
+        Книга квестов переключится сама.
+    en:
+      title: "Language"
+      subtitle: "Russian by default, English in settings"
+      text: |
+        Quests and hints are written in two languages. To switch: **Options → Language**.
+        The quest book follows automatically.
+
+  - id: welcome_done
+    deps: [welcome_keys_ponder, welcome_keys_map, welcome_keys_ultimine, welcome_events, welcome_team]
+    icon: minecraft:oak_sapling
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: minecraft:cooked_beef, count: 16}
+      - {type: xp_levels, count: 3}
+    ru:
+      title: "Готов к пути"
+      subtitle: "Дальше — Происхождение и Первые шаги"
+      text: |
+        Ты знаешь главное. Теперь выбери **расу** (глава «Происхождение и путь») и обустрой первый дом (глава «Первые шаги»).
+        Остальные главы откроются, как только ты займёшься их темой — или загляни в любую прямо сейчас.
+    en:
+      title: "Ready for the Road"
+      subtitle: "Next: Origins and First Steps"
+      text: |
+        You know the essentials. Now pick your **origin** (chapter "Origin & Path") and set up a first home (chapter "First Steps").
+        Other chapters open up as soon as you get into their topic — or peek into any of them right now.

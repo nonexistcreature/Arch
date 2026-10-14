@@ -1,0 +1,102 @@
+{
+	chapter.813D59C2990EDE7A.title: "Welcome to Arkhaven"
+	chapter.813D59C2990EDE7A.chapter_subtitle: [
+		"Where to start and how things work here"
+	]
+	quest.0B8F53D58538E0EF.title: "You're in the Haven"
+	quest.0B8F53D58538E0EF.quest_subtitle: "Tick the box to begin"
+	quest.0B8F53D58538E0EF.quest_desc: [
+		"&lArkhaven&r is a pack for a group of friends where everyone finds their thing: cooking, gardening, animals, machines, magic, adventure, towns."
+		"It's &lcalm&r here: hostile mobs don't spawn near spawn or inside your claims."
+		"Danger is opt-in: the wilds, dungeons and other dimensions."
+		"This book is your guide. Every quest answers three questions: &owhat is it, why care, how to start&r."
+	]
+	quest.84E0C8297145FA0D.title: "Who Are You Today?"
+	quest.84E0C8297145FA0D.quest_subtitle: "Eight roles — pick one or all of them"
+	quest.84E0C8297145FA0D.quest_desc: [
+		"🍳 &lCook&r — Farmer's Delight, Let's Do wine and cheese. 🌱 &lGardener&r — seasons, greenhouses, essences."
+		"🐄 &lBreeder&r — bees, dragons, fishing. ⚙️ &lEngineer&r — Create, airships, nuclear power."
+		"🔮 &lMage&r — Ars Nouveau, Iron's Spells, Occultism. ⚔️ &lWarrior&r — dungeons and bosses."
+		"🏛 &lTown builder&r — MineColonies. ⚗️ &lAlchemist&r — cauldrons and potions."
+		"Every role works solo, but mid-game &lteaming up pays off&r: \"Valued by…\" hints show who needs your goods."
+	]
+	quest.5561BDBA9D7A940F.title: "How to Find Any Recipe"
+	quest.5561BDBA9D7A940F.quest_subtitle: "EMI: the R and U keys"
+	quest.5561BDBA9D7A940F.quest_desc: [
+		"&lWhat:&r the list on the right of your inventory is every item in the pack (EMI)."
+		"&lHow:&r hover an item and press &lR&r for how to make it, &lU&r for what it's used in."
+		"The search bar understands &l@mod&r: &o@create&r shows only Create items."
+		"&lTip:&r the loot tab shows where an item drops."
+	]
+	quest.7364572739F8EBFD.title: "Living Tooltips"
+	quest.7364572739F8EBFD.quest_subtitle: "Ponder (W) and Jade"
+	quest.7364572739F8EBFD.quest_desc: [
+		"Hover a &lCreate&r block in your inventory and &lhold W&r — an animated scene shows how it works."
+		"Look at any block in the world and the &lJade&r popup at the top tells you what it is and which mod it's from."
+		"Many mods have their own guide book — quests will tell you where to get it."
+	]
+	quest.8CD6F0E34FDE881D.title: "Maps and Waypoints"
+	quest.8CD6F0E34FDE881D.quest_subtitle: "M for the world map, B for a new waypoint"
+	quest.8CD6F0E34FDE881D.quest_desc: [
+		"The minimap lives in the corner of your screen. &lM&r opens the world map, &lB&r adds a waypoint."
+		"Your death point is marked automatically and your items wait in a &lgravestone&r."
+		"&lTip:&r you can share a waypoint with friends in chat from the waypoint menu."
+	]
+	quest.6AEEBF70D9410C91.title: "Mine the Whole Vein"
+	quest.6AEEBF70D9410C91.quest_subtitle: "FTB Ultimine — hold ` (backtick)"
+	quest.6AEEBF70D9410C91.quest_desc: [
+		"&lHold the ` key&r (left of 1) and break a block — the whole ore vein or the whole tree goes at once."
+		"It saves hours: no need to dig out every coal block one by one."
+		"It also works with a hoe (till a field) and an axe."
+	]
+	quest.7D0113D5251D8308.title: "Talk Out Loud"
+	quest.7D0113D5251D8308.quest_subtitle: "Simple Voice Chat — V"
+	quest.7D0113D5251D8308.quest_desc: [
+		"Proximity voice chat: people nearby hear you, quieter the farther they are."
+		"&lV&r opens the voice menu (mic, volume, groups). By default you talk by holding &lCaps Lock&r."
+		"&lTip:&r create a group and you'll hear each other at any distance."
+	]
+	quest.61956A5E82AB7C9F.title: "The Danger Atlas"
+	quest.61956A5E82AB7C9F.quest_subtitle: "Where to stroll and where to keep your sword ready"
+	quest.61956A5E82AB7C9F.quest_desc: [
+		"&lZone 0 — safe:&r the Haven (256 blocks around spawn), your claims, colonies, Mega Torch radius. No enemies spawn."
+		"&lZone 1 — calm:&r up to ~1500 blocks from spawn. A few vanilla mobs at night."
+		"&lZone 2 — the wilds:&r beyond that, dark forests, swamps, deep caves. Modded enemies and elites."
+		"&lZone 3 — dangerous:&r dungeons, the Nether, the Twilight Forest, blood moons. Bosses."
+		"Entering a new place, the title card shows its danger level in stars ★."
+	]
+	quest.0AB73893D32D29B0.title: "A Living World That Plays Fair"
+	quest.0AB73893D32D29B0.quest_subtitle: "Storms, meteors, blood moons"
+	quest.0AB73893D32D29B0.quest_desc: [
+		"Sometimes the world stages &levents&r: tornadoes, meteor showers, blood moons, rifts."
+		"The rules are fair: events happen &lonly while you're online&r, come &lwith a warning&r, and each has a defence."
+		"Before the first event of each kind, the \"Elements & Defence\" chapter teaches you how to stay safe."
+		"The reward for bravery: meteoric iron, rare drops and great screenshots."
+	]
+	quest.6FCCA553E617BD3B.title: "One Team"
+	quest.6FCCA553E617BD3B.quest_subtitle: "Shared quest progress"
+	quest.6FCCA553E617BD3B.quest_desc: [
+		"Everyone on the server is in one team, &lArkhaven&r: a quest your friend completes counts for you too."
+		"Everyone claims rewards for themselves, so no one misses out."
+		"Want to compete? An admin can split teams with &o/ftbteams&r."
+	]
+	quest.5921FC2BA0B77A22.title: "Pretty or Fast"
+	quest.5921FC2BA0B77A22.quest_subtitle: "Shaders and graphics presets"
+	quest.5921FC2BA0B77A22.quest_desc: [
+		"Toggle shaders with &lK&r (Iris shader menu — &lO&r). Low FPS? Turn them off or pick a lighter preset."
+		"Switch graphics presets with the \"Arkhaven — graphics\" desktop shortcut."
+		"&lTip:&r far terrain (Distant Horizons) shows mountains dozens of chunks away almost for free."
+	]
+	quest.C3626AEC27FFE561.title: "Language"
+	quest.C3626AEC27FFE561.quest_subtitle: "Russian by default, English in settings"
+	quest.C3626AEC27FFE561.quest_desc: [
+		"Quests and hints are written in two languages. To switch: &lOptions → Language&r."
+		"The quest book follows automatically."
+	]
+	quest.A11FE5B4A21988C5.title: "Ready for the Road"
+	quest.A11FE5B4A21988C5.quest_subtitle: "Next: Origins and First Steps"
+	quest.A11FE5B4A21988C5.quest_desc: [
+		"You know the essentials. Now pick your &lorigin&r (chapter \"Origin & Path\") and set up a first home (chapter \"First Steps\")."
+		"Other chapters open up as soon as you get into their topic — or peek into any of them right now."
+	]
+}

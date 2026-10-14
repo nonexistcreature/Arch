@@ -1,0 +1,12 @@
+version:3955
+lang:ru_ru
+renderDistance:10
+simulationDistance:8
+maxFps:120
+enableVsync:true
+guiScale:0
+narrator:0
+tutorialStep:none
+skipMultiplayerWarning:true
+onboardAccessibility:false
+joinedFirstServer:true

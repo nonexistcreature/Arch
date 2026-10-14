@@ -1,0 +1,40 @@
+[
+  {
+    "description": "Zone 0: no natural hostile spawns within 256 blocks of world spawn (the Haven)",
+    "mob": "hostile",
+    "dimension": "minecraft:overworld",
+    "maxspawndist": 256,
+    "onjoin": false,
+    "result": "deny"
+  },
+  {
+    "description": "Zone 1: modded wildlife and bosses stay away from the calm lands (1500 blocks around spawn)",
+    "mod": [
+      "cataclysm",
+      "born_in_chaos_v1",
+      "mowziesmobs",
+      "aquamirae",
+      "alexsmobs",
+      "irons_spellbooks"
+    ],
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "maxspawndist": 1500,
+    "onjoin": false,
+    "result": "deny"
+  },
+  {
+    "description": "Zone 1: vanilla hostiles half as often within 1500 blocks of spawn",
+    "mob": "hostile",
+    "dimension": "minecraft:overworld",
+    "maxspawndist": 1500,
+    "onjoin": false,
+    "random": 0.5,
+    "result": "deny"
+  },
+  {
+    "description": "No phantoms anywhere",
+    "mob": "minecraft:phantom",
+    "result": "deny"
+  }
+]

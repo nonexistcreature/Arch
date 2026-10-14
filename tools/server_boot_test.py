@@ -8,6 +8,9 @@ J = next((ROOT / "tools/bin/jre").glob("*/bin/java.exe"))
 RUN = ROOT / "tests/server_run"
 timeout = int(sys.argv[sys.argv.index("--timeout") + 1]) if "--timeout" in sys.argv else 600
 subprocess.run([str(J), "-jar", "pwbs.jar", "-g", "-s", "server", (ROOT / "pack/pack.toml").as_uri()], cwd=RUN, check=True, capture_output=True)
+import shutil
+sd = RUN / "kubejs/server_scripts"; sd.mkdir(parents=True, exist_ok=True)
+for f in (ROOT / "tests/kubejs").glob("*.js"): shutil.copy(f, sd / f.name)
 args = ["@user_jvm_args.txt", "@libraries/net/neoforged/neoforge/21.1.259/win_args.txt", "nogui"]
 log = RUN / "boot.log"
 with open(log, "wb") as lf:

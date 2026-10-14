@@ -1,2 +1,4 @@
 tools/bin/
 tools/.cache/
+tests/out/
+tests/server_run/

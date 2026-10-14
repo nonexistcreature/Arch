@@ -1,0 +1,287 @@
+{
+	id: "813D59C2990EDE7A"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	icon: {
+		id: "minecraft:compass"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "0B8F53D58538E0EF"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "minecraft:compass"
+				count: 1
+			}
+			tasks: [
+				{
+					id: "BD5486D30FC09421"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0CAC8264610F8C34"
+					type: "item"
+					item: {
+						count: 8
+						id: "minecraft:bread"
+					}
+				}
+				{
+					id: "601309F149EE67E8"
+					type: "item"
+					item: {
+						count: 16
+						id: "minecraft:torch"
+					}
+				}
+			]
+		}
+		{
+			id: "84E0C8297145FA0D"
+			x: 1.5d
+			y: -3.75d
+			icon: {
+				id: "minecraft:writable_book"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "7B18F9C5844CC8CD"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "5561BDBA9D7A940F"
+			x: 1.5d
+			y: -2.5d
+			icon: {
+				id: "minecraft:crafting_table"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "6B57FBC2A6BD421A"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "7364572739F8EBFD"
+			x: 3.0d
+			y: -1.25d
+			icon: {
+				id: "create:wrench"
+				count: 1
+			}
+			dependencies: [
+				"5561BDBA9D7A940F"
+			]
+			tasks: [
+				{
+					id: "F65C11A169538380"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "8CD6F0E34FDE881D"
+			x: 1.5d
+			y: -1.25d
+			icon: {
+				id: "minecraft:map"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "501C6CF7B1F9B877"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "6AEEBF70D9410C91"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "41D14299E4865534"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "7D0113D5251D8308"
+			x: 1.5d
+			y: 1.25d
+			icon: {
+				id: "minecraft:note_block"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "F38170B0629279DB"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "61956A5E82AB7C9F"
+			x: 3.0d
+			y: 0.0d
+			shape: "hexagon"
+			icon: {
+				id: "minecraft:filled_map"
+				count: 1
+			}
+			dependencies: [
+				"84E0C8297145FA0D"
+			]
+			tasks: [
+				{
+					id: "C9256D4D689ACA86"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "0AB73893D32D29B0"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "minecraft:lightning_rod"
+				count: 1
+			}
+			dependencies: [
+				"61956A5E82AB7C9F"
+			]
+			tasks: [
+				{
+					id: "39F04F1350391533"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "6FCCA553E617BD3B"
+			x: 3.0d
+			y: 1.25d
+			icon: {
+				id: "minecraft:white_banner"
+				count: 1
+			}
+			dependencies: [
+				"84E0C8297145FA0D"
+			]
+			tasks: [
+				{
+					id: "A1AEEDFA322F85B8"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "5921FC2BA0B77A22"
+			x: 1.5d
+			y: 2.5d
+			icon: {
+				id: "minecraft:spyglass"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "FBEDB219B8631928"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "C3626AEC27FFE561"
+			x: 1.5d
+			y: 3.75d
+			icon: {
+				id: "minecraft:name_tag"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "989880123D8227EB"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "A11FE5B4A21988C5"
+			x: 6.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "minecraft:oak_sapling"
+				count: 1
+			}
+			dependencies: [
+				"7364572739F8EBFD"
+				"8CD6F0E34FDE881D"
+				"6AEEBF70D9410C91"
+				"0AB73893D32D29B0"
+				"6FCCA553E617BD3B"
+			]
+			tasks: [
+				{
+					id: "E22B79BD6D3489D1"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "E818CD7571A7167B"
+					type: "item"
+					item: {
+						count: 16
+						id: "minecraft:cooked_beef"
+					}
+				}
+				{
+					id: "AC516AFFAA292186"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+	]
+}

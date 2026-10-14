@@ -1,6 +1,46 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/welcome.snbt"
+hash = "44e0959c3a8eb7368863286ee8e0871c13667f54df4a3ea95fb02745d69a68a6"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "d04d5331950919436864583a7ee324582806e147abc33f1a921cc15f2c01d0ab"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "b4b596e540fbf914501ae04c07b4fdea29f12283b542d66e94db7a8353ab24e8"
+
+[[files]]
+file = "config/ftbquests/quests/lang/ru_ru.snbt"
+hash = "8c0a65380b014ccdef33a46ceb6e6d9d1377d3ac6ed9f70efe20ad2201cb5f2f"
+
+[[files]]
+file = "config/incontrol/spawn.json"
+hash = "9ae616263bf102121143b8f53efaeb566c2b444619bc6f37314fed731a4e84d0"
+
+[[files]]
+file = "kubejs/assets/arkhaven/lang/en_us.json"
+hash = "e71006536fca0ecb5642b7c6594ca84d113da359acbc46d7b79d643e7a650344"
+
+[[files]]
+file = "kubejs/assets/arkhaven/lang/ru_ru.json"
+hash = "2d2e757713922e1b995e3be8c7e28d9fefb526f567d0ceae21be3c3722674773"
+
+[[files]]
+file = "kubejs/server_scripts/00_world_rules.js"
+hash = "7ba35214a3b2f167a5280bcfb431e6622f0a1936cc109731cd1d9c64e64dd31d"
+
+[[files]]
+file = "kubejs/server_scripts/10_welcome.js"
+hash = "df85f847cfb09a5ad29a894de471284502e274f60195d1396f1e35a3ce3cfd25"
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "bcc34f607a107a148928c80c8fdef326170975df392ce7f476a47df956b1fc5c"
 metafile = true
@@ -1424,3 +1464,11 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "cb474b6c0dde741836ed4f796f3b6ab0b9d3cdc0453e651122cd002d5d1f8df8"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "0cffca16ad1d82df8d0870eccac3e66ae0200feee84bc09b18dec5bde9f5e225"
+
+[[files]]
+file = "servers.dat"
+hash = "24b54c1b0cb7e17febe1cb65ec1a02bde7ca00a001e874a31e7c1820c46dad33"
