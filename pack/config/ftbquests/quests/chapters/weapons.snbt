@@ -1,0 +1,260 @@
+{
+	id: "4499A461977E88CA"
+	group: ""
+	order_index: 17
+	filename: "weapons"
+	icon: {
+		id: "simplyswords:iron_longsword"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "2840277D460DBE04"
+			x: 0.0d
+			y: -1.25d
+			shape: "gear"
+			icon: {
+				id: "simplyswords:iron_longsword"
+				count: 1
+			}
+			dependencies: [
+				"483595C3466D106D"
+			]
+			tasks: [
+				{
+					id: "4C0EDD7872F73F1D"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_longsword"
+					}
+				}
+			]
+		}
+		{
+			id: "924CE8EC4DA83696"
+			x: 1.5d
+			y: -2.5d
+			icon: {
+				id: "simplyswords:iron_greathammer"
+				count: 1
+			}
+			dependencies: [
+				"2840277D460DBE04"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "C237623A7536D713"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_greathammer"
+					}
+				}
+			]
+		}
+		{
+			id: "AEFA1764B6C5AA28"
+			x: 1.5d
+			y: -1.25d
+			shape: "hexagon"
+			icon: {
+				id: "tacz:gun_smith_table"
+				count: 1
+			}
+			dependencies: [
+				"2840277D460DBE04"
+				"957A9338DC294AEA"
+			]
+			tasks: [
+				{
+					id: "3CB287348F533848"
+					type: "item"
+					item: {
+						count: 1
+						id: "tacz:gun_smith_table"
+					}
+				}
+			]
+		}
+		{
+			id: "80E19FD18B738F02"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "tacz:ammo_box"
+				count: 1
+			}
+			dependencies: [
+				"AEFA1764B6C5AA28"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "54B87C2232A80B72"
+					type: "item"
+					item: {
+						count: 1
+						id: "tacz:ammo_box"
+					}
+				}
+			]
+		}
+		{
+			id: "8CFB5AA571596797"
+			x: 0.0d
+			y: 0.0d
+			icon: {
+				id: "createbigcannons:cannon_mount"
+				count: 1
+			}
+			dependencies: [
+				"957A9338DC294AEA"
+			]
+			tasks: [
+				{
+					id: "433F4DCA94CCC5A1"
+					type: "item"
+					item: {
+						count: 1
+						id: "createbigcannons:cannon_mount"
+					}
+				}
+				{
+					id: "48F8F5D7D55F026E"
+					type: "item"
+					item: {
+						count: 1
+						id: "createbigcannons:cast_iron_cannon_barrel"
+					}
+				}
+			]
+		}
+		{
+			id: "1E2EBF13C6F879A0"
+			x: 0.0d
+			y: 1.25d
+			shape: "hexagon"
+			icon: {
+				id: "grappling_hook_neo:grapplinghook"
+				count: 1
+			}
+			dependencies: [
+				"A1B4E617FBC154C7"
+			]
+			tasks: [
+				{
+					id: "10A8EBDF7A44C411"
+					type: "item"
+					item: {
+						count: 1
+						id: "grappling_hook_neo:grapplinghook"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "96D5E4067F202F94"
+					type: "item"
+					item: {
+						count: 1
+						id: "grappling_hook_neo:ropeupgradeitem"
+					}
+				}
+			]
+		}
+		{
+			id: "C744E2D0A9C2BFAD"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "grappling_hook_neo:doubleupgradeitem"
+				count: 1
+			}
+			dependencies: [
+				"1E2EBF13C6F879A0"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "A890896C5C542D97"
+					type: "item"
+					item: {
+						count: 1
+						id: "grappling_hook_neo:doubleupgradeitem"
+					}
+				}
+			]
+		}
+		{
+			id: "325CD1C1DC34FC14"
+			x: 1.5d
+			y: 1.25d
+			icon: {
+				id: "simulated:rope_connector"
+				count: 1
+			}
+			dependencies: [
+				"1E2EBF13C6F879A0"
+				"A88B24A597910CC4"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "CF3850545E19CA7E"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "547E7AB1EA5FB62E"
+			x: 1.5d
+			y: 2.5d
+			icon: {
+				id: "minecraft:diamond_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"2840277D460DBE04"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "D5A022C5F54F1FCD"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "D6E88A8B20052C07"
+			x: 3.0d
+			y: 0.625d
+			shape: "gear"
+			icon: {
+				id: "minecraft:netherite_sword"
+				count: 1
+			}
+			dependencies: [
+				"AEFA1764B6C5AA28"
+				"1E2EBF13C6F879A0"
+				"8CFB5AA571596797"
+			]
+			tasks: [
+				{
+					id: "BB98ADE94E02E24A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "176AA2F0EE2A703D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+	]
+}

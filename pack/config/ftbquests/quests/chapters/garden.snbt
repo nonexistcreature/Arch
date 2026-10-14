@@ -1,0 +1,487 @@
+{
+	id: "E2164B6D488C1BD6"
+	group: ""
+	order_index: 4
+	filename: "garden"
+	icon: {
+		id: "minecraft:wheat"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "427EBED79260B8FF"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "minecraft:iron_hoe"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "238B46E7111D7042"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:iron_hoe"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "54634673C3FEDEAC"
+					type: "item"
+					item: {
+						count: 16
+						id: "minecraft:bone_meal"
+					}
+				}
+			]
+		}
+		{
+			id: "7241DEBF5CA44DB8"
+			x: 1.5d
+			y: -1.25d
+			shape: "hexagon"
+			icon: {
+				id: "sereneseasons:calendar"
+				count: 1
+			}
+			dependencies: [
+				"427EBED79260B8FF"
+			]
+			tasks: [
+				{
+					id: "5A3942B299D5C337"
+					type: "item"
+					item: {
+						count: 1
+						id: "sereneseasons:calendar"
+					}
+				}
+			]
+		}
+		{
+			id: "D1B628DF436AF763"
+			x: 3.0d
+			y: -3.125d
+			icon: {
+				id: "minecraft:glass"
+				count: 1
+			}
+			dependencies: [
+				"7241DEBF5CA44DB8"
+			]
+			tasks: [
+				{
+					id: "8AFB412CD9800D49"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "69566D3EAC45E137"
+					type: "item"
+					item: {
+						count: 32
+						id: "minecraft:glass"
+					}
+				}
+			]
+		}
+		{
+			id: "65FFF886EE6B1875"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "farmersdelight:tomato"
+				count: 1
+			}
+			dependencies: [
+				"427EBED79260B8FF"
+			]
+			tasks: [
+				{
+					id: "5201C0418FF8BF15"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato"
+					}
+					count: 8L
+				}
+				{
+					id: "F3A0DB1A61DAC3B7"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage"
+					}
+					count: 8L
+				}
+				{
+					id: "AA6631191DBFFEF6"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersdelight:onion"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "D5C867C110489C66"
+					type: "item"
+					item: {
+						count: 4
+						id: "farmersdelight:rice_panicle"
+					}
+				}
+			]
+		}
+		{
+			id: "888D8FACF9F9DAAA"
+			x: 3.0d
+			y: -1.875d
+			icon: {
+				id: "farmersdelight:rich_soil"
+				count: 1
+			}
+			dependencies: [
+				"65FFF886EE6B1875"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "87C136EB61C9FC1A"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersdelight:rich_soil"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "CD54840C4041EC3A"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "botanypots:terracotta_botany_pot"
+				count: 1
+			}
+			dependencies: [
+				"65FFF886EE6B1875"
+			]
+			tasks: [
+				{
+					id: "76AE5F7974A0D033"
+					type: "item"
+					item: {
+						count: 1
+						id: "botanypots:terracotta_hopper_botany_pot"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1DCA2C919A11C632"
+					type: "item"
+					item: {
+						count: 2
+						id: "botanypots:terracotta_hopper_botany_pot"
+					}
+				}
+			]
+		}
+		{
+			id: "27F654BD0954779C"
+			x: 1.5d
+			y: 1.25d
+			shape: "hexagon"
+			icon: {
+				id: "mysticalagriculture:inferium_essence"
+				count: 1
+			}
+			dependencies: [
+				"427EBED79260B8FF"
+			]
+			tasks: [
+				{
+					id: "3B3256EBD37752EE"
+					type: "item"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_essence"
+					}
+					count: 32L
+				}
+			]
+		}
+		{
+			id: "9B1006BAB8E24DB6"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "mysticalagriculture:inferium_seeds"
+				count: 1
+			}
+			dependencies: [
+				"27F654BD0954779C"
+			]
+			tasks: [
+				{
+					id: "2C8F207DC8297D16"
+					type: "item"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_seeds"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "E7BC52F22FD0E4BF"
+			x: 4.5d
+			y: -0.625d
+			icon: {
+				id: "mysticalagriculture:infusion_crystal"
+				count: 1
+			}
+			dependencies: [
+				"9B1006BAB8E24DB6"
+			]
+			tasks: [
+				{
+					id: "F05708713DF624A6"
+					type: "item"
+					item: {
+						count: 1
+						id: "mysticalagriculture:infusion_crystal"
+					}
+				}
+			]
+		}
+		{
+			id: "2F5070961E1FFE98"
+			x: 6.0d
+			y: -1.25d
+			icon: {
+				id: "mysticalagriculture:iron_seeds"
+				count: 1
+			}
+			dependencies: [
+				"E7BC52F22FD0E4BF"
+			]
+			tasks: [
+				{
+					id: "4B0B88109380D37C"
+					type: "item"
+					item: {
+						count: 1
+						id: "mysticalagriculture:iron_seeds"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "C51B2A8654431CB4"
+					type: "item"
+					item: {
+						count: 32
+						id: "mysticalagriculture:inferium_essence"
+					}
+				}
+			]
+		}
+		{
+			id: "BBE440186F9F12A4"
+			x: 6.0d
+			y: 0.0d
+			icon: {
+				id: "mysticalagriculture:copper_seeds"
+				count: 1
+			}
+			dependencies: [
+				"E7BC52F22FD0E4BF"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "5FE0B0185CBFFAB0"
+					type: "item"
+					item: {
+						count: 1
+						id: "mysticalagriculture:copper_seeds"
+					}
+				}
+			]
+		}
+		{
+			id: "D2922CDBEA05738F"
+			x: 7.5d
+			y: 0.0d
+			icon: {
+				id: "mysticalagriculture:prudentium_essence"
+				count: 1
+			}
+			dependencies: [
+				"2F5070961E1FFE98"
+			]
+			tasks: [
+				{
+					id: "14D94FCF70A14901"
+					type: "item"
+					item: {
+						count: 1
+						id: "mysticalagriculture:prudentium_essence"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "78E30C72A34F8162"
+			x: 4.5d
+			y: 0.625d
+			icon: {
+				id: "mysticalagriculture:watering_can"
+				count: 1
+			}
+			dependencies: [
+				"9B1006BAB8E24DB6"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "7D9456A1A814792C"
+					type: "item"
+					item: {
+						count: 1
+						id: "mysticalagriculture:watering_can"
+					}
+				}
+			]
+		}
+		{
+			id: "CD95235DFCDB4BB6"
+			x: 6.0d
+			y: 1.25d
+			icon: {
+				id: "sliceanddice:sprinkler"
+				count: 1
+			}
+			dependencies: [
+				"78E30C72A34F8162"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "BADA22D20B75F2E1"
+					type: "item"
+					item: {
+						count: 1
+						id: "sliceanddice:sprinkler"
+					}
+				}
+			]
+		}
+		{
+			id: "E42C7E8CAB83E54C"
+			x: 3.0d
+			y: 1.875d
+			icon: {
+				id: "farmersrespite:coffee_beans"
+				count: 1
+			}
+			dependencies: [
+				"65FFF886EE6B1875"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "D0A00FCA0884800D"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersrespite:coffee_beans"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "718C1E915828D752"
+			x: 3.0d
+			y: 3.125d
+			icon: {
+				id: "vinery:red_grape"
+				count: 1
+			}
+			dependencies: [
+				"65FFF886EE6B1875"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "D4B6A7AC4DAA2BA8"
+					type: "item"
+					item: {
+						count: 1
+						id: "vinery:red_grape"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "72B5ECDBCD5107D7"
+			x: 9.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "minecraft:golden_hoe"
+				count: 1
+			}
+			dependencies: [
+				"D1B628DF436AF763"
+				"CD54840C4041EC3A"
+				"D2922CDBEA05738F"
+			]
+			tasks: [
+				{
+					id: "08182F297CD0E9F8"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "95EC5976CE3FE441"
+					type: "item"
+					item: {
+						count: 32
+						id: "mysticalagriculture:prudentium_essence"
+					}
+				}
+				{
+					id: "7D93D66F623168A5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+	]
+}

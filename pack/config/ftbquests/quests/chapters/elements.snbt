@@ -1,0 +1,374 @@
+{
+	id: "6B5C9EE747778BF3"
+	group: ""
+	order_index: 18
+	filename: "elements"
+	icon: {
+		id: "arkhaven_core:ward_generator_t1"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "F235EB4484D39CEF"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "arkhaven_core:star_atlas"
+				count: 1
+			}
+			dependencies: [
+				"0AB73893D32D29B0"
+			]
+			tasks: [
+				{
+					id: "3440DD13ABF346B0"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "6777B7DD19FF50EC"
+					type: "item"
+					item: {
+						count: 1
+						id: "arkhaven_core:star_atlas"
+					}
+				}
+			]
+		}
+		{
+			id: "4285D3CEDD0D99B4"
+			x: 1.5d
+			y: -3.75d
+			icon: {
+				id: "arkhaven_core:hearth_stone"
+				count: 1
+			}
+			dependencies: [
+				"F235EB4484D39CEF"
+			]
+			tasks: [
+				{
+					id: "4D27F64A401E8C80"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "C5326C2F55EAC44F"
+					type: "item"
+					item: {
+						count: 1
+						id: "arkhaven_core:hearth_stone"
+					}
+				}
+			]
+		}
+		{
+			id: "BD8147435B400249"
+			x: 1.5d
+			y: -2.5d
+			icon: {
+				id: "arkhaven:meteoric_dust"
+				count: 1
+			}
+			dependencies: [
+				"F235EB4484D39CEF"
+			]
+			tasks: [
+				{
+					id: "0A8E8C6EF8FC5E89"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "3E90DEC686D69116"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "arkhaven_core:meteorite_ore"
+				count: 1
+			}
+			dependencies: [
+				"BD8147435B400249"
+			]
+			tasks: [
+				{
+					id: "E6EADC7AA01267ED"
+					type: "item"
+					item: {
+						count: 1
+						id: "arkhaven:meteoric_dust"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "AA3EEB5E729715A2"
+					type: "item"
+					item: {
+						count: 4
+						id: "arkhaven:meteoric_dust"
+					}
+				}
+			]
+		}
+		{
+			id: "DA0CC55134D58E8D"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "arkhaven:ward_crystal_t1"
+				count: 1
+			}
+			dependencies: [
+				"3E90DEC686D69116"
+			]
+			tasks: [
+				{
+					id: "A0CB25A519CE40BF"
+					type: "item"
+					item: {
+						count: 1
+						id: "arkhaven:ward_crystal_t1"
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "48E5FD47C52B6084"
+			x: 6.0d
+			y: 0.0d
+			shape: "hexagon"
+			icon: {
+				id: "arkhaven_core:ward_generator_t1"
+				count: 1
+			}
+			dependencies: [
+				"DA0CC55134D58E8D"
+			]
+			tasks: [
+				{
+					id: "C6A646AD4E2CD59C"
+					type: "item"
+					item: {
+						count: 1
+						id: "arkhaven_core:ward_generator_t1"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1D67CF776FDAD592"
+					type: "item"
+					item: {
+						count: 2
+						id: "arkhaven:ward_crystal_t1"
+					}
+				}
+			]
+		}
+		{
+			id: "96A477416AFD3D59"
+			x: 7.5d
+			y: -0.625d
+			icon: {
+				id: "minecraft:fire_charge"
+				count: 1
+			}
+			dependencies: [
+				"48E5FD47C52B6084"
+			]
+			tasks: [
+				{
+					id: "82C535874D1EF1B4"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "BE10FDC1DC810AC2"
+			x: 7.5d
+			y: 0.625d
+			icon: {
+				id: "arkhaven:rift_shard"
+				count: 1
+			}
+			dependencies: [
+				"48E5FD47C52B6084"
+			]
+			tasks: [
+				{
+					id: "BD60D5629D939846"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "B3AFEE95B7509AD8"
+			x: 1.5d
+			y: -1.25d
+			icon: {
+				id: "minecraft:redstone"
+				count: 1
+			}
+			dependencies: [
+				"F235EB4484D39CEF"
+			]
+			tasks: [
+				{
+					id: "5279953DE374BCE2"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "4ABB671FB9CEB4DA"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "weather2:weather_forecast"
+				count: 1
+			}
+			dependencies: [
+				"F235EB4484D39CEF"
+			]
+			tasks: [
+				{
+					id: "360247DE14BBC9E5"
+					type: "item"
+					item: {
+						count: 1
+						id: "weather2:weather_forecast"
+					}
+				}
+			]
+		}
+		{
+			id: "F749B36585890F81"
+			x: 3.0d
+			y: 0.625d
+			shape: "hexagon"
+			icon: {
+				id: "weather2:weather_deflector"
+				count: 1
+			}
+			dependencies: [
+				"4ABB671FB9CEB4DA"
+			]
+			tasks: [
+				{
+					id: "043790E906336FBC"
+					type: "item"
+					item: {
+						count: 1
+						id: "weather2:weather_deflector"
+					}
+				}
+			]
+		}
+		{
+			id: "91670169A7E1CD13"
+			x: 1.5d
+			y: 1.25d
+			icon: {
+				id: "minecraft:moss_block"
+				count: 1
+			}
+			dependencies: [
+				"F235EB4484D39CEF"
+				"A94E4669A44B8A90"
+			]
+			tasks: [
+				{
+					id: "A236472B519AF55D"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "740E2F91D6262E0A"
+			x: 1.5d
+			y: 2.5d
+			icon: {
+				id: "mekanism:hazmat_mask"
+				count: 1
+			}
+			dependencies: [
+				"F235EB4484D39CEF"
+				"EE06D49078E7978C"
+			]
+			tasks: [
+				{
+					id: "0509BDB714074785"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "0B6B1DDB206465F7"
+			x: 1.5d
+			y: 3.75d
+			icon: {
+				id: "minecolonies:blockhutguardtower"
+				count: 1
+			}
+			dependencies: [
+				"F235EB4484D39CEF"
+			]
+			tasks: [
+				{
+					id: "0CC3365BD21AA796"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "7A50C60518C1E203"
+			x: 9.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "arkhaven_core:ward_generator_t2"
+				count: 1
+			}
+			dependencies: [
+				"96A477416AFD3D59"
+				"BE10FDC1DC810AC2"
+				"F749B36585890F81"
+				"4285D3CEDD0D99B4"
+			]
+			tasks: [
+				{
+					id: "74D5DC65320CBD18"
+					type: "item"
+					item: {
+						count: 1
+						id: "arkhaven_core:ward_generator_t2"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0777EE86DD662562"
+					type: "item"
+					item: {
+						count: 2
+						id: "arkhaven:ward_crystal_t2"
+					}
+				}
+				{
+					id: "EF8CC90163D0E9DE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+	]
+}

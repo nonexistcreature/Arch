@@ -66,5 +66,9 @@
   "role.arkhaven.engineer_mage": "инженеров и магов",
   "role.arkhaven.builder": "строителей",
   "role.arkhaven.alchemist": "алхимиков",
-  "item.arkhaven.rift_shard": "Осколок разлома"
+  "item.arkhaven.rift_shard": "Осколок разлома",
+  "arkhaven.trained": "Вы готовы к событию «%s» — теперь оно может случиться (первое будет учебным).",
+  "arkhaven.event.strike": "Крупный метеорит",
+  "arkhaven.event.rift": "Ночь разломов",
+  "arkhaven.event.shower": "Звездопад"
 }

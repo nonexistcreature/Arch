@@ -20,6 +20,11 @@ with open(log, "wb") as lf:
         txt = log.read_text("utf8", "replace")
         if re.search(r"Done \(", txt): ok = True; break
         time.sleep(5)
+    # Optional console commands after boot: --cmds "arkhaven status;arkhaven forecast"
+    cmds = sys.argv[sys.argv.index("--cmds") + 1].split(";") if "--cmds" in sys.argv else []
+    if ok and p.poll() is None:
+        for c in cmds:
+            p.stdin.write((c.strip() + "\n").encode()); p.stdin.flush(); time.sleep(3)
     if p.poll() is None:
         try: p.stdin.write(b"stop\n"); p.stdin.flush()
         except Exception: pass

@@ -84,6 +84,11 @@ public final class SafeZones {
         }
     }
 
+    public static boolean opacAvailable() {
+        if (!opacTried) initOpac();
+        return opacClaimAt != null;
+    }
+
     public static long horizontalDistSqr(BlockPos a, BlockPos b) {
         long dx = a.getX() - b.getX(), dz = a.getZ() - b.getZ();
         return dx * dx + dz * dz;

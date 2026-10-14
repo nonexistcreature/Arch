@@ -110,9 +110,9 @@ public final class EventDirector {
 
     public static Component status(MinecraftServer server) {
         DirectorState s = DirectorState.get(server);
-        return Component.literal(String.format("intensity=%d vacation=%s trained=%s seen=%s onlineMin=%d strikePending=%s(%ds) tonight[shower=%s rift=%s] block=%s",
+        return Component.literal(String.format("intensity=%d vacation=%s trained=%s seen=%s onlineMin=%d strikePending=%s(%ds) tonight[shower=%s rift=%s] block=%s opac=%s",
                 Config.INTENSITY.get(), s.vacation, s.trained, s.seen, s.onlineTicksSinceStrike / 1200, s.strikePending,
-                s.strikeTicksLeft / 20, s.tonightShower, s.tonightRift, blockReason(server)));
+                s.strikeTicksLeft / 20, s.tonightShower, s.tonightRift, blockReason(server), SafeZones.opacAvailable()));
     }
 
     // ---------------------------------------------------------------- tick

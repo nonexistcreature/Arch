@@ -5,12 +5,76 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/adventure.snbt"
+hash = "c7ce75a670f0fb18d757c4992ba29298c5f54ab86816ed64b6156d5e0b3c6dbb"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/alchemy.snbt"
+hash = "70330865d21dd7cb407b15efc421f48df125441412031b3bce0eb97f71e1fdaf"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/animals.snbt"
+hash = "7c0359235300b120cc1bde5beec0252ac3908706c16092ab752e0cc4d31df2e6"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/ars.snbt"
+hash = "fc95ee1124e607a48284411f2b07a9090e1667dccaa5db187a6b4b5171732f50"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create.snbt"
+hash = "b99e3890c04bee1e70e2d0286886f5febe86e876ce7055a908da52be01f63285"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/elements.snbt"
+hash = "fabd642b72310338d7a700a63ae23e17892254b695c64e643675cf2dfd3f1248"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/first_steps.snbt"
 hash = "f18d67cf9f49764aac807bab7e1b79765ddfd147deeeca7d21bfb70fde6ffb9d"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/fishing.snbt"
+hash = "2fdd9333a325497da9835dfd5587252e1691fe7063e670aa8eb4ab6fd2579ad6"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/garden.snbt"
+hash = "7577b17844a5b0c4d2864ebf6c78645b7a201f1427f47d79f88d73843030db19"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/irons.snbt"
+hash = "9cc78d7d46c6db2ac48bd92908df2394dbdeef2ed5e66927066d987c8c8f8213"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/kitchen.snbt"
+hash = "66a15c8fb79ee15b8a56cffc4df890aa144c243152508b5e27a7e63b2cbe4fbe"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mekanism.snbt"
+hash = "a8daa27196f616ff526edfdf36dd0af4e25386f808412d9b257bcaba11f542d9"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/occultism.snbt"
+hash = "11e9f6c92e7e3c5dd9b3c13732c91cd9c6b6342809a8014f11004f7944ef4cf8"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/origins.snbt"
 hash = "5a09b98504d4382c33cc29dabce18604140b35a832cf71a0fa1c3119d862992b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/sky.snbt"
+hash = "1bb6efd491bbe600fab320631ce1f6c1cd6720cd16ad1f6d8bb1b8c80067dba5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/steel_oil.snbt"
+hash = "14b6f302344d97e6ce3ee73f86d9d97329ca3e44595412a1429b421d2c8f6ca1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/storage.snbt"
+hash = "048183727d1115da06eefd991fc78846e00f36952e855fb58c00fda9a1b56e97"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/weapons.snbt"
+hash = "eea515d0325b8c9bdfc9e03e1a03410062f445fcd30ff96993850aa935211cd5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -22,11 +86,11 @@ hash = "d04d5331950919436864583a7ee324582806e147abc33f1a921cc15f2c01d0ab"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "de9688c9736b7d6d4d01badf0e22c6476e87ce178e8c321c193cec80a1e439fe"
+hash = "3aa108bf402a162ae4b2d7840ba09ba48d385caf25e4c8e71efbb58bff66cece"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "46b8f2483bd87f8fa48c98f96b505508a7923fc306320e27f83ebc61060ee3c8"
+hash = "8f49309442ae862e13e5a7e33748860e26ee13fe11ccfcd998b16f945abac916"
 
 [[files]]
 file = "config/incontrol/spawn.json"
@@ -38,11 +102,11 @@ hash = "f97c06d3901e4a8959977cb83dbac06f0b395ec01f0b7c6b1d34be06393c4ead"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/en_us.json"
-hash = "0baf46b92f898369a0f3a127a67d79b39127c3b571dac6b5f0acac4915b1f997"
+hash = "22c6b38ddc7c092f89459fac212b9c29cbee5a4637c799896162d251499a68a7"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/ru_ru.json"
-hash = "83a25d9b818bb6727f00c4863c049f6101cadb9884a688ff661372a40a4b316b"
+hash = "89cee69d69038c970732c2ef796bf01a409caa4d5cb86fc9f4da30545152bef9"
 
 [[files]]
 file = "kubejs/assets/arkhaven/textures/item/aero_lubricant.png"
@@ -127,6 +191,10 @@ hash = "5858c9082fe49cb99e6c1c4566640b0760640bf100bc2315982faa95d2411ff7"
 [[files]]
 file = "kubejs/server_scripts/50_quest_hooks.js"
 hash = "50a0e0f42bee6c3f88fb08af95a1c6915cab5d59c6a0f32773ae7369c9c9c505"
+
+[[files]]
+file = "kubejs/server_scripts/generated/quest_ids.js"
+hash = "eda94583ec2589e7bdc073d4a7146a257632f601b25a134544b6143df48b842e"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"
@@ -223,7 +291,7 @@ metafile = true
 
 [[files]]
 file = "mods/arkhaven_core-0.1.0.jar"
-hash = "7e65924c33f5f0049f5f738981ceaaad89745094734d9fe77b5aa1aaf783cc47"
+hash = "b15c8d1a8dd42a7dc73b7ed9b00e637d3684268446897e2d5fbe3035c6bb89cb"
 
 [[files]]
 file = "mods/ars-additions.pw.toml"

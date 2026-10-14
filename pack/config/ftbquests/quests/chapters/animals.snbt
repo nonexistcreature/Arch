@@ -1,0 +1,373 @@
+{
+	id: "AC295B34DEBBAD70"
+	group: ""
+	order_index: 5
+	filename: "animals"
+	icon: {
+		id: "productivebees:bee_cage"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "58A5F95E7247AE74"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "minecraft:lead"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "53F009F48A2953C4"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:lead"
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "5A63D15F463BAD49"
+					type: "item"
+					item: {
+						count: 32
+						id: "minecraft:wheat"
+					}
+				}
+			]
+		}
+		{
+			id: "4990A38E7AFA20D8"
+			x: 1.5d
+			y: -1.875d
+			icon: {
+				id: "farm_and_charm:feeding_trough"
+				count: 1
+			}
+			dependencies: [
+				"58A5F95E7247AE74"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "FC560F14B62CC2A4"
+					type: "item"
+					item: {
+						count: 1
+						id: "farm_and_charm:feeding_trough"
+					}
+				}
+			]
+		}
+		{
+			id: "AAADB93EE520A6DB"
+			x: 1.5d
+			y: -0.625d
+			icon: {
+				id: "meadow:cheese_wheel"
+				count: 1
+			}
+			dependencies: [
+				"58A5F95E7247AE74"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "84DDC453A24DB785"
+					type: "item"
+					item: {
+						count: 1
+						id: "meadow:milk_can"
+					}
+				}
+			]
+		}
+		{
+			id: "B98471DFFDDBAAF0"
+			x: 1.5d
+			y: 0.625d
+			shape: "hexagon"
+			icon: {
+				id: "productivebees:bee_cage"
+				count: 1
+			}
+			dependencies: [
+				"58A5F95E7247AE74"
+			]
+			tasks: [
+				{
+					id: "8ADCBD4221A4353B"
+					type: "item"
+					item: {
+						count: 1
+						id: "productivebees:bee_cage"
+					}
+				}
+			]
+		}
+		{
+			id: "1473A8EBD1BA9240"
+			x: 3.0d
+			y: -1.25d
+			icon: {
+				id: "productivebees:advanced_oak_beehive"
+				count: 1
+			}
+			dependencies: [
+				"B98471DFFDDBAAF0"
+			]
+			tasks: [
+				{
+					id: "25C06BB28BC6AE61"
+					type: "item"
+					item: {
+						count: 1
+						id: "productivebees:advanced_oak_beehive"
+					}
+				}
+			]
+		}
+		{
+			id: "1171779A20E89BC0"
+			x: 4.5d
+			y: -0.625d
+			icon: {
+				id: "productivebees:centrifuge"
+				count: 1
+			}
+			dependencies: [
+				"1473A8EBD1BA9240"
+			]
+			tasks: [
+				{
+					id: "8033FC8F0B703CAB"
+					type: "item"
+					item: {
+						count: 1
+						id: "productivebees:centrifuge"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "81C81839EB83D2B2"
+					type: "item"
+					item: {
+						count: 8
+						id: "productivebees:honey_treat"
+					}
+				}
+			]
+		}
+		{
+			id: "0367AB6113664DF8"
+			x: 6.0d
+			y: -1.25d
+			icon: {
+				id: "productivebees:breeding_chamber"
+				count: 1
+			}
+			dependencies: [
+				"1171779A20E89BC0"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "902D57024F910057"
+					type: "item"
+					item: {
+						count: 1
+						id: "productivebees:breeding_chamber"
+					}
+				}
+			]
+		}
+		{
+			id: "74361E94132C2418"
+			x: 7.5d
+			y: 0.0d
+			icon: {
+				id: "productivebees:gene_bottle"
+				count: 1
+			}
+			dependencies: [
+				"0367AB6113664DF8"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "71810AB2C4A1DBEC"
+					type: "item"
+					item: {
+						count: 1
+						id: "productivebees:gene_bottle"
+					}
+				}
+			]
+		}
+		{
+			id: "0E9DB92921EFC049"
+			x: 1.5d
+			y: 1.875d
+			icon: {
+				id: "alexsmobs:animal_dictionary"
+				count: 1
+			}
+			dependencies: [
+				"58A5F95E7247AE74"
+			]
+			tasks: [
+				{
+					id: "4FD6651AF2213CD8"
+					type: "item"
+					item: {
+						count: 1
+						id: "alexsmobs:animal_dictionary"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "38DE8C2D8D881CF8"
+					type: "item"
+					item: {
+						count: 1
+						id: "naturalist:capture_net"
+					}
+				}
+			]
+		}
+		{
+			id: "8064456F4405DB56"
+			x: 3.0d
+			y: 0.0d
+			icon: {
+				id: "crittersandcompanions:silk_lead"
+				count: 1
+			}
+			dependencies: [
+				"0E9DB92921EFC049"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "0802B44DE764194A"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "6ACD4387091E4FF3"
+			x: 3.0d
+			y: 1.25d
+			shape: "hexagon"
+			icon: {
+				id: "dmr:dragon_egg"
+				count: 1
+			}
+			dependencies: [
+				"0E9DB92921EFC049"
+			]
+			tasks: [
+				{
+					id: "CDA9F50DCCB4405C"
+					type: "item"
+					item: {
+						count: 1
+						id: "dmr:dragon_egg"
+					}
+				}
+			]
+		}
+		{
+			id: "57ADB4BD729FE83D"
+			x: 4.5d
+			y: 0.625d
+			icon: {
+				id: "dmr:dragon_whistle.red"
+				count: 1
+			}
+			dependencies: [
+				"6ACD4387091E4FF3"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "A0BE23E0077068BF"
+					type: "item"
+					item: {
+						count: 1
+						id: "dmr:dragon_whistle.red"
+					}
+				}
+			]
+		}
+		{
+			id: "B7E6738A6C282F33"
+			x: 6.0d
+			y: 0.0d
+			icon: {
+				id: "dmr:dragon_armor"
+				count: 1
+			}
+			dependencies: [
+				"57ADB4BD729FE83D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "A9B52D12173D72D9"
+					type: "item"
+					item: {
+						count: 1
+						id: "dmr:dragon_armor"
+					}
+				}
+			]
+		}
+		{
+			id: "08258F26A6CD43D5"
+			x: 6.0d
+			y: 1.25d
+			shape: "gear"
+			icon: {
+				id: "minecraft:golden_carrot"
+				count: 1
+			}
+			dependencies: [
+				"1171779A20E89BC0"
+				"6ACD4387091E4FF3"
+				"0E9DB92921EFC049"
+			]
+			tasks: [
+				{
+					id: "881D519F2CD2447A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "FEA51C595BF7D1F5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "577622073BEA5279"
+					type: "item"
+					item: {
+						count: 16
+						id: "productivebees:honey_treat"
+					}
+				}
+			]
+		}
+	]
+}

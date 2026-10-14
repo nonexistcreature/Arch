@@ -1,0 +1,411 @@
+{
+	id: "7D28E0E94CE0CCF8"
+	group: ""
+	order_index: 16
+	filename: "adventure"
+	icon: {
+		id: "minecraft:filled_map"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "483595C3466D106D"
+			x: 0.0d
+			y: -0.625d
+			shape: "gear"
+			icon: {
+				id: "minecraft:iron_sword"
+				count: 1
+			}
+			dependencies: [
+				"61956A5E82AB7C9F"
+			]
+			tasks: [
+				{
+					id: "ADF6287B167B9EC4"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:iron_sword"
+					}
+				}
+				{
+					id: "50B0ED58A031F22B"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "B9FF4777CE9D5FD2"
+					type: "item"
+					item: {
+						count: 16
+						id: "minecraft:cooked_beef"
+					}
+				}
+				{
+					id: "52361E0725158797"
+					type: "item"
+					item: {
+						count: 32
+						id: "minecraft:arrow"
+					}
+				}
+			]
+		}
+		{
+			id: "91213DE6310C1D6A"
+			x: 1.5d
+			y: -3.125d
+			icon: {
+				id: "lootr:lootr_chest"
+				count: 1
+			}
+			dependencies: [
+				"483595C3466D106D"
+			]
+			tasks: [
+				{
+					id: "567C9814653D0050"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "96E1CA1EF5B21B46"
+			x: 1.5d
+			y: -1.875d
+			icon: {
+				id: "minecraft:obsidian"
+				count: 1
+			}
+			dependencies: [
+				"483595C3466D106D"
+			]
+			tasks: [
+				{
+					id: "C70E26BE2785B3E4"
+					type: "dimension"
+					dimension: "minecraft:the_nether"
+				}
+			]
+		}
+		{
+			id: "F39285040B5B0234"
+			x: 1.5d
+			y: -0.625d
+			shape: "hexagon"
+			icon: {
+				id: "twilightforest:magic_map_focus"
+				count: 1
+			}
+			dependencies: [
+				"483595C3466D106D"
+			]
+			tasks: [
+				{
+					id: "DA8B83D8530A6CCF"
+					type: "dimension"
+					dimension: "twilightforest:twilight_forest"
+				}
+			]
+		}
+		{
+			id: "5435E49C41CDE3FF"
+			x: 3.0d
+			y: -3.125d
+			icon: {
+				id: "twilightforest:naga_trophy"
+				count: 1
+			}
+			dependencies: [
+				"F39285040B5B0234"
+			]
+			tasks: [
+				{
+					id: "0148E21B876F7024"
+					type: "kill"
+					entity: "twilightforest:naga"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "3D22A936DA49907F"
+					type: "item"
+					item: {
+						count: 1
+						id: "twilightforest:charm_of_life_1"
+					}
+				}
+			]
+		}
+		{
+			id: "CB8828721D42DE2A"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "twilightforest:lich_trophy"
+				count: 1
+			}
+			dependencies: [
+				"5435E49C41CDE3FF"
+			]
+			tasks: [
+				{
+					id: "2BB97AB392E49B02"
+					type: "kill"
+					entity: "twilightforest:lich"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "3407660309397086"
+			x: 6.0d
+			y: -0.625d
+			icon: {
+				id: "twilightforest:hydra_trophy"
+				count: 1
+			}
+			dependencies: [
+				"CB8828721D42DE2A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "FCFA8944BFF223AB"
+					type: "kill"
+					entity: "twilightforest:hydra"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "A9EFEF68F03D66A9"
+			x: 1.5d
+			y: 0.625d
+			icon: {
+				id: "aether:aether_portal_frame"
+				count: 1
+			}
+			dependencies: [
+				"483595C3466D106D"
+			]
+			tasks: [
+				{
+					id: "0B1D942B43A6492C"
+					type: "dimension"
+					dimension: "aether:the_aether"
+				}
+			]
+		}
+		{
+			id: "3020E46100BB3368"
+			x: 3.0d
+			y: -1.875d
+			icon: {
+				id: "aether:bronze_dungeon_key"
+				count: 1
+			}
+			dependencies: [
+				"A9EFEF68F03D66A9"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "01B02BD37D2E6500"
+					type: "kill"
+					entity: "aether:slider"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "22E49A43159B2841"
+			x: 1.5d
+			y: 1.875d
+			icon: {
+				id: "minecraft:stone_bricks"
+				count: 1
+			}
+			dependencies: [
+				"483595C3466D106D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "C2C2FF900B51DF9E"
+					type: "dimension"
+					dimension: "undergarden:undergarden"
+				}
+			]
+		}
+		{
+			id: "241D0F92C3E12524"
+			x: 1.5d
+			y: 3.125d
+			icon: {
+				id: "minecraft:sculk"
+				count: 1
+			}
+			dependencies: [
+				"483595C3466D106D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "04846354F97975AB"
+					type: "dimension"
+					dimension: "deeperdarker:otherside"
+				}
+			]
+		}
+		{
+			id: "D191867CC65E64EB"
+			x: 0.0d
+			y: 0.625d
+			icon: {
+				id: "minecraft:honeycomb"
+				count: 1
+			}
+			dependencies: [
+				"B98471DFFDDBAAF0"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "C7227311A2D1F548"
+					type: "dimension"
+					dimension: "the_bumblezone:the_bumblezone"
+				}
+			]
+		}
+		{
+			id: "A56C62572DAB7621"
+			x: 3.0d
+			y: -0.625d
+			shape: "hexagon"
+			icon: {
+				id: "cataclysm:ignitium_ingot"
+				count: 1
+			}
+			dependencies: [
+				"91213DE6310C1D6A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "04BE447D47F201F5"
+					type: "kill"
+					entity: "cataclysm:netherite_monstrosity"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "662910273F2B230B"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "mowziesmobs:wrought_helmet"
+				count: 1
+			}
+			dependencies: [
+				"91213DE6310C1D6A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "5E152C229D251374"
+					type: "kill"
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "B8AEAB79267D768C"
+			x: 3.0d
+			y: 1.875d
+			icon: {
+				id: "aquamirae:dead_sea_scroll"
+				count: 1
+			}
+			dependencies: [
+				"91213DE6310C1D6A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "1052D0BDB108B214"
+					type: "kill"
+					entity: "aquamirae:captain_cornelia"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "D814EB842FA7B370"
+			x: 3.0d
+			y: 3.125d
+			icon: {
+				id: "minecraft:ender_eye"
+				count: 1
+			}
+			dependencies: [
+				"96E1CA1EF5B21B46"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "8025B0D2CC13EA19"
+					type: "dimension"
+					dimension: "minecraft:the_end"
+				}
+			]
+		}
+		{
+			id: "A0B6AA7E95CCB7D5"
+			x: 6.0d
+			y: 0.625d
+			shape: "gear"
+			icon: {
+				id: "minecraft:netherite_sword"
+				count: 1
+			}
+			dependencies: [
+				"CB8828721D42DE2A"
+				"96E1CA1EF5B21B46"
+				"A9EFEF68F03D66A9"
+			]
+			tasks: [
+				{
+					id: "6FE4B2D3176E2DB3"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "DC3FE4179AC7DFDB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "00C4033087FE30CA"
+					type: "item"
+					item: {
+						count: 4
+						id: "minecraft:golden_apple"
+					}
+				}
+			]
+		}
+	]
+}

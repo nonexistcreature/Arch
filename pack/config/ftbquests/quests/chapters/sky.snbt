@@ -1,0 +1,316 @@
+{
+	id: "75D3C2A26C328D05"
+	group: ""
+	order_index: 8
+	filename: "sky"
+	icon: {
+		id: "aeronautics:propeller_bearing"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "4B1734BD66CA871A"
+			x: 0.0d
+			y: -1.25d
+			shape: "gear"
+			icon: {
+				id: "simulated:physics_assembler"
+				count: 1
+			}
+			dependencies: [
+				"DF0E571DB9523C4F"
+			]
+			tasks: [
+				{
+					id: "0AAC60A0568B9163"
+					type: "item"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+				}
+			]
+		}
+		{
+			id: "6B4F8E536E588C89"
+			x: 1.5d
+			y: -0.625d
+			icon: {
+				id: "offroad:tire"
+				count: 1
+			}
+			dependencies: [
+				"4B1734BD66CA871A"
+			]
+			tasks: [
+				{
+					id: "E16180E717082749"
+					type: "item"
+					item: {
+						count: 1
+						id: "offroad:wheel_mount"
+					}
+					count: 4L
+				}
+				{
+					id: "75EBF89A2EE7BE49"
+					type: "item"
+					item: {
+						count: 1
+						id: "offroad:tire"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "F266207763E94952"
+			x: 3.0d
+			y: 0.0d
+			icon: {
+				id: "simulated:steering_wheel"
+				count: 1
+			}
+			dependencies: [
+				"6B4F8E536E588C89"
+			]
+			tasks: [
+				{
+					id: "51499D3AB1183345"
+					type: "item"
+					item: {
+						count: 1
+						id: "simulated:steering_wheel"
+					}
+				}
+			]
+		}
+		{
+			id: "8679B41EE5CEA5EE"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "aeronautics:wooden_propeller"
+				count: 1
+			}
+			dependencies: [
+				"F266207763E94952"
+			]
+			tasks: [
+				{
+					id: "07DD7026E6729E67"
+					type: "item"
+					item: {
+						count: 1
+						id: "aeronautics:propeller_bearing"
+					}
+				}
+				{
+					id: "A62CBB7F18C0A359"
+					type: "item"
+					item: {
+						count: 1
+						id: "aeronautics:wooden_propeller"
+					}
+				}
+			]
+		}
+		{
+			id: "7AF169EE9ACAE9A5"
+			x: 6.0d
+			y: 0.0d
+			shape: "hexagon"
+			icon: {
+				id: "aeronautics:aviators_goggles"
+				count: 1
+			}
+			dependencies: [
+				"8679B41EE5CEA5EE"
+			]
+			tasks: [
+				{
+					id: "EAD36556FFD14872"
+					type: "item"
+					item: {
+						count: 1
+						id: "aeronautics:aviators_goggles"
+					}
+				}
+				{
+					id: "F8E2D2BC68616984"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "77A451431637AA1D"
+					type: "item"
+					item: {
+						count: 4
+						id: "aeronautics:levitite"
+					}
+				}
+				{
+					id: "FC807348138170F7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			id: "D7F2358A447DEBD0"
+			x: 7.5d
+			y: 0.0d
+			icon: {
+				id: "aeronautics:levitite"
+				count: 1
+			}
+			dependencies: [
+				"7AF169EE9ACAE9A5"
+			]
+			tasks: [
+				{
+					id: "5A7776039FCBD6D2"
+					type: "item"
+					item: {
+						count: 1
+						id: "aeronautics:levitite"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "453103DB798973F2"
+			x: 9.0d
+			y: 0.0d
+			icon: {
+				id: "aeronautics:adjustable_burner"
+				count: 1
+			}
+			dependencies: [
+				"D7F2358A447DEBD0"
+			]
+			tasks: [
+				{
+					id: "AB8750A195BD56B8"
+					type: "item"
+					item: {
+						count: 1
+						id: "aeronautics:adjustable_burner"
+					}
+				}
+				{
+					id: "A131D4CE51C480CE"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "E9E9F652F112C896"
+			x: 10.5d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "aeronautics:pearlescent_levitite"
+				count: 1
+			}
+			dependencies: [
+				"453103DB798973F2"
+			]
+			tasks: [
+				{
+					id: "D3FFF1C8D940D97F"
+					type: "item"
+					item: {
+						count: 1
+						id: "aeronautics:pearlescent_levitite"
+					}
+					count: 8L
+				}
+				{
+					id: "E0C2D89CEC09B12F"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "9153F13197D4C857"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			id: "BBAC276E3AB02105"
+			x: 0.0d
+			y: 0.0d
+			icon: {
+				id: "immersive_aircraft:biplane"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "FABA89E3E4E53AD4"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersive_aircraft:biplane"
+					}
+				}
+			]
+		}
+		{
+			id: "FD7D4CC48CC8985C"
+			x: 0.0d
+			y: 1.25d
+			icon: {
+				id: "create_jetpack:jetpack"
+				count: 1
+			}
+			dependencies: [
+				"957A9338DC294AEA"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "66DF7D14A5B3417C"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_jetpack:jetpack"
+					}
+				}
+			]
+		}
+		{
+			id: "A88B24A597910CC4"
+			x: 1.5d
+			y: 0.625d
+			icon: {
+				id: "simulated:rope_winch"
+				count: 1
+			}
+			dependencies: [
+				"4B1734BD66CA871A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "84FE6E42DE2520F3"
+					type: "item"
+					item: {
+						count: 1
+						id: "simulated:rope_winch"
+					}
+				}
+			]
+		}
+	]
+}

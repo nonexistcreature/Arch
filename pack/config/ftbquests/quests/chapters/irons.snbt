@@ -1,0 +1,230 @@
+{
+	id: "543CD5142769B82D"
+	group: ""
+	order_index: 13
+	filename: "irons"
+	icon: {
+		id: "irons_spellbooks:iron_spell_book"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "52131970F0AF37EB"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "irons_spellbooks:scroll"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "9C9354E63554B2F0"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+				}
+			]
+		}
+		{
+			id: "862A4C4223BD9574"
+			x: 1.5d
+			y: -0.625d
+			icon: {
+				id: "irons_spellbooks:iron_spell_book"
+				count: 1
+			}
+			dependencies: [
+				"52131970F0AF37EB"
+			]
+			tasks: [
+				{
+					id: "3CFE43749CF0947E"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:iron_spell_book"
+					}
+				}
+			]
+		}
+		{
+			id: "2689CA1241CB0BE8"
+			x: 3.0d
+			y: -1.25d
+			icon: {
+				id: "irons_spellbooks:inscription_table"
+				count: 1
+			}
+			dependencies: [
+				"862A4C4223BD9574"
+			]
+			tasks: [
+				{
+					id: "B62BFD0CFB7D3E7C"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:inscription_table"
+					}
+				}
+			]
+		}
+		{
+			id: "1807C290BC564799"
+			x: 4.5d
+			y: -1.25d
+			icon: {
+				id: "irons_spellbooks:scroll_forge"
+				count: 1
+			}
+			dependencies: [
+				"2689CA1241CB0BE8"
+			]
+			tasks: [
+				{
+					id: "9B9EE98D1C542190"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll_forge"
+					}
+				}
+				{
+					id: "EF6E3A537338034B"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:common_ink"
+					}
+				}
+			]
+		}
+		{
+			id: "E4D45646DD838107"
+			x: 1.5d
+			y: 0.625d
+			icon: {
+				id: "irons_spellbooks:arcane_essence"
+				count: 1
+			}
+			dependencies: [
+				"52131970F0AF37EB"
+			]
+			tasks: [
+				{
+					id: "EA20CCAF6B76DF9B"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_essence"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "F10E1FB9C0AF78C8"
+			x: 3.0d
+			y: 0.0d
+			icon: {
+				id: "irons_spellbooks:fire_rune"
+				count: 1
+			}
+			dependencies: [
+				"E4D45646DD838107"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "8425EFB9009EB35F"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:fire_rune"
+					}
+				}
+			]
+		}
+		{
+			id: "A0EF7614A84A8044"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "irons_spellbooks:wizard_hat"
+				count: 1
+			}
+			dependencies: [
+				"F10E1FB9C0AF78C8"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "B6665A27045F0E33"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:wizard_hat"
+					}
+				}
+			]
+		}
+		{
+			id: "26E181A4C50935DA"
+			x: 4.5d
+			y: 1.25d
+			icon: {
+				id: "irons_spellbooks:upgrade_orb"
+				count: 1
+			}
+			dependencies: [
+				"F10E1FB9C0AF78C8"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "BAB77B1101AC77A2"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_anvil"
+					}
+				}
+				{
+					id: "6CF5A7F2724EFF20"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:upgrade_orb"
+					}
+				}
+			]
+		}
+		{
+			id: "BA9E5FDFBAC6AAC3"
+			x: 3.0d
+			y: 1.25d
+			shape: "gear"
+			icon: {
+				id: "irons_spellbooks:legendary_ink"
+				count: 1
+			}
+			dependencies: [
+				"862A4C4223BD9574"
+			]
+			tasks: [
+				{
+					id: "DBBE41572DF2659E"
+					type: "checkmark"
+				}
+			]
+		}
+	]
+}

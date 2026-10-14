@@ -1,0 +1,240 @@
+{
+	id: "57DD3485DB076FB1"
+	group: ""
+	order_index: 6
+	filename: "fishing"
+	icon: {
+		id: "tide:fishing_journal"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "3A9539897B1176C1"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "tide:stone_fishing_rod"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "8B17C085C30F86DB"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:stone_fishing_rod"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "E34C8114F5E6DDDD"
+					type: "item"
+					item: {
+						count: 8
+						id: "tide:bait"
+					}
+				}
+			]
+		}
+		{
+			id: "A1F0682242876677"
+			x: 1.5d
+			y: -0.625d
+			icon: {
+				id: "tide:fishing_journal"
+				count: 1
+			}
+			dependencies: [
+				"3A9539897B1176C1"
+			]
+			tasks: [
+				{
+					id: "963EF537C9F12943"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:fishing_journal"
+					}
+				}
+			]
+		}
+		{
+			id: "1D087548C817D51D"
+			x: 1.5d
+			y: 0.625d
+			icon: {
+				id: "minecraft:cod"
+				count: 1
+			}
+			dependencies: [
+				"3A9539897B1176C1"
+			]
+			tasks: [
+				{
+					id: "ABCE4B1128EDE505"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:cod"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "A7EA82321637535F"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "tide:lucky_bait"
+				count: 1
+			}
+			dependencies: [
+				"1D087548C817D51D"
+			]
+			tasks: [
+				{
+					id: "8ADB966E0D74F3E5"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:lucky_bait"
+					}
+				}
+			]
+		}
+		{
+			id: "F8B9356D937BFE4F"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "tide:iron_fishing_rod"
+				count: 1
+			}
+			dependencies: [
+				"A7EA82321637535F"
+			]
+			tasks: [
+				{
+					id: "6C8E584AD43D5F01"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:iron_fishing_rod"
+					}
+				}
+			]
+		}
+		{
+			id: "4E0C0B6EE4FBB412"
+			x: 6.0d
+			y: -1.25d
+			icon: {
+				id: "tide:lavaproof_hook"
+				count: 1
+			}
+			dependencies: [
+				"F8B9356D937BFE4F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "D021C98507FDF7A6"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:lavaproof_hook"
+					}
+				}
+			]
+		}
+		{
+			id: "F852E1FD4535E319"
+			x: 6.0d
+			y: 0.0d
+			icon: {
+				id: "tide:wooden_crate"
+				count: 1
+			}
+			dependencies: [
+				"F8B9356D937BFE4F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "1C8860628D212320"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:wooden_crate"
+					}
+				}
+			]
+		}
+		{
+			id: "36CEBA9F196FF2E6"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "aquaculture:iron_fillet_knife"
+				count: 1
+			}
+			dependencies: [
+				"1D087548C817D51D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "DD4C644937FE3CF4"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:iron_fillet_knife"
+					}
+				}
+			]
+		}
+		{
+			id: "AC267C60B4B16E10"
+			x: 6.0d
+			y: 1.25d
+			shape: "gear"
+			icon: {
+				id: "tide:crystal_fishing_rod"
+				count: 1
+			}
+			dependencies: [
+				"A1F0682242876677"
+				"F8B9356D937BFE4F"
+			]
+			tasks: [
+				{
+					id: "F58B931524AE0D96"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "47389B7DC8F3C895"
+					type: "item"
+					item: {
+						count: 4
+						id: "tide:magnetic_bait"
+					}
+				}
+				{
+					id: "FCE33E69931D7B58"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+	]
+}

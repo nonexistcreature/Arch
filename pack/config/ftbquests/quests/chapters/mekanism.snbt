@@ -1,0 +1,429 @@
+{
+	id: "78D5E7433029BED0"
+	group: ""
+	order_index: 9
+	filename: "mekanism"
+	icon: {
+		id: "mekanism:ingot_osmium"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "A45608597F69080B"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "mekanism:ingot_osmium"
+				count: 1
+			}
+			dependencies: [
+				"A1B4E617FBC154C7"
+			]
+			tasks: [
+				{
+					id: "D5639A959356B139"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "47C67B75E3CB3CF3"
+			x: 1.5d
+			y: -0.625d
+			icon: {
+				id: "mekanism:ingot_steel"
+				count: 1
+			}
+			dependencies: [
+				"A45608597F69080B"
+			]
+			tasks: [
+				{
+					id: "23D1F927CD93F98F"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:ingot_steel"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "625415B7F4D63866"
+			x: 1.5d
+			y: 0.625d
+			icon: {
+				id: "mekanismgenerators:heat_generator"
+				count: 1
+			}
+			dependencies: [
+				"A45608597F69080B"
+			]
+			tasks: [
+				{
+					id: "C5F120F9A6ACCD49"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismgenerators:heat_generator"
+					}
+				}
+			]
+		}
+		{
+			id: "F7688562BA6E2F2C"
+			x: 3.0d
+			y: 0.0d
+			icon: {
+				id: "mekanism:enrichment_chamber"
+				count: 1
+			}
+			dependencies: [
+				"625415B7F4D63866"
+			]
+			tasks: [
+				{
+					id: "35DEE9155838F2CA"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:enrichment_chamber"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "88A96C502F144C6B"
+					type: "item"
+					item: {
+						count: 16
+						id: "mekanism:basic_universal_cable"
+					}
+				}
+			]
+		}
+		{
+			id: "6ADA9E43D1CB61AE"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "mekanism:basic_control_circuit"
+				count: 1
+			}
+			dependencies: [
+				"F7688562BA6E2F2C"
+			]
+			tasks: [
+				{
+					id: "C6A94F0BAED232F5"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:basic_control_circuit"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "EFB9DD22E96511CF"
+			x: 6.0d
+			y: -1.875d
+			icon: {
+				id: "mekanism:purification_chamber"
+				count: 1
+			}
+			dependencies: [
+				"6ADA9E43D1CB61AE"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "42C62BA397D7FA16"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:purification_chamber"
+					}
+				}
+			]
+		}
+		{
+			id: "D52270423C6CD2BE"
+			x: 6.0d
+			y: -0.625d
+			icon: {
+				id: "mekanism:basic_smelting_factory"
+				count: 1
+			}
+			dependencies: [
+				"6ADA9E43D1CB61AE"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "17021135248C40C0"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:basic_smelting_factory"
+					}
+				}
+			]
+		}
+		{
+			id: "6B07DF1CDC5F216D"
+			x: 6.0d
+			y: 0.625d
+			icon: {
+				id: "mekanism:jetpack"
+				count: 1
+			}
+			dependencies: [
+				"6ADA9E43D1CB61AE"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "78AF69379C66CF27"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:jetpack"
+					}
+				}
+			]
+		}
+		{
+			id: "EE06D49078E7978C"
+			x: 6.0d
+			y: 1.875d
+			shape: "hexagon"
+			icon: {
+				id: "mekanism:geiger_counter"
+				count: 1
+			}
+			dependencies: [
+				"6ADA9E43D1CB61AE"
+			]
+			tasks: [
+				{
+					id: "5695B36641589135"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:geiger_counter"
+					}
+				}
+				{
+					id: "B8EFAA6EF0655E2F"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:hazmat_mask"
+					}
+				}
+				{
+					id: "7782C1DAAF722E04"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:hazmat_gown"
+					}
+				}
+			]
+		}
+		{
+			id: "6C6A40C7728A898A"
+			x: 7.5d
+			y: 0.0d
+			icon: {
+				id: "mekanismgenerators:fission_reactor_casing"
+				count: 1
+			}
+			dependencies: [
+				"EE06D49078E7978C"
+				"47C67B75E3CB3CF3"
+			]
+			tasks: [
+				{
+					id: "CFBB3DD8605447DD"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fission_reactor_casing"
+					}
+					count: 32L
+				}
+				{
+					id: "D43E78EC48E114BB"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fission_fuel_assembly"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "CB566A1181E45EBB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			id: "14BEE4BDABDB075B"
+			x: 9.0d
+			y: -0.625d
+			icon: {
+				id: "mekanismgenerators:turbine_rotor"
+				count: 1
+			}
+			dependencies: [
+				"6C6A40C7728A898A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "77AB59542D5797DC"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismgenerators:turbine_casing"
+					}
+					count: 32L
+				}
+				{
+					id: "2A2AEE81414AC230"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismgenerators:turbine_rotor"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "673E8013AF5960AA"
+			x: 9.0d
+			y: 0.625d
+			icon: {
+				id: "mekanism:radioactive_waste_barrel"
+				count: 1
+			}
+			dependencies: [
+				"6C6A40C7728A898A"
+			]
+			tasks: [
+				{
+					id: "FAC30ED2DCE6FE46"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:radioactive_waste_barrel"
+					}
+				}
+			]
+		}
+		{
+			id: "474E9801152A6673"
+			x: 10.5d
+			y: -0.625d
+			icon: {
+				id: "mekanism:pellet_antimatter"
+				count: 1
+			}
+			dependencies: [
+				"673E8013AF5960AA"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "F15C87E7BD71354C"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:sps_casing"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "9152DA7E951B01C8"
+			x: 10.5d
+			y: 0.625d
+			icon: {
+				id: "mekanismgenerators:fusion_reactor_controller"
+				count: 1
+			}
+			dependencies: [
+				"14BEE4BDABDB075B"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "459BE56C1E9181AF"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fusion_reactor_controller"
+					}
+				}
+			]
+		}
+		{
+			id: "D47A2E63CB89901D"
+			x: 12.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "mekanism:mekasuit_helmet"
+				count: 1
+			}
+			dependencies: [
+				"9152DA7E951B01C8"
+			]
+			tasks: [
+				{
+					id: "F57133C7257AFE13"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_helmet"
+					}
+				}
+				{
+					id: "D4C0EFF0A66DE173"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:mekasuit_bodyarmor"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "E83C64B4B3EAD4CD"
+					type: "item"
+					item: {
+						count: 4
+						id: "mekanism:module_base"
+					}
+				}
+			]
+		}
+	]
+}

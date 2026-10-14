@@ -1,0 +1,277 @@
+{
+	id: "B609E2F89D752FA6"
+	group: ""
+	order_index: 10
+	filename: "steel_oil"
+	icon: {
+		id: "immersiveengineering:hammer"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "8210AA1ED353DB24"
+			x: 0.0d
+			y: -0.625d
+			shape: "gear"
+			icon: {
+				id: "immersiveengineering:hammer"
+				count: 1
+			}
+			dependencies: [
+				"A1B4E617FBC154C7"
+			]
+			tasks: [
+				{
+					id: "E3A48234EC724C5A"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersiveengineering:hammer"
+					}
+				}
+				{
+					id: "E35A37D9810913ED"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersiveengineering:manual"
+					}
+				}
+			]
+		}
+		{
+			id: "C2529685BB61068A"
+			x: 1.5d
+			y: -0.625d
+			icon: {
+				id: "immersiveengineering:coke_oven"
+				count: 1
+			}
+			dependencies: [
+				"8210AA1ED353DB24"
+			]
+			tasks: [
+				{
+					id: "A467E522017F24AF"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersiveengineering:coal_coke"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "C50EFCA7DA0C32C3"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "immersiveengineering:ingot_steel"
+				count: 1
+			}
+			dependencies: [
+				"C2529685BB61068A"
+			]
+			tasks: [
+				{
+					id: "ECADC6BAB2E4CEEC"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersiveengineering:ingot_steel"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "FBACE05C294403E1"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "immersiveengineering:windmill"
+				count: 1
+			}
+			dependencies: [
+				"C2529685BB61068A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "68D9B4C9C38CF9B7"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersiveengineering:windmill"
+					}
+				}
+				{
+					id: "DDC47C419E7BBD6B"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersiveengineering:dynamo"
+					}
+				}
+			]
+		}
+		{
+			id: "1A07CB4F99214042"
+			x: 4.5d
+			y: -0.625d
+			icon: {
+				id: "immersiveengineering:sample_drill"
+				count: 1
+			}
+			dependencies: [
+				"C50EFCA7DA0C32C3"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "98F4A1A4DD7DB969"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersiveengineering:sample_drill"
+					}
+				}
+			]
+		}
+		{
+			id: "0487C41259C69160"
+			x: 4.5d
+			y: 0.625d
+			icon: {
+				id: "immersivepetroleum:seismic_survey"
+				count: 1
+			}
+			dependencies: [
+				"C50EFCA7DA0C32C3"
+			]
+			tasks: [
+				{
+					id: "CAF0C96D407D524D"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersivepetroleum:seismic_survey"
+					}
+				}
+			]
+		}
+		{
+			id: "7F7D4CF8C56466A4"
+			x: 6.0d
+			y: 0.0d
+			icon: {
+				id: "immersivepetroleum:pumpjack"
+				count: 1
+			}
+			dependencies: [
+				"0487C41259C69160"
+			]
+			tasks: [
+				{
+					id: "AF6E5E6A8CA88271"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersivepetroleum:crudeoil_bucket"
+					}
+				}
+			]
+		}
+		{
+			id: "BE617B5D12B1FC24"
+			x: 7.5d
+			y: -0.625d
+			icon: {
+				id: "immersivepetroleum:distillation_tower"
+				count: 1
+			}
+			dependencies: [
+				"7F7D4CF8C56466A4"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "10D2333239982FAF"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersivepetroleum:diesel_bucket"
+					}
+				}
+			]
+		}
+		{
+			id: "BDEC14AC13120A77"
+			x: 0.0d
+			y: 0.625d
+			icon: {
+				id: "tfmg:steel_ingot"
+				count: 1
+			}
+			dependencies: [
+				"957A9338DC294AEA"
+			]
+			tasks: [
+				{
+					id: "8AD1EB4A6F577823"
+					type: "item"
+					item: {
+						count: 1
+						id: "tfmg:coal_coke"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "9A020305E1D3E7EE"
+			x: 1.5d
+			y: 0.625d
+			icon: {
+				id: "tfmg:engine_controller"
+				count: 1
+			}
+			dependencies: [
+				"BDEC14AC13120A77"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "8F8E1B2B1BF2FCEB"
+					type: "item"
+					item: {
+						count: 1
+						id: "tfmg:engine_controller"
+					}
+				}
+			]
+		}
+		{
+			id: "A94E4669A44B8A90"
+			x: 7.5d
+			y: 0.625d
+			shape: "hexagon"
+			icon: {
+				id: "minecraft:campfire"
+				count: 1
+			}
+			dependencies: [
+				"7F7D4CF8C56466A4"
+			]
+			tasks: [
+				{
+					id: "C0833288977ACCB4"
+					type: "checkmark"
+				}
+			]
+		}
+	]
+}

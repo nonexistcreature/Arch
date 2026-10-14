@@ -1,0 +1,204 @@
+{
+	id: "38CD7CF2D4519A5D"
+	group: ""
+	order_index: 14
+	filename: "occultism"
+	icon: {
+		id: "occultism:dictionary_of_spirits"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "81CE06E57550BE24"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "occultism:dictionary_of_spirits"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "43C86769FA0B0366"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:dictionary_of_spirits"
+					}
+				}
+			]
+		}
+		{
+			id: "DD53F6CD01048766"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "occultism:datura"
+				count: 1
+			}
+			dependencies: [
+				"81CE06E57550BE24"
+			]
+			tasks: [
+				{
+					id: "6A6FB4177FD0B7A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:datura"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "3249B651AE7FF470"
+			x: 3.0d
+			y: 0.0d
+			icon: {
+				id: "occultism:chalk_white"
+				count: 1
+			}
+			dependencies: [
+				"DD53F6CD01048766"
+			]
+			tasks: [
+				{
+					id: "1419F256DF86CB20"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:chalk_white"
+					}
+				}
+				{
+					id: "A4D61F45D8114838"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:golden_sacrificial_bowl"
+					}
+				}
+			]
+		}
+		{
+			id: "6BBDBFD07168218A"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "occultism:book_of_binding_foliot"
+				count: 1
+			}
+			dependencies: [
+				"3249B651AE7FF470"
+			]
+			tasks: [
+				{
+					id: "8151BA76B25D99EB"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:book_of_binding_bound_foliot"
+					}
+				}
+			]
+		}
+		{
+			id: "9429288ACE921923"
+			x: 6.0d
+			y: -0.625d
+			icon: {
+				id: "occultism:book_of_calling_foliot_lumberjack"
+				count: 1
+			}
+			dependencies: [
+				"6BBDBFD07168218A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "A5CD7FD76D7D0CA6"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:book_of_calling_foliot_lumberjack"
+					}
+				}
+			]
+		}
+		{
+			id: "7DF2700D3B654BFD"
+			x: 6.0d
+			y: 0.625d
+			icon: {
+				id: "occultism:book_of_binding_djinni"
+				count: 1
+			}
+			dependencies: [
+				"6BBDBFD07168218A"
+			]
+			tasks: [
+				{
+					id: "9BD029F1ADC32DE2"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:book_of_binding_bound_djinni"
+					}
+				}
+			]
+		}
+		{
+			id: "AA27D09E6BCC33F9"
+			x: 7.5d
+			y: -0.625d
+			icon: {
+				id: "occultism:storage_controller"
+				count: 1
+			}
+			dependencies: [
+				"7DF2700D3B654BFD"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "873867B22BEE6426"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:storage_controller"
+					}
+				}
+			]
+		}
+		{
+			id: "33B194723B40588C"
+			x: 7.5d
+			y: 0.625d
+			shape: "gear"
+			icon: {
+				id: "occultism:book_of_binding_afrit"
+				count: 1
+			}
+			dependencies: [
+				"7DF2700D3B654BFD"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "1ABB9C2954CFC0F9"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:book_of_binding_bound_afrit"
+					}
+				}
+			]
+		}
+	]
+}

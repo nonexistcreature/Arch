@@ -66,5 +66,9 @@
   "role.arkhaven.engineer_mage": "engineers and mages",
   "role.arkhaven.builder": "builders",
   "role.arkhaven.alchemist": "alchemists",
-  "item.arkhaven.rift_shard": "Rift Shard"
+  "item.arkhaven.rift_shard": "Rift Shard",
+  "arkhaven.trained": "You are prepared for \"%s\" — it can now happen (the first one is a tutorial).",
+  "arkhaven.event.strike": "Meteor strike",
+  "arkhaven.event.rift": "Rift night",
+  "arkhaven.event.shower": "Meteor shower"
 }

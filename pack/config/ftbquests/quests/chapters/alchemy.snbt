@@ -1,0 +1,275 @@
+{
+	id: "EF2A8A724E748B44"
+	group: ""
+	order_index: 15
+	filename: "alchemy"
+	icon: {
+		id: "minecraft:brewing_stand"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "8FE6B961A2B65B01"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "minecraft:brewing_stand"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "1E162124337122B5"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:brewing_stand"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "C6891D5C008CEFC3"
+					type: "item"
+					item: {
+						count: 16
+						id: "minecraft:glass_bottle"
+					}
+				}
+				{
+					id: "9B0DACB722F7DEDC"
+					type: "item"
+					item: {
+						count: 8
+						id: "minecraft:nether_wart"
+					}
+				}
+			]
+		}
+		{
+			id: "4ADED478BA38BECC"
+			x: 1.5d
+			y: -0.625d
+			icon: {
+				id: "irons_spellbooks:alchemist_cauldron"
+				count: 1
+			}
+			dependencies: [
+				"8FE6B961A2B65B01"
+			]
+			tasks: [
+				{
+					id: "CDB2007CDC5C7453"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:alchemist_cauldron"
+					}
+				}
+			]
+		}
+		{
+			id: "9B9EEE85EBDBA92D"
+			x: 1.5d
+			y: 0.625d
+			shape: "hexagon"
+			icon: {
+				id: "herbalbrews:lavender"
+				count: 1
+			}
+			dependencies: [
+				"8FE6B961A2B65B01"
+			]
+			tasks: [
+				{
+					id: "F685318623FED0BE"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "1EFF9B8206DB0712"
+					type: "item"
+					item: {
+						count: 8
+						id: "herbalbrews:lavender"
+					}
+				}
+			]
+		}
+		{
+			id: "E7BE72A396A69007"
+			x: 3.0d
+			y: -3.125d
+			icon: {
+				id: "minecraft:prismarine_crystals"
+				count: 1
+			}
+			dependencies: [
+				"9B9EEE85EBDBA92D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "A0C36A98EE9CA761"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "3B96C193ACA277A9"
+			x: 3.0d
+			y: -1.875d
+			icon: {
+				id: "minecraft:honey_bottle"
+				count: 1
+			}
+			dependencies: [
+				"9B9EEE85EBDBA92D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "6C1B656231C7A012"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "1051DF3F4385D339"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "minecraft:golden_carrot"
+				count: 1
+			}
+			dependencies: [
+				"9B9EEE85EBDBA92D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "85F4D7A0EA1BFBBB"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "2674C9B3CA6719CA"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "minecraft:blaze_powder"
+				count: 1
+			}
+			dependencies: [
+				"9B9EEE85EBDBA92D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "CFD53031DDCF6928"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "5D3473C41AD56DA7"
+			x: 3.0d
+			y: 1.875d
+			icon: {
+				id: "minecraft:moss_block"
+				count: 1
+			}
+			dependencies: [
+				"9B9EEE85EBDBA92D"
+				"A94E4669A44B8A90"
+			]
+			tasks: [
+				{
+					id: "5487805EBBBD32BC"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "B0B0F5FAE9A6FB57"
+			x: 4.5d
+			y: -0.625d
+			icon: {
+				id: "mekanism:ingot_lead"
+				count: 1
+			}
+			dependencies: [
+				"5D3473C41AD56DA7"
+				"EE06D49078E7978C"
+			]
+			tasks: [
+				{
+					id: "DB0C71B09BC5EACB"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "3C60CB78B824B591"
+			x: 3.0d
+			y: 3.125d
+			icon: {
+				id: "minecraft:spyglass"
+				count: 1
+			}
+			dependencies: [
+				"9B9EEE85EBDBA92D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "E4E35408911D4EC2"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "31625BC464DBB176"
+			x: 4.5d
+			y: 0.625d
+			shape: "gear"
+			icon: {
+				id: "minecraft:dragon_breath"
+				count: 1
+			}
+			dependencies: [
+				"9B9EEE85EBDBA92D"
+				"5D3473C41AD56DA7"
+				"4ADED478BA38BECC"
+			]
+			tasks: [
+				{
+					id: "6D9CC61C93E4B7A5"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "79D3C4FDDDF5F351"
+					type: "item"
+					item: {
+						count: 8
+						id: "minecraft:blaze_rod"
+					}
+				}
+				{
+					id: "315DFD7C75FAD860"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+	]
+}
