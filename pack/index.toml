@@ -1035,7 +1035,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "3c49abb807e720c647591d5608a00a2349e3b4522736cb094b36c0229781d1f1"
+hash = "c0611d8448bc043f372a008a435e14aa238ba8fca52fd1d79634424576ea9e12"
 metafile = true
 
 [[files]]
@@ -1290,7 +1290,7 @@ metafile = true
 
 [[files]]
 file = "mods/pufferfishs-unofficial-additions.pw.toml"
-hash = "9709dcfcc794b61de4c467b30d68da3caaab27e6022cfb3348b4fcf9b9f4f0e8"
+hash = "3a37a1911cee7925936f8720012eb00bcf4fbae5771a0869e4ce61e405eac91b"
 metafile = true
 
 [[files]]
@@ -1301,11 +1301,6 @@ metafile = true
 [[files]]
 file = "mods/quark.pw.toml"
 hash = "6390e31a740d60ba3a66edaf86f5e2788b7d03ff18fd43580f12f665e25f73f9"
-metafile = true
-
-[[files]]
-file = "mods/reeses-sodium-options.pw.toml"
-hash = "8690379014fbba53059759936c7deb4d62aabc7a2006da3d45929dc582b119b7"
 metafile = true
 
 [[files]]
@@ -1365,7 +1360,7 @@ metafile = true
 
 [[files]]
 file = "mods/simply-tooltips.pw.toml"
-hash = "bb5dc8ac909aee1955532a65145f7ebfc3a88289610298e821a974fdda5f1822"
+hash = "c0fc5806a57b80b1e06733df7dabd18d0e61d11b66ed09470fa7f5bb175b3238"
 metafile = true
 
 [[files]]
@@ -1380,7 +1375,7 @@ metafile = true
 
 [[files]]
 file = "mods/smartbrainlib.pw.toml"
-hash = "27c6365bdc19eff05f3231bff86a4f09b2d584fed40de92d67c00b4cbd52862a"
+hash = "6e7ce9c2aee5bb72d2698eb89035c9b2458d20daa0782e1a03cfba7a6647621e"
 metafile = true
 
 [[files]]

@@ -118,6 +118,19 @@ def main():
                 dp = d.get("project_id")
                 if dp and dp not in seen_ids and (get(f"/project/{dp}") or {}).get("slug") not in keep:
                     resolved.pop(slug); unresolved.append((slug, r["wave"], "зависимость не разрешилась", None)); changed = True; break
+    # Side propagation: Modrinth side flags are unreliable for libraries. A required dependency of a mod that runs
+    # on a side must also run there (e.g. lithostitched is flagged server-only but Terralith needs it on clients).
+    by_id = {r["id"]: s for s, r in resolved.items()}
+    changed = True
+    while changed:
+        changed = False
+        for slug, r in resolved.items():
+            for d in r["v"].get("dependencies", []):
+                dep = by_id.get(d.get("project_id")) if d["dependency_type"] == "required" else None
+                if not dep or resolved[dep]["side"] == "both" or resolved[dep]["side"] == r["side"]:
+                    continue
+                resolved[dep]["side"] = "both"
+                changed = True
     for slug, r in resolved.items():
         write_pw(slug, r["p"], r["v"], r["side"])
     # drop preserved CurseForge entries whose jar duplicates a Modrinth one

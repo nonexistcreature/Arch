@@ -31,3 +31,12 @@ JEI для 1.21.1 публикуется как beta; нужна 19.53+ для F
 
 ## arkhaven-core в pack/mods (jar в git)
 Свой мод не опубликован на Modrinth/CF; кладём собранный jar (~100 КБ) прямо в pack/mods, packwiz раздаёт его как обычный файл. Правило «не класть jar в git» относится к чужим модам.
+
+## Убраны из списка (нет на 1.21.1 NeoForge / нет на Modrinth под этим именем)
+smoothboot-reloaded, createutilities, create-factory-logistics, create-claims, aeronautics-dyeable-components, ars-technica, ars-instrumentum, emi-ae2, ftb-essentials/ranks (CF), mob-captured-in-a-bottle, villager-names, simple-weapons, aether-redux, deep-aether-extension, bosses-of-mass-destruction, goblin-traders, iron-chests, Let's Do Bakery/Brewery/Candlelight. Можно вернуть при появлении портов.
+
+## Reese's Sodium Options убран
+Несовместим с Sodium Options API (зависимость Sodium Extra) — клиент не стартовал. Меню настроек даёт Sodium Extra.
+
+## Стороны зависимостей
+Modrinth пометил Lithostitched как server-only, но Terralith требует его на клиенте. Резолвер теперь поднимает сторону обязательной зависимости до стороны мода, который её требует.

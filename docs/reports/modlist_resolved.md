@@ -1,6 +1,6 @@
 # modlist_resolved (авто, tools/resolve_pack.py)
 
-Всего: **250** (явных: 199, зависимостей: 51)
+Всего: **249** (явных: 197, зависимостей: 52)
 
 | slug | название | версия | тип | сторона | волна | роль | обновлён |
 |---|---|---|---|---|---|---|---|
@@ -140,7 +140,7 @@
 | libipn | libIPN | neoforge-1.21.1-6.6.3 | release | client | 1 | зависимость inventory-profiles-next | 2026-03-25 |
 | lionfish-api | Lionfish-API | 3.1 | release | both | 7 | зависимость l_enders-cataclysm | 2026-06-30 |
 | lithium | Lithium | mc1.21.1-0.15.4-neoforge | release | both | 1 | TPS | 2026-06-27 |
-| lithostitched | Lithostitched | 1.8.1-neoforge-21.1 | release | server | 2 | зависимость tectonic | 2026-10-14 |
+| lithostitched | Lithostitched | 1.8.1-neoforge-21.1 | release | both | 2 | зависимость tectonic | 2026-10-14 |
 | lmd | Let Me Despawn | 1.5.0 | release | server | 1 | мобы | 2025-03-16 |
 | lootr | Lootr | 1.21.1-1.11.38.127 | release | both | 2 | лут | 2026-09-25 |
 | macaws-bridges | Macaw's Bridges | 3.1.2 | release | both | 2 | декор | 2026-02-15 |
@@ -187,10 +187,9 @@
 | prickle | Prickle | 21.1.11 | release | both | 1 | зависимость enchantment-descriptions | 2025-09-04 |
 | prism-lib | Prism | 1.0.11 | release | client | 1 | зависимость legendary-tooltips | 2025-04-01 |
 | productivebees | Productive Bees | 1.21.1-13.13.0 | release | both | 3 | пчёлы | 2026-01-13 |
-| pufferfishs-unofficial-additions | Pufferfish's Unofficial Additions | 2.2.8 | release | server | 7a | зависимость irons-spells-n-spellbooks-dynamic-skill-trees | 2025-12-28 |
+| pufferfishs-unofficial-additions | Pufferfish's Unofficial Additions | 2.2.8 | release | both | 7a | зависимость irons-spells-n-spellbooks-dynamic-skill-trees | 2025-12-28 |
 | puzzles-lib | Puzzles Lib | 21.1.64 | release | both | 1 | зависимость overflowing-bars | 2026-10-11 |
 | quark | Quark | 4.1-487 | release | both | 2 | мелочи | 2026-10-05 |
-| reeses-sodium-options | Reese's Sodium Options | mc1.21.1-2.2.4+neoforge | release | client | 1 | настройки | 2026-09-16 |
 | repurposed-structures-forge | Repurposed Structures - Neoforge/Forge | 7.5.22+1.21.1-neoforge | release | server | 2 | структуры | 2026-08-20 |
 | resourceful-config | Resourceful Config | 3.0.11 | release | both | 1 | зависимость structure-layout-optimizer | 2025-04-26 |
 | resourceful-lib | Resourceful Lib | 3.0.12 | release | both | 2 | зависимость the-bumblezone | 2024-12-08 |
@@ -202,14 +201,14 @@
 | shoulder-surfing-reloaded | Shoulder Surfing Reloaded | 1.21.1-5.2.0+neoforge | release | client | 10 | камера | 2026-09-29 |
 | simple-voice-chat | Simple Voice Chat | neoforge-1.21.1-2.6.22 | release | both | 8 | голос | 2026-08-08 |
 | simply-swords | Simply Swords | 1.70.2-1.21.1 | release | both | 7 | оружие | 2026-08-27 |
-| simply-tooltips | Simply Tooltips | 0.1.5 | release | client | 7 | зависимость simply-swords | 2026-08-23 |
+| simply-tooltips | Simply Tooltips | 0.1.5 | release | both | 7 | зависимость simply-swords | 2026-08-23 |
 | skills | Pufferfish's Skills | 0.19.2 | beta | both | 7a | зависимость irons-spells-n-spellbooks-dynamic-skill-trees | 2026-10-08 |
 | slice-and-dice | Create Slice & Dice | 4.3.4 | release | both | 2 | автоматизация еды | 2026-09-20 |
-| smartbrainlib | SmartBrainLib | 1.16.11 | release | server | 6 | зависимость occultism | 2025-10-01 |
+| smartbrainlib | SmartBrainLib | 1.16.11 | release | both | 6 | зависимость occultism | 2025-10-01 |
 | sodium | Sodium | mc1.21.1-0.8.13-neoforge | release | client | 1 | FPS | 2026-08-28 |
 | sodium-dynamic-lights | Sodium Dynamic Lights | neoforge-1.21.1-1.0.10 | release | client | 10 | свет | 2025-01-02 |
 | sodium-extra | Sodium Extra | mc1.21.1-0.9.4+neoforge | release | client | 1 | FPS | 2026-09-16 |
-| sodium-options-api | Sodium Options API | neoforge-1.21.1-1.0.10 | release | client | 1 | либа | 2025-01-18 |
+| sodium-options-api | Sodium Options API | neoforge-1.21.1-1.0.10 | release | client | 10 | зависимость sodium-dynamic-lights | 2025-01-18 |
 | sophisticated-backpacks | Sophisticated Backpacks | 1.21.1-3.26.12.2208 | release | both | 1 | рюкзаки | 2026-10-13 |
 | sophisticated-backpacks-create-integration | Sophisticated Backpacks Create Integration | 1.21.1-0.2.3.194 | release | both | 1 | совместимость | 2026-10-12 |
 | sophisticated-core | Sophisticated Core | 1.21.1-1.5.12.2400 | release | both | 1 | зависимость sophisticated-backpacks | 2026-10-13 |

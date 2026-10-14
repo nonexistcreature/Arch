@@ -3,7 +3,6 @@
 sodium | 1 | FPS
 iris | 1 | шейдеры
 sodium-extra | 1 | FPS
-reeses-sodium-options | 1 | настройки
 lithium | 1 | TPS
 modernfix | 1 | загрузка/ОЗУ
 ferrite-core | 1 | ОЗУ
@@ -83,10 +82,7 @@ farmers-respite-unofficial-port | 2 | чай
 brewin-and-chewin | 2 | напитки
 slice-and-dice | 2 | автоматизация еды
 lets-do-vinery | 2 | вино
-lets-do-bakery | 2 | выпечка
-lets-do-brewery | 2 | пиво
 lets-do-meadow | 2 | сыр
-lets-do-candlelight | 2 | ужины
 lets-do-herbalbrews | 2 | чаи
 lets-do-farm-charm | 2 | ферма
 cooking-for-blockheads | 2 | кухня
@@ -190,7 +186,6 @@ coroutil | 9 | либа Weather2
 # --- batch 2
 badoptimizations | 1 | FPS
 structure-layout-optimizer | 1 | TPS
-smoothboot-reloaded | 1 | старт
 noisium | 1 | генерация
 yungs-extras | 2 | структуры
 yungs-bridges | 2 | мосты
@@ -198,51 +193,24 @@ create-central-kitchen | 4 | кухня+Create
 create-jetpack | 4 | полёт
 create-confectionery | 4 | сладости
 create-power-loader | 4 | чанклоадер
-createutilities | 4 | утилиты
-create-factory-logistics | 4 | логистика
 create-aeronautics-automated-logistics | 4 | логистика
-create-claims | 4 | приваты
 waystones-sable | 4 | телепорты
 iris-veil-compat | 4 | шейдеры+Aeronautics
-create-aeronautics-dyeable-components | 4 | краска
 ars-additions | 6 | магия
-ars-technica | 6 | магия
-ars-instrumentum | 6 | магия
 irons-jewelry | 6 | магия
 carry-on | 2 | QoL
 sophisticated-backpacks-create-integration | 1 | совместимость
 sophisticated-storage-create-integration | 1 | совместимость
 emi-loot | 1 | лут в EMI
 emi-ores | 1 | руды в EMI
-emi-ae2 | 5 | AE2 в EMI
 inventory-profiles-next | 1 | сортировка
 betterf3 | 1 | отладка
 no-chat-reports | 1 | чат
-ftb-essentials | 1 | админ
-ftb-ranks | 1 | права
-sodium-options-api | 1 | либа
 item-borders | 1 | UI
 searchables | 1 | UI
-mcw-trapdoors | 2 | декор
 supplementaries-squared | 2 | декор
 quark | 2 | мелочи
-create-aeronautics-claims | 4 | приваты
-farmers-delight-compat | 2 | ?
-mob-captured-in-a-bottle | 3 | питомцы
 easy-villagers | 8 | жители
-better-villagers | 8 | жители
-villager-names | 8 | жители
-simple-weapons | 7 | оружие
-lets-do-api | 2 | Let's Do
-aether-redux | 2 | Aether
 deep-aether | 2 | Aether
-aether-enhanced-extension | 2 | Aether
 twilight-forest-the-lost-blocks | 2 | TF
-ars-nouveau-ars-elemental-compat | 6 | совместимость
-tfmg-aeronautics-compat | 4 | совместимость
-create-enchantment-industry-compat | 4 | совместимость
-bosses-of-mass-destruction | 7 | боссы
-goblin-traders | 8 | торговцы
-wandering-trader-rework | 8 | торговцы
-iron-chests | 2 | хранилище
 atlas-api | 6 | либа Iron's Jewelry
