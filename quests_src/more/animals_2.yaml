@@ -1,0 +1,141 @@
+extends: animals
+quests:
+  - id: a_breed_basic
+    deps: [a_lead]
+    roles: [breeder]
+    icon: minecraft:wheat
+    tasks: [{type: checkmark}]
+    rewards: [{type: item, item: minecraft:hay_block, count: 8}]
+    ru: {title: "Своё стадо", text: "Разведи коров, овец, свиней и кур — хотя бы по паре. Огороди загон, чтобы никто не ушёл.\nОтметь, когда у тебя будут все четыре вида."}
+    en: {title: "A Herd of Your Own", text: "Breed cows, sheep, pigs and chickens — at least a pair each. Fence them in so no one wanders off.\nTick once you have all four."}
+
+  - id: a_coop
+    deps: [a_breed_basic]
+    roles: [breeder]
+    icon: farm_and_charm:chicken_coop
+    tasks: [{type: item, item: farm_and_charm:chicken_coop}]
+    optional: true
+    ru: {title: "Курятник", text: "Курятник собирает яйца сам — не нужно искать их по всему двору."}
+    en: {title: "The Chicken Coop", text: "A coop collects eggs by itself — no more hunting for them around the yard."}
+
+  - id: a_wool_colors
+    deps: [a_breed_basic]
+    roles: [breeder, builder]
+    icon: minecraft:red_wool
+    tasks: [{type: item, item: minecraft:white_wool, count: 32}]
+    ru: {title: "Шерсть для всех", text: "Шерсть нужна строителям (декор), инженерам (оболочки дирижаблей) и для пропитанной ткани. Покрась овец — шерсть будет цветной сразу."}
+    en: {title: "Wool for Everyone", text: "Wool goes to builders (decor), engineers (airship envelopes) and into waxed canvas. Dye sheep for coloured wool straight away."}
+
+  - id: a_honey
+    deps: [a_bees_hive]
+    roles: [breeder, cook]
+    icon: minecraft:honey_bottle
+    tasks: [{type: item, item: minecraft:honey_bottle, count: 8}]
+    ru: {title: "Мёд", text: "Мёд нужен повару (выпечка, медовуха) и алхимику (зелье «Плодородие»). Возьми бутылки и собери из улья."}
+    en: {title: "Honey", text: "Honey goes to the cook (baking, mead) and the alchemist (Fertility potion). Collect it from a hive with bottles."}
+
+  - id: a_wax
+    deps: [a_centrifuge]
+    roles: [breeder, engineer]
+    icon: productivebees:wax
+    tasks: [{type: item, item: productivebees:wax, count: 16}]
+    ru: {title: "Пчелиный воск", text: "Воск — главный ингредиент **пропитанной ткани** для дирижаблей. Ценится у: инженеров.\nЗдесь заводчик становится незаменимым для неба."}
+    en: {title: "Beeswax", text: "Wax is the key ingredient of **waxed canvas** for airships. Valued by: engineers.\nThis is where the breeder becomes essential to the sky."}
+
+  - id: a_nest_locator
+    deps: [a_bees_intro]
+    roles: [breeder]
+    icon: productivebees:nest_locator
+    tasks: [{type: item, item: productivebees:nest_locator}]
+    optional: true
+    ru: {title: "Поиск гнёзд", text: "Локатор указывает на ближайшее гнездо выбранного типа. Каменные, песчаные, снежные, адские — у каждого свои пчёлы."}
+    en: {title: "Finding Nests", text: "The locator points to the nearest nest of the chosen type. Stone, sand, snow, nether — each has its own bees."}
+
+  - id: a_bee_catcher
+    deps: [a_bees_hive]
+    roles: [breeder, engineer]
+    icon: productivebees:catcher
+    tasks: [{type: item, item: productivebees:catcher}]
+    optional: true
+    ru: {title: "Ловушка для пчёл", text: "Ловушка сама ловит пролетающих пчёл в клетки. Удобно для сбора новых видов."}
+    en: {title: "The Bee Catcher", text: "The catcher traps passing bees in cages by itself. Handy for collecting new species."}
+
+  - id: a_honey_gen
+    deps: [a_centrifuge]
+    roles: [breeder, engineer]
+    icon: productivebees:honey_generator
+    tasks: [{type: item, item: productivebees:honey_generator}]
+    optional: true
+    ru: {title: "Медовый генератор", text: "Мёд превращается в электричество. Пасека питает машины — ещё одно рукопожатие с инженером."}
+    en: {title: "The Honey Generator", text: "Honey becomes electricity. The apiary powers machines — another handshake with the engineer."}
+
+  - id: a_incubator
+    deps: [a_breeding]
+    roles: [breeder]
+    icon: productivebees:incubator
+    tasks: [{type: item, item: productivebees:incubator}]
+    optional: true
+    ru: {title: "Инкубатор", text: "Из личинок в инкубаторе выводятся новые пчёлы нужного вида."}
+    en: {title: "The Incubator", text: "Larvae in the incubator hatch into new bees of the chosen species."}
+
+  - id: a_croc
+    deps: [a_wildlife]
+    roles: [breeder, warrior]
+    icon: alexsmobs:crocodile_scute
+    tasks: [{type: item, item: alexsmobs:crocodile_scute, count: 4}]
+    ru: {title: "Крокодилья чешуя", text: "Крокодилы живут в болотах и мангровых лесах. Их чешуя — основа **драконьей обшивки** для боевых кораблей.\nЦенится у: воинов и инженеров. Осторожно — кусаются."}
+    en: {title: "Crocodile Scutes", text: "Crocodiles live in swamps and mangroves. Their scutes are the base of **dragon plating** for warships.\nValued by: warriors and engineers. Careful — they bite."}
+
+  - id: a_bear_fur
+    deps: [a_wildlife]
+    roles: [breeder]
+    icon: alexsmobs:bear_fur
+    tasks: [{type: item, item: alexsmobs:bear_fur}]
+    optional: true
+    ru: {title: "Медвежья шкура", text: "Гризли бродят по лесам. Их мех — для тёплой одежды и декора."}
+    en: {title: "Bear Fur", text: "Grizzlies roam the forests. Their fur makes warm clothing and decor."}
+
+  - id: a_fish_oil
+    deps: [a_wildlife, f_catch]
+    roles: [breeder, engineer]
+    icon: alexsmobs:fish_oil
+    tasks: [{type: item, item: alexsmobs:fish_oil, count: 4}]
+    optional: true
+    ru: {title: "Рыбий жир", text: "Рыбий жир из рыбы — сырьё для **лётной смазки** Aeronautics. Рыбак и заводчик снабжают небо."}
+    en: {title: "Fish Oil", text: "Fish oil is raw material for Aeronautics **aero lubricant**. The angler and breeder supply the sky."}
+
+  - id: a_naturalist
+    deps: [a_wildlife]
+    roles: [breeder]
+    icon: naturalist:antler
+    tasks: [{type: item, item: naturalist:antler}]
+    optional: true
+    ru: {title: "Рога оленя", text: "Олени Naturalist сбрасывают рога весной — не нужно никого обижать. Рога идут на декор и инструменты."}
+    en: {title: "Deer Antlers", text: "Naturalist deer shed antlers in spring — nobody gets hurt. Antlers go into decor and tools."}
+
+  - id: a_butterflies
+    deps: [a_wildlife]
+    roles: [breeder, gardener]
+    icon: naturalist:butterfly
+    tasks: [{type: item, item: naturalist:butterfly}]
+    optional: true
+    ru: {title: "Бабочки в саду", text: "Поймай бабочку сачком и выпусти у грядок — бабочки опыляют растения, урожай растёт быстрее."}
+    en: {title: "Butterflies in the Garden", text: "Catch a butterfly with a net and release it by your beds — butterflies pollinate plants and crops grow faster."}
+
+  - id: a_dragonfly
+    deps: [a_pets]
+    roles: [breeder]
+    icon: crittersandcompanions:dragonfly_wing
+    tasks: [{type: item, item: crittersandcompanions:dragonfly_wing}]
+    optional: true
+    ru: {title: "Стрекоза-питомец", text: "Стрекозу можно приручить и даже надеть на неё броню. Очень красиво летает над прудом."}
+    en: {title: "A Dragonfly Pet", text: "A dragonfly can be tamed and even armoured. It looks beautiful flying over a pond."}
+
+  - id: a_copper_golem
+    deps: [a_wildlife]
+    roles: [breeder, engineer]
+    icon: minecraft:copper_block
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Медный голем", text: "Friends & Foes: медный голем нажимает медные кнопки — маленький помощник для механизмов. Собери его из медного блока и тыквы."}
+    en: {title: "The Copper Golem", text: "Friends & Foes: the copper golem presses copper buttons — a little helper for contraptions. Build it from a copper block and a pumpkin."}

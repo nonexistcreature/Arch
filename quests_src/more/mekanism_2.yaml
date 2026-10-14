@@ -1,0 +1,144 @@
+extends: mekanism
+quests:
+  - id: m_crusher
+    deps: [m_power]
+    roles: [engineer]
+    icon: mekanism:crusher
+    tasks: [{type: item, item: mekanism:crusher}]
+    ru: {title: "Дробилка", text: "Дробит слитки в пыль, булыжник в гравий, урожай — в биотопливо. Пыль металлов плавится в слитки."}
+    en: {title: "The Crusher", text: "Crushes ingots into dust, cobble into gravel, crops into bio-fuel. Metal dust smelts into ingots."}
+
+  - id: m_smelter
+    deps: [m_power]
+    roles: [engineer]
+    icon: mekanism:energized_smelter
+    tasks: [{type: item, item: mekanism:energized_smelter}]
+    ru: {title: "Электропечь", text: "Плавит быстро и без угля. С ускорителями — очень быстро."}
+    en: {title: "The Energized Smelter", text: "Smelts quickly without coal. With speed upgrades — very quickly."}
+
+  - id: m_cables
+    deps: [m_power]
+    roles: [engineer]
+    icon: mekanism:basic_universal_cable
+    tasks: [{type: item, item: mekanism:basic_universal_cable, count: 16}, {type: item, item: mekanism:basic_energy_cube}]
+    ru: {title: "Провода и накопитель", text: "Универсальный кабель несёт энергию, куб хранит её. Конфигуратор меняет, какая сторона принимает, а какая отдаёт."}
+    en: {title: "Cables and Storage", text: "Universal cable carries energy, the cube stores it. The configurator sets which side inputs and which outputs."}
+
+  - id: m_configurator
+    deps: [m_cables]
+    roles: [engineer]
+    icon: mekanism:configurator
+    tasks: [{type: item, item: mekanism:configurator}]
+    ru: {title: "Конфигуратор", text: "Главный инструмент Mekanism: настраивает стороны машин, вращает блоки, выгружает содержимое."}
+    en: {title: "The Configurator", text: "Mekanism's main tool: sets machine sides, rotates blocks, empties contents."}
+
+  - id: m_upgrades
+    deps: [m_circuit]
+    roles: [engineer]
+    icon: mekanism:upgrade_speed
+    tasks: [{type: item, item: mekanism:upgrade_speed, count: 2}, {type: item, item: mekanism:upgrade_energy, count: 2}]
+    ru: {title: "Улучшения машин", text: "Улучшения скорости ускоряют, энергии — снижают расход. Вставляются в любую машину Mekanism."}
+    en: {title: "Machine Upgrades", text: "Speed upgrades go faster, energy upgrades cut usage. They fit any Mekanism machine."}
+
+  - id: m_logistics
+    deps: [m_circuit]
+    roles: [engineer]
+    icon: mekanism:basic_logistical_transporter
+    tasks: [{type: item, item: mekanism:basic_logistical_transporter, count: 16}]
+    ru: {title: "Логистические трубы", text: "Трубы Mekanism переносят предметы с фильтрами и цветными метками. Альтернатива конвейерам Create."}
+    en: {title: "Logistical Transporters", text: "Mekanism pipes move items with filters and colour tags. An alternative to Create belts."}
+
+  - id: m_solar
+    deps: [m_power]
+    roles: [engineer]
+    icon: mekanismgenerators:solar_generator
+    tasks: [{type: item, item: mekanismgenerators:solar_generator, count: 4}]
+    optional: true
+    ru: {title: "Солнечная энергия", text: "Тихая и чистая энергия днём. Не загрязняет воздух — садовод одобрит."}
+    en: {title: "Solar Power", text: "Quiet, clean daytime power. No air pollution — the gardener approves."}
+
+  - id: m_wind
+    deps: [m_power]
+    roles: [engineer]
+    icon: mekanismgenerators:wind_generator
+    tasks: [{type: item, item: mekanismgenerators:wind_generator}]
+    optional: true
+    ru: {title: "Ветрогенератор", text: "Чем выше стоит — тем больше энергии. Поставь на горе или на летающем острове."}
+    en: {title: "The Wind Generator", text: "The higher it stands, the more power. Put it on a mountain or a floating island."}
+
+  - id: m_bio_gen
+    deps: [g_biofuel]
+    roles: [engineer, gardener]
+    icon: mekanismgenerators:bio_generator
+    tasks: [{type: item, item: mekanismgenerators:bio_generator}]
+    ru: {title: "Биогенератор", text: "Сжигает биотопливо садовода. Без смога — и без шахты."}
+    en: {title: "The Bio-Generator", text: "Burns the gardener's bio-fuel. No smog — and no mine."}
+
+  - id: m_electrolytic
+    deps: [m_circuit]
+    roles: [engineer]
+    icon: mekanism:electrolytic_separator
+    tasks: [{type: item, item: mekanism:electrolytic_separator}]
+    ru: {title: "Электролиз", text: "Разделяет воду на водород и кислород. Кислород — для утроения руды, водород — для ранца и генератора."}
+    en: {title: "Electrolysis", text: "Splits water into hydrogen and oxygen. Oxygen triples ore; hydrogen fuels the jetpack and a generator."}
+
+  - id: m_injection
+    deps: [m_purify]
+    roles: [engineer]
+    icon: mekanism:chemical_injection_chamber
+    tasks: [{type: item, item: mekanism:chemical_injection_chamber}]
+    optional: true
+    ru: {title: "Учетверение руды", text: "Камера химического впрыска с хлороводородом даёт 4 слитка с руды. Нужна химическая линия: соль → рассол → хлор."}
+    en: {title: "Ore Quadrupling", text: "The chemical injection chamber with hydrogen chloride gives 4 ingots per ore. Needs a chemistry line: salt → brine → chlorine."}
+
+  - id: m_digital_miner
+    deps: [m_upgrades]
+    roles: [engineer]
+    icon: mekanism:digital_miner
+    tasks: [{type: item, item: mekanism:digital_miner}]
+    ru: {title: "Цифровой шахтёр", text: "Копает выбранные руды в огромном радиусе и не оставляет следов на поверхности. Король автоматизации шахт."}
+    en: {title: "The Digital Miner", text: "Mines chosen ores in a huge radius and leaves the surface untouched. The king of mine automation."}
+
+  - id: m_teleporter
+    deps: [m_upgrades]
+    roles: [engineer]
+    icon: mekanism:teleporter
+    tasks: [{type: item, item: mekanism:teleporter}, {type: item, item: mekanism:teleporter_frame, count: 9}]
+    optional: true
+    ru: {title: "Телепорт", text: "Портальная рамка Mekanism переносит между базами — даже в другие измерения."}
+    en: {title: "The Teleporter", text: "A Mekanism portal frame carries you between bases — even across dimensions."}
+
+  - id: m_qio
+    deps: [m_upgrades]
+    roles: [engineer]
+    icon: mekanism:qio_dashboard
+    tasks: [{type: item, item: mekanism:qio_drive_array}, {type: item, item: mekanism:qio_dashboard}]
+    optional: true
+    ru: {title: "QIO", text: "Квантовое хранилище Mekanism — альтернатива AE2 без каналов. Выбери, что ближе твоей компании."}
+    en: {title: "QIO", text: "Mekanism's quantum storage — an alternative to AE2 without channels. Pick what suits your group."}
+
+  - id: m_atomic_disassembler
+    deps: [m_upgrades]
+    roles: [engineer, warrior]
+    icon: mekanism:atomic_disassembler
+    tasks: [{type: item, item: mekanism:atomic_disassembler}]
+    optional: true
+    ru: {title: "Атомный дезинтегратор", text: "Инструмент-всё-в-одном: кирка, топор, лопата и меч. Работает от энергии."}
+    en: {title: "The Atomic Disassembler", text: "An all-in-one tool: pickaxe, axe, shovel and sword. Runs on energy."}
+
+  - id: m_induction
+    deps: [m_turbine]
+    roles: [engineer]
+    icon: mekanism:basic_induction_cell
+    tasks: [{type: item, item: mekanism:induction_casing, count: 16}, {type: item, item: mekanism:basic_induction_cell, count: 4}]
+    ru: {title: "Индукционная матрица", text: "Огромный накопитель энергии — сердце электросети всей компании."}
+    en: {title: "The Induction Matrix", text: "A huge energy store — the heart of the whole group's power grid."}
+
+  - id: m_boiler
+    deps: [m_fission]
+    roles: [engineer]
+    icon: mekanism:boiler_casing
+    tasks: [{type: item, item: mekanism:boiler_casing, count: 32}]
+    optional: true
+    ru: {title: "Термобойлер", text: "Перегретый натрий из реактора кипятит воду в бойлере — пар идёт в турбину. Классическая АЭС."}
+    en: {title: "The Thermoelectric Boiler", text: "Superheated sodium from the reactor boils water in the boiler — steam goes to the turbine. A classic nuclear plant."}

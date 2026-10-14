@@ -1,0 +1,133 @@
+extends: garden
+quests:
+  - id: g_season_sensor
+    deps: [g_seasons]
+    roles: [gardener, engineer]
+    icon: sereneseasons:season_sensor
+    tasks: [{type: item, item: sereneseasons:season_sensor}]
+    optional: true
+    ru: {title: "Датчик сезонов", text: "Даёт редстоун-сигнал в зависимости от сезона. Можно автоматически открывать теплицу зимой или включать полив летом."}
+    en: {title: "The Season Sensor", text: "Gives a redstone signal depending on the season. Open the greenhouse in winter or start sprinklers in summer automatically."}
+
+  - id: g_farm_charm_crops
+    deps: [g_veggies]
+    roles: [gardener, cook]
+    icon: farm_and_charm:corn
+    tasks:
+      - {type: item, item: farm_and_charm:corn, count: 8}
+      - {type: item, item: farm_and_charm:barley, count: 8}
+      - {type: item, item: farm_and_charm:oat, count: 8}
+      - {type: item, item: farm_and_charm:strawberry, count: 8}
+    ru: {title: "Деревенские культуры", text: "Кукуруза, ячмень, овёс, клубника — Farm & Charm. Дикие растения встречаются на лугах, из них — семена.\nОвёс и ячмень — ещё и корм для скота."}
+    en: {title: "Country Crops", text: "Corn, barley, oats, strawberries — Farm & Charm. Wild plants grow in meadows; harvest them for seeds.\nOats and barley also feed livestock."}
+
+  - id: g_scarecrow
+    deps: [g_farm_charm_crops]
+    roles: [gardener, builder]
+    icon: farm_and_charm:scarecrow
+    tasks: [{type: item, item: farm_and_charm:scarecrow}]
+    optional: true
+    ru: {title: "Пугало", text: "Отгоняет ворон и кроликов от грядок. И просто красиво стоит посреди поля."}
+    en: {title: "The Scarecrow", text: "Keeps crows and rabbits away from your beds. And looks lovely in the middle of a field."}
+
+  - id: g_plow
+    deps: [g_farm_charm_crops]
+    roles: [gardener]
+    icon: farm_and_charm:plow
+    tasks: [{type: item, item: farm_and_charm:plow}]
+    optional: true
+    ru: {title: "Плуг", text: "Плуг, который тянет лошадь, вспахивает широкую полосу. Старый добрый способ для большого поля."}
+    en: {title: "The Plough", text: "A horse-drawn plough tills a wide strip. The good old way to work a big field."}
+
+  - id: g_fertilizer
+    deps: [g_rich_soil]
+    roles: [gardener]
+    icon: farm_and_charm:fertilizer
+    tasks: [{type: item, item: farm_and_charm:fertilizer, count: 16}]
+    ru: {title: "Удобрение", text: "Удобрение ускоряет рост сильнее костной муки и делает почву плодородной надолго."}
+    en: {title: "Fertiliser", text: "Fertiliser speeds growth more than bone meal and keeps soil fertile for a long time."}
+
+  - id: g_ma_farmland
+    deps: [g_ma_seeds]
+    roles: [gardener]
+    icon: mysticalagriculture:inferium_farmland
+    tasks: [{type: item, item: mysticalagriculture:inferium_farmland, count: 9}]
+    ru: {title: "Инфериумная грядка", text: "Особая земля: растения Mystical Agriculture на ней дают больше эссенции. Улучшается вместе со ступенями."}
+    en: {title: "Inferium Farmland", text: "Special soil: Mystical Agriculture plants on it yield more essence. It upgrades along with the tiers."}
+
+  - id: g_ma_tertium
+    deps: [g_ma_tiers]
+    roles: [gardener]
+    icon: mysticalagriculture:tertium_essence
+    tasks: [{type: item, item: mysticalagriculture:tertium_essence, count: 16}]
+    ru: {title: "Тертиум", text: "Третья ступень. Открывает золото, редстоун, лазурит, кварц и многое другое."}
+    en: {title: "Tertium", text: "The third tier. Unlocks gold, redstone, lapis, quartz and much more."}
+
+  - id: g_ma_gold
+    deps: [g_ma_tertium]
+    roles: [gardener]
+    icon: mysticalagriculture:gold_seeds
+    tasks: [{type: item, item: mysticalagriculture:gold_seeds}]
+    optional: true
+    ru: {title: "Золотое поле", text: "Золото растёт на грядке. Ценится у: инженеров (электроника) и магов (ритуалы)."}
+    en: {title: "A Golden Field", text: "Gold grows in a bed. Valued by: engineers (electronics) and mages (rituals)."}
+
+  - id: g_ma_imperium
+    deps: [g_ma_tertium]
+    roles: [gardener]
+    icon: mysticalagriculture:imperium_essence
+    tasks: [{type: item, item: mysticalagriculture:imperium_essence, count: 16}]
+    ru: {title: "Империум", text: "Четвёртая ступень: алмазы, изумруды, редкие металлы модов. Нужен **алтарь наполнения** с пьедесталами."}
+    en: {title: "Imperium", text: "The fourth tier: diamonds, emeralds, rare modded metals. Needs the **infusion altar** with pedestals."}
+
+  - id: g_ma_altar
+    deps: [g_ma_imperium]
+    roles: [gardener]
+    icon: mysticalagriculture:infusion_altar
+    tasks: [{type: item, item: mysticalagriculture:infusion_altar}, {type: item, item: mysticalagriculture:infusion_pedestal, count: 8}]
+    ru: {title: "Алтарь наполнения", text: "Алтарь и восемь пьедесталов — ритуальный крафт сильнейших семян. Садовод становится немного магом."}
+    en: {title: "The Infusion Altar", text: "An altar and eight pedestals — ritual crafting of the strongest seeds. The gardener becomes a bit of a mage."}
+
+  - id: g_ma_diamond
+    deps: [g_ma_altar]
+    roles: [gardener]
+    icon: mysticalagriculture:diamond_seeds
+    tasks: [{type: item, item: mysticalagriculture:diamond_seeds}]
+    rewards: [{type: xp_levels, count: 10}]
+    ru: {title: "Алмазный сад", text: "Алмазы растут. Шахтёры плачут, садовод улыбается."}
+    en: {title: "The Diamond Garden", text: "Diamonds grow. Miners weep, the gardener smiles."}
+
+  - id: g_ma_accelerator
+    deps: [g_ma_tertium]
+    roles: [gardener]
+    icon: mysticalagriculture:inferium_growth_accelerator
+    tasks: [{type: item, item: mysticalagriculture:inferium_growth_accelerator, count: 4}]
+    optional: true
+    ru: {title: "Ускоритель роста", text: "Ставится под грядку и ускоряет рост растений над собой. Чем выше ступень — тем быстрее."}
+    en: {title: "The Growth Accelerator", text: "Placed under a bed, it speeds up the plants above. Higher tiers are faster."}
+
+  - id: g_ma_harvester
+    deps: [g_ma_accelerator]
+    roles: [gardener, engineer]
+    icon: mysticalagriculture:harvester
+    tasks: [{type: item, item: mysticalagriculture:harvester}]
+    optional: true
+    ru: {title: "Сборщик урожая", text: "Сам собирает урожай вокруг себя и складывает в сундук. Ферма эссенций без рук."}
+    en: {title: "The Harvester", text: "Collects crops around itself into a chest. A hands-free essence farm."}
+
+  - id: g_soul
+    deps: [g_ma_tertium]
+    roles: [gardener, warrior]
+    icon: mysticalagriculture:soul_jar
+    tasks: [{type: item, item: mysticalagriculture:soul_jar}]
+    optional: true
+    ru: {title: "Души мобов", text: "Банки душ собирают души мобов специальным кинжалом. Из них растут семена мобов: кожа, перья, нить — без охоты.\nНужна помощь воина."}
+    en: {title: "Mob Souls", text: "Soul jars collect mob souls with a special dagger. They grow mob seeds: leather, feathers, string — no hunting.\nYou'll need a warrior's help."}
+
+  - id: g_biofuel
+    deps: [g_veggies, m_power]
+    roles: [gardener, engineer]
+    icon: mekanism:bio_fuel
+    tasks: [{type: item, item: mekanism:bio_fuel, count: 16}]
+    ru: {title: "Биотопливо", text: "Урожай в дробилке Mekanism превращается в биотопливо — топливо для генератора. Садовод кормит электростанцию."}
+    en: {title: "Bio-Fuel", text: "Crops in a Mekanism crusher become bio-fuel for the bio-generator. The gardener feeds the power plant."}

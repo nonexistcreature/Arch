@@ -10,11 +10,13 @@ reg = json.loads((ROOT / "tests/out/registry.json").read_text("utf8"))
 items, ents = set(reg["item"]), set(reg["entity_type"])
 errs, warns = [], []
 chapters, allq = [], {}
-for f in sorted((ROOT / "quests_src").glob("*.yaml")):
-    d = yaml.safe_load(f.read_text("utf8"))
-    chapters.append((f.name, d))
+sys.path.insert(0, str(ROOT / "tools"))
+from quest_sources import load_chapters
+for d in load_chapters():
+    chapters.append((d["_file"], d))
     for x in d["quests"]:
-        allq[x["id"]] = (f.name, x)
+        if x["id"] in allq: errs.append(f"duplicate quest id {x['id']}")
+        allq[x["id"]] = (d["_file"], x)
 
 def chk_item(where, i):
     if i not in items: errs.append(f"{where}: unknown item {i}")

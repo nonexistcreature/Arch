@@ -417,6 +417,98 @@
 		"With a mechanical mixer and a Farmer's Delight pot, the kitchen runs itself."
 		"&lWho helps:&r the engineer handles shafts, the cook handles recipes. A two-person job!"
 	]
+	quest.4F947AD7FACA9BC3.title: "A Better Knife"
+	quest.4F947AD7FACA9BC3.quest_desc: [
+		"An iron knife lasts longer and cuts faster. Later come diamond and netherite."
+		"A knife is also a weapon: quick strikes, great against small critters."
+	]
+	quest.0C3B5AE748A47953.title: "The Stove"
+	quest.0C3B5AE748A47953.quest_desc: [
+		"A stove is an everlasting flame for the pot and skillet. You can also grill right on top: put meat on it."
+		"Made of bricks and a furnace — pretty and safer than a campfire."
+	]
+	quest.4B552557EC185A3E.title: "Kitchen Cabinets"
+	quest.4B552557EC185A3E.quest_desc: [
+		"Cabinets are storage that looks like a real kitchen. Available in every wood type."
+	]
+	quest.00F65B21E2465E69.title: "Three Soups"
+	quest.00F65B21E2465E69.quest_desc: [
+		"Vegetable, pumpkin and chicken — soups grant Comfort: warmth and slow healing."
+		"Perfect before a trip to snowy lands."
+	]
+	quest.45CEAF11E8EBFDB2.title: "Pasta with Meatballs"
+	quest.45CEAF11E8EBFDB2.quest_desc: [
+		"A hearty dish of raw pasta and minced beef. Grants &lHealth Boost&r for 10 minutes — a warrior favourite."
+	]
+	quest.5733BC9DDB8BF2F2.title: "The Miner's Pie"
+	quest.5733BC9DDB8BF2F2.quest_desc: [
+		"In Arkhaven shepherd's pie grants &lHaste II&r for 5 minutes — miners dig twice as fast."
+		"Valued by: engineers and miners."
+	]
+	quest.2BD21258DE662010.title: "Rice Dishes"
+	quest.2BD21258DE662010.quest_desc: [
+		"Fried rice and mushroom rice. In Arkhaven mushroom rice grants night vision — a gift for cavers."
+	]
+	quest.76C0023FD5EBA6FC.title: "Rolls"
+	quest.76C0023FD5EBA6FC.quest_desc: [
+		"Rice + fish from the angler = rolls. Quick to make and varied — great for your food book."
+	]
+	quest.01C12854E8F1B593.title: "Pies"
+	quest.01C12854E8F1B593.quest_desc: [
+		"A pie is placed whole on a table and served in slices. A great treat for a shared kitchen."
+	]
+	quest.6DD2CF16ED7E2503.title: "Roast Chicken"
+	quest.6DD2CF16ED7E2503.quest_desc: [
+		"Another feast for the whole table. Lovely after coming back from a dungeon."
+	]
+	quest.5FAC855B23FEA2BD.title: "Stuffed Pumpkin"
+	quest.5FAC855B23FEA2BD.quest_desc: [
+		"An autumn dish and the star of the Harvest Festival. Pumpkins come from the gardener."
+	]
+	quest.49B4C548F631D1A2.title: "The Cheese Shop"
+	quest.49B4C548F631D1A2.quest_desc: [
+		"Goat, sheep and buffalo cheese — the milk of three alpine animals."
+		"The breeder brings the herd, the cook makes the cheese. A job for two."
+	]
+	quest.414B31268F62EAEE.title: "Cheese Dishes"
+	quest.414B31268F62EAEE.quest_desc: [
+		"A cheese tart grants regeneration. A sandwich is quick food for the road."
+	]
+	quest.6B63BF6B84A13FC1.title: "The Wine List"
+	quest.6B63BF6B84A13FC1.quest_desc: [
+		"Noir, cherry, apple — each wine has its own effect. Check them in EMI and pick a favourite."
+	]
+	quest.29929BA10B235878.title: "The Wine Cellar"
+	quest.29929BA10B235878.quest_desc: [
+		"Wine on a rack grows stronger with age. Build a cellar under the tavern."
+	]
+	quest.5EBE9D2E71E7566A.title: "Mead"
+	quest.5EBE9D2E71E7566A.quest_desc: [
+		"Honey from the breeder's bees + a keg = mead. A drink for vikings and good parties."
+	]
+	quest.4C618506D5B94FF6.title: "Fiery Fondue"
+	quest.4C618506D5B94FF6.quest_desc: [
+		"Cheese + fire. Grants fire resistance for 8 minutes — just what you need before the Nether."
+	]
+	quest.618210C3D04CE26C.title: "The Tea Ceremony"
+	quest.618210C3D04CE26C.quest_desc: [
+		"In Arkhaven green tea restores Iron's Spells mana. Black tea perks you up, lavender calms you."
+		"Valued by: mages."
+	]
+	quest.070D89334A3257F9.title: "The Sink"
+	quest.070D89334A3257F9.quest_desc: [
+		"Endless water for every kitchen recipe. No more running around with buckets."
+	]
+	quest.32F8FC9DC50D1AD8.title: "Counters"
+	quest.32F8FC9DC50D1AD8.quest_desc: [
+		"Counters are ingredient storage the cooking table can see. The more you have, the more one-click recipes."
+	]
+	quest.02DC973247274ED0.title: "Keeper of the Tavern"
+	quest.02DC973247274ED0.quest_subtitle: "Wine, cheese, mead and a feast"
+	quest.02DC973247274ED0.quest_desc: [
+		"You have everything for a real tavern. Invite your friends and watch their hearts grow."
+		"Next: the Grand Restaurant in Great Works."
+	]
 	chapter.62164B6D488C1BD6.title: "Garden, Seasons, Harvest"
 	chapter.62164B6D488C1BD6.chapter_subtitle: [
 		"From a seed to resources for everyone"
@@ -523,6 +615,68 @@
 		"You feed the group and supply its metal. Next up: bees (chapter \"Animals\") and"
 		"the Terraformer in \"Great Works\": it changes the biome of whole districts."
 	]
+	quest.7CB48C4FD3A9F3DF.title: "The Season Sensor"
+	quest.7CB48C4FD3A9F3DF.quest_desc: [
+		"Gives a redstone signal depending on the season. Open the greenhouse in winter or start sprinklers in summer automatically."
+	]
+	quest.21945C96E7DA4646.title: "Country Crops"
+	quest.21945C96E7DA4646.quest_desc: [
+		"Corn, barley, oats, strawberries — Farm & Charm. Wild plants grow in meadows; harvest them for seeds."
+		"Oats and barley also feed livestock."
+	]
+	quest.51F81B7358F45A59.title: "The Scarecrow"
+	quest.51F81B7358F45A59.quest_desc: [
+		"Keeps crows and rabbits away from your beds. And looks lovely in the middle of a field."
+	]
+	quest.0D9885D7100AC406.title: "The Plough"
+	quest.0D9885D7100AC406.quest_desc: [
+		"A horse-drawn plough tills a wide strip. The good old way to work a big field."
+	]
+	quest.159B0875B4B3DB6C.title: "Fertiliser"
+	quest.159B0875B4B3DB6C.quest_desc: [
+		"Fertiliser speeds growth more than bone meal and keeps soil fertile for a long time."
+	]
+	quest.5FC48417FEF5D55A.title: "Inferium Farmland"
+	quest.5FC48417FEF5D55A.quest_desc: [
+		"Special soil: Mystical Agriculture plants on it yield more essence. It upgrades along with the tiers."
+	]
+	quest.1B78140E6F7A62BD.title: "Tertium"
+	quest.1B78140E6F7A62BD.quest_desc: [
+		"The third tier. Unlocks gold, redstone, lapis, quartz and much more."
+	]
+	quest.315AD198F9D70C16.title: "A Golden Field"
+	quest.315AD198F9D70C16.quest_desc: [
+		"Gold grows in a bed. Valued by: engineers (electronics) and mages (rituals)."
+	]
+	quest.4A2580C75ABA966B.title: "Imperium"
+	quest.4A2580C75ABA966B.quest_desc: [
+		"The fourth tier: diamonds, emeralds, rare modded metals. Needs the &linfusion altar&r with pedestals."
+	]
+	quest.5D15BA5A782800D0.title: "The Infusion Altar"
+	quest.5D15BA5A782800D0.quest_desc: [
+		"An altar and eight pedestals — ritual crafting of the strongest seeds. The gardener becomes a bit of a mage."
+	]
+	quest.243227B8EF08F684.title: "The Diamond Garden"
+	quest.243227B8EF08F684.quest_desc: [
+		"Diamonds grow. Miners weep, the gardener smiles."
+	]
+	quest.627590F45B4E0068.title: "The Growth Accelerator"
+	quest.627590F45B4E0068.quest_desc: [
+		"Placed under a bed, it speeds up the plants above. Higher tiers are faster."
+	]
+	quest.33A17CFAEB1BE951.title: "The Harvester"
+	quest.33A17CFAEB1BE951.quest_desc: [
+		"Collects crops around itself into a chest. A hands-free essence farm."
+	]
+	quest.1DD56AA69632697C.title: "Mob Souls"
+	quest.1DD56AA69632697C.quest_desc: [
+		"Soul jars collect mob souls with a special dagger. They grow mob seeds: leather, feathers, string — no hunting."
+		"You'll need a warrior's help."
+	]
+	quest.6C8A77DB5B4722EE.title: "Bio-Fuel"
+	quest.6C8A77DB5B4722EE.quest_desc: [
+		"Crops in a Mekanism crusher become bio-fuel for the bio-generator. The gardener feeds the power plant."
+	]
 	chapter.2C295B34DEBBAD70.title: "Animals, Bees, Dragons"
 	chapter.2C295B34DEBBAD70.chapter_subtitle: [
 		"Breed, tame, discover"
@@ -613,6 +767,73 @@
 	quest.08258F26A6CD43D5.quest_desc: [
 		"You've got bees, the encyclopedia and a dragon egg. Next: the \"Collections\" chapter —"
 		"every bee species, every dragon breed and rare beasts."
+	]
+	quest.01F1978AF428CF7A.title: "A Herd of Your Own"
+	quest.01F1978AF428CF7A.quest_desc: [
+		"Breed cows, sheep, pigs and chickens — at least a pair each. Fence them in so no one wanders off."
+		"Tick once you have all four."
+	]
+	quest.64D3410CC19B67C9.title: "The Chicken Coop"
+	quest.64D3410CC19B67C9.quest_desc: [
+		"A coop collects eggs by itself — no more hunting for them around the yard."
+	]
+	quest.476E92FC8FA01BD2.title: "Wool for Everyone"
+	quest.476E92FC8FA01BD2.quest_desc: [
+		"Wool goes to builders (decor), engineers (airship envelopes) and into waxed canvas. Dye sheep for coloured wool straight away."
+	]
+	quest.62A1724CA0AF2D93.title: "Honey"
+	quest.62A1724CA0AF2D93.quest_desc: [
+		"Honey goes to the cook (baking, mead) and the alchemist (Fertility potion). Collect it from a hive with bottles."
+	]
+	quest.2EB248A3855853E5.title: "Beeswax"
+	quest.2EB248A3855853E5.quest_desc: [
+		"Wax is the key ingredient of &lwaxed canvas&r for airships. Valued by: engineers."
+		"This is where the breeder becomes essential to the sky."
+	]
+	quest.5B230BCEB3D60F81.title: "Finding Nests"
+	quest.5B230BCEB3D60F81.quest_desc: [
+		"The locator points to the nearest nest of the chosen type. Stone, sand, snow, nether — each has its own bees."
+	]
+	quest.5D23827FB88F8BB2.title: "The Bee Catcher"
+	quest.5D23827FB88F8BB2.quest_desc: [
+		"The catcher traps passing bees in cages by itself. Handy for collecting new species."
+	]
+	quest.7AEC96EC3DFA61E1.title: "The Honey Generator"
+	quest.7AEC96EC3DFA61E1.quest_desc: [
+		"Honey becomes electricity. The apiary powers machines — another handshake with the engineer."
+	]
+	quest.260142089968250C.title: "The Incubator"
+	quest.260142089968250C.quest_desc: [
+		"Larvae in the incubator hatch into new bees of the chosen species."
+	]
+	quest.31A649466EC5B0A1.title: "Crocodile Scutes"
+	quest.31A649466EC5B0A1.quest_desc: [
+		"Crocodiles live in swamps and mangroves. Their scutes are the base of &ldragon plating&r for warships."
+		"Valued by: warriors and engineers. Careful — they bite."
+	]
+	quest.1F6B650E813930CE.title: "Bear Fur"
+	quest.1F6B650E813930CE.quest_desc: [
+		"Grizzlies roam the forests. Their fur makes warm clothing and decor."
+	]
+	quest.660352F7C57C7229.title: "Fish Oil"
+	quest.660352F7C57C7229.quest_desc: [
+		"Fish oil is raw material for Aeronautics &laero lubricant&r. The angler and breeder supply the sky."
+	]
+	quest.2CB166812FBDDB4A.title: "Deer Antlers"
+	quest.2CB166812FBDDB4A.quest_desc: [
+		"Naturalist deer shed antlers in spring — nobody gets hurt. Antlers go into decor and tools."
+	]
+	quest.7B663457FD4E47AC.title: "Butterflies in the Garden"
+	quest.7B663457FD4E47AC.quest_desc: [
+		"Catch a butterfly with a net and release it by your beds — butterflies pollinate plants and crops grow faster."
+	]
+	quest.1958E45AF97140BD.title: "A Dragonfly Pet"
+	quest.1958E45AF97140BD.quest_desc: [
+		"A dragonfly can be tamed and even armoured. It looks beautiful flying over a pond."
+	]
+	quest.035FE318376C81BB.title: "The Copper Golem"
+	quest.035FE318376C81BB.quest_desc: [
+		"Friends & Foes: the copper golem presses copper buttons — a little helper for contraptions. Build it from a copper block and a pumpkin."
 	]
 	chapter.57DD3485DB076FB1.title: "Fishing"
 	chapter.57DD3485DB076FB1.chapter_subtitle: [
@@ -807,6 +1028,86 @@
 	quest.5FBE8D5CCCE83C71.quest_desc: [
 		"You have steam, a train and an automated farm. Next step: &lthe sky&r — chapter \"Sky & Roads\" for planes and airships."
 	]
+	quest.7861F972337E213A.title: "The Millstone"
+	quest.7861F972337E213A.quest_desc: [
+		"A millstone grinds wheat into flour, bones into bone meal, gravel into flint. A simple first machine."
+	]
+	quest.45E52B7675E48E3D.title: "The Depot"
+	quest.45E52B7675E48E3D.quest_desc: [
+		"A stand under a press or deployer. Drop an ingot in, take a sheet out. The base of manual lines."
+	]
+	quest.087DF855D6631721.title: "Funnels and Chutes"
+	quest.087DF855D6631721.quest_desc: [
+		"A funnel moves items between a belt and a chest, a chute drops items downward. With them the line runs hands-free."
+	]
+	quest.50FDEED93633617E.title: "Ore Washing"
+	quest.50FDEED93633617E.quest_desc: [
+		"Crushed ore washed by a fan through water yields bonus nuggets. Together with crushing — nearly triple the output."
+	]
+	quest.6EFA612B7E06CDA1.title: "The Mechanical Saw"
+	quest.6EFA612B7E06CDA1.quest_desc: [
+		"On a belt a saw cuts logs into planks; on a moving frame it fells trees. An automatic lumber mill in half an hour."
+	]
+	quest.4842E7CF7AF8A692.title: "Clutch and Gearshift"
+	quest.4842E7CF7AF8A692.quest_desc: [
+		"A clutch disconnects a shaft on a redstone signal, a gearshift reverses it. That's how lifts and gates are controlled."
+	]
+	quest.492AF3B3494FC98F.title: "The Elevator"
+	quest.492AF3B3494FC98F.quest_desc: [
+		"An elevator pulley + floor contacts = a real lift with buttons. Perfect for a mage's tower or a mine shaft."
+	]
+	quest.0918D6D0D5C847D6.title: "The Item Vault"
+	quest.0918D6D0D5C847D6.quest_desc: [
+		"A vault grows by blocks: place a 2×2×4 and you have a huge chest for belts."
+	]
+	quest.4031E8667755DC63.title: "Spout and Drain"
+	quest.4031E8667755DC63.quest_desc: [
+		"The spout fills bottles and buckets on a belt, the drain empties them. Honey, milk, chocolate — all automatic."
+	]
+	quest.626D50B98EDCF165.title: "The Chocolate Factory"
+	quest.626D50B98EDCF165.quest_desc: [
+		"Cocoa, milk and sugar in the mixer — and a river of chocolate. Create Confectionery adds candy and gingerbread."
+	]
+	quest.77513643791B2DE5.title: "The Mechanical Crafter"
+	quest.77513643791B2DE5.quest_desc: [
+		"A grid of mechanical crafters builds big recipes by itself. Needed for cannons, rockets and large machines."
+	]
+	quest.4CF9CAB1D7B00C1A.title: "Diving Gear"
+	quest.4CF9CAB1D7B00C1A.quest_desc: [
+		"A copper backtank of compressed air and a helmet — breathe underwater for ages. The tank also powers Create tools."
+	]
+	quest.7D91FDAB52BA16A2.title: "The Extendo Grip"
+	quest.7D91FDAB52BA16A2.quest_desc: [
+		"The grip extends your reach — building at height becomes much easier."
+	]
+	quest.7FB122966F58C63E.title: "The Toolbox"
+	quest.7FB122966F58C63E.quest_desc: [
+		"A toolbox holds your tools and a hotkey pulls them from anywhere nearby. Order in the workshop."
+	]
+	quest.5375F9873F5AC43D.title: "The Display Board"
+	quest.5375F9873F5AC43D.quest_desc: [
+		"A display link shows storage contents, train schedules, machine speed. Build a station with an arrivals board!"
+	]
+	quest.5C4FE191A3A807BE.title: "Signals"
+	quest.5C4FE191A3A807BE.quest_desc: [
+		"Signals split tracks into blocks so trains don't collide. Needed as soon as there's more than one train."
+	]
+	quest.51969B0301BA1EDC.title: "Steam 'n' Rails"
+	quest.51969B0301BA1EDC.quest_desc: [
+		"Semaphores, the conductor's whistle, couplers and different gauges. Call a train to you with the whistle!"
+	]
+	quest.46F98B846DE095EC.title: "The Potato Cannon"
+	quest.46F98B846DE095EC.quest_desc: [
+		"It shoots food. The stranger the food, the stranger the effect. A joke that works."
+	]
+	quest.5B1D8C7DB03F8655.title: "Industrial Enchanting"
+	quest.5B1D8C7DB03F8655.quest_desc: [
+		"Create Enchantment Industry turns XP into a liquid and enchants items on a belt. No grinding at the enchanting table."
+	]
+	quest.2B6BA5EF7AFE7EFB.title: "The Chunk Loader"
+	quest.2B6BA5EF7AFE7EFB.quest_desc: [
+		"Create: Power Loader keeps a chunk loaded while its loader gets rotation — the factory runs when you're away."
+	]
 	chapter.75D3C2A26C328D05.title: "Sky & Roads"
 	chapter.75D3C2A26C328D05.chapter_subtitle: [
 		"Cars, planes, airships, citadels"
@@ -968,6 +1269,74 @@
 	quest.547A2E63CB89901D.quest_desc: [
 		"Modular armour: flight, night vision, radiation shielding, auto-feeding. Modules go in at the modification station."
 		"The peak of the engineering branch — and a great gift for your group's warrior."
+	]
+	quest.202B14FABDF1BEBE.title: "The Crusher"
+	quest.202B14FABDF1BEBE.quest_desc: [
+		"Crushes ingots into dust, cobble into gravel, crops into bio-fuel. Metal dust smelts into ingots."
+	]
+	quest.4CF40E8C8033E8A3.title: "The Energized Smelter"
+	quest.4CF40E8C8033E8A3.quest_desc: [
+		"Smelts quickly without coal. With speed upgrades — very quickly."
+	]
+	quest.49875A981F07E924.title: "Cables and Storage"
+	quest.49875A981F07E924.quest_desc: [
+		"Universal cable carries energy, the cube stores it. The configurator sets which side inputs and which outputs."
+	]
+	quest.3B9CF5DEF05B0975.title: "The Configurator"
+	quest.3B9CF5DEF05B0975.quest_desc: [
+		"Mekanism's main tool: sets machine sides, rotates blocks, empties contents."
+	]
+	quest.16088EC8A05113FC.title: "Machine Upgrades"
+	quest.16088EC8A05113FC.quest_desc: [
+		"Speed upgrades go faster, energy upgrades cut usage. They fit any Mekanism machine."
+	]
+	quest.27072E7F71AB537A.title: "Logistical Transporters"
+	quest.27072E7F71AB537A.quest_desc: [
+		"Mekanism pipes move items with filters and colour tags. An alternative to Create belts."
+	]
+	quest.5085E51AFD3E356C.title: "Solar Power"
+	quest.5085E51AFD3E356C.quest_desc: [
+		"Quiet, clean daytime power. No air pollution — the gardener approves."
+	]
+	quest.6C0D1DCA5D7B6BBA.title: "The Wind Generator"
+	quest.6C0D1DCA5D7B6BBA.quest_desc: [
+		"The higher it stands, the more power. Put it on a mountain or a floating island."
+	]
+	quest.1ECF6115162FDEAE.title: "The Bio-Generator"
+	quest.1ECF6115162FDEAE.quest_desc: [
+		"Burns the gardener's bio-fuel. No smog — and no mine."
+	]
+	quest.27FE97C313BB88D2.title: "Electrolysis"
+	quest.27FE97C313BB88D2.quest_desc: [
+		"Splits water into hydrogen and oxygen. Oxygen triples ore; hydrogen fuels the jetpack and a generator."
+	]
+	quest.43AA10D65F8C95AE.title: "Ore Quadrupling"
+	quest.43AA10D65F8C95AE.quest_desc: [
+		"The chemical injection chamber with hydrogen chloride gives 4 ingots per ore. Needs a chemistry line: salt → brine → chlorine."
+	]
+	quest.1CB53BC48DEE6135.title: "The Digital Miner"
+	quest.1CB53BC48DEE6135.quest_desc: [
+		"Mines chosen ores in a huge radius and leaves the surface untouched. The king of mine automation."
+	]
+	quest.13E7AADECF1DA346.title: "The Teleporter"
+	quest.13E7AADECF1DA346.quest_desc: [
+		"A Mekanism portal frame carries you between bases — even across dimensions."
+	]
+	quest.1B8A663F3567C4BB.title: "QIO"
+	quest.1B8A663F3567C4BB.quest_desc: [
+		"Mekanism's quantum storage — an alternative to AE2 without channels. Pick what suits your group."
+	]
+	quest.467A309FB47AF4E3.title: "The Atomic Disassembler"
+	quest.467A309FB47AF4E3.quest_desc: [
+		"An all-in-one tool: pickaxe, axe, shovel and sword. Runs on energy."
+	]
+	quest.5AEFDCFC36E4DDA2.title: "The Induction Matrix"
+	quest.5AEFDCFC36E4DDA2.quest_desc: [
+		"A huge energy store — the heart of the whole group's power grid."
+	]
+	quest.31249669C0F62F41.title: "The Thermoelectric Boiler"
+	quest.31249669C0F62F41.quest_desc: [
+		"Superheated sodium from the reactor boils water in the boiler — steam goes to the turbine. A classic nuclear plant."
 	]
 	chapter.3609E2F89D752FA6.title: "Steel & Oil"
 	chapter.3609E2F89D752FA6.chapter_subtitle: [

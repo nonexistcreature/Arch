@@ -111,7 +111,7 @@ def main():
                 out.append(s)
         return out
 
-    user_jvm = opt("--jvm", "-Xms12G -Xmx12G -XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch").split()
+    user_jvm = opt("--jvm", "-Xms4G -Xmx12G").split()
     jvm = user_jvm + ["-Dsodium.checks.issue2561=false"] + expand(v["arguments"]["jvm"])
     w, h = opt("--res", "960x540").split("x")
     game = expand(v["arguments"]["game"]) + ["--width", w, "--height", h]
@@ -138,7 +138,7 @@ def main():
             if world:
                 fps = [int(x) for x in re.findall(r"ARK_FPS (\d+)", txt)]
                 if len(fps) >= samples:
-                    warm = fps[4:] or fps
+                    warm = fps[int(opt("--warmup", "4")):] or fps
                     s = sorted(warm)
                     result = "BENCH"
                     print(f"FPS samples={warm}")
@@ -147,7 +147,7 @@ def main():
                     if shot:  # focus the game, press the given key (e.g. L = quest book) and grab the screen
                         from PIL import ImageGrab
                         ps = ("$w=New-Object -ComObject WScript.Shell; [void]$w.AppActivate('Minecraft'); Start-Sleep -Milliseconds 800; "
-                              f"$w.SendKeys('{opt('--key', 'l')}'); Start-Sleep -Seconds 4")
+                              (f"$w.SendKeys('{opt('--key', '')}'); " if opt('--key', '') else "") + "Start-Sleep -Seconds 4")
                         subprocess.run(["powershell", "-NoProfile", "-Command", ps])
                         ImageGrab.grab().save(shot)
                         print("screenshot", shot)

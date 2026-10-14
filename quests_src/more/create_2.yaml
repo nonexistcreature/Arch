@@ -1,0 +1,172 @@
+extends: create
+quests:
+  - id: c_millstone
+    deps: [c_wheel]
+    roles: [engineer]
+    icon: create:millstone
+    tasks: [{type: item, item: create:millstone}]
+    ru: {title: "Жернова", text: "Жернов мелет зерно в муку, кости в костную муку, гравий в кремень. Простая первая машина."}
+    en: {title: "The Millstone", text: "A millstone grinds wheat into flour, bones into bone meal, gravel into flint. A simple first machine."}
+
+  - id: c_depot
+    deps: [c_press]
+    roles: [engineer]
+    icon: create:depot
+    tasks: [{type: item, item: create:depot, count: 2}]
+    ru: {title: "Депо", text: "Подставка под пресс или раздатчик. Положил слиток — забрал лист. Основа ручных линий."}
+    en: {title: "The Depot", text: "A stand under a press or deployer. Drop an ingot in, take a sheet out. The base of manual lines."}
+
+  - id: c_funnels_chutes
+    deps: [c_belt]
+    roles: [engineer]
+    icon: create:andesite_funnel
+    tasks: [{type: item, item: create:andesite_funnel, count: 4}, {type: item, item: create:chute, count: 4}]
+    ru: {title: "Воронки и жёлоба", text: "Воронка снимает предметы с конвейера в сундук и обратно, жёлоб спускает предметы вниз. С ними линия работает без рук."}
+    en: {title: "Funnels and Chutes", text: "A funnel moves items between a belt and a chest, a chute drops items downward. With them the line runs hands-free."}
+
+  - id: c_wash
+    deps: [c_fan, c_crushing]
+    roles: [engineer]
+    icon: create:crushed_raw_iron
+    tasks: [{type: item, item: create:crushed_raw_iron, count: 32}]
+    rewards: [{type: item, item: minecraft:iron_ingot, count: 16}]
+    ru: {title: "Промывка руды", text: "Измельчённая руда, промытая вентилятором через воду, даёт самородки сверху. Вместе с дроблением — почти тройной выход."}
+    en: {title: "Ore Washing", text: "Crushed ore washed by a fan through water yields bonus nuggets. Together with crushing — nearly triple the output."}
+
+  - id: c_saw
+    deps: [c_contraption]
+    roles: [engineer]
+    icon: create:mechanical_saw
+    tasks: [{type: item, item: create:mechanical_saw}]
+    ru: {title: "Механическая пила", text: "Пила на конвейере режет брёвна в доски, на движущейся раме — валит лес. Автоматическая лесопилка за полчаса."}
+    en: {title: "The Mechanical Saw", text: "On a belt a saw cuts logs into planks; on a moving frame it fells trees. An automatic lumber mill in half an hour."}
+
+  - id: c_gearshift
+    deps: [c_goggles]
+    roles: [engineer]
+    icon: create:gearshift
+    tasks: [{type: item, item: create:gearshift}, {type: item, item: create:clutch}]
+    ru: {title: "Сцепление и реверс", text: "Сцепление отключает вал по сигналу редстоуна, реверс меняет направление. Так управляют лифтами и воротами."}
+    en: {title: "Clutch and Gearshift", text: "A clutch disconnects a shaft on a redstone signal, a gearshift reverses it. That's how lifts and gates are controlled."}
+
+  - id: c_elevator
+    deps: [c_contraption, c_gearshift]
+    roles: [engineer, builder]
+    icon: create:elevator_pulley
+    tasks: [{type: item, item: create:elevator_pulley}, {type: item, item: create:elevator_contact, count: 2}]
+    ru: {title: "Лифт", text: "Шкив лифта + контакты этажей = настоящий лифт с кнопками. Идеально для высокой башни мага или шахты."}
+    en: {title: "The Elevator", text: "An elevator pulley + floor contacts = a real lift with buttons. Perfect for a mage's tower or a mine shaft."}
+
+  - id: c_vault
+    deps: [c_brass]
+    roles: [engineer]
+    icon: create:item_vault
+    tasks: [{type: item, item: create:item_vault, count: 4}]
+    optional: true
+    ru: {title: "Хранилище предметов", text: "Хранилище растёт блоками: поставь 2×2×4 — получишь огромный сундук для конвейеров."}
+    en: {title: "The Item Vault", text: "A vault grows by blocks: place a 2×2×4 and you have a huge chest for belts."}
+
+  - id: c_spout
+    deps: [c_pipes]
+    roles: [engineer, cook]
+    icon: create:spout
+    tasks: [{type: item, item: create:spout}, {type: item, item: create:item_drain}]
+    ru: {title: "Разливатель и слив", text: "Разливатель наполняет бутылки и вёдра на конвейере, слив опустошает. Мёд, молоко, шоколад — в автоматическом режиме."}
+    en: {title: "Spout and Drain", text: "The spout fills bottles and buckets on a belt, the drain empties them. Honey, milk, chocolate — all automatic."}
+
+  - id: c_chocolate
+    deps: [c_spout]
+    roles: [cook, engineer]
+    icon: create:bar_of_chocolate
+    tasks: [{type: item, item: create:bar_of_chocolate, count: 8}]
+    optional: true
+    ru: {title: "Шоколадная фабрика", text: "Какао, молоко и сахар в миксере — и шоколадная река. Create Confectionery добавит конфеты и пряники."}
+    en: {title: "The Chocolate Factory", text: "Cocoa, milk and sugar in the mixer — and a river of chocolate. Create Confectionery adds candy and gingerbread."}
+
+  - id: c_crafter
+    deps: [c_precision]
+    roles: [engineer]
+    icon: create:mechanical_crafter
+    tasks: [{type: item, item: create:mechanical_crafter, count: 9}]
+    ru: {title: "Механический верстак", text: "Решётка механических верстаков крафтит большие рецепты сама. Нужен для пушек, ракет и крупных машин."}
+    en: {title: "The Mechanical Crafter", text: "A grid of mechanical crafters builds big recipes by itself. Needed for cannons, rockets and large machines."}
+
+  - id: c_backtank
+    deps: [c_brass]
+    roles: [engineer]
+    icon: create:copper_backtank
+    tasks: [{type: item, item: create:copper_backtank}, {type: item, item: create:copper_diving_helmet}]
+    optional: true
+    ru: {title: "Акваланг", text: "Медный баллон со сжатым воздухом и шлем — дышать под водой долго. Ещё баллон заправляет инструменты Create."}
+    en: {title: "Diving Gear", text: "A copper backtank of compressed air and a helmet — breathe underwater for ages. The tank also powers Create tools."}
+
+  - id: c_extendo
+    deps: [c_brass]
+    roles: [engineer, builder]
+    icon: create:extendo_grip
+    tasks: [{type: item, item: create:extendo_grip}]
+    optional: true
+    ru: {title: "Длинная рука", text: "Удлинитель увеличивает дальность взаимодействия — строить на высоте становится гораздо удобнее."}
+    en: {title: "The Extendo Grip", text: "The grip extends your reach — building at height becomes much easier."}
+
+  - id: c_toolbox
+    deps: [c_brass]
+    roles: [engineer]
+    icon: create:brown_toolbox
+    tasks: [{type: item, item: create:brown_toolbox}]
+    optional: true
+    ru: {title: "Ящик с инструментами", text: "Ящик хранит инструменты, а горячая клавиша достаёт их из любого места рядом. Порядок в мастерской."}
+    en: {title: "The Toolbox", text: "A toolbox holds your tools and a hotkey pulls them from anywhere nearby. Order in the workshop."}
+
+  - id: c_display
+    deps: [c_brass]
+    roles: [engineer]
+    icon: create:display_board
+    tasks: [{type: item, item: create:display_link}, {type: item, item: create:display_board, count: 4}]
+    optional: true
+    ru: {title: "Табло", text: "Ссылка на табло показывает содержимое складов, расписание поездов, скорость машин. Сделай вокзал с табло прибытия!"}
+    en: {title: "The Display Board", text: "A display link shows storage contents, train schedules, machine speed. Build a station with an arrivals board!"}
+
+  - id: c_signals
+    deps: [c_train_run]
+    roles: [engineer]
+    icon: create:track_signal
+    tasks: [{type: item, item: create:track_signal, count: 4}]
+    ru: {title: "Светофоры", text: "Сигналы делят пути на блоки — поезда не сталкиваются. Нужны, как только поездов станет больше одного."}
+    en: {title: "Signals", text: "Signals split tracks into blocks so trains don't collide. Needed as soon as there's more than one train."}
+
+  - id: c_railways
+    deps: [c_train_run]
+    roles: [engineer]
+    icon: railways:semaphore
+    tasks: [{type: item, item: railways:semaphore}, {type: item, item: railways:conductor_whistle}]
+    optional: true
+    ru: {title: "Steam 'n' Rails", text: "Семафоры, свисток кондуктора, сцепки и колеи разной ширины. Вызови поезд свистком прямо к себе!"}
+    en: {title: "Steam 'n' Rails", text: "Semaphores, the conductor's whistle, couplers and different gauges. Call a train to you with the whistle!"}
+
+  - id: c_potato_cannon
+    deps: [c_backtank]
+    roles: [warrior, engineer]
+    icon: create:potato_cannon
+    tasks: [{type: item, item: create:potato_cannon}]
+    optional: true
+    ru: {title: "Картофельная пушка", text: "Стреляет едой. Чем страннее еда — тем страннее эффект. Шутка, которая работает."}
+    en: {title: "The Potato Cannon", text: "It shoots food. The stranger the food, the stranger the effect. A joke that works."}
+
+  - id: c_enchanting
+    deps: [c_spout]
+    roles: [engineer, mage]
+    icon: create_enchantment_industry:blaze_enchanter
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Промышленное зачарование", text: "Create Enchantment Industry превращает опыт в жидкость и зачаровывает предметы на конвейере. Без гринда у стола зачарований."}
+    en: {title: "Industrial Enchanting", text: "Create Enchantment Industry turns XP into a liquid and enchants items on a belt. No grinding at the enchanting table."}
+
+  - id: c_power_loader
+    deps: [c_brass]
+    roles: [engineer]
+    icon: create_power_loader:andesite_chunk_loader
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Чанклоадер", text: "Create: Power Loader держит чанк загруженным, пока на загрузчик подаётся вращение — фабрика работает, когда тебя нет рядом."}
+    en: {title: "The Chunk Loader", text: "Create: Power Loader keeps a chunk loaded while its loader gets rotation — the factory runs when you're away."}

@@ -76,7 +76,7 @@ OverrideMemory=true
 MinMemAlloc=4096
 MaxMemAlloc={mem}
 OverrideJavaArgs=true
-JvmArgs=-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+DisableExplicitGC
+JvmArgs=-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=50 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=20 -XX:InitiatingHeapOccupancyPercent=15
 OverrideJavaLocation=true
 JavaPath=@JAVA@
 AutomaticJava=false

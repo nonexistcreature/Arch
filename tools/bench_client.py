@@ -12,9 +12,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 GAME = ROOT / "tests/client_run/game"
 WORLD_SRC = ROOT / "tests/server_run/world"
-RES = "2560x1377"  # the owner's maximised window
+RES = "2560x1377"
+WARMUP = 24   # 2 minutes of samples discarded: chunks around the spot must finish generating
+SAMPLES = 24 + 18  # the owner's maximised window
 
-G1 = "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=37 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=20 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:+AlwaysPreTouch"
+G1 = "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=50 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=20 -XX:InitiatingHeapOccupancyPercent=15"
 ZGC = "-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+DisableExplicitGC"
 
 DH_TUNED = [(r"lodChunkRenderDistanceRadius = \d+", "lodChunkRenderDistanceRadius = 128"),
@@ -39,17 +41,17 @@ def set_dh(rules):
 
 VARIANTS = {
     # name: (options overrides, shaders on?, shader profile options, jvm, disabled mod globs)
-    "baseline":      ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + ZGC, []),
+    "baseline":      ({"renderDistance": 12}, True, {}, "-Xms4G -Xmx12G " + G1, []),
     "mem10_g1":      ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + G1, []),
-    "current":       ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + ZGC, []),
-    "noshader":      ({"renderDistance": 12}, False, {}, "-Xms12G -Xmx12G " + ZGC, []),
-    "no_dh":         ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + ZGC, ["DistantHorizons*"]),
-    "lite_client":   ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + ZGC,
+    "current":       ({"renderDistance": 12}, True, {}, "-Xms4G -Xmx12G " + G1, []),
+    "noshader":      ({"renderDistance": 12}, False, {}, "-Xms4G -Xmx12G " + G1, []),
+    "no_dh":         ({"renderDistance": 12}, True, {}, "-Xms4G -Xmx12G " + G1, ["DistantHorizons*"]),
+    "lite_client":   ({"renderDistance": 12}, True, {}, "-Xms4G -Xmx12G " + G1,
                       ["DistantHorizons*", "visuality*", "particlerain*", "SubtleEffects*", "fallingleaves*", "AmbientSounds*", "PresenceFootsteps*", "pf-*"]),
-    "rd8":           ({"renderDistance": 8, "simulationDistance": 6}, True, {}, "-Xms12G -Xmx12G " + ZGC, []),
+    "rd8":           ({"renderDistance": 8, "simulationDistance": 6}, True, {}, "-Xms4G -Xmx12G " + G1, []),
     # DH tuned: 128-chunk LOD radius, 2-block LOD columns, low vertical quality, no DH SSAO (shaders do AO)
-    "dh_tuned":      ({"renderDistance": 12}, True, {"DH": DH_TUNED}, "-Xms12G -Xmx12G " + ZGC, []),
-    "dh_tuned_rd10": ({"renderDistance": 10, "simulationDistance": 6}, True, {"DH": DH_TUNED}, "-Xms12G -Xmx12G " + ZGC, []),
+    "dh_tuned":      ({"renderDistance": 12}, True, {"DH": DH_TUNED}, "-Xms4G -Xmx12G " + G1, []),
+    "dh_tuned_rd10": ({"renderDistance": 10, "simulationDistance": 6}, True, {"DH": DH_TUNED}, "-Xms4G -Xmx12G " + G1, []),
 }
 
 
@@ -91,6 +93,8 @@ def prepare_world():
         shutil.copytree(WORLD_SRC, dst, ignore=shutil.ignore_patterns("session.lock"))
     (GAME / "kubejs/client_scripts").mkdir(parents=True, exist_ok=True)
     shutil.copy(ROOT / "tests/kubejs_client/zz_fps_probe.js", GAME / "kubejs/client_scripts/zz_fps_probe.js")
+    (GAME / "kubejs/server_scripts").mkdir(parents=True, exist_ok=True)
+    shutil.copy(ROOT / "tests/kubejs/zz_open_quests_probe.js", GAME / "kubejs/server_scripts/zz_open_quests_probe.js")
 
 
 def run(name):
@@ -101,8 +105,8 @@ def run(name):
     moved = toggle_mods(off, True)
     t0 = time.time()
     r = subprocess.run([sys.executable, str(ROOT / "tools/launch_client.py"), "--world", "bench", "--res", RES, "--jvm", jvm,
-                        "--fps-samples", "22", "--timeout", "1200",
-                        "--screenshot", str(ROOT / f"tests/out/bench_{name}.png")], capture_output=True, text=True, encoding="utf8", errors="replace")
+                        "--fps-samples", str(SAMPLES), "--warmup", str(WARMUP), "--timeout", "1200",
+                        "--screenshot", str(ROOT / f"tests/out/bench_{name}.png"), "--key", ""], capture_output=True, text=True, encoding="utf8", errors="replace")
     toggle_mods(off, False)
     m = re.search(r"FPS median=(\d+) min=(\d+) max=(\d+) avg=(\d+)", r.stdout)
     line = (f"| {time.strftime('%Y-%m-%d %H:%M')} | {name} | {m.group(1)} | {m.group(2)} | {m.group(3)} | {m.group(4)} | {RES} | {', '.join(moved) or '-'} |"

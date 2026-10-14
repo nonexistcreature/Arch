@@ -1,6 +1,6 @@
 # modlist_resolved (авто, tools/resolve_pack.py)
 
-Всего: **245** (явных: 195, зависимостей: 50)
+Всего: **256** (явных: 205, зависимостей: 51)
 
 | slug | название | версия | тип | сторона | волна | роль | обновлён |
 |---|---|---|---|---|---|---|---|
@@ -32,6 +32,7 @@
 | bookshelf-lib | Bookshelf | 21.1.81 | release | both | 1 | зависимость enchantment-descriptions | 2026-02-10 |
 | botany-pots | Botany Pots | 21.1.44 | release | both | 2 | садоводство | 2026-06-13 |
 | brewin-and-chewin | Brewin' And Chewin' | 4.5.0+1.21.1-neoforge | release | both | 2 | напитки | 2026-06-24 |
+| c2me-neoforge | Concurrent Chunk Management Engine (NeoForge) | 0.4.0-alpha.0.123+1.21.1 | alpha | both | 1 | многопоточные чанки | 2026-10-11 |
 | carry-on | Carry On | 2.2.6 | release | both | 2 | QoL | 2026-07-26 |
 | chat-heads | Chat Heads | 0.15.7 | release | client | 8 | UI | 2026-08-13 |
 | citadel-1.21.1-port | Citadel (Unofficial Port) | 2.7.6 | release | both | 3 | зависимость alexs-mobs-1.21.1 | 2026-04-25 |
@@ -65,6 +66,7 @@
 | critters-and-companions | Critters and Companions | 2.7.0 | release | both | 3 | существа | 2026-08-14 |
 | ct-overhaul-village | ChoiceTheorem's Overhauled Village | 3.6.3 | release | server | 2 | деревни | 2026-03-21 |
 | cucumber | Cucumber Library | 8.0.16 | release | both | 2 | зависимость mystical-agriculture | 2026-05-04 |
+| cull-leaves | Cull Leaves | 4.1.1+1.21.1-neoforge | release | client | 1 | FPS листва | 2025-12-12 |
 | curios | Curios API | 9.5.1+1.21.1 | release | both | 6 | зависимость occultism | 2025-05-14 |
 | custom-machinery | Custom Machinery | 1.21.1-0.10.74 | beta | both | 5 | запасной MMR | 2026-10-10 |
 | data-anchor | Data Anchor | 2.0.0.17-neoforge | release | both | 9 | зависимость enhanced-celestials | 2026-09-19 |
@@ -97,7 +99,10 @@
 | fancymenu | FancyMenu | 3.9.14-1.21.1-neoforge | release | both | 4 | меню | 2026-09-28 |
 | farmers-delight | Farmer's Delight | 1.21.1-1.3.4 | release | both | 2 | еда | 2026-08-29 |
 | farmers-respite-unofficial-port | Farmer's Respite Unofficial Port | 3.0.1 | release | both | 2 | чай | 2026-08-22 |
+| fast-paintings | Fast Paintings | 1.21-1.3.1 | release | both | 1 | FPS картины | 2026-09-25 |
+| fastsuite | FastSuite | 1.21.1-6.0.7 | release | both | 1 | поиск рецептов | 2026-06-19 |
 | ferrite-core | FerriteCore | 7.0.3-neoforge | release | both | 1 | ОЗУ | 2026-01-25 |
+| flerovium | Flerovium | 1.2.0 | alpha | client | 1 | FPS предметы в GUI | 2026-09-26 |
 | fragmentum | Fragmentum | 5.3.0 | release | both | 7 | зависимость aquamirae | 2026-10-12 |
 | framedblocks | FramedBlocks | 10.6.3 | release | both | 2 | блоки | 2026-10-11 |
 | friends-and-foes-forge | Friends&Foes (Forge/NeoForge) | neoforge-5.0.2+mc1.21.1 | release | both | 3 | существа | 2026-10-09 |
@@ -129,6 +134,8 @@
 | jei | Just Enough Items (JEI) | 19.64.0.453 | beta | both | 1 | рецепты бэкенд [beta] | 2026-10-12 |
 | konkrete | Konkrete | 1.9.9-1.21-neoforge | release | both | 4 | зависимость fancymenu | 2024-06-21 |
 | kotlin-for-forge | Kotlin for Forge | 5.12.0 | release | both | 2 | зависимость slice-and-dice | 2026-06-28 |
+| krypton-fnp | Krypton Reno | 0.2.28.1-1.21.1 | release | both | 1 | сеть | 2026-01-15 |
+| ksyxis | Ksyxis | 1.4.6 | release | server | 1 | загрузка мира | 2026-10-08 |
 | kubejs | KubeJS | 2101.7.2-build.377 | release | both | 1 | скрипты | 2026-09-09 |
 | l_enders-cataclysm | L_Ender's Cataclysm | 3.33 | release | both | 7 | боссы | 2026-09-20 |
 | legendary-tooltips | Legendary Tooltips | 1.5.5 | release | client | 1 | тултипы | 2025-04-08 |
@@ -158,6 +165,7 @@
 | mekanism-tools | Mekanism Tools | 10.7.19.85 | release | both | 5 | инструменты | 2026-04-10 |
 | melody | Melody | 1.0.10-1.21-neoforge | release | both | 4 | зависимость fancymenu | 2024-06-21 |
 | mezzconfig | MezzConfig | 0.6.8 | beta | both | 1 | зависимость jei | 2026-10-03 |
+| midnightlib | MidnightLib | 1.9.3+1.21.1-neoforge | release | both | 1 | зависимость cull-leaves | 2026-05-02 |
 | modelfix | Model Gap Fix | 1.21-1.10 | release | client | 1 | визуал | 2024-08-03 |
 | modernfix | ModernFix | 5.27.26+mc1.21.1 | release | both | 1 | загрузка/ОЗУ | 2026-10-08 |
 | modonomicon | Modonomicon | 1.21.1-1.120.7 | release | both | 6 | зависимость occultism | 2026-09-25 |
@@ -179,6 +187,8 @@
 | open-parties-and-claims | Open Parties and Claims | neoforge-1.21.1-0.32.7 | beta | both | 1 | приваты | 2026-10-05 |
 | overflowing-bars | Overflowing Bars | v21.1.1-1.21.1-NeoForge | release | client | 1 | HUD | 2024-09-30 |
 | owo-lib | oωo (owo-lib) | 0.12.15.5-beta.1+1.21 | beta | both | 2 | зависимость aether | 2025-07-19 |
+| packet-fixer | Packet Fixer | 3.3.1 | release | both | 1 | большие пакеты | 2025-11-14 |
+| particle-core | Particle Core | 0.3.3+1.21+neoforge | release | client | 1 | FPS частицы | 2026-02-05 |
 | particle-rain | Particle Rain | v4.0.2+1.21.1-neoforge | release | client | 10 | дождь | 2026-10-10 |
 | pf-neoforge | Presence Footsteps (NeoForge) | 1.21.1-1.12.0-beta.1 | beta | client | 10 | шаги | 2025-11-19 |
 | placebo | Placebo | 1.21.1-9.9.4 | release | both | 10 | зависимость toast-control | 2026-10-13 |
@@ -195,6 +205,7 @@
 | rhino | Rhino | 2101.2.7-build.85+Rhino-1.21 | release | both | 1 | зависимость kubejs | 2026-06-08 |
 | rpl | Ritchie's Projectile Library | 2.1.2 | release | both | 4 | зависимость create-big-cannons | 2026-02-07 |
 | sable | Sable | 2.0.6+mc1.21.1 | release | both | 4 | физика | 2026-10-03 |
+| saturn | Saturn | mc1.21.1-0.1.5 | release | both | 1 | ОЗУ | 2025-01-30 |
 | searchables | Searchables | 1.0.2 | release | client | 1 | UI | 2024-10-21 |
 | serene-seasons | Serene Seasons | 10.1.0.9 | beta | both | 2 | сезоны | 2026-09-05 |
 | shoulder-surfing-reloaded | Shoulder Surfing Reloaded | 1.21.1-5.2.0+neoforge | release | client | 10 | камера | 2026-09-29 |

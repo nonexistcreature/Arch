@@ -123,13 +123,8 @@ def reward(r, qid, n):
 
 
 def load_sources():
-    chapters = []
-    for f in sorted(SRC.glob("*.yaml")):
-        d = yaml.safe_load(f.read_text("utf8"))
-        d["_file"] = f.name
-        chapters.append(d)
-    chapters.sort(key=lambda c: c["chapter"]["order"])
-    return chapters
+    from quest_sources import load_chapters
+    return load_chapters()
 
 
 def layout(quests):

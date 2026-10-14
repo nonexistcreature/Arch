@@ -1,19 +1,19 @@
 # quests_summary (авто, tools/validate_quests.py)
 
-Всего квестов: **297**, глав: 25
+Всего квестов: **386**, глав: 25
 
 | файл | глава | квестов |
 |---|---|---|
 | 00_welcome.yaml | Добро пожаловать в Arkhaven | 13 |
 | 01_origins.yaml | Происхождение и путь | 7 |
 | 02_first_steps.yaml | Первые шаги | 16 |
-| 03_kitchen.yaml | Кухня и таверна | 26 |
-| 04_garden.yaml | Сад, сезоны, урожай | 17 |
-| 05_animals.yaml | Животные, пчёлы, драконы | 14 |
+| 03_kitchen.yaml | Кухня и таверна | 47 |
+| 04_garden.yaml | Сад, сезоны, урожай | 32 |
+| 05_animals.yaml | Животные, пчёлы, драконы | 30 |
 | 06_fishing.yaml | Рыбалка | 9 |
-| 07_create.yaml | Create: механика | 22 |
+| 07_create.yaml | Create: механика | 42 |
 | 08_sky.yaml | Небо и дороги | 11 |
-| 09_mekanism.yaml | Mekanism и атом | 15 |
+| 09_mekanism.yaml | Mekanism и атом | 32 |
 | 10_steel_oil.yaml | Сталь и нефть | 11 |
 | 11_storage.yaml | Хранилище | 8 |
 | 12_ars.yaml | Ars Nouveau | 12 |
@@ -30,6 +30,6 @@
 | 23_welcome_back.yaml | С возвращением! | 7 |
 | 24_festivals.yaml | Праздники | 8 |
 
-Роли: engineer: 82, warrior: 41, cook: 36, mage: 36, breeder: 31, gardener: 30, alchemist: 11, mayor: 11, builder: 10
+Роли: engineer: 127, cook: 61, breeder: 50, gardener: 47, warrior: 45, mage: 37, builder: 16, alchemist: 11, mayor: 11
 
 Ошибок: 0, предупреждений: 0

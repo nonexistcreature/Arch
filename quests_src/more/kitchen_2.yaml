@@ -1,0 +1,198 @@
+extends: kitchen
+quests:
+  - id: k_iron_knife
+    deps: [k_knife]
+    roles: [cook]
+    icon: farmersdelight:iron_knife
+    tasks: [{type: item, item: farmersdelight:iron_knife}]
+    ru: {title: "Нож получше", text: "Железный нож служит дольше и режет быстрее. Позже — алмазный и незеритовый.\nНож — ещё и оружие: быстрые удары, хороши против мелких тварей."}
+    en: {title: "A Better Knife", text: "An iron knife lasts longer and cuts faster. Later come diamond and netherite.\nA knife is also a weapon: quick strikes, great against small critters."}
+
+  - id: k_stove
+    deps: [k_pot]
+    roles: [cook]
+    icon: farmersdelight:stove
+    tasks: [{type: item, item: farmersdelight:stove}]
+    ru: {title: "Плита", text: "Плита — вечный огонь для котелка и сковороды. Можно жарить прямо на ней: положи мясо сверху.\nИз кирпичей и печи — красиво и безопасно, в отличие от костра."}
+    en: {title: "The Stove", text: "A stove is an everlasting flame for the pot and skillet. You can also grill right on top: put meat on it.\nMade of bricks and a furnace — pretty and safer than a campfire."}
+
+  - id: k_cabinet
+    deps: [k_stove]
+    roles: [cook, builder]
+    icon: farmersdelight:oak_cabinet
+    tasks: [{type: item, item: farmersdelight:oak_cabinet, count: 2}]
+    optional: true
+    ru: {title: "Кухонные шкафчики", text: "Шкафчики — хранилище, которое выглядит как настоящая кухня. Есть для любой породы дерева."}
+    en: {title: "Kitchen Cabinets", text: "Cabinets are storage that looks like a real kitchen. Available in every wood type."}
+
+  - id: k_soups
+    deps: [k_stew]
+    roles: [cook]
+    icon: farmersdelight:vegetable_soup
+    tasks:
+      - {type: item, item: farmersdelight:vegetable_soup}
+      - {type: item, item: farmersdelight:pumpkin_soup}
+      - {type: item, item: farmersdelight:chicken_soup}
+    rewards: [{type: item, item: minecraft:bowl, count: 16}]
+    ru: {title: "Три супа", text: "Овощной, тыквенный и куриный — супы дают «Комфорт»: тепло и медленное лечение.\nИдеально перед походом в снежные края."}
+    en: {title: "Three Soups", text: "Vegetable, pumpkin and chicken — soups grant Comfort: warmth and slow healing.\nPerfect before a trip to snowy lands."}
+
+  - id: k_pasta
+    deps: [k_soups]
+    roles: [cook]
+    icon: farmersdelight:pasta_with_meatballs
+    tasks: [{type: item, item: farmersdelight:pasta_with_meatballs}]
+    ru: {title: "Паста с тефтелями", text: "Сытное блюдо из сырой пасты и фарша. Даёт **Прибавку здоровья** на 10 минут — любимое блюдо воинов."}
+    en: {title: "Pasta with Meatballs", text: "A hearty dish of raw pasta and minced beef. Grants **Health Boost** for 10 minutes — a warrior favourite."}
+
+  - id: k_shepherds_pie
+    deps: [k_soups]
+    roles: [cook]
+    icon: farmersdelight:shepherds_pie
+    tasks: [{type: item, item: farmersdelight:shepherds_pie}]
+    ru: {title: "Пирог шахтёра", text: "Пастуший пирог в Arkhaven даёт **Спешку II** на 5 минут — шахтёры копают вдвое быстрее.\nЦенится у: инженеров и шахтёров."}
+    en: {title: "The Miner's Pie", text: "In Arkhaven shepherd's pie grants **Haste II** for 5 minutes — miners dig twice as fast.\nValued by: engineers and miners."}
+
+  - id: k_rice_dishes
+    deps: [k_rice]
+    roles: [cook]
+    icon: farmersdelight:fried_rice
+    tasks:
+      - {type: item, item: farmersdelight:fried_rice}
+      - {type: item, item: farmersdelight:mushroom_rice}
+    ru: {title: "Рисовые блюда", text: "Жареный рис и рис с грибами. Грибной рис в Arkhaven даёт ночное зрение — подарок спелеологам."}
+    en: {title: "Rice Dishes", text: "Fried rice and mushroom rice. In Arkhaven mushroom rice grants night vision — a gift for cavers."}
+
+  - id: k_sushi
+    deps: [k_rice, f_catch]
+    roles: [cook, breeder]
+    icon: farmersdelight:salmon_roll
+    tasks: [{type: item, item: farmersdelight:salmon_roll, count: 4}]
+    ru: {title: "Роллы", text: "Рис + рыба от рыбака = роллы. Быстрые в готовке, много разных — хорошо для книги вкусов."}
+    en: {title: "Rolls", text: "Rice + fish from the angler = rolls. Quick to make and varied — great for your food book."}
+
+  - id: k_pies
+    deps: [k_stove]
+    roles: [cook]
+    icon: farmersdelight:apple_pie
+    tasks:
+      - {type: item, item: farmersdelight:apple_pie}
+      - {type: item, item: farmersdelight:chocolate_pie}
+    ru: {title: "Пироги", text: "Пирог ставится на стол целиком и делится на кусочки. Отличное угощение на общей кухне."}
+    en: {title: "Pies", text: "A pie is placed whole on a table and served in slices. A great treat for a shared kitchen."}
+
+  - id: k_roast_chicken
+    deps: [k_feast]
+    roles: [cook]
+    icon: farmersdelight:roast_chicken_block
+    tasks: [{type: item, item: farmersdelight:roast_chicken_block}]
+    optional: true
+    ru: {title: "Курица-гриль", text: "Ещё одно праздничное блюдо на весь стол. Хорошо после возвращения из данжа."}
+    en: {title: "Roast Chicken", text: "Another feast for the whole table. Lovely after coming back from a dungeon."}
+
+  - id: k_stuffed_pumpkin
+    deps: [k_feast]
+    roles: [cook]
+    icon: farmersdelight:stuffed_pumpkin_block
+    tasks: [{type: item, item: farmersdelight:stuffed_pumpkin_block}]
+    optional: true
+    ru: {title: "Фаршированная тыква", text: "Осеннее блюдо и звезда «Праздника урожая». Тыквы — у садовода."}
+    en: {title: "Stuffed Pumpkin", text: "An autumn dish and the star of the Harvest Festival. Pumpkins come from the gardener."}
+
+  - id: k_cheeses
+    deps: [k_meadow_cheese]
+    roles: [cook, breeder]
+    icon: meadow:goat_cheese_wheel
+    tasks:
+      - {type: item, item: meadow:goat_cheese_wheel}
+      - {type: item, item: meadow:sheep_cheese_wheel}
+      - {type: item, item: meadow:buffalo_cheese_wheel}
+    rewards: [{type: item, item: meadow:rennet, count: 8}]
+    ru: {title: "Сырная лавка", text: "Козий, овечий и буйволиный сыр — молоко трёх альпийских животных.\nЗаводчик приведёт скот, повар сварит сыр. Работа на двоих."}
+    en: {title: "The Cheese Shop", text: "Goat, sheep and buffalo cheese — the milk of three alpine animals.\nThe breeder brings the herd, the cook makes the cheese. A job for two."}
+
+  - id: k_cheese_dishes
+    deps: [k_cheeses]
+    roles: [cook]
+    icon: meadow:cheese_tart
+    tasks:
+      - {type: item, item: meadow:cheese_tart}
+      - {type: item, item: meadow:cheese_sandwich}
+    ru: {title: "Блюда с сыром", text: "Сырный тарт даёт регенерацию. Сэндвич — быстрая еда в дорогу."}
+    en: {title: "Cheese Dishes", text: "A cheese tart grants regeneration. A sandwich is quick food for the road."}
+
+  - id: k_wines
+    deps: [k_wine]
+    roles: [cook]
+    icon: vinery:noir_wine
+    tasks:
+      - {type: item, item: vinery:noir_wine}
+      - {type: item, item: vinery:cherry_wine}
+      - {type: item, item: vinery:apple_wine}
+    ru: {title: "Винная карта", text: "Нуар, вишнёвое, яблочное — у каждого вина свой эффект. Посмотри их в EMI и выбери любимое."}
+    en: {title: "The Wine List", text: "Noir, cherry, apple — each wine has its own effect. Check them in EMI and pick a favourite."}
+
+  - id: k_wine_rack
+    deps: [k_wine]
+    roles: [cook, builder]
+    icon: vinery:oak_wine_rack_big
+    tasks: [{type: item, item: vinery:oak_wine_rack_big}]
+    optional: true
+    ru: {title: "Винный погреб", text: "Вино в стойке со временем становится сильнее. Построй погреб под таверной."}
+    en: {title: "The Wine Cellar", text: "Wine on a rack grows stronger with age. Build a cellar under the tavern."}
+
+  - id: k_mead
+    deps: [k_brewin_keg]
+    roles: [cook, breeder]
+    icon: brewinandchewin:mead
+    tasks: [{type: item, item: brewinandchewin:mead}]
+    ru: {title: "Медовуха", text: "Мёд от пчёл заводчика + бочонок = медовуха. Напиток викингов и хороших праздников."}
+    en: {title: "Mead", text: "Honey from the breeder's bees + a keg = mead. A drink for vikings and good parties."}
+
+  - id: k_fondue
+    deps: [k_brewin_keg, k_cheeses]
+    roles: [cook]
+    icon: brewinandchewin:fiery_fondue
+    tasks: [{type: item, item: brewinandchewin:fiery_fondue}]
+    optional: true
+    ru: {title: "Огненное фондю", text: "Сыр + огонь. Даёт огнестойкость на 8 минут — то, что нужно перед Нижним миром."}
+    en: {title: "Fiery Fondue", text: "Cheese + fire. Grants fire resistance for 8 minutes — just what you need before the Nether."}
+
+  - id: k_teas
+    deps: [k_tea]
+    roles: [cook]
+    icon: herbalbrews:green_tea
+    tasks:
+      - {type: item, item: herbalbrews:green_tea}
+      - {type: item, item: herbalbrews:black_tea}
+      - {type: item, item: herbalbrews:lavender_tea}
+    ru: {title: "Чайная церемония", text: "Зелёный чай в Arkhaven восполняет ману магов Iron's Spells. Чёрный бодрит, лавандовый успокаивает.\nЦенится у: магов."}
+    en: {title: "The Tea Ceremony", text: "In Arkhaven green tea restores Iron's Spells mana. Black tea perks you up, lavender calms you.\nValued by: mages."}
+
+  - id: k_cfb_sink
+    deps: [k_cfb_fridge]
+    roles: [cook]
+    icon: cookingforblockheads:white_sink
+    tasks: [{type: item, item: cookingforblockheads:white_sink}]
+    optional: true
+    ru: {title: "Раковина", text: "Бесконечная вода для всех рецептов кухни. Больше не нужно бегать с вёдрами."}
+    en: {title: "The Sink", text: "Endless water for every kitchen recipe. No more running around with buckets."}
+
+  - id: k_cfb_counter
+    deps: [k_cfb_fridge]
+    roles: [cook]
+    icon: cookingforblockheads:white_counter
+    tasks: [{type: item, item: cookingforblockheads:white_counter, count: 4}]
+    optional: true
+    ru: {title: "Столешницы", text: "Столешницы — склад продуктов, который видит кухонный стол. Чем больше — тем больше рецептов «в один клик»."}
+    en: {title: "Counters", text: "Counters are ingredient storage the cooking table can see. The more you have, the more one-click recipes."}
+
+  - id: k_hearts_tavern
+    deps: [k_hearts_10, k_wines, k_cheeses, k_mead]
+    roles: [cook]
+    icon: brewinandchewin:tankard
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards: [{type: xp_levels, count: 10}]
+    ru: {title: "Хозяйка таверны", subtitle: "Вино, сыр, мёд и пир", text: "У тебя есть всё для настоящей таверны. Позови друзей — и посмотри, как растут их сердца.\nДальше — «Гранд-ресторан» в «Великих стройках»."}
+    en: {title: "Keeper of the Tavern", subtitle: "Wine, cheese, mead and a feast", text: "You have everything for a real tavern. Invite your friends and watch their hearts grow.\nNext: the Grand Restaurant in Great Works."}

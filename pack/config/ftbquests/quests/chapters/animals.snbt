@@ -47,7 +47,7 @@
 		{
 			id: "4990A38E7AFA20D8"
 			x: 1.5d
-			y: -1.875d
+			y: -2.5d
 			icon: {
 				id: "farm_and_charm:feeding_trough"
 				count: 1
@@ -70,7 +70,7 @@
 		{
 			id: "2AADB93EE520A6DB"
 			x: 1.5d
-			y: -0.625d
+			y: -1.25d
 			icon: {
 				id: "meadow:cheese_wheel"
 				count: 1
@@ -93,7 +93,7 @@
 		{
 			id: "398471DFFDDBAAF0"
 			x: 1.5d
-			y: 0.625d
+			y: 0.0d
 			shape: "hexagon"
 			icon: {
 				id: "productivebees:bee_cage"
@@ -116,7 +116,7 @@
 		{
 			id: "1473A8EBD1BA9240"
 			x: 3.0d
-			y: -1.25d
+			y: -6.875d
 			icon: {
 				id: "productivebees:advanced_oak_beehive"
 				count: 1
@@ -138,7 +138,7 @@
 		{
 			id: "1171779A20E89BC0"
 			x: 4.5d
-			y: -0.625d
+			y: -2.5d
 			icon: {
 				id: "productivebees:centrifuge"
 				count: 1
@@ -170,7 +170,7 @@
 		{
 			id: "0367AB6113664DF8"
 			x: 6.0d
-			y: -1.25d
+			y: -2.5d
 			icon: {
 				id: "productivebees:breeding_chamber"
 				count: 1
@@ -193,7 +193,7 @@
 		{
 			id: "74361E94132C2418"
 			x: 7.5d
-			y: 0.0d
+			y: -0.625d
 			icon: {
 				id: "productivebees:gene_bottle"
 				count: 1
@@ -216,7 +216,7 @@
 		{
 			id: "0E9DB92921EFC049"
 			x: 1.5d
-			y: 1.875d
+			y: 1.25d
 			icon: {
 				id: "alexsmobs:animal_dictionary"
 				count: 1
@@ -248,7 +248,7 @@
 		{
 			id: "0064456F4405DB56"
 			x: 3.0d
-			y: 0.0d
+			y: -5.625d
 			icon: {
 				id: "crittersandcompanions:silk_lead"
 				count: 1
@@ -267,7 +267,7 @@
 		{
 			id: "6ACD4387091E4FF3"
 			x: 3.0d
-			y: 1.25d
+			y: -4.375d
 			shape: "hexagon"
 			icon: {
 				id: "dmr:dragon_egg"
@@ -290,7 +290,7 @@
 		{
 			id: "57ADB4BD729FE83D"
 			x: 4.5d
-			y: 0.625d
+			y: -1.25d
 			icon: {
 				id: "dmr:dragon_whistle.red"
 				count: 1
@@ -313,7 +313,7 @@
 		{
 			id: "37E6738A6C282F33"
 			x: 6.0d
-			y: 0.0d
+			y: -1.25d
 			icon: {
 				id: "dmr:dragon_armor"
 				count: 1
@@ -336,7 +336,7 @@
 		{
 			id: "08258F26A6CD43D5"
 			x: 6.0d
-			y: 1.25d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "minecraft:golden_carrot"
@@ -366,6 +366,377 @@
 						count: 16
 						id: "productivebees:honey_treat"
 					}
+				}
+			]
+		}
+		{
+			id: "01F1978AF428CF7A"
+			x: 1.5d
+			y: 2.5d
+			icon: {
+				id: "minecraft:wheat"
+				count: 1
+			}
+			dependencies: [
+				"58A5F95E7247AE74"
+			]
+			tasks: [
+				{
+					id: "1F1C74DA85305FFE"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "448CC1920BA2D12F"
+					type: "item"
+					item: {
+						count: 8
+						id: "minecraft:hay_block"
+					}
+				}
+			]
+		}
+		{
+			id: "64D3410CC19B67C9"
+			x: 3.0d
+			y: -3.125d
+			icon: {
+				id: "farm_and_charm:chicken_coop"
+				count: 1
+			}
+			dependencies: [
+				"01F1978AF428CF7A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "347B84343A179483"
+					type: "item"
+					item: {
+						count: 1
+						id: "farm_and_charm:chicken_coop"
+					}
+				}
+			]
+		}
+		{
+			id: "476E92FC8FA01BD2"
+			x: 3.0d
+			y: -1.875d
+			icon: {
+				id: "minecraft:red_wool"
+				count: 1
+			}
+			dependencies: [
+				"01F1978AF428CF7A"
+			]
+			tasks: [
+				{
+					id: "52A37E3B61FB2E6D"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					count: 32L
+				}
+			]
+		}
+		{
+			id: "62A1724CA0AF2D93"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "minecraft:honey_bottle"
+				count: 1
+			}
+			dependencies: [
+				"1473A8EBD1BA9240"
+			]
+			tasks: [
+				{
+					id: "7220F48F3D8B48D9"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "2EB248A3855853E5"
+			x: 6.0d
+			y: 1.25d
+			icon: {
+				id: "productivebees:wax"
+				count: 1
+			}
+			dependencies: [
+				"1171779A20E89BC0"
+			]
+			tasks: [
+				{
+					id: "7ACE42845863D8ED"
+					type: "item"
+					item: {
+						count: 1
+						id: "productivebees:wax"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "5B230BCEB3D60F81"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "productivebees:nest_locator"
+				count: 1
+			}
+			dependencies: [
+				"398471DFFDDBAAF0"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "3FD270C9AF9D6D49"
+					type: "item"
+					item: {
+						count: 1
+						id: "productivebees:nest_locator"
+					}
+				}
+			]
+		}
+		{
+			id: "5D23827FB88F8BB2"
+			x: 4.5d
+			y: 1.25d
+			icon: {
+				id: "productivebees:catcher"
+				count: 1
+			}
+			dependencies: [
+				"1473A8EBD1BA9240"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "6260FC0897349E6B"
+					type: "item"
+					item: {
+						count: 1
+						id: "productivebees:catcher"
+					}
+				}
+			]
+		}
+		{
+			id: "7AEC96EC3DFA61E1"
+			x: 6.0d
+			y: 2.5d
+			icon: {
+				id: "productivebees:honey_generator"
+				count: 1
+			}
+			dependencies: [
+				"1171779A20E89BC0"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "45F3D62919B95A59"
+					type: "item"
+					item: {
+						count: 1
+						id: "productivebees:honey_generator"
+					}
+				}
+			]
+		}
+		{
+			id: "260142089968250C"
+			x: 7.5d
+			y: 0.625d
+			icon: {
+				id: "productivebees:incubator"
+				count: 1
+			}
+			dependencies: [
+				"0367AB6113664DF8"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "60144AF9E761D955"
+					type: "item"
+					item: {
+						count: 1
+						id: "productivebees:incubator"
+					}
+				}
+			]
+		}
+		{
+			id: "31A649466EC5B0A1"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "alexsmobs:crocodile_scute"
+				count: 1
+			}
+			dependencies: [
+				"0E9DB92921EFC049"
+			]
+			tasks: [
+				{
+					id: "680057B0A4663DEF"
+					type: "item"
+					item: {
+						count: 1
+						id: "alexsmobs:crocodile_scute"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "1F6B650E813930CE"
+			x: 3.0d
+			y: 1.875d
+			icon: {
+				id: "alexsmobs:bear_fur"
+				count: 1
+			}
+			dependencies: [
+				"0E9DB92921EFC049"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "5F842E5D15581C31"
+					type: "item"
+					item: {
+						count: 1
+						id: "alexsmobs:bear_fur"
+					}
+				}
+			]
+		}
+		{
+			id: "660352F7C57C7229"
+			x: 3.0d
+			y: 3.125d
+			icon: {
+				id: "alexsmobs:fish_oil"
+				count: 1
+			}
+			dependencies: [
+				"0E9DB92921EFC049"
+				"1D087548C817D51D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "32B28A3EC231EB65"
+					type: "item"
+					item: {
+						count: 1
+						id: "alexsmobs:fish_oil"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "2CB166812FBDDB4A"
+			x: 3.0d
+			y: 4.375d
+			icon: {
+				id: "naturalist:antler"
+				count: 1
+			}
+			dependencies: [
+				"0E9DB92921EFC049"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "49EBDDD877597141"
+					type: "item"
+					item: {
+						count: 1
+						id: "naturalist:antler"
+					}
+				}
+			]
+		}
+		{
+			id: "7B663457FD4E47AC"
+			x: 3.0d
+			y: 5.625d
+			icon: {
+				id: "naturalist:butterfly"
+				count: 1
+			}
+			dependencies: [
+				"0E9DB92921EFC049"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "43602D9E91A85D34"
+					type: "item"
+					item: {
+						count: 1
+						id: "naturalist:butterfly"
+					}
+				}
+			]
+		}
+		{
+			id: "1958E45AF97140BD"
+			x: 4.5d
+			y: 2.5d
+			icon: {
+				id: "crittersandcompanions:dragonfly_wing"
+				count: 1
+			}
+			dependencies: [
+				"0064456F4405DB56"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "77CC31A25EEEC600"
+					type: "item"
+					item: {
+						count: 1
+						id: "crittersandcompanions:dragonfly_wing"
+					}
+				}
+			]
+		}
+		{
+			id: "035FE318376C81BB"
+			x: 3.0d
+			y: 6.875d
+			icon: {
+				id: "minecraft:copper_block"
+				count: 1
+			}
+			dependencies: [
+				"0E9DB92921EFC049"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "06CB0EBCCA041E6B"
+					type: "checkmark"
 				}
 			]
 		}

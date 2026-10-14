@@ -13,7 +13,7 @@
 		{
 			id: "245608597F69080B"
 			x: 0.0d
-			y: 0.0d
+			y: -0.625d
 			shape: "gear"
 			icon: {
 				id: "mekanism:ingot_osmium"
@@ -82,7 +82,7 @@
 		{
 			id: "77688562BA6E2F2C"
 			x: 3.0d
-			y: 0.0d
+			y: -3.125d
 			icon: {
 				id: "mekanism:enrichment_chamber"
 				count: 1
@@ -114,7 +114,7 @@
 		{
 			id: "6ADA9E43D1CB61AE"
 			x: 4.5d
-			y: 0.0d
+			y: -0.625d
 			icon: {
 				id: "mekanism:basic_control_circuit"
 				count: 1
@@ -137,7 +137,7 @@
 		{
 			id: "6FB9DD22E96511CF"
 			x: 6.0d
-			y: -1.875d
+			y: -3.75d
 			icon: {
 				id: "mekanism:purification_chamber"
 				count: 1
@@ -160,7 +160,7 @@
 		{
 			id: "552270423C6CD2BE"
 			x: 6.0d
-			y: -0.625d
+			y: -2.5d
 			icon: {
 				id: "mekanism:basic_smelting_factory"
 				count: 1
@@ -183,7 +183,7 @@
 		{
 			id: "6B07DF1CDC5F216D"
 			x: 6.0d
-			y: 0.625d
+			y: -1.25d
 			icon: {
 				id: "mekanism:jetpack"
 				count: 1
@@ -206,7 +206,7 @@
 		{
 			id: "6E06D49078E7978C"
 			x: 6.0d
-			y: 1.875d
+			y: 0.0d
 			shape: "hexagon"
 			icon: {
 				id: "mekanism:geiger_counter"
@@ -245,7 +245,7 @@
 		{
 			id: "6C6A40C7728A898A"
 			x: 7.5d
-			y: 0.0d
+			y: -3.125d
 			icon: {
 				id: "mekanismgenerators:fission_reactor_casing"
 				count: 1
@@ -285,7 +285,7 @@
 		{
 			id: "14BEE4BDABDB075B"
 			x: 9.0d
-			y: -0.625d
+			y: -1.25d
 			icon: {
 				id: "mekanismgenerators:turbine_rotor"
 				count: 1
@@ -318,7 +318,7 @@
 		{
 			id: "673E8013AF5960AA"
 			x: 9.0d
-			y: 0.625d
+			y: 0.0d
 			icon: {
 				id: "mekanism:radioactive_waste_barrel"
 				count: 1
@@ -340,7 +340,7 @@
 		{
 			id: "474E9801152A6673"
 			x: 10.5d
-			y: -0.625d
+			y: -1.25d
 			icon: {
 				id: "mekanism:pellet_antimatter"
 				count: 1
@@ -364,7 +364,7 @@
 		{
 			id: "1152DA7E951B01C8"
 			x: 10.5d
-			y: 0.625d
+			y: 0.0d
 			icon: {
 				id: "mekanismgenerators:fusion_reactor_controller"
 				count: 1
@@ -422,6 +422,436 @@
 						count: 4
 						id: "mekanism:module_base"
 					}
+				}
+			]
+		}
+		{
+			id: "202B14FABDF1BEBE"
+			x: 3.0d
+			y: -1.875d
+			icon: {
+				id: "mekanism:crusher"
+				count: 1
+			}
+			dependencies: [
+				"625415B7F4D63866"
+			]
+			tasks: [
+				{
+					id: "4E82632E4B2A1C41"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:crusher"
+					}
+				}
+			]
+		}
+		{
+			id: "4CF40E8C8033E8A3"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "mekanism:energized_smelter"
+				count: 1
+			}
+			dependencies: [
+				"625415B7F4D63866"
+			]
+			tasks: [
+				{
+					id: "20E177EBE53A2599"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:energized_smelter"
+					}
+				}
+			]
+		}
+		{
+			id: "49875A981F07E924"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "mekanism:basic_universal_cable"
+				count: 1
+			}
+			dependencies: [
+				"625415B7F4D63866"
+			]
+			tasks: [
+				{
+					id: "510920AB4118B681"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:basic_universal_cable"
+					}
+					count: 16L
+				}
+				{
+					id: "08BD1AB981DBD2F8"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:basic_energy_cube"
+					}
+				}
+			]
+		}
+		{
+			id: "3B9CF5DEF05B0975"
+			x: 4.5d
+			y: 0.625d
+			icon: {
+				id: "mekanism:configurator"
+				count: 1
+			}
+			dependencies: [
+				"49875A981F07E924"
+			]
+			tasks: [
+				{
+					id: "2082F2C047C2CA54"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:configurator"
+					}
+				}
+			]
+		}
+		{
+			id: "16088EC8A05113FC"
+			x: 6.0d
+			y: 1.25d
+			icon: {
+				id: "mekanism:upgrade_speed"
+				count: 1
+			}
+			dependencies: [
+				"6ADA9E43D1CB61AE"
+			]
+			tasks: [
+				{
+					id: "695FF093C9256B95"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_speed"
+					}
+					count: 2L
+				}
+				{
+					id: "253E0964531C6D16"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:upgrade_energy"
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "27072E7F71AB537A"
+			x: 6.0d
+			y: 2.5d
+			icon: {
+				id: "mekanism:basic_logistical_transporter"
+				count: 1
+			}
+			dependencies: [
+				"6ADA9E43D1CB61AE"
+			]
+			tasks: [
+				{
+					id: "73282CE92806EB6F"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:basic_logistical_transporter"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "5085E51AFD3E356C"
+			x: 3.0d
+			y: 1.875d
+			icon: {
+				id: "mekanismgenerators:solar_generator"
+				count: 1
+			}
+			dependencies: [
+				"625415B7F4D63866"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "0D6882F990F38DAC"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismgenerators:solar_generator"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "6C0D1DCA5D7B6BBA"
+			x: 3.0d
+			y: 3.125d
+			icon: {
+				id: "mekanismgenerators:wind_generator"
+				count: 1
+			}
+			dependencies: [
+				"625415B7F4D63866"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "57CEFD4DB9F3E109"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismgenerators:wind_generator"
+					}
+				}
+			]
+		}
+		{
+			id: "1ECF6115162FDEAE"
+			x: 0.0d
+			y: 0.625d
+			icon: {
+				id: "mekanismgenerators:bio_generator"
+				count: 1
+			}
+			dependencies: [
+				"6C8A77DB5B4722EE"
+			]
+			tasks: [
+				{
+					id: "62F186300CF3E4D8"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismgenerators:bio_generator"
+					}
+				}
+			]
+		}
+		{
+			id: "27FE97C313BB88D2"
+			x: 6.0d
+			y: 3.75d
+			icon: {
+				id: "mekanism:electrolytic_separator"
+				count: 1
+			}
+			dependencies: [
+				"6ADA9E43D1CB61AE"
+			]
+			tasks: [
+				{
+					id: "7635729C9ABB40BD"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:electrolytic_separator"
+					}
+				}
+			]
+		}
+		{
+			id: "43AA10D65F8C95AE"
+			x: 7.5d
+			y: -1.875d
+			icon: {
+				id: "mekanism:chemical_injection_chamber"
+				count: 1
+			}
+			dependencies: [
+				"6FB9DD22E96511CF"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "17F4365CB68ACA3B"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:chemical_injection_chamber"
+					}
+				}
+			]
+		}
+		{
+			id: "1CB53BC48DEE6135"
+			x: 7.5d
+			y: -0.625d
+			icon: {
+				id: "mekanism:digital_miner"
+				count: 1
+			}
+			dependencies: [
+				"16088EC8A05113FC"
+			]
+			tasks: [
+				{
+					id: "6E6E06AF2670EE64"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:digital_miner"
+					}
+				}
+			]
+		}
+		{
+			id: "13E7AADECF1DA346"
+			x: 7.5d
+			y: 0.625d
+			icon: {
+				id: "mekanism:teleporter"
+				count: 1
+			}
+			dependencies: [
+				"16088EC8A05113FC"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "40B2EAEEF282AF5D"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:teleporter"
+					}
+				}
+				{
+					id: "05F6869DA6E36DFF"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:teleporter_frame"
+					}
+					count: 9L
+				}
+			]
+		}
+		{
+			id: "1B8A663F3567C4BB"
+			x: 7.5d
+			y: 1.875d
+			icon: {
+				id: "mekanism:qio_dashboard"
+				count: 1
+			}
+			dependencies: [
+				"16088EC8A05113FC"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "60837DD791EE81F9"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:qio_drive_array"
+					}
+				}
+				{
+					id: "5DA80DAA93DC34C4"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:qio_dashboard"
+					}
+				}
+			]
+		}
+		{
+			id: "467A309FB47AF4E3"
+			x: 7.5d
+			y: 3.125d
+			icon: {
+				id: "mekanism:atomic_disassembler"
+				count: 1
+			}
+			dependencies: [
+				"16088EC8A05113FC"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "5DEC846FD3088341"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:atomic_disassembler"
+					}
+				}
+			]
+		}
+		{
+			id: "5AEFDCFC36E4DDA2"
+			x: 10.5d
+			y: 1.25d
+			icon: {
+				id: "mekanism:basic_induction_cell"
+				count: 1
+			}
+			dependencies: [
+				"14BEE4BDABDB075B"
+			]
+			tasks: [
+				{
+					id: "75C0CFAB544CE73B"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:induction_casing"
+					}
+					count: 16L
+				}
+				{
+					id: "075AB8169E3DCCD9"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:basic_induction_cell"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "31249669C0F62F41"
+			x: 9.0d
+			y: 1.25d
+			icon: {
+				id: "mekanism:boiler_casing"
+				count: 1
+			}
+			dependencies: [
+				"6C6A40C7728A898A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "2FE64618A6C86358"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:boiler_casing"
+					}
+					count: 32L
 				}
 			]
 		}

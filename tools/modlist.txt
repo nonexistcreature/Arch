@@ -212,3 +212,14 @@ easy-villagers | 8 | жители
 deep-aether | 2 | Aether
 twilight-forest-the-lost-blocks | 2 | TF
 atlas-api | 6 | либа Iron's Jewelry
+# --- perf batch 2 (2026-10-14, owner: "мало модов на оптимизацию")
+c2me-neoforge | 1 | многопоточные чанки
+krypton-fnp | 1 | сеть
+fastsuite | 1 | поиск рецептов
+cull-leaves | 1 | FPS листва
+saturn | 1 | ОЗУ
+ksyxis | 1 | загрузка мира
+packet-fixer | 1 | большие пакеты
+particle-core | 1 | FPS частицы
+fast-paintings | 1 | FPS картины
+flerovium | 1 | FPS предметы в GUI

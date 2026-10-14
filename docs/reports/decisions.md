@@ -52,3 +52,5 @@ NeoOrigins: teleports_enabled=false, spawn_in_ocean=false. arkhaven-core LandSpa
 
 ## ID квестов
 FTB Quests теряет переводы у объектов с id ≥ 0x8000000000000000 (знаковый long). Генератор теперь выдаёт только положительные id.
+
+## ScalableLux исключён: Sable (физика Aeronautics) объявляет несовместимость.
