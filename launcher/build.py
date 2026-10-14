@@ -23,7 +23,10 @@ def fetch(url, dest):
     if not dest.exists():
         print("download", url)
         dest.parent.mkdir(parents=True, exist_ok=True)
-        urllib.request.urlretrieve(url, dest)
+        # api.adoptium.net answers 403 to urllib's default "Python-urllib" User-Agent
+        req = urllib.request.Request(url, headers={"User-Agent": "arkhaven-build/1.0 (+https://github.com/nonexistcreature/Arch)"})
+        with urllib.request.urlopen(req) as r, open(dest, "wb") as f:
+            shutil.copyfileobj(r, f)
     return dest
 
 
