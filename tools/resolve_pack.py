@@ -39,11 +39,17 @@ def get(path, params=None):
             time.sleep(2 * (attempt + 1))
     return None
 
-def best_version(pid):
+def best_version(pid, allow_beta=False):
     vs = get(f"/project/{pid}/version", {"game_versions": [MC], "loaders": [LOADER]})
     if not vs: return None
-    rank = {"release": 0, "beta": 1, "alpha": 2}
-    vs.sort(key=lambda v: (rank.get(v["version_type"], 3), -time.mktime(time.strptime(v["date_published"][:19], "%Y-%m-%dT%H:%M:%S"))))
+    ts = lambda v: time.mktime(time.strptime(v["date_published"][:19], "%Y-%m-%dT%H:%M:%S"))
+    vs.sort(key=ts, reverse=True)
+    newest = ts(vs[0])
+    # newest release unless a beta/alpha is much newer (>60 days) than the newest release
+    rel = [v for v in vs if v["version_type"] == "release"]
+    if allow_beta: return vs[0]
+    if rel and newest - ts(rel[0]) < 60 * 86400:
+        return rel[0]
     return vs[0]
 
 def side_of(p):
@@ -90,7 +96,7 @@ def main():
             unresolved.append((slug, wave, "ЗАПРЕЩЁН", via)); continue
         if p["project_type"] != "mod":
             unresolved.append((slug, wave, f"тип {p['project_type']}", via)); continue
-        v = best_version(p["id"])
+        v = best_version(p["id"], "[beta]" in role)
         if not v:
             unresolved.append((slug, wave, f"нет версии {MC}+{LOADER}", via)); continue
         side = side_of(p)

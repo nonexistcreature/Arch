@@ -1,6 +1,6 @@
 # modlist_resolved (авто, tools/resolve_pack.py)
 
-Всего: **125** (явных: 98, зависимостей: 27)
+Всего: **125** (явных: 97, зависимостей: 28)
 
 | slug | название | версия | тип | сторона | волна | роль | обновлён |
 |---|---|---|---|---|---|---|---|
@@ -19,7 +19,6 @@
 | bookshelf-lib | Bookshelf | 21.1.81 | release | both | 1 | зависимость enchantment-descriptions | 2026-02-10 |
 | botany-pots | Botany Pots | 21.1.44 | release | both | 2 | садоводство | 2026-06-13 |
 | brewin-and-chewin | Brewin' And Chewin' | 4.5.0+1.21.1-neoforge | release | both | 2 | напитки | 2026-06-24 |
-| chunky | Chunky | 1.4.23 | release | both | 1 | прегенерация | 2025-04-04 |
 | citadel-1.21.1-port | Citadel (Unofficial Port) | 2.7.6 | release | both | 3 | зависимость alexs-mobs-1.21.1 | 2026-04-25 |
 | cloth-config | Cloth Config API | 15.0.140+neoforge | release | both | 1 | зависимость moreculling | 2024-09-16 |
 | clumps | Clumps | 19.0.0.1 | release | both | 1 | XP | 2024-08-13 |
@@ -57,10 +56,10 @@
 | iceberg | Iceberg | 1.3.2 | release | both | 1 | зависимость legendary-tooltips | 2025-04-14 |
 | immediatelyfast | ImmediatelyFast | 1.6.15+1.21.1-neoforge | release | client | 1 | FPS | 2026-10-13 |
 | inventory-essentials | Inventory Essentials | 21.1.20+neoforge-1.21.1 | release | both | 1 | инвентарь | 2026-10-02 |
-| iris | Iris Shaders | 1.8.12+1.21.1-neoforge | release | client | 1 | шейдеры | 2025-06-17 |
+| iris | Iris Shaders | 1.8.14-beta.1+1.21.1-neoforge | beta | client | 1 | шейдеры | 2026-06-13 |
 | jade | Jade 🔍 | 15.10.6+neoforge | release | both | 1 | подсказки | 2026-08-06 |
 | jade-addons-forge | Jade Addons (Neo/Forge) | 6.1.2+neoforge | release | both | 1 | подсказки | 2026-10-04 |
-| jei | Just Enough Items (JEI) | 19.51.0.418 | release | both | 1 | рецепты бэкенд | 2026-09-02 |
+| jei | Just Enough Items (JEI) | 19.64.0.453 | beta | both | 1 | рецепты бэкенд [beta] | 2026-10-12 |
 | konkrete | Konkrete | 1.9.9-1.21-neoforge | release | both | 4 | зависимость fancymenu | 2024-06-21 |
 | kotlin-for-forge | Kotlin for Forge | 5.12.0 | release | both | 2 | зависимость slice-and-dice | 2026-06-28 |
 | kubejs | KubeJS | 2101.7.2-build.377 | release | both | 1 | скрипты | 2026-09-09 |
@@ -75,6 +74,7 @@
 | lootr | Lootr | 1.21.1-1.11.38.127 | release | both | 2 | лут | 2026-09-25 |
 | marstons-fallen-stars | Marston's Fallen Stars | 0.0.0 | alpha | server | 2 | метеориты | 2026-01-23 |
 | melody | Melody | 1.0.10-1.21-neoforge | release | both | 4 | зависимость fancymenu | 2024-06-21 |
+| mezzconfig | MezzConfig | 0.6.8 | beta | both | 1 | зависимость jei | 2026-10-03 |
 | modelfix | Model Gap Fix | 1.21-1.10 | release | client | 1 | визуал | 2024-08-03 |
 | modernfix | ModernFix | 5.27.26+mc1.21.1 | release | both | 1 | загрузка/ОЗУ | 2026-10-08 |
 | moonlight | Moonlight Lib | 1.21.1-3.7.2 | release | both | 2 | зависимость supplementaries | 2026-10-10 |
