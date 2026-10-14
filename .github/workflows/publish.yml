@@ -46,7 +46,7 @@ jobs:
         run: python tools/make_server_kit.py
       - name: All release files exist
         shell: bash
-        run: ls -la launcher/dist && test -f launcher/dist/Arkhaven-Prism-Instance.zip && test -f launcher/dist/Arkhaven-Own-Launcher.zip && ls launcher/dist/Arkhaven-Setup-*.exe
+        run: ls -la launcher/dist && test -f launcher/dist/Arkhaven-Prism-Instance.zip && test -f launcher/dist/Arkhaven-Own-Launcher.zip && ls launcher/dist/Arkhaven-Setup-*.exe launcher/dist/Arkhaven-*.mrpack
       - uses: softprops/action-gh-release@v2
         with:
           files: |
@@ -54,3 +54,4 @@ jobs:
             launcher/dist/Arkhaven-Server-Kit.zip
             launcher/dist/Arkhaven-Prism-Instance.zip
             launcher/dist/Arkhaven-Own-Launcher.zip
+            launcher/dist/Arkhaven-*.mrpack

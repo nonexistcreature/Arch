@@ -204,6 +204,8 @@ def main():
     (L / "dist").mkdir(exist_ok=True)
     build_prism_zip(mc)
     build_own_launcher_zip()
+    # universal .mrpack: Prism, Modrinth App, ATLauncher, GDLauncher...
+    subprocess.run([sys.executable, str(ROOT / "tools/export_mrpack.py"), "--version", REL["version"]], check=True)
     iscc = ROOT / "tools/bin/inno/ISCC.exe"
     if not iscc.exists():  # CI runner: Inno Setup is preinstalled
         iscc = next(p for p in [Path(rf"{d}/Inno Setup {v}/ISCC.exe") for v in (7, 6) for d in ("C:/Program Files", "C:/Program Files (x86)")] if p.exists())
