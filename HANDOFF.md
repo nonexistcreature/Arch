@@ -28,6 +28,11 @@
 JDK 21 (Temurin), packwiz, NeoForge-установщик, packwiz-installer-bootstrap,
 Inno Setup 7.1 (установлен «для текущего пользователя» в `tools/bin/inno`, удаляется через
 «Приложения» → Inno Setup), кеш Prism Launcher и JRE. Python-пакет `pyyaml`.
+Тестовый клиент — `tests/client_run/` (HeadlessMC, без окна).
+⚠ Один раз HeadlessMC по умолчанию поставил NeoForge в твою папку `%APPDATA%\.minecraft`. Я это откатил:
+профиль «NeoForge» убран из официального лаунчера (копия старого файла — `tests/launcher_profiles.backup.json`),
+версии перенесены в папку проекта. В `%APPDATA%\.minecraft\libraries` могли остаться скачанные библиотеки —
+это просто кеш, он ничего не меняет (можно не трогать).
 Тестовый сервер — `tests/server_run/` (только 127.0.0.1, offline-режим, запускается и останавливается тестом).
 
 ## Как зайти
