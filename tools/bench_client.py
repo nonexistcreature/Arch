@@ -94,7 +94,7 @@ def prepare_world():
     (GAME / "kubejs/client_scripts").mkdir(parents=True, exist_ok=True)
     shutil.copy(ROOT / "tests/kubejs_client/zz_fps_probe.js", GAME / "kubejs/client_scripts/zz_fps_probe.js")
     (GAME / "kubejs/server_scripts").mkdir(parents=True, exist_ok=True)
-    shutil.copy(ROOT / "tests/kubejs/zz_open_quests_probe.js", GAME / "kubejs/server_scripts/zz_open_quests_probe.js")
+    shutil.copy(ROOT / "tests/kubejs_bench/zz_open_quests_probe.js", GAME / "kubejs/server_scripts/zz_open_quests_probe.js")
 
 
 def run(name):

@@ -24,13 +24,21 @@ public final class LandSpawn {
     public static void onServerStarted(ServerStartedEvent event) {
         ServerLevel ow = event.getServer().overworld();
         BlockPos spawn = ow.getSharedSpawnPos();
-        if (isDryLand(ow, spawn)) return;
-        BlockPos land = findLand(ow, spawn, 1024);
+        if (isDryLand(ow, spawn)) {
+            // Spawn can be recorded at bedrock level when chunks weren't generated yet: put it on the surface.
+            BlockPos top = ow.getHeightmapPos(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, spawn);
+            if (top.getY() != spawn.getY()) {
+                ow.setDefaultSpawnPos(top, 0f);
+                ArkhavenCore.LOG.info("World spawn moved to the surface: {} -> {}", spawn, top);
+            }
+            return;
+        }
+        BlockPos land = findLand(ow, spawn, 2048);
         if (land != null) {
             ow.setDefaultSpawnPos(land, 0f);
             ArkhavenCore.LOG.info("World spawn {} was in water; moved to dry land at {}", spawn, land);
         } else {
-            ArkhavenCore.LOG.warn("No dry land found within 1024 blocks of spawn {}", spawn);
+            ArkhavenCore.LOG.warn("No dry land found within 2048 blocks of spawn {}", spawn);
         }
     }
 
@@ -66,18 +74,27 @@ public final class LandSpawn {
         BlockState ground = level.getBlockState(top.below());
         if (!level.getFluidState(top).isEmpty() || !level.getFluidState(top.below()).isEmpty()) return false;
         if (ground.is(BlockTags.LEAVES) || !ground.isSolid()) return false;
-        var biome = level.getBiome(top);
-        return !biome.is(BiomeTags.IS_OCEAN) && !biome.is(BiomeTags.IS_RIVER);
+        return top.getY() >= level.getSeaLevel(); // solid, dry, not an underwater pocket
     }
 
-    /** Spiral search on a 16-block grid for the nearest dry surface. */
+    /**
+     * Ring search for the nearest land. Candidates are pre-filtered with the biome source (no chunk generation),
+     * and only promising spots load a chunk for the real surface check — at most 12 chunk loads in total.
+     */
     static BlockPos findLand(ServerLevel level, BlockPos center, int radius) {
-        for (int r = 16; r <= radius; r += 16) {
-            for (int dx = -r; dx <= r; dx += 16) {
-                for (int dz = -r; dz <= r; dz += 16) {
+        int loads = 0;
+        for (int r = 32; r <= radius; r += 32) {
+            for (int dx = -r; dx <= r; dx += 32) {
+                for (int dz = -r; dz <= r; dz += 32) {
                     if (Math.abs(dx) != r && Math.abs(dz) != r) continue; // ring only
                     BlockPos p = center.offset(dx, 0, dz);
-                    if (isDryLand(level, p)) return level.getHeightmapPos(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, p);
+                    var biome = level.getUncachedNoiseBiome(p.getX() >> 2, 63 >> 2, p.getZ() >> 2);
+                    if (biome.is(BiomeTags.IS_OCEAN) || biome.is(BiomeTags.IS_DEEP_OCEAN)) continue;
+                    if (++loads > 48) return null;
+                    BlockPos top = level.getHeightmapPos(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, p);
+                    ArkhavenCore.LOG.info("land candidate {} biome {} top {} block {} fluid {}", p, biome.unwrapKey().map(Object::toString).orElse("?"), top,
+                            level.getBlockState(top.below()), level.getFluidState(top.below()).getType());
+                    if (isDryLand(level, p)) return top;
                 }
             }
         }

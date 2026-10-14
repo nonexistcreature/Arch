@@ -218,7 +218,6 @@ krypton-fnp | 1 | сеть
 fastsuite | 1 | поиск рецептов
 cull-leaves | 1 | FPS листва
 saturn | 1 | ОЗУ
-ksyxis | 1 | загрузка мира
 packet-fixer | 1 | большие пакеты
 particle-core | 1 | FPS частицы
 fast-paintings | 1 | FPS картины

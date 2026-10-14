@@ -1,6 +1,6 @@
 # modlist_resolved (авто, tools/resolve_pack.py)
 
-Всего: **256** (явных: 205, зависимостей: 51)
+Всего: **255** (явных: 204, зависимостей: 51)
 
 | slug | название | версия | тип | сторона | волна | роль | обновлён |
 |---|---|---|---|---|---|---|---|
@@ -131,11 +131,10 @@
 | item-borders | Item Borders | 1.2.5 | release | client | 1 | UI | 2024-08-02 |
 | jade | Jade 🔍 | 15.10.6+neoforge | release | both | 1 | подсказки | 2026-08-06 |
 | jade-addons-forge | Jade Addons (Neo/Forge) | 6.1.2+neoforge | release | both | 1 | подсказки | 2026-10-04 |
-| jei | Just Enough Items (JEI) | 19.64.0.453 | beta | both | 1 | рецепты бэкенд [beta] | 2026-10-12 |
+| jei | Just Enough Items (JEI) | 19.64.0.454 | beta | both | 1 | рецепты бэкенд [beta] | 2026-10-14 |
 | konkrete | Konkrete | 1.9.9-1.21-neoforge | release | both | 4 | зависимость fancymenu | 2024-06-21 |
 | kotlin-for-forge | Kotlin for Forge | 5.12.0 | release | both | 2 | зависимость slice-and-dice | 2026-06-28 |
 | krypton-fnp | Krypton Reno | 0.2.28.1-1.21.1 | release | both | 1 | сеть | 2026-01-15 |
-| ksyxis | Ksyxis | 1.4.6 | release | server | 1 | загрузка мира | 2026-10-08 |
 | kubejs | KubeJS | 2101.7.2-build.377 | release | both | 1 | скрипты | 2026-09-09 |
 | l_enders-cataclysm | L_Ender's Cataclysm | 3.33 | release | both | 7 | боссы | 2026-09-20 |
 | legendary-tooltips | Legendary Tooltips | 1.5.5 | release | client | 1 | тултипы | 2025-04-08 |

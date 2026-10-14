@@ -87,5 +87,22 @@
   "arkhaven.festival.autumn.title": "The Harvest Festival",
   "arkhaven.festival.autumn.chat": "[Arkhaven] Autumn! The Harvest Festival: a great dinner, pumpkins and young wine.",
   "arkhaven.festival.winter.title": "Winter Lights",
-  "arkhaven.festival.winter.chat": "[Arkhaven] Winter! Winter Lights: deck the Haven with lanterns and go ice fishing."
+  "arkhaven.festival.winter.chat": "[Arkhaven] Winter! Winter Lights: deck the Haven with lanterns and go ice fishing.",
+  "arkhaven.guide.open_book": "[Open the quest book]",
+  "arkhaven.guide.keeper.name": "Haven Keeper",
+  "arkhaven.guide.keeper.line": "Welcome! The Haven is safe: no enemies spawn here. The quest book explains everything — open it with L.",
+  "arkhaven.guide.marta.name": "Marta the Innkeeper",
+  "arkhaven.guide.marta.line": "Hungry? A knife, a pot and some veggies and you are a cook. The Kitchen & Tavern chapter awaits.",
+  "arkhaven.guide.luka.name": "Luka the Gardener",
+  "arkhaven.guide.luka.line": "The soil is generous. Plant seeds — and later grow iron right in your garden!",
+  "arkhaven.guide.vera.name": "Vera the Zoologist",
+  "arkhaven.guide.vera.line": "Bees, dragons, a hundred fish... I will help you befriend the beasts.",
+  "arkhaven.guide.gustav.name": "Gustav the Mechanic",
+  "arkhaven.guide.gustav.line": "Rotation is everything. Wheel, shaft, cog — and one day you will lift a citadel into the sky.",
+  "arkhaven.guide.iris.name": "Iris the Mage",
+  "arkhaven.guide.iris.line": "Magic loves good food and pretty flowers. Start with the novice book — I will guide you.",
+  "arkhaven.guide.dan.name": "Dan the Guard Captain",
+  "arkhaven.guide.dan.line": "It is quiet near the Haven. Want a fight? Head to the wilds or dungeons. But eat first and bring a shield.",
+  "arkhaven.guide.ada.name": "Mayor Ada",
+  "arkhaven.guide.ada.line": "Dreaming of your own town? Set up a settlers camp and citizens will come."
 }

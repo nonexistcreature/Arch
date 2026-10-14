@@ -166,11 +166,11 @@ hash = "2e2540b385fc03a28fe7b6aa64135cd949694dab7a2fccbe6051aee601caf6b4"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/en_us.json"
-hash = "363c99ab83e93c24f8c1442d7bb54d09f0c113d0b4ced02bfe81edad14926095"
+hash = "d55ec814fc589b92d5f4dc541340c41c47edce79064c31f86d41cfc96f70eacf"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/ru_ru.json"
-hash = "07d082dfe01ba77be08e3e70ad7d0814c01a63d18dd608cb4f8ca627c0fed84f"
+hash = "5cf73fc5160c53f84245b691322a52e452d532cf591fc181377847ab19f9ff1c"
 
 [[files]]
 file = "kubejs/assets/arkhaven/textures/item/aero_lubricant.png"
@@ -281,6 +281,10 @@ file = "kubejs/server_scripts/55_festivals.js"
 hash = "dd7397b0e31358796109e84ef5e60b6d6c72582bfcb656da39fd5330c458a767"
 
 [[files]]
+file = "kubejs/server_scripts/60_haven_guides.js"
+hash = "3f0d4d7ae78205a134adcf2c9588be4bd68347080eb1c5ae932ae540a9a320de"
+
+[[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
 hash = "a70230b6a9c59839db23ff0bc825550da3be11486e05fa260583ae13d17501c0"
 
@@ -379,7 +383,7 @@ metafile = true
 
 [[files]]
 file = "mods/arkhaven_core-0.1.0.jar"
-hash = "d282d017a1e65e89e20fc66944f98a856ff45d25a1baae2aaef74259fe1fa3df"
+hash = "e315466fc4e12972951bfbd83f4e0159abe79fbc9669811ab52a496450e610ec"
 
 [[files]]
 file = "mods/ars-additions.pw.toml"
@@ -1038,7 +1042,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "cfc4d1bcc1ff43a45933e05db06fe8e2e607b01304ec4810544b6d7179668b54"
+hash = "7358789081b9ff127b20b86bee860392e60587fa90c3e61a3a05c8983f06013d"
 metafile = true
 
 [[files]]
@@ -1054,11 +1058,6 @@ metafile = true
 [[files]]
 file = "mods/krypton-fnp.pw.toml"
 hash = "5a96006110f4cdd98460a994373153909a5f0bf6cb68c5ac3a64adbda86eb302"
-metafile = true
-
-[[files]]
-file = "mods/ksyxis.pw.toml"
-hash = "e98be0d8ab66be0359550a512601d5012d12ed3cf79eeff165cf7b71a9d27aa8"
 metafile = true
 
 [[files]]
