@@ -40,7 +40,7 @@
 			]
 		}
 		{
-			id: "E914A21F92128873"
+			id: "6914A21F92128873"
 			x: 1.5d
 			y: -1.25d
 			icon: {
@@ -71,7 +71,7 @@
 			]
 			tasks: [
 				{
-					id: "8C58E21655AF23EC"
+					id: "0C58E21655AF23EC"
 					type: "checkmark"
 				}
 			]
@@ -90,13 +90,13 @@
 			]
 			tasks: [
 				{
-					id: "8458C58CD5415F00"
+					id: "0458C58CD5415F00"
 					type: "checkmark"
 				}
 			]
 		}
 		{
-			id: "9899A2B09262FA6D"
+			id: "1899A2B09262FA6D"
 			x: 3.0d
 			y: -0.625d
 			icon: {
@@ -134,13 +134,13 @@
 			optional: true
 			tasks: [
 				{
-					id: "EB7D743FEEBEF07D"
+					id: "6B7D743FEEBEF07D"
 					type: "checkmark"
 				}
 			]
 		}
 		{
-			id: "DE88CA63A0373FF4"
+			id: "5E88CA63A0373FF4"
 			x: 4.5d
 			y: 0.0d
 			icon: {
@@ -148,7 +148,7 @@
 				count: 1
 			}
 			dependencies: [
-				"9899A2B09262FA6D"
+				"1899A2B09262FA6D"
 			]
 			tasks: [
 				{

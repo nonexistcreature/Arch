@@ -30,8 +30,9 @@ public final class ArkhavenGameTests {
         if (h.getBlockEntity(ward) instanceof WardGeneratorBlockEntity be) be.setFuelCrystals(1);
         h.runAfterDelay(10, () -> {
             Vec3 c = h.absoluteVec(Vec3.atCenterOf(stone));
-            h.getLevel().explode(null, c.x, c.y + 1, c.z, 3.0f, Level.ExplosionInteraction.TNT);
+            h.getLevel().explode(null, c.x, c.y, c.z, 8.0f, Level.ExplosionInteraction.TNT);
             h.assertBlockPresent(Blocks.DIRT, stone);
+            h.setBlock(ward, Blocks.AIR); // don't keep protecting neighbouring tests
             h.succeed();
         });
     }
@@ -45,8 +46,9 @@ public final class ArkhavenGameTests {
         h.setBlock(stone, Blocks.DIRT);
         h.runAfterDelay(10, () -> {
             Vec3 c = h.absoluteVec(Vec3.atCenterOf(stone));
-            h.getLevel().explode(null, c.x, c.y, c.z, 4.0f, Level.ExplosionInteraction.TNT);
-            h.assertBlockNotPresent(Blocks.DIRT, stone);
+            var ward2 = dev.arkhaven.core.ward.WardManager.covering(h.getLevel(), c);
+            h.getLevel().explode(null, c.x, c.y, c.z, 8.0f, Level.ExplosionInteraction.TNT);
+            if (h.getBlockState(stone).is(Blocks.DIRT)) h.fail("dirt survived; covering ward=" + ward2);
             h.succeed();
         });
     }

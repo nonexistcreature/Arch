@@ -1,5 +1,5 @@
 {
-	id: "813D59C2990EDE7A"
+	id: "013D59C2990EDE7A"
 	group: ""
 	order_index: 0
 	filename: "welcome"
@@ -21,7 +21,7 @@
 			}
 			tasks: [
 				{
-					id: "BD5486D30FC09421"
+					id: "3D5486D30FC09421"
 					type: "checkmark"
 				}
 			]
@@ -45,7 +45,7 @@
 			]
 		}
 		{
-			id: "84E0C8297145FA0D"
+			id: "04E0C8297145FA0D"
 			x: 1.5d
 			y: -3.75d
 			icon: {
@@ -93,13 +93,13 @@
 			]
 			tasks: [
 				{
-					id: "F65C11A169538380"
+					id: "765C11A169538380"
 					type: "checkmark"
 				}
 			]
 		}
 		{
-			id: "8CD6F0E34FDE881D"
+			id: "0CD6F0E34FDE881D"
 			x: 1.5d
 			y: -1.25d
 			icon: {
@@ -147,7 +147,7 @@
 			]
 			tasks: [
 				{
-					id: "F38170B0629279DB"
+					id: "738170B0629279DB"
 					type: "checkmark"
 				}
 			]
@@ -162,11 +162,11 @@
 				count: 1
 			}
 			dependencies: [
-				"84E0C8297145FA0D"
+				"04E0C8297145FA0D"
 			]
 			tasks: [
 				{
-					id: "C9256D4D689ACA86"
+					id: "49256D4D689ACA86"
 					type: "checkmark"
 				}
 			]
@@ -198,11 +198,11 @@
 				count: 1
 			}
 			dependencies: [
-				"84E0C8297145FA0D"
+				"04E0C8297145FA0D"
 			]
 			tasks: [
 				{
-					id: "A1AEEDFA322F85B8"
+					id: "21AEEDFA322F85B8"
 					type: "checkmark"
 				}
 			]
@@ -221,13 +221,13 @@
 			optional: true
 			tasks: [
 				{
-					id: "FBEDB219B8631928"
+					id: "7BEDB219B8631928"
 					type: "checkmark"
 				}
 			]
 		}
 		{
-			id: "C3626AEC27FFE561"
+			id: "43626AEC27FFE561"
 			x: 1.5d
 			y: 3.75d
 			icon: {
@@ -240,13 +240,13 @@
 			optional: true
 			tasks: [
 				{
-					id: "989880123D8227EB"
+					id: "189880123D8227EB"
 					type: "checkmark"
 				}
 			]
 		}
 		{
-			id: "A11FE5B4A21988C5"
+			id: "211FE5B4A21988C5"
 			x: 6.0d
 			y: 0.0d
 			shape: "gear"
@@ -256,20 +256,20 @@
 			}
 			dependencies: [
 				"7364572739F8EBFD"
-				"8CD6F0E34FDE881D"
+				"0CD6F0E34FDE881D"
 				"6AEEBF70D9410C91"
 				"0AB73893D32D29B0"
 				"6FCCA553E617BD3B"
 			]
 			tasks: [
 				{
-					id: "E22B79BD6D3489D1"
+					id: "622B79BD6D3489D1"
 					type: "checkmark"
 				}
 			]
 			rewards: [
 				{
-					id: "E818CD7571A7167B"
+					id: "6818CD7571A7167B"
 					type: "item"
 					item: {
 						count: 16
@@ -277,7 +277,7 @@
 					}
 				}
 				{
-					id: "AC516AFFAA292186"
+					id: "2C516AFFAA292186"
 					type: "xp_levels"
 					xp_levels: 3
 				}

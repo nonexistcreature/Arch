@@ -11,7 +11,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "81CE06E57550BE24"
+			id: "01CE06E57550BE24"
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
@@ -34,7 +34,7 @@
 			]
 		}
 		{
-			id: "DD53F6CD01048766"
+			id: "5D53F6CD01048766"
 			x: 1.5d
 			y: 0.0d
 			icon: {
@@ -42,7 +42,7 @@
 				count: 1
 			}
 			dependencies: [
-				"81CE06E57550BE24"
+				"01CE06E57550BE24"
 			]
 			tasks: [
 				{
@@ -65,7 +65,7 @@
 				count: 1
 			}
 			dependencies: [
-				"DD53F6CD01048766"
+				"5D53F6CD01048766"
 			]
 			tasks: [
 				{
@@ -77,7 +77,7 @@
 					}
 				}
 				{
-					id: "A4D61F45D8114838"
+					id: "24D61F45D8114838"
 					type: "item"
 					item: {
 						count: 1
@@ -99,7 +99,7 @@
 			]
 			tasks: [
 				{
-					id: "8151BA76B25D99EB"
+					id: "0151BA76B25D99EB"
 					type: "item"
 					item: {
 						count: 1
@@ -109,7 +109,7 @@
 			]
 		}
 		{
-			id: "9429288ACE921923"
+			id: "1429288ACE921923"
 			x: 6.0d
 			y: -0.625d
 			icon: {
@@ -122,7 +122,7 @@
 			optional: true
 			tasks: [
 				{
-					id: "A5CD7FD76D7D0CA6"
+					id: "25CD7FD76D7D0CA6"
 					type: "item"
 					item: {
 						count: 1
@@ -144,7 +144,7 @@
 			]
 			tasks: [
 				{
-					id: "9BD029F1ADC32DE2"
+					id: "1BD029F1ADC32DE2"
 					type: "item"
 					item: {
 						count: 1
@@ -154,7 +154,7 @@
 			]
 		}
 		{
-			id: "AA27D09E6BCC33F9"
+			id: "2A27D09E6BCC33F9"
 			x: 7.5d
 			y: -0.625d
 			icon: {
@@ -167,7 +167,7 @@
 			optional: true
 			tasks: [
 				{
-					id: "873867B22BEE6426"
+					id: "073867B22BEE6426"
 					type: "item"
 					item: {
 						count: 1

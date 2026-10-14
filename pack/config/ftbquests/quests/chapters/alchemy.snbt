@@ -1,5 +1,5 @@
 {
-	id: "EF2A8A724E748B44"
+	id: "6F2A8A724E748B44"
 	group: ""
 	order_index: 15
 	filename: "alchemy"
@@ -11,7 +11,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "8FE6B961A2B65B01"
+			id: "0FE6B961A2B65B01"
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
@@ -34,7 +34,7 @@
 			]
 			rewards: [
 				{
-					id: "C6891D5C008CEFC3"
+					id: "46891D5C008CEFC3"
 					type: "item"
 					item: {
 						count: 16
@@ -42,7 +42,7 @@
 					}
 				}
 				{
-					id: "9B0DACB722F7DEDC"
+					id: "1B0DACB722F7DEDC"
 					type: "item"
 					item: {
 						count: 8
@@ -60,11 +60,11 @@
 				count: 1
 			}
 			dependencies: [
-				"8FE6B961A2B65B01"
+				"0FE6B961A2B65B01"
 			]
 			tasks: [
 				{
-					id: "CDB2007CDC5C7453"
+					id: "4DB2007CDC5C7453"
 					type: "item"
 					item: {
 						count: 1
@@ -74,7 +74,7 @@
 			]
 		}
 		{
-			id: "9B9EEE85EBDBA92D"
+			id: "1B9EEE85EBDBA92D"
 			x: 1.5d
 			y: 0.625d
 			shape: "hexagon"
@@ -83,11 +83,11 @@
 				count: 1
 			}
 			dependencies: [
-				"8FE6B961A2B65B01"
+				"0FE6B961A2B65B01"
 			]
 			tasks: [
 				{
-					id: "F685318623FED0BE"
+					id: "7685318623FED0BE"
 					type: "checkmark"
 				}
 			]
@@ -103,7 +103,7 @@
 			]
 		}
 		{
-			id: "E7BE72A396A69007"
+			id: "67BE72A396A69007"
 			x: 3.0d
 			y: -3.125d
 			icon: {
@@ -111,12 +111,12 @@
 				count: 1
 			}
 			dependencies: [
-				"9B9EEE85EBDBA92D"
+				"1B9EEE85EBDBA92D"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "A0C36A98EE9CA761"
+					id: "20C36A98EE9CA761"
 					type: "checkmark"
 				}
 			]
@@ -130,7 +130,7 @@
 				count: 1
 			}
 			dependencies: [
-				"9B9EEE85EBDBA92D"
+				"1B9EEE85EBDBA92D"
 			]
 			optional: true
 			tasks: [
@@ -149,12 +149,12 @@
 				count: 1
 			}
 			dependencies: [
-				"9B9EEE85EBDBA92D"
+				"1B9EEE85EBDBA92D"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "85F4D7A0EA1BFBBB"
+					id: "05F4D7A0EA1BFBBB"
 					type: "checkmark"
 				}
 			]
@@ -168,12 +168,12 @@
 				count: 1
 			}
 			dependencies: [
-				"9B9EEE85EBDBA92D"
+				"1B9EEE85EBDBA92D"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "CFD53031DDCF6928"
+					id: "4FD53031DDCF6928"
 					type: "checkmark"
 				}
 			]
@@ -187,8 +187,8 @@
 				count: 1
 			}
 			dependencies: [
-				"9B9EEE85EBDBA92D"
-				"A94E4669A44B8A90"
+				"1B9EEE85EBDBA92D"
+				"294E4669A44B8A90"
 			]
 			tasks: [
 				{
@@ -198,7 +198,7 @@
 			]
 		}
 		{
-			id: "B0B0F5FAE9A6FB57"
+			id: "30B0F5FAE9A6FB57"
 			x: 4.5d
 			y: -0.625d
 			icon: {
@@ -207,11 +207,11 @@
 			}
 			dependencies: [
 				"5D3473C41AD56DA7"
-				"EE06D49078E7978C"
+				"6E06D49078E7978C"
 			]
 			tasks: [
 				{
-					id: "DB0C71B09BC5EACB"
+					id: "5B0C71B09BC5EACB"
 					type: "checkmark"
 				}
 			]
@@ -225,12 +225,12 @@
 				count: 1
 			}
 			dependencies: [
-				"9B9EEE85EBDBA92D"
+				"1B9EEE85EBDBA92D"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "E4E35408911D4EC2"
+					id: "64E35408911D4EC2"
 					type: "checkmark"
 				}
 			]
@@ -245,7 +245,7 @@
 				count: 1
 			}
 			dependencies: [
-				"9B9EEE85EBDBA92D"
+				"1B9EEE85EBDBA92D"
 				"5D3473C41AD56DA7"
 				"4ADED478BA38BECC"
 			]

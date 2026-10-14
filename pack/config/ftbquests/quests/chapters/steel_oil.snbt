@@ -1,5 +1,5 @@
 {
-	id: "B609E2F89D752FA6"
+	id: "3609E2F89D752FA6"
 	group: ""
 	order_index: 10
 	filename: "steel_oil"
@@ -11,7 +11,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "8210AA1ED353DB24"
+			id: "0210AA1ED353DB24"
 			x: 0.0d
 			y: -0.625d
 			shape: "gear"
@@ -20,11 +20,11 @@
 				count: 1
 			}
 			dependencies: [
-				"A1B4E617FBC154C7"
+				"21B4E617FBC154C7"
 			]
 			tasks: [
 				{
-					id: "E3A48234EC724C5A"
+					id: "63A48234EC724C5A"
 					type: "item"
 					item: {
 						count: 1
@@ -32,7 +32,7 @@
 					}
 				}
 				{
-					id: "E35A37D9810913ED"
+					id: "635A37D9810913ED"
 					type: "item"
 					item: {
 						count: 1
@@ -42,7 +42,7 @@
 			]
 		}
 		{
-			id: "C2529685BB61068A"
+			id: "42529685BB61068A"
 			x: 1.5d
 			y: -0.625d
 			icon: {
@@ -50,11 +50,11 @@
 				count: 1
 			}
 			dependencies: [
-				"8210AA1ED353DB24"
+				"0210AA1ED353DB24"
 			]
 			tasks: [
 				{
-					id: "A467E522017F24AF"
+					id: "2467E522017F24AF"
 					type: "item"
 					item: {
 						count: 1
@@ -65,7 +65,7 @@
 			]
 		}
 		{
-			id: "C50EFCA7DA0C32C3"
+			id: "450EFCA7DA0C32C3"
 			x: 3.0d
 			y: -0.625d
 			icon: {
@@ -73,11 +73,11 @@
 				count: 1
 			}
 			dependencies: [
-				"C2529685BB61068A"
+				"42529685BB61068A"
 			]
 			tasks: [
 				{
-					id: "ECADC6BAB2E4CEEC"
+					id: "6CADC6BAB2E4CEEC"
 					type: "item"
 					item: {
 						count: 1
@@ -88,7 +88,7 @@
 			]
 		}
 		{
-			id: "FBACE05C294403E1"
+			id: "7BACE05C294403E1"
 			x: 3.0d
 			y: 0.625d
 			icon: {
@@ -96,7 +96,7 @@
 				count: 1
 			}
 			dependencies: [
-				"C2529685BB61068A"
+				"42529685BB61068A"
 			]
 			optional: true
 			tasks: [
@@ -109,7 +109,7 @@
 					}
 				}
 				{
-					id: "DDC47C419E7BBD6B"
+					id: "5DC47C419E7BBD6B"
 					type: "item"
 					item: {
 						count: 1
@@ -127,12 +127,12 @@
 				count: 1
 			}
 			dependencies: [
-				"C50EFCA7DA0C32C3"
+				"450EFCA7DA0C32C3"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "98F4A1A4DD7DB969"
+					id: "18F4A1A4DD7DB969"
 					type: "item"
 					item: {
 						count: 1
@@ -150,11 +150,11 @@
 				count: 1
 			}
 			dependencies: [
-				"C50EFCA7DA0C32C3"
+				"450EFCA7DA0C32C3"
 			]
 			tasks: [
 				{
-					id: "CAF0C96D407D524D"
+					id: "4AF0C96D407D524D"
 					type: "item"
 					item: {
 						count: 1
@@ -176,7 +176,7 @@
 			]
 			tasks: [
 				{
-					id: "AF6E5E6A8CA88271"
+					id: "2F6E5E6A8CA88271"
 					type: "item"
 					item: {
 						count: 1
@@ -186,7 +186,7 @@
 			]
 		}
 		{
-			id: "BE617B5D12B1FC24"
+			id: "3E617B5D12B1FC24"
 			x: 7.5d
 			y: -0.625d
 			icon: {
@@ -209,7 +209,7 @@
 			]
 		}
 		{
-			id: "BDEC14AC13120A77"
+			id: "3DEC14AC13120A77"
 			x: 0.0d
 			y: 0.625d
 			icon: {
@@ -217,11 +217,11 @@
 				count: 1
 			}
 			dependencies: [
-				"957A9338DC294AEA"
+				"157A9338DC294AEA"
 			]
 			tasks: [
 				{
-					id: "8AD1EB4A6F577823"
+					id: "0AD1EB4A6F577823"
 					type: "item"
 					item: {
 						count: 1
@@ -232,7 +232,7 @@
 			]
 		}
 		{
-			id: "9A020305E1D3E7EE"
+			id: "1A020305E1D3E7EE"
 			x: 1.5d
 			y: 0.625d
 			icon: {
@@ -240,12 +240,12 @@
 				count: 1
 			}
 			dependencies: [
-				"BDEC14AC13120A77"
+				"3DEC14AC13120A77"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "8F8E1B2B1BF2FCEB"
+					id: "0F8E1B2B1BF2FCEB"
 					type: "item"
 					item: {
 						count: 1
@@ -255,7 +255,7 @@
 			]
 		}
 		{
-			id: "A94E4669A44B8A90"
+			id: "294E4669A44B8A90"
 			x: 7.5d
 			y: 0.625d
 			shape: "hexagon"
@@ -268,7 +268,7 @@
 			]
 			tasks: [
 				{
-					id: "C0833288977ACCB4"
+					id: "40833288977ACCB4"
 					type: "checkmark"
 				}
 			]

@@ -11,3 +11,5 @@
 | 2026-10-14 17:53 | noshader | FAILED | | | | 2560x1377 | ['   [17:51:42.551] [main/WARN] [mixin/]: Error loading class: com/alien/common/util/AlienPredicates (java.lang.ClassNotFoundException: com.alien.common.util.AlienPredicates)'] |
 | 2026-10-14 18:18 | mem10_zgc | 37 | 15 | 64 | 33 | 2560x1377 | - |
 | 2026-10-14 18:19 | noshader | FAILED | | | | 2560x1377 | ['   [18:19:04.511] [main/WARN] [mixin/]: Error loading class: com/alien/common/util/AlienPredicates (java.lang.ClassNotFoundException: com.alien.common.util.AlienPredicates)'] |
+| 2026-10-14 18:25 | current | 82 | 23 | 84 | 61 | 2560x1377 | - |
+| 2026-10-14 18:28 | noshader | 88 | 15 | 131 | 86 | 2560x1377 | - |

@@ -1,5 +1,5 @@
 {
-	id: "C0644DABCF408CC6"
+	id: "40644DABCF408CC6"
 	group: ""
 	order_index: 22
 	filename: "collections"
@@ -57,7 +57,7 @@
 			]
 			rewards: [
 				{
-					id: "92003208FAE2AC19"
+					id: "12003208FAE2AC19"
 					type: "item"
 					item: {
 						count: 1
@@ -75,17 +75,17 @@
 				count: 1
 			}
 			dependencies: [
-				"AC267C60B4B16E10"
+				"2C267C60B4B16E10"
 			]
 			tasks: [
 				{
-					id: "EA0FA3C695197E0E"
+					id: "6A0FA3C695197E0E"
 					type: "checkmark"
 				}
 			]
 			rewards: [
 				{
-					id: "D0A45C4D18162EE2"
+					id: "50A45C4D18162EE2"
 					type: "item"
 					item: {
 						count: 1
@@ -103,11 +103,11 @@
 				count: 1
 			}
 			dependencies: [
-				"BD8147435B400249"
+				"3D8147435B400249"
 			]
 			tasks: [
 				{
-					id: "B9A19FB0346E4E6C"
+					id: "39A19FB0346E4E6C"
 					type: "item"
 					item: {
 						count: 1
@@ -117,7 +117,7 @@
 			]
 			rewards: [
 				{
-					id: "F935504DDFDD777A"
+					id: "7935504DDFDD777A"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -136,7 +136,7 @@
 			]
 			tasks: [
 				{
-					id: "D413828EA61B42C5"
+					id: "5413828EA61B42C5"
 					type: "checkmark"
 				}
 			]
@@ -152,7 +152,7 @@
 			]
 		}
 		{
-			id: "DAA3BFEE086967DC"
+			id: "5AA3BFEE086967DC"
 			x: 0.0d
 			y: 1.875d
 			icon: {
@@ -164,7 +164,7 @@
 			]
 			tasks: [
 				{
-					id: "C5DC4B3CECAED580"
+					id: "45DC4B3CECAED580"
 					type: "checkmark"
 				}
 			]
@@ -188,7 +188,7 @@
 				count: 1
 			}
 			dependencies: [
-				"A0B6AA7E95CCB7D5"
+				"20B6AA7E95CCB7D5"
 			]
 			tasks: [
 				{
@@ -204,7 +204,7 @@
 					value: 1L
 				}
 				{
-					id: "D0AA32F9E79BBEA2"
+					id: "50AA32F9E79BBEA2"
 					type: "kill"
 					entity: "cataclysm:ignis"
 					value: 1L
@@ -216,7 +216,7 @@
 					value: 1L
 				}
 				{
-					id: "CD6900396E3C1284"
+					id: "4D6900396E3C1284"
 					type: "kill"
 					entity: "minecraft:ender_dragon"
 					value: 1L
@@ -224,7 +224,7 @@
 			]
 			rewards: [
 				{
-					id: "D698851B0C8BE61E"
+					id: "5698851B0C8BE61E"
 					type: "item"
 					item: {
 						count: 2
@@ -232,7 +232,7 @@
 					}
 				}
 				{
-					id: "C9F44C5CF433ADE0"
+					id: "49F44C5CF433ADE0"
 					type: "xp_levels"
 					xp_levels: 20
 				}

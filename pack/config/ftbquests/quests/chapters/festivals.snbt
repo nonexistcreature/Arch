@@ -11,7 +11,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "A8921ED5601F390E"
+			id: "28921ED5601F390E"
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
@@ -38,12 +38,12 @@
 				count: 1
 			}
 			dependencies: [
-				"A8921ED5601F390E"
+				"28921ED5601F390E"
 			]
 			can_repeat: true
 			tasks: [
 				{
-					id: "E3A8E4198ECEAA54"
+					id: "63A8E4198ECEAA54"
 					type: "item"
 					item: {
 						count: 1
@@ -61,7 +61,7 @@
 					count: 8L
 				}
 				{
-					id: "8D685BF77398B8F4"
+					id: "0D685BF77398B8F4"
 					type: "item"
 					item: {
 						count: 1
@@ -82,7 +82,7 @@
 			]
 		}
 		{
-			id: "A19DF824BFD97F6F"
+			id: "219DF824BFD97F6F"
 			x: 1.5d
 			y: -2.5d
 			icon: {
@@ -90,13 +90,13 @@
 				count: 1
 			}
 			dependencies: [
-				"A8921ED5601F390E"
-				"B98471DFFDDBAAF0"
+				"28921ED5601F390E"
+				"398471DFFDDBAAF0"
 			]
 			can_repeat: true
 			tasks: [
 				{
-					id: "C413A2E15866A885"
+					id: "4413A2E15866A885"
 					type: "item"
 					item: {
 						count: 1
@@ -107,7 +107,7 @@
 			]
 			rewards: [
 				{
-					id: "F2C0EC8E0F95C1DA"
+					id: "72C0EC8E0F95C1DA"
 					type: "item"
 					item: {
 						count: 8
@@ -117,7 +117,7 @@
 			]
 		}
 		{
-			id: "FB357B4253B80201"
+			id: "7B357B4253B80201"
 			x: 1.5d
 			y: -1.25d
 			icon: {
@@ -125,7 +125,7 @@
 				count: 1
 			}
 			dependencies: [
-				"A8921ED5601F390E"
+				"28921ED5601F390E"
 				"7AF169EE9ACAE9A5"
 			]
 			can_repeat: true
@@ -152,7 +152,7 @@
 				count: 1
 			}
 			dependencies: [
-				"A8921ED5601F390E"
+				"28921ED5601F390E"
 			]
 			can_repeat: true
 			tasks: [
@@ -168,7 +168,7 @@
 			]
 			rewards: [
 				{
-					id: "93DF239EF35E4773"
+					id: "13DF239EF35E4773"
 					type: "item"
 					item: {
 						count: 4
@@ -178,7 +178,7 @@
 			]
 		}
 		{
-			id: "D263804B39A8E916"
+			id: "5263804B39A8E916"
 			x: 1.5d
 			y: 1.25d
 			icon: {
@@ -186,7 +186,7 @@
 				count: 1
 			}
 			dependencies: [
-				"A8921ED5601F390E"
+				"28921ED5601F390E"
 			]
 			can_repeat: true
 			tasks: [
@@ -218,14 +218,14 @@
 					}
 				}
 				{
-					id: "DDE18462E4D6C663"
+					id: "5DE18462E4D6C663"
 					type: "xp_levels"
 					xp_levels: 5
 				}
 			]
 		}
 		{
-			id: "DF568FA0D1D7F62E"
+			id: "5F568FA0D1D7F62E"
 			x: 1.5d
 			y: 2.5d
 			icon: {
@@ -233,12 +233,12 @@
 				count: 1
 			}
 			dependencies: [
-				"A8921ED5601F390E"
+				"28921ED5601F390E"
 			]
 			can_repeat: true
 			tasks: [
 				{
-					id: "E7B1CD3FAE253491"
+					id: "67B1CD3FAE253491"
 					type: "item"
 					item: {
 						count: 1
@@ -249,7 +249,7 @@
 			]
 			rewards: [
 				{
-					id: "F4F66A20D5B94161"
+					id: "74F66A20D5B94161"
 					type: "item"
 					item: {
 						count: 16
@@ -267,7 +267,7 @@
 				count: 1
 			}
 			dependencies: [
-				"A8921ED5601F390E"
+				"28921ED5601F390E"
 				"3A9539897B1176C1"
 			]
 			can_repeat: true

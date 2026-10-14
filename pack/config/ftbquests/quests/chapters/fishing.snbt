@@ -24,7 +24,7 @@
 			]
 			tasks: [
 				{
-					id: "8B17C085C30F86DB"
+					id: "0B17C085C30F86DB"
 					type: "item"
 					item: {
 						count: 1
@@ -34,7 +34,7 @@
 			]
 			rewards: [
 				{
-					id: "E34C8114F5E6DDDD"
+					id: "634C8114F5E6DDDD"
 					type: "item"
 					item: {
 						count: 8
@@ -44,7 +44,7 @@
 			]
 		}
 		{
-			id: "A1F0682242876677"
+			id: "21F0682242876677"
 			x: 1.5d
 			y: -0.625d
 			icon: {
@@ -56,7 +56,7 @@
 			]
 			tasks: [
 				{
-					id: "963EF537C9F12943"
+					id: "163EF537C9F12943"
 					type: "item"
 					item: {
 						count: 1
@@ -78,7 +78,7 @@
 			]
 			tasks: [
 				{
-					id: "ABCE4B1128EDE505"
+					id: "2BCE4B1128EDE505"
 					type: "item"
 					item: {
 						count: 1
@@ -89,7 +89,7 @@
 			]
 		}
 		{
-			id: "A7EA82321637535F"
+			id: "27EA82321637535F"
 			x: 3.0d
 			y: -0.625d
 			icon: {
@@ -101,7 +101,7 @@
 			]
 			tasks: [
 				{
-					id: "8ADB966E0D74F3E5"
+					id: "0ADB966E0D74F3E5"
 					type: "item"
 					item: {
 						count: 1
@@ -111,7 +111,7 @@
 			]
 		}
 		{
-			id: "F8B9356D937BFE4F"
+			id: "78B9356D937BFE4F"
 			x: 4.5d
 			y: 0.0d
 			icon: {
@@ -119,7 +119,7 @@
 				count: 1
 			}
 			dependencies: [
-				"A7EA82321637535F"
+				"27EA82321637535F"
 			]
 			tasks: [
 				{
@@ -141,12 +141,12 @@
 				count: 1
 			}
 			dependencies: [
-				"F8B9356D937BFE4F"
+				"78B9356D937BFE4F"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "D021C98507FDF7A6"
+					id: "5021C98507FDF7A6"
 					type: "item"
 					item: {
 						count: 1
@@ -156,7 +156,7 @@
 			]
 		}
 		{
-			id: "F852E1FD4535E319"
+			id: "7852E1FD4535E319"
 			x: 6.0d
 			y: 0.0d
 			icon: {
@@ -164,7 +164,7 @@
 				count: 1
 			}
 			dependencies: [
-				"F8B9356D937BFE4F"
+				"78B9356D937BFE4F"
 			]
 			optional: true
 			tasks: [
@@ -192,7 +192,7 @@
 			optional: true
 			tasks: [
 				{
-					id: "DD4C644937FE3CF4"
+					id: "5D4C644937FE3CF4"
 					type: "item"
 					item: {
 						count: 1
@@ -202,7 +202,7 @@
 			]
 		}
 		{
-			id: "AC267C60B4B16E10"
+			id: "2C267C60B4B16E10"
 			x: 6.0d
 			y: 1.25d
 			shape: "gear"
@@ -211,12 +211,12 @@
 				count: 1
 			}
 			dependencies: [
-				"A1F0682242876677"
-				"F8B9356D937BFE4F"
+				"21F0682242876677"
+				"78B9356D937BFE4F"
 			]
 			tasks: [
 				{
-					id: "F58B931524AE0D96"
+					id: "758B931524AE0D96"
 					type: "checkmark"
 				}
 			]
@@ -230,7 +230,7 @@
 					}
 				}
 				{
-					id: "FCE33E69931D7B58"
+					id: "7CE33E69931D7B58"
 					type: "xp_levels"
 					xp_levels: 5
 				}

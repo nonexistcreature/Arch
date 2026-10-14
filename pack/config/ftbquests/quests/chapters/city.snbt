@@ -11,7 +11,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "E01F1AB7F25BCE3E"
+			id: "601F1AB7F25BCE3E"
 			x: 0.0d
 			y: -0.625d
 			shape: "gear"
@@ -20,7 +20,7 @@
 				count: 1
 			}
 			dependencies: [
-				"98F86F97AA42687E"
+				"18F86F97AA42687E"
 			]
 			tasks: [
 				{
@@ -34,7 +34,7 @@
 			]
 		}
 		{
-			id: "8961E98A888A1F6F"
+			id: "0961E98A888A1F6F"
 			x: 1.5d
 			y: 0.0d
 			icon: {
@@ -42,11 +42,11 @@
 				count: 1
 			}
 			dependencies: [
-				"E01F1AB7F25BCE3E"
+				"601F1AB7F25BCE3E"
 			]
 			tasks: [
 				{
-					id: "EA14B28D1D7970C6"
+					id: "6A14B28D1D7970C6"
 					type: "item"
 					item: {
 						count: 1
@@ -56,7 +56,7 @@
 			]
 		}
 		{
-			id: "E8A40D4402EEB3F1"
+			id: "68A40D4402EEB3F1"
 			x: 3.0d
 			y: 0.0d
 			icon: {
@@ -64,11 +64,11 @@
 				count: 1
 			}
 			dependencies: [
-				"8961E98A888A1F6F"
+				"0961E98A888A1F6F"
 			]
 			tasks: [
 				{
-					id: "D0AD7FF70F2C0286"
+					id: "50AD7FF70F2C0286"
 					type: "item"
 					item: {
 						count: 1
@@ -86,12 +86,12 @@
 				count: 1
 			}
 			dependencies: [
-				"E8A40D4402EEB3F1"
-				"98D9ECC67E2FC089"
+				"68A40D4402EEB3F1"
+				"18D9ECC67E2FC089"
 			]
 			tasks: [
 				{
-					id: "8F4F3C86B6A8E5DC"
+					id: "0F4F3C86B6A8E5DC"
 					type: "item"
 					item: {
 						count: 1
@@ -109,7 +109,7 @@
 				count: 1
 			}
 			dependencies: [
-				"E8A40D4402EEB3F1"
+				"68A40D4402EEB3F1"
 			]
 			optional: true
 			tasks: [
@@ -132,7 +132,7 @@
 				count: 1
 			}
 			dependencies: [
-				"E8A40D4402EEB3F1"
+				"68A40D4402EEB3F1"
 			]
 			tasks: [
 				{
@@ -146,7 +146,7 @@
 			]
 		}
 		{
-			id: "95EA1D5A0184FB40"
+			id: "15EA1D5A0184FB40"
 			x: 4.5d
 			y: 1.25d
 			icon: {
@@ -154,7 +154,7 @@
 				count: 1
 			}
 			dependencies: [
-				"E8A40D4402EEB3F1"
+				"68A40D4402EEB3F1"
 			]
 			optional: true
 			tasks: [
@@ -177,12 +177,12 @@
 				count: 1
 			}
 			dependencies: [
-				"E8A40D4402EEB3F1"
+				"68A40D4402EEB3F1"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "962240C1155D566D"
+					id: "162240C1155D566D"
 					type: "item"
 					item: {
 						count: 1
@@ -192,7 +192,7 @@
 			]
 		}
 		{
-			id: "DE28B4759F897AD5"
+			id: "5E28B4759F897AD5"
 			x: 0.0d
 			y: 0.625d
 			icon: {
@@ -204,13 +204,13 @@
 			]
 			tasks: [
 				{
-					id: "98F19F650D1580A2"
+					id: "18F19F650D1580A2"
 					type: "checkmark"
 				}
 			]
 		}
 		{
-			id: "9A706D39C73346D7"
+			id: "1A706D39C73346D7"
 			x: 6.0d
 			y: 0.0d
 			shape: "gear"
@@ -224,7 +224,7 @@
 			]
 			tasks: [
 				{
-					id: "901DF02D5A3D8582"
+					id: "101DF02D5A3D8582"
 					type: "checkmark"
 				}
 			]

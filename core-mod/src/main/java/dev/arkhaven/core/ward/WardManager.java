@@ -40,7 +40,15 @@ public final class WardManager {
         Map<BlockPos, Ward> m = WARDS.get(level.dimension());
         if (m == null) return null;
         Ward best = null;
-        for (Ward w : m.values()) if (w.covers(p) && (best == null || w.tier > best.tier)) best = w;
+        for (Ward w : m.values()) {
+            if (!w.covers(p) || (best != null && w.tier <= best.tier)) continue;
+            // Drop stale entries (block removed without onRemove, e.g. /fill or structure cleanup).
+            if (level.isLoaded(w.pos()) && !(level.getBlockEntity(w.pos()) instanceof WardGeneratorBlockEntity be && be.isActive())) {
+                m.remove(w.pos());
+                continue;
+            }
+            best = w;
+        }
         return best;
     }
 

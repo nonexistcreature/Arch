@@ -1,5 +1,5 @@
 {
-	id: "AC295B34DEBBAD70"
+	id: "2C295B34DEBBAD70"
 	group: ""
 	order_index: 5
 	filename: "animals"
@@ -58,7 +58,7 @@
 			optional: true
 			tasks: [
 				{
-					id: "FC560F14B62CC2A4"
+					id: "7C560F14B62CC2A4"
 					type: "item"
 					item: {
 						count: 1
@@ -68,7 +68,7 @@
 			]
 		}
 		{
-			id: "AAADB93EE520A6DB"
+			id: "2AADB93EE520A6DB"
 			x: 1.5d
 			y: -0.625d
 			icon: {
@@ -81,7 +81,7 @@
 			optional: true
 			tasks: [
 				{
-					id: "84DDC453A24DB785"
+					id: "04DDC453A24DB785"
 					type: "item"
 					item: {
 						count: 1
@@ -91,7 +91,7 @@
 			]
 		}
 		{
-			id: "B98471DFFDDBAAF0"
+			id: "398471DFFDDBAAF0"
 			x: 1.5d
 			y: 0.625d
 			shape: "hexagon"
@@ -104,7 +104,7 @@
 			]
 			tasks: [
 				{
-					id: "8ADCBD4221A4353B"
+					id: "0ADCBD4221A4353B"
 					type: "item"
 					item: {
 						count: 1
@@ -122,7 +122,7 @@
 				count: 1
 			}
 			dependencies: [
-				"B98471DFFDDBAAF0"
+				"398471DFFDDBAAF0"
 			]
 			tasks: [
 				{
@@ -148,7 +148,7 @@
 			]
 			tasks: [
 				{
-					id: "8033FC8F0B703CAB"
+					id: "0033FC8F0B703CAB"
 					type: "item"
 					item: {
 						count: 1
@@ -158,7 +158,7 @@
 			]
 			rewards: [
 				{
-					id: "81C81839EB83D2B2"
+					id: "01C81839EB83D2B2"
 					type: "item"
 					item: {
 						count: 8
@@ -181,7 +181,7 @@
 			optional: true
 			tasks: [
 				{
-					id: "902D57024F910057"
+					id: "102D57024F910057"
 					type: "item"
 					item: {
 						count: 1
@@ -246,7 +246,7 @@
 			]
 		}
 		{
-			id: "8064456F4405DB56"
+			id: "0064456F4405DB56"
 			x: 3.0d
 			y: 0.0d
 			icon: {
@@ -278,7 +278,7 @@
 			]
 			tasks: [
 				{
-					id: "CDA9F50DCCB4405C"
+					id: "4DA9F50DCCB4405C"
 					type: "item"
 					item: {
 						count: 1
@@ -301,7 +301,7 @@
 			optional: true
 			tasks: [
 				{
-					id: "A0BE23E0077068BF"
+					id: "20BE23E0077068BF"
 					type: "item"
 					item: {
 						count: 1
@@ -311,7 +311,7 @@
 			]
 		}
 		{
-			id: "B7E6738A6C282F33"
+			id: "37E6738A6C282F33"
 			x: 6.0d
 			y: 0.0d
 			icon: {
@@ -324,7 +324,7 @@
 			optional: true
 			tasks: [
 				{
-					id: "A9B52D12173D72D9"
+					id: "29B52D12173D72D9"
 					type: "item"
 					item: {
 						count: 1
@@ -349,13 +349,13 @@
 			]
 			tasks: [
 				{
-					id: "881D519F2CD2447A"
+					id: "081D519F2CD2447A"
 					type: "checkmark"
 				}
 			]
 			rewards: [
 				{
-					id: "FEA51C595BF7D1F5"
+					id: "7EA51C595BF7D1F5"
 					type: "xp_levels"
 					xp_levels: 5
 				}

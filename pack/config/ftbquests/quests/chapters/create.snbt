@@ -1,5 +1,5 @@
 {
-	id: "C2BEE9E4256E795A"
+	id: "42BEE9E4256E795A"
 	group: ""
 	order_index: 7
 	filename: "create"
@@ -35,7 +35,7 @@
 			]
 			rewards: [
 				{
-					id: "92BB33BE001FE4E7"
+					id: "12BB33BE001FE4E7"
 					type: "item"
 					item: {
 						count: 16
@@ -67,7 +67,7 @@
 			]
 		}
 		{
-			id: "A96FB32E35848D1D"
+			id: "296FB32E35848D1D"
 			x: 1.5d
 			y: 0.625d
 			icon: {
@@ -79,7 +79,7 @@
 			]
 			tasks: [
 				{
-					id: "8BA6AC54FBED6697"
+					id: "0BA6AC54FBED6697"
 					type: "item"
 					item: {
 						count: 1
@@ -97,7 +97,7 @@
 					}
 				}
 				{
-					id: "B14798F08A08C976"
+					id: "314798F08A08C976"
 					type: "item"
 					item: {
 						count: 8
@@ -107,7 +107,7 @@
 			]
 		}
 		{
-			id: "A0FAD4E8DA79E2D4"
+			id: "20FAD4E8DA79E2D4"
 			x: 3.0d
 			y: -0.625d
 			icon: {
@@ -115,11 +115,11 @@
 				count: 1
 			}
 			dependencies: [
-				"A96FB32E35848D1D"
+				"296FB32E35848D1D"
 			]
 			tasks: [
 				{
-					id: "E0CCF5C866FF08A3"
+					id: "60CCF5C866FF08A3"
 					type: "item"
 					item: {
 						count: 1
@@ -137,11 +137,11 @@
 				count: 1
 			}
 			dependencies: [
-				"A0FAD4E8DA79E2D4"
+				"20FAD4E8DA79E2D4"
 			]
 			tasks: [
 				{
-					id: "B891A93C52AECB08"
+					id: "3891A93C52AECB08"
 					type: "item"
 					item: {
 						count: 1
@@ -160,7 +160,7 @@
 				count: 1
 			}
 			dependencies: [
-				"A0FAD4E8DA79E2D4"
+				"20FAD4E8DA79E2D4"
 			]
 			tasks: [
 				{
@@ -175,7 +175,7 @@
 			]
 			rewards: [
 				{
-					id: "B7DE40DAE6D97230"
+					id: "37DE40DAE6D97230"
 					type: "item"
 					item: {
 						count: 16
@@ -185,7 +185,7 @@
 			]
 		}
 		{
-			id: "A447D5B34A8A9577"
+			id: "2447D5B34A8A9577"
 			x: 6.0d
 			y: -1.25d
 			icon: {
@@ -215,11 +215,11 @@
 				count: 1
 			}
 			dependencies: [
-				"A0FAD4E8DA79E2D4"
+				"20FAD4E8DA79E2D4"
 			]
 			tasks: [
 				{
-					id: "A56DC8E729A2F77A"
+					id: "256DC8E729A2F77A"
 					type: "item"
 					item: {
 						count: 1
@@ -237,7 +237,7 @@
 			]
 		}
 		{
-			id: "957A9338DC294AEA"
+			id: "157A9338DC294AEA"
 			x: 6.0d
 			y: 0.0d
 			shape: "hexagon"
@@ -250,7 +250,7 @@
 			]
 			tasks: [
 				{
-					id: "ED1C70AC518601E0"
+					id: "6D1C70AC518601E0"
 					type: "item"
 					item: {
 						count: 1
@@ -261,7 +261,7 @@
 			]
 			rewards: [
 				{
-					id: "E2F2D781CEE74CA8"
+					id: "62F2D781CEE74CA8"
 					type: "item"
 					item: {
 						count: 4
@@ -279,7 +279,7 @@
 				count: 1
 			}
 			dependencies: [
-				"957A9338DC294AEA"
+				"157A9338DC294AEA"
 			]
 			tasks: [
 				{
@@ -294,7 +294,7 @@
 			]
 		}
 		{
-			id: "C0070ED0DEB601C3"
+			id: "40070ED0DEB601C3"
 			x: 9.0d
 			y: -1.875d
 			icon: {
@@ -317,7 +317,7 @@
 			]
 		}
 		{
-			id: "96E227013AEA622A"
+			id: "16E227013AEA622A"
 			x: 7.5d
 			y: -0.625d
 			icon: {
@@ -325,11 +325,11 @@
 				count: 1
 			}
 			dependencies: [
-				"957A9338DC294AEA"
+				"157A9338DC294AEA"
 			]
 			tasks: [
 				{
-					id: "DFBB1A3773F876F9"
+					id: "5FBB1A3773F876F9"
 					type: "item"
 					item: {
 						count: 1
@@ -339,7 +339,7 @@
 			]
 		}
 		{
-			id: "DF0E571DB9523C4F"
+			id: "5F0E571DB9523C4F"
 			x: 3.0d
 			y: 0.625d
 			icon: {
@@ -347,7 +347,7 @@
 				count: 1
 			}
 			dependencies: [
-				"A96FB32E35848D1D"
+				"296FB32E35848D1D"
 			]
 			tasks: [
 				{
@@ -359,7 +359,7 @@
 					}
 				}
 				{
-					id: "EDA5CE92627834DC"
+					id: "6DA5CE92627834DC"
 					type: "item"
 					item: {
 						count: 1
@@ -377,7 +377,7 @@
 				count: 1
 			}
 			dependencies: [
-				"DF0E571DB9523C4F"
+				"5F0E571DB9523C4F"
 			]
 			optional: true
 			tasks: [
@@ -392,7 +392,7 @@
 			]
 		}
 		{
-			id: "B37822115DCCE924"
+			id: "337822115DCCE924"
 			x: 4.5d
 			y: 2.5d
 			icon: {
@@ -400,7 +400,7 @@
 				count: 1
 			}
 			dependencies: [
-				"DF0E571DB9523C4F"
+				"5F0E571DB9523C4F"
 			]
 			tasks: [
 				{
@@ -414,7 +414,7 @@
 			]
 		}
 		{
-			id: "989B47E1DFEF15C5"
+			id: "189B47E1DFEF15C5"
 			x: 6.0d
 			y: 1.25d
 			icon: {
@@ -426,7 +426,7 @@
 			]
 			tasks: [
 				{
-					id: "FA92DA7B1DEA911C"
+					id: "7A92DA7B1DEA911C"
 					type: "item"
 					item: {
 						count: 1
@@ -434,7 +434,7 @@
 					}
 				}
 				{
-					id: "95240A2EAE179C0C"
+					id: "15240A2EAE179C0C"
 					type: "item"
 					item: {
 						count: 1
@@ -444,7 +444,7 @@
 			]
 		}
 		{
-			id: "BBE63B3331C9B9B8"
+			id: "3BE63B3331C9B9B8"
 			x: 7.5d
 			y: 0.625d
 			icon: {
@@ -452,11 +452,11 @@
 				count: 1
 			}
 			dependencies: [
-				"957A9338DC294AEA"
+				"157A9338DC294AEA"
 			]
 			tasks: [
 				{
-					id: "A5A19638B68B9E29"
+					id: "25A19638B68B9E29"
 					type: "item"
 					item: {
 						count: 1
@@ -475,7 +475,7 @@
 			]
 		}
 		{
-			id: "DA15E86CEF89EA05"
+			id: "5A15E86CEF89EA05"
 			x: 9.0d
 			y: -0.625d
 			icon: {
@@ -483,7 +483,7 @@
 				count: 1
 			}
 			dependencies: [
-				"BBE63B3331C9B9B8"
+				"3BE63B3331C9B9B8"
 			]
 			tasks: [
 				{
@@ -495,7 +495,7 @@
 					}
 				}
 				{
-					id: "94EB4575722BD2B3"
+					id: "14EB4575722BD2B3"
 					type: "item"
 					item: {
 						count: 1
@@ -546,7 +546,7 @@
 			]
 		}
 		{
-			id: "D856C39EACDC4542"
+			id: "5856C39EACDC4542"
 			x: 7.5d
 			y: 1.875d
 			icon: {
@@ -554,7 +554,7 @@
 				count: 1
 			}
 			dependencies: [
-				"957A9338DC294AEA"
+				"157A9338DC294AEA"
 			]
 			optional: true
 			tasks: [
@@ -577,12 +577,12 @@
 				count: 1
 			}
 			dependencies: [
-				"96E227013AEA622A"
+				"16E227013AEA622A"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "A506480BDCBB275D"
+					id: "2506480BDCBB275D"
 					type: "item"
 					item: {
 						count: 1
@@ -592,7 +592,7 @@
 			]
 		}
 		{
-			id: "DFBE8D5CCCE83C71"
+			id: "5FBE8D5CCCE83C71"
 			x: 10.5d
 			y: 0.0d
 			shape: "gear"
@@ -601,13 +601,13 @@
 				count: 1
 			}
 			dependencies: [
-				"96E227013AEA622A"
-				"DA15E86CEF89EA05"
-				"B37822115DCCE924"
+				"16E227013AEA622A"
+				"5A15E86CEF89EA05"
+				"337822115DCCE924"
 			]
 			tasks: [
 				{
-					id: "E26F561772971F8F"
+					id: "626F561772971F8F"
 					type: "checkmark"
 				}
 			]
@@ -621,7 +621,7 @@
 					}
 				}
 				{
-					id: "809EB4BFAE52D0F9"
+					id: "009EB4BFAE52D0F9"
 					type: "xp_levels"
 					xp_levels: 5
 				}

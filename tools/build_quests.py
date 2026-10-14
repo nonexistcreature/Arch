@@ -30,7 +30,10 @@ OUT = ROOT / "pack/config/ftbquests/quests"
 
 
 def hid(*parts):
-    return hashlib.sha1(("arkhaven:" + ":".join(parts)).encode()).hexdigest()[:16].upper()
+    # FTB Quests ids are signed longs: ids with the top bit set (8..F first digit) lose their translations,
+    # so keep every id in the positive range (first hex digit 0..7).
+    h = int(hashlib.sha1(("arkhaven:" + ":".join(parts)).encode()).hexdigest()[:16], 16) & 0x7FFFFFFFFFFFFFFF
+    return f"{h:016X}"
 
 
 def q(s):

@@ -24,7 +24,7 @@
 			]
 			tasks: [
 				{
-					id: "ADF6287B167B9EC4"
+					id: "2DF6287B167B9EC4"
 					type: "item"
 					item: {
 						count: 1
@@ -42,7 +42,7 @@
 			]
 			rewards: [
 				{
-					id: "B9FF4777CE9D5FD2"
+					id: "39FF4777CE9D5FD2"
 					type: "item"
 					item: {
 						count: 16
@@ -60,7 +60,7 @@
 			]
 		}
 		{
-			id: "91213DE6310C1D6A"
+			id: "11213DE6310C1D6A"
 			x: 1.5d
 			y: -3.125d
 			icon: {
@@ -78,7 +78,7 @@
 			]
 		}
 		{
-			id: "96E1CA1EF5B21B46"
+			id: "16E1CA1EF5B21B46"
 			x: 1.5d
 			y: -1.875d
 			icon: {
@@ -90,14 +90,14 @@
 			]
 			tasks: [
 				{
-					id: "C70E26BE2785B3E4"
+					id: "470E26BE2785B3E4"
 					type: "dimension"
 					dimension: "minecraft:the_nether"
 				}
 			]
 		}
 		{
-			id: "F39285040B5B0234"
+			id: "739285040B5B0234"
 			x: 1.5d
 			y: -0.625d
 			shape: "hexagon"
@@ -110,7 +110,7 @@
 			]
 			tasks: [
 				{
-					id: "DA8B83D8530A6CCF"
+					id: "5A8B83D8530A6CCF"
 					type: "dimension"
 					dimension: "twilightforest:twilight_forest"
 				}
@@ -125,7 +125,7 @@
 				count: 1
 			}
 			dependencies: [
-				"F39285040B5B0234"
+				"739285040B5B0234"
 			]
 			tasks: [
 				{
@@ -147,7 +147,7 @@
 			]
 		}
 		{
-			id: "CB8828721D42DE2A"
+			id: "4B8828721D42DE2A"
 			x: 4.5d
 			y: 0.0d
 			icon: {
@@ -175,12 +175,12 @@
 				count: 1
 			}
 			dependencies: [
-				"CB8828721D42DE2A"
+				"4B8828721D42DE2A"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "FCFA8944BFF223AB"
+					id: "7CFA8944BFF223AB"
 					type: "kill"
 					entity: "twilightforest:hydra"
 					value: 1L
@@ -188,7 +188,7 @@
 			]
 		}
 		{
-			id: "A9EFEF68F03D66A9"
+			id: "29EFEF68F03D66A9"
 			x: 1.5d
 			y: 0.625d
 			icon: {
@@ -215,7 +215,7 @@
 				count: 1
 			}
 			dependencies: [
-				"A9EFEF68F03D66A9"
+				"29EFEF68F03D66A9"
 			]
 			optional: true
 			tasks: [
@@ -241,7 +241,7 @@
 			optional: true
 			tasks: [
 				{
-					id: "C2C2FF900B51DF9E"
+					id: "42C2FF900B51DF9E"
 					type: "dimension"
 					dimension: "undergarden:undergarden"
 				}
@@ -268,7 +268,7 @@
 			]
 		}
 		{
-			id: "D191867CC65E64EB"
+			id: "5191867CC65E64EB"
 			x: 0.0d
 			y: 0.625d
 			icon: {
@@ -276,19 +276,19 @@
 				count: 1
 			}
 			dependencies: [
-				"B98471DFFDDBAAF0"
+				"398471DFFDDBAAF0"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "C7227311A2D1F548"
+					id: "47227311A2D1F548"
 					type: "dimension"
 					dimension: "the_bumblezone:the_bumblezone"
 				}
 			]
 		}
 		{
-			id: "A56C62572DAB7621"
+			id: "256C62572DAB7621"
 			x: 3.0d
 			y: -0.625d
 			shape: "hexagon"
@@ -297,7 +297,7 @@
 				count: 1
 			}
 			dependencies: [
-				"91213DE6310C1D6A"
+				"11213DE6310C1D6A"
 			]
 			optional: true
 			tasks: [
@@ -318,7 +318,7 @@
 				count: 1
 			}
 			dependencies: [
-				"91213DE6310C1D6A"
+				"11213DE6310C1D6A"
 			]
 			optional: true
 			tasks: [
@@ -331,7 +331,7 @@
 			]
 		}
 		{
-			id: "B8AEAB79267D768C"
+			id: "38AEAB79267D768C"
 			x: 3.0d
 			y: 1.875d
 			icon: {
@@ -339,7 +339,7 @@
 				count: 1
 			}
 			dependencies: [
-				"91213DE6310C1D6A"
+				"11213DE6310C1D6A"
 			]
 			optional: true
 			tasks: [
@@ -352,7 +352,7 @@
 			]
 		}
 		{
-			id: "D814EB842FA7B370"
+			id: "5814EB842FA7B370"
 			x: 3.0d
 			y: 3.125d
 			icon: {
@@ -360,19 +360,19 @@
 				count: 1
 			}
 			dependencies: [
-				"96E1CA1EF5B21B46"
+				"16E1CA1EF5B21B46"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "8025B0D2CC13EA19"
+					id: "0025B0D2CC13EA19"
 					type: "dimension"
 					dimension: "minecraft:the_end"
 				}
 			]
 		}
 		{
-			id: "A0B6AA7E95CCB7D5"
+			id: "20B6AA7E95CCB7D5"
 			x: 6.0d
 			y: 0.625d
 			shape: "gear"
@@ -381,9 +381,9 @@
 				count: 1
 			}
 			dependencies: [
-				"CB8828721D42DE2A"
-				"96E1CA1EF5B21B46"
-				"A9EFEF68F03D66A9"
+				"4B8828721D42DE2A"
+				"16E1CA1EF5B21B46"
+				"29EFEF68F03D66A9"
 			]
 			tasks: [
 				{
@@ -393,7 +393,7 @@
 			]
 			rewards: [
 				{
-					id: "DC3FE4179AC7DFDB"
+					id: "5C3FE4179AC7DFDB"
 					type: "xp_levels"
 					xp_levels: 10
 				}

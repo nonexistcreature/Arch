@@ -26,6 +26,7 @@ public final class ArkhavenCore {
         container.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
         NeoForge.EVENT_BUS.register(SafeZones.class);
         NeoForge.EVENT_BUS.register(ZoneHints.class);
+        NeoForge.EVENT_BUS.register(dev.arkhaven.core.zones.LandSpawn.class);
         NeoForge.EVENT_BUS.register(EventDirector.class);
         NeoForge.EVENT_BUS.register(Commands.class);
         NeoForge.EVENT_BUS.register(dev.arkhaven.core.ward.WardManager.class);

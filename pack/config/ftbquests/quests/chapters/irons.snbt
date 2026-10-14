@@ -24,7 +24,7 @@
 			]
 			tasks: [
 				{
-					id: "9C9354E63554B2F0"
+					id: "1C9354E63554B2F0"
 					type: "item"
 					item: {
 						count: 1
@@ -34,7 +34,7 @@
 			]
 		}
 		{
-			id: "862A4C4223BD9574"
+			id: "062A4C4223BD9574"
 			x: 1.5d
 			y: -0.625d
 			icon: {
@@ -64,11 +64,11 @@
 				count: 1
 			}
 			dependencies: [
-				"862A4C4223BD9574"
+				"062A4C4223BD9574"
 			]
 			tasks: [
 				{
-					id: "B62BFD0CFB7D3E7C"
+					id: "362BFD0CFB7D3E7C"
 					type: "item"
 					item: {
 						count: 1
@@ -90,7 +90,7 @@
 			]
 			tasks: [
 				{
-					id: "9B9EE98D1C542190"
+					id: "1B9EE98D1C542190"
 					type: "item"
 					item: {
 						count: 1
@@ -98,7 +98,7 @@
 					}
 				}
 				{
-					id: "EF6E3A537338034B"
+					id: "6F6E3A537338034B"
 					type: "item"
 					item: {
 						count: 1
@@ -108,7 +108,7 @@
 			]
 		}
 		{
-			id: "E4D45646DD838107"
+			id: "64D45646DD838107"
 			x: 1.5d
 			y: 0.625d
 			icon: {
@@ -120,7 +120,7 @@
 			]
 			tasks: [
 				{
-					id: "EA20CCAF6B76DF9B"
+					id: "6A20CCAF6B76DF9B"
 					type: "item"
 					item: {
 						count: 1
@@ -131,7 +131,7 @@
 			]
 		}
 		{
-			id: "F10E1FB9C0AF78C8"
+			id: "710E1FB9C0AF78C8"
 			x: 3.0d
 			y: 0.0d
 			icon: {
@@ -139,12 +139,12 @@
 				count: 1
 			}
 			dependencies: [
-				"E4D45646DD838107"
+				"64D45646DD838107"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "8425EFB9009EB35F"
+					id: "0425EFB9009EB35F"
 					type: "item"
 					item: {
 						count: 1
@@ -154,7 +154,7 @@
 			]
 		}
 		{
-			id: "A0EF7614A84A8044"
+			id: "20EF7614A84A8044"
 			x: 4.5d
 			y: 0.0d
 			icon: {
@@ -162,12 +162,12 @@
 				count: 1
 			}
 			dependencies: [
-				"F10E1FB9C0AF78C8"
+				"710E1FB9C0AF78C8"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "B6665A27045F0E33"
+					id: "36665A27045F0E33"
 					type: "item"
 					item: {
 						count: 1
@@ -185,12 +185,12 @@
 				count: 1
 			}
 			dependencies: [
-				"F10E1FB9C0AF78C8"
+				"710E1FB9C0AF78C8"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "BAB77B1101AC77A2"
+					id: "3AB77B1101AC77A2"
 					type: "item"
 					item: {
 						count: 1
@@ -208,7 +208,7 @@
 			]
 		}
 		{
-			id: "BA9E5FDFBAC6AAC3"
+			id: "3A9E5FDFBAC6AAC3"
 			x: 3.0d
 			y: 1.25d
 			shape: "gear"
@@ -217,11 +217,11 @@
 				count: 1
 			}
 			dependencies: [
-				"862A4C4223BD9574"
+				"062A4C4223BD9574"
 			]
 			tasks: [
 				{
-					id: "DBBE41572DF2659E"
+					id: "5BBE41572DF2659E"
 					type: "checkmark"
 				}
 			]

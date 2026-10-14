@@ -1,5 +1,5 @@
 {
-	id: "950EE076426FF539"
+	id: "150EE076426FF539"
 	group: ""
 	order_index: 23
 	filename: "welcome_back"
@@ -11,7 +11,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "C9541EF8D509C102"
+			id: "49541EF8D509C102"
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
@@ -27,7 +27,7 @@
 			]
 		}
 		{
-			id: "B7E56430316C85AA"
+			id: "37E56430316C85AA"
 			x: 1.5d
 			y: -3.125d
 			icon: {
@@ -35,7 +35,7 @@
 				count: 1
 			}
 			dependencies: [
-				"C9541EF8D509C102"
+				"49541EF8D509C102"
 			]
 			tasks: [
 				{
@@ -45,7 +45,7 @@
 			]
 		}
 		{
-			id: "C72B11224C43FE15"
+			id: "472B11224C43FE15"
 			x: 1.5d
 			y: -1.875d
 			icon: {
@@ -53,7 +53,7 @@
 				count: 1
 			}
 			dependencies: [
-				"C9541EF8D509C102"
+				"49541EF8D509C102"
 			]
 			tasks: [
 				{
@@ -63,7 +63,7 @@
 			]
 		}
 		{
-			id: "DAF8ABD2B98E1392"
+			id: "5AF8ABD2B98E1392"
 			x: 1.5d
 			y: -0.625d
 			icon: {
@@ -71,18 +71,18 @@
 				count: 1
 			}
 			dependencies: [
-				"C9541EF8D509C102"
+				"49541EF8D509C102"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "8B6AA0368522CA61"
+					id: "0B6AA0368522CA61"
 					type: "checkmark"
 				}
 			]
 		}
 		{
-			id: "D9275DD9BDBB6DD3"
+			id: "59275DD9BDBB6DD3"
 			x: 1.5d
 			y: 0.625d
 			icon: {
@@ -90,12 +90,12 @@
 				count: 1
 			}
 			dependencies: [
-				"C9541EF8D509C102"
+				"49541EF8D509C102"
 			]
 			optional: true
 			tasks: [
 				{
-					id: "85CE09676057D446"
+					id: "05CE09676057D446"
 					type: "checkmark"
 				}
 			]
@@ -109,11 +109,11 @@
 				count: 1
 			}
 			dependencies: [
-				"C9541EF8D509C102"
+				"49541EF8D509C102"
 			]
 			tasks: [
 				{
-					id: "AE538634D191666E"
+					id: "2E538634D191666E"
 					type: "checkmark"
 				}
 			]
@@ -127,7 +127,7 @@
 				count: 1
 			}
 			dependencies: [
-				"C9541EF8D509C102"
+				"49541EF8D509C102"
 			]
 			tasks: [
 				{

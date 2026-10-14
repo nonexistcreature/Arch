@@ -1,5 +1,5 @@
 {
-	id: "9CB608F08E9C4FA8"
+	id: "1CB608F08E9C4FA8"
 	group: ""
 	order_index: 11
 	filename: "storage"
@@ -24,7 +24,7 @@
 			]
 			tasks: [
 				{
-					id: "DA3D1F035E7C5F02"
+					id: "5A3D1F035E7C5F02"
 					type: "item"
 					item: {
 						count: 1
@@ -57,7 +57,7 @@
 			]
 			tasks: [
 				{
-					id: "81FE489A2429C193"
+					id: "01FE489A2429C193"
 					type: "item"
 					item: {
 						count: 1
@@ -68,7 +68,7 @@
 			]
 		}
 		{
-			id: "BA74454EECFAF6CA"
+			id: "3A74454EECFAF6CA"
 			x: 3.0d
 			y: 0.0d
 			icon: {
@@ -80,7 +80,7 @@
 			]
 			tasks: [
 				{
-					id: "9B90EFC2FE6BC7C0"
+					id: "1B90EFC2FE6BC7C0"
 					type: "item"
 					item: {
 						count: 1
@@ -90,7 +90,7 @@
 			]
 		}
 		{
-			id: "C886C83968921E76"
+			id: "4886C83968921E76"
 			x: 4.5d
 			y: 0.0d
 			icon: {
@@ -98,11 +98,11 @@
 				count: 1
 			}
 			dependencies: [
-				"BA74454EECFAF6CA"
+				"3A74454EECFAF6CA"
 			]
 			tasks: [
 				{
-					id: "F32A15AC404F52DC"
+					id: "732A15AC404F52DC"
 					type: "item"
 					item: {
 						count: 1
@@ -110,7 +110,7 @@
 					}
 				}
 				{
-					id: "8FA1BE67F3EE04C2"
+					id: "0FA1BE67F3EE04C2"
 					type: "item"
 					item: {
 						count: 1
@@ -118,7 +118,7 @@
 					}
 				}
 				{
-					id: "9B5C9261FBBDD6A0"
+					id: "1B5C9261FBBDD6A0"
 					type: "item"
 					item: {
 						count: 1
@@ -128,7 +128,7 @@
 			]
 			rewards: [
 				{
-					id: "C48E189A65DE811C"
+					id: "448E189A65DE811C"
 					type: "item"
 					item: {
 						count: 1
@@ -146,7 +146,7 @@
 				count: 1
 			}
 			dependencies: [
-				"C886C83968921E76"
+				"4886C83968921E76"
 			]
 			tasks: [
 				{
@@ -173,7 +173,7 @@
 			]
 			tasks: [
 				{
-					id: "C7CC6E75A5562903"
+					id: "47CC6E75A5562903"
 					type: "item"
 					item: {
 						count: 1
@@ -189,7 +189,7 @@
 					}
 				}
 				{
-					id: "A78A259CE6276E44"
+					id: "278A259CE6276E44"
 					type: "item"
 					item: {
 						count: 1
@@ -199,7 +199,7 @@
 			]
 			rewards: [
 				{
-					id: "D9E0A35D166F37EC"
+					id: "59E0A35D166F37EC"
 					type: "item"
 					item: {
 						count: 16
