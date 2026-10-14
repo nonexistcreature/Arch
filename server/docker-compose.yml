@@ -68,6 +68,16 @@ services:
       - ../data:/data:ro
       - ../backups:/backups
 
+  # Announces the server on the local network (Multiplayer -> LAN, and the launcher's auto-discovery).
+  lan-announce:
+    image: python:3.12-alpine
+    container_name: arkhaven-lan
+    restart: unless-stopped
+    network_mode: host            # multicast must reach the real LAN
+    volumes:
+      - ./lan_announce.py:/lan_announce.py:ro
+    command: ["python", "/lan_announce.py", "25565", "Arkhaven"]
+
   # Self-hosted update channel (use only when there is no GitHub Pages): serves /opt/arkhaven/pack on :8080.
   # Enable with: docker compose --profile selfhost-pack up -d
   pack:

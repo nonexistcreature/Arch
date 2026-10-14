@@ -63,7 +63,7 @@ def iris_for(preset):
 
 
 def instance_cfg(mem):
-    pre = f'"$INST_JAVA" -jar packwiz-installer-bootstrap.jar -s client {REL["pack_url"]}'
+    pre = f'cmd /c "$INST_MC_DIR/prelaunch.cmd" "$INST_JAVA" "$INST_DIR" {REL["pack_url"]}'
     return f"""[General]
 ConfigVersion=1.2
 InstanceType=OneSix
@@ -104,7 +104,13 @@ def main():
     (inst / "mmc-pack.json").write_text(json.dumps({"formatVersion": 1, "components": [
         {"uid": "net.minecraft", "version": REL["minecraft"], "important": True},
         {"uid": "net.neoforged", "version": REL["neoforge"]}]}, indent=2), "utf8")
-    shutil.copy(ROOT / "tools/bin/pwbs.jar", mc / "packwiz-installer-bootstrap.jar")
+    pwbs = ROOT / "tools/bin/pwbs.jar"
+    if not pwbs.exists():
+        rel = json.load(urllib.request.urlopen("https://api.github.com/repos/packwiz/packwiz-installer-bootstrap/releases/latest"))
+        fetch(rel["assets"][0]["browser_download_url"], pwbs)
+    shutil.copy(pwbs, mc / "packwiz-installer-bootstrap.jar")
+    shutil.copy(L / "Discover.java", mc / "Discover.java")
+    shutil.copy(L / "prelaunch.cmd", mc / "prelaunch.cmd")
     subprocess.run([sys.executable, str(ROOT / "tools/make_servers_dat.py"), REL["server_address"]], check=True)
     shutil.copy(ROOT / "pack/servers.dat", mc / "servers.dat")
     (STAGE / "icons").mkdir(exist_ok=True)
@@ -125,6 +131,8 @@ def main():
         "packwiz-installer-bootstrap — MIT, https://github.com/packwiz/packwiz-installer-bootstrap\n"
         "Mods are downloaded from Modrinth/CurseForge on first launch; none are redistributed here.\n", "utf8")
     iscc = ROOT / "tools/bin/inno/ISCC.exe"
+    if not iscc.exists():  # CI runner: Inno Setup is preinstalled
+        iscc = next(p for p in [Path(rf"{d}/Inno Setup {v}/ISCC.exe") for v in (7, 6) for d in ("C:/Program Files", "C:/Program Files (x86)")] if p.exists())
     (L / "dist").mkdir(exist_ok=True)
     subprocess.run([str(iscc), f"/DStage={STAGE}", f"/DMyVersion={REL['version']}", f"/O{L / 'dist'}", str(L / "arkhaven.iss")], check=True)
     print("built", next((L / "dist").glob(f"Arkhaven-Setup-{REL['version']}.exe")))

@@ -6,7 +6,7 @@ command -v docker >/dev/null || { curl -fsSL https://get.docker.com | sh; }
 id arkhaven >/dev/null 2>&1 || sudo useradd --system --create-home --home-dir /opt/arkhaven --shell /usr/sbin/nologin arkhaven
 sudo usermod -aG docker arkhaven
 sudo mkdir -p /opt/arkhaven/{compose/extras,data,backups,scripts}
-sudo cp "$(dirname "$0")/../docker-compose.yml" /opt/arkhaven/compose/
+sudo cp "$(dirname "$0")/../docker-compose.yml" "$(dirname "$0")/../lan_announce.py" /opt/arkhaven/compose/
 sudo cp "$(dirname "$0")"/*.sh /opt/arkhaven/scripts/ && sudo chmod +x /opt/arkhaven/scripts/*.sh
 [ -f /opt/arkhaven/compose/.env ] || sudo cp "$(dirname "$0")/../.env.example" /opt/arkhaven/compose/.env
 [ -f "$(dirname "$0")/../server-icon.png" ] && sudo cp "$(dirname "$0")/../server-icon.png" /opt/arkhaven/compose/extras/
@@ -47,5 +47,6 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now arkhaven.service arkhaven-restart.timer
 if command -v ufw >/dev/null && sudo ufw status | grep -q active; then
   sudo ufw allow 25565/tcp comment arkhaven; sudo ufw allow 24454/udp comment arkhaven-voice
+  sudo ufw allow out to 224.0.2.60 port 4445 proto udp comment arkhaven-lan
 fi
 echo "Arkhaven installed. Edit /opt/arkhaven/compose/.env, then: sudo systemctl restart arkhaven"

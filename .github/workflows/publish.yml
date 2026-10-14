@@ -1,0 +1,44 @@
+# Arkhaven CI: publish the packwiz pack to GitHub Pages on every push to main,
+# build Arkhaven-Setup.exe + the server kit and attach them to a GitHub Release on version tags (v*).
+name: publish
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: pack
+      - uses: actions/deploy-pages@v4
+  installer:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: pages
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow pyyaml
+      - name: Inno Setup 7 (the script uses Inno 7 APIs)
+        run: choco install innosetup -y --no-progress
+      - name: Build installer and server kit
+        run: |
+          python launcher/build.py
+          python tools/make_server_kit.py
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            launcher/dist/Arkhaven-Setup-*.exe
+            launcher/dist/Arkhaven-Server-Kit.zip
