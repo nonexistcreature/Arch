@@ -162,8 +162,7 @@ def main():
         {"uid": "net.neoforged", "version": REL["neoforge"]}]}, indent=2), "utf8")
     pwbs = ROOT / "tools/bin/pwbs.jar"
     if not pwbs.exists():
-        rel = json.load(urllib.request.urlopen("https://api.github.com/repos/packwiz/packwiz-installer-bootstrap/releases/latest"))
-        fetch(rel["assets"][0]["browser_download_url"], pwbs)
+        fetch("https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar", pwbs)  # direct link: the GitHub API is rate-limited on CI runners
     shutil.copy(pwbs, mc / "packwiz-installer-bootstrap.jar")
     discover = build_discover_jar()
     shutil.copy(discover, mc / "Discover.jar")

@@ -35,7 +35,7 @@ if (-not (Test-Path "libraries\net\neoforged\neoforge\21.1.259")) {
     & $java -jar installer.jar --installServer | Out-Null
     Remove-Item installer.jar, installer.jar.log -ErrorAction SilentlyContinue
 }
-$pwbs = (Invoke-RestMethod "https://api.github.com/repos/packwiz/packwiz-installer-bootstrap/releases/latest").assets[0].browser_download_url
+$pwbs = "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
 Invoke-WebRequest $pwbs -OutFile packwiz-installer-bootstrap.jar
 "eula=true" | Set-Content eula.txt -Encoding ascii
 if (-not (Test-Path server.properties)) {

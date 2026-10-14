@@ -43,7 +43,7 @@ if (-not $UpdateOnly -and -not (Test-Path "$McDir\versions\$ver\$ver.json")) {
 # 3) The modpack into the separate game folder (packwiz keeps it in sync with the server)
 $pwbs = "$GameDir\packwiz-installer-bootstrap.jar"
 if (-not (Test-Path $pwbs)) {
-    $u = (Invoke-RestMethod "https://api.github.com/repos/packwiz/packwiz-installer-bootstrap/releases/latest").assets[0].browser_download_url
+    $u = "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar"
     Invoke-WebRequest $u -OutFile $pwbs
 }
 Write-Host "Скачиваю/обновляю сборку (первый раз 5–15 минут)..."

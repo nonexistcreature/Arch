@@ -40,10 +40,13 @@ jobs:
       - run: pip install pillow pyyaml
       - name: Inno Setup 7 (the script uses Inno 7 APIs)
         run: choco install innosetup -y --no-progress
-      - name: Build installer and server kit
-        run: |
-          python launcher/build.py
-          python tools/make_server_kit.py
+      - name: Build installer, Prism instance, own-launcher kit
+        run: python launcher/build.py
+      - name: Build server kit
+        run: python tools/make_server_kit.py
+      - name: All release files exist
+        shell: bash
+        run: ls -la launcher/dist && test -f launcher/dist/Arkhaven-Prism-Instance.zip && test -f launcher/dist/Arkhaven-Own-Launcher.zip && ls launcher/dist/Arkhaven-Setup-*.exe
       - uses: softprops/action-gh-release@v2
         with:
           files: |
