@@ -1732,7 +1732,7 @@ metafile = true
 
 [[files]]
 file = "servers.dat"
-hash = "24b54c1b0cb7e17febe1cb65ec1a02bde7ca00a001e874a31e7c1820c46dad33"
+hash = "ce61cf548213520d133e4c74a106cc1d4dc866267c278b6a99d08e6f89a4e7c1"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

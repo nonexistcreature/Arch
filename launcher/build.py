@@ -170,6 +170,11 @@ def main():
     shutil.copy(L / "prelaunch.cmd", mc / "prelaunch.cmd")
     subprocess.run([sys.executable, str(ROOT / "tools/make_servers_dat.py"), REL["server_address"]], check=True)
     shutil.copy(ROOT / "pack/servers.dat", mc / "servers.dat")
+    # servers.dat lives in the pack: refresh index hashes, or packwiz-installer rejects the whole update
+    pw = ROOT / "tools/bin/packwiz.exe"
+    if pw.exists():
+        subprocess.run([str(pw), "refresh"], cwd=ROOT / "pack", check=True, capture_output=True)
+    subprocess.run([sys.executable, str(ROOT / "tools/verify_index.py")], check=True)
     (STAGE / "icons").mkdir(exist_ok=True)
     shutil.copy(L / "assets/arkhaven.png", STAGE / "icons/arkhaven.png")
     shutil.copy(L / "assets/arkhaven.ico", STAGE / "arkhaven.ico")

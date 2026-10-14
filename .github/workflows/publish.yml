@@ -16,6 +16,8 @@ jobs:
     environment: github-pages
     steps:
       - uses: actions/checkout@v4
+      - name: Pack index hashes match the files
+        run: python3 tools/verify_index.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
