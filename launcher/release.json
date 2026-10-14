@@ -1,0 +1,7 @@
+{
+  "version": "0.1.0",
+  "pack_url": "https://arkhaven.example.invalid/pack/pack.toml",
+  "server_address": "arkhaven.example.invalid",
+  "neoforge": "21.1.259",
+  "minecraft": "1.21.1"
+}

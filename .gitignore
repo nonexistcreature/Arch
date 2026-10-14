@@ -2,3 +2,5 @@ tools/bin/
 tools/.cache/
 tests/out/
 tests/server_run/
+launcher/build/
+launcher/dist/
