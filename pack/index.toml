@@ -190,11 +190,11 @@ hash = "5858c9082fe49cb99e6c1c4566640b0760640bf100bc2315982faa95d2411ff7"
 
 [[files]]
 file = "kubejs/server_scripts/50_quest_hooks.js"
-hash = "50a0e0f42bee6c3f88fb08af95a1c6915cab5d59c6a0f32773ae7369c9c9c505"
+hash = "c570be78728b96d1152fd89380361f28c0fc63d0306f2ef83dbe19f292213e35"
 
 [[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
-hash = "eda94583ec2589e7bdc073d4a7146a257632f601b25a134544b6143df48b842e"
+hash = "8ef751fcb421cba076b6ef9a95488ccdc5e34713241c98fdf402c173c6d88a12"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"

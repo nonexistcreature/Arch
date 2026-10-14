@@ -3,14 +3,14 @@
 // Quest ids are the generator's stable hex ids (sha1 of "arkhaven:quest:<id>"), see tools/build_quests.py.
 
 const ARK_TRAIN_QUESTS = {
-  // filled by tools/build_quests.py -> kubejs/server_scripts/generated/quest_ids.js (ARK_QUEST_IDS)
+  // hex ids come from kubejs/server_scripts/generated/quest_ids.js (ARK_QUEST_IDS, tools/build_quests.py)
   el_meteor_meet: 'strike',
   el_rift_meet: 'rift',
   el_shower_meet: 'shower'
 }
 
 FTBQuestsEvents.completed(event => {
-  const ids = global.ARK_QUEST_IDS || {}
+  const ids = ARK_QUEST_IDS
   Object.keys(ARK_TRAIN_QUESTS).forEach(name => {
     if (ids[name] && String(event.object.codeString) === ids[name]) {
       event.server.runCommandSilent(`arkhaven train ${ARK_TRAIN_QUESTS[name]}`)
