@@ -40,3 +40,6 @@ smoothboot-reloaded, createutilities, create-factory-logistics, create-claims, a
 
 ## Стороны зависимостей
 Modrinth пометил Lithostitched как server-only, но Terralith требует его на клиенте. Резолвер теперь поднимает сторону обязательной зависимости до стороны мода, который её требует.
+
+## Динамический свет отложен
+Sodium Dynamic Lights тянет Sodium Options API, который требует Reese's Sodium Options, а тот объявляет несовместимость с Options API — клиент не стартует ни в одной комбинации. Оставлен Reese's Sodium Options, динамический свет — когда появится рабочий порт (LambDynamicLights требует Fabric API).

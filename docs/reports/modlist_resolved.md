@@ -1,6 +1,6 @@
 # modlist_resolved (авто, tools/resolve_pack.py)
 
-Всего: **249** (явных: 197, зависимостей: 52)
+Всего: **248** (явных: 197, зависимостей: 51)
 
 | slug | название | версия | тип | сторона | волна | роль | обновлён |
 |---|---|---|---|---|---|---|---|
@@ -190,6 +190,7 @@
 | pufferfishs-unofficial-additions | Pufferfish's Unofficial Additions | 2.2.8 | release | both | 7a | зависимость irons-spells-n-spellbooks-dynamic-skill-trees | 2025-12-28 |
 | puzzles-lib | Puzzles Lib | 21.1.64 | release | both | 1 | зависимость overflowing-bars | 2026-10-11 |
 | quark | Quark | 4.1-487 | release | both | 2 | мелочи | 2026-10-05 |
+| reeses-sodium-options | Reese's Sodium Options | mc1.21.1-2.2.4+neoforge | release | client | 1 | настройки | 2026-09-16 |
 | repurposed-structures-forge | Repurposed Structures - Neoforge/Forge | 7.5.22+1.21.1-neoforge | release | server | 2 | структуры | 2026-08-20 |
 | resourceful-config | Resourceful Config | 3.0.11 | release | both | 1 | зависимость structure-layout-optimizer | 2025-04-26 |
 | resourceful-lib | Resourceful Lib | 3.0.12 | release | both | 2 | зависимость the-bumblezone | 2024-12-08 |
@@ -206,9 +207,7 @@
 | slice-and-dice | Create Slice & Dice | 4.3.4 | release | both | 2 | автоматизация еды | 2026-09-20 |
 | smartbrainlib | SmartBrainLib | 1.16.11 | release | both | 6 | зависимость occultism | 2025-10-01 |
 | sodium | Sodium | mc1.21.1-0.8.13-neoforge | release | client | 1 | FPS | 2026-08-28 |
-| sodium-dynamic-lights | Sodium Dynamic Lights | neoforge-1.21.1-1.0.10 | release | client | 10 | свет | 2025-01-02 |
 | sodium-extra | Sodium Extra | mc1.21.1-0.9.4+neoforge | release | client | 1 | FPS | 2026-09-16 |
-| sodium-options-api | Sodium Options API | neoforge-1.21.1-1.0.10 | release | client | 10 | зависимость sodium-dynamic-lights | 2025-01-18 |
 | sophisticated-backpacks | Sophisticated Backpacks | 1.21.1-3.26.12.2208 | release | both | 1 | рюкзаки | 2026-10-13 |
 | sophisticated-backpacks-create-integration | Sophisticated Backpacks Create Integration | 1.21.1-0.2.3.194 | release | both | 1 | совместимость | 2026-10-12 |
 | sophisticated-core | Sophisticated Core | 1.21.1-1.5.12.2400 | release | both | 1 | зависимость sophisticated-backpacks | 2026-10-13 |

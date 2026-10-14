@@ -3,6 +3,7 @@
 sodium | 1 | FPS
 iris | 1 | шейдеры
 sodium-extra | 1 | FPS
+reeses-sodium-options | 1 | настройки
 lithium | 1 | TPS
 modernfix | 1 | загрузка/ОЗУ
 ferrite-core | 1 | ОЗУ
@@ -169,7 +170,6 @@ subtle-effects | 10 | частицы
 particle-rain | 10 | дождь
 visuality-forge | 10 | частицы
 falling-leaves | 10 | листья
-sodium-dynamic-lights | 10 | свет
 not-enough-animations | 10 | анимации
 sound-physics-remastered | 10 | звук
 ambientsounds | 10 | звук

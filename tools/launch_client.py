@@ -82,7 +82,8 @@ def main():
         cp.append(str(p))
     client_jar = MC / "versions" / v["_jar"] / f"{v['_jar']}.jar"
     fetch(v.get("downloads", {}).get("client", {}).get("url"), client_jar)
-    cp.append(str(client_jar))
+    if "inheritsFrom" not in json.loads((MC / "versions" / VER / f"{VER}.json").read_text("utf8")):
+        cp.append(str(client_jar))  # NeoForge builds the game from its own patched jars (vanilla jar is in its ignoreList)
     natives = MC / "natives" / VER
     natives.mkdir(parents=True, exist_ok=True)
     GAME.mkdir(parents=True, exist_ok=True)
