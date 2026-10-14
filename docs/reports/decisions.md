@@ -14,3 +14,5 @@ JEI для 1.21.1 публикуется как beta; нужна 19.53+ для F
 Нет сборок 1.21.1 NeoForge на Modrinth → вне сборки; заменяем тем, что есть (Vinery, Meadow, HerbalBrews, Farm&Charm).
 
 ## EW2D исключён: mixin на dedicated-сервере падает (ClassNotFound extendedrenderer.particle.entity.EntityRotFX). Вернуть после проверки на новой версии.
+
+## SSRD исключён: Distant Horizons 3.3.3 объявляет несовместимость с ssrd ≤1.8.6. Вернуть, когда выйдет SSRD >1.8.6.
