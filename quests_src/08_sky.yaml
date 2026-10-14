@@ -1,0 +1,215 @@
+chapter:
+  id: sky
+  order: 8
+  icon: aeronautics:propeller_bearing
+  ru: {title: "Небо и дороги", subtitle: "Машины, самолёты, дирижабли, цитадели"}
+  en: {title: "Sky & Roads", subtitle: "Cars, planes, airships, citadels"}
+quests:
+  - id: s_physics
+    deps: [c_contraption]
+    roles: [engineer]
+    icon: simulated:physics_assembler
+    shape: gear
+    tasks: [{type: item, item: simulated:physics_assembler}]
+    ru:
+      title: "Постройка, которая живёт"
+      subtitle: "Create Aeronautics и физика Sable"
+      text: |
+        **Что это:** физический сборщик превращает любую твою постройку в **настоящий объект с физикой**: он падает, плавает, едет, летит.
+        Тяжёлое тонет, лёгкое всплывает, колёса цепляются за землю. Строишь как обычно — а потом оживляешь.
+        Подробнее: Ponder (**W**) на сборщике.
+    en:
+      title: "A Build That Lives"
+      subtitle: "Create Aeronautics and Sable physics"
+      text: |
+        **What:** the physics assembler turns any build into a **real physical object**: it falls, floats, drives, flies.
+        Heavy things sink, light things float, wheels grip the ground. Build as usual — then bring it to life.
+        More: Ponder (**W**) on the assembler.
+
+  - id: s_car_wheels
+    deps: [s_physics]
+    roles: [engineer]
+    icon: offroad:tire
+    tasks: [{type: item, item: offroad:wheel_mount, count: 4}, {type: item, item: offroad:tire, count: 4}]
+    ru:
+      title: "Четыре колеса"
+      subtitle: "Первая машина"
+      text: |
+        Крепления колёс + шины + мотор (вращение Create) = машина. Руль (**штурвал**) поворачивает передние колёса.
+        **Совет:** начни с маленькой тележки, а потом строй грузовик для руды.
+    en:
+      title: "Four Wheels"
+      subtitle: "Your first car"
+      text: |
+        Wheel mounts + tyres + a motor (Create rotation) = a car. A **steering wheel** turns the front wheels.
+        **Tip:** start with a small cart, then build a truck for ore.
+
+  - id: s_steering
+    deps: [s_car_wheels]
+    roles: [engineer]
+    icon: simulated:steering_wheel
+    tasks: [{type: item, item: simulated:steering_wheel}]
+    ru:
+      title: "За рулём"
+      subtitle: "Штурвал и рычаг газа"
+      text: |
+        Сядь за штурвал — WASD управляют машиной. Рычаг газа меняет скорость вращения.
+        Получилось? Прокатись до друга и посигналь.
+    en:
+      title: "Behind the Wheel"
+      subtitle: "Steering wheel and throttle"
+      text: |
+        Take the wheel — WASD drives. The throttle lever changes rotation speed.
+        Works? Drive to a friend and honk.
+
+  - id: s_propeller
+    deps: [s_steering]
+    roles: [engineer]
+    icon: aeronautics:wooden_propeller
+    tasks: [{type: item, item: aeronautics:propeller_bearing}, {type: item, item: aeronautics:wooden_propeller}]
+    ru:
+      title: "Пропеллер"
+      subtitle: "Тяга"
+      text: |
+        Пропеллер на подшипнике толкает постройку вперёд — или вверх. Чем быстрее вращение, тем сильнее тяга.
+        Лёгкие материалы (дерево, шерсть) — твои друзья в небе.
+    en:
+      title: "The Propeller"
+      subtitle: "Thrust"
+      text: |
+        A propeller on its bearing pushes the build forward — or up. Faster rotation, more thrust.
+        Light materials (wood, wool) are your friends in the sky.
+
+  - id: s_first_flight
+    deps: [s_propeller]
+    roles: [engineer]
+    icon: aeronautics:aviators_goggles
+    shape: hexagon
+    tasks: [{type: item, item: aeronautics:aviators_goggles}, {type: checkmark}]
+    rewards:
+      - {type: item, item: aeronautics:levitite, count: 4}
+      - {type: xp_levels, count: 5}
+    ru:
+      title: "Небо зовёт"
+      subtitle: "Первый полёт"
+      text: |
+        Собери лёгкий самолёт: пропеллер, крылья (паруса), штурвал — и взлети. Отметь квест после посадки.
+        **Совет:** очки лётчика показывают высоту и скорость. Страшно? Под Waystone посадка мягче.
+    en:
+      title: "The Sky Is Calling"
+      subtitle: "First flight"
+      text: |
+        Build a light plane: propeller, wings (sails), controls — and take off. Tick the quest after landing.
+        **Tip:** aviator's goggles show altitude and speed. Scared? Land near a Waystone.
+
+  - id: s_levitite
+    deps: [s_first_flight]
+    roles: [engineer, mage]
+    icon: aeronautics:levitite
+    tasks: [{type: item, item: aeronautics:levitite, count: 16}]
+    ru:
+      title: "Парящий камень"
+      subtitle: "Левитит"
+      text: |
+        **Левитит** — камень, который тянется вверх. Много левитита — и постройка висит в воздухе без пропеллеров.
+        **Ценится у:** магов — с их помощью его получать проще. Это первое «рукопожатие» инженера и мага.
+    en:
+      title: "The Floating Stone"
+      subtitle: "Levitite"
+      text: |
+        **Levitite** is stone that pulls upward. Enough of it and a build hangs in the air without propellers.
+        **Valued by:** mages — they make it easier to get. It's the first engineer-mage handshake.
+
+  - id: s_airship
+    deps: [s_levitite]
+    roles: [engineer]
+    icon: aeronautics:adjustable_burner
+    tasks: [{type: item, item: aeronautics:adjustable_burner}, {type: checkmark}]
+    ru:
+      title: "Дирижабль"
+      subtitle: "Горелка и баллон"
+      text: |
+        Регулируемая горелка нагревает воздух в баллоне — дирижабль поднимается. Меньше жара — снижается.
+        Построй гондолу с кроватью и сундуками — у тебя **передвижная база**. Отметь квест, когда поднимешься в воздух.
+    en:
+      title: "The Airship"
+      subtitle: "Burner and envelope"
+      text: |
+        An adjustable burner heats the air in the envelope — the airship rises. Less heat, it sinks.
+        Build a gondola with a bed and chests — you have a **mobile base**. Tick the quest once you're airborne.
+
+  - id: s_citadel
+    deps: [s_airship]
+    roles: [engineer, builder]
+    icon: aeronautics:pearlescent_levitite
+    shape: gear
+    tasks: [{type: item, item: aeronautics:pearlescent_levitite, count: 8}, {type: checkmark}]
+    rewards:
+      - {type: xp_levels, count: 10}
+    ru:
+      title: "Летающая цитадель"
+      subtitle: "Мегапроект для всей компании"
+      text: |
+        Остров в небе с садом, кухней, мастерской и башней мага. Строится всей компанией — каждому есть что внести.
+        Подробнее и с наградами — глава «Великие стройки».
+    en:
+      title: "The Flying Citadel"
+      subtitle: "A megaproject for the whole group"
+      text: |
+        A sky island with a garden, kitchen, workshop and mage tower. Built by everyone — each has something to bring.
+        More, with rewards, in the "Great Works" chapter.
+
+  - id: s_biplane
+    deps: [welcome_start]
+    roles: [engineer, warrior]
+    icon: immersive_aircraft:biplane
+    tasks: [{type: item, item: immersive_aircraft:biplane}]
+    optional: true
+    ru:
+      title: "Биплан для нетерпеливых"
+      subtitle: "Immersive Aircraft"
+      text: |
+        Не хочется собирать самолёт из блоков? Готовые **бипланы, гирокоптеры и дирижабли** Immersive Aircraft собираются на верстаке.
+        Отличный способ исследовать мир раньше, чем освоишь Create.
+    en:
+      title: "A Biplane for the Impatient"
+      subtitle: "Immersive Aircraft"
+      text: |
+        Don't feel like building a plane from blocks? Ready-made **biplanes, gyrodynes and airships** from Immersive Aircraft are crafted at a table.
+        A great way to explore before you master Create.
+
+  - id: s_jetpack
+    deps: [c_brass]
+    roles: [engineer]
+    icon: create_jetpack:jetpack
+    tasks: [{type: item, item: create_jetpack:jetpack}]
+    optional: true
+    ru:
+      title: "Реактивный ранец"
+      subtitle: "Create Jetpack"
+      text: |
+        Ранец на сжатом воздухе из медного баллона. Зарядись у насоса-компрессора — и в небо!
+    en:
+      title: "The Jetpack"
+      subtitle: "Create Jetpack"
+      text: |
+        A jetpack running on compressed air from a copper backtank. Recharge at a compressor — and up you go!
+
+  - id: s_rope
+    deps: [s_physics]
+    roles: [engineer]
+    icon: simulated:rope_winch
+    tasks: [{type: item, item: simulated:rope_winch}]
+    optional: true
+    ru:
+      title: "Тросы и лебёдки"
+      subtitle: "Буксир, лифт, канатная дорога"
+      text: |
+        Лебёдка с тросом тянет одну постройку к другой: буксирует машину, опускает груз с дирижабля, держит мост.
+        Квесты про абордаж и канатные дороги — в главе «Оружие и снаряжение».
+    en:
+      title: "Ropes and Winches"
+      subtitle: "Towing, lifts, cable cars"
+      text: |
+        A winch with a rope pulls one build toward another: tows a car, lowers cargo from an airship, holds a bridge.
+        Boarding and cable-car quests are in the "Weapons & Gear" chapter.

@@ -1,0 +1,424 @@
+chapter:
+  id: create
+  order: 7
+  icon: create:cogwheel
+  ru: {title: "Create: механика", subtitle: "Вращение, которое делает всё"}
+  en: {title: "Create: Mechanics", subtitle: "Rotation that does everything"}
+quests:
+  - id: c_alloy
+    deps: [welcome_start]
+    roles: [engineer]
+    icon: create:andesite_alloy
+    shape: gear
+    tasks: [{type: item, item: create:andesite_alloy, count: 16}]
+    rewards:
+      - {type: item, item: create:andesite_alloy, count: 16}
+    ru:
+      title: "Андезитовый сплав"
+      subtitle: "Главный материал ранней механики"
+      text: |
+        **Что это:** Create — мод про вращение. Валы, шестерни и механизмы, которые крутят друг друга.
+        **Зачем:** автоматизация всего: дробление руды, фермы, кухня, лифты, поезда, корабли.
+        **Как начать:** андезит + железные самородки (или цинк) = андезитовый сплав. Из него — почти всё раннее.
+    en:
+      title: "Andesite Alloy"
+      subtitle: "The core material of early mechanics"
+      text: |
+        **What:** Create is all about rotation. Shafts, gears and machines turning each other.
+        **Why:** automate everything: ore crushing, farms, kitchens, lifts, trains, ships.
+        **How to start:** andesite + iron nuggets (or zinc) = andesite alloy. Almost every early part uses it.
+
+  - id: c_goggles
+    deps: [c_alloy]
+    roles: [engineer]
+    icon: create:goggles
+    tasks: [{type: item, item: create:goggles}]
+    ru:
+      title: "Очки инженера"
+      subtitle: "Видеть невидимое"
+      text: |
+        Очки показывают скорость вращения и **нагрузку** (stress) сети, если смотреть на механизм.
+        Если сеть перегружена — всё остановится. Очки покажут, где не хватает силы.
+        **Напоминание:** зажми **W** на любом блоке Create — Ponder покажет, как он работает.
+    en:
+      title: "Engineer's Goggles"
+      subtitle: "See the invisible"
+      text: |
+        Goggles show rotation speed and network **stress** when you look at a machine.
+        Overload the network and everything stops. Goggles show where you lack power.
+        **Reminder:** hold **W** on any Create block — Ponder shows how it works.
+
+  - id: c_wheel
+    deps: [c_alloy]
+    roles: [engineer]
+    icon: create:water_wheel
+    tasks: [{type: item, item: create:water_wheel}]
+    rewards:
+      - {type: item, item: create:shaft, count: 16}
+      - {type: item, item: create:cogwheel, count: 8}
+    ru:
+      title: "Колесо, которое крутит всё"
+      subtitle: "Первая кинетическая энергия"
+      text: |
+        **Как:** поставь водяное колесо у текущей воды и подключи вал. Каждое колесо даёт немного силы — ставь несколько в ряд.
+        **Совет:** ветряная мельница из парусов даёт больше, а паровой двигатель — ещё больше.
+    en:
+      title: "The Wheel That Turns Everything"
+      subtitle: "Your first rotational power"
+      text: |
+        **How:** place a water wheel in flowing water and connect a shaft. Each wheel gives a little power — line several up.
+        **Tip:** a windmill made of sails gives more, a steam engine even more.
+
+  - id: c_press
+    deps: [c_wheel]
+    roles: [engineer]
+    icon: create:mechanical_press
+    tasks: [{type: item, item: create:mechanical_press}]
+    ru:
+      title: "Механический пресс"
+      subtitle: "Слитки → листы"
+      text: |
+        Пресс расплющивает слитки в листы и, вместе с чашей, спрессовывает ингредиенты.
+        Подай предмет на **депо** под прессом или проведи под ним **конвейер** — пресс сработает сам.
+    en:
+      title: "The Mechanical Press"
+      subtitle: "Ingots → sheets"
+      text: |
+        The press flattens ingots into sheets and, with a basin, compacts ingredients.
+        Put an item on a **depot** under it or run a **belt** beneath — the press works by itself.
+
+  - id: c_belt
+    deps: [c_press]
+    roles: [engineer]
+    icon: create:belt_connector
+    tasks: [{type: item, item: create:belt_connector, count: 4}]
+    ru:
+      title: "Конвейер"
+      subtitle: "Предметы едут сами"
+      text: |
+        Ремень соединяет два вала и везёт предметы. На ремне работают пресс, вентилятор, пила, раздатчики.
+        **Совет:** воронки (funnel) на концах конвейера забирают и кладут предметы в сундуки.
+    en:
+      title: "The Conveyor"
+      subtitle: "Items move by themselves"
+      text: |
+        A belt connects two shafts and carries items. Presses, fans, saws and depots all work on belts.
+        **Tip:** funnels at the ends pull from and push into chests.
+
+  - id: c_crushing
+    deps: [c_press]
+    roles: [engineer]
+    icon: create:crushing_wheel
+    tasks: [{type: item, item: create:crushing_wheel, count: 2}]
+    rewards:
+      - {type: item, item: create:crushed_raw_iron, count: 16}
+    ru:
+      title: "Дробильные колёса"
+      subtitle: "Удвоение руды"
+      text: |
+        Два колеса навстречу друг другу дробят руду в **измельчённую руду** — из неё выходит больше слитков.
+        Промой измельчённое вентилятором над водой — получишь ещё и самородки.
+        **Ценится у:** всех, кому нужен металл. А нужен он всем.
+    en:
+      title: "Crushing Wheels"
+      subtitle: "Ore doubling"
+      text: |
+        Two wheels spinning toward each other crush ore into **crushed ore**, which smelts into more ingots.
+        Wash it with a fan through water and you get nuggets on top.
+        **Valued by:** anyone who needs metal. Which is everyone.
+
+  - id: c_fan
+    deps: [c_belt]
+    roles: [engineer]
+    icon: create:encased_fan
+    tasks: [{type: item, item: create:encased_fan}]
+    ru:
+      title: "Вентилятор"
+      subtitle: "Мыть, плавить, коптить"
+      text: |
+        Вентилятор гонит воздух через то, что перед ним: через воду — **моет**, через лаву — **плавит**, через огонь — **коптит** еду.
+        Пусти конвейер через поток — и печь больше не нужна.
+    en:
+      title: "The Fan"
+      subtitle: "Wash, smelt, smoke"
+      text: |
+        A fan blows through whatever is in front of it: through water it **washes**, through lava it **smelts**, through fire it **smokes** food.
+        Run a belt through the stream and you won't need a furnace.
+
+  - id: c_mixer
+    deps: [c_press]
+    roles: [engineer, cook]
+    icon: create:mechanical_mixer
+    tasks: [{type: item, item: create:mechanical_mixer}, {type: item, item: create:basin}]
+    ru:
+      title: "Миксер и чаша"
+      subtitle: "Сплавы, тесто, краски"
+      text: |
+        Миксер над чашей смешивает ингредиенты. Так делается **латунь** (медь + цинк), тесто, бетон.
+        С **горелкой ифрита** под чашей — смеси, требующие жара.
+    en:
+      title: "Mixer and Basin"
+      subtitle: "Alloys, dough, dyes"
+      text: |
+        A mixer above a basin combines ingredients. That's how you make **brass** (copper + zinc), dough, concrete.
+        With a **blaze burner** under the basin you can do heated mixes.
+
+  - id: c_brass
+    deps: [c_mixer]
+    roles: [engineer]
+    icon: create:brass_ingot
+    shape: hexagon
+    tasks: [{type: item, item: create:brass_ingot, count: 16}]
+    rewards:
+      - {type: item, item: create:electron_tube, count: 4}
+    ru:
+      title: "Латунный век"
+      subtitle: "Медь + цинк + жар"
+      text: |
+        Латунь открывает умную логистику: латунные воронки с фильтрами, умные жёлобы, механизмы точности.
+        Нужна **горелка ифрита** — поймай ифрита в Нижнем мире пустой горелкой (или попроси воина).
+    en:
+      title: "The Brass Age"
+      subtitle: "Copper + zinc + heat"
+      text: |
+        Brass unlocks smart logistics: brass funnels with filters, smart chutes, precision mechanisms.
+        You need a **blaze burner** — catch a blaze in the Nether with an empty burner (or ask a warrior).
+
+  - id: c_precision
+    deps: [c_brass]
+    roles: [engineer]
+    icon: create:precision_mechanism
+    tasks: [{type: item, item: create:precision_mechanism, count: 4}]
+    ru:
+      title: "Механизм точности"
+      subtitle: "Сборка по шагам"
+      text: |
+        Механизм точности собирается на конвейере в несколько шагов: пресс, раздатчики, повтор.
+        Это первая «сборочная линия» — посмотри рецепт в EMI, он нарисован по шагам.
+    en:
+      title: "The Precision Mechanism"
+      subtitle: "Step-by-step assembly"
+      text: |
+        A precision mechanism is assembled on a belt in several steps: press, deployers, repeat.
+        It's your first "assembly line" — EMI shows the recipe step by step.
+
+  - id: c_deployer
+    deps: [c_precision]
+    roles: [engineer]
+    icon: create:deployer
+    tasks: [{type: item, item: create:deployer}]
+    optional: true
+    ru:
+      title: "Механическая рука"
+      subtitle: "Деплоер делает то, что делал бы ты"
+      text: |
+        Деплоер кликает предметом в руке: сажает, бьёт, использует, собирает детали. Это руки твоей фабрики.
+    en:
+      title: "A Mechanical Hand"
+      subtitle: "The deployer does what you would"
+      text: |
+        A deployer clicks with whatever it holds: plants, hits, uses, assembles parts. These are your factory's hands.
+
+  - id: c_steam
+    deps: [c_brass]
+    roles: [engineer]
+    icon: create:steam_engine
+    tasks: [{type: item, item: create:steam_engine}]
+    ru:
+      title: "Пар!"
+      subtitle: "Бойлер и паровой двигатель"
+      text: |
+        Бак-бойлер + горелки + вода = пар. Паровые двигатели на баке дают **огромную** силу вращения.
+        Посмотри Ponder — размер бака и число горелок определяют уровень бойлера.
+    en:
+      title: "Steam!"
+      subtitle: "Boiler and steam engine"
+      text: |
+        A tank boiler + burners + water = steam. Steam engines on the tank give **huge** rotational power.
+        Check Ponder — tank size and burner count set the boiler level.
+
+  - id: c_contraption
+    deps: [c_wheel]
+    roles: [engineer]
+    icon: create:mechanical_bearing
+    tasks: [{type: item, item: create:mechanical_bearing}, {type: item, item: create:super_glue}]
+    ru:
+      title: "Движущиеся постройки"
+      subtitle: "Подшипник, поршни, клей"
+      text: |
+        Склей блоки суперклеем, поставь на подшипник или поршень — и они поедут или закрутятся.
+        Так делаются ветряки, ворота, лифты, мосты — и, позже, летающие корабли.
+    en:
+      title: "Moving Builds"
+      subtitle: "Bearings, pistons, glue"
+      text: |
+        Glue blocks together, mount them on a bearing or piston — and they'll move or spin.
+        That's how you make windmills, gates, lifts, bridges — and later, flying ships.
+
+  - id: c_drill
+    deps: [c_contraption]
+    roles: [engineer]
+    icon: create:mechanical_drill
+    tasks: [{type: item, item: create:mechanical_drill}]
+    optional: true
+    ru:
+      title: "Бур"
+      subtitle: "Копает сам"
+      text: |
+        Бур на поршне или на движущейся раме сам прокладывает туннели и добывает камень.
+        Позже он станет частью тоннелепроходческого комбайна на гусеницах Aeronautics.
+    en:
+      title: "The Drill"
+      subtitle: "It digs by itself"
+      text: |
+        A drill on a piston or a moving frame digs tunnels and quarries stone on its own.
+        Later it becomes part of a tunnel-boring machine on Aeronautics tracks.
+
+  - id: c_harvester
+    deps: [c_contraption]
+    roles: [engineer, gardener]
+    icon: create:mechanical_harvester
+    tasks: [{type: item, item: create:mechanical_harvester}]
+    ru:
+      title: "Комбайн"
+      subtitle: "Ферма убирает себя"
+      text: |
+        Комбайн на движущейся раме проходит над полем и собирает урожай, оставляя посадки.
+        **Кому пригодится:** садоводу. Это ваше общее дело — сделайте ферму вместе.
+    en:
+      title: "The Harvester"
+      subtitle: "A farm that harvests itself"
+      text: |
+        A harvester on a moving frame passes over a field and collects crops, leaving the plants.
+        **Who helps:** the gardener. It's a joint project — build the farm together.
+
+  - id: c_pipes
+    deps: [c_mixer]
+    roles: [engineer]
+    icon: create:fluid_pipe
+    tasks: [{type: item, item: create:mechanical_pump}, {type: item, item: create:fluid_tank}]
+    ru:
+      title: "Трубы и баки"
+      subtitle: "Жидкости тоже едут"
+      text: |
+        Помпа гонит жидкость по трубам: вода, лава, мёд, шоколад, нефть. **Разливатель** (spout) наполняет бутылки и вёдра.
+    en:
+      title: "Pipes and Tanks"
+      subtitle: "Fluids move too"
+      text: |
+        A pump pushes fluid through pipes: water, lava, honey, chocolate, oil. A **spout** fills bottles and buckets.
+
+  - id: c_train_track
+    deps: [c_brass]
+    roles: [engineer]
+    icon: create:track
+    tasks: [{type: item, item: create:track, count: 32}, {type: item, item: create:track_station}]
+    ru:
+      title: "Рельсы и станция"
+      subtitle: "Поезда Create"
+      text: |
+        Поезда Create ездят по путям любой формы, по расписанию, между станциями.
+        Собери вагон на станции, поставь пульт управления — и поезд твой.
+        **Совет:** Steam 'n' Rails добавляет узкую и широкую колею, сцепки и красивые вагоны.
+    en:
+      title: "Tracks and a Station"
+      subtitle: "Create trains"
+      text: |
+        Create trains run on tracks of any shape, on schedules, between stations.
+        Assemble a carriage at a station, add train controls — and the train is yours.
+        **Tip:** Steam 'n' Rails adds narrow and wide gauge, couplers and nicer carriages.
+
+  - id: c_train_run
+    deps: [c_train_track]
+    roles: [engineer]
+    icon: create:controls
+    tasks: [{type: item, item: create:controls}, {type: item, item: create:schedule}]
+    rewards:
+      - {type: item, item: create:track, count: 64}
+    ru:
+      title: "Отправление!"
+      subtitle: "Поезд по расписанию"
+      text: |
+        Расписание (schedule) говорит поезду, куда ехать и сколько ждать. Поезд между базами друзей — лучший подарок.
+    en:
+      title: "All Aboard!"
+      subtitle: "A train on a schedule"
+      text: |
+        A schedule tells the train where to go and how long to wait. A train between friends' bases is the best gift.
+
+  - id: c_logistics
+    deps: [c_precision]
+    roles: [engineer]
+    icon: create:stock_ticker
+    tasks: [{type: item, item: create:packager}, {type: item, item: create:stock_ticker}]
+    optional: true
+    ru:
+      title: "Склад на посылках"
+      subtitle: "Логистика Create 6"
+      text: |
+        Упаковщики заворачивают предметы в посылки, лягушки-почтальоны носят их, а **тикер запасов** заказывает нужное со склада.
+        Это заказ «в один клик» без цифрового хранилища.
+    en:
+      title: "A Warehouse in Parcels"
+      subtitle: "Create 6 logistics"
+      text: |
+        Packagers wrap items into parcels, frogports carry them, and a **stock ticker** orders what you need from storage.
+        One-click ordering without a digital network.
+
+  - id: c_schematic
+    deps: [c_brass]
+    roles: [engineer, builder]
+    icon: create:schematicannon
+    tasks: [{type: item, item: create:schematicannon}]
+    optional: true
+    ru:
+      title: "Пушка-строитель"
+      subtitle: "Схематики"
+      text: |
+        Сохрани постройку **схематикой**, и **схематикопушка** построит её снова — блок за блоком, из сундука с материалами.
+        Готовые здания можно передавать друзьям и строить где угодно.
+    en:
+      title: "The Building Cannon"
+      subtitle: "Schematics"
+      text: |
+        Save a build as a **schematic** and the **schematicannon** builds it again, block by block, from a chest of materials.
+        Share ready-made buildings with friends and build them anywhere.
+
+  - id: c_fe
+    deps: [c_steam]
+    roles: [engineer]
+    icon: createaddition:alternator
+    tasks: [{type: item, item: createaddition:alternator}]
+    optional: true
+    ru:
+      title: "Мост в электричество"
+      subtitle: "Create Crafts & Additions"
+      text: |
+        Генератор превращает вращение в энергию FE — ту же, на которой работают Mekanism, AE2 и IE.
+        А **электромотор** — наоборот. Так механика и электрика становятся одной системой.
+    en:
+      title: "A Bridge to Electricity"
+      subtitle: "Create Crafts & Additions"
+      text: |
+        An alternator turns rotation into FE energy — the same power Mekanism, AE2 and IE use.
+        An **electric motor** does the reverse. Mechanics and electrics become one system.
+
+  - id: c_done
+    deps: [c_steam, c_train_run, c_harvester]
+    roles: [engineer]
+    icon: create:brass_casing
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: create:precision_mechanism, count: 4}
+      - {type: xp_levels, count: 5}
+    ru:
+      title: "Главный механик"
+      subtitle: "Пар, поезда и фермы"
+      text: |
+        У тебя есть пар, поезд и автоферма. Следующий шаг — **небо**: глава «Небо и дороги» про самолёты и дирижабли.
+    en:
+      title: "Chief Mechanic"
+      subtitle: "Steam, trains and farms"
+      text: |
+        You have steam, a train and an automated farm. Next step: **the sky** — chapter "Sky & Roads" for planes and airships.
