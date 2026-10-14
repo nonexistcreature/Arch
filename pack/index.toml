@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/DistantHorizons.toml"
+hash = "416fcb10afe74ab6274b2453d98e5af41dc27e9f96d851138a1fd327fa157b0f"
+
+[[files]]
 file = "config/ae2-common.toml"
 hash = "f7f961878f3627c237b089cc50a9aaebc66d3ea8af6687e352f8701b03eb6bec"
 
@@ -135,6 +139,10 @@ hash = "9439db041e32f77e3e36b0249e96e243d1c870f7ea033eea8499535ff354554e"
 [[files]]
 file = "config/iris.properties"
 hash = "f97c06d3901e4a8959977cb83dbac06f0b395ec01f0b7c6b1d34be06393c4ead"
+
+[[files]]
+file = "config/mca.json"
+hash = "b24b27a7db4366d7e119a3a3cf9dcc32fc5e81e9540bb1ad3fc99a4908a3ba06"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -761,11 +769,6 @@ hash = "a245469cf91e7f3c8aec3b0f5ad3d79b1846ac0696543f892b426faea5f91cab"
 metafile = true
 
 [[files]]
-file = "mods/every-compat.pw.toml"
-hash = "cc230dd39acdfe8845b6b0c8c3a0f9799a1c1109ea14b5b11c05313f15ed4fc9"
-metafile = true
-
-[[files]]
 file = "mods/experiencelib.pw.toml"
 hash = "832116ba3f826af7f8ccfc56d11c19a350cd152fe194f0d27c1b1c9f3db30ed7"
 metafile = true
@@ -1311,11 +1314,6 @@ hash = "0a04f1d0b86262c6dfdbd14e0493d7f4786f24054a95a07ff7b41a7870bb258d"
 metafile = true
 
 [[files]]
-file = "mods/quark.pw.toml"
-hash = "6390e31a740d60ba3a66edaf86f5e2788b7d03ff18fd43580f12f665e25f73f9"
-metafile = true
-
-[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "8690379014fbba53059759936c7deb4d62aabc7a2006da3d45929dc582b119b7"
 metafile = true
@@ -1648,11 +1646,6 @@ metafile = true
 [[files]]
 file = "mods/yungs-extras.pw.toml"
 hash = "2541b092b92a82757e5d200a6093658e20db548bb8583abad3f4506ed04e5ce6"
-metafile = true
-
-[[files]]
-file = "mods/zeta.pw.toml"
-hash = "cb474b6c0dde741836ed4f796f3b6ab0b9d3cdc0453e651122cd002d5d1f8df8"
 metafile = true
 
 [[files]]

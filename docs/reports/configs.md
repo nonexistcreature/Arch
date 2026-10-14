@@ -18,3 +18,4 @@
 | Ванилла | playersSleepingPercentage | 34 | 2–3 спящих из 8 пропускают ночь |
 | Ванилла | doInsomnia | false | нет фантомов |
 | arkhaven-core | creepersKeepBlocks | true | криперы не ломают постройки |
+| MCA | enablePlayerShaders | true → false | случайная черта «дальтонизм» включала полноэкранный пост-шейдер (минус FPS, серая картинка) |

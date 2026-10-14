@@ -1,6 +1,6 @@
 # modlist_resolved (авто, tools/resolve_pack.py)
 
-Всего: **248** (явных: 197, зависимостей: 51)
+Всего: **245** (явных: 195, зависимостей: 50)
 
 | slug | название | версия | тип | сторона | волна | роль | обновлён |
 |---|---|---|---|---|---|---|---|
@@ -91,7 +91,6 @@
 | entityculling | Entity Culling | 1.11.3 | release | client | 1 | FPS | 2026-10-08 |
 | entitytexturefeatures | [ETF] Entity Texture Features | 7.2.5-neoforge-1.21 | release | client | 10 | текстуры | 2026-10-04 |
 | euphoria-patches | Euphoria Patches | 1.10.5-r5.9.3-neoforge | release | client | 10 | шейдеры | 2026-09-15 |
-| every-compat | Every Compat (Wood Good) | 1.21-2.11.53 | release | both | 2 | совместимость пород | 2026-10-09 |
 | explorify | Explorify | v1.6.5 | release | both | 2 | структуры | 2026-05-13 |
 | extended-ae | Extended AE | 1.21-2.2.35-neoforge | release | both | 5 | AE2 | 2026-08-08 |
 | falling-leaves | Falling Leaves | 1.0 | release | client | 10 | листья | 2025-10-05 |
@@ -189,7 +188,6 @@
 | productivebees | Productive Bees | 1.21.1-13.13.0 | release | both | 3 | пчёлы | 2026-01-13 |
 | pufferfishs-unofficial-additions | Pufferfish's Unofficial Additions | 2.2.8 | release | both | 7a | зависимость irons-spells-n-spellbooks-dynamic-skill-trees | 2025-12-28 |
 | puzzles-lib | Puzzles Lib | 21.1.64 | release | both | 1 | зависимость overflowing-bars | 2026-10-11 |
-| quark | Quark | 4.1-487 | release | both | 2 | мелочи | 2026-10-05 |
 | reeses-sodium-options | Reese's Sodium Options | mc1.21.1-2.2.4+neoforge | release | client | 1 | настройки | 2026-09-16 |
 | repurposed-structures-forge | Repurposed Structures - Neoforge/Forge | 7.5.22+1.21.1-neoforge | release | server | 2 | структуры | 2026-08-20 |
 | resourceful-config | Resourceful Config | 3.0.11 | release | both | 1 | зависимость structure-layout-optimizer | 2025-04-26 |
@@ -251,4 +249,3 @@
 | yungs-better-witch-huts | YUNG's Better Witch Huts | 1.21.1-NeoForge-4.1.1 | release | server | 2 | хижины | 2024-10-14 |
 | yungs-bridges | YUNG's Bridges | 1.21.1-NeoForge-5.1.1 | release | server | 2 | мосты | 2024-10-14 |
 | yungs-extras | YUNG's Extras | 1.21.1-NeoForge-5.1.1 | release | server | 2 | структуры | 2024-10-14 |
-| zeta | Zeta | 1.1-40 | release | both | 2 | зависимость quark | 2026-04-24 |

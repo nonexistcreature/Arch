@@ -160,7 +160,6 @@ macaws-paths-and-pavings | 2 | декор
 handcrafted | 2 | мебель
 another-furniture | 2 | мебель
 framedblocks | 2 | блоки
-every-compat | 2 | совместимость пород
 fusion-connected-textures | 10 | текстуры
 amendments | 2 | декор
 decorative-blocks-reborn | 2 | декор
@@ -209,7 +208,6 @@ no-chat-reports | 1 | чат
 item-borders | 1 | UI
 searchables | 1 | UI
 supplementaries-squared | 2 | декор
-quark | 2 | мелочи
 easy-villagers | 8 | жители
 deep-aether | 2 | Aether
 twilight-forest-the-lost-blocks | 2 | TF

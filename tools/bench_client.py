@@ -41,7 +41,7 @@ VARIANTS = {
     # name: (options overrides, shaders on?, shader profile options, jvm, disabled mod globs)
     "baseline":      ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + ZGC, []),
     "mem10_g1":      ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + G1, []),
-    "mem10_zgc":     ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + ZGC, []),
+    "current":       ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + ZGC, []),
     "noshader":      ({"renderDistance": 12}, False, {}, "-Xms12G -Xmx12G " + ZGC, []),
     "no_dh":         ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + ZGC, ["DistantHorizons*"]),
     "lite_client":   ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + ZGC,
@@ -95,13 +95,14 @@ def prepare_world():
 
 def run(name):
     over, shaders, extra, jvm, off = VARIANTS[name]
-    set_dh(extra.get("DH", DH_DEFAULT))
+    set_dh(extra.get("DH", []))
     set_options(over)
     set_iris(shaders)
     moved = toggle_mods(off, True)
     t0 = time.time()
     r = subprocess.run([sys.executable, str(ROOT / "tools/launch_client.py"), "--world", "bench", "--res", RES, "--jvm", jvm,
-                        "--fps-samples", "22", "--timeout", "1200"], capture_output=True, text=True, encoding="utf8", errors="replace")
+                        "--fps-samples", "22", "--timeout", "1200",
+                        "--screenshot", str(ROOT / f"tests/out/bench_{name}.png")], capture_output=True, text=True, encoding="utf8", errors="replace")
     toggle_mods(off, False)
     m = re.search(r"FPS median=(\d+) min=(\d+) max=(\d+) avg=(\d+)", r.stdout)
     line = (f"| {time.strftime('%Y-%m-%d %H:%M')} | {name} | {m.group(1)} | {m.group(2)} | {m.group(3)} | {m.group(4)} | {RES} | {', '.join(moved) or '-'} |"
