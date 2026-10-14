@@ -1,0 +1,39 @@
+extends: elements
+quests:
+  - id: el_siren
+    deps: [el_storm_meet]
+    icon: weather2:tornado_siren
+    tasks: [{type: item, item: weather2:tornado_siren}]
+    ru: {title: "Сирена торнадо", text: "Воет, когда к базе приближается торнадо. Поставь у кровати — разбудит вовремя."}
+    en: {title: "The Tornado Siren", text: "Wails when a tornado approaches the base. Put it by your bed — it'll wake you in time."}
+
+  - id: el_sensor
+    deps: [el_storm_meet]
+    icon: weather2:tornado_sensor
+    tasks: [{type: item, item: weather2:tornado_sensor}]
+    optional: true
+    ru: {title: "Датчик торнадо", text: "Даёт редстоун-сигнал при торнадо: можно автоматически закрыть ставни, увести дирижабль в ангар."}
+    en: {title: "The Tornado Sensor", text: "Gives a redstone signal during a tornado: close shutters, send the airship to the hangar automatically."}
+
+  - id: el_anemometer
+    deps: [el_storm_meet]
+    icon: weather2:anemometer
+    tasks: [{type: item, item: weather2:anemometer}, {type: item, item: weather2:wind_vane}]
+    optional: true
+    ru: {title: "Ветер", text: "Анемометр и флюгер показывают силу и направление ветра. Ветер важен лётчикам и для загрязнения воздуха."}
+    en: {title: "The Wind", text: "The anemometer and wind vane show wind strength and direction. Wind matters for pilots and for air pollution."}
+
+  - id: el_lightning
+    deps: [el_storm_meet]
+    icon: minecraft:lightning_rod
+    tasks: [{type: item, item: minecraft:lightning_rod, count: 2}]
+    ru: {title: "Громоотвод", text: "Принимает молнии на себя — деревянная крыша не сгорит в грозу."}
+    en: {title: "The Lightning Rod", text: "Draws lightning to itself — your wooden roof won't burn in a storm."}
+
+  - id: el_ward3
+    deps: [el_master, gw_collider]
+    icon: arkhaven_core:ward_generator_t3
+    tasks: [{type: item, item: arkhaven_core:ward_generator_t3}]
+    rewards: [{type: item, item: arkhaven:ward_crystal_t3, count: 2}]
+    ru: {title: "Великий оберег", text: "Оберег III уровня защищает 128 блоков — целый город. Топливо — кристаллы с экзотической материей коллайдера."}
+    en: {title: "The Great Ward", text: "A tier III ward protects 128 blocks — a whole town. Fuel: crystals made with exotic matter from the collider."}

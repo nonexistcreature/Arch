@@ -1,0 +1,63 @@
+extends: fishing
+quests:
+  - id: f_table
+    deps: [f_journal]
+    roles: [breeder]
+    icon: tide:angling_table
+    tasks: [{type: item, item: tide:angling_table}]
+    ru: {title: "Рыболовный стол", text: "Здесь собирают удочку: удилище, леска, крючок, поплавок. Каждая деталь меняет поведение снасти."}
+    en: {title: "The Angling Table", text: "Here you build a rod: pole, line, hook and bobber. Each part changes how the tackle behaves."}
+
+  - id: f_golden_rod
+    deps: [f_iron_rod]
+    roles: [breeder]
+    icon: tide:golden_fishing_rod
+    tasks: [{type: item, item: tide:golden_fishing_rod}]
+    optional: true
+    ru: {title: "Золотая удочка", text: "Повышает шанс редких рыб и сокровищ."}
+    en: {title: "The Golden Rod", text: "Raises the chance of rare fish and treasure."}
+
+  - id: f_diamond_rod
+    deps: [f_golden_rod]
+    roles: [breeder]
+    icon: tide:diamond_fishing_rod
+    tasks: [{type: item, item: tide:diamond_fishing_rod}]
+    optional: true
+    ru: {title: "Алмазная удочка", text: "Рыба срывается реже, легендарные виды попадаются чаще."}
+    en: {title: "The Diamond Rod", text: "Fish slip off less often, legendary species bite more."}
+
+  - id: f_ice
+    deps: [f_iron_rod]
+    roles: [breeder]
+    icon: tide:permafrost_hook
+    tasks: [{type: item, item: tide:permafrost_hook}]
+    optional: true
+    ru: {title: "Подлёдный лов", text: "Морозный крюк ловит под льдом. В холодных водах — свои, особые рыбы."}
+    en: {title: "Ice Fishing", text: "The permafrost hook fishes under ice. Cold waters hold their own special fish."}
+
+  - id: f_void
+    deps: [f_ice, adv_end]
+    roles: [breeder]
+    icon: tide:void_hook
+    tasks: [{type: item, item: tide:void_hook}]
+    optional: true
+    ru: {title: "Рыбалка в пустоте", text: "Пустотный крюк ловит в бездне Края. Самые странные рыбы мира."}
+    en: {title: "Void Fishing", text: "The void hook fishes the End's abyss. The strangest fish in the world."}
+
+  - id: f_neptunium
+    deps: [f_aquaculture]
+    roles: [breeder, warrior]
+    icon: aquaculture:neptunium_ingot
+    tasks: [{type: item, item: aquaculture:neptunium_ingot}]
+    optional: true
+    ru: {title: "Нептуний", text: "Из сундуков «Дар Нептуна» — нептуний. Подводная броня и оружие."}
+    en: {title: "Neptunium", text: "From Neptune's Bounty chests comes neptunium. Underwater armour and weapons."}
+
+  - id: f_tackle
+    deps: [f_aquaculture]
+    roles: [breeder]
+    icon: aquaculture:tackle_box
+    tasks: [{type: item, item: aquaculture:tackle_box}]
+    optional: true
+    ru: {title: "Ящик для снастей", text: "Хранит крючки, наживку и леску. Порядок у рыбака."}
+    en: {title: "The Tackle Box", text: "Holds hooks, bait and line. An angler's order."}

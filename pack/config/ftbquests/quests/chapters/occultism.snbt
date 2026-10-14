@@ -59,7 +59,7 @@
 		{
 			id: "3249B651AE7FF470"
 			x: 3.0d
-			y: 0.0d
+			y: -0.625d
 			icon: {
 				id: "occultism:chalk_white"
 				count: 1
@@ -89,7 +89,7 @@
 		{
 			id: "6BBDBFD07168218A"
 			x: 4.5d
-			y: 0.0d
+			y: -1.875d
 			icon: {
 				id: "occultism:book_of_binding_foliot"
 				count: 1
@@ -111,7 +111,7 @@
 		{
 			id: "1429288ACE921923"
 			x: 6.0d
-			y: -0.625d
+			y: -2.5d
 			icon: {
 				id: "occultism:book_of_calling_foliot_lumberjack"
 				count: 1
@@ -134,7 +134,7 @@
 		{
 			id: "7DF2700D3B654BFD"
 			x: 6.0d
-			y: 0.625d
+			y: -1.25d
 			icon: {
 				id: "occultism:book_of_binding_djinni"
 				count: 1
@@ -156,7 +156,7 @@
 		{
 			id: "2A27D09E6BCC33F9"
 			x: 7.5d
-			y: -0.625d
+			y: -1.875d
 			icon: {
 				id: "occultism:storage_controller"
 				count: 1
@@ -179,7 +179,7 @@
 		{
 			id: "33B194723B40588C"
 			x: 7.5d
-			y: 0.625d
+			y: -0.625d
 			shape: "gear"
 			icon: {
 				id: "occultism:book_of_binding_afrit"
@@ -196,6 +196,212 @@
 					item: {
 						count: 1
 						id: "occultism:book_of_binding_bound_afrit"
+					}
+				}
+			]
+		}
+		{
+			id: "4F522F244FA7F524"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "occultism:demons_dream_essence"
+				count: 1
+			}
+			dependencies: [
+				"5D53F6CD01048766"
+			]
+			tasks: [
+				{
+					id: "0CCAB5BD5F9AA340"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:demons_dream_essence"
+					}
+				}
+			]
+		}
+		{
+			id: "23BB481071838C9B"
+			x: 4.5d
+			y: -0.625d
+			icon: {
+				id: "occultism:otherworld_goggles"
+				count: 1
+			}
+			dependencies: [
+				"4F522F244FA7F524"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "087DEA7916723699"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:otherworld_goggles"
+					}
+				}
+			]
+		}
+		{
+			id: "11F2CEF5CA17E371"
+			x: 4.5d
+			y: 0.625d
+			icon: {
+				id: "occultism:otherworld_sapling"
+				count: 1
+			}
+			dependencies: [
+				"4F522F244FA7F524"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "517DED463BE3B11E"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:otherworld_sapling"
+					}
+				}
+			]
+		}
+		{
+			id: "20E03685BC9E6B17"
+			x: 6.0d
+			y: 0.0d
+			icon: {
+				id: "occultism:iesnium_ingot"
+				count: 1
+			}
+			dependencies: [
+				"23BB481071838C9B"
+			]
+			tasks: [
+				{
+					id: "3AD4D879FDC2C15E"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:iesnium_ingot"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "5B4F4EBBEDCAE623"
+			x: 4.5d
+			y: 1.875d
+			icon: {
+				id: "occultism:divination_rod"
+				count: 1
+			}
+			dependencies: [
+				"3249B651AE7FF470"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "231E742AA42E5D6C"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:divination_rod"
+					}
+				}
+			]
+		}
+		{
+			id: "38FFF53198F0B11A"
+			x: 7.5d
+			y: 0.625d
+			icon: {
+				id: "occultism:familiar_ring"
+				count: 1
+			}
+			dependencies: [
+				"7DF2700D3B654BFD"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "0545984FD9BF1784"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:familiar_ring"
+					}
+				}
+			]
+		}
+		{
+			id: "7E7BA6520B7760EB"
+			x: 6.0d
+			y: 1.25d
+			icon: {
+				id: "occultism:book_of_calling_foliot_cleaner"
+				count: 1
+			}
+			dependencies: [
+				"6BBDBFD07168218A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "00BBFB31E7CBB438"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:book_of_calling_foliot_cleaner"
+					}
+				}
+			]
+		}
+		{
+			id: "2482B81DD409A7CA"
+			x: 6.0d
+			y: 2.5d
+			icon: {
+				id: "occultism:book_of_calling_foliot_transport_items"
+				count: 1
+			}
+			dependencies: [
+				"6BBDBFD07168218A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "7529D92387772B01"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:book_of_calling_foliot_transport_items"
+					}
+				}
+			]
+		}
+		{
+			id: "570A419BD05A6077"
+			x: 7.5d
+			y: 1.875d
+			icon: {
+				id: "occultism:book_of_calling_djinni_manage_machine"
+				count: 1
+			}
+			dependencies: [
+				"7DF2700D3B654BFD"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "1C22FEAD86ED4010"
+					type: "item"
+					item: {
+						count: 1
+						id: "occultism:book_of_calling_djinni_manage_machine"
 					}
 				}
 			]

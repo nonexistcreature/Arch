@@ -1,0 +1,51 @@
+extends: alchemy
+quests:
+  - id: al_healing
+    deps: [al_stand]
+    roles: [alchemist]
+    icon: minecraft:glistering_melon_slice
+    tasks: [{type: item, item: minecraft:glistering_melon_slice, count: 4}]
+    ru: {title: "Зелье лечения", text: "Сверкающий арбуз (у садовода) → зелье лечения. Обязательно в сумке каждого воина."}
+    en: {title: "The Potion of Healing", text: "Glistering melon (from the gardener) → healing potions. A must in every warrior's bag."}
+
+  - id: al_fire_res
+    deps: [al_stand]
+    roles: [alchemist]
+    icon: minecraft:magma_cream
+    tasks: [{type: item, item: minecraft:magma_cream, count: 4}]
+    ru: {title: "Огнестойкость", text: "Сгусток магмы → огнестойкость. Пропуск в Нижний мир и к лавовой рыбалке."}
+    en: {title: "Fire Resistance", text: "Magma cream → fire resistance. Your pass to the Nether and lava fishing."}
+
+  - id: al_night_vision
+    deps: [al_stand]
+    roles: [alchemist]
+    icon: minecraft:golden_carrot
+    tasks: [{type: item, item: minecraft:golden_carrot, count: 4}]
+    optional: true
+    ru: {title: "Ночное зрение", text: "Золотая морковь → ночное зрение. Шахтёры и рыбаки скажут спасибо."}
+    en: {title: "Night Vision", text: "Golden carrot → night vision. Miners and anglers will thank you."}
+
+  - id: al_redstone
+    deps: [al_healing]
+    roles: [alchemist]
+    icon: minecraft:redstone
+    tasks: [{type: checkmark}]
+    ru: {title: "Дольше и сильнее", text: "Редстоун продлевает зелье, светокамень усиливает, порох делает взрывным, драконье дыхание — оседающим."}
+    en: {title: "Longer and Stronger", text: "Redstone extends a potion, glowstone strengthens it, gunpowder makes it splash, dragon's breath makes it linger."}
+
+  - id: al_milk
+    deps: [al_stand]
+    roles: [alchemist, breeder]
+    icon: minecraft:milk_bucket
+    tasks: [{type: item, item: minecraft:milk_bucket}]
+    ru: {title: "Молоко — противоядие от всего", text: "Ведро молока снимает любые эффекты. На каждый дебафф мира есть минимум два способа защиты — и молоко всегда один из них."}
+    en: {title: "Milk, the Universal Cure", text: "A bucket of milk clears every effect. Every world debuff has at least two counters — and milk is always one of them."}
+
+  - id: al_toil
+    deps: [al_cauldron]
+    roles: [alchemist]
+    icon: minecraft:cauldron
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Котёл ведьмы", text: "Toil and Trouble превращает обычный котёл в алхимический: в него можно налить молоко, мёд или слизь и варить смеси."}
+    en: {title: "The Witch's Cauldron", text: "Toil and Trouble turns the plain cauldron into an alchemical one: fill it with milk, honey or slime and brew mixtures."}

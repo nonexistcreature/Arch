@@ -1,0 +1,95 @@
+extends: sky
+quests:
+  - id: s_wheels_big
+    deps: [s_car_wheels]
+    roles: [engineer]
+    icon: offroad:large_tire
+    tasks: [{type: item, item: offroad:large_tire, count: 4}]
+    ru: {title: "Большие колёса", text: "Большие шины везут тяжёлые машины по бездорожью: грузовик, вездеход, передвижная база."}
+    en: {title: "Big Wheels", text: "Large tyres carry heavy vehicles off-road: a truck, an all-terrain rover, a mobile base."}
+
+  - id: s_borer
+    deps: [s_wheels_big, c_drill]
+    roles: [engineer]
+    icon: offroad:borehead_bearing
+    tasks: [{type: item, item: offroad:borehead_bearing}, {type: item, item: offroad:rockcutting_wheel}]
+    ru: {title: "Тоннелепроходческий комбайн", text: "Буровая головка на колёсной машине прорезает горы. Построй тоннель между базами — и проезжай поездом."}
+    en: {title: "The Tunnel Borer", text: "A borehead on a wheeled machine cuts through mountains. Dig a tunnel between bases — then run a train through it."}
+
+  - id: s_engine
+    deps: [s_propeller]
+    roles: [engineer]
+    icon: simulated:engine_assembly
+    tasks: [{type: item, item: simulated:engine_assembly}]
+    ru: {title: "Двигатель", text: "Сборка двигателя требует **лётной смазки**: рыбий жир (рыбак) или смазка TFMG/IE (инженер). Без неё мощные самолёты не построить."}
+    en: {title: "The Engine", text: "An engine assembly needs **aero lubricant**: fish oil (angler) or TFMG/IE lubricant (engineer). No powerful planes without it."}
+
+  - id: s_smart_prop
+    deps: [s_engine]
+    roles: [engineer]
+    icon: aeronautics:smart_propeller
+    tasks: [{type: item, item: aeronautics:smart_propeller, count: 2}]
+    ru: {title: "Умный пропеллер", text: "Пропеллер с гироскопом сам держит постройку ровно. Без него большой корабль качает и крутит."}
+    en: {title: "The Smart Propeller", text: "A gyro-stabilised propeller keeps the build level. Without it a big ship sways and spins."}
+
+  - id: s_envelopes
+    deps: [s_airship]
+    roles: [engineer, breeder]
+    icon: aeronautics:white_envelope
+    tasks: [{type: item, item: aeronautics:white_envelope, count: 32}]
+    ru: {title: "Оболочка дирижабля", text: "Оболочки держат горячий воздух. Из **пропитанной ткани** (воск пчёл заводчика) их выходит втрое больше."}
+    en: {title: "Airship Envelope", text: "Envelopes hold hot air. **Waxed canvas** (the breeder's beeswax) makes three times as many."}
+
+  - id: s_altitude
+    deps: [s_first_flight]
+    roles: [engineer]
+    icon: simulated:altitude_sensor
+    tasks: [{type: item, item: simulated:altitude_sensor}]
+    optional: true
+    ru: {title: "Высотомер", text: "Даёт сигнал по высоте — автопилот удержит дирижабль на нужной высоте."}
+    en: {title: "The Altitude Sensor", text: "Signals by altitude — an autopilot keeps the airship at the height you want."}
+
+  - id: s_navigation
+    deps: [s_altitude]
+    roles: [engineer]
+    icon: simulated:navigation_table
+    tasks: [{type: item, item: simulated:navigation_table}]
+    optional: true
+    ru: {title: "Штурманский стол", text: "Прокладывает курс к точке — корабль летит сам. Можно возить грузы между базами по расписанию."}
+    en: {title: "The Navigation Table", text: "Plots a course to a point — the ship flies itself. Haul cargo between bases on a schedule."}
+
+  - id: s_docking
+    deps: [s_airship]
+    roles: [engineer]
+    icon: simulated:docking_connector
+    tasks: [{type: item, item: simulated:docking_connector, count: 2}]
+    optional: true
+    ru: {title: "Стыковка", text: "Стыковочные узлы сцепляют корабль с причалом или другим кораблём. Строй порт в небе."}
+    en: {title: "Docking", text: "Docking connectors lock a ship to a dock or another ship. Build a port in the sky."}
+
+  - id: s_gyrodyne
+    deps: [s_biplane]
+    roles: [engineer]
+    icon: immersive_aircraft:gyrodyne
+    tasks: [{type: item, item: immersive_aircraft:gyrodyne}]
+    optional: true
+    ru: {title: "Гиродин", text: "Педальный летательный аппарат — летает на твоих силах. Смешно и полезно."}
+    en: {title: "The Gyrodyne", text: "A pedal-powered flyer — it runs on your own effort. Funny and useful."}
+
+  - id: s_ia_airship
+    deps: [s_biplane]
+    roles: [engineer]
+    icon: immersive_aircraft:airship
+    tasks: [{type: item, item: immersive_aircraft:airship}]
+    optional: true
+    ru: {title: "Готовый дирижабль", text: "Дирижабль Immersive Aircraft — медленный, но вместительный и простой. Хорош для первых экспедиций."}
+    en: {title: "A Ready-Made Airship", text: "The Immersive Aircraft airship — slow but roomy and simple. Great for first expeditions."}
+
+  - id: s_warship
+    deps: [s_citadel, w_cannon]
+    roles: [engineer, warrior]
+    icon: createbigcannons:cannon_mount
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Боевой корабль", text: "Пушки Create Big Cannons на дирижабле, обшивка из драконьей брони. Отметь, когда корабль сделает первый залп."}
+    en: {title: "The Warship", text: "Create Big Cannons on an airship, plated with dragon armour. Tick when the ship fires its first broadside."}

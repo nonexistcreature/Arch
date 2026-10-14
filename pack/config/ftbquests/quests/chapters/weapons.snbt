@@ -36,7 +36,7 @@
 		{
 			id: "124CE8EC4DA83696"
 			x: 1.5d
-			y: -2.5d
+			y: -6.25d
 			icon: {
 				id: "simplyswords:iron_greathammer"
 				count: 1
@@ -59,7 +59,7 @@
 		{
 			id: "2EFA1764B6C5AA28"
 			x: 1.5d
-			y: -1.25d
+			y: -5.0d
 			shape: "hexagon"
 			icon: {
 				id: "tacz:gun_smith_table"
@@ -83,7 +83,7 @@
 		{
 			id: "00E19FD18B738F02"
 			x: 3.0d
-			y: -0.625d
+			y: -2.5d
 			icon: {
 				id: "tacz:ammo_box"
 				count: 1
@@ -169,7 +169,7 @@
 		{
 			id: "4744E2D0A9C2BFAD"
 			x: 1.5d
-			y: 0.0d
+			y: -3.75d
 			icon: {
 				id: "grappling_hook_neo:doubleupgradeitem"
 				count: 1
@@ -192,7 +192,7 @@
 		{
 			id: "325CD1C1DC34FC14"
 			x: 1.5d
-			y: 1.25d
+			y: -2.5d
 			icon: {
 				id: "simulated:rope_connector"
 				count: 1
@@ -212,7 +212,7 @@
 		{
 			id: "547E7AB1EA5FB62E"
 			x: 1.5d
-			y: 2.5d
+			y: -1.25d
 			icon: {
 				id: "minecraft:diamond_chestplate"
 				count: 1
@@ -231,7 +231,7 @@
 		{
 			id: "56E88A8B20052C07"
 			x: 3.0d
-			y: 0.625d
+			y: -1.25d
 			shape: "gear"
 			icon: {
 				id: "minecraft:netherite_sword"
@@ -253,6 +253,222 @@
 					id: "176AA2F0EE2A703D"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+			]
+		}
+		{
+			id: "2B3DDC04AF68D471"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "simplyswords:iron_katana"
+				count: 1
+			}
+			dependencies: [
+				"2840277D460DBE04"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "7B1ACCC55DFFD574"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_katana"
+					}
+				}
+			]
+		}
+		{
+			id: "50FA3AD9E3473F0B"
+			x: 1.5d
+			y: 1.25d
+			icon: {
+				id: "simplyswords:iron_glaive"
+				count: 1
+			}
+			dependencies: [
+				"2840277D460DBE04"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "4AC742D4CBE5B5FF"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_glaive"
+					}
+				}
+			]
+		}
+		{
+			id: "43419A8748AA7E13"
+			x: 1.5d
+			y: 2.5d
+			icon: {
+				id: "simplyswords:iron_twinblade"
+				count: 1
+			}
+			dependencies: [
+				"2840277D460DBE04"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "679ECBAE45D58B1C"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_twinblade"
+					}
+				}
+			]
+		}
+		{
+			id: "4E186D831A313D5E"
+			x: 1.5d
+			y: 3.75d
+			icon: {
+				id: "simplyswords:diamond_longsword"
+				count: 1
+			}
+			dependencies: [
+				"2840277D460DBE04"
+			]
+			tasks: [
+				{
+					id: "2DE0C87C8873B86B"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:diamond_longsword"
+					}
+				}
+			]
+		}
+		{
+			id: "45F020A202618B2C"
+			x: 3.0d
+			y: 0.0d
+			icon: {
+				id: "simplyswords:netherite_longsword"
+				count: 1
+			}
+			dependencies: [
+				"4E186D831A313D5E"
+				"16E1CA1EF5B21B46"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "39A02FC32AF6B8B0"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:netherite_longsword"
+					}
+				}
+			]
+		}
+		{
+			id: "508564D2E50AB706"
+			x: 3.0d
+			y: 1.25d
+			icon: {
+				id: "tacz:ammo"
+				count: 1
+			}
+			dependencies: [
+				"2EFA1764B6C5AA28"
+			]
+			tasks: [
+				{
+					id: "66C5B7A9743DABB9"
+					type: "item"
+					item: {
+						count: 1
+						id: "tacz:ammo"
+					}
+					count: 32L
+				}
+			]
+		}
+		{
+			id: "1428749F03E36AA4"
+			x: 1.5d
+			y: 5.0d
+			icon: {
+				id: "createbigcannons:solid_shot"
+				count: 1
+			}
+			dependencies: [
+				"0CFB5AA571596797"
+			]
+			tasks: [
+				{
+					id: "775C0221FB7D717E"
+					type: "item"
+					item: {
+						count: 1
+						id: "createbigcannons:solid_shot"
+					}
+					count: 8L
+				}
+				{
+					id: "05D9278C51FBC1F0"
+					type: "item"
+					item: {
+						count: 1
+						id: "createbigcannons:powder_charge"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "18BE845C1AC2CF5A"
+			x: 3.0d
+			y: 2.5d
+			icon: {
+				id: "grappling_hook_neo:rocketupgradeitem"
+				count: 1
+			}
+			dependencies: [
+				"4744E2D0A9C2BFAD"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "2A1510164A603BFE"
+					type: "item"
+					item: {
+						count: 1
+						id: "grappling_hook_neo:rocketupgradeitem"
+					}
+				}
+			]
+		}
+		{
+			id: "35DC60B73DD268F7"
+			x: 1.5d
+			y: 6.25d
+			icon: {
+				id: "grappling_hook_neo:longfallboots"
+				count: 1
+			}
+			dependencies: [
+				"1E2EBF13C6F879A0"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "7DAAD2181EB3A013"
+					type: "item"
+					item: {
+						count: 1
+						id: "grappling_hook_neo:longfallboots"
+					}
 				}
 			]
 		}

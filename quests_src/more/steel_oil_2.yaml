@@ -1,0 +1,139 @@
+extends: steel_oil
+quests:
+  - id: ie_treated
+    deps: [ie_coke]
+    roles: [engineer, builder]
+    icon: immersiveengineering:treated_wood_horizontal
+    tasks: [{type: item, item: immersiveengineering:treated_wood_horizontal, count: 16}]
+    ru: {title: "Пропитанное дерево", text: "Доски, пропитанные креозотом из коксовой печи. Из них — столбы ЛЭП, ветряки и красивые индустриальные постройки."}
+    en: {title: "Treated Wood", text: "Planks soaked in creosote from the coke oven. Used for power poles, windmills and handsome industrial builds."}
+
+  - id: ie_wires
+    deps: [ie_windmill]
+    roles: [engineer]
+    icon: immersiveengineering:wire_copper
+    tasks: [{type: item, item: immersiveengineering:wire_copper, count: 4}, {type: item, item: immersiveengineering:connector_lv, count: 4}, {type: item, item: immersiveengineering:wirecutter}]
+    ru: {title: "Провода и изоляторы", text: "Натяни медный провод между изоляторами — ток побежит по воздуху. Кусачки снимают провод обратно."}
+    en: {title: "Wires and Connectors", text: "String copper wire between connectors and power flows through the air. Wire cutters take it down again."}
+
+  - id: ie_capacitor
+    deps: [ie_wires]
+    roles: [engineer]
+    icon: immersiveengineering:capacitor_lv
+    tasks: [{type: item, item: immersiveengineering:capacitor_lv}]
+    optional: true
+    ru: {title: "Конденсатор", text: "Хранит энергию IE. Ставь между генератором и потребителями, чтобы сгладить перебои ветра."}
+    en: {title: "The Capacitor", text: "Stores IE power. Place it between generator and consumers to smooth out the wind."}
+
+  - id: ie_components
+    deps: [ie_steel]
+    roles: [engineer]
+    icon: immersiveengineering:component_steel
+    tasks: [{type: item, item: immersiveengineering:component_iron, count: 8}, {type: item, item: immersiveengineering:component_steel, count: 4}]
+    ru: {title: "Механические детали", text: "Железные и стальные компоненты — шестерни и пружины для мультиблоков IE. Делаются на верстаке инженера."}
+    en: {title: "Engineering Components", text: "Iron and steel components — gears and springs for IE multiblocks. Made at the engineer's workbench."}
+
+  - id: ie_engineering_blocks
+    deps: [ie_components]
+    roles: [engineer]
+    icon: immersiveengineering:heavy_engineering
+    tasks: [{type: item, item: immersiveengineering:light_engineering, count: 8}, {type: item, item: immersiveengineering:heavy_engineering, count: 8}]
+    ru: {title: "Инженерные блоки", text: "Лёгкие и тяжёлые инженерные блоки — «кирпичи» больших машин: пресса, дуговой печи, экскаватора."}
+    en: {title: "Engineering Blocks", text: "Light and heavy engineering blocks — the bricks of big machines: the press, arc furnace, excavator."}
+
+  - id: ie_crusher
+    deps: [ie_engineering_blocks]
+    roles: [engineer]
+    icon: immersiveengineering:crusher
+    tasks: [{type: checkmark}]
+    ru: {title: "Дробилка IE", text: "Огромная дробилка удваивает руду и перемалывает всё подряд. Собери по схеме из руководства и отметь квест."}
+    en: {title: "The IE Crusher", text: "A huge crusher doubles ore and grinds everything. Build it from the manual and tick the quest."}
+
+  - id: ie_arc
+    deps: [ie_engineering_blocks]
+    roles: [engineer]
+    icon: immersiveengineering:arc_furnace
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Дуговая печь", text: "Плавит сплавы и руду электричеством с графитовыми электродами. Самая эффектная машина IE."}
+    en: {title: "The Arc Furnace", text: "Smelts alloys and ore with electricity and graphite electrodes. IE's most spectacular machine."}
+
+  - id: ie_excavator_build
+    deps: [ie_excavator, ie_engineering_blocks]
+    roles: [engineer]
+    icon: immersiveengineering:excavator
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Экскаватор", text: "Гигантское колесо над рудной жилой добывает руду вечно. Стоит строить вместе всей компанией."}
+    en: {title: "The Excavator", text: "A giant wheel over an ore vein mines forever. Worth building as a whole group."}
+
+  - id: ie_revolver
+    deps: [ie_steel]
+    roles: [warrior, engineer]
+    icon: immersiveengineering:revolver
+    tasks: [{type: item, item: immersiveengineering:revolver}]
+    optional: true
+    ru: {title: "Револьвер инженера", text: "Улучшаемый револьвер IE со стволами и барабанами. Патроны крафтятся на сборщике."}
+    en: {title: "The Engineer's Revolver", text: "IE's upgradeable revolver with barrels and cylinders. Ammo is made at an assembler."}
+
+  - id: ie_skyhook
+    deps: [ie_wires]
+    roles: [engineer]
+    icon: immersiveengineering:skyhook
+    tasks: [{type: item, item: immersiveengineering:skyhook}]
+    optional: true
+    ru: {title: "Скайхук", text: "Цепляешься за провод — и едешь по нему, как по канатной дороге. Провода между базами становятся дорогами."}
+    en: {title: "The Skyhook", text: "Hook onto a wire and ride it like a zip line. Wires between bases become roads."}
+
+  - id: ip_diesel_gen
+    deps: [ip_distill]
+    roles: [engineer]
+    icon: immersiveengineering:diesel_generator
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Дизель-генератор", text: "Большой генератор на дизеле. Мощно — но **загрязняет воздух**. Подумай о фильтрах и деревьях вокруг."}
+    en: {title: "The Diesel Generator", text: "A big generator burning diesel. Powerful — but it **pollutes the air**. Think about filters and trees around it."}
+
+  - id: ip_asphalt
+    deps: [ip_distill]
+    roles: [engineer, builder]
+    icon: immersivepetroleum:asphalt
+    tasks: [{type: item, item: immersivepetroleum:asphalt, count: 32}]
+    optional: true
+    ru: {title: "Асфальт", text: "Асфальтовые дороги ускоряют бег. Проложи трассу между базами."}
+    en: {title: "Asphalt", text: "Asphalt roads speed you up. Lay a highway between bases."}
+
+  - id: ip_speedboat
+    deps: [ip_distill]
+    roles: [engineer]
+    icon: immersivepetroleum:speedboat
+    tasks: [{type: item, item: immersivepetroleum:speedboat}]
+    optional: true
+    ru: {title: "Моторная лодка", text: "Быстрая лодка на бензине. С ледоколом — плавает и по льду."}
+    en: {title: "The Speedboat", text: "A fast gasoline boat. With an icebreaker it handles ice too."}
+
+  - id: tfmg_steel
+    deps: [tfmg_intro]
+    roles: [engineer]
+    icon: tfmg:steel_ingot
+    tasks: [{type: item, item: tfmg:steel_ingot, count: 16}]
+    ru: {title: "Сталь TFMG", text: "Доменная печь TFMG с подогревателем льёт жидкую сталь в формы. Сталь общая — Almost Unified делает её одной для всех модов."}
+    en: {title: "TFMG Steel", text: "TFMG's blast furnace with a stove pours molten steel into moulds. Steel is shared — Almost Unified makes it one item across mods."}
+
+  - id: tfmg_plastic
+    deps: [tfmg_steel]
+    roles: [engineer]
+    icon: tfmg:plastic_sheet
+    tasks: [{type: item, item: tfmg:plastic_sheet, count: 8}]
+    optional: true
+    ru: {title: "Пластик", text: "Из нефтяных фракций — пластик. Нужен для электроники и современных машин."}
+    en: {title: "Plastic", text: "Oil fractions make plastic. Needed for electronics and modern machines."}
+
+  - id: tfmg_lithium
+    deps: [tfmg_steel]
+    roles: [engineer]
+    icon: tfmg:lithium_ingot
+    tasks: [{type: item, item: tfmg:lithium_ingot, count: 4}]
+    optional: true
+    ru: {title: "Литий", text: "Литиевая руда — для аккумуляторов TFMG и электромоторов."}
+    en: {title: "Lithium", text: "Lithium ore — for TFMG batteries and electric motors."}

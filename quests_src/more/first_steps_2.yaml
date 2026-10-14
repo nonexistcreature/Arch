@@ -1,0 +1,62 @@
+extends: first_steps
+quests:
+  - id: fs_shield
+    deps: [fs_iron]
+    icon: minecraft:shield
+    tasks: [{type: item, item: minecraft:shield}]
+    ru: {title: "Щит", text: "Щит блокирует удары и стрелы. Полезен даже в спокойных землях — на всякий случай."}
+    en: {title: "A Shield", text: "A shield blocks hits and arrows. Useful even in the calm lands — just in case."}
+
+  - id: fs_diamond
+    deps: [fs_iron_pick]
+    icon: minecraft:diamond_pickaxe
+    tasks: [{type: item, item: minecraft:diamond_pickaxe}]
+    rewards: [{type: xp_levels, count: 3}]
+    ru: {title: "Алмазная кирка", text: "Алмазы — глубоко, ниже нулевой высоты. Помни: глубокие пещеры — это **дикие земли**."}
+    en: {title: "A Diamond Pickaxe", text: "Diamonds lie deep, below height zero. Remember: deep caves are **the wilds**."}
+
+  - id: fs_upgrades
+    deps: [fs_backpack]
+    icon: sophisticatedbackpacks:pickup_upgrade
+    tasks: [{type: item, item: sophisticatedbackpacks:pickup_upgrade}, {type: item, item: sophisticatedbackpacks:magnet_upgrade}]
+    ru: {title: "Улучшения рюкзака", text: "Подбор складывает добычу прямо в рюкзак, магнит притягивает предметы. Копать становится легче."}
+    en: {title: "Backpack Upgrades", text: "Pickup puts loot straight into the backpack, the magnet pulls items in. Digging gets easier."}
+
+  - id: fs_feeding
+    deps: [fs_upgrades]
+    icon: sophisticatedbackpacks:feeding_upgrade
+    tasks: [{type: item, item: sophisticatedbackpacks:feeding_upgrade}]
+    optional: true
+    ru: {title: "Автокормление", text: "Рюкзак сам кормит тебя едой из себя, когда ты проголодаешься."}
+    en: {title: "Auto-Feeding", text: "The backpack feeds you from its contents when you get hungry."}
+
+  - id: fs_iron_backpack
+    deps: [fs_backpack]
+    icon: sophisticatedbackpacks:iron_backpack
+    tasks: [{type: item, item: sophisticatedbackpacks:iron_backpack}]
+    optional: true
+    ru: {title: "Железный рюкзак", text: "Больше слотов и больше места под улучшения. Дальше — золотой, алмазный, незеритовый."}
+    en: {title: "The Iron Backpack", text: "More slots and more upgrade space. Next come gold, diamond and netherite."}
+
+  - id: fs_warp_stone
+    deps: [fs_waystone]
+    icon: waystones:warp_stone
+    tasks: [{type: item, item: waystones:warp_stone}]
+    ru: {title: "Камень перемещения", text: "Многоразовый телепорт к любому открытому путевому камню. Самый удобный способ вернуться домой."}
+    en: {title: "The Warp Stone", text: "A reusable teleport to any waystone you've found. The handiest way home."}
+
+  - id: fs_carry
+    deps: [fs_table]
+    icon: minecraft:chest
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Перенести сундук", text: "Carry On: присядь с пустыми руками и нажми на сундук или животное — поднимешь и унесёшь целиком."}
+    en: {title: "Carry a Chest", text: "Carry On: crouch with empty hands and click a chest or animal — you'll pick it up whole."}
+
+  - id: fs_hammock
+    deps: [fs_sleeping_bag]
+    icon: comforts:hammock_white
+    tasks: [{type: item, item: comforts:hammock_white}]
+    optional: true
+    ru: {title: "Гамак", text: "Вздремнуть днём до вечера. Для любителей ночных прогулок."}
+    en: {title: "The Hammock", text: "Nap through the day until evening. For night-walk lovers."}

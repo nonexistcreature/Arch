@@ -1,0 +1,103 @@
+extends: storage
+quests:
+  - id: ae_compass
+    deps: [welcome_start]
+    roles: [engineer]
+    icon: ae2:meteorite_compass
+    tasks: [{type: item, item: ae2:meteorite_compass}]
+    rewards: [{type: item, item: ae2:certus_quartz_crystal, count: 4}]
+    ru: {title: "Компас метеоритов", text: "Компас указывает на ближайший метеорит AE2. Внутри — прессы для процессоров. Без них AE2 не начать."}
+    en: {title: "The Meteorite Compass", text: "The compass points to the nearest AE2 meteorite. Inside are the processor presses. AE2 can't start without them."}
+
+  - id: ae_charger
+    deps: [ae_meteor]
+    roles: [engineer]
+    icon: ae2:charger
+    tasks: [{type: item, item: ae2:charger}]
+    ru: {title: "Зарядник", text: "Заряжает кварц от энергии. Заряженный кварц нужен для флюикса."}
+    en: {title: "The Charger", text: "Charges quartz with energy. Charged quartz is needed for fluix."}
+
+  - id: ae_cables
+    deps: [ae_fluix]
+    roles: [engineer]
+    icon: ae2:fluix_smart_cable
+    tasks: [{type: item, item: ae2:fluix_smart_cable, count: 16}]
+    ru: {title: "Умный кабель", text: "Умный кабель показывает занятые каналы огоньками. Сразу видно, где сеть перегружена."}
+    en: {title: "Smart Cable", text: "Smart cable shows used channels with lights. You can see at a glance where the network is full."}
+
+  - id: ae_power
+    deps: [ae_network]
+    roles: [engineer]
+    icon: ae2:energy_cell
+    tasks: [{type: item, item: ae2:energy_cell}]
+    ru: {title: "Энергия сети", text: "Энергоячейка хранит энергию сети AE2 — пригодится при перебоях."}
+    en: {title: "Network Power", text: "An energy cell stores AE2 network power — handy during outages."}
+
+  - id: ae_buses
+    deps: [ae_controller]
+    roles: [engineer]
+    icon: ae2:import_bus
+    tasks: [{type: item, item: ae2:import_bus}, {type: item, item: ae2:export_bus}, {type: item, item: ae2:storage_bus}]
+    ru: {title: "Шины", text: "Импорт забирает из машин в сеть, экспорт отдаёт, шина хранения подключает обычные сундуки как часть сети."}
+    en: {title: "Buses", text: "Import pulls from machines into the network, export pushes out, a storage bus plugs ordinary chests into the network."}
+
+  - id: ae_level
+    deps: [ae_buses]
+    roles: [engineer]
+    icon: ae2:level_emitter
+    tasks: [{type: item, item: ae2:level_emitter}]
+    optional: true
+    ru: {title: "Датчик уровня", text: "Даёт сигнал, когда предмета в сети меньше нормы — так включают фермы и машины по требованию."}
+    en: {title: "The Level Emitter", text: "Signals when an item falls below a set amount — the way to run farms and machines on demand."}
+
+  - id: ae_cell64
+    deps: [ae_network]
+    roles: [engineer]
+    icon: ae2:item_storage_cell_64k
+    tasks: [{type: item, item: ae2:item_storage_cell_64k}]
+    ru: {title: "Ячейка 64k", text: "Ячейки растут: 1k, 4k, 16k, 64k, 256k. С аддоном MEGA Cells — ещё больше."}
+    en: {title: "A 64k Cell", text: "Cells grow: 1k, 4k, 16k, 64k, 256k. The MEGA Cells addon goes even bigger."}
+
+  - id: ae_provider
+    deps: [ae_autocraft]
+    roles: [engineer]
+    icon: ae2:pattern_provider
+    tasks: [{type: item, item: ae2:pattern_provider}]
+    ru: {title: "Поставщик шаблонов", text: "Поставщик отправляет ингредиенты в любую машину — дробилку Create, обогатитель Mekanism, печь — и ждёт результат."}
+    en: {title: "The Pattern Provider", text: "A provider sends ingredients into any machine — Create crusher, Mekanism enricher, furnace — and waits for the result."}
+
+  - id: ae_accelerator
+    deps: [ae_autocraft]
+    roles: [engineer]
+    icon: ae2:crafting_accelerator
+    tasks: [{type: item, item: ae2:crafting_accelerator, count: 4}]
+    optional: true
+    ru: {title: "Ускорители крафта", text: "Ускорители позволяют ЦП крафта делать много шагов параллельно."}
+    en: {title: "Crafting Accelerators", text: "Accelerators let the crafting CPU run many steps in parallel."}
+
+  - id: ae_p2p
+    deps: [ae_controller]
+    roles: [engineer]
+    icon: ae2:me_p2p_tunnel
+    tasks: [{type: item, item: ae2:me_p2p_tunnel, count: 2}]
+    optional: true
+    ru: {title: "Туннели P2P", text: "Туннель переносит каналы, энергию или жидкости через один кабель. Магия для аккуратной базы."}
+    en: {title: "P2P Tunnels", text: "A tunnel carries channels, energy or fluids through one cable. Magic for a tidy base."}
+
+  - id: ae_mega
+    deps: [ae_cell64]
+    roles: [engineer]
+    icon: megacells:mega_item_cell_housing
+    tasks: [{type: item, item: megacells:mega_item_cell_housing}]
+    optional: true
+    ru: {title: "MEGA ячейки", text: "Корпус MEGA ячеек хранит миллионы предметов. Конец проблем с местом."}
+    en: {title: "MEGA Cells", text: "MEGA cell housings store millions of items. The end of storage problems."}
+
+  - id: ae_extended
+    deps: [ae_provider]
+    roles: [engineer]
+    icon: extendedae:ex_pattern_provider
+    tasks: [{type: item, item: extendedae:ex_pattern_provider}]
+    optional: true
+    ru: {title: "Расширенный поставщик", text: "ExtendedAE: поставщик на 36 шаблонов. Для огромных фабрик."}
+    en: {title: "The Extended Provider", text: "ExtendedAE: a provider with 36 patterns. For huge factories."}

@@ -36,7 +36,7 @@
 		{
 			id: "08468A16A473B47D"
 			x: 1.5d
-			y: -1.875d
+			y: -5.625d
 			icon: {
 				id: "buildinggadgets2:gadget_exchanging"
 				count: 1
@@ -59,7 +59,7 @@
 		{
 			id: "7402AF2B28E1AB7A"
 			x: 1.5d
-			y: -0.625d
+			y: -4.375d
 			icon: {
 				id: "framedblocks:framed_hammer"
 				count: 1
@@ -112,7 +112,7 @@
 		{
 			id: "1FBC13A5E0BD957F"
 			x: 1.5d
-			y: 0.625d
+			y: -3.125d
 			icon: {
 				id: "create:schematicannon"
 				count: 1
@@ -132,7 +132,7 @@
 		{
 			id: "3E5505B24DA3089B"
 			x: 1.5d
-			y: 1.875d
+			y: -1.875d
 			shape: "gear"
 			icon: {
 				id: "minecraft:lantern"
@@ -152,6 +152,223 @@
 					id: "7A3F96ECF4709DAA"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+			]
+		}
+		{
+			id: "7B52108951988BE5"
+			x: 1.5d
+			y: -0.625d
+			icon: {
+				id: "buildinggadgets2:gadget_copy_paste"
+				count: 1
+			}
+			dependencies: [
+				"1FC1E9E294DB3C6B"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "0E19F79D22449867"
+					type: "item"
+					item: {
+						count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+					}
+				}
+			]
+		}
+		{
+			id: "0681C2FB1DAC97D3"
+			x: 1.5d
+			y: 0.625d
+			icon: {
+				id: "buildinggadgets2:gadget_destruction"
+				count: 1
+			}
+			dependencies: [
+				"1FC1E9E294DB3C6B"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "764C4D0DFE0731BF"
+					type: "item"
+					item: {
+						count: 1
+						id: "buildinggadgets2:gadget_destruction"
+					}
+				}
+			]
+		}
+		{
+			id: "2FEDA2D18C4D62F6"
+			x: 1.5d
+			y: 1.875d
+			icon: {
+				id: "mcwroofs:oak_roof"
+				count: 1
+			}
+			dependencies: [
+				"40339AC01B286C60"
+			]
+			tasks: [
+				{
+					id: "7AC07351F76E8A47"
+					type: "item"
+					item: {
+						count: 1
+						id: "mcwroofs:oak_roof"
+					}
+					count: 16L
+				}
+				{
+					id: "210FC255E0890CBB"
+					type: "item"
+					item: {
+						count: 1
+						id: "mcwwindows:oak_window"
+					}
+					count: 4L
+				}
+				{
+					id: "68929881DF4BF1C3"
+					type: "item"
+					item: {
+						count: 1
+						id: "mcwdoors:oak_barn_door"
+					}
+				}
+			]
+		}
+		{
+			id: "15BAB63916C275B3"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "mcwbridges:oak_log_bridge_middle"
+				count: 1
+			}
+			dependencies: [
+				"2FEDA2D18C4D62F6"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "0CDAD8BC53446FE5"
+					type: "item"
+					item: {
+						count: 1
+						id: "mcwbridges:oak_log_bridge_middle"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "3D8B8BAB6142D975"
+			x: 1.5d
+			y: 3.125d
+			icon: {
+				id: "supplementaries:sack"
+				count: 1
+			}
+			dependencies: [
+				"40339AC01B286C60"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "5686F21EE16EA536"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:jar"
+					}
+				}
+				{
+					id: "6356584956E62D92"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:sack"
+					}
+				}
+				{
+					id: "3D3438949778A80D"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:globe"
+					}
+				}
+			]
+		}
+		{
+			id: "3603241567DE82A5"
+			x: 1.5d
+			y: 4.375d
+			icon: {
+				id: "createdeco:andesite_catwalk"
+				count: 1
+			}
+			dependencies: [
+				"40339AC01B286C60"
+				"3AD12F9A22C2B78E"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "638BAB53B28ACC3F"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdeco:andesite_catwalk"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "5AC27D5E66DB6566"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "copycats:copycat_block"
+				count: 1
+			}
+			dependencies: [
+				"7402AF2B28E1AB7A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "5AAEDF7DBC8534A8"
+					type: "item"
+					item: {
+						count: 1
+						id: "copycats:copycat_block"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "121BFA9789E6622A"
+			x: 1.5d
+			y: 5.625d
+			icon: {
+				id: "interiors:red_chair"
+				count: 1
+			}
+			dependencies: [
+				"40339AC01B286C60"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "6C11A4273A1AE764"
+					type: "checkmark"
 				}
 			]
 		}

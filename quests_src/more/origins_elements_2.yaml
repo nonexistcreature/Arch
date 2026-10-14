@@ -1,0 +1,41 @@
+extends: origins
+quests:
+  - id: skills_mining
+    deps: [skills_first_point]
+    icon: minecraft:iron_ore
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Путь шахтёра", text: "Дерево горного дела: быстрее копать, больше руды, ночное зрение под землёй. Качается добычей руды."}
+    en: {title: "The Miner's Path", text: "The mining tree: dig faster, more ore, night vision underground. Grows by mining ore."}
+
+  - id: skills_cooking
+    deps: [skills_first_point]
+    icon: farmersdelight:cooking_pot
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Путь повара", text: "Дерево кулинарии: блюда дают баффы дольше, еда сытнее. Качается готовкой."}
+    en: {title: "The Cook's Path", text: "The cooking tree: dishes buff for longer, food fills more. Grows by cooking."}
+
+  - id: skills_farming
+    deps: [skills_first_point]
+    icon: minecraft:wheat
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Путь земледельца", text: "Дерево фермерства: больше урожая, шанс двойного сбора, быстрее рост вокруг тебя."}
+    en: {title: "The Farmer's Path", text: "The farming tree: bigger harvests, double-drop chance, faster growth around you."}
+
+  - id: skills_combat
+    deps: [skills_first_point]
+    icon: minecraft:iron_sword
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Путь воина", text: "Дерево боя: больше урона, здоровья и брони. Качается в сражениях с врагами."}
+    en: {title: "The Warrior's Path", text: "The combat tree: more damage, health and armour. Grows by fighting enemies."}
+
+  - id: origins_charm_item
+    deps: [origins_charm]
+    icon: arkhaven:travelers_charm
+    tasks: [{type: item, item: arkhaven:travelers_charm}]
+    rewards: [{type: xp_levels, count: 2}]
+    ru: {title: "Оберег путника", text: "Пока оберег в инвентаре, враги замечают тебя вдвое ближе. Для тех, кто любит гулять, а не драться.\nРецепт: нить, лаванда, изумруд, перо."}
+    en: {title: "The Traveler's Charm", text: "While the charm is in your inventory, enemies notice you at half the distance. For walkers, not fighters.\nRecipe: string, lavender, emerald, feather."}

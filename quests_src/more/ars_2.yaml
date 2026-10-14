@@ -1,0 +1,147 @@
+extends: ars
+quests:
+  - id: ars_dowsing
+    deps: [ars_book]
+    roles: [mage]
+    icon: ars_nouveau:dowsing_rod
+    tasks: [{type: item, item: ars_nouveau:dowsing_rod}]
+    optional: true
+    ru: {title: "Лоза", text: "Лоза подсвечивает блоки Источника рядом — помогает найти, куда поставить связи."}
+    en: {title: "The Dowsing Rod", text: "The rod highlights nearby Source blocks — helps find where to put sourcelinks."}
+
+  - id: ars_magebloom
+    deps: [ars_source_gem]
+    roles: [mage, gardener]
+    icon: ars_nouveau:magebloom
+    tasks: [{type: item, item: ars_nouveau:magebloom, count: 8}]
+    ru: {title: "Магоцвет", text: "Магоцвет растёт как обычная культура. Из волокна — мантии мага. Садовод может растить его для тебя."}
+    en: {title: "Magebloom", text: "Magebloom grows like an ordinary crop. Its fibre makes mage robes. A gardener can grow it for you."}
+
+  - id: ars_essences
+    deps: [ars_apparatus]
+    roles: [mage]
+    icon: ars_nouveau:fire_essence
+    tasks:
+      - {type: item, item: ars_nouveau:fire_essence}
+      - {type: item, item: ars_nouveau:water_essence}
+      - {type: item, item: ars_nouveau:earth_essence}
+      - {type: item, item: ars_nouveau:air_essence}
+    ru: {title: "Четыре стихии", text: "Эссенции огня, воды, земли и воздуха делаются в камере наполнения. Они нужны для глифов и экипировки."}
+    en: {title: "The Four Elements", text: "Fire, water, earth and air essences come from the imbuement chamber. They go into glyphs and gear."}
+
+  - id: ars_imbuement
+    deps: [ars_source_gem]
+    roles: [mage]
+    icon: ars_nouveau:imbuement_chamber
+    tasks: [{type: item, item: ars_nouveau:imbuement_chamber}]
+    ru: {title: "Камера наполнения", text: "Камера наполняет предметы Источником: лазурит → камень Источника, аметист → кристалл оберега.\nОна же делает **левитит** для инженеров!"}
+    en: {title: "The Imbuement Chamber", text: "The chamber infuses items with Source: lapis → source gem, amethyst → ward crystal.\nIt also makes **levitite** for engineers!"}
+
+  - id: ars_volcanic
+    deps: [ars_jar]
+    roles: [mage]
+    icon: ars_nouveau:volcanic_sourcelink
+    tasks: [{type: item, item: ars_nouveau:volcanic_sourcelink}]
+    optional: true
+    ru: {title: "Вулканическая связь", text: "Источник из сгорающего топлива и лавы рядом."}
+    en: {title: "The Volcanic Sourcelink", text: "Source from burning fuel and nearby lava."}
+
+  - id: ars_vitalic
+    deps: [ars_jar]
+    roles: [mage, breeder]
+    icon: ars_nouveau:vitalic_sourcelink
+    tasks: [{type: item, item: ars_nouveau:vitalic_sourcelink}]
+    optional: true
+    ru: {title: "Связь жизни", text: "Источник из рождения животных рядом. Поставь у загона заводчика — и магия польётся."}
+    en: {title: "The Vitalic Sourcelink", text: "Source from animals being born nearby. Place it by the breeder's pens and magic flows."}
+
+  - id: ars_alchemical
+    deps: [ars_jar]
+    roles: [mage, alchemist]
+    icon: ars_nouveau:alchemical_sourcelink
+    tasks: [{type: item, item: ars_nouveau:alchemical_sourcelink}]
+    optional: true
+    ru: {title: "Алхимическая связь", text: "Источник из зелий. Алхимик отдаёт лишние зелья — маг получает ману."}
+    en: {title: "The Alchemical Sourcelink", text: "Source from potions. The alchemist gives spare potions, the mage gets mana."}
+
+  - id: ars_relay
+    deps: [ars_jar]
+    roles: [mage]
+    icon: ars_nouveau:relay
+    tasks: [{type: item, item: ars_nouveau:relay, count: 2}]
+    optional: true
+    ru: {title: "Ретранслятор", text: "Передаёт Источник между банками на расстоянии. Магическая проводка."}
+    en: {title: "The Relay", text: "Moves Source between jars at a distance. Magical wiring."}
+
+  - id: ars_archmage
+    deps: [ars_apprentice, ars_essences]
+    roles: [mage]
+    icon: ars_nouveau:archmage_spell_book
+    shape: hexagon
+    tasks: [{type: item, item: ars_nouveau:archmage_spell_book}]
+    rewards: [{type: xp_levels, count: 10}]
+    ru: {title: "Архимаг", text: "Книга архимага открывает глифы третьего уровня и максимум маны. Вершина Ars Nouveau."}
+    en: {title: "Archmage", text: "The archmage book unlocks tier-three glyphs and maximum mana. The peak of Ars Nouveau."}
+
+  - id: ars_wixie
+    deps: [ars_starbuncle]
+    roles: [mage, alchemist]
+    icon: ars_nouveau:wixie_charm
+    tasks: [{type: item, item: ars_nouveau:wixie_charm}]
+    optional: true
+    ru: {title: "Викси", text: "Викси крафтит предметы и зелья по образцу. Маленький алхимик на побегушках."}
+    en: {title: "The Wixie", text: "A wixie crafts items and potions from a sample. A little alchemist on call."}
+
+  - id: ars_drygmy
+    deps: [ars_starbuncle]
+    roles: [mage, warrior]
+    icon: ars_nouveau:drygmy_charm
+    tasks: [{type: item, item: ars_nouveau:drygmy_charm}]
+    optional: true
+    ru: {title: "Дригми", text: "Дригми собирает добычу с мобов в загоне без убийства. Мирная ферма ресурсов."}
+    en: {title: "The Drygmy", text: "A drygmy collects mob drops from a pen without killing. A peaceful resource farm."}
+
+  - id: ars_whirlisprig
+    deps: [ars_starbuncle]
+    roles: [mage, gardener]
+    icon: ars_nouveau:whirlisprig_charm
+    tasks: [{type: item, item: ars_nouveau:whirlisprig_charm}]
+    optional: true
+    ru: {title: "Вихрилист", text: "Ускоряет рост растений вокруг и даёт Источник. Лучший друг садовода."}
+    en: {title: "The Whirlisprig", text: "Speeds up plant growth around it and makes Source. The gardener's best friend."}
+
+  - id: ars_jewelry
+    deps: [ars_apparatus]
+    roles: [mage]
+    icon: ars_nouveau:ring_of_potential
+    tasks: [{type: item, item: ars_nouveau:ring_of_potential}, {type: item, item: ars_nouveau:amulet_of_mana_boost}]
+    optional: true
+    ru: {title: "Магические украшения", text: "Кольца и амулеты увеличивают запас маны и снижают стоимость заклинаний."}
+    en: {title: "Magical Jewellery", text: "Rings and amulets raise your mana pool and lower spell costs."}
+
+  - id: ars_belt
+    deps: [ars_jewelry]
+    roles: [mage, builder]
+    icon: ars_nouveau:belt_of_levitation
+    tasks: [{type: item, item: ars_nouveau:belt_of_levitation}]
+    optional: true
+    ru: {title: "Пояс левитации", text: "Присядь в воздухе — и зависнешь. Строителям башен понравится."}
+    en: {title: "The Belt of Levitation", text: "Crouch in mid-air and you hover. Tower builders will love it."}
+
+  - id: ars_wilden
+    deps: [ars_apprentice]
+    roles: [mage, warrior]
+    icon: ars_nouveau:wilden_horn
+    tasks: [{type: item, item: ars_nouveau:wilden_horn}, {type: item, item: ars_nouveau:wilden_spike}, {type: item, item: ars_nouveau:wilden_wing}]
+    optional: true
+    ru: {title: "Дикие духи", text: "Рог, шип и крыло диких существ Ars — для ритуала призыва Вождя диких. Это босс мага."}
+    en: {title: "The Wilden", text: "Horn, spike and wing of Ars wilden creatures — for the ritual that summons the Wilden Chimera. The mage's boss."}
+
+  - id: ars_elemental
+    deps: [ars_archmage]
+    roles: [mage]
+    icon: ars_elemental:fire_focus
+    tasks: [{type: item, item: ars_elemental:fire_focus}]
+    optional: true
+    ru: {title: "Фокус стихии", text: "Ars Elemental: фокус школы усиливает заклинания одной стихии. Выбери свою."}
+    en: {title: "An Elemental Focus", text: "Ars Elemental: a school focus empowers spells of one element. Pick yours."}

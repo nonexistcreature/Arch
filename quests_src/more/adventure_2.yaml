@@ -1,0 +1,170 @@
+extends: adventure
+quests:
+  - id: adv_tavern
+    deps: [adv_start]
+    roles: [warrior]
+    icon: minecraft:barrel
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Придорожная таверна", text: "Dungeons and Taverns: в мире стоят таверны с торговцами и картами к данжам. Безопасное место для привала."}
+    en: {title: "A Roadside Tavern", text: "Dungeons and Taverns: the world has taverns with traders and maps to dungeons. A safe place to rest."}
+
+  - id: adv_village
+    deps: [adv_start]
+    roles: [warrior, mayor]
+    icon: minecraft:bell
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Живые деревни", text: "Деревни CTOV разные в каждом биоме, а жители MCA — с именами и характерами. Заведи друзей."}
+    en: {title: "Living Villages", text: "CTOV villages differ in every biome, and MCA villagers have names and personalities. Make friends."}
+
+  - id: adv_ironwood
+    deps: [adv_naga]
+    roles: [warrior]
+    icon: twilightforest:ironwood_ingot
+    tasks: [{type: item, item: twilightforest:ironwood_ingot, count: 4}]
+    ru: {title: "Железное дерево", text: "Слитки железного дерева — первая броня Сумеречного леса. Броня сама чинится в руках умельца."}
+    en: {title: "Ironwood", text: "Ironwood ingots make the Twilight Forest's first armour."}
+
+  - id: adv_minoshroom
+    deps: [adv_lich]
+    roles: [warrior]
+    icon: twilightforest:minoshroom_trophy
+    tasks: [{type: kill, entity: twilightforest:minoshroom}]
+    optional: true
+    ru: {title: "Минотавр-гриб", text: "Лабиринт под болотом, а в центре — Минотавр-гриб. Его топор — отличное оружие."}
+    en: {title: "The Minoshroom", text: "A labyrinth under the swamp, and at its heart the Minoshroom. Its axe is a great weapon."}
+
+  - id: adv_knight_phantom
+    deps: [adv_minoshroom]
+    roles: [warrior]
+    icon: twilightforest:knightmetal_ingot
+    tasks: [{type: kill, entity: twilightforest:knight_phantom}]
+    optional: true
+    ru: {title: "Рыцари-призраки", text: "Крепость рыцарей-призраков. Рыцарский металл — прочнейшая броня леса."}
+    en: {title: "The Knight Phantoms", text: "The phantom knights' stronghold. Knightmetal makes the forest's toughest armour."}
+
+  - id: adv_ur_ghast
+    deps: [adv_knight_phantom]
+    roles: [warrior]
+    icon: twilightforest:fiery_ingot
+    tasks: [{type: kill, entity: twilightforest:ur_ghast}]
+    optional: true
+    ru: {title: "Ур-гаст", text: "Тёмная башня и её плачущий страж. Его слёзы — для огненных слитков."}
+    en: {title: "The Ur-Ghast", text: "The Dark Tower and its weeping guardian. Its tears forge fiery ingots."}
+
+  - id: adv_snow_queen
+    deps: [adv_ur_ghast]
+    roles: [warrior]
+    icon: twilightforest:alpha_yeti_fur
+    tasks: [{type: kill, entity: twilightforest:alpha_yeti}, {type: kill, entity: twilightforest:snow_queen}]
+    optional: true
+    ru: {title: "Снега Сумеречного леса", text: "Вождь йети и Снежная королева — финал ледяной части леса."}
+    en: {title: "The Twilight Snows", text: "The Alpha Yeti and the Snow Queen — the finale of the forest's frozen lands."}
+
+  - id: adv_zanite
+    deps: [adv_aether]
+    roles: [warrior]
+    icon: aether:zanite_gemstone
+    tasks: [{type: item, item: aether:zanite_gemstone, count: 8}]
+    ru: {title: "Занит", text: "Голубой самоцвет Эфира. Инструменты из занита становятся сильнее по мере износа."}
+    en: {title: "Zanite", text: "The Aether's blue gemstone. Zanite tools get stronger as they wear."}
+
+  - id: adv_valkyrie
+    deps: [adv_slider]
+    roles: [warrior]
+    icon: aether:valkyrie_lance
+    tasks: [{type: kill, entity: aether:valkyrie_queen}]
+    optional: true
+    ru: {title: "Королева валькирий", text: "Серебряный данж и его королева. Её копьё бьёт на огромное расстояние."}
+    en: {title: "The Valkyrie Queen", text: "The silver dungeon and its queen. Her lance strikes from far away."}
+
+  - id: adv_sun_spirit
+    deps: [adv_valkyrie]
+    roles: [warrior]
+    icon: aether:gravitite_pickaxe
+    tasks: [{type: kill, entity: aether:sun_spirit}]
+    optional: true
+    ru: {title: "Дух Солнца", text: "Золотой данж Эфира и его огненный хозяин. Финал небесного мира."}
+    en: {title: "The Sun Spirit", text: "The Aether's gold dungeon and its fiery master. The sky world's finale."}
+
+  - id: adv_undergarden_metal
+    deps: [adv_undergarden]
+    roles: [warrior, engineer]
+    icon: undergarden:cloggrum_ingot
+    tasks: [{type: item, item: undergarden:cloggrum_ingot, count: 4}]
+    optional: true
+    ru: {title: "Металлы Подсада", text: "Клоггрум, морозная сталь и забытый металл — из них оружие против тварей Подсада."}
+    en: {title: "Undergarden Metals", text: "Cloggrum, froststeel and forgotten metal — they make weapons against Undergarden beasts."}
+
+  - id: adv_echo
+    deps: [adv_otherside]
+    roles: [warrior]
+    icon: deeperdarker:reinforced_echo_shard
+    tasks: [{type: item, item: deeperdarker:reinforced_echo_shard}]
+    optional: true
+    ru: {title: "Усиленный эхо-осколок", text: "Самый ценный трофей Иной стороны. Из него — снаряжение, сильнее незерита."}
+    en: {title: "The Reinforced Echo Shard", text: "The Otherside's most precious prize. It makes gear stronger than netherite."}
+
+  - id: adv_ignis
+    deps: [adv_cataclysm]
+    roles: [warrior]
+    icon: cataclysm:ignitium_ingot
+    tasks: [{type: kill, entity: cataclysm:ignis}]
+    optional: true
+    ru: {title: "Игнис", text: "Огненный рыцарь в Горящей арене. Игнитиевая броня — огнестойкость навсегда."}
+    en: {title: "Ignis", text: "The flaming knight of the Burning Arena. Ignitium armour — fire resistance forever."}
+
+  - id: adv_ender_guardian
+    deps: [adv_cataclysm, adv_end]
+    roles: [warrior]
+    icon: cataclysm:void_eye
+    tasks: [{type: kill, entity: cataclysm:ender_guardian}]
+    optional: true
+    ru: {title: "Страж Края", text: "Руины в Крае охраняет древний голем. Ходите группой."}
+    en: {title: "The Ender Guardian", text: "An ancient golem guards ruins in the End. Go as a group."}
+
+  - id: adv_leviathan
+    deps: [adv_cataclysm]
+    roles: [warrior]
+    icon: cataclysm:abyss_eye
+    tasks: [{type: kill, entity: cataclysm:the_leviathan}]
+    optional: true
+    ru: {title: "Левиафан", text: "Чудовище затонувшего города. Без «Морского волка» и дыхания под водой — не ходи."}
+    en: {title: "The Leviathan", text: "The monster of the sunken city. Don't go without Sea Wolf and water breathing."}
+
+  - id: adv_frostmaw
+    deps: [adv_mowzie]
+    roles: [warrior]
+    icon: mowziesmobs:ice_crystal
+    tasks: [{type: kill, entity: mowziesmobs:frostmaw}]
+    optional: true
+    ru: {title: "Ледяная пасть", text: "Огромный снежный зверь спит в ледяных пустошах. Ледяной кристалл даёт ледяное дыхание."}
+    en: {title: "The Frostmaw", text: "A giant snow beast sleeps in the frozen wastes. Its ice crystal grants frost breath."}
+
+  - id: adv_umvuthi
+    deps: [adv_mowzie]
+    roles: [warrior]
+    icon: mowziesmobs:sol_visage
+    tasks: [{type: kill, entity: mowziesmobs:umvuthi}]
+    optional: true
+    ru: {title: "Умвути", text: "Вождь масок в саванне. Солнечная маска даёт солнечный удар."}
+    en: {title: "Umvuthi", text: "The chief of masks in the savanna. The Sol Visage unleashes solar strikes."}
+
+  - id: adv_pumpkinhead
+    deps: [adv_dungeon]
+    roles: [warrior]
+    icon: minecraft:carved_pumpkin
+    tasks: [{type: kill, entity: born_in_chaos_v1:lord_pumpkinhead}]
+    optional: true
+    ru: {title: "Лорд Тыквоголовый", text: "Born in Chaos: хэллоуинский всадник появляется в диких землях ночью. Страшно и весело."}
+    en: {title: "Lord Pumpkinhead", text: "Born in Chaos: a Halloween rider appears in the wilds at night. Scary and fun."}
+
+  - id: adv_bumble_crystal
+    deps: [adv_bumblezone]
+    roles: [breeder]
+    icon: the_bumblezone:honey_crystal_shards
+    tasks: [{type: item, item: the_bumblezone:honey_crystal_shards, count: 8}]
+    optional: true
+    ru: {title: "Медовые кристаллы", text: "В Пчелином измерении растут медовые кристаллы — для украшений и зелий."}
+    en: {title: "Honey Crystals", text: "Honey crystals grow in the Bumblezone — for decor and potions."}

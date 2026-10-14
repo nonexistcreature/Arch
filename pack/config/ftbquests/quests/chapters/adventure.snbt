@@ -62,7 +62,7 @@
 		{
 			id: "11213DE6310C1D6A"
 			x: 1.5d
-			y: -3.125d
+			y: -5.0d
 			icon: {
 				id: "lootr:lootr_chest"
 				count: 1
@@ -80,7 +80,7 @@
 		{
 			id: "16E1CA1EF5B21B46"
 			x: 1.5d
-			y: -1.875d
+			y: -3.75d
 			icon: {
 				id: "minecraft:obsidian"
 				count: 1
@@ -99,7 +99,7 @@
 		{
 			id: "739285040B5B0234"
 			x: 1.5d
-			y: -0.625d
+			y: -2.5d
 			shape: "hexagon"
 			icon: {
 				id: "twilightforest:magic_map_focus"
@@ -119,7 +119,7 @@
 		{
 			id: "5435E49C41CDE3FF"
 			x: 3.0d
-			y: -3.125d
+			y: -5.625d
 			icon: {
 				id: "twilightforest:naga_trophy"
 				count: 1
@@ -149,7 +149,7 @@
 		{
 			id: "4B8828721D42DE2A"
 			x: 4.5d
-			y: 0.0d
+			y: -4.375d
 			icon: {
 				id: "twilightforest:lich_trophy"
 				count: 1
@@ -169,7 +169,7 @@
 		{
 			id: "3407660309397086"
 			x: 6.0d
-			y: -0.625d
+			y: -1.875d
 			icon: {
 				id: "twilightforest:hydra_trophy"
 				count: 1
@@ -190,7 +190,7 @@
 		{
 			id: "29EFEF68F03D66A9"
 			x: 1.5d
-			y: 0.625d
+			y: -1.25d
 			icon: {
 				id: "aether:aether_portal_frame"
 				count: 1
@@ -209,7 +209,7 @@
 		{
 			id: "3020E46100BB3368"
 			x: 3.0d
-			y: -1.875d
+			y: -4.375d
 			icon: {
 				id: "aether:bronze_dungeon_key"
 				count: 1
@@ -230,7 +230,7 @@
 		{
 			id: "22E49A43159B2841"
 			x: 1.5d
-			y: 1.875d
+			y: 0.0d
 			icon: {
 				id: "minecraft:stone_bricks"
 				count: 1
@@ -250,7 +250,7 @@
 		{
 			id: "241D0F92C3E12524"
 			x: 1.5d
-			y: 3.125d
+			y: 1.25d
 			icon: {
 				id: "minecraft:sculk"
 				count: 1
@@ -290,7 +290,7 @@
 		{
 			id: "256C62572DAB7621"
 			x: 3.0d
-			y: -0.625d
+			y: -3.125d
 			shape: "hexagon"
 			icon: {
 				id: "cataclysm:ignitium_ingot"
@@ -312,7 +312,7 @@
 		{
 			id: "662910273F2B230B"
 			x: 3.0d
-			y: 0.625d
+			y: -1.875d
 			icon: {
 				id: "mowziesmobs:wrought_helmet"
 				count: 1
@@ -333,7 +333,7 @@
 		{
 			id: "38AEAB79267D768C"
 			x: 3.0d
-			y: 1.875d
+			y: -0.625d
 			icon: {
 				id: "aquamirae:dead_sea_scroll"
 				count: 1
@@ -354,7 +354,7 @@
 		{
 			id: "5814EB842FA7B370"
 			x: 3.0d
-			y: 3.125d
+			y: 0.625d
 			icon: {
 				id: "minecraft:ender_eye"
 				count: 1
@@ -374,7 +374,7 @@
 		{
 			id: "20B6AA7E95CCB7D5"
 			x: 6.0d
-			y: 0.625d
+			y: -0.625d
 			shape: "gear"
 			icon: {
 				id: "minecraft:netherite_sword"
@@ -404,6 +404,420 @@
 						count: 4
 						id: "minecraft:golden_apple"
 					}
+				}
+			]
+		}
+		{
+			id: "1957C1B40843F000"
+			x: 1.5d
+			y: 2.5d
+			icon: {
+				id: "minecraft:barrel"
+				count: 1
+			}
+			dependencies: [
+				"483595C3466D106D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "6F45068D9E304F39"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "5A77759DFBE67C95"
+			x: 1.5d
+			y: 3.75d
+			icon: {
+				id: "minecraft:bell"
+				count: 1
+			}
+			dependencies: [
+				"483595C3466D106D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "741C956D1ACFCDE8"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "1259337CB58F1C9E"
+			x: 4.5d
+			y: -3.125d
+			icon: {
+				id: "twilightforest:ironwood_ingot"
+				count: 1
+			}
+			dependencies: [
+				"5435E49C41CDE3FF"
+			]
+			tasks: [
+				{
+					id: "52ECB91178784BD9"
+					type: "item"
+					item: {
+						count: 1
+						id: "twilightforest:ironwood_ingot"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "2E1D43BB1E766B59"
+			x: 6.0d
+			y: 0.625d
+			icon: {
+				id: "twilightforest:minoshroom_trophy"
+				count: 1
+			}
+			dependencies: [
+				"4B8828721D42DE2A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "7DCAFA2566FE95B0"
+					type: "kill"
+					entity: "twilightforest:minoshroom"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "3900D125095728FD"
+			x: 7.5d
+			y: 0.0d
+			icon: {
+				id: "twilightforest:knightmetal_ingot"
+				count: 1
+			}
+			dependencies: [
+				"2E1D43BB1E766B59"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "3DE2B5A8F2CD5116"
+					type: "kill"
+					entity: "twilightforest:knight_phantom"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "5AA2916146AB0FE5"
+			x: 9.0d
+			y: 0.0d
+			icon: {
+				id: "twilightforest:fiery_ingot"
+				count: 1
+			}
+			dependencies: [
+				"3900D125095728FD"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "7F88A0ADCB89E28E"
+					type: "kill"
+					entity: "twilightforest:ur_ghast"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "78AFBA41AFAA0319"
+			x: 10.5d
+			y: 0.0d
+			icon: {
+				id: "twilightforest:alpha_yeti_fur"
+				count: 1
+			}
+			dependencies: [
+				"5AA2916146AB0FE5"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "500568D9CE86314E"
+					type: "kill"
+					entity: "twilightforest:alpha_yeti"
+					value: 1L
+				}
+				{
+					id: "5B7C06E0698C5DA2"
+					type: "kill"
+					entity: "twilightforest:snow_queen"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "73113DD67E148277"
+			x: 3.0d
+			y: 1.875d
+			icon: {
+				id: "aether:zanite_gemstone"
+				count: 1
+			}
+			dependencies: [
+				"29EFEF68F03D66A9"
+			]
+			tasks: [
+				{
+					id: "160075564C8EE82D"
+					type: "item"
+					item: {
+						count: 1
+						id: "aether:zanite_gemstone"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "0B1C9822CA3D917F"
+			x: 4.5d
+			y: -1.875d
+			icon: {
+				id: "aether:valkyrie_lance"
+				count: 1
+			}
+			dependencies: [
+				"3020E46100BB3368"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "422204D1AF45343E"
+					type: "kill"
+					entity: "aether:valkyrie_queen"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "13F13D09D97F5AFC"
+			x: 6.0d
+			y: 1.875d
+			icon: {
+				id: "aether:gravitite_pickaxe"
+				count: 1
+			}
+			dependencies: [
+				"0B1C9822CA3D917F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "709ED8CA5BFBF67B"
+					type: "kill"
+					entity: "aether:sun_spirit"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "7D35BB7FBDAEF93B"
+			x: 3.0d
+			y: 3.125d
+			icon: {
+				id: "undergarden:cloggrum_ingot"
+				count: 1
+			}
+			dependencies: [
+				"22E49A43159B2841"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "2A6D9B0C434D817C"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:cloggrum_ingot"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "3D37C20ACFC1671F"
+			x: 3.0d
+			y: 4.375d
+			icon: {
+				id: "deeperdarker:reinforced_echo_shard"
+				count: 1
+			}
+			dependencies: [
+				"241D0F92C3E12524"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "584BFB76E55FB057"
+					type: "item"
+					item: {
+						count: 1
+						id: "deeperdarker:reinforced_echo_shard"
+					}
+				}
+			]
+		}
+		{
+			id: "20D49507FD947801"
+			x: 4.5d
+			y: -0.625d
+			icon: {
+				id: "cataclysm:ignitium_ingot"
+				count: 1
+			}
+			dependencies: [
+				"256C62572DAB7621"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "5E8AA5E18970FD19"
+					type: "kill"
+					entity: "cataclysm:ignis"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "665F15D3591B91CB"
+			x: 4.5d
+			y: 0.625d
+			icon: {
+				id: "cataclysm:void_eye"
+				count: 1
+			}
+			dependencies: [
+				"256C62572DAB7621"
+				"5814EB842FA7B370"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "00420E328FCFAA72"
+					type: "kill"
+					entity: "cataclysm:ender_guardian"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "591B863A25456EA2"
+			x: 4.5d
+			y: 1.875d
+			icon: {
+				id: "cataclysm:abyss_eye"
+				count: 1
+			}
+			dependencies: [
+				"256C62572DAB7621"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "79D00C163F621392"
+					type: "kill"
+					entity: "cataclysm:the_leviathan"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "5CDB9F3F46E94031"
+			x: 4.5d
+			y: 3.125d
+			icon: {
+				id: "mowziesmobs:ice_crystal"
+				count: 1
+			}
+			dependencies: [
+				"662910273F2B230B"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "284F1F958E32CF4C"
+					type: "kill"
+					entity: "mowziesmobs:frostmaw"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "34C186A7C66EB616"
+			x: 4.5d
+			y: 4.375d
+			icon: {
+				id: "mowziesmobs:sol_visage"
+				count: 1
+			}
+			dependencies: [
+				"662910273F2B230B"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "5B17829F7AC6EA45"
+					type: "kill"
+					entity: "mowziesmobs:umvuthi"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "2D00EB21A23B01B1"
+			x: 3.0d
+			y: 5.625d
+			icon: {
+				id: "minecraft:carved_pumpkin"
+				count: 1
+			}
+			dependencies: [
+				"11213DE6310C1D6A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "34CDB074AA3FF54E"
+					type: "kill"
+					entity: "born_in_chaos_v1:lord_pumpkinhead"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "1079865D0DAE982A"
+			x: 1.5d
+			y: 5.0d
+			icon: {
+				id: "the_bumblezone:honey_crystal_shards"
+				count: 1
+			}
+			dependencies: [
+				"5191867CC65E64EB"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "27D40BC9EBBCF09D"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:honey_crystal_shards"
+					}
+					count: 8L
 				}
 			]
 		}

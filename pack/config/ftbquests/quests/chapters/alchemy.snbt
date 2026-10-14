@@ -54,7 +54,7 @@
 		{
 			id: "4ADED478BA38BECC"
 			x: 1.5d
-			y: -0.625d
+			y: -3.125d
 			icon: {
 				id: "irons_spellbooks:alchemist_cauldron"
 				count: 1
@@ -76,7 +76,7 @@
 		{
 			id: "1B9EEE85EBDBA92D"
 			x: 1.5d
-			y: 0.625d
+			y: -1.875d
 			shape: "hexagon"
 			icon: {
 				id: "herbalbrews:lavender"
@@ -105,7 +105,7 @@
 		{
 			id: "67BE72A396A69007"
 			x: 3.0d
-			y: -3.125d
+			y: -4.375d
 			icon: {
 				id: "minecraft:prismarine_crystals"
 				count: 1
@@ -124,7 +124,7 @@
 		{
 			id: "3B96C193ACA277A9"
 			x: 3.0d
-			y: -1.875d
+			y: -3.125d
 			icon: {
 				id: "minecraft:honey_bottle"
 				count: 1
@@ -143,7 +143,7 @@
 		{
 			id: "1051DF3F4385D339"
 			x: 3.0d
-			y: -0.625d
+			y: -1.875d
 			icon: {
 				id: "minecraft:golden_carrot"
 				count: 1
@@ -162,7 +162,7 @@
 		{
 			id: "2674C9B3CA6719CA"
 			x: 3.0d
-			y: 0.625d
+			y: -0.625d
 			icon: {
 				id: "minecraft:blaze_powder"
 				count: 1
@@ -181,7 +181,7 @@
 		{
 			id: "5D3473C41AD56DA7"
 			x: 3.0d
-			y: 1.875d
+			y: 0.625d
 			icon: {
 				id: "minecraft:moss_block"
 				count: 1
@@ -219,7 +219,7 @@
 		{
 			id: "3C60CB78B824B591"
 			x: 3.0d
-			y: 3.125d
+			y: 1.875d
 			icon: {
 				id: "minecraft:spyglass"
 				count: 1
@@ -268,6 +268,135 @@
 					id: "315DFD7C75FAD860"
 					type: "xp_levels"
 					xp_levels: 5
+				}
+			]
+		}
+		{
+			id: "11474F8C95A5E393"
+			x: 1.5d
+			y: -0.625d
+			icon: {
+				id: "minecraft:glistering_melon_slice"
+				count: 1
+			}
+			dependencies: [
+				"0FE6B961A2B65B01"
+			]
+			tasks: [
+				{
+					id: "79D592B4322F1400"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:glistering_melon_slice"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "7C9D175FDA380D93"
+			x: 1.5d
+			y: 0.625d
+			icon: {
+				id: "minecraft:magma_cream"
+				count: 1
+			}
+			dependencies: [
+				"0FE6B961A2B65B01"
+			]
+			tasks: [
+				{
+					id: "15A201D7D9DF2DE0"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:magma_cream"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "4FB4B154BE3A7A58"
+			x: 1.5d
+			y: 1.875d
+			icon: {
+				id: "minecraft:golden_carrot"
+				count: 1
+			}
+			dependencies: [
+				"0FE6B961A2B65B01"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "7232B3CF0A99F0B8"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "4D893299F364F7FE"
+			x: 3.0d
+			y: 3.125d
+			icon: {
+				id: "minecraft:redstone"
+				count: 1
+			}
+			dependencies: [
+				"11474F8C95A5E393"
+			]
+			tasks: [
+				{
+					id: "4E5C2BCC5FAF1A44"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "4FCD47C6DC0C521C"
+			x: 1.5d
+			y: 3.125d
+			icon: {
+				id: "minecraft:milk_bucket"
+				count: 1
+			}
+			dependencies: [
+				"0FE6B961A2B65B01"
+			]
+			tasks: [
+				{
+					id: "658A8972471ACA64"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+				}
+			]
+		}
+		{
+			id: "51730512DD377681"
+			x: 3.0d
+			y: 4.375d
+			icon: {
+				id: "minecraft:cauldron"
+				count: 1
+			}
+			dependencies: [
+				"4ADED478BA38BECC"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "644987DDE820CEEF"
+					type: "checkmark"
 				}
 			]
 		}

@@ -58,7 +58,7 @@
 		{
 			id: "2689CA1241CB0BE8"
 			x: 3.0d
-			y: -1.25d
+			y: -2.5d
 			icon: {
 				id: "irons_spellbooks:inscription_table"
 				count: 1
@@ -80,7 +80,7 @@
 		{
 			id: "1807C290BC564799"
 			x: 4.5d
-			y: -1.25d
+			y: -4.375d
 			icon: {
 				id: "irons_spellbooks:scroll_forge"
 				count: 1
@@ -133,7 +133,7 @@
 		{
 			id: "710E1FB9C0AF78C8"
 			x: 3.0d
-			y: 0.0d
+			y: -1.25d
 			icon: {
 				id: "irons_spellbooks:fire_rune"
 				count: 1
@@ -156,7 +156,7 @@
 		{
 			id: "20EF7614A84A8044"
 			x: 4.5d
-			y: 0.0d
+			y: -3.125d
 			icon: {
 				id: "irons_spellbooks:wizard_hat"
 				count: 1
@@ -179,7 +179,7 @@
 		{
 			id: "26E181A4C50935DA"
 			x: 4.5d
-			y: 1.25d
+			y: -1.875d
 			icon: {
 				id: "irons_spellbooks:upgrade_orb"
 				count: 1
@@ -210,7 +210,7 @@
 		{
 			id: "3A9E5FDFBAC6AAC3"
 			x: 3.0d
-			y: 1.25d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "irons_spellbooks:legendary_ink"
@@ -223,6 +223,191 @@
 				{
 					id: "5BBE41572DF2659E"
 					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "59DAC3A798675F2C"
+			x: 3.0d
+			y: 1.25d
+			icon: {
+				id: "irons_spellbooks:mithril_ingot"
+				count: 1
+			}
+			dependencies: [
+				"64D45646DD838107"
+			]
+			tasks: [
+				{
+					id: "6E7A3AE2CC0F8D83"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mithril_ingot"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "4C4770E1F9711E9D"
+			x: 4.5d
+			y: -0.625d
+			icon: {
+				id: "irons_spellbooks:arcane_ingot"
+				count: 1
+			}
+			dependencies: [
+				"59DAC3A798675F2C"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "287487523EEC3BFB"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:arcane_ingot"
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "0BE46ED673E89342"
+			x: 4.5d
+			y: 0.625d
+			icon: {
+				id: "irons_spellbooks:druidic_spell_book"
+				count: 1
+			}
+			dependencies: [
+				"710E1FB9C0AF78C8"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "7C85F1C3E55FC946"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "79520F0703E2D1D3"
+			x: 3.0d
+			y: 2.5d
+			icon: {
+				id: "irons_spellbooks:mana_ring"
+				count: 1
+			}
+			dependencies: [
+				"64D45646DD838107"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "6196672CD56D15F5"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:mana_ring"
+					}
+				}
+			]
+		}
+		{
+			id: "4881E593675BEAC3"
+			x: 6.0d
+			y: 0.0d
+			icon: {
+				id: "irons_spellbooks:rare_ink"
+				count: 1
+			}
+			dependencies: [
+				"1807C290BC564799"
+				"4ADED478BA38BECC"
+			]
+			tasks: [
+				{
+					id: "07BD9A4FEB0715CA"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:rare_ink"
+					}
+				}
+			]
+		}
+		{
+			id: "3990DF9B5753B506"
+			x: 4.5d
+			y: 1.875d
+			icon: {
+				id: "irons_spellbooks:teleportation_amulet"
+				count: 1
+			}
+			dependencies: [
+				"79520F0703E2D1D3"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "00E138CB17191BFA"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_spellbooks:teleportation_amulet"
+					}
+				}
+			]
+		}
+		{
+			id: "62EC5608FBE429B5"
+			x: 4.5d
+			y: 3.125d
+			icon: {
+				id: "irons_spellbooks:netherite_spell_book"
+				count: 1
+			}
+			dependencies: [
+				"3A9E5FDFBAC6AAC3"
+			]
+			tasks: [
+				{
+					id: "4EE732491B217751"
+					type: "kill"
+					entity: "irons_spellbooks:dead_king"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "4ED86426C9408799"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			id: "161358A8E5F7983F"
+			x: 4.5d
+			y: 4.375d
+			icon: {
+				id: "irons_jewelry:jewelcrafting_station"
+				count: 1
+			}
+			dependencies: [
+				"79520F0703E2D1D3"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "76696EA52AFB8AAC"
+					type: "item"
+					item: {
+						count: 1
+						id: "irons_jewelry:jewelcrafting_station"
+					}
 				}
 			]
 		}

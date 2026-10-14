@@ -1,0 +1,125 @@
+extends: city
+quests:
+  - id: city_scan
+    deps: [city_builder]
+    roles: [mayor, builder]
+    icon: structurize:sceptergold
+    tasks: [{type: item, item: structurize:sceptergold}]
+    optional: true
+    ru: {title: "Скипетр строителя", text: "Сканирует постройки в чертежи и ставит их через строителя колонии. Можно скопировать свой дом в город."}
+    en: {title: "The Builder's Sceptre", text: "Scans builds into blueprints and places them via the colony builder. Copy your house into the town."}
+
+  - id: city_warehouse
+    deps: [city_builder]
+    roles: [mayor]
+    icon: minecolonies:blockhutwarehouse
+    tasks: [{type: item, item: minecolonies:blockhutwarehouse}, {type: item, item: minecolonies:blockhutdeliveryman}]
+    ru: {title: "Склад и курьеры", text: "Склад хранит всё, курьеры разносят материалы рабочим. Без них колония захлебнётся в сундуках."}
+    en: {title: "Warehouse and Couriers", text: "The warehouse holds everything, couriers deliver materials to workers. Without them the colony drowns in chests."}
+
+  - id: city_lumber
+    deps: [city_builder]
+    roles: [mayor]
+    icon: minecolonies:blockhutlumberjack
+    tasks: [{type: item, item: minecolonies:blockhutlumberjack}]
+    ru: {title: "Лесоруб", text: "Лесоруб рубит лес и сажает саженцы. Строителю всегда нужны брёвна."}
+    en: {title: "The Lumberjack", text: "The lumberjack fells trees and replants. The builder always needs logs."}
+
+  - id: city_miner
+    deps: [city_builder]
+    roles: [mayor]
+    icon: minecolonies:blockhutminer
+    tasks: [{type: item, item: minecolonies:blockhutminer}]
+    optional: true
+    ru: {title: "Шахтёр колонии", text: "Шахтёр копает шахту уровень за уровнем и приносит руду и камень."}
+    en: {title: "The Colony Miner", text: "The miner digs a shaft level by level and brings back ore and stone."}
+
+  - id: city_fisher
+    deps: [city_builder]
+    roles: [mayor]
+    icon: minecolonies:blockhutfisherman
+    tasks: [{type: item, item: minecolonies:blockhutfisherman}]
+    optional: true
+    ru: {title: "Рыбак колонии", text: "Рыбак ловит рыбу для столовой. Нужен водоём рядом."}
+    en: {title: "The Colony Fisher", text: "The fisher catches fish for the canteen. Needs water nearby."}
+
+  - id: city_animals
+    deps: [city_builder]
+    roles: [mayor, breeder]
+    icon: minecolonies:blockhutcowboy
+    tasks: [{type: item, item: minecolonies:blockhutcowboy}, {type: item, item: minecolonies:blockhutshepherd}]
+    optional: true
+    ru: {title: "Пастухи", text: "Ковбой и пастух растят коров и овец для колонии. Заводчик подскажет, где взять первых животных."}
+    en: {title: "The Herders", text: "The cowhand and shepherd raise cows and sheep for the colony. The breeder knows where to get the first animals."}
+
+  - id: city_smeltery
+    deps: [city_warehouse]
+    roles: [mayor, engineer]
+    icon: minecolonies:blockhutsmeltery
+    tasks: [{type: item, item: minecolonies:blockhutsmeltery}, {type: item, item: minecolonies:blockhutblacksmith}]
+    optional: true
+    ru: {title: "Плавильня и кузнец", text: "Плавильщик плавит руду, кузнец делает инструменты и броню для стражи."}
+    en: {title: "Smeltery and Blacksmith", text: "The smelter smelts ore, the blacksmith makes tools and armour for guards."}
+
+  - id: city_hospital
+    deps: [city_warehouse]
+    roles: [mayor]
+    icon: minecolonies:blockhuthospital
+    tasks: [{type: item, item: minecolonies:blockhuthospital}]
+    optional: true
+    ru: {title: "Больница", text: "Лечит жителей от болезней. Без неё эпидемия остановит работу."}
+    en: {title: "The Hospital", text: "Heals citizens of illness. Without it an epidemic stops all work."}
+
+  - id: city_library
+    deps: [city_university]
+    roles: [mayor]
+    icon: minecolonies:blockhutlibrary
+    tasks: [{type: item, item: minecolonies:blockhutlibrary}]
+    optional: true
+    ru: {title: "Библиотека", text: "Жители учатся и быстрее растут в навыках."}
+    en: {title: "The Library", text: "Citizens study and level their skills faster."}
+
+  - id: city_enchanter
+    deps: [city_library]
+    roles: [mayor, mage]
+    icon: minecolonies:blockhutenchanter
+    tasks: [{type: item, item: minecolonies:blockhutenchanter}]
+    optional: true
+    ru: {title: "Колдун колонии", text: "Зачаровывает книги из опыта жителей. Магам — постоянный источник книг."}
+    en: {title: "The Colony Enchanter", text: "Enchants books from citizens' experience. A steady book supply for mages."}
+
+  - id: city_alchemist
+    deps: [city_library]
+    roles: [mayor, alchemist]
+    icon: minecolonies:blockhutalchemist
+    tasks: [{type: item, item: minecolonies:blockhutalchemist}]
+    optional: true
+    ru: {title: "Алхимик колонии", text: "Варит зелья для стражи. Алхимик компании может дать ему рецепты."}
+    en: {title: "The Colony Alchemist", text: "Brews potions for the guards. Your group's alchemist can share recipes."}
+
+  - id: city_barracks
+    deps: [city_guard]
+    roles: [mayor, warrior]
+    icon: minecolonies:blockhutbarracks
+    tasks: [{type: item, item: minecolonies:blockhutbarracks}]
+    optional: true
+    ru: {title: "Казармы", text: "Казармы с башнями держат целый отряд стражи. Набегам не пройти."}
+    en: {title: "The Barracks", text: "Barracks with towers house a whole guard company. Raids won't get through."}
+
+  - id: city_mca_marry
+    deps: [city_mca]
+    roles: [mayor]
+    icon: mca:engagement_ring
+    tasks: [{type: item, item: mca:engagement_ring}]
+    optional: true
+    ru: {title: "Свадьба в деревне", text: "В MCA можно жениться на жителе и завести семью. Детей можно научить работать на ферме."}
+    en: {title: "A Village Wedding", text: "In MCA you can marry a villager and raise a family. Children can learn to work the farm."}
+
+  - id: city_easy_villagers
+    deps: [city_mca]
+    roles: [mayor]
+    icon: easy_villagers:villager
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Жители в кармане", text: "Easy Villagers: жителя можно взять как предмет и поставить в торговый блок. Удобный рынок без огромных загонов."}
+    en: {title: "Villagers in Your Pocket", text: "Easy Villagers: pick up a villager as an item and place it in a trader block. A compact market without huge pens."}

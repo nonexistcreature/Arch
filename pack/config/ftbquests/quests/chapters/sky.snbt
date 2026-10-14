@@ -36,7 +36,7 @@
 		{
 			id: "6B4F8E536E588C89"
 			x: 1.5d
-			y: -0.625d
+			y: -1.875d
 			icon: {
 				id: "offroad:tire"
 				count: 1
@@ -68,7 +68,7 @@
 		{
 			id: "7266207763E94952"
 			x: 3.0d
-			y: 0.0d
+			y: -0.625d
 			icon: {
 				id: "simulated:steering_wheel"
 				count: 1
@@ -90,7 +90,7 @@
 		{
 			id: "0679B41EE5CEA5EE"
 			x: 4.5d
-			y: 0.0d
+			y: -0.625d
 			icon: {
 				id: "aeronautics:wooden_propeller"
 				count: 1
@@ -120,7 +120,7 @@
 		{
 			id: "7AF169EE9ACAE9A5"
 			x: 6.0d
-			y: 0.0d
+			y: -0.625d
 			shape: "hexagon"
 			icon: {
 				id: "aeronautics:aviators_goggles"
@@ -162,7 +162,7 @@
 		{
 			id: "57F2358A447DEBD0"
 			x: 7.5d
-			y: 0.0d
+			y: -1.25d
 			icon: {
 				id: "aeronautics:levitite"
 				count: 1
@@ -185,7 +185,7 @@
 		{
 			id: "453103DB798973F2"
 			x: 9.0d
-			y: 0.0d
+			y: -0.625d
 			icon: {
 				id: "aeronautics:adjustable_burner"
 				count: 1
@@ -211,7 +211,7 @@
 		{
 			id: "69E9F652F112C896"
 			x: 10.5d
-			y: 0.0d
+			y: -1.25d
 			shape: "gear"
 			icon: {
 				id: "aeronautics:pearlescent_levitite"
@@ -292,7 +292,7 @@
 		{
 			id: "288B24A597910CC4"
 			x: 1.5d
-			y: 0.625d
+			y: -0.625d
 			icon: {
 				id: "simulated:rope_winch"
 				count: 1
@@ -309,6 +309,264 @@
 						count: 1
 						id: "simulated:rope_winch"
 					}
+				}
+			]
+		}
+		{
+			id: "4B89702C281986E7"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "offroad:large_tire"
+				count: 1
+			}
+			dependencies: [
+				"6B4F8E536E588C89"
+			]
+			tasks: [
+				{
+					id: "3AC0608C6CC55C1F"
+					type: "item"
+					item: {
+						count: 1
+						id: "offroad:large_tire"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "408A8ED8412F2D83"
+			x: 4.5d
+			y: 0.625d
+			icon: {
+				id: "offroad:borehead_bearing"
+				count: 1
+			}
+			dependencies: [
+				"4B89702C281986E7"
+				"6BFCC5C406BD8E53"
+			]
+			tasks: [
+				{
+					id: "6B3DD8CC5DE05B9D"
+					type: "item"
+					item: {
+						count: 1
+						id: "offroad:borehead_bearing"
+					}
+				}
+				{
+					id: "1ADF3223528880A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "offroad:rockcutting_wheel"
+					}
+				}
+			]
+		}
+		{
+			id: "0E9340588AEF41F4"
+			x: 6.0d
+			y: 0.625d
+			icon: {
+				id: "simulated:engine_assembly"
+				count: 1
+			}
+			dependencies: [
+				"0679B41EE5CEA5EE"
+			]
+			tasks: [
+				{
+					id: "16DF5CF8BA28DF70"
+					type: "item"
+					item: {
+						count: 1
+						id: "simulated:engine_assembly"
+					}
+				}
+			]
+		}
+		{
+			id: "14BB3D3AFFEE65C9"
+			x: 7.5d
+			y: 0.0d
+			icon: {
+				id: "aeronautics:smart_propeller"
+				count: 1
+			}
+			dependencies: [
+				"0E9340588AEF41F4"
+			]
+			tasks: [
+				{
+					id: "7A5B62B4395E5E4A"
+					type: "item"
+					item: {
+						count: 1
+						id: "aeronautics:smart_propeller"
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "410A0B4DB02A6E21"
+			x: 10.5d
+			y: 0.0d
+			icon: {
+				id: "aeronautics:white_envelope"
+				count: 1
+			}
+			dependencies: [
+				"453103DB798973F2"
+			]
+			tasks: [
+				{
+					id: "12ADCDD29EBA6135"
+					type: "item"
+					item: {
+						count: 1
+						id: "aeronautics:white_envelope"
+					}
+					count: 32L
+				}
+			]
+		}
+		{
+			id: "6A34014B73F8BCC2"
+			x: 7.5d
+			y: 1.25d
+			icon: {
+				id: "simulated:altitude_sensor"
+				count: 1
+			}
+			dependencies: [
+				"7AF169EE9ACAE9A5"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "5E41AC7234DE391D"
+					type: "item"
+					item: {
+						count: 1
+						id: "simulated:altitude_sensor"
+					}
+				}
+			]
+		}
+		{
+			id: "17ACF815BAF33888"
+			x: 9.0d
+			y: 0.625d
+			icon: {
+				id: "simulated:navigation_table"
+				count: 1
+			}
+			dependencies: [
+				"6A34014B73F8BCC2"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "34D596F51C962EC0"
+					type: "item"
+					item: {
+						count: 1
+						id: "simulated:navigation_table"
+					}
+				}
+			]
+		}
+		{
+			id: "28AADDB1A7758B1D"
+			x: 10.5d
+			y: 1.25d
+			icon: {
+				id: "simulated:docking_connector"
+				count: 1
+			}
+			dependencies: [
+				"453103DB798973F2"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "39C0443C1FABA0B4"
+					type: "item"
+					item: {
+						count: 1
+						id: "simulated:docking_connector"
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "04820B0D68A5E446"
+			x: 1.5d
+			y: 0.625d
+			icon: {
+				id: "immersive_aircraft:gyrodyne"
+				count: 1
+			}
+			dependencies: [
+				"3BAC276E3AB02105"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "66B98B7421D77F44"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersive_aircraft:gyrodyne"
+					}
+				}
+			]
+		}
+		{
+			id: "17868DEAA2C48847"
+			x: 1.5d
+			y: 1.875d
+			icon: {
+				id: "immersive_aircraft:airship"
+				count: 1
+			}
+			dependencies: [
+				"3BAC276E3AB02105"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "622338300D320823"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersive_aircraft:airship"
+					}
+				}
+			]
+		}
+		{
+			id: "0AD4DFA0CA5501B3"
+			x: 12.0d
+			y: 0.0d
+			icon: {
+				id: "createbigcannons:cannon_mount"
+				count: 1
+			}
+			dependencies: [
+				"69E9F652F112C896"
+				"0CFB5AA571596797"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "3A82B0ED28ACCD0F"
+					type: "checkmark"
 				}
 			]
 		}

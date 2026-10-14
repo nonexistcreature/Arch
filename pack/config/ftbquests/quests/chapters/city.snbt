@@ -36,7 +36,7 @@
 		{
 			id: "0961E98A888A1F6F"
 			x: 1.5d
-			y: 0.0d
+			y: -1.25d
 			icon: {
 				id: "minecolonies:blockhuttownhall"
 				count: 1
@@ -80,7 +80,7 @@
 		{
 			id: "6CF67932543F364E"
 			x: 4.5d
-			y: -2.5d
+			y: -6.25d
 			icon: {
 				id: "minecolonies:blockhutcook"
 				count: 1
@@ -103,7 +103,7 @@
 		{
 			id: "2448820009AD4703"
 			x: 4.5d
-			y: -1.25d
+			y: -5.0d
 			icon: {
 				id: "minecolonies:blockhutfarmer"
 				count: 1
@@ -126,7 +126,7 @@
 		{
 			id: "18D3669431D9E42A"
 			x: 4.5d
-			y: 0.0d
+			y: -3.75d
 			icon: {
 				id: "minecolonies:blockhutguardtower"
 				count: 1
@@ -148,7 +148,7 @@
 		{
 			id: "15EA1D5A0184FB40"
 			x: 4.5d
-			y: 1.25d
+			y: -2.5d
 			icon: {
 				id: "minecolonies:blockhutuniversity"
 				count: 1
@@ -171,7 +171,7 @@
 		{
 			id: "3128D00D510F86AC"
 			x: 4.5d
-			y: 2.5d
+			y: -1.25d
 			icon: {
 				id: "minecolonies:blockhuttavern"
 				count: 1
@@ -212,7 +212,7 @@
 		{
 			id: "1A706D39C73346D7"
 			x: 6.0d
-			y: 0.0d
+			y: -2.5d
 			shape: "gear"
 			icon: {
 				id: "minecolonies:colony_banner"
@@ -233,6 +233,346 @@
 					id: "10E3ED7D2416A851"
 					type: "xp_levels"
 					xp_levels: 10
+				}
+			]
+		}
+		{
+			id: "31629F0187879119"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "structurize:sceptergold"
+				count: 1
+			}
+			dependencies: [
+				"68A40D4402EEB3F1"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "1F6B7AAAB601747D"
+					type: "item"
+					item: {
+						count: 1
+						id: "structurize:sceptergold"
+					}
+				}
+			]
+		}
+		{
+			id: "0C500D94482BC31D"
+			x: 4.5d
+			y: 1.25d
+			icon: {
+				id: "minecolonies:blockhutwarehouse"
+				count: 1
+			}
+			dependencies: [
+				"68A40D4402EEB3F1"
+			]
+			tasks: [
+				{
+					id: "6E061E8337161DA2"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutwarehouse"
+					}
+				}
+				{
+					id: "6FC365601291402D"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutdeliveryman"
+					}
+				}
+			]
+		}
+		{
+			id: "2A25F70A883FD806"
+			x: 4.5d
+			y: 2.5d
+			icon: {
+				id: "minecolonies:blockhutlumberjack"
+				count: 1
+			}
+			dependencies: [
+				"68A40D4402EEB3F1"
+			]
+			tasks: [
+				{
+					id: "7590F0B547F7F9AC"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutlumberjack"
+					}
+				}
+			]
+		}
+		{
+			id: "35775EEABB31E72C"
+			x: 4.5d
+			y: 3.75d
+			icon: {
+				id: "minecolonies:blockhutminer"
+				count: 1
+			}
+			dependencies: [
+				"68A40D4402EEB3F1"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "2298B82E5AFF2CD2"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutminer"
+					}
+				}
+			]
+		}
+		{
+			id: "75EC4D5698FC2F8A"
+			x: 4.5d
+			y: 5.0d
+			icon: {
+				id: "minecolonies:blockhutfisherman"
+				count: 1
+			}
+			dependencies: [
+				"68A40D4402EEB3F1"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "55B7D45ECAEF9CE1"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutfisherman"
+					}
+				}
+			]
+		}
+		{
+			id: "709BD9478FFC95A5"
+			x: 4.5d
+			y: 6.25d
+			icon: {
+				id: "minecolonies:blockhutcowboy"
+				count: 1
+			}
+			dependencies: [
+				"68A40D4402EEB3F1"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "3A98ECE8C38587FC"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutcowboy"
+					}
+				}
+				{
+					id: "611AA40C0B15A989"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutshepherd"
+					}
+				}
+			]
+		}
+		{
+			id: "6D716CFDB6533D8D"
+			x: 6.0d
+			y: -1.25d
+			icon: {
+				id: "minecolonies:blockhutsmeltery"
+				count: 1
+			}
+			dependencies: [
+				"0C500D94482BC31D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "092AC3CA298DF9FA"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutsmeltery"
+					}
+				}
+				{
+					id: "3DFB12D041A53F73"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutblacksmith"
+					}
+				}
+			]
+		}
+		{
+			id: "215D51C751B21BDD"
+			x: 6.0d
+			y: 0.0d
+			icon: {
+				id: "minecolonies:blockhuthospital"
+				count: 1
+			}
+			dependencies: [
+				"0C500D94482BC31D"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "2F01D3B9ACA30B6A"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhuthospital"
+					}
+				}
+			]
+		}
+		{
+			id: "6E16091A853C2E58"
+			x: 6.0d
+			y: 1.25d
+			icon: {
+				id: "minecolonies:blockhutlibrary"
+				count: 1
+			}
+			dependencies: [
+				"15EA1D5A0184FB40"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "7E5E7F65B88E5025"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutlibrary"
+					}
+				}
+			]
+		}
+		{
+			id: "032164E8868189BE"
+			x: 7.5d
+			y: -0.625d
+			icon: {
+				id: "minecolonies:blockhutenchanter"
+				count: 1
+			}
+			dependencies: [
+				"6E16091A853C2E58"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "12C670113459091E"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutenchanter"
+					}
+				}
+			]
+		}
+		{
+			id: "2EDF7718966F865E"
+			x: 7.5d
+			y: 0.625d
+			icon: {
+				id: "minecolonies:blockhutalchemist"
+				count: 1
+			}
+			dependencies: [
+				"6E16091A853C2E58"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "57D73B520E629727"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutalchemist"
+					}
+				}
+			]
+		}
+		{
+			id: "5FF1BE65A592559C"
+			x: 6.0d
+			y: 2.5d
+			icon: {
+				id: "minecolonies:blockhutbarracks"
+				count: 1
+			}
+			dependencies: [
+				"18D3669431D9E42A"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "33C1AA4EC0B589A8"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutbarracks"
+					}
+				}
+			]
+		}
+		{
+			id: "7DF2E728DC9D5076"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "mca:engagement_ring"
+				count: 1
+			}
+			dependencies: [
+				"5E28B4759F897AD5"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "7F1D28EF4159FD7C"
+					type: "item"
+					item: {
+						count: 1
+						id: "mca:engagement_ring"
+					}
+				}
+			]
+		}
+		{
+			id: "076FE4C58EDAB8E3"
+			x: 1.5d
+			y: 1.25d
+			icon: {
+				id: "easy_villagers:villager"
+				count: 1
+			}
+			dependencies: [
+				"5E28B4759F897AD5"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "679395086A8EE838"
+					type: "checkmark"
 				}
 			]
 		}

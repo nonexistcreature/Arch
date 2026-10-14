@@ -152,6 +152,27 @@
 		"hostile mobs won't spawn in a big radius around it."
 		"Your claims and the Haven are already protected — this is for new places."
 	]
+	quest.0EECEE5A77DBE4F4.title: "The Miner's Path"
+	quest.0EECEE5A77DBE4F4.quest_desc: [
+		"The mining tree: dig faster, more ore, night vision underground. Grows by mining ore."
+	]
+	quest.49A24043E10608D2.title: "The Cook's Path"
+	quest.49A24043E10608D2.quest_desc: [
+		"The cooking tree: dishes buff for longer, food fills more. Grows by cooking."
+	]
+	quest.0665A88330D8BDE5.title: "The Farmer's Path"
+	quest.0665A88330D8BDE5.quest_desc: [
+		"The farming tree: bigger harvests, double-drop chance, faster growth around you."
+	]
+	quest.417847C383096E06.title: "The Warrior's Path"
+	quest.417847C383096E06.quest_desc: [
+		"The combat tree: more damage, health and armour. Grows by fighting enemies."
+	]
+	quest.49609C8E1769CAB2.title: "The Traveler's Charm"
+	quest.49609C8E1769CAB2.quest_desc: [
+		"While the charm is in your inventory, enemies notice you at half the distance. For walkers, not fighters."
+		"Recipe: string, lavender, emerald, feather."
+	]
 	chapter.189EA59915A6A7C6.title: "First Steps"
 	chapter.189EA59915A6A7C6.chapter_subtitle: [
 		"Home, food, tools — and no rush"
@@ -251,6 +272,38 @@
 	quest.3167C5A5C262D22D.quest_desc: [
 		"The basics are done. Open any chapter next — kitchen, garden, machines, magic, adventure — each has its own thing."
 		"You don't have to do everything. Do what you enjoy and &ldrop by your friends&r — they probably need your help."
+	]
+	quest.7BD784A262A4F208.title: "A Shield"
+	quest.7BD784A262A4F208.quest_desc: [
+		"A shield blocks hits and arrows. Useful even in the calm lands — just in case."
+	]
+	quest.04645A8752811DB8.title: "A Diamond Pickaxe"
+	quest.04645A8752811DB8.quest_desc: [
+		"Diamonds lie deep, below height zero. Remember: deep caves are &lthe wilds&r."
+	]
+	quest.1A2098FF68A8F3F1.title: "Backpack Upgrades"
+	quest.1A2098FF68A8F3F1.quest_desc: [
+		"Pickup puts loot straight into the backpack, the magnet pulls items in. Digging gets easier."
+	]
+	quest.73D46902670D5A7C.title: "Auto-Feeding"
+	quest.73D46902670D5A7C.quest_desc: [
+		"The backpack feeds you from its contents when you get hungry."
+	]
+	quest.4A13AADDAB2AE3C8.title: "The Iron Backpack"
+	quest.4A13AADDAB2AE3C8.quest_desc: [
+		"More slots and more upgrade space. Next come gold, diamond and netherite."
+	]
+	quest.7C58537A359FA5A6.title: "The Warp Stone"
+	quest.7C58537A359FA5A6.quest_desc: [
+		"A reusable teleport to any waystone you've found. The handiest way home."
+	]
+	quest.01DD1D53DF25CA6A.title: "Carry a Chest"
+	quest.01DD1D53DF25CA6A.quest_desc: [
+		"Carry On: crouch with empty hands and click a chest or animal — you'll pick it up whole."
+	]
+	quest.1D2C45BEDF6DAD9C.title: "The Hammock"
+	quest.1D2C45BEDF6DAD9C.quest_desc: [
+		"Nap through the day until evening. For night-walk lovers."
 	]
 	chapter.62C3EC2B524D9932.title: "Kitchen & Tavern"
 	chapter.62C3EC2B524D9932.chapter_subtitle: [
@@ -892,6 +945,34 @@
 		"Tick the quest once a third of the species are in the journal. Legendary fish wait in \"Collections\"."
 		"&lValued by:&r alchemists and mages — rare fish go into their recipes."
 	]
+	quest.5F473F9F3E8F5EF4.title: "The Angling Table"
+	quest.5F473F9F3E8F5EF4.quest_desc: [
+		"Here you build a rod: pole, line, hook and bobber. Each part changes how the tackle behaves."
+	]
+	quest.45CF406C62919035.title: "The Golden Rod"
+	quest.45CF406C62919035.quest_desc: [
+		"Raises the chance of rare fish and treasure."
+	]
+	quest.47531F258913D839.title: "The Diamond Rod"
+	quest.47531F258913D839.quest_desc: [
+		"Fish slip off less often, legendary species bite more."
+	]
+	quest.2CAAF7B984EE8DCE.title: "Ice Fishing"
+	quest.2CAAF7B984EE8DCE.quest_desc: [
+		"The permafrost hook fishes under ice. Cold waters hold their own special fish."
+	]
+	quest.1A48F0C1E0815E52.title: "Void Fishing"
+	quest.1A48F0C1E0815E52.quest_desc: [
+		"The void hook fishes the End's abyss. The strangest fish in the world."
+	]
+	quest.1FB9BA2B85926335.title: "Neptunium"
+	quest.1FB9BA2B85926335.quest_desc: [
+		"From Neptune's Bounty chests comes neptunium. Underwater armour and weapons."
+	]
+	quest.18B2199085A4FF74.title: "The Tackle Box"
+	quest.18B2199085A4FF74.quest_desc: [
+		"Holds hooks, bait and line. An angler's order."
+	]
 	chapter.42BEE9E4256E795A.title: "Create: Mechanics"
 	chapter.42BEE9E4256E795A.chapter_subtitle: [
 		"Rotation that does everything"
@@ -1178,6 +1259,50 @@
 		"A winch with a rope pulls one build toward another: tows a car, lowers cargo from an airship, holds a bridge."
 		"Boarding and cable-car quests are in the \"Weapons & Gear\" chapter."
 	]
+	quest.4B89702C281986E7.title: "Big Wheels"
+	quest.4B89702C281986E7.quest_desc: [
+		"Large tyres carry heavy vehicles off-road: a truck, an all-terrain rover, a mobile base."
+	]
+	quest.408A8ED8412F2D83.title: "The Tunnel Borer"
+	quest.408A8ED8412F2D83.quest_desc: [
+		"A borehead on a wheeled machine cuts through mountains. Dig a tunnel between bases — then run a train through it."
+	]
+	quest.0E9340588AEF41F4.title: "The Engine"
+	quest.0E9340588AEF41F4.quest_desc: [
+		"An engine assembly needs &laero lubricant&r: fish oil (angler) or TFMG/IE lubricant (engineer). No powerful planes without it."
+	]
+	quest.14BB3D3AFFEE65C9.title: "The Smart Propeller"
+	quest.14BB3D3AFFEE65C9.quest_desc: [
+		"A gyro-stabilised propeller keeps the build level. Without it a big ship sways and spins."
+	]
+	quest.410A0B4DB02A6E21.title: "Airship Envelope"
+	quest.410A0B4DB02A6E21.quest_desc: [
+		"Envelopes hold hot air. &lWaxed canvas&r (the breeder's beeswax) makes three times as many."
+	]
+	quest.6A34014B73F8BCC2.title: "The Altitude Sensor"
+	quest.6A34014B73F8BCC2.quest_desc: [
+		"Signals by altitude — an autopilot keeps the airship at the height you want."
+	]
+	quest.17ACF815BAF33888.title: "The Navigation Table"
+	quest.17ACF815BAF33888.quest_desc: [
+		"Plots a course to a point — the ship flies itself. Haul cargo between bases on a schedule."
+	]
+	quest.28AADDB1A7758B1D.title: "Docking"
+	quest.28AADDB1A7758B1D.quest_desc: [
+		"Docking connectors lock a ship to a dock or another ship. Build a port in the sky."
+	]
+	quest.04820B0D68A5E446.title: "The Gyrodyne"
+	quest.04820B0D68A5E446.quest_desc: [
+		"A pedal-powered flyer — it runs on your own effort. Funny and useful."
+	]
+	quest.17868DEAA2C48847.title: "A Ready-Made Airship"
+	quest.17868DEAA2C48847.quest_desc: [
+		"The Immersive Aircraft airship — slow but roomy and simple. Great for first expeditions."
+	]
+	quest.0AD4DFA0CA5501B3.title: "The Warship"
+	quest.0AD4DFA0CA5501B3.quest_desc: [
+		"Create Big Cannons on an airship, plated with dragon armour. Tick when the ship fires its first broadside."
+	]
 	chapter.78D5E7433029BED0.title: "Mekanism & the Atom"
 	chapter.78D5E7433029BED0.chapter_subtitle: [
 		"From the enrichment chamber to fusion"
@@ -1405,6 +1530,70 @@
 		"&lHow to fight it:&r forests and flowers absorb pollution; filters and tall stacks disperse it; electricity is cleaner than diesel."
 		"&lTip:&r keep heavy industry far from the gardener's farm — and the friendship survives."
 	]
+	quest.2AD96C483D33D856.title: "Treated Wood"
+	quest.2AD96C483D33D856.quest_desc: [
+		"Planks soaked in creosote from the coke oven. Used for power poles, windmills and handsome industrial builds."
+	]
+	quest.7AFF934DCA0E6570.title: "Wires and Connectors"
+	quest.7AFF934DCA0E6570.quest_desc: [
+		"String copper wire between connectors and power flows through the air. Wire cutters take it down again."
+	]
+	quest.4FBD2D0E83BE60B4.title: "The Capacitor"
+	quest.4FBD2D0E83BE60B4.quest_desc: [
+		"Stores IE power. Place it between generator and consumers to smooth out the wind."
+	]
+	quest.5483FBF5D1816A4C.title: "Engineering Components"
+	quest.5483FBF5D1816A4C.quest_desc: [
+		"Iron and steel components — gears and springs for IE multiblocks. Made at the engineer's workbench."
+	]
+	quest.328FDBEF228A8FFE.title: "Engineering Blocks"
+	quest.328FDBEF228A8FFE.quest_desc: [
+		"Light and heavy engineering blocks — the bricks of big machines: the press, arc furnace, excavator."
+	]
+	quest.5C46F0227CB6505C.title: "The IE Crusher"
+	quest.5C46F0227CB6505C.quest_desc: [
+		"A huge crusher doubles ore and grinds everything. Build it from the manual and tick the quest."
+	]
+	quest.3E2D9D8E886F6C84.title: "The Arc Furnace"
+	quest.3E2D9D8E886F6C84.quest_desc: [
+		"Smelts alloys and ore with electricity and graphite electrodes. IE's most spectacular machine."
+	]
+	quest.2F616E00AAE960B1.title: "The Excavator"
+	quest.2F616E00AAE960B1.quest_desc: [
+		"A giant wheel over an ore vein mines forever. Worth building as a whole group."
+	]
+	quest.59FAF5536B9FD537.title: "The Engineer's Revolver"
+	quest.59FAF5536B9FD537.quest_desc: [
+		"IE's upgradeable revolver with barrels and cylinders. Ammo is made at an assembler."
+	]
+	quest.3046392D71FAC550.title: "The Skyhook"
+	quest.3046392D71FAC550.quest_desc: [
+		"Hook onto a wire and ride it like a zip line. Wires between bases become roads."
+	]
+	quest.1329CEFC5DE03CC2.title: "The Diesel Generator"
+	quest.1329CEFC5DE03CC2.quest_desc: [
+		"A big generator burning diesel. Powerful — but it &lpollutes the air&r. Think about filters and trees around it."
+	]
+	quest.5C51AE40CD1103E9.title: "Asphalt"
+	quest.5C51AE40CD1103E9.quest_desc: [
+		"Asphalt roads speed you up. Lay a highway between bases."
+	]
+	quest.2C47CC784D3B70E5.title: "The Speedboat"
+	quest.2C47CC784D3B70E5.quest_desc: [
+		"A fast gasoline boat. With an icebreaker it handles ice too."
+	]
+	quest.35E236DBFB93865C.title: "TFMG Steel"
+	quest.35E236DBFB93865C.quest_desc: [
+		"TFMG's blast furnace with a stove pours molten steel into moulds. Steel is shared — Almost Unified makes it one item across mods."
+	]
+	quest.6E091F8E2D5D5FBC.title: "Plastic"
+	quest.6E091F8E2D5D5FBC.quest_desc: [
+		"Oil fractions make plastic. Needed for electronics and modern machines."
+	]
+	quest.64C0EDFF9ABD667E.title: "Lithium"
+	quest.64C0EDFF9ABD667E.quest_desc: [
+		"Lithium ore — for TFMG batteries and electric motors."
+	]
 	chapter.1CB608F08E9C4FA8.title: "Storage"
 	chapter.1CB608F08E9C4FA8.chapter_subtitle: [
 		"AE2: from a chest to autocrafting"
@@ -1453,6 +1642,54 @@
 	quest.768779FCB55BCD1C.quest_subtitle: "Applied Mekanistics"
 	quest.768779FCB55BCD1C.quest_desc: [
 		"With Applied Mekanistics the network stores Mekanism &lgases and chemicals&r. Autocraft osmium, steel and fuel without running around."
+	]
+	quest.36C60720F4EA9E96.title: "The Meteorite Compass"
+	quest.36C60720F4EA9E96.quest_desc: [
+		"The compass points to the nearest AE2 meteorite. Inside are the processor presses. AE2 can't start without them."
+	]
+	quest.653961AE9D19159C.title: "The Charger"
+	quest.653961AE9D19159C.quest_desc: [
+		"Charges quartz with energy. Charged quartz is needed for fluix."
+	]
+	quest.48D500566B41A653.title: "Smart Cable"
+	quest.48D500566B41A653.quest_desc: [
+		"Smart cable shows used channels with lights. You can see at a glance where the network is full."
+	]
+	quest.7717FF8FC0B79B80.title: "Network Power"
+	quest.7717FF8FC0B79B80.quest_desc: [
+		"An energy cell stores AE2 network power — handy during outages."
+	]
+	quest.75C0981B7AE66C1D.title: "Buses"
+	quest.75C0981B7AE66C1D.quest_desc: [
+		"Import pulls from machines into the network, export pushes out, a storage bus plugs ordinary chests into the network."
+	]
+	quest.03E39F53E8961A2C.title: "The Level Emitter"
+	quest.03E39F53E8961A2C.quest_desc: [
+		"Signals when an item falls below a set amount — the way to run farms and machines on demand."
+	]
+	quest.131997C73B90D11E.title: "A 64k Cell"
+	quest.131997C73B90D11E.quest_desc: [
+		"Cells grow: 1k, 4k, 16k, 64k, 256k. The MEGA Cells addon goes even bigger."
+	]
+	quest.612AB2506CB12DF7.title: "The Pattern Provider"
+	quest.612AB2506CB12DF7.quest_desc: [
+		"A provider sends ingredients into any machine — Create crusher, Mekanism enricher, furnace — and waits for the result."
+	]
+	quest.00AEBF840B10042D.title: "Crafting Accelerators"
+	quest.00AEBF840B10042D.quest_desc: [
+		"Accelerators let the crafting CPU run many steps in parallel."
+	]
+	quest.2455CEB25DAAB7EF.title: "P2P Tunnels"
+	quest.2455CEB25DAAB7EF.quest_desc: [
+		"A tunnel carries channels, energy or fluids through one cable. Magic for a tidy base."
+	]
+	quest.6C6304EB044AF2D3.title: "MEGA Cells"
+	quest.6C6304EB044AF2D3.quest_desc: [
+		"MEGA cell housings store millions of items. The end of storage problems."
+	]
+	quest.1D7B9B84D2EEFDDE.title: "The Extended Provider"
+	quest.1D7B9B84D2EEFDDE.quest_desc: [
+		"ExtendedAE: a provider with 36 patterns. For huge factories."
 	]
 	chapter.40872413A59558AE.title: "Ars Nouveau"
 	chapter.40872413A59558AE.chapter_subtitle: [
@@ -1526,6 +1763,71 @@
 		"With Ars Creo starbuncles turn Create wheels and spells work inside contraptions."
 		"It's a bridge between the mage's tower and the engineer's workshop. Build something together!"
 	]
+	quest.677C27BAE7F82E5C.title: "The Dowsing Rod"
+	quest.677C27BAE7F82E5C.quest_desc: [
+		"The rod highlights nearby Source blocks — helps find where to put sourcelinks."
+	]
+	quest.6B1AE1B499DAEBEF.title: "Magebloom"
+	quest.6B1AE1B499DAEBEF.quest_desc: [
+		"Magebloom grows like an ordinary crop. Its fibre makes mage robes. A gardener can grow it for you."
+	]
+	quest.2B62BAEEEC251847.title: "The Four Elements"
+	quest.2B62BAEEEC251847.quest_desc: [
+		"Fire, water, earth and air essences come from the imbuement chamber. They go into glyphs and gear."
+	]
+	quest.641B4C6B4F82C9E9.title: "The Imbuement Chamber"
+	quest.641B4C6B4F82C9E9.quest_desc: [
+		"The chamber infuses items with Source: lapis → source gem, amethyst → ward crystal."
+		"It also makes &llevitite&r for engineers!"
+	]
+	quest.03B748F649B91F40.title: "The Volcanic Sourcelink"
+	quest.03B748F649B91F40.quest_desc: [
+		"Source from burning fuel and nearby lava."
+	]
+	quest.58097CE85FFDA488.title: "The Vitalic Sourcelink"
+	quest.58097CE85FFDA488.quest_desc: [
+		"Source from animals being born nearby. Place it by the breeder's pens and magic flows."
+	]
+	quest.0FD04222AFCD4D58.title: "The Alchemical Sourcelink"
+	quest.0FD04222AFCD4D58.quest_desc: [
+		"Source from potions. The alchemist gives spare potions, the mage gets mana."
+	]
+	quest.7228CAAC64556133.title: "The Relay"
+	quest.7228CAAC64556133.quest_desc: [
+		"Moves Source between jars at a distance. Magical wiring."
+	]
+	quest.6E24501F5DDB485C.title: "Archmage"
+	quest.6E24501F5DDB485C.quest_desc: [
+		"The archmage book unlocks tier-three glyphs and maximum mana. The peak of Ars Nouveau."
+	]
+	quest.658707DB87E893AB.title: "The Wixie"
+	quest.658707DB87E893AB.quest_desc: [
+		"A wixie crafts items and potions from a sample. A little alchemist on call."
+	]
+	quest.6B966748AE6AB149.title: "The Drygmy"
+	quest.6B966748AE6AB149.quest_desc: [
+		"A drygmy collects mob drops from a pen without killing. A peaceful resource farm."
+	]
+	quest.12E80AFF249EC3C8.title: "The Whirlisprig"
+	quest.12E80AFF249EC3C8.quest_desc: [
+		"Speeds up plant growth around it and makes Source. The gardener's best friend."
+	]
+	quest.0CD69A9B09F54808.title: "Magical Jewellery"
+	quest.0CD69A9B09F54808.quest_desc: [
+		"Rings and amulets raise your mana pool and lower spell costs."
+	]
+	quest.09E9C69607F1C726.title: "The Belt of Levitation"
+	quest.09E9C69607F1C726.quest_desc: [
+		"Crouch in mid-air and you hover. Tower builders will love it."
+	]
+	quest.75F214C699D14F96.title: "The Wilden"
+	quest.75F214C699D14F96.quest_desc: [
+		"Horn, spike and wing of Ars wilden creatures — for the ritual that summons the Wilden Chimera. The mage's boss."
+	]
+	quest.26441D1B5F1BFDE4.title: "An Elemental Focus"
+	quest.26441D1B5F1BFDE4.quest_desc: [
+		"Ars Elemental: a school focus empowers spells of one element. Pick yours."
+	]
 	chapter.543CD5142769B82D.title: "Iron's Spells"
 	chapter.543CD5142769B82D.chapter_subtitle: [
 		"Schools of battle magic"
@@ -1580,6 +1882,38 @@
 		"Towers and camps of hostile mages dot the world — necromancers, pyromancers, cultists. This is &lzone 3&r."
 		"Beating them yields rare books, inks and school trophies. Go as a group and bring food."
 	]
+	quest.59DAC3A798675F2C.title: "Mithril"
+	quest.59DAC3A798675F2C.quest_desc: [
+		"Mithril ore lies deep underground. It makes the best spellbooks and mage armour."
+	]
+	quest.4C4770E1F9711E9D.title: "The Arcane Ingot"
+	quest.4C4770E1F9711E9D.quest_desc: [
+		"Mithril + arcane essence = an arcane ingot. The base of advanced books."
+	]
+	quest.0BE46ED673E89342.title: "School Books"
+	quest.0BE46ED673E89342.quest_desc: [
+		"The fire, ice and druidic books each boost their school. Pick one for your favourite spells."
+	]
+	quest.79520F0703E2D1D3.title: "Mage Rings"
+	quest.79520F0703E2D1D3.quest_desc: [
+		"Mana ring, cooldown ring, affinity ring — accessory slots for mages."
+	]
+	quest.4881E593675BEAC3.title: "Rare Ink"
+	quest.4881E593675BEAC3.quest_desc: [
+		"Better ink makes stronger scrolls. Ink is brewed in the alchemist's cauldron from common ink and essences."
+	]
+	quest.3990DF9B5753B506.title: "The Teleportation Amulet"
+	quest.3990DF9B5753B506.quest_desc: [
+		"Strengthens movement spells. An instant dash across a ravine — priceless."
+	]
+	quest.62EC5608FBE429B5.title: "The Dead King"
+	quest.62EC5608FBE429B5.quest_desc: [
+		"The undead king sleeps in a crypt underground. Defeating him is the magic branch's greatest trophy."
+	]
+	quest.161358A8E5F7983F.title: "The Jewelcrafting Station"
+	quest.161358A8E5F7983F.quest_desc: [
+		"Iron's Jewelry: rings and necklaces set with rubies, sapphires and topaz — each with its own bonus."
+	]
 	chapter.38CD7CF2D4519A5D.title: "Occultism"
 	chapter.38CD7CF2D4519A5D.chapter_subtitle: [
 		"Rituals and spirit workers"
@@ -1629,6 +1963,42 @@
 	quest.33B194723B40588C.quest_subtitle: "A spirit of fire"
 	quest.33B194723B40588C.quest_desc: [
 		"The afrit is a dangerous, powerful spirit. Summoning it is a trial; the reward is access to the strongest rituals."
+	]
+	quest.4F522F244FA7F524.title: "Demon's Dream"
+	quest.4F522F244FA7F524.quest_desc: [
+		"Eat it and you see the Otherworld: hidden ores and trees. The effect lasts a few minutes."
+	]
+	quest.23BB481071838C9B.title: "Otherworld Goggles"
+	quest.23BB481071838C9B.quest_desc: [
+		"See the Otherworld all the time, no potion needed. Handy for mining iesnium."
+	]
+	quest.11F2CEF5CA17E371.title: "The Otherworld Tree"
+	quest.11F2CEF5CA17E371.quest_desc: [
+		"Special trees grow from the Otherworld — their wood is needed for rituals. A gardener can help grow a grove."
+	]
+	quest.20E03685BC9E6B17.title: "Iesnium"
+	quest.20E03685BC9E6B17.quest_desc: [
+		"The Otherworld's metal. It makes a pickaxe that sees hidden ores and the Occultism anvil."
+	]
+	quest.5B4F4EBBEDCAE623.title: "The Divination Rod"
+	quest.5B4F4EBBEDCAE623.quest_desc: [
+		"Finds a chosen block — ore, crystals — at long range."
+	]
+	quest.38FFF53198F0B11A.title: "A Familiar"
+	quest.38FFF53198F0B11A.quest_desc: [
+		"Summon a familiar — a spirit companion granting night vision, protection or speed. It lives in a ring."
+	]
+	quest.7E7BA6520B7760EB.title: "The Cleaner Spirit"
+	quest.7E7BA6520B7760EB.quest_desc: [
+		"Collects dropped items in its area and puts them in a chest. A tidy farm."
+	]
+	quest.2482B81DD409A7CA.title: "The Transporter Spirit"
+	quest.2482B81DD409A7CA.quest_desc: [
+		"Carries items from one chest to another. Logistics without pipes."
+	]
+	quest.570A419BD05A6077.title: "The Machine Djinni"
+	quest.570A419BD05A6077.quest_desc: [
+		"A djinni runs a machine: loads ingredients and collects results from magical storage."
 	]
 	chapter.6F2A8A724E748B44.title: "Alchemy"
 	chapter.6F2A8A724E748B44.chapter_subtitle: [
@@ -1701,6 +2071,30 @@
 	quest.31625BC464DBB176.quest_desc: [
 		"Set up a potion display for your friends. Everyone needs you — from cook to warrior."
 		"&lTip:&r milk clears every effect, good or bad. Carry a bucket for emergencies."
+	]
+	quest.11474F8C95A5E393.title: "The Potion of Healing"
+	quest.11474F8C95A5E393.quest_desc: [
+		"Glistering melon (from the gardener) → healing potions. A must in every warrior's bag."
+	]
+	quest.7C9D175FDA380D93.title: "Fire Resistance"
+	quest.7C9D175FDA380D93.quest_desc: [
+		"Magma cream → fire resistance. Your pass to the Nether and lava fishing."
+	]
+	quest.4FB4B154BE3A7A58.title: "Night Vision"
+	quest.4FB4B154BE3A7A58.quest_desc: [
+		"Golden carrot → night vision. Miners and anglers will thank you."
+	]
+	quest.4D893299F364F7FE.title: "Longer and Stronger"
+	quest.4D893299F364F7FE.quest_desc: [
+		"Redstone extends a potion, glowstone strengthens it, gunpowder makes it splash, dragon's breath makes it linger."
+	]
+	quest.4FCD47C6DC0C521C.title: "Milk, the Universal Cure"
+	quest.4FCD47C6DC0C521C.quest_desc: [
+		"A bucket of milk clears every effect. Every world debuff has at least two counters — and milk is always one of them."
+	]
+	quest.51730512DD377681.title: "The Witch's Cauldron"
+	quest.51730512DD377681.quest_desc: [
+		"Toil and Trouble turns the plain cauldron into an alchemical one: fill it with milk, honey or slime and brew mixtures."
 	]
 	chapter.7D28E0E94CE0CCF8.title: "Adventure"
 	chapter.7D28E0E94CE0CCF8.chapter_subtitle: [
@@ -1799,6 +2193,82 @@
 	quest.20B6AA7E95CCB7D5.quest_desc: [
 		"The Nether, the Twilight Forest and the Aether are behind you. Boss trophies feed the &lGreat Works&r — bring them home."
 	]
+	quest.1957C1B40843F000.title: "A Roadside Tavern"
+	quest.1957C1B40843F000.quest_desc: [
+		"Dungeons and Taverns: the world has taverns with traders and maps to dungeons. A safe place to rest."
+	]
+	quest.5A77759DFBE67C95.title: "Living Villages"
+	quest.5A77759DFBE67C95.quest_desc: [
+		"CTOV villages differ in every biome, and MCA villagers have names and personalities. Make friends."
+	]
+	quest.1259337CB58F1C9E.title: "Ironwood"
+	quest.1259337CB58F1C9E.quest_desc: [
+		"Ironwood ingots make the Twilight Forest's first armour."
+	]
+	quest.2E1D43BB1E766B59.title: "The Minoshroom"
+	quest.2E1D43BB1E766B59.quest_desc: [
+		"A labyrinth under the swamp, and at its heart the Minoshroom. Its axe is a great weapon."
+	]
+	quest.3900D125095728FD.title: "The Knight Phantoms"
+	quest.3900D125095728FD.quest_desc: [
+		"The phantom knights' stronghold. Knightmetal makes the forest's toughest armour."
+	]
+	quest.5AA2916146AB0FE5.title: "The Ur-Ghast"
+	quest.5AA2916146AB0FE5.quest_desc: [
+		"The Dark Tower and its weeping guardian. Its tears forge fiery ingots."
+	]
+	quest.78AFBA41AFAA0319.title: "The Twilight Snows"
+	quest.78AFBA41AFAA0319.quest_desc: [
+		"The Alpha Yeti and the Snow Queen — the finale of the forest's frozen lands."
+	]
+	quest.73113DD67E148277.title: "Zanite"
+	quest.73113DD67E148277.quest_desc: [
+		"The Aether's blue gemstone. Zanite tools get stronger as they wear."
+	]
+	quest.0B1C9822CA3D917F.title: "The Valkyrie Queen"
+	quest.0B1C9822CA3D917F.quest_desc: [
+		"The silver dungeon and its queen. Her lance strikes from far away."
+	]
+	quest.13F13D09D97F5AFC.title: "The Sun Spirit"
+	quest.13F13D09D97F5AFC.quest_desc: [
+		"The Aether's gold dungeon and its fiery master. The sky world's finale."
+	]
+	quest.7D35BB7FBDAEF93B.title: "Undergarden Metals"
+	quest.7D35BB7FBDAEF93B.quest_desc: [
+		"Cloggrum, froststeel and forgotten metal — they make weapons against Undergarden beasts."
+	]
+	quest.3D37C20ACFC1671F.title: "The Reinforced Echo Shard"
+	quest.3D37C20ACFC1671F.quest_desc: [
+		"The Otherside's most precious prize. It makes gear stronger than netherite."
+	]
+	quest.20D49507FD947801.title: "Ignis"
+	quest.20D49507FD947801.quest_desc: [
+		"The flaming knight of the Burning Arena. Ignitium armour — fire resistance forever."
+	]
+	quest.665F15D3591B91CB.title: "The Ender Guardian"
+	quest.665F15D3591B91CB.quest_desc: [
+		"An ancient golem guards ruins in the End. Go as a group."
+	]
+	quest.591B863A25456EA2.title: "The Leviathan"
+	quest.591B863A25456EA2.quest_desc: [
+		"The monster of the sunken city. Don't go without Sea Wolf and water breathing."
+	]
+	quest.5CDB9F3F46E94031.title: "The Frostmaw"
+	quest.5CDB9F3F46E94031.quest_desc: [
+		"A giant snow beast sleeps in the frozen wastes. Its ice crystal grants frost breath."
+	]
+	quest.34C186A7C66EB616.title: "Umvuthi"
+	quest.34C186A7C66EB616.quest_desc: [
+		"The chief of masks in the savanna. The Sol Visage unleashes solar strikes."
+	]
+	quest.2D00EB21A23B01B1.title: "Lord Pumpkinhead"
+	quest.2D00EB21A23B01B1.quest_desc: [
+		"Born in Chaos: a Halloween rider appears in the wilds at night. Scary and fun."
+	]
+	quest.1079865D0DAE982A.title: "Honey Crystals"
+	quest.1079865D0DAE982A.quest_desc: [
+		"Honey crystals grow in the Bumblezone — for decor and potions."
+	]
 	chapter.4499A461977E88CA.title: "Weapons & Gear"
 	chapter.4499A461977E88CA.chapter_subtitle: [
 		"Swords, guns, cannons and grappling hooks"
@@ -1860,6 +2330,42 @@
 	quest.56E88A8B20052C07.quest_subtitle: "Sword, gun, cannon, hook"
 	quest.56E88A8B20052C07.quest_desc: [
 		"You're ready for anything. Remember the calm zones: home is peaceful; adventure is where you go looking for it."
+	]
+	quest.2B3DDC04AF68D471.title: "The Katana"
+	quest.2B3DDC04AF68D471.quest_desc: [
+		"Fast strikes and long combos. For those who love speed."
+	]
+	quest.50FA3AD9E3473F0B.title: "The Glaive"
+	quest.50FA3AD9E3473F0B.quest_desc: [
+		"A long polearm — strikes from afar and hits several foes."
+	]
+	quest.43419A8748AA7E13.title: "The Twinblade"
+	quest.43419A8748AA7E13.quest_desc: [
+		"Spinning strikes all around you. Good against crowds."
+	]
+	quest.4E186D831A313D5E.title: "A Diamond Blade"
+	quest.4E186D831A313D5E.quest_desc: [
+		"Every Simply Swords weapon comes in iron, diamond and netherite. Unique blades hide in dungeons."
+	]
+	quest.45F020A202618B2C.title: "A Netherite Blade"
+	quest.45F020A202618B2C.quest_desc: [
+		"An upgrade template + netherite — and a weapon for life."
+	]
+	quest.508564D2E50AB706.title: "Ammunition"
+	quest.508564D2E50AB706.quest_desc: [
+		"Ammo is made at the gunsmith table from brass and gunpowder. Ask the engineer to set up a Create line."
+	]
+	quest.1428749F03E36AA4.title: "Shot and Charges"
+	quest.1428749F03E36AA4.quest_desc: [
+		"A cannon needs shot and powder charges. More charges mean a longer shot."
+	]
+	quest.18BE845C1AC2CF5A.title: "The Rocket Hook"
+	quest.18BE845C1AC2CF5A.quest_desc: [
+		"A rocket pulls you along the rope even faster. Flying over a canyon — unforgettable."
+	]
+	quest.35DC60B73DD268F7.title: "Long Fall Boots"
+	quest.35DC60B73DD268F7.quest_desc: [
+		"No fall damage. With a hook — freedom in the mountains."
 	]
 	chapter.6B5C9EE747778BF3.title: "Elements & Defence"
 	chapter.6B5C9EE747778BF3.chapter_subtitle: [
@@ -1962,6 +2468,26 @@
 		"A tier II ward protects 64 blocks, blocks rifts and needs crystals made from &ltech and magic&r — engineer and mage together."
 		"The world is still alive, but it no longer scares you."
 	]
+	quest.48D3C139931CF8D9.title: "The Tornado Siren"
+	quest.48D3C139931CF8D9.quest_desc: [
+		"Wails when a tornado approaches the base. Put it by your bed — it'll wake you in time."
+	]
+	quest.58D49D8AFEC2510E.title: "The Tornado Sensor"
+	quest.58D49D8AFEC2510E.quest_desc: [
+		"Gives a redstone signal during a tornado: close shutters, send the airship to the hangar automatically."
+	]
+	quest.5623D930DF18775A.title: "The Wind"
+	quest.5623D930DF18775A.quest_desc: [
+		"The anemometer and wind vane show wind strength and direction. Wind matters for pilots and for air pollution."
+	]
+	quest.0E97B1CB5F5C32BD.title: "The Lightning Rod"
+	quest.0E97B1CB5F5C32BD.quest_desc: [
+		"Draws lightning to itself — your wooden roof won't burn in a storm."
+	]
+	quest.4C62FFBDC832EB2C.title: "The Great Ward"
+	quest.4C62FFBDC832EB2C.quest_desc: [
+		"A tier III ward protects 128 blocks — a whole town. Fuel: crystals made with exotic matter from the collider."
+	]
 	chapter.6FA4DB5D74373B8B.title: "The Town"
 	chapter.6FA4DB5D74373B8B.chapter_subtitle: [
 		"A colony, villagers and a village of your own"
@@ -2024,6 +2550,62 @@
 		"Tick this once the town hall reaches &llevel 5&r. It's a whole-group project — cooks feed, engineers build roads, mages enchant."
 		"Next: the \"Great Works\" chapter."
 	]
+	quest.31629F0187879119.title: "The Builder's Sceptre"
+	quest.31629F0187879119.quest_desc: [
+		"Scans builds into blueprints and places them via the colony builder. Copy your house into the town."
+	]
+	quest.0C500D94482BC31D.title: "Warehouse and Couriers"
+	quest.0C500D94482BC31D.quest_desc: [
+		"The warehouse holds everything, couriers deliver materials to workers. Without them the colony drowns in chests."
+	]
+	quest.2A25F70A883FD806.title: "The Lumberjack"
+	quest.2A25F70A883FD806.quest_desc: [
+		"The lumberjack fells trees and replants. The builder always needs logs."
+	]
+	quest.35775EEABB31E72C.title: "The Colony Miner"
+	quest.35775EEABB31E72C.quest_desc: [
+		"The miner digs a shaft level by level and brings back ore and stone."
+	]
+	quest.75EC4D5698FC2F8A.title: "The Colony Fisher"
+	quest.75EC4D5698FC2F8A.quest_desc: [
+		"The fisher catches fish for the canteen. Needs water nearby."
+	]
+	quest.709BD9478FFC95A5.title: "The Herders"
+	quest.709BD9478FFC95A5.quest_desc: [
+		"The cowhand and shepherd raise cows and sheep for the colony. The breeder knows where to get the first animals."
+	]
+	quest.6D716CFDB6533D8D.title: "Smeltery and Blacksmith"
+	quest.6D716CFDB6533D8D.quest_desc: [
+		"The smelter smelts ore, the blacksmith makes tools and armour for guards."
+	]
+	quest.215D51C751B21BDD.title: "The Hospital"
+	quest.215D51C751B21BDD.quest_desc: [
+		"Heals citizens of illness. Without it an epidemic stops all work."
+	]
+	quest.6E16091A853C2E58.title: "The Library"
+	quest.6E16091A853C2E58.quest_desc: [
+		"Citizens study and level their skills faster."
+	]
+	quest.032164E8868189BE.title: "The Colony Enchanter"
+	quest.032164E8868189BE.quest_desc: [
+		"Enchants books from citizens' experience. A steady book supply for mages."
+	]
+	quest.2EDF7718966F865E.title: "The Colony Alchemist"
+	quest.2EDF7718966F865E.quest_desc: [
+		"Brews potions for the guards. Your group's alchemist can share recipes."
+	]
+	quest.5FF1BE65A592559C.title: "The Barracks"
+	quest.5FF1BE65A592559C.quest_desc: [
+		"Barracks with towers house a whole guard company. Raids won't get through."
+	]
+	quest.7DF2E728DC9D5076.title: "A Village Wedding"
+	quest.7DF2E728DC9D5076.quest_desc: [
+		"In MCA you can marry a villager and raise a family. Children can learn to work the farm."
+	]
+	quest.076FE4C58EDAB8E3.title: "Villagers in Your Pocket"
+	quest.076FE4C58EDAB8E3.quest_desc: [
+		"Easy Villagers: pick up a villager as an item and place it in a trader block. A compact market without huge pens."
+	]
 	chapter.6C67AEF364E06285.title: "Building"
 	chapter.6C67AEF364E06285.chapter_subtitle: [
 		"Decor, tools and beautiful homes"
@@ -2059,6 +2641,38 @@
 	quest.3E5505B24DA3089B.quest_subtitle: "Take a photo of your home"
 	quest.3E5505B24DA3089B.quest_desc: [
 		"Turn on shaders, find a nice angle and take a screenshot (&lF2&r). Share it with friends — and tick the quest."
+	]
+	quest.7B52108951988BE5.title: "Copy-Paste"
+	quest.7B52108951988BE5.quest_desc: [
+		"Copies an area and places a copy. A row of identical houses in a minute."
+	]
+	quest.0681C2FB1DAC97D3.title: "The Destruction Gadget"
+	quest.0681C2FB1DAC97D3.quest_desc: [
+		"Clears a volume of blocks — prep a building site in seconds."
+	]
+	quest.2FEDA2D18C4D62F6.title: "Roofs, Windows, Doors"
+	quest.2FEDA2D18C4D62F6.quest_desc: [
+		"Macaw's: roofs of every shape, nice windows and doors. A house suddenly looks like a home."
+	]
+	quest.15BAB63916C275B3.title: "Bridges"
+	quest.15BAB63916C275B3.quest_desc: [
+		"Ready-made bridges for rivers and ravines. Link bases with a lovely road."
+	]
+	quest.3D8B8BAB6142D975.title: "Cosy Details"
+	quest.3D8B8BAB6142D975.quest_desc: [
+		"Jars, sacks, a globe, a wind vane, ropes — Supplementaries adds a hundred pleasant touches."
+	]
+	quest.3603241567DE82A5.title: "Industrial Style"
+	quest.3603241567DE82A5.quest_desc: [
+		"Create Deco: catwalks, railings, containers, sheet metal — for factories you want to admire."
+	]
+	quest.5AC27D5E66DB6566.title: "Copycat Blocks"
+	quest.5AC27D5E66DB6566.quest_desc: [
+		"Copycats+: stairs, panels and layers that take the look of any block. Fine work for detailed builds."
+	]
+	quest.121BFA9789E6622A.title: "Seats on Trains"
+	quest.121BFA9789E6622A.quest_desc: [
+		"Create: Interiors adds chairs and sofas you can sit on even aboard a moving train or airship."
 	]
 	chapter.34F136AADF95EE95.title: "Great Works"
 	chapter.34F136AADF95EE95.chapter_subtitle: [

@@ -1,0 +1,75 @@
+extends: building
+quests:
+  - id: b_copy_paste
+    deps: [b_gadget]
+    roles: [builder]
+    icon: buildinggadgets2:gadget_copy_paste
+    tasks: [{type: item, item: buildinggadgets2:gadget_copy_paste}]
+    optional: true
+    ru: {title: "Копировать-вставить", text: "Копирует область и ставит копию. Ряд одинаковых домов на улице — за минуту."}
+    en: {title: "Copy-Paste", text: "Copies an area and places a copy. A row of identical houses in a minute."}
+
+  - id: b_destruction
+    deps: [b_gadget]
+    roles: [builder]
+    icon: buildinggadgets2:gadget_destruction
+    tasks: [{type: item, item: buildinggadgets2:gadget_destruction}]
+    optional: true
+    ru: {title: "Гаджет сноса", text: "Сносит объём блоков — расчистить площадку под стройку за секунды."}
+    en: {title: "The Destruction Gadget", text: "Clears a volume of blocks — prep a building site in seconds."}
+
+  - id: b_macaw
+    deps: [b_furniture]
+    roles: [builder]
+    icon: mcwroofs:oak_roof
+    tasks:
+      - {type: item, item: mcwroofs:oak_roof, count: 16}
+      - {type: item, item: mcwwindows:oak_window, count: 4}
+      - {type: item, item: mcwdoors:oak_barn_door}
+    ru: {title: "Крыши, окна, двери", text: "Macaw's: крыши всех форм, красивые окна и двери. Дом сразу выглядит как дом."}
+    en: {title: "Roofs, Windows, Doors", text: "Macaw's: roofs of every shape, nice windows and doors. A house suddenly looks like a home."}
+
+  - id: b_bridges
+    deps: [b_macaw]
+    roles: [builder]
+    icon: mcwbridges:oak_log_bridge_middle
+    tasks: [{type: item, item: mcwbridges:oak_log_bridge_middle, count: 8}]
+    optional: true
+    ru: {title: "Мосты", text: "Готовые мосты для рек и ущелий. Соедини базы красивой дорогой."}
+    en: {title: "Bridges", text: "Ready-made bridges for rivers and ravines. Link bases with a lovely road."}
+
+  - id: b_supplementaries
+    deps: [b_furniture]
+    roles: [builder]
+    icon: supplementaries:sack
+    tasks: [{type: item, item: supplementaries:jar}, {type: item, item: supplementaries:sack}, {type: item, item: supplementaries:globe}]
+    optional: true
+    ru: {title: "Мелочи для уюта", text: "Банки, мешки, глобус, флюгер, верёвки — Supplementaries добавляет сотню приятных деталей."}
+    en: {title: "Cosy Details", text: "Jars, sacks, a globe, a wind vane, ropes — Supplementaries adds a hundred pleasant touches."}
+
+  - id: b_create_deco
+    deps: [b_furniture, c_alloy]
+    roles: [builder, engineer]
+    icon: createdeco:andesite_catwalk
+    tasks: [{type: item, item: createdeco:andesite_catwalk, count: 8}]
+    optional: true
+    ru: {title: "Индустриальный стиль", text: "Create Deco: мостки, перила, контейнеры, листовой металл — для заводов, которыми хочется любоваться."}
+    en: {title: "Industrial Style", text: "Create Deco: catwalks, railings, containers, sheet metal — for factories you want to admire."}
+
+  - id: b_copycats
+    deps: [b_framed]
+    roles: [builder]
+    icon: copycats:copycat_block
+    tasks: [{type: item, item: copycats:copycat_block, count: 8}]
+    optional: true
+    ru: {title: "Блоки-копирки", text: "Copycats+: ступеньки, панели и слои, которые принимают вид любого блока. Тонкая работа для детальных построек."}
+    en: {title: "Copycat Blocks", text: "Copycats+: stairs, panels and layers that take the look of any block. Fine work for detailed builds."}
+
+  - id: b_interiors
+    deps: [b_furniture]
+    roles: [builder]
+    icon: interiors:red_chair
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Сиденья в поездах", text: "Create: Interiors добавляет кресла и диваны, на которых можно сидеть даже в движущемся поезде или дирижабле."}
+    en: {title: "Seats on Trains", text: "Create: Interiors adds chairs and sofas you can sit on even aboard a moving train or airship."}

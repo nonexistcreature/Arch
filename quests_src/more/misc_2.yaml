@@ -1,0 +1,79 @@
+extends: weapons
+quests:
+  - id: w_katana
+    deps: [w_combat]
+    roles: [warrior]
+    icon: simplyswords:iron_katana
+    tasks: [{type: item, item: simplyswords:iron_katana}]
+    optional: true
+    ru: {title: "Катана", text: "Быстрые удары и длинные комбо. Для тех, кто любит скорость."}
+    en: {title: "The Katana", text: "Fast strikes and long combos. For those who love speed."}
+
+  - id: w_glaive
+    deps: [w_combat]
+    roles: [warrior]
+    icon: simplyswords:iron_glaive
+    tasks: [{type: item, item: simplyswords:iron_glaive}]
+    optional: true
+    ru: {title: "Глефа", text: "Длинное древковое оружие — бьёт издалека и по нескольким врагам."}
+    en: {title: "The Glaive", text: "A long polearm — strikes from afar and hits several foes."}
+
+  - id: w_twinblade
+    deps: [w_combat]
+    roles: [warrior]
+    icon: simplyswords:iron_twinblade
+    tasks: [{type: item, item: simplyswords:iron_twinblade}]
+    optional: true
+    ru: {title: "Двойной клинок", text: "Вращающиеся удары вокруг себя. Хорош против толпы."}
+    en: {title: "The Twinblade", text: "Spinning strikes all around you. Good against crowds."}
+
+  - id: w_diamond_weapon
+    deps: [w_combat]
+    roles: [warrior]
+    icon: simplyswords:diamond_longsword
+    tasks: [{type: item, item: simplyswords:diamond_longsword}]
+    ru: {title: "Алмазный меч", text: "Каждое оружие Simply Swords есть в железе, алмазе и незерите. Уникальные клинки — в данжах."}
+    en: {title: "A Diamond Blade", text: "Every Simply Swords weapon comes in iron, diamond and netherite. Unique blades hide in dungeons."}
+
+  - id: w_netherite_weapon
+    deps: [w_diamond_weapon, adv_nether]
+    roles: [warrior]
+    icon: simplyswords:netherite_longsword
+    tasks: [{type: item, item: simplyswords:netherite_longsword}]
+    optional: true
+    ru: {title: "Незеритовый меч", text: "Шаблон улучшения + незерит — и оружие на всю жизнь."}
+    en: {title: "A Netherite Blade", text: "An upgrade template + netherite — and a weapon for life."}
+
+  - id: w_ammo_craft
+    deps: [w_gunsmith]
+    roles: [warrior, engineer]
+    icon: tacz:ammo
+    tasks: [{type: item, item: tacz:ammo, count: 32}]
+    ru: {title: "Патроны", text: "Патроны делаются на оружейном столе из латуни и пороха. Попроси инженера наладить линию на Create."}
+    en: {title: "Ammunition", text: "Ammo is made at the gunsmith table from brass and gunpowder. Ask the engineer to set up a Create line."}
+
+  - id: w_cannon_ammo
+    deps: [w_cannon]
+    roles: [warrior, engineer]
+    icon: createbigcannons:solid_shot
+    tasks: [{type: item, item: createbigcannons:solid_shot, count: 8}, {type: item, item: createbigcannons:powder_charge, count: 8}]
+    ru: {title: "Ядра и заряды", text: "Пушке нужны ядро и пороховые заряды. Чем больше зарядов — тем дальше выстрел."}
+    en: {title: "Shot and Charges", text: "A cannon needs shot and powder charges. More charges mean a longer shot."}
+
+  - id: w_hook_rocket
+    deps: [w_hook_double]
+    roles: [warrior]
+    icon: grappling_hook_neo:rocketupgradeitem
+    tasks: [{type: item, item: grappling_hook_neo:rocketupgradeitem}]
+    optional: true
+    ru: {title: "Реактивный крюк", text: "Ракета тянет тебя по тросу ещё быстрее. Полёт над каньоном — незабываемо."}
+    en: {title: "The Rocket Hook", text: "A rocket pulls you along the rope even faster. Flying over a canyon — unforgettable."}
+
+  - id: w_longfall
+    deps: [w_hook]
+    roles: [warrior, builder]
+    icon: grappling_hook_neo:longfallboots
+    tasks: [{type: item, item: grappling_hook_neo:longfallboots}]
+    optional: true
+    ru: {title: "Сапоги долгого падения", text: "Нет урона от падения. С крюком — свобода в горах."}
+    en: {title: "Long Fall Boots", text: "No fall damage. With a hook — freedom in the mountains."}

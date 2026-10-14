@@ -1,0 +1,80 @@
+extends: occultism
+quests:
+  - id: occ_demons_dream
+    deps: [occ_datura]
+    roles: [mage]
+    icon: occultism:demons_dream_essence
+    tasks: [{type: item, item: occultism:demons_dream_essence}]
+    ru: {title: "Демонический сон", text: "Съешь — и увидишь Иной мир: скрытые руды и деревья. Эффект длится несколько минут."}
+    en: {title: "Demon's Dream", text: "Eat it and you see the Otherworld: hidden ores and trees. The effect lasts a few minutes."}
+
+  - id: occ_goggles
+    deps: [occ_demons_dream]
+    roles: [mage]
+    icon: occultism:otherworld_goggles
+    tasks: [{type: item, item: occultism:otherworld_goggles}]
+    optional: true
+    ru: {title: "Очки Иного мира", text: "Видеть Иной мир всегда, без снадобий. Удобно для добычи иесниума."}
+    en: {title: "Otherworld Goggles", text: "See the Otherworld all the time, no potion needed. Handy for mining iesnium."}
+
+  - id: occ_otherworld_tree
+    deps: [occ_demons_dream]
+    roles: [mage, gardener]
+    icon: occultism:otherworld_sapling
+    tasks: [{type: item, item: occultism:otherworld_sapling}]
+    optional: true
+    ru: {title: "Дерево Иного мира", text: "Из Иного мира растут особые деревья — их древесина нужна для ритуалов. Садовод поможет вырастить рощу."}
+    en: {title: "The Otherworld Tree", text: "Special trees grow from the Otherworld — their wood is needed for rituals. A gardener can help grow a grove."}
+
+  - id: occ_iesnium
+    deps: [occ_goggles]
+    roles: [mage, engineer]
+    icon: occultism:iesnium_ingot
+    tasks: [{type: item, item: occultism:iesnium_ingot, count: 4}]
+    ru: {title: "Иесниум", text: "Металл Иного мира. Из него — кирка, видящая скрытые руды, и наковальня Occultism."}
+    en: {title: "Iesnium", text: "The Otherworld's metal. It makes a pickaxe that sees hidden ores and the Occultism anvil."}
+
+  - id: occ_divination
+    deps: [occ_chalk]
+    roles: [mage]
+    icon: occultism:divination_rod
+    tasks: [{type: item, item: occultism:divination_rod}]
+    optional: true
+    ru: {title: "Лоза прорицателя", text: "Ищет выбранный блок — руду, кристаллы — на большом расстоянии."}
+    en: {title: "The Divination Rod", text: "Finds a chosen block — ore, crystals — at long range."}
+
+  - id: occ_familiar
+    deps: [occ_djinni]
+    roles: [mage]
+    icon: occultism:familiar_ring
+    tasks: [{type: item, item: occultism:familiar_ring}]
+    optional: true
+    ru: {title: "Фамильяр", text: "Призови фамильяра — дух-спутник даёт бонусы: ночное зрение, защиту, скорость. Хранится в кольце."}
+    en: {title: "A Familiar", text: "Summon a familiar — a spirit companion granting night vision, protection or speed. It lives in a ring."}
+
+  - id: occ_cleaner
+    deps: [occ_foliot]
+    roles: [mage]
+    icon: occultism:book_of_calling_foliot_cleaner
+    tasks: [{type: item, item: occultism:book_of_calling_foliot_cleaner}]
+    optional: true
+    ru: {title: "Дух-уборщик", text: "Собирает упавшие предметы в своей зоне и кладёт в сундук. Чистота на ферме."}
+    en: {title: "The Cleaner Spirit", text: "Collects dropped items in its area and puts them in a chest. A tidy farm."}
+
+  - id: occ_transporter
+    deps: [occ_foliot]
+    roles: [mage, engineer]
+    icon: occultism:book_of_calling_foliot_transport_items
+    tasks: [{type: item, item: occultism:book_of_calling_foliot_transport_items}]
+    optional: true
+    ru: {title: "Дух-грузчик", text: "Переносит предметы из одного сундука в другой. Логистика без труб."}
+    en: {title: "The Transporter Spirit", text: "Carries items from one chest to another. Logistics without pipes."}
+
+  - id: occ_machine
+    deps: [occ_djinni]
+    roles: [mage, engineer]
+    icon: occultism:book_of_calling_djinni_manage_machine
+    tasks: [{type: item, item: occultism:book_of_calling_djinni_manage_machine}]
+    optional: true
+    ru: {title: "Джинн-оператор", text: "Джинн управляет машиной: загружает ингредиенты и забирает результат из магического хранилища."}
+    en: {title: "The Machine Djinni", text: "A djinni runs a machine: loads ingredients and collects results from magical storage."}

@@ -1,0 +1,71 @@
+extends: irons
+quests:
+  - id: irons_mithril
+    deps: [irons_essence]
+    roles: [mage, warrior]
+    icon: irons_spellbooks:mithril_ingot
+    tasks: [{type: item, item: irons_spellbooks:mithril_ingot, count: 4}]
+    ru: {title: "Мифрил", text: "Мифриловая руда лежит глубоко под землёй. Из мифрила — лучшие книги и броня магов."}
+    en: {title: "Mithril", text: "Mithril ore lies deep underground. It makes the best spellbooks and mage armour."}
+
+  - id: irons_arcane_ingot
+    deps: [irons_mithril]
+    roles: [mage]
+    icon: irons_spellbooks:arcane_ingot
+    tasks: [{type: item, item: irons_spellbooks:arcane_ingot, count: 2}]
+    optional: true
+    ru: {title: "Тайный слиток", text: "Мифрил + тайная эссенция = тайный слиток. Основа продвинутых книг."}
+    en: {title: "The Arcane Ingot", text: "Mithril + arcane essence = an arcane ingot. The base of advanced books."}
+
+  - id: irons_school_books
+    deps: [irons_runes]
+    roles: [mage]
+    icon: irons_spellbooks:druidic_spell_book
+    tasks: [{type: checkmark}]
+    optional: true
+    ru: {title: "Книги школ", text: "Книга огня, льда, друидов — каждая усиливает свою школу. Выбери под любимые заклинания."}
+    en: {title: "School Books", text: "The fire, ice and druidic books each boost their school. Pick one for your favourite spells."}
+
+  - id: irons_rings
+    deps: [irons_essence]
+    roles: [mage]
+    icon: irons_spellbooks:mana_ring
+    tasks: [{type: item, item: irons_spellbooks:mana_ring}]
+    optional: true
+    ru: {title: "Кольца мага", text: "Кольцо маны, кольцо перезарядки, кольцо сродства — слоты аксессуаров для магов."}
+    en: {title: "Mage Rings", text: "Mana ring, cooldown ring, affinity ring — accessory slots for mages."}
+
+  - id: irons_inks
+    deps: [irons_forge, al_cauldron]
+    roles: [mage, alchemist]
+    icon: irons_spellbooks:rare_ink
+    tasks: [{type: item, item: irons_spellbooks:rare_ink}]
+    ru: {title: "Редкие чернила", text: "Чем лучше чернила — тем сильнее свиток. Чернила варятся в котле алхимика из простых чернил и эссенций."}
+    en: {title: "Rare Ink", text: "Better ink makes stronger scrolls. Ink is brewed in the alchemist's cauldron from common ink and essences."}
+
+  - id: irons_teleport
+    deps: [irons_rings]
+    roles: [mage]
+    icon: irons_spellbooks:teleportation_amulet
+    tasks: [{type: item, item: irons_spellbooks:teleportation_amulet}]
+    optional: true
+    ru: {title: "Амулет телепортации", text: "Усиливает заклинания перемещения. Мгновенный рывок через ущелье — бесценно."}
+    en: {title: "The Teleportation Amulet", text: "Strengthens movement spells. An instant dash across a ravine — priceless."}
+
+  - id: irons_dead_king
+    deps: [irons_boss]
+    roles: [warrior, mage]
+    icon: irons_spellbooks:netherite_spell_book
+    tasks: [{type: kill, entity: irons_spellbooks:dead_king}]
+    rewards: [{type: xp_levels, count: 15}]
+    ru: {title: "Мёртвый король", text: "Король-нежить спит в склепе под землёй. Победа над ним — главный трофей магической ветки."}
+    en: {title: "The Dead King", text: "The undead king sleeps in a crypt underground. Defeating him is the magic branch's greatest trophy."}
+
+  - id: irons_jewelcraft
+    deps: [irons_rings]
+    roles: [mage, builder]
+    icon: irons_jewelry:jewelcrafting_station
+    tasks: [{type: item, item: irons_jewelry:jewelcrafting_station}]
+    optional: true
+    ru: {title: "Ювелирная мастерская", text: "Iron's Jewelry: кольца и ожерелья с самоцветами — рубины, сапфиры, топазы — с разными бонусами."}
+    en: {title: "The Jewelcrafting Station", text: "Iron's Jewelry: rings and necklaces set with rubies, sapphires and topaz — each with its own bonus."}
