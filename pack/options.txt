@@ -10,3 +10,7 @@ tutorialStep:none
 skipMultiplayerWarning:true
 onboardAccessibility:false
 joinedFirstServer:true
+key_key.ftbquests.quests:key.keyboard.l
+key_key.advancements:key.keyboard.unknown
+key_key.puffish_skills.open:key.keyboard.p
+resourcePacks:["vanilla","mod_resources","file/FreshAnimations_v1.10.4.zip"]

@@ -1,0 +1,171 @@
+{
+	id: "037CC61EABB1B7C0"
+	group: ""
+	order_index: 1
+	filename: "origins"
+	icon: {
+		id: "neoorigins:orb_of_origin"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "778DA091C9349444"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "neoorigins:orb_of_origin"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "1598C207CA531583"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "45C069D7BBE3EE67"
+					type: "item"
+					item: {
+						count: 1
+						id: "neoorigins:orb_of_origin"
+					}
+				}
+			]
+		}
+		{
+			id: "E914A21F92128873"
+			x: 1.5d
+			y: -1.25d
+			icon: {
+				id: "neoorigins:purple_orb"
+				count: 1
+			}
+			dependencies: [
+				"778DA091C9349444"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "42B38ED1CCC3E8A2"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "73257FF3447BD0B1"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "minecraft:spyglass"
+				count: 1
+			}
+			dependencies: [
+				"778DA091C9349444"
+			]
+			tasks: [
+				{
+					id: "8C58E21655AF23EC"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "465EB2685CD40729"
+			x: 1.5d
+			y: 1.25d
+			shape: "hexagon"
+			icon: {
+				id: "minecraft:experience_bottle"
+				count: 1
+			}
+			dependencies: [
+				"778DA091C9349444"
+			]
+			tasks: [
+				{
+					id: "8458C58CD5415F00"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "9899A2B09262FA6D"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				count: 1
+			}
+			dependencies: [
+				"465EB2685CD40729"
+			]
+			tasks: [
+				{
+					id: "2B293A208629AC58"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "1DA07A9B3C483D80"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			id: "7D83C31C7DE03358"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "irons_spellbooks:scroll"
+				count: 1
+			}
+			dependencies: [
+				"465EB2685CD40729"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "EB7D743FEEBEF07D"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "DE88CA63A0373FF4"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "torchmaster:megatorch"
+				count: 1
+			}
+			dependencies: [
+				"9899A2B09262FA6D"
+			]
+			tasks: [
+				{
+					id: "3674518BC1C91851"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "40DED7A5CE52B5A2"
+					type: "item"
+					item: {
+						count: 1
+						id: "torchmaster:megatorch"
+					}
+				}
+			]
+		}
+	]
+}

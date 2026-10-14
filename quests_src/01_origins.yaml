@@ -1,0 +1,149 @@
+chapter:
+  id: origins
+  order: 1
+  icon: neoorigins:orb_of_origin
+  ru: {title: "Происхождение и путь", subtitle: "Раса, умения и как ты растёшь"}
+  en: {title: "Origin & Path", subtitle: "Your race, your skills and how you grow"}
+quests:
+  - id: origins_intro
+    deps: [welcome_start]
+    icon: neoorigins:orb_of_origin
+    shape: gear
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Кем ты родился"
+      subtitle: "Раса — это стиль, а не приговор"
+      text: |
+        **Что это:** при первом входе ты выбираешь **происхождение** — расу с плюсами и минусами.
+        Кто-то видит в темноте, кто-то дышит под водой, кто-то медленнее, но крепче.
+        **Зачем:** это меняет, *как* ты играешь, а не *сколько* ты можешь. Слабых рас нет.
+        Окно выбора не появилось? Возьми **Сферу происхождения** — награда этого квеста.
+    en:
+      title: "What You Were Born As"
+      subtitle: "An origin is a style, not a sentence"
+      text: |
+        **What:** on first join you pick an **origin** — a race with perks and drawbacks.
+        Some see in the dark, some breathe underwater, some are slower but sturdier.
+        **Why:** it changes *how* you play, not *how much* you can do. No origin is weak.
+        No selection screen? Grab an **Orb of Origin** — this quest's reward.
+    rewards:
+      - {type: item, item: neoorigins:orb_of_origin, count: 1}
+
+  - id: origins_change
+    deps: [origins_intro]
+    icon: neoorigins:purple_orb
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Передумал?"
+      subtitle: "Смена расы"
+      text: |
+        Первая смена — **бесплатно**: используй Сферу происхождения из прошлого квеста.
+        Дальше смена стоит дорогого зелья перерождения (глава «Алхимия»).
+        **Совет:** поиграй пару вечеров, прежде чем менять — многие способности раскрываются не сразу.
+    en:
+      title: "Changed Your Mind?"
+      subtitle: "Switching origins"
+      text: |
+        The first switch is **free**: use the Orb of Origin from the previous quest.
+        After that it costs an expensive rebirth potion (chapter "Alchemy").
+        **Tip:** play a couple of evenings before switching — many abilities take time to shine.
+
+  - id: origins_info
+    deps: [origins_intro]
+    icon: minecraft:spyglass
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Что я умею?"
+      subtitle: "Окно информации о расе"
+      text: |
+        Активные способности расы висят на клавишах **навыков** (смотри *Настройки → Управление → NeoOrigins*).
+        Там же — кнопка «Информация о расе»: все пассивные бонусы и слабости одним списком.
+    en:
+      title: "What Can I Do?"
+      subtitle: "The origin info screen"
+      text: |
+        Active origin abilities sit on the **skill** keys (see *Options → Controls → NeoOrigins*).
+        There you'll also find "View Origin Info": every passive bonus and weakness in one list.
+
+  - id: skills_intro
+    deps: [origins_intro]
+    icon: minecraft:experience_bottle
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Ты растёшь от того, что делаешь"
+      subtitle: "Деревья умений — клавиша P"
+      text: |
+        **Что это:** у каждого занятия — своё дерево умений: шахтёр, повар, фермер, воин, маг…
+        **Как качаться:** просто занимайся делом. Готовишь — растёт кулинария, копаешь — горное дело.
+        **P** — открыть деревья и потратить очки. Классов-тюрем нет: можно развивать всё понемногу.
+    en:
+      title: "You Grow by Doing"
+      subtitle: "Skill trees — the P key"
+      text: |
+        **What:** every activity has its own skill tree: miner, cook, farmer, warrior, mage…
+        **How to level:** just do the thing. Cooking grows Cooking, digging grows Mining.
+        Press **P** to open the trees and spend points. No class prisons: you can grow a bit of everything.
+
+  - id: skills_first_point
+    deps: [skills_intro]
+    icon: minecraft:iron_pickaxe
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: xp_levels, count: 2}
+    ru:
+      title: "Первое очко"
+      subtitle: "Открой дерево и выбери умение"
+      text: |
+        Добудь немного камня или руды, приготовь еду — и загляни в дерево (**P**).
+        Выбери первое умение рядом с центром. Отметь квест, когда всё получилось.
+        **Совет:** сбросить умения можно — для этого есть особое зелье у алхимиков.
+    en:
+      title: "Your First Point"
+      subtitle: "Open a tree and pick a skill"
+      text: |
+        Mine some stone or ore, cook something — then look at your trees (**P**).
+        Pick a first skill near the centre. Tick the quest when it's done.
+        **Tip:** skills can be reset — alchemists brew a special potion for that.
+
+  - id: skills_magic_trees
+    deps: [skills_intro]
+    icon: irons_spellbooks:scroll
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Деревья школ магии"
+      subtitle: "Огонь, лёд, природа, кровь…"
+      text: |
+        Если тебе по душе Iron's Spells — у каждой школы магии своё дерево.
+        Колдуешь заклинаниями школы — растёт её дерево: больше урона, меньше затрат маны.
+        Подробнее — в главе «Iron's Spells».
+    en:
+      title: "Trees of the Magic Schools"
+      subtitle: "Fire, ice, nature, blood…"
+      text: |
+        If Iron's Spells is your thing, each school of magic has its own tree.
+        Cast that school's spells and its tree grows: more damage, less mana.
+        More in the "Iron's Spells" chapter.
+
+  - id: origins_charm
+    deps: [skills_first_point]
+    icon: torchmaster:megatorch
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Спокойствие — твой выбор"
+      subtitle: "Мегафакел и тихие места"
+      text: |
+        Хочешь, чтобы ферма или дорога в соседнюю деревню были безопасны всегда? Поставь **Мегафакел** —
+        в большом радиусе вокруг него враждебные мобы не появятся.
+        Твои приваты и Гавань уже защищены — это для новых мест.
+    en:
+      title: "Peace Is Your Choice"
+      subtitle: "The Mega Torch and quiet places"
+      text: |
+        Want a farm or the road to the next village to always be safe? Place a **Mega Torch** —
+        hostile mobs won't spawn in a big radius around it.
+        Your claims and the Haven are already protected — this is for new places.
+    rewards:
+      - {type: item, item: torchmaster:megatorch, count: 1}

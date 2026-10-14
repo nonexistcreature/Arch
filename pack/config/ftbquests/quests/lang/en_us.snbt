@@ -99,4 +99,157 @@
 		"You know the essentials. Now pick your &lorigin&r (chapter \"Origin & Path\") and set up a first home (chapter \"First Steps\")."
 		"Other chapters open up as soon as you get into their topic — or peek into any of them right now."
 	]
+	chapter.037CC61EABB1B7C0.title: "Origin & Path"
+	chapter.037CC61EABB1B7C0.chapter_subtitle: [
+		"Your race, your skills and how you grow"
+	]
+	quest.778DA091C9349444.title: "What You Were Born As"
+	quest.778DA091C9349444.quest_subtitle: "An origin is a style, not a sentence"
+	quest.778DA091C9349444.quest_desc: [
+		"&lWhat:&r on first join you pick an &lorigin&r — a race with perks and drawbacks."
+		"Some see in the dark, some breathe underwater, some are slower but sturdier."
+		"&lWhy:&r it changes &ohow&r you play, not &ohow much&r you can do. No origin is weak."
+		"No selection screen? Grab an &lOrb of Origin&r — this quest's reward."
+	]
+	quest.E914A21F92128873.title: "Changed Your Mind?"
+	quest.E914A21F92128873.quest_subtitle: "Switching origins"
+	quest.E914A21F92128873.quest_desc: [
+		"The first switch is &lfree&r: use the Orb of Origin from the previous quest."
+		"After that it costs an expensive rebirth potion (chapter \"Alchemy\")."
+		"&lTip:&r play a couple of evenings before switching — many abilities take time to shine."
+	]
+	quest.73257FF3447BD0B1.title: "What Can I Do?"
+	quest.73257FF3447BD0B1.quest_subtitle: "The origin info screen"
+	quest.73257FF3447BD0B1.quest_desc: [
+		"Active origin abilities sit on the &lskill&r keys (see &oOptions → Controls → NeoOrigins&r)."
+		"There you'll also find \"View Origin Info\": every passive bonus and weakness in one list."
+	]
+	quest.465EB2685CD40729.title: "You Grow by Doing"
+	quest.465EB2685CD40729.quest_subtitle: "Skill trees — the P key"
+	quest.465EB2685CD40729.quest_desc: [
+		"&lWhat:&r every activity has its own skill tree: miner, cook, farmer, warrior, mage…"
+		"&lHow to level:&r just do the thing. Cooking grows Cooking, digging grows Mining."
+		"Press &lP&r to open the trees and spend points. No class prisons: you can grow a bit of everything."
+	]
+	quest.9899A2B09262FA6D.title: "Your First Point"
+	quest.9899A2B09262FA6D.quest_subtitle: "Open a tree and pick a skill"
+	quest.9899A2B09262FA6D.quest_desc: [
+		"Mine some stone or ore, cook something — then look at your trees (&lP&r)."
+		"Pick a first skill near the centre. Tick the quest when it's done."
+		"&lTip:&r skills can be reset — alchemists brew a special potion for that."
+	]
+	quest.7D83C31C7DE03358.title: "Trees of the Magic Schools"
+	quest.7D83C31C7DE03358.quest_subtitle: "Fire, ice, nature, blood…"
+	quest.7D83C31C7DE03358.quest_desc: [
+		"If Iron's Spells is your thing, each school of magic has its own tree."
+		"Cast that school's spells and its tree grows: more damage, less mana."
+		"More in the \"Iron's Spells\" chapter."
+	]
+	quest.DE88CA63A0373FF4.title: "Peace Is Your Choice"
+	quest.DE88CA63A0373FF4.quest_subtitle: "The Mega Torch and quiet places"
+	quest.DE88CA63A0373FF4.quest_desc: [
+		"Want a farm or the road to the next village to always be safe? Place a &lMega Torch&r —"
+		"hostile mobs won't spawn in a big radius around it."
+		"Your claims and the Haven are already protected — this is for new places."
+	]
+	chapter.989EA59915A6A7C6.title: "First Steps"
+	chapter.989EA59915A6A7C6.chapter_subtitle: [
+		"Home, food, tools — and no rush"
+	]
+	quest.F1A312E68F5D5D95.title: "Log by Log"
+	quest.F1A312E68F5D5D95.quest_subtitle: "Any wood works… but the task wants oak"
+	quest.F1A312E68F5D5D95.quest_desc: [
+		"Everything starts with wood. Hold &l`&r and break a trunk — the whole tree comes down."
+		"No oak nearby? Come back later — use whatever wood you have for your own needs."
+	]
+	quest.25244ED318CF1CC2.title: "The Workbench"
+	quest.25244ED318CF1CC2.quest_subtitle: "Where every craft begins"
+	quest.25244ED318CF1CC2.quest_desc: [
+		"Forgot a recipe? Hover the item in the EMI list on the right and press &lR&r."
+		"EMI search understands both Russian and English names."
+	]
+	quest.0A20243FB3DE57EE.title: "The Stone Age"
+	quest.0A20243FB3DE57EE.quest_subtitle: "Your first pickaxe"
+	quest.0A20243FB3DE57EE.quest_desc: [
+		"A stone pickaxe opens the way underground. Caves near spawn are calm, but a torch never hurts."
+	]
+	quest.493C04C72C252AE1.title: "Fire in the Hearth"
+	quest.493C04C72C252AE1.quest_subtitle: "A furnace for ore and food"
+	quest.493C04C72C252AE1.quest_desc: [
+		"A furnace smelts ore and cooks meat. Later Create and Mekanism will do it dozens of times faster."
+	]
+	quest.A1B4E617FBC154C7.title: "The Iron Age"
+	quest.A1B4E617FBC154C7.quest_subtitle: "Veins here run rich"
+	quest.A1B4E617FBC154C7.quest_desc: [
+		"Find iron ore and break it with &l`&r — you'll dig out the whole vein."
+		"Everyone needs iron: engineers, cooks (pots!), farmers."
+	]
+	quest.7D055965B59E433F.title: "A Serious Pickaxe"
+	quest.7D055965B59E433F.quest_subtitle: "Diamonds, redstone, gold"
+	quest.7D055965B59E433F.quest_desc: [
+		"An iron pickaxe mines almost everything. Diamonds are deep — below height zero."
+		"Remember: deep caves count as &lthe wilds&r (zone 2)."
+	]
+	quest.98F86F97AA42687E.title: "A Place of Your Own"
+	quest.98F86F97AA42687E.quest_subtitle: "A bed sets your respawn point"
+	quest.98F86F97AA42687E.quest_desc: [
+		"You don't have to sleep — no mobs spawn near spawn. But a bed remembers where you respawn."
+		"To skip the night, only &lhalf&r the players need to be in bed."
+	]
+	quest.C250898F27D30389.title: "A Sleeping Bag in Your Pack"
+	quest.C250898F27D30389.quest_subtitle: "Camp out without moving your home point"
+	quest.C250898F27D30389.quest_desc: [
+		"A &lsleeping bag&r lets you sleep through the night on the road and &ldoesn't&r change your respawn point."
+		"There's also a &lhammock&r for a daytime nap."
+	]
+	quest.FFFC8E5E8083B094.title: "This Is Mine"
+	quest.FFFC8E5E8083B094.quest_subtitle: "Claiming land (Open Parties and Claims)"
+	quest.FFFC8E5E8083B094.quest_desc: [
+		"&lWhat:&r a claim protects your blocks from others and makes the place &lsafe&r: no enemies spawn there."
+		"&lHow:&r open the map (&lM&r), right-click chunks → \"Claim\". Or press &l'&r for the claims menu."
+		"Add friends to your &lparty&r so they can build at your place too."
+	]
+	quest.DFDAC3643835B9B1.title: "A Backpack"
+	quest.DFDAC3643835B9B1.quest_subtitle: "You can never have too many pockets"
+	quest.DFDAC3643835B9B1.quest_desc: [
+		"A backpack sits on your back and takes &lupgrades&r: item pickup, auto-smelting, auto-feeding."
+		"Upgrades go in the side slots — check them in EMI (&lU&r on the backpack)."
+	]
+	quest.2D3F975CD04C8DA2.title: "Order in the Chests"
+	quest.2D3F975CD04C8DA2.quest_subtitle: "Sophisticated Storage"
+	quest.2D3F975CD04C8DA2.quest_desc: [
+		"Barrels and chests that upgrade just like the backpack: more space, sorting, filters."
+		"Later you can wire it all into an AE2 digital network (chapter \"Storage\")."
+	]
+	quest.C1D73599EA517F03.title: "Waystones"
+	quest.C1D73599EA517F03.quest_subtitle: "Teleport between places you've found"
+	quest.C1D73599EA517F03.quest_desc: [
+		"&lWaystones&r stand in villages. Click one and it's remembered — you can travel back to it from any other."
+		"You can also craft your own for your home. Return scrolls are a quick way home from a trip."
+	]
+	quest.E41414C5D00BB68B.title: "If Things Go Wrong"
+	quest.E41414C5D00BB68B.quest_subtitle: "A gravestone keeps your items"
+	quest.E41414C5D00BB68B.quest_desc: [
+		"When you die your items don't scatter — they rest in a &lgravestone&r. Its spot is marked on the map."
+		"Walk up and click it — everything returns to your inventory. Other players can't open your grave."
+	]
+	quest.1E45B54AE1AE0643.title: "Variety Is the Heart"
+	quest.1E45B54AE1AE0643.quest_subtitle: "Spice of Life: new dishes = new hearts"
+	quest.1E45B54AE1AE0643.quest_desc: [
+		"Every &lnew&r dish you taste brings you closer to an extra &lheart&r."
+		"The food book shows what you've eaten. Your best friend here is your group's &lcook&r."
+		"Valued by: everyone. Especially before bosses."
+	]
+	quest.93724199B13ED6C5.title: "Chests for Everyone"
+	quest.93724199B13ED6C5.quest_subtitle: "Everyone gets their own loot"
+	quest.93724199B13ED6C5.quest_desc: [
+		"Chests in dungeons and ruins are &lper player&r: a friend opened it first — you still get yours."
+		"So explore together without elbowing each other at the chest."
+	]
+	quest.3167C5A5C262D22D.title: "A Home, and a World Waiting"
+	quest.3167C5A5C262D22D.quest_subtitle: "Pick your road"
+	quest.3167C5A5C262D22D.quest_desc: [
+		"The basics are done. Open any chapter next — kitchen, garden, machines, magic, adventure — each has its own thing."
+		"You don't have to do everything. Do what you enjoy and &ldrop by your friends&r — they probably need your help."
+	]
 }

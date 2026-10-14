@@ -1470,5 +1470,15 @@ file = "options.txt"
 hash = "0cffca16ad1d82df8d0870eccac3e66ae0200feee84bc09b18dec5bde9f5e225"
 
 [[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "9dc9b1568b6eaa48e16455e2a119566aa0e1c0e6f3e71099b97c535a73d0cd84"
+metafile = true
+
+[[files]]
 file = "servers.dat"
 hash = "24b54c1b0cb7e17febe1cb65ec1a02bde7ca00a001e874a31e7c1820c46dad33"
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "507cb3963240110bc71ed7c75cac1682e66d3609536b0bc5ef90a01db3cce21f"
+metafile = true

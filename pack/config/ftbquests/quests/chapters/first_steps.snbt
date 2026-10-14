@@ -1,0 +1,428 @@
+{
+	id: "989EA59915A6A7C6"
+	group: ""
+	order_index: 2
+	filename: "first_steps"
+	icon: {
+		id: "minecraft:oak_sapling"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "F1A312E68F5D5D95"
+			x: 0.0d
+			y: 0.0d
+			icon: {
+				id: "minecraft:oak_log"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "C354D0C6F9FCC619"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:oak_log"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "DAD25242599A47F4"
+					type: "item"
+					item: {
+						count: 4
+						id: "minecraft:apple"
+					}
+				}
+			]
+		}
+		{
+			id: "25244ED318CF1CC2"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "minecraft:crafting_table"
+				count: 1
+			}
+			dependencies: [
+				"F1A312E68F5D5D95"
+			]
+			tasks: [
+				{
+					id: "232DA1506AA3D5FC"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:crafting_table"
+					}
+				}
+			]
+		}
+		{
+			id: "0A20243FB3DE57EE"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "minecraft:stone_pickaxe"
+				count: 1
+			}
+			dependencies: [
+				"25244ED318CF1CC2"
+			]
+			tasks: [
+				{
+					id: "183FFDE244D15911"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:stone_pickaxe"
+					}
+				}
+			]
+		}
+		{
+			id: "493C04C72C252AE1"
+			x: 4.5d
+			y: -1.875d
+			icon: {
+				id: "minecraft:furnace"
+				count: 1
+			}
+			dependencies: [
+				"0A20243FB3DE57EE"
+			]
+			tasks: [
+				{
+					id: "3F973E778DE63011"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:furnace"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4C36B2E4E43A38D4"
+					type: "item"
+					item: {
+						count: 16
+						id: "minecraft:coal"
+					}
+				}
+			]
+		}
+		{
+			id: "A1B4E617FBC154C7"
+			x: 6.0d
+			y: -0.625d
+			icon: {
+				id: "minecraft:iron_ingot"
+				count: 1
+			}
+			dependencies: [
+				"493C04C72C252AE1"
+			]
+			tasks: [
+				{
+					id: "FB686E12C17B959C"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "E5A0C17CD6BA2CE6"
+					type: "item"
+					item: {
+						count: 8
+						id: "minecraft:iron_ingot"
+					}
+				}
+			]
+		}
+		{
+			id: "7D055965B59E433F"
+			x: 7.5d
+			y: -0.625d
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				count: 1
+			}
+			dependencies: [
+				"A1B4E617FBC154C7"
+			]
+			tasks: [
+				{
+					id: "BA204D37D1EA0267"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:iron_pickaxe"
+					}
+				}
+			]
+		}
+		{
+			id: "98F86F97AA42687E"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "minecraft:white_bed"
+				count: 1
+			}
+			dependencies: [
+				"25244ED318CF1CC2"
+			]
+			tasks: [
+				{
+					id: "2641072F9C5E8C86"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:white_bed"
+					}
+				}
+			]
+		}
+		{
+			id: "C250898F27D30389"
+			x: 4.5d
+			y: -0.625d
+			icon: {
+				id: "comforts:sleeping_bag_white"
+				count: 1
+			}
+			dependencies: [
+				"98F86F97AA42687E"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "E95B45DBFAE9C8D8"
+					type: "item"
+					item: {
+						count: 1
+						id: "comforts:sleeping_bag_white"
+					}
+				}
+			]
+		}
+		{
+			id: "FFFC8E5E8083B094"
+			x: 4.5d
+			y: 0.625d
+			shape: "hexagon"
+			icon: {
+				id: "minecraft:white_banner"
+				count: 1
+			}
+			dependencies: [
+				"98F86F97AA42687E"
+			]
+			tasks: [
+				{
+					id: "E9642095FD5E2862"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "DFDAC3643835B9B1"
+			x: 7.5d
+			y: 0.625d
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+				count: 1
+			}
+			dependencies: [
+				"A1B4E617FBC154C7"
+			]
+			tasks: [
+				{
+					id: "5593546C94615563"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "44DD402C3D8DDFD4"
+					type: "item"
+					item: {
+						count: 2
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+				}
+			]
+		}
+		{
+			id: "2D3F975CD04C8DA2"
+			x: 9.0d
+			y: -1.25d
+			icon: {
+				id: "sophisticatedstorage:barrel"
+				count: 1
+			}
+			dependencies: [
+				"DFDAC3643835B9B1"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "57485C73015A9323"
+					type: "item"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:barrel"
+					}
+				}
+			]
+		}
+		{
+			id: "C1D73599EA517F03"
+			x: 9.0d
+			y: 0.0d
+			icon: {
+				id: "waystones:waystone"
+				count: 1
+			}
+			dependencies: [
+				"7D055965B59E433F"
+			]
+			tasks: [
+				{
+					id: "5EF0C73EFFAD5D04"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "58B023493DB120FC"
+					type: "item"
+					item: {
+						count: 3
+						id: "waystones:return_scroll"
+					}
+				}
+			]
+		}
+		{
+			id: "E41414C5D00BB68B"
+			x: 4.5d
+			y: 1.875d
+			icon: {
+				id: "gravestone:gravestone"
+				count: 1
+			}
+			dependencies: [
+				"0A20243FB3DE57EE"
+			]
+			tasks: [
+				{
+					id: "86F94C40BF960F1B"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "1E45B54AE1AE0643"
+			x: 6.0d
+			y: 0.625d
+			icon: {
+				id: "solcarrot:food_book"
+				count: 1
+			}
+			dependencies: [
+				"493C04C72C252AE1"
+			]
+			tasks: [
+				{
+					id: "836F4B67C497B13F"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "4F86E459DB67F305"
+					type: "item"
+					item: {
+						count: 1
+						id: "solcarrot:food_book"
+					}
+				}
+			]
+		}
+		{
+			id: "93724199B13ED6C5"
+			x: 9.0d
+			y: 1.25d
+			icon: {
+				id: "lootr:lootr_chest"
+				count: 1
+			}
+			dependencies: [
+				"7D055965B59E433F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "846DB46294159DAA"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "3167C5A5C262D22D"
+			x: 10.5d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "minecraft:compass"
+				count: 1
+			}
+			dependencies: [
+				"7D055965B59E433F"
+				"FFFC8E5E8083B094"
+				"C1D73599EA517F03"
+				"DFDAC3643835B9B1"
+				"1E45B54AE1AE0643"
+			]
+			tasks: [
+				{
+					id: "990680015297B80A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "9B709435B9594873"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "D69E5780BB4F0CF5"
+					type: "item"
+					item: {
+						count: 8
+						id: "minecraft:golden_carrot"
+					}
+				}
+			]
+		}
+	]
+}

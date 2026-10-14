@@ -1,0 +1,298 @@
+chapter:
+  id: first_steps
+  order: 2
+  icon: minecraft:oak_sapling
+  ru: {title: "Первые шаги", subtitle: "Дом, еда, инструменты — и никакой спешки"}
+  en: {title: "First Steps", subtitle: "Home, food, tools — and no rush"}
+quests:
+  - id: fs_wood
+    deps: [welcome_start]
+    icon: minecraft:oak_log
+    tasks: [{type: item, item: minecraft:oak_log, count: 16}]
+    rewards:
+      - {type: item, item: minecraft:apple, count: 4}
+    ru:
+      title: "Дерево к дереву"
+      subtitle: "Любая порода подойдёт… но в задаче — дуб"
+      text: |
+        Всё начинается с дерева. Зажми **`** и сломай ствол — упадёт всё дерево целиком.
+        Нет дуба рядом? Отметь квест, когда будет — или используй любую породу для своих нужд.
+    en:
+      title: "Log by Log"
+      subtitle: "Any wood works… but the task wants oak"
+      text: |
+        Everything starts with wood. Hold **`** and break a trunk — the whole tree comes down.
+        No oak nearby? Come back later — use whatever wood you have for your own needs.
+
+  - id: fs_table
+    deps: [fs_wood]
+    icon: minecraft:crafting_table
+    tasks: [{type: item, item: minecraft:crafting_table}]
+    ru:
+      title: "Верстак"
+      subtitle: "Начало любого ремесла"
+      text: |
+        Не помнишь рецепт? Наведи на предмет в списке EMI справа и нажми **R**.
+        Поиск EMI понимает и русские, и английские названия.
+    en:
+      title: "The Workbench"
+      subtitle: "Where every craft begins"
+      text: |
+        Forgot a recipe? Hover the item in the EMI list on the right and press **R**.
+        EMI search understands both Russian and English names.
+
+  - id: fs_stone_tools
+    deps: [fs_table]
+    icon: minecraft:stone_pickaxe
+    tasks: [{type: item, item: minecraft:stone_pickaxe}]
+    ru:
+      title: "Каменный век"
+      subtitle: "Первая кирка"
+      text: |
+        Каменная кирка — и путь под землю открыт. Пещеры у спавна спокойны, но фонарь лишним не будет.
+    en:
+      title: "The Stone Age"
+      subtitle: "Your first pickaxe"
+      text: |
+        A stone pickaxe opens the way underground. Caves near spawn are calm, but a torch never hurts.
+
+  - id: fs_furnace
+    deps: [fs_stone_tools]
+    icon: minecraft:furnace
+    tasks: [{type: item, item: minecraft:furnace}]
+    rewards:
+      - {type: item, item: minecraft:coal, count: 16}
+    ru:
+      title: "Огонь в очаге"
+      subtitle: "Печь — для руды и еды"
+      text: |
+        Печь плавит руду и жарит мясо. Позже Create и Mekanism сделают это за тебя в десятки раз быстрее.
+    en:
+      title: "Fire in the Hearth"
+      subtitle: "A furnace for ore and food"
+      text: |
+        A furnace smelts ore and cooks meat. Later Create and Mekanism will do it dozens of times faster.
+
+  - id: fs_iron
+    deps: [fs_furnace]
+    icon: minecraft:iron_ingot
+    tasks: [{type: item, item: minecraft:iron_ingot, count: 16}]
+    rewards:
+      - {type: item, item: minecraft:iron_ingot, count: 8}
+    ru:
+      title: "Железный век"
+      subtitle: "Жилы здесь богатые"
+      text: |
+        Найди железную руду и сломай её с **`** — выкопаешь всю жилу разом.
+        Железо понадобится всем: инженерам, поварам (котлы!), фермерам.
+    en:
+      title: "The Iron Age"
+      subtitle: "Veins here run rich"
+      text: |
+        Find iron ore and break it with **`** — you'll dig out the whole vein.
+        Everyone needs iron: engineers, cooks (pots!), farmers.
+
+  - id: fs_iron_pick
+    deps: [fs_iron]
+    icon: minecraft:iron_pickaxe
+    tasks: [{type: item, item: minecraft:iron_pickaxe}]
+    ru:
+      title: "Кирка посерьёзнее"
+      subtitle: "Алмазы, редстоун, золото"
+      text: |
+        С железной киркой можно добыть почти всё. Алмазы глубоко — ниже нулевой высоты.
+        Помни: глубокие пещеры — это уже **дикие земли** (зона 2).
+    en:
+      title: "A Serious Pickaxe"
+      subtitle: "Diamonds, redstone, gold"
+      text: |
+        An iron pickaxe mines almost everything. Diamonds are deep — below height zero.
+        Remember: deep caves count as **the wilds** (zone 2).
+
+  - id: fs_shelter
+    deps: [fs_table]
+    icon: minecraft:white_bed
+    tasks: [{type: item, item: minecraft:white_bed}]
+    ru:
+      title: "Свой угол"
+      subtitle: "Кровать задаёт точку возрождения"
+      text: |
+        Спать ночью необязательно — мобов у спавна нет. Но кровать запоминает, где ты возродишься.
+        Чтобы пропустить ночь, достаточно, чтобы спала **половина** игроков.
+    en:
+      title: "A Place of Your Own"
+      subtitle: "A bed sets your respawn point"
+      text: |
+        You don't have to sleep — no mobs spawn near spawn. But a bed remembers where you respawn.
+        To skip the night, only **half** the players need to be in bed.
+
+  - id: fs_sleeping_bag
+    deps: [fs_shelter]
+    icon: comforts:sleeping_bag_white
+    tasks: [{type: item, item: comforts:sleeping_bag_white}]
+    optional: true
+    ru:
+      title: "Спальник в рюкзаке"
+      subtitle: "Ночёвка в пути, не сбивая точку дома"
+      text: |
+        **Спальный мешок** позволяет переждать ночь в походе и **не меняет** точку возрождения.
+        Есть ещё **гамак** — чтобы вздремнуть днём.
+    en:
+      title: "A Sleeping Bag in Your Pack"
+      subtitle: "Camp out without moving your home point"
+      text: |
+        A **sleeping bag** lets you sleep through the night on the road and **doesn't** change your respawn point.
+        There's also a **hammock** for a daytime nap.
+
+  - id: fs_claim
+    deps: [fs_shelter]
+    icon: minecraft:white_banner
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Это моё"
+      subtitle: "Приват территории (Open Parties and Claims)"
+      text: |
+        **Что это:** приват защищает блоки от чужих рук и делает место **безопасным**: враги там не появляются.
+        **Как:** открой карту (**M**), правый клик по чанкам → «Заприватить». Или клавиша **'** — меню привата.
+        Друзей можно добавить в свою **партию** — тогда им тоже можно строить у тебя.
+    en:
+      title: "This Is Mine"
+      subtitle: "Claiming land (Open Parties and Claims)"
+      text: |
+        **What:** a claim protects your blocks from others and makes the place **safe**: no enemies spawn there.
+        **How:** open the map (**M**), right-click chunks → "Claim". Or press **'** for the claims menu.
+        Add friends to your **party** so they can build at your place too.
+
+  - id: fs_backpack
+    deps: [fs_iron]
+    icon: sophisticatedbackpacks:backpack
+    tasks: [{type: item, item: sophisticatedbackpacks:backpack}]
+    ru:
+      title: "Рюкзак"
+      subtitle: "Карманов мало не бывает"
+      text: |
+        Рюкзак носится на спине и **улучшается**: подбор предметов, авто-переплавка, автокормление.
+        Улучшения ставятся в слоты сбоку — посмотри их в EMI (**U** по рюкзаку).
+    en:
+      title: "A Backpack"
+      subtitle: "You can never have too many pockets"
+      text: |
+        A backpack sits on your back and takes **upgrades**: item pickup, auto-smelting, auto-feeding.
+        Upgrades go in the side slots — check them in EMI (**U** on the backpack).
+    rewards:
+      - {type: item, item: sophisticatedbackpacks:upgrade_base, count: 2}
+
+  - id: fs_storage
+    deps: [fs_backpack]
+    icon: sophisticatedstorage:barrel
+    tasks: [{type: item, item: sophisticatedstorage:barrel}]
+    optional: true
+    ru:
+      title: "Порядок в сундуках"
+      subtitle: "Sophisticated Storage"
+      text: |
+        Бочки и сундуки, которые улучшаются как рюкзак: больше места, сортировка, фильтры.
+        Позже всё это можно связать в цифровую сеть AE2 (глава «Хранилище»).
+    en:
+      title: "Order in the Chests"
+      subtitle: "Sophisticated Storage"
+      text: |
+        Barrels and chests that upgrade just like the backpack: more space, sorting, filters.
+        Later you can wire it all into an AE2 digital network (chapter "Storage").
+
+  - id: fs_waystone
+    deps: [fs_iron_pick]
+    icon: waystones:waystone
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: waystones:return_scroll, count: 3}
+    ru:
+      title: "Камни путей"
+      subtitle: "Телепорт между открытыми местами"
+      text: |
+        **Путевые камни** стоят в деревнях. Нажми на камень — он запомнится, и к нему можно будет вернуться с любого другого.
+        Можно сделать и свой камень у дома. Свитки возврата — быстрый способ домой из похода.
+    en:
+      title: "Waystones"
+      subtitle: "Teleport between places you've found"
+      text: |
+        **Waystones** stand in villages. Click one and it's remembered — you can travel back to it from any other.
+        You can also craft your own for your home. Return scrolls are a quick way home from a trip.
+
+  - id: fs_grave
+    deps: [fs_stone_tools]
+    icon: gravestone:gravestone
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Если что-то пошло не так"
+      subtitle: "Надгробие хранит вещи"
+      text: |
+        При смерти твои вещи не рассыпаются, а ложатся в **надгробие**. Место отмечено на карте.
+        Подойди и нажми на надгробие — всё вернётся в инвентарь. Чужое надгробие открыть нельзя.
+    en:
+      title: "If Things Go Wrong"
+      subtitle: "A gravestone keeps your items"
+      text: |
+        When you die your items don't scatter — they rest in a **gravestone**. Its spot is marked on the map.
+        Walk up and click it — everything returns to your inventory. Other players can't open your grave.
+
+  - id: fs_food_variety
+    deps: [fs_furnace]
+    icon: solcarrot:food_book
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: solcarrot:food_book, count: 1}
+    ru:
+      title: "Разнообразие — это сердце"
+      subtitle: "Spice of Life: новые блюда = новые сердца"
+      text: |
+        Каждое **новое** блюдо, которое ты попробуешь, приближает тебя к лишнему **сердцу здоровья**.
+        Книга еды покажет, что ты уже ел. Лучший друг здесь — **повар** твоей компании.
+        Ценится у: всех. Особенно перед боссами.
+    en:
+      title: "Variety Is the Heart"
+      subtitle: "Spice of Life: new dishes = new hearts"
+      text: |
+        Every **new** dish you taste brings you closer to an extra **heart**.
+        The food book shows what you've eaten. Your best friend here is your group's **cook**.
+        Valued by: everyone. Especially before bosses.
+
+  - id: fs_lootr
+    deps: [fs_iron_pick]
+    icon: lootr:lootr_chest
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Сундуки на всех"
+      subtitle: "Каждому — свой лут"
+      text: |
+        Сундуки в данжах и руинах **свои у каждого игрока**: друг открыл первым — тебе всё равно достанется.
+        Так что исследуйте вместе, не толкаясь у сундука.
+    en:
+      title: "Chests for Everyone"
+      subtitle: "Everyone gets their own loot"
+      text: |
+        Chests in dungeons and ruins are **per player**: a friend opened it first — you still get yours.
+        So explore together without elbowing each other at the chest.
+
+  - id: fs_done
+    deps: [fs_iron_pick, fs_claim, fs_waystone, fs_backpack, fs_food_variety]
+    icon: minecraft:compass
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: xp_levels, count: 5}
+      - {type: item, item: minecraft:golden_carrot, count: 8}
+    ru:
+      title: "Дом есть — мир ждёт"
+      subtitle: "Выбирай свою дорогу"
+      text: |
+        Основы позади. Дальше — какую главу ни открой, везде что-то своё: кухня, сад, механика, магия, приключения.
+        Не обязательно делать всё. Делай то, что нравится, и **заглядывай к друзьям** — им наверняка нужна твоя помощь.
+    en:
+      title: "A Home, and a World Waiting"
+      subtitle: "Pick your road"
+      text: |
+        The basics are done. Open any chapter next — kitchen, garden, machines, magic, adventure — each has its own thing.
+        You don't have to do everything. Do what you enjoy and **drop by your friends** — they probably need your help.
