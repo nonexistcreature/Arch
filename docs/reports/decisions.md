@@ -22,3 +22,6 @@ JEI для 1.21.1 публикуется как beta; нужна 19.53+ для F
 
 ## Клавиши
 Квесты — L (ванильные «Достижения» отвязаны, они доступны из меню паузы), дерево умений — P, шейдеры — K/O (Iris), карта — M, вейнмайнер — `. Полная проверка конфликтов — в клиентском тесте (фаза 5).
+
+## Кулинарные аддоны: убраны Cultural Delights и Expanded Delight
+Дублируют сыр/соль/пиво/корицу Let's Do Meadow, Brewin' and Chewin' и Vinery (правило «один мод на категорию», лимит аддонов FD 5–8). Осталось: My Nether's, Ocean's, End's Delight, Farmer's Respite, Brewin' and Chewin', Slice & Dice + Let's Do (Vinery, Meadow, HerbalBrews, Farm & Charm).

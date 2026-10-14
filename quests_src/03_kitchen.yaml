@@ -1,0 +1,515 @@
+chapter:
+  id: kitchen
+  order: 3
+  icon: farmersdelight:cooking_pot
+  ru: {title: "Кухня и таверна", subtitle: "Еда, которая лечит, бодрит и дарит сердца"}
+  en: {title: "Kitchen & Tavern", subtitle: "Food that heals, energises and grants hearts"}
+quests:
+  - id: k_knife
+    deps: [welcome_start]
+    roles: [cook]
+    icon: farmersdelight:flint_knife
+    shape: gear
+    tasks: [{type: item, item: farmersdelight:flint_knife}]
+    rewards:
+      - {type: item, item: farmersdelight:cabbage_seeds, count: 4}
+      - {type: item, item: farmersdelight:tomato_seeds, count: 4}
+    ru:
+      title: "Нож повара"
+      subtitle: "С этого начинается Farmer's Delight"
+      text: |
+        **Что это:** нож режет на разделочной доске мясо, овощи и рыбу, а ещё собирает солому с травы.
+        **Зачем:** почти все блюда начинаются с нарезки. А блюда здесь — это **баффы** и **новые сердца**.
+        **Совет:** кремнёвый нож — на первое время, железный прослужит гораздо дольше.
+    en:
+      title: "The Cook's Knife"
+      subtitle: "Where Farmer's Delight begins"
+      text: |
+        **What:** a knife cuts meat, veggies and fish on a cutting board and harvests straw from grass.
+        **Why:** almost every dish starts with chopping. And dishes here mean **buffs** and **extra hearts**.
+        **Tip:** the flint knife is a starter; an iron one lasts much longer.
+
+  - id: k_board
+    deps: [k_knife]
+    roles: [cook]
+    icon: farmersdelight:cutting_board
+    tasks: [{type: item, item: farmersdelight:cutting_board}]
+    ru:
+      title: "Разделочная доска"
+      subtitle: "Положи продукт и ударь ножом"
+      text: |
+        Положи предмет на доску правым кликом, затем кликни по нему ножом — получишь нарезку.
+        Так делаются куски курицы, ломтики рыбы, фарш, капустные листья.
+        Позже доску заменит **автоматическая нарезка** (Create: Slice & Dice).
+    en:
+      title: "The Cutting Board"
+      subtitle: "Place an ingredient and strike with a knife"
+      text: |
+        Right-click an item onto the board, then click it with a knife to slice it.
+        That's how you get chicken cuts, fish slices, minced beef, cabbage leaves.
+        Later an **automatic slicer** (Create: Slice & Dice) takes over.
+
+  - id: k_pot
+    deps: [k_board]
+    roles: [cook]
+    icon: farmersdelight:cooking_pot
+    shape: hexagon
+    tasks: [{type: item, item: farmersdelight:cooking_pot}]
+    rewards:
+      - {type: item, item: minecraft:bowl, count: 16}
+    ru:
+      title: "Котелок над огнём"
+      subtitle: "Сердце кухни"
+      text: |
+        **Как:** поставь котелок на источник тепла — костёр, печь Farmer's Delight или магму.
+        Закладываешь до 6 ингредиентов и посуду — котелок сам сварит рагу, суп или пасту.
+        Рецепты — **U** по котелку в EMI. Горячий котелок светится паром снизу.
+    en:
+      title: "A Pot Over the Fire"
+      subtitle: "The heart of the kitchen"
+      text: |
+        **How:** set the pot on a heat source — a campfire, a Farmer's Delight stove or magma.
+        Add up to 6 ingredients plus a container — the pot cooks stews, soups and pasta by itself.
+        Recipes: press **U** on the pot in EMI. A heated pot shows steam underneath.
+
+  - id: k_skillet
+    deps: [k_pot]
+    roles: [cook]
+    icon: farmersdelight:skillet
+    tasks: [{type: item, item: farmersdelight:skillet}]
+    optional: true
+    ru:
+      title: "Сковородка"
+      subtitle: "Жарить — и обороняться"
+      text: |
+        Сковорода жарит еду прямо в руке над огнём или будучи поставленной на плиту.
+        А ещё это неплохое оружие. Вкусное и звонкое.
+    en:
+      title: "The Skillet"
+      subtitle: "Fry — and defend yourself"
+      text: |
+        A skillet fries food held over fire or placed on a stove.
+        It's also a decent weapon. Tasty and loud.
+
+  - id: k_stew
+    deps: [k_pot]
+    roles: [cook]
+    icon: farmersdelight:beef_stew
+    tasks: [{type: item, item: farmersdelight:beef_stew}]
+    rewards:
+      - {type: item, item: farmersdelight:onion, count: 8}
+    ru:
+      title: "Первое рагу"
+      subtitle: "Сытость и «Питательность»"
+      text: |
+        Блюда из котелка дают эффект **«Питательность»**: голод почти не падает.
+        А **«Комфорт»** от супов защищает от холода и медленно лечит.
+        **Ценится у:** шахтёров и воинов — бери с собой в поход.
+    en:
+      title: "Your First Stew"
+      subtitle: "Fullness and Nourishment"
+      text: |
+        Pot dishes grant **Nourishment**: your hunger barely drops.
+        Soups grant **Comfort**: shields you from cold and slowly heals.
+        **Valued by:** miners and warriors — pack some for the road.
+
+  - id: k_rice
+    deps: [k_stew]
+    roles: [cook, gardener]
+    icon: farmersdelight:rice
+    tasks: [{type: item, item: farmersdelight:rice, count: 16}]
+    ru:
+      title: "Рис растёт в воде"
+      subtitle: "Посади в мелкую воду"
+      text: |
+        Рис сажают прямо в воду глубиной в один блок. Найти дикий рис можно у болот и рек.
+        Рис нужен для роллов, плова и рисовых шариков — и садоводам для компоста.
+    en:
+      title: "Rice Grows in Water"
+      subtitle: "Plant it in shallow water"
+      text: |
+        Rice is planted straight into one-block-deep water. Find wild rice near swamps and rivers.
+        It goes into rolls, fried rice and rice balls — and gardeners use it for compost.
+
+  - id: k_feast
+    deps: [k_rice]
+    roles: [cook]
+    icon: farmersdelight:honey_glazed_ham_block
+    tasks: [{type: item, item: farmersdelight:honey_glazed_ham_block}]
+    rewards:
+      - {type: xp_levels, count: 3}
+    ru:
+      title: "Пир на всех"
+      subtitle: "Блюдо-блок, которым кормят компанию"
+      text: |
+        **Праздничные блюда** ставятся на стол как блок: каждый подходит и берёт порцию.
+        Медовый окорок, фаршированная тыква, жаркое — один котелок кормит всю команду перед боссом.
+    en:
+      title: "A Feast for All"
+      subtitle: "A block-sized dish that feeds the group"
+      text: |
+        **Feasts** are placed on a table as a block: everyone walks up and takes a serving.
+        Honey-glazed ham, stuffed pumpkin, roasts — one pot feeds the whole team before a boss.
+
+  - id: k_cfb_table
+    deps: [k_pot]
+    roles: [cook]
+    icon: cookingforblockheads:cooking_table
+    shape: hexagon
+    tasks: [{type: item, item: cookingforblockheads:cooking_table}]
+    ru:
+      title: "Кухня мечты"
+      subtitle: "Cooking for Blockheads"
+      text: |
+        **Кухонный стол** видит всё, что лежит в соседних шкафах, холодильнике и на прилавках.
+        Он показывает только те блюда, которые можно приготовить **прямо сейчас**, и готовит их в один клик.
+        Собери стол, холодильник, плиту и раковину рядом — получится мультиблок-кухня.
+    en:
+      title: "Dream Kitchen"
+      subtitle: "Cooking for Blockheads"
+      text: |
+        The **cooking table** sees everything in the adjacent cupboards, fridge and counters.
+        It shows only the dishes you can make **right now** and cooks them in one click.
+        Put a table, fridge, oven and sink together and you have a multiblock kitchen.
+
+  - id: k_cfb_fridge
+    deps: [k_cfb_table]
+    roles: [cook]
+    icon: cookingforblockheads:white_fridge
+    tasks: [{type: item, item: cookingforblockheads:white_fridge}]
+    ru:
+      title: "Холодильник"
+      subtitle: "И кухня помнит запасы"
+      text: |
+        Холодильник хранит продукты и подключён к кухонному столу. Поставь два друг на друга — будет двухкамерный.
+        **Совет:** раковина даёт бесконечную воду для рецептов, плита — огонь для жарки.
+    en:
+      title: "The Fridge"
+      subtitle: "Your kitchen remembers its stock"
+      text: |
+        A fridge stores ingredients and links to the cooking table. Stack two for a fridge-freezer.
+        **Tip:** a sink gives endless water for recipes, an oven gives heat for frying.
+
+  - id: k_cfb_oven
+    deps: [k_cfb_fridge]
+    roles: [cook]
+    icon: cookingforblockheads:white_oven
+    tasks: [{type: item, item: cookingforblockheads:white_oven}]
+    optional: true
+    ru:
+      title: "Духовка"
+      subtitle: "Девять блюд одновременно"
+      text: |
+        Духовка запекает сразу девять продуктов и подключается к кухне. Можно встроить нагреватель — будет быстрее.
+    en:
+      title: "The Oven"
+      subtitle: "Nine dishes at once"
+      text: |
+        The oven bakes nine items at once and links into the kitchen. Add a heating unit to speed it up.
+
+  - id: k_meadow_cheese_form
+    deps: [k_pot]
+    roles: [cook, breeder]
+    icon: meadow:cheese_form
+    tasks: [{type: item, item: meadow:cheese_form}]
+    ru:
+      title: "Сыр, который ждал"
+      subtitle: "Let's Do Meadow"
+      text: |
+        **Что это:** форма для сыра — заливаешь молоко с закваской, и через время получаешь целую головку.
+        Козье, овечье, буйволиное молоко дают разные сыры. Альпийских животных разводят **заводчики**.
+        **Зачем:** сыр — частый ингредиент таверны, и колонисты его обожают.
+    en:
+      title: "The Cheese That Waited"
+      subtitle: "Let's Do Meadow"
+      text: |
+        **What:** a cheese form — pour in milk with rennet and some time later you have a whole wheel.
+        Goat, sheep and buffalo milk make different cheeses. Alpine animals are raised by **breeders**.
+        **Why:** cheese is a tavern staple and colonists love it.
+
+  - id: k_meadow_cheese
+    deps: [k_meadow_cheese_form]
+    roles: [cook]
+    icon: meadow:cheese_wheel
+    tasks: [{type: item, item: meadow:cheese_wheel}]
+    rewards:
+      - {type: item, item: meadow:rennet, count: 4}
+    ru:
+      title: "Целая головка"
+      subtitle: "Режь ломтиками"
+      text: |
+        Поставь головку сыра и режь ножом на ломтики. Из сыра — тарты, сэндвичи, колбаски с сыром.
+        **Ценится у:** всех. Особенно у тех, кто собирает новые блюда ради сердец.
+    en:
+      title: "A Whole Wheel"
+      subtitle: "Slice it up"
+      text: |
+        Place the cheese wheel and slice it with a knife. Cheese goes into tarts, sandwiches, cheesy sausages.
+        **Valued by:** everyone. Especially those collecting new dishes for hearts.
+
+  - id: k_vinery_press
+    deps: [k_pot]
+    roles: [cook, gardener]
+    icon: vinery:apple_press
+    tasks: [{type: item, item: vinery:apple_press}]
+    ru:
+      title: "Виноградник"
+      subtitle: "Let's Do Vinery"
+      text: |
+        **Что это:** виноград растёт на шпалерах; в прессе из него получается сок, а в бочке — вино.
+        Разные биомы — разные сорта: красный, белый, саванный, таёжный, тропический.
+        **Совет:** вина дают особые эффекты — от удачи до ночного зрения. Посмотри их в EMI.
+    en:
+      title: "The Vineyard"
+      subtitle: "Let's Do Vinery"
+      text: |
+        **What:** grapes grow on trellises; the press turns them into juice, and a barrel turns juice into wine.
+        Different biomes, different grapes: red, white, savanna, taiga, jungle.
+        **Tip:** wines grant special effects — from luck to night vision. Check them in EMI.
+
+  - id: k_vinery_barrel
+    deps: [k_vinery_press]
+    roles: [cook]
+    icon: vinery:fermentation_barrel
+    tasks: [{type: item, item: vinery:fermentation_barrel}]
+    ru:
+      title: "Бочка брожения"
+      subtitle: "Терпение — главный ингредиент"
+      text: |
+        В бочку кладут сок, сахар и бутылки — через время получаешь вино. Чем старше вино в стойке, тем оно сильнее.
+    en:
+      title: "The Fermentation Barrel"
+      subtitle: "Patience is the main ingredient"
+      text: |
+        Put in juice, sugar and bottles — some time later you have wine. The longer wine ages on a rack, the stronger it gets.
+
+  - id: k_wine
+    deps: [k_vinery_barrel]
+    roles: [cook]
+    icon: vinery:red_wine
+    tasks: [{type: item, item: vinery:red_wine}]
+    rewards:
+      - {type: item, item: vinery:red_grape_seeds, count: 4}
+    ru:
+      title: "Первая бутылка"
+      subtitle: "За дружбу!"
+      text: |
+        Красное вино готово. Поставь его в винную стойку — пусть выдерживается.
+        **Ценится у:** магов (некоторые ритуалы любят вино) и у мэра — колонисты в таверне радуются.
+    en:
+      title: "The First Bottle"
+      subtitle: "To friendship!"
+      text: |
+        Red wine is ready. Put it on a wine rack and let it age.
+        **Valued by:** mages (some rituals like wine) and the mayor — colonists cheer up in the tavern.
+
+  - id: k_brewin_keg
+    deps: [k_pot]
+    roles: [cook]
+    icon: brewinandchewin:keg
+    tasks: [{type: item, item: brewinandchewin:keg}]
+    ru:
+      title: "Бочонок"
+      subtitle: "Brewin' and Chewin': пиво, мёд, сыры"
+      text: |
+        **Бочонок** варит напитки: пиво, медовуху, сидр. Температура вокруг важна — смотри подсказку в окне бочонка.
+        Пьяный эффект «Подвыпивший» снижает точность — пей после работы, а не до.
+    en:
+      title: "The Keg"
+      subtitle: "Brewin' and Chewin': beer, mead, cheese"
+      text: |
+        The **keg** brews drinks: beer, mead, cider. The surrounding temperature matters — see the hint in the keg window.
+        The Tipsy effect reduces accuracy — drink after work, not before.
+
+  - id: k_beer
+    deps: [k_brewin_keg]
+    roles: [cook]
+    icon: brewinandchewin:beer
+    tasks: [{type: item, item: brewinandchewin:beer}]
+    rewards:
+      - {type: item, item: brewinandchewin:tankard, count: 4}
+    ru:
+      title: "Пенное"
+      subtitle: "Таверна открыта"
+      text: |
+        Пиво готово. Поставь кружки на стол, позови друзей — вот и таверна.
+        **Совет:** напитки Brewin' дают «Стойкость» — меньше урона от ударов.
+    en:
+      title: "Something Frothy"
+      subtitle: "The tavern is open"
+      text: |
+        Beer's ready. Put tankards on a table, call your friends — that's a tavern.
+        **Tip:** Brewin' drinks grant Tipsy-adjacent buffs like damage resistance.
+
+  - id: k_tea
+    deps: [k_pot]
+    roles: [cook, gardener]
+    icon: farmersrespite:kettle
+    tasks: [{type: item, item: farmersrespite:kettle}]
+    ru:
+      title: "Чайник"
+      subtitle: "Farmer's Respite и HerbalBrews"
+      text: |
+        Чай и кофе дают полезные эффекты: **кофе** — скорость и бодрость, **зелёный чай** — снимает эффекты, **розовый** — регенерация.
+        Чайные кусты садоводы выращивают у себя. Чайник ставится на огонь, как котелок.
+    en:
+      title: "The Kettle"
+      subtitle: "Farmer's Respite and HerbalBrews"
+      text: |
+        Tea and coffee grant handy effects: **coffee** gives speed, **green tea** clears effects, **rose hip** gives regeneration.
+        Gardeners grow tea bushes. The kettle sits on heat just like the pot.
+
+  - id: k_coffee
+    deps: [k_tea]
+    roles: [cook]
+    icon: farmersrespite:coffee
+    tasks: [{type: item, item: farmersrespite:coffee}]
+    rewards:
+      - {type: item, item: farmersrespite:coffee_beans, count: 8}
+    ru:
+      title: "Утро начинается с кофе"
+      subtitle: "Скорость, копание, бодрость"
+      text: |
+        Чашка кофе — и шахтёр копает быстрее, а путник бежит дальше.
+        **Ценится у:** инженеров и шахтёров. Сделай запас — его быстро разберут.
+    en:
+      title: "Mornings Start with Coffee"
+      subtitle: "Speed, digging, energy"
+      text: |
+        One cup and the miner digs faster and the traveller runs farther.
+        **Valued by:** engineers and miners. Make a stash — it'll be gone fast.
+
+  - id: k_farm_charm_stove
+    deps: [k_pot]
+    roles: [cook, gardener]
+    icon: farm_and_charm:stove
+    tasks: [{type: item, item: farm_and_charm:stove}]
+    optional: true
+    ru:
+      title: "Деревенская кухня"
+      subtitle: "Let's Do Farm & Charm"
+      text: |
+        Farm & Charm добавляет муку, тесто, кукурузу, овёс, ячмень и деревенские блюда.
+        Плита, миска для замеса и ростер — всё для уютной кухни в стиле фермы.
+    en:
+      title: "A Country Kitchen"
+      subtitle: "Let's Do Farm & Charm"
+      text: |
+        Farm & Charm adds flour, dough, corn, oats, barley and rustic dishes.
+        A stove, a mixing bowl and a roaster — everything for a cosy farmhouse kitchen.
+
+  - id: k_bread
+    deps: [k_farm_charm_stove]
+    roles: [cook]
+    icon: farm_and_charm:farmers_bread
+    tasks: [{type: item, item: farm_and_charm:farmers_bread}]
+    optional: true
+    ru:
+      title: "Фермерский хлеб"
+      subtitle: "Мука → тесто → хлеб"
+      text: |
+        Зерно мелется в муку, мука с водой — тесто, тесто в печи — хлеб. Просто и очень сытно.
+    en:
+      title: "Farmer's Bread"
+      subtitle: "Flour → dough → bread"
+      text: |
+        Grain becomes flour, flour with water becomes dough, dough in the oven becomes bread. Simple and filling.
+
+  - id: k_nether_kitchen
+    deps: [k_feast]
+    roles: [cook, warrior]
+    icon: mynethersdelight:hotdog
+    tasks: [{type: item, item: mynethersdelight:hotdog}]
+    optional: true
+    ru:
+      title: "Адская кухня"
+      subtitle: "My Nether's Delight"
+      text: |
+        Из Нижнего мира тоже можно готовить: хоглины, страйдеры, гасты, жгучие перцы.
+        Острые блюда дают огнестойкость — то, что нужно для похода в Нижний мир.
+    en:
+      title: "Hell's Kitchen"
+      subtitle: "My Nether's Delight"
+      text: |
+        You can cook the Nether too: hoglins, striders, ghasts, burning peppers.
+        Spicy dishes grant fire resistance — just what you need for a Nether trip.
+
+  - id: k_ocean_kitchen
+    deps: [k_feast]
+    roles: [cook, breeder]
+    icon: oceansdelight:fugu_roll
+    tasks: [{type: item, item: oceansdelight:fugu_roll}]
+    optional: true
+    ru:
+      title: "Дары моря"
+      subtitle: "Ocean's Delight"
+      text: |
+        Кальмары, стражи, рыба фугу — морская кухня. Рыбу добывают **рыбаки** (глава «Рыбалка»).
+        **Осторожно:** фугу без мастерства — это яд. Режь на доске!
+    en:
+      title: "Gifts of the Sea"
+      subtitle: "Ocean's Delight"
+      text: |
+        Squid, guardians, pufferfish — seafood. Fish come from **anglers** (chapter "Fishing").
+        **Careful:** unskilled fugu is poison. Slice it on the board!
+
+  - id: k_end_kitchen
+    deps: [k_nether_kitchen]
+    roles: [cook, warrior]
+    icon: ends_delight:dragon_meat_stew
+    tasks: [{type: item, item: ends_delight:dragon_meat_stew}]
+    optional: true
+    ru:
+      title: "Ужин на краю мира"
+      subtitle: "End's Delight"
+      text: |
+        Хорус, шалкеры и даже драконье мясо. Самые сильные блюда сборки — для тех, кто дошёл до Энда.
+    en:
+      title: "Dinner at the End of the World"
+      subtitle: "End's Delight"
+      text: |
+        Chorus, shulkers and even dragon meat. The strongest dishes in the pack — for those who reached the End.
+
+  - id: k_hearts_10
+    deps: [k_stew, k_meadow_cheese, k_wine]
+    roles: [cook]
+    icon: solcarrot:food_book
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: farmersdelight:honey_cookie, count: 16}
+      - {type: xp_levels, count: 5}
+    ru:
+      title: "Гурман"
+      subtitle: "Попробуй 20 разных блюд"
+      text: |
+        Открой книгу еды (Spice of Life) и проверь, сколько блюд ты уже пробовал.
+        Каждый рубеж даёт **сердце**. Двадцать блюд — и ты заметно крепче.
+        Отметь квест, когда в книге будет 20+ блюд.
+    en:
+      title: "Gourmet"
+      subtitle: "Taste 20 different dishes"
+      text: |
+        Open the food book (Spice of Life) and see how many dishes you've tried.
+        Each milestone grants a **heart**. Twenty dishes and you're noticeably tougher.
+        Tick the quest once the book shows 20+ dishes.
+
+  - id: k_auto_slicer
+    deps: [k_hearts_10]
+    roles: [cook, engineer]
+    icon: sliceanddice:slicer
+    tasks: [{type: item, item: sliceanddice:slicer}]
+    ru:
+      title: "Кухня на шестерёнках"
+      subtitle: "Create: Slice & Dice"
+      text: |
+        **Слайсер** — это механическая разделочная доска: нож на валу Create сам режет всё, что проезжает мимо.
+        Вместе с механическим миксером и котелком Farmer's Delight кухня работает сама.
+        **Кому пригодится:** инженер поможет с валами, повар — с рецептами. Работа на двоих!
+    en:
+      title: "A Kitchen of Cogs"
+      subtitle: "Create: Slice & Dice"
+      text: |
+        The **slicer** is a mechanical cutting board: a knife on a Create shaft slices whatever passes by.
+        With a mechanical mixer and a Farmer's Delight pot, the kitchen runs itself.
+        **Who helps:** the engineer handles shafts, the cook handles recipes. A two-person job!

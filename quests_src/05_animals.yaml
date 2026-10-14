@@ -1,0 +1,284 @@
+chapter:
+  id: animals
+  order: 5
+  icon: productivebees:bee_cage
+  ru: {title: "Животные, пчёлы, драконы", subtitle: "Разводи, приручай, исследуй"}
+  en: {title: "Animals, Bees, Dragons", subtitle: "Breed, tame, discover"}
+quests:
+  - id: a_lead
+    deps: [welcome_start]
+    roles: [breeder]
+    icon: minecraft:lead
+    shape: gear
+    tasks: [{type: item, item: minecraft:lead, count: 2}]
+    rewards:
+      - {type: item, item: minecraft:wheat, count: 32}
+    ru:
+      title: "На поводке"
+      subtitle: "Начало фермы"
+      text: |
+        **Зачем:** животные дают молоко, шерсть, яйца, мясо — и редкие материалы для зелий и брони.
+        Приведи пару коров или овец домой на поводке и покорми — появится потомство.
+        **Ценится у:** повара (молоко → сыр), алхимика (редкие дропы), колонистов (еда).
+    en:
+      title: "On a Lead"
+      subtitle: "The start of a farm"
+      text: |
+        **Why:** animals give milk, wool, eggs, meat — and rare materials for potions and armour.
+        Bring a pair of cows or sheep home on a lead and feed them — they'll have young.
+        **Valued by:** the cook (milk → cheese), the alchemist (rare drops), colonists (food).
+
+  - id: a_trough
+    deps: [a_lead]
+    roles: [breeder]
+    icon: farm_and_charm:feeding_trough
+    tasks: [{type: item, item: farm_and_charm:feeding_trough}]
+    optional: true
+    ru:
+      title: "Кормушка"
+      subtitle: "Farm & Charm"
+      text: |
+        Кормушка кормит животных сама — они будут сыты и плодовиты, пока ты занят другим.
+        Насыпь в неё корм: сено, овёс, ячмень. А курятник и гнездо подарят яйца без беготни.
+    en:
+      title: "A Feeding Trough"
+      subtitle: "Farm & Charm"
+      text: |
+        A trough feeds animals by itself — they stay fed and fertile while you're busy.
+        Fill it with fodder: hay, oats, barley. A chicken coop and a nest give eggs without the chase.
+
+  - id: a_alpine
+    deps: [a_lead]
+    roles: [breeder, cook]
+    icon: meadow:cheese_wheel
+    tasks: [{type: item, item: meadow:milk_can}]
+    optional: true
+    ru:
+      title: "Альпийский скот"
+      subtitle: "Let's Do Meadow"
+      text: |
+        В горах живут альпийские коровы, козы, овцы и буйволы. Их молоко — это разные сыры.
+        Бидон молока — главный подарок повару с Meadow.
+    en:
+      title: "Alpine Livestock"
+      subtitle: "Let's Do Meadow"
+      text: |
+        Mountains are home to alpine cows, goats, sheep and buffalo. Their milk makes different cheeses.
+        A milk can is the best gift for a Meadow cook.
+
+  - id: a_bees_intro
+    deps: [a_lead]
+    roles: [breeder]
+    icon: productivebees:bee_cage
+    shape: hexagon
+    tasks: [{type: item, item: productivebees:bee_cage}]
+    ru:
+      title: "Пчелиная генетика"
+      subtitle: "Productive Bees"
+      text: |
+        **Что это:** десятки видов пчёл, каждая собирает свои соты: железные, медные, редстоуновые, даже алмазные.
+        **Как начать:** поймай пчелу в клетку из гнезда в мире (гнёзда бывают в камне, песке, снегу, дереве).
+        Справочник по пчёлам — в EMI: найди «bee» и смотри мутации (**R**).
+    en:
+      title: "Bee Genetics"
+      subtitle: "Productive Bees"
+      text: |
+        **What:** dozens of bee species, each makes its own combs: iron, copper, redstone, even diamond.
+        **How to start:** catch a bee in a cage from a nest in the world (nests appear in stone, sand, snow, wood).
+        The bee guide is in EMI: search "bee" and check the mutations (**R**).
+
+  - id: a_bees_hive
+    deps: [a_bees_intro]
+    roles: [breeder]
+    icon: productivebees:advanced_oak_beehive
+    tasks: [{type: item, item: productivebees:advanced_oak_beehive}]
+    ru:
+      title: "Улей посерьёзнее"
+      subtitle: "Продвинутый улей"
+      text: |
+        В продвинутый улей помещается больше пчёл, и их соты можно забирать воронкой.
+        Добавь **рамку-расширение** сверху — места станет ещё больше.
+    en:
+      title: "A Serious Hive"
+      subtitle: "The advanced beehive"
+      text: |
+        An advanced hive holds more bees, and their combs can be pulled out with a hopper.
+        Put an **expansion box** on top for even more room.
+
+  - id: a_centrifuge
+    deps: [a_bees_hive]
+    roles: [breeder]
+    icon: productivebees:centrifuge
+    tasks: [{type: item, item: productivebees:centrifuge}]
+    rewards:
+      - {type: item, item: productivebees:honey_treat, count: 8}
+    ru:
+      title: "Центрифуга"
+      subtitle: "Соты → мёд, воск и ресурсы"
+      text: |
+        Центрифуга раскручивает соты на мёд, воск и полезные порошки или слитки.
+        **Совет:** механическая центрифуга работает от вращения Create, электрическая — от энергии.
+    en:
+      title: "The Centrifuge"
+      subtitle: "Combs → honey, wax and resources"
+      text: |
+        The centrifuge spins combs into honey, wax and useful dusts or ingots.
+        **Tip:** the mechanical one runs on Create rotation, the powered one on energy.
+
+  - id: a_breeding
+    deps: [a_centrifuge]
+    roles: [breeder]
+    icon: productivebees:breeding_chamber
+    tasks: [{type: item, item: productivebees:breeding_chamber}]
+    optional: true
+    ru:
+      title: "Скрещивание"
+      subtitle: "Новые виды пчёл"
+      text: |
+        Две пчелы разных видов + **медовое угощение** = шанс на новую пчелу.
+        Мутации видны в EMI. Цель — пчела нужного ресурса: железная, медная, золотая…
+        **Ценится у:** инженеров и магов — пчела даёт ресурс бесконечно.
+    en:
+      title: "Crossbreeding"
+      subtitle: "New bee species"
+      text: |
+        Two bees of different species + a **honey treat** = a chance at a new bee.
+        Mutations are listed in EMI. The goal: a bee for the resource you need — iron, copper, gold…
+        **Valued by:** engineers and mages — a bee gives a resource forever.
+
+  - id: a_gene
+    deps: [a_breeding]
+    roles: [breeder]
+    icon: productivebees:gene_bottle
+    tasks: [{type: item, item: productivebees:gene_bottle}]
+    optional: true
+    ru:
+      title: "Гены"
+      subtitle: "Продуктивность, выносливость, характер"
+      text: |
+        У пчёл есть гены: продуктивность, выносливость, поведение. Извлеки их в бутылки и пересади лучшей пчеле.
+        Через несколько поколений твои пчёлы будут работать вдвое лучше — даже под дождём и ночью.
+    en:
+      title: "Genes"
+      subtitle: "Productivity, endurance, temper"
+      text: |
+        Bees have genes: productivity, endurance, behaviour. Extract them into bottles and splice them into your best bee.
+        A few generations later your bees work twice as well — even in rain and at night.
+
+  - id: a_wildlife
+    deps: [a_lead]
+    roles: [breeder]
+    icon: alexsmobs:animal_dictionary
+    tasks: [{type: item, item: alexsmobs:animal_dictionary}]
+    rewards:
+      - {type: item, item: naturalist:capture_net}
+    ru:
+      title: "Зоолог"
+      subtitle: "Энциклопедия Alex's Mobs"
+      text: |
+        **Что это:** в мире больше сотни новых животных: от колибри до слонов. Многие дают уникальные материалы.
+        Энциклопедия расскажет про каждого: где живёт, чем кормить, что даёт.
+        **Сачок** (награда) ловит бабочек и мелких зверушек — их можно выпустить в своём саду.
+    en:
+      title: "The Zoologist"
+      subtitle: "The Alex's Mobs encyclopedia"
+      text: |
+        **What:** the world holds over a hundred new animals, from hummingbirds to elephants. Many give unique materials.
+        The encyclopedia covers each one: habitat, food, drops.
+        The **capture net** (reward) catches butterflies and small critters — release them in your garden.
+
+  - id: a_pets
+    deps: [a_wildlife]
+    roles: [breeder]
+    icon: crittersandcompanions:silk_lead
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Друг на плече"
+      subtitle: "Питомцы"
+      text: |
+        Выдры, хорьки, стрекозы, красные панды — их можно приручить. Питомцы сидят на плече, помогают в бою или просто радуют.
+        **Совет:** приручённые питомцы не атакуют друзей и не умирают от случайных ударов своих.
+    en:
+      title: "A Friend on Your Shoulder"
+      subtitle: "Pets"
+      text: |
+        Otters, ferrets, dragonflies, red pandas — they can be tamed. Pets ride on your shoulder, help in fights or just make you smile.
+        **Tip:** tamed pets don't attack friends and aren't hurt by stray hits from your team.
+
+  - id: a_dragon_egg
+    deps: [a_wildlife]
+    roles: [breeder, warrior]
+    icon: dmr:dragon_egg
+    shape: hexagon
+    tasks: [{type: item, item: dmr:dragon_egg}]
+    ru:
+      title: "Яйцо дракона"
+      subtitle: "Dragon Mounts: Remastered"
+      text: |
+        **Что это:** драконьи яйца находят в данжах и опасных краях. Из яйца вылупится дракон — **породы** зависят от того, где он вылупился.
+        Огненный — у лавы, водный — в океане, лесной — в лесу, ледяной — в снегах…
+        Вырасти дракона — и сможешь летать на нём верхом.
+    en:
+      title: "A Dragon Egg"
+      subtitle: "Dragon Mounts: Remastered"
+      text: |
+        **What:** dragon eggs are found in dungeons and dangerous lands. The **breed** depends on where it hatches.
+        Fire near lava, water in the ocean, forest in forests, ice in the snow…
+        Raise the dragon and you can ride it through the sky.
+
+  - id: a_dragon_whistle
+    deps: [a_dragon_egg]
+    roles: [breeder]
+    icon: dmr:dragon_whistle.red
+    tasks: [{type: item, item: dmr:dragon_whistle.red}]
+    optional: true
+    ru:
+      title: "Свисток"
+      subtitle: "Позови дракона"
+      text: |
+        Свисток привязывается к твоему дракону и зовёт его издалека. Цвет свистка — просто для красоты.
+    en:
+      title: "The Whistle"
+      subtitle: "Call your dragon"
+      text: |
+        A whistle binds to your dragon and calls it from afar. The colour is just for style.
+
+  - id: a_dragon_armor
+    deps: [a_dragon_whistle]
+    roles: [breeder, warrior]
+    icon: dmr:dragon_armor
+    tasks: [{type: item, item: dmr:dragon_armor}]
+    optional: true
+    ru:
+      title: "Броня для дракона"
+      subtitle: "Крылатый танк"
+      text: |
+        Драконья броня защищает питомца в бою. Нужно много металла — попроси **инженера** или **садовода** с ресурсными грядками.
+    en:
+      title: "Dragon Armour"
+      subtitle: "A winged tank"
+      text: |
+        Dragon armour protects your pet in battle. It takes a lot of metal — ask the **engineer** or a **gardener** with resource fields.
+
+  - id: a_done
+    deps: [a_centrifuge, a_dragon_egg, a_wildlife]
+    roles: [breeder]
+    icon: minecraft:golden_carrot
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: xp_levels, count: 5}
+      - {type: item, item: productivebees:honey_treat, count: 16}
+    ru:
+      title: "Повелитель зверей"
+      subtitle: "Пчёлы, звери и дракон"
+      text: |
+        У тебя есть пчёлы, энциклопедия и драконье яйцо. Дальше — коллекции в главе «Коллекции»:
+        все виды пчёл, все породы драконов и редкие звери.
+    en:
+      title: "Lord of Beasts"
+      subtitle: "Bees, beasts and a dragon"
+      text: |
+        You've got bees, the encyclopedia and a dragon egg. Next: the "Collections" chapter —
+        every bee species, every dragon breed and rare beasts.

@@ -1,0 +1,338 @@
+chapter:
+  id: garden
+  order: 4
+  icon: minecraft:wheat
+  ru: {title: "Сад, сезоны, урожай", subtitle: "Из семечка — в ресурсы для всех"}
+  en: {title: "Garden, Seasons, Harvest", subtitle: "From a seed to resources for everyone"}
+quests:
+  - id: g_hoe
+    deps: [welcome_start]
+    roles: [gardener]
+    icon: minecraft:iron_hoe
+    shape: gear
+    tasks: [{type: item, item: minecraft:iron_hoe}]
+    rewards:
+      - {type: item, item: minecraft:bone_meal, count: 16}
+    ru:
+      title: "Первая грядка"
+      subtitle: "Мотыга и вода рядом"
+      text: |
+        **Что это:** садоводство здесь — не только еда. Через **эссенции** сад даёт железо, медь, даже алмазы.
+        **Как начать:** вспаши землю у воды. С зажатой **`** мотыга вспашет сразу целое поле.
+        **Ценится у:** повара (овощи), заводчика (корм), мага (Источник от растений).
+    en:
+      title: "The First Bed"
+      subtitle: "A hoe and some water nearby"
+      text: |
+        **What:** gardening here isn't just food. Through **essences** the garden yields iron, copper, even diamonds.
+        **How to start:** till soil near water. Hold **`** and the hoe tills a whole field at once.
+        **Valued by:** the cook (veggies), the breeder (feed), the mage (Source from plants).
+
+  - id: g_seasons
+    deps: [g_hoe]
+    roles: [gardener]
+    icon: sereneseasons:calendar
+    shape: hexagon
+    tasks: [{type: item, item: sereneseasons:calendar}]
+    ru:
+      title: "Времена года"
+      subtitle: "Serene Seasons"
+      text: |
+        **Что это:** в мире идут весна, лето, осень и зима. Каждая культура растёт только в свои сезоны.
+        **Как узнать:** в EMI у семян есть подсказка «Сезоны роста». Календарь покажет, какой сейчас сезон.
+        **Совет:** зимой меньше дождей и снег, но под стеклом в **теплице** всё растёт круглый год.
+    en:
+      title: "The Seasons"
+      subtitle: "Serene Seasons"
+      text: |
+        **What:** the world goes through spring, summer, autumn and winter. Each crop grows only in its seasons.
+        **How to tell:** seeds show "Growing seasons" in their tooltip. A calendar shows the current season.
+        **Tip:** winter brings snow, but under glass in a **greenhouse** everything grows all year.
+
+  - id: g_greenhouse
+    deps: [g_seasons]
+    roles: [gardener]
+    icon: minecraft:glass
+    tasks: [{type: item, item: minecraft:glass, count: 64}]
+    rewards:
+      - {type: item, item: minecraft:glass, count: 32}
+    ru:
+      title: "Теплица"
+      subtitle: "Лето под стеклом"
+      text: |
+        Растения под стеклянной крышей (до 15 блоков над ними) не знают сезонов — растут всегда.
+        Сделай теплицу красивой: стеклянные панели Create, рамы, фонари. Это одна из лучших построек в сборке.
+    en:
+      title: "The Greenhouse"
+      subtitle: "Summer under glass"
+      text: |
+        Plants under a glass roof (up to 15 blocks above) ignore the seasons and always grow.
+        Make it pretty: Create framed glass, frames, lanterns. It's one of the nicest builds in the pack.
+
+  - id: g_veggies
+    deps: [g_hoe]
+    roles: [gardener, cook]
+    icon: farmersdelight:tomato
+    tasks:
+      - {type: item, item: farmersdelight:tomato, count: 8}
+      - {type: item, item: farmersdelight:cabbage, count: 8}
+      - {type: item, item: farmersdelight:onion, count: 8}
+    rewards:
+      - {type: item, item: farmersdelight:rice_panicle, count: 4}
+    ru:
+      title: "Овощная грядка"
+      subtitle: "Помидоры, капуста, лук"
+      text: |
+        Дикие культуры растут в мире — сорви их, и получишь семена. Повар будет рад любому урожаю.
+        **Совет:** компост Farmer's Delight превращается в богатую почву — урожай растёт быстрее.
+    en:
+      title: "A Vegetable Patch"
+      subtitle: "Tomatoes, cabbage, onions"
+      text: |
+        Wild crops grow in the world — pick them for seeds. The cook welcomes every harvest.
+        **Tip:** Farmer's Delight compost turns into rich soil — crops grow faster on it.
+
+  - id: g_rich_soil
+    deps: [g_veggies]
+    roles: [gardener]
+    icon: farmersdelight:rich_soil
+    tasks: [{type: item, item: farmersdelight:rich_soil, count: 8}]
+    optional: true
+    ru:
+      title: "Богатая почва"
+      subtitle: "Компост → чернозём"
+      text: |
+        Органический компост со временем сам превращается в **богатую почву**. На ней растения растут быстрее,
+        а грибы разрастаются колониями.
+    en:
+      title: "Rich Soil"
+      subtitle: "Compost → black earth"
+      text: |
+        Organic compost turns into **rich soil** over time. Plants grow faster on it,
+        and mushrooms spread into colonies.
+
+  - id: g_pots
+    deps: [g_veggies]
+    roles: [gardener]
+    icon: botanypots:terracotta_botany_pot
+    tasks: [{type: item, item: botanypots:terracotta_hopper_botany_pot}]
+    rewards:
+      - {type: item, item: botanypots:terracotta_hopper_botany_pot, count: 2}
+    ru:
+      title: "Сад в горшке"
+      subtitle: "Botany Pots"
+      text: |
+        **Горшок** выращивает любое растение без воды и сезонов: насыпь землю, посади семя.
+        Горшок с воронкой **сам** отдаёт урожай в сундук под ним. Десять горшков — и у повара всегда есть помидоры.
+    en:
+      title: "A Garden in a Pot"
+      subtitle: "Botany Pots"
+      text: |
+        A **pot** grows any plant without water or seasons: add soil, plant a seed.
+        A hopper pot drops the harvest **by itself** into the chest below. Ten pots and the cook never runs out of tomatoes.
+
+  - id: g_ma_inferium
+    deps: [g_hoe]
+    roles: [gardener]
+    icon: mysticalagriculture:inferium_essence
+    shape: hexagon
+    tasks: [{type: item, item: mysticalagriculture:inferium_essence, count: 32}]
+    ru:
+      title: "Инфериум"
+      subtitle: "Mystical Agriculture: ресурсы растут на грядке"
+      text: |
+        **Что это:** руда инфериума встречается под землёй. Из её эссенции растут **семена ресурсов**.
+        **Зачем:** железо, медь, уголь, кварц — без шахты. Шахтёры спят, садовод работает.
+        Подробнее — в EMI по любому семени Mystical Agriculture (**U**).
+    en:
+      title: "Inferium"
+      subtitle: "Mystical Agriculture: resources grow in a field"
+      text: |
+        **What:** inferium ore is found underground. Its essence grows **resource seeds**.
+        **Why:** iron, copper, coal, quartz — without a mine. Miners sleep, gardeners work.
+        More in EMI on any Mystical Agriculture seed (**U**).
+
+  - id: g_ma_seeds
+    deps: [g_ma_inferium]
+    roles: [gardener]
+    icon: mysticalagriculture:inferium_seeds
+    tasks: [{type: item, item: mysticalagriculture:inferium_seeds, count: 4}]
+    ru:
+      title: "Семена из ничего"
+      subtitle: "Инфериум растёт сам"
+      text: |
+        Семена инфериума дают ещё эссенции — так ты копишь на более ценные семена.
+        **Совет:** на **инфериумной грядке** (особая земля) эссенции выпадает больше.
+    en:
+      title: "Seeds from Nothing"
+      subtitle: "Inferium grows itself"
+      text: |
+        Inferium seeds yield more essence — that's how you save up for valuable seeds.
+        **Tip:** on **inferium farmland** (special soil) more essence drops.
+
+  - id: g_ma_infusion
+    deps: [g_ma_seeds]
+    roles: [gardener]
+    icon: mysticalagriculture:infusion_crystal
+    tasks: [{type: item, item: mysticalagriculture:infusion_crystal}]
+    ru:
+      title: "Кристалл наполнения"
+      subtitle: "Инструмент садовода-алхимика"
+      text: |
+        Кристалл нужен в каждом рецепте семян. Он не тратится — только изнашивается.
+        Найди **процветание** (prosperity) — светлую руду у глубины — без него кристалл не сделать.
+    en:
+      title: "The Infusion Crystal"
+      subtitle: "The gardener-alchemist's tool"
+      text: |
+        The crystal goes into every seed recipe. It isn't consumed — it just wears down.
+        Find **prosperity** — the pale ore deep underground — the crystal needs it.
+
+  - id: g_ma_iron
+    deps: [g_ma_infusion]
+    roles: [gardener]
+    icon: mysticalagriculture:iron_seeds
+    tasks: [{type: item, item: mysticalagriculture:iron_seeds}]
+    rewards:
+      - {type: item, item: mysticalagriculture:inferium_essence, count: 32}
+    ru:
+      title: "Железная грядка"
+      subtitle: "Железо без шахты"
+      text: |
+        Посади семена железа — через время получишь эссенцию, 8 эссенций дают слитки.
+        **Ценится у:** инженеров. Целая грядка железа — подарок, от которого не отказываются.
+    en:
+      title: "An Iron Field"
+      subtitle: "Iron without a mine"
+      text: |
+        Plant iron seeds — in time you'll have essence; 8 essence makes ingots.
+        **Valued by:** engineers. A whole field of iron is a gift nobody refuses.
+
+  - id: g_ma_copper
+    deps: [g_ma_infusion]
+    roles: [gardener]
+    icon: mysticalagriculture:copper_seeds
+    tasks: [{type: item, item: mysticalagriculture:copper_seeds}]
+    optional: true
+    ru:
+      title: "Медные всходы"
+      subtitle: "Create любит медь"
+      text: |
+        Медь нужна Create в огромных количествах — трубы, баки, шестерни. Подари инженеру урожай.
+    en:
+      title: "Copper Sprouts"
+      subtitle: "Create loves copper"
+      text: |
+        Create eats copper by the stack — pipes, tanks, gears. Gift the engineer your harvest.
+
+  - id: g_ma_tiers
+    deps: [g_ma_iron]
+    roles: [gardener]
+    icon: mysticalagriculture:prudentium_essence
+    tasks: [{type: item, item: mysticalagriculture:prudentium_essence, count: 16}]
+    ru:
+      title: "Ступени мастерства"
+      subtitle: "Пруденциум, тертиум, империум…"
+      text: |
+        Эссенцию инфериума можно «повысить» до пруденциума и дальше. Каждая ступень открывает новые семена.
+        Самые ценные (алмазы, незерит) требуют ступеней 4–5 — это долгосрочная цель садовода.
+    en:
+      title: "Steps of Mastery"
+      subtitle: "Prudentium, tertium, imperium…"
+      text: |
+        Inferium essence can be upgraded to prudentium and beyond. Each tier unlocks new seeds.
+        The most valuable (diamonds, netherite) need tiers 4–5 — a long-term gardener goal.
+
+  - id: g_watering
+    deps: [g_ma_seeds]
+    roles: [gardener]
+    icon: mysticalagriculture:watering_can
+    tasks: [{type: item, item: mysticalagriculture:watering_can}]
+    optional: true
+    ru:
+      title: "Лейка"
+      subtitle: "Ускоряет рост"
+      text: |
+        Полей грядку лейкой — растения растут заметно быстрее. Лучшие лейки поливают сразу большую площадь.
+    en:
+      title: "The Watering Can"
+      subtitle: "Speeds up growth"
+      text: |
+        Water a field and plants grow noticeably faster. Better cans cover a bigger area.
+
+  - id: g_sprinkler
+    deps: [g_watering]
+    roles: [gardener, engineer]
+    icon: sliceanddice:sprinkler
+    tasks: [{type: item, item: sliceanddice:sprinkler}]
+    optional: true
+    ru:
+      title: "Автополив"
+      subtitle: "Разбрызгиватель Slice & Dice"
+      text: |
+        Разбрызгиватель на трубе Create сам поливает поле. Залей в него воду — или удобрение для двойного ускорения.
+        **Кому пригодится:** садовод + инженер = ферма, которая работает без вас.
+    en:
+      title: "Automatic Watering"
+      subtitle: "The Slice & Dice sprinkler"
+      text: |
+        A sprinkler on a Create pipe waters the field for you. Feed it water — or fertiliser for double speed.
+        **Who helps:** gardener + engineer = a farm that runs without you.
+
+  - id: g_tea_coffee
+    deps: [g_veggies]
+    roles: [gardener, cook]
+    icon: farmersrespite:coffee_beans
+    tasks: [{type: item, item: farmersrespite:coffee_beans, count: 8}]
+    optional: true
+    ru:
+      title: "Чайная плантация"
+      subtitle: "Чай и кофе для таверны"
+      text: |
+        Дикие кофейные кусты растут у камней в жарких биомах, чайные — в лесах. Собери и посади у дома.
+        Повар превратит урожай в напитки-баффы.
+    en:
+      title: "A Tea Plantation"
+      subtitle: "Tea and coffee for the tavern"
+      text: |
+        Wild coffee bushes grow near stone in hot biomes, tea bushes in forests. Pick them and plant them at home.
+        The cook turns the harvest into buff drinks.
+
+  - id: g_grapes
+    deps: [g_veggies]
+    roles: [gardener, cook]
+    icon: vinery:red_grape
+    tasks: [{type: item, item: vinery:red_grape, count: 16}]
+    optional: true
+    ru:
+      title: "Лоза"
+      subtitle: "Виноград на шпалерах"
+      text: |
+        Посади лозу у шпалеры — и через пару дней она даст гроздья. Разные биомы дают разные сорта винограда.
+    en:
+      title: "The Vine"
+      subtitle: "Grapes on trellises"
+      text: |
+        Plant a vine by a trellis and in a couple of days it gives bunches. Different biomes grow different grapes.
+
+  - id: g_master
+    deps: [g_greenhouse, g_pots, g_ma_tiers]
+    roles: [gardener]
+    icon: minecraft:golden_hoe
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: mysticalagriculture:prudentium_essence, count: 32}
+      - {type: xp_levels, count: 5}
+    ru:
+      title: "Зелёные руки"
+      subtitle: "У тебя есть теплица, горшки и ресурсные грядки"
+      text: |
+        Ты кормишь компанию и снабжаешь её металлом. Дальше — пчёлы (глава «Животные») и
+        «Терраформер» в главе «Великие стройки»: он меняет биом целых районов.
+    en:
+      title: "Green Hands"
+      subtitle: "You have a greenhouse, pots and resource fields"
+      text: |
+        You feed the group and supply its metal. Next up: bees (chapter "Animals") and
+        the Terraformer in "Great Works": it changes the biome of whole districts.

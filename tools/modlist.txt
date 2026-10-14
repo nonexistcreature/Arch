@@ -79,8 +79,6 @@ farmers-delight | 2 | еда
 my-nethers-delight | 2 | еда
 oceans-delight | 2 | еда
 ends-delight | 2 | еда
-cultural-delights | 2 | еда
-expanded-delight | 2 | еда
 farmers-respite-unofficial-port | 2 | чай
 brewin-and-chewin | 2 | напитки
 slice-and-dice | 2 | автоматизация еды

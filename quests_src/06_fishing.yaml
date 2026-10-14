@@ -1,0 +1,176 @@
+chapter:
+  id: fishing
+  order: 6
+  icon: tide:fishing_journal
+  ru: {title: "Рыбалка", subtitle: "Сто рыб, тихая вода и звёздный карп"}
+  en: {title: "Fishing", subtitle: "A hundred fish, quiet water and the star carp"}
+quests:
+  - id: f_rod
+    deps: [welcome_start]
+    roles: [breeder]
+    icon: tide:stone_fishing_rod
+    shape: gear
+    tasks: [{type: item, item: tide:stone_fishing_rod}]
+    rewards:
+      - {type: item, item: tide:bait, count: 8}
+    ru:
+      title: "Первая удочка"
+      subtitle: "Tide: рыбалка с мини-игрой"
+      text: |
+        **Что это:** рыбалка здесь — маленькая игра. Клюёт — держи рыбу в зелёной зоне, пока полоска не заполнится.
+        **Зачем:** больше сотни рыб: на еду, на зелья, на ритуалы и в коллекцию. Это самое уютное занятие в сборке.
+        Разные рыбы — в разных биомах, на разной глубине, в разное время суток и погоду.
+    en:
+      title: "Your First Rod"
+      subtitle: "Tide: fishing with a mini-game"
+      text: |
+        **What:** fishing here is a little game. When it bites, keep the fish in the green zone until the bar fills.
+        **Why:** over a hundred fish — for food, potions, rituals and your collection. The cosiest pastime in the pack.
+        Different fish live in different biomes, depths, times of day and weather.
+
+  - id: f_journal
+    deps: [f_rod]
+    roles: [breeder]
+    icon: tide:fishing_journal
+    tasks: [{type: item, item: tide:fishing_journal}]
+    ru:
+      title: "Журнал рыбака"
+      subtitle: "Где кто клюёт"
+      text: |
+        Журнал записывает каждую пойманную рыбу и подсказывает, где искать остальных.
+        **Совет:** ночная рыбалка в дождь — лучшее время для редких видов.
+    en:
+      title: "The Angler's Journal"
+      subtitle: "Who bites where"
+      text: |
+        The journal records every fish you catch and hints where to find the rest.
+        **Tip:** night fishing in the rain is the best time for rare species.
+
+  - id: f_catch
+    deps: [f_rod]
+    roles: [breeder]
+    icon: minecraft:cod
+    tasks: [{type: item, item: minecraft:cod, count: 8}]
+    ru:
+      title: "Первый улов"
+      subtitle: "Восемь трески"
+      text: |
+        Просто порыбачь у берега. Свежая треска — повару на суп и роллы.
+    en:
+      title: "First Catch"
+      subtitle: "Eight cod"
+      text: |
+        Just fish from the shore. Fresh cod goes to the cook for soup and rolls.
+
+  - id: f_bait
+    deps: [f_catch]
+    roles: [breeder]
+    icon: tide:lucky_bait
+    tasks: [{type: item, item: tide:lucky_bait}]
+    ru:
+      title: "Наживка"
+      subtitle: "Удача и скорость клёва"
+      text: |
+        Наживка ускоряет клёв и повышает шанс на редкую рыбу. Её крафтят из червей, ягод, светящихся ягод.
+        Вставь наживку в удочку через её окно (правый клик удочкой в инвентаре).
+    en:
+      title: "Bait"
+      subtitle: "Luck and faster bites"
+      text: |
+        Bait speeds up bites and raises the odds of rare fish. Craft it from worms, berries, glow berries.
+        Put it in the rod through its window (right-click the rod in your inventory).
+
+  - id: f_iron_rod
+    deps: [f_bait]
+    roles: [breeder]
+    icon: tide:iron_fishing_rod
+    tasks: [{type: item, item: tide:iron_fishing_rod}]
+    ru:
+      title: "Удочка покрепче"
+      subtitle: "Леска, крючок, поплавок"
+      text: |
+        Железная удочка держит рыбу крепче. А сменные **крючки** открывают особые воды:
+        огненный — для ловли в лаве, ледяной — подо льдом, пустотный — в Энде.
+    en:
+      title: "A Sturdier Rod"
+      subtitle: "Line, hook, bobber"
+      text: |
+        An iron rod holds fish better. Swappable **hooks** open special waters:
+        the fiery hook for lava, the permafrost hook under ice, the void hook in the End.
+
+  - id: f_lava
+    deps: [f_iron_rod]
+    roles: [breeder, warrior]
+    icon: tide:lavaproof_hook
+    tasks: [{type: item, item: tide:lavaproof_hook}]
+    optional: true
+    ru:
+      title: "Рыбалка в лаве"
+      subtitle: "Огнеупорный крючок"
+      text: |
+        В лаве Нижнего мира водятся огненные рыбы — нужны для алхимии и огнестойких блюд.
+        Помни: Нижний мир — это **зона 3**. Возьми друга-воина.
+    en:
+      title: "Lava Fishing"
+      subtitle: "The lavaproof hook"
+      text: |
+        Nether lava holds fire fish — needed for alchemy and fire-resistant dishes.
+        Remember: the Nether is **zone 3**. Bring a warrior friend.
+
+  - id: f_crate
+    deps: [f_iron_rod]
+    roles: [breeder]
+    icon: tide:wooden_crate
+    tasks: [{type: item, item: tide:wooden_crate}]
+    optional: true
+    ru:
+      title: "Ящик со дна"
+      subtitle: "Сокровища на крючке"
+      text: |
+        Иногда на крючок попадает ящик с добычей: книги, монеты, редкие предметы. Чем лучше удочка — тем богаче ящики.
+    en:
+      title: "A Crate from the Deep"
+      subtitle: "Treasure on the hook"
+      text: |
+        Sometimes you hook a crate of loot: books, coins, rare items. Better rods mean richer crates.
+
+  - id: f_aquaculture
+    deps: [f_catch]
+    roles: [breeder, cook]
+    icon: aquaculture:iron_fillet_knife
+    tasks: [{type: item, item: aquaculture:iron_fillet_knife}]
+    optional: true
+    ru:
+      title: "Филе"
+      subtitle: "Aquaculture"
+      text: |
+        Филейный нож разделывает рыбу на филе — повару проще готовить, а из крупной рыбы выходит много порций.
+        Ящик для снастей хранит крючки и наживку.
+    en:
+      title: "Fillets"
+      subtitle: "Aquaculture"
+      text: |
+        A fillet knife turns fish into fillets — easier for the cook, and big fish give many servings.
+        A tackle box keeps hooks and bait together.
+
+  - id: f_master
+    deps: [f_journal, f_iron_rod]
+    roles: [breeder]
+    icon: tide:crystal_fishing_rod
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: tide:magnetic_bait, count: 4}
+      - {type: xp_levels, count: 5}
+    ru:
+      title: "Старый рыбак"
+      subtitle: "Заполни журнал на треть"
+      text: |
+        Отметь квест, когда в журнале будет хотя бы треть видов. Легендарные рыбы ждут в главе «Коллекции».
+        **Ценится у:** алхимиков и магов — редкие рыбы нужны в рецептах.
+    en:
+      title: "The Old Angler"
+      subtitle: "Fill a third of the journal"
+      text: |
+        Tick the quest once a third of the species are in the journal. Legendary fish wait in "Collections".
+        **Valued by:** alchemists and mages — rare fish go into their recipes.
