@@ -122,11 +122,11 @@ hash = "d04d5331950919436864583a7ee324582806e147abc33f1a921cc15f2c01d0ab"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "f629370c1516ba954eccc9f2c18b2a4090a6dd88b6fa0f2a5a56e64dd3530629"
+hash = "4443d15ee58ae6fbd9927a2793176598e6ecaa8180cc9604ce4110448a31b412"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "1057e0a4a729a62963ca2d00600bb498a772996000dc1ab4f2d72df91feb31ee"
+hash = "089a1bf42bd621e2bdcf5b57d08fff77790abcde69761bd6f9bb37006afd685d"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -166,11 +166,11 @@ hash = "2e2540b385fc03a28fe7b6aa64135cd949694dab7a2fccbe6051aee601caf6b4"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/en_us.json"
-hash = "22c6b38ddc7c092f89459fac212b9c29cbee5a4637c799896162d251499a68a7"
+hash = "363c99ab83e93c24f8c1442d7bb54d09f0c113d0b4ced02bfe81edad14926095"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/ru_ru.json"
-hash = "89cee69d69038c970732c2ef796bf01a409caa4d5cb86fc9f4da30545152bef9"
+hash = "07d082dfe01ba77be08e3e70ad7d0814c01a63d18dd608cb4f8ca627c0fed84f"
 
 [[files]]
 file = "kubejs/assets/arkhaven/textures/item/aero_lubricant.png"
@@ -225,6 +225,10 @@ file = "kubejs/assets/arkhaven/textures/item/waxed_canvas.png"
 hash = "25680aaa53b428ae591cc48f8f3a2301060072d88425ce94770666315872a450"
 
 [[files]]
+file = "kubejs/client_scripts/set_tooltips.js"
+hash = "f7795796a1af9003973d1c3550fcc913019960fdff3ba3b16520018b724a4b13"
+
+[[files]]
 file = "kubejs/client_scripts/tooltips.js"
 hash = "d0f21ebfaba2aa8cd957fb1c0991418f73afb10d544abd3ad91b6e9d559fb028"
 
@@ -253,8 +257,16 @@ file = "kubejs/server_scripts/40_food_buffs.js"
 hash = "5858c9082fe49cb99e6c1c4566640b0760640bf100bc2315982faa95d2411ff7"
 
 [[files]]
+file = "kubejs/server_scripts/45_set_bonuses.js"
+hash = "340c4af080c69fe2ed755269505f5163d9123300bfdc72bdf6536c8e4128eb79"
+
+[[files]]
 file = "kubejs/server_scripts/50_quest_hooks.js"
 hash = "c570be78728b96d1152fd89380361f28c0fc63d0306f2ef83dbe19f292213e35"
+
+[[files]]
+file = "kubejs/server_scripts/55_festivals.js"
+hash = "dd7397b0e31358796109e84ef5e60b6d6c72582bfcb656da39fd5330c458a767"
 
 [[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"

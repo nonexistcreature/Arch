@@ -2323,7 +2323,7 @@
 	quest.547E7AB1EA5FB62E.title: "The Full Set"
 	quest.547E7AB1EA5FB62E.quest_subtitle: "Armour set bonuses"
 	quest.547E7AB1EA5FB62E.quest_desc: [
-		"A full set of one armour type grants a &lbonus&r: mithril gives mana, fiery gives fire resistance, knightmetal gives protection."
+		"A full set of one armour type grants a &lbonus&r: ironwood gives regeneration, knightmetal and steel give resistance, cloggrum gives haste."
 		"The bonus is shown in the armour tooltip."
 	]
 	quest.56E88A8B20052C07.title: "Armed and Dangerous"

@@ -70,5 +70,22 @@
   "arkhaven.trained": "You are prepared for \"%s\" — it can now happen (the first one is a tutorial).",
   "arkhaven.event.strike": "Meteor strike",
   "arkhaven.event.rift": "Rift night",
-  "arkhaven.event.shower": "Meteor shower"
+  "arkhaven.event.shower": "Meteor shower",
+  "tooltip.arkhaven.set_bonus": "Full set: %s",
+  "tooltip.arkhaven.bonus.regeneration": "regeneration",
+  "tooltip.arkhaven.bonus.haste": "haste",
+  "tooltip.arkhaven.bonus.resistance": "resistance",
+  "tooltip.arkhaven.bonus.resistance2": "resistance II",
+  "tooltip.arkhaven.bonus.speed": "speed",
+  "tooltip.arkhaven.bonus.night_vision": "night vision",
+  "tooltip.arkhaven.bonus.fire_resistance": "fire resistance",
+  "tooltip.arkhaven.bonus.strength": "strength",
+  "arkhaven.festival.spring.title": "The Sowing Festival",
+  "arkhaven.festival.spring.chat": "[Arkhaven] Spring is here! The Festivals chapter is open: the Sowing Festival and Spring Honey.",
+  "arkhaven.festival.summer.title": "The Crafts Fair",
+  "arkhaven.festival.summer.chat": "[Arkhaven] Summer! The Crafts Fair: show off your machines and race your planes.",
+  "arkhaven.festival.autumn.title": "The Harvest Festival",
+  "arkhaven.festival.autumn.chat": "[Arkhaven] Autumn! The Harvest Festival: a great dinner, pumpkins and young wine.",
+  "arkhaven.festival.winter.title": "Winter Lights",
+  "arkhaven.festival.winter.chat": "[Arkhaven] Winter! Winter Lights: deck the Haven with lanterns and go ice fishing."
 }

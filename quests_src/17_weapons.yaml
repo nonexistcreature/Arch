@@ -166,13 +166,13 @@ quests:
       title: "Полный комплект"
       subtitle: "Бонусы наборов брони"
       text: |
-        Полный комплект брони одного вида даёт **бонус**: у мифриловой — мана, у огненной — огнестойкость, у рыцарской — защита.
+        Полный комплект брони одного вида даёт **бонус**: железное дерево — регенерация, рыцарский металл и сталь — сопротивление, клоггрум — спешка.
         Подсказка с бонусом видна в описании брони.
     en:
       title: "The Full Set"
       subtitle: "Armour set bonuses"
       text: |
-        A full set of one armour type grants a **bonus**: mithril gives mana, fiery gives fire resistance, knightmetal gives protection.
+        A full set of one armour type grants a **bonus**: ironwood gives regeneration, knightmetal and steel give resistance, cloggrum gives haste.
         The bonus is shown in the armour tooltip.
 
   - id: w_master

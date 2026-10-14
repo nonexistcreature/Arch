@@ -70,5 +70,22 @@
   "arkhaven.trained": "Вы готовы к событию «%s» — теперь оно может случиться (первое будет учебным).",
   "arkhaven.event.strike": "Крупный метеорит",
   "arkhaven.event.rift": "Ночь разломов",
-  "arkhaven.event.shower": "Звездопад"
+  "arkhaven.event.shower": "Звездопад",
+  "tooltip.arkhaven.set_bonus": "Полный комплект: %s",
+  "tooltip.arkhaven.bonus.regeneration": "регенерация",
+  "tooltip.arkhaven.bonus.haste": "спешка",
+  "tooltip.arkhaven.bonus.resistance": "сопротивление",
+  "tooltip.arkhaven.bonus.resistance2": "сопротивление II",
+  "tooltip.arkhaven.bonus.speed": "скорость",
+  "tooltip.arkhaven.bonus.night_vision": "ночное зрение",
+  "tooltip.arkhaven.bonus.fire_resistance": "огнестойкость",
+  "tooltip.arkhaven.bonus.strength": "сила",
+  "arkhaven.festival.spring.title": "Праздник сева",
+  "arkhaven.festival.spring.chat": "[Arkhaven] Пришла весна! Открыта глава «Праздники»: праздник сева и весенний мёд.",
+  "arkhaven.festival.summer.title": "Ярмарка ремёсел",
+  "arkhaven.festival.summer.chat": "[Arkhaven] Лето! Ярмарка ремёсел: покажите лучшие машины и устройте гонку самолётов.",
+  "arkhaven.festival.autumn.title": "Праздник урожая",
+  "arkhaven.festival.autumn.chat": "[Arkhaven] Осень! Праздник урожая: большой ужин, тыква и молодое вино.",
+  "arkhaven.festival.winter.title": "Огни зимы",
+  "arkhaven.festival.winter.chat": "[Arkhaven] Зима! Огни зимы: украсьте Гавань фонарями и сходите на подлёдную рыбалку."
 }
