@@ -25,3 +25,6 @@ JEI для 1.21.1 публикуется как beta; нужна 19.53+ для F
 
 ## Кулинарные аддоны: убраны Cultural Delights и Expanded Delight
 Дублируют сыр/соль/пиво/корицу Let's Do Meadow, Brewin' and Chewin' и Vinery (правило «один мод на категорию», лимит аддонов FD 5–8). Осталось: My Nether's, Ocean's, End's Delight, Farmer's Respite, Brewin' and Chewin', Slice & Dice + Let's Do (Vinery, Meadow, HerbalBrews, Farm & Charm).
+
+## Убраны Create Diesel Generators и Create: New Age
+Третий путь нефти/дизеля (уже есть Immersive Petroleum и TFMG) и второй путь «электричество+атом в Create» (есть Crafts & Additions и Mekanism). Правило «один мод на категорию».

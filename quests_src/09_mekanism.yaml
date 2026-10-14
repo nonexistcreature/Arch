@@ -1,0 +1,292 @@
+chapter:
+  id: mekanism
+  order: 9
+  icon: mekanism:ingot_osmium
+  ru: {title: "Mekanism и атом", subtitle: "От обогатителя до термоядерного синтеза"}
+  en: {title: "Mekanism & the Atom", subtitle: "From the enrichment chamber to fusion"}
+quests:
+  - id: m_osmium
+    deps: [fs_iron]
+    roles: [engineer]
+    icon: mekanism:ingot_osmium
+    shape: gear
+    tasks: [{type: item, item: mekanism:ingot_osmium, count: 16}]
+    ru:
+      title: "Осмий"
+      subtitle: "Металл Mekanism"
+      text: |
+        **Что это:** Mekanism — электрическая индустрия: машины обработки руды, химия, ядерная энергия, броня-экзоскелет.
+        **Как начать:** найди руду осмия (голубоватая) и выплавь слитки. Осмий — в каждой первой машине.
+        Справочник по Mekanism — в EMI: **U** по любому блоку.
+    en:
+      title: "Osmium"
+      subtitle: "Mekanism's metal"
+      text: |
+        **What:** Mekanism is electric industry: ore processing, chemistry, nuclear power, an exosuit.
+        **How to start:** find osmium ore (bluish) and smelt ingots. Osmium is in every first machine.
+        Mekanism reference: **U** on any block in EMI.
+
+  - id: m_steel
+    deps: [m_osmium]
+    roles: [engineer]
+    icon: mekanism:ingot_steel
+    tasks: [{type: item, item: mekanism:ingot_steel, count: 8}]
+    ru:
+      title: "Сталь"
+      subtitle: "Металлургический наполнитель"
+      text: |
+        Наполнитель смешивает железо с углём — получается обогащённое железо, затем сталь.
+        Сталь — общий металл: её используют и Mekanism, и Immersive Engineering, и TFMG (Almost Unified делает её одной).
+    en:
+      title: "Steel"
+      subtitle: "The metallurgic infuser"
+      text: |
+        The infuser blends iron with coal into enriched iron, then steel.
+        Steel is shared: Mekanism, Immersive Engineering and TFMG all use it (Almost Unified merges them into one).
+
+  - id: m_power
+    deps: [m_osmium]
+    roles: [engineer]
+    icon: mekanismgenerators:heat_generator
+    tasks: [{type: item, item: mekanismgenerators:heat_generator}]
+    ru:
+      title: "Электричество"
+      subtitle: "Тепловой генератор"
+      text: |
+        Тепловой генератор жжёт топливо или греется от лавы рядом. Это энергия для первых машин.
+        **Совет:** солнечные панели и ветряки работают бесплатно, а генератор Create (Crafts & Additions) превращает вращение в ток.
+    en:
+      title: "Electricity"
+      subtitle: "The heat generator"
+      text: |
+        The heat generator burns fuel or draws heat from nearby lava. Power for your first machines.
+        **Tip:** solar panels and wind turbines run free, and the Create alternator turns rotation into power.
+
+  - id: m_enrich
+    deps: [m_power]
+    roles: [engineer]
+    icon: mekanism:enrichment_chamber
+    tasks: [{type: item, item: mekanism:enrichment_chamber}]
+    rewards:
+      - {type: item, item: mekanism:basic_universal_cable, count: 16}
+    ru:
+      title: "Удвоение руды"
+      subtitle: "Обогатительная камера"
+      text: |
+        Обогатительная камера превращает руду в 2 пыли — вдвое больше слитков. Это первая ступень из пяти.
+        Дальше: очистительная камера (×3), химический инжектор (×4), растворение кислотой (×5).
+    en:
+      title: "Ore Doubling"
+      subtitle: "The enrichment chamber"
+      text: |
+        The enrichment chamber turns ore into 2 dust — twice the ingots. It's the first of five tiers.
+        Next: purification (×3), chemical injection (×4), acid dissolution (×5).
+
+  - id: m_circuit
+    deps: [m_enrich]
+    roles: [engineer]
+    icon: mekanism:basic_control_circuit
+    tasks: [{type: item, item: mekanism:basic_control_circuit, count: 4}]
+    ru:
+      title: "Схемы управления"
+      subtitle: "Мозги машин"
+      text: |
+        Схемы нужны для улучшений и продвинутых машин. Базовые — из осмия и редстоуна.
+    en:
+      title: "Control Circuits"
+      subtitle: "The brains of machines"
+      text: |
+        Circuits go into upgrades and advanced machines. Basic ones are osmium and redstone.
+
+  - id: m_purify
+    deps: [m_circuit]
+    roles: [engineer]
+    icon: mekanism:purification_chamber
+    tasks: [{type: item, item: mekanism:purification_chamber}]
+    optional: true
+    ru:
+      title: "Утроение"
+      subtitle: "Очистительная камера + кислород"
+      text: |
+        Очистительная камера с кислородом даёт 3 слитка с руды. Кислород — из электролитического сепаратора (вода → водород + кислород).
+    en:
+      title: "Tripling"
+      subtitle: "Purification chamber + oxygen"
+      text: |
+        A purification chamber fed with oxygen gives 3 ingots per ore. Oxygen comes from an electrolytic separator (water → hydrogen + oxygen).
+
+  - id: m_factory
+    deps: [m_circuit]
+    roles: [engineer]
+    icon: mekanism:basic_smelting_factory
+    tasks: [{type: item, item: mekanism:basic_smelting_factory}]
+    optional: true
+    ru:
+      title: "Фабрики"
+      subtitle: "Несколько операций сразу"
+      text: |
+        Фабрика — машина с несколькими слотами: плавит, дробит, обогащает сразу 3–9 предметов. Улучшается установщиком уровня.
+    en:
+      title: "Factories"
+      subtitle: "Many operations at once"
+      text: |
+        A factory is a machine with several slots: smelts, crushes or enriches 3–9 items at once. Upgrade it with a tier installer.
+
+  - id: m_jetpack
+    deps: [m_circuit]
+    roles: [engineer]
+    icon: mekanism:jetpack
+    tasks: [{type: item, item: mekanism:jetpack}]
+    optional: true
+    ru:
+      title: "Водородный ранец"
+      subtitle: "Летай на воде"
+      text: |
+        Ранец Mekanism заправляется водородом из электролитического сепаратора. Держит в воздухе дольше, чем кажется.
+    en:
+      title: "The Hydrogen Jetpack"
+      subtitle: "Fly on water"
+      text: |
+        The Mekanism jetpack is fuelled with hydrogen from the electrolytic separator. It stays up longer than you'd think.
+
+  - id: m_radiation_kit
+    deps: [m_circuit]
+    roles: [engineer]
+    icon: mekanism:geiger_counter
+    shape: hexagon
+    tasks:
+      - {type: item, item: mekanism:geiger_counter}
+      - {type: item, item: mekanism:hazmat_mask}
+      - {type: item, item: mekanism:hazmat_gown}
+    ru:
+      title: "Радиация — это серьёзно"
+      subtitle: "Счётчик Гейгера и костюм радзащиты"
+      text: |
+        Перед атомом — защита. Радиация **накапливается** в теле и вредит, если сильно облучиться.
+        Счётчик Гейгера покажет фон, дозиметр — твою дозу. Костюм радзащиты почти полностью её блокирует.
+        Подробнее о защите и очистке — в главе «Стихии и защита».
+    en:
+      title: "Radiation Is Serious"
+      subtitle: "Geiger counter and hazmat suit"
+      text: |
+        Before the atom — protection. Radiation **accumulates** in your body and hurts at high doses.
+        The Geiger counter shows the background, the dosimeter your dose. A hazmat suit blocks almost all of it.
+        More on protection and cleanup in "Elements & Defence".
+
+  - id: m_fission
+    deps: [m_radiation_kit, m_steel]
+    roles: [engineer]
+    icon: mekanismgenerators:fission_reactor_casing
+    tasks:
+      - {type: item, item: mekanismgenerators:fission_reactor_casing, count: 32}
+      - {type: item, item: mekanismgenerators:fission_fuel_assembly, count: 4}
+    rewards:
+      - {type: xp_levels, count: 10}
+    ru:
+      title: "Деление ядра"
+      subtitle: "Реактор деления"
+      text: |
+        Реактор деления — огромная энергия и огромная ответственность. **Охлаждение** важнее всего: следи за температурой.
+        Начни с малой мощности (0,1 мБ/т) и настрой аварийную остановку логическим адаптером.
+        **Совет:** собери реактор на «острове» подальше от баз и ферм.
+    en:
+      title: "Splitting the Atom"
+      subtitle: "The fission reactor"
+      text: |
+        A fission reactor means huge power and huge responsibility. **Cooling** comes first: watch the temperature.
+        Start at a low burn rate (0.1 mB/t) and wire an emergency SCRAM with a logic adapter.
+        **Tip:** build the reactor on an "island", away from bases and farms.
+
+  - id: m_turbine
+    deps: [m_fission]
+    roles: [engineer]
+    icon: mekanismgenerators:turbine_rotor
+    tasks: [{type: item, item: mekanismgenerators:turbine_casing, count: 32}, {type: item, item: mekanismgenerators:turbine_rotor, count: 4}]
+    optional: true
+    ru:
+      title: "Турбина"
+      subtitle: "Пар → электричество"
+      text: |
+        Реактор нагревает натрий или воду, бойлер делает пар, турбина превращает пар в электричество.
+        Огромная красивая конструкция — сделай её главным зданием своей электростанции.
+    en:
+      title: "The Turbine"
+      subtitle: "Steam → electricity"
+      text: |
+        The reactor heats sodium or water, the boiler makes steam, the turbine turns steam into power.
+        A huge, handsome structure — make it the centrepiece of your power plant.
+
+  - id: m_waste
+    deps: [m_fission]
+    roles: [engineer]
+    icon: mekanism:radioactive_waste_barrel
+    tasks: [{type: item, item: mekanism:radioactive_waste_barrel}]
+    ru:
+      title: "Отходы"
+      subtitle: "Не выливать в реку!"
+      text: |
+        Ядерные отходы складывают в бочку для радиоактивных отходов — она медленно их обезвреживает.
+        Позже из отходов можно сделать **плутоний** и **полоний** — топливо для SPS и антиматерии.
+    en:
+      title: "Waste"
+      subtitle: "Don't pour it in the river!"
+      text: |
+        Nuclear waste goes into a radioactive waste barrel, which slowly neutralises it.
+        Later the waste becomes **plutonium** and **polonium** — fuel for the SPS and antimatter.
+
+  - id: m_sps
+    deps: [m_waste]
+    roles: [engineer]
+    icon: mekanism:pellet_antimatter
+    tasks: [{type: item, item: mekanism:sps_casing, count: 16}]
+    optional: true
+    ru:
+      title: "Ускоритель"
+      subtitle: "SPS и антиматерия"
+      text: |
+        Сверхкритический фазовый преобразователь (SPS) превращает полоний в антиматерию. Это часть
+        мегапроекта «Кольцевой коллайдер» из главы «Великие стройки».
+    en:
+      title: "The Accelerator"
+      subtitle: "SPS and antimatter"
+      text: |
+        The supercritical phase shifter (SPS) turns polonium into antimatter. It's part of
+        the "Ring Collider" megaproject in "Great Works".
+
+  - id: m_fusion
+    deps: [m_turbine]
+    roles: [engineer]
+    icon: mekanismgenerators:fusion_reactor_controller
+    tasks: [{type: item, item: mekanismgenerators:fusion_reactor_controller}]
+    optional: true
+    ru:
+      title: "Солнце в коробке"
+      subtitle: "Термоядерный реактор"
+      text: |
+        Дейтерий и тритий, лазерный поджиг — и звезда в твоём подвале. Безопаснее деления и мощнее.
+    en:
+      title: "A Sun in a Box"
+      subtitle: "The fusion reactor"
+      text: |
+        Deuterium and tritium, a laser ignition — and a star in your basement. Safer than fission and stronger.
+
+  - id: m_mekasuit
+    deps: [m_fusion]
+    roles: [engineer, warrior]
+    icon: mekanism:mekasuit_helmet
+    shape: gear
+    tasks: [{type: item, item: mekanism:mekasuit_helmet}, {type: item, item: mekanism:mekasuit_bodyarmor}]
+    rewards:
+      - {type: item, item: mekanism:module_base, count: 4}
+    ru:
+      title: "Экзоскелет"
+      subtitle: "MekaSuit"
+      text: |
+        Модульная броня: полёт, ночное зрение, защита от радиации, автокормление. Модули ставятся в станции модификаций.
+        Вершина инженерной ветки — и отличный подарок для воина компании.
+    en:
+      title: "The Exosuit"
+      subtitle: "MekaSuit"
+      text: |
+        Modular armour: flight, night vision, radiation shielding, auto-feeding. Modules go in at the modification station.
+        The peak of the engineering branch — and a great gift for your group's warrior.

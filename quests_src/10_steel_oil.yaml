@@ -1,0 +1,204 @@
+chapter:
+  id: steel_oil
+  order: 10
+  icon: immersiveengineering:hammer
+  ru: {title: "Сталь и нефть", subtitle: "Immersive Engineering, Petroleum, TFMG — и воздух, которым дышим"}
+  en: {title: "Steel & Oil", subtitle: "Immersive Engineering, Petroleum, TFMG — and the air we breathe"}
+quests:
+  - id: ie_hammer
+    deps: [fs_iron]
+    roles: [engineer]
+    icon: immersiveengineering:hammer
+    shape: gear
+    tasks: [{type: item, item: immersiveengineering:hammer}, {type: item, item: immersiveengineering:manual}]
+    ru:
+      title: "Молот инженера"
+      subtitle: "Immersive Engineering"
+      text: |
+        **Что это:** IE — огромные красивые мультиблоки: коксовые печи, доменные печи, экскаваторы, нефтяные вышки.
+        **Как:** строишь конструкцию из блоков по схеме из **руководства инженера** и бьёшь молотом — она оживает.
+        Всё описано в книге: держи её под рукой.
+    en:
+      title: "The Engineer's Hammer"
+      subtitle: "Immersive Engineering"
+      text: |
+        **What:** IE is huge, handsome multiblocks: coke ovens, blast furnaces, excavators, oil derricks.
+        **How:** build the structure block by block from the **Engineer's Manual** and strike it with the hammer — it comes alive.
+        It's all in the book: keep it handy.
+
+  - id: ie_coke
+    deps: [ie_hammer]
+    roles: [engineer]
+    icon: immersiveengineering:coke_oven
+    tasks: [{type: item, item: immersiveengineering:coal_coke, count: 16}]
+    ru:
+      title: "Коксовая печь"
+      subtitle: "Первый мультиблок"
+      text: |
+        27 кирпичей коксовой печи в куб 3×3×3 и удар молотом. Уголь превращается в **кокс** и креозот.
+        Креозотом пропитывают доски — из них строят ветряки и столбы.
+    en:
+      title: "The Coke Oven"
+      subtitle: "Your first multiblock"
+      text: |
+        27 coke bricks in a 3×3×3 cube and a hammer strike. Coal turns into **coke** and creosote.
+        Creosote treats planks for windmills and posts.
+
+  - id: ie_steel
+    deps: [ie_coke]
+    roles: [engineer]
+    icon: immersiveengineering:ingot_steel
+    tasks: [{type: item, item: immersiveengineering:ingot_steel, count: 16}]
+    ru:
+      title: "Доменная печь"
+      subtitle: "Железо + кокс = сталь"
+      text: |
+        Доменная печь из огнеупорного кирпича превращает железо и кокс в сталь. Медленно, зато без электричества.
+    en:
+      title: "The Blast Furnace"
+      subtitle: "Iron + coke = steel"
+      text: |
+        A blast furnace of fire bricks turns iron and coke into steel. Slow, but needs no power.
+
+  - id: ie_windmill
+    deps: [ie_coke]
+    roles: [engineer]
+    icon: immersiveengineering:windmill
+    tasks: [{type: item, item: immersiveengineering:windmill}, {type: item, item: immersiveengineering:dynamo}]
+    optional: true
+    ru:
+      title: "Ветряк и динамо"
+      subtitle: "Энергия IE"
+      text: |
+        Большой ветряк крутит кинетическое динамо — и по проводам на столбах течёт ток.
+        Провода IE — это красиво: натяни линию электропередачи между базами.
+    en:
+      title: "Windmill and Dynamo"
+      subtitle: "IE power"
+      text: |
+        A big windmill turns a kinetic dynamo — and power flows along wires on posts.
+        IE wires are pretty: string a power line between bases.
+
+  - id: ie_excavator
+    deps: [ie_steel]
+    roles: [engineer]
+    icon: immersiveengineering:sample_drill
+    tasks: [{type: item, item: immersiveengineering:sample_drill}]
+    optional: true
+    ru:
+      title: "Пробы грунта"
+      subtitle: "Бур-пробник и экскаватор"
+      text: |
+        Бур-пробник находит **рудные жилы** глубоко под землёй. Над жилой ставят гигантский экскаватор — он добывает руду бесконечно.
+    en:
+      title: "Core Samples"
+      subtitle: "The core sample drill and the excavator"
+      text: |
+        The core sample drill finds **mineral veins** deep underground. A giant excavator over the vein mines ore forever.
+
+  - id: ip_survey
+    deps: [ie_steel]
+    roles: [engineer]
+    icon: immersivepetroleum:seismic_survey
+    tasks: [{type: item, item: immersivepetroleum:seismic_survey}]
+    ru:
+      title: "Где нефть?"
+      subtitle: "Сейсморазведка Immersive Petroleum"
+      text: |
+        Сейсмический прибор найдёт **нефтяной пласт** под ногами. Над ним строят вышку-деррик и насос-качалку.
+    en:
+      title: "Where's the Oil?"
+      subtitle: "Immersive Petroleum seismic survey"
+      text: |
+        The seismic survey finds an **oil reservoir** beneath you. Build a derrick and a pumpjack over it.
+
+  - id: ip_pumpjack
+    deps: [ip_survey]
+    roles: [engineer]
+    icon: immersivepetroleum:pumpjack
+    tasks: [{type: item, item: immersivepetroleum:crudeoil_bucket}]
+    ru:
+      title: "Чёрное золото"
+      subtitle: "Деррик и качалка"
+      text: |
+        Сначала деррик бурит скважину, потом качалка тянет нефть. Сырая нефть идёт в **дистилляционную колонну**.
+        **Важно:** нефтяные машины **загрязняют воздух** — смотри квест «Воздух» ниже.
+    en:
+      title: "Black Gold"
+      subtitle: "Derrick and pumpjack"
+      text: |
+        First the derrick drills a well, then the pumpjack draws oil. Crude goes into a **distillation tower**.
+        **Important:** oil machines **pollute the air** — see the "Air" quest below.
+
+  - id: ip_distill
+    deps: [ip_pumpjack]
+    roles: [engineer]
+    icon: immersivepetroleum:distillation_tower
+    tasks: [{type: item, item: immersivepetroleum:diesel_bucket}]
+    optional: true
+    ru:
+      title: "Перегонка"
+      subtitle: "Дизель, бензин, смазка"
+      text: |
+        Колонна делит нефть на фракции: дизель для генераторов, бензин для техники, смазку для машин, асфальт для дорог.
+    en:
+      title: "Distillation"
+      subtitle: "Diesel, gasoline, lubricant"
+      text: |
+        The tower splits crude into fractions: diesel for generators, gasoline for vehicles, lubricant for machines, asphalt for roads.
+
+  - id: tfmg_intro
+    deps: [c_brass]
+    roles: [engineer]
+    icon: tfmg:steel_ingot
+    tasks: [{type: item, item: tfmg:coal_coke, count: 16}]
+    ru:
+      title: "Фабрика должна расти"
+      subtitle: "TFMG: сталь и нефть в стиле Create"
+      text: |
+        TFMG — тяжёлая промышленность для Create: коксовая печь, доменная печь, литьё, дизельные двигатели.
+        Если IE тебе по душе меньше — это второй путь к стали и топливу, полностью на вращении.
+    en:
+      title: "The Factory Must Grow"
+      subtitle: "TFMG: steel and oil, Create-style"
+      text: |
+        TFMG is heavy industry for Create: coke oven, blast furnace, casting, diesel engines.
+        If IE isn't your style, this is another road to steel and fuel, entirely on rotation.
+
+  - id: tfmg_engine
+    deps: [tfmg_intro]
+    roles: [engineer]
+    icon: tfmg:engine_controller
+    tasks: [{type: item, item: tfmg:engine_controller}]
+    optional: true
+    ru:
+      title: "Дизельный двигатель"
+      subtitle: "Мощь для огромных машин"
+      text: |
+        Цилиндры, коробка передач и контроллер — и мотор крутит целый завод или тяжёлую машину Aeronautics.
+    en:
+      title: "The Diesel Engine"
+      subtitle: "Power for huge machines"
+      text: |
+        Cylinders, a gearbox and a controller — and the engine drives a whole factory or a heavy Aeronautics vehicle.
+
+  - id: air_pollution
+    deps: [ip_pumpjack]
+    roles: [engineer, gardener]
+    icon: minecraft:campfire
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Воздух"
+      subtitle: "Airborne: загрязнение"
+      text: |
+        **Что это:** заводы, дизель и паровые машины выделяют **смог**. Его разносит ветер, он вредит посевам и животным.
+        **Как бороться:** леса и цветы поглощают загрязнение; фильтры и высокие трубы рассеивают его; электричество чище дизеля.
+        **Совет:** держи тяжёлую промышленность подальше от фермы садовода — и дружба сохранится.
+    en:
+      title: "The Air"
+      subtitle: "Airborne: pollution"
+      text: |
+        **What:** factories, diesel and steam engines emit **smog**. Wind spreads it; it harms crops and animals.
+        **How to fight it:** forests and flowers absorb pollution; filters and tall stacks disperse it; electricity is cleaner than diesel.
+        **Tip:** keep heavy industry far from the gardener's farm — and the friendship survives.

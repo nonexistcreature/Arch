@@ -1,0 +1,154 @@
+chapter:
+  id: storage
+  order: 11
+  icon: ae2:controller
+  ru: {title: "Хранилище", subtitle: "AE2: от сундука до автокрафта"}
+  en: {title: "Storage", subtitle: "AE2: from a chest to autocrafting"}
+quests:
+  - id: ae_meteor
+    deps: [fs_iron_pick]
+    roles: [engineer]
+    icon: ae2:certus_quartz_crystal
+    shape: gear
+    tasks: [{type: item, item: ae2:certus_quartz_crystal, count: 16}]
+    rewards:
+      - {type: item, item: ae2:guide}
+    ru:
+      title: "Метеорит с секретом"
+      subtitle: "Applied Energistics 2"
+      text: |
+        **Что это:** AE2 превращает предметы в **данные** и хранит тысячи стаков в маленьких ячейках. Ищешь что угодно — в одном терминале.
+        **Как начать:** найди упавший метеорит AE2 (компас метеоритов помогает) — внутри прессы для процессоров и кварц.
+        Книга-гид AE2 — в награде этого квеста.
+    en:
+      title: "A Meteorite with a Secret"
+      subtitle: "Applied Energistics 2"
+      text: |
+        **What:** AE2 turns items into **data** and stores thousands of stacks in small cells. Find anything from one terminal.
+        **How to start:** find a fallen AE2 meteorite (a meteorite compass helps) — inside are processor presses and quartz.
+        The AE2 guide book is this quest's reward.
+
+  - id: ae_fluix
+    deps: [ae_meteor]
+    roles: [engineer]
+    icon: ae2:fluix_crystal
+    tasks: [{type: item, item: ae2:fluix_crystal, count: 16}]
+    ru:
+      title: "Флюикс"
+      subtitle: "Заряженный кварц + редстоун + вода"
+      text: |
+        Брось заряженный кварц, редстоун и кварц в воду — они сольются в **флюикс**. Из него делают кабели и сети.
+        **Совет:** зарядник AE2 заряжает кварц от энергии.
+    en:
+      title: "Fluix"
+      subtitle: "Charged quartz + redstone + water"
+      text: |
+        Drop charged quartz, redstone and quartz into water — they fuse into **fluix**. Cables and networks are made from it.
+        **Tip:** the AE2 charger charges quartz with power.
+
+  - id: ae_inscriber
+    deps: [ae_fluix]
+    roles: [engineer]
+    icon: ae2:inscriber
+    tasks: [{type: item, item: ae2:inscriber}]
+    ru:
+      title: "Высекатель"
+      subtitle: "Процессоры"
+      text: |
+        Высекатель с прессами из метеорита печатает схемы и собирает **процессоры**: логический, вычислительный, инженерный.
+    en:
+      title: "The Inscriber"
+      subtitle: "Processors"
+      text: |
+        The inscriber with the meteorite presses prints circuits and assembles **processors**: logic, calculation, engineering.
+
+  - id: ae_network
+    deps: [ae_inscriber]
+    roles: [engineer]
+    icon: ae2:drive
+    tasks: [{type: item, item: ae2:drive}, {type: item, item: ae2:terminal}, {type: item, item: ae2:item_storage_cell_4k}]
+    rewards:
+      - {type: item, item: ae2:item_storage_cell_4k}
+    ru:
+      title: "Первая сеть"
+      subtitle: "Привод, терминал, ячейка"
+      text: |
+        Привод с ячейками, терминал и энергоакцептор, соединённые кабелем, — и у тебя цифровой склад.
+        Положи всё в терминал — и находи поиском.
+    en:
+      title: "Your First Network"
+      subtitle: "Drive, terminal, cell"
+      text: |
+        A drive with cells, a terminal and an energy acceptor wired together — and you have a digital warehouse.
+        Put everything into the terminal and find it by search.
+
+  - id: ae_controller
+    deps: [ae_network]
+    roles: [engineer]
+    icon: ae2:controller
+    tasks: [{type: item, item: ae2:controller}]
+    ru:
+      title: "Контроллер"
+      subtitle: "Каналы и большая сеть"
+      text: |
+        Без контроллера сеть держит 8 устройств. С контроллером — сотни. Кабели несут **каналы**: обычный — 8, плотный — 32.
+    en:
+      title: "The Controller"
+      subtitle: "Channels and a big network"
+      text: |
+        Without a controller a network holds 8 devices. With one, hundreds. Cables carry **channels**: normal 8, dense 32.
+
+  - id: ae_autocraft
+    deps: [ae_controller]
+    roles: [engineer]
+    icon: ae2:crafting_unit
+    shape: hexagon
+    tasks: [{type: item, item: ae2:crafting_unit}, {type: item, item: ae2:pattern_encoding_terminal}, {type: item, item: ae2:molecular_assembler}]
+    rewards:
+      - {type: item, item: ae2:blank_pattern, count: 16}
+    ru:
+      title: "Автокрафт"
+      subtitle: "Шаблоны и сборщики"
+      text: |
+        Запиши рецепт в шаблон, вставь в молекулярный сборщик рядом с ЦП крафта — и сеть сама сделает хоть сотню.
+        Шаблоны работают и с машинами Create, Mekanism, IE через интерфейс.
+    en:
+      title: "Autocrafting"
+      subtitle: "Patterns and assemblers"
+      text: |
+        Encode a recipe into a pattern, slot it into a molecular assembler next to a crafting CPU — and the network makes a hundred.
+        Patterns also drive Create, Mekanism and IE machines through an interface.
+
+  - id: ae_wireless
+    deps: [ae_controller]
+    roles: [engineer]
+    icon: ae2:wireless_terminal
+    tasks: [{type: item, item: ae2:wireless_terminal}]
+    optional: true
+    ru:
+      title: "Склад в кармане"
+      subtitle: "Беспроводной терминал"
+      text: |
+        Беспроводной терминал открывает сеть издалека. С аддоном AE2 Wireless Terminals — даже из другого измерения.
+    en:
+      title: "A Warehouse in Your Pocket"
+      subtitle: "The wireless terminal"
+      text: |
+        A wireless terminal opens the network from afar. With the AE2 Wireless Terminals addon — even from another dimension.
+
+  - id: ae_mek
+    deps: [ae_autocraft, m_circuit]
+    roles: [engineer]
+    icon: ae2:interface
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Химия в сети"
+      subtitle: "Applied Mekanistics"
+      text: |
+        С аддоном Applied Mekanistics сеть хранит **газы и химикаты** Mekanism. Автокрафт осмия, стали и топлива — без беготни.
+    en:
+      title: "Chemistry on the Network"
+      subtitle: "Applied Mekanistics"
+      text: |
+        With Applied Mekanistics the network stores Mekanism **gases and chemicals**. Autocraft osmium, steel and fuel without running around.

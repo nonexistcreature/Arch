@@ -195,8 +195,6 @@ noisium | 1 | генерация
 yungs-extras | 2 | структуры
 yungs-bridges | 2 | мосты
 create-central-kitchen | 4 | кухня+Create
-create-diesel-generators | 4 | энергия
-create-new-age | 4 | энергия
 create-jetpack | 4 | полёт
 create-confectionery | 4 | сладости
 create-power-loader | 4 | чанклоадер
