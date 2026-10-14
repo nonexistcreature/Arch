@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "arkhaven_core:block/meteorite_ore"
+    }
+  }
+}

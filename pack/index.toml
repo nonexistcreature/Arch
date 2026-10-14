@@ -38,11 +38,11 @@ hash = "f97c06d3901e4a8959977cb83dbac06f0b395ec01f0b7c6b1d34be06393c4ead"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/en_us.json"
-hash = "636a8fabde4f6f3e2817cf79f7822c2b45b363f72d8efc2e513e610b3b6bb24a"
+hash = "0baf46b92f898369a0f3a127a67d79b39127c3b571dac6b5f0acac4915b1f997"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/ru_ru.json"
-hash = "d4c322a0234eff434a27b5b00374e625550634111897fcec0f5601b6a802deca"
+hash = "83a25d9b818bb6727f00c4863c049f6101cadb9884a688ff661372a40a4b316b"
 
 [[files]]
 file = "kubejs/assets/arkhaven/textures/item/aero_lubricant.png"
@@ -67,6 +67,10 @@ hash = "7b806b6353a27122f29ee24cbb417c93ce74ed7193906f03abefc84b0693f27f"
 [[files]]
 file = "kubejs/assets/arkhaven/textures/item/meteoric_iron_ingot.png"
 hash = "2e36767d6cf6682f436903bf9dff00728bc0a6f5aeab4170ee167bceabc5f508"
+
+[[files]]
+file = "kubejs/assets/arkhaven/textures/item/rift_shard.png"
+hash = "56795cb848a04016e43c82f7e306f71f1b39e5a4394db9f3f978cbe0a14c0fb5"
 
 [[files]]
 file = "kubejs/assets/arkhaven/textures/item/star_carp.png"
@@ -98,7 +102,7 @@ hash = "d0f21ebfaba2aa8cd957fb1c0991418f73afb10d544abd3ad91b6e9d559fb028"
 
 [[files]]
 file = "kubejs/server_scripts/00_world_rules.js"
-hash = "7ba35214a3b2f167a5280bcfb431e6622f0a1936cc109731cd1d9c64e64dd31d"
+hash = "479b3abff07b3030c3b41aed5e1613c51b55a34b1eba1eb3b42e5a223f0a6ed0"
 
 [[files]]
 file = "kubejs/server_scripts/10_welcome.js"
@@ -121,12 +125,16 @@ file = "kubejs/server_scripts/40_food_buffs.js"
 hash = "5858c9082fe49cb99e6c1c4566640b0760640bf100bc2315982faa95d2411ff7"
 
 [[files]]
+file = "kubejs/server_scripts/50_quest_hooks.js"
+hash = "50a0e0f42bee6c3f88fb08af95a1c6915cab5d59c6a0f32773ae7369c9c9c505"
+
+[[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"
 hash = "fa664889139a0967e7f920dfe3cf92f33860f12a6eed110fcb075e2ba2e422e1"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "7e7a7aeea5f943d00e60edd5057a4cf9a47eea0baf7d7635d5242b3a6a137f76"
+hash = "8e80ca9ae72904df7511a6f700e739951c5393b744050cb1d8eed8be3c9616b5"
 
 [[files]]
 file = "mods/ae2.pw.toml"
@@ -212,6 +220,10 @@ metafile = true
 file = "mods/architectury-api.pw.toml"
 hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
+
+[[files]]
+file = "mods/arkhaven_core-0.1.0.jar"
+hash = "7e65924c33f5f0049f5f738981ceaaad89745094734d9fe77b5aa1aaf783cc47"
 
 [[files]]
 file = "mods/ars-additions.pw.toml"

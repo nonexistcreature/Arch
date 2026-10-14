@@ -58,12 +58,13 @@
   "item.arkhaven.travelers_charm": "Traveler's Charm",
   "tooltip.arkhaven.travelers_charm": "In your inventory: enemies notice you at half the distance.",
   "tooltip.arkhaven.ward_crystal": "Fuel for the Ward Generator.",
-  "tooltip.arkhaven.star_carp": "Bites only at night during a meteor shower.",
+  "tooltip.arkhaven.star_carp": "Found in water where a meteor has fallen.",
   "tooltip.arkhaven.valued_by": "Valued by: %s",
   "role.arkhaven.engineer": "engineers",
   "role.arkhaven.warrior": "warriors",
   "role.arkhaven.everyone": "everyone",
   "role.arkhaven.engineer_mage": "engineers and mages",
   "role.arkhaven.builder": "builders",
-  "role.arkhaven.alchemist": "alchemists"
+  "role.arkhaven.alchemist": "alchemists",
+  "item.arkhaven.rift_shard": "Rift Shard"
 }

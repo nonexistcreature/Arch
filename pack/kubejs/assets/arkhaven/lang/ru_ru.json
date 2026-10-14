@@ -58,12 +58,13 @@
   "item.arkhaven.travelers_charm": "Оберег путника",
   "tooltip.arkhaven.travelers_charm": "В инвентаре: враги замечают вас вдвое ближе.",
   "tooltip.arkhaven.ward_crystal": "Топливо Генератора оберега.",
-  "tooltip.arkhaven.star_carp": "Клюёт только ночью во время звездопада.",
+  "tooltip.arkhaven.star_carp": "Попадается в воде, куда упал метеорит.",
   "tooltip.arkhaven.valued_by": "Ценится у: %s",
   "role.arkhaven.engineer": "инженеров",
   "role.arkhaven.warrior": "воинов",
   "role.arkhaven.everyone": "всех",
   "role.arkhaven.engineer_mage": "инженеров и магов",
   "role.arkhaven.builder": "строителей",
-  "role.arkhaven.alchemist": "алхимиков"
+  "role.arkhaven.alchemist": "алхимиков",
+  "item.arkhaven.rift_shard": "Осколок разлома"
 }

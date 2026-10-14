@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "active=false": {
+      "model": "arkhaven_core:block/ward_generator_t2"
+    },
+    "active=true": {
+      "model": "arkhaven_core:block/ward_generator_t2_on"
+    }
+  }
+}

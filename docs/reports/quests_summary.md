@@ -1,6 +1,6 @@
 # quests_summary (авто, tools/validate_quests.py)
 
-Всего квестов: **236**, глав: 18
+Всего квестов: **251**, глав: 19
 
 | файл | глава | квестов |
 |---|---|---|
@@ -22,6 +22,7 @@
 | 15_alchemy.yaml | Алхимия | 11 |
 | 16_adventure.yaml | Приключения | 17 |
 | 17_weapons.yaml | Оружие и снаряжение | 10 |
+| 18_elements.yaml | Стихии и защита | 15 |
 
 Роли: engineer: 77, warrior: 38, cook: 33, mage: 33, breeder: 28, gardener: 26, alchemist: 11, builder: 3
 

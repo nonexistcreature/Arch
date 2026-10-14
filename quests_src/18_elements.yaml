@@ -1,0 +1,290 @@
+chapter:
+  id: elements
+  order: 18
+  icon: arkhaven_core:ward_generator_t1
+  ru: {title: "Стихии и защита", subtitle: "Мир живой — и от всего можно укрыться"}
+  en: {title: "Elements & Defence", subtitle: "A living world — and shelter from all of it"}
+quests:
+  - id: el_intro
+    deps: [welcome_events]
+    icon: arkhaven_core:star_atlas
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: arkhaven_core:star_atlas}
+    ru:
+      title: "Как устроены события"
+      subtitle: "Честные правила"
+      text: |
+        События идут **только когда кто-то онлайн**. Первые 7 игровых дней мир спокоен.
+        Каждое опасное событие **не начнётся**, пока вы не пройдёте его квест «Знакомство» здесь — а первое всегда учебное.
+        **Звёздный атлас** (награда) показывает прогноз на ночь. Админ может включить «отпуск» — и мир отдыхает.
+    en:
+      title: "How Events Work"
+      subtitle: "Fair rules"
+      text: |
+        Events run **only while someone is online**. The first 7 in-game days are quiet.
+        No dangerous event **starts** until you finish its "Meet" quest here — and the first one is always a tutorial.
+        The **Star Atlas** (reward) shows tonight's forecast. An admin can turn on "vacation" and the world rests.
+
+  - id: el_hearth
+    deps: [el_intro]
+    icon: arkhaven_core:hearth_stone
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: arkhaven_core:hearth_stone}
+    ru:
+      title: "Камень очага"
+      subtitle: "Дом, куда враги не приходят"
+      text: |
+        Поставь **Камень очага** у дома (награда) — в радиусе 48 блоков враждебные мобы не появляются сами.
+        Приваты (карта → «Заприватить») работают так же. Камень — один на игрока: новый переносит старый.
+    en:
+      title: "The Hearth Stone"
+      subtitle: "A home enemies don't visit"
+      text: |
+        Place the **Hearth Stone** (reward) by your home — no hostile mobs spawn on their own within 48 blocks.
+        Claims (map → "Claim") work the same way. One stone per player: a new one moves the old one.
+
+  - id: el_shower_meet
+    deps: [el_intro]
+    icon: arkhaven:meteoric_dust
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Звездопад"
+      subtitle: "Знакомство"
+      text: |
+        **Что это:** ночью небо иногда расчерчивают метеоры. Почти все сгорают в воздухе, а мелкие падают в **диких землях**.
+        **Что делать:** любоваться и искать упавшие камни — в них **метеоритная руда**. Если метеор упал в воду — там может оказаться **звёздный карп**.
+        Это событие — подарок, бояться нечего.
+    en:
+      title: "The Meteor Shower"
+      subtitle: "Meet the event"
+      text: |
+        **What:** some nights the sky is streaked with meteors. Most burn up; small ones land in **the wilds**.
+        **What to do:** enjoy the view and look for fallen stones — they hold **meteorite ore**. If one lands in water, a **star carp** may be there.
+        This event is a gift — nothing to fear.
+
+  - id: el_meteor_ore
+    deps: [el_shower_meet]
+    icon: arkhaven_core:meteorite_ore
+    tasks: [{type: item, item: arkhaven:meteoric_dust, count: 8}]
+    rewards:
+      - {type: item, item: arkhaven:meteoric_dust, count: 4}
+    ru:
+      title: "Небесная пыль"
+      subtitle: "Метеоритная руда"
+      text: |
+        Добудь метеоритную руду железной киркой — получишь **метеоритную пыль**. Из неё делают метеоритное железо и **кристаллы оберега**.
+        **Ценится у:** всех. Это главный товар исследователя.
+    en:
+      title: "Sky Dust"
+      subtitle: "Meteorite ore"
+      text: |
+        Mine meteorite ore with an iron pickaxe for **meteoric dust**. It makes meteoric iron and **ward crystals**.
+        **Valued by:** everyone. It's the explorer's best trade good.
+
+  - id: el_ward_crystal
+    deps: [el_meteor_ore]
+    icon: arkhaven:ward_crystal_t1
+    tasks: [{type: item, item: arkhaven:ward_crystal_t1, count: 2}]
+    ru:
+      title: "Кристалл оберега"
+      subtitle: "Топливо защиты"
+      text: |
+        Аметист + метеоритная пыль: в **миксере Create** с подогревом (инженер) или в **камере наполнения Ars** (маг).
+        Кристаллы II уровня требуют и техники, и магии — вот где пригодится дружба.
+    en:
+      title: "The Ward Crystal"
+      subtitle: "Fuel for protection"
+      text: |
+        Amethyst + meteoric dust: in a heated **Create mixer** (engineer) or an **Ars imbuement chamber** (mage).
+        Tier II crystals need both tech and magic — that's where friendship pays off.
+
+  - id: el_ward
+    deps: [el_ward_crystal]
+    icon: arkhaven_core:ward_generator_t1
+    shape: hexagon
+    tasks: [{type: item, item: arkhaven_core:ward_generator_t1}]
+    rewards:
+      - {type: item, item: arkhaven:ward_crystal_t1, count: 2}
+    ru:
+      title: "Генератор оберега"
+      subtitle: "Купол над домом"
+      text: |
+        **Что делает:** в радиусе 32 блоков (II — 64, III — 128) взрывы не ломают блоки, метеориты сгорают в воздухе, а с II уровня — разломы не открываются.
+        **Как:** поставь у базы, вставь кристалл (правый клик). Топливо тратится, только когда рядом кто-то есть или идёт событие.
+        Редстоун-сигнал выключает генератор. Клик пустой рукой — статус.
+    en:
+      title: "The Ward Generator"
+      subtitle: "A dome over your home"
+      text: |
+        **What it does:** within 32 blocks (II — 64, III — 128) explosions break nothing, meteors burn up mid-air, and from tier II rifts can't open.
+        **How:** place it at your base and insert a crystal (right-click). Fuel burns only while someone is near or an event is running.
+        A redstone signal turns it off. Click with an empty hand for status.
+
+  - id: el_meteor_meet
+    deps: [el_ward]
+    icon: minecraft:fire_charge
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Крупный метеорит"
+      subtitle: "Знакомство (включает событие)"
+      text: |
+        **Как распознать:** за **10 минут** до удара — титр, звук колокола, полоса-таймер и **светящийся столб в небе** над местом падения.
+        **Что делать:** не стоять в месте падения. Оберег над базой сожжёт метеорит. На мягкой силе (1) метеорит падает рядом с базой, но не в приваты.
+        **Награда за смелость:** кратер с метеоритной рудой. Отметь квест — и метеориты начнут падать (первый — учебный, далеко).
+    en:
+      title: "The Meteor Strike"
+      subtitle: "Meet the event (enables it)"
+      text: |
+        **How to tell:** **10 minutes** before impact — a title, a bell, a countdown bar and a **glowing column in the sky** above the impact site.
+        **What to do:** don't stand there. A ward over your base burns the meteor up. On gentle intensity (1) it lands near your base, never in claims.
+        **Reward for courage:** a crater full of meteorite ore. Tick the quest and meteors start falling (the first is a far-off tutorial).
+
+  - id: el_rift_meet
+    deps: [el_ward]
+    icon: arkhaven:rift_shard
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Ночь разломов"
+      subtitle: "Знакомство (включает событие)"
+      text: |
+        **Что это:** иногда ночью в 60–130 блоках от игроков открываются **разломы**. Из них выходят мобы — недалеко, на ~30 блоков.
+        **Как защититься:** разлом не откроется в безопасной зоне и рядом с **оберегом II**. Мобы исчезают на рассвете.
+        **Зачем идти к разлому:** когда он закроется, останутся **осколки разлома** — ценный материал для магии.
+    en:
+      title: "Rift Night"
+      subtitle: "Meet the event (enables it)"
+      text: |
+        **What:** some nights **rifts** open 60–130 blocks from players. Mobs pour out — but stay within ~30 blocks.
+        **Protection:** rifts never open in safe zones or near a **tier II ward**. Their mobs vanish at dawn.
+        **Why go there:** when a rift closes it leaves **rift shards** — valuable for magic.
+
+  - id: el_blood_moon
+    deps: [el_intro]
+    icon: minecraft:redstone
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Кровавая луна"
+      subtitle: "Enhanced Celestials"
+      text: |
+        **Как распознать:** луна становится красной, о ней предупреждают с вечера. Мобов этой ночью больше — но **только в диких землях**.
+        **Что делать:** ночь дома, у очага. Или — для смелых — охота за редкой добычей. Бывают и **урожайная** (рост посевов) и **голубая** (удача) луны.
+    en:
+      title: "The Blood Moon"
+      subtitle: "Enhanced Celestials"
+      text: |
+        **How to tell:** the moon turns red, with a warning at dusk. More mobs that night — but **only in the wilds**.
+        **What to do:** stay home by the hearth. Or, for the brave, hunt rare drops. There are also **harvest** (crop growth) and **blue** (luck) moons.
+
+  - id: el_storm_meet
+    deps: [el_intro]
+    icon: weather2:weather_forecast
+    tasks: [{type: item, item: weather2:weather_forecast}]
+    ru:
+      title: "Бури и торнадо"
+      subtitle: "Weather, Storms & Tornadoes"
+      text: |
+        **Что это:** грозовые фронты, ливни и **торнадо** двигаются по миру. Торнадо поднимает блоки и мобов.
+        **Как распознать:** **метеостанция** (награда этого квеста — её рецепт в EMI) показывает фронты на радаре, **сирена** воет при приближении.
+        На мягкой силе торнадо редки и слабы.
+    en:
+      title: "Storms and Tornadoes"
+      subtitle: "Weather, Storms & Tornadoes"
+      text: |
+        **What:** storm fronts, downpours and **tornadoes** roam the world. A tornado lifts blocks and mobs.
+        **How to tell:** a **weather forecast** station shows fronts on radar; a **tornado siren** howls as one approaches.
+        On gentle intensity tornadoes are rare and weak.
+
+  - id: el_deflector
+    deps: [el_storm_meet]
+    icon: weather2:weather_deflector
+    shape: hexagon
+    tasks: [{type: item, item: weather2:weather_deflector}]
+    ru:
+      title: "Дефлектор погоды"
+      subtitle: "Торнадо обходит базу"
+      text: |
+        Дефлектор разрушает торнадо и бури, которые подходят к базе. Поставь его в центре — и спи спокойно.
+        **Совет:** сирена торнадо рядом с кроватью разбудит, если что-то идёт.
+    en:
+      title: "The Weather Deflector"
+      subtitle: "Tornadoes go around your base"
+      text: |
+        The deflector dissolves tornadoes and storms that approach your base. Put it in the middle and sleep soundly.
+        **Tip:** a tornado siren next to your bed wakes you if something's coming.
+
+  - id: el_smog
+    deps: [el_intro, air_pollution]
+    icon: minecraft:moss_block
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Смог и кислотные дожди"
+      subtitle: "Airborne"
+      text: |
+        **Как распознать:** серая дымка над заводами, болеющие посевы, кашель животных.
+        **Защита:** зелье **«Чистое дыхание»** (алхимик), деревья и цветы вокруг завода, электричество вместо дизеля.
+        Цель на будущее — проект **«Чистое небо»** в «Великих стройках».
+    en:
+      title: "Smog and Acid Rain"
+      subtitle: "Airborne"
+      text: |
+        **How to tell:** a grey haze over factories, sickly crops, coughing animals.
+        **Protection:** the **Clean Breath** potion (alchemist), trees and flowers around the factory, electricity instead of diesel.
+        A long-term goal: the **Clear Sky** project in "Great Works".
+
+  - id: el_radiation
+    deps: [el_intro, m_radiation_kit]
+    icon: mekanism:hazmat_mask
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Радиация"
+      subtitle: "Mekanism"
+      text: |
+        **Как распознать:** счётчик Гейгера трещит. Радиация появляется только от **ядерных отходов** и аварий реактора.
+        **Защита:** костюм радзащиты, бочки для отходов, зелье **«Свинцовая кровь»** выводит накопленную дозу.
+    en:
+      title: "Radiation"
+      subtitle: "Mekanism"
+      text: |
+        **How to tell:** the Geiger counter crackles. Radiation only comes from **nuclear waste** and reactor accidents.
+        **Protection:** a hazmat suit, waste barrels, and the **Lead Blood** potion flushes your dose.
+
+  - id: el_raid
+    deps: [el_intro]
+    icon: minecolonies:blockhutguardtower
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Набег на колонию"
+      subtitle: "MineColonies"
+      text: |
+        **Как распознать:** колония растёт — и привлекает варваров, пиратов, египетских мумий. За набегом следит ратуша, о нём сообщают в чате.
+        **Защита:** **сторожевые башни** и казармы со стражей, стены, пушки Create Big Cannons.
+    en:
+      title: "A Colony Raid"
+      subtitle: "MineColonies"
+      text: |
+        **How to tell:** a growing colony attracts barbarians, pirates and mummies. The town hall tracks raids and announces them in chat.
+        **Protection:** **guard towers** and barracks with guards, walls, Create Big Cannons.
+
+  - id: el_master
+    deps: [el_meteor_meet, el_rift_meet, el_deflector, el_hearth]
+    icon: arkhaven_core:ward_generator_t2
+    shape: gear
+    tasks: [{type: item, item: arkhaven_core:ward_generator_t2}]
+    rewards:
+      - {type: item, item: arkhaven:ward_crystal_t2, count: 2}
+      - {type: xp_levels, count: 5}
+    ru:
+      title: "Хранитель базы"
+      subtitle: "Оберег II уровня"
+      text: |
+        Оберег II защищает 64 блока, не пускает разломы и требует кристаллов из **техники и магии** — инженер и маг вместе.
+        Мир по-прежнему живой, но теперь он вам не страшен.
+    en:
+      title: "Keeper of the Base"
+      subtitle: "A tier II ward"
+      text: |
+        A tier II ward protects 64 blocks, blocks rifts and needs crystals made from **tech and magic** — engineer and mage together.
+        The world is still alive, but it no longer scares you.

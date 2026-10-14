@@ -13,5 +13,6 @@ StartupEvents.registry('item', event => {
   event.create('arkhaven:citadel_heart').rarity('epic').maxStackSize(1)
   event.create('arkhaven:star_carp').rarity('rare')                // HANDSHAKE 9: angler during meteor showers
     .food(food => food.nutrition(6).saturation(1.2).effect('minecraft:luck', 6000, 0, 1.0))
+  event.create('arkhaven:rift_shard').rarity('uncommon')              // dropped by closing rifts (arkhaven-core)
   event.create('arkhaven:travelers_charm').maxStackSize(1).rarity('uncommon') // halves hostile aggro range
 })

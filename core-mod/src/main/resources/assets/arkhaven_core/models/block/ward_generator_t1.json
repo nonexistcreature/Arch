@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "arkhaven_core:block/ward_generator_t1_top",
+    "bottom": "arkhaven_core:block/ward_generator_t1_top",
+    "side": "arkhaven_core:block/ward_generator_t1_side"
+  }
+}

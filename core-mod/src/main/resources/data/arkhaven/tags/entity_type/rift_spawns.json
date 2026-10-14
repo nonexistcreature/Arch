@@ -1,0 +1,30 @@
+{
+  "values": [
+    "minecraft:zombie",
+    "minecraft:skeleton",
+    "minecraft:spider",
+    "minecraft:husk",
+    "minecraft:stray",
+    "minecraft:vindicator",
+    {
+      "id": "born_in_chaos_v1:dread_hound",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:spirit_guide",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:barrel_zombie",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:skeleton_thrasher",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:decrepit_skeleton",
+      "required": false
+    }
+  ]
+}

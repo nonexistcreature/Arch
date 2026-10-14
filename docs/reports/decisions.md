@@ -28,3 +28,6 @@ JEI для 1.21.1 публикуется как beta; нужна 19.53+ для F
 
 ## Убраны Create Diesel Generators и Create: New Age
 Третий путь нефти/дизеля (уже есть Immersive Petroleum и TFMG) и второй путь «электричество+атом в Create» (есть Crafts & Additions и Mekanism). Правило «один мод на категорию».
+
+## arkhaven-core в pack/mods (jar в git)
+Свой мод не опубликован на Modrinth/CF; кладём собранный jar (~100 КБ) прямо в pack/mods, packwiz раздаёт его как обычный файл. Правило «не класть jar в git» относится к чужим модам.

@@ -77,6 +77,7 @@ ITEMS = {
     "citadel_heart": ("heart", (230, 190, 90)),
     "star_carp": ("fish", (240, 200, 90)),
     "travelers_charm": ("charm", (110, 190, 140)),
+    "rift_shard": ("crystal", (150, 60, 200)),
 }
 
 

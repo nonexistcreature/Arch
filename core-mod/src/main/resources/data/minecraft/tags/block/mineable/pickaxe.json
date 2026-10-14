@@ -1,0 +1,9 @@
+{
+  "values": [
+    "arkhaven_core:ward_generator_t1",
+    "arkhaven_core:ward_generator_t2",
+    "arkhaven_core:ward_generator_t3",
+    "arkhaven_core:hearth_stone",
+    "arkhaven_core:meteorite_ore"
+  ]
+}
