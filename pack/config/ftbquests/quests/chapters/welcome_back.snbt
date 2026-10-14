@@ -1,0 +1,140 @@
+{
+	id: "950EE076426FF539"
+	group: ""
+	order_index: 23
+	filename: "welcome_back"
+	icon: {
+		id: "minecraft:clock"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "C9541EF8D509C102"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "minecraft:clock"
+				count: 1
+			}
+			tasks: [
+				{
+					id: "40DFE31C762C11D2"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "B7E56430316C85AA"
+			x: 1.5d
+			y: -3.125d
+			icon: {
+				id: "mekanism:basic_energy_cube"
+				count: 1
+			}
+			dependencies: [
+				"C9541EF8D509C102"
+			]
+			tasks: [
+				{
+					id: "3692CABA1F07900B"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "C72B11224C43FE15"
+			x: 1.5d
+			y: -1.875d
+			icon: {
+				id: "minecraft:wheat"
+				count: 1
+			}
+			dependencies: [
+				"C9541EF8D509C102"
+			]
+			tasks: [
+				{
+					id: "21F1A2B5768DD607"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "DAF8ABD2B98E1392"
+			x: 1.5d
+			y: -0.625d
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+				count: 1
+			}
+			dependencies: [
+				"C9541EF8D509C102"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "8B6AA0368522CA61"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "D9275DD9BDBB6DD3"
+			x: 1.5d
+			y: 0.625d
+			icon: {
+				id: "minecraft:campfire"
+				count: 1
+			}
+			dependencies: [
+				"C9541EF8D509C102"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "85CE09676057D446"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "09C5B09C586913C2"
+			x: 1.5d
+			y: 1.875d
+			icon: {
+				id: "arkhaven_core:star_atlas"
+				count: 1
+			}
+			dependencies: [
+				"C9541EF8D509C102"
+			]
+			tasks: [
+				{
+					id: "AE538634D191666E"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "3DD6552F19EF0458"
+			x: 1.5d
+			y: 3.125d
+			icon: {
+				id: "minecraft:writable_book"
+				count: 1
+			}
+			dependencies: [
+				"C9541EF8D509C102"
+			]
+			tasks: [
+				{
+					id: "4D5571BEA23D7A68"
+					type: "checkmark"
+				}
+			]
+		}
+	]
+}

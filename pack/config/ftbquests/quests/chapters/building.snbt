@@ -1,0 +1,159 @@
+{
+	id: "6C67AEF364E06285"
+	group: ""
+	order_index: 20
+	filename: "building"
+	icon: {
+		id: "buildinggadgets2:gadget_building"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "9FC1E9E294DB3C6B"
+			x: 0.0d
+			y: -0.625d
+			shape: "gear"
+			icon: {
+				id: "buildinggadgets2:gadget_building"
+				count: 1
+			}
+			dependencies: [
+				"A1B4E617FBC154C7"
+			]
+			tasks: [
+				{
+					id: "6F4B154BF64A9B19"
+					type: "item"
+					item: {
+						count: 1
+						id: "buildinggadgets2:gadget_building"
+					}
+				}
+			]
+		}
+		{
+			id: "08468A16A473B47D"
+			x: 1.5d
+			y: -1.875d
+			icon: {
+				id: "buildinggadgets2:gadget_exchanging"
+				count: 1
+			}
+			dependencies: [
+				"9FC1E9E294DB3C6B"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "B088C42F68FFAFA3"
+					type: "item"
+					item: {
+						count: 1
+						id: "buildinggadgets2:gadget_exchanging"
+					}
+				}
+			]
+		}
+		{
+			id: "F402AF2B28E1AB7A"
+			x: 1.5d
+			y: -0.625d
+			icon: {
+				id: "framedblocks:framed_hammer"
+				count: 1
+			}
+			dependencies: [
+				"9FC1E9E294DB3C6B"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "2DAA60DC3578A884"
+					type: "item"
+					item: {
+						count: 1
+						id: "framedblocks:framed_cube"
+					}
+				}
+			]
+		}
+		{
+			id: "40339AC01B286C60"
+			x: 0.0d
+			y: 0.625d
+			icon: {
+				id: "handcrafted:oak_table"
+				count: 1
+			}
+			dependencies: [
+				"25244ED318CF1CC2"
+			]
+			tasks: [
+				{
+					id: "77AA345A181574DF"
+					type: "item"
+					item: {
+						count: 1
+						id: "handcrafted:oak_table"
+					}
+				}
+				{
+					id: "04D56CCB755C4CC7"
+					type: "item"
+					item: {
+						count: 1
+						id: "handcrafted:oak_chair"
+					}
+				}
+			]
+		}
+		{
+			id: "9FBC13A5E0BD957F"
+			x: 1.5d
+			y: 0.625d
+			icon: {
+				id: "create:schematicannon"
+				count: 1
+			}
+			dependencies: [
+				"9FC1E9E294DB3C6B"
+				"D856C39EACDC4542"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "61483EC1874009CC"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "BE5505B24DA3089B"
+			x: 1.5d
+			y: 1.875d
+			shape: "gear"
+			icon: {
+				id: "minecraft:lantern"
+				count: 1
+			}
+			dependencies: [
+				"40339AC01B286C60"
+			]
+			tasks: [
+				{
+					id: "1FA48D62A17985DC"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "7A3F96ECF4709DAA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+	]
+}

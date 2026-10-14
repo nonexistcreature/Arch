@@ -1,0 +1,242 @@
+{
+	id: "C0644DABCF408CC6"
+	group: ""
+	order_index: 22
+	filename: "collections"
+	icon: {
+		id: "solcarrot:food_book"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "3BAB07B21B1282E9"
+			x: 0.0d
+			y: -3.125d
+			icon: {
+				id: "solcarrot:food_book"
+				count: 1
+			}
+			dependencies: [
+				"0E783133843C22F0"
+			]
+			tasks: [
+				{
+					id: "0CD598D019F68C86"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "11A799E85904B3C1"
+					type: "item"
+					item: {
+						count: 2
+						id: "minecraft:golden_apple"
+					}
+				}
+			]
+		}
+		{
+			id: "743FC4A70C4CBD86"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "minecraft:enchanted_golden_apple"
+				count: 1
+			}
+			dependencies: [
+				"3BAB07B21B1282E9"
+			]
+			tasks: [
+				{
+					id: "38A8A4B37C0D273E"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "92003208FAE2AC19"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+				}
+			]
+		}
+		{
+			id: "27144F338FDF2C08"
+			x: 0.0d
+			y: -1.875d
+			icon: {
+				id: "tide:fishing_journal"
+				count: 1
+			}
+			dependencies: [
+				"AC267C60B4B16E10"
+			]
+			tasks: [
+				{
+					id: "EA0FA3C695197E0E"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "D0A45C4D18162EE2"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:diamond_fishing_rod"
+					}
+				}
+			]
+		}
+		{
+			id: "265FF61074550E28"
+			x: 0.0d
+			y: -0.625d
+			icon: {
+				id: "arkhaven:star_carp"
+				count: 1
+			}
+			dependencies: [
+				"BD8147435B400249"
+			]
+			tasks: [
+				{
+					id: "B9A19FB0346E4E6C"
+					type: "item"
+					item: {
+						count: 1
+						id: "arkhaven:star_carp"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "F935504DDFDD777A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			id: "00665D425DD344B3"
+			x: 0.0d
+			y: 0.625d
+			icon: {
+				id: "productivebees:bee_cage"
+				count: 1
+			}
+			dependencies: [
+				"0367AB6113664DF8"
+			]
+			tasks: [
+				{
+					id: "D413828EA61B42C5"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "00176B5F03542463"
+					type: "item"
+					item: {
+						count: 32
+						id: "productivebees:honey_treat"
+					}
+				}
+			]
+		}
+		{
+			id: "DAA3BFEE086967DC"
+			x: 0.0d
+			y: 1.875d
+			icon: {
+				id: "dmr:dragon_egg"
+				count: 1
+			}
+			dependencies: [
+				"6ACD4387091E4FF3"
+			]
+			tasks: [
+				{
+					id: "C5DC4B3CECAED580"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "74FCB4324A815612"
+					type: "item"
+					item: {
+						count: 1
+						id: "dmr:dragon_armor"
+					}
+				}
+			]
+		}
+		{
+			id: "5B7AA6799E31A9A7"
+			x: 0.0d
+			y: 3.125d
+			icon: {
+				id: "twilightforest:lich_trophy"
+				count: 1
+			}
+			dependencies: [
+				"A0B6AA7E95CCB7D5"
+			]
+			tasks: [
+				{
+					id: "642B10173D196011"
+					type: "kill"
+					entity: "twilightforest:hydra"
+					value: 1L
+				}
+				{
+					id: "2AA21F97D22D0E0B"
+					type: "kill"
+					entity: "twilightforest:ur_ghast"
+					value: 1L
+				}
+				{
+					id: "D0AA32F9E79BBEA2"
+					type: "kill"
+					entity: "cataclysm:ignis"
+					value: 1L
+				}
+				{
+					id: "26DF94F41178D7B6"
+					type: "kill"
+					entity: "minecraft:wither"
+					value: 1L
+				}
+				{
+					id: "CD6900396E3C1284"
+					type: "kill"
+					entity: "minecraft:ender_dragon"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "D698851B0C8BE61E"
+					type: "item"
+					item: {
+						count: 2
+						id: "minecraft:nether_star"
+					}
+				}
+				{
+					id: "C9F44C5CF433ADE0"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+		}
+	]
+}

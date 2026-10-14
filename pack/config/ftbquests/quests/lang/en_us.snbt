@@ -1593,4 +1593,277 @@
 		"A tier II ward protects 64 blocks, blocks rifts and needs crystals made from &ltech and magic&r — engineer and mage together."
 		"The world is still alive, but it no longer scares you."
 	]
+	chapter.6FA4DB5D74373B8B.title: "The Town"
+	chapter.6FA4DB5D74373B8B.chapter_subtitle: [
+		"A colony, villagers and a village of your own"
+	]
+	quest.E01F1AB7F25BCE3E.title: "The Settlers' Camp"
+	quest.E01F1AB7F25BCE3E.quest_subtitle: "MineColonies"
+	quest.E01F1AB7F25BCE3E.quest_desc: [
+		"&lWhat:&r MineColonies is your own town with worker citizens: builders, farmers, cooks, miners, guards."
+		"&lHow to start:&r place a &lsupply camp&r (or a supply ship by water) — its chest holds a town hall."
+		"Details: the MineColonies guide and the &lscan tool&r for blueprints. No rush: a town grows over weeks."
+	]
+	quest.8961E98A888A1F6F.title: "The Town Hall"
+	quest.8961E98A888A1F6F.quest_subtitle: "The heart of the colony"
+	quest.8961E98A888A1F6F.quest_desc: [
+		"Place the town hall with the &lbuild tool&r — pick a style (medieval, Byzantine, modern…)."
+		"The town hall sets the &lcolony borders&r — enemies don't spawn on their own inside them."
+	]
+	quest.E8A40D4402EEB3F1.title: "The Builder"
+	quest.E8A40D4402EEB3F1.quest_subtitle: "Your first worker"
+	quest.E8A40D4402EEB3F1.quest_desc: [
+		"The builder's hut comes first. The builder raises every other building if you bring materials."
+		"&lTip:&r a warehouse with couriers saves you from running around with chests."
+	]
+	quest.6CF67932543F364E.title: "The Colony Needs a Cook"
+	quest.6CF67932543F364E.quest_subtitle: "Well-fed citizens work better"
+	quest.6CF67932543F364E.quest_desc: [
+		"Citizens eat. The higher their house level, the &lmore varied&r the food they want: soups, pies, Farmer's Delight dishes."
+		"&lWho helps:&r your group's cook is the town's main supplier. One of the pack's key handshakes."
+	]
+	quest.2448820009AD4703.title: "The Colony Farmer"
+	quest.2448820009AD4703.quest_subtitle: "Fields without you"
+	quest.2448820009AD4703.quest_desc: [
+		"The farmer ploughs, plants and harvests on his own. Give him seeds — tomatoes, cabbage, rice — and the cook never runs out."
+	]
+	quest.18D3669431D9E42A.title: "The Guard"
+	quest.18D3669431D9E42A.quest_subtitle: "The guard tower"
+	quest.18D3669431D9E42A.quest_desc: [
+		"Guards protect the colony from raids. Give them armour and weapons — &lyour group's smith&r will be needed."
+		"More on raids in \"Elements & Defence\"."
+	]
+	quest.95EA1D5A0184FB40.title: "The University"
+	quest.95EA1D5A0184FB40.quest_subtitle: "Colony research"
+	quest.95EA1D5A0184FB40.quest_desc: [
+		"At the university citizens research upgrades: faster building, better healing, stronger defence."
+	]
+	quest.3128D00D510F86AC.title: "The Tavern"
+	quest.3128D00D510F86AC.quest_subtitle: "New citizens arrive by themselves"
+	quest.3128D00D510F86AC.quest_desc: [
+		"The tavern attracts travellers who become new citizens. It also simply looks lovely."
+	]
+	quest.DE28B4759F897AD5.title: "Villagers with Character"
+	quest.DE28B4759F897AD5.quest_subtitle: "MCA Reborn"
+	quest.DE28B4759F897AD5.quest_desc: [
+		"Villagers here are people: names, personalities, families and moods. Talk to them, befriend them, hire them."
+		"&lTip:&r gifts improve relationships. MCA smiths and farmers sell useful things."
+	]
+	quest.9A706D39C73346D7.title: "Dream Town"
+	quest.9A706D39C73346D7.quest_subtitle: "A level 5 town hall"
+	quest.9A706D39C73346D7.quest_desc: [
+		"Tick this once the town hall reaches &llevel 5&r. It's a whole-group project — cooks feed, engineers build roads, mages enchant."
+		"Next: the \"Great Works\" chapter."
+	]
+	chapter.6C67AEF364E06285.title: "Building"
+	chapter.6C67AEF364E06285.chapter_subtitle: [
+		"Decor, tools and beautiful homes"
+	]
+	quest.9FC1E9E294DB3C6B.title: "The Building Gadget"
+	quest.9FC1E9E294DB3C6B.quest_subtitle: "Walls in a second"
+	quest.9FC1E9E294DB3C6B.quest_desc: [
+		"&lWhat:&r the gadget places a row, wall or floor of the chosen block at once. It runs on energy."
+		"There are also &lexchanging&r (swap blocks), &lcopy-paste&r (move a build) and &ldestruction&r gadgets."
+	]
+	quest.08468A16A473B47D.title: "Swapping Blocks"
+	quest.08468A16A473B47D.quest_subtitle: "Redecorate a house in a minute"
+	quest.08468A16A473B47D.quest_desc: [
+		"The exchanging gadget swaps blocks for the chosen one: stone to brick, oak to spruce. Perfect for restyling builds."
+	]
+	quest.F402AF2B28E1AB7A.title: "Framed Blocks"
+	quest.F402AF2B28E1AB7A.quest_subtitle: "FramedBlocks"
+	quest.F402AF2B28E1AB7A.quest_desc: [
+		"A framed block takes the look of any other: glass stairs, wool slabs, copper slopes."
+	]
+	quest.40339AC01B286C60.title: "A Cosy Home"
+	quest.40339AC01B286C60.quest_subtitle: "Handcrafted, Macaw's, Another Furniture"
+	quest.40339AC01B286C60.quest_desc: [
+		"Tables, chairs, wardrobes, lamps, windows, doors, roofs, bridges — hundreds of decorative blocks."
+		"Every wood type is covered (Every Compat). Browse EMI: &l@handcrafted&r, &l@mcw&r."
+	]
+	quest.9FBC13A5E0BD957F.title: "Blueprints"
+	quest.9FBC13A5E0BD957F.quest_subtitle: "Save it and build it again"
+	quest.9FBC13A5E0BD957F.quest_desc: [
+		"Create schematics save and share builds. Make a \"standard cottage\" and build it for your friends."
+	]
+	quest.BE5505B24DA3089B.title: "Beautiful!"
+	quest.BE5505B24DA3089B.quest_subtitle: "Take a photo of your home"
+	quest.BE5505B24DA3089B.quest_desc: [
+		"Turn on shaders, find a nice angle and take a screenshot (&lF2&r). Share it with friends — and tick the quest."
+	]
+	chapter.B4F136AADF95EE95.title: "Great Works"
+	chapter.B4F136AADF95EE95.chapter_subtitle: [
+		"Megaprojects for the whole group"
+	]
+	quest.0709903C70BF2FE2.title: "Bigger Together"
+	quest.0709903C70BF2FE2.quest_subtitle: "What this chapter is for"
+	quest.0709903C70BF2FE2.quest_desc: [
+		"These are projects &lno one finishes alone&r: each needs several roles to chip in."
+		"Agree who does what — and build. The rewards here are the most generous."
+	]
+	quest.E5D41835C2EFE544.title: "The Flying Citadel"
+	quest.E5D41835C2EFE544.quest_subtitle: "Engineer, mage, builder, breeder"
+	quest.E5D41835C2EFE544.quest_desc: [
+		"The &lCitadel Heart&r combines waxed canvas (breeder), dragon plating, a tier II ward crystal (engineer + mage) and pearlescent levitite."
+		"Build a floating island with a garden, kitchen and workshop, set the Heart at its centre — and tick the quest once it rises above the clouds."
+	]
+	quest.5E25791A3DFA2FDB.title: "The Nuclear Power Plant"
+	quest.5E25791A3DFA2FDB.quest_subtitle: "Engineer + gardener"
+	quest.5E25791A3DFA2FDB.quest_desc: [
+		"A fission reactor, boiler and turbine — a power plant for the whole server. Start-up needs a &lbio-fuel&r generator (the gardener's crops)."
+		"Tick when the plant powers every base."
+	]
+	quest.467F31F4129D2736.title: "The Ring Collider"
+	quest.467F31F4129D2736.quest_subtitle: "Every role"
+	quest.467F31F4129D2736.quest_desc: [
+		"SPS antimatter, ward crystals, source blocks and nether stars make &lexotic matter&r — the material for tier III wards and the pack's finale."
+		"For now it's crafted at a table; a future version adds a huge ring multiblock."
+	]
+	quest.084CEBE01C3352F1.title: "The Grand Restaurant"
+	quest.084CEBE01C3352F1.quest_subtitle: "Cook, gardener, breeder, angler"
+	quest.084CEBE01C3352F1.quest_desc: [
+		"Build a restaurant with a Cooking for Blockheads kitchen and serve five signature dishes from every corner of the world: dragon stew, fugu, cheese, noir wine and honey-glazed ham."
+	]
+	quest.4C988FF056779288.title: "The Nature Reserve"
+	quest.4C988FF056779288.quest_subtitle: "Breeder, angler, explorer"
+	quest.4C988FF056779288.quest_desc: [
+		"Half the fish journal, 10 bee species and 3 dragon breeds — in one reserve with enclosures and ponds. Tick once you have them all."
+	]
+	quest.19E75AA8929A563A.title: "Dream City"
+	quest.19E75AA8929A563A.quest_subtitle: "The mayor and everyone"
+	quest.19E75AA8929A563A.quest_desc: [
+		"A colony with a level 5 town hall, roads, a train and a market. Everyone contributed something. Throw a party!"
+	]
+	quest.89CABD5281435C1C.title: "Clear Sky"
+	quest.89CABD5281435C1C.quest_subtitle: "Engineer, gardener, mage"
+	quest.89CABD5281435C1C.quest_desc: [
+		"Make sure no base sits under smog: electricity instead of diesel, absorbing forests, tall stacks."
+		"Check the Airborne pollution map — and tick the quest once the air is clean."
+	]
+	chapter.C0644DABCF408CC6.title: "Collections"
+	chapter.C0644DABCF408CC6.chapter_subtitle: [
+		"For those who love collecting everything"
+	]
+	quest.3BAB07B21B1282E9.title: "40 Dishes"
+	quest.3BAB07B21B1282E9.quest_subtitle: "Spice of Life"
+	quest.3BAB07B21B1282E9.quest_desc: [
+		"Taste 40 different dishes. Every milestone in the food book is a new heart."
+	]
+	quest.743FC4A70C4CBD86.title: "80 Dishes"
+	quest.743FC4A70C4CBD86.quest_subtitle: "A true gourmet"
+	quest.743FC4A70C4CBD86.quest_desc: [
+		"80 dishes means the cuisines of every world: nether, sea, dragon, alpine."
+	]
+	quest.27144F338FDF2C08.title: "Half the Journal"
+	quest.27144F338FDF2C08.quest_subtitle: "Half of all fish species"
+	quest.27144F338FDF2C08.quest_desc: [
+		"Fill half the angler's journal. Hints for the missing ones are in the journal itself."
+	]
+	quest.265FF61074550E28.title: "The Star Carp"
+	quest.265FF61074550E28.quest_subtitle: "A legend of the meteor shower"
+	quest.265FF61074550E28.quest_desc: [
+		"They say when a meteor falls into water, a star carp can be found there. A dinner of it brings luck."
+	]
+	quest.00665D425DD344B3.title: "10 Bee Species"
+	quest.00665D425DD344B3.quest_subtitle: "Beekeeper"
+	quest.00665D425DD344B3.quest_desc: [
+		"Collect 10 different bee species. The mutation guide is in EMI."
+	]
+	quest.DAA3BFEE086967DC.title: "Three Dragon Breeds"
+	quest.DAA3BFEE086967DC.quest_subtitle: "Dragon nursery"
+	quest.DAA3BFEE086967DC.quest_desc: [
+		"Hatch dragons of three different breeds. Where an egg hatches decides who is born."
+	]
+	quest.5B7AA6799E31A9A7.title: "Monster Hunter"
+	quest.5B7AA6799E31A9A7.quest_subtitle: "Five great bosses"
+	quest.5B7AA6799E31A9A7.quest_desc: [
+		"Hydra, Ur-Ghast, Ignis, the Wither and the Ender Dragon. The pinnacle of glory — and trophies for the Great Works."
+	]
+	chapter.950EE076426FF539.title: "Welcome Back!"
+	chapter.950EE076426FF539.chapter_subtitle: [
+		"A checklist after a break and what's new"
+	]
+	quest.C9541EF8D509C102.title: "We Missed You"
+	quest.C9541EF8D509C102.quest_subtitle: "Always open"
+	quest.C9541EF8D509C102.quest_desc: [
+		"Been a while? The world didn't fall apart: events don't run without you, and the farms waited."
+		"Run through the checklist below and you'll remember where you left off. The quest book remembers your progress."
+	]
+	quest.B7E56430316C85AA.title: "Power"
+	quest.B7E56430316C85AA.quest_subtitle: "Generators and fuel"
+	quest.B7E56430316C85AA.quest_desc: [
+		"Check generators, fuel and storage. Did the reactor shut down? Do the &lwards&r have enough crystals?"
+	]
+	quest.C72B11224C43FE15.title: "Farms and Stores"
+	quest.C72B11224C43FE15.quest_subtitle: "Harvest, bees, food"
+	quest.C72B11224C43FE15.quest_desc: [
+		"Collect harvest from pots and chests, check the hives and food stores. What season is it? (calendar)"
+	]
+	quest.DAF8ABD2B98E1392.title: "The Colony"
+	quest.DAF8ABD2B98E1392.quest_subtitle: "Citizen happiness"
+	quest.DAF8ABD2B98E1392.quest_desc: [
+		"Visit the town hall: happiness, citizen requests, any need for food."
+	]
+	quest.D9275DD9BDBB6DD3.title: "The Air"
+	quest.D9275DD9BDBB6DD3.quest_subtitle: "The pollution map"
+	quest.D9275DD9BDBB6DD3.quest_desc: [
+		"Has smog built up around the factories? If so, the Clear Sky project is waiting."
+	]
+	quest.09C5B09C586913C2.title: "The Forecast"
+	quest.09C5B09C586913C2.quest_subtitle: "The Star Atlas"
+	quest.09C5B09C586913C2.quest_desc: [
+		"Open the Star Atlas (or &o/arkhaven forecast&r) — what does tonight hold?"
+	]
+	quest.3DD6552F19EF0458.title: "What's New: 0.1.0"
+	quest.3DD6552F19EF0458.quest_subtitle: "The first Arkhaven release"
+	quest.3DD6552F19EF0458.quest_desc: [
+		"Arkhaven is open! ~250 mods, 23 quest chapters, alchemist potions, the Ward Generator, meteor showers and strikes."
+		"Tell us in chat what you loved and what broke — the next version will take it into account."
+	]
+	chapter.0DC5789BB7E8D3AF.title: "Festivals"
+	chapter.0DC5789BB7E8D3AF.chapter_subtitle: [
+		"Seasonal and repeatable — come back every season"
+	]
+	quest.A8921ED5601F390E.title: "The Festival Calendar"
+	quest.A8921ED5601F390E.quest_subtitle: "A festival for every season"
+	quest.A8921ED5601F390E.quest_desc: [
+		"The season changes about every 24 in-game days. Each season has its festival with &lrepeatable&r quests."
+		"Do them in their season (check the calendar) — the rewards can be earned again and again."
+	]
+	quest.084AB0193213DB26.title: "🌸 The Sowing Festival"
+	quest.084AB0193213DB26.quest_subtitle: "Spring"
+	quest.084AB0193213DB26.quest_desc: [
+		"In spring everything is planted. Gather seeds for a shared festival field and sow it together."
+	]
+	quest.A19DF824BFD97F6F.title: "🌸 Spring Honey"
+	quest.A19DF824BFD97F6F.quest_subtitle: "Spring"
+	quest.A19DF824BFD97F6F.quest_desc: [
+		"The bees are awake. Gather combs for the festival — the cook will bake honey cookies for everyone."
+	]
+	quest.FB357B4253B80201.title: "☀️ The Crafts Fair"
+	quest.FB357B4253B80201.quest_subtitle: "Summer"
+	quest.FB357B4253B80201.quest_desc: [
+		"Summer brings a show of machines and ships. Bring your best builds to the square and race planes around the Haven."
+		"Tick the quest after the fair."
+	]
+	quest.26456503909C0515.title: "☀️ Cool Down"
+	quest.26456503909C0515.quest_subtitle: "Summer"
+	quest.26456503909C0515.quest_desc: [
+		"It's hot! Make melon popsicles for the whole group."
+	]
+	quest.D263804B39A8E916.title: "🍂 The Harvest Festival"
+	quest.D263804B39A8E916.quest_subtitle: "Autumn"
+	quest.D263804B39A8E916.quest_desc: [
+		"Autumn means a great dinner: stuffed pumpkin and wine from the new harvest. Set a shared table!"
+	]
+	quest.DF568FA0D1D7F62E.title: "❄️ Winter Lights"
+	quest.DF568FA0D1D7F62E.quest_subtitle: "Winter"
+	quest.DF568FA0D1D7F62E.quest_desc: [
+		"In winter the town is decked with lights. Hang lanterns along the Haven's streets — and launch fireworks (reward)."
+	]
+	quest.3B8FD62542482159.title: "❄️ Ice Fishing"
+	quest.3B8FD62542482159.quest_subtitle: "Winter"
+	quest.3B8FD62542482159.quest_desc: [
+		"Cut a hole in the ice and fish. Fresh salmon for the festive table."
+	]
 }

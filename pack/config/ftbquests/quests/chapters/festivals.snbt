@@ -1,0 +1,297 @@
+{
+	id: "0DC5789BB7E8D3AF"
+	group: ""
+	order_index: 24
+	filename: "festivals"
+	icon: {
+		id: "minecraft:cake"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "A8921ED5601F390E"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "sereneseasons:calendar"
+				count: 1
+			}
+			dependencies: [
+				"7241DEBF5CA44DB8"
+			]
+			tasks: [
+				{
+					id: "2CEDBE9C19BFEC84"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "084AB0193213DB26"
+			x: 1.5d
+			y: -3.75d
+			icon: {
+				id: "minecraft:wheat_seeds"
+				count: 1
+			}
+			dependencies: [
+				"A8921ED5601F390E"
+			]
+			can_repeat: true
+			tasks: [
+				{
+					id: "E3A8E4198ECEAA54"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato_seeds"
+					}
+					count: 8L
+				}
+				{
+					id: "5B66396498B41ADB"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage_seeds"
+					}
+					count: 8L
+				}
+				{
+					id: "8D685BF77398B8F4"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "5F73759D42DA2597"
+					type: "item"
+					item: {
+						count: 32
+						id: "minecraft:bone_meal"
+					}
+				}
+			]
+		}
+		{
+			id: "A19DF824BFD97F6F"
+			x: 1.5d
+			y: -2.5d
+			icon: {
+				id: "minecraft:honeycomb"
+				count: 1
+			}
+			dependencies: [
+				"A8921ED5601F390E"
+				"B98471DFFDDBAAF0"
+			]
+			can_repeat: true
+			tasks: [
+				{
+					id: "C413A2E15866A885"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "F2C0EC8E0F95C1DA"
+					type: "item"
+					item: {
+						count: 8
+						id: "productivebees:honey_treat"
+					}
+				}
+			]
+		}
+		{
+			id: "FB357B4253B80201"
+			x: 1.5d
+			y: -1.25d
+			icon: {
+				id: "aeronautics:wooden_propeller"
+				count: 1
+			}
+			dependencies: [
+				"A8921ED5601F390E"
+				"7AF169EE9ACAE9A5"
+			]
+			can_repeat: true
+			tasks: [
+				{
+					id: "1BB99AD0FBD079FA"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "6E7D876E9180B80E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			id: "26456503909C0515"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "minecraft:melon_slice"
+				count: 1
+			}
+			dependencies: [
+				"A8921ED5601F390E"
+			]
+			can_repeat: true
+			tasks: [
+				{
+					id: "39F45C98D0E502E7"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersdelight:melon_popsicle"
+					}
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "93DF239EF35E4773"
+					type: "item"
+					item: {
+						count: 4
+						id: "farmersdelight:fruit_salad"
+					}
+				}
+			]
+		}
+		{
+			id: "D263804B39A8E916"
+			x: 1.5d
+			y: 1.25d
+			icon: {
+				id: "minecraft:pumpkin"
+				count: 1
+			}
+			dependencies: [
+				"A8921ED5601F390E"
+			]
+			can_repeat: true
+			tasks: [
+				{
+					id: "6D749CE3B284F2ED"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersdelight:stuffed_pumpkin_block"
+					}
+				}
+				{
+					id: "050085A35C223CB8"
+					type: "item"
+					item: {
+						count: 1
+						id: "vinery:red_wine"
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "36E8B96F6989E80C"
+					type: "item"
+					item: {
+						count: 16
+						id: "minecraft:golden_carrot"
+					}
+				}
+				{
+					id: "DDE18462E4D6C663"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			id: "DF568FA0D1D7F62E"
+			x: 1.5d
+			y: 2.5d
+			icon: {
+				id: "minecraft:lantern"
+				count: 1
+			}
+			dependencies: [
+				"A8921ED5601F390E"
+			]
+			can_repeat: true
+			tasks: [
+				{
+					id: "E7B1CD3FAE253491"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "F4F66A20D5B94161"
+					type: "item"
+					item: {
+						count: 16
+						id: "minecraft:firework_rocket"
+					}
+				}
+			]
+		}
+		{
+			id: "3B8FD62542482159"
+			x: 1.5d
+			y: 3.75d
+			icon: {
+				id: "minecraft:ice"
+				count: 1
+			}
+			dependencies: [
+				"A8921ED5601F390E"
+				"3A9539897B1176C1"
+			]
+			can_repeat: true
+			tasks: [
+				{
+					id: "02FA4D3E2409A492"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:salmon"
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "312CE8D97FB8E2DF"
+					type: "item"
+					item: {
+						count: 4
+						id: "tide:lucky_bait"
+					}
+				}
+			]
+		}
+	]
+}

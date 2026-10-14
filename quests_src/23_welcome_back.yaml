@@ -1,0 +1,117 @@
+chapter:
+  id: welcome_back
+  order: 23
+  icon: minecraft:clock
+  ru: {title: "С возвращением!", subtitle: "Чек-лист после перерыва и что нового"}
+  en: {title: "Welcome Back!", subtitle: "A checklist after a break and what's new"}
+quests:
+  - id: wb_start
+    icon: minecraft:clock
+    shape: gear
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Мы скучали"
+      subtitle: "Всегда открыто"
+      text: |
+        Давно не заходил? Мир не развалился: события не идут без вас, а фермы ждали.
+        Пробегись по чек-листу ниже — и вспомнишь, где остановился. Книга квестов помнит твой прогресс.
+    en:
+      title: "We Missed You"
+      subtitle: "Always open"
+      text: |
+        Been a while? The world didn't fall apart: events don't run without you, and the farms waited.
+        Run through the checklist below and you'll remember where you left off. The quest book remembers your progress.
+
+  - id: wb_power
+    deps: [wb_start]
+    icon: mekanism:basic_energy_cube
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Энергия"
+      subtitle: "Генераторы и топливо"
+      text: |
+        Проверь генераторы, топливо и накопители. Не выключился ли реактор? Хватает ли кристаллов в **оберегах**?
+    en:
+      title: "Power"
+      subtitle: "Generators and fuel"
+      text: |
+        Check generators, fuel and storage. Did the reactor shut down? Do the **wards** have enough crystals?
+
+  - id: wb_farms
+    deps: [wb_start]
+    icon: minecraft:wheat
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Фермы и запасы"
+      subtitle: "Урожай, пчёлы, еда"
+      text: |
+        Забери урожай из горшков и сундуков, проверь ульи и запасы еды. Какой сейчас сезон? (календарь)
+    en:
+      title: "Farms and Stores"
+      subtitle: "Harvest, bees, food"
+      text: |
+        Collect harvest from pots and chests, check the hives and food stores. What season is it? (calendar)
+
+  - id: wb_colony
+    deps: [wb_start]
+    icon: minecolonies:blockhuttownhall
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Колония"
+      subtitle: "Счастье жителей"
+      text: |
+        Загляни в ратушу: счастье, запросы жителей, не нужна ли еда.
+    en:
+      title: "The Colony"
+      subtitle: "Citizen happiness"
+      text: |
+        Visit the town hall: happiness, citizen requests, any need for food.
+
+  - id: wb_air
+    deps: [wb_start]
+    icon: minecraft:campfire
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Воздух"
+      subtitle: "Карта загрязнения"
+      text: |
+        Не накопился ли смог у заводов? Если да — проект «Чистое небо» ждёт.
+    en:
+      title: "The Air"
+      subtitle: "The pollution map"
+      text: |
+        Has smog built up around the factories? If so, the Clear Sky project is waiting.
+
+  - id: wb_forecast
+    deps: [wb_start]
+    icon: arkhaven_core:star_atlas
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Прогноз"
+      subtitle: "Звёздный атлас"
+      text: |
+        Открой Звёздный атлас (или команду */arkhaven forecast*) — что ждёт этой ночью?
+    en:
+      title: "The Forecast"
+      subtitle: "The Star Atlas"
+      text: |
+        Open the Star Atlas (or */arkhaven forecast*) — what does tonight hold?
+
+  - id: wb_new_0_1
+    deps: [wb_start]
+    icon: minecraft:writable_book
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Что нового: 0.1.0"
+      subtitle: "Первая версия Arkhaven"
+      text: |
+        Сборка Arkhaven открылась! ~250 модов, 23 главы квестов, свои зелья алхимика, Генератор оберега, звездопады и метеориты.
+        Пиши в чат, что понравилось и что сломалось, — следующая версия учтёт.
+    en:
+      title: "What's New: 0.1.0"
+      subtitle: "The first Arkhaven release"
+      text: |
+        Arkhaven is open! ~250 mods, 23 quest chapters, alchemist potions, the Ward Generator, meteor showers and strikes.
+        Tell us in chat what you loved and what broke — the next version will take it into account.

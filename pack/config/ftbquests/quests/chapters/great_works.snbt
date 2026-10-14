@@ -1,0 +1,297 @@
+{
+	id: "B4F136AADF95EE95"
+	group: ""
+	order_index: 21
+	filename: "great_works"
+	icon: {
+		id: "arkhaven:citadel_heart"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "0709903C70BF2FE2"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "arkhaven:citadel_heart"
+				count: 1
+			}
+			dependencies: [
+				"3167C5A5C262D22D"
+			]
+			tasks: [
+				{
+					id: "DD559A402D2BE34D"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "E5D41835C2EFE544"
+			x: 1.5d
+			y: -3.125d
+			shape: "hexagon"
+			icon: {
+				id: "arkhaven:citadel_heart"
+				count: 1
+			}
+			dependencies: [
+				"0709903C70BF2FE2"
+				"453103DB798973F2"
+			]
+			tasks: [
+				{
+					id: "F06A74F83E071D86"
+					type: "item"
+					item: {
+						count: 1
+						id: "arkhaven:citadel_heart"
+					}
+				}
+				{
+					id: "FDFA5690BFCCAB8F"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "86E9566E1C2B7F2C"
+					type: "item"
+					item: {
+						count: 16
+						id: "aeronautics:pearlescent_levitite"
+					}
+				}
+				{
+					id: "428022BBA922318F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			id: "5E25791A3DFA2FDB"
+			x: 1.5d
+			y: -1.875d
+			icon: {
+				id: "mekanismgenerators:turbine_rotor"
+				count: 1
+			}
+			dependencies: [
+				"0709903C70BF2FE2"
+				"6C6A40C7728A898A"
+			]
+			tasks: [
+				{
+					id: "D045E45641E4790A"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismgenerators:turbine_casing"
+					}
+					count: 64L
+				}
+				{
+					id: "2F19BF55E4FADBEB"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "62BD556D485A358A"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanism:ultimate_energy_cube"
+					}
+				}
+			]
+		}
+		{
+			id: "467F31F4129D2736"
+			x: 3.0d
+			y: 0.0d
+			icon: {
+				id: "arkhaven:exotic_matter"
+				count: 1
+			}
+			dependencies: [
+				"5E25791A3DFA2FDB"
+				"474E9801152A6673"
+			]
+			tasks: [
+				{
+					id: "DA2F4691AAB994CF"
+					type: "item"
+					item: {
+						count: 1
+						id: "arkhaven:exotic_matter"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "B62F6256E5B85B02"
+					type: "item"
+					item: {
+						count: 1
+						id: "arkhaven:ward_crystal_t3"
+					}
+				}
+				{
+					id: "6912CB1EE9EA2097"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+		}
+		{
+			id: "084CEBE01C3352F1"
+			x: 1.5d
+			y: -0.625d
+			icon: {
+				id: "cookingforblockheads:white_cooking_table"
+				count: 1
+			}
+			dependencies: [
+				"0709903C70BF2FE2"
+				"0E783133843C22F0"
+			]
+			tasks: [
+				{
+					id: "F3C8CDA76A5464D1"
+					type: "item"
+					item: {
+						count: 1
+						id: "ends_delight:dragon_meat_stew"
+					}
+				}
+				{
+					id: "F90B2E8C658286CD"
+					type: "item"
+					item: {
+						count: 1
+						id: "oceansdelight:fugu_roll"
+					}
+				}
+				{
+					id: "F3387AA6AB6B1D83"
+					type: "item"
+					item: {
+						count: 1
+						id: "meadow:cheese_wheel"
+					}
+				}
+				{
+					id: "B135240477282434"
+					type: "item"
+					item: {
+						count: 1
+						id: "vinery:noir_wine"
+					}
+				}
+				{
+					id: "21E42A4F4B7E1735"
+					type: "item"
+					item: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham_block"
+					}
+				}
+				{
+					id: "89197C89AB5F1EE4"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "B8F5E24B3EB24BC4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			id: "4C988FF056779288"
+			x: 1.5d
+			y: 0.625d
+			icon: {
+				id: "productivebees:advanced_oak_beehive"
+				count: 1
+			}
+			dependencies: [
+				"0709903C70BF2FE2"
+				"08258F26A6CD43D5"
+				"AC267C60B4B16E10"
+			]
+			tasks: [
+				{
+					id: "A601851259A7440D"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "A667EB692A1F942D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			id: "19E75AA8929A563A"
+			x: 1.5d
+			y: 1.875d
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+				count: 1
+			}
+			dependencies: [
+				"0709903C70BF2FE2"
+				"9A706D39C73346D7"
+			]
+			tasks: [
+				{
+					id: "AD895B6D8CB96CE6"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "B9AECF7573CD75E7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			id: "89CABD5281435C1C"
+			x: 1.5d
+			y: 3.125d
+			icon: {
+				id: "minecraft:oak_sapling"
+				count: 1
+			}
+			dependencies: [
+				"0709903C70BF2FE2"
+				"A94E4669A44B8A90"
+			]
+			tasks: [
+				{
+					id: "611D62D7AD41C68B"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "E328CE739B6DC550"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+	]
+}

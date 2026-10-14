@@ -1,0 +1,189 @@
+chapter:
+  id: city
+  order: 19
+  icon: minecolonies:blockhuttownhall
+  ru: {title: "Город", subtitle: "Колония, жители и своя деревня"}
+  en: {title: "The Town", subtitle: "A colony, villagers and a village of your own"}
+quests:
+  - id: city_supply
+    deps: [fs_shelter]
+    roles: [mayor]
+    icon: minecolonies:supplycampdeployer
+    shape: gear
+    tasks: [{type: item, item: minecolonies:supplycampdeployer}]
+    ru:
+      title: "Лагерь поселенцев"
+      subtitle: "MineColonies"
+      text: |
+        **Что это:** MineColonies — свой город с жителями-рабочими: строители, фермеры, повара, шахтёры, стража.
+        **Как начать:** поставь **лагерь поселенцев** (или корабль у воды) — в нём сундук с ратушей.
+        Подробно: книга-гид MineColonies и **сканер** для чертежей. Не торопись: город растёт неделями.
+    en:
+      title: "The Settlers' Camp"
+      subtitle: "MineColonies"
+      text: |
+        **What:** MineColonies is your own town with worker citizens: builders, farmers, cooks, miners, guards.
+        **How to start:** place a **supply camp** (or a supply ship by water) — its chest holds a town hall.
+        Details: the MineColonies guide and the **scan tool** for blueprints. No rush: a town grows over weeks.
+
+  - id: city_townhall
+    deps: [city_supply]
+    roles: [mayor]
+    icon: minecolonies:blockhuttownhall
+    tasks: [{type: item, item: minecolonies:blockhuttownhall}]
+    ru:
+      title: "Ратуша"
+      subtitle: "Сердце колонии"
+      text: |
+        Поставь ратушу через **инструмент постройки** — выбери стиль (их несколько: средневековый, византийский, современный…).
+        Ратуша определяет **границы колонии** — внутри них враги не появляются сами.
+    en:
+      title: "The Town Hall"
+      subtitle: "The heart of the colony"
+      text: |
+        Place the town hall with the **build tool** — pick a style (medieval, Byzantine, modern…).
+        The town hall sets the **colony borders** — enemies don't spawn on their own inside them.
+
+  - id: city_builder
+    deps: [city_townhall]
+    roles: [mayor]
+    icon: minecolonies:blockhutbuilder
+    tasks: [{type: item, item: minecolonies:blockhutbuilder}]
+    ru:
+      title: "Строитель"
+      subtitle: "Первый рабочий"
+      text: |
+        Хижина строителя — первое здание. Строитель сам возведёт остальные дома, если принести ему материалы.
+        **Совет:** склад (warehouse) и курьеры избавят тебя от беготни с сундуками.
+    en:
+      title: "The Builder"
+      subtitle: "Your first worker"
+      text: |
+        The builder's hut comes first. The builder raises every other building if you bring materials.
+        **Tip:** a warehouse with couriers saves you from running around with chests.
+
+  - id: city_food
+    deps: [city_builder, k_stew]
+    roles: [mayor, cook]
+    icon: minecolonies:blockhutcook
+    tasks: [{type: item, item: minecolonies:blockhutcook}]
+    ru:
+      title: "Колонии нужен повар"
+      subtitle: "Сытые жители работают лучше"
+      text: |
+        Жители едят. Чем выше уровень дома — тем **разнообразнее** еда им нужна: супы, пироги, блюда Farmer's Delight.
+        **Кому пригодится:** повар компании — главный поставщик города. Это одно из главных рукопожатий сборки.
+    en:
+      title: "The Colony Needs a Cook"
+      subtitle: "Well-fed citizens work better"
+      text: |
+        Citizens eat. The higher their house level, the **more varied** the food they want: soups, pies, Farmer's Delight dishes.
+        **Who helps:** your group's cook is the town's main supplier. One of the pack's key handshakes.
+
+  - id: city_farmer
+    deps: [city_builder]
+    roles: [mayor, gardener]
+    icon: minecolonies:blockhutfarmer
+    tasks: [{type: item, item: minecolonies:blockhutfarmer}]
+    optional: true
+    ru:
+      title: "Фермер колонии"
+      subtitle: "Поля без тебя"
+      text: |
+        Фермер сам пашет, сажает и убирает поля. Дай ему семена — помидоры, капусту, рис — и у повара всегда будут овощи.
+    en:
+      title: "The Colony Farmer"
+      subtitle: "Fields without you"
+      text: |
+        The farmer ploughs, plants and harvests on his own. Give him seeds — tomatoes, cabbage, rice — and the cook never runs out.
+
+  - id: city_guard
+    deps: [city_builder]
+    roles: [mayor, warrior]
+    icon: minecolonies:blockhutguardtower
+    tasks: [{type: item, item: minecolonies:blockhutguardtower}]
+    ru:
+      title: "Стража"
+      subtitle: "Сторожевая башня"
+      text: |
+        Стражники охраняют колонию от набегов. Дай им броню и оружие — **кузнец компании** будет нужен.
+        О набегах подробно — в главе «Стихии и защита».
+    en:
+      title: "The Guard"
+      subtitle: "The guard tower"
+      text: |
+        Guards protect the colony from raids. Give them armour and weapons — **your group's smith** will be needed.
+        More on raids in "Elements & Defence".
+
+  - id: city_university
+    deps: [city_builder]
+    roles: [mayor]
+    icon: minecolonies:blockhutuniversity
+    tasks: [{type: item, item: minecolonies:blockhutuniversity}]
+    optional: true
+    ru:
+      title: "Университет"
+      subtitle: "Исследования колонии"
+      text: |
+        В университете жители исследуют улучшения: быстрее строить, лучше лечиться, сильнее защищаться.
+    en:
+      title: "The University"
+      subtitle: "Colony research"
+      text: |
+        At the university citizens research upgrades: faster building, better healing, stronger defence.
+
+  - id: city_tavern
+    deps: [city_builder]
+    roles: [mayor, cook]
+    icon: minecolonies:blockhuttavern
+    tasks: [{type: item, item: minecolonies:blockhuttavern}]
+    optional: true
+    ru:
+      title: "Таверна"
+      subtitle: "Новые жители приходят сами"
+      text: |
+        Таверна привлекает путешественников — они становятся новыми жителями. А ещё это просто красиво.
+    en:
+      title: "The Tavern"
+      subtitle: "New citizens arrive by themselves"
+      text: |
+        The tavern attracts travellers who become new citizens. It also simply looks lovely.
+
+  - id: city_mca
+    deps: [welcome_start]
+    roles: [mayor]
+    icon: mca:book_family
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Жители с характером"
+      subtitle: "MCA Reborn"
+      text: |
+        Деревенские жители здесь — люди: у них имена, характеры, семьи и настроение. С ними можно говорить, дружить, нанимать.
+        **Совет:** подарки поднимают отношение. Кузнецы и фермеры MCA продают полезное.
+    en:
+      title: "Villagers with Character"
+      subtitle: "MCA Reborn"
+      text: |
+        Villagers here are people: names, personalities, families and moods. Talk to them, befriend them, hire them.
+        **Tip:** gifts improve relationships. MCA smiths and farmers sell useful things.
+
+  - id: city_level5
+    deps: [city_food, city_guard]
+    roles: [mayor]
+    icon: minecolonies:colony_banner
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: xp_levels, count: 10}
+    ru:
+      title: "Город мечты"
+      subtitle: "Ратуша 5 уровня"
+      text: |
+        Отметь, когда ратуша достигнет **5 уровня**. Это большой проект всей компании — повара кормят, инженеры строят дороги, маги зачаровывают.
+        Дальше — глава «Великие стройки».
+    en:
+      title: "Dream Town"
+      subtitle: "A level 5 town hall"
+      text: |
+        Tick this once the town hall reaches **level 5**. It's a whole-group project — cooks feed, engineers build roads, mages enchant.
+        Next: the "Great Works" chapter.

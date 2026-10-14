@@ -1,0 +1,167 @@
+chapter:
+  id: great_works
+  order: 21
+  icon: arkhaven:citadel_heart
+  ru: {title: "Великие стройки", subtitle: "Мегапроекты для всей компании"}
+  en: {title: "Great Works", subtitle: "Megaprojects for the whole group"}
+quests:
+  - id: gw_intro
+    deps: [fs_done]
+    icon: arkhaven:citadel_heart
+    shape: gear
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Вместе — больше"
+      subtitle: "Зачем эта глава"
+      text: |
+        Здесь проекты, которые **одному не осилить**: каждому нужен вклад нескольких ролей.
+        Договоритесь, кто что делает, — и стройте. Награды тут самые щедрые.
+    en:
+      title: "Bigger Together"
+      subtitle: "What this chapter is for"
+      text: |
+        These are projects **no one finishes alone**: each needs several roles to chip in.
+        Agree who does what — and build. The rewards here are the most generous.
+
+  - id: gw_citadel
+    deps: [gw_intro, s_airship]
+    roles: [engineer, mage, builder, breeder]
+    icon: arkhaven:citadel_heart
+    shape: hexagon
+    tasks: [{type: item, item: arkhaven:citadel_heart}, {type: checkmark}]
+    rewards:
+      - {type: item, item: aeronautics:pearlescent_levitite, count: 16}
+      - {type: xp_levels, count: 15}
+    ru:
+      title: "Летающая цитадель"
+      subtitle: "Инженер, маг, строитель, заводчик"
+      text: |
+        **Сердце цитадели** собирается из пропитанной ткани (заводчик), драконьей обшивки, кристалла оберега II (инженер + маг) и перламутрового левитита.
+        Построй парящий остров с садом, кухней и мастерской, поставь в центр Сердце — и отметь квест, когда цитадель поднимется выше облаков.
+    en:
+      title: "The Flying Citadel"
+      subtitle: "Engineer, mage, builder, breeder"
+      text: |
+        The **Citadel Heart** combines waxed canvas (breeder), dragon plating, a tier II ward crystal (engineer + mage) and pearlescent levitite.
+        Build a floating island with a garden, kitchen and workshop, set the Heart at its centre — and tick the quest once it rises above the clouds.
+
+  - id: gw_nuclear
+    deps: [gw_intro, m_fission]
+    roles: [engineer, gardener]
+    icon: mekanismgenerators:turbine_rotor
+    tasks: [{type: item, item: mekanismgenerators:turbine_casing, count: 64}, {type: checkmark}]
+    rewards:
+      - {type: item, item: mekanism:ultimate_energy_cube}
+    ru:
+      title: "Атомная станция"
+      subtitle: "Инженер + садовод"
+      text: |
+        Реактор деления, бойлер и турбина — электростанция на весь сервер. Для запуска нужен **биотопливный** генератор (урожай садовода).
+        Отметь, когда станция даст ток всем базам.
+    en:
+      title: "The Nuclear Power Plant"
+      subtitle: "Engineer + gardener"
+      text: |
+        A fission reactor, boiler and turbine — a power plant for the whole server. Start-up needs a **bio-fuel** generator (the gardener's crops).
+        Tick when the plant powers every base.
+
+  - id: gw_collider
+    deps: [gw_nuclear, m_sps]
+    roles: [engineer, mage, warrior]
+    icon: arkhaven:exotic_matter
+    tasks: [{type: item, item: arkhaven:exotic_matter}]
+    rewards:
+      - {type: item, item: arkhaven:ward_crystal_t3}
+      - {type: xp_levels, count: 20}
+    ru:
+      title: "Кольцевой коллайдер"
+      subtitle: "Все роли"
+      text: |
+        Антиматерия SPS, кристаллы оберега, блоки Источника и звёзды Нижнего мира дают **экзотическую материю** — материал оберегов III и финала сборки.
+        Сейчас её собирают на верстаке; в будущих версиях — огромный кольцевой мультиблок.
+    en:
+      title: "The Ring Collider"
+      subtitle: "Every role"
+      text: |
+        SPS antimatter, ward crystals, source blocks and nether stars make **exotic matter** — the material for tier III wards and the pack's finale.
+        For now it's crafted at a table; a future version adds a huge ring multiblock.
+
+  - id: gw_restaurant
+    deps: [gw_intro, k_hearts_10]
+    roles: [cook, gardener, breeder]
+    icon: cookingforblockheads:white_cooking_table
+    tasks:
+      - {type: item, item: ends_delight:dragon_meat_stew}
+      - {type: item, item: oceansdelight:fugu_roll}
+      - {type: item, item: meadow:cheese_wheel}
+      - {type: item, item: vinery:noir_wine}
+      - {type: item, item: farmersdelight:honey_glazed_ham_block}
+      - {type: checkmark}
+    rewards:
+      - {type: xp_levels, count: 15}
+    ru:
+      title: "Гранд-ресторан"
+      subtitle: "Повар, садовод, заводчик, рыбак"
+      text: |
+        Построй ресторан с кухней Cooking for Blockheads и подай пять коронных блюд из всех уголков мира: драконье рагу, фугу, сыр, нуарное вино и медовый окорок.
+    en:
+      title: "The Grand Restaurant"
+      subtitle: "Cook, gardener, breeder, angler"
+      text: |
+        Build a restaurant with a Cooking for Blockheads kitchen and serve five signature dishes from every corner of the world: dragon stew, fugu, cheese, noir wine and honey-glazed ham.
+
+  - id: gw_reserve
+    deps: [gw_intro, a_done, f_master]
+    roles: [breeder, warrior]
+    icon: productivebees:advanced_oak_beehive
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: xp_levels, count: 15}
+    ru:
+      title: "Заповедник"
+      subtitle: "Заводчик, рыбак, исследователь"
+      text: |
+        Половина журнала рыб, 10 видов пчёл и 3 породы драконов — в одном заповеднике с вольерами и прудами. Отметь, когда всё соберёте.
+    en:
+      title: "The Nature Reserve"
+      subtitle: "Breeder, angler, explorer"
+      text: |
+        Half the fish journal, 10 bee species and 3 dragon breeds — in one reserve with enclosures and ponds. Tick once you have them all.
+
+  - id: gw_town
+    deps: [gw_intro, city_level5]
+    roles: [mayor]
+    icon: minecolonies:blockhuttownhall
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: xp_levels, count: 15}
+    ru:
+      title: "Город мечты"
+      subtitle: "Градостроитель и все"
+      text: |
+        Колония с ратушей 5 уровня, дорогами, поездом и рынком. Каждый внёс что-то своё. Пригласите всех на праздник!
+    en:
+      title: "Dream City"
+      subtitle: "The mayor and everyone"
+      text: |
+        A colony with a level 5 town hall, roads, a train and a market. Everyone contributed something. Throw a party!
+
+  - id: gw_clear_sky
+    deps: [gw_intro, air_pollution]
+    roles: [engineer, gardener, mage]
+    icon: minecraft:oak_sapling
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: xp_levels, count: 15}
+    ru:
+      title: "Чистое небо"
+      subtitle: "Инженер, садовод, маг"
+      text: |
+        Сделайте так, чтобы над всеми базами не было смога: электричество вместо дизеля, леса-поглотители, высокие трубы.
+        Проверьте карту загрязнения Airborne — и отметьте квест, когда воздух станет чистым.
+    en:
+      title: "Clear Sky"
+      subtitle: "Engineer, gardener, mage"
+      text: |
+        Make sure no base sits under smog: electricity instead of diesel, absorbing forests, tall stacks.
+        Check the Airborne pollution map — and tick the quest once the air is clean.

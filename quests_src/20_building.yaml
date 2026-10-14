@@ -1,0 +1,113 @@
+chapter:
+  id: building
+  order: 20
+  icon: buildinggadgets2:gadget_building
+  ru: {title: "Строительство", subtitle: "Декор, инструменты и красивые дома"}
+  en: {title: "Building", subtitle: "Decor, tools and beautiful homes"}
+quests:
+  - id: b_gadget
+    deps: [fs_iron]
+    roles: [builder]
+    icon: buildinggadgets2:gadget_building
+    shape: gear
+    tasks: [{type: item, item: buildinggadgets2:gadget_building}]
+    ru:
+      title: "Строительный гаджет"
+      subtitle: "Стены за секунду"
+      text: |
+        **Что это:** гаджет ставит сразу ряд, стену или пол из выбранного блока. Заряжается энергией.
+        Есть гаджеты **замены** (меняет блоки на другие), **копирования** (переносит постройку) и **сноса**.
+    en:
+      title: "The Building Gadget"
+      subtitle: "Walls in a second"
+      text: |
+        **What:** the gadget places a row, wall or floor of the chosen block at once. It runs on energy.
+        There are also **exchanging** (swap blocks), **copy-paste** (move a build) and **destruction** gadgets.
+
+  - id: b_exchanger
+    deps: [b_gadget]
+    roles: [builder]
+    icon: buildinggadgets2:gadget_exchanging
+    tasks: [{type: item, item: buildinggadgets2:gadget_exchanging}]
+    optional: true
+    ru:
+      title: "Замена блоков"
+      subtitle: "Перекрасить дом за минуту"
+      text: |
+        Гаджет замены меняет блоки на выбранные: камень на кирпич, дуб на ель. Идеально для «переодевания» построек.
+    en:
+      title: "Swapping Blocks"
+      subtitle: "Redecorate a house in a minute"
+      text: |
+        The exchanging gadget swaps blocks for the chosen one: stone to brick, oak to spruce. Perfect for restyling builds.
+
+  - id: b_framed
+    deps: [b_gadget]
+    roles: [builder]
+    icon: framedblocks:framed_hammer
+    tasks: [{type: item, item: framedblocks:framed_cube}]
+    optional: true
+    ru:
+      title: "Рамочные блоки"
+      subtitle: "FramedBlocks"
+      text: |
+        Рамочный блок принимает вид любого другого: ступеньки из стекла, плиты из шерсти, склоны из меди.
+    en:
+      title: "Framed Blocks"
+      subtitle: "FramedBlocks"
+      text: |
+        A framed block takes the look of any other: glass stairs, wool slabs, copper slopes.
+
+  - id: b_furniture
+    deps: [fs_table]
+    roles: [builder]
+    icon: handcrafted:oak_table
+    tasks: [{type: item, item: handcrafted:oak_table}, {type: item, item: handcrafted:oak_chair}]
+    ru:
+      title: "Уютный дом"
+      subtitle: "Мебель Handcrafted, Macaw's, Another Furniture"
+      text: |
+        Столы, стулья, шкафы, лампы, окна, двери, крыши, мосты — сотни декоративных блоков.
+        Все варианты для любой породы дерева (Every Compat). Посмотри в EMI: **@handcrafted**, **@mcw**.
+    en:
+      title: "A Cosy Home"
+      subtitle: "Handcrafted, Macaw's, Another Furniture"
+      text: |
+        Tables, chairs, wardrobes, lamps, windows, doors, roofs, bridges — hundreds of decorative blocks.
+        Every wood type is covered (Every Compat). Browse EMI: **@handcrafted**, **@mcw**.
+
+  - id: b_schematic
+    deps: [b_gadget, c_schematic]
+    roles: [builder, engineer]
+    icon: create:schematicannon
+    tasks: [{type: checkmark}]
+    optional: true
+    ru:
+      title: "Чертежи"
+      subtitle: "Сохрани и построй снова"
+      text: |
+        Схематики Create позволяют сохранять и передавать постройки. Сделай «типовой домик» — и строй его для друзей.
+    en:
+      title: "Blueprints"
+      subtitle: "Save it and build it again"
+      text: |
+        Create schematics save and share builds. Make a "standard cottage" and build it for your friends.
+
+  - id: b_haven
+    deps: [b_furniture]
+    roles: [builder]
+    icon: minecraft:lantern
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: xp_levels, count: 5}
+    ru:
+      title: "Красиво!"
+      subtitle: "Сделай фото своего дома"
+      text: |
+        Включи шейдеры, встань в красивую точку и сделай скриншот (**F2**). Поделись с друзьями — и отметь квест.
+    en:
+      title: "Beautiful!"
+      subtitle: "Take a photo of your home"
+      text: |
+        Turn on shaders, find a nice angle and take a screenshot (**F2**). Share it with friends — and tick the quest.

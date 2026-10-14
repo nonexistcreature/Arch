@@ -1,0 +1,158 @@
+chapter:
+  id: festivals
+  order: 24
+  icon: minecraft:cake
+  ru: {title: "Праздники", subtitle: "Сезонные и повторяемые — заходи каждый сезон"}
+  en: {title: "Festivals", subtitle: "Seasonal and repeatable — come back every season"}
+quests:
+  - id: fest_intro
+    deps: [g_seasons]
+    icon: sereneseasons:calendar
+    shape: gear
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Календарь праздников"
+      subtitle: "Каждый сезон — свой праздник"
+      text: |
+        Сезон меняется примерно раз в 24 игровых дня. У каждого сезона — свой праздник с **повторяемыми** квестами.
+        Делай их в свой сезон (смотри календарь) — награды можно получать снова и снова.
+    en:
+      title: "The Festival Calendar"
+      subtitle: "A festival for every season"
+      text: |
+        The season changes about every 24 in-game days. Each season has its festival with **repeatable** quests.
+        Do them in their season (check the calendar) — the rewards can be earned again and again.
+
+  - id: fest_spring_sow
+    deps: [fest_intro]
+    icon: minecraft:wheat_seeds
+    repeatable: true
+    tasks:
+      - {type: item, item: farmersdelight:tomato_seeds, count: 8}
+      - {type: item, item: farmersdelight:cabbage_seeds, count: 8}
+      - {type: item, item: minecraft:wheat_seeds, count: 16}
+    rewards:
+      - {type: item, item: minecraft:bone_meal, count: 32}
+    ru:
+      title: "🌸 Праздник сева"
+      subtitle: "Весна"
+      text: |
+        Весной сажают всё. Собери семена для общего праздничного поля и устрой посевную всей компанией.
+    en:
+      title: "🌸 The Sowing Festival"
+      subtitle: "Spring"
+      text: |
+        In spring everything is planted. Gather seeds for a shared festival field and sow it together.
+
+  - id: fest_spring_bees
+    deps: [fest_intro, a_bees_intro]
+    icon: minecraft:honeycomb
+    repeatable: true
+    tasks: [{type: item, item: minecraft:honeycomb, count: 16}]
+    rewards:
+      - {type: item, item: productivebees:honey_treat, count: 8}
+    ru:
+      title: "🌸 Весенний мёд"
+      subtitle: "Весна"
+      text: |
+        Пчёлы проснулись. Набери сот к празднику — повар сделает медовое печенье для всех.
+    en:
+      title: "🌸 Spring Honey"
+      subtitle: "Spring"
+      text: |
+        The bees are awake. Gather combs for the festival — the cook will bake honey cookies for everyone.
+
+  - id: fest_summer_fair
+    deps: [fest_intro, s_first_flight]
+    icon: aeronautics:wooden_propeller
+    repeatable: true
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: xp_levels, count: 5}
+    ru:
+      title: "☀️ Ярмарка ремёсел"
+      subtitle: "Лето"
+      text: |
+        Летом — выставка машин и кораблей. Привезите лучшие постройки на площадь, устройте гонку на самолётах вокруг Гавани.
+        Отметь квест после ярмарки.
+    en:
+      title: "☀️ The Crafts Fair"
+      subtitle: "Summer"
+      text: |
+        Summer brings a show of machines and ships. Bring your best builds to the square and race planes around the Haven.
+        Tick the quest after the fair.
+
+  - id: fest_summer_feast
+    deps: [fest_intro]
+    icon: minecraft:melon_slice
+    repeatable: true
+    tasks: [{type: item, item: farmersdelight:melon_popsicle, count: 4}]
+    rewards:
+      - {type: item, item: farmersdelight:fruit_salad, count: 4}
+    ru:
+      title: "☀️ Прохлада"
+      subtitle: "Лето"
+      text: |
+        Жара! Сделай арбузное мороженое для всей компании.
+    en:
+      title: "☀️ Cool Down"
+      subtitle: "Summer"
+      text: |
+        It's hot! Make melon popsicles for the whole group.
+
+  - id: fest_autumn_harvest
+    deps: [fest_intro]
+    icon: minecraft:pumpkin
+    repeatable: true
+    tasks:
+      - {type: item, item: farmersdelight:stuffed_pumpkin_block}
+      - {type: item, item: vinery:red_wine, count: 2}
+    rewards:
+      - {type: item, item: minecraft:golden_carrot, count: 16}
+      - {type: xp_levels, count: 5}
+    ru:
+      title: "🍂 Праздник урожая"
+      subtitle: "Осень"
+      text: |
+        Осенью — большой ужин: фаршированная тыква и вино нового урожая. Накройте общий стол!
+    en:
+      title: "🍂 The Harvest Festival"
+      subtitle: "Autumn"
+      text: |
+        Autumn means a great dinner: stuffed pumpkin and wine from the new harvest. Set a shared table!
+
+  - id: fest_winter_lights
+    deps: [fest_intro]
+    icon: minecraft:lantern
+    repeatable: true
+    tasks: [{type: item, item: minecraft:lantern, count: 16}]
+    rewards:
+      - {type: item, item: minecraft:firework_rocket, count: 16}
+    ru:
+      title: "❄️ Огни зимы"
+      subtitle: "Зима"
+      text: |
+        Зимой украшают город огнями. Повесь фонари на улицах Гавани — и запусти фейерверки (награда).
+    en:
+      title: "❄️ Winter Lights"
+      subtitle: "Winter"
+      text: |
+        In winter the town is decked with lights. Hang lanterns along the Haven's streets — and launch fireworks (reward).
+
+  - id: fest_winter_ice
+    deps: [fest_intro, f_rod]
+    icon: minecraft:ice
+    repeatable: true
+    tasks: [{type: item, item: minecraft:salmon, count: 8}]
+    rewards:
+      - {type: item, item: tide:lucky_bait, count: 4}
+    ru:
+      title: "❄️ Подлёдная рыбалка"
+      subtitle: "Зима"
+      text: |
+        Продолби лунку во льду и порыбачь. Свежий лосось — к праздничному столу.
+    en:
+      title: "❄️ Ice Fishing"
+      subtitle: "Winter"
+      text: |
+        Cut a hole in the ice and fish. Fresh salmon for the festive table.

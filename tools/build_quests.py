@@ -184,6 +184,7 @@ def main():
                 if d not in allq: sys.exit(f"{x['id']}: unknown dependency {d}")
             if deps: o["dependencies"] = deps
             if x.get("optional"): o["optional"] = True
+            if x.get("repeatable"): o["can_repeat"] = True
             o["tasks"] = [task(t, x["id"], i) for i, t in enumerate(x.get("tasks") or [{"type": "checkmark"}])]
             if x.get("rewards"): o["rewards"] = [reward(r, x["id"], i) for i, r in enumerate(x["rewards"])]
             qs.append(o)

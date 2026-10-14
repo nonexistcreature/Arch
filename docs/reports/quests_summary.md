@@ -1,6 +1,6 @@
 # quests_summary (авто, tools/validate_quests.py)
 
-Всего квестов: **251**, глав: 19
+Всего квестов: **297**, глав: 25
 
 | файл | глава | квестов |
 |---|---|---|
@@ -23,7 +23,13 @@
 | 16_adventure.yaml | Приключения | 17 |
 | 17_weapons.yaml | Оружие и снаряжение | 10 |
 | 18_elements.yaml | Стихии и защита | 15 |
+| 19_city.yaml | Город | 10 |
+| 20_building.yaml | Строительство | 6 |
+| 21_great_works.yaml | Великие стройки | 8 |
+| 22_collections.yaml | Коллекции | 7 |
+| 23_welcome_back.yaml | С возвращением! | 7 |
+| 24_festivals.yaml | Праздники | 8 |
 
-Роли: engineer: 77, warrior: 38, cook: 33, mage: 33, breeder: 28, gardener: 26, alchemist: 11, builder: 3
+Роли: engineer: 82, warrior: 41, cook: 36, mage: 36, breeder: 31, gardener: 30, alchemist: 11, mayor: 11, builder: 10
 
 Ошибок: 0, предупреждений: 0

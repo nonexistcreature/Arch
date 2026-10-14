@@ -1,0 +1,240 @@
+{
+	id: "6FA4DB5D74373B8B"
+	group: ""
+	order_index: 19
+	filename: "city"
+	icon: {
+		id: "minecolonies:blockhuttownhall"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "E01F1AB7F25BCE3E"
+			x: 0.0d
+			y: -0.625d
+			shape: "gear"
+			icon: {
+				id: "minecolonies:supplycampdeployer"
+				count: 1
+			}
+			dependencies: [
+				"98F86F97AA42687E"
+			]
+			tasks: [
+				{
+					id: "6EC20CF2BCA39056"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:supplycampdeployer"
+					}
+				}
+			]
+		}
+		{
+			id: "8961E98A888A1F6F"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+				count: 1
+			}
+			dependencies: [
+				"E01F1AB7F25BCE3E"
+			]
+			tasks: [
+				{
+					id: "EA14B28D1D7970C6"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhuttownhall"
+					}
+				}
+			]
+		}
+		{
+			id: "E8A40D4402EEB3F1"
+			x: 3.0d
+			y: 0.0d
+			icon: {
+				id: "minecolonies:blockhutbuilder"
+				count: 1
+			}
+			dependencies: [
+				"8961E98A888A1F6F"
+			]
+			tasks: [
+				{
+					id: "D0AD7FF70F2C0286"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutbuilder"
+					}
+				}
+			]
+		}
+		{
+			id: "6CF67932543F364E"
+			x: 4.5d
+			y: -2.5d
+			icon: {
+				id: "minecolonies:blockhutcook"
+				count: 1
+			}
+			dependencies: [
+				"E8A40D4402EEB3F1"
+				"98D9ECC67E2FC089"
+			]
+			tasks: [
+				{
+					id: "8F4F3C86B6A8E5DC"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutcook"
+					}
+				}
+			]
+		}
+		{
+			id: "2448820009AD4703"
+			x: 4.5d
+			y: -1.25d
+			icon: {
+				id: "minecolonies:blockhutfarmer"
+				count: 1
+			}
+			dependencies: [
+				"E8A40D4402EEB3F1"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "77FB5E5CCAF41AEC"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutfarmer"
+					}
+				}
+			]
+		}
+		{
+			id: "18D3669431D9E42A"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "minecolonies:blockhutguardtower"
+				count: 1
+			}
+			dependencies: [
+				"E8A40D4402EEB3F1"
+			]
+			tasks: [
+				{
+					id: "71A2D3C56BF2E0FD"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutguardtower"
+					}
+				}
+			]
+		}
+		{
+			id: "95EA1D5A0184FB40"
+			x: 4.5d
+			y: 1.25d
+			icon: {
+				id: "minecolonies:blockhutuniversity"
+				count: 1
+			}
+			dependencies: [
+				"E8A40D4402EEB3F1"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "4B55B84F150CB0DD"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutuniversity"
+					}
+				}
+			]
+		}
+		{
+			id: "3128D00D510F86AC"
+			x: 4.5d
+			y: 2.5d
+			icon: {
+				id: "minecolonies:blockhuttavern"
+				count: 1
+			}
+			dependencies: [
+				"E8A40D4402EEB3F1"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "962240C1155D566D"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhuttavern"
+					}
+				}
+			]
+		}
+		{
+			id: "DE28B4759F897AD5"
+			x: 0.0d
+			y: 0.625d
+			icon: {
+				id: "mca:book_family"
+				count: 1
+			}
+			dependencies: [
+				"0B8F53D58538E0EF"
+			]
+			tasks: [
+				{
+					id: "98F19F650D1580A2"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "9A706D39C73346D7"
+			x: 6.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "minecolonies:colony_banner"
+				count: 1
+			}
+			dependencies: [
+				"6CF67932543F364E"
+				"18D3669431D9E42A"
+			]
+			tasks: [
+				{
+					id: "901DF02D5A3D8582"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "10E3ED7D2416A851"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+	]
+}

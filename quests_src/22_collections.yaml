@@ -1,0 +1,131 @@
+chapter:
+  id: collections
+  order: 22
+  icon: solcarrot:food_book
+  ru: {title: "Коллекции", subtitle: "Для тех, кто любит собирать всё"}
+  en: {title: "Collections", subtitle: "For those who love collecting everything"}
+quests:
+  - id: col_food_40
+    deps: [k_hearts_10]
+    icon: solcarrot:food_book
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: minecraft:golden_apple, count: 2}
+    ru:
+      title: "40 блюд"
+      subtitle: "Spice of Life"
+      text: |
+        Попробуй 40 разных блюд. Каждый рубеж в книге еды — новое сердце.
+    en:
+      title: "40 Dishes"
+      subtitle: "Spice of Life"
+      text: |
+        Taste 40 different dishes. Every milestone in the food book is a new heart.
+
+  - id: col_food_80
+    deps: [col_food_40]
+    icon: minecraft:enchanted_golden_apple
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: minecraft:enchanted_golden_apple}
+    ru:
+      title: "80 блюд"
+      subtitle: "Настоящий гурман"
+      text: |
+        80 блюд — это кухни всех миров: адская, морская, драконья, альпийская.
+    en:
+      title: "80 Dishes"
+      subtitle: "A true gourmet"
+      text: |
+        80 dishes means the cuisines of every world: nether, sea, dragon, alpine.
+
+  - id: col_fish_half
+    deps: [f_master]
+    icon: tide:fishing_journal
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: tide:diamond_fishing_rod}
+    ru:
+      title: "Полжурнала"
+      subtitle: "Половина видов рыб"
+      text: |
+        Заполни журнал рыбака наполовину. Подсказки, где искать недостающих, — в самом журнале.
+    en:
+      title: "Half the Journal"
+      subtitle: "Half of all fish species"
+      text: |
+        Fill half the angler's journal. Hints for the missing ones are in the journal itself.
+
+  - id: col_star_carp
+    deps: [el_shower_meet]
+    icon: arkhaven:star_carp
+    tasks: [{type: item, item: arkhaven:star_carp}]
+    rewards:
+      - {type: xp_levels, count: 5}
+    ru:
+      title: "Звёздный карп"
+      subtitle: "Легенда звездопада"
+      text: |
+        Говорят, если метеорит упадёт в воду, там можно найти звёздного карпа. Ужин из него приносит удачу.
+    en:
+      title: "The Star Carp"
+      subtitle: "A legend of the meteor shower"
+      text: |
+        They say when a meteor falls into water, a star carp can be found there. A dinner of it brings luck.
+
+  - id: col_bees_10
+    deps: [a_breeding]
+    icon: productivebees:bee_cage
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: productivebees:honey_treat, count: 32}
+    ru:
+      title: "10 видов пчёл"
+      subtitle: "Пасечник"
+      text: |
+        Собери 10 разных видов пчёл. Справочник мутаций — в EMI.
+    en:
+      title: "10 Bee Species"
+      subtitle: "Beekeeper"
+      text: |
+        Collect 10 different bee species. The mutation guide is in EMI.
+
+  - id: col_dragons_3
+    deps: [a_dragon_egg]
+    icon: dmr:dragon_egg
+    tasks: [{type: checkmark}]
+    rewards:
+      - {type: item, item: dmr:dragon_armor}
+    ru:
+      title: "Три породы драконов"
+      subtitle: "Драконий питомник"
+      text: |
+        Выведи драконов трёх разных пород. Место вылупления решает, кто родится.
+    en:
+      title: "Three Dragon Breeds"
+      subtitle: "Dragon nursery"
+      text: |
+        Hatch dragons of three different breeds. Where an egg hatches decides who is born.
+
+  - id: col_bosses
+    deps: [adv_hero]
+    icon: twilightforest:lich_trophy
+    tasks:
+      - {type: kill, entity: twilightforest:hydra}
+      - {type: kill, entity: twilightforest:ur_ghast}
+      - {type: kill, entity: cataclysm:ignis}
+      - {type: kill, entity: minecraft:wither}
+      - {type: kill, entity: minecraft:ender_dragon}
+    rewards:
+      - {type: item, item: minecraft:nether_star, count: 2}
+      - {type: xp_levels, count: 20}
+    ru:
+      title: "Охотник на чудовищ"
+      subtitle: "Пять великих боссов"
+      text: |
+        Гидра, Ур-гаст, Игнис, Иссушитель и Дракон Края. Это вершина воинской славы — и трофеи для Великих строек.
+    en:
+      title: "Monster Hunter"
+      subtitle: "Five great bosses"
+      text: |
+        Hydra, Ur-Ghast, Ignis, the Wither and the Ender Dragon. The pinnacle of glory — and trophies for the Great Works.
