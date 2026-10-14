@@ -225,6 +225,18 @@ file = "kubejs/assets/arkhaven/textures/item/waxed_canvas.png"
 hash = "25680aaa53b428ae591cc48f8f3a2301060072d88425ce94770666315872a450"
 
 [[files]]
+file = "kubejs/assets/minecraft/texts/splashes.txt"
+hash = "8409d5089969caa712310523b7729f87a1465a05f32200d31b7d518292d2e43f"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/edition.png"
+hash = "1f0d9942b197496ad93cfe45e5db4298a3af9510420ca5706adca5c3fb5e17b9"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/minecraft.png"
+hash = "919e6db1ab5d807ac4c87b32f790cf366da1b7904236bbebc9cf4eedd853555b"
+
+[[files]]
 file = "kubejs/client_scripts/set_tooltips.js"
 hash = "f7795796a1af9003973d1c3550fcc913019960fdff3ba3b16520018b724a4b13"
 
