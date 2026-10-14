@@ -1,4 +1,4 @@
-; Arkhaven client installer. Built by launcher/build.py (passes /DStage=... /DMyVersion=...).
+﻿; Arkhaven client installer. Built by launcher/build.py (passes /DStage=... /DMyVersion=...).
 #ifndef Stage
   #define Stage "build\stage"
 #endif
@@ -188,7 +188,7 @@ begin
   if CurUninstallStep = usUninstall then
   begin
     Mc := ExpandConstant('{app}\instances\Arkhaven\.minecraft');
-    if MsgBox(ExpandConstant('{cm:KeepUserData}'), mbConfirmation, MB_YESNO or MB_DEFBUTTON2) = IDYES then
+    if SuppressibleMsgBox(ExpandConstant('{cm:KeepUserData}'), mbConfirmation, MB_YESNO or MB_DEFBUTTON2, IDNO) = IDYES then
       DelTree(ExpandConstant('{app}'), True, True, True);
   end;
 end;
