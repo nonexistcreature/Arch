@@ -1,0 +1,13 @@
+name = "Arkhaven"
+author = "Arkhaven"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "633be323413545b0822b672c9f21ffaa98e538a72480d5efea0c2786e505a549"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.259"

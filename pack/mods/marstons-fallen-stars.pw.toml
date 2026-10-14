@@ -1,0 +1,13 @@
+name = "Marston's Fallen Stars"
+filename = "fallen_stars-0.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/j81Px8lZ/versions/gcye29zr/fallen_stars-0.0.0.jar"
+hash-format = "sha512"
+hash = "d5fd48c2737ff8eb8b2b162dfd9d92d3ee0d30737a4cd98ed74e9ce055a4c0340924ba48613e9425d109b05705d9bf610e9359d1aef8f68a90d5ee04e5f24915"
+
+[update]
+[update.modrinth]
+mod-id = "j81Px8lZ"
+version = "gcye29zr"
