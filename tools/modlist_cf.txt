@@ -1,6 +1,20 @@
 ftb-quests-forge | 1 | квесты
 ftb-ultimine-forge | 1 | вейнмайнер
 ftb-xmod-compat | 1 | совместимость
-spice-of-life-carrot-edition | 2 | разнообразие еды
+spice-of-life-carrot-edition | 2 | еда
 the-twilight-forest | 2 | измерение
 tacz-1-21-1 | 7 | огнестрел
+immersive-engineering | 5 | мультиблоки
+applied-energistics-2-wireless-terminals | 5 | терминалы
+ars-elemental | 6 | магия
+born-in-chaos | 7 | враги
+puffish-skills | 7a | навыки
+puffish-attributes | 7a | атрибуты
+minecolonies | 8 | города
+minecraft-comes-alive-reborn | 8 | жители
+building-gadgets | 2 | строительство
+airborne | 9 | загрязнение
+true-falling-stars | 10 | метеоры
+cosmetic-armor-reworked | 10 | вид
+ars-creo | 6 | Create мост
+modular-machinery-reborn | 5 | мегапостройки

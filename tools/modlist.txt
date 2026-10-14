@@ -105,3 +105,87 @@ dmr | 3 | драконы
 comforts | 3 | спальники
 tide | 3 | рыбалка
 aquaculture | 3 | рыбалка
+# --- wave 4 technics I
+create | 4 | ядро техники
+create-aeronautics | 4 | самолёты
+sable | 4 | физика
+createaddition | 4 | FE мост
+create-steam-n-rails-1.21.1 | 4 | поезда
+create-big-cannons | 4 | пушки
+create-enchantment-industry | 4 | зачарование
+create-deco | 4 | декор
+create-connected | 4 | Create
+copycats | 4 | копикаты
+create-tfmg | 4 | нефть
+create-grappling-hooks | 7 | крюки
+interiors | 4 | сиденья
+# --- wave 5 technics II
+mekanism | 5 | атом
+mekanism-generators | 5 | реакторы
+mekanism-tools | 5 | инструменты
+immersivepetroleum | 5 | нефть IE
+ae2 | 5 | хранилище
+extended-ae | 5 | AE2
+mega | 5 | AE2
+applied-mekanistics | 5 | AE2+Mek
+custom-machinery | 5 | запасной MMR
+# --- wave 6 magic
+ars-nouveau | 6 | магия
+irons-spells-n-spellbooks | 6 | боевая магия
+occultism | 6 | ритуалы
+toil-and-trouble | 6 | алхимия
+# --- wave 7 enemies/weapons
+l_enders-cataclysm | 7 | боссы
+mowzies-mobs | 7 | боссы
+aquamirae | 7 | океан
+enhanced-celestials | 9 | луны
+simply-swords | 7 | оружие
+better-combat | 7 | бой
+combat-roll | 7 | перекат
+in-control | 7 | спавн
+torchmaster | 7 | факелы
+grappling-hook-neo | 7 | крюк
+# --- wave 7a rpg
+irons-spells-n-spellbooks-dynamic-skill-trees | 7a | деревья
+# --- wave 8 town/social
+easy-npc | 8 | NPC
+chat-heads | 8 | UI
+# --- wave 9 weather
+weather-storms-tornadoes | 9 | торнадо
+# --- build/decor
+macaws-doors | 2 | декор
+macaws-windows | 2 | декор
+macaws-furniture | 2 | декор
+macaws-bridges | 2 | декор
+macaws-roofs | 2 | декор
+macaws-lights-and-lamps | 2 | декор
+macaws-trapdoors | 2 | декор
+macaws-fences-and-walls | 2 | декор
+macaws-paths-and-pavings | 2 | декор
+handcrafted | 2 | мебель
+another-furniture | 2 | мебель
+framedblocks | 2 | блоки
+every-compat | 2 | совместимость пород
+fusion-connected-textures | 10 | текстуры
+amendments | 2 | декор
+decorative-blocks-reborn | 2 | декор
+immersive-aircraft | 4 | самолёты
+# --- wave 10 visuals / sound
+subtle-effects | 10 | частицы
+particle-rain | 10 | дождь
+visuality-forge | 10 | частицы
+falling-leaves | 10 | листья
+sodium-dynamic-lights | 10 | свет
+not-enough-animations | 10 | анимации
+sound-physics-remastered | 10 | звук
+ambientsounds | 10 | звук
+pf-neoforge | 10 | шаги
+entity-model-features | 10 | модели
+entitytexturefeatures | 10 | текстуры
+betterdays | 10 | сутки
+shoulder-surfing-reloaded | 10 | камера
+toast-control | 10 | тосты
+euphoria-patches | 10 | шейдеры
+neo-origins | 7a | расы
+irons-lib | 6 | библиотека Iron's
+coroutil | 9 | либа Weather2

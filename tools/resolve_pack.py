@@ -120,6 +120,12 @@ def main():
                     resolved.pop(slug); unresolved.append((slug, r["wave"], "зависимость не разрешилась", None)); changed = True; break
     for slug, r in resolved.items():
         write_pw(slug, r["p"], r["v"], r["side"])
+    # drop preserved CurseForge entries whose jar duplicates a Modrinth one
+    import tomllib
+    mr = {r["v"]["files"][0]["filename"] for r in resolved.values()}
+    for k in keep:
+        f = PACK / "mods" / f"{k}.pw.toml"
+        if f.exists() and tomllib.loads(f.read_text("utf8")).get("filename") in mr: f.unlink()
     # index.toml (overwritten by `packwiz refresh` afterwards)
     lines = ['hash-format = "sha256"\n']
     for f in sorted((PACK / "mods").glob("*.pw.toml")):

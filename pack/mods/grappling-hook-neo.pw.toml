@@ -1,0 +1,13 @@
+name = "Grappling Hook: Neo"
+filename = "grappling_hook_neo-1.0.1+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NgPBeMM3/versions/eWggGUcc/grappling_hook_neo-1.0.1%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "5a699ba240c57378d26d5a801d08deba0d62cca42a75da0d295cafefb5ac7c6a9e383ef935138c6ac0cb9cef6912a1dc775e748c0a0443d74121136351d365f1"
+
+[update]
+[update.modrinth]
+mod-id = "NgPBeMM3"
+version = "eWggGUcc"

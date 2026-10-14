@@ -1,0 +1,13 @@
+name = "Custom Machinery"
+filename = "CustomMachinery-neoforge-1.21.1-0.10.74.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OrB5XFtI/versions/JeKaJAIu/CustomMachinery-neoforge-1.21.1-0.10.74.jar"
+hash-format = "sha512"
+hash = "23f57ee8b57fa6dfff9282a8e4e4ab5908d5b3b1e969d490e74d07c8d324804b0b4953ebae52e3ab33963b7a4ac426af5319cf1ea4a971f91d5b4150988bd676"
+
+[update]
+[update.modrinth]
+mod-id = "OrB5XFtI"
+version = "JeKaJAIu"

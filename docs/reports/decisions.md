@@ -12,3 +12,5 @@ JEI для 1.21.1 публикуется как beta; нужна 19.53+ для F
 
 ## Let's Do: Bakery/Brewery/Candlelight
 Нет сборок 1.21.1 NeoForge на Modrinth → вне сборки; заменяем тем, что есть (Vinery, Meadow, HerbalBrews, Farm&Charm).
+
+## EW2D исключён: mixin на dedicated-сервере падает (ClassNotFound extendedrenderer.particle.entity.EntityRotFX). Вернуть после проверки на новой версии.

@@ -1,0 +1,13 @@
+name = "Airborne"
+filename = "airborne-1.21.1-1.0.17.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "842fd229e46d9532b6a11832ad0c5399b9a13ffe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8902638
+project-id = 1695571
