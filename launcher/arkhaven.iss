@@ -156,6 +156,39 @@ begin
   SaveStringsToUTF8File(FileName, Lines, False);
 end;
 
+function TotalRamMb(): Integer;
+var
+  Locator, Service, Items: Variant;
+begin
+  Result := 16384;
+  try
+    Locator := CreateOleObject('WbemScripting.SWbemLocator');
+    Service := Locator.ConnectServer('.', 'root\CIMV2');
+    Items := Service.ExecQuery('SELECT TotalPhysicalMemory FROM Win32_ComputerSystem');
+    Result := Trunc(StrToFloat(Items.ItemIndex(0).TotalPhysicalMemory) / 1048576);
+  except
+    Result := 16384;
+  end;
+end;
+
+{ Never give the game more than half of the PC's RAM (16 GB PC -> at most 8 GB). }
+procedure CapMemory(const Cfg: String);
+var
+  Lines: TArrayOfString;
+  I, Cap, Cur: Integer;
+begin
+  Cap := TotalRamMb() div 2;
+  if Cap < 4096 then Cap := 4096;
+  if not LoadStringsFromFile(Cfg, Lines) then Exit;
+  for I := 0 to GetArrayLength(Lines) - 1 do
+    if Pos('MaxMemAlloc=', Lines[I]) = 1 then
+    begin
+      Cur := StrToIntDef(Copy(Lines[I], 13, 10), 8192);
+      if Cur > Cap then Lines[I] := 'MaxMemAlloc=' + IntToStr(Cap);
+    end;
+  SaveStringsToUTF8File(Cfg, Lines, False);
+end;
+
 procedure ApplyPreset(const Id: String);
 var
   Src, Mc, Java: String;
@@ -171,6 +204,7 @@ begin
   Java := ExpandConstant('{app}\java\bin\javaw.exe');
   StringChangeEx(Java, '\', '/', True);
   ReplaceInFile(ExpandConstant('{app}\instances\Arkhaven\instance.cfg'), '@JAVA@', Java);
+  CapMemory(ExpandConstant('{app}\instances\Arkhaven\instance.cfg'));
   ReplaceInFile(ExpandConstant('{app}\prismlauncher.cfg'), '@JAVA@', Java);
   SaveStringToFile(ExpandConstant('{app}\preset.txt'), Id, False);
 end;

@@ -5,3 +5,7 @@
 | дата | вариант | медиана FPS | мин | макс | среднее | разрешение | выключено |
 |---|---|---|---|---|---|---|---|
 | 2026-10-14 17:39 | baseline | FAILED | | | | 2560x1377 | ['   [17:34:58.206] [main/WARN] [mixin/]: Error loading class: com/alien/common/util/AlienPredicates (java.lang.ClassNotFoundException: com.alien.common.util.AlienPredicates)'] |
+| 2026-10-14 17:46 | mem10_zgc | FAILED | | | | 2560x1377 |  |
+| 2026-10-14 17:46 | noshader | FAILED | | | | 2560x1377 |  |
+| 2026-10-14 17:51 | mem10_zgc | FAILED | | | | 2560x1377 | ['   [17:47:14.907] [main/WARN] [mixin/]: Error loading class: com/alien/common/util/AlienPredicates (java.lang.ClassNotFoundException: com.alien.common.util.AlienPredicates)'] |
+| 2026-10-14 17:53 | noshader | FAILED | | | | 2560x1377 | ['   [17:51:42.551] [main/WARN] [mixin/]: Error loading class: com/alien/common/util/AlienPredicates (java.lang.ClassNotFoundException: com.alien.common.util.AlienPredicates)'] |

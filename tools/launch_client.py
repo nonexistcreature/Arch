@@ -111,7 +111,7 @@ def main():
                 out.append(s)
         return out
 
-    user_jvm = opt("--jvm", "-Xmx6G").split()
+    user_jvm = opt("--jvm", "-Xms12G -Xmx12G -XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch").split()
     jvm = user_jvm + ["-Dsodium.checks.issue2561=false"] + expand(v["arguments"]["jvm"])
     w, h = opt("--res", "960x540").split("x")
     game = expand(v["arguments"]["game"]) + ["--width", w, "--height", h]
@@ -125,7 +125,7 @@ def main():
         game += ["--quickPlaySingleplayer", world]
     # Crash Assistant would report our scripted shutdown as a crash: keep it out of test runs.
     for f in (GAME / "mods").glob("CrashAssistant*.jar"):
-        f.rename(f.with_suffix(".jar.disabled"))
+        f.replace(f.with_suffix(".jar.disabled"))
     log = GAME / "smoke.log"
     with open(log, "wb") as lf:
         p = subprocess.Popen([str(JAVA), *jvm, v["mainClass"], *game], cwd=GAME, stdout=lf, stderr=subprocess.STDOUT)

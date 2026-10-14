@@ -73,10 +73,10 @@ notes=Arkhaven {REL['version']}
 OverrideCommands=true
 PreLaunchCommand={pre}
 OverrideMemory=true
-MinMemAlloc=2048
+MinMemAlloc=4096
 MaxMemAlloc={mem}
 OverrideJavaArgs=true
-JvmArgs=-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=30 -XX:G1ReservePercent=20 -XX:G1HeapRegionSize=16M
+JvmArgs=-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+DisableExplicitGC
 OverrideJavaLocation=true
 JavaPath=@JAVA@
 AutomaticJava=false
@@ -94,7 +94,7 @@ def main():
     unzip_flat(fetch(JRE_URL, CACHE / "jre21.zip"), STAGE / "java")
     (STAGE / "prismlauncher.cfg").write_text(
         "[General]\nLanguage=ru\nJavaPath=@JAVA@\nAutomaticJavaDownload=false\nAutomaticJavaSwitch=false\n"
-        "MaxMemAlloc=8192\nMinMemAlloc=2048\nApplicationTheme=dark\nIconTheme=pe_colored\nShowConsole=false\n"
+        "MaxMemAlloc=8192\nMinMemAlloc=4096\nApplicationTheme=dark\nIconTheme=pe_colored\nShowConsole=false\n"
         "ShowConsoleOnError=true\nAutoCloseConsole=true\nUpdateChannel=\nAutoUpdate=false\nAnalyticsSeen=2\n"
         "MenuBarInsteadOfToolBar=false\nSelectedInstance=Arkhaven\nInstSortMode=Name\n", "utf8")
     inst = STAGE / "instances/Arkhaven"

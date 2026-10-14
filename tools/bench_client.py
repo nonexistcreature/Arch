@@ -17,16 +17,39 @@ RES = "2560x1377"  # the owner's maximised window
 G1 = "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=37 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=20 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:+AlwaysPreTouch"
 ZGC = "-XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+DisableExplicitGC"
 
+DH_TUNED = [(r"lodChunkRenderDistanceRadius = \d+", "lodChunkRenderDistanceRadius = 128"),
+            (r'maxHorizontalResolution = "\w+"', 'maxHorizontalResolution = "TWO_BLOCKS"'),
+            (r'verticalQuality = "\w+"', 'verticalQuality = "LOW"'),
+            (r"enableSsao = true", "enableSsao = false")]
+DH_DEFAULT = [(r"lodChunkRenderDistanceRadius = \d+", "lodChunkRenderDistanceRadius = 256"),
+              (r'maxHorizontalResolution = "\w+"', 'maxHorizontalResolution = "BLOCK"'),
+              (r'verticalQuality = "\w+"', 'verticalQuality = "MEDIUM"'),
+              (r"enableSsao = false", "enableSsao = true")]
+
+
+def set_dh(rules):
+    p = GAME / "config/DistantHorizons.toml"
+    if not p.exists():
+        return
+    t = p.read_text("utf8")
+    for a, b in rules:
+        t = re.sub(a, b, t)
+    p.write_text(t, "utf8")
+
+
 VARIANTS = {
     # name: (options overrides, shaders on?, shader profile options, jvm, disabled mod globs)
-    "baseline":      ({"renderDistance": 12}, True, {}, "-Xmx6G", []),
-    "mem10_g1":      ({"renderDistance": 12}, True, {}, "-Xms10G -Xmx10G " + G1, []),
-    "mem10_zgc":     ({"renderDistance": 12}, True, {}, "-Xms10G -Xmx10G " + ZGC, []),
-    "noshader":      ({"renderDistance": 12}, False, {}, "-Xms10G -Xmx10G " + ZGC, []),
-    "no_dh":         ({"renderDistance": 12}, True, {}, "-Xms10G -Xmx10G " + ZGC, ["DistantHorizons*"]),
-    "lite_client":   ({"renderDistance": 12}, True, {}, "-Xms10G -Xmx10G " + ZGC,
+    "baseline":      ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + ZGC, []),
+    "mem10_g1":      ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + G1, []),
+    "mem10_zgc":     ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + ZGC, []),
+    "noshader":      ({"renderDistance": 12}, False, {}, "-Xms12G -Xmx12G " + ZGC, []),
+    "no_dh":         ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + ZGC, ["DistantHorizons*"]),
+    "lite_client":   ({"renderDistance": 12}, True, {}, "-Xms12G -Xmx12G " + ZGC,
                       ["DistantHorizons*", "visuality*", "particlerain*", "SubtleEffects*", "fallingleaves*", "AmbientSounds*", "PresenceFootsteps*", "pf-*"]),
-    "rd8":           ({"renderDistance": 8, "simulationDistance": 6}, True, {}, "-Xms10G -Xmx10G " + ZGC, []),
+    "rd8":           ({"renderDistance": 8, "simulationDistance": 6}, True, {}, "-Xms12G -Xmx12G " + ZGC, []),
+    # DH tuned: 128-chunk LOD radius, 2-block LOD columns, low vertical quality, no DH SSAO (shaders do AO)
+    "dh_tuned":      ({"renderDistance": 12}, True, {"DH": DH_TUNED}, "-Xms12G -Xmx12G " + ZGC, []),
+    "dh_tuned_rd10": ({"renderDistance": 10, "simulationDistance": 6}, True, {"DH": DH_TUNED}, "-Xms12G -Xmx12G " + ZGC, []),
 }
 
 
@@ -56,9 +79,9 @@ def toggle_mods(globs, disable):
     for g in globs:
         for f in (GAME / "mods").glob(g if disable else g + ".disabled"):
             if disable and f.suffix == ".jar":
-                f.rename(f.with_name(f.name + ".disabled")); moved.append(f.name)
+                f.replace(f.with_name(f.name + ".disabled")); moved.append(f.name)
             elif not disable:
-                f.rename(f.with_name(f.name[: -len(".disabled")]))
+                f.replace(f.with_name(f.name[: -len(".disabled")]))
     return moved
 
 
@@ -71,7 +94,8 @@ def prepare_world():
 
 
 def run(name):
-    over, shaders, _prof, jvm, off = VARIANTS[name]
+    over, shaders, extra, jvm, off = VARIANTS[name]
+    set_dh(extra.get("DH", DH_DEFAULT))
     set_options(over)
     set_iris(shaders)
     moved = toggle_mods(off, True)

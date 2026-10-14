@@ -10,7 +10,7 @@
       "enableVsync": "false"
     },
     "shaders": false,
-    "mem": 6144
+    "mem": 8192
   },
   "balanced": {
     "ru": "Сбалансировано — шейдеры, средняя дальность (GTX 1660 / RX 580)",
@@ -23,7 +23,7 @@
       "enableVsync": "false"
     },
     "shaders": true,
-    "mem": 8192
+    "mem": 10240
   },
   "beautiful": {
     "ru": "Красиво — шейдеры, большая дальность (RTX 2060 и выше)",
@@ -36,7 +36,7 @@
       "enableVsync": "false"
     },
     "shaders": true,
-    "mem": 10240
+    "mem": 12288
   },
   "ultra": {
     "ru": "Максимум — для мощных ПК (RTX 3070+, 32 ГБ ОЗУ)",
@@ -49,6 +49,6 @@
       "enableVsync": "false"
     },
     "shaders": true,
-    "mem": 12288
+    "mem": 14336
   }
 }
