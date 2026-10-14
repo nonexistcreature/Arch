@@ -2,8 +2,8 @@ version:3955
 lang:ru_ru
 renderDistance:10
 simulationDistance:8
-maxFps:120
-enableVsync:true
+maxFps:260
+enableVsync:false
 guiScale:0
 narrator:0
 tutorialStep:none

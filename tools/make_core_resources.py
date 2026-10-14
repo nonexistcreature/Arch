@@ -142,6 +142,7 @@ def main():
         "message.arkhaven_core.forecast.rift_no": ("Разломов этой ночью не ждём.", "No rifts expected tonight."),
         "message.arkhaven_core.forecast.strike": ("Крупный метеорит: небо «набирает силу» — %s%%.", "Meteor strike: the sky is gathering strength — %s%%."),
         "message.arkhaven_core.forecast.strike_untrained": ("Крупные метеориты не падают, пока вы не прошли квест «Метеориты» (%s%%).", "No meteor strikes until you finish the \"Meteors\" quest (%s%%)."),
+        "message.arkhaven_core.forecast.cooldown": ("Катастрофы не чаще раза в 3 дня. До следующей возможной: %s ч.", "Disasters at most once every 3 days. Next one possible in: %s h."),
         "message.arkhaven_core.forecast.active": ("Режиссёр событий активен.", "The event director is active."),
         "message.arkhaven_core.forecast.paused.intensity0": ("События выключены (сила 0).", "Events are off (intensity 0)."),
         "message.arkhaven_core.forecast.paused.vacation": ("Режим отпуска: мир отдыхает.", "Vacation mode: the world is resting."),

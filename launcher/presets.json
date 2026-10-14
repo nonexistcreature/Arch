@@ -1,10 +1,54 @@
 {
-  "fast":      {"ru": "Быстро — без шейдеров (слабые ПК, ноутбуки)", "en": "Fast — no shaders (weak PCs, laptops)",
-                "options": {"renderDistance": 8, "simulationDistance": 6, "graphicsMode": 0, "maxFps": 120}, "shaders": false, "mem": 6144},
-  "balanced":  {"ru": "Сбалансировано — шейдеры, средняя дальность (GTX 1660 / RX 580)", "en": "Balanced — shaders, medium distance (GTX 1660 / RX 580)",
-                "options": {"renderDistance": 8, "simulationDistance": 6, "graphicsMode": 1, "maxFps": 120}, "shaders": true, "mem": 8192},
-  "beautiful": {"ru": "Красиво — шейдеры, большая дальность (RTX 2060 и выше)", "en": "Beautiful — shaders, long distance (RTX 2060 and up)",
-                "options": {"renderDistance": 12, "simulationDistance": 8, "graphicsMode": 1, "maxFps": 144}, "shaders": true, "mem": 8192},
-  "ultra":     {"ru": "Максимум — для мощных ПК (RTX 3070+, 32 ГБ ОЗУ)", "en": "Ultra — for powerful PCs (RTX 3070+, 32 GB RAM)",
-                "options": {"renderDistance": 16, "simulationDistance": 10, "graphicsMode": 1, "maxFps": 165}, "shaders": true, "mem": 10240}
+  "fast": {
+    "ru": "Быстро — без шейдеров (слабые ПК, ноутбуки)",
+    "en": "Fast — no shaders (weak PCs, laptops)",
+    "options": {
+      "renderDistance": 8,
+      "simulationDistance": 6,
+      "graphicsMode": 0,
+      "maxFps": 260,
+      "enableVsync": "false"
+    },
+    "shaders": false,
+    "mem": 6144
+  },
+  "balanced": {
+    "ru": "Сбалансировано — шейдеры, средняя дальность (GTX 1660 / RX 580)",
+    "en": "Balanced — shaders, medium distance (GTX 1660 / RX 580)",
+    "options": {
+      "renderDistance": 8,
+      "simulationDistance": 6,
+      "graphicsMode": 1,
+      "maxFps": 260,
+      "enableVsync": "false"
+    },
+    "shaders": true,
+    "mem": 8192
+  },
+  "beautiful": {
+    "ru": "Красиво — шейдеры, большая дальность (RTX 2060 и выше)",
+    "en": "Beautiful — shaders, long distance (RTX 2060 and up)",
+    "options": {
+      "renderDistance": 12,
+      "simulationDistance": 8,
+      "graphicsMode": 1,
+      "maxFps": 260,
+      "enableVsync": "false"
+    },
+    "shaders": true,
+    "mem": 10240
+  },
+  "ultra": {
+    "ru": "Максимум — для мощных ПК (RTX 3070+, 32 ГБ ОЗУ)",
+    "en": "Ultra — for powerful PCs (RTX 3070+, 32 GB RAM)",
+    "options": {
+      "renderDistance": 16,
+      "simulationDistance": 10,
+      "graphicsMode": 1,
+      "maxFps": 260,
+      "enableVsync": "false"
+    },
+    "shaders": true,
+    "mem": 12288
+  }
 }

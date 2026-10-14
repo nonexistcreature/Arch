@@ -16,14 +16,14 @@ quests:
       title: "Как устроены события"
       subtitle: "Честные правила"
       text: |
-        События идут **только когда кто-то онлайн**. Первые 7 игровых дней мир спокоен.
+        События идут **только когда кто-то онлайн**. Первые 7 игровых дней мир спокоен, а катастрофы (метеорит, разломы, торнадо) — **не чаще раза в 3 реальных дня**.
         Каждое опасное событие **не начнётся**, пока вы не пройдёте его квест «Знакомство» здесь — а первое всегда учебное.
         **Звёздный атлас** (награда) показывает прогноз на ночь. Админ может включить «отпуск» — и мир отдыхает.
     en:
       title: "How Events Work"
       subtitle: "Fair rules"
       text: |
-        Events run **only while someone is online**. The first 7 in-game days are quiet.
+        Events run **only while someone is online**. The first 7 in-game days are quiet, and disasters (meteor strikes, rifts, tornadoes) happen **at most once every 3 real days**.
         No dangerous event **starts** until you finish its "Meet" quest here — and the first one is always a tutorial.
         The **Star Atlas** (reward) shows tonight's forecast. An admin can turn on "vacation" and the world rests.
 

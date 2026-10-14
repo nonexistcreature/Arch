@@ -9,6 +9,10 @@ public final class Config {
     public static final ModConfigSpec.IntValue INTENSITY = B
             .comment("Disaster intensity: 0 = off, 1 = gentle (default), 2 = serious, 3 = harsh")
             .defineInRange("events.intensity", 1, 0, 3);
+    public static final ModConfigSpec.IntValue MIN_REAL_HOURS_BETWEEN_DISASTERS = B
+            .comment("Real-world hours that must pass between two disasters (meteor strike, rift night, meteor-shower impacts).",
+                     "Owner's rule: at most once every 3 real days, so players always have time to prepare.")
+            .defineInRange("events.minRealHoursBetweenDisasters", 72, 1, 24 * 60);
     public static final ModConfigSpec.IntValue GRACE_DAYS = B
             .comment("In-game days after the world starts during which no events run")
             .defineInRange("events.graceDays", 7, 0, 365);

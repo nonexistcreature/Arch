@@ -111,8 +111,21 @@ def main():
                 out.append(s)
         return out
 
-    jvm = ["-Xmx6G", "-Dsodium.checks.issue2561=false"] + expand(v["arguments"]["jvm"])
-    game = expand(v["arguments"]["game"]) + ["--width", "960", "--height", "540"]
+    user_jvm = opt("--jvm", "-Xmx6G").split()
+    jvm = user_jvm + ["-Dsodium.checks.issue2561=false"] + expand(v["arguments"]["jvm"])
+    w, h = opt("--res", "960x540").split("x")
+    game = expand(v["arguments"]["game"]) + ["--width", w, "--height", h]
+    join = opt("--join", None)          # e.g. 127.0.0.1:25565 -> connect straight to a server
+    world = opt("--world", None)        # singleplayer save name -> benchmark mode (needs the FPS probe script)
+    samples = int(opt("--fps-samples", "18"))
+    hold = int(opt("--hold", "15"))     # seconds to stay alive after success
+    if join:
+        game += ["--quickPlayMultiplayer", join]
+    if world:
+        game += ["--quickPlaySingleplayer", world]
+    # Crash Assistant would report our scripted shutdown as a crash: keep it out of test runs.
+    for f in (GAME / "mods").glob("CrashAssistant*.jar"):
+        f.rename(f.with_suffix(".jar.disabled"))
     log = GAME / "smoke.log"
     with open(log, "wb") as lf:
         p = subprocess.Popen([str(JAVA), *jvm, v["mainClass"], *game], cwd=GAME, stdout=lf, stderr=subprocess.STDOUT)
@@ -122,9 +135,26 @@ def main():
                 result = f"EXITED {p.returncode}"
                 break
             txt = log.read_text("utf8", "replace")
-            if re.search(r"Sound engine started|Created: \d+x\d+x\d+ minecraft:textures/atlas/gui", txt) and "Reloading ResourceManager" in txt:
+            if world:
+                fps = [int(x) for x in re.findall(r"ARK_FPS (\d+)", txt)]
+                if len(fps) >= samples:
+                    warm = fps[4:] or fps
+                    s = sorted(warm)
+                    result = "BENCH"
+                    print(f"FPS samples={warm}")
+                    print(f"FPS median={s[len(s) // 2]} min={s[0]} max={s[-1]} avg={sum(s) / len(s):.0f}")
+                    break
+            elif join:
+                if re.search(r"Disconnected|Lost connection|Failed to connect|disconnect\.", txt):
+                    result = "DISCONNECTED"
+                    break
+                if re.search(r"\[CHAT\]|logged in with entity id|Received .*ClientboundLogin|Started 1 worker threads|Preparing spawn", txt) or "joined the game" in txt:
+                    result = "JOINED"
+                    time.sleep(hold)
+                    break
+            elif re.search(r"Sound engine started|Created: \d+x\d+x\d+ minecraft:textures/atlas/gui", txt) and "Reloading ResourceManager" in txt:
                 result = "TITLE_SCREEN"
-                time.sleep(15)  # let late init errors surface
+                time.sleep(hold)  # let late init errors surface
                 break
             time.sleep(3)
         if p.poll() is None and "--keep" not in args:
@@ -137,7 +167,7 @@ def main():
     txt = log.read_text("utf8", "replace")
     for l in [l for l in txt.splitlines() if re.search(r"/(ERROR|FATAL)\]|Exception|Mixin apply failed", l)][:30]:
         print("  ", l[:300])
-    sys.exit(0 if result == "TITLE_SCREEN" else 1)
+    sys.exit(0 if result in ("TITLE_SCREEN", "JOINED", "BENCH") else 1)
 
 
 if __name__ == "__main__":

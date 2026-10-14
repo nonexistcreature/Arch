@@ -27,6 +27,7 @@
   "message.arkhaven_core.forecast.rift_no": "Разломов этой ночью не ждём.",
   "message.arkhaven_core.forecast.strike": "Крупный метеорит: небо «набирает силу» — %s%%.",
   "message.arkhaven_core.forecast.strike_untrained": "Крупные метеориты не падают, пока вы не прошли квест «Метеориты» (%s%%).",
+  "message.arkhaven_core.forecast.cooldown": "Катастрофы не чаще раза в 3 дня. До следующей возможной: %s ч.",
   "message.arkhaven_core.forecast.active": "Режиссёр событий активен.",
   "message.arkhaven_core.forecast.paused.intensity0": "События выключены (сила 0).",
   "message.arkhaven_core.forecast.paused.vacation": "Режим отпуска: мир отдыхает.",

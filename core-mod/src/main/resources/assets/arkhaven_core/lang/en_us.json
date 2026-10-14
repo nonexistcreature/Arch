@@ -27,6 +27,7 @@
   "message.arkhaven_core.forecast.rift_no": "No rifts expected tonight.",
   "message.arkhaven_core.forecast.strike": "Meteor strike: the sky is gathering strength — %s%%.",
   "message.arkhaven_core.forecast.strike_untrained": "No meteor strikes until you finish the \"Meteors\" quest (%s%%).",
+  "message.arkhaven_core.forecast.cooldown": "Disasters at most once every 3 days. Next one possible in: %s h.",
   "message.arkhaven_core.forecast.active": "The event director is active.",
   "message.arkhaven_core.forecast.paused.intensity0": "Events are off (intensity 0).",
   "message.arkhaven_core.forecast.paused.vacation": "Vacation mode: the world is resting.",

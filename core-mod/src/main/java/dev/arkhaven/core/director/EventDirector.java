@@ -79,7 +79,7 @@ public final class EventDirector {
             case SHOWER -> startShower(server, s, 20 * 60 * 3);
             case STRIKE -> {
                 if (target == null) return false;
-                scheduleStrike(server, s, target, 30 * 20);
+                return scheduleStrike(server, s, target, 30 * 20);
             }
             case RIFT -> {
                 if (target == null) return false;
@@ -104,6 +104,7 @@ public final class EventDirector {
                 Component.translatable(s.tonightShower ? "message.arkhaven_core.forecast.shower_yes" : "message.arkhaven_core.forecast.shower_no"),
                 Component.translatable(s.tonightRift && s.trained.contains(RIFT) ? "message.arkhaven_core.forecast.rift_yes" : "message.arkhaven_core.forecast.rift_no"),
                 Component.translatable(s.trained.contains(STRIKE) ? "message.arkhaven_core.forecast.strike" : "message.arkhaven_core.forecast.strike_untrained", pct),
+                Component.translatable("message.arkhaven_core.forecast.cooldown", hoursUntilNextDisaster(server)),
                 reason == null ? Component.translatable("message.arkhaven_core.forecast.active")
                         : Component.translatable("message.arkhaven_core.forecast.paused." + reason).withStyle(ChatFormatting.GRAY));
     }
@@ -156,11 +157,11 @@ public final class EventDirector {
             s.showerDone = true;
             startShower(server, s, 20 * 60 * 5);
         }
-        if (night && time >= 14000 && s.tonightRift && !s.riftDone && s.trained.contains(RIFT)) {
+        if (night && time >= 14000 && s.tonightRift && !s.riftDone && s.trained.contains(RIFT) && !disasterCooldown(s)) {
             s.riftDone = true;
             startRiftNight(server, s);
         }
-        if (!s.strikePending && s.trained.contains(STRIKE) && s.onlineTicksSinceStrike >= strikeThresholdTicks() && rnd.nextInt(30) == 0) {
+        if (!s.strikePending && s.trained.contains(STRIKE) && !disasterCooldown(s) && s.onlineTicksSinceStrike >= strikeThresholdTicks() && rnd.nextInt(30) == 0) {
             List<ServerPlayer> players = ow.players();
             if (!players.isEmpty()) scheduleStrike(server, s, players.get(rnd.nextInt(players.size())), Config.STRIKE_WARNING_SECONDS.get() * 20);
         }
@@ -169,6 +170,22 @@ public final class EventDirector {
     @SubscribeEvent
     public static void onStopped(ServerStoppedEvent event) {
         strikeBar = null;
+    }
+
+    /** Owner's rule: at most one disaster per N real hours (default 72). */
+    static boolean disasterCooldown(DirectorState s) {
+        return System.currentTimeMillis() - s.lastDisasterMillis < Config.MIN_REAL_HOURS_BETWEEN_DISASTERS.get() * 3_600_000L;
+    }
+
+    static void markDisaster(DirectorState s) {
+        s.lastDisasterMillis = System.currentTimeMillis();
+        s.setDirty();
+    }
+
+    public static long hoursUntilNextDisaster(MinecraftServer server) {
+        DirectorState s = DirectorState.get(server);
+        long left = Config.MIN_REAL_HOURS_BETWEEN_DISASTERS.get() * 3_600_000L - (System.currentTimeMillis() - s.lastDisasterMillis);
+        return Math.max(0, (left + 3_599_999L) / 3_600_000L);
     }
 
     private static boolean inGrace(MinecraftServer server, DirectorState s) {
@@ -202,7 +219,7 @@ public final class EventDirector {
             // Occasionally a small one lands in the wild: a gift of meteoric dust.
             if (rnd.nextInt(6) == 0) {
                 BlockPos spot = pickSpot(ow, p.blockPosition(), 150, 400, true);
-                if (spot != null) MeteorEntity.spawn(ow, Vec3.atCenterOf(spot), 1, s.seen.size() <= 1, -1);
+                if (spot != null && !disasterCooldown(s)) MeteorEntity.spawn(ow, Vec3.atCenterOf(spot), 1, true, -1);
             }
         }
     }
@@ -211,6 +228,7 @@ public final class EventDirector {
 
     private static void startRiftNight(MinecraftServer server, DirectorState s) {
         ServerLevel ow = server.overworld();
+        markDisaster(s);
         boolean tutorial = s.seen.add(RIFT);
         s.setDirty();
         announce(server, "rift", tutorial, ChatFormatting.DARK_PURPLE);
@@ -225,7 +243,7 @@ public final class EventDirector {
 
     // ---------------------------------------------------------------- meteor strike
 
-    private static void scheduleStrike(MinecraftServer server, DirectorState s, ServerPlayer target, int warningTicks) {
+    private static boolean scheduleStrike(MinecraftServer server, DirectorState s, ServerPlayer target, int warningTicks) {
         ServerLevel ow = server.overworld();
         boolean tutorial = !s.seen.contains(STRIKE);
         int intensity = Config.INTENSITY.get();
@@ -233,7 +251,9 @@ public final class EventDirector {
         BlockPos spot = null;
         if (!tutorial && intensity >= 2 && ow.random.nextFloat() < 0.3f && !WardManager.isProtected(ow, Vec3.atCenterOf(base))) spot = base;
         if (spot == null) spot = pickSpot(ow, base, tutorial ? 150 : 60, tutorial ? 220 : 120, intensity <= 1 || tutorial);
-        if (spot == null) return;
+        // Bases inside the Haven: look further out until we leave the safe zone.
+        for (int r = 300; spot == null && r <= 900; r += 200) spot = pickSpot(ow, base, r, r + 150, true);
+        if (spot == null) return false;
         s.strikePending = true;
         s.strikeTarget = spot;
         s.strikeTicksLeft = warningTicks;
@@ -242,6 +262,7 @@ public final class EventDirector {
         announce(server, "strike", tutorial, ChatFormatting.RED);
         server.getPlayerList().broadcastSystemMessage(Component.translatable("message.arkhaven_core.event.strike.where",
                 spot.getX(), spot.getZ(), warningTicks / 20 / 60, warningTicks / 20 % 60).withStyle(ChatFormatting.RED), false);
+        return true;
     }
 
     private static void tickStrike(MinecraftServer server, DirectorState s) {
@@ -264,6 +285,7 @@ public final class EventDirector {
             BlockPos ground = ow.getHeightmapPos(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, s.strikeTarget);
             MeteorEntity.spawn(ow, Vec3.atCenterOf(ground), s.strikeTutorial ? 2 : 3, s.strikeTutorial, -1);
             s.seen.add(STRIKE);
+            markDisaster(s);
             s.onlineTicksSinceStrike = 0;
             s.strikePending = false;
             strikeBar.removeAllPlayers();

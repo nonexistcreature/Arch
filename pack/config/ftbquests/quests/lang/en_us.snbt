@@ -1499,7 +1499,7 @@
 	quest.F235EB4484D39CEF.title: "How Events Work"
 	quest.F235EB4484D39CEF.quest_subtitle: "Fair rules"
 	quest.F235EB4484D39CEF.quest_desc: [
-		"Events run &lonly while someone is online&r. The first 7 in-game days are quiet."
+		"Events run &lonly while someone is online&r. The first 7 in-game days are quiet, and disasters (meteor strikes, rifts, tornadoes) happen &lat most once every 3 real days&r."
 		"No dangerous event &lstarts&r until you finish its \"Meet\" quest here — and the first one is always a tutorial."
 		"The &lStar Atlas&r (reward) shows tonight's forecast. An admin can turn on \"vacation\" and the world rests."
 	]

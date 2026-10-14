@@ -28,6 +28,8 @@ public final class DirectorState extends SavedData {
     BlockPos strikeTarget = BlockPos.ZERO;
     int strikeTicksLeft;
     boolean strikeTutorial;
+    /** Real-world epoch millis of the last disaster (strike, rift night, shower impacts). */
+    long lastDisasterMillis;
 
     public static DirectorState get(MinecraftServer server) {
         return server.overworld().getDataStorage().computeIfAbsent(
@@ -50,6 +52,7 @@ public final class DirectorState extends SavedData {
         s.strikeTarget = BlockPos.of(t.getLong("StrikeTarget"));
         s.strikeTicksLeft = t.getInt("StrikeTicksLeft");
         s.strikeTutorial = t.getBoolean("StrikeTutorial");
+        s.lastDisasterMillis = t.getLong("LastDisasterMillis");
         return s;
     }
 
@@ -79,6 +82,7 @@ public final class DirectorState extends SavedData {
         t.putLong("StrikeTarget", strikeTarget.asLong());
         t.putInt("StrikeTicksLeft", strikeTicksLeft);
         t.putBoolean("StrikeTutorial", strikeTutorial);
+        t.putLong("LastDisasterMillis", lastDisasterMillis);
         return t;
     }
 }

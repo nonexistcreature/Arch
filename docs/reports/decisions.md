@@ -43,3 +43,6 @@ Modrinth пометил Lithostitched как server-only, но Terralith тре�
 
 ## Динамический свет отложен
 Sodium Dynamic Lights тянет Sodium Options API, который требует Reese's Sodium Options, а тот объявляет несовместимость с Options API — клиент не стартует ни в одной комбинации. Оставлен Reese's Sodium Options, динамический свет — когда появится рабочий порт (LambDynamicLights требует Fabric API).
+
+## Частота катастроф (решение владельца, 2026-10-14)
+Метеориты, разломы, штормы/торнадо — **не чаще раза в 3 реальных дня**: arkhaven-core `events.minRealHoursBetweenDisasters=72` (общий кулдаун, реальное время), Weather2 `*_TimeBetweenInTicks=5184000` (72 ч серверных тиков, глобально), сила торнадо снижена (F3 8%, F4 3%, F5 1%). Звездопады остаются как зрелище; падения камней — только когда кулдаун прошёл.

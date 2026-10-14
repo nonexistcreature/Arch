@@ -118,11 +118,11 @@ hash = "d04d5331950919436864583a7ee324582806e147abc33f1a921cc15f2c01d0ab"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "baa42561903aa90a501fd8cb5619f3a4264638a39f6a045b009fdba9a1fa9d4b"
+hash = "a185d56b0793ee8c96c3f5ca4f55629d7c3a2c6af0e79e6b92a40a4e92fb6387"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "2806425d5a7bf681bfaa6f18fe5af89122fcc2e35cec6bab4a36fe9ab531b367"
+hash = "c722032c0c3670298fcc8e0e67de88b8e2e9065ee58cd2a80d193a33d505c6c9"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -139,6 +139,18 @@ hash = "f97c06d3901e4a8959977cb83dbac06f0b395ec01f0b7c6b1d34be06393c4ead"
 [[files]]
 file = "config/waystones-common.toml"
 hash = "aa34cf72aacafec7d723d7cebb751ec73a9ad1664160d778687392bd674adb56"
+
+[[files]]
+file = "config/weather2/Sand.toml"
+hash = "4b1a8a61decce9be56c654099ca360ce4f27597aca72e3af921f25e3d04ffbe8"
+
+[[files]]
+file = "config/weather2/Snow.toml"
+hash = "15feb438acf34a585e0683f38e52f904240ef25b78868e82ab623d4dd463d77a"
+
+[[files]]
+file = "config/weather2/Storm.toml"
+hash = "2e2540b385fc03a28fe7b6aa64135cd949694dab7a2fccbe6051aee601caf6b4"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/en_us.json"
@@ -331,7 +343,7 @@ metafile = true
 
 [[files]]
 file = "mods/arkhaven_core-0.1.0.jar"
-hash = "b15c8d1a8dd42a7dc73b7ed9b00e637d3684268446897e2d5fbe3035c6bb89cb"
+hash = "2675dd2385a33084622d2ec062ec08e78115534d16ed684d5ed8f22c47f5c5cb"
 
 [[files]]
 file = "mods/ars-additions.pw.toml"
@@ -1645,7 +1657,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "96662c82b098360d4d25846eb346b2817714ba0677861e58163f71d4ebe53863"
+hash = "c1ea37875f3b058dbbebb74ba05dc6896ad3806147786d87d402ab16451ce875"
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
