@@ -12,12 +12,15 @@ public class Discover {
     public static void main(String[] args) throws Exception {
         Path inst = Paths.get(args.length > 0 ? args[0] : ".");
         String found = listen(4000);
+        if (found == null && portOpen("127.0.0.1", 25565)) found = "localhost";  // server runs on this same PC
         if (found == null) {
             System.out.println("[Arkhaven] LAN server not heard; using the configured address");
             return;
         }
         System.out.println("[Arkhaven] LAN server found at " + found);
-        writeServersDat(inst.resolve(".minecraft").resolve("servers.dat"), found);
+        // Prism instance dir (has .minecraft/) or a plain game folder (install-to-launcher.ps1)
+        Path mc = Files.isDirectory(inst.resolve(".minecraft")) ? inst.resolve(".minecraft") : inst;
+        writeServersDat(mc.resolve("servers.dat"), found);
         Path cfg = inst.resolve("instance.cfg");
         if (Files.exists(cfg)) {
             String t = Files.readString(cfg, StandardCharsets.UTF_8);
@@ -28,8 +31,20 @@ public class Discover {
 
     static String listen(int ms) {
         try (MulticastSocket s = new MulticastSocket(4445)) {
-            InetAddress group = InetAddress.getByName("224.0.2.60");
-            s.joinGroup(new InetSocketAddress(group, 4445), null);
+            InetSocketAddress group = new InetSocketAddress(InetAddress.getByName("224.0.2.60"), 4445);
+            // join on every IPv4 interface: home Wi-Fi/Ethernet and the ZeroTier virtual adapter alike
+            int joined = 0;
+            for (NetworkInterface nic : java.util.Collections.list(NetworkInterface.getNetworkInterfaces())) {
+                try {
+                    if (!nic.isUp() || nic.isLoopback() || !nic.supportsMulticast()) continue;
+                    if (nic.getInterfaceAddresses().stream().noneMatch(a -> a.getAddress() instanceof Inet4Address)) continue;
+                    s.joinGroup(group, nic);
+                    joined++;
+                } catch (IOException ignored) {
+                    // adapter refuses multicast — skip it
+                }
+            }
+            if (joined == 0) s.joinGroup(group, null);
             s.setSoTimeout(ms);
             byte[] buf = new byte[1024];
             long end = System.currentTimeMillis() + ms;
@@ -48,6 +63,15 @@ public class Discover {
             System.out.println("[Arkhaven] discovery failed: " + e);
         }
         return null;
+    }
+
+    static boolean portOpen(String host, int port) {
+        try (Socket s = new Socket()) {
+            s.connect(new InetSocketAddress(host, port), 300);
+            return true;
+        } catch (IOException e) {
+            return false;
+        }
     }
 
     // Minimal NBT writer: { servers: [ { ip, name, hidden:0b } ] }

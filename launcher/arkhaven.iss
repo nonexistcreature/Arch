@@ -2,6 +2,9 @@
 #ifndef Stage
   #define Stage "build\stage"
 #endif
+#ifndef NetworkUrl
+  #define NetworkUrl ""
+#endif
 #ifndef MyVersion
   #define MyVersion "0.0.0"
 #endif
@@ -38,6 +41,8 @@ ru.Detected=Найдена видеокарта: %1
 ru.ShortcutGraphics=Arkhaven — графика
 ru.ShortcutFolder=Arkhaven — папка игры
 ru.LaunchNow=Запустить Arkhaven
+ru.ZeroTier=Я играю не из дома владельца сервера — подключить сеть друзей (ZeroTier)
+ru.ZeroTierGroup=Сеть:
 ru.KeepUserData=Удалить также скриншоты, схематики и одиночные миры?
 en.PresetTitle=Graphics
 en.PresetSub=Pick a preset. We've already selected the one that suits your graphics card. You can change it any time with the "Arkhaven — graphics" shortcut.
@@ -45,10 +50,13 @@ en.Detected=Detected graphics card: %1
 en.ShortcutGraphics=Arkhaven — graphics
 en.ShortcutFolder=Arkhaven — game folder
 en.LaunchNow=Launch Arkhaven
+en.ZeroTier=I'm not at the server owner's home — join the friends' network (ZeroTier)
+en.ZeroTierGroup=Network:
 en.KeepUserData=Also delete screenshots, schematics and singleplayer worlds?
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"
+Name: "zerotier"; Description: "{cm:ZeroTier}"; GroupDescription: "{cm:ZeroTierGroup}"
 
 [Files]
 Source: "{#Stage}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
@@ -61,6 +69,7 @@ Name: "{userprograms}\Arkhaven\{cm:ShortcutGraphics}"; Filename: "{app}\switch-g
 Name: "{userprograms}\Arkhaven\{cm:ShortcutFolder}"; Filename: "{app}\instances\Arkhaven\.minecraft"
 
 [Run]
+Filename: "powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File ""{app}\zerotier-join.ps1"" -NetworkUrl ""{#NetworkUrl}"""; StatusMsg: "ZeroTier..."; Tasks: zerotier; Flags: runhidden waituntilterminated
 Filename: "{app}\prismlauncher.exe"; Parameters: "--launch Arkhaven"; Description: "{cm:LaunchNow}"; Flags: postinstall nowait skipifsilent
 
 [UninstallDelete]

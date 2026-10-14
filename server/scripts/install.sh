@@ -10,6 +10,8 @@ sudo cp "$(dirname "$0")/../docker-compose.yml" "$(dirname "$0")/../lan_announce
 sudo cp "$(dirname "$0")"/*.sh /opt/arkhaven/scripts/ && sudo chmod +x /opt/arkhaven/scripts/*.sh
 [ -f /opt/arkhaven/compose/.env ] || sudo cp "$(dirname "$0")/../.env.example" /opt/arkhaven/compose/.env
 [ -f "$(dirname "$0")/../server-icon.png" ] && sudo cp "$(dirname "$0")/../server-icon.png" /opt/arkhaven/compose/extras/
+# random RCON password instead of the placeholder (RCON is only reachable inside the docker network)
+sudo grep -q '^RCON_PASSWORD=change-me' /opt/arkhaven/compose/.env && sudo sed -i "s/^RCON_PASSWORD=change-me/RCON_PASSWORD=$(head -c 18 /dev/urandom | base64 | tr -d '/+=')/" /opt/arkhaven/compose/.env
 sudo chown -R arkhaven:arkhaven /opt/arkhaven
 sudo tee /etc/systemd/system/arkhaven.service >/dev/null <<UNIT
 [Unit]
@@ -49,4 +51,6 @@ if command -v ufw >/dev/null && sudo ufw status | grep -q active; then
   sudo ufw allow 25565/tcp comment arkhaven; sudo ufw allow 24454/udp comment arkhaven-voice
   sudo ufw allow out to 224.0.2.60 port 4445 proto udp comment arkhaven-lan
 fi
+# friends outside the home network: host a ZeroTier virtual LAN (skip with NO_ZEROTIER=1)
+[ "${NO_ZEROTIER:-0}" = 1 ] || bash "$(dirname "$0")/zerotier-host.sh"
 echo "Arkhaven installed. Edit /opt/arkhaven/compose/.env, then: sudo systemctl restart arkhaven"

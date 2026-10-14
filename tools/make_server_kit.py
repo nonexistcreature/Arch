@@ -9,8 +9,9 @@ OUT = ROOT / "launcher/dist/Arkhaven-Server-Kit.zip"
 FILES = [
     "server/КАК_РАЗВЕРНУТЬ.md", "server/README.md", "server/docker-compose.yml", "server/.env.example",
     "server/lan_announce.py", "server/server-icon.png",
-    "server/scripts/install.sh", "server/scripts/nightly_restart.sh", "server/scripts/restore.sh", "server/scripts/preflight.sh",
+    "server/scripts/install.sh", "server/scripts/nightly_restart.sh", "server/scripts/restore.sh", "server/scripts/preflight.sh", "server/scripts/zerotier-host.sh",
     "server/windows/install.ps1", "server/windows/start.cmd", "server/windows/backup.ps1", "server/windows/LanAnnounce.java",
+    "server/windows/zerotier-host.ps1", "server/windows/Arkhaven-Server-Setup.cmd",
 ]
 OUT.parent.mkdir(parents=True, exist_ok=True)
 with zipfile.ZipFile(OUT, "w", zipfile.ZIP_DEFLATED) as z:
@@ -19,4 +20,8 @@ with zipfile.ZipFile(OUT, "w", zipfile.ZIP_DEFLATED) as z:
         info = zipfile.ZipInfo(f, date_time=(2026, 1, 1, 0, 0, 0))
         info.external_attr = (0o755 if f.endswith(".sh") else 0o644) << 16
         z.writestr(info, p.read_bytes().replace(b"\r\n", b"\n") if f.endswith(".sh") else p.read_bytes())
+    # kit.json: where the server takes the modpack from (read by install.ps1 when no -PackUrl is given)
+    import json
+    rel = json.loads((ROOT / "launcher/release.json").read_text("utf8"))
+    z.writestr(zipfile.ZipInfo("server/windows/kit.json", date_time=(2026, 1, 1, 0, 0, 0)), json.dumps({"pack_url": rel["pack_url"]}, indent=2))
 print(OUT, OUT.stat().st_size // 1024, "KB")

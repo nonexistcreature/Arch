@@ -1,4 +1,4 @@
-# Arkhaven hourly backup (Windows host): zips the world into C:\Arkhaven\backups, keeps 24 hourly + 7 daily copies.
+﻿# Arkhaven hourly backup (Windows host): zips the world into C:\Arkhaven\backups, keeps 24 hourly + 7 daily copies.
 $Dir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $world = Join-Path $Dir "server\world"
 if (-not (Test-Path $world)) { exit }

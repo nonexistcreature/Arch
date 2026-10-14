@@ -19,8 +19,8 @@ services:
       MEMORY: ${SERVER_MEMORY:-12G}
       USE_AIKAR_FLAGS: "true"
       ONLINE_MODE: "true"
-      ENABLE_WHITELIST: "true"
-      ENFORCE_WHITELIST: "true"
+      ENABLE_WHITELIST: "${ENABLE_WHITELIST:-false}"
+      ENFORCE_WHITELIST: "${ENABLE_WHITELIST:-false}"
       WHITELIST: ${WHITELIST}
       OPS: ${OPS}
       DIFFICULTY: normal

@@ -1,4 +1,4 @@
-# Arkhaven graphics preset switcher. Patches only preset-owned settings.
+﻿# Arkhaven graphics preset switcher. Patches only preset-owned settings.
 $ErrorActionPreference = 'Stop'
 $app = Split-Path -Parent $MyInvocation.MyCommand.Path
 $mc = Join-Path $app 'instances\Arkhaven\.minecraft'
