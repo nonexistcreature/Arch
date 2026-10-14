@@ -65,6 +65,12 @@ def iris_for(preset):
             % ("true" if preset["shaders"] else "false"))
 
 
+def qsettings_str(s):
+    """instance.cfg is a Qt QSettings ini: bare quotes are syntax (stripped and the parts glued together),
+    so a value with quotes must be one quoted string with escaped inner quotes."""
+    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+
 def instance_cfg(mem, own_java=True):
     pre = f'cmd /c "$INST_MC_DIR/prelaunch.cmd" "$INST_JAVA" "$INST_DIR" {REL["pack_url"]}'
     java = ("OverrideJavaLocation=true\nJavaPath=@JAVA@\nAutomaticJava=false\n" if own_java
@@ -76,7 +82,7 @@ name=Arkhaven
 iconKey=arkhaven
 notes=Arkhaven {REL['version']}
 OverrideCommands=true
-PreLaunchCommand={pre}
+PreLaunchCommand={qsettings_str(pre)}
 OverrideMemory=true
 MinMemAlloc=4096
 MaxMemAlloc={mem}

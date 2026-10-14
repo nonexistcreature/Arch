@@ -11,8 +11,8 @@ import java.util.regex.*;
 public class Discover {
     public static void main(String[] args) throws Exception {
         Path inst = Paths.get(args.length > 0 ? args[0] : ".");
-        String found = listen(4000);
-        if (found == null && portOpen("127.0.0.1", 25565)) found = "localhost";  // server runs on this same PC
+        // server on this same PC: localhost beats whatever adapter (VMware, ZeroTier...) the announcement came from
+        String found = portOpen("127.0.0.1", 25565) ? "localhost" : listen(4000);
         if (found == null) {
             System.out.println("[Arkhaven] LAN server not heard; using the configured address");
             return;
