@@ -143,14 +143,6 @@ def main():
                     result = "BENCH"
                     print(f"FPS samples={warm}")
                     print(f"FPS median={s[len(s) // 2]} min={s[0]} max={s[-1]} avg={sum(s) / len(s):.0f}")
-                    shot = opt("--screenshot", None)
-                    if shot:  # focus the game, press the given key (e.g. L = quest book) and grab the screen
-                        from PIL import ImageGrab
-                        ps = ("$w=New-Object -ComObject WScript.Shell; [void]$w.AppActivate('Minecraft'); Start-Sleep -Milliseconds 800; " +
-                              (f"$w.SendKeys('{opt('--key', '')}'); " if opt('--key', '') else "") + "Start-Sleep -Seconds 4")
-                        subprocess.run(["powershell", "-NoProfile", "-Command", ps])
-                        ImageGrab.grab().save(shot)
-                        print("screenshot", shot)
                     break
             elif join:
                 if re.search(r"Disconnected|Lost connection|Failed to connect|disconnect\.", txt):

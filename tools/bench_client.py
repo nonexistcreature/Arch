@@ -105,8 +105,7 @@ def run(name):
     moved = toggle_mods(off, True)
     t0 = time.time()
     r = subprocess.run([sys.executable, str(ROOT / "tools/launch_client.py"), "--world", "bench", "--res", RES, "--jvm", jvm,
-                        "--fps-samples", str(SAMPLES), "--warmup", str(WARMUP), "--timeout", "1200",
-                        "--screenshot", str(ROOT / f"tests/out/bench_{name}.png"), "--key", ""], capture_output=True, text=True, encoding="utf8", errors="replace")
+                        "--fps-samples", str(SAMPLES), "--warmup", str(WARMUP), "--timeout", "1200"], capture_output=True, text=True, encoding="utf8", errors="replace")
     toggle_mods(off, False)
     m = re.search(r"FPS median=(\d+) min=(\d+) max=(\d+) avg=(\d+)", r.stdout)
     line = (f"| {time.strftime('%Y-%m-%d %H:%M')} | {name} | {m.group(1)} | {m.group(2)} | {m.group(3)} | {m.group(4)} | {RES} | {', '.join(moved) or '-'} |"

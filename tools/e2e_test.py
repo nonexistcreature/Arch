@@ -25,6 +25,9 @@ CMDS = args[args.index("--cmds") + 1].split(";") if "--cmds" in args else DEFAUL
 
 def main():
     subprocess.run([str(J), "-jar", "pwbs.jar", "-g", "-s", "server", (ROOT / "pack/pack.toml").as_uri()], cwd=RUN, check=True, capture_output=True)
+    import shutil
+    cs = ROOT / "tests/client_run/game/kubejs/client_scripts"; cs.mkdir(parents=True, exist_ok=True)
+    shutil.copy(ROOT / "tests/kubejs_client/zz_screenshot_probe.js", cs / "zz_screenshot_probe.js")
     log = RUN / "boot.log"
     lf = open(log, "wb")
     srv = subprocess.Popen([str(J), "@user_jvm_args.txt", "@libraries/net/neoforged/neoforge/21.1.259/win_args.txt", "nogui"],
@@ -52,7 +55,11 @@ def main():
         for c in CMDS:
             srv.stdin.write((c + "\n").encode()); srv.stdin.flush()
             time.sleep(4)
-        time.sleep(60)  # let the forced strike countdown (30 s) land
+        time.sleep(5)
+        if "--quests" in args:  # open the quest book; the in-game probe (tests/kubejs_client) takes the screenshot
+            srv.stdin.write(b"ftbquests open_book ArkhavenTest\n"); srv.stdin.flush()
+            time.sleep(15)
+        time.sleep(int(args[args.index("--after") + 1]) if "--after" in args else 60)
     client.wait()
     srv.stdin.write(b"stop\n"); srv.stdin.flush()
     try:
