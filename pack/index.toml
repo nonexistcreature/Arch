@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/ae2-common.toml"
+hash = "f7f961878f3627c237b089cc50a9aaebc66d3ea8af6687e352f8701b03eb6bec"
+
+[[files]]
+file = "config/dmr-server.toml"
+hash = "a576c72d85ee359051c122d77ab58801163091642cc0d93262ca3e23987078b7"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
@@ -117,12 +125,20 @@ file = "config/ftbquests/quests/lang/ru_ru.snbt"
 hash = "2806425d5a7bf681bfaa6f18fe5af89122fcc2e35cec6bab4a36fe9ab531b367"
 
 [[files]]
+file = "config/ftbultimine-server.snbt"
+hash = "d0a160d8623b9542f85faa1e8198074f4e9e4d22961fb7c53aa2909182723d75"
+
+[[files]]
 file = "config/incontrol/spawn.json"
 hash = "9439db041e32f77e3e36b0249e96e243d1c870f7ea033eea8499535ff354554e"
 
 [[files]]
 file = "config/iris.properties"
 hash = "f97c06d3901e4a8959977cb83dbac06f0b395ec01f0b7c6b1d34be06393c4ead"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "aa34cf72aacafec7d723d7cebb751ec73a9ad1664160d778687392bd674adb56"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/en_us.json"
@@ -190,7 +206,7 @@ hash = "d0f21ebfaba2aa8cd957fb1c0991418f73afb10d544abd3ad91b6e9d559fb028"
 
 [[files]]
 file = "kubejs/server_scripts/00_world_rules.js"
-hash = "479b3abff07b3030c3b41aed5e1613c51b55a34b1eba1eb3b42e5a223f0a6ed0"
+hash = "9e013638ffb907d143006ebf8d57f0f8803e70bd93b2265a670258ce932b8773"
 
 [[files]]
 file = "kubejs/server_scripts/10_welcome.js"

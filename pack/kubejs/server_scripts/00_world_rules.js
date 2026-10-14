@@ -3,7 +3,7 @@ ServerEvents.loaded(event => {
   const server = event.server
   // Creeper explosions never break blocks: handled by arkhaven-core (config zones.creepersKeepBlocks).
   server.runCommandSilent('gamerule doInsomnia false')       // no phantoms
-  server.runCommandSilent('gamerule playersSleepingPercentage 50')
+  server.runCommandSilent('gamerule playersSleepingPercentage 34')
   server.runCommandSilent('gamerule keepInventory false')    // gravestones handle deaths
   server.runCommandSilent('difficulty normal')
 })
