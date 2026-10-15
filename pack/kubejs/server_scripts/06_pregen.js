@@ -7,24 +7,24 @@ const ARK_PREGEN_CHECK_TICKS = 30 * 20
 let arkPregenRunning = false
 
 ServerEvents.tick(event => {
-  const server = event.server
+  let server = event.server
   if (server.tickCount % ARK_PREGEN_CHECK_TICKS !== 0 || server.tickCount < 60 * 20) return
   try {
-    const data = server.persistentData
-    if (data.getBoolean('ark_pregen_done')) return
-    const online = server.getPlayerCount()
-    if (online > 0 && arkPregenRunning) {
+    let arkPd = server.persistentData
+    if (arkPd.getBoolean('ark_pregen_done')) return
+    let arkOnline = server.getPlayerCount()
+    if (arkOnline > 0 && arkPregenRunning) {
       server.runCommandSilent('chunky pause')
       arkPregenRunning = false
       console.info('[Arkhaven] pregen: paused, players online')
-    } else if (online === 0 && !arkPregenRunning) {
-      if (!data.getBoolean('ark_pregen_started')) {
+    } else if (arkOnline === 0 && !arkPregenRunning) {
+      if (!arkPd.getBoolean('ark_pregen_started')) {
         server.runCommandSilent('chunky world minecraft:overworld')
         server.runCommandSilent('chunky shape square')
         server.runCommandSilent('chunky spawn')
         server.runCommandSilent('chunky radius ' + ARK_PREGEN_RADIUS)
         server.runCommandSilent('chunky start')
-        data.putBoolean('ark_pregen_started', true)
+        arkPd.putBoolean('ark_pregen_started', true)
         console.info('[Arkhaven] pregen: started, overworld radius ' + ARK_PREGEN_RADIUS)
       } else {
         server.runCommandSilent('chunky continue')
