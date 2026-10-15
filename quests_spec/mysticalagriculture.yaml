@@ -1,0 +1,229 @@
+# Mystical Agriculture: the guide book pages are lang keys (book.mysticalagriculture.entry.<entry>.page.N), mostly translated.
+extends: garden
+lang: [mysticalagriculture]
+out: mysticalagriculture_gen
+quests:
+  - id: mag_prosperity
+    deps: [g_ma_inferium]
+    roles: [gardener]
+    items: [mysticalagriculture:prosperity_shard*4]
+    doc: book.mysticalagriculture.entry.prosperity_shards.page.1
+  - id: mag_fertilized
+    deps: [g_ma_seeds]
+    roles: [gardener]
+    items: [mysticalagriculture:fertilized_essence*4]
+    doc: book.mysticalagriculture.entry.fertilized_essence.page.1
+  - id: mag_mystical_fertilizer
+    deps: [mag_fertilized]
+    roles: [gardener]
+    items: [mysticalagriculture:mystical_fertilizer*4]
+    doc: book.mysticalagriculture.entry.mystical_fertilizer.page.1
+  - id: mag_resource_crops
+    deps: [g_ma_altar]
+    roles: [gardener]
+    icon: mysticalagriculture:coal_seeds
+    items: [mysticalagriculture:coal_seeds]
+    title: {ru: "Ресурсные культуры", en: "Resource Crops"}
+    doc: book.mysticalagriculture.entry.resource_crops.page.1
+    why: {ru: "Семена ресурсов делаются на алтаре наполнения из эссенции и самого ресурса. Выращенный урожай превращается обратно в ресурс — уголь, железо, редстоун растут на грядке.", en: "Resource seeds grow coal, iron, redstone on a farm."}
+  - id: mag_watering_tiers
+    deps: [g_watering, g_ma_tiers]
+    roles: [gardener]
+    items: [mysticalagriculture:prudentium_watering_can]
+    doc: book.mysticalagriculture.entry.essence_watering_cans.page.1
+  - id: mag_master_crystal
+    deps: [g_ma_imperium]
+    roles: [gardener]
+    items: [mysticalagriculture:master_infusion_crystal]
+    doc: book.mysticalagriculture.entry.master_infusion_crystal.page.1
+    why: {ru: "Вечный кристалл наполнения — больше не нужно крафтить новый, когда старый износится.", en: "An infusion crystal that never breaks."}
+  - id: mag_supremium
+    deps: [g_ma_imperium]
+    roles: [gardener]
+    items: [mysticalagriculture:supremium_essence*16]
+    why: {ru: "Высший уровень эссенции: семена алмазов, незерита и других редких ресурсов.", en: "Top essence tier for rare resource seeds."}
+  - id: mag_farmland_tiers
+    deps: [g_ma_farmland, mag_supremium]
+    roles: [gardener]
+    items: [mysticalagriculture:supremium_farmland*4]
+    doc: book.mysticalagriculture.entry.essence_farmland.page.1
+  # --- machines
+  - id: mag_machine_frame
+    deps: [g_ma_altar]
+    roles: [engineer, gardener]
+    items: [mysticalagriculture:machine_frame]
+    why: {en: The base of every machine in the mod., ru: 'Каркас — основа всех машин мода: печи, переработчика семян, жнеца.'}
+  - id: mag_furnace
+    deps: [mag_machine_frame]
+    roles: [engineer, gardener]
+    items: [mysticalagriculture:furnace]
+    doc: book.mysticalagriculture.entry.essence_furnace.page.1
+    why: {en: 'A faster, more efficient furnace.', ru: Печь на эссенции плавит быстрее и экономит топливо; улучшается модулями.}
+  - id: mag_reprocessor
+    deps: [mag_machine_frame]
+    roles: [gardener]
+    items: [mysticalagriculture:seed_reprocessor]
+    doc: book.mysticalagriculture.entry.seed_reprocessors.page.1
+  - id: mag_upgrades
+    deps: [mag_machine_frame]
+    roles: [engineer]
+    items: [mysticalagriculture:prudentium_upgrade]
+    doc: book.mysticalagriculture.entry.machine_upgrades.page.1
+  - id: mag_soul_extractor
+    deps: [g_soul, mag_machine_frame]
+    roles: [gardener, warrior]
+    items: [mysticalagriculture:soul_extractor]
+    doc: book.mysticalagriculture.entry.soul_extractor.page.1
+  - id: mag_soulium_spawner
+    deps: [mag_soul_extractor]
+    roles: [warrior]
+    items: [mysticalagriculture:soulium_spawner]
+    doc: book.mysticalagriculture.entry.soulium_spawner.page.1
+  # --- souls
+    why: {en: A spawner for mobs whose souls you collected., ru: 'Спавнер на душах: свои мобы для фермы опыта, только тех, чьи души собрал.'}
+  - id: mag_soulstone
+    deps: [g_soul]
+    roles: [gardener, builder]
+    items: [mysticalagriculture:soulstone*16]
+    doc: book.mysticalagriculture.entry.soulstone.page.1
+  - id: mag_soulium_dagger
+    deps: [g_soul]
+    roles: [warrior]
+    items: [mysticalagriculture:soulium_dagger]
+    doc: book.mysticalagriculture.entry.soulium_dagger.page.1
+    why: {ru: "Кинжал душ собирает души мобов в банки — из них делают семена мобов (зомби, скелет, эндермен...).", en: "Collects mob souls for mob seeds."}
+  - id: mag_mob_seeds
+    deps: [mag_soulium_dagger, mag_resource_crops]
+    roles: [gardener, warrior]
+    items: [mysticalagriculture:zombie_seeds]
+    title: {ru: "Семена мобов", en: "Mob Seeds"}
+    why: {ru: "Гнилая плоть, кости, жемчуг Края — растут на грядке без мобофермы.", en: "Mob drops grown on a farm."}
+  - id: mag_xp_capsule
+    deps: [g_soul]
+    roles: [mage]
+    items: [mysticalagriculture:experience_capsule]
+    doc: book.mysticalagriculture.entry.experience_capsule.page.1
+  - id: mag_enchanter
+    deps: [mag_xp_capsule]
+    roles: [mage]
+    items: [mysticalagriculture:enchanter]
+    doc: book.mysticalagriculture.entry.enchanter.page.1
+    why: {en: Pick the enchantment you want., ru: Зачаровыватель накладывает выбранные чары за опыт и материалы — без лотереи стола.}
+  - id: mag_witherproof
+    deps: [mag_soulstone]
+    roles: [builder, warrior]
+    items: [mysticalagriculture:witherproof_bricks*8, mysticalagriculture:witherproof_glass*4]
+    doc: book.mysticalagriculture.entry.witherproof_blocks.page.1
+    why: {ru: "Арена для визера, которую он не сломает. И укрытие от взрывов.", en: "A wither arena it can't break."}
+  # --- elemental and awakening
+  - id: mag_elements
+    deps: [mag_supremium]
+    roles: [gardener, mage]
+    items: [mysticalagriculture:air_essence*4, mysticalagriculture:earth_essence*4, mysticalagriculture:water_essence*4, mysticalagriculture:fire_essence*4]
+    title: {ru: "Четыре стихии", en: "Four Elements"}
+    doc: book.mysticalagriculture.entry.elemental_essences.page.1
+  - id: mag_cognizant
+    deps: [mag_elements]
+    roles: [gardener]
+    items: [mysticalagriculture:cognizant_dust*4]
+    doc: book.mysticalagriculture.entry.cognizant_dust.page.1
+  - id: mag_vessel
+    deps: [mag_elements]
+    roles: [gardener]
+    items: [mysticalagriculture:essence_vessel*4]
+    doc: book.mysticalagriculture.entry.essence_vessel.page.1
+  - id: mag_awakening_altar
+    deps: [mag_vessel, mag_cognizant]
+    roles: [gardener, mage]
+    items: [mysticalagriculture:awakening_altar, mysticalagriculture:awakening_pedestal*4]
+    doc: book.mysticalagriculture.entry.awakening_altar.page.1
+  - id: mag_awakened
+    deps: [mag_awakening_altar]
+    roles: [gardener]
+    items: [mysticalagriculture:awakened_supremium_essence*4]
+    doc: book.mysticalagriculture.entry.awakened_supremium.page.1
+  # --- tools, armor, augments
+  - id: mag_tinkering
+    deps: [g_ma_tiers]
+    roles: [gardener, warrior]
+    items: [mysticalagriculture:tinkering_table]
+    doc: book.mysticalagriculture.entry.tinkering_table.page.1
+  - id: mag_sickles
+    deps: [g_ma_tiers]
+    roles: [gardener]
+    items: [mysticalagriculture:prudentium_sickle, mysticalagriculture:prudentium_scythe]
+    title: {ru: "Серпы и косы", en: "Sickles and Scythes"}
+    doc: book.mysticalagriculture.entry.sickles.page.1
+    doc2: book.mysticalagriculture.entry.scythes.page.1
+  - id: mag_inferium_set
+    deps: [mag_tinkering]
+    roles: [warrior, gardener]
+    items: [mysticalagriculture:inferium_helmet, mysticalagriculture:inferium_chestplate, mysticalagriculture:inferium_leggings, mysticalagriculture:inferium_boots]
+    title: {ru: "Инфериумовая броня", en: "Inferium Armor"}
+    doc: book.mysticalagriculture.entry.essence_armor.page.1
+  - id: mag_tertium_set
+    deps: [mag_inferium_set, g_ma_tertium]
+    roles: [warrior]
+    items: [mysticalagriculture:tertium_helmet, mysticalagriculture:tertium_chestplate, mysticalagriculture:tertium_leggings, mysticalagriculture:tertium_boots]
+    title: {ru: "Терциумовая броня", en: "Tertium Armor"}
+    why: {ru: "Каждый уровень эссенции — прочнее и больше слотов под аугменты.", en: "Each tier: tougher, more augment slots."}
+  - id: mag_supremium_set
+    deps: [mag_tertium_set, mag_supremium]
+    roles: [warrior]
+    items: [mysticalagriculture:supremium_helmet, mysticalagriculture:supremium_chestplate, mysticalagriculture:supremium_leggings, mysticalagriculture:supremium_boots]
+    title: {ru: "Супремиумовая броня", en: "Supremium Armor"}
+    why: {ru: "Защита на уровне незерита, два слота аугментов в каждой части.", en: "Netherite-level protection, two augment slots."}
+  - id: mag_awakened_set
+    deps: [mag_supremium_set, mag_awakened]
+    roles: [warrior]
+    items: [mysticalagriculture:awakened_supremium_helmet, mysticalagriculture:awakened_supremium_chestplate, mysticalagriculture:awakened_supremium_leggings, mysticalagriculture:awakened_supremium_boots]
+    title: {ru: "Пробуждённая броня", en: "Awakened Supremium Armor"}
+    why: {ru: "Вершина фермера-воина: лучшая защита мода и больше всего аугментов.", en: "The best armor and augment slots of the mod."}
+  - id: mag_tools
+    deps: [mag_tinkering]
+    roles: [gardener, engineer]
+    items: [mysticalagriculture:prudentium_pickaxe, mysticalagriculture:prudentium_sword]
+    title: {ru: "Инструменты из эссенции", en: "Essence Tools"}
+    doc: book.mysticalagriculture.entry.essence_tools.page.1
+  - id: mag_aug_flight
+    deps: [mag_supremium_set]
+    roles: [warrior]
+    items: [mysticalagriculture:flight_augment]
+    doc: book.mysticalagriculture.entry.flight_augment.page.1
+  - id: mag_aug_mining
+    deps: [mag_tools]
+    roles: [engineer]
+    items: [mysticalagriculture:mining_aoe_i_augment]
+    doc: book.mysticalagriculture.entry.mining_aoe_augment.page.1
+  - id: mag_aug_speed
+    deps: [mag_tertium_set]
+    roles: [warrior]
+    items: [mysticalagriculture:speed_i_augment, mysticalagriculture:jump_boost_i_augment]
+    title: {ru: "Скорость и прыжок", en: "Speed and Jump"}
+    doc: book.mysticalagriculture.entry.speed_augment.page.1
+  - id: mag_aug_health
+    deps: [mag_tertium_set]
+    roles: [warrior]
+    items: [mysticalagriculture:health_boost_i_augment]
+    doc: book.mysticalagriculture.entry.health_boost_augment.page.1
+  - id: mag_aug_resist
+    deps: [mag_tertium_set]
+    roles: [warrior]
+    items: [mysticalagriculture:fire_resistance_augment, mysticalagriculture:poison_resistance_augment]
+    title: {ru: "Сопротивления", en: "Resistances"}
+    doc: book.mysticalagriculture.entry.fire_resistance_augment.page.1
+    why: {en: Fire and poison resistance augments., ru: Аугменты сопротивления спасают от огня и яда — броня под Незер и болота.}
+  - id: mag_aug_night
+    deps: [mag_inferium_set]
+    roles: [warrior, engineer]
+    items: [mysticalagriculture:night_vision_augment, mysticalagriculture:no_fall_damage_augment]
+    title: {ru: "Ночное зрение и мягкое падение", en: "Night Vision and No Fall"}
+    doc: book.mysticalagriculture.entry.night_vision_augment.page.1
+  - id: mag_master
+    deps: [mag_awakened_set, mag_aug_flight, mag_awakening_altar, mag_soulium_spawner, mag_mob_seeds, mag_master_crystal]
+    roles: [gardener]
+    shape: hexagon
+    icon: mysticalagriculture:awakened_supremium_essence
+    title: {ru: "Мистический фермер", en: "Mystic Farmer"}
+    text: {ru: "Железо, алмазы и души растут на твоих грядках, а броня из эссенции даёт полёт. Сосед-шахтёр завидует.", en: "Iron, diamonds and souls grow on your farm."}
+    rewards: [{type: xp_levels, count: 15}]

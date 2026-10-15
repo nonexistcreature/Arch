@@ -1,0 +1,219 @@
+# Productive Bees: the Patchouli guide ships in Russian (guide/ru_ru), so RU and EN both come from it.
+extends: animals
+lang: [productivebees]
+out: productivebees_gen
+quests:
+  - id: pbg_start
+    deps: [a_bees_intro]
+    roles: [breeder]
+    icon: productivebees:bee_cage
+    tasks: [{type: checkmark}]
+    title: {ru: "Продуктивные пчёлы", en: "Productive Bees"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/guide/start.json
+  - id: pbg_nests
+    deps: [pbg_start]
+    roles: [breeder, gardener]
+    items: [productivebees:stone_nest]
+    title: {ru: "Гнёзда", en: "Nests"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/hives/nests.json
+  - id: pbg_sturdy_cage
+    deps: [a_bees_intro]
+    roles: [breeder]
+    items: [productivebees:sturdy_bee_cage]
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/items/bee_cage.json
+  - id: pbg_expansion
+    deps: [a_bees_hive]
+    roles: [breeder]
+    items: [productivebees:expansion_box_oak]
+    title: {ru: "Расширение улья", en: "Expansion Box"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/hives/expansion_boxes.json
+  - id: pbg_advanced_hives
+    deps: [a_bees_hive]
+    roles: [breeder]
+    icon: productivebees:advanced_oak_beehive
+    tasks: [{type: checkmark}]
+    title: {ru: "Продвинутые ульи", en: "Advanced Hives"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/hives/advanced_hives.json
+  - id: pbg_upgrades
+    deps: [pbg_advanced_hives]
+    roles: [breeder, engineer]
+    icon: minecraft:honeycomb
+    tasks: [{type: checkmark}]
+    title: {ru: "Улучшения ульев", en: "Hive Upgrades"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/items/upgrades.json
+  - id: pbg_combs
+    deps: [a_centrifuge]
+    roles: [breeder]
+    icon: productivebees:configurable_honeycomb
+    tasks: [{type: checkmark}]
+    title: {ru: "Соты", en: "Combs"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/items/combs.json
+  - id: pbg_centrifuge_power
+    deps: [a_centrifuge]
+    roles: [breeder, engineer]
+    items: [productivebees:powered_centrifuge]
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/blocks/centrifuge.json
+  - id: pbg_heated
+    deps: [pbg_centrifuge_power]
+    roles: [breeder, engineer]
+    items: [productivebees:heated_centrifuge]
+    why: {ru: "Нагретая центрифуга сразу выдаёт расплав и блоки вместо сот — для больших пасек.", en: "Outputs blocks directly, for big apiaries."}
+  - id: pbg_bottler
+    deps: [a_honey_gen]
+    roles: [breeder]
+    items: [productivebees:bottler]
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/blocks/bottler.json
+  - id: pbg_feeder
+    deps: [a_breeding]
+    roles: [breeder]
+    items: [productivebees:feeder]
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/blocks/feeder.json
+  - id: pbg_jar
+    deps: [a_bees_intro]
+    roles: [breeder, builder]
+    items: [productivebees:jar_oak]
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/blocks/bee_jar.json
+  - id: pbg_treat
+    deps: [a_breeding]
+    roles: [breeder]
+    items: [productivebees:honey_treat*4]
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/items/honey_treat.json
+  # --- genetics
+  - id: pbg_attributes
+    deps: [a_gene]
+    roles: [breeder]
+    icon: productivebees:gene
+    tasks: [{type: checkmark}]
+    title: {ru: "Признаки пчёл", en: "Bee Attributes"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/genetics/attributes.json
+  - id: pbg_collecting
+    deps: [pbg_attributes]
+    roles: [breeder]
+    icon: productivebees:gene_bottle
+    tasks: [{type: checkmark}]
+    title: {ru: "Сбор генов", en: "Collecting Genes"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/genetics/collecting.json
+  - id: pbg_transferring
+    deps: [pbg_collecting, a_incubator]
+    roles: [breeder]
+    icon: productivebees:incubator
+    tasks: [{type: checkmark}]
+    title: {ru: "Перенос генов", en: "Transferring Genes"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/genetics/transferring.json
+  - id: pbg_gene_indexer
+    deps: [pbg_collecting]
+    roles: [breeder]
+    items: [productivebees:gene_indexer]
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/blocks/gene_indexer.json
+  # --- bee families
+  - id: pbg_iron_bee
+    deps: [a_breeding]
+    roles: [breeder]
+    icon: minecraft:iron_ingot
+    tasks: [{type: checkmark}]
+    title: {ru: "Железная пчела", en: "Iron Bee"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/iron.json
+  - id: pbg_gold_bee
+    deps: [pbg_iron_bee]
+    roles: [breeder]
+    icon: minecraft:gold_ingot
+    tasks: [{type: checkmark}]
+    title: {ru: "Золотая пчела", en: "Gold Bee"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/gold.json
+  - id: pbg_redstone_bee
+    deps: [pbg_iron_bee]
+    roles: [breeder, engineer]
+    icon: minecraft:redstone
+    tasks: [{type: checkmark}]
+    title: {ru: "Редстоуновая пчела", en: "Redstone Bee"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/redstone.json
+  - id: pbg_diamond_bee
+    deps: [pbg_gold_bee]
+    roles: [breeder]
+    icon: minecraft:diamond
+    tasks: [{type: checkmark}]
+    title: {ru: "Алмазная пчела", en: "Diamond Bee"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/diamond.json
+  - id: pbg_netherite_bee
+    deps: [pbg_diamond_bee]
+    roles: [breeder]
+    icon: minecraft:netherite_scrap
+    tasks: [{type: checkmark}]
+    title: {ru: "Незеритовая пчела", en: "Netherite Bee"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/netherite.json
+  - id: pbg_xp_bee
+    deps: [pbg_iron_bee]
+    roles: [breeder, mage]
+    icon: minecraft:experience_bottle
+    tasks: [{type: checkmark}]
+    title: {ru: "Пчела опыта", en: "Experience Bee"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/experience.json
+  - id: pbg_mob_bees
+    deps: [a_breeding]
+    roles: [breeder, warrior]
+    icon: minecraft:bone
+    tasks: [{type: checkmark}]
+    title: {ru: "Пчёлы мобов", en: "Mob Bees"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/hive/skeletal.json
+  - id: pbg_wild
+    deps: [pbg_nests]
+    roles: [breeder]
+    icon: productivebees:slimy_nest
+    tasks: [{type: checkmark}]
+    title: {ru: "Дикие пчёлы", en: "Wild Bees"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/wild/slimy.json
+  - id: pbg_solitary
+    deps: [pbg_nests]
+    roles: [breeder, gardener]
+    icon: productivebees:sand_nest
+    tasks: [{type: checkmark}]
+    title: {ru: "Пчёлы-отшельники", en: "Solitary Bees"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/solitary/mason.json
+    why: {en: Solitary bees carry genes for breeding new species., ru: 'Пчёлы-отшельники живут в гнёздах в песке, снегу, тростнике. Они не носят мёд, но их гены нужны для выведения новых видов.'}
+  - id: pbg_workers
+    deps: [a_breeding]
+    roles: [breeder, gardener]
+    icon: minecraft:wheat
+    tasks: [{type: checkmark}]
+    title: {ru: "Пчёлы-работники", en: "Worker Bees"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/worker/farmer.json
+    doc2: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/worker/lumber.json
+  - id: pbg_quarry
+    deps: [pbg_workers]
+    roles: [breeder, engineer]
+    icon: minecraft:cobblestone
+    tasks: [{type: checkmark}]
+    title: {ru: "Пчела-каменотёс", en: "Quarry Bee"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/worker/quarry.json
+  - id: pbg_ender_bee
+    deps: [pbg_wild]
+    roles: [breeder]
+    icon: minecraft:ender_pearl
+    tasks: [{type: checkmark}]
+    title: {ru: "Пчела Края", en: "Ender Bee"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/wild/ender.json
+  - id: pbg_draconic
+    deps: [pbg_ender_bee]
+    roles: [breeder]
+    items: [productivebees:draconic_dust]
+    title: {ru: "Драконья пчела", en: "Draconic Bee"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/bees/wild/draconic.json
+  - id: pbg_dragon_hive
+    deps: [pbg_draconic]
+    roles: [breeder]
+    items: [productivebees:inactive_dragon_egg]
+    title: {ru: "Улей из драконьего яйца", en: "Dragon Egg Hive"}
+    doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/hives/dragon_egg_hive.json
+  - id: pbg_bee_bomb
+    deps: [pbg_sturdy_cage]
+    roles: [breeder]
+    items: [productivebees:bee_bomb]
+    why: {ru: "Бомба с пчёлами: перенести сразу целый рой в новый улей.", en: "Moves a whole swarm at once."}
+  - id: pbg_master
+    deps: [pbg_netherite_bee, pbg_dragon_hive, pbg_transferring, pbg_heated, pbg_quarry, pbg_xp_bee]
+    roles: [breeder]
+    shape: hexagon
+    icon: productivebees:inactive_dragon_egg
+    title: {ru: "Пчеловод от бога", en: "Master Beekeeper"}
+    text: {ru: "Пчёлы приносят незерит, опыт и драконью пыль, а гены переносятся по заказу. Пасека — самая тихая фабрика на сервере.", en: "Bees bring netherite, XP and dragon dust."}
+    rewards: [{type: xp_levels, count: 15}]

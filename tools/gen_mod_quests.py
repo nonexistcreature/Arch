@@ -123,8 +123,8 @@ def main():
             def doc(key, lang):
                 if not key:
                     return ""
-                if key.startswith("md:"):  # guide markdown is English-only
-                    return md_doc(key[3:]) if lang is en else ""
+                if key.startswith("md:"):  # guide pages: English, or a ru_ru copy of the page when the mod ships one
+                    return md_doc(key[3:]) if lang is en else md_doc(key[3:].replace("/en_us/", "/ru_ru/")) if "/en_us/" in key else ""
                 if key.startswith("ponder:"):  # Create-style ponder scene: its lines text_1..text_N, joined
                     scene = f"{ns[0]}.ponder.{key[7:]}"
                     lines = [clean(lang[f"{scene}.text_{i}"], 300) for i in range(1, 9) if f"{scene}.text_{i}" in lang]

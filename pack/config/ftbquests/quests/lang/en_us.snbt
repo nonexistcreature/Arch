@@ -1022,6 +1022,171 @@
 	quest.6C8A77DB5B4722EE.quest_desc: [
 		"Crops in a Mekanism crusher become bio-fuel for the bio-generator. The gardener feeds the power plant."
 	]
+	quest.0A17B14200495303.title: "Prosperity Shard"
+	quest.0A17B14200495303.quest_desc: [
+		"Prosperity Shards are the other of the two base materials in Mystical Agriculture. They are used to create magical variations of basic materials. You can usually obtain Prosperity Shards by mining them from the ground."
+	]
+	quest.4B4F1CC20D888AD0.title: "Fertilized Essence"
+	quest.4B4F1CC20D888AD0.quest_desc: [
+		"Fertilized Essence usually drops from all Resource Crops except Inferium. It works identically to Bonemeal, but also works on Resource Crops! Fertilized Essence can also be used to more efficiently craft Mystical Fertilizer."
+	]
+	quest.6710759E7B7A6E68.title: "Mystical Fertilizer"
+	quest.6710759E7B7A6E68.quest_desc: [
+		"Mystical Fertilizer is used to instantly grow a crop or sapling. It's effective on Resource Crops too!"
+	]
+	quest.16D6AEF14E4596B7.title: "Resource Crops"
+	quest.16D6AEF14E4596B7.quest_desc: [
+		"&lWhy:&r Resource seeds grow coal, iron, redstone on a farm."
+		"Resource Crops are the heart and soul of what makes Mystical Agriculture so great. However, there are some special properties of resource crops that should be noted. Resource Crops can not be grown using Bonemeal. Resource Crops do not drop a second seed unless planted on Essence Farmland."
+	]
+	quest.22E73CE19A5B425D.title: "Prudentium Watering Can"
+	quest.22E73CE19A5B425D.quest_desc: [
+		"Upgrading the regular Watering Can with essences and Mystical Fertilizer improves your farming experience a ton. Upgraded Watering Cans have improved range and growth acceleration speed. You can also toggle automatic watering by Shift + Right Clicking with the Watering Can while not targeting a block."
+	]
+	quest.0B7FF24B7CBE6CB3.title: "Master Infusion Crystal"
+	quest.0B7FF24B7CBE6CB3.quest_desc: [
+		"&lWhy:&r An infusion crystal that never breaks."
+		"The Master Infusion Crystal has infinite durability. You want this, I know you do."
+	]
+	quest.15E77E1F1B48A889.title: "Supremium Essence"
+	quest.15E77E1F1B48A889.quest_desc: [
+		"&lWhy:&r Top essence tier for rare resource seeds."
+	]
+	quest.5EB14F07CC754D45.title: "Supremium Farmland"
+	quest.5EB14F07CC754D45.quest_desc: [
+		"Essence Farmland increases the output efficiency of Mystical Agriculture crops in multiple ways. They are listed on the following page. You can create Essence Farmland by either right-clicking on Farmland in-world with an essence or by crafting it."
+	]
+	quest.12D81A56A5FCC4BD.title: "Machine Frame"
+	quest.12D81A56A5FCC4BD.quest_desc: [
+		"&lWhy:&r The base of every machine in the mod."
+	]
+	quest.6E709D01CBFFF07C.title: "Furnace"
+	quest.6E709D01CBFFF07C.quest_desc: [
+		"&lWhy:&r A faster, more efficient furnace."
+		"The basic furnace can be upgraded to take advantage of Machine Upgrades for increased cooking speed. They run off of solid fuels and have an internal power storage buffer."
+	]
+	quest.67588871FAB2E694.title: "Seed Reprocessor"
+	quest.67588871FAB2E694.quest_desc: [
+		"Seed Reprocessors are used to convert your excess seeds into their respective essences. They run off of solid fuels and have an internal power storage buffer."
+	]
+	quest.3963DCF2AE9BD6F8.title: "Prudentium Machine Upgrade"
+	quest.3963DCF2AE9BD6F8.quest_desc: [
+		"Machine Upgrades can be placed in applicable machines to increase their effectiveness. Higher tier machines will both use and generate power faster."
+	]
+	quest.73E49FD79ED17912.title: "Soul Extractor"
+	quest.73E49FD79ED17912.quest_desc: [
+		"Soul Extractors are used to convert mob drops into mob souls. They run off of solid fuels and have an internal power storage buffer. The Soul Extractor provides a use for extra mob drops you may have, but generally won't be as efficient as using a Soulium Dagger."
+	]
+	quest.6BB435B2F8FBED2F.title: "Soulium Spawner"
+	quest.6BB435B2F8FBED2F.quest_desc: [
+		"&lWhy:&r A spawner for mobs whose souls you collected."
+		"The Soulium Spawner is used to spawn both hostile and passive mobs using Essences. They run off of solid fuels and have an internal power storage buffer. The Spawner has an internal inventory that can hold up to 512 items. Each operation will take a certain amount of items and power to spawn a corresponding mob."
+	]
+	quest.5906340128227BE5.title: "Soulstone"
+	quest.5906340128227BE5.quest_desc: [
+		"Soulstone is a special kind of stone that spawns in the Nether. It generates in large veins at all Y levels. Soulstone is a decorative block with many variants. It is also required to create Witherproof Blocks."
+	]
+	quest.658DC4317838768D.title: "Soulium Dagger"
+	quest.658DC4317838768D.quest_desc: [
+		"&lWhy:&r Collects mob souls for mob seeds."
+		"The Soulium Dagger is used to collect souls from mobs. These souls are collected using Soul Jars. Souls are collected by killing mobs with the Soulium Dagger The Soulium Dagger can be upgraded using an Infusion Altar, improving soul collection efficiency."
+	]
+	quest.26D05FCAEE98D915.title: "Mob Seeds"
+	quest.26D05FCAEE98D915.quest_desc: [
+		"&lWhy:&r Mob drops grown on a farm."
+	]
+	quest.790CA639125851D2.title: "Experience Capsule"
+	quest.790CA639125851D2.quest_desc: [
+		"Experience Capsules are used to collect experience for creating Experience Seeds. To collect experience, simply have some Experience Capsules in your inventory and pick up Experience Orbs."
+	]
+	quest.6872F301CB6B6989.title: "Enchanter"
+	quest.6872F301CB6B6989.quest_desc: [
+		"&lWhy:&r Pick the enchantment you want."
+		"The Enchanter is a block that allows you to enchant your tools and armor using different crafting materials and Experience Essence. The Enchanter can apply enchantments to both Books and tools/armor, similarly to an Anvil."
+	]
+	quest.4F2D0B15B7408083.title: "Witherproof Bricks"
+	quest.4F2D0B15B7408083.quest_desc: [
+		"&lWhy:&r A wither arena it can't break."
+		"Witherproof Blocks are unbreakable by the Wither. Very useful for those who like to cheese bosses. They are also immune to damage from the Ender Dragon, however it can still fly though them."
+	]
+	quest.388CB3B8A232234F.title: "Four Elements"
+	quest.388CB3B8A232234F.quest_desc: [
+		"Air, Earth, Water and Fire essences can be used in Awakening Altar recipes using Essence Vessels. Elemental seeds can be planted on Tier 1 Essence Farmland for additional drops."
+	]
+	quest.6A92C9FFFC822177.title: "Cognizant Dust"
+	quest.6A92C9FFFC822177.quest_desc: [
+		"Cognizant Dust is usually obtained by killing a Wither or Ender Dragon using an Essence Weapon enchanted with Mystical Enlightenment. Higher levels of Mystical Enlightenment will increase the amount of dust dropped on kill."
+	]
+	quest.449E70857E7D26BA.title: "Essence Vessel"
+	quest.449E70857E7D26BA.quest_desc: [
+		"Essence Vessels are used in the Awakening Altar structure to hold the elemental essences required to create items. Each vessel can hold up to 40 of a single elemental essence."
+	]
+	quest.74E04417094816FF.title: "Awakening Altar"
+	quest.74E04417094816FF.quest_desc: [
+		"The Awakening Altar is a crafting structure that is usually used to create Awakened Supremium. The structure consists of 1 Infusion Altar, 4 Infusion Pedestals and 4 Essence Vessels. Once you have a recipe put in place, you just need to activate the altar with a Redstone signal."
+	]
+	quest.0EDE86C9C8D3F60C.title: "Awakened Supremium Essence"
+	quest.0EDE86C9C8D3F60C.quest_desc: [
+		"Awakened Supremium is a high level crafting material used to create upgraded versions of many of your Supremium items. Awakened Supremium is usually created by infusing Cognizant Dust with a Supremium Block using an Awakening Altar."
+	]
+	quest.0FA62F4604899575.title: "Tinkering Table"
+	quest.0FA62F4604899575.quest_desc: [
+		"The Tinkering Table is used to add Augments to Essence Tools and Essence Armor."
+	]
+	quest.76AC689FD69F5824.title: "Sickles and Scythes"
+	quest.76AC689FD69F5824.quest_desc: [
+		"Sickles are used for harvesting/destroying large areas of plant material. Higher tier Sickles will have a greater area of effect."
+		"Scythes are used for harvesting large areas of crops by right clicking. Any fully grown crops within the area of effect will be harvested without being uprooted. Scythes are also an effective weapon with an increased attack AOE. Higher tier Scythes have a greater area of effect."
+	]
+	quest.3B8E8A8E74884893.title: "Inferium Armor"
+	quest.3B8E8A8E74884893.quest_desc: [
+		"Upgrading your Diamond* armor with essence improves its durability and protection. This also allows them to be equipped with Augments. Essence Armor can be repaired in an Anvil with their corresponding Essence Ingot. These armor pieces each have 1 augment slot."
+	]
+	quest.1B268B25F067B7C5.title: "Tertium Armor"
+	quest.1B268B25F067B7C5.quest_desc: [
+		"&lWhy:&r Each tier: tougher, more augment slots."
+	]
+	quest.09CA69A67001EDA7.title: "Supremium Armor"
+	quest.09CA69A67001EDA7.quest_desc: [
+		"&lWhy:&r Netherite-level protection, two augment slots."
+	]
+	quest.18105C037764B90C.title: "Awakened Supremium Armor"
+	quest.18105C037764B90C.quest_desc: [
+		"&lWhy:&r The best armor and augment slots of the mod."
+	]
+	quest.416120935F72BC07.title: "Essence Tools"
+	quest.416120935F72BC07.quest_desc: [
+		"Upgrading your Diamond* tools with essence improves their durability and mining speed. This also allows them to be equipped with Augments. Essence Tools can be repaired in an Anvil with their corresponding Essence Ingot. These tools each have 1 augment slot."
+	]
+	quest.2E2B8D9DB116AB7C.title: "mag_aug_flight"
+	quest.2E2B8D9DB116AB7C.quest_desc: [
+		"The Flight Augment is a chestplate augment that gives the wearer creative flight while they have the armor equipped."
+	]
+	quest.1A004E1673575AD2.title: "mag_aug_mining"
+	quest.1A004E1673575AD2.quest_desc: [
+		"The Mining AOE Augment is a tool augment that increases the are that the tool breaks blocks, up to 9x9. This effect can be negated by sneaking. The center of the AOE can be changed by pressing CTRL + Arrow Keys."
+	]
+	quest.7817B0CBE6726065.title: "Speed and Jump"
+	quest.7817B0CBE6726065.quest_desc: [
+		"The Speed Augment is a leggings augment that increases the wearers movement speed while they have the armor equipped. This effect is also applied to flight speed."
+	]
+	quest.7E14F261B672A8E0.title: "mag_aug_health"
+	quest.7E14F261B672A8E0.quest_desc: [
+		"The Health Boost Augment is an armor augment that adds 2-10 hearts to the wearer while they have the armor equipped."
+	]
+	quest.732BE297F60E85C9.title: "Resistances"
+	quest.732BE297F60E85C9.quest_desc: [
+		"&lWhy:&r Fire and poison resistance augments."
+		"The Fire Resistance Augment is an armor augment that grants the wearer Fire Resistance while they have the armor equipped."
+	]
+	quest.5DCC070F362FE310.title: "Night Vision and No Fall"
+	quest.5DCC070F362FE310.quest_desc: [
+		"The Night Vision Augment is a helmet augment that grants the wearer Night Vision while they have the armor equipped."
+	]
+	quest.22AE8BEB2AAE8F97.title: "Mystic Farmer"
+	quest.22AE8BEB2AAE8F97.quest_desc: [
+		"Iron, diamonds and souls grow on your farm."
+	]
 	chapter.2C295B34DEBBAD70.title: "Animals, Bees, Dragons"
 	chapter.2C295B34DEBBAD70.chapter_subtitle: [
 		"Breed, tame, discover"
@@ -1179,6 +1344,152 @@
 	quest.035FE318376C81BB.title: "The Copper Golem"
 	quest.035FE318376C81BB.quest_desc: [
 		"Friends & Foes: the copper golem presses copper buttons — a little helper for contraptions. Build it from a copper block and a pumpkin."
+	]
+	quest.3CB255952686B6BA.title: "Productive Bees"
+	quest.3CB255952686B6BA.quest_desc: [
+		"Productive Bees builds on top of vanilla bees. Some understanding of the vanilla system is assumed in this guide."
+		"In addition to vanilla bees you'll come across a range of new bees living in well hidden nests in different biomes around the overworld. These bees are solitary meaning they will not live in a hive. However, their genetics allow for breeding different types of bees, plus they look cool."
+	]
+	quest.56F290846FF16675.title: "Nests"
+	quest.56F290846FF16675.quest_desc: [
+		"Nests can be found scattered around the world and will each be the home of 1 solitary bee. Nests can be picked up with the bee inside by breaking it, no need for silk touch. To clear a nest of it's bee and any eggs you simply need to craft it with itself."
+		"Empty nests can attract new bees if you put one or more honey treats in them. Right click with a honey treat to start the repopulation cooldown."
+	]
+	quest.2AE6D774B280A0D0.title: "Sturdy Bee Cage"
+	quest.2AE6D774B280A0D0.quest_desc: [
+		"A bee cage can be used to capture bees for storing or for transport. To catch a bee simply right click the bee with the cage. Right click the filled cage on the ground to release the bee again.Make sure to always keep a few cages on you when travelling in case you come across an interesting bee."
+		"Easy to get early in the game"
+	]
+	quest.220EA98BE03CA4F0.title: "Expansion Box"
+	quest.220EA98BE03CA4F0.quest_desc: [
+		"Expansion boxes can be attached to advanced beehives to increase the bee capacity of the hive from 3 to 5. Expansion boxes can be placed on top of or next to the hive. Each hive can only have one expansion box."
+	]
+	quest.4E6710C7FD33F88B.title: "Advanced Hives"
+	quest.4E6710C7FD33F88B.quest_desc: [
+		"Productive bees expand on the vanilla hive with an Advanced Hive. Unlike the vanilla hive, the advanced hive does not require a campfire nearby to be harvestable it can be broken and moved with the bees still inside without the use of silk touch."
+		"There are many variants of advanced beehives available depending on other woods are available in your pack."
+	]
+	quest.2E18EE6AA3B2093A.title: "Hive Upgrades"
+	quest.2E18EE6AA3B2093A.quest_desc: [
+		"Upgrades can be put into machines and hives to increase their functionality or improve the performance"
+		"The base of all the other upgrades."
+	]
+	quest.06EB4255BC9F9739.title: "Combs"
+	quest.06EB4255BC9F9739.quest_desc: [
+		"Bees living in advanced beehives will produce resource combs which can be put into a centrifuge to extract resources."
+		"Combs can also be compressed into comb blocks for easier storage."
+	]
+	quest.0A27D533A7220AFE.title: "Powered Centrifuge"
+	quest.0A27D533A7220AFE.quest_desc: [
+		"Processes resource combs into resources and honey. Holds 10 buckets of liquid which can be pumped out. The centrifuge will also automatically output fluid to any fluid storage block placed next to. The Powered Centrifuge takes FE to run at an increased processing speed. The centrifuge is also used to separate genetic material from bottles of bee material into genes."
+	]
+	quest.5B70D7CD0A166F37.title: "Heated Centrifuge"
+	quest.5B70D7CD0A166F37.quest_desc: [
+		"&lWhy:&r Outputs blocks directly, for big apiaries."
+	]
+	quest.4E3F0C89E45CDDD3.title: "Bottler"
+	quest.4E3F0C89E45CDDD3.quest_desc: [
+		"Used for bottling honey and other fluids. Honey can be pumped into the side or it can be placed next to a centrifuge to be filled automatically.The bottler together with a piston can be used to bottle up bees as well, see genetics page."
+	]
+	quest.3EA5B2CF6DD5234F.title: "Feeding Slab"
+	quest.3EA5B2CF6DD5234F.quest_desc: [
+		"Can be used as a collection point for feeding bees. It holds 3 item blocks. When Lumber or Quarry bees feed from this it will produce from a random item in the feeder."
+		"Feeding slabs can be honeylogged giving the bees an excellent place to dip their toes and recover from a long day of works, aka it gives them regeneration."
+	]
+	quest.05952DA9EE708E87.title: "Bee Jar"
+	quest.05952DA9EE708E87.quest_desc: [
+		"Show your bee collection to the world with this fancy glass container perfectly suited to hold a bee. Use a hopper or pipe to insert a bee cage containing a bee of your choosing."
+	]
+	quest.064151FF9B1D13D3.title: "Honey Treat"
+	quest.064151FF9B1D13D3.quest_desc: [
+		"Honey treats can be fed to angry bees to calm them down. Feeding them to baby bees will make them grow up faster.Honey treats can also bee combined with genes to transfer genetics from one bee to another. Read more on the genetics page"
+	]
+	quest.6BA7B408FE4DE512.title: "Bee Attributes"
+	quest.6BA7B408FE4DE512.quest_desc: [
+		"Bee attributes can be transferred from one bee to another by putting the isolated gene on a honey treat and feeding it to the bee."
+		"See the page on collecting genes."
+		"Bees with higher level of productivity will produce more combs per trip.Levels are:"
+	]
+	quest.2FDE9F3B14390EA6.title: "Collecting Genes"
+	quest.2FDE9F3B14390EA6.quest_desc: [
+		"The bottler together with a piston can be used to bottle up bees. Place a bee in the middle and pull the lever. Make sure the bottler has empty bottles inside. Throw the bottled bee in a centrifuge to separate the useful stuff from the junk."
+	]
+	quest.1FF16E02F15EE5B0.title: "Transferring Genes"
+	quest.1FF16E02F15EE5B0.quest_desc: [
+		"To transfer genes to a bee you will need to combine the gene with a honey treat. Feed the honey treat to the bee and it will have a chance, based on the purity of the gene, to acquire the new attribute."
+		"The purity of the gene can be increased by combining two of the same genes or by putting more of the same gene onto a treat."
+	]
+	quest.31F82DA4DE475578.title: "Gene Indexer"
+	quest.31F82DA4DE475578.quest_desc: [
+		"Are you drowning in gene samples? Are you getting RSI from combining genes? Then this block is for you!"
+		"Fill up this extra big container with all the genes you have lying around, flip a switch and watch as the automated internal gene indexer thingy combines the genes for you. It might not be the most efficient way...but it's automated!Needs a redstone signal."
+	]
+	quest.5A8DBAFCE07FEC6D.title: "Iron Bee"
+	quest.5A8DBAFCE07FEC6D.quest_desc: [
+		"Bred from a Crystalline Bee and an Ashy Mining Bee."
+	]
+	quest.3116C39F136644F4.title: "Gold Bee"
+	quest.3116C39F136644F4.quest_desc: [
+		"Bred from a Crystalline Bee and an Mason Bee."
+	]
+	quest.79056AF6054FA4DE.title: "Redstone Bee"
+	quest.79056AF6054FA4DE.quest_desc: [
+		"Bred from a Glowing Bee and an Chocolate Mining Bee."
+	]
+	quest.07D43E8DD7AAACA7.title: "Diamond Bee"
+	quest.07D43E8DD7AAACA7.quest_desc: [
+		"Bred from an Ender Bee and a Lapis Bee."
+	]
+	quest.010A7E9DACD52FE7.title: "Netherite Bee"
+	quest.010A7E9DACD52FE7.quest_desc: [
+		"Converted from a Diamond Bee be feeding it a block of netherite."
+	]
+	quest.26954D05B4DFE593.title: "Experience Bee"
+	quest.26954D05B4DFE593.quest_desc: [
+		"Bred from an Emerald Bee and a Lapis Bee."
+	]
+	quest.2A2DC3504398F76E.title: "Mob Bees"
+	quest.2A2DC3504398F76E.quest_desc: [
+		"Will move in to an advanced hive if the hive is left empty in the dark."
+	]
+	quest.500D77F0F617709F.title: "Wild Bees"
+	quest.500D77F0F617709F.quest_desc: [
+		"Found living in slimy nests in swampy biomes. Slimy Bees prefer pollinating flowers found in swampy areas, but will also make do with flowers from other biomes.."
+	]
+	quest.26769BB150AA553C.title: "Solitary Bees"
+	quest.26769BB150AA553C.quest_desc: [
+		"&lWhy:&r Solitary bees carry genes for breeding new species."
+		"[Osmia lignaria]"
+	]
+	quest.195351E9BD0F28A5.title: "Worker Bees"
+	quest.195351E9BD0F28A5.quest_desc: [
+		"Will harvest nearby crops and leave the produce on the ground. It operates in a 4 block radius around it's home hive which can be increased with range upgrades. If you have a mod that adds right click harvest, the bee will do exactly that."
+		"Nibble on nearby wood and collects it in its hive."
+	]
+	quest.699B8DBC76FBABEC.title: "Quarry Bee"
+	quest.699B8DBC76FBABEC.quest_desc: [
+		"Nibble on nearby stone, sand or gravel and collects stone chips in its hive. Stone chips can be crafted into its counterpart block."
+	]
+	quest.0A7C8017D75EBE02.title: "Ender Bee"
+	quest.0A7C8017D75EBE02.quest_desc: [
+		"Found living in end stone nests on end islands. Ender Bees prefer pollinating the locally flora of chorus plants."
+	]
+	quest.3396C14F451D4771.title: "Draconic Bee"
+	quest.3396C14F451D4771.quest_desc: [
+		"Rarely found living in obsidian pillars on the main island in the end. Draconic Bees pollinate by flying around in the end collecting nectar from the air. The will also nibble on dragon eggs if they get the chance."
+	]
+	quest.282E53F350A4ABD6.title: "Dragon Egg Hive"
+	quest.282E53F350A4ABD6.quest_desc: [
+		"A special hive made for Draconic bees that allows the user to harvest the otherwise hard to obtain draconic combs. Naturally Draconic bees live in obsidian nests, but will also live inside a hollowed out dragon egg. They can also be convinced to live in an advanced hive but won't produce any dragon breath there."
+		"You can make a fulfilling omelet with the leftovers"
+	]
+	quest.14163802F9EDFD87.title: "Bee Bomb"
+	quest.14163802F9EDFD87.quest_desc: [
+		"&lWhy:&r Moves a whole swarm at once."
+	]
+	quest.0887CD77DDF199C1.title: "Master Beekeeper"
+	quest.0887CD77DDF199C1.quest_desc: [
+		"Bees bring netherite, XP and dragon dust."
 	]
 	chapter.0BD79D79E7D32154.title: "Bestiary and Companions"
 	chapter.0BD79D79E7D32154.chapter_subtitle: [
