@@ -117,13 +117,13 @@ quests:
       title: "Где опасно"
       subtitle: "Мир спокойный — опасность по желанию"
       text: |
-        **У спавна** (до ~250 блоков), в приватах и у Камня очага монстры сами не появляются. **Дальше** их больше, а боссы, стрелки и сильные мобы — **после ~1500 блоков**, в данжах и иных мирах.
+        **У спавна** (до ~250 блоков), в приватах и у Камня очага монстры сами не появляются. **Дальше** их больше, а боссы, стрелки и **элитные мобы** (в броне, с утроенным здоровьем) — **после ~1500 блоков**, в данжах и иных мирах.
         Хочешь драки — иди в дикие земли. Хочешь строить — стройся ближе к спавну.
     en:
       title: "Where It's Dangerous"
       subtitle: "A calm world, danger by choice"
       text: |
-        **Near spawn** (up to ~250 blocks), inside claims and near a Hearth Stone monsters don't spawn. **Further out** there are more, and bosses, gunners and strong mobs live **past ~1500 blocks**, in dungeons and other worlds.
+        **Near spawn** (up to ~250 blocks), inside claims and near a Hearth Stone monsters don't spawn. **Further out** there are more, and bosses, gunners and **elite mobs** (armoured, triple health) live **past ~1500 blocks**, in dungeons and other worlds.
         Want a fight? Head into the wilds. Want to build? Settle closer to spawn.
 
   - id: memo_food

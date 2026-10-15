@@ -140,7 +140,7 @@
 		{
 			id: "13E77B47518CF45C"
 			x: 4.5d
-			y: -1.25d
+			y: -1.875d
 			icon: {
 				id: "create:andesite_casing"
 				count: 1
@@ -262,7 +262,7 @@
 		{
 			id: "4693C34C08702F13"
 			x: 12.0d
-			y: -1.25d
+			y: -1.875d
 			icon: {
 				id: "bigreactors:yellorium_ingot"
 				count: 1
@@ -285,7 +285,7 @@
 		{
 			id: "5F1BA5A3E0A5735B"
 			x: 4.5d
-			y: 0.0d
+			y: -0.625d
 			icon: {
 				id: "ars_nouveau:worn_notebook"
 				count: 1
@@ -374,7 +374,7 @@
 		{
 			id: "012668B87D0FA2D0"
 			x: 12.0d
-			y: 0.0d
+			y: -0.625d
 			icon: {
 				id: "lootr:lootr_chest"
 				count: 1
@@ -393,7 +393,7 @@
 		{
 			id: "6767449E51F712DE"
 			x: 12.0d
-			y: 1.25d
+			y: 0.625d
 			icon: {
 				id: "minecraft:ender_eye"
 				count: 1
@@ -412,7 +412,7 @@
 		{
 			id: "5BDC466474828798"
 			x: 4.5d
-			y: 1.25d
+			y: 0.625d
 			icon: {
 				id: "minecolonies:supplycampdeployer"
 				count: 1
@@ -428,6 +428,42 @@
 						count: 1
 						id: "minecolonies:supplycampdeployer"
 					}
+				}
+			]
+		}
+		{
+			id: "63BC6F90D1FCE215"
+			x: 4.5d
+			y: 1.875d
+			icon: {
+				id: "create:precision_mechanism"
+				count: 1
+			}
+			dependencies: [
+				"3CA4B560AE561B3E"
+			]
+			tasks: [
+				{
+					id: "3203F41408543F1C"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "4AD95969A43AE499"
+			x: 12.0d
+			y: 1.875d
+			icon: {
+				id: "minecraft:chainmail_helmet"
+				count: 1
+			}
+			dependencies: [
+				"576B9EB277FB4903"
+			]
+			tasks: [
+				{
+					id: "0DF8FA84EDBE6B1B"
+					type: "checkmark"
 				}
 			]
 		}
@@ -448,6 +484,8 @@
 				"5F1BA5A3E0A5735B"
 				"14E673074E384ED8"
 				"050C8B0EB9425EC7"
+				"63BC6F90D1FCE215"
+				"4AD95969A43AE499"
 			]
 			tasks: [
 				{

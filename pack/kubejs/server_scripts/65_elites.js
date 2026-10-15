@@ -1,0 +1,84 @@
+// Arkhaven elites (docs/10_RPG_DANGER.md §6): difficulty grows with the place you choose, not with a world level.
+// Zone 0-1 (overworld within 1500 blocks of spawn): nothing changes, the world stays calm.
+// Zone 2 (1500-3000 blocks, the Aether): some natural monsters spawn as tier-1 elites.
+// Zone 3 (beyond 3000 blocks, the Nether, Twilight Forest, Undergarden, Otherside, End): more, tougher tier-2 elites.
+// Elites wear armour (visible on humanoids, never dropped), hit harder, have far more health, and drop extra loot.
+// Spawners, eggs, breeding and /summon never make elites (tests call arkMakeElite directly).
+
+const ARK_ELITE = {
+  nearRadius: 1500, farRadius: 3000,
+  chance: { 1: 0.12, 2: 0.22 },
+  health: { 1: 1.5, 2: 2.5 },     // +150 % / +250 % max health
+  damage: { 1: 0.5, 2: 1.0 },     // +50 % / +100 % attack damage
+  speed: { 1: 0.1, 2: 0.15 },
+  dangerDims: ['minecraft:the_nether', 'minecraft:the_end', 'twilightforest:twilight_forest', 'undergarden:undergarden', 'deeperdarker:otherside'],
+  calmDims: ['aether:the_aether'],
+  // big bosses and mini-bosses already have their own fights
+  skipNamespaces: ['cataclysm', 'mowziesmobs', 'irons_spellbooks', 'aquamirae'],
+  maxBaseHealth: 80
+}
+
+function arkEliteTier(level, x, z) {
+  const dim = String(level.dimension().location())
+  if (ARK_ELITE.dangerDims.indexOf(dim) >= 0) return 2
+  if (ARK_ELITE.calmDims.indexOf(dim) >= 0) return 1
+  if (dim !== 'minecraft:overworld') return 0
+  const s = level.getLevel().getSharedSpawnPos()
+  const d = Math.sqrt((x - s.getX()) * (x - s.getX()) + (z - s.getZ()) * (z - s.getZ()))
+  return d >= ARK_ELITE.farRadius ? 2 : d >= ARK_ELITE.nearRadius ? 1 : 0
+}
+
+/** Turns a freshly spawned monster into an elite of the given tier (1 or 2). */
+function arkMakeElite(mob, tier) {
+  const Attributes = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes')
+  const AttributeModifier = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier')
+  const Op = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation')
+  const RL = Java.loadClass('net.minecraft.resources.ResourceLocation')
+  const boost = (attr, amount, name) => {
+    const inst = mob.getAttribute(attr)
+    if (inst && amount > 0) inst.addPermanentModifier(new AttributeModifier(RL.fromNamespaceAndPath('arkhaven', 'elite_' + name), amount, Op.ADD_MULTIPLIED_BASE))
+  }
+  boost(Attributes.MAX_HEALTH, ARK_ELITE.health[tier], 'health')
+  boost(Attributes.ATTACK_DAMAGE, ARK_ELITE.damage[tier], 'damage')
+  boost(Attributes.MOVEMENT_SPEED, ARK_ELITE.speed[tier], 'speed')
+  mob.setHealth(mob.getMaxHealth())
+
+  // visible armour, never dropped (no free gear farming)
+  const Slot = Java.loadClass('net.minecraft.world.entity.EquipmentSlot')
+  const head = tier === 2 ? 'minecraft:iron_helmet' : 'minecraft:chainmail_helmet'
+  const chest = tier === 2 ? 'minecraft:iron_chestplate' : 'minecraft:chainmail_chestplate'
+  if (mob.getItemBySlot(Slot.HEAD).isEmpty()) { mob.setItemSlot(Slot.HEAD, Item.of(head)); mob.setDropChance(Slot.HEAD, 0) }
+  if (mob.getItemBySlot(Slot.CHEST).isEmpty()) { mob.setItemSlot(Slot.CHEST, Item.of(chest)); mob.setDropChance(Slot.CHEST, 0) }
+  mob.getPersistentData().putInt('ark_elite', tier)
+}
+
+NativeEvents.onEvent('net.neoforged.neoforge.event.entity.living.FinalizeSpawnEvent', e => {
+  const mob = e.getEntity()
+  const Enemy = Java.loadClass('net.minecraft.world.entity.monster.Enemy')
+  if (!(mob instanceof Enemy)) return
+  const type = String(e.getSpawnType())
+  if (['NATURAL', 'CHUNK_GENERATION', 'STRUCTURE', 'PATROL'].indexOf(type) < 0) return
+  const id = String(mob.getType().builtInRegistryHolder().key().location())
+  if (ARK_ELITE.skipNamespaces.indexOf(id.split(':')[0]) >= 0) return
+  const Attr = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes')
+  if (mob.getAttributeBaseValue(Attr.MAX_HEALTH) > ARK_ELITE.maxBaseHealth) return
+  const tier = arkEliteTier(e.getLevel(), e.getX(), e.getZ())
+  if (tier === 0) return
+  if (Math.random() >= ARK_ELITE.chance[tier]) return
+  arkMakeElite(mob, tier)
+})
+
+// Extra loot when a player kills an elite: worth the fight, never a farm (natural spawns only).
+EntityEvents.death(event => {
+  const mob = event.entity
+  if (!mob || mob.isPlayer()) return
+  const tier = mob.getPersistentData().getInt('ark_elite')
+  if (!tier || !event.source.player) return
+  const drop = (id, n) => mob.spawnAtLocation(Item.of(id, n))
+  if (Math.random() < 0.6) drop('arkhaven:meteoric_dust', tier)
+  if (Math.random() < 0.2) drop('minecraft:emerald', tier)
+  if (tier === 2 && Math.random() < 0.1) drop('minecraft:diamond', 1)
+  if (tier === 2 && Math.random() < 0.05) drop('arkhaven:rift_shard', 1)
+  const Orb = Java.loadClass('net.minecraft.world.entity.ExperienceOrb')
+  mob.level.addFreshEntity(new Orb(mob.level, mob.x, mob.y, mob.z, 10 * tier))
+})

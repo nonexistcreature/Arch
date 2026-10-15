@@ -130,7 +130,7 @@ hash = "e2ba2c22a6c821ff1a35d6f840823ec6b8d41c6824caf2c88cb5c815d947846a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/path.snbt"
-hash = "b27e90f9dda71f295cc19dc275af267a34436f5debbfaecfed60ffdcc638a64b"
+hash = "81cc784a77ac3b3ca0937766172ac46ffb1099f8c3ba03fe4dec1504c3989eb0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sky.snbt"
@@ -170,11 +170,11 @@ hash = "d04d5331950919436864583a7ee324582806e147abc33f1a921cc15f2c01d0ab"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "6bf09c241940e290fce8dccd590194bc57b491a8157740c4296c9796082df2ff"
+hash = "75544c3f1b6f7eda0c346a55f033642974b56b74376ae3d807ccbc2c7c6f94f4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "1a3ca71dd8f77a1ba97be83870b760c2d9dee1fccca5b46407d27c8c8e497d2b"
+hash = "906e48061ef23b9d1ad10bd09e3db93a1863f2e2bc6096c644c2d56384c4344b"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -337,8 +337,16 @@ file = "kubejs/server_scripts/60_haven_guides.js"
 hash = "3f0d4d7ae78205a134adcf2c9588be4bd68347080eb1c5ae932ae540a9a320de"
 
 [[files]]
+file = "kubejs/server_scripts/65_elites.js"
+hash = "d3851a55c21915647e29703699885d900dbb0fb5942a8229f84956e33e0ad97d"
+
+[[files]]
+file = "kubejs/server_scripts/66_progression_gates.js"
+hash = "c11f7b38713be52de96e3c304a7750b5ff5bd441410dde2958022de95930d212"
+
+[[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
-hash = "1d866bb7169823f3c53f29cd24b8de85d6bc5b572c62b9d60c16a58ebbf8f086"
+hash = "d42b6f343c09ff892e78abecfe91512f6db5f0713a9c8d21aa37ab0ef4d8811c"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"

@@ -148,7 +148,7 @@
 	quest.24DEEB4CF1811863.title: "Where It's Dangerous"
 	quest.24DEEB4CF1811863.quest_subtitle: "A calm world, danger by choice"
 	quest.24DEEB4CF1811863.quest_desc: [
-		"&lNear spawn&r (up to ~250 blocks), inside claims and near a Hearth Stone monsters don't spawn. &lFurther out&r there are more, and bosses, gunners and strong mobs live &lpast ~1500 blocks&r, in dungeons and other worlds."
+		"&lNear spawn&r (up to ~250 blocks), inside claims and near a Hearth Stone monsters don't spawn. &lFurther out&r there are more, and bosses, gunners and &lelite mobs&r (armoured, triple health) live &lpast ~1500 blocks&r, in dungeons and other worlds."
 		"Want a fight? Head into the wilds. Want to build? Settle closer to spawn."
 	]
 	quest.78F07D05EA3AF586.title: "Food and Seasons"
@@ -278,6 +278,25 @@
 	quest.5BDC466474828798.quest_subtitle: "Chapter «Town»"
 	quest.5BDC466474828798.quest_desc: [
 		"A Minecolonies colony works for you: builders, farmers, miners. It eats your resources and returns them many times over."
+	]
+	quest.63BC6F90D1FCE215.title: "Peaks Need Friends"
+	quest.63BC6F90D1FCE215.quest_subtitle: "One part from another branch"
+	quest.63BC6F90D1FCE215.quest_desc: [
+		"The pack's strongest items ask for &lone&r part from another role: no long chains, but faster together:"
+		"&lGunsmith table&r: steel and a Create precision mechanism (smelter + engineer)."
+		"&lME controller&r (AE2): a Create precision mechanism."
+		"&lAircraft engine&r: aero lubricant (the angler's fish oil or the oil worker's lubricant)."
+		"&lReinforced reactor&r: a Mekanism elite circuit."
+		"&lMEGA 256M cell&r: a reinforced echo shard from the Otherside (explorer)."
+		"&lFusion controller&r: a nether star (beating the Wither, warrior)."
+	]
+	quest.4AD95969A43AE499.title: "Elites of the Wilds"
+	quest.4AD95969A43AE499.quest_subtitle: "The further, the scarier"
+	quest.4AD95969A43AE499.quest_desc: [
+		"Beyond &l1500 blocks&r from spawn some monsters spawn as &lelites&r: in chainmail, with double or triple health and a heavy hit."
+		"Beyond &l3000 blocks&r, in the Nether, Twilight Forest, Undergarden, Otherside and End there are more elites, in iron and tougher still."
+		"&lReward:&r meteor dust, emeralds, sometimes a diamond or a rift shard, and plenty of XP. Elite armour never drops."
+		"Spawners and eggs never make elites: only the wild does."
 	]
 	quest.1F4F10227DA0EDBC.title: "Great Works"
 	quest.1F4F10227DA0EDBC.quest_subtitle: "Chapter «Great Works»"

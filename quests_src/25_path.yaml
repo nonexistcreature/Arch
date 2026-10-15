@@ -314,8 +314,56 @@ quests:
       text: |
         A Minecolonies colony works for you: builders, farmers, miners. It eats your resources and returns them many times over.
 
+  - id: path_gates
+    deps: [path_role]
+    icon: create:precision_mechanism
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Вершины требуют друзей"
+      subtitle: "Одна деталь из чужой ветки"
+      text: |
+        Самые сильные вещи сборки просят **одну** деталь из другой роли — без длинных цепочек, но вместе быстрее:
+        **Стол оружейника** — сталь и точный механизм Create (металлург + инженер).
+        **Контроллер ME** (AE2) — точный механизм Create.
+        **Двигатель самолёта** — авиасмазка (рыбий жир рыбака или масло нефтяника).
+        **Усиленный реактор** — элитная схема Mekanism.
+        **Ячейка MEGA 256M** — усиленный осколок эха с Другой стороны (исследователь).
+        **Контроллер термояда** — звезда Незера (победа над Иссушителем, воин).
+    en:
+      title: "Peaks Need Friends"
+      subtitle: "One part from another branch"
+      text: |
+        The pack's strongest items ask for **one** part from another role: no long chains, but faster together:
+        **Gunsmith table**: steel and a Create precision mechanism (smelter + engineer).
+        **ME controller** (AE2): a Create precision mechanism.
+        **Aircraft engine**: aero lubricant (the angler's fish oil or the oil worker's lubricant).
+        **Reinforced reactor**: a Mekanism elite circuit.
+        **MEGA 256M cell**: a reinforced echo shard from the Otherside (explorer).
+        **Fusion controller**: a nether star (beating the Wither, warrior).
+
+  - id: path_elites
+    deps: [path_first_boss]
+    icon: minecraft:chainmail_helmet
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Элиты диких земель"
+      subtitle: "Чем дальше — тем страшнее"
+      text: |
+        Дальше **1500 блоков** от спавна часть монстров появляется **элитой**: в кольчуге, с двойным-тройным здоровьем и сильным ударом.
+        Дальше **3000 блоков**, в Нижнем мире, Сумеречном лесу, Подсаде, на Другой стороне и в Крае элит больше, они в железе и ещё сильнее.
+        **Награда:** метеоритная пыль, изумруды, иногда алмаз или осколок разлома и много опыта. Броню элит снять нельзя.
+        Спавнеры и яйца элит не дают — только дикая природа.
+    en:
+      title: "Elites of the Wilds"
+      subtitle: "The further, the scarier"
+      text: |
+        Beyond **1500 blocks** from spawn some monsters spawn as **elites**: in chainmail, with double or triple health and a heavy hit.
+        Beyond **3000 blocks**, in the Nether, Twilight Forest, Undergarden, Otherside and End there are more elites, in iron and tougher still.
+        **Reward:** meteor dust, emeralds, sometimes a diamond or a rift shard, and plenty of XP. Elite armour never drops.
+        Spawners and eggs never make elites: only the wild does.
+
   - id: path_great
-    deps: [path_atom, path_dungeons, path_worlds, path_city, path_magic, path_food, path_wheels]
+    deps: [path_atom, path_dungeons, path_worlds, path_city, path_magic, path_food, path_wheels, path_gates, path_elites]
     icon: minecraft:nether_star
     shape: hexagon
     tasks: [{type: checkmark}]

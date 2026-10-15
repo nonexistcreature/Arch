@@ -40,6 +40,8 @@ const ARK_QUEST_IDS = {
  "path_dungeons": "012668B87D0FA2D0",
  "path_worlds": "6767449E51F712DE",
  "path_city": "5BDC466474828798",
+ "path_gates": "63BC6F90D1FCE215",
+ "path_elites": "4AD95969A43AE499",
  "path_great": "1F4F10227DA0EDBC",
  "origins_intro": "778DA091C9349444",
  "origins_change": "6914A21F92128873",
