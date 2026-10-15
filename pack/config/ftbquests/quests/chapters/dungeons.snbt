@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "124FA016AD13E65C"
-			x: 0.8d
+			x: -13.47d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -41,7 +41,7 @@
 		}
 		{
 			id: "398D7D0D31B16A8C"
-			x: -1.6d
+			x: -13.84d
 			y: 2.0d
 			icon: {
 				id: "minecraft:barrel"
@@ -60,7 +60,7 @@
 		}
 		{
 			id: "3DC14FDAB04AB0DE"
-			x: 0.0d
+			x: -12.34d
 			y: 2.0d
 			icon: {
 				id: "minecraft:spawner"
@@ -79,7 +79,7 @@
 		}
 		{
 			id: "1DD3D00D98540144"
-			x: 2.4d
+			x: -2.86d
 			y: 2.0d
 			icon: {
 				id: "minecraft:rail"
@@ -98,7 +98,7 @@
 		}
 		{
 			id: "14590C32AE474724"
-			x: 4.8d
+			x: 13.84d
 			y: 0.0d
 			icon: {
 				id: "minecraft:crossbow"
@@ -117,7 +117,7 @@
 		}
 		{
 			id: "24FE42BA2A7CCC9B"
-			x: 4.8d
+			x: 10.13d
 			y: 2.0d
 			icon: {
 				id: "minecraft:white_banner"
@@ -136,7 +136,7 @@
 		}
 		{
 			id: "6A4762E3C93C0B5B"
-			x: 4.8d
+			x: 8.06d
 			y: 4.0d
 			icon: {
 				id: "smallships:cannon"
@@ -155,7 +155,7 @@
 		}
 		{
 			id: "6EBAA1CC314A251D"
-			x: -9.6d
+			x: 3.34d
 			y: 0.0d
 			icon: {
 				id: "minecraft:iron_bars"
@@ -174,7 +174,7 @@
 		}
 		{
 			id: "1AA7A9B0DC93023F"
-			x: 2.4d
+			x: -1.93d
 			y: 4.0d
 			icon: {
 				id: "minecraft:iron_pickaxe"
@@ -193,7 +193,7 @@
 		}
 		{
 			id: "67026509AEC7D314"
-			x: 2.4d
+			x: -1.93d
 			y: 6.0d
 			icon: {
 				id: "minecraft:blast_furnace"
@@ -212,7 +212,7 @@
 		}
 		{
 			id: "33B479E1E8E88664"
-			x: 6.4d
+			x: 1.84d
 			y: 0.0d
 			icon: {
 				id: "minecraft:bell"
@@ -231,7 +231,7 @@
 		}
 		{
 			id: "68FD7B1F449B1EB6"
-			x: 6.4d
+			x: 5.63d
 			y: 2.0d
 			icon: {
 				id: "minecraft:fermented_spider_eye"
@@ -250,7 +250,7 @@
 		}
 		{
 			id: "0829E4B42B4D1A82"
-			x: 6.4d
+			x: 6.56d
 			y: 4.0d
 			icon: {
 				id: "minecraft:sweet_berries"
@@ -269,7 +269,7 @@
 		}
 		{
 			id: "1BAE5339A9DDE90E"
-			x: 6.4d
+			x: 6.56d
 			y: 6.0d
 			icon: {
 				id: "minecraft:elytra"
@@ -288,7 +288,7 @@
 		}
 		{
 			id: "0DD810CD0C1C7B8F"
-			x: 4.8d
+			x: 8.06d
 			y: 6.0d
 			icon: {
 				id: "minecraft:spyglass"
@@ -307,7 +307,7 @@
 		}
 		{
 			id: "322941DAB346E48E"
-			x: 1.6d
+			x: 6.56d
 			y: 8.0d
 			icon: {
 				id: "minecraft:gold_block"
@@ -327,7 +327,7 @@
 		}
 		{
 			id: "2F44F8C0075501B1"
-			x: 8.0d
+			x: 10.84d
 			y: 0.0d
 			icon: {
 				id: "irons_spellbooks:scroll"
@@ -346,7 +346,7 @@
 		}
 		{
 			id: "31BFEC0EEAA7251A"
-			x: 8.0d
+			x: 7.13d
 			y: 2.0d
 			icon: {
 				id: "irons_spellbooks:arcane_essence"
@@ -365,7 +365,7 @@
 		}
 		{
 			id: "682C987E312106E8"
-			x: 4.8d
+			x: 8.06d
 			y: 8.0d
 			icon: {
 				id: "cataclysm:abyssal_egg"
@@ -384,7 +384,7 @@
 		}
 		{
 			id: "65DEA3AA471B1627"
-			x: 3.2d
+			x: -10.41d
 			y: 8.0d
 			icon: {
 				id: "cataclysm:mech_eye"
@@ -403,7 +403,7 @@
 		}
 		{
 			id: "1D9ABAB93B21593F"
-			x: -8.0d
+			x: 4.84d
 			y: 0.0d
 			icon: {
 				id: "twilightforest:maze_map"
@@ -422,7 +422,7 @@
 		}
 		{
 			id: "0233DEB78E99055C"
-			x: -6.4d
+			x: 6.34d
 			y: 0.0d
 			icon: {
 				id: "the_bumblezone:honey_crystal"
@@ -441,7 +441,7 @@
 		}
 		{
 			id: "57FDCFE312B601D6"
-			x: 9.6d
+			x: 12.34d
 			y: 0.0d
 			icon: {
 				id: "aether:bronze_dungeon_key"
@@ -460,7 +460,7 @@
 		}
 		{
 			id: "6493D15E22B26AAA"
-			x: 9.6d
+			x: 8.63d
 			y: 2.0d
 			icon: {
 				id: "deep_aether:brass_dungeon_key"
@@ -479,7 +479,7 @@
 		}
 		{
 			id: "41271CF75F0F514B"
-			x: -4.8d
+			x: 7.84d
 			y: 0.0d
 			icon: {
 				id: "deeperdarker:heart_of_the_deep"
@@ -498,7 +498,7 @@
 		}
 		{
 			id: "18D1F60CD2B50700"
-			x: -3.2d
+			x: 9.34d
 			y: 0.0d
 			icon: {
 				id: "minecraft:purpur_block"
@@ -517,7 +517,7 @@
 		}
 		{
 			id: "5A9C5F24AD35D296"
-			x: -0.89d
+			x: 7.06d
 			y: 10.0d
 			shape: "hexagon"
 			icon: {

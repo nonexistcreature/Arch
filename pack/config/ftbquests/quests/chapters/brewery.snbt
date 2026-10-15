@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "5486FB52402473EA"
-			x: 0.8d
+			x: -1.69d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -31,7 +31,7 @@
 		}
 		{
 			id: "7DD48C8425292F88"
-			x: 3.2d
+			x: -3.0d
 			y: 2.0d
 			icon: {
 				id: "brewinandchewin:tankard"
@@ -54,7 +54,7 @@
 		}
 		{
 			id: "50F75DDCB799AF7E"
-			x: 0.8d
+			x: -2.25d
 			y: 4.0d
 			icon: {
 				id: "brewinandchewin:steel_toe_stout"
@@ -76,7 +76,7 @@
 		}
 		{
 			id: "32CE37C4439EBF06"
-			x: 2.4d
+			x: -0.75d
 			y: 4.0d
 			icon: {
 				id: "brewinandchewin:strongroot_ale"
@@ -98,7 +98,7 @@
 		}
 		{
 			id: "62B9319C01B84D25"
-			x: 5.6d
+			x: 0.75d
 			y: 4.0d
 			icon: {
 				id: "brewinandchewin:saccharine_rum"
@@ -120,7 +120,7 @@
 		}
 		{
 			id: "091CA59FFEDBA284"
-			x: 5.6d
+			x: 0.0d
 			y: 6.0d
 			icon: {
 				id: "brewinandchewin:vodka"
@@ -142,7 +142,7 @@
 		}
 		{
 			id: "6910FEE1E367ED56"
-			x: 5.6d
+			x: 0.0d
 			y: 8.0d
 			icon: {
 				id: "brewinandchewin:bloody_mary"
@@ -164,7 +164,7 @@
 		}
 		{
 			id: "07CB93262CD3754E"
-			x: 4.0d
+			x: 2.25d
 			y: 4.0d
 			icon: {
 				id: "brewinandchewin:rice_wine"
@@ -187,7 +187,7 @@
 		}
 		{
 			id: "65E7D3DC2B1E7814"
-			x: -4.0d
+			x: -1.5d
 			y: 2.0d
 			icon: {
 				id: "brewinandchewin:heating_cask"
@@ -209,7 +209,7 @@
 		}
 		{
 			id: "61EBEE973BA8D5C1"
-			x: -2.4d
+			x: 0.0d
 			y: 2.0d
 			icon: {
 				id: "brewinandchewin:flaxen_cheese_wheel"
@@ -231,7 +231,7 @@
 		}
 		{
 			id: "191DFF76FFDB55DB"
-			x: 7.2d
+			x: 2.81d
 			y: 0.0d
 			icon: {
 				id: "vinery:wine_box"
@@ -253,7 +253,7 @@
 		}
 		{
 			id: "5EEBE11F73184DB4"
-			x: -7.2d
+			x: -0.19d
 			y: 0.0d
 			icon: {
 				id: "vinery:apple_cider"
@@ -275,7 +275,7 @@
 		}
 		{
 			id: "7DECAA9F406D6656"
-			x: 7.2d
+			x: 3.0d
 			y: 2.0d
 			icon: {
 				id: "vinery:eiswein"
@@ -297,7 +297,7 @@
 		}
 		{
 			id: "6FE0B5D606E2BDD2"
-			x: -0.8d
+			x: 1.5d
 			y: 2.0d
 			icon: {
 				id: "herbalbrews:copper_tea_kettle"
@@ -319,7 +319,7 @@
 		}
 		{
 			id: "427DBC1360C65E19"
-			x: -5.6d
+			x: 1.31d
 			y: 0.0d
 			icon: {
 				id: "create_confectionery:hot_chocolate_bottle"

@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "71A312E68F5D5D95"
-			x: 0.0d
+			x: -0.02d
 			y: 0.0d
 			icon: {
 				id: "minecraft:oak_log"
@@ -45,7 +45,7 @@
 		}
 		{
 			id: "25244ED318CF1CC2"
-			x: 0.0d
+			x: -0.02d
 			y: 2.0d
 			icon: {
 				id: "minecraft:crafting_table"
@@ -67,7 +67,7 @@
 		}
 		{
 			id: "0A20243FB3DE57EE"
-			x: -0.8d
+			x: 0.72d
 			y: 4.0d
 			icon: {
 				id: "minecraft:stone_pickaxe"
@@ -89,7 +89,7 @@
 		}
 		{
 			id: "493C04C72C252AE1"
-			x: 0.0d
+			x: 0.39d
 			y: 6.0d
 			icon: {
 				id: "minecraft:furnace"
@@ -154,7 +154,7 @@
 		}
 		{
 			id: "7D055965B59E433F"
-			x: -0.8d
+			x: -2.07d
 			y: 10.0d
 			icon: {
 				id: "minecraft:iron_pickaxe"
@@ -176,7 +176,7 @@
 		}
 		{
 			id: "18F86F97AA42687E"
-			x: 8.0d
+			x: -3.0d
 			y: 4.0d
 			icon: {
 				id: "minecraft:white_bed"
@@ -198,7 +198,7 @@
 		}
 		{
 			id: "4250898F27D30389"
-			x: 8.8d
+			x: -4.05d
 			y: 6.0d
 			icon: {
 				id: "comforts:sleeping_bag_white"
@@ -221,7 +221,7 @@
 		}
 		{
 			id: "7FFC8E5E8083B094"
-			x: 7.2d
+			x: -1.11d
 			y: 6.0d
 			shape: "hexagon"
 			icon: {
@@ -240,7 +240,7 @@
 		}
 		{
 			id: "5FDAC3643835B9B1"
-			x: 4.0d
+			x: 1.47d
 			y: 10.0d
 			icon: {
 				id: "sophisticatedbackpacks:backpack"
@@ -272,7 +272,7 @@
 		}
 		{
 			id: "2D3F975CD04C8DA2"
-			x: 2.4d
+			x: 1.09d
 			y: 12.0d
 			icon: {
 				id: "sophisticatedstorage:barrel"
@@ -295,7 +295,7 @@
 		}
 		{
 			id: "41D73599EA517F03"
-			x: 0.8d
+			x: -1.91d
 			y: 12.0d
 			icon: {
 				id: "waystones:waystone"
@@ -323,7 +323,7 @@
 		}
 		{
 			id: "641414C5D00BB68B"
-			x: -7.2d
+			x: 1.89d
 			y: 6.0d
 			icon: {
 				id: "gravestone:gravestone"
@@ -341,7 +341,7 @@
 		}
 		{
 			id: "1E45B54AE1AE0643"
-			x: -5.6d
+			x: -0.7d
 			y: 8.0d
 			icon: {
 				id: "solcarrot:food_book"
@@ -369,7 +369,7 @@
 		}
 		{
 			id: "13724199B13ED6C5"
-			x: -2.4d
+			x: -4.09d
 			y: 12.0d
 			icon: {
 				id: "lootr:lootr_chest"
@@ -388,8 +388,8 @@
 		}
 		{
 			id: "3167C5A5C262D22D"
-			x: 1.12d
-			y: 15.6d
+			x: -0.69d
+			y: 14.0d
 			shape: "gear"
 			icon: {
 				id: "minecraft:compass"
@@ -426,7 +426,7 @@
 		}
 		{
 			id: "7BD784A262A4F208"
-			x: -4.0d
+			x: 2.97d
 			y: 10.0d
 			icon: {
 				id: "minecraft:shield"
@@ -448,7 +448,7 @@
 		}
 		{
 			id: "04645A8752811DB8"
-			x: -0.8d
+			x: -0.41d
 			y: 12.0d
 			icon: {
 				id: "minecraft:diamond_pickaxe"
@@ -477,7 +477,7 @@
 		}
 		{
 			id: "1A2098FF68A8F3F1"
-			x: 5.6d
+			x: 2.59d
 			y: 12.0d
 			icon: {
 				id: "sophisticatedbackpacks:pickup_upgrade"
@@ -507,7 +507,7 @@
 		}
 		{
 			id: "73D46902670D5A7C"
-			x: 5.6d
+			x: 2.31d
 			y: 14.0d
 			icon: {
 				id: "sophisticatedbackpacks:feeding_upgrade"
@@ -530,7 +530,7 @@
 		}
 		{
 			id: "4A13AADDAB2AE3C8"
-			x: 4.0d
+			x: 4.09d
 			y: 12.0d
 			icon: {
 				id: "sophisticatedbackpacks:iron_backpack"
@@ -553,7 +553,7 @@
 		}
 		{
 			id: "7C58537A359FA5A6"
-			x: 0.8d
+			x: -2.19d
 			y: 14.0d
 			icon: {
 				id: "waystones:warp_stone"
@@ -575,7 +575,7 @@
 		}
 		{
 			id: "01DD1D53DF25CA6A"
-			x: -8.8d
+			x: 2.22d
 			y: 4.0d
 			icon: {
 				id: "minecraft:chest"
@@ -594,7 +594,7 @@
 		}
 		{
 			id: "1D2C45BEDF6DAD9C"
-			x: 8.8d
+			x: -3.63d
 			y: 8.0d
 			icon: {
 				id: "comforts:hammock_white"

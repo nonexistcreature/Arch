@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "6984D699D2660B8F"
-			x: -0.8d
+			x: -1.34d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -31,7 +31,7 @@
 		}
 		{
 			id: "4DC0F06F77F4E8D0"
-			x: -0.8d
+			x: -0.69d
 			y: 2.0d
 			icon: {
 				id: "smallships:cotton_sails"
@@ -54,7 +54,7 @@
 		}
 		{
 			id: "5088E3C71CA9EAB9"
-			x: -0.8d
+			x: -0.69d
 			y: 4.0d
 			icon: {
 				id: "smallships:oak_cog"
@@ -86,7 +86,7 @@
 		}
 		{
 			id: "4A924D0C915569ED"
-			x: 0.8d
+			x: -0.09d
 			y: 6.0d
 			icon: {
 				id: "smallships:oak_brigg"
@@ -108,7 +108,7 @@
 		}
 		{
 			id: "3B06282EB819370D"
-			x: 0.8d
+			x: 1.03d
 			y: 8.0d
 			shape: "hexagon"
 			icon: {
@@ -142,7 +142,7 @@
 		}
 		{
 			id: "1F8568D64C4D85D9"
-			x: -2.4d
+			x: 1.41d
 			y: 6.0d
 			icon: {
 				id: "smallships:oak_drakkar"
@@ -164,7 +164,7 @@
 		}
 		{
 			id: "36AF2E60F7B656EB"
-			x: -0.8d
+			x: -3.37d
 			y: 6.0d
 			icon: {
 				id: "immersivepetroleum:speedboat"
@@ -183,7 +183,7 @@
 		}
 		{
 			id: "17DADFF13634DB04"
-			x: 2.4d
+			x: 3.37d
 			y: 0.0d
 			icon: {
 				id: "railways:handcar"
@@ -205,7 +205,7 @@
 		}
 		{
 			id: "7CFEDCB56F3C85D9"
-			x: 2.4d
+			x: 2.91d
 			y: 2.0d
 			icon: {
 				id: "railways:smokestack_coalburner"
@@ -237,7 +237,7 @@
 		}
 		{
 			id: "6D7CC78BAD7C139E"
-			x: 2.4d
+			x: 2.91d
 			y: 4.0d
 			icon: {
 				id: "railways:track_coupler"
@@ -268,7 +268,7 @@
 		}
 		{
 			id: "631B95D917C4FF14"
-			x: 2.4d
+			x: 2.91d
 			y: 6.0d
 			icon: {
 				id: "railways:track_monorail"
@@ -291,7 +291,7 @@
 		}
 		{
 			id: "466444CD9C2D77D4"
-			x: 4.0d
+			x: 1.87d
 			y: 0.0d
 			icon: {
 				id: "waystones:warp_scroll"
@@ -313,7 +313,7 @@
 		}
 		{
 			id: "59FE438CCB6B63CB"
-			x: 4.0d
+			x: 1.03d
 			y: 2.0d
 			icon: {
 				id: "waystones:warp_stone"
@@ -335,7 +335,7 @@
 		}
 		{
 			id: "79CAC370B6DC53A9"
-			x: -4.0d
+			x: 0.37d
 			y: 0.0d
 			icon: {
 				id: "immersive_aircraft:quadrocopter"
@@ -357,7 +357,7 @@
 		}
 		{
 			id: "69A1D02B4D7A4EFC"
-			x: 0.16d
+			x: 1.03d
 			y: 10.0d
 			shape: "hexagon"
 			icon: {

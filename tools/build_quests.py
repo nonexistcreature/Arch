@@ -139,54 +139,60 @@ def layout(quests):
         depth[i] = 0 if not ds else 1 + max(dp(d, seen + (i,)) for d in ds)
         return depth[i]
     for x in quests: dp(x["id"])
-    # Tidy tree: every quest hangs off its primary parent (its deepest dependency), each branch
-    # gets its own horizontal band, and a parent's many leaf children are laid out as a grid instead of one
-    # endless column. Other dependencies are still drawn by FTB Quests as extra lines.
-    DX, DY, DXL, ROWS = 2.0, 1.6, 1.5, 6
-    kids = {x["id"]: [] for x in quests}
-    roots = []
-    # hubs: final quests that gather 3+ branches; placed under the middle of their dependencies afterwards
-    has_kids = {d for x in quests for d in x.get("deps", []) if d in by}
-    hubs = [x["id"] for x in quests if len([d for d in x.get("deps", []) if d in by]) >= 3 and x["id"] not in has_kids]
+    # Layered top-down layout (Sugiyama-style): a quest's row is its dependency depth; inside a row quests are
+    # ordered and shifted towards the middle of their parents (sweeping down) and of their children (sweeping
+    # up), so every line is short and lines rarely cross. Rows keep a minimum gap between quests.
+    HX, DY, SWEEPS = 1.5, 2.0, 12
+    parents = {x["id"]: [d for d in x.get("deps", []) if d in by] for x in quests}
+    children = {x["id"]: [] for x in quests}
+    for i, ps in parents.items():
+        for d in ps:
+            children[d].append(i)
+    rows = {}
+    seen = set()
+
+    def visit(i):  # depth-first order keeps each branch together for the first placement
+        if i in seen:
+            return
+        seen.add(i)
+        rows.setdefault(depth[i], []).append(i)
+        for c in children[i]:
+            if max(parents[c], key=lambda d: depth[d]) == i:
+                visit(c)
+
     for x in quests:
-        ds = [d for d in x.get("deps", []) if d in by]
-        if x["id"] in hubs:
-            continue
-        if ds:
-            kids[max(ds, key=lambda d: depth[d])].append(x["id"])
-        else:
-            roots.append(x["id"])
-    pos = {}
+        if not parents[x["id"]]:
+            visit(x["id"])
+    for x in quests:
+        visit(x["id"])
+    xpos = {}
+    for d, row in rows.items():
+        for n, i in enumerate(row):
+            xpos[i] = (n - (len(row) - 1) / 2) * HX
 
-    def block(ids, x, top):
-        """Lay out sibling quests starting at column x, band top; returns the band height used."""
-        leaves = [i for i in ids if not kids[i]]
-        inner = [i for i in ids if kids[i]]
-        y = top
-        if leaves:
-            rows = min(ROWS, len(leaves))
-            for n, i in enumerate(leaves):
-                pos[i] = (x + (n // rows) * DXL, y + (n % rows) * DY)
-            y += rows * DY
-        for i in inner:
-            h = block(kids[i], x + DX, y)
-            pos[i] = (x, y + (h - DY) / 2)
-            y += h
-        return max(y - top, DY)
+    def settle(row, want):
+        """Order a row by wanted x, then place with at least HX between neighbours, as close to wanted as possible."""
+        row.sort(key=lambda i: want[i])
+        xs = [want[i] for i in row]
+        for n in range(1, len(xs)):
+            xs[n] = max(xs[n], xs[n - 1] + HX)
+        shift = sum(want[i] - x for i, x in zip(row, xs)) / len(xs)
+        for i, x in zip(row, xs):
+            xpos[i] = x + shift
 
-    block(roots, 0.0, 0.0)
-    ys = [p[1] for p in pos.values()]
-    mid = (min(ys) + max(ys)) / 2 if ys else 0
-    # the tree grows top-down on screen (screens are wide): band position -> x, depth -> y
-    pos = {i: (round(py - mid, 2), round(px, 2)) for i, (px, py) in pos.items()}
-    taken = set(pos.values())
-    for h in sorted(hubs, key=lambda i: depth[i]):
-        ds = [pos[d] for d in by[h].get("deps", []) if d in pos]
-        hx = round(sum(p[0] for p in ds) / len(ds), 2)
-        hy = round(max(p[1] for p in ds) + DX, 2)
-        while (hx, hy) in taken or any(abs(hx - a) < 1.2 and abs(hy - b) < 1.2 for a, b in taken):
-            hy = round(hy + DY, 2)
-        pos[h] = (hx, hy); taken.add(pos[h])
+    order = sorted(rows)
+    for sweep in range(SWEEPS):
+        down = sweep % 2 == 0
+        for d in (order[1:] if down else order[-2::-1]):
+            row = rows[d]
+            want = {}
+            for i in row:
+                nb = parents[i] if down else children[i]
+                want[i] = sum(xpos[j] for j in nb) / len(nb) if nb else xpos[i]
+            settle(row, want)
+    xs = list(xpos.values())
+    mid = (min(xs) + max(xs)) / 2 if xs else 0
+    pos = {i: (round(xpos[i] - mid, 2), round(depth[i] * DY, 2)) for i in xpos}
     for x in quests:
         if "pos" in x:
             pos[x["id"]] = tuple(x["pos"])

@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "57CB4834EABEA660"
-			x: 1.6d
+			x: -11.37d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -32,7 +32,7 @@
 		}
 		{
 			id: "26BEBF6342A10D42"
-			x: -8.8d
+			x: -17.59d
 			y: 2.0d
 			icon: {
 				id: "aether:book_of_lore"
@@ -54,7 +54,7 @@
 		}
 		{
 			id: "1F092A54F8037433"
-			x: 4.0d
+			x: -14.29d
 			y: 2.0d
 			icon: {
 				id: "aether:skyroot_log"
@@ -85,7 +85,7 @@
 		}
 		{
 			id: "60F580AC00BE4892"
-			x: 4.0d
+			x: -14.01d
 			y: 4.0d
 			icon: {
 				id: "aether:holystone_pickaxe"
@@ -116,7 +116,7 @@
 		}
 		{
 			id: "654D5A55BB42444A"
-			x: 4.0d
+			x: -14.01d
 			y: 6.0d
 			icon: {
 				id: "aether:ambrosium_shard"
@@ -148,7 +148,7 @@
 		}
 		{
 			id: "53D2345AC89B0835"
-			x: 4.0d
+			x: -12.73d
 			y: 8.0d
 			icon: {
 				id: "aether:altar"
@@ -170,7 +170,7 @@
 		}
 		{
 			id: "1B815D468F9CCF79"
-			x: 5.6d
+			x: -14.23d
 			y: 8.0d
 			icon: {
 				id: "aether:freezer"
@@ -192,7 +192,7 @@
 		}
 		{
 			id: "18AA7F9B9C17BCE1"
-			x: 2.4d
+			x: -15.73d
 			y: 8.0d
 			icon: {
 				id: "aether:incubator"
@@ -215,7 +215,7 @@
 		}
 		{
 			id: "5DBD02C687182C9D"
-			x: -7.2d
+			x: -16.04d
 			y: 2.0d
 			icon: {
 				id: "aether:blue_moa_egg"
@@ -237,7 +237,7 @@
 		}
 		{
 			id: "13BDFCE86BC9783F"
-			x: -18.4d
+			x: -9.87d
 			y: 0.0d
 			icon: {
 				id: "aether:zanite_pickaxe"
@@ -267,7 +267,7 @@
 		}
 		{
 			id: "44624303E124B5EA"
-			x: -16.8d
+			x: -8.37d
 			y: 0.0d
 			icon: {
 				id: "aether:zanite_helmet"
@@ -313,7 +313,7 @@
 		}
 		{
 			id: "6194BCE15C5C9CDF"
-			x: -15.2d
+			x: -6.87d
 			y: 0.0d
 			icon: {
 				id: "aether:zanite_gloves"
@@ -335,7 +335,7 @@
 		}
 		{
 			id: "664A653B9D0CF6A3"
-			x: -13.6d
+			x: -5.37d
 			y: 0.0d
 			icon: {
 				id: "aether:zanite_ring"
@@ -365,7 +365,7 @@
 		}
 		{
 			id: "40971DC17C102818"
-			x: 5.6d
+			x: -14.23d
 			y: 10.0d
 			icon: {
 				id: "aether:ice_ring"
@@ -387,7 +387,7 @@
 		}
 		{
 			id: "61C6A0E5798C1DB8"
-			x: 8.8d
+			x: -11.21d
 			y: 2.0d
 			icon: {
 				id: "aether:cold_parachute"
@@ -410,7 +410,7 @@
 		}
 		{
 			id: "1539B08B133CF2D3"
-			x: 8.8d
+			x: -10.91d
 			y: 4.0d
 			icon: {
 				id: "aether:golden_parachute"
@@ -432,7 +432,7 @@
 		}
 		{
 			id: "6E4AF6B8A4CB34FC"
-			x: 7.2d
+			x: -15.51d
 			y: 4.0d
 			icon: {
 				id: "aether:golden_dart_shooter"
@@ -463,7 +463,7 @@
 		}
 		{
 			id: "3CABA48D07FA839C"
-			x: 7.2d
+			x: -15.51d
 			y: 6.0d
 			icon: {
 				id: "aether:poison_dart_shooter"
@@ -494,7 +494,7 @@
 		}
 		{
 			id: "108F62A4DB1634B5"
-			x: 10.4d
+			x: -9.71d
 			y: 2.0d
 			icon: {
 				id: "aether:swet_ball"
@@ -517,7 +517,7 @@
 		}
 		{
 			id: "4C37B1D77C5A365C"
-			x: -5.6d
+			x: -12.79d
 			y: 2.0d
 			icon: {
 				id: "aether:blue_berry"
@@ -548,7 +548,7 @@
 		}
 		{
 			id: "0DC27AF0BD968B69"
-			x: 4.0d
+			x: -12.73d
 			y: 10.0d
 			icon: {
 				id: "aether:enchanted_berry"
@@ -572,7 +572,7 @@
 		}
 		{
 			id: "42179C47C3563FA4"
-			x: 10.4d
+			x: -9.41d
 			y: 4.0d
 			icon: {
 				id: "aether:blue_gummy_swet"
@@ -595,7 +595,7 @@
 		}
 		{
 			id: "665F084C83DDEBDD"
-			x: -4.0d
+			x: -8.21d
 			y: 2.0d
 			icon: {
 				id: "aether:quicksoil"
@@ -627,7 +627,7 @@
 		}
 		{
 			id: "33A6E21A49B8E8B1"
-			x: -2.4d
+			x: -6.71d
 			y: 2.0d
 			icon: {
 				id: "aether:cold_aercloud"
@@ -659,7 +659,7 @@
 		}
 		{
 			id: "30BC81A05184506E"
-			x: 0.8d
+			x: -12.41d
 			y: 4.0d
 			icon: {
 				id: "aether:golden_amber"
@@ -682,7 +682,7 @@
 		}
 		{
 			id: "3D36C44D5BEEED71"
-			x: -0.8d
+			x: -3.71d
 			y: 2.0d
 			icon: {
 				id: "aether:aether_portal_frame"
@@ -702,7 +702,7 @@
 		}
 		{
 			id: "5E911E344FEBFB3D"
-			x: 12.0d
+			x: -5.21d
 			y: 2.0d
 			icon: {
 				id: "aether:bronze_dungeon_key"
@@ -721,7 +721,7 @@
 		}
 		{
 			id: "08086AD3C37DBF74"
-			x: 14.4d
+			x: 1.09d
 			y: 0.0d
 			icon: {
 				id: "aether:bronze_dungeon_key"
@@ -743,7 +743,7 @@
 		}
 		{
 			id: "6214182AE1EB9618"
-			x: 14.4d
+			x: 1.91d
 			y: 2.0d
 			icon: {
 				id: "aether:enchanted_gravitite"
@@ -766,7 +766,7 @@
 		}
 		{
 			id: "228AA03EF355CEA5"
-			x: 13.6d
+			x: 4.87d
 			y: 4.0d
 			icon: {
 				id: "aether:gravitite_helmet"
@@ -812,7 +812,7 @@
 		}
 		{
 			id: "35C60B398E091F84"
-			x: 15.2d
+			x: -1.91d
 			y: 4.0d
 			icon: {
 				id: "aether:gravitite_pickaxe"
@@ -834,7 +834,7 @@
 		}
 		{
 			id: "4972C6A445A2CAEE"
-			x: -12.0d
+			x: -3.87d
 			y: 0.0d
 			icon: {
 				id: "aether:silver_dungeon_key"
@@ -853,7 +853,7 @@
 		}
 		{
 			id: "5FB905FDDDDB793E"
-			x: -10.4d
+			x: 5.59d
 			y: 0.0d
 			icon: {
 				id: "aether:valkyrie_helmet"
@@ -899,8 +899,8 @@
 		}
 		{
 			id: "4A7E9FD340472574"
-			x: -18.4d
-			y: 1.5d
+			x: -0.87d
+			y: 0.0d
 			icon: {
 				id: "aether:valkyrie_lance"
 				count: 1
@@ -921,8 +921,8 @@
 		}
 		{
 			id: "4A5EB7F6A0A09202"
-			x: -16.8d
-			y: 1.5d
+			x: 4.09d
+			y: 0.0d
 			icon: {
 				id: "aether:neptune_helmet"
 				count: 1
@@ -967,8 +967,8 @@
 		}
 		{
 			id: "177262B1FF8AD54B"
-			x: -15.2d
-			y: 1.5d
+			x: 10.09d
+			y: 0.0d
 			icon: {
 				id: "aether:gold_dungeon_key"
 				count: 1
@@ -986,7 +986,7 @@
 		}
 		{
 			id: "163831DD11F3A1A3"
-			x: 16.8d
+			x: 2.59d
 			y: 0.0d
 			icon: {
 				id: "aether:phoenix_helmet"
@@ -1032,8 +1032,8 @@
 		}
 		{
 			id: "7450698EFDB0FBE4"
-			x: -13.6d
-			y: 1.5d
+			x: 11.59d
+			y: 0.0d
 			icon: {
 				id: "aether:phoenix_bow"
 				count: 1
@@ -1054,7 +1054,7 @@
 		}
 		{
 			id: "6031406EF6D183DA"
-			x: 16.8d
+			x: 0.41d
 			y: 2.0d
 			icon: {
 				id: "aether:obsidian_chestplate"
@@ -1076,7 +1076,7 @@
 		}
 		{
 			id: "745340AAF59D8E96"
-			x: 18.4d
+			x: -2.37d
 			y: 0.0d
 			icon: {
 				id: "aether:flaming_sword"
@@ -1114,7 +1114,7 @@
 		}
 		{
 			id: "57E53AF056CC6DBF"
-			x: 18.4d
+			x: -2.21d
 			y: 2.0d
 			icon: {
 				id: "aether:vampire_blade"
@@ -1136,7 +1136,7 @@
 		}
 		{
 			id: "7DFA457CE94E0AA2"
-			x: 12.0d
+			x: -6.41d
 			y: 4.0d
 			icon: {
 				id: "aether:hammer_of_kingbdogz"
@@ -1158,8 +1158,8 @@
 		}
 		{
 			id: "5FC480D7CEC234B7"
-			x: -12.0d
-			y: 1.5d
+			x: 7.09d
+			y: 0.0d
 			icon: {
 				id: "aether:cloud_staff"
 				count: 1
@@ -1188,8 +1188,8 @@
 		}
 		{
 			id: "10F015CF2C87093B"
-			x: -10.4d
-			y: 1.5d
+			x: 13.09d
+			y: 0.0d
 			icon: {
 				id: "aether:agility_cape"
 				count: 1
@@ -1218,8 +1218,8 @@
 		}
 		{
 			id: "6DAC0BEF66AC01E2"
-			x: -18.4d
-			y: 3.0d
+			x: 14.59d
+			y: 0.0d
 			icon: {
 				id: "aether:shield_of_repulsion"
 				count: 1
@@ -1240,8 +1240,8 @@
 		}
 		{
 			id: "003213FD869C4D94"
-			x: -16.8d
-			y: 3.0d
+			x: 16.09d
+			y: 0.0d
 			icon: {
 				id: "aether:regeneration_stone"
 				count: 1
@@ -1262,8 +1262,8 @@
 		}
 		{
 			id: "2E3DBCFA30BA66B0"
-			x: -15.2d
-			y: 3.0d
+			x: 8.59d
+			y: 0.0d
 			icon: {
 				id: "aether:life_shard"
 				count: 1
@@ -1284,8 +1284,8 @@
 		}
 		{
 			id: "767EE34F585E0751"
-			x: -13.6d
-			y: 3.0d
+			x: 17.59d
+			y: 0.0d
 			icon: {
 				id: "aether:victory_medal"
 				count: 1
@@ -1307,7 +1307,7 @@
 		}
 		{
 			id: "3864AD324F7C2EAD"
-			x: -1.44d
+			x: 4.87d
 			y: 6.0d
 			shape: "hexagon"
 			icon: {

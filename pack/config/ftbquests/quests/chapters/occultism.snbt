@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "01CE06E57550BE24"
-			x: 0.0d
+			x: 9.33d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -35,7 +35,7 @@
 		}
 		{
 			id: "5D53F6CD01048766"
-			x: -0.8d
+			x: 6.7d
 			y: 2.0d
 			icon: {
 				id: "occultism:datura"
@@ -58,7 +58,7 @@
 		}
 		{
 			id: "3249B651AE7FF470"
-			x: -4.8d
+			x: 3.28d
 			y: 4.0d
 			icon: {
 				id: "occultism:chalk_white"
@@ -88,7 +88,7 @@
 		}
 		{
 			id: "6BBDBFD07168218A"
-			x: -4.8d
+			x: -0.03d
 			y: 6.0d
 			icon: {
 				id: "occultism:book_of_binding_foliot"
@@ -110,7 +110,7 @@
 		}
 		{
 			id: "1429288ACE921923"
-			x: -19.2d
+			x: -9.9d
 			y: 8.0d
 			icon: {
 				id: "occultism:book_of_calling_foliot_lumberjack"
@@ -133,7 +133,7 @@
 		}
 		{
 			id: "7DF2700D3B654BFD"
-			x: -4.8d
+			x: -1.9d
 			y: 8.0d
 			icon: {
 				id: "occultism:book_of_binding_djinni"
@@ -155,7 +155,7 @@
 		}
 		{
 			id: "2A27D09E6BCC33F9"
-			x: -13.6d
+			x: -7.54d
 			y: 10.0d
 			icon: {
 				id: "occultism:storage_controller"
@@ -178,7 +178,7 @@
 		}
 		{
 			id: "33B194723B40588C"
-			x: -8.0d
+			x: -5.3d
 			y: 10.0d
 			shape: "gear"
 			icon: {
@@ -202,7 +202,7 @@
 		}
 		{
 			id: "4F522F244FA7F524"
-			x: 20.8d
+			x: 10.13d
 			y: 4.0d
 			icon: {
 				id: "occultism:demons_dream_essence"
@@ -224,7 +224,7 @@
 		}
 		{
 			id: "23BB481071838C9B"
-			x: 20.8d
+			x: 9.77d
 			y: 6.0d
 			icon: {
 				id: "occultism:otherworld_goggles"
@@ -247,7 +247,7 @@
 		}
 		{
 			id: "11F2CEF5CA17E371"
-			x: 24.0d
+			x: 12.34d
 			y: 6.0d
 			icon: {
 				id: "occultism:otherworld_sapling"
@@ -270,7 +270,7 @@
 		}
 		{
 			id: "20E03685BC9E6B17"
-			x: 21.6d
+			x: 8.1d
 			y: 8.0d
 			icon: {
 				id: "occultism:iesnium_ingot"
@@ -293,7 +293,7 @@
 		}
 		{
 			id: "5B4F4EBBEDCAE623"
-			x: -25.6d
+			x: 2.43d
 			y: 6.0d
 			icon: {
 				id: "occultism:divination_rod"
@@ -316,7 +316,7 @@
 		}
 		{
 			id: "38FFF53198F0B11A"
-			x: -0.0d
+			x: -0.8d
 			y: 10.0d
 			icon: {
 				id: "occultism:familiar_ring"
@@ -339,7 +339,7 @@
 		}
 		{
 			id: "7E7BA6520B7760EB"
-			x: -22.4d
+			x: -0.4d
 			y: 8.0d
 			icon: {
 				id: "occultism:book_of_calling_foliot_cleaner"
@@ -362,7 +362,7 @@
 		}
 		{
 			id: "2482B81DD409A7CA"
-			x: -20.8d
+			x: 1.1d
 			y: 8.0d
 			icon: {
 				id: "occultism:book_of_calling_foliot_transport_items"
@@ -385,7 +385,7 @@
 		}
 		{
 			id: "570A419BD05A6077"
-			x: 4.8d
+			x: 5.96d
 			y: 10.0d
 			icon: {
 				id: "occultism:book_of_calling_djinni_manage_machine"
@@ -408,7 +408,7 @@
 		}
 		{
 			id: "6BE1348766348F20"
-			x: 25.6d
+			x: 11.96d
 			y: 2.0d
 			icon: {
 				id: "occultism:spirit_fire"
@@ -430,7 +430,7 @@
 		}
 		{
 			id: "157AAA8C21BFE0F9"
-			x: 17.6d
+			x: 8.27d
 			y: 6.0d
 			icon: {
 				id: "occultism:demons_dream_essence"
@@ -452,7 +452,7 @@
 		}
 		{
 			id: "13DE2F84620EE0AF"
-			x: 15.2d
+			x: 6.77d
 			y: 6.0d
 			icon: {
 				id: "occultism:golden_sacrificial_bowl"
@@ -483,7 +483,7 @@
 		}
 		{
 			id: "36A810031247CDD3"
-			x: 15.2d
+			x: 6.6d
 			y: 8.0d
 			icon: {
 				id: "occultism:large_candle"
@@ -506,7 +506,7 @@
 		}
 		{
 			id: "5711E9243534BDAE"
-			x: -24.0d
+			x: 3.93d
 			y: 6.0d
 			icon: {
 				id: "occultism:brush"
@@ -528,7 +528,7 @@
 		}
 		{
 			id: "3B559043D151BEBF"
-			x: 15.2d
+			x: 7.46d
 			y: 10.0d
 			icon: {
 				id: "occultism:pentacle_craft"
@@ -547,7 +547,7 @@
 		}
 		{
 			id: "0B2E97D95D6ABF82"
-			x: 14.4d
+			x: 8.85d
 			y: 12.0d
 			icon: {
 				id: "occultism:book_of_binding_empty"
@@ -577,7 +577,7 @@
 		}
 		{
 			id: "2CA35C400C546163"
-			x: 14.4d
+			x: 7.79d
 			y: 14.0d
 			icon: {
 				id: "occultism:book_of_binding_bound_foliot"
@@ -599,7 +599,7 @@
 		}
 		{
 			id: "14527BC9485CE9F5"
-			x: 14.4d
+			x: 8.65d
 			y: 16.0d
 			icon: {
 				id: "occultism:otherworld_essence"
@@ -639,7 +639,7 @@
 		}
 		{
 			id: "22CAE8CB27182222"
-			x: 9.6d
+			x: 8.96d
 			y: 10.0d
 			icon: {
 				id: "occultism:miner_foliot_unspecialized"
@@ -661,7 +661,7 @@
 		}
 		{
 			id: "47BFFD5BDFFC48EA"
-			x: 9.6d
+			x: 7.35d
 			y: 12.0d
 			icon: {
 				id: "occultism:dimensional_mineshaft"
@@ -683,7 +683,7 @@
 		}
 		{
 			id: "785111D423C73BF4"
-			x: 9.6d
+			x: 4.79d
 			y: 14.0d
 			icon: {
 				id: "occultism:miner_djinni_ores"
@@ -706,7 +706,7 @@
 		}
 		{
 			id: "1F304D85DB83850F"
-			x: 9.6d
+			x: 0.41d
 			y: 16.0d
 			icon: {
 				id: "occultism:miner_afrit_deeps"
@@ -729,7 +729,7 @@
 		}
 		{
 			id: "60BFA4BAD2244519"
-			x: 9.6d
+			x: -0.59d
 			y: 18.0d
 			icon: {
 				id: "occultism:miner_marid_master"
@@ -751,7 +751,7 @@
 		}
 		{
 			id: "62898C38547CB748"
-			x: 12.0d
+			x: 2.85d
 			y: 8.0d
 			icon: {
 				id: "occultism:iron_dust"
@@ -774,7 +774,7 @@
 		}
 		{
 			id: "33F1EAB5F17B4004"
-			x: 11.2d
+			x: 2.96d
 			y: 10.0d
 			icon: {
 				id: "minecraft:iron_ingot"
@@ -792,7 +792,7 @@
 		}
 		{
 			id: "05C7EA617D95F814"
-			x: 12.8d
+			x: 4.46d
 			y: 10.0d
 			icon: {
 				id: "minecraft:amethyst_shard"
@@ -810,7 +810,7 @@
 		}
 		{
 			id: "1D0B04D9A9947955"
-			x: -19.2d
+			x: -9.04d
 			y: 10.0d
 			icon: {
 				id: "occultism:book_of_calling_foliot_farmer"
@@ -832,7 +832,7 @@
 		}
 		{
 			id: "2E048D09F8C3DC88"
-			x: 24.0d
+			x: 12.6d
 			y: 8.0d
 			icon: {
 				id: "occultism:otherstone"
@@ -850,7 +850,7 @@
 		}
 		{
 			id: "768BC79277A283F6"
-			x: -17.6d
+			x: -3.8d
 			y: 10.0d
 			icon: {
 				id: "minecraft:lightning_rod"
@@ -868,7 +868,7 @@
 		}
 		{
 			id: "2FB0C781AACEF443"
-			x: -11.2d
+			x: -9.6d
 			y: 12.0d
 			icon: {
 				id: "minecraft:wither_skeleton_skull"
@@ -890,7 +890,7 @@
 		}
 		{
 			id: "20A5250B160AC5B0"
-			x: 7.2d
+			x: 0.7d
 			y: 10.0d
 			icon: {
 				id: "occultism:pentacle_possess"
@@ -908,7 +908,7 @@
 		}
 		{
 			id: "63EFFCF318247D1D"
-			x: 8.0d
+			x: -1.65d
 			y: 12.0d
 			icon: {
 				id: "minecraft:shulker_shell"
@@ -931,7 +931,7 @@
 		}
 		{
 			id: "5BA258F7F0DD5F3E"
-			x: 8.0d
+			x: -1.21d
 			y: 14.0d
 			icon: {
 				id: "minecraft:echo_shard"
@@ -949,7 +949,7 @@
 		}
 		{
 			id: "16B9D3C04837AABD"
-			x: 6.4d
+			x: 4.35d
 			y: 12.0d
 			icon: {
 				id: "minecraft:zombie_head"
@@ -967,7 +967,7 @@
 		}
 		{
 			id: "5734A13F8CF72FE5"
-			x: -0.0d
+			x: -0.15d
 			y: 12.0d
 			icon: {
 				id: "occultism:familiar_ring"
@@ -989,7 +989,7 @@
 		}
 		{
 			id: "64C5700CB6C57BCE"
-			x: -3.2d
+			x: -7.21d
 			y: 14.0d
 			icon: {
 				id: "minecraft:hopper"
@@ -1007,7 +1007,7 @@
 		}
 		{
 			id: "09AE03699F6FF6FE"
-			x: -1.6d
+			x: -5.71d
 			y: 14.0d
 			icon: {
 				id: "minecraft:anvil"
@@ -1025,7 +1025,7 @@
 		}
 		{
 			id: "4646F00FB5F7ADC2"
-			x: -0.0d
+			x: 3.29d
 			y: 14.0d
 			icon: {
 				id: "minecraft:dragon_head"
@@ -1043,7 +1043,7 @@
 		}
 		{
 			id: "64F4FE179136705A"
-			x: 1.6d
+			x: 0.29d
 			y: 14.0d
 			icon: {
 				id: "occultism:iesnium_block"
@@ -1062,7 +1062,7 @@
 		}
 		{
 			id: "21E8DA2E786B5EBF"
-			x: 3.2d
+			x: 6.29d
 			y: 14.0d
 			icon: {
 				id: "occultism:soul_gem"
@@ -1084,7 +1084,7 @@
 		}
 		{
 			id: "05BF4C9E9D36E77F"
-			x: -9.6d
+			x: -8.1d
 			y: 12.0d
 			icon: {
 				id: "occultism:soul_gem"
@@ -1106,7 +1106,7 @@
 		}
 		{
 			id: "78E9154728593312"
-			x: 25.6d
+			x: 11.96d
 			y: 4.0d
 			icon: {
 				id: "occultism:infused_pickaxe"
@@ -1128,7 +1128,7 @@
 		}
 		{
 			id: "266E74BDF17EB46A"
-			x: 20.8d
+			x: 11.96d
 			y: 10.0d
 			icon: {
 				id: "occultism:iesnium_pickaxe"
@@ -1151,7 +1151,7 @@
 		}
 		{
 			id: "7B3F08C22542815B"
-			x: 22.4d
+			x: 10.46d
 			y: 10.0d
 			icon: {
 				id: "occultism:iesnium_anvil"
@@ -1173,7 +1173,7 @@
 		}
 		{
 			id: "7E30173AF0DAA1A7"
-			x: -12.8d
+			x: -3.15d
 			y: 12.0d
 			icon: {
 				id: "occultism:storage_stabilizer_tier1"
@@ -1195,7 +1195,7 @@
 		}
 		{
 			id: "7005DBFFDE4D8507"
-			x: -12.8d
+			x: -2.71d
 			y: 14.0d
 			icon: {
 				id: "occultism:storage_stabilizer_tier4"
@@ -1217,7 +1217,7 @@
 		}
 		{
 			id: "777B0130DE546921"
-			x: -14.4d
+			x: -12.6d
 			y: 12.0d
 			icon: {
 				id: "occultism:storage_remote"
@@ -1239,7 +1239,7 @@
 		}
 		{
 			id: "281C924603403A40"
-			x: 4.8d
+			x: 5.85d
 			y: 12.0d
 			icon: {
 				id: "occultism:stable_wormhole"
@@ -1261,7 +1261,7 @@
 		}
 		{
 			id: "1B5A0ED0BD2CD9FC"
-			x: 16.0d
+			x: 2.85d
 			y: 12.0d
 			icon: {
 				id: "occultism:satchel"
@@ -1283,7 +1283,7 @@
 		}
 		{
 			id: "0B2A09B8ED730BCA"
-			x: 16.0d
+			x: 1.79d
 			y: 14.0d
 			icon: {
 				id: "occultism:ritual_satchel_t1"
@@ -1305,7 +1305,7 @@
 		}
 		{
 			id: "1BAEF5BAEF1A9803"
-			x: -8.0d
+			x: 1.35d
 			y: 12.0d
 			icon: {
 				id: "occultism:entity_wormhole"
@@ -1327,7 +1327,7 @@
 		}
 		{
 			id: "77EC4B9921BBA1C4"
-			x: 19.2d
+			x: 11.1d
 			y: 8.0d
 			icon: {
 				id: "occultism:true_sight_staff"
@@ -1349,7 +1349,7 @@
 		}
 		{
 			id: "1EE09B08F3B6567C"
-			x: -6.4d
+			x: -4.65d
 			y: 12.0d
 			icon: {
 				id: "occultism:vitality_compass"
@@ -1371,7 +1371,7 @@
 		}
 		{
 			id: "7526D01774227A65"
-			x: -16.0d
+			x: -2.3d
 			y: 10.0d
 			icon: {
 				id: "occultism:knowledge_tablet"
@@ -1393,7 +1393,7 @@
 		}
 		{
 			id: "529F0FBF184DE56C"
-			x: -4.8d
+			x: -6.15d
 			y: 12.0d
 			icon: {
 				id: "occultism:afrit_essence"
@@ -1415,7 +1415,7 @@
 		}
 		{
 			id: "2DD49A38DAC38A8E"
-			x: -4.8d
+			x: -4.21d
 			y: 14.0d
 			icon: {
 				id: "occultism:marid_essence"
@@ -1437,7 +1437,7 @@
 		}
 		{
 			id: "32764B23238080CF"
-			x: -4.8d
+			x: -1.09d
 			y: 16.0d
 			icon: {
 				id: "occultism:dimensional_battlefield"
@@ -1459,7 +1459,7 @@
 		}
 		{
 			id: "4CE75A9F1AC7342B"
-			x: 1.37d
+			x: -0.59d
 			y: 20.0d
 			shape: "hexagon"
 			icon: {

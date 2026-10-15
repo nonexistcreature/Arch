@@ -164,7 +164,7 @@
 		}
 		{
 			id: "03A29457CE8D2345"
-			x: 0.0d
+			x: -1.5d
 			y: 10.0d
 			icon: {
 				id: "bigreactors:basic_turbinerotorblade"
@@ -195,7 +195,7 @@
 		}
 		{
 			id: "0AECD052E87EA63D"
-			x: -1.6d
+			x: 0.0d
 			y: 10.0d
 			icon: {
 				id: "bigreactors:reprocessorcontroller"
@@ -217,7 +217,7 @@
 		}
 		{
 			id: "0C2DA46EC2979143"
-			x: 0.0d
+			x: -1.5d
 			y: 12.0d
 			icon: {
 				id: "bigreactors:reinforced_reactorcasing"
@@ -239,7 +239,7 @@
 		}
 		{
 			id: "7352B03F0E567940"
-			x: 1.6d
+			x: 1.5d
 			y: 10.0d
 			icon: {
 				id: "mekanismgenerators:fission_reactor_casing"
@@ -258,7 +258,7 @@
 		}
 		{
 			id: "0679515BD8C61681"
-			x: 1.6d
+			x: 1.5d
 			y: 12.0d
 			shape: "hexagon"
 			icon: {

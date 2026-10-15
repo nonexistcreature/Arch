@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "3AD12F9A22C2B78E"
-			x: 0.0d
+			x: 4.75d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -46,7 +46,7 @@
 		}
 		{
 			id: "7600D492D41F2A33"
-			x: -45.6d
+			x: -0.55d
 			y: 2.0d
 			icon: {
 				id: "create:goggles"
@@ -68,7 +68,7 @@
 		}
 		{
 			id: "296FB32E35848D1D"
-			x: 4.0d
+			x: 5.02d
 			y: 2.0d
 			icon: {
 				id: "create:water_wheel"
@@ -108,7 +108,7 @@
 		}
 		{
 			id: "20FAD4E8DA79E2D4"
-			x: -0.8d
+			x: -5.43d
 			y: 4.0d
 			icon: {
 				id: "create:mechanical_press"
@@ -130,7 +130,7 @@
 		}
 		{
 			id: "34E945325D85CA7B"
-			x: -28.0d
+			x: -17.45d
 			y: 6.0d
 			icon: {
 				id: "create:belt_connector"
@@ -153,7 +153,7 @@
 		}
 		{
 			id: "55D84A0552C38733"
-			x: -34.4d
+			x: -15.95d
 			y: 6.0d
 			icon: {
 				id: "create:crushing_wheel"
@@ -186,7 +186,7 @@
 		}
 		{
 			id: "2447D5B34A8A9577"
-			x: -30.4d
+			x: -19.22d
 			y: 8.0d
 			icon: {
 				id: "create:encased_fan"
@@ -208,7 +208,7 @@
 		}
 		{
 			id: "3F74EE2573975D1F"
-			x: 4.0d
+			x: 7.58d
 			y: 6.0d
 			icon: {
 				id: "create:mechanical_mixer"
@@ -238,7 +238,7 @@
 		}
 		{
 			id: "157A9338DC294AEA"
-			x: 1.6d
+			x: 0.97d
 			y: 8.0d
 			shape: "hexagon"
 			icon: {
@@ -272,7 +272,7 @@
 		}
 		{
 			id: "51A00B20682F60A0"
-			x: -4.8d
+			x: -13.73d
 			y: 10.0d
 			icon: {
 				id: "create:precision_mechanism"
@@ -295,7 +295,7 @@
 		}
 		{
 			id: "40070ED0DEB601C3"
-			x: -8.8d
+			x: -18.47d
 			y: 12.0d
 			icon: {
 				id: "create:deployer"
@@ -318,7 +318,7 @@
 		}
 		{
 			id: "16E227013AEA622A"
-			x: 4.0d
+			x: -5.38d
 			y: 10.0d
 			icon: {
 				id: "create:steam_engine"
@@ -340,7 +340,7 @@
 		}
 		{
 			id: "5F0E571DB9523C4F"
-			x: 42.4d
+			x: 12.31d
 			y: 4.0d
 			icon: {
 				id: "create:mechanical_bearing"
@@ -370,7 +370,7 @@
 		}
 		{
 			id: "6BFCC5C406BD8E53"
-			x: 44.8d
+			x: 12.08d
 			y: 6.0d
 			icon: {
 				id: "create:mechanical_drill"
@@ -393,7 +393,7 @@
 		}
 		{
 			id: "337822115DCCE924"
-			x: 47.2d
+			x: 6.08d
 			y: 6.0d
 			icon: {
 				id: "create:mechanical_harvester"
@@ -415,7 +415,7 @@
 		}
 		{
 			id: "189B47E1DFEF15C5"
-			x: 28.0d
+			x: 18.21d
 			y: 8.0d
 			icon: {
 				id: "create:fluid_pipe"
@@ -445,7 +445,7 @@
 		}
 		{
 			id: "3BE63B3331C9B9B8"
-			x: 10.4d
+			x: 2.12d
 			y: 10.0d
 			icon: {
 				id: "create:track"
@@ -476,7 +476,7 @@
 		}
 		{
 			id: "5A15E86CEF89EA05"
-			x: 11.2d
+			x: 3.88d
 			y: 12.0d
 			icon: {
 				id: "create:controls"
@@ -516,7 +516,7 @@
 		}
 		{
 			id: "347C760F79CA6686"
-			x: -3.2d
+			x: -8.72d
 			y: 12.0d
 			icon: {
 				id: "create:stock_ticker"
@@ -547,7 +547,7 @@
 		}
 		{
 			id: "5856C39EACDC4542"
-			x: 15.2d
+			x: 3.62d
 			y: 10.0d
 			icon: {
 				id: "create:schematicannon"
@@ -570,7 +570,7 @@
 		}
 		{
 			id: "5975871C2753E3AA"
-			x: 2.4d
+			x: -7.22d
 			y: 12.0d
 			icon: {
 				id: "createaddition:alternator"
@@ -593,7 +593,7 @@
 		}
 		{
 			id: "5FBE8D5CCCE83C71"
-			x: 20.8d
+			x: 1.69d
 			y: 14.0d
 			shape: "gear"
 			icon: {
@@ -629,7 +629,7 @@
 		}
 		{
 			id: "7861F972337E213A"
-			x: -42.4d
+			x: 3.2d
 			y: 4.0d
 			icon: {
 				id: "create:millstone"
@@ -651,7 +651,7 @@
 		}
 		{
 			id: "45E52B7675E48E3D"
-			x: 32.8d
+			x: -1.75d
 			y: 6.0d
 			icon: {
 				id: "create:depot"
@@ -674,7 +674,7 @@
 		}
 		{
 			id: "087DF855D6631721"
-			x: -26.4d
+			x: -15.27d
 			y: 8.0d
 			icon: {
 				id: "create:andesite_funnel"
@@ -706,7 +706,7 @@
 		}
 		{
 			id: "50FDEED93633617E"
-			x: -31.2d
+			x: -16.73d
 			y: 10.0d
 			icon: {
 				id: "create:crushed_raw_iron"
@@ -740,7 +740,7 @@
 		}
 		{
 			id: "6EFA612B7E06CDA1"
-			x: 34.4d
+			x: 9.08d
 			y: 6.0d
 			icon: {
 				id: "create:mechanical_saw"
@@ -762,7 +762,7 @@
 		}
 		{
 			id: "4842E7CF7AF8A692"
-			x: -44.0d
+			x: -1.65d
 			y: 4.0d
 			icon: {
 				id: "create:gearshift"
@@ -792,7 +792,7 @@
 		}
 		{
 			id: "492AF3B3494FC98F"
-			x: 36.0d
+			x: 4.58d
 			y: 6.0d
 			icon: {
 				id: "create:elevator_pulley"
@@ -824,7 +824,7 @@
 		}
 		{
 			id: "0918D6D0D5C847D6"
-			x: -20.0d
+			x: -10.73d
 			y: 10.0d
 			icon: {
 				id: "create:item_vault"
@@ -848,7 +848,7 @@
 		}
 		{
 			id: "4031E8667755DC63"
-			x: 30.4d
+			x: 15.62d
 			y: 10.0d
 			icon: {
 				id: "create:spout"
@@ -878,7 +878,7 @@
 		}
 		{
 			id: "626D50B98EDCF165"
-			x: 29.6d
+			x: 12.88d
 			y: 12.0d
 			icon: {
 				id: "create:bar_of_chocolate"
@@ -902,7 +902,7 @@
 		}
 		{
 			id: "77513643791B2DE5"
-			x: -10.4d
+			x: -11.12d
 			y: 12.0d
 			icon: {
 				id: "create:mechanical_crafter"
@@ -925,7 +925,7 @@
 		}
 		{
 			id: "4CF9CAB1D7B00C1A"
-			x: 17.6d
+			x: -2.38d
 			y: 10.0d
 			icon: {
 				id: "create:copper_backtank"
@@ -956,7 +956,7 @@
 		}
 		{
 			id: "7D91FDAB52BA16A2"
-			x: -18.4d
+			x: -9.23d
 			y: 10.0d
 			icon: {
 				id: "create:extendo_grip"
@@ -979,7 +979,7 @@
 		}
 		{
 			id: "7FB122966F58C63E"
-			x: -16.8d
+			x: -0.88d
 			y: 10.0d
 			icon: {
 				id: "create:brown_toolbox"
@@ -1002,7 +1002,7 @@
 		}
 		{
 			id: "5375F9873F5AC43D"
-			x: 20.0d
+			x: 5.12d
 			y: 10.0d
 			icon: {
 				id: "create:display_board"
@@ -1034,7 +1034,7 @@
 		}
 		{
 			id: "5C4FE191A3A807BE"
-			x: 13.6d
+			x: 3.19d
 			y: 14.0d
 			icon: {
 				id: "create:track_signal"
@@ -1057,7 +1057,7 @@
 		}
 		{
 			id: "51969B0301BA1EDC"
-			x: 8.8d
+			x: 4.69d
 			y: 14.0d
 			icon: {
 				id: "railways:semaphore"
@@ -1088,7 +1088,7 @@
 		}
 		{
 			id: "46F98B846DE095EC"
-			x: 16.8d
+			x: -1.22d
 			y: 12.0d
 			icon: {
 				id: "create:potato_cannon"
@@ -1111,7 +1111,7 @@
 		}
 		{
 			id: "5B1D8C7DB03F8655"
-			x: 31.2d
+			x: 14.38d
 			y: 12.0d
 			icon: {
 				id: "create_enchantment_industry:blaze_enchanter"
@@ -1130,7 +1130,7 @@
 		}
 		{
 			id: "2B6BA5EF7AFE7EFB"
-			x: -15.2d
+			x: 0.62d
 			y: 10.0d
 			icon: {
 				id: "create_power_loader:andesite_chunk_loader"
@@ -1149,7 +1149,7 @@
 		}
 		{
 			id: "6E41A64ECE5960D9"
-			x: -50.4d
+			x: 6.52d
 			y: 2.0d
 			icon: {
 				id: "create:hand_crank"
@@ -1171,7 +1171,7 @@
 		}
 		{
 			id: "17742DEF09F4E37B"
-			x: -40.8d
+			x: 4.7d
 			y: 4.0d
 			icon: {
 				id: "create:large_cogwheel"
@@ -1203,7 +1203,7 @@
 		}
 		{
 			id: "3E0C74616C4C4098"
-			x: -39.2d
+			x: 6.2d
 			y: 4.0d
 			icon: {
 				id: "create:gearbox"
@@ -1234,7 +1234,7 @@
 		}
 		{
 			id: "6E4CC7DED631E6FB"
-			x: -37.6d
+			x: 7.7d
 			y: 4.0d
 			icon: {
 				id: "create:large_water_wheel"
@@ -1256,7 +1256,7 @@
 		}
 		{
 			id: "5A56460EB76ECD8F"
-			x: -36.0d
+			x: 9.2d
 			y: 4.0d
 			icon: {
 				id: "create:windmill_bearing"
@@ -1287,7 +1287,7 @@
 		}
 		{
 			id: "439AB1D66F23B816"
-			x: -47.2d
+			x: -0.15d
 			y: 4.0d
 			icon: {
 				id: "create:speedometer"
@@ -1317,7 +1317,7 @@
 		}
 		{
 			id: "09B72D21E7475B38"
-			x: -44.0d
+			x: -7.42d
 			y: 6.0d
 			icon: {
 				id: "create:sequenced_gearshift"
@@ -1347,7 +1347,7 @@
 		}
 		{
 			id: "789866CD897AFFAD"
-			x: 5.6d
+			x: -4.22d
 			y: 12.0d
 			icon: {
 				id: "create:blaze_burner"
@@ -1379,7 +1379,7 @@
 		}
 		{
 			id: "65F0D1BE947AA3B9"
-			x: 5.6d
+			x: -5.81d
 			y: 14.0d
 			icon: {
 				id: "create:blaze_cake"
@@ -1401,7 +1401,7 @@
 		}
 		{
 			id: "3C14611B85BBFA31"
-			x: 4.0d
+			x: -5.72d
 			y: 12.0d
 			icon: {
 				id: "create:steam_whistle"
@@ -1423,7 +1423,7 @@
 		}
 		{
 			id: "6F5A49281E0F0CF6"
-			x: 49.6d
+			x: 3.08d
 			y: 6.0d
 			icon: {
 				id: "create:mechanical_piston"
@@ -1454,7 +1454,7 @@
 		}
 		{
 			id: "24B46602A0468CD7"
-			x: 48.8d
+			x: -3.04d
 			y: 8.0d
 			icon: {
 				id: "create:gantry_carriage"
@@ -1485,7 +1485,7 @@
 		}
 		{
 			id: "5F0AB56D6CE44650"
-			x: 50.4d
+			x: 8.5d
 			y: 8.0d
 			icon: {
 				id: "create:rope_pulley"
@@ -1507,7 +1507,7 @@
 		}
 		{
 			id: "528D00532814FEBA"
-			x: 37.6d
+			x: 10.58d
 			y: 6.0d
 			icon: {
 				id: "create:linear_chassis"
@@ -1539,7 +1539,7 @@
 		}
 		{
 			id: "63B007A73C7624F6"
-			x: 39.2d
+			x: 13.58d
 			y: 6.0d
 			icon: {
 				id: "create:sticker"
@@ -1561,7 +1561,7 @@
 		}
 		{
 			id: "529DC58B8DBDDA33"
-			x: -13.6d
+			x: 20.12d
 			y: 10.0d
 			icon: {
 				id: "create:clockwork_bearing"
@@ -1584,7 +1584,7 @@
 		}
 		{
 			id: "0094FCEEFD55BC35"
-			x: 40.8d
+			x: 15.08d
 			y: 6.0d
 			icon: {
 				id: "create:cart_assembler"
@@ -1606,7 +1606,7 @@
 		}
 		{
 			id: "0005700F5C84E0CB"
-			x: 44.0d
+			x: 11.5d
 			y: 8.0d
 			icon: {
 				id: "create:contraption_controls"
@@ -1628,7 +1628,7 @@
 		}
 		{
 			id: "14F40C35FEE4570C"
-			x: 47.2d
+			x: 10.0d
 			y: 8.0d
 			icon: {
 				id: "create:mechanical_plough"
@@ -1650,7 +1650,7 @@
 		}
 		{
 			id: "6E4C621731A2E3CC"
-			x: 42.4d
+			x: 16.58d
 			y: 6.0d
 			icon: {
 				id: "create:mechanical_roller"
@@ -1672,7 +1672,7 @@
 		}
 		{
 			id: "03AADBDAD9561F63"
-			x: 45.6d
+			x: 13.0d
 			y: 8.0d
 			icon: {
 				id: "create:portable_storage_interface"
@@ -1695,7 +1695,7 @@
 		}
 		{
 			id: "6A1F70D602EEF065"
-			x: -12.0d
+			x: -3.88d
 			y: 10.0d
 			icon: {
 				id: "create:mechanical_arm"
@@ -1717,7 +1717,7 @@
 		}
 		{
 			id: "7BC536D0DABFF75C"
-			x: 32.8d
+			x: -1.54d
 			y: 8.0d
 			icon: {
 				id: "create:weighted_ejector"
@@ -1739,7 +1739,7 @@
 		}
 		{
 			id: "1A632D59F2F2863B"
-			x: -28.0d
+			x: -15.23d
 			y: 10.0d
 			icon: {
 				id: "create:brass_funnel"
@@ -1772,7 +1772,7 @@
 		}
 		{
 			id: "4931171F4435EBF9"
-			x: -26.4d
+			x: -12.23d
 			y: 10.0d
 			icon: {
 				id: "create:smart_chute"
@@ -1795,7 +1795,7 @@
 		}
 		{
 			id: "1B74397ACB9100F7"
-			x: -24.8d
+			x: -18.23d
 			y: 10.0d
 			icon: {
 				id: "create:filter"
@@ -1825,7 +1825,7 @@
 		}
 		{
 			id: "7C703659B2D0B37E"
-			x: -8.8d
+			x: -17.81d
 			y: 14.0d
 			icon: {
 				id: "create:crafting_blueprint"
@@ -1847,7 +1847,7 @@
 		}
 		{
 			id: "3FF8BEF20FBB03E4"
-			x: -7.2d
+			x: -4.31d
 			y: 14.0d
 			icon: {
 				id: "create:chain_conveyor"
@@ -1878,7 +1878,7 @@
 		}
 		{
 			id: "370288E2C336547D"
-			x: -5.6d
+			x: -2.81d
 			y: 14.0d
 			icon: {
 				id: "create:white_postbox"
@@ -1900,7 +1900,7 @@
 		}
 		{
 			id: "04EC50D9EF207AD0"
-			x: -4.0d
+			x: -14.81d
 			y: 14.0d
 			icon: {
 				id: "create:redstone_requester"
@@ -1930,7 +1930,7 @@
 		}
 		{
 			id: "6853B92385A49174"
-			x: -2.4d
+			x: -1.31d
 			y: 14.0d
 			icon: {
 				id: "create:factory_gauge"
@@ -1953,7 +1953,7 @@
 		}
 		{
 			id: "796A20BC5A03BFB6"
-			x: -0.8d
+			x: -13.31d
 			y: 14.0d
 			icon: {
 				id: "create:white_table_cloth"
@@ -1976,7 +1976,7 @@
 		}
 		{
 			id: "646CF849C136583D"
-			x: 24.8d
+			x: 17.12d
 			y: 10.0d
 			icon: {
 				id: "create:hose_pulley"
@@ -1998,7 +1998,7 @@
 		}
 		{
 			id: "1AE7B4D173A72FAB"
-			x: 26.4d
+			x: 18.62d
 			y: 10.0d
 			icon: {
 				id: "create:smart_fluid_pipe"
@@ -2028,7 +2028,7 @@
 		}
 		{
 			id: "7016908F07D01275"
-			x: 28.0d
+			x: 21.62d
 			y: 10.0d
 			icon: {
 				id: "create:portable_fluid_interface"
@@ -2052,7 +2052,7 @@
 		}
 		{
 			id: "5894F275AFB19AE1"
-			x: 22.4d
+			x: 8.12d
 			y: 10.0d
 			icon: {
 				id: "create:redstone_link"
@@ -2075,7 +2075,7 @@
 		}
 		{
 			id: "41539C1104D0DC1A"
-			x: 21.6d
+			x: 6.88d
 			y: 12.0d
 			icon: {
 				id: "create:pulse_repeater"
@@ -2121,8 +2121,8 @@
 		}
 		{
 			id: "61D822F52C3F2A61"
-			x: -20.0d
-			y: 11.5d
+			x: 6.62d
+			y: 10.0d
 			icon: {
 				id: "create:content_observer"
 				count: 1
@@ -2151,7 +2151,7 @@
 		}
 		{
 			id: "44B552C1221505DA"
-			x: 20.0d
+			x: 5.38d
 			y: 12.0d
 			icon: {
 				id: "create:nixie_tube"
@@ -2174,7 +2174,7 @@
 		}
 		{
 			id: "16AFA75E1F1CA519"
-			x: 23.2d
+			x: 8.38d
 			y: 12.0d
 			icon: {
 				id: "create:linked_controller"
@@ -2196,7 +2196,7 @@
 		}
 		{
 			id: "0F833148CBCEE255"
-			x: -48.8d
+			x: 8.02d
 			y: 2.0d
 			icon: {
 				id: "create:raw_zinc"
@@ -2219,8 +2219,8 @@
 		}
 		{
 			id: "2F436D152B6D226B"
-			x: -18.4d
-			y: 11.5d
+			x: 9.62d
+			y: 10.0d
 			icon: {
 				id: "create:polished_rose_quartz"
 				count: 1
@@ -2250,7 +2250,7 @@
 		}
 		{
 			id: "63CED89D89010B73"
-			x: -32.8d
+			x: 1.58d
 			y: 6.0d
 			icon: {
 				id: "create:sturdy_sheet"
@@ -2273,7 +2273,7 @@
 		}
 		{
 			id: "0B453B0B6FE80020"
-			x: -29.6d
+			x: -21.62d
 			y: 10.0d
 			icon: {
 				id: "minecraft:soul_campfire"
@@ -2291,7 +2291,7 @@
 		}
 		{
 			id: "792546CC41F59CA1"
-			x: 18.4d
+			x: -2.72d
 			y: 12.0d
 			icon: {
 				id: "create:netherite_backtank"
@@ -2329,7 +2329,7 @@
 		}
 		{
 			id: "5886D1EDDA939D43"
-			x: 0.8d
+			x: -11.81d
 			y: 14.0d
 			icon: {
 				id: "create:cardboard_helmet"
@@ -2375,8 +2375,8 @@
 		}
 		{
 			id: "7469E9A830ECCF65"
-			x: -16.8d
-			y: 11.5d
+			x: 11.12d
+			y: 10.0d
 			icon: {
 				id: "create:wand_of_symmetry"
 				count: 1
@@ -2397,7 +2397,7 @@
 		}
 		{
 			id: "10E9DBF7B1535788"
-			x: -23.2d
+			x: 2.5d
 			y: 8.0d
 			icon: {
 				id: "create:tree_fertilizer"
@@ -2420,7 +2420,7 @@
 		}
 		{
 			id: "00C5D1713FEED0DC"
-			x: -21.6d
+			x: 4.0d
 			y: 8.0d
 			icon: {
 				id: "create:builders_tea"
@@ -2443,7 +2443,7 @@
 		}
 		{
 			id: "05C861DE4ACBE483"
-			x: 15.2d
+			x: 2.38d
 			y: 12.0d
 			icon: {
 				id: "create:schematic_and_quill"
@@ -2473,8 +2473,8 @@
 		}
 		{
 			id: "3C1291E302F6C9D6"
-			x: -15.2d
-			y: 11.5d
+			x: 12.62d
+			y: 10.0d
 			icon: {
 				id: "create:copycat_panel"
 				count: 1
@@ -2505,8 +2505,8 @@
 		}
 		{
 			id: "34D7C916CBEC9868"
-			x: 34.4d
-			y: 7.5d
+			x: 18.08d
+			y: 6.0d
 			icon: {
 				id: "create:white_seat"
 				count: 1
@@ -2528,8 +2528,8 @@
 		}
 		{
 			id: "1DC60463C39AD55F"
-			x: -13.6d
-			y: 11.5d
+			x: 14.12d
+			y: 10.0d
 			icon: {
 				id: "create:cuckoo_clock"
 				count: 1
@@ -2550,7 +2550,7 @@
 		}
 		{
 			id: "21C87A4A59E7717B"
-			x: -29.6d
+			x: -20.12d
 			y: 12.0d
 			icon: {
 				id: "create:peculiar_bell"
@@ -2580,7 +2580,7 @@
 		}
 		{
 			id: "7888BBDB0019B7BA"
-			x: -45.6d
+			x: 1.35d
 			y: 4.0d
 			icon: {
 				id: "create:clipboard"
@@ -2602,7 +2602,7 @@
 		}
 		{
 			id: "7CD7B9B4111EDF4A"
-			x: 7.2d
+			x: 0.28d
 			y: 12.0d
 			icon: {
 				id: "create:railway_casing"
@@ -2620,7 +2620,7 @@
 		}
 		{
 			id: "655594C87BEF07E5"
-			x: 10.4d
+			x: 6.19d
 			y: 14.0d
 			icon: {
 				id: "create:schedule"
@@ -2642,7 +2642,7 @@
 		}
 		{
 			id: "0313AA2F0A6E1CA0"
-			x: 12.0d
+			x: 0.19d
 			y: 14.0d
 			icon: {
 				id: "minecraft:obsidian"
@@ -2661,7 +2661,7 @@
 		}
 		{
 			id: "3EBBB7FF40B4E7BF"
-			x: 13.6d
+			x: 1.27d
 			y: 16.0d
 			icon: {
 				id: "create:track_observer"
@@ -2683,7 +2683,7 @@
 		}
 		{
 			id: "7F16EF7DB7292898"
-			x: 7.2d
+			x: -3.0d
 			y: 16.0d
 			shape: "hexagon"
 			icon: {

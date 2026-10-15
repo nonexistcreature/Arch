@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "4B1734BD66CA871A"
-			x: -0.8d
+			x: 0.13d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -35,7 +35,7 @@
 		}
 		{
 			id: "6B4F8E536E588C89"
-			x: 0.0d
+			x: -0.61d
 			y: 2.0d
 			icon: {
 				id: "offroad:tire"
@@ -67,7 +67,7 @@
 		}
 		{
 			id: "7266207763E94952"
-			x: -0.8d
+			x: -1.32d
 			y: 4.0d
 			icon: {
 				id: "simulated:steering_wheel"
@@ -89,7 +89,7 @@
 		}
 		{
 			id: "0679B41EE5CEA5EE"
-			x: -0.8d
+			x: -1.32d
 			y: 6.0d
 			icon: {
 				id: "aeronautics:wooden_propeller"
@@ -119,7 +119,7 @@
 		}
 		{
 			id: "7AF169EE9ACAE9A5"
-			x: -1.6d
+			x: -2.38d
 			y: 8.0d
 			shape: "hexagon"
 			icon: {
@@ -161,7 +161,7 @@
 		}
 		{
 			id: "57F2358A447DEBD0"
-			x: -2.4d
+			x: -3.13d
 			y: 10.0d
 			icon: {
 				id: "aeronautics:levitite"
@@ -184,7 +184,7 @@
 		}
 		{
 			id: "453103DB798973F2"
-			x: -2.4d
+			x: -3.13d
 			y: 12.0d
 			icon: {
 				id: "aeronautics:adjustable_burner"
@@ -210,7 +210,7 @@
 		}
 		{
 			id: "69E9F652F112C896"
-			x: -0.8d
+			x: -4.63d
 			y: 14.0d
 			shape: "gear"
 			icon: {
@@ -245,7 +245,7 @@
 		}
 		{
 			id: "3BAC276E3AB02105"
-			x: 6.4d
+			x: 3.13d
 			y: 0.0d
 			icon: {
 				id: "immersive_aircraft:biplane"
@@ -268,7 +268,7 @@
 		}
 		{
 			id: "7D7D4CC48CC8985C"
-			x: -7.2d
+			x: 4.63d
 			y: 0.0d
 			icon: {
 				id: "create_jetpack:jetpack"
@@ -291,7 +291,7 @@
 		}
 		{
 			id: "288B24A597910CC4"
-			x: -5.6d
+			x: 0.89d
 			y: 2.0d
 			icon: {
 				id: "simulated:rope_winch"
@@ -314,7 +314,7 @@
 		}
 		{
 			id: "4B89702C281986E7"
-			x: 4.0d
+			x: 0.18d
 			y: 4.0d
 			icon: {
 				id: "offroad:large_tire"
@@ -337,7 +337,7 @@
 		}
 		{
 			id: "408A8ED8412F2D83"
-			x: 4.0d
+			x: 0.18d
 			y: 6.0d
 			icon: {
 				id: "offroad:borehead_bearing"
@@ -368,7 +368,7 @@
 		}
 		{
 			id: "0E9340588AEF41F4"
-			x: 2.4d
+			x: -0.13d
 			y: 8.0d
 			icon: {
 				id: "simulated:engine_assembly"
@@ -390,7 +390,7 @@
 		}
 		{
 			id: "14BB3D3AFFEE65C9"
-			x: 2.4d
+			x: -0.13d
 			y: 10.0d
 			icon: {
 				id: "aeronautics:smart_propeller"
@@ -413,7 +413,7 @@
 		}
 		{
 			id: "410A0B4DB02A6E21"
-			x: -4.0d
+			x: -3.13d
 			y: 14.0d
 			icon: {
 				id: "aeronautics:white_envelope"
@@ -436,7 +436,7 @@
 		}
 		{
 			id: "6A34014B73F8BCC2"
-			x: 0.8d
+			x: -1.63d
 			y: 10.0d
 			icon: {
 				id: "simulated:altitude_sensor"
@@ -459,7 +459,7 @@
 		}
 		{
 			id: "17ACF815BAF33888"
-			x: 0.8d
+			x: -1.63d
 			y: 12.0d
 			icon: {
 				id: "simulated:navigation_table"
@@ -482,7 +482,7 @@
 		}
 		{
 			id: "28AADDB1A7758B1D"
-			x: -2.4d
+			x: -1.63d
 			y: 14.0d
 			icon: {
 				id: "simulated:docking_connector"
@@ -506,7 +506,7 @@
 		}
 		{
 			id: "04820B0D68A5E446"
-			x: 5.6d
+			x: 2.39d
 			y: 2.0d
 			icon: {
 				id: "immersive_aircraft:gyrodyne"
@@ -529,7 +529,7 @@
 		}
 		{
 			id: "17868DEAA2C48847"
-			x: 7.2d
+			x: 3.89d
 			y: 2.0d
 			icon: {
 				id: "immersive_aircraft:airship"
@@ -552,7 +552,7 @@
 		}
 		{
 			id: "0AD4DFA0CA5501B3"
-			x: -0.8d
+			x: -4.63d
 			y: 16.0d
 			icon: {
 				id: "createbigcannons:cannon_mount"

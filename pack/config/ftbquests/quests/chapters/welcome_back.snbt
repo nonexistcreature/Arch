@@ -28,7 +28,7 @@
 		}
 		{
 			id: "37E56430316C85AA"
-			x: -4.0d
+			x: -3.75d
 			y: 2.0d
 			icon: {
 				id: "mekanism:basic_energy_cube"
@@ -46,7 +46,7 @@
 		}
 		{
 			id: "472B11224C43FE15"
-			x: -2.4d
+			x: -2.25d
 			y: 2.0d
 			icon: {
 				id: "minecraft:wheat"
@@ -64,7 +64,7 @@
 		}
 		{
 			id: "5AF8ABD2B98E1392"
-			x: -0.8d
+			x: -0.75d
 			y: 2.0d
 			icon: {
 				id: "minecolonies:blockhuttownhall"
@@ -83,7 +83,7 @@
 		}
 		{
 			id: "59275DD9BDBB6DD3"
-			x: 0.8d
+			x: 0.75d
 			y: 2.0d
 			icon: {
 				id: "minecraft:campfire"
@@ -102,7 +102,7 @@
 		}
 		{
 			id: "09C5B09C586913C2"
-			x: 2.4d
+			x: 2.25d
 			y: 2.0d
 			icon: {
 				id: "arkhaven_core:star_atlas"
@@ -120,7 +120,7 @@
 		}
 		{
 			id: "3DD6552F19EF0458"
-			x: 4.0d
+			x: 3.75d
 			y: 2.0d
 			icon: {
 				id: "minecraft:writable_book"

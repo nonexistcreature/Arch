@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "778DA091C9349444"
-			x: 0.0d
+			x: -0.75d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -41,7 +41,7 @@
 		}
 		{
 			id: "6914A21F92128873"
-			x: -5.6d
+			x: -2.25d
 			y: 2.0d
 			icon: {
 				id: "neoorigins:purple_orb"
@@ -60,7 +60,7 @@
 		}
 		{
 			id: "73257FF3447BD0B1"
-			x: -4.0d
+			x: -0.75d
 			y: 2.0d
 			icon: {
 				id: "minecraft:spyglass"
@@ -78,7 +78,7 @@
 		}
 		{
 			id: "465EB2685CD40729"
-			x: 1.6d
+			x: 0.75d
 			y: 2.0d
 			shape: "hexagon"
 			icon: {
@@ -97,7 +97,7 @@
 		}
 		{
 			id: "1899A2B09262FA6D"
-			x: 2.4d
+			x: 0.0d
 			y: 4.0d
 			icon: {
 				id: "minecraft:iron_pickaxe"
@@ -122,7 +122,7 @@
 		}
 		{
 			id: "7D83C31C7DE03358"
-			x: -2.4d
+			x: 1.5d
 			y: 4.0d
 			icon: {
 				id: "irons_spellbooks:scroll"
@@ -141,7 +141,7 @@
 		}
 		{
 			id: "5E88CA63A0373FF4"
-			x: 5.6d
+			x: -3.0d
 			y: 6.0d
 			icon: {
 				id: "torchmaster:megatorch"
@@ -169,7 +169,7 @@
 		}
 		{
 			id: "0EECEE5A77DBE4F4"
-			x: -0.8d
+			x: -1.5d
 			y: 6.0d
 			icon: {
 				id: "minecraft:iron_ore"
@@ -188,7 +188,7 @@
 		}
 		{
 			id: "49A24043E10608D2"
-			x: 0.8d
+			x: 0.0d
 			y: 6.0d
 			icon: {
 				id: "farmersdelight:cooking_pot"
@@ -207,7 +207,7 @@
 		}
 		{
 			id: "0665A88330D8BDE5"
-			x: 2.4d
+			x: 1.5d
 			y: 6.0d
 			icon: {
 				id: "minecraft:wheat"
@@ -226,7 +226,7 @@
 		}
 		{
 			id: "417847C383096E06"
-			x: 4.0d
+			x: 3.0d
 			y: 6.0d
 			icon: {
 				id: "minecraft:iron_sword"
@@ -245,7 +245,7 @@
 		}
 		{
 			id: "49609C8E1769CAB2"
-			x: 5.6d
+			x: -3.0d
 			y: 8.0d
 			icon: {
 				id: "arkhaven:travelers_charm"

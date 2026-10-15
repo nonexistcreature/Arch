@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "04E65EA9D232B59D"
-			x: 0.0d
+			x: -0.38d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -38,7 +38,7 @@
 		}
 		{
 			id: "5989F710ABA29FD2"
-			x: 0.0d
+			x: -0.38d
 			y: 2.0d
 			icon: {
 				id: "minecraft:red_bed"
@@ -67,7 +67,7 @@
 		}
 		{
 			id: "14E673074E384ED8"
-			x: -6.4d
+			x: -0.09d
 			y: 4.0d
 			icon: {
 				id: "farmersdelight:cooking_pot"
@@ -99,7 +99,7 @@
 		}
 		{
 			id: "006C91045BBCADB4"
-			x: -1.6d
+			x: -2.44d
 			y: 4.0d
 			icon: {
 				id: "minecraft:iron_pickaxe"
@@ -121,7 +121,7 @@
 		}
 		{
 			id: "3CA4B560AE561B3E"
-			x: 4.8d
+			x: 1.41d
 			y: 4.0d
 			icon: {
 				id: "minecraft:writable_book"
@@ -139,7 +139,7 @@
 		}
 		{
 			id: "13E77B47518CF45C"
-			x: -1.6d
+			x: -2.16d
 			y: 6.0d
 			icon: {
 				id: "create:andesite_casing"
@@ -171,7 +171,7 @@
 		}
 		{
 			id: "68172BA2AE32DFEF"
-			x: -1.6d
+			x: -0.19d
 			y: 8.0d
 			icon: {
 				id: "create:brass_ingot"
@@ -194,7 +194,7 @@
 		}
 		{
 			id: "21FBC8C7F82B336A"
-			x: -0.8d
+			x: -0.94d
 			y: 10.0d
 			icon: {
 				id: "immersiveengineering:ingot_steel"
@@ -217,7 +217,7 @@
 		}
 		{
 			id: "1A928072C549EAF5"
-			x: -3.2d
+			x: -2.06d
 			y: 12.0d
 			icon: {
 				id: "mekanism:energy_tablet"
@@ -239,7 +239,7 @@
 		}
 		{
 			id: "39B9D7211C3AD114"
-			x: -3.2d
+			x: -2.06d
 			y: 14.0d
 			icon: {
 				id: "ae2:controller"
@@ -261,7 +261,7 @@
 		}
 		{
 			id: "4693C34C08702F13"
-			x: -3.2d
+			x: -2.06d
 			y: 16.0d
 			icon: {
 				id: "bigreactors:yellorium_ingot"
@@ -284,7 +284,7 @@
 		}
 		{
 			id: "5F1BA5A3E0A5735B"
-			x: 3.2d
+			x: -0.66d
 			y: 6.0d
 			icon: {
 				id: "ars_nouveau:worn_notebook"
@@ -306,7 +306,7 @@
 		}
 		{
 			id: "050C8B0EB9425EC7"
-			x: -4.8d
+			x: 0.56d
 			y: 10.0d
 			icon: {
 				id: "smallships:oak_cog"
@@ -324,7 +324,7 @@
 		}
 		{
 			id: "39A56463E8C5A7F8"
-			x: 0.0d
+			x: 0.94d
 			y: 12.0d
 			icon: {
 				id: "tacz:gun_smith_table"
@@ -346,7 +346,7 @@
 		}
 		{
 			id: "576B9EB277FB4903"
-			x: 0.0d
+			x: 0.94d
 			y: 14.0d
 			icon: {
 				id: "minecraft:netherite_sword"
@@ -373,7 +373,7 @@
 		}
 		{
 			id: "012668B87D0FA2D0"
-			x: -1.6d
+			x: -0.56d
 			y: 16.0d
 			icon: {
 				id: "lootr:lootr_chest"
@@ -392,7 +392,7 @@
 		}
 		{
 			id: "6767449E51F712DE"
-			x: 0.0d
+			x: 0.94d
 			y: 16.0d
 			icon: {
 				id: "minecraft:ender_eye"
@@ -411,7 +411,7 @@
 		}
 		{
 			id: "5BDC466474828798"
-			x: 4.8d
+			x: 0.84d
 			y: 6.0d
 			icon: {
 				id: "minecolonies:supplycampdeployer"
@@ -433,7 +433,7 @@
 		}
 		{
 			id: "63BC6F90D1FCE215"
-			x: 6.4d
+			x: 2.34d
 			y: 6.0d
 			icon: {
 				id: "create:precision_mechanism"
@@ -451,7 +451,7 @@
 		}
 		{
 			id: "4AD95969A43AE499"
-			x: 1.6d
+			x: 2.44d
 			y: 16.0d
 			icon: {
 				id: "minecraft:chainmail_helmet"
@@ -469,7 +469,7 @@
 		}
 		{
 			id: "1F4F10227DA0EDBC"
-			x: 0.0d
+			x: 0.19d
 			y: 18.0d
 			shape: "hexagon"
 			icon: {

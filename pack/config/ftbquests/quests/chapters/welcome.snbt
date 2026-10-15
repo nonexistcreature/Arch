@@ -46,7 +46,7 @@
 		}
 		{
 			id: "04E0C8297145FA0D"
-			x: 3.2d
+			x: -4.5d
 			y: 2.0d
 			icon: {
 				id: "minecraft:writable_book"
@@ -64,7 +64,7 @@
 		}
 		{
 			id: "5561BDBA9D7A940F"
-			x: 5.6d
+			x: 0.0d
 			y: 2.0d
 			icon: {
 				id: "minecraft:crafting_table"
@@ -82,7 +82,7 @@
 		}
 		{
 			id: "7364572739F8EBFD"
-			x: 5.6d
+			x: -1.05d
 			y: 4.0d
 			icon: {
 				id: "create:wrench"
@@ -100,7 +100,7 @@
 		}
 		{
 			id: "0CD6F0E34FDE881D"
-			x: -5.6d
+			x: -3.0d
 			y: 2.0d
 			icon: {
 				id: "minecraft:map"
@@ -118,7 +118,7 @@
 		}
 		{
 			id: "6AEEBF70D9410C91"
-			x: -4.0d
+			x: -1.5d
 			y: 2.0d
 			icon: {
 				id: "minecraft:iron_pickaxe"
@@ -136,7 +136,7 @@
 		}
 		{
 			id: "7D0113D5251D8308"
-			x: -2.4d
+			x: 1.5d
 			y: 2.0d
 			icon: {
 				id: "minecraft:note_block"
@@ -154,7 +154,7 @@
 		}
 		{
 			id: "61956A5E82AB7C9F"
-			x: 4.0d
+			x: -4.05d
 			y: 4.0d
 			shape: "hexagon"
 			icon: {
@@ -173,7 +173,7 @@
 		}
 		{
 			id: "0AB73893D32D29B0"
-			x: 4.0d
+			x: -2.55d
 			y: 6.0d
 			icon: {
 				id: "minecraft:lightning_rod"
@@ -191,7 +191,7 @@
 		}
 		{
 			id: "6FCCA553E617BD3B"
-			x: 2.4d
+			x: -2.55d
 			y: 4.0d
 			icon: {
 				id: "minecraft:white_banner"
@@ -209,7 +209,7 @@
 		}
 		{
 			id: "5921FC2BA0B77A22"
-			x: -0.8d
+			x: 3.0d
 			y: 2.0d
 			icon: {
 				id: "minecraft:spyglass"
@@ -228,7 +228,7 @@
 		}
 		{
 			id: "43626AEC27FFE561"
-			x: 0.8d
+			x: 4.5d
 			y: 2.0d
 			icon: {
 				id: "minecraft:name_tag"
@@ -247,7 +247,7 @@
 		}
 		{
 			id: "211FE5B4A21988C5"
-			x: 0.48d
+			x: -2.55d
 			y: 8.0d
 			shape: "gear"
 			icon: {

@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "13CF20102D7B78A9"
-			x: 0.0d
+			x: -1.0d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -35,7 +35,7 @@
 		}
 		{
 			id: "1C77C072846E22DB"
-			x: -4.8d
+			x: -6.0d
 			y: 2.0d
 			icon: {
 				id: "naturalist:firefly"
@@ -57,7 +57,7 @@
 		}
 		{
 			id: "55964F7444DDA930"
-			x: -3.2d
+			x: -4.5d
 			y: 2.0d
 			icon: {
 				id: "naturalist:snail_shell"
@@ -79,7 +79,7 @@
 		}
 		{
 			id: "3EDAFB99296BD41D"
-			x: -1.6d
+			x: -3.0d
 			y: 2.0d
 			icon: {
 				id: "friendsandfoes:penguin_feather"
@@ -101,7 +101,7 @@
 		}
 		{
 			id: "5866BB61BDFE6005"
-			x: 0.0d
+			x: -1.5d
 			y: 2.0d
 			icon: {
 				id: "friendsandfoes:crab_claw"
@@ -123,7 +123,7 @@
 		}
 		{
 			id: "4F8BAF5FD1792F61"
-			x: -6.4d
+			x: 0.5d
 			y: 0.0d
 			icon: {
 				id: "minecraft:lightning_rod"
@@ -145,7 +145,7 @@
 		}
 		{
 			id: "033B1D9A70472766"
-			x: 4.8d
+			x: 0.0d
 			y: 2.0d
 			icon: {
 				id: "friendsandfoes:totem_of_illusion"
@@ -167,7 +167,7 @@
 		}
 		{
 			id: "2402F75EF7C35548"
-			x: 4.8d
+			x: 0.0d
 			y: 4.0d
 			icon: {
 				id: "friendsandfoes:wildfire_crown"
@@ -189,7 +189,7 @@
 		}
 		{
 			id: "329BCF45C9315052"
-			x: 1.6d
+			x: 1.5d
 			y: 2.0d
 			icon: {
 				id: "crittersandcompanions:koi_fish"
@@ -211,7 +211,7 @@
 		}
 		{
 			id: "32002160EE532F37"
-			x: 3.2d
+			x: 3.0d
 			y: 2.0d
 			icon: {
 				id: "crittersandcompanions:dragonfly_wing"
@@ -233,8 +233,8 @@
 		}
 		{
 			id: "3B2210219FF0E30D"
-			x: -4.8d
-			y: 3.5d
+			x: 4.5d
+			y: 2.0d
 			icon: {
 				id: "crittersandcompanions:silk"
 				count: 1
@@ -256,7 +256,7 @@
 		}
 		{
 			id: "339ADBA3BE321FC3"
-			x: 6.4d
+			x: 5.75d
 			y: 0.0d
 			icon: {
 				id: "mca:family_tree"
@@ -278,7 +278,7 @@
 		}
 		{
 			id: "54CA79F1B0C4FC67"
-			x: 6.4d
+			x: 6.0d
 			y: 2.0d
 			icon: {
 				id: "mca:engagement_ring"
@@ -300,7 +300,7 @@
 		}
 		{
 			id: "6AC6020BC3187145"
-			x: -0.48d
+			x: 0.0d
 			y: 6.0d
 			shape: "hexagon"
 			icon: {

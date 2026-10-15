@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "427EBED79260B8FF"
-			x: 0.0d
+			x: -1.75d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -45,7 +45,7 @@
 		}
 		{
 			id: "7241DEBF5CA44DB8"
-			x: -28.0d
+			x: -7.45d
 			y: 2.0d
 			shape: "hexagon"
 			icon: {
@@ -68,7 +68,7 @@
 		}
 		{
 			id: "51B628DF436AF763"
-			x: -28.8d
+			x: -5.44d
 			y: 4.0d
 			icon: {
 				id: "minecraft:glass"
@@ -101,7 +101,7 @@
 		}
 		{
 			id: "65FFF886EE6B1875"
-			x: -20.8d
+			x: -2.11d
 			y: 2.0d
 			icon: {
 				id: "farmersdelight:tomato"
@@ -152,7 +152,7 @@
 		}
 		{
 			id: "088D8FACF9F9DAAA"
-			x: -19.2d
+			x: -7.96d
 			y: 4.0d
 			icon: {
 				id: "farmersdelight:rich_soil"
@@ -176,7 +176,7 @@
 		}
 		{
 			id: "4D54840C4041EC3A"
-			x: -25.6d
+			x: -3.94d
 			y: 4.0d
 			icon: {
 				id: "botanypots:terracotta_botany_pot"
@@ -208,7 +208,7 @@
 		}
 		{
 			id: "27F654BD0954779C"
-			x: 7.2d
+			x: 4.31d
 			y: 2.0d
 			shape: "hexagon"
 			icon: {
@@ -232,7 +232,7 @@
 		}
 		{
 			id: "1B1006BAB8E24DB6"
-			x: 8.0d
+			x: 3.56d
 			y: 4.0d
 			icon: {
 				id: "mysticalagriculture:inferium_seeds"
@@ -255,7 +255,7 @@
 		}
 		{
 			id: "67BC52F22FD0E4BF"
-			x: 7.2d
+			x: 2.94d
 			y: 6.0d
 			icon: {
 				id: "mysticalagriculture:infusion_crystal"
@@ -277,7 +277,7 @@
 		}
 		{
 			id: "2F5070961E1FFE98"
-			x: 8.0d
+			x: 1.82d
 			y: 8.0d
 			icon: {
 				id: "mysticalagriculture:iron_seeds"
@@ -309,7 +309,7 @@
 		}
 		{
 			id: "3BE440186F9F12A4"
-			x: -11.2d
+			x: 3.75d
 			y: 8.0d
 			icon: {
 				id: "mysticalagriculture:copper_seeds"
@@ -332,7 +332,7 @@
 		}
 		{
 			id: "52922CDBEA05738F"
-			x: 8.0d
+			x: 1.82d
 			y: 10.0d
 			icon: {
 				id: "mysticalagriculture:prudentium_essence"
@@ -355,7 +355,7 @@
 		}
 		{
 			id: "78E30C72A34F8162"
-			x: 27.2d
+			x: 4.76d
 			y: 6.0d
 			icon: {
 				id: "mysticalagriculture:watering_can"
@@ -378,7 +378,7 @@
 		}
 		{
 			id: "4D95235DFCDB4BB6"
-			x: 27.2d
+			x: 5.25d
 			y: 8.0d
 			icon: {
 				id: "sliceanddice:sprinkler"
@@ -401,7 +401,7 @@
 		}
 		{
 			id: "642C7E8CAB83E54C"
-			x: -24.0d
+			x: -2.44d
 			y: 4.0d
 			icon: {
 				id: "farmersrespite:coffee_beans"
@@ -425,7 +425,7 @@
 		}
 		{
 			id: "718C1E915828D752"
-			x: -22.4d
+			x: -0.94d
 			y: 4.0d
 			icon: {
 				id: "vinery:red_grape"
@@ -449,7 +449,7 @@
 		}
 		{
 			id: "72B5ECDBCD5107D7"
-			x: -15.47d
+			x: -4.59d
 			y: 12.0d
 			shape: "gear"
 			icon: {
@@ -485,7 +485,7 @@
 		}
 		{
 			id: "7CB48C4FD3A9F3DF"
-			x: -27.2d
+			x: -9.46d
 			y: 4.0d
 			icon: {
 				id: "sereneseasons:season_sensor"
@@ -508,7 +508,7 @@
 		}
 		{
 			id: "21945C96E7DA4646"
-			x: -16.8d
+			x: 0.56d
 			y: 4.0d
 			icon: {
 				id: "farm_and_charm:corn"
@@ -558,7 +558,7 @@
 		}
 		{
 			id: "51F81B7358F45A59"
-			x: -17.6d
+			x: -1.56d
 			y: 6.0d
 			icon: {
 				id: "farm_and_charm:scarecrow"
@@ -581,7 +581,7 @@
 		}
 		{
 			id: "0D9885D7100AC406"
-			x: -16.0d
+			x: 1.44d
 			y: 6.0d
 			icon: {
 				id: "farm_and_charm:plow"
@@ -604,7 +604,7 @@
 		}
 		{
 			id: "159B0875B4B3DB6C"
-			x: -19.2d
+			x: -7.56d
 			y: 6.0d
 			icon: {
 				id: "farm_and_charm:fertilizer"
@@ -627,7 +627,7 @@
 		}
 		{
 			id: "5FC48417FEF5D55A"
-			x: -12.8d
+			x: -0.06d
 			y: 6.0d
 			icon: {
 				id: "mysticalagriculture:inferium_farmland"
@@ -650,7 +650,7 @@
 		}
 		{
 			id: "1B78140E6F7A62BD"
-			x: 4.8d
+			x: -0.26d
 			y: 12.0d
 			icon: {
 				id: "mysticalagriculture:tertium_essence"
@@ -673,7 +673,7 @@
 		}
 		{
 			id: "315AD198F9D70C16"
-			x: -6.4d
+			x: 0.94d
 			y: 14.0d
 			icon: {
 				id: "mysticalagriculture:gold_seeds"
@@ -696,7 +696,7 @@
 		}
 		{
 			id: "4A2580C75ABA966B"
-			x: 2.4d
+			x: -3.03d
 			y: 14.0d
 			icon: {
 				id: "mysticalagriculture:imperium_essence"
@@ -719,7 +719,7 @@
 		}
 		{
 			id: "5D15BA5A782800D0"
-			x: 0.8d
+			x: -4.5d
 			y: 16.0d
 			icon: {
 				id: "mysticalagriculture:infusion_altar"
@@ -750,7 +750,7 @@
 		}
 		{
 			id: "243227B8EF08F684"
-			x: -3.2d
+			x: -9.02d
 			y: 18.0d
 			icon: {
 				id: "mysticalagriculture:diamond_seeds"
@@ -779,7 +779,7 @@
 		}
 		{
 			id: "627590F45B4E0068"
-			x: 11.2d
+			x: -6.03d
 			y: 14.0d
 			icon: {
 				id: "mysticalagriculture:inferium_growth_accelerator"
@@ -803,7 +803,7 @@
 		}
 		{
 			id: "33A17CFAEB1BE951"
-			x: 11.2d
+			x: -6.0d
 			y: 16.0d
 			icon: {
 				id: "mysticalagriculture:harvester"
@@ -826,7 +826,7 @@
 		}
 		{
 			id: "1DD56AA69632697C"
-			x: 14.4d
+			x: 5.35d
 			y: 14.0d
 			icon: {
 				id: "mysticalagriculture:soul_jar"
@@ -849,7 +849,7 @@
 		}
 		{
 			id: "6C8A77DB5B4722EE"
-			x: -20.8d
+			x: 2.06d
 			y: 4.0d
 			icon: {
 				id: "mekanism:bio_fuel"
@@ -873,7 +873,7 @@
 		}
 		{
 			id: "0A17B14200495303"
-			x: -14.4d
+			x: 5.06d
 			y: 4.0d
 			icon: {
 				id: "mysticalagriculture:prosperity_shard"
@@ -896,7 +896,7 @@
 		}
 		{
 			id: "4B4F1CC20D888AD0"
-			x: 28.8d
+			x: 6.31d
 			y: 6.0d
 			icon: {
 				id: "mysticalagriculture:fertilized_essence"
@@ -919,7 +919,7 @@
 		}
 		{
 			id: "6710759E7B7A6E68"
-			x: 28.8d
+			x: 6.75d
 			y: 8.0d
 			icon: {
 				id: "mysticalagriculture:mystical_fertilizer"
@@ -942,7 +942,7 @@
 		}
 		{
 			id: "16D6AEF14E4596B7"
-			x: -1.6d
+			x: 0.89d
 			y: 18.0d
 			icon: {
 				id: "mysticalagriculture:coal_seeds"
@@ -964,7 +964,7 @@
 		}
 		{
 			id: "22E73CE19A5B425D"
-			x: -9.6d
+			x: 5.16d
 			y: 12.0d
 			icon: {
 				id: "mysticalagriculture:prudentium_watering_can"
@@ -987,7 +987,7 @@
 		}
 		{
 			id: "0B7FF24B7CBE6CB3"
-			x: -4.8d
+			x: -1.5d
 			y: 16.0d
 			icon: {
 				id: "mysticalagriculture:master_infusion_crystal"
@@ -1009,7 +1009,7 @@
 		}
 		{
 			id: "15E77E1F1B48A889"
-			x: 8.0d
+			x: -3.0d
 			y: 16.0d
 			icon: {
 				id: "mysticalagriculture:supremium_essence"
@@ -1032,7 +1032,7 @@
 		}
 		{
 			id: "5EB14F07CC754D45"
-			x: 6.4d
+			x: -0.61d
 			y: 18.0d
 			icon: {
 				id: "mysticalagriculture:supremium_farmland"
@@ -1056,7 +1056,7 @@
 		}
 		{
 			id: "12D81A56A5FCC4BD"
-			x: 2.4d
+			x: -7.4d
 			y: 18.0d
 			icon: {
 				id: "mysticalagriculture:machine_frame"
@@ -1078,7 +1078,7 @@
 		}
 		{
 			id: "6E709D01CBFFF07C"
-			x: -0.0d
+			x: -10.5d
 			y: 20.0d
 			icon: {
 				id: "mysticalagriculture:furnace"
@@ -1100,7 +1100,7 @@
 		}
 		{
 			id: "67588871FAB2E694"
-			x: 1.6d
+			x: -9.0d
 			y: 20.0d
 			icon: {
 				id: "mysticalagriculture:seed_reprocessor"
@@ -1122,7 +1122,7 @@
 		}
 		{
 			id: "3963DCF2AE9BD6F8"
-			x: 3.2d
+			x: -7.5d
 			y: 20.0d
 			icon: {
 				id: "mysticalagriculture:prudentium_upgrade"
@@ -1144,7 +1144,7 @@
 		}
 		{
 			id: "73E49FD79ED17912"
-			x: 4.8d
+			x: 2.55d
 			y: 20.0d
 			icon: {
 				id: "mysticalagriculture:soul_extractor"
@@ -1167,7 +1167,7 @@
 		}
 		{
 			id: "6BB435B2F8FBED2F"
-			x: 4.8d
+			x: -0.45d
 			y: 22.0d
 			icon: {
 				id: "mysticalagriculture:soulium_spawner"
@@ -1189,7 +1189,7 @@
 		}
 		{
 			id: "5906340128227BE5"
-			x: 14.4d
+			x: 7.5d
 			y: 16.0d
 			icon: {
 				id: "mysticalagriculture:soulstone"
@@ -1212,7 +1212,7 @@
 		}
 		{
 			id: "658DC4317838768D"
-			x: 12.8d
+			x: 0.25d
 			y: 16.0d
 			icon: {
 				id: "mysticalagriculture:soulium_dagger"
@@ -1234,7 +1234,7 @@
 		}
 		{
 			id: "26D05FCAEE98D915"
-			x: -1.6d
+			x: 1.05d
 			y: 20.0d
 			icon: {
 				id: "mysticalagriculture:zombie_seeds"
@@ -1257,7 +1257,7 @@
 		}
 		{
 			id: "790CA639125851D2"
-			x: 16.0d
+			x: 10.5d
 			y: 16.0d
 			icon: {
 				id: "mysticalagriculture:experience_capsule"
@@ -1279,7 +1279,7 @@
 		}
 		{
 			id: "6872F301CB6B6989"
-			x: 16.0d
+			x: 8.39d
 			y: 18.0d
 			icon: {
 				id: "mysticalagriculture:enchanter"
@@ -1301,7 +1301,7 @@
 		}
 		{
 			id: "4F2D0B15B7408083"
-			x: 14.4d
+			x: 6.89d
 			y: 18.0d
 			icon: {
 				id: "mysticalagriculture:witherproof_bricks"
@@ -1333,7 +1333,7 @@
 		}
 		{
 			id: "388CB3B8A232234F"
-			x: 8.8d
+			x: -3.98d
 			y: 18.0d
 			icon: {
 				id: "mysticalagriculture:air_essence"
@@ -1383,7 +1383,7 @@
 		}
 		{
 			id: "6A92C9FFFC822177"
-			x: 8.0d
+			x: -3.45d
 			y: 20.0d
 			icon: {
 				id: "mysticalagriculture:cognizant_dust"
@@ -1406,7 +1406,7 @@
 		}
 		{
 			id: "449E70857E7D26BA"
-			x: 9.6d
+			x: -1.95d
 			y: 20.0d
 			icon: {
 				id: "mysticalagriculture:essence_vessel"
@@ -1429,7 +1429,7 @@
 		}
 		{
 			id: "74E04417094816FF"
-			x: 9.6d
+			x: -1.95d
 			y: 22.0d
 			icon: {
 				id: "mysticalagriculture:awakening_altar"
@@ -1461,7 +1461,7 @@
 		}
 		{
 			id: "0EDE86C9C8D3F60C"
-			x: 9.6d
+			x: -1.2d
 			y: 24.0d
 			icon: {
 				id: "mysticalagriculture:awakened_supremium_essence"
@@ -1484,7 +1484,7 @@
 		}
 		{
 			id: "0FA62F4604899575"
-			x: 21.6d
+			x: 6.66d
 			y: 12.0d
 			icon: {
 				id: "mysticalagriculture:tinkering_table"
@@ -1506,7 +1506,7 @@
 		}
 		{
 			id: "76AC689FD69F5824"
-			x: -8.0d
+			x: 2.16d
 			y: 12.0d
 			icon: {
 				id: "mysticalagriculture:prudentium_sickle"
@@ -1536,7 +1536,7 @@
 		}
 		{
 			id: "3B8E8A8E74884893"
-			x: 20.8d
+			x: 3.85d
 			y: 14.0d
 			icon: {
 				id: "mysticalagriculture:inferium_helmet"
@@ -1582,7 +1582,7 @@
 		}
 		{
 			id: "1B268B25F067B7C5"
-			x: 21.6d
+			x: 1.75d
 			y: 16.0d
 			icon: {
 				id: "mysticalagriculture:tertium_helmet"
@@ -1629,7 +1629,7 @@
 		}
 		{
 			id: "09CA69A67001EDA7"
-			x: 24.0d
+			x: -2.11d
 			y: 18.0d
 			icon: {
 				id: "mysticalagriculture:supremium_helmet"
@@ -1676,7 +1676,7 @@
 		}
 		{
 			id: "18105C037764B90C"
-			x: 9.6d
+			x: -1.2d
 			y: 26.0d
 			icon: {
 				id: "mysticalagriculture:awakened_supremium_helmet"
@@ -1723,7 +1723,7 @@
 		}
 		{
 			id: "416120935F72BC07"
-			x: 25.6d
+			x: 8.97d
 			y: 14.0d
 			icon: {
 				id: "mysticalagriculture:prudentium_pickaxe"
@@ -1753,7 +1753,7 @@
 		}
 		{
 			id: "2E2B8D9DB116AB7C"
-			x: 24.0d
+			x: -0.45d
 			y: 20.0d
 			icon: {
 				id: "mysticalagriculture:flight_augment"
@@ -1775,7 +1775,7 @@
 		}
 		{
 			id: "1A004E1673575AD2"
-			x: 25.6d
+			x: 9.0d
 			y: 16.0d
 			icon: {
 				id: "mysticalagriculture:mining_aoe_i_augment"
@@ -1797,7 +1797,7 @@
 		}
 		{
 			id: "7817B0CBE6726065"
-			x: 19.2d
+			x: 2.39d
 			y: 18.0d
 			icon: {
 				id: "mysticalagriculture:speed_i_augment"
@@ -1827,7 +1827,7 @@
 		}
 		{
 			id: "7E14F261B672A8E0"
-			x: 20.8d
+			x: 3.89d
 			y: 18.0d
 			icon: {
 				id: "mysticalagriculture:health_boost_i_augment"
@@ -1849,7 +1849,7 @@
 		}
 		{
 			id: "732BE297F60E85C9"
-			x: 22.4d
+			x: 5.39d
 			y: 18.0d
 			icon: {
 				id: "mysticalagriculture:fire_resistance_augment"
@@ -1879,7 +1879,7 @@
 		}
 		{
 			id: "5DCC070F362FE310"
-			x: 17.6d
+			x: 6.0d
 			y: 16.0d
 			icon: {
 				id: "mysticalagriculture:night_vision_augment"
@@ -1909,7 +1909,7 @@
 		}
 		{
 			id: "22AE8BEB2AAE8F97"
-			x: 6.93d
+			x: -1.2d
 			y: 28.0d
 			shape: "hexagon"
 			icon: {

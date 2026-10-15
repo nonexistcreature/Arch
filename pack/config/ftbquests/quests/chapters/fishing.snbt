@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "3A9539897B1176C1"
-			x: 0.0d
+			x: -0.44d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -45,7 +45,7 @@
 		}
 		{
 			id: "21F0682242876677"
-			x: -5.6d
+			x: -2.09d
 			y: 2.0d
 			icon: {
 				id: "tide:fishing_journal"
@@ -67,7 +67,7 @@
 		}
 		{
 			id: "1D087548C817D51D"
-			x: 0.8d
+			x: 1.22d
 			y: 2.0d
 			icon: {
 				id: "minecraft:cod"
@@ -90,7 +90,7 @@
 		}
 		{
 			id: "27EA82321637535F"
-			x: -0.8d
+			x: 0.34d
 			y: 4.0d
 			icon: {
 				id: "tide:lucky_bait"
@@ -112,7 +112,7 @@
 		}
 		{
 			id: "78B9356D937BFE4F"
-			x: -0.8d
+			x: -0.02d
 			y: 6.0d
 			icon: {
 				id: "tide:iron_fishing_rod"
@@ -134,7 +134,7 @@
 		}
 		{
 			id: "4E0C0B6EE4FBB412"
-			x: -4.0d
+			x: -1.52d
 			y: 8.0d
 			icon: {
 				id: "tide:lavaproof_hook"
@@ -157,7 +157,7 @@
 		}
 		{
 			id: "7852E1FD4535E319"
-			x: -2.4d
+			x: -0.02d
 			y: 8.0d
 			icon: {
 				id: "tide:wooden_crate"
@@ -180,7 +180,7 @@
 		}
 		{
 			id: "36CEBA9F196FF2E6"
-			x: 4.8d
+			x: 2.09d
 			y: 4.0d
 			icon: {
 				id: "aquaculture:iron_fillet_knife"
@@ -203,7 +203,7 @@
 		}
 		{
 			id: "2C267C60B4B16E10"
-			x: -0.8d
+			x: -3.02d
 			y: 8.0d
 			shape: "gear"
 			icon: {
@@ -238,7 +238,7 @@
 		}
 		{
 			id: "5F473F9F3E8F5EF4"
-			x: -5.6d
+			x: -1.16d
 			y: 4.0d
 			icon: {
 				id: "tide:angling_table"
@@ -260,7 +260,7 @@
 		}
 		{
 			id: "45CF406C62919035"
-			x: 0.8d
+			x: 1.48d
 			y: 8.0d
 			icon: {
 				id: "tide:golden_fishing_rod"
@@ -283,7 +283,7 @@
 		}
 		{
 			id: "47531F258913D839"
-			x: 0.8d
+			x: 1.48d
 			y: 10.0d
 			icon: {
 				id: "tide:diamond_fishing_rod"
@@ -306,7 +306,7 @@
 		}
 		{
 			id: "2CAAF7B984EE8DCE"
-			x: 2.4d
+			x: 2.98d
 			y: 8.0d
 			icon: {
 				id: "tide:permafrost_hook"
@@ -329,7 +329,7 @@
 		}
 		{
 			id: "1A48F0C1E0815E52"
-			x: 2.4d
+			x: 2.98d
 			y: 10.0d
 			icon: {
 				id: "tide:void_hook"
@@ -353,7 +353,7 @@
 		}
 		{
 			id: "1FB9BA2B85926335"
-			x: 4.0d
+			x: 1.52d
 			y: 6.0d
 			icon: {
 				id: "aquaculture:neptunium_ingot"
@@ -376,7 +376,7 @@
 		}
 		{
 			id: "18B2199085A4FF74"
-			x: 5.6d
+			x: 3.02d
 			y: 6.0d
 			icon: {
 				id: "aquaculture:tackle_box"

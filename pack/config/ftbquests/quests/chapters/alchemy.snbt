@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "0FE6B961A2B65B01"
-			x: 0.0d
+			x: 1.46d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -53,7 +53,7 @@
 		}
 		{
 			id: "4ADED478BA38BECC"
-			x: -3.2d
+			x: -3.43d
 			y: 2.0d
 			icon: {
 				id: "irons_spellbooks:alchemist_cauldron"
@@ -75,7 +75,7 @@
 		}
 		{
 			id: "1B9EEE85EBDBA92D"
-			x: 2.4d
+			x: -0.85d
 			y: 2.0d
 			shape: "hexagon"
 			icon: {
@@ -104,7 +104,7 @@
 		}
 		{
 			id: "67BE72A396A69007"
-			x: -1.6d
+			x: -4.38d
 			y: 4.0d
 			icon: {
 				id: "minecraft:prismarine_crystals"
@@ -123,7 +123,7 @@
 		}
 		{
 			id: "3B96C193ACA277A9"
-			x: 0.0d
+			x: -2.88d
 			y: 4.0d
 			icon: {
 				id: "minecraft:honey_bottle"
@@ -142,7 +142,7 @@
 		}
 		{
 			id: "1051DF3F4385D339"
-			x: 1.6d
+			x: -1.38d
 			y: 4.0d
 			icon: {
 				id: "minecraft:golden_carrot"
@@ -161,7 +161,7 @@
 		}
 		{
 			id: "2674C9B3CA6719CA"
-			x: 3.2d
+			x: 0.12d
 			y: 4.0d
 			icon: {
 				id: "minecraft:blaze_powder"
@@ -180,7 +180,7 @@
 		}
 		{
 			id: "5D3473C41AD56DA7"
-			x: 6.4d
+			x: 1.62d
 			y: 4.0d
 			icon: {
 				id: "minecraft:moss_block"
@@ -199,7 +199,7 @@
 		}
 		{
 			id: "30B0F5FAE9A6FB57"
-			x: 6.4d
+			x: 1.77d
 			y: 6.0d
 			icon: {
 				id: "mekanism:ingot_lead"
@@ -218,7 +218,7 @@
 		}
 		{
 			id: "3C60CB78B824B591"
-			x: 4.8d
+			x: 3.12d
 			y: 4.0d
 			icon: {
 				id: "minecraft:spyglass"
@@ -237,7 +237,7 @@
 		}
 		{
 			id: "31625BC464DBB176"
-			x: 1.87d
+			x: -0.48d
 			y: 6.0d
 			shape: "gear"
 			icon: {
@@ -273,7 +273,7 @@
 		}
 		{
 			id: "11474F8C95A5E393"
-			x: 8.0d
+			x: 4.38d
 			y: 2.0d
 			icon: {
 				id: "minecraft:glistering_melon_slice"
@@ -296,7 +296,7 @@
 		}
 		{
 			id: "7C9D175FDA380D93"
-			x: -8.0d
+			x: 0.65d
 			y: 2.0d
 			icon: {
 				id: "minecraft:magma_cream"
@@ -319,7 +319,7 @@
 		}
 		{
 			id: "4FB4B154BE3A7A58"
-			x: -6.4d
+			x: 2.15d
 			y: 2.0d
 			icon: {
 				id: "minecraft:golden_carrot"
@@ -343,7 +343,7 @@
 		}
 		{
 			id: "4D893299F364F7FE"
-			x: 8.0d
+			x: 4.62d
 			y: 4.0d
 			icon: {
 				id: "minecraft:redstone"
@@ -361,7 +361,7 @@
 		}
 		{
 			id: "4FCD47C6DC0C521C"
-			x: -4.8d
+			x: 5.88d
 			y: 2.0d
 			icon: {
 				id: "minecraft:milk_bucket"
@@ -383,7 +383,7 @@
 		}
 		{
 			id: "51730512DD377681"
-			x: -3.2d
+			x: -5.88d
 			y: 4.0d
 			icon: {
 				id: "minecraft:cauldron"

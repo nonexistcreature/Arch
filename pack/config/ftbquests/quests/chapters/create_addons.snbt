@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "7D38C871CC211EF9"
-			x: 0.0d
+			x: -1.66d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -31,7 +31,7 @@
 		}
 		{
 			id: "5F3C221590C6A560"
-			x: 0.8d
+			x: -4.23d
 			y: 2.0d
 			icon: {
 				id: "create_connected:six_way_gearbox"
@@ -61,7 +61,7 @@
 		}
 		{
 			id: "30C19E71E43D8B9A"
-			x: -0.8d
+			x: -2.98d
 			y: 4.0d
 			icon: {
 				id: "create_connected:kinetic_battery"
@@ -83,7 +83,7 @@
 		}
 		{
 			id: "7DE779C4EADEE227"
-			x: 0.8d
+			x: -1.48d
 			y: 4.0d
 			icon: {
 				id: "create_connected:overstress_clutch"
@@ -113,7 +113,7 @@
 		}
 		{
 			id: "5B9945A1D0B3302F"
-			x: 2.4d
+			x: 0.02d
 			y: 4.0d
 			icon: {
 				id: "create_connected:item_silo"
@@ -136,7 +136,7 @@
 		}
 		{
 			id: "389037C19D27671B"
-			x: -4.0d
+			x: -2.73d
 			y: 2.0d
 			icon: {
 				id: "create_connected:fan_sanding_catalyst"
@@ -159,7 +159,7 @@
 		}
 		{
 			id: "3B2387F2822A0C64"
-			x: 4.0d
+			x: 3.27d
 			y: 2.0d
 			icon: {
 				id: "createaddition:alternator"
@@ -181,7 +181,7 @@
 		}
 		{
 			id: "2B5EED31BF242AD9"
-			x: 4.0d
+			x: 1.52d
 			y: 4.0d
 			icon: {
 				id: "createaddition:copper_spool"
@@ -212,7 +212,7 @@
 		}
 		{
 			id: "350DF99E7C5AC08F"
-			x: 4.0d
+			x: -0.73d
 			y: 6.0d
 			icon: {
 				id: "createaddition:modular_accumulator"
@@ -235,7 +235,7 @@
 		}
 		{
 			id: "370722D32BE17EBE"
-			x: 4.0d
+			x: -0.73d
 			y: 8.0d
 			icon: {
 				id: "createaddition:tesla_coil"
@@ -257,7 +257,7 @@
 		}
 		{
 			id: "3A0D66D736400BB4"
-			x: 6.4d
+			x: 1.34d
 			y: 0.0d
 			icon: {
 				id: "create_enchantment_industry:experience_bucket"
@@ -279,7 +279,7 @@
 		}
 		{
 			id: "7371DE8B2A53A740"
-			x: 5.6d
+			x: 0.27d
 			y: 2.0d
 			icon: {
 				id: "create_enchantment_industry:blaze_enchanter"
@@ -309,7 +309,7 @@
 		}
 		{
 			id: "2F54F645102E13EE"
-			x: 7.2d
+			x: 1.77d
 			y: 2.0d
 			icon: {
 				id: "create_enchantment_industry:printer"
@@ -331,7 +331,7 @@
 		}
 		{
 			id: "2C8B1662D32860D4"
-			x: -7.2d
+			x: 4.23d
 			y: 0.0d
 			icon: {
 				id: "create_dragons_plus:dragon_breath_bucket"
@@ -353,7 +353,7 @@
 		}
 		{
 			id: "7AF22375ED6E4E3A"
-			x: -2.4d
+			x: -1.23d
 			y: 2.0d
 			icon: {
 				id: "copycats:copycat_slope"
@@ -376,7 +376,7 @@
 		}
 		{
 			id: "20B5B4A0BD67576A"
-			x: -5.6d
+			x: -0.16d
 			y: 0.0d
 			icon: {
 				id: "create_jetpack:jetpack"
@@ -398,7 +398,7 @@
 		}
 		{
 			id: "08B90679F2712DC1"
-			x: 0.8d
+			x: -0.73d
 			y: 10.0d
 			shape: "hexagon"
 			icon: {

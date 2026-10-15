@@ -31,7 +31,7 @@
 		}
 		{
 			id: "084AB0193213DB26"
-			x: -4.0d
+			x: -4.5d
 			y: 2.0d
 			icon: {
 				id: "minecraft:wheat_seeds"
@@ -83,7 +83,7 @@
 		}
 		{
 			id: "219DF824BFD97F6F"
-			x: -2.4d
+			x: -3.0d
 			y: 2.0d
 			icon: {
 				id: "minecraft:honeycomb"
@@ -118,7 +118,7 @@
 		}
 		{
 			id: "7B357B4253B80201"
-			x: -0.8d
+			x: -1.5d
 			y: 2.0d
 			icon: {
 				id: "aeronautics:wooden_propeller"
@@ -145,7 +145,7 @@
 		}
 		{
 			id: "26456503909C0515"
-			x: 0.8d
+			x: 0.0d
 			y: 2.0d
 			icon: {
 				id: "minecraft:melon_slice"
@@ -179,7 +179,7 @@
 		}
 		{
 			id: "5263804B39A8E916"
-			x: 2.4d
+			x: 1.5d
 			y: 2.0d
 			icon: {
 				id: "minecraft:pumpkin"
@@ -226,7 +226,7 @@
 		}
 		{
 			id: "5F568FA0D1D7F62E"
-			x: 4.0d
+			x: 3.0d
 			y: 2.0d
 			icon: {
 				id: "minecraft:lantern"
@@ -260,8 +260,8 @@
 		}
 		{
 			id: "3B8FD62542482159"
-			x: -4.0d
-			y: 3.5d
+			x: 4.5d
+			y: 2.0d
 			icon: {
 				id: "minecraft:ice"
 				count: 1
