@@ -186,7 +186,7 @@ hash = "d0a160d8623b9542f85faa1e8198074f4e9e4d22961fb7c53aa2909182723d75"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "17ad14db0e8663cc15f4eba863a499b2c6e907f5c2216a6550f5fde70b9046d4"
+hash = "39431cba7bf295b12321fad595defa36e532fe79ebc689e57f7c7fc45f9758a9"
 
 [[files]]
 file = "config/iris.properties"
@@ -1825,7 +1825,8 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "c1ea37875f3b058dbbebb74ba05dc6896ad3806147786d87d402ab16451ce875"
+hash = "264cde8a6088c76ec743c1519001bc047a3840e789c7f9f51b37b94b421bbb2b"
+preserve = true
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"

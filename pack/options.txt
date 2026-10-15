@@ -14,3 +14,6 @@ key_key.ftbquests.quests:key.keyboard.l
 key_key.advancements:key.keyboard.unknown
 key_key.puffish_skills.open:key.keyboard.p
 resourcePacks:["vanilla","mod_resources","file/FreshAnimations_v1.10.4.zip"]
+key_key.mute_microphone:key.keyboard.unknown
+key_key.immersivepetroleum.projector.flip:key.keyboard.unknown
+key_gui.xaero_open_map:key.keyboard.m

@@ -1,6 +1,6 @@
 [
  {
-  "mob": "hostile",
+  "hostile": true,
   "dimension": "minecraft:overworld",
   "maxspawndist": 256,
   "result": "deny"
@@ -21,7 +21,7 @@
   "result": "deny"
  },
  {
-  "mob": "hostile",
+  "hostile": true,
   "dimension": "minecraft:overworld",
   "maxspawndist": 1500,
   "random": 0.5,
