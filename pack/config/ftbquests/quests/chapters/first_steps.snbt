@@ -45,8 +45,8 @@
 		}
 		{
 			id: "25244ED318CF1CC2"
-			x: 1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 2.0d
 			icon: {
 				id: "minecraft:crafting_table"
 				count: 1
@@ -67,8 +67,8 @@
 		}
 		{
 			id: "0A20243FB3DE57EE"
-			x: 3.0d
-			y: -1.25d
+			x: -0.8d
+			y: 4.0d
 			icon: {
 				id: "minecraft:stone_pickaxe"
 				count: 1
@@ -89,8 +89,8 @@
 		}
 		{
 			id: "493C04C72C252AE1"
-			x: 4.5d
-			y: -1.875d
+			x: 0.0d
+			y: 6.0d
 			icon: {
 				id: "minecraft:furnace"
 				count: 1
@@ -121,8 +121,8 @@
 		}
 		{
 			id: "21B4E617FBC154C7"
-			x: 6.0d
-			y: -1.25d
+			x: 0.8d
+			y: 8.0d
 			icon: {
 				id: "minecraft:iron_ingot"
 				count: 1
@@ -154,8 +154,8 @@
 		}
 		{
 			id: "7D055965B59E433F"
-			x: 7.5d
-			y: -1.25d
+			x: -0.8d
+			y: 10.0d
 			icon: {
 				id: "minecraft:iron_pickaxe"
 				count: 1
@@ -176,8 +176,8 @@
 		}
 		{
 			id: "18F86F97AA42687E"
-			x: 3.0d
-			y: 0.0d
+			x: 8.0d
+			y: 4.0d
 			icon: {
 				id: "minecraft:white_bed"
 				count: 1
@@ -198,8 +198,8 @@
 		}
 		{
 			id: "4250898F27D30389"
-			x: 4.5d
-			y: -0.625d
+			x: 8.8d
+			y: 6.0d
 			icon: {
 				id: "comforts:sleeping_bag_white"
 				count: 1
@@ -221,8 +221,8 @@
 		}
 		{
 			id: "7FFC8E5E8083B094"
-			x: 4.5d
-			y: 0.625d
+			x: 7.2d
+			y: 6.0d
 			shape: "hexagon"
 			icon: {
 				id: "minecraft:white_banner"
@@ -240,8 +240,8 @@
 		}
 		{
 			id: "5FDAC3643835B9B1"
-			x: 7.5d
-			y: 0.0d
+			x: 4.0d
+			y: 10.0d
 			icon: {
 				id: "sophisticatedbackpacks:backpack"
 				count: 1
@@ -272,8 +272,8 @@
 		}
 		{
 			id: "2D3F975CD04C8DA2"
-			x: 9.0d
-			y: -3.125d
+			x: 2.4d
+			y: 12.0d
 			icon: {
 				id: "sophisticatedstorage:barrel"
 				count: 1
@@ -295,8 +295,8 @@
 		}
 		{
 			id: "41D73599EA517F03"
-			x: 9.0d
-			y: -1.875d
+			x: 0.8d
+			y: 12.0d
 			icon: {
 				id: "waystones:waystone"
 				count: 1
@@ -323,8 +323,8 @@
 		}
 		{
 			id: "641414C5D00BB68B"
-			x: 4.5d
-			y: 1.875d
+			x: -7.2d
+			y: 6.0d
 			icon: {
 				id: "gravestone:gravestone"
 				count: 1
@@ -341,8 +341,8 @@
 		}
 		{
 			id: "1E45B54AE1AE0643"
-			x: 6.0d
-			y: 0.0d
+			x: -5.6d
+			y: 8.0d
 			icon: {
 				id: "solcarrot:food_book"
 				count: 1
@@ -369,8 +369,8 @@
 		}
 		{
 			id: "13724199B13ED6C5"
-			x: 9.0d
-			y: -0.625d
+			x: -2.4d
+			y: 12.0d
 			icon: {
 				id: "lootr:lootr_chest"
 				count: 1
@@ -388,8 +388,8 @@
 		}
 		{
 			id: "3167C5A5C262D22D"
-			x: 10.5d
-			y: -1.25d
+			x: 1.12d
+			y: 15.6d
 			shape: "gear"
 			icon: {
 				id: "minecraft:compass"
@@ -426,8 +426,8 @@
 		}
 		{
 			id: "7BD784A262A4F208"
-			x: 7.5d
-			y: 1.25d
+			x: -4.0d
+			y: 10.0d
 			icon: {
 				id: "minecraft:shield"
 				count: 1
@@ -448,8 +448,8 @@
 		}
 		{
 			id: "04645A8752811DB8"
-			x: 9.0d
-			y: 0.625d
+			x: -0.8d
+			y: 12.0d
 			icon: {
 				id: "minecraft:diamond_pickaxe"
 				count: 1
@@ -477,8 +477,8 @@
 		}
 		{
 			id: "1A2098FF68A8F3F1"
-			x: 9.0d
-			y: 1.875d
+			x: 5.6d
+			y: 12.0d
 			icon: {
 				id: "sophisticatedbackpacks:pickup_upgrade"
 				count: 1
@@ -507,8 +507,8 @@
 		}
 		{
 			id: "73D46902670D5A7C"
-			x: 10.5d
-			y: 0.0d
+			x: 5.6d
+			y: 14.0d
 			icon: {
 				id: "sophisticatedbackpacks:feeding_upgrade"
 				count: 1
@@ -530,8 +530,8 @@
 		}
 		{
 			id: "4A13AADDAB2AE3C8"
-			x: 9.0d
-			y: 3.125d
+			x: 4.0d
+			y: 12.0d
 			icon: {
 				id: "sophisticatedbackpacks:iron_backpack"
 				count: 1
@@ -553,8 +553,8 @@
 		}
 		{
 			id: "7C58537A359FA5A6"
-			x: 10.5d
-			y: 1.25d
+			x: 0.8d
+			y: 14.0d
 			icon: {
 				id: "waystones:warp_stone"
 				count: 1
@@ -575,8 +575,8 @@
 		}
 		{
 			id: "01DD1D53DF25CA6A"
-			x: 3.0d
-			y: 1.25d
+			x: -8.8d
+			y: 4.0d
 			icon: {
 				id: "minecraft:chest"
 				count: 1
@@ -594,8 +594,8 @@
 		}
 		{
 			id: "1D2C45BEDF6DAD9C"
-			x: 6.0d
-			y: 1.25d
+			x: 8.8d
+			y: 8.0d
 			icon: {
 				id: "comforts:hammock_white"
 				count: 1

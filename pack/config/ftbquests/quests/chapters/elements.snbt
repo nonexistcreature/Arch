@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "7235EB4484D39CEF"
-			x: 0.0d
+			x: -0.0d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -41,8 +41,8 @@
 		}
 		{
 			id: "4285D3CEDD0D99B4"
-			x: 1.5d
-			y: -3.75d
+			x: -8.8d
+			y: 2.0d
 			icon: {
 				id: "arkhaven_core:hearth_stone"
 				count: 1
@@ -69,8 +69,8 @@
 		}
 		{
 			id: "3D8147435B400249"
-			x: 1.5d
-			y: -2.5d
+			x: -0.0d
+			y: 2.0d
 			icon: {
 				id: "arkhaven:meteoric_dust"
 				count: 1
@@ -87,8 +87,8 @@
 		}
 		{
 			id: "3E90DEC686D69116"
-			x: 3.0d
-			y: -3.125d
+			x: -0.0d
+			y: 4.0d
 			icon: {
 				id: "arkhaven_core:meteorite_ore"
 				count: 1
@@ -120,8 +120,8 @@
 		}
 		{
 			id: "5A0CC55134D58E8D"
-			x: 4.5d
-			y: 0.0d
+			x: -0.0d
+			y: 6.0d
 			icon: {
 				id: "arkhaven:ward_crystal_t1"
 				count: 1
@@ -143,8 +143,8 @@
 		}
 		{
 			id: "48E5FD47C52B6084"
-			x: 6.0d
-			y: 0.0d
+			x: -0.0d
+			y: 8.0d
 			shape: "hexagon"
 			icon: {
 				id: "arkhaven_core:ward_generator_t1"
@@ -176,8 +176,8 @@
 		}
 		{
 			id: "16A477416AFD3D59"
-			x: 7.5d
-			y: -0.625d
+			x: 0.8d
+			y: 10.0d
 			icon: {
 				id: "minecraft:fire_charge"
 				count: 1
@@ -194,8 +194,8 @@
 		}
 		{
 			id: "3E10FDC1DC810AC2"
-			x: 7.5d
-			y: 0.625d
+			x: -0.8d
+			y: 10.0d
 			icon: {
 				id: "arkhaven:rift_shard"
 				count: 1
@@ -212,8 +212,8 @@
 		}
 		{
 			id: "33AFEE95B7509AD8"
-			x: 1.5d
-			y: -1.25d
+			x: -7.2d
+			y: 2.0d
 			icon: {
 				id: "minecraft:redstone"
 				count: 1
@@ -230,8 +230,8 @@
 		}
 		{
 			id: "4ABB671FB9CEB4DA"
-			x: 1.5d
-			y: 0.0d
+			x: 5.6d
+			y: 2.0d
 			icon: {
 				id: "weather2:weather_forecast"
 				count: 1
@@ -252,8 +252,8 @@
 		}
 		{
 			id: "7749B36585890F81"
-			x: 3.0d
-			y: -1.875d
+			x: 2.4d
+			y: 4.0d
 			shape: "hexagon"
 			icon: {
 				id: "weather2:weather_deflector"
@@ -275,8 +275,8 @@
 		}
 		{
 			id: "11670169A7E1CD13"
-			x: 1.5d
-			y: 1.25d
+			x: -5.6d
+			y: 2.0d
 			icon: {
 				id: "minecraft:moss_block"
 				count: 1
@@ -294,8 +294,8 @@
 		}
 		{
 			id: "740E2F91D6262E0A"
-			x: 1.5d
-			y: 2.5d
+			x: -4.0d
+			y: 2.0d
 			icon: {
 				id: "mekanism:hazmat_mask"
 				count: 1
@@ -313,8 +313,8 @@
 		}
 		{
 			id: "0B6B1DDB206465F7"
-			x: 1.5d
-			y: 3.75d
+			x: -2.4d
+			y: 2.0d
 			icon: {
 				id: "minecolonies:blockhutguardtower"
 				count: 1
@@ -331,8 +331,8 @@
 		}
 		{
 			id: "7A50C60518C1E203"
-			x: 9.0d
-			y: 0.0d
+			x: 0.8d
+			y: 12.0d
 			shape: "gear"
 			icon: {
 				id: "arkhaven_core:ward_generator_t2"
@@ -372,8 +372,8 @@
 		}
 		{
 			id: "48D3C139931CF8D9"
-			x: 3.0d
-			y: -0.625d
+			x: 4.0d
+			y: 4.0d
 			icon: {
 				id: "weather2:tornado_siren"
 				count: 1
@@ -394,8 +394,8 @@
 		}
 		{
 			id: "58D49D8AFEC2510E"
-			x: 3.0d
-			y: 0.625d
+			x: 5.6d
+			y: 4.0d
 			icon: {
 				id: "weather2:tornado_sensor"
 				count: 1
@@ -417,8 +417,8 @@
 		}
 		{
 			id: "5623D930DF18775A"
-			x: 3.0d
-			y: 1.875d
+			x: 7.2d
+			y: 4.0d
 			icon: {
 				id: "weather2:anemometer"
 				count: 1
@@ -448,8 +448,8 @@
 		}
 		{
 			id: "0E97B1CB5F5C32BD"
-			x: 3.0d
-			y: 3.125d
+			x: 8.8d
+			y: 4.0d
 			icon: {
 				id: "minecraft:lightning_rod"
 				count: 1
@@ -471,8 +471,8 @@
 		}
 		{
 			id: "4C62FFBDC832EB2C"
-			x: 10.5d
-			y: 0.0d
+			x: 0.8d
+			y: 14.0d
 			icon: {
 				id: "arkhaven_core:ward_generator_t3"
 				count: 1

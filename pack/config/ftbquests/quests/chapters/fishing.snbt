@@ -45,8 +45,8 @@
 		}
 		{
 			id: "21F0682242876677"
-			x: 1.5d
-			y: -0.625d
+			x: -5.6d
+			y: 2.0d
 			icon: {
 				id: "tide:fishing_journal"
 				count: 1
@@ -67,8 +67,8 @@
 		}
 		{
 			id: "1D087548C817D51D"
-			x: 1.5d
-			y: 0.625d
+			x: 0.8d
+			y: 2.0d
 			icon: {
 				id: "minecraft:cod"
 				count: 1
@@ -90,8 +90,8 @@
 		}
 		{
 			id: "27EA82321637535F"
-			x: 3.0d
-			y: -1.25d
+			x: -0.8d
+			y: 4.0d
 			icon: {
 				id: "tide:lucky_bait"
 				count: 1
@@ -112,8 +112,8 @@
 		}
 		{
 			id: "78B9356D937BFE4F"
-			x: 4.5d
-			y: -1.25d
+			x: -0.8d
+			y: 6.0d
 			icon: {
 				id: "tide:iron_fishing_rod"
 				count: 1
@@ -134,8 +134,8 @@
 		}
 		{
 			id: "4E0C0B6EE4FBB412"
-			x: 6.0d
-			y: -2.5d
+			x: -4.0d
+			y: 8.0d
 			icon: {
 				id: "tide:lavaproof_hook"
 				count: 1
@@ -157,8 +157,8 @@
 		}
 		{
 			id: "7852E1FD4535E319"
-			x: 6.0d
-			y: -1.25d
+			x: -2.4d
+			y: 8.0d
 			icon: {
 				id: "tide:wooden_crate"
 				count: 1
@@ -180,8 +180,8 @@
 		}
 		{
 			id: "36CEBA9F196FF2E6"
-			x: 3.0d
-			y: 0.0d
+			x: 4.8d
+			y: 4.0d
 			icon: {
 				id: "aquaculture:iron_fillet_knife"
 				count: 1
@@ -203,8 +203,8 @@
 		}
 		{
 			id: "2C267C60B4B16E10"
-			x: 6.0d
-			y: 0.0d
+			x: -0.8d
+			y: 8.0d
 			shape: "gear"
 			icon: {
 				id: "tide:crystal_fishing_rod"
@@ -238,8 +238,8 @@
 		}
 		{
 			id: "5F473F9F3E8F5EF4"
-			x: 3.0d
-			y: 1.25d
+			x: -5.6d
+			y: 4.0d
 			icon: {
 				id: "tide:angling_table"
 				count: 1
@@ -260,8 +260,8 @@
 		}
 		{
 			id: "45CF406C62919035"
-			x: 6.0d
-			y: 1.25d
+			x: 0.8d
+			y: 8.0d
 			icon: {
 				id: "tide:golden_fishing_rod"
 				count: 1
@@ -283,8 +283,8 @@
 		}
 		{
 			id: "47531F258913D839"
-			x: 7.5d
-			y: -0.625d
+			x: 0.8d
+			y: 10.0d
 			icon: {
 				id: "tide:diamond_fishing_rod"
 				count: 1
@@ -306,8 +306,8 @@
 		}
 		{
 			id: "2CAAF7B984EE8DCE"
-			x: 6.0d
-			y: 2.5d
+			x: 2.4d
+			y: 8.0d
 			icon: {
 				id: "tide:permafrost_hook"
 				count: 1
@@ -329,8 +329,8 @@
 		}
 		{
 			id: "1A48F0C1E0815E52"
-			x: 7.5d
-			y: 0.625d
+			x: 2.4d
+			y: 10.0d
 			icon: {
 				id: "tide:void_hook"
 				count: 1
@@ -353,8 +353,8 @@
 		}
 		{
 			id: "1FB9BA2B85926335"
-			x: 4.5d
-			y: 0.0d
+			x: 4.0d
+			y: 6.0d
 			icon: {
 				id: "aquaculture:neptunium_ingot"
 				count: 1
@@ -376,8 +376,8 @@
 		}
 		{
 			id: "18B2199085A4FF74"
-			x: 4.5d
-			y: 1.25d
+			x: 5.6d
+			y: 6.0d
 			icon: {
 				id: "aquaculture:tackle_box"
 				count: 1

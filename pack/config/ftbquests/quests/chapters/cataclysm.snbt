@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "6B0239F4A91328CE"
-			x: 0.0d
-			y: -13.125d
+			x: 2.4d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "cataclysm:boss_respawner"
@@ -31,8 +31,8 @@
 		}
 		{
 			id: "72271F44CF818EB3"
-			x: 1.5d
-			y: -3.75d
+			x: -2.4d
+			y: 2.0d
 			icon: {
 				id: "cataclysm:monstrous_eye"
 				count: 1
@@ -53,8 +53,8 @@
 		}
 		{
 			id: "2702FC0751B9D94C"
-			x: 3.0d
-			y: -2.5d
+			x: -2.4d
+			y: 4.0d
 			icon: {
 				id: "cataclysm:netherite_effigy"
 				count: 1
@@ -72,8 +72,8 @@
 		}
 		{
 			id: "0D409B1B1A356229"
-			x: 4.5d
-			y: -2.5d
+			x: -2.4d
+			y: 6.0d
 			shape: "hexagon"
 			icon: {
 				id: "cataclysm:monstrous_horn"
@@ -93,8 +93,8 @@
 		}
 		{
 			id: "37EB413D543566D3"
-			x: 6.0d
-			y: -3.125d
+			x: -8.0d
+			y: 8.0d
 			icon: {
 				id: "cataclysm:monstrous_helm"
 				count: 1
@@ -115,8 +115,8 @@
 		}
 		{
 			id: "358CC6629333345D"
-			x: 6.0d
-			y: -1.875d
+			x: -3.2d
+			y: 8.0d
 			icon: {
 				id: "cataclysm:infernal_forge"
 				count: 1
@@ -137,8 +137,8 @@
 		}
 		{
 			id: "78D65F1F74044D75"
-			x: 6.0d
-			y: -0.625d
+			x: -6.4d
+			y: 8.0d
 			icon: {
 				id: "cataclysm:mechanical_fusion_anvil"
 				count: 1
@@ -159,8 +159,8 @@
 		}
 		{
 			id: "7FE08E26172BFAF6"
-			x: 6.0d
-			y: 0.625d
+			x: -4.8d
+			y: 8.0d
 			icon: {
 				id: "cataclysm:netherite_effigy"
 				count: 1
@@ -181,8 +181,8 @@
 		}
 		{
 			id: "4AF2C26F2B218882"
-			x: 6.0d
-			y: 1.875d
+			x: 0.8d
+			y: 8.0d
 			icon: {
 				id: "cataclysm:flame_eye"
 				count: 1
@@ -203,8 +203,8 @@
 		}
 		{
 			id: "4E4236D28AFB6F57"
-			x: 7.5d
-			y: -0.625d
+			x: 0.8d
+			y: 10.0d
 			icon: {
 				id: "cataclysm:altar_of_fire"
 				count: 1
@@ -222,8 +222,8 @@
 		}
 		{
 			id: "2F1F7F34A0DEFF5C"
-			x: 9.0d
-			y: 0.0d
+			x: 0.8d
+			y: 12.0d
 			shape: "hexagon"
 			icon: {
 				id: "cataclysm:ignitium_ingot"
@@ -243,8 +243,8 @@
 		}
 		{
 			id: "707A85C111EC71EB"
-			x: 10.5d
-			y: -1.875d
+			x: 3.2d
+			y: 14.0d
 			icon: {
 				id: "cataclysm:ignitium_ingot"
 				count: 1
@@ -274,8 +274,8 @@
 		}
 		{
 			id: "7060B6E399DF7354"
-			x: 12.0d
-			y: 0.0d
+			x: 3.2d
+			y: 16.0d
 			icon: {
 				id: "cataclysm:ignitium_helmet"
 				count: 1
@@ -320,8 +320,8 @@
 		}
 		{
 			id: "566410A2772CF7C9"
-			x: 13.5d
-			y: 0.0d
+			x: 3.2d
+			y: 18.0d
 			icon: {
 				id: "cataclysm:ignitium_elytra_chestplate"
 				count: 1
@@ -343,8 +343,8 @@
 		}
 		{
 			id: "5509C355B2E51C5B"
-			x: 10.5d
-			y: -0.625d
+			x: -1.6d
+			y: 14.0d
 			icon: {
 				id: "cataclysm:bulwark_of_the_flame"
 				count: 1
@@ -365,8 +365,8 @@
 		}
 		{
 			id: "3282A9FFAF120EDC"
-			x: 10.5d
-			y: 0.625d
+			x: 0.0d
+			y: 14.0d
 			icon: {
 				id: "cataclysm:the_incinerator"
 				count: 1
@@ -387,8 +387,8 @@
 		}
 		{
 			id: "501F5D9A88B3077C"
-			x: 10.5d
-			y: 1.875d
+			x: 1.6d
+			y: 14.0d
 			icon: {
 				id: "cataclysm:blazing_grips"
 				count: 1
@@ -409,8 +409,8 @@
 		}
 		{
 			id: "7CF748B04341886A"
-			x: 0.0d
-			y: -11.875d
+			x: -17.6d
+			y: 0.0d
 			icon: {
 				id: "cataclysm:void_core"
 				count: 1
@@ -431,8 +431,8 @@
 		}
 		{
 			id: "170AB93D557D27B5"
-			x: 0.0d
-			y: -10.625d
+			x: -16.0d
+			y: 0.0d
 			icon: {
 				id: "cataclysm:gauntlet_of_guard"
 				count: 1
@@ -453,8 +453,8 @@
 		}
 		{
 			id: "2C17B18E5893B7D2"
-			x: 7.5d
-			y: 0.625d
+			x: -3.2d
+			y: 10.0d
 			icon: {
 				id: "cataclysm:void_forge"
 				count: 1
@@ -476,8 +476,8 @@
 		}
 		{
 			id: "19870AAD7C79C411"
-			x: 0.0d
-			y: -9.375d
+			x: 14.4d
+			y: 0.0d
 			icon: {
 				id: "cataclysm:void_stone"
 				count: 1
@@ -496,8 +496,8 @@
 		}
 		{
 			id: "076817D007F75FDD"
-			x: 1.5d
-			y: -2.5d
+			x: 14.4d
+			y: 2.0d
 			icon: {
 				id: "cataclysm:enderite_ingot"
 				count: 1
@@ -519,8 +519,8 @@
 		}
 		{
 			id: "5347C81AEB9C341D"
-			x: 0.0d
-			y: -8.125d
+			x: -14.4d
+			y: 0.0d
 			icon: {
 				id: "cataclysm:abyss_eye"
 				count: 1
@@ -541,8 +541,8 @@
 		}
 		{
 			id: "63FE96C2B6606DA9"
-			x: 0.0d
-			y: -6.875d
+			x: -12.8d
+			y: 0.0d
 			icon: {
 				id: "cataclysm:tidal_claws"
 				count: 1
@@ -563,8 +563,8 @@
 		}
 		{
 			id: "7A3FEBF83761CC7A"
-			x: 0.0d
-			y: -5.625d
+			x: -11.2d
+			y: 0.0d
 			icon: {
 				id: "cataclysm:abyssal_egg"
 				count: 1
@@ -585,8 +585,8 @@
 		}
 		{
 			id: "14111229BDEAED1D"
-			x: 0.0d
-			y: -4.375d
+			x: 16.0d
+			y: 0.0d
 			icon: {
 				id: "cataclysm:crystallized_coral"
 				count: 1
@@ -605,8 +605,8 @@
 		}
 		{
 			id: "35B16BE62398D658"
-			x: 1.5d
-			y: -1.25d
+			x: 16.0d
+			y: 2.0d
 			icon: {
 				id: "cataclysm:coral_spear"
 				count: 1
@@ -635,8 +635,8 @@
 		}
 		{
 			id: "3ECC2C58C7C1444E"
-			x: 0.0d
-			y: -3.125d
+			x: -9.6d
+			y: 0.0d
 			icon: {
 				id: "cataclysm:azure_sea_shield"
 				count: 1
@@ -657,8 +657,8 @@
 		}
 		{
 			id: "19559516FB1134F0"
-			x: 0.0d
-			y: -1.875d
+			x: -17.6d
+			y: 1.5d
 			icon: {
 				id: "cataclysm:ceraunus"
 				count: 1
@@ -679,8 +679,8 @@
 		}
 		{
 			id: "5070203F7A73344C"
-			x: 0.0d
-			y: -0.625d
+			x: -16.0d
+			y: 1.5d
 			icon: {
 				id: "cataclysm:astrape"
 				count: 1
@@ -701,8 +701,8 @@
 		}
 		{
 			id: "65641002583081AD"
-			x: 0.0d
-			y: 0.625d
+			x: -14.4d
+			y: 1.5d
 			icon: {
 				id: "cataclysm:mech_eye"
 				count: 1
@@ -723,8 +723,8 @@
 		}
 		{
 			id: "72A78A25DF757261"
-			x: 0.0d
-			y: 1.875d
+			x: -12.8d
+			y: 1.5d
 			icon: {
 				id: "cataclysm:lava_power_cell"
 				count: 1
@@ -743,8 +743,8 @@
 		}
 		{
 			id: "5D9ECE38934C5D09"
-			x: 0.0d
-			y: 3.125d
+			x: -11.2d
+			y: 1.5d
 			icon: {
 				id: "cataclysm:wither_assault_shoulder_weapon"
 				count: 1
@@ -765,8 +765,8 @@
 		}
 		{
 			id: "294B560EDD7DA424"
-			x: 0.0d
-			y: 4.375d
+			x: -9.6d
+			y: 1.5d
 			icon: {
 				id: "cataclysm:laser_gatling"
 				count: 1
@@ -787,8 +787,8 @@
 		}
 		{
 			id: "2BDDCFE4B8CD8AFB"
-			x: 0.0d
-			y: 5.625d
+			x: -17.6d
+			y: 3.0d
 			icon: {
 				id: "cataclysm:witherite_ingot"
 				count: 1
@@ -810,8 +810,8 @@
 		}
 		{
 			id: "4AD5119537D623EF"
-			x: 1.5d
-			y: 0.0d
+			x: 6.4d
+			y: 2.0d
 			icon: {
 				id: "cataclysm:desert_eye"
 				count: 1
@@ -832,8 +832,8 @@
 		}
 		{
 			id: "36BCC059E4D54458"
-			x: 3.0d
-			y: -1.25d
+			x: 6.4d
+			y: 4.0d
 			icon: {
 				id: "cataclysm:cursed_tombstone"
 				count: 1
@@ -851,8 +851,8 @@
 		}
 		{
 			id: "48DBA50CE351F9F1"
-			x: 4.5d
-			y: -1.25d
+			x: 4.8d
+			y: 6.0d
 			icon: {
 				id: "cataclysm:necklace_of_the_desert"
 				count: 1
@@ -873,8 +873,8 @@
 		}
 		{
 			id: "30E1574759A1ED41"
-			x: 0.0d
-			y: 6.875d
+			x: -16.0d
+			y: 3.0d
 			icon: {
 				id: "cataclysm:wrath_of_the_desert"
 				count: 1
@@ -903,8 +903,8 @@
 		}
 		{
 			id: "249DF8692D6AF727"
-			x: 0.0d
-			y: 8.125d
+			x: -14.4d
+			y: 3.0d
 			icon: {
 				id: "cataclysm:khopesh"
 				count: 1
@@ -925,8 +925,8 @@
 		}
 		{
 			id: "640839E0F72CBF82"
-			x: 4.5d
-			y: 0.0d
+			x: 8.0d
+			y: 6.0d
 			icon: {
 				id: "cataclysm:kobolediator_skull"
 				count: 1
@@ -945,8 +945,8 @@
 		}
 		{
 			id: "53870F00F00B36B8"
-			x: 6.0d
-			y: 3.125d
+			x: 8.0d
+			y: 8.0d
 			icon: {
 				id: "cataclysm:sticky_gloves"
 				count: 1
@@ -967,8 +967,8 @@
 		}
 		{
 			id: "6FA277D6E33EEF1D"
-			x: 4.5d
-			y: 1.25d
+			x: 6.4d
+			y: 6.0d
 			icon: {
 				id: "cataclysm:lionfish_spike"
 				count: 1
@@ -987,8 +987,8 @@
 		}
 		{
 			id: "51E02638B5244131"
-			x: 1.5d
-			y: 1.25d
+			x: 9.6d
+			y: 2.0d
 			icon: {
 				id: "cataclysm:cursed_eye"
 				count: 1
@@ -1009,8 +1009,8 @@
 		}
 		{
 			id: "6E68BAC601531C7F"
-			x: 3.0d
-			y: 0.0d
+			x: 9.6d
+			y: 4.0d
 			icon: {
 				id: "cataclysm:pointed_icicle"
 				count: 1
@@ -1028,8 +1028,8 @@
 		}
 		{
 			id: "1CE2BA9020BFB2BE"
-			x: 4.5d
-			y: 2.5d
+			x: 9.6d
+			y: 6.0d
 			icon: {
 				id: "cataclysm:aptrgangr_head"
 				count: 1
@@ -1048,8 +1048,8 @@
 		}
 		{
 			id: "294AF5BCD22280CE"
-			x: 0.0d
-			y: 9.375d
+			x: 17.6d
+			y: 0.0d
 			icon: {
 				id: "cataclysm:cursium_ingot"
 				count: 1
@@ -1079,8 +1079,8 @@
 		}
 		{
 			id: "756DA255BF7A86EB"
-			x: 1.5d
-			y: 2.5d
+			x: 17.6d
+			y: 2.0d
 			icon: {
 				id: "cataclysm:cursium_helmet"
 				count: 1
@@ -1125,8 +1125,8 @@
 		}
 		{
 			id: "0D8A50688B12EBBC"
-			x: 0.0d
-			y: 10.625d
+			x: -12.8d
+			y: 3.0d
 			icon: {
 				id: "cataclysm:soul_render"
 				count: 1
@@ -1147,8 +1147,8 @@
 		}
 		{
 			id: "3CE0C222EE372367"
-			x: 0.0d
-			y: 11.875d
+			x: -11.2d
+			y: 3.0d
 			icon: {
 				id: "cataclysm:cursed_bow"
 				count: 1
@@ -1169,8 +1169,8 @@
 		}
 		{
 			id: "73C5B755D851E8D3"
-			x: 0.0d
-			y: 13.125d
+			x: -9.6d
+			y: 3.0d
 			icon: {
 				id: "cataclysm:the_annihilator"
 				count: 1
@@ -1191,8 +1191,8 @@
 		}
 		{
 			id: "1AE098A84FEE3785"
-			x: 1.5d
-			y: 3.75d
+			x: 12.0d
+			y: 2.0d
 			icon: {
 				id: "cataclysm:amethyst_crab_shell"
 				count: 1
@@ -1211,8 +1211,8 @@
 		}
 		{
 			id: "3C370B783F2158A4"
-			x: 3.0d
-			y: 1.25d
+			x: 11.2d
+			y: 4.0d
 			icon: {
 				id: "cataclysm:blessed_amethyst_crab_meat"
 				count: 1
@@ -1233,8 +1233,8 @@
 		}
 		{
 			id: "29F7DF699536A40D"
-			x: 3.0d
-			y: 2.5d
+			x: 12.8d
+			y: 4.0d
 			icon: {
 				id: "cataclysm:bloom_stone_pauldrons"
 				count: 1
@@ -1255,8 +1255,8 @@
 		}
 		{
 			id: "0C911114C0E16E1C"
-			x: 15.0d
-			y: 0.0d
+			x: 0.8d
+			y: 20.0d
 			shape: "hexagon"
 			icon: {
 				id: "cataclysm:ignitium_elytra_chestplate"

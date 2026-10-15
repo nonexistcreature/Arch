@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "3A4404A355E47B8F"
-			x: 0.0d
-			y: -2.5d
+			x: 0.8d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "tacz:gun_smith_table"
@@ -41,8 +41,8 @@
 		}
 		{
 			id: "68228C2E9955C382"
-			x: 1.5d
-			y: -3.75d
+			x: -2.4d
+			y: 2.0d
 			icon: {
 				id: "tacz:target"
 				count: 1
@@ -63,8 +63,8 @@
 		}
 		{
 			id: "0C06F2D583FF781C"
-			x: 1.5d
-			y: -2.5d
+			x: -0.8d
+			y: 2.0d
 			icon: {
 				id: "tacz:workbench_b"
 				count: 1
@@ -81,8 +81,8 @@
 		}
 		{
 			id: "4D1B1A33E90955B0"
-			x: 1.5d
-			y: -1.25d
+			x: 0.8d
+			y: 2.0d
 			icon: {
 				id: "tacz:ammo_box"
 				count: 1
@@ -103,8 +103,8 @@
 		}
 		{
 			id: "1F01CF3B5A2B8693"
-			x: 1.5d
-			y: 0.0d
+			x: 2.4d
+			y: 2.0d
 			icon: {
 				id: "minecraft:crossbow"
 				count: 1
@@ -133,8 +133,8 @@
 		}
 		{
 			id: "6DD0F70D9DDC8C7B"
-			x: 3.0d
-			y: -0.625d
+			x: 2.4d
+			y: 4.0d
 			icon: {
 				id: "minecraft:iron_chestplate"
 				count: 1
@@ -153,8 +153,8 @@
 		}
 		{
 			id: "4DDC25AF5DB52DB2"
-			x: 0.0d
-			y: -1.25d
+			x: -7.2d
+			y: 0.0d
 			icon: {
 				id: "immersivepetroleum:molotov"
 				count: 1
@@ -176,7 +176,7 @@
 		}
 		{
 			id: "4740D6790661887D"
-			x: 0.0d
+			x: -5.6d
 			y: 0.0d
 			icon: {
 				id: "tfmg:flamethrower"
@@ -198,8 +198,8 @@
 		}
 		{
 			id: "72E937A5DCECDADE"
-			x: 0.0d
-			y: 1.25d
+			x: 6.4d
+			y: 0.0d
 			icon: {
 				id: "createbigcannons:cannon_builder"
 				count: 1
@@ -220,8 +220,8 @@
 		}
 		{
 			id: "78978271E0B00221"
-			x: 1.5d
-			y: 1.25d
+			x: 5.6d
+			y: 2.0d
 			icon: {
 				id: "createbigcannons:steel_autocannon_barrel"
 				count: 1
@@ -250,8 +250,8 @@
 		}
 		{
 			id: "0261EF9E1DEBACDE"
-			x: 1.5d
-			y: 2.5d
+			x: 7.2d
+			y: 2.0d
 			icon: {
 				id: "smallships:cannon"
 				count: 1
@@ -273,8 +273,8 @@
 		}
 		{
 			id: "4334303B4E6E48AE"
-			x: 0.0d
-			y: 2.5d
+			x: -4.0d
+			y: 0.0d
 			icon: {
 				id: "immersive_aircraft:rotary_cannon"
 				count: 1
@@ -295,8 +295,8 @@
 		}
 		{
 			id: "2BE9CE783253AEBB"
-			x: 1.5d
-			y: 3.75d
+			x: 4.0d
+			y: 2.0d
 			icon: {
 				id: "droneworks:drone_core"
 				count: 1
@@ -336,8 +336,8 @@
 		}
 		{
 			id: "3569848A2294DF70"
-			x: 3.0d
-			y: 0.625d
+			x: 4.0d
+			y: 4.0d
 			icon: {
 				id: "droneworks:drone_hub"
 				count: 1
@@ -366,8 +366,8 @@
 		}
 		{
 			id: "533A846AC076473A"
-			x: 4.5d
-			y: 0.0d
+			x: 2.4d
+			y: 6.0d
 			shape: "hexagon"
 			icon: {
 				id: "minecraft:netherite_chestplate"

@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "0210AA1ED353DB24"
-			x: 0.0d
-			y: -0.625d
+			x: -24.0d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "immersiveengineering:hammer"
@@ -43,8 +43,8 @@
 		}
 		{
 			id: "42529685BB61068A"
-			x: 1.5d
-			y: -4.375d
+			x: -24.0d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:coke_oven"
 				count: 1
@@ -66,8 +66,8 @@
 		}
 		{
 			id: "450EFCA7DA0C32C3"
-			x: 3.0d
-			y: -8.75d
+			x: -24.8d
+			y: 4.0d
 			icon: {
 				id: "immersiveengineering:ingot_steel"
 				count: 1
@@ -89,8 +89,8 @@
 		}
 		{
 			id: "7BACE05C294403E1"
-			x: 3.0d
-			y: -7.5d
+			x: -16.0d
+			y: 4.0d
 			icon: {
 				id: "immersiveengineering:windmill"
 				count: 1
@@ -120,8 +120,8 @@
 		}
 		{
 			id: "1A07CB4F99214042"
-			x: 4.5d
-			y: -9.375d
+			x: -31.2d
+			y: 6.0d
 			icon: {
 				id: "immersiveengineering:sample_drill"
 				count: 1
@@ -143,8 +143,8 @@
 		}
 		{
 			id: "0487C41259C69160"
-			x: 4.5d
-			y: -8.125d
+			x: -25.6d
+			y: 6.0d
 			icon: {
 				id: "immersivepetroleum:seismic_survey"
 				count: 1
@@ -165,8 +165,8 @@
 		}
 		{
 			id: "7F7D4CF8C56466A4"
-			x: 6.0d
-			y: -8.125d
+			x: -25.6d
+			y: 8.0d
 			icon: {
 				id: "immersivepetroleum:pumpjack"
 				count: 1
@@ -187,8 +187,8 @@
 		}
 		{
 			id: "3E617B5D12B1FC24"
-			x: 7.5d
-			y: -4.375d
+			x: -24.8d
+			y: 10.0d
 			icon: {
 				id: "immersivepetroleum:distillation_tower"
 				count: 1
@@ -210,8 +210,8 @@
 		}
 		{
 			id: "3DEC14AC13120A77"
-			x: 0.0d
-			y: 0.625d
+			x: 9.6d
+			y: 0.0d
 			icon: {
 				id: "tfmg:steel_ingot"
 				count: 1
@@ -233,8 +233,8 @@
 		}
 		{
 			id: "1A020305E1D3E7EE"
-			x: 1.5d
-			y: -3.125d
+			x: -4.8d
+			y: 2.0d
 			icon: {
 				id: "tfmg:engine_controller"
 				count: 1
@@ -256,8 +256,8 @@
 		}
 		{
 			id: "294E4669A44B8A90"
-			x: 7.5d
-			y: -3.125d
+			x: -28.0d
+			y: 10.0d
 			shape: "hexagon"
 			icon: {
 				id: "minecraft:campfire"
@@ -275,8 +275,8 @@
 		}
 		{
 			id: "2AD96C483D33D856"
-			x: 3.0d
-			y: -6.25d
+			x: -32.8d
+			y: 4.0d
 			icon: {
 				id: "immersiveengineering:treated_wood_horizontal"
 				count: 1
@@ -298,8 +298,8 @@
 		}
 		{
 			id: "7AFF934DCA0E6570"
-			x: 4.5d
-			y: -6.875d
+			x: -16.0d
+			y: 6.0d
 			icon: {
 				id: "immersiveengineering:wire_copper"
 				count: 1
@@ -338,8 +338,8 @@
 		}
 		{
 			id: "4FBD2D0E83BE60B4"
-			x: 6.0d
-			y: -6.875d
+			x: -16.8d
+			y: 8.0d
 			icon: {
 				id: "immersiveengineering:capacitor_lv"
 				count: 1
@@ -361,8 +361,8 @@
 		}
 		{
 			id: "5483FBF5D1816A4C"
-			x: 4.5d
-			y: -5.625d
+			x: -20.0d
+			y: 6.0d
 			icon: {
 				id: "immersiveengineering:component_steel"
 				count: 1
@@ -393,8 +393,8 @@
 		}
 		{
 			id: "328FDBEF228A8FFE"
-			x: 6.0d
-			y: -5.625d
+			x: -20.0d
+			y: 8.0d
 			icon: {
 				id: "immersiveengineering:heavy_engineering"
 				count: 1
@@ -425,8 +425,8 @@
 		}
 		{
 			id: "5C46F0227CB6505C"
-			x: 7.5d
-			y: -1.875d
+			x: -21.6d
+			y: 10.0d
 			icon: {
 				id: "immersiveengineering:crusher"
 				count: 1
@@ -443,8 +443,8 @@
 		}
 		{
 			id: "3E2D9D8E886F6C84"
-			x: 7.5d
-			y: -0.625d
+			x: -20.0d
+			y: 10.0d
 			icon: {
 				id: "immersiveengineering:arc_furnace"
 				count: 1
@@ -462,8 +462,8 @@
 		}
 		{
 			id: "2F616E00AAE960B1"
-			x: 7.5d
-			y: 0.625d
+			x: -18.4d
+			y: 10.0d
 			icon: {
 				id: "immersiveengineering:excavator"
 				count: 1
@@ -482,8 +482,8 @@
 		}
 		{
 			id: "59FAF5536B9FD537"
-			x: 4.5d
-			y: -4.375d
+			x: -29.6d
+			y: 6.0d
 			icon: {
 				id: "immersiveengineering:revolver"
 				count: 1
@@ -505,8 +505,8 @@
 		}
 		{
 			id: "3046392D71FAC550"
-			x: 6.0d
-			y: -4.375d
+			x: -15.2d
+			y: 8.0d
 			icon: {
 				id: "immersiveengineering:skyhook"
 				count: 1
@@ -528,8 +528,8 @@
 		}
 		{
 			id: "1329CEFC5DE03CC2"
-			x: 9.0d
-			y: -5.625d
+			x: -26.4d
+			y: 12.0d
 			icon: {
 				id: "immersiveengineering:diesel_generator"
 				count: 1
@@ -547,8 +547,8 @@
 		}
 		{
 			id: "5C51AE40CD1103E9"
-			x: 9.0d
-			y: -4.375d
+			x: -24.8d
+			y: 12.0d
 			icon: {
 				id: "immersivepetroleum:asphalt"
 				count: 1
@@ -571,8 +571,8 @@
 		}
 		{
 			id: "2C47CC784D3B70E5"
-			x: 9.0d
-			y: -3.125d
+			x: -23.2d
+			y: 12.0d
 			icon: {
 				id: "immersivepetroleum:speedboat"
 				count: 1
@@ -594,8 +594,8 @@
 		}
 		{
 			id: "35E236DBFB93865C"
-			x: 1.5d
-			y: -1.875d
+			x: 12.0d
+			y: 2.0d
 			icon: {
 				id: "tfmg:steel_ingot"
 				count: 1
@@ -617,8 +617,8 @@
 		}
 		{
 			id: "6E091F8E2D5D5FBC"
-			x: 3.0d
-			y: -5.0d
+			x: 15.2d
+			y: 4.0d
 			icon: {
 				id: "tfmg:plastic_sheet"
 				count: 1
@@ -641,8 +641,8 @@
 		}
 		{
 			id: "64C0EDFF9ABD667E"
-			x: 3.0d
-			y: -3.75d
+			x: 0.8d
+			y: 4.0d
 			icon: {
 				id: "tfmg:lithium_ingot"
 				count: 1
@@ -665,8 +665,8 @@
 		}
 		{
 			id: "0A4D3CC8580A871B"
-			x: 1.5d
-			y: -0.625d
+			x: 28.0d
+			y: 2.0d
 			icon: {
 				id: "tfmg:coke_oven"
 				count: 1
@@ -687,8 +687,8 @@
 		}
 		{
 			id: "3159A577DDBB09A3"
-			x: 3.0d
-			y: -2.5d
+			x: 2.4d
+			y: 4.0d
 			icon: {
 				id: "tfmg:bauxite"
 				count: 1
@@ -710,8 +710,8 @@
 		}
 		{
 			id: "587BA5DC216ED50E"
-			x: 3.0d
-			y: -1.25d
+			x: 25.6d
+			y: 4.0d
 			icon: {
 				id: "tfmg:rebar_concrete"
 				count: 1
@@ -733,8 +733,8 @@
 		}
 		{
 			id: "594F228266507B1D"
-			x: 4.5d
-			y: -3.125d
+			x: 15.2d
+			y: 6.0d
 			icon: {
 				id: "tfmg:circuit_board"
 				count: 1
@@ -755,8 +755,8 @@
 		}
 		{
 			id: "34A6CC13D56A641D"
-			x: 6.0d
-			y: -3.125d
+			x: 16.0d
+			y: 8.0d
 			icon: {
 				id: "tfmg:electric_motor"
 				count: 1
@@ -777,8 +777,8 @@
 		}
 		{
 			id: "6D88123A2F5C4016"
-			x: 3.0d
-			y: 0.0d
+			x: -7.2d
+			y: 4.0d
 			icon: {
 				id: "tfmg:large_pumpjack_hammer_part"
 				count: 1
@@ -799,8 +799,8 @@
 		}
 		{
 			id: "2914A07238F4FC3A"
-			x: 7.5d
-			y: 1.875d
+			x: 9.2d
+			y: 10.0d
 			shape: "hexagon"
 			icon: {
 				id: "tfmg:steel_casing"
@@ -828,8 +828,8 @@
 		}
 		{
 			id: "5ECA5ED6855261BA"
-			x: 1.5d
-			y: 0.625d
+			x: -13.6d
+			y: 2.0d
 			icon: {
 				id: "tfmg:fireclay_ball"
 				count: 1
@@ -860,8 +860,8 @@
 		}
 		{
 			id: "4D11317C715C21B6"
-			x: 3.0d
-			y: 1.25d
+			x: 29.6d
+			y: 4.0d
 			icon: {
 				id: "tfmg:coke_oven"
 				count: 1
@@ -878,8 +878,8 @@
 		}
 		{
 			id: "11A2A60CF4B777CB"
-			x: 4.5d
-			y: -1.875d
+			x: 29.6d
+			y: 6.0d
 			icon: {
 				id: "tfmg:blast_furnace_output"
 				count: 1
@@ -918,8 +918,8 @@
 		}
 		{
 			id: "44074560068461DF"
-			x: 6.0d
-			y: -1.875d
+			x: 28.0d
+			y: 8.0d
 			icon: {
 				id: "tfmg:blast_stove"
 				count: 1
@@ -940,8 +940,8 @@
 		}
 		{
 			id: "08242AFBD392E776"
-			x: 6.0d
-			y: -0.625d
+			x: 31.2d
+			y: 8.0d
 			icon: {
 				id: "tfmg:casting_basin"
 				count: 1
@@ -962,8 +962,8 @@
 		}
 		{
 			id: "3C29252E178AF10C"
-			x: 7.5d
-			y: 3.125d
+			x: 31.2d
+			y: 10.0d
 			icon: {
 				id: "tfmg:cast_iron_ingot"
 				count: 1
@@ -994,8 +994,8 @@
 		}
 		{
 			id: "721B57CAE7CE28F2"
-			x: 3.0d
-			y: 2.5d
+			x: 23.2d
+			y: 4.0d
 			icon: {
 				id: "tfmg:steel_mechanism"
 				count: 1
@@ -1017,8 +1017,8 @@
 		}
 		{
 			id: "3620AFEA4D92D4B4"
-			x: 3.0d
-			y: 3.75d
+			x: 4.0d
+			y: 4.0d
 			icon: {
 				id: "tfmg:heavy_plate"
 				count: 1
@@ -1040,8 +1040,8 @@
 		}
 		{
 			id: "0B40A8FB2D17C594"
-			x: 3.0d
-			y: 5.0d
+			x: 5.6d
+			y: 4.0d
 			icon: {
 				id: "tfmg:steel_cogwheel"
 				count: 1
@@ -1079,8 +1079,8 @@
 		}
 		{
 			id: "4A375F21AC4978AB"
-			x: 3.0d
-			y: 6.25d
+			x: 7.2d
+			y: 4.0d
 			icon: {
 				id: "tfmg:steel_pickaxe"
 				count: 1
@@ -1117,8 +1117,8 @@
 		}
 		{
 			id: "122A23D50B4234A1"
-			x: 1.5d
-			y: 1.875d
+			x: 32.8d
+			y: 2.0d
 			icon: {
 				id: "tfmg:galena"
 				count: 1
@@ -1140,8 +1140,8 @@
 		}
 		{
 			id: "2A2098A285C33969"
-			x: 3.0d
-			y: 7.5d
+			x: 32.8d
+			y: 4.0d
 			icon: {
 				id: "tfmg:lead_pickaxe"
 				count: 1
@@ -1170,8 +1170,8 @@
 		}
 		{
 			id: "287FB412A80D9A4C"
-			x: 1.5d
-			y: 3.125d
+			x: -12.0d
+			y: 2.0d
 			icon: {
 				id: "tfmg:surface_scanner"
 				count: 1
@@ -1192,8 +1192,8 @@
 		}
 		{
 			id: "6847F4C28664F3EF"
-			x: 4.5d
-			y: -0.625d
+			x: -7.2d
+			y: 6.0d
 			icon: {
 				id: "tfmg:steel_distillation_controller"
 				count: 1
@@ -1223,8 +1223,8 @@
 		}
 		{
 			id: "57EC2C8953E0A97C"
-			x: 4.5d
-			y: 0.625d
+			x: 21.6d
+			y: 6.0d
 			icon: {
 				id: "tfmg:steel_chemical_vat"
 				count: 1
@@ -1254,8 +1254,8 @@
 		}
 		{
 			id: "601C98B2B0AE949E"
-			x: 6.0d
-			y: 0.625d
+			x: -8.8d
+			y: 8.0d
 			icon: {
 				id: "tfmg:flarestack"
 				count: 1
@@ -1276,8 +1276,8 @@
 		}
 		{
 			id: "31C3166E6150C725"
-			x: 6.0d
-			y: 1.875d
+			x: 29.6d
+			y: 8.0d
 			icon: {
 				id: "tfmg:metal_smokestack"
 				count: 1
@@ -1299,8 +1299,8 @@
 		}
 		{
 			id: "08CEFA3508F0016D"
-			x: 6.0d
-			y: 3.125d
+			x: -7.2d
+			y: 8.0d
 			icon: {
 				id: "tfmg:asphalt"
 				count: 1
@@ -1322,8 +1322,8 @@
 		}
 		{
 			id: "3D740BDDBBB1DC75"
-			x: 4.5d
-			y: 1.875d
+			x: 8.8d
+			y: 6.0d
 			icon: {
 				id: "tfmg:synthetic_leather"
 				count: 1
@@ -1354,8 +1354,8 @@
 		}
 		{
 			id: "2E806EC193D6C56D"
-			x: 3.0d
-			y: 8.75d
+			x: -2.4d
+			y: 4.0d
 			icon: {
 				id: "tfmg:regular_engine"
 				count: 1
@@ -1385,8 +1385,8 @@
 		}
 		{
 			id: "488BC9D213903789"
-			x: 4.5d
-			y: 3.125d
+			x: -0.8d
+			y: 6.0d
 			icon: {
 				id: "tfmg:large_engine"
 				count: 1
@@ -1416,8 +1416,8 @@
 		}
 		{
 			id: "7E0F2CDFD6BDC524"
-			x: 4.5d
-			y: 4.375d
+			x: -4.0d
+			y: 6.0d
 			icon: {
 				id: "tfmg:radial_engine"
 				count: 1
@@ -1438,8 +1438,8 @@
 		}
 		{
 			id: "75CF4D487EB9FF03"
-			x: 6.0d
-			y: 4.375d
+			x: -0.8d
+			y: 8.0d
 			icon: {
 				id: "tfmg:turbine_engine"
 				count: 1
@@ -1460,8 +1460,8 @@
 		}
 		{
 			id: "6C20A3E55F0AD3CD"
-			x: 4.5d
-			y: 5.625d
+			x: -2.4d
+			y: 6.0d
 			icon: {
 				id: "tfmg:turbo"
 				count: 1
@@ -1498,8 +1498,8 @@
 		}
 		{
 			id: "615B3B0DA6998ACF"
-			x: 7.5d
-			y: 4.375d
+			x: 16.0d
+			y: 10.0d
 			icon: {
 				id: "tfmg:generator"
 				count: 1
@@ -1538,8 +1538,8 @@
 		}
 		{
 			id: "4DBA62B14DC9CD80"
-			x: 9.0d
-			y: -1.875d
+			x: 12.0d
+			y: 12.0d
 			icon: {
 				id: "tfmg:multimeter"
 				count: 1
@@ -1568,8 +1568,8 @@
 		}
 		{
 			id: "175FB7FD839C4A47"
-			x: 9.0d
-			y: -0.625d
+			x: 13.6d
+			y: 12.0d
 			icon: {
 				id: "tfmg:accumulator"
 				count: 1
@@ -1591,8 +1591,8 @@
 		}
 		{
 			id: "4DE23E23F98F80A2"
-			x: 9.0d
-			y: 0.625d
+			x: 15.2d
+			y: 12.0d
 			icon: {
 				id: "tfmg:transformer"
 				count: 1
@@ -1621,8 +1621,8 @@
 		}
 		{
 			id: "10FF7C32138FD2DB"
-			x: 6.0d
-			y: 5.625d
+			x: 10.4d
+			y: 8.0d
 			icon: {
 				id: "tfmg:resistor"
 				count: 1
@@ -1662,8 +1662,8 @@
 		}
 		{
 			id: "29DC664BF5E3BB07"
-			x: 9.0d
-			y: 1.875d
+			x: 16.8d
+			y: 12.0d
 			icon: {
 				id: "tfmg:winding_machine"
 				count: 1
@@ -1684,8 +1684,8 @@
 		}
 		{
 			id: "3B1A72A757EE9C13"
-			x: 9.0d
-			y: 3.125d
+			x: 18.4d
+			y: 12.0d
 			icon: {
 				id: "tfmg:converter"
 				count: 1
@@ -1706,8 +1706,8 @@
 		}
 		{
 			id: "5D7228E0468C2ECE"
-			x: 9.0d
-			y: 4.375d
+			x: 20.0d
+			y: 12.0d
 			icon: {
 				id: "tfmg:light_bulb"
 				count: 1
@@ -1746,8 +1746,8 @@
 		}
 		{
 			id: "5885F30E7CF3C4F9"
-			x: 9.0d
-			y: 5.625d
+			x: 12.0d
+			y: 13.5d
 			icon: {
 				id: "tfmg:electric_pump"
 				count: 1
@@ -1768,8 +1768,8 @@
 		}
 		{
 			id: "15D110F1B5A5AAB6"
-			x: 4.5d
-			y: 6.875d
+			x: 24.8d
+			y: 6.0d
 			icon: {
 				id: "tfmg:rebar"
 				count: 1
@@ -1799,8 +1799,8 @@
 		}
 		{
 			id: "7332C6399AE90323"
-			x: 4.5d
-			y: 8.125d
+			x: 26.4d
+			y: 6.0d
 			icon: {
 				id: "tfmg:factory_floor"
 				count: 1
@@ -1822,8 +1822,8 @@
 		}
 		{
 			id: "270D09DCA18C2A9F"
-			x: 1.5d
-			y: 4.375d
+			x: -10.4d
+			y: 2.0d
 			icon: {
 				id: "tfmg:fire_extinguisher"
 				count: 1
@@ -1844,8 +1844,8 @@
 		}
 		{
 			id: "1BED2E449CF8B36B"
-			x: 6.0d
-			y: 6.875d
+			x: -5.6d
+			y: 8.0d
 			icon: {
 				id: "tfmg:flamethrower"
 				count: 1
@@ -1866,8 +1866,8 @@
 		}
 		{
 			id: "0C7D5B49867AB317"
-			x: 4.5d
-			y: 9.375d
+			x: 23.2d
+			y: 6.0d
 			icon: {
 				id: "tfmg:advanced_potato_cannon"
 				count: 1
@@ -1888,8 +1888,8 @@
 		}
 		{
 			id: "728CE71459E1D7A7"
-			x: 6.0d
-			y: 8.125d
+			x: 21.6d
+			y: 8.0d
 			icon: {
 				id: "tfmg:copper_grenade"
 				count: 1
@@ -1920,8 +1920,8 @@
 		}
 		{
 			id: "06B6DC6F3547A72D"
-			x: 10.5d
-			y: 0.0d
+			x: 12.8d
+			y: 15.6d
 			shape: "hexagon"
 			icon: {
 				id: "tfmg:turbine_engine"

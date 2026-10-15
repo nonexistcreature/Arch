@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "1FC1E9E294DB3C6B"
-			x: 0.0d
-			y: -0.625d
+			x: -4.0d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "buildinggadgets2:gadget_building"
@@ -35,8 +35,8 @@
 		}
 		{
 			id: "08468A16A473B47D"
-			x: 1.5d
-			y: -5.625d
+			x: -7.2d
+			y: 2.0d
 			icon: {
 				id: "buildinggadgets2:gadget_exchanging"
 				count: 1
@@ -58,8 +58,8 @@
 		}
 		{
 			id: "7402AF2B28E1AB7A"
-			x: 1.5d
-			y: -4.375d
+			x: -0.8d
+			y: 2.0d
 			icon: {
 				id: "framedblocks:framed_hammer"
 				count: 1
@@ -81,8 +81,8 @@
 		}
 		{
 			id: "40339AC01B286C60"
-			x: 0.0d
-			y: 0.625d
+			x: 4.0d
+			y: 0.0d
 			icon: {
 				id: "handcrafted:oak_table"
 				count: 1
@@ -111,8 +111,8 @@
 		}
 		{
 			id: "1FBC13A5E0BD957F"
-			x: 1.5d
-			y: -3.125d
+			x: -5.6d
+			y: 2.0d
 			icon: {
 				id: "create:schematicannon"
 				count: 1
@@ -131,8 +131,8 @@
 		}
 		{
 			id: "3E5505B24DA3089B"
-			x: 1.5d
-			y: -1.875d
+			x: 0.8d
+			y: 2.0d
 			shape: "gear"
 			icon: {
 				id: "minecraft:lantern"
@@ -157,8 +157,8 @@
 		}
 		{
 			id: "7B52108951988BE5"
-			x: 1.5d
-			y: -0.625d
+			x: -4.0d
+			y: 2.0d
 			icon: {
 				id: "buildinggadgets2:gadget_copy_paste"
 				count: 1
@@ -180,8 +180,8 @@
 		}
 		{
 			id: "0681C2FB1DAC97D3"
-			x: 1.5d
-			y: 0.625d
+			x: -2.4d
+			y: 2.0d
 			icon: {
 				id: "buildinggadgets2:gadget_destruction"
 				count: 1
@@ -203,8 +203,8 @@
 		}
 		{
 			id: "2FEDA2D18C4D62F6"
-			x: 1.5d
-			y: 1.875d
+			x: 7.2d
+			y: 2.0d
 			icon: {
 				id: "mcwroofs:oak_roof"
 				count: 1
@@ -243,8 +243,8 @@
 		}
 		{
 			id: "15BAB63916C275B3"
-			x: 3.0d
-			y: -0.625d
+			x: 7.2d
+			y: 4.0d
 			icon: {
 				id: "mcwbridges:oak_log_bridge_middle"
 				count: 1
@@ -267,8 +267,8 @@
 		}
 		{
 			id: "3D8B8BAB6142D975"
-			x: 1.5d
-			y: 3.125d
+			x: 2.4d
+			y: 2.0d
 			icon: {
 				id: "supplementaries:sack"
 				count: 1
@@ -306,8 +306,8 @@
 		}
 		{
 			id: "3603241567DE82A5"
-			x: 1.5d
-			y: 4.375d
+			x: 4.0d
+			y: 2.0d
 			icon: {
 				id: "createdeco:andesite_catwalk"
 				count: 1
@@ -331,8 +331,8 @@
 		}
 		{
 			id: "5AC27D5E66DB6566"
-			x: 3.0d
-			y: 0.625d
+			x: -0.8d
+			y: 4.0d
 			icon: {
 				id: "copycats:copycat_block"
 				count: 1
@@ -355,8 +355,8 @@
 		}
 		{
 			id: "121BFA9789E6622A"
-			x: 1.5d
-			y: 5.625d
+			x: 5.6d
+			y: 2.0d
 			icon: {
 				id: "interiors:red_chair"
 				count: 1

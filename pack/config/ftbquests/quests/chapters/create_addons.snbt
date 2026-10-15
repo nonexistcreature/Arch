@@ -13,7 +13,7 @@
 		{
 			id: "7D38C871CC211EF9"
 			x: 0.0d
-			y: -1.875d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "create:wrench"
@@ -31,8 +31,8 @@
 		}
 		{
 			id: "5F3C221590C6A560"
-			x: 1.5d
-			y: -3.125d
+			x: 0.8d
+			y: 2.0d
 			icon: {
 				id: "create_connected:six_way_gearbox"
 				count: 1
@@ -61,8 +61,8 @@
 		}
 		{
 			id: "30C19E71E43D8B9A"
-			x: 3.0d
-			y: -1.875d
+			x: -0.8d
+			y: 4.0d
 			icon: {
 				id: "create_connected:kinetic_battery"
 				count: 1
@@ -83,8 +83,8 @@
 		}
 		{
 			id: "7DE779C4EADEE227"
-			x: 3.0d
-			y: -0.625d
+			x: 0.8d
+			y: 4.0d
 			icon: {
 				id: "create_connected:overstress_clutch"
 				count: 1
@@ -113,8 +113,8 @@
 		}
 		{
 			id: "5B9945A1D0B3302F"
-			x: 3.0d
-			y: 0.625d
+			x: 2.4d
+			y: 4.0d
 			icon: {
 				id: "create_connected:item_silo"
 				count: 1
@@ -136,8 +136,8 @@
 		}
 		{
 			id: "389037C19D27671B"
-			x: 1.5d
-			y: -1.875d
+			x: -4.0d
+			y: 2.0d
 			icon: {
 				id: "create_connected:fan_sanding_catalyst"
 				count: 1
@@ -159,8 +159,8 @@
 		}
 		{
 			id: "3B2387F2822A0C64"
-			x: 1.5d
-			y: -0.625d
+			x: 4.0d
+			y: 2.0d
 			icon: {
 				id: "createaddition:alternator"
 				count: 1
@@ -181,8 +181,8 @@
 		}
 		{
 			id: "2B5EED31BF242AD9"
-			x: 3.0d
-			y: 1.875d
+			x: 4.0d
+			y: 4.0d
 			icon: {
 				id: "createaddition:copper_spool"
 				count: 1
@@ -212,8 +212,8 @@
 		}
 		{
 			id: "350DF99E7C5AC08F"
-			x: 4.5d
-			y: 0.0d
+			x: 4.0d
+			y: 6.0d
 			icon: {
 				id: "createaddition:modular_accumulator"
 				count: 1
@@ -235,8 +235,8 @@
 		}
 		{
 			id: "370722D32BE17EBE"
-			x: 6.0d
-			y: 0.0d
+			x: 4.0d
+			y: 8.0d
 			icon: {
 				id: "createaddition:tesla_coil"
 				count: 1
@@ -257,8 +257,8 @@
 		}
 		{
 			id: "3A0D66D736400BB4"
-			x: 0.0d
-			y: -0.625d
+			x: 6.4d
+			y: 0.0d
 			icon: {
 				id: "create_enchantment_industry:experience_bucket"
 				count: 1
@@ -279,8 +279,8 @@
 		}
 		{
 			id: "7371DE8B2A53A740"
-			x: 1.5d
-			y: 0.625d
+			x: 5.6d
+			y: 2.0d
 			icon: {
 				id: "create_enchantment_industry:blaze_enchanter"
 				count: 1
@@ -309,8 +309,8 @@
 		}
 		{
 			id: "2F54F645102E13EE"
-			x: 1.5d
-			y: 1.875d
+			x: 7.2d
+			y: 2.0d
 			icon: {
 				id: "create_enchantment_industry:printer"
 				count: 1
@@ -331,8 +331,8 @@
 		}
 		{
 			id: "2C8B1662D32860D4"
-			x: 0.0d
-			y: 0.625d
+			x: -7.2d
+			y: 0.0d
 			icon: {
 				id: "create_dragons_plus:dragon_breath_bucket"
 				count: 1
@@ -353,8 +353,8 @@
 		}
 		{
 			id: "7AF22375ED6E4E3A"
-			x: 1.5d
-			y: 3.125d
+			x: -2.4d
+			y: 2.0d
 			icon: {
 				id: "copycats:copycat_slope"
 				count: 1
@@ -376,8 +376,8 @@
 		}
 		{
 			id: "20B5B4A0BD67576A"
-			x: 0.0d
-			y: 1.875d
+			x: -5.6d
+			y: 0.0d
 			icon: {
 				id: "create_jetpack:jetpack"
 				count: 1
@@ -398,8 +398,8 @@
 		}
 		{
 			id: "08B90679F2712DC1"
-			x: 7.5d
-			y: 0.0d
+			x: 0.8d
+			y: 10.0d
 			shape: "hexagon"
 			icon: {
 				id: "create:brass_casing"

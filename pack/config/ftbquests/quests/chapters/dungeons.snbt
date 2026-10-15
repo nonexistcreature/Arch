@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "124FA016AD13E65C"
-			x: 0.0d
-			y: -5.625d
+			x: 0.8d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "minecraft:filled_map"
@@ -41,8 +41,8 @@
 		}
 		{
 			id: "398D7D0D31B16A8C"
-			x: 1.5d
-			y: -3.75d
+			x: -1.6d
+			y: 2.0d
 			icon: {
 				id: "minecraft:barrel"
 				count: 1
@@ -60,8 +60,8 @@
 		}
 		{
 			id: "3DC14FDAB04AB0DE"
-			x: 1.5d
-			y: -2.5d
+			x: 0.0d
+			y: 2.0d
 			icon: {
 				id: "minecraft:spawner"
 				count: 1
@@ -79,8 +79,8 @@
 		}
 		{
 			id: "1DD3D00D98540144"
-			x: 1.5d
-			y: -1.25d
+			x: 2.4d
+			y: 2.0d
 			icon: {
 				id: "minecraft:rail"
 				count: 1
@@ -98,8 +98,8 @@
 		}
 		{
 			id: "14590C32AE474724"
-			x: 0.0d
-			y: -4.375d
+			x: 4.8d
+			y: 0.0d
 			icon: {
 				id: "minecraft:crossbow"
 				count: 1
@@ -117,8 +117,8 @@
 		}
 		{
 			id: "24FE42BA2A7CCC9B"
-			x: 1.5d
-			y: 0.0d
+			x: 4.8d
+			y: 2.0d
 			icon: {
 				id: "minecraft:white_banner"
 				count: 1
@@ -136,8 +136,8 @@
 		}
 		{
 			id: "6A4762E3C93C0B5B"
-			x: 3.0d
-			y: -1.25d
+			x: 4.8d
+			y: 4.0d
 			icon: {
 				id: "smallships:cannon"
 				count: 1
@@ -155,8 +155,8 @@
 		}
 		{
 			id: "6EBAA1CC314A251D"
-			x: 0.0d
-			y: -3.125d
+			x: -9.6d
+			y: 0.0d
 			icon: {
 				id: "minecraft:iron_bars"
 				count: 1
@@ -174,8 +174,8 @@
 		}
 		{
 			id: "1AA7A9B0DC93023F"
-			x: 3.0d
-			y: 0.0d
+			x: 2.4d
+			y: 4.0d
 			icon: {
 				id: "minecraft:iron_pickaxe"
 				count: 1
@@ -193,8 +193,8 @@
 		}
 		{
 			id: "67026509AEC7D314"
-			x: 4.5d
-			y: -1.25d
+			x: 2.4d
+			y: 6.0d
 			icon: {
 				id: "minecraft:blast_furnace"
 				count: 1
@@ -212,8 +212,8 @@
 		}
 		{
 			id: "33B479E1E8E88664"
-			x: 0.0d
-			y: -1.875d
+			x: 6.4d
+			y: 0.0d
 			icon: {
 				id: "minecraft:bell"
 				count: 1
@@ -231,8 +231,8 @@
 		}
 		{
 			id: "68FD7B1F449B1EB6"
-			x: 1.5d
-			y: 1.25d
+			x: 6.4d
+			y: 2.0d
 			icon: {
 				id: "minecraft:fermented_spider_eye"
 				count: 1
@@ -250,8 +250,8 @@
 		}
 		{
 			id: "0829E4B42B4D1A82"
-			x: 3.0d
-			y: 1.25d
+			x: 6.4d
+			y: 4.0d
 			icon: {
 				id: "minecraft:sweet_berries"
 				count: 1
@@ -269,8 +269,8 @@
 		}
 		{
 			id: "1BAE5339A9DDE90E"
-			x: 4.5d
-			y: 0.0d
+			x: 6.4d
+			y: 6.0d
 			icon: {
 				id: "minecraft:elytra"
 				count: 1
@@ -288,8 +288,8 @@
 		}
 		{
 			id: "0DD810CD0C1C7B8F"
-			x: 4.5d
-			y: 1.25d
+			x: 4.8d
+			y: 6.0d
 			icon: {
 				id: "minecraft:spyglass"
 				count: 1
@@ -307,8 +307,8 @@
 		}
 		{
 			id: "322941DAB346E48E"
-			x: 6.0d
-			y: -1.25d
+			x: 1.6d
+			y: 8.0d
 			icon: {
 				id: "minecraft:gold_block"
 				count: 1
@@ -327,8 +327,8 @@
 		}
 		{
 			id: "2F44F8C0075501B1"
-			x: 0.0d
-			y: -0.625d
+			x: 8.0d
+			y: 0.0d
 			icon: {
 				id: "irons_spellbooks:scroll"
 				count: 1
@@ -346,8 +346,8 @@
 		}
 		{
 			id: "31BFEC0EEAA7251A"
-			x: 1.5d
-			y: 2.5d
+			x: 8.0d
+			y: 2.0d
 			icon: {
 				id: "irons_spellbooks:arcane_essence"
 				count: 1
@@ -365,8 +365,8 @@
 		}
 		{
 			id: "682C987E312106E8"
-			x: 6.0d
-			y: 0.0d
+			x: 4.8d
+			y: 8.0d
 			icon: {
 				id: "cataclysm:abyssal_egg"
 				count: 1
@@ -384,8 +384,8 @@
 		}
 		{
 			id: "65DEA3AA471B1627"
-			x: 6.0d
-			y: 1.25d
+			x: 3.2d
+			y: 8.0d
 			icon: {
 				id: "cataclysm:mech_eye"
 				count: 1
@@ -403,8 +403,8 @@
 		}
 		{
 			id: "1D9ABAB93B21593F"
-			x: 0.0d
-			y: 0.625d
+			x: -8.0d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:maze_map"
 				count: 1
@@ -422,8 +422,8 @@
 		}
 		{
 			id: "0233DEB78E99055C"
-			x: 0.0d
-			y: 1.875d
+			x: -6.4d
+			y: 0.0d
 			icon: {
 				id: "the_bumblezone:honey_crystal"
 				count: 1
@@ -441,8 +441,8 @@
 		}
 		{
 			id: "57FDCFE312B601D6"
-			x: 0.0d
-			y: 3.125d
+			x: 9.6d
+			y: 0.0d
 			icon: {
 				id: "aether:bronze_dungeon_key"
 				count: 1
@@ -460,8 +460,8 @@
 		}
 		{
 			id: "6493D15E22B26AAA"
-			x: 1.5d
-			y: 3.75d
+			x: 9.6d
+			y: 2.0d
 			icon: {
 				id: "deep_aether:brass_dungeon_key"
 				count: 1
@@ -479,8 +479,8 @@
 		}
 		{
 			id: "41271CF75F0F514B"
-			x: 0.0d
-			y: 4.375d
+			x: -4.8d
+			y: 0.0d
 			icon: {
 				id: "deeperdarker:heart_of_the_deep"
 				count: 1
@@ -498,8 +498,8 @@
 		}
 		{
 			id: "18D1F60CD2B50700"
-			x: 0.0d
-			y: 5.625d
+			x: -3.2d
+			y: 0.0d
 			icon: {
 				id: "minecraft:purpur_block"
 				count: 1
@@ -517,8 +517,8 @@
 		}
 		{
 			id: "5A9C5F24AD35D296"
-			x: 7.5d
-			y: 0.0d
+			x: -0.89d
+			y: 10.0d
 			shape: "hexagon"
 			icon: {
 				id: "minecraft:recovery_compass"

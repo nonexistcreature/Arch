@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "5B22481D0318449C"
-			x: 0.0d
-			y: -16.25d
+			x: -5.6d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "twilightforest:twilight_portal_miniature_structure"
@@ -32,8 +32,8 @@
 		}
 		{
 			id: "52D600F6F6A4599B"
-			x: 1.5d
-			y: -13.75d
+			x: -2.4d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:magic_map_focus"
 				count: 1
@@ -62,8 +62,8 @@
 		}
 		{
 			id: "25582DEA26794926"
-			x: 1.5d
-			y: -12.5d
+			x: -12.0d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:raw_venison"
 				count: 1
@@ -94,8 +94,8 @@
 		}
 		{
 			id: "1734937E7EF0E1D9"
-			x: 1.5d
-			y: -11.25d
+			x: -10.4d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:torchberries"
 				count: 1
@@ -113,8 +113,8 @@
 		}
 		{
 			id: "22269FB2349988D1"
-			x: 1.5d
-			y: -10.0d
+			x: -8.8d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:hedge"
 				count: 1
@@ -132,8 +132,8 @@
 		}
 		{
 			id: "712F29F5428CEECD"
-			x: 1.5d
-			y: -8.75d
+			x: -7.2d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:quest_ram_trophy"
 				count: 1
@@ -151,8 +151,8 @@
 		}
 		{
 			id: "1BC6272C15A5B674"
-			x: 1.5d
-			y: -7.5d
+			x: -5.6d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:uncrafting_table"
 				count: 1
@@ -173,8 +173,8 @@
 		}
 		{
 			id: "56E5F7DCFEDB31C1"
-			x: 1.5d
-			y: -6.25d
+			x: -0.8d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:torchberries"
 				count: 1
@@ -205,8 +205,8 @@
 		}
 		{
 			id: "1B7C490BEBCBA745"
-			x: 3.0d
-			y: -3.125d
+			x: -0.8d
+			y: 4.0d
 			icon: {
 				id: "twilightforest:cooked_venison"
 				count: 1
@@ -238,8 +238,8 @@
 		}
 		{
 			id: "3B6772C9A9CA5C7B"
-			x: 3.0d
-			y: -1.875d
+			x: -2.4d
+			y: 4.0d
 			icon: {
 				id: "twilightforest:nagastone_head"
 				count: 1
@@ -257,8 +257,8 @@
 		}
 		{
 			id: "6842664BD760C6E6"
-			x: 0.0d
-			y: -15.0d
+			x: -21.6d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:naga_chestplate"
 				count: 1
@@ -287,8 +287,8 @@
 		}
 		{
 			id: "78B04B9BD214FBFF"
-			x: 0.0d
-			y: -13.75d
+			x: -20.0d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:naga_trophy"
 				count: 1
@@ -309,8 +309,8 @@
 		}
 		{
 			id: "245DA7E979F6C2D3"
-			x: 0.0d
-			y: -12.5d
+			x: -18.4d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:lich_tower_miniature_structure"
 				count: 1
@@ -328,8 +328,8 @@
 		}
 		{
 			id: "7009BDB5B2408FBD"
-			x: 0.0d
-			y: -11.25d
+			x: -16.8d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:twilight_scepter"
 				count: 1
@@ -374,8 +374,8 @@
 		}
 		{
 			id: "64915B3C86849449"
-			x: 0.0d
-			y: -10.0d
+			x: -15.2d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:lich_trophy"
 				count: 1
@@ -396,8 +396,8 @@
 		}
 		{
 			id: "5EED486251257C86"
-			x: 0.0d
-			y: -8.75d
+			x: -13.6d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:ironwood_helmet"
 				count: 1
@@ -442,8 +442,8 @@
 		}
 		{
 			id: "1687CDE75715D2CD"
-			x: 1.5d
-			y: -5.0d
+			x: 0.8d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:steeleaf_helmet"
 				count: 1
@@ -488,8 +488,8 @@
 		}
 		{
 			id: "6D0E11901BC3FCDC"
-			x: 3.0d
-			y: -0.625d
+			x: 0.8d
+			y: 4.0d
 			icon: {
 				id: "twilightforest:steeleaf_sword"
 				count: 1
@@ -526,8 +526,8 @@
 		}
 		{
 			id: "710A35AF9F139298"
-			x: 0.0d
-			y: -7.5d
+			x: 3.2d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:mazestone"
 				count: 1
@@ -545,8 +545,8 @@
 		}
 		{
 			id: "3153879318778022"
-			x: 1.5d
-			y: -3.75d
+			x: 2.4d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:maze_map_focus"
 				count: 1
@@ -575,8 +575,8 @@
 		}
 		{
 			id: "51CE9E909CC7B4F6"
-			x: 1.5d
-			y: -2.5d
+			x: 4.0d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:mazebreaker_pickaxe"
 				count: 1
@@ -597,8 +597,8 @@
 		}
 		{
 			id: "322A3A6F03A9EB1C"
-			x: 0.0d
-			y: -6.25d
+			x: -21.6d
+			y: 1.5d
 			icon: {
 				id: "twilightforest:diamond_minotaur_axe"
 				count: 1
@@ -619,8 +619,8 @@
 		}
 		{
 			id: "0F22E50464FBE6F6"
-			x: 0.0d
-			y: -5.0d
+			x: 5.6d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:meef_stroganoff"
 				count: 1
@@ -641,8 +641,8 @@
 		}
 		{
 			id: "7912A8A04775CD18"
-			x: 1.5d
-			y: -1.25d
+			x: 5.6d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:hydra_trophy"
 				count: 1
@@ -660,8 +660,8 @@
 		}
 		{
 			id: "39DA916EDD2A66FD"
-			x: 0.0d
-			y: -3.75d
+			x: 8.0d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:fiery_blood"
 				count: 1
@@ -691,8 +691,8 @@
 		}
 		{
 			id: "7985B158A5E6EAF7"
-			x: 1.5d
-			y: 0.0d
+			x: 7.2d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:fiery_helmet"
 				count: 1
@@ -737,8 +737,8 @@
 		}
 		{
 			id: "5B20F48F05BC37DF"
-			x: 1.5d
-			y: 1.25d
+			x: 8.8d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:fiery_sword"
 				count: 1
@@ -767,8 +767,8 @@
 		}
 		{
 			id: "667F2107796C111B"
-			x: 0.0d
-			y: -2.5d
+			x: -20.0d
+			y: 1.5d
 			icon: {
 				id: "twilightforest:hydra_chop"
 				count: 1
@@ -789,8 +789,8 @@
 		}
 		{
 			id: "5DE4AEAAD0DE1486"
-			x: 0.0d
-			y: -1.25d
+			x: 11.2d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:knightmetal_ingot"
 				count: 1
@@ -808,8 +808,8 @@
 		}
 		{
 			id: "02A3EC03F9F3600A"
-			x: 1.5d
-			y: 2.5d
+			x: 11.2d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:armor_shard"
 				count: 1
@@ -840,8 +840,8 @@
 		}
 		{
 			id: "2AB70EA80310259B"
-			x: 3.0d
-			y: 0.625d
+			x: 10.4d
+			y: 4.0d
 			icon: {
 				id: "twilightforest:knightmetal_helmet"
 				count: 1
@@ -886,8 +886,8 @@
 		}
 		{
 			id: "3CC46684DEE45058"
-			x: 3.0d
-			y: 1.875d
+			x: 12.0d
+			y: 4.0d
 			icon: {
 				id: "twilightforest:knightmetal_sword"
 				count: 1
@@ -924,8 +924,8 @@
 		}
 		{
 			id: "216E95B531E571C4"
-			x: 0.0d
-			y: 0.0d
+			x: -18.4d
+			y: 1.5d
 			icon: {
 				id: "twilightforest:phantom_helmet"
 				count: 1
@@ -954,8 +954,8 @@
 		}
 		{
 			id: "0F634CBEAFED965C"
-			x: 0.0d
-			y: 1.25d
+			x: 14.4d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:carminite"
 				count: 1
@@ -973,8 +973,8 @@
 		}
 		{
 			id: "4760190435A8BE43"
-			x: 1.5d
-			y: 3.75d
+			x: 13.6d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:carminite"
 				count: 1
@@ -1004,8 +1004,8 @@
 		}
 		{
 			id: "64A9365315B0B355"
-			x: 1.5d
-			y: 5.0d
+			x: 15.2d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:ghast_trap"
 				count: 1
@@ -1026,8 +1026,8 @@
 		}
 		{
 			id: "3B0D69B7E270A57F"
-			x: 0.0d
-			y: 2.5d
+			x: -16.8d
+			y: 1.5d
 			icon: {
 				id: "twilightforest:fiery_tears"
 				count: 1
@@ -1048,8 +1048,8 @@
 		}
 		{
 			id: "564955218D8CB2E5"
-			x: 0.0d
-			y: 3.75d
+			x: 17.6d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:alpha_yeti_fur"
 				count: 1
@@ -1067,8 +1067,8 @@
 		}
 		{
 			id: "008082A7AC999C27"
-			x: 1.5d
-			y: 6.25d
+			x: 16.8d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:yeti_helmet"
 				count: 1
@@ -1113,8 +1113,8 @@
 		}
 		{
 			id: "694E1A3473B96593"
-			x: 1.5d
-			y: 7.5d
+			x: -4.0d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:arctic_helmet"
 				count: 1
@@ -1159,8 +1159,8 @@
 		}
 		{
 			id: "7CCD3B6DD5A72524"
-			x: 1.5d
-			y: 8.75d
+			x: 18.4d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:aurora_block"
 				count: 1
@@ -1178,8 +1178,8 @@
 		}
 		{
 			id: "34293E6276A6679F"
-			x: 0.0d
-			y: 5.0d
+			x: -15.2d
+			y: 1.5d
 			icon: {
 				id: "twilightforest:ice_bow"
 				count: 1
@@ -1208,8 +1208,8 @@
 		}
 		{
 			id: "4CD79C11522B3390"
-			x: 0.0d
-			y: 6.25d
+			x: 20.8d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:trollber"
 				count: 1
@@ -1227,8 +1227,8 @@
 		}
 		{
 			id: "2B33E7A7AEAF57F9"
-			x: 1.5d
-			y: 10.0d
+			x: 20.0d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:lamp_of_cinders"
 				count: 1
@@ -1249,8 +1249,8 @@
 		}
 		{
 			id: "45F6B9C684D4968C"
-			x: 1.5d
-			y: 11.25d
+			x: 21.6d
+			y: 2.0d
 			icon: {
 				id: "twilightforest:magic_beans"
 				count: 1
@@ -1271,8 +1271,8 @@
 		}
 		{
 			id: "034F8716B7A5345E"
-			x: 3.0d
-			y: 3.125d
+			x: 21.6d
+			y: 4.0d
 			icon: {
 				id: "twilightforest:giant_pickaxe"
 				count: 1
@@ -1293,8 +1293,8 @@
 		}
 		{
 			id: "38165F9BAFDE679A"
-			x: 0.0d
-			y: 7.5d
+			x: -13.6d
+			y: 1.5d
 			icon: {
 				id: "twilightforest:charm_of_life_2"
 				count: 1
@@ -1323,8 +1323,8 @@
 		}
 		{
 			id: "609281F46703D192"
-			x: 0.0d
-			y: 8.75d
+			x: -21.6d
+			y: 3.0d
 			icon: {
 				id: "twilightforest:triple_bow"
 				count: 1
@@ -1361,8 +1361,8 @@
 		}
 		{
 			id: "486074F0E4534C30"
-			x: 0.0d
-			y: 10.0d
+			x: -20.0d
+			y: 3.0d
 			icon: {
 				id: "twilightforest:ore_magnet"
 				count: 1
@@ -1383,8 +1383,8 @@
 		}
 		{
 			id: "19553E461865AD4A"
-			x: 0.0d
-			y: 11.25d
+			x: -18.4d
+			y: 3.0d
 			icon: {
 				id: "twilightforest:crumble_horn"
 				count: 1
@@ -1405,8 +1405,8 @@
 		}
 		{
 			id: "39F6AD01902D01FD"
-			x: 0.0d
-			y: 12.5d
+			x: -16.8d
+			y: 3.0d
 			icon: {
 				id: "twilightforest:peacock_feather_fan"
 				count: 1
@@ -1427,8 +1427,8 @@
 		}
 		{
 			id: "5B6B7B16E2215B92"
-			x: 0.0d
-			y: 13.75d
+			x: -15.2d
+			y: 3.0d
 			icon: {
 				id: "twilightforest:moonworm_queen"
 				count: 1
@@ -1449,8 +1449,8 @@
 		}
 		{
 			id: "3A156ED0C031D524"
-			x: 1.5d
-			y: 12.5d
+			x: -12.0d
+			y: 3.5d
 			icon: {
 				id: "twilightforest:travellers_boots"
 				count: 1
@@ -1479,8 +1479,8 @@
 		}
 		{
 			id: "1A53A3D446A56369"
-			x: 1.5d
-			y: 13.75d
+			x: -10.4d
+			y: 3.5d
 			icon: {
 				id: "twilightforest:cicada_jar"
 				count: 1
@@ -1509,8 +1509,8 @@
 		}
 		{
 			id: "42FE5D9C0791AD9E"
-			x: 0.0d
-			y: 15.0d
+			x: -13.6d
+			y: 3.0d
 			icon: {
 				id: "twilightforest:trophy_pedestal"
 				count: 1
@@ -1531,8 +1531,8 @@
 		}
 		{
 			id: "17FD3681EA08ECEB"
-			x: 0.0d
-			y: 16.25d
+			x: -21.6d
+			y: 4.5d
 			icon: {
 				id: "twilightforest:hydra_trophy"
 				count: 1
@@ -1569,8 +1569,8 @@
 		}
 		{
 			id: "40167F02FC81A8A0"
-			x: 4.5d
-			y: 0.0d
+			x: 21.6d
+			y: 6.0d
 			icon: {
 				id: "twilightforest:castle_brick"
 				count: 1
@@ -1589,8 +1589,8 @@
 		}
 		{
 			id: "0E3645CB18E6DF1E"
-			x: 6.0d
-			y: 0.0d
+			x: 2.93d
+			y: 8.0d
 			shape: "hexagon"
 			icon: {
 				id: "twilightforest:snow_queen_trophy"

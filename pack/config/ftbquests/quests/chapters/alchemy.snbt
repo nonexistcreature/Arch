@@ -53,8 +53,8 @@
 		}
 		{
 			id: "4ADED478BA38BECC"
-			x: 1.5d
-			y: -3.125d
+			x: -3.2d
+			y: 2.0d
 			icon: {
 				id: "irons_spellbooks:alchemist_cauldron"
 				count: 1
@@ -75,8 +75,8 @@
 		}
 		{
 			id: "1B9EEE85EBDBA92D"
-			x: 1.5d
-			y: -1.875d
+			x: 2.4d
+			y: 2.0d
 			shape: "hexagon"
 			icon: {
 				id: "herbalbrews:lavender"
@@ -104,8 +104,8 @@
 		}
 		{
 			id: "67BE72A396A69007"
-			x: 3.0d
-			y: -4.375d
+			x: -1.6d
+			y: 4.0d
 			icon: {
 				id: "minecraft:prismarine_crystals"
 				count: 1
@@ -123,8 +123,8 @@
 		}
 		{
 			id: "3B96C193ACA277A9"
-			x: 3.0d
-			y: -3.125d
+			x: 0.0d
+			y: 4.0d
 			icon: {
 				id: "minecraft:honey_bottle"
 				count: 1
@@ -142,8 +142,8 @@
 		}
 		{
 			id: "1051DF3F4385D339"
-			x: 3.0d
-			y: -1.875d
+			x: 1.6d
+			y: 4.0d
 			icon: {
 				id: "minecraft:golden_carrot"
 				count: 1
@@ -161,8 +161,8 @@
 		}
 		{
 			id: "2674C9B3CA6719CA"
-			x: 3.0d
-			y: -0.625d
+			x: 3.2d
+			y: 4.0d
 			icon: {
 				id: "minecraft:blaze_powder"
 				count: 1
@@ -180,8 +180,8 @@
 		}
 		{
 			id: "5D3473C41AD56DA7"
-			x: 3.0d
-			y: 0.625d
+			x: 6.4d
+			y: 4.0d
 			icon: {
 				id: "minecraft:moss_block"
 				count: 1
@@ -199,8 +199,8 @@
 		}
 		{
 			id: "30B0F5FAE9A6FB57"
-			x: 4.5d
-			y: -0.625d
+			x: 6.4d
+			y: 6.0d
 			icon: {
 				id: "mekanism:ingot_lead"
 				count: 1
@@ -218,8 +218,8 @@
 		}
 		{
 			id: "3C60CB78B824B591"
-			x: 3.0d
-			y: 1.875d
+			x: 4.8d
+			y: 4.0d
 			icon: {
 				id: "minecraft:spyglass"
 				count: 1
@@ -237,8 +237,8 @@
 		}
 		{
 			id: "31625BC464DBB176"
-			x: 4.5d
-			y: 0.625d
+			x: 1.87d
+			y: 6.0d
 			shape: "gear"
 			icon: {
 				id: "minecraft:dragon_breath"
@@ -273,8 +273,8 @@
 		}
 		{
 			id: "11474F8C95A5E393"
-			x: 1.5d
-			y: -0.625d
+			x: 8.0d
+			y: 2.0d
 			icon: {
 				id: "minecraft:glistering_melon_slice"
 				count: 1
@@ -296,8 +296,8 @@
 		}
 		{
 			id: "7C9D175FDA380D93"
-			x: 1.5d
-			y: 0.625d
+			x: -8.0d
+			y: 2.0d
 			icon: {
 				id: "minecraft:magma_cream"
 				count: 1
@@ -319,8 +319,8 @@
 		}
 		{
 			id: "4FB4B154BE3A7A58"
-			x: 1.5d
-			y: 1.875d
+			x: -6.4d
+			y: 2.0d
 			icon: {
 				id: "minecraft:golden_carrot"
 				count: 1
@@ -343,8 +343,8 @@
 		}
 		{
 			id: "4D893299F364F7FE"
-			x: 3.0d
-			y: 3.125d
+			x: 8.0d
+			y: 4.0d
 			icon: {
 				id: "minecraft:redstone"
 				count: 1
@@ -361,8 +361,8 @@
 		}
 		{
 			id: "4FCD47C6DC0C521C"
-			x: 1.5d
-			y: 3.125d
+			x: -4.8d
+			y: 2.0d
 			icon: {
 				id: "minecraft:milk_bucket"
 				count: 1
@@ -383,8 +383,8 @@
 		}
 		{
 			id: "51730512DD377681"
-			x: 3.0d
-			y: 4.375d
+			x: -3.2d
+			y: 4.0d
 			icon: {
 				id: "minecraft:cauldron"
 				count: 1

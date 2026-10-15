@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "0CC807686064633F"
-			x: 0.0d
-			y: -0.625d
+			x: 0.8d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "mcwfurnitures:birch_desk"
@@ -31,8 +31,8 @@
 		}
 		{
 			id: "68CF4A141555C824"
-			x: 1.5d
-			y: -3.75d
+			x: 4.0d
+			y: 2.0d
 			icon: {
 				id: "mcwfurnitures:birch_desk"
 				count: 1
@@ -53,8 +53,8 @@
 		}
 		{
 			id: "6C85FF8C153880DC"
-			x: 1.5d
-			y: -2.5d
+			x: -5.6d
+			y: 2.0d
 			icon: {
 				id: "mcwlights:golden_chandelier"
 				count: 1
@@ -75,8 +75,8 @@
 		}
 		{
 			id: "06224B94B88795AF"
-			x: 1.5d
-			y: -1.25d
+			x: -4.0d
+			y: 2.0d
 			icon: {
 				id: "mcwroofs:thatch_roof"
 				count: 1
@@ -98,8 +98,8 @@
 		}
 		{
 			id: "04FE1259A9EC7260"
-			x: 1.5d
-			y: 0.0d
+			x: 7.2d
+			y: 2.0d
 			icon: {
 				id: "mcwpaths:cobblestone_dumble_paving"
 				count: 1
@@ -121,8 +121,8 @@
 		}
 		{
 			id: "5AD48020E2594F58"
-			x: 1.5d
-			y: 1.25d
+			x: -2.4d
+			y: 2.0d
 			icon: {
 				id: "mcwdoors:birch_cottage_door"
 				count: 1
@@ -152,8 +152,8 @@
 		}
 		{
 			id: "277BEE78FED39A51"
-			x: 3.0d
-			y: -1.875d
+			x: 7.2d
+			y: 4.0d
 			icon: {
 				id: "mcwbridges:dark_oak_rail_bridge"
 				count: 1
@@ -175,8 +175,8 @@
 		}
 		{
 			id: "484124C4B32D2CAB"
-			x: 3.0d
-			y: -0.625d
+			x: 2.4d
+			y: 4.0d
 			icon: {
 				id: "another_furniture:white_sofa"
 				count: 1
@@ -198,8 +198,8 @@
 		}
 		{
 			id: "2D523083489AE02E"
-			x: 3.0d
-			y: 0.625d
+			x: 4.0d
+			y: 4.0d
 			icon: {
 				id: "handcrafted:bear_trophy"
 				count: 1
@@ -221,8 +221,8 @@
 		}
 		{
 			id: "7FB9BA113738A36B"
-			x: 3.0d
-			y: 1.875d
+			x: 5.6d
+			y: 4.0d
 			icon: {
 				id: "handcrafted:kitchen_hood"
 				count: 1
@@ -252,8 +252,8 @@
 		}
 		{
 			id: "01E55988ADE92D20"
-			x: 0.0d
-			y: 0.625d
+			x: -7.2d
+			y: 0.0d
 			icon: {
 				id: "framedblocks:framed_secret_storage"
 				count: 1
@@ -274,8 +274,8 @@
 		}
 		{
 			id: "1D0381CAEC065F43"
-			x: 1.5d
-			y: 2.5d
+			x: -0.8d
+			y: 2.0d
 			icon: {
 				id: "domum_ornamentum:architectscutter"
 				count: 1
@@ -296,8 +296,8 @@
 		}
 		{
 			id: "20879EC69322B31B"
-			x: 1.5d
-			y: 3.75d
+			x: 0.8d
+			y: 2.0d
 			icon: {
 				id: "supplementaries:notice_board"
 				count: 1
@@ -327,8 +327,8 @@
 		}
 		{
 			id: "2B022A0B2B672C60"
-			x: 4.5d
-			y: 0.0d
+			x: 0.0d
+			y: 6.0d
 			shape: "hexagon"
 			icon: {
 				id: "minecraft:red_bed"

@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "483595C3466D106D"
-			x: 0.0d
-			y: -0.625d
+			x: -0.8d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "minecraft:iron_sword"
@@ -61,8 +61,8 @@
 		}
 		{
 			id: "11213DE6310C1D6A"
-			x: 1.5d
-			y: -5.0d
+			x: -5.6d
+			y: 2.0d
 			icon: {
 				id: "lootr:lootr_chest"
 				count: 1
@@ -79,8 +79,8 @@
 		}
 		{
 			id: "16E1CA1EF5B21B46"
-			x: 1.5d
-			y: -3.75d
+			x: 0.8d
+			y: 2.0d
 			icon: {
 				id: "minecraft:obsidian"
 				count: 1
@@ -98,8 +98,8 @@
 		}
 		{
 			id: "739285040B5B0234"
-			x: 1.5d
-			y: -2.5d
+			x: 4.0d
+			y: 2.0d
 			shape: "hexagon"
 			icon: {
 				id: "twilightforest:magic_map_focus"
@@ -118,8 +118,8 @@
 		}
 		{
 			id: "5435E49C41CDE3FF"
-			x: 3.0d
-			y: -5.625d
+			x: 4.0d
+			y: 4.0d
 			icon: {
 				id: "twilightforest:naga_trophy"
 				count: 1
@@ -148,8 +148,8 @@
 		}
 		{
 			id: "4B8828721D42DE2A"
-			x: 4.5d
-			y: -4.375d
+			x: 4.8d
+			y: 6.0d
 			icon: {
 				id: "twilightforest:lich_trophy"
 				count: 1
@@ -168,8 +168,8 @@
 		}
 		{
 			id: "3407660309397086"
-			x: 6.0d
-			y: -1.875d
+			x: 4.0d
+			y: 8.0d
 			icon: {
 				id: "twilightforest:hydra_trophy"
 				count: 1
@@ -189,8 +189,8 @@
 		}
 		{
 			id: "29EFEF68F03D66A9"
-			x: 1.5d
-			y: -1.25d
+			x: 8.0d
+			y: 2.0d
 			icon: {
 				id: "aether:aether_portal_frame"
 				count: 1
@@ -208,8 +208,8 @@
 		}
 		{
 			id: "3020E46100BB3368"
-			x: 3.0d
-			y: -4.375d
+			x: 8.8d
+			y: 4.0d
 			icon: {
 				id: "aether:bronze_dungeon_key"
 				count: 1
@@ -229,8 +229,8 @@
 		}
 		{
 			id: "22E49A43159B2841"
-			x: 1.5d
-			y: 0.0d
+			x: 10.4d
+			y: 2.0d
 			icon: {
 				id: "minecraft:stone_bricks"
 				count: 1
@@ -249,8 +249,8 @@
 		}
 		{
 			id: "241D0F92C3E12524"
-			x: 1.5d
-			y: 1.25d
+			x: 12.0d
+			y: 2.0d
 			icon: {
 				id: "minecraft:sculk"
 				count: 1
@@ -269,8 +269,8 @@
 		}
 		{
 			id: "5191867CC65E64EB"
-			x: 0.0d
-			y: 0.625d
+			x: 13.6d
+			y: 0.0d
 			icon: {
 				id: "minecraft:honeycomb"
 				count: 1
@@ -289,8 +289,8 @@
 		}
 		{
 			id: "256C62572DAB7621"
-			x: 3.0d
-			y: -3.125d
+			x: -5.6d
+			y: 4.0d
 			shape: "hexagon"
 			icon: {
 				id: "cataclysm:ignitium_ingot"
@@ -311,8 +311,8 @@
 		}
 		{
 			id: "662910273F2B230B"
-			x: 3.0d
-			y: -1.875d
+			x: -1.6d
+			y: 4.0d
 			icon: {
 				id: "mowziesmobs:wrought_helmet"
 				count: 1
@@ -332,8 +332,8 @@
 		}
 		{
 			id: "38AEAB79267D768C"
-			x: 3.0d
-			y: -0.625d
+			x: -10.4d
+			y: 4.0d
 			icon: {
 				id: "aquamirae:dead_sea_scroll"
 				count: 1
@@ -353,8 +353,8 @@
 		}
 		{
 			id: "5814EB842FA7B370"
-			x: 3.0d
-			y: 0.625d
+			x: 0.8d
+			y: 4.0d
 			icon: {
 				id: "minecraft:ender_eye"
 				count: 1
@@ -373,8 +373,8 @@
 		}
 		{
 			id: "20B6AA7E95CCB7D5"
-			x: 6.0d
-			y: -0.625d
+			x: 4.53d
+			y: 16.0d
 			shape: "gear"
 			icon: {
 				id: "minecraft:netherite_sword"
@@ -409,8 +409,8 @@
 		}
 		{
 			id: "1957C1B40843F000"
-			x: 1.5d
-			y: 2.5d
+			x: -13.6d
+			y: 2.0d
 			icon: {
 				id: "minecraft:barrel"
 				count: 1
@@ -428,8 +428,8 @@
 		}
 		{
 			id: "5A77759DFBE67C95"
-			x: 1.5d
-			y: 3.75d
+			x: -12.0d
+			y: 2.0d
 			icon: {
 				id: "minecraft:bell"
 				count: 1
@@ -447,8 +447,8 @@
 		}
 		{
 			id: "1259337CB58F1C9E"
-			x: 4.5d
-			y: -3.125d
+			x: 2.4d
+			y: 6.0d
 			icon: {
 				id: "twilightforest:ironwood_ingot"
 				count: 1
@@ -470,8 +470,8 @@
 		}
 		{
 			id: "2E1D43BB1E766B59"
-			x: 6.0d
-			y: 0.625d
+			x: 5.6d
+			y: 8.0d
 			icon: {
 				id: "twilightforest:minoshroom_trophy"
 				count: 1
@@ -491,8 +491,8 @@
 		}
 		{
 			id: "3900D125095728FD"
-			x: 7.5d
-			y: 0.0d
+			x: 5.6d
+			y: 10.0d
 			icon: {
 				id: "twilightforest:knightmetal_ingot"
 				count: 1
@@ -512,8 +512,8 @@
 		}
 		{
 			id: "5AA2916146AB0FE5"
-			x: 9.0d
-			y: 0.0d
+			x: 5.6d
+			y: 12.0d
 			icon: {
 				id: "twilightforest:fiery_ingot"
 				count: 1
@@ -533,8 +533,8 @@
 		}
 		{
 			id: "78AFBA41AFAA0319"
-			x: 10.5d
-			y: 0.0d
+			x: 5.6d
+			y: 14.0d
 			icon: {
 				id: "twilightforest:alpha_yeti_fur"
 				count: 1
@@ -560,8 +560,8 @@
 		}
 		{
 			id: "73113DD67E148277"
-			x: 3.0d
-			y: 1.875d
+			x: 7.2d
+			y: 4.0d
 			icon: {
 				id: "aether:zanite_gemstone"
 				count: 1
@@ -583,8 +583,8 @@
 		}
 		{
 			id: "0B1C9822CA3D917F"
-			x: 4.5d
-			y: -1.875d
+			x: 8.8d
+			y: 6.0d
 			icon: {
 				id: "aether:valkyrie_lance"
 				count: 1
@@ -604,8 +604,8 @@
 		}
 		{
 			id: "13F13D09D97F5AFC"
-			x: 6.0d
-			y: 1.875d
+			x: 8.8d
+			y: 8.0d
 			icon: {
 				id: "aether:gravitite_pickaxe"
 				count: 1
@@ -625,8 +625,8 @@
 		}
 		{
 			id: "7D35BB7FBDAEF93B"
-			x: 3.0d
-			y: 3.125d
+			x: 10.4d
+			y: 4.0d
 			icon: {
 				id: "undergarden:cloggrum_ingot"
 				count: 1
@@ -649,8 +649,8 @@
 		}
 		{
 			id: "3D37C20ACFC1671F"
-			x: 3.0d
-			y: 4.375d
+			x: 12.0d
+			y: 4.0d
 			icon: {
 				id: "deeperdarker:reinforced_echo_shard"
 				count: 1
@@ -672,8 +672,8 @@
 		}
 		{
 			id: "20D49507FD947801"
-			x: 4.5d
-			y: -0.625d
+			x: -7.2d
+			y: 6.0d
 			icon: {
 				id: "cataclysm:ignitium_ingot"
 				count: 1
@@ -693,8 +693,8 @@
 		}
 		{
 			id: "665F15D3591B91CB"
-			x: 4.5d
-			y: 0.625d
+			x: -5.6d
+			y: 6.0d
 			icon: {
 				id: "cataclysm:void_eye"
 				count: 1
@@ -715,8 +715,8 @@
 		}
 		{
 			id: "591B863A25456EA2"
-			x: 4.5d
-			y: 1.875d
+			x: -4.0d
+			y: 6.0d
 			icon: {
 				id: "cataclysm:abyss_eye"
 				count: 1
@@ -736,8 +736,8 @@
 		}
 		{
 			id: "5CDB9F3F46E94031"
-			x: 4.5d
-			y: 3.125d
+			x: -2.4d
+			y: 6.0d
 			icon: {
 				id: "mowziesmobs:ice_crystal"
 				count: 1
@@ -757,8 +757,8 @@
 		}
 		{
 			id: "34C186A7C66EB616"
-			x: 4.5d
-			y: 4.375d
+			x: -0.8d
+			y: 6.0d
 			icon: {
 				id: "mowziesmobs:sol_visage"
 				count: 1
@@ -778,8 +778,8 @@
 		}
 		{
 			id: "2D00EB21A23B01B1"
-			x: 3.0d
-			y: 5.625d
+			x: -8.8d
+			y: 4.0d
 			icon: {
 				id: "minecraft:carved_pumpkin"
 				count: 1
@@ -799,8 +799,8 @@
 		}
 		{
 			id: "1079865D0DAE982A"
-			x: 1.5d
-			y: 5.0d
+			x: 13.6d
+			y: 2.0d
 			icon: {
 				id: "the_bumblezone:honey_crystal_shards"
 				count: 1

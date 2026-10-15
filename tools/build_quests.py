@@ -139,20 +139,57 @@ def layout(quests):
         depth[i] = 0 if not ds else 1 + max(dp(d, seen + (i,)) for d in ds)
         return depth[i]
     for x in quests: dp(x["id"])
-    rows = {}
+    # Tidy tree: every quest hangs off its primary parent (its deepest dependency), each branch
+    # gets its own horizontal band, and a parent's many leaf children are laid out as a grid instead of one
+    # endless column. Other dependencies are still drawn by FTB Quests as extra lines.
+    DX, DY, DXL, ROWS = 2.0, 1.6, 1.5, 6
+    kids = {x["id"]: [] for x in quests}
+    roots = []
+    # hubs: final quests that gather 3+ branches; placed under the middle of their dependencies afterwards
+    has_kids = {d for x in quests for d in x.get("deps", []) if d in by}
+    hubs = [x["id"] for x in quests if len([d for d in x.get("deps", []) if d in by]) >= 3 and x["id"] not in has_kids]
+    for x in quests:
+        ds = [d for d in x.get("deps", []) if d in by]
+        if x["id"] in hubs:
+            continue
+        if ds:
+            kids[max(ds, key=lambda d: depth[d])].append(x["id"])
+        else:
+            roots.append(x["id"])
     pos = {}
+
+    def block(ids, x, top):
+        """Lay out sibling quests starting at column x, band top; returns the band height used."""
+        leaves = [i for i in ids if not kids[i]]
+        inner = [i for i in ids if kids[i]]
+        y = top
+        if leaves:
+            rows = min(ROWS, len(leaves))
+            for n, i in enumerate(leaves):
+                pos[i] = (x + (n // rows) * DXL, y + (n % rows) * DY)
+            y += rows * DY
+        for i in inner:
+            h = block(kids[i], x + DX, y)
+            pos[i] = (x, y + (h - DY) / 2)
+            y += h
+        return max(y - top, DY)
+
+    block(roots, 0.0, 0.0)
+    ys = [p[1] for p in pos.values()]
+    mid = (min(ys) + max(ys)) / 2 if ys else 0
+    # the tree grows top-down on screen (screens are wide): band position -> x, depth -> y
+    pos = {i: (round(py - mid, 2), round(px, 2)) for i, (px, py) in pos.items()}
+    taken = set(pos.values())
+    for h in sorted(hubs, key=lambda i: depth[i]):
+        ds = [pos[d] for d in by[h].get("deps", []) if d in pos]
+        hx = round(sum(p[0] for p in ds) / len(ds), 2)
+        hy = round(max(p[1] for p in ds) + DX, 2)
+        while (hx, hy) in taken or any(abs(hx - a) < 1.2 and abs(hy - b) < 1.2 for a, b in taken):
+            hy = round(hy + DY, 2)
+        pos[h] = (hx, hy); taken.add(pos[h])
     for x in quests:
         if "pos" in x:
-            pos[x["id"]] = tuple(x["pos"]); continue
-        d = depth[x["id"]]
-        r = rows.get(d, 0); rows[d] = r + 1
-        pos[x["id"]] = (d * 1.5, r * 1.25)
-    # centre each column vertically
-    for d, n in rows.items():
-        off = (n - 1) * 1.25 / 2
-        for x in quests:
-            if "pos" not in x and depth[x["id"]] == d:
-                px, py = pos[x["id"]]; pos[x["id"]] = (px, py - off)
+            pos[x["id"]] = tuple(x["pos"])
     return pos
 
 

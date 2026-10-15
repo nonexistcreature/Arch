@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "797D0E483FA8CEEB"
-			x: 0.0d
-			y: -4.375d
+			x: -4.0d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "arkhaven:ward_crystal_t1"
@@ -28,8 +28,8 @@
 		}
 		{
 			id: "5A2C5F9CF1420CA0"
-			x: 0.0d
-			y: -3.125d
+			x: -2.4d
+			y: 0.0d
 			icon: {
 				id: "tacz:gun_smith_table"
 				count: 1
@@ -43,8 +43,8 @@
 		}
 		{
 			id: "1438069491CE0496"
-			x: 0.0d
-			y: -1.875d
+			x: -0.8d
+			y: 0.0d
 			icon: {
 				id: "minecraft:oak_sign"
 				count: 1
@@ -58,8 +58,8 @@
 		}
 		{
 			id: "00EB4BACA0AC0845"
-			x: 0.0d
-			y: -0.625d
+			x: 0.8d
+			y: 0.0d
 			icon: {
 				id: "minecraft:skeleton_skull"
 				count: 1
@@ -73,8 +73,8 @@
 		}
 		{
 			id: "6287ECAD55E7E7A0"
-			x: 0.0d
-			y: 0.625d
+			x: 2.4d
+			y: 0.0d
 			icon: {
 				id: "minecraft:shield"
 				count: 1
@@ -88,8 +88,8 @@
 		}
 		{
 			id: "24DEEB4CF1811863"
-			x: 0.0d
-			y: 1.875d
+			x: 4.0d
+			y: 0.0d
 			icon: {
 				id: "minecraft:map"
 				count: 1
@@ -103,8 +103,8 @@
 		}
 		{
 			id: "78F07D05EA3AF586"
-			x: 0.0d
-			y: 3.125d
+			x: -4.0d
+			y: 1.5d
 			icon: {
 				id: "minecraft:golden_carrot"
 				count: 1
@@ -118,8 +118,8 @@
 		}
 		{
 			id: "54FFA2AF231F36C6"
-			x: 0.0d
-			y: 4.375d
+			x: -2.4d
+			y: 1.5d
 			icon: {
 				id: "minecraft:bell"
 				count: 1
@@ -133,8 +133,8 @@
 		}
 		{
 			id: "0C6CC72CF1D60E84"
-			x: 1.5d
-			y: 0.0d
+			x: -0.8d
+			y: 3.5d
 			shape: "hexagon"
 			icon: {
 				id: "minecraft:recovery_compass"

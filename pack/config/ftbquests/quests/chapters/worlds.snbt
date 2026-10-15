@@ -31,8 +31,8 @@
 		}
 		{
 			id: "330A2A98C519162A"
-			x: 1.5d
-			y: -2.5d
+			x: -4.0d
+			y: 2.0d
 			icon: {
 				id: "deep_aether:skyjade"
 				count: 1
@@ -55,8 +55,8 @@
 		}
 		{
 			id: "266F8321887A4C29"
-			x: 3.0d
-			y: -3.75d
+			x: -4.8d
+			y: 4.0d
 			icon: {
 				id: "deep_aether:stratus_chestplate"
 				count: 1
@@ -77,8 +77,8 @@
 		}
 		{
 			id: "2F5CB4C9BE71E92E"
-			x: 3.0d
-			y: -2.5d
+			x: -3.2d
+			y: 4.0d
 			icon: {
 				id: "deep_aether:aerwhale_saddle"
 				count: 1
@@ -99,8 +99,8 @@
 		}
 		{
 			id: "41B2832A942564A8"
-			x: 1.5d
-			y: -1.25d
+			x: -0.8d
+			y: 2.0d
 			icon: {
 				id: "undergarden:cloggrum_ingot"
 				count: 1
@@ -123,8 +123,8 @@
 		}
 		{
 			id: "4A7C65037569EC58"
-			x: 3.0d
-			y: -1.25d
+			x: -1.6d
+			y: 4.0d
 			icon: {
 				id: "undergarden:utherium_crystal"
 				count: 1
@@ -146,8 +146,8 @@
 		}
 		{
 			id: "557D7ED45056F22C"
-			x: 3.0d
-			y: 0.0d
+			x: 0.0d
+			y: 4.0d
 			icon: {
 				id: "undergarden:gloomgourd"
 				count: 1
@@ -168,8 +168,8 @@
 		}
 		{
 			id: "1AD3AAF02A0AEC65"
-			x: 1.5d
-			y: 0.0d
+			x: 1.6d
+			y: 2.0d
 			icon: {
 				id: "the_bumblezone:royal_jelly_bottle"
 				count: 1
@@ -191,8 +191,8 @@
 		}
 		{
 			id: "538CE3778B5E486F"
-			x: 3.0d
-			y: 1.25d
+			x: 1.6d
+			y: 4.0d
 			icon: {
 				id: "the_bumblezone:bumble_bee_chestplate_1"
 				count: 1
@@ -213,8 +213,8 @@
 		}
 		{
 			id: "327022E9A286F5E3"
-			x: 4.5d
-			y: -0.625d
+			x: 1.6d
+			y: 6.0d
 			icon: {
 				id: "the_bumblezone:essence_of_the_bees"
 				count: 1
@@ -235,8 +235,8 @@
 		}
 		{
 			id: "774EC0F3488A630B"
-			x: 1.5d
-			y: 1.25d
+			x: 3.2d
+			y: 2.0d
 			icon: {
 				id: "deeperdarker:reinforced_echo_shard"
 				count: 1
@@ -258,8 +258,8 @@
 		}
 		{
 			id: "07ACEBF0D34DBEB0"
-			x: 3.0d
-			y: 2.5d
+			x: 3.2d
+			y: 4.0d
 			icon: {
 				id: "deeperdarker:resonarium"
 				count: 1
@@ -281,8 +281,8 @@
 		}
 		{
 			id: "7C11137082F10408"
-			x: 4.5d
-			y: 0.625d
+			x: 3.2d
+			y: 6.0d
 			shape: "hexagon"
 			icon: {
 				id: "deeperdarker:warden_chestplate"
@@ -305,8 +305,8 @@
 		}
 		{
 			id: "3CC5C3F80E21EBE7"
-			x: 1.5d
-			y: 2.5d
+			x: 4.8d
+			y: 2.0d
 			icon: {
 				id: "minecraft:shulker_shell"
 				count: 1
@@ -329,8 +329,8 @@
 		}
 		{
 			id: "1CC4A7924CB673E5"
-			x: 3.0d
-			y: 3.75d
+			x: 4.8d
+			y: 4.0d
 			icon: {
 				id: "minecraft:elytra"
 				count: 1
@@ -351,8 +351,8 @@
 		}
 		{
 			id: "2B5661B8607D6510"
-			x: 6.0d
-			y: 0.0d
+			x: 0.0d
+			y: 8.0d
 			shape: "hexagon"
 			icon: {
 				id: "minecraft:nether_star"

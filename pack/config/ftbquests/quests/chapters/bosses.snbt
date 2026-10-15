@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "4410202D5D65CC82"
-			x: 0.0d
-			y: -6.25d
+			x: 4.0d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "minecraft:shield"
@@ -41,8 +41,8 @@
 		}
 		{
 			id: "1F2BDC9B56A66070"
-			x: 1.5d
-			y: -1.875d
+			x: 3.2d
+			y: 2.0d
 			icon: {
 				id: "minecraft:sponge"
 				count: 1
@@ -71,8 +71,8 @@
 		}
 		{
 			id: "7FDA77FBFA63A374"
-			x: 1.5d
-			y: -0.625d
+			x: 4.8d
+			y: 2.0d
 			icon: {
 				id: "mowziesmobs:naga_fang"
 				count: 1
@@ -91,8 +91,8 @@
 		}
 		{
 			id: "6D48B66E9EDD2995"
-			x: 0.0d
-			y: -5.0d
+			x: -6.4d
+			y: 0.0d
 			icon: {
 				id: "cataclysm:mech_eye"
 				count: 1
@@ -118,8 +118,8 @@
 		}
 		{
 			id: "1FE4D8FDD4016F78"
-			x: 0.0d
-			y: -3.75d
+			x: -4.8d
+			y: 0.0d
 			icon: {
 				id: "cataclysm:necklace_of_the_desert"
 				count: 1
@@ -138,8 +138,8 @@
 		}
 		{
 			id: "5EB85EE4DB2B3D9C"
-			x: 0.0d
-			y: -2.5d
+			x: -3.2d
+			y: 0.0d
 			icon: {
 				id: "cataclysm:cursium_chestplate"
 				count: 1
@@ -158,8 +158,8 @@
 		}
 		{
 			id: "3EB7C64998CAB5DA"
-			x: 0.0d
-			y: -1.25d
+			x: -1.6d
+			y: 0.0d
 			icon: {
 				id: "cataclysm:ceraunus"
 				count: 1
@@ -205,8 +205,8 @@
 		}
 		{
 			id: "398E5ED307D56633"
-			x: 0.0d
-			y: 1.25d
+			x: 6.4d
+			y: 0.0d
 			icon: {
 				id: "deeperdarker:warden_carapace"
 				count: 1
@@ -232,8 +232,8 @@
 		}
 		{
 			id: "722992FA95424743"
-			x: 1.5d
-			y: 0.625d
+			x: 6.4d
+			y: 2.0d
 			icon: {
 				id: "deeperdarker:soul_elytra"
 				count: 1
@@ -252,8 +252,8 @@
 		}
 		{
 			id: "5674AA37716E1DFD"
-			x: 0.0d
-			y: 2.5d
+			x: 1.6d
+			y: 0.0d
 			icon: {
 				id: "irons_spellbooks:fire_rune"
 				count: 1
@@ -272,8 +272,8 @@
 		}
 		{
 			id: "41A4DAE8E0472BDE"
-			x: 0.0d
-			y: 3.75d
+			x: -6.4d
+			y: 1.5d
 			icon: {
 				id: "ars_nouveau:wilden_tribute"
 				count: 1
@@ -292,8 +292,8 @@
 		}
 		{
 			id: "0469A33BAB569676"
-			x: 0.0d
-			y: 5.0d
+			x: -4.8d
+			y: 1.5d
 			icon: {
 				id: "born_in_chaos_v1:soulbane"
 				count: 1
@@ -312,8 +312,8 @@
 		}
 		{
 			id: "176452C5B53F2D70"
-			x: 0.0d
-			y: 6.25d
+			x: -3.2d
+			y: 1.5d
 			icon: {
 				id: "aquamirae:abyssal_amethyst"
 				count: 1
@@ -332,8 +332,8 @@
 		}
 		{
 			id: "221D262C7B1A153F"
-			x: 1.5d
-			y: 1.875d
+			x: -1.8d
+			y: 3.5d
 			shape: "hexagon"
 			icon: {
 				id: "minecraft:dragon_head"

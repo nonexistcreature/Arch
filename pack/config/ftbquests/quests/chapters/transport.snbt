@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "6984D699D2660B8F"
-			x: 0.0d
-			y: -1.875d
+			x: -0.8d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "minecraft:compass"
@@ -31,8 +31,8 @@
 		}
 		{
 			id: "4DC0F06F77F4E8D0"
-			x: 1.5d
-			y: -1.25d
+			x: -0.8d
+			y: 2.0d
 			icon: {
 				id: "smallships:cotton_sails"
 				count: 1
@@ -54,8 +54,8 @@
 		}
 		{
 			id: "5088E3C71CA9EAB9"
-			x: 3.0d
-			y: -0.625d
+			x: -0.8d
+			y: 4.0d
 			icon: {
 				id: "smallships:oak_cog"
 				count: 1
@@ -86,8 +86,8 @@
 		}
 		{
 			id: "4A924D0C915569ED"
-			x: 4.5d
-			y: -1.875d
+			x: 0.8d
+			y: 6.0d
 			icon: {
 				id: "smallships:oak_brigg"
 				count: 1
@@ -108,8 +108,8 @@
 		}
 		{
 			id: "3B06282EB819370D"
-			x: 6.0d
-			y: 0.0d
+			x: 0.8d
+			y: 8.0d
 			shape: "hexagon"
 			icon: {
 				id: "smallships:oak_galleon"
@@ -142,8 +142,8 @@
 		}
 		{
 			id: "1F8568D64C4D85D9"
-			x: 4.5d
-			y: -0.625d
+			x: -2.4d
+			y: 6.0d
 			icon: {
 				id: "smallships:oak_drakkar"
 				count: 1
@@ -164,8 +164,8 @@
 		}
 		{
 			id: "36AF2E60F7B656EB"
-			x: 4.5d
-			y: 0.625d
+			x: -0.8d
+			y: 6.0d
 			icon: {
 				id: "immersivepetroleum:speedboat"
 				count: 1
@@ -183,8 +183,8 @@
 		}
 		{
 			id: "17DADFF13634DB04"
-			x: 0.0d
-			y: -0.625d
+			x: 2.4d
+			y: 0.0d
 			icon: {
 				id: "railways:handcar"
 				count: 1
@@ -205,8 +205,8 @@
 		}
 		{
 			id: "7CFEDCB56F3C85D9"
-			x: 1.5d
-			y: 0.0d
+			x: 2.4d
+			y: 2.0d
 			icon: {
 				id: "railways:smokestack_coalburner"
 				count: 1
@@ -237,8 +237,8 @@
 		}
 		{
 			id: "6D7CC78BAD7C139E"
-			x: 3.0d
-			y: 0.625d
+			x: 2.4d
+			y: 4.0d
 			icon: {
 				id: "railways:track_coupler"
 				count: 1
@@ -268,8 +268,8 @@
 		}
 		{
 			id: "631B95D917C4FF14"
-			x: 4.5d
-			y: 1.875d
+			x: 2.4d
+			y: 6.0d
 			icon: {
 				id: "railways:track_monorail"
 				count: 1
@@ -291,8 +291,8 @@
 		}
 		{
 			id: "466444CD9C2D77D4"
-			x: 0.0d
-			y: 0.625d
+			x: 4.0d
+			y: 0.0d
 			icon: {
 				id: "waystones:warp_scroll"
 				count: 1
@@ -313,8 +313,8 @@
 		}
 		{
 			id: "59FE438CCB6B63CB"
-			x: 1.5d
-			y: 1.25d
+			x: 4.0d
+			y: 2.0d
 			icon: {
 				id: "waystones:warp_stone"
 				count: 1
@@ -335,8 +335,8 @@
 		}
 		{
 			id: "79CAC370B6DC53A9"
-			x: 0.0d
-			y: 1.875d
+			x: -4.0d
+			y: 0.0d
 			icon: {
 				id: "immersive_aircraft:quadrocopter"
 				count: 1
@@ -357,8 +357,8 @@
 		}
 		{
 			id: "69A1D02B4D7A4EFC"
-			x: 7.5d
-			y: 0.0d
+			x: 0.16d
+			y: 10.0d
 			shape: "hexagon"
 			icon: {
 				id: "minecraft:filled_map"

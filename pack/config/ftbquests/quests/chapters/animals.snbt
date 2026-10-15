@@ -46,8 +46,8 @@
 		}
 		{
 			id: "4990A38E7AFA20D8"
-			x: 1.5d
-			y: -2.5d
+			x: -27.2d
+			y: 2.0d
 			icon: {
 				id: "farm_and_charm:feeding_trough"
 				count: 1
@@ -69,8 +69,8 @@
 		}
 		{
 			id: "2AADB93EE520A6DB"
-			x: 1.5d
-			y: -1.25d
+			x: -25.6d
+			y: 2.0d
 			icon: {
 				id: "meadow:cheese_wheel"
 				count: 1
@@ -92,8 +92,8 @@
 		}
 		{
 			id: "398471DFFDDBAAF0"
-			x: 1.5d
-			y: 0.0d
+			x: -6.4d
+			y: 2.0d
 			shape: "hexagon"
 			icon: {
 				id: "productivebees:bee_cage"
@@ -115,8 +115,8 @@
 		}
 		{
 			id: "1473A8EBD1BA9240"
-			x: 3.0d
-			y: -8.75d
+			x: -7.2d
+			y: 4.0d
 			icon: {
 				id: "productivebees:advanced_oak_beehive"
 				count: 1
@@ -137,8 +137,8 @@
 		}
 		{
 			id: "1171779A20E89BC0"
-			x: 4.5d
-			y: -5.0d
+			x: -5.6d
+			y: 6.0d
 			icon: {
 				id: "productivebees:centrifuge"
 				count: 1
@@ -169,8 +169,8 @@
 		}
 		{
 			id: "0367AB6113664DF8"
-			x: 6.0d
-			y: -5.625d
+			x: -5.6d
+			y: 8.0d
 			icon: {
 				id: "productivebees:breeding_chamber"
 				count: 1
@@ -192,8 +192,8 @@
 		}
 		{
 			id: "74361E94132C2418"
-			x: 7.5d
-			y: -5.625d
+			x: -5.6d
+			y: 10.0d
 			icon: {
 				id: "productivebees:gene_bottle"
 				count: 1
@@ -215,8 +215,8 @@
 		}
 		{
 			id: "0E9DB92921EFC049"
-			x: 1.5d
-			y: 1.25d
+			x: 18.4d
+			y: 2.0d
 			icon: {
 				id: "alexsmobs:animal_dictionary"
 				count: 1
@@ -247,8 +247,8 @@
 		}
 		{
 			id: "0064456F4405DB56"
-			x: 3.0d
-			y: -7.5d
+			x: 22.4d
+			y: 4.0d
 			icon: {
 				id: "crittersandcompanions:silk_lead"
 				count: 1
@@ -266,8 +266,8 @@
 		}
 		{
 			id: "6ACD4387091E4FF3"
-			x: 3.0d
-			y: -6.25d
+			x: 24.0d
+			y: 4.0d
 			shape: "hexagon"
 			icon: {
 				id: "dmr:dragon_egg"
@@ -289,8 +289,8 @@
 		}
 		{
 			id: "57ADB4BD729FE83D"
-			x: 4.5d
-			y: -3.75d
+			x: 24.0d
+			y: 6.0d
 			icon: {
 				id: "dmr:dragon_whistle.red"
 				count: 1
@@ -312,8 +312,8 @@
 		}
 		{
 			id: "37E6738A6C282F33"
-			x: 6.0d
-			y: -4.375d
+			x: 24.0d
+			y: 8.0d
 			icon: {
 				id: "dmr:dragon_armor"
 				count: 1
@@ -335,8 +335,8 @@
 		}
 		{
 			id: "08258F26A6CD43D5"
-			x: 6.0d
-			y: -3.125d
+			x: 12.27d
+			y: 8.0d
 			shape: "gear"
 			icon: {
 				id: "minecraft:golden_carrot"
@@ -371,8 +371,8 @@
 		}
 		{
 			id: "01F1978AF428CF7A"
-			x: 1.5d
-			y: 2.5d
+			x: 26.4d
+			y: 2.0d
 			icon: {
 				id: "minecraft:wheat"
 				count: 1
@@ -399,8 +399,8 @@
 		}
 		{
 			id: "64D3410CC19B67C9"
-			x: 3.0d
-			y: -5.0d
+			x: 25.6d
+			y: 4.0d
 			icon: {
 				id: "farm_and_charm:chicken_coop"
 				count: 1
@@ -422,8 +422,8 @@
 		}
 		{
 			id: "476E92FC8FA01BD2"
-			x: 3.0d
-			y: -3.75d
+			x: 27.2d
+			y: 4.0d
 			icon: {
 				id: "minecraft:red_wool"
 				count: 1
@@ -445,8 +445,8 @@
 		}
 		{
 			id: "62A1724CA0AF2D93"
-			x: 4.5d
-			y: -2.5d
+			x: -20.8d
+			y: 6.0d
 			icon: {
 				id: "minecraft:honey_bottle"
 				count: 1
@@ -468,8 +468,8 @@
 		}
 		{
 			id: "2EB248A3855853E5"
-			x: 6.0d
-			y: -1.875d
+			x: -16.0d
+			y: 8.0d
 			icon: {
 				id: "productivebees:wax"
 				count: 1
@@ -491,8 +491,8 @@
 		}
 		{
 			id: "5B230BCEB3D60F81"
-			x: 3.0d
-			y: -2.5d
+			x: -24.0d
+			y: 4.0d
 			icon: {
 				id: "productivebees:nest_locator"
 				count: 1
@@ -514,8 +514,8 @@
 		}
 		{
 			id: "5D23827FB88F8BB2"
-			x: 4.5d
-			y: -1.25d
+			x: -19.2d
+			y: 6.0d
 			icon: {
 				id: "productivebees:catcher"
 				count: 1
@@ -537,8 +537,8 @@
 		}
 		{
 			id: "7AEC96EC3DFA61E1"
-			x: 6.0d
-			y: -0.625d
+			x: 3.2d
+			y: 8.0d
 			icon: {
 				id: "productivebees:honey_generator"
 				count: 1
@@ -560,8 +560,8 @@
 		}
 		{
 			id: "260142089968250C"
-			x: 7.5d
-			y: -4.375d
+			x: -12.8d
+			y: 10.0d
 			icon: {
 				id: "productivebees:incubator"
 				count: 1
@@ -583,8 +583,8 @@
 		}
 		{
 			id: "31A649466EC5B0A1"
-			x: 3.0d
-			y: -1.25d
+			x: 12.8d
+			y: 4.0d
 			icon: {
 				id: "alexsmobs:crocodile_scute"
 				count: 1
@@ -606,8 +606,8 @@
 		}
 		{
 			id: "1F6B650E813930CE"
-			x: 3.0d
-			y: 0.0d
+			x: 14.4d
+			y: 4.0d
 			icon: {
 				id: "alexsmobs:bear_fur"
 				count: 1
@@ -629,8 +629,8 @@
 		}
 		{
 			id: "660352F7C57C7229"
-			x: 3.0d
-			y: 1.25d
+			x: 16.0d
+			y: 4.0d
 			icon: {
 				id: "alexsmobs:fish_oil"
 				count: 1
@@ -654,8 +654,8 @@
 		}
 		{
 			id: "2CB166812FBDDB4A"
-			x: 3.0d
-			y: 2.5d
+			x: 17.6d
+			y: 4.0d
 			icon: {
 				id: "naturalist:antler"
 				count: 1
@@ -677,8 +677,8 @@
 		}
 		{
 			id: "7B663457FD4E47AC"
-			x: 3.0d
-			y: 3.75d
+			x: 19.2d
+			y: 4.0d
 			icon: {
 				id: "naturalist:butterfly"
 				count: 1
@@ -700,8 +700,8 @@
 		}
 		{
 			id: "1958E45AF97140BD"
-			x: 4.5d
-			y: 0.0d
+			x: 22.4d
+			y: 6.0d
 			icon: {
 				id: "crittersandcompanions:dragonfly_wing"
 				count: 1
@@ -723,8 +723,8 @@
 		}
 		{
 			id: "035FE318376C81BB"
-			x: 3.0d
-			y: 5.0d
+			x: 20.8d
+			y: 4.0d
 			icon: {
 				id: "minecraft:copper_block"
 				count: 1
@@ -742,8 +742,8 @@
 		}
 		{
 			id: "3CB255952686B6BA"
-			x: 3.0d
-			y: 6.25d
+			x: 8.8d
+			y: 4.0d
 			icon: {
 				id: "productivebees:bee_cage"
 				count: 1
@@ -760,8 +760,8 @@
 		}
 		{
 			id: "56F290846FF16675"
-			x: 4.5d
-			y: 1.25d
+			x: 8.8d
+			y: 6.0d
 			icon: {
 				id: "productivebees:stone_nest"
 				count: 1
@@ -782,8 +782,8 @@
 		}
 		{
 			id: "2AE6D774B280A0D0"
-			x: 3.0d
-			y: 7.5d
+			x: 11.2d
+			y: 4.0d
 			icon: {
 				id: "productivebees:sturdy_bee_cage"
 				count: 1
@@ -804,8 +804,8 @@
 		}
 		{
 			id: "220EA98BE03CA4F0"
-			x: 4.5d
-			y: 2.5d
+			x: -17.6d
+			y: 6.0d
 			icon: {
 				id: "productivebees:expansion_box_oak"
 				count: 1
@@ -826,8 +826,8 @@
 		}
 		{
 			id: "4E6710C7FD33F88B"
-			x: 4.5d
-			y: 3.75d
+			x: 6.4d
+			y: 6.0d
 			icon: {
 				id: "productivebees:advanced_oak_beehive"
 				count: 1
@@ -844,8 +844,8 @@
 		}
 		{
 			id: "2E18EE6AA3B2093A"
-			x: 6.0d
-			y: 0.625d
+			x: 6.4d
+			y: 8.0d
 			icon: {
 				id: "minecraft:honeycomb"
 				count: 1
@@ -862,8 +862,8 @@
 		}
 		{
 			id: "06EB4255BC9F9739"
-			x: 6.0d
-			y: 1.875d
+			x: -14.4d
+			y: 8.0d
 			icon: {
 				id: "productivebees:configurable_honeycomb"
 				count: 1
@@ -880,8 +880,8 @@
 		}
 		{
 			id: "0A27D533A7220AFE"
-			x: 6.0d
-			y: 3.125d
+			x: 4.8d
+			y: 8.0d
 			icon: {
 				id: "productivebees:powered_centrifuge"
 				count: 1
@@ -902,8 +902,8 @@
 		}
 		{
 			id: "5B70D7CD0A166F37"
-			x: 7.5d
-			y: -3.125d
+			x: 4.8d
+			y: 10.0d
 			icon: {
 				id: "productivebees:heated_centrifuge"
 				count: 1
@@ -924,8 +924,8 @@
 		}
 		{
 			id: "4E3F0C89E45CDDD3"
-			x: 7.5d
-			y: -1.875d
+			x: 3.2d
+			y: 10.0d
 			icon: {
 				id: "productivebees:bottler"
 				count: 1
@@ -946,8 +946,8 @@
 		}
 		{
 			id: "3EA5B2CF6DD5234F"
-			x: 7.5d
-			y: -0.625d
+			x: -11.2d
+			y: 10.0d
 			icon: {
 				id: "productivebees:feeder"
 				count: 1
@@ -968,8 +968,8 @@
 		}
 		{
 			id: "05952DA9EE708E87"
-			x: 3.0d
-			y: 8.75d
+			x: -22.4d
+			y: 4.0d
 			icon: {
 				id: "productivebees:jar_oak"
 				count: 1
@@ -990,8 +990,8 @@
 		}
 		{
 			id: "064151FF9B1D13D3"
-			x: 7.5d
-			y: 0.625d
+			x: -9.6d
+			y: 10.0d
 			icon: {
 				id: "productivebees:honey_treat"
 				count: 1
@@ -1013,8 +1013,8 @@
 		}
 		{
 			id: "6BA7B408FE4DE512"
-			x: 9.0d
-			y: -3.125d
+			x: -5.6d
+			y: 12.0d
 			icon: {
 				id: "productivebees:gene"
 				count: 1
@@ -1031,8 +1031,8 @@
 		}
 		{
 			id: "2FDE9F3B14390EA6"
-			x: 10.5d
-			y: -1.25d
+			x: -5.6d
+			y: 14.0d
 			icon: {
 				id: "productivebees:gene_bottle"
 				count: 1
@@ -1049,8 +1049,8 @@
 		}
 		{
 			id: "1FF16E02F15EE5B0"
-			x: 12.0d
-			y: -1.25d
+			x: -6.4d
+			y: 16.0d
 			icon: {
 				id: "productivebees:incubator"
 				count: 1
@@ -1068,8 +1068,8 @@
 		}
 		{
 			id: "31F82DA4DE475578"
-			x: 12.0d
-			y: 0.0d
+			x: -4.8d
+			y: 16.0d
 			icon: {
 				id: "productivebees:gene_indexer"
 				count: 1
@@ -1090,8 +1090,8 @@
 		}
 		{
 			id: "5A8DBAFCE07FEC6D"
-			x: 7.5d
-			y: 1.875d
+			x: -1.6d
+			y: 10.0d
 			icon: {
 				id: "minecraft:iron_ingot"
 				count: 1
@@ -1108,8 +1108,8 @@
 		}
 		{
 			id: "3116C39F136644F4"
-			x: 9.0d
-			y: -1.875d
+			x: -0.0d
+			y: 12.0d
 			icon: {
 				id: "minecraft:gold_ingot"
 				count: 1
@@ -1126,8 +1126,8 @@
 		}
 		{
 			id: "79056AF6054FA4DE"
-			x: 9.0d
-			y: -0.625d
+			x: -3.2d
+			y: 12.0d
 			icon: {
 				id: "minecraft:redstone"
 				count: 1
@@ -1144,8 +1144,8 @@
 		}
 		{
 			id: "07D43E8DD7AAACA7"
-			x: 10.5d
-			y: 0.0d
+			x: -0.0d
+			y: 14.0d
 			icon: {
 				id: "minecraft:diamond"
 				count: 1
@@ -1162,8 +1162,8 @@
 		}
 		{
 			id: "010A7E9DACD52FE7"
-			x: 12.0d
-			y: 1.25d
+			x: -0.0d
+			y: 16.0d
 			icon: {
 				id: "minecraft:netherite_scrap"
 				count: 1
@@ -1180,8 +1180,8 @@
 		}
 		{
 			id: "26954D05B4DFE593"
-			x: 9.0d
-			y: 0.625d
+			x: -1.6d
+			y: 12.0d
 			icon: {
 				id: "minecraft:experience_bottle"
 				count: 1
@@ -1198,8 +1198,8 @@
 		}
 		{
 			id: "2A2DC3504398F76E"
-			x: 7.5d
-			y: 3.125d
+			x: -8.0d
+			y: 10.0d
 			icon: {
 				id: "minecraft:bone"
 				count: 1
@@ -1216,8 +1216,8 @@
 		}
 		{
 			id: "500D77F0F617709F"
-			x: 6.0d
-			y: 4.375d
+			x: 9.6d
+			y: 8.0d
 			icon: {
 				id: "productivebees:slimy_nest"
 				count: 1
@@ -1234,8 +1234,8 @@
 		}
 		{
 			id: "26769BB150AA553C"
-			x: 6.0d
-			y: 5.625d
+			x: 8.0d
+			y: 8.0d
 			icon: {
 				id: "productivebees:sand_nest"
 				count: 1
@@ -1252,8 +1252,8 @@
 		}
 		{
 			id: "195351E9BD0F28A5"
-			x: 7.5d
-			y: 4.375d
+			x: 1.6d
+			y: 10.0d
 			icon: {
 				id: "minecraft:wheat"
 				count: 1
@@ -1270,8 +1270,8 @@
 		}
 		{
 			id: "699B8DBC76FBABEC"
-			x: 9.0d
-			y: 1.875d
+			x: 1.6d
+			y: 12.0d
 			icon: {
 				id: "minecraft:cobblestone"
 				count: 1
@@ -1288,8 +1288,8 @@
 		}
 		{
 			id: "0A7C8017D75EBE02"
-			x: 7.5d
-			y: 5.625d
+			x: 9.6d
+			y: 10.0d
 			icon: {
 				id: "minecraft:ender_pearl"
 				count: 1
@@ -1306,8 +1306,8 @@
 		}
 		{
 			id: "3396C14F451D4771"
-			x: 9.0d
-			y: 3.125d
+			x: 9.6d
+			y: 12.0d
 			icon: {
 				id: "productivebees:draconic_dust"
 				count: 1
@@ -1328,8 +1328,8 @@
 		}
 		{
 			id: "282E53F350A4ABD6"
-			x: 10.5d
-			y: 1.25d
+			x: 9.6d
+			y: 14.0d
 			icon: {
 				id: "productivebees:inactive_dragon_egg"
 				count: 1
@@ -1350,8 +1350,8 @@
 		}
 		{
 			id: "14163802F9EDFD87"
-			x: 4.5d
-			y: 5.0d
+			x: 11.2d
+			y: 6.0d
 			icon: {
 				id: "productivebees:bee_bomb"
 				count: 1
@@ -1372,8 +1372,8 @@
 		}
 		{
 			id: "0887CD77DDF199C1"
-			x: 13.5d
-			y: 0.0d
+			x: 1.33d
+			y: 18.0d
 			shape: "hexagon"
 			icon: {
 				id: "productivebees:inactive_dragon_egg"

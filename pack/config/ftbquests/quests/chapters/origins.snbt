@@ -41,8 +41,8 @@
 		}
 		{
 			id: "6914A21F92128873"
-			x: 1.5d
-			y: -1.25d
+			x: -5.6d
+			y: 2.0d
 			icon: {
 				id: "neoorigins:purple_orb"
 				count: 1
@@ -60,8 +60,8 @@
 		}
 		{
 			id: "73257FF3447BD0B1"
-			x: 1.5d
-			y: 0.0d
+			x: -4.0d
+			y: 2.0d
 			icon: {
 				id: "minecraft:spyglass"
 				count: 1
@@ -78,8 +78,8 @@
 		}
 		{
 			id: "465EB2685CD40729"
-			x: 1.5d
-			y: 1.25d
+			x: 1.6d
+			y: 2.0d
 			shape: "hexagon"
 			icon: {
 				id: "minecraft:experience_bottle"
@@ -97,8 +97,8 @@
 		}
 		{
 			id: "1899A2B09262FA6D"
-			x: 3.0d
-			y: -0.625d
+			x: 2.4d
+			y: 4.0d
 			icon: {
 				id: "minecraft:iron_pickaxe"
 				count: 1
@@ -122,8 +122,8 @@
 		}
 		{
 			id: "7D83C31C7DE03358"
-			x: 3.0d
-			y: 0.625d
+			x: -2.4d
+			y: 4.0d
 			icon: {
 				id: "irons_spellbooks:scroll"
 				count: 1
@@ -141,8 +141,8 @@
 		}
 		{
 			id: "5E88CA63A0373FF4"
-			x: 4.5d
-			y: -2.5d
+			x: 5.6d
+			y: 6.0d
 			icon: {
 				id: "torchmaster:megatorch"
 				count: 1
@@ -169,8 +169,8 @@
 		}
 		{
 			id: "0EECEE5A77DBE4F4"
-			x: 4.5d
-			y: -1.25d
+			x: -0.8d
+			y: 6.0d
 			icon: {
 				id: "minecraft:iron_ore"
 				count: 1
@@ -188,8 +188,8 @@
 		}
 		{
 			id: "49A24043E10608D2"
-			x: 4.5d
-			y: 0.0d
+			x: 0.8d
+			y: 6.0d
 			icon: {
 				id: "farmersdelight:cooking_pot"
 				count: 1
@@ -207,8 +207,8 @@
 		}
 		{
 			id: "0665A88330D8BDE5"
-			x: 4.5d
-			y: 1.25d
+			x: 2.4d
+			y: 6.0d
 			icon: {
 				id: "minecraft:wheat"
 				count: 1
@@ -226,8 +226,8 @@
 		}
 		{
 			id: "417847C383096E06"
-			x: 4.5d
-			y: 2.5d
+			x: 4.0d
+			y: 6.0d
 			icon: {
 				id: "minecraft:iron_sword"
 				count: 1
@@ -245,8 +245,8 @@
 		}
 		{
 			id: "49609C8E1769CAB2"
-			x: 6.0d
-			y: 0.0d
+			x: 5.6d
+			y: 8.0d
 			icon: {
 				id: "arkhaven:travelers_charm"
 				count: 1

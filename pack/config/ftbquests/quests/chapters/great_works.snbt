@@ -31,8 +31,8 @@
 		}
 		{
 			id: "65D41835C2EFE544"
-			x: 1.5d
-			y: -3.125d
+			x: -4.0d
+			y: 2.0d
 			shape: "hexagon"
 			icon: {
 				id: "arkhaven:citadel_heart"
@@ -74,8 +74,8 @@
 		}
 		{
 			id: "5E25791A3DFA2FDB"
-			x: 1.5d
-			y: -1.875d
+			x: 4.0d
+			y: 2.0d
 			icon: {
 				id: "mekanismgenerators:turbine_rotor"
 				count: 1
@@ -112,8 +112,8 @@
 		}
 		{
 			id: "467F31F4129D2736"
-			x: 3.0d
-			y: 0.0d
+			x: 4.0d
+			y: 4.0d
 			icon: {
 				id: "arkhaven:exotic_matter"
 				count: 1
@@ -150,8 +150,8 @@
 		}
 		{
 			id: "084CEBE01C3352F1"
-			x: 1.5d
-			y: -0.625d
+			x: -2.4d
+			y: 2.0d
 			icon: {
 				id: "cookingforblockheads:white_cooking_table"
 				count: 1
@@ -216,8 +216,8 @@
 		}
 		{
 			id: "4C988FF056779288"
-			x: 1.5d
-			y: 0.625d
+			x: -0.8d
+			y: 2.0d
 			icon: {
 				id: "productivebees:advanced_oak_beehive"
 				count: 1
@@ -243,8 +243,8 @@
 		}
 		{
 			id: "19E75AA8929A563A"
-			x: 1.5d
-			y: 1.875d
+			x: 0.8d
+			y: 2.0d
 			icon: {
 				id: "minecolonies:blockhuttownhall"
 				count: 1
@@ -269,8 +269,8 @@
 		}
 		{
 			id: "09CABD5281435C1C"
-			x: 1.5d
-			y: 3.125d
+			x: 2.4d
+			y: 2.0d
 			icon: {
 				id: "minecraft:oak_sapling"
 				count: 1

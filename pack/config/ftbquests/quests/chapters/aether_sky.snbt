@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "57CB4834EABEA660"
-			x: 0.0d
-			y: -11.875d
+			x: 1.6d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "minecraft:glowstone"
@@ -32,8 +32,8 @@
 		}
 		{
 			id: "26BEBF6342A10D42"
-			x: 1.5d
-			y: -7.5d
+			x: -8.8d
+			y: 2.0d
 			icon: {
 				id: "aether:book_of_lore"
 				count: 1
@@ -54,8 +54,8 @@
 		}
 		{
 			id: "1F092A54F8037433"
-			x: 1.5d
-			y: -6.25d
+			x: 4.0d
+			y: 2.0d
 			icon: {
 				id: "aether:skyroot_log"
 				count: 1
@@ -85,8 +85,8 @@
 		}
 		{
 			id: "60F580AC00BE4892"
-			x: 3.0d
-			y: -4.375d
+			x: 4.0d
+			y: 4.0d
 			icon: {
 				id: "aether:holystone_pickaxe"
 				count: 1
@@ -116,8 +116,8 @@
 		}
 		{
 			id: "654D5A55BB42444A"
-			x: 4.5d
-			y: -1.25d
+			x: 4.0d
+			y: 6.0d
 			icon: {
 				id: "aether:ambrosium_shard"
 				count: 1
@@ -148,8 +148,8 @@
 		}
 		{
 			id: "53D2345AC89B0835"
-			x: 6.0d
-			y: -1.25d
+			x: 4.0d
+			y: 8.0d
 			icon: {
 				id: "aether:altar"
 				count: 1
@@ -170,8 +170,8 @@
 		}
 		{
 			id: "1B815D468F9CCF79"
-			x: 6.0d
-			y: 0.0d
+			x: 5.6d
+			y: 8.0d
 			icon: {
 				id: "aether:freezer"
 				count: 1
@@ -192,8 +192,8 @@
 		}
 		{
 			id: "18AA7F9B9C17BCE1"
-			x: 6.0d
-			y: 1.25d
+			x: 2.4d
+			y: 8.0d
 			icon: {
 				id: "aether:incubator"
 				count: 1
@@ -215,8 +215,8 @@
 		}
 		{
 			id: "5DBD02C687182C9D"
-			x: 1.5d
-			y: -5.0d
+			x: -7.2d
+			y: 2.0d
 			icon: {
 				id: "aether:blue_moa_egg"
 				count: 1
@@ -237,8 +237,8 @@
 		}
 		{
 			id: "13BDFCE86BC9783F"
-			x: 0.0d
-			y: -10.625d
+			x: -18.4d
+			y: 0.0d
 			icon: {
 				id: "aether:zanite_pickaxe"
 				count: 1
@@ -267,8 +267,8 @@
 		}
 		{
 			id: "44624303E124B5EA"
-			x: 0.0d
-			y: -9.375d
+			x: -16.8d
+			y: 0.0d
 			icon: {
 				id: "aether:zanite_helmet"
 				count: 1
@@ -313,8 +313,8 @@
 		}
 		{
 			id: "6194BCE15C5C9CDF"
-			x: 0.0d
-			y: -8.125d
+			x: -15.2d
+			y: 0.0d
 			icon: {
 				id: "aether:zanite_gloves"
 				count: 1
@@ -335,8 +335,8 @@
 		}
 		{
 			id: "664A653B9D0CF6A3"
-			x: 0.0d
-			y: -6.875d
+			x: -13.6d
+			y: 0.0d
 			icon: {
 				id: "aether:zanite_ring"
 				count: 1
@@ -365,8 +365,8 @@
 		}
 		{
 			id: "40971DC17C102818"
-			x: 7.5d
-			y: -0.625d
+			x: 5.6d
+			y: 10.0d
 			icon: {
 				id: "aether:ice_ring"
 				count: 1
@@ -387,8 +387,8 @@
 		}
 		{
 			id: "61C6A0E5798C1DB8"
-			x: 1.5d
-			y: -3.75d
+			x: 8.8d
+			y: 2.0d
 			icon: {
 				id: "aether:cold_parachute"
 				count: 1
@@ -410,8 +410,8 @@
 		}
 		{
 			id: "1539B08B133CF2D3"
-			x: 3.0d
-			y: -3.125d
+			x: 8.8d
+			y: 4.0d
 			icon: {
 				id: "aether:golden_parachute"
 				count: 1
@@ -432,8 +432,8 @@
 		}
 		{
 			id: "6E4AF6B8A4CB34FC"
-			x: 3.0d
-			y: -1.875d
+			x: 7.2d
+			y: 4.0d
 			icon: {
 				id: "aether:golden_dart_shooter"
 				count: 1
@@ -463,8 +463,8 @@
 		}
 		{
 			id: "3CABA48D07FA839C"
-			x: 4.5d
-			y: 0.0d
+			x: 7.2d
+			y: 6.0d
 			icon: {
 				id: "aether:poison_dart_shooter"
 				count: 1
@@ -494,8 +494,8 @@
 		}
 		{
 			id: "108F62A4DB1634B5"
-			x: 1.5d
-			y: -2.5d
+			x: 10.4d
+			y: 2.0d
 			icon: {
 				id: "aether:swet_ball"
 				count: 1
@@ -517,8 +517,8 @@
 		}
 		{
 			id: "4C37B1D77C5A365C"
-			x: 1.5d
-			y: -1.25d
+			x: -5.6d
+			y: 2.0d
 			icon: {
 				id: "aether:blue_berry"
 				count: 1
@@ -548,8 +548,8 @@
 		}
 		{
 			id: "0DC27AF0BD968B69"
-			x: 7.5d
-			y: 0.625d
+			x: 4.0d
+			y: 10.0d
 			icon: {
 				id: "aether:enchanted_berry"
 				count: 1
@@ -572,8 +572,8 @@
 		}
 		{
 			id: "42179C47C3563FA4"
-			x: 3.0d
-			y: -0.625d
+			x: 10.4d
+			y: 4.0d
 			icon: {
 				id: "aether:blue_gummy_swet"
 				count: 1
@@ -595,8 +595,8 @@
 		}
 		{
 			id: "665F084C83DDEBDD"
-			x: 1.5d
-			y: 0.0d
+			x: -4.0d
+			y: 2.0d
 			icon: {
 				id: "aether:quicksoil"
 				count: 1
@@ -627,8 +627,8 @@
 		}
 		{
 			id: "33A6E21A49B8E8B1"
-			x: 1.5d
-			y: 1.25d
+			x: -2.4d
+			y: 2.0d
 			icon: {
 				id: "aether:cold_aercloud"
 				count: 1
@@ -659,8 +659,8 @@
 		}
 		{
 			id: "30BC81A05184506E"
-			x: 3.0d
-			y: 0.625d
+			x: 0.8d
+			y: 4.0d
 			icon: {
 				id: "aether:golden_amber"
 				count: 1
@@ -682,8 +682,8 @@
 		}
 		{
 			id: "3D36C44D5BEEED71"
-			x: 1.5d
-			y: 2.5d
+			x: -0.8d
+			y: 2.0d
 			icon: {
 				id: "aether:aether_portal_frame"
 				count: 1
@@ -702,8 +702,8 @@
 		}
 		{
 			id: "5E911E344FEBFB3D"
-			x: 1.5d
-			y: 3.75d
+			x: 12.0d
+			y: 2.0d
 			icon: {
 				id: "aether:bronze_dungeon_key"
 				count: 1
@@ -721,8 +721,8 @@
 		}
 		{
 			id: "08086AD3C37DBF74"
-			x: 0.0d
-			y: -5.625d
+			x: 14.4d
+			y: 0.0d
 			icon: {
 				id: "aether:bronze_dungeon_key"
 				count: 1
@@ -743,8 +743,8 @@
 		}
 		{
 			id: "6214182AE1EB9618"
-			x: 1.5d
-			y: 5.0d
+			x: 14.4d
+			y: 2.0d
 			icon: {
 				id: "aether:enchanted_gravitite"
 				count: 1
@@ -766,8 +766,8 @@
 		}
 		{
 			id: "228AA03EF355CEA5"
-			x: 3.0d
-			y: 1.875d
+			x: 13.6d
+			y: 4.0d
 			icon: {
 				id: "aether:gravitite_helmet"
 				count: 1
@@ -812,8 +812,8 @@
 		}
 		{
 			id: "35C60B398E091F84"
-			x: 3.0d
-			y: 3.125d
+			x: 15.2d
+			y: 4.0d
 			icon: {
 				id: "aether:gravitite_pickaxe"
 				count: 1
@@ -834,8 +834,8 @@
 		}
 		{
 			id: "4972C6A445A2CAEE"
-			x: 0.0d
-			y: -4.375d
+			x: -12.0d
+			y: 0.0d
 			icon: {
 				id: "aether:silver_dungeon_key"
 				count: 1
@@ -853,8 +853,8 @@
 		}
 		{
 			id: "5FB905FDDDDB793E"
-			x: 0.0d
-			y: -3.125d
+			x: -10.4d
+			y: 0.0d
 			icon: {
 				id: "aether:valkyrie_helmet"
 				count: 1
@@ -899,8 +899,8 @@
 		}
 		{
 			id: "4A7E9FD340472574"
-			x: 0.0d
-			y: -1.875d
+			x: -18.4d
+			y: 1.5d
 			icon: {
 				id: "aether:valkyrie_lance"
 				count: 1
@@ -921,8 +921,8 @@
 		}
 		{
 			id: "4A5EB7F6A0A09202"
-			x: 0.0d
-			y: -0.625d
+			x: -16.8d
+			y: 1.5d
 			icon: {
 				id: "aether:neptune_helmet"
 				count: 1
@@ -967,8 +967,8 @@
 		}
 		{
 			id: "177262B1FF8AD54B"
-			x: 0.0d
-			y: 0.625d
+			x: -15.2d
+			y: 1.5d
 			icon: {
 				id: "aether:gold_dungeon_key"
 				count: 1
@@ -986,8 +986,8 @@
 		}
 		{
 			id: "163831DD11F3A1A3"
-			x: 0.0d
-			y: 1.875d
+			x: 16.8d
+			y: 0.0d
 			icon: {
 				id: "aether:phoenix_helmet"
 				count: 1
@@ -1032,8 +1032,8 @@
 		}
 		{
 			id: "7450698EFDB0FBE4"
-			x: 0.0d
-			y: 3.125d
+			x: -13.6d
+			y: 1.5d
 			icon: {
 				id: "aether:phoenix_bow"
 				count: 1
@@ -1054,8 +1054,8 @@
 		}
 		{
 			id: "6031406EF6D183DA"
-			x: 1.5d
-			y: 6.25d
+			x: 16.8d
+			y: 2.0d
 			icon: {
 				id: "aether:obsidian_chestplate"
 				count: 1
@@ -1076,8 +1076,8 @@
 		}
 		{
 			id: "745340AAF59D8E96"
-			x: 0.0d
-			y: 4.375d
+			x: 18.4d
+			y: 0.0d
 			icon: {
 				id: "aether:flaming_sword"
 				count: 1
@@ -1114,8 +1114,8 @@
 		}
 		{
 			id: "57E53AF056CC6DBF"
-			x: 1.5d
-			y: 7.5d
+			x: 18.4d
+			y: 2.0d
 			icon: {
 				id: "aether:vampire_blade"
 				count: 1
@@ -1136,8 +1136,8 @@
 		}
 		{
 			id: "7DFA457CE94E0AA2"
-			x: 3.0d
-			y: 4.375d
+			x: 12.0d
+			y: 4.0d
 			icon: {
 				id: "aether:hammer_of_kingbdogz"
 				count: 1
@@ -1158,8 +1158,8 @@
 		}
 		{
 			id: "5FC480D7CEC234B7"
-			x: 0.0d
-			y: 5.625d
+			x: -12.0d
+			y: 1.5d
 			icon: {
 				id: "aether:cloud_staff"
 				count: 1
@@ -1188,8 +1188,8 @@
 		}
 		{
 			id: "10F015CF2C87093B"
-			x: 0.0d
-			y: 6.875d
+			x: -10.4d
+			y: 1.5d
 			icon: {
 				id: "aether:agility_cape"
 				count: 1
@@ -1218,8 +1218,8 @@
 		}
 		{
 			id: "6DAC0BEF66AC01E2"
-			x: 0.0d
-			y: 8.125d
+			x: -18.4d
+			y: 3.0d
 			icon: {
 				id: "aether:shield_of_repulsion"
 				count: 1
@@ -1240,8 +1240,8 @@
 		}
 		{
 			id: "003213FD869C4D94"
-			x: 0.0d
-			y: 9.375d
+			x: -16.8d
+			y: 3.0d
 			icon: {
 				id: "aether:regeneration_stone"
 				count: 1
@@ -1262,8 +1262,8 @@
 		}
 		{
 			id: "2E3DBCFA30BA66B0"
-			x: 0.0d
-			y: 10.625d
+			x: -15.2d
+			y: 3.0d
 			icon: {
 				id: "aether:life_shard"
 				count: 1
@@ -1284,8 +1284,8 @@
 		}
 		{
 			id: "767EE34F585E0751"
-			x: 0.0d
-			y: 11.875d
+			x: -13.6d
+			y: 3.0d
 			icon: {
 				id: "aether:victory_medal"
 				count: 1
@@ -1307,8 +1307,8 @@
 		}
 		{
 			id: "3864AD324F7C2EAD"
-			x: 4.5d
-			y: 1.25d
+			x: -1.44d
+			y: 6.0d
 			shape: "hexagon"
 			icon: {
 				id: "aether:phoenix_chestplate"

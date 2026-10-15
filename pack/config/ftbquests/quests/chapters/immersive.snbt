@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "45545743A5457871"
-			x: 0.0d
-			y: -16.25d
+			x: -8.0d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "immersiveengineering:manual"
@@ -35,8 +35,8 @@
 		}
 		{
 			id: "1C9C7E82FFB2E75D"
-			x: 1.5d
-			y: -12.5d
+			x: -16.8d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:craftingtable"
 				count: 1
@@ -65,8 +65,8 @@
 		}
 		{
 			id: "205AABFE7AD734F6"
-			x: 1.5d
-			y: -11.25d
+			x: -10.4d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:alloybrick"
 				count: 1
@@ -88,8 +88,8 @@
 		}
 		{
 			id: "691B4D3B6B61A89F"
-			x: 3.0d
-			y: -3.125d
+			x: -10.4d
+			y: 4.0d
 			icon: {
 				id: "immersiveengineering:ingot_constantan"
 				count: 1
@@ -120,8 +120,8 @@
 		}
 		{
 			id: "19C6607FC3B0C7B8"
-			x: 1.5d
-			y: -10.0d
+			x: -2.4d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:cokebrick"
 				count: 1
@@ -143,8 +143,8 @@
 		}
 		{
 			id: "61B82D82D1A4ACA6"
-			x: 3.0d
-			y: -1.875d
+			x: -1.6d
+			y: 4.0d
 			icon: {
 				id: "immersiveengineering:blastbrick"
 				count: 1
@@ -166,8 +166,8 @@
 		}
 		{
 			id: "0667C77CBF1DBF02"
-			x: 4.5d
-			y: -2.5d
+			x: -2.4d
+			y: 6.0d
 			icon: {
 				id: "immersiveengineering:blastbrick_reinforced"
 				count: 1
@@ -199,8 +199,8 @@
 		}
 		{
 			id: "5101C74CFBC8C2DC"
-			x: 3.0d
-			y: -0.625d
+			x: -4.0d
+			y: 4.0d
 			icon: {
 				id: "immersiveengineering:treated_post"
 				count: 1
@@ -231,8 +231,8 @@
 		}
 		{
 			id: "2E5826298D96EEBE"
-			x: 0.0d
-			y: -15.0d
+			x: -28.0d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:watermill"
 				count: 1
@@ -253,8 +253,8 @@
 		}
 		{
 			id: "348A5DB2F367FA7B"
-			x: 4.5d
-			y: -1.25d
+			x: -15.2d
+			y: 6.0d
 			icon: {
 				id: "immersiveengineering:thermoelectric_generator"
 				count: 1
@@ -275,8 +275,8 @@
 		}
 		{
 			id: "0880A0951D2F356D"
-			x: 4.5d
-			y: 0.0d
+			x: -8.8d
+			y: 6.0d
 			icon: {
 				id: "immersiveengineering:wirecoil_electrum"
 				count: 1
@@ -316,8 +316,8 @@
 		}
 		{
 			id: "7D24B59880179944"
-			x: 6.0d
-			y: -0.625d
+			x: -12.0d
+			y: 8.0d
 			icon: {
 				id: "immersiveengineering:wirecoil_steel"
 				count: 1
@@ -357,8 +357,8 @@
 		}
 		{
 			id: "3B8B4D6CB4D64F33"
-			x: 0.0d
-			y: -13.75d
+			x: 4.0d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:wirecoil_copper_ins"
 				count: 1
@@ -380,8 +380,8 @@
 		}
 		{
 			id: "462AFB78E531FC9C"
-			x: 6.0d
-			y: 0.625d
+			x: -8.0d
+			y: 8.0d
 			icon: {
 				id: "immersiveengineering:capacitor_mv"
 				count: 1
@@ -403,8 +403,8 @@
 		}
 		{
 			id: "4C6CE2A973BF5263"
-			x: 7.5d
-			y: -0.625d
+			x: -7.2d
+			y: 10.0d
 			icon: {
 				id: "immersiveengineering:capacitor_hv"
 				count: 1
@@ -426,8 +426,8 @@
 		}
 		{
 			id: "346F3397EDB5B2A8"
-			x: 1.5d
-			y: -8.75d
+			x: 4.0d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:breaker_switch"
 				count: 1
@@ -456,8 +456,8 @@
 		}
 		{
 			id: "6272FE2ABE4520CB"
-			x: 9.0d
-			y: -1.25d
+			x: -8.8d
+			y: 12.0d
 			icon: {
 				id: "immersiveengineering:lightning_rod"
 				count: 1
@@ -474,8 +474,8 @@
 		}
 		{
 			id: "0BFF60364CFBA3A4"
-			x: 0.0d
-			y: -12.5d
+			x: -26.4d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:diesel_generator"
 				count: 1
@@ -492,8 +492,8 @@
 		}
 		{
 			id: "317A646E3485C32B"
-			x: 0.0d
-			y: -11.25d
+			x: -24.8d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:mold_plate"
 				count: 1
@@ -538,8 +538,8 @@
 		}
 		{
 			id: "71D9EAB44F223902"
-			x: 0.0d
-			y: -10.0d
+			x: 5.6d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:squeezer"
 				count: 1
@@ -556,8 +556,8 @@
 		}
 		{
 			id: "0CCCE1041BFDD4F4"
-			x: 1.5d
-			y: -7.5d
+			x: 5.6d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:refinery"
 				count: 1
@@ -574,8 +574,8 @@
 		}
 		{
 			id: "010DB7A46B603A9A"
-			x: 1.5d
-			y: -6.25d
+			x: 1.6d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:seed"
 				count: 1
@@ -606,8 +606,8 @@
 		}
 		{
 			id: "0A76ADD1563FAB13"
-			x: 3.0d
-			y: 0.625d
+			x: 0.8d
+			y: 4.0d
 			icon: {
 				id: "immersiveengineering:cloche"
 				count: 1
@@ -629,8 +629,8 @@
 		}
 		{
 			id: "7DD2F6A6B48065FD"
-			x: 0.0d
-			y: -8.75d
+			x: 7.2d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:mixer"
 				count: 1
@@ -647,8 +647,8 @@
 		}
 		{
 			id: "5A17D906E36CDBF7"
-			x: 1.5d
-			y: -5.0d
+			x: 7.2d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:concrete"
 				count: 1
@@ -679,8 +679,8 @@
 		}
 		{
 			id: "3BC5DF8F9349944B"
-			x: 0.0d
-			y: -7.5d
+			x: -23.2d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:bottling_machine"
 				count: 1
@@ -697,8 +697,8 @@
 		}
 		{
 			id: "5EEEEB3E32962819"
-			x: 0.0d
-			y: -6.25d
+			x: -21.6d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:sawblade"
 				count: 1
@@ -719,8 +719,8 @@
 		}
 		{
 			id: "074B63D941DB7CAF"
-			x: 0.0d
-			y: -5.0d
+			x: -20.0d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:sheetmetal_iron"
 				count: 1
@@ -742,8 +742,8 @@
 		}
 		{
 			id: "34463437BBA6632E"
-			x: 1.5d
-			y: -3.75d
+			x: 16.8d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:assembler"
 				count: 1
@@ -760,8 +760,8 @@
 		}
 		{
 			id: "796AFA592184D450"
-			x: 3.0d
-			y: 1.875d
+			x: -16.8d
+			y: 4.0d
 			icon: {
 				id: "immersiveengineering:auto_workbench"
 				count: 1
@@ -779,8 +779,8 @@
 		}
 		{
 			id: "334F4513E6CBA912"
-			x: 0.0d
-			y: -3.75d
+			x: -28.0d
+			y: 1.5d
 			icon: {
 				id: "immersiveengineering:graphite_electrode"
 				count: 1
@@ -802,8 +802,8 @@
 		}
 		{
 			id: "3497BFB8C982710D"
-			x: 4.5d
-			y: 1.25d
+			x: -0.8d
+			y: 6.0d
 			icon: {
 				id: "immersiveengineering:slag"
 				count: 1
@@ -834,8 +834,8 @@
 		}
 		{
 			id: "16347FEBFCAA6464"
-			x: 0.0d
-			y: -2.5d
+			x: -26.4d
+			y: 1.5d
 			icon: {
 				id: "immersiveengineering:coresample"
 				count: 1
@@ -856,8 +856,8 @@
 		}
 		{
 			id: "506D26624B12F125"
-			x: 0.0d
-			y: -1.25d
+			x: 9.6d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:conveyor_basic"
 				count: 1
@@ -895,8 +895,8 @@
 		}
 		{
 			id: "42BBEC80D2207D5E"
-			x: 1.5d
-			y: -2.5d
+			x: 8.8d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:chute_iron"
 				count: 1
@@ -918,8 +918,8 @@
 		}
 		{
 			id: "3E0DD81BB79338A8"
-			x: 1.5d
-			y: -1.25d
+			x: 10.4d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:sorter"
 				count: 1
@@ -948,7 +948,7 @@
 		}
 		{
 			id: "1CBBA1A0F316EFF2"
-			x: 0.0d
+			x: 12.8d
 			y: 0.0d
 			icon: {
 				id: "immersiveengineering:fluid_pipe"
@@ -987,8 +987,8 @@
 		}
 		{
 			id: "6F7BB611E8D98EC4"
-			x: 1.5d
-			y: 0.0d
+			x: 12.0d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:jerrycan"
 				count: 1
@@ -1009,8 +1009,8 @@
 		}
 		{
 			id: "48B0EF47F5568A73"
-			x: 0.0d
-			y: 1.25d
+			x: 15.2d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:crate"
 				count: 1
@@ -1047,8 +1047,8 @@
 		}
 		{
 			id: "60033203B5A72663"
-			x: 1.5d
-			y: 1.25d
+			x: 15.2d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:minecart_woodencrate"
 				count: 1
@@ -1069,8 +1069,8 @@
 		}
 		{
 			id: "27A49C65BF1E6E60"
-			x: 0.0d
-			y: 2.5d
+			x: 19.2d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:electron_tube"
 				count: 1
@@ -1110,8 +1110,8 @@
 		}
 		{
 			id: "54291F60442EA4FF"
-			x: 1.5d
-			y: 2.5d
+			x: 18.4d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:circuit_table"
 				count: 1
@@ -1140,8 +1140,8 @@
 		}
 		{
 			id: "357238A037B74D9D"
-			x: 0.0d
-			y: 3.75d
+			x: -24.8d
+			y: 1.5d
 			icon: {
 				id: "immersiveengineering:wirecoil_redstone"
 				count: 1
@@ -1171,8 +1171,8 @@
 		}
 		{
 			id: "27FC410F2C73B81F"
-			x: 0.0d
-			y: 5.0d
+			x: -23.2d
+			y: 1.5d
 			icon: {
 				id: "immersiveengineering:electric_lantern"
 				count: 1
@@ -1202,8 +1202,8 @@
 		}
 		{
 			id: "11F57772678E8456"
-			x: 9.0d
-			y: 0.0d
+			x: -7.2d
+			y: 12.0d
 			icon: {
 				id: "immersiveengineering:tesla_coil"
 				count: 1
@@ -1225,8 +1225,8 @@
 		}
 		{
 			id: "6C4151F9D1CC5DD7"
-			x: 4.5d
-			y: 2.5d
+			x: -13.6d
+			y: 6.0d
 			icon: {
 				id: "immersiveengineering:armor_faraday_helmet"
 				count: 1
@@ -1271,8 +1271,8 @@
 		}
 		{
 			id: "56C28697797703A0"
-			x: 0.0d
-			y: 6.25d
+			x: -21.6d
+			y: 1.5d
 			icon: {
 				id: "immersiveengineering:pickaxe_steel"
 				count: 1
@@ -1317,8 +1317,8 @@
 		}
 		{
 			id: "4CE89AEFF656E9AA"
-			x: 0.0d
-			y: 7.5d
+			x: 23.2d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:armor_steel_helmet"
 				count: 1
@@ -1363,8 +1363,8 @@
 		}
 		{
 			id: "0EA0F172A29FF98F"
-			x: 1.5d
-			y: 3.75d
+			x: 23.2d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:earmuffs"
 				count: 1
@@ -1385,8 +1385,8 @@
 		}
 		{
 			id: "42EFDBCD46D2B14E"
-			x: 0.0d
-			y: 8.75d
+			x: -20.0d
+			y: 1.5d
 			icon: {
 				id: "immersiveengineering:shield"
 				count: 1
@@ -1407,8 +1407,8 @@
 		}
 		{
 			id: "34B33ADEBC15940D"
-			x: 0.0d
-			y: 10.0d
+			x: 25.6d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:drill"
 				count: 1
@@ -1437,8 +1437,8 @@
 		}
 		{
 			id: "5F561CDE6C7EA8D3"
-			x: 1.5d
-			y: 5.0d
+			x: 24.8d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:toolupgrade_drill_damage"
 				count: 1
@@ -1467,8 +1467,8 @@
 		}
 		{
 			id: "3F91E8A636BF3798"
-			x: 1.5d
-			y: 6.25d
+			x: 26.4d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:buzzsaw"
 				count: 1
@@ -1497,8 +1497,8 @@
 		}
 		{
 			id: "4491AAC0B8111658"
-			x: 0.0d
-			y: 11.25d
+			x: -28.0d
+			y: 3.0d
 			icon: {
 				id: "immersiveengineering:speedloader"
 				count: 1
@@ -1527,8 +1527,8 @@
 		}
 		{
 			id: "6FCEA0766DD51744"
-			x: 0.0d
-			y: 12.5d
+			x: 28.0d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:bullet_casull"
 				count: 1
@@ -1568,8 +1568,8 @@
 		}
 		{
 			id: "182FE3A5B21218A3"
-			x: 1.5d
-			y: 7.5d
+			x: 28.0d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:bullet_silver"
 				count: 1
@@ -1609,8 +1609,8 @@
 		}
 		{
 			id: "16D90D05F0680667"
-			x: 1.5d
-			y: 8.75d
+			x: 13.6d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:chemthrower"
 				count: 1
@@ -1631,8 +1631,8 @@
 		}
 		{
 			id: "71C74557859F7A44"
-			x: 9.0d
-			y: 1.25d
+			x: -5.6d
+			y: 12.0d
 			icon: {
 				id: "immersiveengineering:railgun"
 				count: 1
@@ -1654,8 +1654,8 @@
 		}
 		{
 			id: "1D4F54791DD7872B"
-			x: 7.5d
-			y: 0.625d
+			x: -10.4d
+			y: 10.0d
 			icon: {
 				id: "immersiveengineering:powerpack"
 				count: 1
@@ -1676,8 +1676,8 @@
 		}
 		{
 			id: "32684CE8298AAFC6"
-			x: 1.5d
-			y: 10.0d
+			x: 20.0d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:turret_gun"
 				count: 1
@@ -1699,8 +1699,8 @@
 		}
 		{
 			id: "6575193BF5DBA93C"
-			x: 0.0d
-			y: 13.75d
+			x: -26.4d
+			y: 3.0d
 			icon: {
 				id: "immersiveengineering:razor_wire"
 				count: 1
@@ -1722,8 +1722,8 @@
 		}
 		{
 			id: "66781CD614789BE2"
-			x: 3.0d
-			y: 3.125d
+			x: 2.4d
+			y: 4.0d
 			icon: {
 				id: "immersiveengineering:glider"
 				count: 1
@@ -1744,8 +1744,8 @@
 		}
 		{
 			id: "0B4EE9B9D0E5C8EC"
-			x: 0.0d
-			y: 15.0d
+			x: -24.8d
+			y: 3.0d
 			icon: {
 				id: "immersiveengineering:wirecoil_structure_steel"
 				count: 1
@@ -1767,8 +1767,8 @@
 		}
 		{
 			id: "5618E337E950989F"
-			x: 1.5d
-			y: 11.25d
+			x: 21.6d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:robot_wolf"
 				count: 1
@@ -1789,8 +1789,8 @@
 		}
 		{
 			id: "2275E9EDA5A1A5B7"
-			x: 0.0d
-			y: 16.25d
+			x: -23.2d
+			y: 3.0d
 			icon: {
 				id: "immersiveengineering:shader_bag_common"
 				count: 1
@@ -1807,8 +1807,8 @@
 		}
 		{
 			id: "640FC1D2837BE6BB"
-			x: 1.5d
-			y: 12.5d
+			x: -18.4d
+			y: 2.0d
 			icon: {
 				id: "immersiveengineering:blueprint"
 				count: 1
@@ -1825,8 +1825,8 @@
 		}
 		{
 			id: "219A855AC1E03F0A"
-			x: 10.5d
-			y: 0.0d
+			x: 3.2d
+			y: 14.0d
 			shape: "hexagon"
 			icon: {
 				id: "immersiveengineering:railgun"

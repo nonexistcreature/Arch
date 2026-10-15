@@ -35,8 +35,8 @@
 		}
 		{
 			id: "062A4C4223BD9574"
-			x: 1.5d
-			y: -1.25d
+			x: -31.2d
+			y: 2.0d
 			icon: {
 				id: "irons_spellbooks:iron_spell_book"
 				count: 1
@@ -57,8 +57,8 @@
 		}
 		{
 			id: "2689CA1241CB0BE8"
-			x: 3.0d
-			y: -6.875d
+			x: -33.6d
+			y: 4.0d
 			icon: {
 				id: "irons_spellbooks:inscription_table"
 				count: 1
@@ -79,8 +79,8 @@
 		}
 		{
 			id: "1807C290BC564799"
-			x: 4.5d
-			y: -23.75d
+			x: -36.8d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:scroll_forge"
 				count: 1
@@ -109,8 +109,8 @@
 		}
 		{
 			id: "64D45646DD838107"
-			x: 1.5d
-			y: 0.0d
+			x: 3.2d
+			y: 2.0d
 			icon: {
 				id: "irons_spellbooks:arcane_essence"
 				count: 1
@@ -132,8 +132,8 @@
 		}
 		{
 			id: "710E1FB9C0AF78C8"
-			x: 3.0d
-			y: -5.625d
+			x: -5.6d
+			y: 4.0d
 			icon: {
 				id: "irons_spellbooks:fire_rune"
 				count: 1
@@ -155,8 +155,8 @@
 		}
 		{
 			id: "20EF7614A84A8044"
-			x: 4.5d
-			y: -22.5d
+			x: -14.4d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:wizard_hat"
 				count: 1
@@ -178,8 +178,8 @@
 		}
 		{
 			id: "26E181A4C50935DA"
-			x: 4.5d
-			y: -21.25d
+			x: -12.8d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:upgrade_orb"
 				count: 1
@@ -209,8 +209,8 @@
 		}
 		{
 			id: "3A9E5FDFBAC6AAC3"
-			x: 3.0d
-			y: -4.375d
+			x: -27.2d
+			y: 4.0d
 			shape: "gear"
 			icon: {
 				id: "irons_spellbooks:legendary_ink"
@@ -228,8 +228,8 @@
 		}
 		{
 			id: "37CE8B7ABAD95E28"
-			x: 1.5d
-			y: 1.25d
+			x: 34.4d
+			y: 2.0d
 			icon: {
 				id: "irons_spellbooks:furled_map"
 				count: 1
@@ -250,8 +250,8 @@
 		}
 		{
 			id: "5D7DD45CF34F8B76"
-			x: 3.0d
-			y: -3.125d
+			x: 28.8d
+			y: 4.0d
 			icon: {
 				id: "irons_spellbooks:pyromancer_helmet"
 				count: 1
@@ -269,8 +269,8 @@
 		}
 		{
 			id: "3AA33F1AB8EA6FA0"
-			x: 3.0d
-			y: -1.875d
+			x: 30.4d
+			y: 4.0d
 			icon: {
 				id: "irons_spellbooks:evoker_spell_book"
 				count: 1
@@ -288,8 +288,8 @@
 		}
 		{
 			id: "4E016BB473E77206"
-			x: 3.0d
-			y: -0.625d
+			x: 33.6d
+			y: 4.0d
 			icon: {
 				id: "irons_spellbooks:cryomancer_helmet"
 				count: 1
@@ -307,8 +307,8 @@
 		}
 		{
 			id: "649DBD9BAE8C8D1C"
-			x: 3.0d
-			y: 0.625d
+			x: 38.4d
+			y: 4.0d
 			icon: {
 				id: "irons_spellbooks:decrepit_key"
 				count: 1
@@ -326,8 +326,8 @@
 		}
 		{
 			id: "619C0EEA858D0BF8"
-			x: 4.5d
-			y: -20.0d
+			x: 34.4d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:ice_spider_egg"
 				count: 1
@@ -345,8 +345,8 @@
 		}
 		{
 			id: "2A583A6AA81CA063"
-			x: 4.5d
-			y: -18.75d
+			x: 40.0d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:furled_map_citadel"
 				count: 1
@@ -364,8 +364,8 @@
 		}
 		{
 			id: "32FBD7AB171A572F"
-			x: 4.5d
-			y: -17.5d
+			x: -32.0d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:gold_spell_book"
 				count: 1
@@ -386,8 +386,8 @@
 		}
 		{
 			id: "66498EEE1D03149B"
-			x: 6.0d
-			y: -14.375d
+			x: -32.0d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:diamond_spell_book"
 				count: 1
@@ -408,8 +408,8 @@
 		}
 		{
 			id: "4F373047F55047BE"
-			x: 7.5d
-			y: -1.25d
+			x: -32.0d
+			y: 10.0d
 			icon: {
 				id: "irons_spellbooks:netherite_spell_book"
 				count: 1
@@ -431,8 +431,8 @@
 		}
 		{
 			id: "3DF57D5706B45337"
-			x: 9.0d
-			y: -2.5d
+			x: -35.2d
+			y: 12.0d
 			icon: {
 				id: "irons_spellbooks:necronomicon_spell_book"
 				count: 1
@@ -449,8 +449,8 @@
 		}
 		{
 			id: "55B28F062048D323"
-			x: 7.5d
-			y: 0.0d
+			x: -36.8d
+			y: 10.0d
 			icon: {
 				id: "irons_spellbooks:epic_ink"
 				count: 1
@@ -479,8 +479,8 @@
 		}
 		{
 			id: "711FD1AD09A96AA8"
-			x: 3.0d
-			y: 1.875d
+			x: -40.0d
+			y: 4.0d
 			icon: {
 				id: "irons_spellbooks:lesser_spell_slot_upgrade"
 				count: 1
@@ -501,8 +501,8 @@
 		}
 		{
 			id: "37DD901E5EDDF578"
-			x: 3.0d
-			y: 3.125d
+			x: -24.0d
+			y: 4.0d
 			icon: {
 				id: "irons_spellbooks:graybeard_staff"
 				count: 1
@@ -519,8 +519,8 @@
 		}
 		{
 			id: "1E69531BF5075088"
-			x: 3.0d
-			y: 4.375d
+			x: 12.8d
+			y: 4.0d
 			icon: {
 				id: "irons_spellbooks:alchemist_cauldron"
 				count: 1
@@ -541,8 +541,8 @@
 		}
 		{
 			id: "1ED5B2479E899B35"
-			x: 4.5d
-			y: -16.25d
+			x: 14.4d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:oakskin_elixir"
 				count: 1
@@ -579,8 +579,8 @@
 		}
 		{
 			id: "0717565A1E2B9135"
-			x: 6.0d
-			y: -13.125d
+			x: 14.4d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:greater_oakskin_elixir"
 				count: 1
@@ -617,8 +617,8 @@
 		}
 		{
 			id: "69EC7A617666F350"
-			x: 4.5d
-			y: -15.0d
+			x: 11.2d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:tincture_of_forgetfulness"
 				count: 1
@@ -647,8 +647,8 @@
 		}
 		{
 			id: "7FF93BEFC552763F"
-			x: 4.5d
-			y: -13.75d
+			x: 12.8d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:fire_ale"
 				count: 1
@@ -669,8 +669,8 @@
 		}
 		{
 			id: "12160D22993CF48F"
-			x: 4.5d
-			y: -12.5d
+			x: -38.4d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:pedestal"
 				count: 1
@@ -700,8 +700,8 @@
 		}
 		{
 			id: "151474994DB8BD72"
-			x: 6.0d
-			y: -11.875d
+			x: 27.2d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:portal_frame"
 				count: 1
@@ -723,8 +723,8 @@
 		}
 		{
 			id: "0336A72055E2BA37"
-			x: 6.0d
-			y: -10.625d
+			x: -12.8d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:shriving_stone"
 				count: 1
@@ -745,8 +745,8 @@
 		}
 		{
 			id: "45BAAE2BE8DAB33D"
-			x: 4.5d
-			y: -11.25d
+			x: -9.6d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:fire_upgrade_orb"
 				count: 1
@@ -767,8 +767,8 @@
 		}
 		{
 			id: "0E045D512219B5AA"
-			x: 4.5d
-			y: -10.0d
+			x: -5.6d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:ice_rune"
 				count: 1
@@ -797,8 +797,8 @@
 		}
 		{
 			id: "7CED103CE5224479"
-			x: 4.5d
-			y: -8.75d
+			x: -2.4d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:lightning_rune"
 				count: 1
@@ -827,8 +827,8 @@
 		}
 		{
 			id: "31C90D0E6D94FF84"
-			x: 6.0d
-			y: -9.375d
+			x: -3.2d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:lightning_bottle"
 				count: 1
@@ -849,8 +849,8 @@
 		}
 		{
 			id: "436F4C31A566E4DD"
-			x: 4.5d
-			y: -7.5d
+			x: 0.0d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:holy_rune"
 				count: 1
@@ -879,8 +879,8 @@
 		}
 		{
 			id: "3B0DD55F2A217826"
-			x: 4.5d
-			y: -6.25d
+			x: 1.6d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:ender_rune"
 				count: 1
@@ -909,8 +909,8 @@
 		}
 		{
 			id: "029A46AC640B1072"
-			x: 4.5d
-			y: -5.0d
+			x: 4.0d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:blood_rune"
 				count: 1
@@ -939,8 +939,8 @@
 		}
 		{
 			id: "1781E0393F790FC5"
-			x: 6.0d
-			y: -8.125d
+			x: 3.2d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:blood_vial"
 				count: 1
@@ -961,8 +961,8 @@
 		}
 		{
 			id: "7C1F105E13D52F97"
-			x: 4.5d
-			y: -3.75d
+			x: 7.2d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:evocation_rune"
 				count: 1
@@ -991,8 +991,8 @@
 		}
 		{
 			id: "6C75A953F061D0B3"
-			x: 4.5d
-			y: -2.5d
+			x: 9.6d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:nature_rune"
 				count: 1
@@ -1021,8 +1021,8 @@
 		}
 		{
 			id: "00639AF876EA60B0"
-			x: 9.0d
-			y: -1.25d
+			x: -33.6d
+			y: 12.0d
 			icon: {
 				id: "irons_spellbooks:eldritch_manuscript"
 				count: 1
@@ -1043,8 +1043,8 @@
 		}
 		{
 			id: "6E60BCE3732C6E60"
-			x: 4.5d
-			y: -1.25d
+			x: -20.8d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:cooldown_rune"
 				count: 1
@@ -1073,8 +1073,8 @@
 		}
 		{
 			id: "0F9F93E560058AEE"
-			x: 4.5d
-			y: 0.0d
+			x: -19.2d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:mana_upgrade_orb"
 				count: 1
@@ -1095,8 +1095,8 @@
 		}
 		{
 			id: "0517E2BEDD9A8CBF"
-			x: 4.5d
-			y: 1.25d
+			x: -17.6d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:protection_rune"
 				count: 1
@@ -1125,8 +1125,8 @@
 		}
 		{
 			id: "599814422E929544"
-			x: 6.0d
-			y: -6.875d
+			x: -14.4d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:wandering_magician_helmet"
 				count: 1
@@ -1171,8 +1171,8 @@
 		}
 		{
 			id: "22E37928A1F4E5F3"
-			x: 6.0d
-			y: -5.625d
+			x: -8.0d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:pyromancer_helmet"
 				count: 1
@@ -1218,8 +1218,8 @@
 		}
 		{
 			id: "3D9DAFF1DD2DB56F"
-			x: 6.0d
-			y: -4.375d
+			x: -6.4d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:cryomancer_helmet"
 				count: 1
@@ -1265,8 +1265,8 @@
 		}
 		{
 			id: "4324928AC259FF0A"
-			x: 6.0d
-			y: -3.125d
+			x: -1.6d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:electromancer_helmet"
 				count: 1
@@ -1312,8 +1312,8 @@
 		}
 		{
 			id: "505F9B9308C5705E"
-			x: 6.0d
-			y: -1.875d
+			x: 0.0d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:priest_helmet"
 				count: 1
@@ -1359,8 +1359,8 @@
 		}
 		{
 			id: "5772070EE5904042"
-			x: 6.0d
-			y: -0.625d
+			x: 1.6d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:shadowwalker_helmet"
 				count: 1
@@ -1406,8 +1406,8 @@
 		}
 		{
 			id: "1D9C4A678FD1843A"
-			x: 6.0d
-			y: 0.625d
+			x: 4.8d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:cultist_helmet"
 				count: 1
@@ -1453,8 +1453,8 @@
 		}
 		{
 			id: "7BDD1FD256B59F70"
-			x: 6.0d
-			y: 1.875d
+			x: 6.4d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:archevoker_helmet"
 				count: 1
@@ -1500,8 +1500,8 @@
 		}
 		{
 			id: "5D8E54B41454D7D5"
-			x: 6.0d
-			y: 3.125d
+			x: 9.6d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:plagued_helmet"
 				count: 1
@@ -1547,8 +1547,8 @@
 		}
 		{
 			id: "7A8BAE07E712FA12"
-			x: 9.0d
-			y: 0.0d
+			x: -32.0d
+			y: 12.0d
 			icon: {
 				id: "irons_spellbooks:netherite_mage_helmet"
 				count: 1
@@ -1593,8 +1593,8 @@
 		}
 		{
 			id: "03089F07F5504FEB"
-			x: 7.5d
-			y: 1.25d
+			x: -8.0d
+			y: 10.0d
 			icon: {
 				id: "irons_spellbooks:infernal_sorcerer_chestplate"
 				count: 1
@@ -1616,8 +1616,8 @@
 		}
 		{
 			id: "648C9C830C653736"
-			x: 4.5d
-			y: 2.5d
+			x: 17.6d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:cooldown_ring"
 				count: 1
@@ -1646,8 +1646,8 @@
 		}
 		{
 			id: "227BF055317FB7E0"
-			x: 4.5d
-			y: 3.75d
+			x: 19.2d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:fireward_ring"
 				count: 1
@@ -1684,8 +1684,8 @@
 		}
 		{
 			id: "05D7400821AB6A23"
-			x: 4.5d
-			y: 5.0d
+			x: 20.8d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:concentration_amulet"
 				count: 1
@@ -1706,8 +1706,8 @@
 		}
 		{
 			id: "07194CCCBA38D0C1"
-			x: 4.5d
-			y: 6.25d
+			x: 22.4d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:affinity_ring"
 				count: 1
@@ -1728,8 +1728,8 @@
 		}
 		{
 			id: "2CB288E440D62BB4"
-			x: 6.0d
-			y: 4.375d
+			x: 8.0d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:conjurers_talisman"
 				count: 1
@@ -1750,8 +1750,8 @@
 		}
 		{
 			id: "4910FD8B790BB4EA"
-			x: 4.5d
-			y: 7.5d
+			x: 24.0d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:emerald_stoneplate_ring"
 				count: 1
@@ -1772,8 +1772,8 @@
 		}
 		{
 			id: "4D31E18F609B59F8"
-			x: 4.5d
-			y: 8.75d
+			x: -25.6d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:amethyst_rapier"
 				count: 1
@@ -1794,8 +1794,8 @@
 		}
 		{
 			id: "3C9DD0A3E7385CD0"
-			x: 4.5d
-			y: 10.0d
+			x: -22.4d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:magehunter"
 				count: 1
@@ -1816,8 +1816,8 @@
 		}
 		{
 			id: "4E820FD029FE30EE"
-			x: 6.0d
-			y: 5.625d
+			x: -22.4d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:spellbreaker"
 				count: 1
@@ -1838,8 +1838,8 @@
 		}
 		{
 			id: "04117E5E42C6A4DD"
-			x: 4.5d
-			y: 11.25d
+			x: -24.0d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:autoloader_crossbow"
 				count: 1
@@ -1860,8 +1860,8 @@
 		}
 		{
 			id: "5736887E673B4861"
-			x: 6.0d
-			y: 6.875d
+			x: -4.8d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:ice_staff"
 				count: 1
@@ -1882,8 +1882,8 @@
 		}
 		{
 			id: "4ECCDA9E795CEC44"
-			x: 6.0d
-			y: 8.125d
+			x: -11.2d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:pyrium_ingot"
 				count: 1
@@ -1914,8 +1914,8 @@
 		}
 		{
 			id: "2161D87DAD290E20"
-			x: 9.0d
-			y: 1.25d
+			x: -30.4d
+			y: 12.0d
 			icon: {
 				id: "irons_spellbooks:dragonskin"
 				count: 1
@@ -1936,8 +1936,8 @@
 		}
 		{
 			id: "17010B5742787A3F"
-			x: 6.0d
-			y: 9.375d
+			x: -9.6d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:cinder_essence"
 				count: 1
@@ -1958,8 +1958,8 @@
 		}
 		{
 			id: "066C6A280BD39351"
-			x: 6.0d
-			y: 10.625d
+			x: 33.6d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:frozen_bone"
 				count: 1
@@ -1980,8 +1980,8 @@
 		}
 		{
 			id: "69942EFA5E8584EF"
-			x: 4.5d
-			y: 12.5d
+			x: 36.8d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:ruined_book"
 				count: 1
@@ -2002,8 +2002,8 @@
 		}
 		{
 			id: "7EB8E5C4A09D0649"
-			x: 4.5d
-			y: 13.75d
+			x: 28.8d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:pyromancer_helmet"
 				count: 1
@@ -2022,8 +2022,8 @@
 		}
 		{
 			id: "503D54E9E24A6C70"
-			x: 4.5d
-			y: 15.0d
+			x: 32.0d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:cryomancer_helmet"
 				count: 1
@@ -2042,8 +2042,8 @@
 		}
 		{
 			id: "0F3330C9F12CC680"
-			x: 4.5d
-			y: 16.25d
+			x: 30.4d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:archevoker_helmet"
 				count: 1
@@ -2062,8 +2062,8 @@
 		}
 		{
 			id: "7C9C10AB62CD4A71"
-			x: 4.5d
-			y: 17.5d
+			x: 38.4d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:blood_staff"
 				count: 1
@@ -2082,8 +2082,8 @@
 		}
 		{
 			id: "4B05E241BD05306F"
-			x: 6.0d
-			y: 11.875d
+			x: 35.2d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:icy_fang"
 				count: 1
@@ -2102,8 +2102,8 @@
 		}
 		{
 			id: "4F90DE4C3503858F"
-			x: 6.0d
-			y: 13.125d
+			x: 40.0d
+			y: 8.0d
 			shape: "hexagon"
 			icon: {
 				id: "irons_spellbooks:keeper_flamberge"
@@ -2123,8 +2123,8 @@
 		}
 		{
 			id: "03916D6A55B1E05A"
-			x: 9.0d
-			y: 2.5d
+			x: -28.8d
+			y: 12.0d
 			shape: "hexagon"
 			icon: {
 				id: "irons_spellbooks:tyros_statue"
@@ -2145,8 +2145,8 @@
 		}
 		{
 			id: "76FE632065909AEB"
-			x: 10.5d
-			y: 0.0d
+			x: -19.47d
+			y: 14.0d
 			shape: "hexagon"
 			icon: {
 				id: "irons_spellbooks:legendary_spell_book"
@@ -2176,8 +2176,8 @@
 		}
 		{
 			id: "59DAC3A798675F2C"
-			x: 3.0d
-			y: 5.625d
+			x: 16.0d
+			y: 4.0d
 			icon: {
 				id: "irons_spellbooks:mithril_ingot"
 				count: 1
@@ -2199,8 +2199,8 @@
 		}
 		{
 			id: "4C4770E1F9711E9D"
-			x: 4.5d
-			y: 18.75d
+			x: 16.0d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:arcane_ingot"
 				count: 1
@@ -2223,8 +2223,8 @@
 		}
 		{
 			id: "0BE46ED673E89342"
-			x: 4.5d
-			y: 20.0d
+			x: -16.0d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:druidic_spell_book"
 				count: 1
@@ -2242,8 +2242,8 @@
 		}
 		{
 			id: "79520F0703E2D1D3"
-			x: 3.0d
-			y: 6.875d
+			x: 22.4d
+			y: 4.0d
 			icon: {
 				id: "irons_spellbooks:mana_ring"
 				count: 1
@@ -2265,8 +2265,8 @@
 		}
 		{
 			id: "4881E593675BEAC3"
-			x: 6.0d
-			y: 14.375d
+			x: -36.8d
+			y: 8.0d
 			icon: {
 				id: "irons_spellbooks:rare_ink"
 				count: 1
@@ -2288,8 +2288,8 @@
 		}
 		{
 			id: "3990DF9B5753B506"
-			x: 4.5d
-			y: 21.25d
+			x: 27.2d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:teleportation_amulet"
 				count: 1
@@ -2311,8 +2311,8 @@
 		}
 		{
 			id: "62EC5608FBE429B5"
-			x: 4.5d
-			y: 22.5d
+			x: -27.2d
+			y: 6.0d
 			icon: {
 				id: "irons_spellbooks:netherite_spell_book"
 				count: 1
@@ -2338,8 +2338,8 @@
 		}
 		{
 			id: "161358A8E5F7983F"
-			x: 4.5d
-			y: 23.75d
+			x: 25.6d
+			y: 6.0d
 			icon: {
 				id: "irons_jewelry:jewelcrafting_station"
 				count: 1

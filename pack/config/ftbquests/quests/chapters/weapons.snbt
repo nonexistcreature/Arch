@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "2840277D460DBE04"
-			x: 0.0d
-			y: -1.25d
+			x: -3.2d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "simplyswords:iron_longsword"
@@ -35,8 +35,8 @@
 		}
 		{
 			id: "124CE8EC4DA83696"
-			x: 1.5d
-			y: -6.25d
+			x: -8.8d
+			y: 2.0d
 			icon: {
 				id: "simplyswords:iron_greathammer"
 				count: 1
@@ -58,8 +58,8 @@
 		}
 		{
 			id: "2EFA1764B6C5AA28"
-			x: 1.5d
-			y: -5.0d
+			x: 0.0d
+			y: 2.0d
 			shape: "hexagon"
 			icon: {
 				id: "tacz:gun_smith_table"
@@ -82,8 +82,8 @@
 		}
 		{
 			id: "00E19FD18B738F02"
-			x: 3.0d
-			y: -2.5d
+			x: -0.8d
+			y: 4.0d
 			icon: {
 				id: "tacz:ammo_box"
 				count: 1
@@ -105,7 +105,7 @@
 		}
 		{
 			id: "0CFB5AA571596797"
-			x: 0.0d
+			x: 4.0d
 			y: 0.0d
 			icon: {
 				id: "createbigcannons:cannon_mount"
@@ -135,8 +135,8 @@
 		}
 		{
 			id: "1E2EBF13C6F879A0"
-			x: 0.0d
-			y: 1.25d
+			x: 7.2d
+			y: 0.0d
 			shape: "hexagon"
 			icon: {
 				id: "grappling_hook_neo:grapplinghook"
@@ -168,8 +168,8 @@
 		}
 		{
 			id: "4744E2D0A9C2BFAD"
-			x: 1.5d
-			y: -3.75d
+			x: 8.8d
+			y: 2.0d
 			icon: {
 				id: "grappling_hook_neo:doubleupgradeitem"
 				count: 1
@@ -191,8 +191,8 @@
 		}
 		{
 			id: "325CD1C1DC34FC14"
-			x: 1.5d
-			y: -2.5d
+			x: 5.6d
+			y: 2.0d
 			icon: {
 				id: "simulated:rope_connector"
 				count: 1
@@ -211,8 +211,8 @@
 		}
 		{
 			id: "547E7AB1EA5FB62E"
-			x: 1.5d
-			y: -1.25d
+			x: -7.2d
+			y: 2.0d
 			icon: {
 				id: "minecraft:diamond_chestplate"
 				count: 1
@@ -230,8 +230,8 @@
 		}
 		{
 			id: "56E88A8B20052C07"
-			x: 3.0d
-			y: -1.25d
+			x: 3.73d
+			y: 4.0d
 			shape: "gear"
 			icon: {
 				id: "minecraft:netherite_sword"
@@ -258,8 +258,8 @@
 		}
 		{
 			id: "2B3DDC04AF68D471"
-			x: 1.5d
-			y: 0.0d
+			x: -5.6d
+			y: 2.0d
 			icon: {
 				id: "simplyswords:iron_katana"
 				count: 1
@@ -281,8 +281,8 @@
 		}
 		{
 			id: "50FA3AD9E3473F0B"
-			x: 1.5d
-			y: 1.25d
+			x: -4.0d
+			y: 2.0d
 			icon: {
 				id: "simplyswords:iron_glaive"
 				count: 1
@@ -304,8 +304,8 @@
 		}
 		{
 			id: "43419A8748AA7E13"
-			x: 1.5d
-			y: 2.5d
+			x: -2.4d
+			y: 2.0d
 			icon: {
 				id: "simplyswords:iron_twinblade"
 				count: 1
@@ -327,8 +327,8 @@
 		}
 		{
 			id: "4E186D831A313D5E"
-			x: 1.5d
-			y: 3.75d
+			x: 2.4d
+			y: 2.0d
 			icon: {
 				id: "simplyswords:diamond_longsword"
 				count: 1
@@ -349,8 +349,8 @@
 		}
 		{
 			id: "45F020A202618B2C"
-			x: 3.0d
-			y: 0.0d
+			x: 2.4d
+			y: 4.0d
 			icon: {
 				id: "simplyswords:netherite_longsword"
 				count: 1
@@ -373,8 +373,8 @@
 		}
 		{
 			id: "508564D2E50AB706"
-			x: 3.0d
-			y: 1.25d
+			x: 0.8d
+			y: 4.0d
 			icon: {
 				id: "minecraft:gunpowder"
 				count: 1
@@ -391,8 +391,8 @@
 		}
 		{
 			id: "1428749F03E36AA4"
-			x: 1.5d
-			y: 5.0d
+			x: 4.0d
+			y: 2.0d
 			icon: {
 				id: "createbigcannons:solid_shot"
 				count: 1
@@ -423,8 +423,8 @@
 		}
 		{
 			id: "18BE845C1AC2CF5A"
-			x: 3.0d
-			y: 2.5d
+			x: 8.8d
+			y: 4.0d
 			icon: {
 				id: "grappling_hook_neo:rocketupgradeitem"
 				count: 1
@@ -446,8 +446,8 @@
 		}
 		{
 			id: "35DC60B73DD268F7"
-			x: 1.5d
-			y: 6.25d
+			x: 7.2d
+			y: 2.0d
 			icon: {
 				id: "grappling_hook_neo:longfallboots"
 				count: 1

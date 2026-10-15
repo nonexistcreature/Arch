@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "3BAB07B21B1282E9"
-			x: 0.0d
-			y: -3.125d
+			x: 4.0d
+			y: 0.0d
 			icon: {
 				id: "solcarrot:food_book"
 				count: 1
@@ -40,8 +40,8 @@
 		}
 		{
 			id: "743FC4A70C4CBD86"
-			x: 1.5d
-			y: 0.0d
+			x: 4.0d
+			y: 2.0d
 			icon: {
 				id: "minecraft:enchanted_golden_apple"
 				count: 1
@@ -68,8 +68,8 @@
 		}
 		{
 			id: "27144F338FDF2C08"
-			x: 0.0d
-			y: -1.875d
+			x: -4.0d
+			y: 0.0d
 			icon: {
 				id: "tide:fishing_journal"
 				count: 1
@@ -96,8 +96,8 @@
 		}
 		{
 			id: "265FF61074550E28"
-			x: 0.0d
-			y: -0.625d
+			x: -2.4d
+			y: 0.0d
 			icon: {
 				id: "arkhaven:star_carp"
 				count: 1
@@ -125,8 +125,8 @@
 		}
 		{
 			id: "00665D425DD344B3"
-			x: 0.0d
-			y: 0.625d
+			x: -0.8d
+			y: 0.0d
 			icon: {
 				id: "productivebees:bee_cage"
 				count: 1
@@ -153,8 +153,8 @@
 		}
 		{
 			id: "5AA3BFEE086967DC"
-			x: 0.0d
-			y: 1.875d
+			x: 0.8d
+			y: 0.0d
 			icon: {
 				id: "dmr:dragon_egg"
 				count: 1
@@ -181,8 +181,8 @@
 		}
 		{
 			id: "5B7AA6799E31A9A7"
-			x: 0.0d
-			y: 3.125d
+			x: 2.4d
+			y: 0.0d
 			icon: {
 				id: "twilightforest:lich_trophy"
 				count: 1

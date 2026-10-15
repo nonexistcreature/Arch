@@ -38,8 +38,8 @@
 		}
 		{
 			id: "5989F710ABA29FD2"
-			x: 1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 2.0d
 			icon: {
 				id: "minecraft:red_bed"
 				count: 1
@@ -67,8 +67,8 @@
 		}
 		{
 			id: "14E673074E384ED8"
-			x: 3.0d
-			y: -1.25d
+			x: -6.4d
+			y: 4.0d
 			icon: {
 				id: "farmersdelight:cooking_pot"
 				count: 1
@@ -99,8 +99,8 @@
 		}
 		{
 			id: "006C91045BBCADB4"
-			x: 3.0d
-			y: 0.0d
+			x: -1.6d
+			y: 4.0d
 			icon: {
 				id: "minecraft:iron_pickaxe"
 				count: 1
@@ -121,8 +121,8 @@
 		}
 		{
 			id: "3CA4B560AE561B3E"
-			x: 3.0d
-			y: 1.25d
+			x: 4.8d
+			y: 4.0d
 			icon: {
 				id: "minecraft:writable_book"
 				count: 1
@@ -139,8 +139,8 @@
 		}
 		{
 			id: "13E77B47518CF45C"
-			x: 4.5d
-			y: -1.875d
+			x: -1.6d
+			y: 6.0d
 			icon: {
 				id: "create:andesite_casing"
 				count: 1
@@ -171,8 +171,8 @@
 		}
 		{
 			id: "68172BA2AE32DFEF"
-			x: 6.0d
-			y: 0.0d
+			x: -1.6d
+			y: 8.0d
 			icon: {
 				id: "create:brass_ingot"
 				count: 1
@@ -194,8 +194,8 @@
 		}
 		{
 			id: "21FBC8C7F82B336A"
-			x: 7.5d
-			y: -0.625d
+			x: -0.8d
+			y: 10.0d
 			icon: {
 				id: "immersiveengineering:ingot_steel"
 				count: 1
@@ -217,8 +217,8 @@
 		}
 		{
 			id: "1A928072C549EAF5"
-			x: 9.0d
-			y: -0.625d
+			x: -3.2d
+			y: 12.0d
 			icon: {
 				id: "mekanism:energy_tablet"
 				count: 1
@@ -239,8 +239,8 @@
 		}
 		{
 			id: "39B9D7211C3AD114"
-			x: 10.5d
-			y: -0.625d
+			x: -3.2d
+			y: 14.0d
 			icon: {
 				id: "ae2:controller"
 				count: 1
@@ -261,8 +261,8 @@
 		}
 		{
 			id: "4693C34C08702F13"
-			x: 12.0d
-			y: -1.875d
+			x: -3.2d
+			y: 16.0d
 			icon: {
 				id: "bigreactors:yellorium_ingot"
 				count: 1
@@ -284,8 +284,8 @@
 		}
 		{
 			id: "5F1BA5A3E0A5735B"
-			x: 4.5d
-			y: -0.625d
+			x: 3.2d
+			y: 6.0d
 			icon: {
 				id: "ars_nouveau:worn_notebook"
 				count: 1
@@ -306,8 +306,8 @@
 		}
 		{
 			id: "050C8B0EB9425EC7"
-			x: 7.5d
-			y: 0.625d
+			x: -4.8d
+			y: 10.0d
 			icon: {
 				id: "smallships:oak_cog"
 				count: 1
@@ -324,8 +324,8 @@
 		}
 		{
 			id: "39A56463E8C5A7F8"
-			x: 9.0d
-			y: 0.625d
+			x: 0.0d
+			y: 12.0d
 			icon: {
 				id: "tacz:gun_smith_table"
 				count: 1
@@ -346,8 +346,8 @@
 		}
 		{
 			id: "576B9EB277FB4903"
-			x: 10.5d
-			y: 0.625d
+			x: 0.0d
+			y: 14.0d
 			icon: {
 				id: "minecraft:netherite_sword"
 				count: 1
@@ -373,8 +373,8 @@
 		}
 		{
 			id: "012668B87D0FA2D0"
-			x: 12.0d
-			y: -0.625d
+			x: -1.6d
+			y: 16.0d
 			icon: {
 				id: "lootr:lootr_chest"
 				count: 1
@@ -392,8 +392,8 @@
 		}
 		{
 			id: "6767449E51F712DE"
-			x: 12.0d
-			y: 0.625d
+			x: 0.0d
+			y: 16.0d
 			icon: {
 				id: "minecraft:ender_eye"
 				count: 1
@@ -411,8 +411,8 @@
 		}
 		{
 			id: "5BDC466474828798"
-			x: 4.5d
-			y: 0.625d
+			x: 4.8d
+			y: 6.0d
 			icon: {
 				id: "minecolonies:supplycampdeployer"
 				count: 1
@@ -433,8 +433,8 @@
 		}
 		{
 			id: "63BC6F90D1FCE215"
-			x: 4.5d
-			y: 1.875d
+			x: 6.4d
+			y: 6.0d
 			icon: {
 				id: "create:precision_mechanism"
 				count: 1
@@ -451,8 +451,8 @@
 		}
 		{
 			id: "4AD95969A43AE499"
-			x: 12.0d
-			y: 1.875d
+			x: 1.6d
+			y: 16.0d
 			icon: {
 				id: "minecraft:chainmail_helmet"
 				count: 1
@@ -469,8 +469,8 @@
 		}
 		{
 			id: "1F4F10227DA0EDBC"
-			x: 13.5d
-			y: 0.0d
+			x: 0.0d
+			y: 18.0d
 			shape: "hexagon"
 			icon: {
 				id: "minecraft:nether_star"

@@ -12,8 +12,8 @@
 	quests: [
 		{
 			id: "601F1AB7F25BCE3E"
-			x: 0.0d
-			y: -0.625d
+			x: -1.6d
+			y: 0.0d
 			shape: "gear"
 			icon: {
 				id: "minecolonies:supplycampdeployer"
@@ -35,8 +35,8 @@
 		}
 		{
 			id: "0961E98A888A1F6F"
-			x: 1.5d
-			y: -1.25d
+			x: -1.6d
+			y: 2.0d
 			icon: {
 				id: "minecolonies:blockhuttownhall"
 				count: 1
@@ -57,8 +57,8 @@
 		}
 		{
 			id: "68A40D4402EEB3F1"
-			x: 3.0d
-			y: -0.625d
+			x: -0.8d
+			y: 4.0d
 			icon: {
 				id: "minecolonies:blockhutbuilder"
 				count: 1
@@ -79,8 +79,8 @@
 		}
 		{
 			id: "6CF67932543F364E"
-			x: 4.5d
-			y: -6.25d
+			x: -20.0d
+			y: 6.0d
 			icon: {
 				id: "minecolonies:blockhutcook"
 				count: 1
@@ -102,8 +102,8 @@
 		}
 		{
 			id: "2448820009AD4703"
-			x: 4.5d
-			y: -5.0d
+			x: -13.6d
+			y: 6.0d
 			icon: {
 				id: "minecolonies:blockhutfarmer"
 				count: 1
@@ -125,8 +125,8 @@
 		}
 		{
 			id: "18D3669431D9E42A"
-			x: 4.5d
-			y: -3.75d
+			x: -6.4d
+			y: 6.0d
 			icon: {
 				id: "minecolonies:blockhutguardtower"
 				count: 1
@@ -147,8 +147,8 @@
 		}
 		{
 			id: "15EA1D5A0184FB40"
-			x: 4.5d
-			y: -2.5d
+			x: -0.0d
+			y: 6.0d
 			icon: {
 				id: "minecolonies:blockhutuniversity"
 				count: 1
@@ -170,8 +170,8 @@
 		}
 		{
 			id: "3128D00D510F86AC"
-			x: 4.5d
-			y: -1.25d
+			x: -26.4d
+			y: 6.0d
 			icon: {
 				id: "minecolonies:blockhuttavern"
 				count: 1
@@ -193,8 +193,8 @@
 		}
 		{
 			id: "5E28B4759F897AD5"
-			x: 0.0d
-			y: 0.625d
+			x: 27.2d
+			y: 0.0d
 			icon: {
 				id: "mca:book_family"
 				count: 1
@@ -211,8 +211,8 @@
 		}
 		{
 			id: "1A706D39C73346D7"
-			x: 6.0d
-			y: -15.625d
+			x: -21.6d
+			y: 8.0d
 			shape: "gear"
 			icon: {
 				id: "minecolonies:colony_banner"
@@ -238,8 +238,8 @@
 		}
 		{
 			id: "31629F0187879119"
-			x: 4.5d
-			y: 0.0d
+			x: -24.8d
+			y: 6.0d
 			icon: {
 				id: "structurize:sceptergold"
 				count: 1
@@ -261,8 +261,8 @@
 		}
 		{
 			id: "0C500D94482BC31D"
-			x: 4.5d
-			y: 1.25d
+			x: 6.4d
+			y: 6.0d
 			icon: {
 				id: "minecolonies:blockhutwarehouse"
 				count: 1
@@ -291,8 +291,8 @@
 		}
 		{
 			id: "2A25F70A883FD806"
-			x: 4.5d
-			y: 2.5d
+			x: 11.2d
+			y: 6.0d
 			icon: {
 				id: "minecolonies:blockhutlumberjack"
 				count: 1
@@ -313,8 +313,8 @@
 		}
 		{
 			id: "35775EEABB31E72C"
-			x: 4.5d
-			y: 3.75d
+			x: 15.2d
+			y: 6.0d
 			icon: {
 				id: "minecolonies:blockhutminer"
 				count: 1
@@ -336,8 +336,8 @@
 		}
 		{
 			id: "75EC4D5698FC2F8A"
-			x: 4.5d
-			y: 5.0d
+			x: -23.2d
+			y: 6.0d
 			icon: {
 				id: "minecolonies:blockhutfisherman"
 				count: 1
@@ -359,8 +359,8 @@
 		}
 		{
 			id: "709BD9478FFC95A5"
-			x: 4.5d
-			y: 6.25d
+			x: 21.6d
+			y: 6.0d
 			icon: {
 				id: "minecolonies:blockhutcowboy"
 				count: 1
@@ -390,8 +390,8 @@
 		}
 		{
 			id: "6D716CFDB6533D8D"
-			x: 6.0d
-			y: -14.375d
+			x: 5.6d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutsmeltery"
 				count: 1
@@ -421,8 +421,8 @@
 		}
 		{
 			id: "215D51C751B21BDD"
-			x: 6.0d
-			y: -13.125d
+			x: 8.8d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhuthospital"
 				count: 1
@@ -444,8 +444,8 @@
 		}
 		{
 			id: "6E16091A853C2E58"
-			x: 6.0d
-			y: -11.875d
+			x: 0.8d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutlibrary"
 				count: 1
@@ -467,8 +467,8 @@
 		}
 		{
 			id: "032164E8868189BE"
-			x: 7.5d
-			y: -5.625d
+			x: -0.8d
+			y: 10.0d
 			icon: {
 				id: "minecolonies:blockhutenchanter"
 				count: 1
@@ -490,8 +490,8 @@
 		}
 		{
 			id: "2EDF7718966F865E"
-			x: 7.5d
-			y: -4.375d
+			x: 0.8d
+			y: 10.0d
 			icon: {
 				id: "minecolonies:blockhutalchemist"
 				count: 1
@@ -513,8 +513,8 @@
 		}
 		{
 			id: "5FF1BE65A592559C"
-			x: 6.0d
-			y: -10.625d
+			x: -4.0d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutbarracks"
 				count: 1
@@ -536,8 +536,8 @@
 		}
 		{
 			id: "7DF2E728DC9D5076"
-			x: 1.5d
-			y: 0.0d
+			x: 26.4d
+			y: 2.0d
 			icon: {
 				id: "mca:engagement_ring"
 				count: 1
@@ -559,8 +559,8 @@
 		}
 		{
 			id: "076FE4C58EDAB8E3"
-			x: 1.5d
-			y: 1.25d
+			x: 28.0d
+			y: 2.0d
 			icon: {
 				id: "easy_villagers:villager"
 				count: 1
@@ -578,8 +578,8 @@
 		}
 		{
 			id: "0FD8FAF0813FFD2A"
-			x: 3.0d
-			y: 0.625d
+			x: -28.0d
+			y: 4.0d
 			icon: {
 				id: "minecolonies:blockhutcitizen"
 				count: 1
@@ -600,8 +600,8 @@
 		}
 		{
 			id: "031569B36F8A9A21"
-			x: 6.0d
-			y: -9.375d
+			x: -20.0d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutbaker"
 				count: 1
@@ -623,8 +623,8 @@
 		}
 		{
 			id: "3B062B23874F55A0"
-			x: 6.0d
-			y: -8.125d
+			x: -18.4d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutkitchen"
 				count: 1
@@ -645,8 +645,8 @@
 		}
 		{
 			id: "7559DB448E569963"
-			x: 6.0d
-			y: -6.875d
+			x: -16.8d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutcomposter"
 				count: 1
@@ -667,8 +667,8 @@
 		}
 		{
 			id: "72D923C815DFEA86"
-			x: 6.0d
-			y: -5.625d
+			x: -15.2d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutplantation"
 				count: 1
@@ -689,8 +689,8 @@
 		}
 		{
 			id: "25460C176D191862"
-			x: 6.0d
-			y: -4.375d
+			x: -13.6d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutflorist"
 				count: 1
@@ -711,8 +711,8 @@
 		}
 		{
 			id: "550B68541BA21A5F"
-			x: 6.0d
-			y: -3.125d
+			x: -12.0d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutbeekeeper"
 				count: 1
@@ -733,8 +733,8 @@
 		}
 		{
 			id: "1F9880AEC67EF7B7"
-			x: 6.0d
-			y: -1.875d
+			x: 18.4d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutchickenherder"
 				count: 1
@@ -755,8 +755,8 @@
 		}
 		{
 			id: "1E035F3D1994FFE2"
-			x: 6.0d
-			y: -0.625d
+			x: 20.0d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutswineherder"
 				count: 1
@@ -777,8 +777,8 @@
 		}
 		{
 			id: "68A74DE8645E4D01"
-			x: 6.0d
-			y: 0.625d
+			x: 21.6d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutrabbithutch"
 				count: 1
@@ -799,8 +799,8 @@
 		}
 		{
 			id: "69B005DB7BEA8175"
-			x: 6.0d
-			y: 1.875d
+			x: 23.2d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutstable"
 				count: 1
@@ -821,8 +821,8 @@
 		}
 		{
 			id: "2631D1F7D578FA91"
-			x: 6.0d
-			y: 3.125d
+			x: 10.4d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutsawmill"
 				count: 1
@@ -843,8 +843,8 @@
 		}
 		{
 			id: "628B0898C1C9008C"
-			x: 6.0d
-			y: 4.375d
+			x: 13.6d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutstonemason"
 				count: 1
@@ -865,8 +865,8 @@
 		}
 		{
 			id: "5A2B342F6DAC08FD"
-			x: 6.0d
-			y: 5.625d
+			x: 15.2d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutstonesmeltery"
 				count: 1
@@ -887,8 +887,8 @@
 		}
 		{
 			id: "6A6B9866D4981CA1"
-			x: 6.0d
-			y: 6.875d
+			x: 16.8d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutcrusher"
 				count: 1
@@ -909,8 +909,8 @@
 		}
 		{
 			id: "1A19CE3AE1C9EE6B"
-			x: 7.5d
-			y: -3.125d
+			x: 16.8d
+			y: 10.0d
 			icon: {
 				id: "minecolonies:blockhutsifter"
 				count: 1
@@ -931,8 +931,8 @@
 		}
 		{
 			id: "1DA2F0A4360E14A8"
-			x: 7.5d
-			y: -1.875d
+			x: 4.0d
+			y: 10.0d
 			icon: {
 				id: "minecolonies:blockhutglassblower"
 				count: 1
@@ -953,8 +953,8 @@
 		}
 		{
 			id: "073523D80B8B4CF5"
-			x: 6.0d
-			y: 8.125d
+			x: 24.8d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutdyer"
 				count: 1
@@ -975,8 +975,8 @@
 		}
 		{
 			id: "5E5A9A560271FE5D"
-			x: 7.5d
-			y: -0.625d
+			x: 15.2d
+			y: 10.0d
 			icon: {
 				id: "minecolonies:blockhutconcretemixer"
 				count: 1
@@ -997,8 +997,8 @@
 		}
 		{
 			id: "508844C01F0CA98B"
-			x: 6.0d
-			y: 9.375d
+			x: 12.0d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutfletcher"
 				count: 1
@@ -1019,8 +1019,8 @@
 		}
 		{
 			id: "4BE21434F371AE4E"
-			x: 7.5d
-			y: 0.625d
+			x: 5.6d
+			y: 10.0d
 			icon: {
 				id: "minecolonies:blockhutmechanic"
 				count: 1
@@ -1041,8 +1041,8 @@
 		}
 		{
 			id: "00B201D2CB365B8B"
-			x: 7.5d
-			y: 1.875d
+			x: 2.4d
+			y: 10.0d
 			icon: {
 				id: "minecolonies:blockhutschool"
 				count: 1
@@ -1063,8 +1063,8 @@
 		}
 		{
 			id: "6ACFC7FF1495BE58"
-			x: 6.0d
-			y: 10.625d
+			x: -8.8d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutarchery"
 				count: 1
@@ -1085,8 +1085,8 @@
 		}
 		{
 			id: "1D98419730E30EC8"
-			x: 6.0d
-			y: 11.875d
+			x: -7.2d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutcombatacademy"
 				count: 1
@@ -1107,8 +1107,8 @@
 		}
 		{
 			id: "37E062B0495F7922"
-			x: 7.5d
-			y: 3.125d
+			x: -4.0d
+			y: 10.0d
 			icon: {
 				id: "minecolonies:blockhutbarrackstower"
 				count: 1
@@ -1129,8 +1129,8 @@
 		}
 		{
 			id: "107C3FDC298F433A"
-			x: 6.0d
-			y: 13.125d
+			x: -5.6d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutgatehouse"
 				count: 1
@@ -1151,8 +1151,8 @@
 		}
 		{
 			id: "70BF3B831544AF3D"
-			x: 7.5d
-			y: 4.375d
+			x: 8.8d
+			y: 10.0d
 			icon: {
 				id: "minecolonies:blockhutgraveyard"
 				count: 1
@@ -1173,8 +1173,8 @@
 		}
 		{
 			id: "070DE4F43FA71987"
-			x: 7.5d
-			y: 5.625d
+			x: 7.2d
+			y: 10.0d
 			icon: {
 				id: "minecolonies:blockhutnetherworker"
 				count: 1
@@ -1195,8 +1195,8 @@
 		}
 		{
 			id: "0587D8CD66473A53"
-			x: 6.0d
-			y: 14.375d
+			x: -2.4d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutmysticalsite"
 				count: 1
@@ -1217,8 +1217,8 @@
 		}
 		{
 			id: "2D5C32063F6E6D85"
-			x: 6.0d
-			y: 15.625d
+			x: -10.4d
+			y: 8.0d
 			icon: {
 				id: "minecolonies:blockhutfield"
 				count: 1
@@ -1239,8 +1239,8 @@
 		}
 		{
 			id: "15CD6B6F746E5979"
-			x: 9.0d
-			y: 0.0d
+			x: -0.8d
+			y: 12.0d
 			shape: "hexagon"
 			icon: {
 				id: "minecolonies:blockhuttownhall"

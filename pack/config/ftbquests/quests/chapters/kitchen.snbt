@@ -53,8 +53,8 @@
 		}
 		{
 			id: "7337BE2DD2237031"
-			x: 1.5d
-			y: -0.625d
+			x: 0.8d
+			y: 2.0d
 			icon: {
 				id: "farmersdelight:cutting_board"
 				count: 1
@@ -75,8 +75,8 @@
 		}
 		{
 			id: "5238FD9DA6380669"
-			x: 3.0d
-			y: 0.0d
+			x: 0.8d
+			y: 4.0d
 			shape: "hexagon"
 			icon: {
 				id: "farmersdelight:cooking_pot"
@@ -108,8 +108,8 @@
 		}
 		{
 			id: "35985DCC77D18802"
-			x: 4.5d
-			y: -5.0d
+			x: -17.6d
+			y: 6.0d
 			icon: {
 				id: "farmersdelight:skillet"
 				count: 1
@@ -131,8 +131,8 @@
 		}
 		{
 			id: "18D9ECC67E2FC089"
-			x: 4.5d
-			y: -3.75d
+			x: -10.4d
+			y: 6.0d
 			icon: {
 				id: "farmersdelight:beef_stew"
 				count: 1
@@ -163,8 +163,8 @@
 		}
 		{
 			id: "559D4C6BCF8BCEB9"
-			x: 6.0d
-			y: -6.875d
+			x: -12.0d
+			y: 8.0d
 			icon: {
 				id: "farmersdelight:rice"
 				count: 1
@@ -186,8 +186,8 @@
 		}
 		{
 			id: "2ACE3EA7C75F5792"
-			x: 7.5d
-			y: -5.625d
+			x: -10.4d
+			y: 10.0d
 			icon: {
 				id: "farmersdelight:honey_glazed_ham_block"
 				count: 1
@@ -215,8 +215,8 @@
 		}
 		{
 			id: "0501C9B22779C6E3"
-			x: 4.5d
-			y: -2.5d
+			x: -1.6d
+			y: 6.0d
 			shape: "hexagon"
 			icon: {
 				id: "cookingforblockheads:cooking_table"
@@ -238,8 +238,8 @@
 		}
 		{
 			id: "1D2EF124557ECDB4"
-			x: 6.0d
-			y: -5.625d
+			x: -1.6d
+			y: 8.0d
 			icon: {
 				id: "cookingforblockheads:white_fridge"
 				count: 1
@@ -260,8 +260,8 @@
 		}
 		{
 			id: "1BBF63337B27B478"
-			x: 7.5d
-			y: -4.375d
+			x: -3.2d
+			y: 10.0d
 			icon: {
 				id: "cookingforblockheads:white_oven"
 				count: 1
@@ -283,8 +283,8 @@
 		}
 		{
 			id: "16CFEF89533B0A8C"
-			x: 4.5d
-			y: -1.25d
+			x: 2.4d
+			y: 6.0d
 			icon: {
 				id: "meadow:cheese_form"
 				count: 1
@@ -305,8 +305,8 @@
 		}
 		{
 			id: "0466BE55A60FEE69"
-			x: 6.0d
-			y: -4.375d
+			x: 2.4d
+			y: 8.0d
 			icon: {
 				id: "meadow:cheese_wheel"
 				count: 1
@@ -337,8 +337,8 @@
 		}
 		{
 			id: "45AAADFE7F430492"
-			x: 4.5d
-			y: 0.0d
+			x: 6.4d
+			y: 6.0d
 			icon: {
 				id: "vinery:apple_press"
 				count: 1
@@ -359,8 +359,8 @@
 		}
 		{
 			id: "54B6204A21417774"
-			x: 6.0d
-			y: -3.125d
+			x: 6.4d
+			y: 8.0d
 			icon: {
 				id: "vinery:fermentation_barrel"
 				count: 1
@@ -381,8 +381,8 @@
 		}
 		{
 			id: "37C38BE393F08BE9"
-			x: 7.5d
-			y: -3.125d
+			x: 6.4d
+			y: 10.0d
 			icon: {
 				id: "vinery:red_wine"
 				count: 1
@@ -413,8 +413,8 @@
 		}
 		{
 			id: "17AC84486D9AD8A3"
-			x: 4.5d
-			y: 1.25d
+			x: 10.4d
+			y: 6.0d
 			icon: {
 				id: "brewinandchewin:keg"
 				count: 1
@@ -435,8 +435,8 @@
 		}
 		{
 			id: "05D32CBE23FE1E77"
-			x: 6.0d
-			y: -1.875d
+			x: 9.6d
+			y: 8.0d
 			icon: {
 				id: "brewinandchewin:beer"
 				count: 1
@@ -467,8 +467,8 @@
 		}
 		{
 			id: "5FDA2B7EE1F27453"
-			x: 4.5d
-			y: 2.5d
+			x: 13.6d
+			y: 6.0d
 			icon: {
 				id: "farmersrespite:kettle"
 				count: 1
@@ -489,8 +489,8 @@
 		}
 		{
 			id: "4ACB5F2996AE60FF"
-			x: 6.0d
-			y: -0.625d
+			x: 12.8d
+			y: 8.0d
 			icon: {
 				id: "farmersrespite:coffee"
 				count: 1
@@ -521,8 +521,8 @@
 		}
 		{
 			id: "7355D37F5F004689"
-			x: 4.5d
-			y: 3.75d
+			x: 16.0d
+			y: 6.0d
 			icon: {
 				id: "farm_and_charm:stove"
 				count: 1
@@ -544,8 +544,8 @@
 		}
 		{
 			id: "37DF5212B0B993C4"
-			x: 6.0d
-			y: 0.625d
+			x: 16.0d
+			y: 8.0d
 			icon: {
 				id: "farm_and_charm:farmers_bread"
 				count: 1
@@ -567,8 +567,8 @@
 		}
 		{
 			id: "6D36E2C0372C448B"
-			x: 9.0d
-			y: -5.0d
+			x: -8.0d
+			y: 12.0d
 			icon: {
 				id: "mynethersdelight:hotdog"
 				count: 1
@@ -590,8 +590,8 @@
 		}
 		{
 			id: "25B96A73086279BC"
-			x: 9.0d
-			y: -3.75d
+			x: -12.8d
+			y: 12.0d
 			icon: {
 				id: "oceansdelight:fugu_roll"
 				count: 1
@@ -613,8 +613,8 @@
 		}
 		{
 			id: "6365AAAF7F5090A9"
-			x: 10.5d
-			y: -1.25d
+			x: -8.0d
+			y: 14.0d
 			icon: {
 				id: "ends_delight:dragon_meat_stew"
 				count: 1
@@ -636,8 +636,8 @@
 		}
 		{
 			id: "0E783133843C22F0"
-			x: 9.0d
-			y: -2.5d
+			x: 8.0d
+			y: 12.0d
 			shape: "gear"
 			icon: {
 				id: "solcarrot:food_book"
@@ -672,8 +672,8 @@
 		}
 		{
 			id: "22F67D677FBB6DC6"
-			x: 10.5d
-			y: 0.0d
+			x: 8.0d
+			y: 14.0d
 			icon: {
 				id: "sliceanddice:slicer"
 				count: 1
@@ -694,8 +694,8 @@
 		}
 		{
 			id: "4F947AD7FACA9BC3"
-			x: 1.5d
-			y: 0.625d
+			x: -19.2d
+			y: 2.0d
 			icon: {
 				id: "farmersdelight:iron_knife"
 				count: 1
@@ -716,8 +716,8 @@
 		}
 		{
 			id: "0C3B5AE748A47953"
-			x: 4.5d
-			y: 5.0d
+			x: 18.4d
+			y: 6.0d
 			icon: {
 				id: "farmersdelight:stove"
 				count: 1
@@ -738,8 +738,8 @@
 		}
 		{
 			id: "4B552557EC185A3E"
-			x: 6.0d
-			y: 1.875d
+			x: 17.6d
+			y: 8.0d
 			icon: {
 				id: "farmersdelight:oak_cabinet"
 				count: 1
@@ -762,8 +762,8 @@
 		}
 		{
 			id: "00F65B21E2465E69"
-			x: 6.0d
-			y: 3.125d
+			x: -5.6d
+			y: 8.0d
 			icon: {
 				id: "farmersdelight:vegetable_soup"
 				count: 1
@@ -810,8 +810,8 @@
 		}
 		{
 			id: "45CEAF11E8EBFDB2"
-			x: 7.5d
-			y: -1.875d
+			x: -6.4d
+			y: 10.0d
 			icon: {
 				id: "farmersdelight:pasta_with_meatballs"
 				count: 1
@@ -832,8 +832,8 @@
 		}
 		{
 			id: "5733BC9DDB8BF2F2"
-			x: 7.5d
-			y: -0.625d
+			x: -4.8d
+			y: 10.0d
 			icon: {
 				id: "farmersdelight:shepherds_pie"
 				count: 1
@@ -854,8 +854,8 @@
 		}
 		{
 			id: "2BD21258DE662010"
-			x: 7.5d
-			y: 0.625d
+			x: -16.0d
+			y: 10.0d
 			icon: {
 				id: "farmersdelight:fried_rice"
 				count: 1
@@ -884,8 +884,8 @@
 		}
 		{
 			id: "76C0023FD5EBA6FC"
-			x: 7.5d
-			y: 1.875d
+			x: -14.4d
+			y: 10.0d
 			icon: {
 				id: "farmersdelight:salmon_roll"
 				count: 1
@@ -908,8 +908,8 @@
 		}
 		{
 			id: "01C12854E8F1B593"
-			x: 6.0d
-			y: 4.375d
+			x: 19.2d
+			y: 8.0d
 			icon: {
 				id: "farmersdelight:apple_pie"
 				count: 1
@@ -938,8 +938,8 @@
 		}
 		{
 			id: "6DD2CF16ED7E2503"
-			x: 9.0d
-			y: -1.25d
+			x: -11.2d
+			y: 12.0d
 			icon: {
 				id: "farmersdelight:roast_chicken_block"
 				count: 1
@@ -961,8 +961,8 @@
 		}
 		{
 			id: "5FAC855B23FEA2BD"
-			x: 9.0d
-			y: 0.0d
+			x: -9.6d
+			y: 12.0d
 			icon: {
 				id: "farmersdelight:stuffed_pumpkin_block"
 				count: 1
@@ -984,8 +984,8 @@
 		}
 		{
 			id: "49B4C548F631D1A2"
-			x: 7.5d
-			y: 3.125d
+			x: 2.4d
+			y: 10.0d
 			icon: {
 				id: "meadow:goat_cheese_wheel"
 				count: 1
@@ -1032,8 +1032,8 @@
 		}
 		{
 			id: "414B31268F62EAEE"
-			x: 9.0d
-			y: 1.25d
+			x: 1.6d
+			y: 12.0d
 			icon: {
 				id: "meadow:cheese_tart"
 				count: 1
@@ -1062,8 +1062,8 @@
 		}
 		{
 			id: "6B63BF6B84A13FC1"
-			x: 9.0d
-			y: 2.5d
+			x: 4.8d
+			y: 12.0d
 			icon: {
 				id: "vinery:noir_wine"
 				count: 1
@@ -1100,8 +1100,8 @@
 		}
 		{
 			id: "29929BA10B235878"
-			x: 9.0d
-			y: 3.75d
+			x: 6.4d
+			y: 12.0d
 			icon: {
 				id: "vinery:oak_wine_rack_big"
 				count: 1
@@ -1123,8 +1123,8 @@
 		}
 		{
 			id: "5EBE9D2E71E7566A"
-			x: 6.0d
-			y: 5.625d
+			x: 11.2d
+			y: 8.0d
 			icon: {
 				id: "brewinandchewin:mead"
 				count: 1
@@ -1145,8 +1145,8 @@
 		}
 		{
 			id: "4C618506D5B94FF6"
-			x: 9.0d
-			y: 5.0d
+			x: 3.2d
+			y: 12.0d
 			icon: {
 				id: "brewinandchewin:fiery_fondue"
 				count: 1
@@ -1169,8 +1169,8 @@
 		}
 		{
 			id: "618210C3D04CE26C"
-			x: 6.0d
-			y: 6.875d
+			x: 14.4d
+			y: 8.0d
 			icon: {
 				id: "herbalbrews:green_tea"
 				count: 1
@@ -1207,8 +1207,8 @@
 		}
 		{
 			id: "070D89334A3257F9"
-			x: 7.5d
-			y: 4.375d
+			x: -1.6d
+			y: 10.0d
 			icon: {
 				id: "cookingforblockheads:white_sink"
 				count: 1
@@ -1230,8 +1230,8 @@
 		}
 		{
 			id: "32F8FC9DC50D1AD8"
-			x: 7.5d
-			y: 5.625d
+			x: -0.0d
+			y: 10.0d
 			icon: {
 				id: "cookingforblockheads:white_counter"
 				count: 1
@@ -1254,8 +1254,8 @@
 		}
 		{
 			id: "02DC973247274ED0"
-			x: 10.5d
-			y: 1.25d
+			x: 6.6d
+			y: 14.0d
 			shape: "gear"
 			icon: {
 				id: "brewinandchewin:tankard"
