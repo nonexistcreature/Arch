@@ -1,0 +1,65 @@
+extends: mekanism
+quests:
+  - id: m_paxel
+    deps: [m_steel]
+    roles: [engineer]
+    icon: mekanismtools:steel_paxel
+    tasks: [{type: item, item: mekanismtools:steel_paxel}]
+    ru:
+      title: "Паксель"
+      subtitle: "Mekanism Tools"
+      text: |
+        Кирка, топор и лопата в одном инструменте — меньше переключений в шахте. Стальной паксель прочнее железного и почти не уступает алмазному.
+    en:
+      title: "The Paxel"
+      subtitle: "Mekanism Tools"
+      text: |
+        A pickaxe, axe and shovel in one tool: less swapping in the mine. A steel paxel outlasts iron and nearly matches diamond.
+
+  - id: m_osmium_armor
+    deps: [m_osmium]
+    roles: [warrior]
+    icon: mekanismtools:osmium_chestplate
+    tasks: [{type: item, item: mekanismtools:osmium_chestplate}]
+    ru:
+      title: "Осмиевая броня"
+      subtitle: "Тяжёлая и прочная"
+      text: |
+        Осмий — тяжёлый металл: броня из него держит удар лучше железной. Альтернатива для тех, кому алмазы не попадаются.
+    en:
+      title: "Osmium Armour"
+      subtitle: "Heavy and tough"
+      text: |
+        Osmium is a heavy metal: its armour takes hits better than iron. An alternative for those short on diamonds.
+
+  - id: m_refined_obsidian
+    deps: [m_osmium_armor, m_enrich]
+    roles: [warrior]
+    icon: mekanismtools:refined_obsidian_chestplate
+    tasks: [{type: item, item: mekanismtools:refined_obsidian_chestplate}]
+    ru:
+      title: "Очищенный обсидиан"
+      subtitle: "Топовая броня Mekanism Tools"
+      text: |
+        Очищенный обсидиан делается в Mekanism из обсидиана и алмазной пыли. Броня из него — уровня незерита, без похода в Нижний мир за древними обломками.
+    en:
+      title: "Refined Obsidian"
+      subtitle: "Mekanism Tools' best armour"
+      text: |
+        Refined obsidian is made in Mekanism from obsidian and diamond dust. Its armour is netherite-tier without a trip for ancient debris.
+
+  - id: m_refined_glowstone
+    deps: [m_refined_obsidian]
+    roles: [warrior]
+    icon: mekanismtools:refined_glowstone_sword
+    tasks: [{type: item, item: mekanismtools:refined_glowstone_sword}]
+    ru:
+      title: "Очищенный светокамень"
+      subtitle: "Быстрые инструменты"
+      text: |
+        Инструменты из очищенного светокамня — самые быстрые в Mekanism Tools.
+    en:
+      title: "Refined Glowstone"
+      subtitle: "Fast tools"
+      text: |
+        Refined glowstone tools are the fastest in Mekanism Tools.

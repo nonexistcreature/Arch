@@ -1,0 +1,185 @@
+{
+ "minecraft:pillager_outpost": [
+  {
+   "entities": [
+    "minecraft:pillager"
+   ],
+   "loadout": "illagers",
+   "chance": 0.4
+  }
+ ],
+ "minecraft:mansion": [
+  {
+   "entities": [
+    "minecraft:pillager",
+    "minecraft:vindicator"
+   ],
+   "loadout": "illagers",
+   "chance": 0.25
+  }
+ ],
+ "minecraft:village_plains": [
+  {
+   "entities": [
+    "minecraft:villager"
+   ],
+   "loadout": "villagers",
+   "chance": 0.05
+  },
+  {
+   "entities": [
+    "minecraft:iron_golem"
+   ],
+   "loadout": "villagers",
+   "chance": 0.5
+  }
+ ],
+ "minecraft:village_taiga": [
+  {
+   "entities": [
+    "minecraft:villager"
+   ],
+   "loadout": "villagers",
+   "chance": 0.05
+  },
+  {
+   "entities": [
+    "minecraft:iron_golem"
+   ],
+   "loadout": "villagers",
+   "chance": 0.5
+  }
+ ],
+ "minecraft:village_savanna": [
+  {
+   "entities": [
+    "minecraft:villager"
+   ],
+   "loadout": "villagers",
+   "chance": 0.05
+  },
+  {
+   "entities": [
+    "minecraft:iron_golem"
+   ],
+   "loadout": "villagers",
+   "chance": 0.5
+  }
+ ],
+ "minecraft:village_desert": [
+  {
+   "entities": [
+    "minecraft:villager"
+   ],
+   "loadout": "villagers",
+   "chance": 0.05
+  },
+  {
+   "entities": [
+    "minecraft:iron_golem"
+   ],
+   "loadout": "villagers",
+   "chance": 0.5
+  }
+ ],
+ "dungeons_arise:bandit_towers": [
+  {
+   "entities": [
+    "minecraft:pillager",
+    "minecraft:vindicator"
+   ],
+   "loadout": "illagers",
+   "chance": 0.6
+  }
+ ],
+ "dungeons_arise:bandit_village": [
+  {
+   "entities": [
+    "minecraft:pillager",
+    "minecraft:vindicator"
+   ],
+   "loadout": "illagers",
+   "chance": 0.6
+  }
+ ],
+ "dungeons_arise:illager_fort": [
+  {
+   "entities": [
+    "minecraft:pillager",
+    "minecraft:vindicator"
+   ],
+   "loadout": "illagers",
+   "chance": 0.6
+  }
+ ],
+ "dungeons_arise:illager_campsite": [
+  {
+   "entities": [
+    "minecraft:pillager",
+    "minecraft:vindicator"
+   ],
+   "loadout": "illagers",
+   "chance": 0.6
+  }
+ ],
+ "dungeons_arise:illager_galley": [
+  {
+   "entities": [
+    "minecraft:pillager",
+    "minecraft:vindicator"
+   ],
+   "loadout": "illagers",
+   "chance": 0.6
+  }
+ ],
+ "dungeons_arise:illager_corsair": [
+  {
+   "entities": [
+    "minecraft:pillager",
+    "minecraft:vindicator"
+   ],
+   "loadout": "illagers",
+   "chance": 0.6
+  }
+ ],
+ "dungeons_arise:illager_windmill": [
+  {
+   "entities": [
+    "minecraft:pillager",
+    "minecraft:vindicator"
+   ],
+   "loadout": "illagers",
+   "chance": 0.6
+  }
+ ],
+ "nova_structures:illager_camp": [
+  {
+   "entities": [
+    "minecraft:pillager",
+    "minecraft:vindicator"
+   ],
+   "loadout": "illagers",
+   "chance": 0.5
+  }
+ ],
+ "nova_structures:illager_hideout": [
+  {
+   "entities": [
+    "minecraft:pillager",
+    "minecraft:vindicator"
+   ],
+   "loadout": "illagers",
+   "chance": 0.5
+  }
+ ],
+ "nova_structures:illager_manor": [
+  {
+   "entities": [
+    "minecraft:pillager",
+    "minecraft:vindicator"
+   ],
+   "loadout": "illagers",
+   "chance": 0.5
+  }
+ ]
+}

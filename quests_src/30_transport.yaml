@@ -1,0 +1,251 @@
+chapter:
+  id: transport
+  order: 8.5
+  icon: smallships:oak_cog
+  ru: {title: "Транспорт", subtitle: "Корабли, поезда, телепорты: как покорять расстояния"}
+  en: {title: "Transport", subtitle: "Ships, trains, teleports: conquering distance"}
+quests:
+  - id: tr_intro
+    deps: [path_wheels]
+    icon: minecraft:compass
+    shape: gear
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Как путешествовать"
+      subtitle: "Выбери свой способ"
+      text: |
+        **Море** — корабли Small Ships: возят грузы и стреляют из пушек.
+        **Рельсы** — поезда Create + Steam 'n' Rails: автоматическая логистика между базами.
+        **Небо** — самолёты и дирижабли (глава «Небо»), FPV-дроны (глава «Огнестрел и война»).
+        **Мгновенно** — вейстоуны и свитки варпа, но их надо сначала найти и активировать.
+    en:
+      title: "How to Travel"
+      subtitle: "Choose your way"
+      text: |
+        **Sea**: Small Ships ships carry cargo and fire cannons.
+        **Rails**: Create trains + Steam 'n' Rails: automatic logistics between bases.
+        **Sky**: planes and airships («Sky» chapter), FPV drones («Firearms and War» chapter).
+        **Instant**: waystones and warp scrolls, but you must find and activate them first.
+
+  - id: tr_sails
+    deps: [tr_intro]
+    icon: smallships:cotton_sails
+    tasks: [{type: item, item: smallships:cotton_sails, count: 2}]
+    ru:
+      title: "Паруса"
+      subtitle: "Small Ships"
+      text: |
+        Паруса нужны всем кораблям Small Ships (рецепт — в EMI): чем больше корабль, тем больше парусов.
+        **Управление:** W/S — паруса поднять/спустить, A/D — руль. Ветер настоящий: идти против него медленнее.
+    en:
+      title: "Sails"
+      subtitle: "Small Ships"
+      text: |
+        Every Small Ships ship needs sails (recipe in EMI): the bigger the ship, the more sails.
+        **Controls:** W/S raise/lower the sails, A/D steer. The wind is real: sailing into it is slower.
+
+  - id: tr_cog
+    deps: [tr_sails]
+    icon: smallships:oak_cog
+    tasks: [{type: item, item: smallships:oak_cog}]
+    rewards: [{type: item, item: minecraft:barrel, count: 2}]
+    ru:
+      title: "Когг"
+      subtitle: "Первый корабль"
+      text: |
+        Когг — маленький грузовой корабль на пару человек и немного груза. Быстрее лодки, держит волну.
+        **Зачем:** острова, далёкие побережья, океанские данжи — теперь досягаемы.
+    en:
+      title: "The Cog"
+      subtitle: "Your first ship"
+      text: |
+        A cog is a small cargo ship for a couple of people and some cargo. Faster than a boat, holds the waves.
+        **Why:** islands, far coasts and ocean dungeons are now within reach.
+
+  - id: tr_brigg
+    deps: [tr_cog]
+    icon: smallships:oak_brigg
+    tasks: [{type: item, item: smallships:oak_brigg}]
+    ru:
+      title: "Бриг"
+      subtitle: "Быстрый и вооружённый"
+      text: |
+        Бриг — средний корабль: место для пушек по бортам и грузового трюма. Хорош для охоты на галеры иллагеров.
+    en:
+      title: "The Brig"
+      subtitle: "Fast and armed"
+      text: |
+        A brig is a medium ship: room for broadside cannons and a cargo hold. Good for hunting illager galleys.
+
+  - id: tr_galleon
+    deps: [tr_brigg, fa_ship_guns]
+    icon: smallships:oak_galleon
+    shape: hexagon
+    tasks: [{type: item, item: smallships:oak_galleon}]
+    rewards: [{type: item, item: smallships:cannon_ball, count: 32}]
+    ru:
+      title: "Галеон"
+      subtitle: "Флагман"
+      text: |
+        Самый большой парусник: много пушек, огромный трюм, место для всей команды. Плавучая база для экспедиций к Затонувшему городу и кладбищу кораблей.
+    en:
+      title: "The Galleon"
+      subtitle: "Flagship"
+      text: |
+        The biggest sailing ship: many cannons, a huge hold, room for the whole crew. A floating base for expeditions to the Sunken City and the ship graveyard.
+
+  - id: tr_drakkar
+    deps: [tr_cog]
+    icon: smallships:oak_drakkar
+    tasks: [{type: item, item: smallships:oak_drakkar}]
+    ru:
+      title: "Драккар"
+      subtitle: "Вёсла вместо ветра"
+      text: |
+        Драккар идёт на вёслах — ему не нужен ветер. Отличен для рек и узких проливов.
+    en:
+      title: "The Drakkar"
+      subtitle: "Oars instead of wind"
+      text: |
+        A drakkar rows: it doesn't need wind. Great for rivers and narrow straits.
+
+  - id: tr_speedboat
+    deps: [tr_cog, ip_speedboat]
+    icon: immersivepetroleum:speedboat
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Паруса или мотор?"
+      subtitle: "Small Ships vs Immersive Petroleum"
+      text: |
+        Моторная лодка IP быстрая, но ест бензин и не возит грузы. Корабль медленнее, зато бесплатный и с пушками. Хорошая база держит оба.
+    en:
+      title: "Sail or Motor?"
+      subtitle: "Small Ships vs Immersive Petroleum"
+      text: |
+        The IP speedboat is fast but drinks gasoline and carries no cargo. A ship is slower but free, and has cannons. A good base keeps both.
+
+  - id: tr_handcar
+    deps: [c_train_track]
+    icon: railways:handcar
+    tasks: [{type: item, item: railways:handcar}]
+    ru:
+      title: "Дрезина"
+      subtitle: "Steam 'n' Rails"
+      text: |
+        Дрезина — самый маленький «поезд» на рельсах Create: для коротких поездок к шахте или соседу.
+    en:
+      title: "Handcar"
+      subtitle: "Steam 'n' Rails"
+      text: |
+        The handcar is the smallest «train» on Create tracks: for short trips to the mine or a neighbour.
+
+  - id: tr_loco
+    deps: [tr_handcar, c_train_run]
+    icon: railways:smokestack_coalburner
+    tasks: [{type: item, item: railways:smokestack_coalburner}, {type: item, item: railways:locometal_boiler, count: 4}]
+    ru:
+      title: "Паровоз"
+      subtitle: "Красивые поезда"
+      text: |
+        Steam 'n' Rails добавляет дымовые трубы, котлы и локометалл — поезд выглядит как настоящий паровоз. Тяга — от вращения Create.
+    en:
+      title: "Steam Locomotive"
+      subtitle: "Pretty trains"
+      text: |
+        Steam 'n' Rails adds smokestacks, boilers and locometal: the train looks like a real steam engine. Traction comes from Create rotation.
+
+  - id: tr_coupling
+    deps: [tr_loco]
+    icon: railways:track_coupler
+    tasks: [{type: item, item: railways:track_coupler}, {type: item, item: railways:semaphore, count: 2}]
+    ru:
+      title: "Сцепки и семафоры"
+      subtitle: "Сеть железных дорог"
+      text: |
+        Сцепщик соединяет и расцепляет поезда на ходу, семафоры показывают сигналы. Так строится сеть: товарные поезда между базами игроков.
+        **Пересечение ролей:** железная дорога — общий проект: фермер возит еду, шахтёр — руду, инженер — машины.
+    en:
+      title: "Couplers and Semaphores"
+      subtitle: "A railway network"
+      text: |
+        The coupler joins and splits trains on the move; semaphores show signals. That's how a network grows: freight trains between players' bases.
+        **Roles meet:** the railway is a shared project: the farmer ships food, the miner ore, the engineer machines.
+
+  - id: tr_monorail
+    deps: [tr_coupling]
+    icon: railways:track_monorail
+    tasks: [{type: item, item: railways:track_monorail, count: 16}]
+    ru:
+      title: "Монорельс"
+      subtitle: "Над городом"
+      text: |
+        Монорельс прокладывается по воздуху над крышами — метро для колонии Minecolonies.
+    en:
+      title: "Monorail"
+      subtitle: "Above the town"
+      text: |
+        A monorail runs through the air above the roofs: a metro for your Minecolonies colony.
+
+  - id: tr_warp_scroll
+    deps: [fs_waystone]
+    icon: waystones:warp_scroll
+    tasks: [{type: item, item: waystones:warp_scroll}]
+    ru:
+      title: "Свиток варпа"
+      subtitle: "Waystones"
+      text: |
+        Одноразовый свиток переносит к любому активированному вейстоуну.
+        **Зачем:** вернуться из похода, не бросая лут. **Почему не всегда:** свитки стоят ресурсов, а путь сам по себе — часть приключения.
+    en:
+      title: "Warp Scroll"
+      subtitle: "Waystones"
+      text: |
+        A single-use scroll takes you to any activated waystone.
+        **Why:** get back from an expedition without dropping your loot. **Why not always:** scrolls cost resources, and the road is part of the adventure.
+
+  - id: tr_warp_stone
+    deps: [tr_warp_scroll]
+    icon: waystones:warp_stone
+    tasks: [{type: item, item: waystones:warp_stone}]
+    ru:
+      title: "Камень варпа"
+      subtitle: "Многоразовый"
+      text: |
+        Камень варпа — многоразовый портал в кармане с перезарядкой. Свой вейстоун у дома + камень = свобода исследовать.
+    en:
+      title: "Warp Stone"
+      subtitle: "Reusable"
+      text: |
+        The warp stone is a reusable pocket portal with a cooldown. Your own waystone at home + the stone = freedom to explore.
+
+  - id: tr_quadro
+    deps: [s_biplane]
+    icon: immersive_aircraft:quadrocopter
+    tasks: [{type: item, item: immersive_aircraft:quadrocopter}]
+    ru:
+      title: "Квадрокоптер"
+      subtitle: "Immersive Aircraft"
+      text: |
+        Медленный, но висит в воздухе — идеален для стройки высоких башен и осмотра местности.
+    en:
+      title: "Quadrocopter"
+      subtitle: "Immersive Aircraft"
+      text: |
+        Slow, but it hovers: perfect for building tall towers and surveying land.
+
+  - id: tr_master
+    deps: [tr_galleon, tr_monorail, tr_warp_stone, tr_quadro, tr_drakkar]
+    icon: minecraft:filled_map
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards: [{type: xp_levels, count: 8}]
+    ru:
+      title: "Транспортная империя"
+      subtitle: "Море, рельсы, небо"
+      text: |
+        Ты связал мир дорогами. Предложи друзьям общую станцию у спавна — пусть все линии сходятся в одном месте.
+    en:
+      title: "Transport Empire"
+      subtitle: "Sea, rails, sky"
+      text: |
+        You've tied the world together. Suggest a shared station at spawn so every line meets in one place.

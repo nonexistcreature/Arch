@@ -1,33 +1,34 @@
 [
-  {
-    "mob": "hostile",
-    "dimension": "minecraft:overworld",
-    "maxspawndist": 256,
-    "result": "deny"
-  },
-  {
-    "mod": [
-      "cataclysm",
-      "born_in_chaos_v1",
-      "mowziesmobs",
-      "aquamirae",
-      "alexsmobs",
-      "irons_spellbooks"
-    ],
-    "dimension": "minecraft:overworld",
-    "hostile": true,
-    "maxspawndist": 1500,
-    "result": "deny"
-  },
-  {
-    "mob": "hostile",
-    "dimension": "minecraft:overworld",
-    "maxspawndist": 1500,
-    "random": 0.5,
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:phantom",
-    "result": "deny"
-  }
+ {
+  "mob": "hostile",
+  "dimension": "minecraft:overworld",
+  "maxspawndist": 256,
+  "result": "deny"
+ },
+ {
+  "mod": [
+   "cataclysm",
+   "born_in_chaos_v1",
+   "mowziesmobs",
+   "aquamirae",
+   "alexsmobs",
+   "irons_spellbooks",
+   "tacznpcs"
+  ],
+  "dimension": "minecraft:overworld",
+  "hostile": true,
+  "maxspawndist": 1500,
+  "result": "deny"
+ },
+ {
+  "mob": "hostile",
+  "dimension": "minecraft:overworld",
+  "maxspawndist": 1500,
+  "random": 0.5,
+  "result": "deny"
+ },
+ {
+  "mob": "minecraft:phantom",
+  "result": "deny"
+ }
 ]

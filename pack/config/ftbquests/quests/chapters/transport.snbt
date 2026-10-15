@@ -1,0 +1,389 @@
+{
+	id: "250C907E46C379E8"
+	group: ""
+	order_index: 85
+	filename: "transport"
+	icon: {
+		id: "smallships:oak_cog"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "6984D699D2660B8F"
+			x: 0.0d
+			y: -1.875d
+			shape: "gear"
+			icon: {
+				id: "minecraft:compass"
+				count: 1
+			}
+			dependencies: [
+				"050C8B0EB9425EC7"
+			]
+			tasks: [
+				{
+					id: "7F0E09C0E615C7D5"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "4DC0F06F77F4E8D0"
+			x: 1.5d
+			y: -1.25d
+			icon: {
+				id: "smallships:cotton_sails"
+				count: 1
+			}
+			dependencies: [
+				"6984D699D2660B8F"
+			]
+			tasks: [
+				{
+					id: "01568E18F2C5A796"
+					type: "item"
+					item: {
+						count: 1
+						id: "smallships:cotton_sails"
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "5088E3C71CA9EAB9"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "smallships:oak_cog"
+				count: 1
+			}
+			dependencies: [
+				"4DC0F06F77F4E8D0"
+			]
+			tasks: [
+				{
+					id: "180A3933024FFEA4"
+					type: "item"
+					item: {
+						count: 1
+						id: "smallships:oak_cog"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4883D75FAD72752B"
+					type: "item"
+					item: {
+						count: 2
+						id: "minecraft:barrel"
+					}
+				}
+			]
+		}
+		{
+			id: "4A924D0C915569ED"
+			x: 4.5d
+			y: -1.875d
+			icon: {
+				id: "smallships:oak_brigg"
+				count: 1
+			}
+			dependencies: [
+				"5088E3C71CA9EAB9"
+			]
+			tasks: [
+				{
+					id: "123ABB1F6AEAC843"
+					type: "item"
+					item: {
+						count: 1
+						id: "smallships:oak_brigg"
+					}
+				}
+			]
+		}
+		{
+			id: "3B06282EB819370D"
+			x: 6.0d
+			y: 0.0d
+			shape: "hexagon"
+			icon: {
+				id: "smallships:oak_galleon"
+				count: 1
+			}
+			dependencies: [
+				"4A924D0C915569ED"
+				"0261EF9E1DEBACDE"
+			]
+			tasks: [
+				{
+					id: "71002DC64A059FE5"
+					type: "item"
+					item: {
+						count: 1
+						id: "smallships:oak_galleon"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "34A12C5BF01117AB"
+					type: "item"
+					item: {
+						count: 32
+						id: "smallships:cannon_ball"
+					}
+				}
+			]
+		}
+		{
+			id: "1F8568D64C4D85D9"
+			x: 4.5d
+			y: -0.625d
+			icon: {
+				id: "smallships:oak_drakkar"
+				count: 1
+			}
+			dependencies: [
+				"5088E3C71CA9EAB9"
+			]
+			tasks: [
+				{
+					id: "33B1223E7021AE53"
+					type: "item"
+					item: {
+						count: 1
+						id: "smallships:oak_drakkar"
+					}
+				}
+			]
+		}
+		{
+			id: "36AF2E60F7B656EB"
+			x: 4.5d
+			y: 0.625d
+			icon: {
+				id: "immersivepetroleum:speedboat"
+				count: 1
+			}
+			dependencies: [
+				"5088E3C71CA9EAB9"
+				"2C47CC784D3B70E5"
+			]
+			tasks: [
+				{
+					id: "17475A16FE5D43D1"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "17DADFF13634DB04"
+			x: 0.0d
+			y: -0.625d
+			icon: {
+				id: "railways:handcar"
+				count: 1
+			}
+			dependencies: [
+				"3BE63B3331C9B9B8"
+			]
+			tasks: [
+				{
+					id: "6988BD4F04E95AD4"
+					type: "item"
+					item: {
+						count: 1
+						id: "railways:handcar"
+					}
+				}
+			]
+		}
+		{
+			id: "7CFEDCB56F3C85D9"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "railways:smokestack_coalburner"
+				count: 1
+			}
+			dependencies: [
+				"17DADFF13634DB04"
+				"5A15E86CEF89EA05"
+			]
+			tasks: [
+				{
+					id: "0DCB90FFCB14E754"
+					type: "item"
+					item: {
+						count: 1
+						id: "railways:smokestack_coalburner"
+					}
+				}
+				{
+					id: "6195F66C66B1324B"
+					type: "item"
+					item: {
+						count: 1
+						id: "railways:locometal_boiler"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "6D7CC78BAD7C139E"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "railways:track_coupler"
+				count: 1
+			}
+			dependencies: [
+				"7CFEDCB56F3C85D9"
+			]
+			tasks: [
+				{
+					id: "04EF103BA792A177"
+					type: "item"
+					item: {
+						count: 1
+						id: "railways:track_coupler"
+					}
+				}
+				{
+					id: "5E8956F5C3F28ADF"
+					type: "item"
+					item: {
+						count: 1
+						id: "railways:semaphore"
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "631B95D917C4FF14"
+			x: 4.5d
+			y: 1.875d
+			icon: {
+				id: "railways:track_monorail"
+				count: 1
+			}
+			dependencies: [
+				"6D7CC78BAD7C139E"
+			]
+			tasks: [
+				{
+					id: "6F2E135A4A8C90A0"
+					type: "item"
+					item: {
+						count: 1
+						id: "railways:track_monorail"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "466444CD9C2D77D4"
+			x: 0.0d
+			y: 0.625d
+			icon: {
+				id: "waystones:warp_scroll"
+				count: 1
+			}
+			dependencies: [
+				"41D73599EA517F03"
+			]
+			tasks: [
+				{
+					id: "0E2192CD876F0D0A"
+					type: "item"
+					item: {
+						count: 1
+						id: "waystones:warp_scroll"
+					}
+				}
+			]
+		}
+		{
+			id: "59FE438CCB6B63CB"
+			x: 1.5d
+			y: 1.25d
+			icon: {
+				id: "waystones:warp_stone"
+				count: 1
+			}
+			dependencies: [
+				"466444CD9C2D77D4"
+			]
+			tasks: [
+				{
+					id: "05E6BC642D000D5B"
+					type: "item"
+					item: {
+						count: 1
+						id: "waystones:warp_stone"
+					}
+				}
+			]
+		}
+		{
+			id: "79CAC370B6DC53A9"
+			x: 0.0d
+			y: 1.875d
+			icon: {
+				id: "immersive_aircraft:quadrocopter"
+				count: 1
+			}
+			dependencies: [
+				"3BAC276E3AB02105"
+			]
+			tasks: [
+				{
+					id: "7D7F56B01EE191BC"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersive_aircraft:quadrocopter"
+					}
+				}
+			]
+		}
+		{
+			id: "69A1D02B4D7A4EFC"
+			x: 7.5d
+			y: 0.0d
+			shape: "hexagon"
+			icon: {
+				id: "minecraft:filled_map"
+				count: 1
+			}
+			dependencies: [
+				"3B06282EB819370D"
+				"631B95D917C4FF14"
+				"59FE438CCB6B63CB"
+				"79CAC370B6DC53A9"
+				"1F8568D64C4D85D9"
+			]
+			tasks: [
+				{
+					id: "12E7A6D85A830B70"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "61543EE4B1595149"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+		}
+	]
+}

@@ -1,7 +1,7 @@
 {
 	id: "78D5E7433029BED0"
 	group: ""
-	order_index: 9
+	order_index: 90
 	filename: "mekanism"
 	icon: {
 		id: "mekanism:ingot_osmium"
@@ -37,7 +37,7 @@
 		{
 			id: "47C67B75E3CB3CF3"
 			x: 1.5d
-			y: -0.625d
+			y: -1.25d
 			icon: {
 				id: "mekanism:ingot_steel"
 				count: 1
@@ -60,7 +60,7 @@
 		{
 			id: "625415B7F4D63866"
 			x: 1.5d
-			y: 0.625d
+			y: 0.0d
 			icon: {
 				id: "mekanismgenerators:heat_generator"
 				count: 1
@@ -82,7 +82,7 @@
 		{
 			id: "77688562BA6E2F2C"
 			x: 3.0d
-			y: -3.125d
+			y: -3.75d
 			icon: {
 				id: "mekanism:enrichment_chamber"
 				count: 1
@@ -114,7 +114,7 @@
 		{
 			id: "6ADA9E43D1CB61AE"
 			x: 4.5d
-			y: -0.625d
+			y: -1.25d
 			icon: {
 				id: "mekanism:basic_control_circuit"
 				count: 1
@@ -137,7 +137,7 @@
 		{
 			id: "6FB9DD22E96511CF"
 			x: 6.0d
-			y: -3.75d
+			y: -4.375d
 			icon: {
 				id: "mekanism:purification_chamber"
 				count: 1
@@ -160,7 +160,7 @@
 		{
 			id: "552270423C6CD2BE"
 			x: 6.0d
-			y: -2.5d
+			y: -3.125d
 			icon: {
 				id: "mekanism:basic_smelting_factory"
 				count: 1
@@ -183,7 +183,7 @@
 		{
 			id: "6B07DF1CDC5F216D"
 			x: 6.0d
-			y: -1.25d
+			y: -1.875d
 			icon: {
 				id: "mekanism:jetpack"
 				count: 1
@@ -206,7 +206,7 @@
 		{
 			id: "6E06D49078E7978C"
 			x: 6.0d
-			y: 0.0d
+			y: -0.625d
 			shape: "hexagon"
 			icon: {
 				id: "mekanism:geiger_counter"
@@ -428,7 +428,7 @@
 		{
 			id: "202B14FABDF1BEBE"
 			x: 3.0d
-			y: -1.875d
+			y: -2.5d
 			icon: {
 				id: "mekanism:crusher"
 				count: 1
@@ -450,7 +450,7 @@
 		{
 			id: "4CF40E8C8033E8A3"
 			x: 3.0d
-			y: -0.625d
+			y: -1.25d
 			icon: {
 				id: "mekanism:energized_smelter"
 				count: 1
@@ -472,7 +472,7 @@
 		{
 			id: "49875A981F07E924"
 			x: 3.0d
-			y: 0.625d
+			y: 0.0d
 			icon: {
 				id: "mekanism:basic_universal_cable"
 				count: 1
@@ -503,7 +503,7 @@
 		{
 			id: "3B9CF5DEF05B0975"
 			x: 4.5d
-			y: 0.625d
+			y: 0.0d
 			icon: {
 				id: "mekanism:configurator"
 				count: 1
@@ -525,7 +525,7 @@
 		{
 			id: "16088EC8A05113FC"
 			x: 6.0d
-			y: 1.25d
+			y: 0.625d
 			icon: {
 				id: "mekanism:upgrade_speed"
 				count: 1
@@ -557,7 +557,7 @@
 		{
 			id: "27072E7F71AB537A"
 			x: 6.0d
-			y: 2.5d
+			y: 1.875d
 			icon: {
 				id: "mekanism:basic_logistical_transporter"
 				count: 1
@@ -580,7 +580,7 @@
 		{
 			id: "5085E51AFD3E356C"
 			x: 3.0d
-			y: 1.875d
+			y: 1.25d
 			icon: {
 				id: "mekanismgenerators:solar_generator"
 				count: 1
@@ -604,7 +604,7 @@
 		{
 			id: "6C0D1DCA5D7B6BBA"
 			x: 3.0d
-			y: 3.125d
+			y: 2.5d
 			icon: {
 				id: "mekanismgenerators:wind_generator"
 				count: 1
@@ -649,7 +649,7 @@
 		{
 			id: "27FE97C313BB88D2"
 			x: 6.0d
-			y: 3.75d
+			y: 3.125d
 			icon: {
 				id: "mekanism:electrolytic_separator"
 				count: 1
@@ -852,6 +852,95 @@
 						id: "mekanism:boiler_casing"
 					}
 					count: 32L
+				}
+			]
+		}
+		{
+			id: "098450DFBC4F0224"
+			x: 3.0d
+			y: 3.75d
+			icon: {
+				id: "mekanismtools:steel_paxel"
+				count: 1
+			}
+			dependencies: [
+				"47C67B75E3CB3CF3"
+			]
+			tasks: [
+				{
+					id: "14A2609E2445DA26"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismtools:steel_paxel"
+					}
+				}
+			]
+		}
+		{
+			id: "3000FF6EC8D61578"
+			x: 1.5d
+			y: 1.25d
+			icon: {
+				id: "mekanismtools:osmium_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"245608597F69080B"
+			]
+			tasks: [
+				{
+					id: "23AE03BEEA712BD0"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismtools:osmium_chestplate"
+					}
+				}
+			]
+		}
+		{
+			id: "5E40C59EA1D4B28B"
+			x: 4.5d
+			y: 1.25d
+			icon: {
+				id: "mekanismtools:refined_obsidian_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"3000FF6EC8D61578"
+				"77688562BA6E2F2C"
+			]
+			tasks: [
+				{
+					id: "15EDF0BD098DBC1B"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismtools:refined_obsidian_chestplate"
+					}
+				}
+			]
+		}
+		{
+			id: "328AF20751E40D18"
+			x: 6.0d
+			y: 4.375d
+			icon: {
+				id: "mekanismtools:refined_glowstone_sword"
+				count: 1
+			}
+			dependencies: [
+				"5E40C59EA1D4B28B"
+			]
+			tasks: [
+				{
+					id: "46B808F6F0C5B94E"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismtools:refined_glowstone_sword"
+					}
 				}
 			]
 		}

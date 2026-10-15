@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """End-to-end test (docs/08_TESTING.md levels 4–5): local offline server + real client that joins it,
-then scripted console commands while the player is online. 127.0.0.1 only, online-mode=false.
+then scripted console commands while the player is online. 127.0.0.1:25570 only (25565 is the real server), online-mode=false.
 
 Usage: e2e_test.py [--hold 240] [--cmds "cmd1;cmd2;..."]
 Default commands exercise arkhaven-core (forecast, rift, shower, strike) and FTB Teams.
@@ -38,7 +38,7 @@ def main():
             print("SERVER FAILED TO START"); sys.exit(1)
         time.sleep(3)
     print(f"server up in {time.time() - t0:.0f}s")
-    client = subprocess.Popen([sys.executable, str(ROOT / "tools/launch_client.py"), "--join", "127.0.0.1:25565", "--hold", str(HOLD), "--timeout", "900"],
+    client = subprocess.Popen([sys.executable, str(ROOT / "tools/launch_client.py"), "--join", "127.0.0.1:25570", "--hold", str(HOLD), "--timeout", "900"],
                               stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding="utf8", errors="replace")
     out = []
     threading.Thread(target=lambda: out.extend(client.stdout), daemon=True).start()

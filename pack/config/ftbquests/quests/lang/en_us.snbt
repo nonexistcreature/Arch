@@ -99,6 +99,123 @@
 		"You know the essentials. Now pick your &lorigin&r (chapter \"Origin & Path\") and set up a first home (chapter \"First Steps\")."
 		"Other chapters open up as soon as you get into their topic — or peek into any of them right now."
 	]
+	chapter.153AE3239EBFC45C.title: "The Arkhaven Path"
+	chapter.153AE3239EBFC45C.chapter_subtitle: [
+		"Where to go next: one line through every chapter"
+	]
+	quest.04E65EA9D232B59D.title: "How to Read the Path"
+	quest.04E65EA9D232B59D.quest_subtitle: "One line, many roads"
+	quest.04E65EA9D232B59D.quest_desc: [
+		"&lWhat:&r the main line of the pack. Every step is a milestone that opens new chapters."
+		"&lWhy:&r there are hundreds of mods; the Path shows a sensible order: food → tools → machines → electricity → networks → atoms → bosses and other worlds."
+		"&lHow:&r do the steps here and read the details in the chapter named in each description. You can branch off any time: the Path never locks other chapters."
+	]
+	quest.5989F710ABA29FD2.title: "Settle Down"
+	quest.5989F710ABA29FD2.quest_subtitle: "Chapter «First Steps»"
+	quest.5989F710ABA29FD2.quest_desc: [
+		"A bed, a chest, a claim and a waystone: your first home. Near spawn and bases the world is calm; fights are optional, out in the wilds."
+		"&lNext:&r «First Steps» teaches claiming land (Open Parties and Claims) and carrying a backpack."
+	]
+	quest.14E673074E384ED8.title: "Well Fed Means Strong"
+	quest.14E673074E384ED8.quest_subtitle: "Chapters «Kitchen» and «Garden»"
+	quest.14E673074E384ED8.quest_desc: [
+		"&lWhy:&r varied food grants extra health (Spice of Life), and dishes give buffs that last for hours."
+		"&lHow:&r a Farmer's Delight cooking pot plus beds from «Garden». Seasons (Serene Seasons) change what grows: greenhouse in winter."
+	]
+	quest.006C91045BBCADB4.title: "The Iron Age"
+	quest.006C91045BBCADB4.quest_subtitle: "Ores, furnaces, first tools"
+	quest.006C91045BBCADB4.quest_desc: [
+		"An iron pickaxe unlocks nearly every modded ore: zinc (Create), osmium (Mekanism), yellorite (Extreme Reactors), lead and bauxite (TFMG)."
+		"&lTip:&r hold the Ultimine key to mine a whole vein."
+	]
+	quest.3CA4B560AE561B3E.title: "Pick a Calling"
+	quest.3CA4B560AE561B3E.quest_subtitle: "Roles and skills"
+	quest.3CA4B560AE561B3E.quest_desc: [
+		"You don't have to do everything. &lEngineer&r: Create and Mekanism; &lmage&r: Ars Nouveau and Iron's Spells; &lcook/farmer&r: kitchen and garden; &lwarrior&r: weapons and bosses; &lmayor&r: a Minecolonies colony."
+		"The best parts are where roles meet: «handshake» quests need a neighbour from another role. Skill points: &lP&r key."
+	]
+	quest.13E77B47518CF45C.title: "Mechanics"
+	quest.13E77B47518CF45C.quest_subtitle: "Chapter «Create»"
+	quest.13E77B47518CF45C.quest_desc: [
+		"&lWhat:&r Create runs on rotation instead of electricity: shafts, cogs, press, mixer, belts."
+		"&lWhy:&r almost the whole pack leans on Create: food, armour, guns, airships and even reactors are made on its lines."
+		"&lHow:&r andesite alloy → casing → water wheel. Hold &lW&r over a block: Ponder shows how it works."
+	]
+	quest.68172BA2AE32DFEF.title: "Brass"
+	quest.68172BA2AE32DFEF.quest_subtitle: "The key to tier two"
+	quest.68172BA2AE32DFEF.quest_desc: [
+		"Brass (copper + zinc in a heated mixer) unlocks smart machinery: precision assembly, deployers, logistics, trains."
+		"&lNext:&r «Create: Add-ons»: batteries, Big Cannons steel, experience enchanting."
+	]
+	quest.21FBC8C7F82B336A.title: "Steel"
+	quest.21FBC8C7F82B336A.quest_subtitle: "Chapter «Steel and Oil»"
+	quest.21FBC8C7F82B336A.quest_desc: [
+		"Steel has three roads: the Immersive Engineering coke oven and blast furnace, the TFMG steelworks, or Mekanism. Pick any: Almost Unified turns all steel into one ingot."
+		"&lWhy:&r steel makes TaCZ guns, ship cannons, reactor casings and turbines."
+	]
+	quest.1A928072C549EAF5.title: "Electricity"
+	quest.1A928072C549EAF5.quest_subtitle: "Chapters «Mekanism» and «Steel and Oil»"
+	quest.1A928072C549EAF5.quest_desc: [
+		"Energy (FE) powers Mekanism, Immersive Engineering and AE2 machines. Create Addition alternators turn rotation into power: the bridge between worlds."
+		"&lTip:&r start with solar panels or a biofuel generator: they make no smog."
+	]
+	quest.39B9D7211C3AD114.title: "A Network of Things"
+	quest.39B9D7211C3AD114.quest_subtitle: "Chapters «Storage» and «AE2: Deeper»"
+	quest.39B9D7211C3AD114.quest_desc: [
+		"&lWhy:&r when there are too many chests, AE2 turns them into one digital base with search and autocrafting."
+		"&lHow:&r meteorite → presses → processors → controller. Channels are unlimited in Arkhaven: no wiring headaches."
+	]
+	quest.4693C34C08702F13.title: "The Atom"
+	quest.4693C34C08702F13.quest_subtitle: "Chapter «The Atom»"
+	quest.4693C34C08702F13.quest_desc: [
+		"Reactors power the hungriest machines: the SPS, fusion, mega cells."
+		"&lGentle road:&r Extreme Reactors: no radiation, no pollution. &lRisky road:&r the Mekanism fission reactor: stronger, but a meltdown contaminates the area (only that area)."
+	]
+	quest.5F1BA5A3E0A5735B.title: "Magic"
+	quest.5F1BA5A3E0A5735B.quest_subtitle: "Chapters «Ars Nouveau», «Iron's Spells», «Occultism»"
+	quest.5F1BA5A3E0A5735B.quest_desc: [
+		"Magic runs parallel to tech: flight and teleport spells, automation by familiars and spirits."
+		"It doesn't have to be yours, but a mage on the team makes an engineer's life easier (and vice versa)."
+	]
+	quest.050C8B0EB9425EC7.title: "Hit the Road"
+	quest.050C8B0EB9425EC7.quest_subtitle: "Chapter «Transport»"
+	quest.050C8B0EB9425EC7.quest_desc: [
+		"Ships (Small Ships), trains (Steam 'n' Rails), planes (Immersive Aircraft), airships and FPV drones (Aeronautics): choose how you travel."
+		"Far lands hold ores, dungeons and bosses."
+	]
+	quest.39A56463E8C5A7F8.title: "Arms"
+	quest.39A56463E8C5A7F8.quest_subtitle: "Chapters «Weapons» and «Firearms»"
+	quest.39A56463E8C5A7F8.quest_desc: [
+		"The TaCZ gunsmith table builds firearms from steel and gunpowder. Bandit fortresses and illager camps hold shooters with the same guns, and their loot."
+	]
+	quest.576B9EB277FB4903.title: "The First Boss"
+	quest.576B9EB277FB4903.quest_subtitle: "Chapters «Adventure» and «Bosses»"
+	quest.576B9EB277FB4903.quest_desc: [
+		"The Naga in the Twilight Forest is a fair first boss: slow, loud, it teaches you to dodge."
+		"&lNext:&r the «Bosses» chapter lists them all by difficulty, from the Naga to the Leviathan."
+	]
+	quest.012668B87D0FA2D0.title: "Dungeons"
+	quest.012668B87D0FA2D0.quest_subtitle: "Chapter «Dungeons and Structures»"
+	quest.012668B87D0FA2D0.quest_desc: [
+		"Dungeon chests are personal (Lootr): every player gets their own loot, nobody robs anybody."
+		"Bandit Towers are a good start: shooters, traps, chests with gunpowder and steel."
+	]
+	quest.6767449E51F712DE.title: "Other Worlds"
+	quest.6767449E51F712DE.quest_subtitle: "Chapter «Other Worlds»"
+	quest.6767449E51F712DE.quest_desc: [
+		"The Aether above, the Undergarden below, the Bumblezone, the Otherside past the Warden, the End: every world has its own ores and bosses."
+	]
+	quest.5BDC466474828798.title: "A Town"
+	quest.5BDC466474828798.quest_subtitle: "Chapter «Town»"
+	quest.5BDC466474828798.quest_desc: [
+		"A Minecolonies colony works for you: builders, farmers, miners. It eats your resources and returns them many times over."
+	]
+	quest.1F4F10227DA0EDBC.title: "Great Works"
+	quest.1F4F10227DA0EDBC.quest_subtitle: "Chapter «Great Works»"
+	quest.1F4F10227DA0EDBC.quest_desc: [
+		"You've walked every road. The finale: the server's shared projects: a sky citadel, a fusion plant, a nature reserve, a city."
+		"It isn't a race: great works are built together, over months."
+	]
 	chapter.037CC61EABB1B7C0.title: "Origin & Path"
 	chapter.037CC61EABB1B7C0.chapter_subtitle: [
 		"Your race, your skills and how you grow"
@@ -562,6 +679,93 @@
 		"You have everything for a real tavern. Invite your friends and watch their hearts grow."
 		"Next: the Grand Restaurant in Great Works."
 	]
+	chapter.6B2FA039D6C53884.title: "Brewery and Winery"
+	chapter.6B2FA039D6C53884.chapter_subtitle: [
+		"Beer, wine, rum and vodka: with buffs, in moderation"
+	]
+	quest.5486FB52402473EA.title: "How Drinking Works Here"
+	quest.5486FB52402473EA.quest_subtitle: "Brewin' and Chewin', Vinery, Herbal Brews"
+	quest.5486FB52402473EA.quest_desc: [
+		"&lWhat:&r drinks are brewed in a keg (Brewin' and Chewin'), wine is aged in barrels (Vinery), tea and coffee in a kettle (Herbal Brews, Farmer's Respite)."
+		"&lWhy:&r every drink grants its own buff (see the item tooltip): strength, resistance, speed, warmth in winter."
+		"&lTipsiness:&r strong drinks make you Tipsy: a couple of mugs perk you up, too many sway the camera. Know your limit."
+		"&lTip:&r a keg has a temperature: some drinks ferment warm (fire, heating cask), others cold (ice crate). The recipe in EMI shows which."
+	]
+	quest.7DD48C8425292F88.title: "Tankards"
+	quest.7DD48C8425292F88.quest_subtitle: "No mug, no drink"
+	quest.7DD48C8425292F88.quest_desc: [
+		"Keg drinks are poured into tankards. Keep a stack, for yourself and for tavern guests."
+	]
+	quest.50F75DDCB799AF7E.title: "Steel Toe Stout"
+	quest.50F75DDCB799AF7E.quest_subtitle: "A miner's drink"
+	quest.50F75DDCB799AF7E.quest_desc: [
+		"Dark beer for those who work with their hands. Its buff helps in the mine: check the tooltip for which one."
+	]
+	quest.32CE37C4439EBF06.title: "Strongroot Ale"
+	quest.32CE37C4439EBF06.quest_subtitle: "A warrior's drink"
+	quest.32CE37C4439EBF06.quest_desc: [
+		"Brewed with root vegetables: drink a mug before a boss fight, together with a dish from «Kitchen»."
+	]
+	quest.62B9319C01B84D25.title: "Saccharine Rum"
+	quest.62B9319C01B84D25.quest_subtitle: "A sailor's drink"
+	quest.62B9319C01B84D25.quest_desc: [
+		"Rum from sugar cane: no Small Ships captain sets sail without it."
+	]
+	quest.091CA59FFEDBA284.title: "Vodka"
+	quest.091CA59FFEDBA284.quest_subtitle: "Strong stuff"
+	quest.091CA59FFEDBA284.quest_desc: [
+		"Made from potatoes. Strong: sip it, and check the tooltip for its buff."
+	]
+	quest.6910FEE1E367ED56.title: "Bloody Mary"
+	quest.6910FEE1E367ED56.quest_subtitle: "A cocktail"
+	quest.6910FEE1E367ED56.quest_desc: [
+		"Vodka + tomatoes from «Garden». Your first cocktail, for the tavern bar."
+	]
+	quest.07CB93262CD3754E.title: "Rice Wine"
+	quest.07CB93262CD3754E.quest_subtitle: "From Farmer's Delight rice"
+	quest.07CB93262CD3754E.quest_desc: [
+		"Rice from your paddy goes into the keg. «Garden» meets «Brewery»: no farmer, no wine."
+	]
+	quest.65E7D3DC2B1E7814.title: "Heating Cask"
+	quest.65E7D3DC2B1E7814.quest_subtitle: "Warmth for the keg"
+	quest.65E7D3DC2B1E7814.quest_desc: [
+		"A heat source for the keg: warm-brewed drinks ferment even in winter. For cold ones, use an ice crate."
+	]
+	quest.61EBEE973BA8D5C1.title: "Cheese Wheel"
+	quest.61EBEE973BA8D5C1.quest_subtitle: "It ferments too"
+	quest.61EBEE973BA8D5C1.quest_desc: [
+		"Brewin' and Chewin' cheese matures in the keg like beer. Sliced, it's the best snack for ale."
+	]
+	quest.191DFF76FFDB55DB.title: "Wine Box"
+	quest.191DFF76FFDB55DB.quest_subtitle: "Vinery: ageing"
+	quest.191DFF76FFDB55DB.quest_desc: [
+		"Vinery wine improves with time: the longer a bottle rests, the stronger its effect. The box stores bottles and shows the vintage."
+	]
+	quest.5EEBE11F73184DB4.title: "Apple Cider"
+	quest.5EEBE11F73184DB4.quest_subtitle: "From the Vinery press"
+	quest.5EEBE11F73184DB4.quest_desc: [
+		"Apples into the press, juice into the barrel: cider. Apples grow on Let's Do trees: plant an orchard."
+	]
+	quest.7DECAA9F406D6656.title: "Eiswein"
+	quest.7DECAA9F406D6656.quest_subtitle: "A rare wine"
+	quest.7DECAA9F406D6656.quest_desc: [
+		"Eiswein is a rare, pricey Vinery wine. The recipe and grape variety are in EMI."
+	]
+	quest.6FE0B5D606E2BDD2.title: "Copper Tea Kettle"
+	quest.6FE0B5D606E2BDD2.quest_subtitle: "Herbal Brews"
+	quest.6FE0B5D606E2BDD2.quest_desc: [
+		"The alcohol-free branch: green, oolong, rooibos, mate, hibiscus and lavender tea, each with its own buff. Coffee perks you up and speeds up work."
+	]
+	quest.427DBC1360C65E19.title: "Hot Chocolate"
+	quest.427DBC1360C65E19.quest_subtitle: "Create Confectionery"
+	quest.427DBC1360C65E19.quest_desc: [
+		"Chocolate from a Create mixer, bottled. Restores you without tipsiness. The colony kids will love it."
+	]
+	quest.0E78C4B235C0F0A3.title: "Tavern Keeper"
+	quest.0E78C4B235C0F0A3.quest_subtitle: "The drinks menu is ready"
+	quest.0E78C4B235C0F0A3.quest_desc: [
+		"Beer, wine, spirits, tea and chocolate. Open a tavern (Minecolonies or your own build) so players come to you after an expedition."
+	]
 	chapter.62164B6D488C1BD6.title: "Garden, Seasons, Harvest"
 	chapter.62164B6D488C1BD6.chapter_subtitle: [
 		"From a seed to resources for everyone"
@@ -888,6 +1092,82 @@
 	quest.035FE318376C81BB.quest_desc: [
 		"Friends & Foes: the copper golem presses copper buttons — a little helper for contraptions. Build it from a copper block and a pumpkin."
 	]
+	chapter.0BD79D79E7D32154.title: "Bestiary and Companions"
+	chapter.0BD79D79E7D32154.chapter_subtitle: [
+		"Beasts, pets and villagers: whom to tame, whom to study"
+	]
+	quest.13CF20102D7B78A9.title: "The Naturalist's Net"
+	quest.13CF20102D7B78A9.quest_subtitle: "Naturalist"
+	quest.13CF20102D7B78A9.quest_desc: [
+		"&lWhat:&r hundreds of new creatures live in the world (Naturalist, Alex's Mobs, Friends & Foes, Critters & Companions). Most are peaceful."
+		"&lWhy:&r each is useful: materials, help, a pet. This chapter covers the most useful ones."
+		"&lThe net&r catches butterflies, fireflies and other small things: release them near home."
+	]
+	quest.1C77C072846E22DB.title: "Firefly"
+	quest.1C77C072846E22DB.quest_subtitle: "A living lantern"
+	quest.1C77C072846E22DB.quest_desc: [
+		"Fireflies glow in swamps at night. Catch some and release them in your garden: pretty, and you can see the way home."
+	]
+	quest.55964F7444DDA930.title: "Snail Shell"
+	quest.55964F7444DDA930.quest_subtitle: "A natural material"
+	quest.55964F7444DDA930.quest_desc: [
+		"Snails leave shells: a crafting material (see EMI for what they make)."
+	]
+	quest.3EDAFB99296BD41D.title: "Penguin Feather"
+	quest.3EDAFB99296BD41D.quest_subtitle: "Friends & Foes"
+	quest.3EDAFB99296BD41D.quest_desc: [
+		"Penguins live on icy shores. Their feathers go into arrows and clothing."
+	]
+	quest.5866BB61BDFE6005.title: "Crab Claw"
+	quest.5866BB61BDFE6005.quest_subtitle: "Long arms"
+	quest.5866BB61BDFE6005.quest_desc: [
+		"A potion from a crab claw extends your reach: builders can touch distant blocks."
+	]
+	quest.4F8BAF5FD1792F61.title: "A Copper Friend"
+	quest.4F8BAF5FD1792F61.quest_subtitle: "Friends & Foes"
+	quest.4F8BAF5FD1792F61.quest_desc: [
+		"The copper golem is built from a copper block and a lightning rod. It presses copper buttons and oxidises over time: a waxed lightning rod suits its little house."
+	]
+	quest.033B1D9A70472766.title: "Totem of Illusion"
+	quest.033B1D9A70472766.quest_subtitle: "From the illusioner"
+	quest.033B1D9A70472766.quest_desc: [
+		"The illusioner drops a totem that spawns copies of you when hit: enemies get confused. Good against illager gunners."
+	]
+	quest.2402F75EF7C35548.title: "Wildfire Crown"
+	quest.2402F75EF7C35548.quest_subtitle: "A Nether mini-boss"
+	quest.2402F75EF7C35548.quest_desc: [
+		"The Wildfire is the blaze queen of bastions. Her crown protects against fire: useful in the Foundry and against Ignis."
+	]
+	quest.329BCF45C9315052.title: "Koi"
+	quest.329BCF45C9315052.quest_subtitle: "Critters & Companions"
+	quest.329BCF45C9315052.quest_desc: [
+		"A decorative fish for a garden pond. Koi near your bed bring luck, they say (and nice screenshots)."
+	]
+	quest.32002160EE532F37.title: "Dragonfly Wing"
+	quest.32002160EE532F37.quest_subtitle: "An ingredient"
+	quest.32002160EE532F37.quest_desc: [
+		"Dragonflies live near water. Their wings go into tonics and armour for pet dragonflies."
+	]
+	quest.3B2210219FF0E30D.title: "Silk"
+	quest.3B2210219FF0E30D.quest_subtitle: "From cocoons"
+	quest.3B2210219FF0E30D.quest_desc: [
+		"Silkworms spin cocoons; they become silk for a silk lead (it doesn't snap) and fabrics."
+	]
+	quest.339ADBA3BE321FC3.title: "Family Tree"
+	quest.339ADBA3BE321FC3.quest_subtitle: "Minecraft Comes Alive"
+	quest.339ADBA3BE321FC3.quest_desc: [
+		"MCA villagers are alive: names, personalities, families. The tree shows who's related, including your own children if you married in the village."
+	]
+	quest.54CA79F1B0C4FC67.title: "Engagement"
+	quest.54CA79F1B0C4FC67.quest_subtitle: "Not just for villagers"
+	quest.54CA79F1B0C4FC67.quest_desc: [
+		"Give a ring to a villager who likes you, or to another player. A wedding in the tavern is a reason to gather the server."
+	]
+	quest.6AC6020BC3187145.title: "Naturalist"
+	quest.6AC6020BC3187145.quest_subtitle: "A living world"
+	quest.6AC6020BC3187145.quest_desc: [
+		"You know who lives around you and what they're good for. Suggest a nature reserve: it's one of the Great Works."
+	]
 	chapter.57DD3485DB076FB1.title: "Fishing"
 	chapter.57DD3485DB076FB1.chapter_subtitle: [
 		"A hundred fish, quiet water and the star carp"
@@ -1189,6 +1469,98 @@
 	quest.2B6BA5EF7AFE7EFB.quest_desc: [
 		"Create: Power Loader keeps a chunk loaded while its loader gets rotation — the factory runs when you're away."
 	]
+	chapter.771C1FF49C38AFE7.title: "Create: Add-ons"
+	chapter.771C1FF49C38AFE7.chapter_subtitle: [
+		"Batteries, power, experience enchanting, smart gearing"
+	]
+	quest.7D38C871CC211EF9.title: "Create Is a Platform"
+	quest.7D38C871CC211EF9.quest_subtitle: "Add-ons extend the base"
+	quest.7D38C871CC211EF9.quest_desc: [
+		"These mods add what Create lacks: &lstored rotation&r, &lelectricity&r, &lexperience as a fluid&r, handy gearing and disguise blocks."
+		"Every quest here explains which problem a part solves."
+	]
+	quest.5F3C221590C6A560.title: "Smart Gearboxes"
+	quest.5F3C221590C6A560.quest_subtitle: "Create Connected"
+	quest.5F3C221590C6A560.quest_desc: [
+		"The six-way and parallel gearboxes send rotation where a plain gearbox can't. Fewer shafts, tidier factory."
+	]
+	quest.30C19E71E43D8B9A.title: "Kinetic Battery"
+	quest.30C19E71E43D8B9A.quest_subtitle: "Stored rotation"
+	quest.30C19E71E43D8B9A.quest_desc: [
+		"&lProblem:&r your wheel turns all night while windmills stall in calm weather. &lSolution:&r the battery stores rotation when there's plenty and gives it back when there's little."
+	]
+	quest.7DE779C4EADEE227.title: "Overload Protection"
+	quest.7DE779C4EADEE227.quest_subtitle: "Shear pin and clutch"
+	quest.7DE779C4EADEE227.quest_desc: [
+		"When the network is overstressed, the shear pin breaks and keeps the other machines running. The overstress clutch disconnects a branch and reconnects it on its own."
+	]
+	quest.5B9945A1D0B3302F.title: "Item Silo"
+	quest.5B9945A1D0B3302F.quest_subtitle: "Multiblock storage"
+	quest.5B9945A1D0B3302F.quest_desc: [
+		"Silo blocks merge into one big container, like a Create vault but for bulk crops and ore."
+	]
+	quest.389037C19D27671B.title: "Fan Catalysts"
+	quest.389037C19D27671B.quest_subtitle: "New processing types"
+	quest.389037C19D27671B.quest_desc: [
+		"A plain fan washes, smelts and smokes. Catalysts add sanding, freezing, withering and more: less manual work."
+	]
+	quest.3B2387F2822A0C64.title: "Alternator"
+	quest.3B2387F2822A0C64.quest_subtitle: "Create Addition"
+	quest.3B2387F2822A0C64.quest_desc: [
+		"&lThe bridge between worlds:&r the alternator turns Create rotation into FE for Mekanism, AE2 and IE. The electric motor does the reverse."
+		"Your water wheels now power Mekanism machines too."
+	]
+	quest.2B5EED31BF242AD9.title: "Overhead Wires"
+	quest.2B5EED31BF242AD9.quest_subtitle: "Power over distance"
+	quest.2B5EED31BF242AD9.quest_desc: [
+		"A copper wire spool and connectors: a power line from your plant to a neighbour. Pretty and cheap."
+	]
+	quest.350DF99E7C5AC08F.title: "Modular Accumulator"
+	quest.350DF99E7C5AC08F.quest_subtitle: "An energy store"
+	quest.350DF99E7C5AC08F.quest_desc: [
+		"Place blocks side by side and the capacity grows. Stores power overnight for solar panels."
+	]
+	quest.370722D32BE17EBE.title: "Tesla Coil"
+	quest.370722D32BE17EBE.quest_subtitle: "Item charging"
+	quest.370722D32BE17EBE.quest_desc: [
+		"Charges energy items on a belt, and zaps mobs if you put it in their path."
+	]
+	quest.3A0D66D736400BB4.title: "Experience in Buckets"
+	quest.3A0D66D736400BB4.quest_subtitle: "Create Enchantment Industry"
+	quest.3A0D66D736400BB4.quest_desc: [
+		"&lWhat:&r experience becomes a fluid you pump through pipes and store in tanks."
+		"&lWhy:&r send experience from a mob farm straight into the enchanter, no standing at the spawner."
+	]
+	quest.7371DE8B2A53A740.title: "Blaze Enchanter"
+	quest.7371DE8B2A53A740.quest_subtitle: "Enchanting on a belt"
+	quest.7371DE8B2A53A740.quest_desc: [
+		"A blaze with an enchanting template applies the chosen enchantment to everything on the belt. No more enchanting-table lottery."
+	]
+	quest.2F54F645102E13EE.title: "Printer"
+	quest.2F54F645102E13EE.quest_subtitle: "Book copies"
+	quest.2F54F645102E13EE.quest_desc: [
+		"Prints copies of books: enchanted, written, even guides. Handy for the colony library."
+	]
+	quest.2C8B1662D32860D4.title: "Dragon's Breath"
+	quest.2C8B1662D32860D4.quest_subtitle: "Create: Dragons Plus"
+	quest.2C8B1662D32860D4.quest_desc: [
+		"Dragon's breath in a bucket: a fluid for fans, whose «ending» process turns items into their End variants."
+	]
+	quest.7AF22375ED6E4E3A.title: "Disguise"
+	quest.7AF22375ED6E4E3A.quest_subtitle: "Copycats+"
+	quest.7AF22375ED6E4E3A.quest_desc: [
+		"Copycat blocks take the look of any block: slopes, steps, beams. Hide your factory behind a pretty facade."
+	]
+	quest.20B5B4A0BD67576A.title: "Jetpack"
+	quest.20B5B4A0BD67576A.quest_subtitle: "Create Jetpack"
+	quest.20B5B4A0BD67576A.quest_desc: [
+		"The jetpack flies on compressed air from a Create backtank. Refill at a compressor at base. Indispensable on building sites."
+	]
+	quest.08B90679F2712DC1.title: "Master Mechanic"
+	quest.08B90679F2712DC1.quest_subtitle: "Create to the full"
+	quest.08B90679F2712DC1.quest_desc: [
+		"Rotation is stored, turned into power, enchants books and hides behind pretty walls. Show the factory to your neighbours so they can learn."
+	]
 	chapter.75D3C2A26C328D05.title: "Sky & Roads"
 	chapter.75D3C2A26C328D05.chapter_subtitle: [
 		"Cars, planes, airships, citadels"
@@ -1302,6 +1674,92 @@
 	quest.0AD4DFA0CA5501B3.title: "The Warship"
 	quest.0AD4DFA0CA5501B3.quest_desc: [
 		"Create Big Cannons on an airship, plated with dragon armour. Tick when the ship fires its first broadside."
+	]
+	chapter.250C907E46C379E8.title: "Transport"
+	chapter.250C907E46C379E8.chapter_subtitle: [
+		"Ships, trains, teleports: conquering distance"
+	]
+	quest.6984D699D2660B8F.title: "How to Travel"
+	quest.6984D699D2660B8F.quest_subtitle: "Choose your way"
+	quest.6984D699D2660B8F.quest_desc: [
+		"&lSea&r: Small Ships ships carry cargo and fire cannons."
+		"&lRails&r: Create trains + Steam 'n' Rails: automatic logistics between bases."
+		"&lSky&r: planes and airships («Sky» chapter), FPV drones («Firearms and War» chapter)."
+		"&lInstant&r: waystones and warp scrolls, but you must find and activate them first."
+	]
+	quest.4DC0F06F77F4E8D0.title: "Sails"
+	quest.4DC0F06F77F4E8D0.quest_subtitle: "Small Ships"
+	quest.4DC0F06F77F4E8D0.quest_desc: [
+		"Every Small Ships ship needs sails (recipe in EMI): the bigger the ship, the more sails."
+		"&lControls:&r W/S raise/lower the sails, A/D steer. The wind is real: sailing into it is slower."
+	]
+	quest.5088E3C71CA9EAB9.title: "The Cog"
+	quest.5088E3C71CA9EAB9.quest_subtitle: "Your first ship"
+	quest.5088E3C71CA9EAB9.quest_desc: [
+		"A cog is a small cargo ship for a couple of people and some cargo. Faster than a boat, holds the waves."
+		"&lWhy:&r islands, far coasts and ocean dungeons are now within reach."
+	]
+	quest.4A924D0C915569ED.title: "The Brig"
+	quest.4A924D0C915569ED.quest_subtitle: "Fast and armed"
+	quest.4A924D0C915569ED.quest_desc: [
+		"A brig is a medium ship: room for broadside cannons and a cargo hold. Good for hunting illager galleys."
+	]
+	quest.3B06282EB819370D.title: "The Galleon"
+	quest.3B06282EB819370D.quest_subtitle: "Flagship"
+	quest.3B06282EB819370D.quest_desc: [
+		"The biggest sailing ship: many cannons, a huge hold, room for the whole crew. A floating base for expeditions to the Sunken City and the ship graveyard."
+	]
+	quest.1F8568D64C4D85D9.title: "The Drakkar"
+	quest.1F8568D64C4D85D9.quest_subtitle: "Oars instead of wind"
+	quest.1F8568D64C4D85D9.quest_desc: [
+		"A drakkar rows: it doesn't need wind. Great for rivers and narrow straits."
+	]
+	quest.36AF2E60F7B656EB.title: "Sail or Motor?"
+	quest.36AF2E60F7B656EB.quest_subtitle: "Small Ships vs Immersive Petroleum"
+	quest.36AF2E60F7B656EB.quest_desc: [
+		"The IP speedboat is fast but drinks gasoline and carries no cargo. A ship is slower but free, and has cannons. A good base keeps both."
+	]
+	quest.17DADFF13634DB04.title: "Handcar"
+	quest.17DADFF13634DB04.quest_subtitle: "Steam 'n' Rails"
+	quest.17DADFF13634DB04.quest_desc: [
+		"The handcar is the smallest «train» on Create tracks: for short trips to the mine or a neighbour."
+	]
+	quest.7CFEDCB56F3C85D9.title: "Steam Locomotive"
+	quest.7CFEDCB56F3C85D9.quest_subtitle: "Pretty trains"
+	quest.7CFEDCB56F3C85D9.quest_desc: [
+		"Steam 'n' Rails adds smokestacks, boilers and locometal: the train looks like a real steam engine. Traction comes from Create rotation."
+	]
+	quest.6D7CC78BAD7C139E.title: "Couplers and Semaphores"
+	quest.6D7CC78BAD7C139E.quest_subtitle: "A railway network"
+	quest.6D7CC78BAD7C139E.quest_desc: [
+		"The coupler joins and splits trains on the move; semaphores show signals. That's how a network grows: freight trains between players' bases."
+		"&lRoles meet:&r the railway is a shared project: the farmer ships food, the miner ore, the engineer machines."
+	]
+	quest.631B95D917C4FF14.title: "Monorail"
+	quest.631B95D917C4FF14.quest_subtitle: "Above the town"
+	quest.631B95D917C4FF14.quest_desc: [
+		"A monorail runs through the air above the roofs: a metro for your Minecolonies colony."
+	]
+	quest.466444CD9C2D77D4.title: "Warp Scroll"
+	quest.466444CD9C2D77D4.quest_subtitle: "Waystones"
+	quest.466444CD9C2D77D4.quest_desc: [
+		"A single-use scroll takes you to any activated waystone."
+		"&lWhy:&r get back from an expedition without dropping your loot. &lWhy not always:&r scrolls cost resources, and the road is part of the adventure."
+	]
+	quest.59FE438CCB6B63CB.title: "Warp Stone"
+	quest.59FE438CCB6B63CB.quest_subtitle: "Reusable"
+	quest.59FE438CCB6B63CB.quest_desc: [
+		"The warp stone is a reusable pocket portal with a cooldown. Your own waystone at home + the stone = freedom to explore."
+	]
+	quest.79CAC370B6DC53A9.title: "Quadrocopter"
+	quest.79CAC370B6DC53A9.quest_subtitle: "Immersive Aircraft"
+	quest.79CAC370B6DC53A9.quest_desc: [
+		"Slow, but it hovers: perfect for building tall towers and surveying land."
+	]
+	quest.69A1D02B4D7A4EFC.title: "Transport Empire"
+	quest.69A1D02B4D7A4EFC.quest_subtitle: "Sea, rails, sky"
+	quest.69A1D02B4D7A4EFC.quest_desc: [
+		"You've tied the world together. Suggest a shared station at spawn so every line meets in one place."
 	]
 	chapter.78D5E7433029BED0.title: "Mekanism & the Atom"
 	chapter.78D5E7433029BED0.chapter_subtitle: [
@@ -1463,6 +1921,91 @@
 	quest.31249669C0F62F41.quest_desc: [
 		"Superheated sodium from the reactor boils water in the boiler — steam goes to the turbine. A classic nuclear plant."
 	]
+	quest.098450DFBC4F0224.title: "The Paxel"
+	quest.098450DFBC4F0224.quest_subtitle: "Mekanism Tools"
+	quest.098450DFBC4F0224.quest_desc: [
+		"A pickaxe, axe and shovel in one tool: less swapping in the mine. A steel paxel outlasts iron and nearly matches diamond."
+	]
+	quest.3000FF6EC8D61578.title: "Osmium Armour"
+	quest.3000FF6EC8D61578.quest_subtitle: "Heavy and tough"
+	quest.3000FF6EC8D61578.quest_desc: [
+		"Osmium is a heavy metal: its armour takes hits better than iron. An alternative for those short on diamonds."
+	]
+	quest.5E40C59EA1D4B28B.title: "Refined Obsidian"
+	quest.5E40C59EA1D4B28B.quest_subtitle: "Mekanism Tools' best armour"
+	quest.5E40C59EA1D4B28B.quest_desc: [
+		"Refined obsidian is made in Mekanism from obsidian and diamond dust. Its armour is netherite-tier without a trip for ancient debris."
+	]
+	quest.328AF20751E40D18.title: "Refined Glowstone"
+	quest.328AF20751E40D18.quest_subtitle: "Fast tools"
+	quest.328AF20751E40D18.quest_desc: [
+		"Refined glowstone tools are the fastest in Mekanism Tools."
+	]
+	chapter.1D269465AE61C05E.title: "The Atom"
+	chapter.1D269465AE61C05E.chapter_subtitle: [
+		"Extreme Reactors and Mekanism fission: lots of power, little harm"
+	]
+	quest.385179001FCC35DD.title: "Yellorite"
+	quest.385179001FCC35DD.quest_subtitle: "Extreme Reactors"
+	quest.385179001FCC35DD.quest_desc: [
+		"&lWhat:&r Extreme Reactors (formerly Big Reactors): multiblock reactors and turbines you build at any size."
+		"&lWhy:&r one medium reactor powers a whole base. &lNo radiation, no pollution&r: a peaceful atom for home."
+		"&lHow to start:&r yellorite ore lies deep underground. Smelt it into yellorium ingots: the fuel."
+	]
+	quest.00B5A7E9699DCF0C.title: "Graphite"
+	quest.00B5A7E9699DCF0C.quest_subtitle: "Moderator and casing"
+	quest.00B5A7E9699DCF0C.quest_desc: [
+		"Graphite is smelted from coal or charcoal. It makes the reactor casing and fuel rods."
+		"&lTip:&r put a Create fan-smelting line on a belt: coal turns into graphite by itself."
+	]
+	quest.42035AA943CCC666.title: "Reactor Casing"
+	quest.42035AA943CCC666.quest_subtitle: "At least 3×3×3"
+	quest.42035AA943CCC666.quest_desc: [
+		"The smallest reactor is a 3×3×3 cube: casing edges, casing or glass faces, a fuel rod inside."
+		"You need 26 casing blocks (fewer if some faces are glass)."
+	]
+	quest.6016A6F923D9EEAD.title: "Rods"
+	quest.6016A6F923D9EEAD.quest_subtitle: "Fuel and control"
+	quest.6016A6F923D9EEAD.quest_desc: [
+		"A &lfuel rod&r is a column from floor to ceiling. On top sits a &lcontrol rod&r: it sets the power (0–100 %)."
+		"More rods in a checkerboard pattern give more energy per unit of fuel."
+	]
+	quest.1773A8F8F5018FEC.title: "The First Reactor"
+	quest.1773A8F8F5018FEC.quest_subtitle: "Controller + power tap"
+	quest.1773A8F8F5018FEC.quest_desc: [
+		"Controller on a face, a power tap to your cables. Load yellorium into an access port, switch the controller on."
+		"&lSafe:&r overheating only lowers output. No explosions, no radiation."
+		"&lWaste&r is cyanite: reprocess it back into fuel (the reprocessor)."
+	]
+	quest.03A29457CE8D2345.title: "The Turbine"
+	quest.03A29457CE8D2345.quest_subtitle: "Steam → energy, several times more"
+	quest.03A29457CE8D2345.quest_desc: [
+		"Switch the reactor to water cooling (a fluid port): it starts producing &lsteam&r. Steam into a turbine gives 3–5 times more energy."
+		"Rotor blades are made of steel: your steel mill pays off here."
+	]
+	quest.0AECD052E87EA63D.title: "The Reprocessor"
+	quest.0AECD052E87EA63D.quest_subtitle: "Cyanite back into fuel"
+	quest.0AECD052E87EA63D.quest_desc: [
+		"The reprocessor turns cyanite (waste) and water into blutonium: a stronger fuel than yellorium. A closed loop with no garbage."
+	]
+	quest.0C2DA46EC2979143.title: "Reinforced Reactor"
+	quest.0C2DA46EC2979143.quest_subtitle: "Big sizes"
+	quest.0C2DA46EC2979143.quest_desc: [
+		"Reinforced blocks allow reactors up to 32×32×48. That's a power plant for the whole server: agree with neighbours on who maintains it."
+	]
+	quest.7352B03F0E567940.title: "Two Roads to the Atom"
+	quest.7352B03F0E567940.quest_subtitle: "Extreme Reactors vs Mekanism"
+	quest.7352B03F0E567940.quest_desc: [
+		"&lExtreme Reactors&r is safe: it never explodes, and waste is reprocessed."
+		"&lThe Mekanism fission reactor&r is stronger and yields plutonium and polonium for the SPS and fusion, but if it overheats it &lexplodes and contaminates the area&r (radiation stays at the accident site; the rest of the world is untouched). Wear a hazmat suit and use sensors."
+		"Your choice: the server never forces you to take risks."
+	]
+	quest.0679515BD8C61681.title: "A Star in a Box"
+	quest.0679515BD8C61681.quest_subtitle: "Fusion"
+	quest.0679515BD8C61681.quest_desc: [
+		"The Mekanism fusion reactor is the peak of power: deuterium + tritium, ignited by laser. Safe, but it needs everything you've built before."
+		"&lGreat work:&r «Fusion Plant» in the Great Works chapter."
+	]
 	chapter.3609E2F89D752FA6.title: "Steel & Oil"
 	chapter.3609E2F89D752FA6.chapter_subtitle: [
 		"Immersive Engineering, Petroleum, TFMG — and the air we breathe"
@@ -1594,6 +2137,42 @@
 	quest.64C0EDFF9ABD667E.quest_desc: [
 		"Lithium ore — for TFMG batteries and electric motors."
 	]
+	quest.0A4D3CC8580A871B.title: "TFMG Coke Oven"
+	quest.0A4D3CC8580A871B.quest_subtitle: "Create: The Factory Must Grow"
+	quest.0A4D3CC8580A871B.quest_desc: [
+		"&lWhat:&r TFMG is heavy industry on Create: coke, steel, oil, plastic, electrics."
+		"&lWhy coke:&r no coke, no TFMG steel. The coke oven is a multiblock; vent the smoke outside (watch the smog, «Elements» chapter)."
+	]
+	quest.3159A577DDBB09A3.title: "Bauxite"
+	quest.3159A577DDBB09A3.quest_subtitle: "The road to aluminium"
+	quest.3159A577DDBB09A3.quest_desc: [
+		"Bauxite is aluminium ore. Aluminium pipes and cogs are lighter and carry more than copper and andesite."
+	]
+	quest.587BA5DC216ED50E.title: "Reinforced Concrete"
+	quest.587BA5DC216ED50E.quest_subtitle: "For real factories"
+	quest.587BA5DC216ED50E.quest_desc: [
+		"Concrete with rebar withstands blasts better than stone. A foundation for a reactor or a powder store."
+	]
+	quest.594F228266507B1D.title: "Circuit Board"
+	quest.594F228266507B1D.quest_subtitle: "TFMG electronics"
+	quest.594F228266507B1D.quest_desc: [
+		"Plastic + copper → a board. Boards make electric motors, transistors, traffic lights: the TFMG electric branch."
+	]
+	quest.34A6CC13D56A641D.title: "TFMG Electric Motor"
+	quest.34A6CC13D56A641D.quest_subtitle: "Power → rotation"
+	quest.34A6CC13D56A641D.quest_desc: [
+		"The motor turns Create shafts from electricity: run your factory off a reactor instead of windmills."
+	]
+	quest.6D88123A2F5C4016.title: "Pumpjack"
+	quest.6D88123A2F5C4016.quest_subtitle: "TFMG oil"
+	quest.6D88123A2F5C4016.quest_desc: [
+		"The TFMG pumpjack draws oil from deposits underground: the same resource as Immersive Petroleum, but on Create mechanics."
+	]
+	quest.2914A07238F4FC3A.title: "Industrialisation"
+	quest.2914A07238F4FC3A.quest_subtitle: "The factory must grow"
+	quest.2914A07238F4FC3A.quest_desc: [
+		"Coke, steel, aluminium, concrete, plastic and electronics. Mind the smog: filters and trees around the plant keep the sky clear."
+	]
 	chapter.1CB608F08E9C4FA8.title: "Storage"
 	chapter.1CB608F08E9C4FA8.chapter_subtitle: [
 		"AE2: from a chest to autocrafting"
@@ -1690,6 +2269,57 @@
 	quest.1D7B9B84D2EEFDDE.title: "The Extended Provider"
 	quest.1D7B9B84D2EEFDDE.quest_desc: [
 		"ExtendedAE: a provider with 36 patterns. For huge factories."
+	]
+	quest.4441866ED74046FB.title: "Universal Terminal"
+	quest.4441866ED74046FB.quest_subtitle: "AE2 Wireless Terminals"
+	quest.4441866ED74046FB.quest_desc: [
+		"&lWhy:&r one terminal instead of three wireless ones (items, crafting, patterns). Switch with the mouse wheel."
+		"&lHow:&r craft the universal terminal and combine the others into it at a crafting table."
+	]
+	quest.143D342AC339D4C8.title: "Magnet Card"
+	quest.143D342AC339D4C8.quest_subtitle: "Loot straight into the network"
+	quest.143D342AC339D4C8.quest_desc: [
+		"The card in your terminal pulls nearby items in and can send them straight into the ME network. Miners never walk home to unload again."
+	]
+	quest.2834497140F06F0A.title: "Quantum Bridge Card"
+	quest.2834497140F06F0A.quest_subtitle: "A terminal without limits"
+	quest.2834497140F06F0A.quest_desc: [
+		"Links the terminal to your network through a quantum bridge: access your base from anywhere, even other dimensions."
+	]
+	quest.7957233924B56D96.title: "Extended Drive"
+	quest.7957233924B56D96.quest_subtitle: "ExtendedAE"
+	quest.7957233924B56D96.quest_desc: [
+		"Holds twice as many cells as a normal ME drive. Fewer blocks, a more compact server room."
+	]
+	quest.69B1C9286584E909.title: "Assembler Matrix"
+	quest.69B1C9286584E909.quest_subtitle: "Hundreds of crafts at once"
+	quest.69B1C9286584E909.quest_desc: [
+		"A multiblock matrix replaces a wall of molecular assemblers. Autocrafting thousands of items stops lagging."
+	]
+	quest.75C66A8AEA94F189.title: "Infinite Water"
+	quest.75C66A8AEA94F189.quest_subtitle: "A source cell"
+	quest.75C66A8AEA94F189.quest_desc: [
+		"A cell whose water never runs out. For autocrafting that needs water: concrete, clay, farms."
+	]
+	quest.3DFC5F9E59155713.title: "MEGA Crafting CPU"
+	quest.3DFC5F9E59155713.quest_subtitle: "MEGA Cells"
+	quest.3DFC5F9E59155713.quest_desc: [
+		"1M–256M crafting storage and mega accelerators: a crafting CPU that handles a whole reactor in one order."
+	]
+	quest.38B7049903894594.title: "Bulk Cell"
+	quest.38B7049903894594.quest_subtitle: "One item, no limit"
+	quest.38B7049903894594.quest_desc: [
+		"Stores &lone&r item type in nearly unlimited amounts. Perfect for cobblestone, dirt and farm ore."
+	]
+	quest.20FE08C0C7302ACA.title: "Chemicals in the Network"
+	quest.20FE08C0C7302ACA.quest_subtitle: "Applied Mekanistics"
+	quest.20FE08C0C7302ACA.quest_desc: [
+		"Mekanism gases and chemicals (hydrogen, oxygen, chlorine) are stored in AE2 like items. No more mazes of tanks and pipes."
+	]
+	quest.4EDD0BB5CDE3E9DF.title: "Data Architect"
+	quest.4EDD0BB5CDE3E9DF.quest_subtitle: "The whole base in one terminal"
+	quest.4EDD0BB5CDE3E9DF.quest_desc: [
+		"Your network knows everything, crafts everything and reaches everywhere. Connect neighbours through a shared interface so the server trades through your network."
 	]
 	chapter.40872413A59558AE.title: "Ars Nouveau"
 	chapter.40872413A59558AE.chapter_subtitle: [
@@ -2269,6 +2899,351 @@
 	quest.1079865D0DAE982A.quest_desc: [
 		"Honey crystals grow in the Bumblezone — for decor and potions."
 	]
+	chapter.6C18F64911A2B1CF.title: "Bosses"
+	chapter.6C18F64911A2B1CF.chapter_subtitle: [
+		"Every boss in the pack by difficulty: where, how, and what they drop"
+	]
+	quest.4410202D5D65CC82.title: "How to Go Boss Hunting"
+	quest.4410202D5D65CC82.quest_subtitle: "Preparation wins"
+	quest.4410202D5D65CC82.quest_desc: [
+		"&lFood:&r buff dishes from «Kitchen» (+health, +regeneration) matter more than armour."
+		"&lPotions:&r Arkhaven alchemy: Fire Skin, Sea Wolf, Star Sight."
+		"&lTeam:&r most bosses are tuned for 2–4 players; voice chat: hold Caps Lock."
+		"&lDeath isn't scary:&r your items stay in a grave (Gravestone), shown on the map."
+		"The first bosses (Naga, Lich, Hydra…) are in «Adventure»; here are the rest, from easy to terrifying."
+	]
+	quest.1F2BDC9B56A66070.title: "Elder Guardian"
+	quest.1F2BDC9B56A66070.quest_subtitle: "Ocean monument (YUNG's)"
+	quest.1F2BDC9B56A66070.quest_desc: [
+		"&lWhere:&r the ocean monument, now large and mazy (YUNG's Better Ocean Monuments)."
+		"&lHow:&r water breathing + Sea Wolf potion, an Efficiency pickaxe against Mining Fatigue."
+		"&lDrops:&r sponges and the way to the gold vault."
+	]
+	quest.7FDA77FBFA63A374.title: "Sea Cliff Naga"
+	quest.7FDA77FBFA63A374.quest_subtitle: "Mowzie's Mobs"
+	quest.7FDA77FBFA63A374.quest_desc: [
+		"&lWhere:&r sea cliffs on coasts: a flying serpent that spits acid."
+		"&lHow:&r a bow or a gun: you can't reach it in melee. When it lands after a volley, strike."
+		"&lDrops:&r a naga fang: a dagger that hits twice as hard from behind."
+	]
+	quest.6D48B66E9EDD2995.title: "The Harbinger"
+	quest.6D48B66E9EDD2995.quest_subtitle: "L_Ender's Cataclysm"
+	quest.6D48B66E9EDD2995.quest_desc: [
+		"&lWhere:&r the Ancient Factory deep underground. A mechanical challenge with a mechanical answer."
+		"&lHow:&r keep distance and hide behind pillars from missiles; enchanted arrows and the Create potato cannon work well."
+		"&lDrops:&r a shoulder launcher that fires wither missiles."
+	]
+	quest.1FE4D8FDD4016F78.title: "Ancient Remnant"
+	quest.1FE4D8FDD4016F78.quest_subtitle: "Cursed Pyramid"
+	quest.1FE4D8FDD4016F78.quest_desc: [
+		"&lWhere:&r the Cursed Pyramid in the desert, past poison dart traps and cave-ins."
+		"&lHow:&r jump over sand shockwaves; a shield against the summoned rhino charge."
+		"&lDrops:&r the desert necklace and Wrath of the Desert: a sandstorm in a bottle."
+	]
+	quest.5EB85EE4DB2B3D9C.title: "Maledictus"
+	quest.5EB85EE4DB2B3D9C.quest_subtitle: "Frosted Prison"
+	quest.5EB85EE4DB2B3D9C.quest_desc: [
+		"&lWhere:&r the Frosted Prison in snowy mountains."
+		"&lHow:&r fire weapons and Fire Skin; he teleports behind you: listen for the sound."
+		"&lDrops:&r the cursed bow and materials for cursium armour."
+	]
+	quest.3EB7C64998CAB5DA.title: "Scylla"
+	quest.3EB7C64998CAB5DA.quest_subtitle: "The Acropolis in a storm"
+	quest.3EB7C64998CAB5DA.quest_desc: [
+		"&lWhere:&r the Acropolis, an island in the ocean. The fight happens in a thunderstorm: lightning hits the water."
+		"&lHow:&r stay out of the water during the storm and keep away from her trident."
+		"&lDrops:&r Ceraunus: a lightning harpoon."
+	]
+	quest.2255F1DB63D8BF05.title: "Forgotten Guardian"
+	quest.2255F1DB63D8BF05.quest_subtitle: "The Undergarden"
+	quest.2255F1DB63D8BF05.quest_desc: [
+		"&lWhere:&r the Undergarden catacombs: a faceless stone giant."
+		"&lHow:&r only heavy weapons crack its armour; step back when it raises its arm."
+		"&lDrops:&r forgotten ingots, the best metal of the Undergarden."
+	]
+	quest.398E5ED307D56633.title: "The Warden"
+	quest.398E5ED307D56633.quest_subtitle: "The Ancient City"
+	quest.398E5ED307D56633.quest_desc: [
+		"&lYou can skip the fight:&r the Warden is blind and hunts by sound. Wool on the floor, sneaking, and it won't hear you."
+		"&lIf you do fight:&r 500 health, armour-piercing hits and a sonic boom through walls. Team only, with strength potions."
+		"&lDrops:&r the Warden carapace: Deeper Darker armour that muffles your steps."
+	]
+	quest.722992FA95424743.title: "The Stalker"
+	quest.722992FA95424743.quest_subtitle: "The Otherside"
+	quest.722992FA95424743.quest_desc: [
+		"&lWhere:&r the Ancient Temple on the Otherside (Deeper Darker): a Warden's relative that can see."
+		"&lHow:&r light and noise are useless against it, only force. Resonarium weapons cut through sculk."
+		"&lDrops:&r the way to soul elytra: wings that take off by themselves."
+	]
+	quest.5674AA37716E1DFD.title: "Lord of Flame"
+	quest.5674AA37716E1DFD.quest_subtitle: "Iron's Spells"
+	quest.5674AA37716E1DFD.quest_desc: [
+		"&lWhere:&r the pyromancer tower (Iron's Spells): watch your map."
+		"&lHow:&r ice and water spells, Fire Skin and a shield against fireballs."
+		"&lDrops:&r high-tier fire school spellbooks."
+	]
+	quest.41A4DAE8E0472BDE.title: "Wilden Chimera"
+	quest.41A4DAE8E0472BDE.quest_subtitle: "Ars Nouveau"
+	quest.41A4DAE8E0472BDE.quest_desc: [
+		"&lWhere:&r summoned by the Wilden Summon ritual: the fight is in your back yard, if you like."
+		"&lHow:&r Harm + Amplify spells, step aside from the charge; the chimera has three phases."
+		"&lDrops:&r the Wilden Tribute, key to archmage relics."
+	]
+	quest.0469A33BAB569676.title: "The Headless Lord"
+	quest.0469A33BAB569676.quest_subtitle: "Born in Chaos"
+	quest.0469A33BAB569676.quest_desc: [
+		"&lWhere:&r a rare night rider of the wilds: zone rules keep him away from spawn and bases."
+		"&lHow:&r light and holy weapons; his steed is stronger than the rider: take the horse first."
+		"&lDrops:&r Soulbane, a life-stealing sword."
+	]
+	quest.176452C5B53F2D70.title: "The Maw of the Ice Sea"
+	quest.176452C5B53F2D70.quest_subtitle: "Aquamirae"
+	quest.176452C5B53F2D70.quest_desc: [
+		"&lWhere:&r the icy seas of Aquamirae, where the ghost ships sail."
+		"&lHow:&r from a Small Ships ship, with cannons; better not jump into the water with it."
+		"&lDrops:&r abyssal amethyst for abyssal armour."
+	]
+	quest.221D262C7B1A153F.title: "Monster Hunter"
+	quest.221D262C7B1A153F.quest_subtitle: "Eight great victories"
+	quest.221D262C7B1A153F.quest_desc: [
+		"You've beaten the ones they tell stories about in taverns. Hang a trophy (Handcrafted) in your hall so newcomers know whom to ask for advice."
+		"&lRematch:&r the Boss Respawner (Cataclysm) brings a beaten boss back to its lair."
+	]
+	chapter.67DBF023F7901684.title: "Dungeons and Structures"
+	chapter.67DBF023F7901684.chapter_subtitle: [
+		"Find it, enter it, survive: personal loot in every chest"
+	]
+	quest.124FA016AD13E65C.title: "How to Find Dungeons"
+	quest.124FA016AD13E65C.quest_subtitle: "Maps, Lootr and zones"
+	quest.124FA016AD13E65C.quest_desc: [
+		"&lWhy:&r dungeons hold the best gear without grinding: spellbooks, gunpowder, steel, rare seeds."
+		"&lHow to find them:&r cartographers sell maps, Xaero marks what you've found, and wandering is more fun than a compass."
+		"&lLootr:&r a chest looks shared, but each player gets their own loot. Came second? You still find yours."
+		"&lA quest completes&r when you stand inside the structure."
+	]
+	quest.398D7D0D31B16A8C.title: "A Roadside Tavern"
+	quest.398D7D0D31B16A8C.quest_subtitle: "Dungeons & Taverns"
+	quest.398D7D0D31B16A8C.quest_desc: [
+		"A safe spot: an innkeeper, a cartographer and a board of maps to nearby dungeons. A good first travel goal."
+		"Taverns appear in every forest; the oak one counts for this quest."
+	]
+	quest.3DC14FDAB04AB0DE.title: "Skeleton Crypt"
+	quest.3DC14FDAB04AB0DE.quest_subtitle: "YUNG's Better Dungeons"
+	quest.3DC14FDAB04AB0DE.quest_desc: [
+		"An underground crypt with several halls and spawners. &lTip:&r break the spawner or light it up all around."
+		"Good practice before the big dungeons."
+	]
+	quest.1DD3D00D98540144.title: "Abandoned Mineshaft"
+	quest.1DD3D00D98540144.quest_subtitle: "YUNG's Better Mineshafts"
+	quest.1DD3D00D98540144.quest_desc: [
+		"Mineshafts are big now: loot minecarts, ladders, cave-ins. Ores show in the walls: bring a good pickaxe."
+	]
+	quest.14590C32AE474724.title: "Illager Camp"
+	quest.14590C32AE474724.quest_subtitle: "TaCZ shooters"
+	quest.14590C32AE474724.quest_desc: [
+		"Camp illagers are often armed with &lfirearms&r (TaCZ NPCs): pistols and rifles. Approach from cover."
+		"&lLoot:&r their gun sometimes drops: a free firearm."
+	]
+	quest.24FE42BA2A7CCC9B.title: "Illager Fort"
+	quest.24FE42BA2A7CCC9B.quest_subtitle: "When Dungeons Arise"
+	quest.24FE42BA2A7CCC9B.quest_desc: [
+		"A fortress with towers and dozens of illagers, more than half with guns. This is an assault: bring a team, healing and armour."
+		"&lTactics:&r pick off the wall shooters from afar (a TaCZ sniper), then breach the gate."
+	]
+	quest.6A4762E3C93C0B5B.title: "Illager Galley"
+	quest.6A4762E3C93C0B5B.quest_subtitle: "Boarding"
+	quest.6A4762E3C93C0B5B.quest_desc: [
+		"An illager ship on the open sea. Sail up in your Small Ships ship, fire a broadside and board it (grappling hook from «Weapons»)."
+	]
+	quest.6EBAA1CC314A251D.title: "Bandit Village"
+	quest.6EBAA1CC314A251D.quest_subtitle: "When Dungeons Arise"
+	quest.6EBAA1CC314A251D.quest_desc: [
+		"Bandits have taken a village on stilts. Shooters on the roofs, traps on the walkways. Loot: gunpowder, steel, gold."
+	]
+	quest.1AA7A9B0DC93023F.title: "Mining System"
+	quest.1AA7A9B0DC93023F.quest_subtitle: "When Dungeons Arise"
+	quest.1AA7A9B0DC93023F.quest_desc: [
+		"A huge mine with lifts and minecarts. Spiders and zombie miners inside, and rich chests of ore and tools at the end."
+	]
+	quest.67026509AEC7D314.title: "The Foundry"
+	quest.67026509AEC7D314.quest_subtitle: "Fire and lava"
+	quest.67026509AEC7D314.quest_desc: [
+		"An abandoned steelworks: lava streams and fire mobs. &lBring:&r Fire Skin or fire resistance."
+		"&lReward:&r ingots and metal blocks, a boost for engineers."
+	]
+	quest.33B479E1E8E88664.title: "Monastery"
+	quest.33B479E1E8E88664.quest_subtitle: "When Dungeons Arise"
+	quest.33B479E1E8E88664.quest_desc: [
+		"A mountain monastery with a library. &lFor mages:&r enchanted books and Ars Nouveau ingredients."
+	]
+	quest.68FD7B1F449B1EB6.title: "Plague Asylum"
+	quest.68FD7B1F449B1EB6.quest_subtitle: "Bring an antidote"
+	quest.68FD7B1F449B1EB6.quest_desc: [
+		"A grim hospital in the swamp: poison at every step. &lBring:&r milk and Clean Breath from Arkhaven alchemy."
+	]
+	quest.0829E4B42B4D1A82.title: "Thornborn Towers"
+	quest.0829E4B42B4D1A82.quest_subtitle: "When Dungeons Arise"
+	quest.0829E4B42B4D1A82.quest_desc: [
+		"Towers wrapped in thorns, and their guardians. The climb itself is a trial: a grappling hook helps a lot."
+	]
+	quest.1BAE5339A9DDE90E.title: "Heavenly Challenger"
+	quest.1BAE5339A9DDE90E.quest_subtitle: "A dungeon in the clouds"
+	quest.1BAE5339A9DDE90E.quest_desc: [
+		"A flying fortress far above the ground. Reach it by airship, plane or elytra: there's only a drop below."
+	]
+	quest.0DD810CD0C1C7B8F.title: "Undead Pirate Ship"
+	quest.0DD810CD0C1C7B8F.quest_subtitle: "When Dungeons Arise"
+	quest.0DD810CD0C1C7B8F.quest_desc: [
+		"A ghost pirate ship crewed by skeletons. The captain's cabin holds the best treasure of the sea."
+	]
+	quest.322941DAB346E48E.title: "Shiraz Palace"
+	quest.322941DAB346E48E.quest_subtitle: "The richest dungeon"
+	quest.322941DAB346E48E.quest_desc: [
+		"A huge desert palace: several floors, guards, traps and a treasury. Go with at least three."
+	]
+	quest.2F44F8C0075501B1.title: "Mage Catacombs"
+	quest.2F44F8C0075501B1.quest_subtitle: "Iron's Spells"
+	quest.2F44F8C0075501B1.quest_desc: [
+		"Underground catacombs with necromancers. Scrolls and spellbooks: the main loot for mages."
+	]
+	quest.31BFEC0EEAA7251A.title: "The Citadel"
+	quest.31BFEC0EEAA7251A.quest_subtitle: "The Dead King's lair"
+	quest.31BFEC0EEAA7251A.quest_desc: [
+		"A dark citadel, home of the Dead King (quest in the «Iron's Spells» chapter). Loot: rare runes and mithril scrolls."
+	]
+	quest.682C987E312106E8.title: "Sunken City"
+	quest.682C987E312106E8.quest_subtitle: "The Leviathan's lair"
+	quest.682C987E312106E8.quest_desc: [
+		"A city on the ocean floor, with the way to the Leviathan. &lBring:&r water breathing for the whole team and a trident."
+	]
+	quest.65DEA3AA471B1627.title: "Ancient Factory"
+	quest.65DEA3AA471B1627.quest_subtitle: "The Harbinger's lair"
+	quest.65DEA3AA471B1627.quest_desc: [
+		"A mechanical dungeon deep underground: the road to the Harbinger from the «Bosses» chapter."
+	]
+	quest.1D9ABAB93B21593F.title: "The Labyrinth"
+	quest.1D9ABAB93B21593F.quest_subtitle: "Twilight Forest"
+	quest.1D9ABAB93B21593F.quest_desc: [
+		"An underground labyrinth beneath the swamp. A maze map (made from a map and a maze core) shows the way to the Minoshroom."
+	]
+	quest.0233DEB78E99055C.title: "Hive Temple"
+	quest.0233DEB78E99055C.quest_subtitle: "Bumblezone"
+	quest.0233DEB78E99055C.quest_desc: [
+		"The heart of the bee dimension. Don't anger the bees: wear bee armour and keep honey handy."
+	]
+	quest.57FDCFE312B601D6.title: "Bronze Dungeon"
+	quest.57FDCFE312B601D6.quest_subtitle: "The Aether"
+	quest.57FDCFE312B601D6.quest_desc: [
+		"The first Aether dungeon, home of the Slider. Its key opens the reward chest."
+	]
+	quest.6493D15E22B26AAA.title: "Brass Dungeon"
+	quest.6493D15E22B26AAA.quest_subtitle: "Deep Aether"
+	quest.6493D15E22B26AAA.quest_desc: [
+		"A Deep Aether dungeon with mechanical guardians. Loot: Stormforged armour templates."
+	]
+	quest.41271CF75F0F514B.title: "Ancient Temple"
+	quest.41271CF75F0F514B.quest_subtitle: "The Otherside"
+	quest.41271CF75F0F514B.quest_desc: [
+		"A temple deep in the Otherside: silence is mandatory. Loot: the Heart of the Deep and the way to the Stalker."
+	]
+	quest.18D1F60CD2B50700.title: "End Castle"
+	quest.18D1F60CD2B50700.quest_subtitle: "Dungeons & Taverns"
+	quest.18D1F60CD2B50700.quest_desc: [
+		"A castle on the far End islands: shulkers, chests, and a road to elytra if you haven't found an End city yet."
+	]
+	quest.5A9C5F24AD35D296.title: "Tomb Raider"
+	quest.5A9C5F24AD35D296.quest_subtitle: "Nine great dungeons"
+	quest.5A9C5F24AD35D296.quest_desc: [
+		"You've seen the heavens and the depths of this world. Share your finds on the map (Xaero → waypoints → share) so friends can follow."
+	]
+	chapter.3E92433C873CD4AC.title: "Other Worlds"
+	chapter.3E92433C873CD4AC.chapter_subtitle: [
+		"What to gather in each dimension, and why to come back"
+	]
+	quest.2D77445198E97346.title: "A Map of Worlds"
+	quest.2D77445198E97346.quest_subtitle: "Where and why"
+	quest.2D77445198E97346.quest_desc: [
+		"&lThe Aether&r (sky islands): light metals, flight, gentle animals. &lDeep Aether&r extends it with its own ores."
+		"&lThe Undergarden&r (below bedrock): dark caves, the best armour metals."
+		"&lThe Bumblezone&r: bees, honey, royal jelly."
+		"&lThe Otherside&r (through a sculk portal): dangerous, but it has Warden armour."
+		"&lThe Twilight Forest&r: a chain of bosses («Adventure»). &lThe End&r: elytra, shulkers, the void."
+	]
+	quest.330A2A98C519162A.title: "Skyjade"
+	quest.330A2A98C519162A.quest_subtitle: "Deep Aether"
+	quest.330A2A98C519162A.quest_desc: [
+		"A Deep Aether ore. It makes light, fast tools and armour, a step between zanite and stormforged gear."
+	]
+	quest.266F8321887A4C29.title: "Stratus"
+	quest.266F8321887A4C29.quest_subtitle: "Cloud armour"
+	quest.266F8321887A4C29.quest_desc: [
+		"Stratus armour makes you faster in the sky. Good for exploring the Aether by airship or on foot over the clouds."
+	]
+	quest.2F5CB4C9BE71E92E.title: "Aerwhale Saddle"
+	quest.2F5CB4C9BE71E92E.quest_subtitle: "A flying mount"
+	quest.2F5CB4C9BE71E92E.quest_desc: [
+		"The Aether's aerwhale drifts peacefully through the air. With a saddle you can ride it: slow, but beautiful."
+	]
+	quest.41B2832A942564A8.title: "Cloggrum"
+	quest.41B2832A942564A8.quest_subtitle: "The Undergarden"
+	quest.41B2832A942564A8.quest_desc: [
+		"The Undergarden's first metal, sturdier than iron. Next come froststeel and utherium, each with a bonus against local monsters."
+	]
+	quest.4A7C65037569EC58.title: "Utherium"
+	quest.4A7C65037569EC58.quest_subtitle: "Against the rotten"
+	quest.4A7C65037569EC58.quest_desc: [
+		"Utherium weapons hit Undergarden rotspawn harder: take one to the catacombs."
+	]
+	quest.557D7ED45056F22C.title: "Gloomgourd"
+	quest.557D7ED45056F22C.quest_subtitle: "Food without sun"
+	quest.557D7ED45056F22C.quest_desc: [
+		"There's no sun in the Undergarden, but it has its own crops. The gloomgourd is the base of local cuisine (pie!) and food variety."
+	]
+	quest.1AD3AAF02A0AEC65.title: "Royal Jelly"
+	quest.1AD3AAF02A0AEC65.quest_subtitle: "Bumblezone"
+	quest.1AD3AAF02A0AEC65.quest_desc: [
+		"The Bumblezone's most valuable prize. Used for bee armour and tonics, and Productive Bees keepers need it for rare breeds."
+	]
+	quest.538CE3778B5E486F.title: "Bee Armour"
+	quest.538CE3778B5E486F.quest_subtitle: "One of the hive"
+	quest.538CE3778B5E486F.quest_desc: [
+		"Bee armour calms the bees and helps you stay airborne (details in the item tooltips). The full set is your pass to the deepest hives."
+	]
+	quest.327022E9A286F5E3.title: "Essence of the Bees"
+	quest.327022E9A286F5E3.quest_subtitle: "Sanctum trials"
+	quest.327022E9A286F5E3.quest_desc: [
+		"Bumblezone sanctums run trials: beat one and you get an essence. Its effect is in the item tooltip."
+	]
+	quest.774EC0F3488A630B.title: "Reinforced Echo Shard"
+	quest.774EC0F3488A630B.quest_subtitle: "Deeper Darker"
+	quest.774EC0F3488A630B.quest_desc: [
+		"Echo shards from the Otherside: material for portals and upgrades. Gather them quietly: any noise calls the sculk guardians."
+	]
+	quest.07ACEBF0D34DBEB0.title: "Resonarium"
+	quest.07ACEBF0D34DBEB0.quest_subtitle: "A sound metal"
+	quest.07ACEBF0D34DBEB0.quest_desc: [
+		"A metal that resonates with sound. Resonarium tools cut sculk, and the armour muffles your steps."
+	]
+	quest.7C11137082F10408.title: "Warden Armour"
+	quest.7C11137082F10408.quest_subtitle: "Better than netherite"
+	quest.7C11137082F10408.quest_desc: [
+		"An upgrade of netherite armour at a smithing table (recipe in EMI). Tougher than netherite, and it makes you quieter."
+	]
+	quest.3CC5C3F80E21EBE7.title: "Shulker Shells"
+	quest.3CC5C3F80E21EBE7.quest_subtitle: "The End"
+	quest.3CC5C3F80E21EBE7.quest_desc: [
+		"Shulker boxes are portable chests. Everyone loves them: builders, miners, travellers. Hunt in End cities and Dungeons & Taverns castles."
+	]
+	quest.1CC4A7924CB673E5.title: "Elytra"
+	quest.1CC4A7924CB673E5.quest_subtitle: "Wings"
+	quest.1CC4A7924CB673E5.quest_desc: [
+		"Elytra from an End ship. Rockets, Mending, and you fly anywhere. The End islands are more varied now (Nullscape): search far from the centre."
+	]
+	quest.2B5661B8607D6510.title: "World Wanderer"
+	quest.2B5661B8607D6510.quest_subtitle: "Been everywhere, seen everything"
+	quest.2B5661B8607D6510.quest_desc: [
+		"Sky, abyss, hive, silence and void. Put a waystone at every portal: the next traveller will thank you."
+	]
 	chapter.4499A461977E88CA.title: "Weapons & Gear"
 	chapter.4499A461977E88CA.chapter_subtitle: [
 		"Swords, guns, cannons and grappling hooks"
@@ -2366,6 +3341,97 @@
 	quest.35DC60B73DD268F7.title: "Long Fall Boots"
 	quest.35DC60B73DD268F7.quest_desc: [
 		"No fall damage. With a hook — freedom in the mountains."
+	]
+	chapter.775CEE25F56DFD3E.title: "Firearms and War"
+	chapter.775CEE25F56DFD3E.chapter_subtitle: [
+		"TaCZ guns, gunner NPCs, artillery, drones"
+	]
+	quest.3A4404A355E47B8F.title: "Your First Gun"
+	quest.3A4404A355E47B8F.quest_subtitle: "TaCZ"
+	quest.3A4404A355E47B8F.quest_desc: [
+		"&lWhat:&r TaCZ adds realistic guns: pistols, rifles, shotguns, snipers. Recoil, reloads, scopes."
+		"&lHow:&r gunsmith table → pick a model → you need steel, gunpowder and parts. Any gun you build completes the quest."
+		"&lControls:&r right click to aim, R to reload, G for fire mode, H to inspect, Z for attachments (rebindable in settings)."
+		"Guns hurt friends too: PvP is on, mind your line of fire."
+	]
+	quest.68228C2E9955C382.title: "Shooting Range"
+	quest.68228C2E9955C382.quest_subtitle: "Zeroing in"
+	quest.68228C2E9955C382.quest_desc: [
+		"A target shows damage and distance. Zero in a new gun before taking it into a dungeon: every model has its own spread."
+	]
+	quest.0C06F2D583FF781C.title: "Attachments"
+	quest.0C06F2D583FF781C.quest_subtitle: "Scopes, suppressors, grips"
+	quest.0C06F2D583FF781C.quest_desc: [
+		"Attachments change stats: a suppressor hides shots from mobs, a red dot speeds up aiming, a grip reduces recoil."
+		"Fit them in the attachment menu (Z key)."
+	]
+	quest.4D1B1A33E90955B0.title: "Ammo Box"
+	quest.4D1B1A33E90955B0.quest_subtitle: "The logistics of war"
+	quest.4D1B1A33E90955B0.quest_desc: [
+		"The box stores ammo and reloads from your inventory. &lAutomation:&r gunpowder and casings can come from a Create line: a mechanical crafter assembles ammo by itself."
+	]
+	quest.1F01CF3B5A2B8693.title: "Illager Gunners"
+	quest.1F01CF3B5A2B8693.quest_subtitle: "TaCZ NPCs"
+	quest.1F01CF3B5A2B8693.quest_desc: [
+		"Illagers in outposts, camps and forts often carry guns. They take cover and fire bursts like players do."
+		"&lWhere:&r only in the wilds: no gunners near spawn and bases."
+		"&lLoot:&r sometimes their gun drops."
+	]
+	quest.6DD0F70D9DDC8C7B.title: "The Mercenary"
+	quest.6DD0F70D9DDC8C7B.quest_subtitle: "An armed NPC"
+	quest.6DD0F70D9DDC8C7B.quest_desc: [
+		"Lone fighters in full gear roam the far lands. Not all are hostile: some stay neutral until you shoot first."
+		"Beat one and see what they carried."
+	]
+	quest.4DDC25AF5DB52DB2.title: "Molotov Cocktail"
+	quest.4DDC25AF5DB52DB2.quest_subtitle: "Immersive Petroleum"
+	quest.4DDC25AF5DB52DB2.quest_desc: [
+		"A bottle of gasoline with a rag, for dungeon crowds. &lCareful:&r fire spreads: don't throw it near other people's houses."
+	]
+	quest.4740D6790661887D.title: "Flamethrower"
+	quest.4740D6790661887D.quest_subtitle: "TFMG"
+	quest.4740D6790661887D.quest_desc: [
+		"The TFMG flamethrower runs on fuel from your oil rig. TFMG also has copper grenades and a napalm potato cannon."
+		"&lRoles meet:&r fuel from the oil worker, steel from the smelter, and the warrior pulls the trigger."
+	]
+	quest.72E937A5DCECDADE.title: "Steel Artillery"
+	quest.72E937A5DCECDADE.quest_subtitle: "Create Big Cannons"
+	quest.72E937A5DCECDADE.quest_desc: [
+		"Cast iron cannons are step one; steel barrels take more powder and fire further. Cast them in moulds or with the cannon builder."
+		"&lWhy:&r against the Leviathan from the shore, against illager forts, and for base defence."
+	]
+	quest.78978271E0B00221.title: "Autocannon"
+	quest.78978271E0B00221.quest_subtitle: "Rapid fire"
+	quest.78978271E0B00221.quest_desc: [
+		"The autocannon fires bursts of small shells: great air defence for an airship and protection against raids."
+	]
+	quest.0261EF9E1DEBACDE.title: "Ship Guns"
+	quest.0261EF9E1DEBACDE.quest_subtitle: "Small Ships"
+	quest.0261EF9E1DEBACDE.quest_desc: [
+		"Cannons mount on Small Ships ship sides. Cannonballs, chain shot (tears sails) and grapeshot (against boarders)."
+	]
+	quest.4334303B4E6E48AE.title: "Wing Gun"
+	quest.4334303B4E6E48AE.quest_subtitle: "Immersive Aircraft"
+	quest.4334303B4E6E48AE.quest_desc: [
+		"The rotary cannon mounts on a plane or gyrodyne. There's a bomb bay too, for those who like levelling illager forts from above."
+	]
+	quest.2BE9CE783253AEBB.title: "FPV Drone"
+	quest.2BE9CE783253AEBB.quest_subtitle: "Create Droneworks"
+	quest.2BE9CE783253AEBB.quest_desc: [
+		"&lWhat:&r a drone you build yourself from Aeronautics blocks: a drone core, propellers, a camera. Fly it first-person with a remote."
+		"&lWhy:&r scout dungeons and forts without risk, deliver cargo, and with a payload it's a kamikaze drone (TNT or a potato cannon on board)."
+		"&lHow:&r core + 4 propellers + camera, assemble on a physics assembler and bind the remote."
+		"⚠ The mod is young (alpha): keep a schematic of your drone; if it misbehaves, tell the admin."
+	]
+	quest.3569848A2294DF70.title: "Command Post"
+	quest.3569848A2294DF70.quest_subtitle: "Several drones"
+	quest.3569848A2294DF70.quest_desc: [
+		"A drone hub and a commander seat let you switch between drones: a scout, a hauler and a striker in one team."
+	]
+	quest.533A846AC076473A.title: "General"
+	quest.533A846AC076473A.quest_subtitle: "Land, sea, sky"
+	quest.533A846AC076473A.quest_desc: [
+		"Infantry, navy, air force and drones. Time to build barracks (Minecolonies) and train guards: nobody takes your colony now."
 	]
 	chapter.6B5C9EE747778BF3.title: "Elements & Defence"
 	chapter.6B5C9EE747778BF3.chapter_subtitle: [
@@ -2673,6 +3739,83 @@
 	quest.121BFA9789E6622A.title: "Seats on Trains"
 	quest.121BFA9789E6622A.quest_desc: [
 		"Create: Interiors adds chairs and sofas you can sit on even aboard a moving train or airship."
+	]
+	chapter.05D02B5570337DC5.title: "Home and Comfort"
+	chapter.05D02B5570337DC5.chapter_subtitle: [
+		"Furniture, lights, roofs, paths: hundreds of blocks for a beautiful home"
+	]
+	quest.0CC807686064633F.title: "Why Comfort"
+	quest.0CC807686064633F.quest_subtitle: "Pretty is gameplay too"
+	quest.0CC807686064633F.quest_desc: [
+		"&lWhy:&r a beautiful home is a reason to visit, and a Minecolonies colony grows faster when its people are happy."
+		"&lHow:&r almost all furniture is crafted from planks of the right wood: search EMI for «chair», «table», «lamp»."
+		"&lTip:&r many Macaw's blocks come in variants: check EMI, one piece often yields several shapes."
+	]
+	quest.68CF4A141555C824.title: "A Desk"
+	quest.68CF4A141555C824.quest_subtitle: "Macaw's Furniture"
+	quest.68CF4A141555C824.quest_desc: [
+		"Desks, wardrobes, drawers, chairs: in Macaw's, furniture is functional too: wardrobes and drawers store items."
+	]
+	quest.6C85FF8C153880DC.title: "A Chandelier"
+	quest.6C85FF8C153880DC.quest_subtitle: "Macaw's Lights"
+	quest.6C85FF8C153880DC.quest_desc: [
+		"Lighting matters: chandeliers, sconces, tiki torches, ceiling fan lights. A well-lit home also keeps mobs out."
+	]
+	quest.06224B94B88795AF.title: "A Thatch Roof"
+	quest.06224B94B88795AF.quest_subtitle: "Macaw's Roofs"
+	quest.06224B94B88795AF.quest_desc: [
+		"Roofs of every pitch and material: no more stair-step roofs. Thatch for a village cottage, tiles for a town."
+	]
+	quest.04FE1259A9EC7260.title: "A Paved Path"
+	quest.04FE1259A9EC7260.quest_subtitle: "Macaw's Paths"
+	quest.04FE1259A9EC7260.quest_desc: [
+		"Patterned paving and flagstones: a path from your door to the waystone makes a base feel lived-in."
+	]
+	quest.5AD48020E2594F58.title: "Windows and Doors"
+	quest.5AD48020E2594F58.quest_subtitle: "Macaw's Doors & Windows"
+	quest.5AD48020E2594F58.quest_desc: [
+		"Doors in many styles (Japanese, cottage, barn) and mullioned windows. Curtains on a rod open with right click."
+	]
+	quest.277BEE78FED39A51.title: "A Bridge over the Stream"
+	quest.277BEE78FED39A51.quest_subtitle: "Macaw's Bridges"
+	quest.277BEE78FED39A51.quest_desc: [
+		"Bridges snap together from segments and adjust to length. Rope for ravines, stone for rivers."
+	]
+	quest.484124C4B32D2CAB.title: "A Sofa"
+	quest.484124C4B32D2CAB.quest_subtitle: "Another Furniture"
+	quest.484124C4B32D2CAB.quest_desc: [
+		"Sofas, stools, shelves, flower boxes. You can &lsit&r on sofas and chairs: right click."
+	]
+	quest.2D523083489AE02E.title: "A Wall Trophy"
+	quest.2D523083489AE02E.quest_subtitle: "Handcrafted"
+	quest.2D523083489AE02E.quest_desc: [
+		"Trophy heads of beasts and mobs: hang them over the fireplace. The warrior hunts, the builder hangs: roles meet."
+	]
+	quest.7FB9BA113738A36B.title: "Dream Kitchen"
+	quest.7FB9BA113738A36B.quest_subtitle: "Handcrafted + Cooking for Blockheads"
+	quest.7FB9BA113738A36B.quest_desc: [
+		"A Handcrafted hood and oven next to Cooking for Blockheads work blocks: a kitchen you can cook in and show off."
+	]
+	quest.01E55988ADE92D20.title: "Secret Stash"
+	quest.01E55988ADE92D20.quest_subtitle: "Framed Blocks"
+	quest.01E55988ADE92D20.quest_desc: [
+		"A framed block takes the look of any other, and the secret storage also holds items. A safe behind the bookshelf."
+	]
+	quest.1D0381CAEC065F43.title: "Architect's Cutter"
+	quest.1D0381CAEC065F43.quest_subtitle: "Domum Ornamentum"
+	quest.1D0381CAEC065F43.quest_desc: [
+		"Makes timber frames, shingles and pillars from any two materials. Minecolonies builds its houses with it; you can too."
+	]
+	quest.20879EC69322B31B.title: "Notice Board"
+	quest.20879EC69322B31B.quest_subtitle: "Supplementaries"
+	quest.20879EC69322B31B.quest_desc: [
+		"Pin a book on the board and every passer-by can read it. Shelves display items, jars hold liquids and fireflies."
+		"&lIdea:&r a board at spawn with the server rules and news."
+	]
+	quest.2B022A0B2B672C60.title: "A Cosy Nest"
+	quest.2B022A0B2B672C60.quest_subtitle: "A home worth coming back to"
+	quest.2B022A0B2B672C60.quest_desc: [
+		"Lights, roof, furniture, trophies and a stash. Invite friends to a housewarming, and take a screenshot with shaders on."
 	]
 	chapter.34F136AADF95EE95.title: "Great Works"
 	chapter.34F136AADF95EE95.chapter_subtitle: [

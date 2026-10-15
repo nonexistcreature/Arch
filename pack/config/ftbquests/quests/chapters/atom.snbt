@@ -1,0 +1,291 @@
+{
+	id: "1D269465AE61C05E"
+	group: ""
+	order_index: 95
+	filename: "atom"
+	icon: {
+		id: "bigreactors:yellorium_ingot"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "385179001FCC35DD"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "bigreactors:yellorite_ore"
+				count: 1
+			}
+			dependencies: [
+				"4693C34C08702F13"
+			]
+			tasks: [
+				{
+					id: "3BB383557DD1C840"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:yellorite_ore"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0BB0AB9ED7E9327A"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:wrench"
+					}
+				}
+			]
+		}
+		{
+			id: "00B5A7E9699DCF0C"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "bigreactors:graphite_ingot"
+				count: 1
+			}
+			dependencies: [
+				"385179001FCC35DD"
+			]
+			tasks: [
+				{
+					id: "534634C97AE94992"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:graphite_ingot"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "42035AA943CCC666"
+			x: 3.0d
+			y: 0.0d
+			icon: {
+				id: "bigreactors:basic_reactorcasing"
+				count: 1
+			}
+			dependencies: [
+				"00B5A7E9699DCF0C"
+				"21FBC8C7F82B336A"
+			]
+			tasks: [
+				{
+					id: "05D77B1F5469B363"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:basic_reactorcasing"
+					}
+					count: 26L
+				}
+			]
+		}
+		{
+			id: "6016A6F923D9EEAD"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "bigreactors:basic_reactorfuelrod"
+				count: 1
+			}
+			dependencies: [
+				"42035AA943CCC666"
+			]
+			tasks: [
+				{
+					id: "695334C2B6F9C1B7"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:basic_reactorfuelrod"
+					}
+					count: 4L
+				}
+				{
+					id: "1B5A0B5EEDE84FE2"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:basic_reactorcontrolrod"
+					}
+				}
+			]
+		}
+		{
+			id: "1773A8F8F5018FEC"
+			x: 6.0d
+			y: 0.0d
+			shape: "hexagon"
+			icon: {
+				id: "bigreactors:basic_reactorcontroller"
+				count: 1
+			}
+			dependencies: [
+				"6016A6F923D9EEAD"
+			]
+			tasks: [
+				{
+					id: "52C5062AC7877BD5"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:basic_reactorcontroller"
+					}
+				}
+				{
+					id: "74F2160B0AE4102F"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:basic_reactorpowertapfe_passive"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6814F12CA071927D"
+					type: "item"
+					item: {
+						count: 16
+						id: "bigreactors:yellorium_ingot"
+					}
+				}
+			]
+		}
+		{
+			id: "03A29457CE8D2345"
+			x: 7.5d
+			y: -1.25d
+			icon: {
+				id: "bigreactors:basic_turbinerotorblade"
+				count: 1
+			}
+			dependencies: [
+				"1773A8F8F5018FEC"
+			]
+			tasks: [
+				{
+					id: "567176982F384BF9"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:basic_turbinecontroller"
+					}
+				}
+				{
+					id: "169D3D01E2901B04"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:basic_turbinerotorblade"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "0AECD052E87EA63D"
+			x: 7.5d
+			y: 0.0d
+			icon: {
+				id: "bigreactors:reprocessorcontroller"
+				count: 1
+			}
+			dependencies: [
+				"1773A8F8F5018FEC"
+			]
+			tasks: [
+				{
+					id: "75B0669D5795CC9F"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:reprocessorcontroller"
+					}
+				}
+			]
+		}
+		{
+			id: "0C2DA46EC2979143"
+			x: 9.0d
+			y: -0.625d
+			icon: {
+				id: "bigreactors:reinforced_reactorcasing"
+				count: 1
+			}
+			dependencies: [
+				"03A29457CE8D2345"
+			]
+			tasks: [
+				{
+					id: "102396223B5997DC"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:reinforced_reactorcontroller"
+					}
+				}
+			]
+		}
+		{
+			id: "7352B03F0E567940"
+			x: 7.5d
+			y: 1.25d
+			icon: {
+				id: "mekanismgenerators:fission_reactor_casing"
+				count: 1
+			}
+			dependencies: [
+				"1773A8F8F5018FEC"
+				"6C6A40C7728A898A"
+			]
+			tasks: [
+				{
+					id: "561E10D84495A734"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "0679515BD8C61681"
+			x: 9.0d
+			y: 0.625d
+			shape: "hexagon"
+			icon: {
+				id: "mekanismgenerators:fusion_reactor_controller"
+				count: 1
+			}
+			dependencies: [
+				"7352B03F0E567940"
+				"1152DA7E951B01C8"
+			]
+			tasks: [
+				{
+					id: "4325B610581BC6C4"
+					type: "item"
+					item: {
+						count: 1
+						id: "mekanismgenerators:fusion_reactor_controller"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "740EF59D6169BBA4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+	]
+}

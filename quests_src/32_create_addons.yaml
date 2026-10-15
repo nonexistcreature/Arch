@@ -1,0 +1,270 @@
+chapter:
+  id: create_addons
+  order: 7.5
+  icon: create_connected:kinetic_battery
+  ru: {title: "Create: дополнения", subtitle: "Батареи, ток, зачарование опытом, умные шестерни"}
+  en: {title: "Create: Add-ons", subtitle: "Batteries, power, experience enchanting, smart gearing"}
+quests:
+  - id: ca_intro
+    deps: [path_brass]
+    icon: create:wrench
+    shape: gear
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Create — это платформа"
+      subtitle: "Аддоны расширяют базу"
+      text: |
+        Эти моды добавляют к Create то, чего ему не хватает: **хранение вращения**, **электричество**, **опыт как жидкость**, удобные шестерни и маскировку.
+        Каждый квест здесь объясняет, какую проблему решает деталь.
+    en:
+      title: "Create Is a Platform"
+      subtitle: "Add-ons extend the base"
+      text: |
+        These mods add what Create lacks: **stored rotation**, **electricity**, **experience as a fluid**, handy gearing and disguise blocks.
+        Every quest here explains which problem a part solves.
+
+  - id: ca_gearbox
+    deps: [ca_intro]
+    icon: create_connected:six_way_gearbox
+    tasks: [{type: item, item: create_connected:six_way_gearbox}, {type: item, item: create_connected:parallel_gearbox}]
+    ru:
+      title: "Умные редукторы"
+      subtitle: "Create Connected"
+      text: |
+        Шестисторонний и параллельный редукторы раздают вращение туда, куда обычной коробке неудобно. Меньше валов — аккуратнее завод.
+    en:
+      title: "Smart Gearboxes"
+      subtitle: "Create Connected"
+      text: |
+        The six-way and parallel gearboxes send rotation where a plain gearbox can't. Fewer shafts, tidier factory.
+
+  - id: ca_battery
+    deps: [ca_gearbox]
+    icon: create_connected:kinetic_battery
+    tasks: [{type: item, item: create_connected:kinetic_battery}]
+    ru:
+      title: "Кинетическая батарея"
+      subtitle: "Запас вращения"
+      text: |
+        **Проблема:** водяное колесо ночью и в штиль работает, а мельница — нет. **Решение:** батарея копит вращение, когда его много, и отдаёт, когда мало.
+    en:
+      title: "Kinetic Battery"
+      subtitle: "Stored rotation"
+      text: |
+        **Problem:** your wheel turns all night while windmills stall in calm weather. **Solution:** the battery stores rotation when there's plenty and gives it back when there's little.
+
+  - id: ca_clutches
+    deps: [ca_gearbox]
+    icon: create_connected:overstress_clutch
+    tasks: [{type: item, item: create_connected:overstress_clutch}, {type: item, item: create_connected:shear_pin}]
+    ru:
+      title: "Защита от перегрузки"
+      subtitle: "Срезной штифт и муфта"
+      text: |
+        Если сеть перегружена, срезной штифт ломается и спасает остальные машины от остановки. Муфта перегрузки отключает ветку сама и включает обратно.
+    en:
+      title: "Overload Protection"
+      subtitle: "Shear pin and clutch"
+      text: |
+        When the network is overstressed, the shear pin breaks and keeps the other machines running. The overstress clutch disconnects a branch and reconnects it on its own.
+
+  - id: ca_item_silo
+    deps: [ca_gearbox]
+    icon: create_connected:item_silo
+    tasks: [{type: item, item: create_connected:item_silo, count: 4}]
+    ru:
+      title: "Силос"
+      subtitle: "Многоблочное хранилище"
+      text: |
+        Силос собирается из блоков в одну большую ёмкость — как хранилище Create, но для сыпучих урожаев и руды.
+    en:
+      title: "Item Silo"
+      subtitle: "Multiblock storage"
+      text: |
+        Silo blocks merge into one big container, like a Create vault but for bulk crops and ore.
+
+  - id: ca_catalysts
+    deps: [ca_intro, c_fan]
+    icon: create_connected:fan_sanding_catalyst
+    tasks: [{type: item, item: create_connected:fan_sanding_catalyst}]
+    ru:
+      title: "Катализаторы вентилятора"
+      subtitle: "Новые виды обработки"
+      text: |
+        Обычный вентилятор моет, плавит и коптит. Катализаторы добавляют шлифовку, замораживание, иссушение и другие процессы — меньше ручной работы.
+    en:
+      title: "Fan Catalysts"
+      subtitle: "New processing types"
+      text: |
+        A plain fan washes, smelts and smokes. Catalysts add sanding, freezing, withering and more: less manual work.
+
+  - id: ca_alternator
+    deps: [ca_intro]
+    icon: createaddition:alternator
+    tasks: [{type: item, item: createaddition:alternator}]
+    ru:
+      title: "Генератор переменного тока"
+      subtitle: "Create Addition"
+      text: |
+        **Мост между мирами:** альтернатор превращает вращение Create в энергию FE для Mekanism, AE2 и IE. Электромотор делает обратное.
+        Твои водяные колёса теперь питают и машины Mekanism.
+    en:
+      title: "Alternator"
+      subtitle: "Create Addition"
+      text: |
+        **The bridge between worlds:** the alternator turns Create rotation into FE for Mekanism, AE2 and IE. The electric motor does the reverse.
+        Your water wheels now power Mekanism machines too.
+
+  - id: ca_wires
+    deps: [ca_alternator]
+    icon: createaddition:copper_spool
+    tasks: [{type: item, item: createaddition:copper_spool}, {type: item, item: createaddition:connector, count: 4}]
+    ru:
+      title: "Провода на столбах"
+      subtitle: "Энергия на расстояние"
+      text: |
+        Катушка медного провода и коннекторы — ЛЭП от твоей электростанции к соседу. Красиво и дёшево.
+    en:
+      title: "Overhead Wires"
+      subtitle: "Power over distance"
+      text: |
+        A copper wire spool and connectors: a power line from your plant to a neighbour. Pretty and cheap.
+
+  - id: ca_accumulator
+    deps: [ca_wires]
+    icon: createaddition:modular_accumulator
+    tasks: [{type: item, item: createaddition:modular_accumulator, count: 4}]
+    ru:
+      title: "Модульный аккумулятор"
+      subtitle: "Склад энергии"
+      text: |
+        Ставь блоки рядом — ёмкость растёт. Хранит энергию на ночь для солнечных панелей.
+    en:
+      title: "Modular Accumulator"
+      subtitle: "An energy store"
+      text: |
+        Place blocks side by side and the capacity grows. Stores power overnight for solar panels.
+
+  - id: ca_tesla
+    deps: [ca_accumulator]
+    icon: createaddition:tesla_coil
+    tasks: [{type: item, item: createaddition:tesla_coil}]
+    ru:
+      title: "Катушка Теслы"
+      subtitle: "Зарядка предметов"
+      text: |
+        Заряжает предметы с энергией на конвейере — и ещё бьёт током мобов, если поставить её на пути.
+    en:
+      title: "Tesla Coil"
+      subtitle: "Item charging"
+      text: |
+        Charges energy items on a belt, and zaps mobs if you put it in their path.
+
+  - id: ca_xp
+    deps: [c_enchanting]
+    icon: create_enchantment_industry:experience_bucket
+    tasks: [{type: item, item: create_enchantment_industry:experience_bucket}]
+    ru:
+      title: "Опыт в вёдрах"
+      subtitle: "Create Enchantment Industry"
+      text: |
+        **Что:** опыт становится жидкостью — его качают по трубам и хранят в баках.
+        **Зачем:** отдавай опыт с фермы мобов прямо в зачарователь, без прыжков у спавнера.
+    en:
+      title: "Experience in Buckets"
+      subtitle: "Create Enchantment Industry"
+      text: |
+        **What:** experience becomes a fluid you pump through pipes and store in tanks.
+        **Why:** send experience from a mob farm straight into the enchanter, no standing at the spawner.
+
+  - id: ca_blaze_enchanter
+    deps: [ca_xp]
+    icon: create_enchantment_industry:blaze_enchanter
+    tasks: [{type: item, item: create_enchantment_industry:blaze_enchanter}, {type: item, item: create_enchantment_industry:enchanting_template}]
+    ru:
+      title: "Зачарователь-ифрит"
+      subtitle: "Зачарование на конвейере"
+      text: |
+        Ифрит с шаблоном зачарования накладывает выбранные чары на всё, что проходит по конвейеру. Конец лотерее стола зачарований.
+    en:
+      title: "Blaze Enchanter"
+      subtitle: "Enchanting on a belt"
+      text: |
+        A blaze with an enchanting template applies the chosen enchantment to everything on the belt. No more enchanting-table lottery.
+
+  - id: ca_printer
+    deps: [ca_xp]
+    icon: create_enchantment_industry:printer
+    tasks: [{type: item, item: create_enchantment_industry:printer}]
+    ru:
+      title: "Печатный станок"
+      subtitle: "Копии книг"
+      text: |
+        Печатает копии книг — зачарованных, письменных, даже гидов. Удобно для библиотеки колонии.
+    en:
+      title: "Printer"
+      subtitle: "Book copies"
+      text: |
+        Prints copies of books: enchanted, written, even guides. Handy for the colony library.
+
+  - id: ca_dragon_breath
+    deps: [adv_end]
+    icon: create_dragons_plus:dragon_breath_bucket
+    tasks: [{type: item, item: create_dragons_plus:dragon_breath_bucket}]
+    ru:
+      title: "Дыхание дракона"
+      subtitle: "Create: Dragons Plus"
+      text: |
+        Дыхание дракона в ведре — жидкость для вентилятора: обработка «эндером» превращает предметы в их версии Края.
+    en:
+      title: "Dragon's Breath"
+      subtitle: "Create: Dragons Plus"
+      text: |
+        Dragon's breath in a bucket: a fluid for fans, whose «ending» process turns items into their End variants.
+
+  - id: ca_copycats
+    deps: [ca_intro]
+    icon: copycats:copycat_slope
+    tasks: [{type: item, item: copycats:copycat_slope, count: 4}]
+    ru:
+      title: "Маскировка"
+      subtitle: "Copycats+"
+      text: |
+        Копикат-блоки принимают вид любого блока: скаты, ступени, балки. Завод можно спрятать за красивым фасадом.
+    en:
+      title: "Disguise"
+      subtitle: "Copycats+"
+      text: |
+        Copycat blocks take the look of any block: slopes, steps, beams. Hide your factory behind a pretty facade.
+
+  - id: ca_jetpack
+    deps: [c_backtank]
+    icon: create_jetpack:jetpack
+    tasks: [{type: item, item: create_jetpack:jetpack}]
+    ru:
+      title: "Реактивный ранец"
+      subtitle: "Create Jetpack"
+      text: |
+        Ранец летает на сжатом воздухе из бака-рюкзака Create. Заправка — от компрессора на базе. Незаменим на стройке.
+    en:
+      title: "Jetpack"
+      subtitle: "Create Jetpack"
+      text: |
+        The jetpack flies on compressed air from a Create backtank. Refill at a compressor at base. Indispensable on building sites.
+
+  - id: ca_master
+    deps: [ca_battery, ca_clutches, ca_item_silo, ca_catalysts, ca_tesla, ca_blaze_enchanter, ca_printer, ca_copycats, ca_jetpack]
+    icon: create:brass_casing
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards: [{type: xp_levels, count: 8}]
+    ru:
+      title: "Мастер механики"
+      subtitle: "Create во всей полноте"
+      text: |
+        Вращение хранится, превращается в ток, чарует книги и прячется за красивыми стенами. Покажи завод соседям — пусть учатся.
+    en:
+      title: "Master Mechanic"
+      subtitle: "Create to the full"
+      text: |
+        Rotation is stored, turned into power, enchants books and hides behind pretty walls. Show the factory to your neighbours so they can learn.

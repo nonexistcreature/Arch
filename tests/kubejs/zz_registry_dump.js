@@ -9,6 +9,8 @@ ServerEvents.loaded(event => {
     potion: dump(R.POTION),
     recipes_arkhaven: [],
   }
+  data.structure = []
+  event.server.registryAccess().registryOrThrow(Java.loadClass('net.minecraft.core.registries.Registries').STRUCTURE).keySet().forEach(k => data.structure.push(String(k)))
   event.server.recipeManager.getRecipes().forEach(h => { const id = String(h.id()); if (id.startsWith('arkhaven:')) data.recipes_arkhaven.push(id) })
   JsonIO.write('kubejs/exported/registry.json', data)
   console.info('ARKHAVEN_REGISTRY_DUMP items=' + data.item.length)

@@ -1,0 +1,184 @@
+chapter:
+  id: atom
+  order: 9.5
+  icon: bigreactors:yellorium_ingot
+  ru: {title: "Атом", subtitle: "Extreme Reactors и реактор Mekanism: много энергии, мало вреда"}
+  en: {title: "The Atom", subtitle: "Extreme Reactors and Mekanism fission: lots of power, little harm"}
+quests:
+  - id: at_intro
+    deps: [path_atom]
+    icon: bigreactors:yellorite_ore
+    shape: gear
+    tasks: [{type: item, item: bigreactors:yellorite_ore}]
+    rewards: [{type: item, item: bigreactors:wrench}]
+    ru:
+      title: "Йеллорит"
+      subtitle: "Extreme Reactors"
+      text: |
+        **Что это:** Extreme Reactors (бывший Big Reactors) — многоблочные реакторы и турбины, которые строишь сам любого размера.
+        **Зачем:** один средний реактор кормит целую базу. **Без радиации и загрязнения** — мирный атом для дома.
+        **Как начать:** йеллоритовая руда встречается глубоко под землёй. Переплавь — получишь йеллориевый слиток (топливо).
+    en:
+      title: "Yellorite"
+      subtitle: "Extreme Reactors"
+      text: |
+        **What:** Extreme Reactors (formerly Big Reactors): multiblock reactors and turbines you build at any size.
+        **Why:** one medium reactor powers a whole base. **No radiation, no pollution**: a peaceful atom for home.
+        **How to start:** yellorite ore lies deep underground. Smelt it into yellorium ingots: the fuel.
+
+  - id: at_graphite
+    deps: [at_intro]
+    icon: bigreactors:graphite_ingot
+    tasks: [{type: item, item: bigreactors:graphite_ingot, count: 16}]
+    ru:
+      title: "Графит"
+      subtitle: "Замедлитель и корпус"
+      text: |
+        Графит делают из угля или древесного угля в печи. Из него — корпус реактора и топливные стержни.
+        **Совет:** поставь печь Create на конвейер — уголь превращается в графит сам.
+    en:
+      title: "Graphite"
+      subtitle: "Moderator and casing"
+      text: |
+        Graphite is smelted from coal or charcoal. It makes the reactor casing and fuel rods.
+        **Tip:** put a Create fan-smelting line on a belt: coal turns into graphite by itself.
+
+  - id: at_casing
+    deps: [at_graphite, path_steel]
+    icon: bigreactors:basic_reactorcasing
+    tasks: [{type: item, item: bigreactors:basic_reactorcasing, count: 26}]
+    ru:
+      title: "Корпус реактора"
+      subtitle: "Минимум 3×3×3"
+      text: |
+        Самый маленький реактор — куб 3×3×3: рёбра из корпуса, грани — корпус или стекло, внутри — топливный стержень.
+        Нужно 26 блоков корпуса (или меньше, если часть граней — стекло).
+    en:
+      title: "Reactor Casing"
+      subtitle: "At least 3×3×3"
+      text: |
+        The smallest reactor is a 3×3×3 cube: casing edges, casing or glass faces, a fuel rod inside.
+        You need 26 casing blocks (fewer if some faces are glass).
+
+  - id: at_rods
+    deps: [at_casing]
+    icon: bigreactors:basic_reactorfuelrod
+    tasks: [{type: item, item: bigreactors:basic_reactorfuelrod, count: 4}, {type: item, item: bigreactors:basic_reactorcontrolrod}]
+    ru:
+      title: "Стержни"
+      subtitle: "Топливо и управление"
+      text: |
+        **Топливный стержень** — колонна от пола до потолка. Сверху — **управляющий стержень**: им регулируешь мощность (0–100 %).
+        Больше стержней, расставленных в шахматном порядке, — больше энергии на единицу топлива.
+    en:
+      title: "Rods"
+      subtitle: "Fuel and control"
+      text: |
+        A **fuel rod** is a column from floor to ceiling. On top sits a **control rod**: it sets the power (0–100 %).
+        More rods in a checkerboard pattern give more energy per unit of fuel.
+
+  - id: at_reactor
+    deps: [at_rods]
+    icon: bigreactors:basic_reactorcontroller
+    shape: hexagon
+    tasks: [{type: item, item: bigreactors:basic_reactorcontroller}, {type: item, item: bigreactors:basic_reactorpowertapfe_passive}]
+    rewards: [{type: item, item: bigreactors:yellorium_ingot, count: 16}]
+    ru:
+      title: "Первый реактор"
+      subtitle: "Контроллер + отвод энергии"
+      text: |
+        Контроллер на грани, отвод энергии (power tap) — к проводам. Загрузи йеллорий в порт доступа, включи контроллер.
+        **Безопасно:** перегрев только снижает выработку. Взрывов и радиации нет.
+        **Отходы** — цианит: верни его в реактор как топливо после переработки (реактор-переработчик).
+    en:
+      title: "The First Reactor"
+      subtitle: "Controller + power tap"
+      text: |
+        Controller on a face, a power tap to your cables. Load yellorium into an access port, switch the controller on.
+        **Safe:** overheating only lowers output. No explosions, no radiation.
+        **Waste** is cyanite: reprocess it back into fuel (the reprocessor).
+
+  - id: at_turbine
+    deps: [at_reactor]
+    icon: bigreactors:basic_turbinerotorblade
+    tasks: [{type: item, item: bigreactors:basic_turbinecontroller}, {type: item, item: bigreactors:basic_turbinerotorblade, count: 8}]
+    ru:
+      title: "Турбина"
+      subtitle: "Пар → энергия, в разы больше"
+      text: |
+        Переключи реактор на охлаждение водой (порт жидкости) — он начнёт давать **пар**. Пар в турбину — и энергии становится в 3–5 раз больше.
+        Лопасти ротора делают из стали — тут пригодится твой сталелитейный цех.
+    en:
+      title: "The Turbine"
+      subtitle: "Steam → energy, several times more"
+      text: |
+        Switch the reactor to water cooling (a fluid port): it starts producing **steam**. Steam into a turbine gives 3–5 times more energy.
+        Rotor blades are made of steel: your steel mill pays off here.
+
+  - id: at_reprocessor
+    deps: [at_reactor]
+    icon: bigreactors:reprocessorcontroller
+    tasks: [{type: item, item: bigreactors:reprocessorcontroller}]
+    ru:
+      title: "Переработчик"
+      subtitle: "Цианит обратно в топливо"
+      text: |
+        Реактор-переработчик превращает цианит (отходы) и воду в блуторий — топливо мощнее йеллория. Замкнутый цикл без мусора.
+    en:
+      title: "The Reprocessor"
+      subtitle: "Cyanite back into fuel"
+      text: |
+        The reprocessor turns cyanite (waste) and water into blutonium: a stronger fuel than yellorium. A closed loop with no garbage.
+
+  - id: at_reinforced
+    deps: [at_turbine]
+    icon: bigreactors:reinforced_reactorcasing
+    tasks: [{type: item, item: bigreactors:reinforced_reactorcontroller}]
+    ru:
+      title: "Усиленный реактор"
+      subtitle: "Большие размеры"
+      text: |
+        Усиленные блоки позволяют строить реакторы до 32×32×48. Это уже электростанция для всего сервера — договорись с соседями, кто будет её обслуживать.
+    en:
+      title: "Reinforced Reactor"
+      subtitle: "Big sizes"
+      text: |
+        Reinforced blocks allow reactors up to 32×32×48. That's a power plant for the whole server: agree with neighbours on who maintains it.
+
+  - id: at_mek_bridge
+    deps: [at_reactor, m_fission]
+    icon: mekanismgenerators:fission_reactor_casing
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Два пути к атому"
+      subtitle: "Extreme Reactors vs Mekanism"
+      text: |
+        **Extreme Reactors** — безопасный: никогда не взрывается, отходы перерабатываются.
+        **Реактор деления Mekanism** — мощнее и даёт плутоний и полоний для SPS и термояда, но при перегреве **взрывается и заражает округу** (радиация остаётся на месте аварии, остальной мир не трогается). Нужен костюм от радиации и датчики.
+        Выбор за тобой — сервер не заставляет рисковать.
+    en:
+      title: "Two Roads to the Atom"
+      subtitle: "Extreme Reactors vs Mekanism"
+      text: |
+        **Extreme Reactors** is safe: it never explodes, and waste is reprocessed.
+        **The Mekanism fission reactor** is stronger and yields plutonium and polonium for the SPS and fusion, but if it overheats it **explodes and contaminates the area** (radiation stays at the accident site; the rest of the world is untouched). Wear a hazmat suit and use sensors.
+        Your choice: the server never forces you to take risks.
+
+  - id: at_fusion
+    deps: [at_mek_bridge, m_fusion]
+    icon: mekanismgenerators:fusion_reactor_controller
+    shape: hexagon
+    tasks: [{type: item, item: mekanismgenerators:fusion_reactor_controller}]
+    rewards: [{type: xp_levels, count: 10}]
+    ru:
+      title: "Звезда в коробке"
+      subtitle: "Термоядерный синтез"
+      text: |
+        Термоядерный реактор Mekanism — вершина энергетики: дейтерий + тритий, зажигание лазером. Безопасен, но требует всего, что ты построил раньше.
+        **Великая стройка:** «Термоядерная станция» в одноимённой главе.
+    en:
+      title: "A Star in a Box"
+      subtitle: "Fusion"
+      text: |
+        The Mekanism fusion reactor is the peak of power: deuterium + tritium, ignited by laser. Safe, but it needs everything you've built before.
+        **Great work:** «Fusion Plant» in the Great Works chapter.

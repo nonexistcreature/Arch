@@ -1,0 +1,407 @@
+{
+	id: "775CEE25F56DFD3E"
+	group: ""
+	order_index: 175
+	filename: "firearms"
+	icon: {
+		id: "tacz:modern_kinetic_gun"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "3A4404A355E47B8F"
+			x: 0.0d
+			y: -2.5d
+			shape: "gear"
+			icon: {
+				id: "tacz:modern_kinetic_gun"
+				count: 1
+			}
+			dependencies: [
+				"2EFA1764B6C5AA28"
+			]
+			tasks: [
+				{
+					id: "7C460702F8DF539C"
+					type: "item"
+					item: {
+						count: 1
+						id: "tacz:modern_kinetic_gun"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4524C8C825F00FE5"
+					type: "item"
+					item: {
+						count: 1
+						id: "tacz:target"
+					}
+				}
+			]
+		}
+		{
+			id: "68228C2E9955C382"
+			x: 1.5d
+			y: -3.75d
+			icon: {
+				id: "tacz:target"
+				count: 1
+			}
+			dependencies: [
+				"3A4404A355E47B8F"
+			]
+			tasks: [
+				{
+					id: "2DD21640E732255D"
+					type: "item"
+					item: {
+						count: 1
+						id: "tacz:target"
+					}
+				}
+			]
+		}
+		{
+			id: "0C06F2D583FF781C"
+			x: 1.5d
+			y: -2.5d
+			icon: {
+				id: "tacz:attachment"
+				count: 1
+			}
+			dependencies: [
+				"3A4404A355E47B8F"
+			]
+			tasks: [
+				{
+					id: "4272C1DBBA34D277"
+					type: "item"
+					item: {
+						count: 1
+						id: "tacz:attachment"
+					}
+				}
+			]
+		}
+		{
+			id: "4D1B1A33E90955B0"
+			x: 1.5d
+			y: -1.25d
+			icon: {
+				id: "tacz:ammo_box"
+				count: 1
+			}
+			dependencies: [
+				"3A4404A355E47B8F"
+			]
+			tasks: [
+				{
+					id: "3392D0983286CA42"
+					type: "item"
+					item: {
+						count: 1
+						id: "tacz:ammo_box"
+					}
+				}
+			]
+		}
+		{
+			id: "1F01CF3B5A2B8693"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "minecraft:crossbow"
+				count: 1
+			}
+			dependencies: [
+				"3A4404A355E47B8F"
+			]
+			tasks: [
+				{
+					id: "7768945B0051398B"
+					type: "kill"
+					entity: "minecraft:pillager"
+					value: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "37DE826C4BDDED17"
+					type: "item"
+					item: {
+						count: 16
+						id: "minecraft:gunpowder"
+					}
+				}
+			]
+		}
+		{
+			id: "6DD0F70D9DDC8C7B"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "minecraft:iron_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"1F01CF3B5A2B8693"
+			]
+			tasks: [
+				{
+					id: "29E73D4A724FB6C7"
+					type: "kill"
+					entity: "tacznpcs:npc"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "4DDC25AF5DB52DB2"
+			x: 0.0d
+			y: -1.25d
+			icon: {
+				id: "immersivepetroleum:molotov"
+				count: 1
+			}
+			dependencies: [
+				"3E617B5D12B1FC24"
+			]
+			tasks: [
+				{
+					id: "43710C55B5654215"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersivepetroleum:molotov"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "4740D6790661887D"
+			x: 0.0d
+			y: 0.0d
+			icon: {
+				id: "tfmg:flamethrower"
+				count: 1
+			}
+			dependencies: [
+				"3DEC14AC13120A77"
+			]
+			tasks: [
+				{
+					id: "1CD3AAD1FF6EF127"
+					type: "item"
+					item: {
+						count: 1
+						id: "tfmg:flamethrower"
+					}
+				}
+			]
+		}
+		{
+			id: "72E937A5DCECDADE"
+			x: 0.0d
+			y: 1.25d
+			icon: {
+				id: "createbigcannons:cannon_builder"
+				count: 1
+			}
+			dependencies: [
+				"0CFB5AA571596797"
+			]
+			tasks: [
+				{
+					id: "1D4DE3C46AF6677B"
+					type: "item"
+					item: {
+						count: 1
+						id: "createbigcannons:steel_cannon_barrel"
+					}
+				}
+			]
+		}
+		{
+			id: "78978271E0B00221"
+			x: 1.5d
+			y: 1.25d
+			icon: {
+				id: "createbigcannons:steel_autocannon_barrel"
+				count: 1
+			}
+			dependencies: [
+				"72E937A5DCECDADE"
+			]
+			tasks: [
+				{
+					id: "69EDF49AF05412FE"
+					type: "item"
+					item: {
+						count: 1
+						id: "createbigcannons:steel_autocannon_barrel"
+					}
+				}
+				{
+					id: "7A860F6E16290E4E"
+					type: "item"
+					item: {
+						count: 1
+						id: "createbigcannons:steel_autocannon_breech"
+					}
+				}
+			]
+		}
+		{
+			id: "0261EF9E1DEBACDE"
+			x: 1.5d
+			y: 2.5d
+			icon: {
+				id: "smallships:cannon"
+				count: 1
+			}
+			dependencies: [
+				"72E937A5DCECDADE"
+			]
+			tasks: [
+				{
+					id: "08C9B415F156652B"
+					type: "item"
+					item: {
+						count: 1
+						id: "smallships:cannon"
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "4334303B4E6E48AE"
+			x: 0.0d
+			y: 2.5d
+			icon: {
+				id: "immersive_aircraft:rotary_cannon"
+				count: 1
+			}
+			dependencies: [
+				"3BAC276E3AB02105"
+			]
+			tasks: [
+				{
+					id: "4FEE165A2C1C5C39"
+					type: "item"
+					item: {
+						count: 1
+						id: "immersive_aircraft:rotary_cannon"
+					}
+				}
+			]
+		}
+		{
+			id: "2BE9CE783253AEBB"
+			x: 1.5d
+			y: 3.75d
+			icon: {
+				id: "droneworks:drone_core"
+				count: 1
+			}
+			dependencies: [
+				"3A4404A355E47B8F"
+				"4B1734BD66CA871A"
+			]
+			tasks: [
+				{
+					id: "208D6865EDC4F128"
+					type: "item"
+					item: {
+						count: 1
+						id: "droneworks:drone_core"
+					}
+				}
+				{
+					id: "30D7F377F5545E60"
+					type: "item"
+					item: {
+						count: 1
+						id: "droneworks:drone_remote_control"
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3FBBFFC8B8618A30"
+					type: "item"
+					item: {
+						count: 4
+						id: "droneworks:drone_propeller"
+					}
+				}
+			]
+		}
+		{
+			id: "3569848A2294DF70"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "droneworks:drone_hub"
+				count: 1
+			}
+			dependencies: [
+				"2BE9CE783253AEBB"
+			]
+			tasks: [
+				{
+					id: "38FE6B833F2BD8D8"
+					type: "item"
+					item: {
+						count: 1
+						id: "droneworks:drone_hub"
+					}
+				}
+				{
+					id: "31A95B14D2983F6D"
+					type: "item"
+					item: {
+						count: 1
+						id: "droneworks:commander_seat"
+					}
+				}
+			]
+		}
+		{
+			id: "533A846AC076473A"
+			x: 4.5d
+			y: 0.0d
+			shape: "hexagon"
+			icon: {
+				id: "minecraft:netherite_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"6DD0F70D9DDC8C7B"
+				"78978271E0B00221"
+				"0261EF9E1DEBACDE"
+				"4334303B4E6E48AE"
+				"3569848A2294DF70"
+				"0C06F2D583FF781C"
+			]
+			tasks: [
+				{
+					id: "5AD43230F419FDFC"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "0C9E75157F4EC4E6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+	]
+}

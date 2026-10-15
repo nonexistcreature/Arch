@@ -13,7 +13,7 @@ Source format (one chapter per file):
       pos: [x, y]                  # optional, otherwise auto-layout by dependency depth
       tasks:   [{type: item, item: minecraft:stick, count: 4}, {type: checkmark}, {type: dimension, dimension: ...},
                 {type: advancement, advancement: ...}, {type: kill, entity: ..., count: 1},
-                {type: observation, block: ...} | {type: observation, entity: ...}]
+                {type: observation, block: ...} | {type: observation, entity: ...}, {type: structure, structure: ns:id}]
       rewards: [{type: item, item: ..., count: 8}, {type: xp_levels, count: 2}, {type: xp, count: 100},
                 {type: command, command: "/say hi"}]
       ru: {title, subtitle, text}
@@ -101,6 +101,8 @@ def task(t, qid, n):
         return {"id": tid, "type": "advancement", "advancement": t["advancement"], "criterion": t.get("criterion", "")}
     if k == "kill":
         return {"id": tid, "type": "kill", "entity": t["entity"], "value": L(t.get("count", 1))}
+    if k == "structure":  # stand inside a structure (dungeon, castle...) — "#ns:tag" works too
+        return {"id": tid, "type": "structure", "structure": t["structure"]}
     if k == "observation":
         if "block" in t:
             return {"id": tid, "type": "observation", "observe_type": 0, "to_observe": t["block"], "timer": L(t.get("ticks", 20))}
@@ -191,7 +193,7 @@ def main():
                 lang[loc][f"quest.{qid}.title"] = t["title"]
                 if t.get("subtitle"): lang[loc][f"quest.{qid}.quest_subtitle"] = t["subtitle"]
                 if t.get("text"): lang[loc][f"quest.{qid}.quest_desc"] = desc_lines(t["text"])
-        doc = {"id": cid, "group": "", "order_index": int(ch["order"]), "filename": ch["id"],
+        doc = {"id": cid, "group": "", "order_index": int(round(float(ch["order"]) * 10)), "filename": ch["id"],
                "icon": {"id": ch.get("icon", "minecraft:book"), "count": 1},
                "default_quest_shape": "", "default_hide_dependency_lines": False, "quests": qs}
         (OUT / "chapters" / f"{ch['id']}.snbt").write_text(snbt(doc) + "\n", "utf8", newline="\n")

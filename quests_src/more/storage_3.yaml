@@ -1,0 +1,165 @@
+extends: storage
+quests:
+  - id: ae_wut
+    deps: [ae_wireless]
+    roles: [engineer]
+    icon: ae2wtlib:wireless_universal_terminal
+    tasks: [{type: item, item: ae2wtlib:wireless_universal_terminal}]
+    ru:
+      title: "Универсальный терминал"
+      subtitle: "AE2 Wireless Terminals"
+      text: |
+        **Зачем:** вместо трёх беспроводных терминалов (предметы, крафт, шаблоны) — один. Переключение — колесом мыши.
+        **Как:** скрафти универсальный терминал и объедини с ним остальные на верстаке.
+    en:
+      title: "Universal Terminal"
+      subtitle: "AE2 Wireless Terminals"
+      text: |
+        **Why:** one terminal instead of three wireless ones (items, crafting, patterns). Switch with the mouse wheel.
+        **How:** craft the universal terminal and combine the others into it at a crafting table.
+
+  - id: ae_magnet
+    deps: [ae_wut]
+    roles: [engineer]
+    icon: ae2wtlib:magnet_card
+    tasks: [{type: item, item: ae2wtlib:magnet_card}]
+    ru:
+      title: "Магнитная карта"
+      subtitle: "Лут прямо в сеть"
+      text: |
+        Карта в терминале притягивает предметы вокруг и может сразу отправлять их в сеть ME. Шахтёр больше не возвращается домой разгружаться.
+    en:
+      title: "Magnet Card"
+      subtitle: "Loot straight into the network"
+      text: |
+        The card in your terminal pulls nearby items in and can send them straight into the ME network. Miners never walk home to unload again.
+
+  - id: ae_quantum_card
+    deps: [ae_wut]
+    roles: [engineer]
+    icon: ae2wtlib:quantum_bridge_card
+    tasks: [{type: item, item: ae2wtlib:quantum_bridge_card}]
+    ru:
+      title: "Карта квантового моста"
+      subtitle: "Терминал без границ"
+      text: |
+        Связывает терминал с сетью через квантовый мост — доступ к базе из любой точки мира и даже из других измерений.
+    en:
+      title: "Quantum Bridge Card"
+      subtitle: "A terminal without limits"
+      text: |
+        Links the terminal to your network through a quantum bridge: access your base from anywhere, even other dimensions.
+
+  - id: ae_ex_drive
+    deps: [ae_extended]
+    roles: [engineer]
+    icon: extendedae:ex_drive
+    tasks: [{type: item, item: extendedae:ex_drive}]
+    ru:
+      title: "Расширенный привод"
+      subtitle: "ExtendedAE"
+      text: |
+        Вмещает вдвое больше ячеек, чем обычный ME-привод. Меньше блоков — компактнее серверная.
+    en:
+      title: "Extended Drive"
+      subtitle: "ExtendedAE"
+      text: |
+        Holds twice as many cells as a normal ME drive. Fewer blocks, a more compact server room.
+
+  - id: ae_assembler_matrix
+    deps: [ae_ex_drive, ae_accelerator]
+    roles: [engineer]
+    icon: extendedae:assembler_matrix_frame
+    tasks: [{type: item, item: extendedae:assembler_matrix_frame, count: 8}, {type: item, item: extendedae:assembler_matrix_crafter}]
+    ru:
+      title: "Матрица сборщиков"
+      subtitle: "Сотни крафтов за раз"
+      text: |
+        Многоблочная матрица заменяет стену из молекулярных сборщиков. Автокрафт тысяч предметов перестаёт тормозить.
+    en:
+      title: "Assembler Matrix"
+      subtitle: "Hundreds of crafts at once"
+      text: |
+        A multiblock matrix replaces a wall of molecular assemblers. Autocrafting thousands of items stops lagging.
+
+  - id: ae_infinity_water
+    deps: [ae_extended]
+    roles: [engineer]
+    icon: extendedae:infinity_water_cell
+    tasks: [{type: item, item: extendedae:infinity_water_cell}]
+    ru:
+      title: "Бесконечная вода"
+      subtitle: "Ячейка-источник"
+      text: |
+        Ячейка, в которой вода никогда не кончается. Для автокрафта, где нужна вода: бетон, глина, фермы.
+    en:
+      title: "Infinite Water"
+      subtitle: "A source cell"
+      text: |
+        A cell whose water never runs out. For autocrafting that needs water: concrete, clay, farms.
+
+  - id: ae_mega_crafting
+    deps: [ae_mega]
+    roles: [engineer]
+    icon: megacells:mega_crafting_unit
+    tasks: [{type: item, item: megacells:mega_crafting_unit}, {type: item, item: megacells:1m_crafting_storage}]
+    ru:
+      title: "Мега-процессор крафта"
+      subtitle: "MEGA Cells"
+      text: |
+        Хранилища крафта 1M–256M и мега-ускорители: процессор крафта, который справится с целым реактором за один заказ.
+    en:
+      title: "MEGA Crafting CPU"
+      subtitle: "MEGA Cells"
+      text: |
+        1M–256M crafting storage and mega accelerators: a crafting CPU that handles a whole reactor in one order.
+
+  - id: ae_bulk_cell
+    deps: [ae_mega]
+    roles: [engineer]
+    icon: megacells:bulk_item_cell
+    tasks: [{type: item, item: megacells:bulk_item_cell}]
+    ru:
+      title: "Объёмная ячейка"
+      subtitle: "Один предмет — без предела"
+      text: |
+        Хранит **один** вид предмета в почти бесконечном количестве. Идеальна для булыжника, земли и руды с ферм.
+    en:
+      title: "Bulk Cell"
+      subtitle: "One item, no limit"
+      text: |
+        Stores **one** item type in nearly unlimited amounts. Perfect for cobblestone, dirt and farm ore.
+
+  - id: ae_chem_cell
+    deps: [ae_mek]
+    roles: [engineer]
+    icon: appmek:chemical_storage_cell_4k
+    tasks: [{type: item, item: appmek:chemical_storage_cell_4k}]
+    ru:
+      title: "Химия в сети"
+      subtitle: "Applied Mekanistics"
+      text: |
+        Газы и химикаты Mekanism (водород, кислород, хлор) хранятся в AE2 как предметы. Конец лабиринтам из баков и труб.
+    en:
+      title: "Chemicals in the Network"
+      subtitle: "Applied Mekanistics"
+      text: |
+        Mekanism gases and chemicals (hydrogen, oxygen, chlorine) are stored in AE2 like items. No more mazes of tanks and pipes.
+
+  - id: ae_master
+    deps: [ae_magnet, ae_quantum_card, ae_assembler_matrix, ae_infinity_water, ae_mega_crafting, ae_bulk_cell, ae_chem_cell]
+    roles: [engineer]
+    icon: ae2:controller
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards: [{type: xp_levels, count: 10}]
+    ru:
+      title: "Архитектор данных"
+      subtitle: "Вся база в одном терминале"
+      text: |
+        Сеть знает всё, крафтит всё и доступна отовсюду. Подключи соседей через общий интерфейс — пусть сервер торгует через твою сеть.
+    en:
+      title: "Data Architect"
+      subtitle: "The whole base in one terminal"
+      text: |
+        Your network knows everything, crafts everything and reaches everywhere. Connect neighbours through a shared interface so the server trades through your network.

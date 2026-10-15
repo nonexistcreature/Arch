@@ -1,7 +1,7 @@
 {
 	id: "2C295B34DEBBAD70"
 	group: ""
-	order_index: 5
+	order_index: 50
 	filename: "animals"
 	icon: {
 		id: "productivebees:bee_cage"

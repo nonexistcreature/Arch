@@ -1,0 +1,375 @@
+{
+	id: "6C18F64911A2B1CF"
+	group: ""
+	order_index: 165
+	filename: "bosses"
+	icon: {
+		id: "cataclysm:boss_respawner"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "4410202D5D65CC82"
+			x: 0.0d
+			y: -6.25d
+			shape: "gear"
+			icon: {
+				id: "minecraft:shield"
+				count: 1
+			}
+			dependencies: [
+				"576B9EB277FB4903"
+			]
+			tasks: [
+				{
+					id: "7E5B3F61FA5DF632"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "37FB2E95C58A27ED"
+					type: "item"
+					item: {
+						count: 2
+						id: "minecraft:golden_apple"
+					}
+				}
+			]
+		}
+		{
+			id: "1F2BDC9B56A66070"
+			x: 1.5d
+			y: -1.875d
+			icon: {
+				id: "minecraft:sponge"
+				count: 1
+			}
+			dependencies: [
+				"4410202D5D65CC82"
+			]
+			tasks: [
+				{
+					id: "0DD6B73DBFF49E6A"
+					type: "kill"
+					entity: "minecraft:elder_guardian"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "58F080DC55752F96"
+					type: "item"
+					item: {
+						count: 4
+						id: "minecraft:sponge"
+					}
+				}
+			]
+		}
+		{
+			id: "7FDA77FBFA63A374"
+			x: 1.5d
+			y: -0.625d
+			icon: {
+				id: "mowziesmobs:naga_fang"
+				count: 1
+			}
+			dependencies: [
+				"4410202D5D65CC82"
+			]
+			tasks: [
+				{
+					id: "73D8D6A0E17E1631"
+					type: "kill"
+					entity: "mowziesmobs:naga"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "6D48B66E9EDD2995"
+			x: 0.0d
+			y: -5.0d
+			icon: {
+				id: "cataclysm:mech_eye"
+				count: 1
+			}
+			dependencies: [
+				"20D49507FD947801"
+			]
+			tasks: [
+				{
+					id: "43C109F4C099E671"
+					type: "kill"
+					entity: "cataclysm:the_harbinger"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "28E239A318958383"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			id: "1FE4D8FDD4016F78"
+			x: 0.0d
+			y: -3.75d
+			icon: {
+				id: "cataclysm:necklace_of_the_desert"
+				count: 1
+			}
+			dependencies: [
+				"20D49507FD947801"
+			]
+			tasks: [
+				{
+					id: "1C4CBCFECAD3867C"
+					type: "kill"
+					entity: "cataclysm:ancient_remnant"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "5EB85EE4DB2B3D9C"
+			x: 0.0d
+			y: -2.5d
+			icon: {
+				id: "cataclysm:cursium_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"665F15D3591B91CB"
+			]
+			tasks: [
+				{
+					id: "55959C0E9098400F"
+					type: "kill"
+					entity: "cataclysm:maledictus"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "3EB7C64998CAB5DA"
+			x: 0.0d
+			y: -1.25d
+			icon: {
+				id: "cataclysm:ceraunus"
+				count: 1
+			}
+			dependencies: [
+				"591B863A25456EA2"
+			]
+			tasks: [
+				{
+					id: "629CB28A6776F363"
+					type: "kill"
+					entity: "cataclysm:scylla"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "770C21E123862F4E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			id: "2255F1DB63D8BF05"
+			x: 0.0d
+			y: 0.0d
+			icon: {
+				id: "undergarden:forgotten_sword"
+				count: 1
+			}
+			dependencies: [
+				"22E49A43159B2841"
+			]
+			tasks: [
+				{
+					id: "396F061B4172064C"
+					type: "kill"
+					entity: "undergarden:forgotten_guardian"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "398E5ED307D56633"
+			x: 0.0d
+			y: 1.25d
+			icon: {
+				id: "deeperdarker:warden_carapace"
+				count: 1
+			}
+			dependencies: [
+				"241D0F92C3E12524"
+			]
+			tasks: [
+				{
+					id: "68479DF670186178"
+					type: "kill"
+					entity: "minecraft:warden"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "20B722D7705666D2"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+		}
+		{
+			id: "722992FA95424743"
+			x: 1.5d
+			y: 0.625d
+			icon: {
+				id: "deeperdarker:soul_elytra"
+				count: 1
+			}
+			dependencies: [
+				"398E5ED307D56633"
+			]
+			tasks: [
+				{
+					id: "22F4D3F0325B568D"
+					type: "kill"
+					entity: "deeperdarker:stalker"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "5674AA37716E1DFD"
+			x: 0.0d
+			y: 2.5d
+			icon: {
+				id: "irons_spellbooks:fire_rune"
+				count: 1
+			}
+			dependencies: [
+				"62EC5608FBE429B5"
+			]
+			tasks: [
+				{
+					id: "64589EE85B27C830"
+					type: "kill"
+					entity: "irons_spellbooks:fire_boss"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "41A4DAE8E0472BDE"
+			x: 0.0d
+			y: 3.75d
+			icon: {
+				id: "ars_nouveau:wilden_tribute"
+				count: 1
+			}
+			dependencies: [
+				"75F214C699D14F96"
+			]
+			tasks: [
+				{
+					id: "13B05D01CF55B6B0"
+					type: "kill"
+					entity: "ars_nouveau:wilden_boss"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "0469A33BAB569676"
+			x: 0.0d
+			y: 5.0d
+			icon: {
+				id: "born_in_chaos_v1:soulbane"
+				count: 1
+			}
+			dependencies: [
+				"2D00EB21A23B01B1"
+			]
+			tasks: [
+				{
+					id: "6278E7B473A0D4F5"
+					type: "kill"
+					entity: "born_in_chaos_v1:lord_the_headless"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "176452C5B53F2D70"
+			x: 0.0d
+			y: 6.25d
+			icon: {
+				id: "aquamirae:abyssal_amethyst"
+				count: 1
+			}
+			dependencies: [
+				"38AEAB79267D768C"
+			]
+			tasks: [
+				{
+					id: "2352CC89D2F89EB2"
+					type: "kill"
+					entity: "aquamirae:maw"
+					value: 1L
+				}
+			]
+		}
+		{
+			id: "221D262C7B1A153F"
+			x: 1.5d
+			y: 1.875d
+			shape: "hexagon"
+			icon: {
+				id: "minecraft:dragon_head"
+				count: 1
+			}
+			dependencies: [
+				"6D48B66E9EDD2995"
+				"1FE4D8FDD4016F78"
+				"5EB85EE4DB2B3D9C"
+				"3EB7C64998CAB5DA"
+				"2255F1DB63D8BF05"
+				"398E5ED307D56633"
+				"5674AA37716E1DFD"
+				"41A4DAE8E0472BDE"
+			]
+			tasks: [
+				{
+					id: "6BE3AEE4C24B4E10"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "5B8D93EFFBBEE418"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "15A1FBE15C696F72"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+				}
+			]
+		}
+	]
+}

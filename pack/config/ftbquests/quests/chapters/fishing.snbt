@@ -1,7 +1,7 @@
 {
 	id: "57DD3485DB076FB1"
 	group: ""
-	order_index: 6
+	order_index: 60
 	filename: "fishing"
 	icon: {
 		id: "tide:fishing_journal"

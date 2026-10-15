@@ -1,0 +1,261 @@
+chapter:
+  id: firearms
+  order: 17.5
+  icon: tacz:modern_kinetic_gun
+  ru: {title: "Огнестрел и война", subtitle: "Стволы TaCZ, стрелки-NPC, артиллерия, дроны"}
+  en: {title: "Firearms and War", subtitle: "TaCZ guns, gunner NPCs, artillery, drones"}
+quests:
+  - id: fa_intro
+    deps: [w_gunsmith]
+    icon: tacz:modern_kinetic_gun
+    shape: gear
+    tasks: [{type: item, item: tacz:modern_kinetic_gun}]
+    rewards: [{type: item, item: tacz:target}]
+    ru:
+      title: "Первый ствол"
+      subtitle: "TaCZ"
+      text: |
+        **Что это:** TaCZ — реалистичное оружие: пистолеты, автоматы, дробовики, снайперки. Отдача, перезарядка, прицелы.
+        **Как:** стол оружейника → выбери модель → нужны сталь, порох и детали. Любой собранный ствол засчитает квест.
+        **Управление:** ПКМ — прицел, R — перезарядка, G — режим огня, H — осмотр, Z — обвес (клавиши меняются в настройках).
+        Оружие опасно и для друзей: PvP на сервере включено, следи за линией огня.
+    en:
+      title: "Your First Gun"
+      subtitle: "TaCZ"
+      text: |
+        **What:** TaCZ adds realistic guns: pistols, rifles, shotguns, snipers. Recoil, reloads, scopes.
+        **How:** gunsmith table → pick a model → you need steel, gunpowder and parts. Any gun you build completes the quest.
+        **Controls:** right click to aim, R to reload, G for fire mode, H to inspect, Z for attachments (rebindable in settings).
+        Guns hurt friends too: PvP is on, mind your line of fire.
+
+  - id: fa_range
+    deps: [fa_intro]
+    icon: tacz:target
+    tasks: [{type: item, item: tacz:target}]
+    ru:
+      title: "Тир"
+      subtitle: "Пристрелка"
+      text: |
+        Мишень показывает урон и дистанцию. Пристреляй новый ствол, прежде чем идти с ним в данж: разброс у каждой модели свой.
+    en:
+      title: "Shooting Range"
+      subtitle: "Zeroing in"
+      text: |
+        A target shows damage and distance. Zero in a new gun before taking it into a dungeon: every model has its own spread.
+
+  - id: fa_attachment
+    deps: [fa_intro]
+    icon: tacz:attachment
+    tasks: [{type: item, item: tacz:attachment}]
+    ru:
+      title: "Обвес"
+      subtitle: "Прицелы, глушители, рукояти"
+      text: |
+        Обвес меняет характеристики: глушитель скрывает выстрел от мобов, коллиматор ускоряет прицеливание, рукоять снижает отдачу.
+        Ставится в меню обвеса (клавиша Z).
+    en:
+      title: "Attachments"
+      subtitle: "Scopes, suppressors, grips"
+      text: |
+        Attachments change stats: a suppressor hides shots from mobs, a red dot speeds up aiming, a grip reduces recoil.
+        Fit them in the attachment menu (Z key).
+
+  - id: fa_ammo_box
+    deps: [fa_intro]
+    icon: tacz:ammo_box
+    tasks: [{type: item, item: tacz:ammo_box}]
+    ru:
+      title: "Патронный ящик"
+      subtitle: "Логистика войны"
+      text: |
+        Ящик хранит патроны и перезаряжает из инвентаря. **Автоматизация:** порох и гильзы можно делать на линии Create — механический крафтер собирает патроны сам.
+    en:
+      title: "Ammo Box"
+      subtitle: "The logistics of war"
+      text: |
+        The box stores ammo and reloads from your inventory. **Automation:** gunpowder and casings can come from a Create line: a mechanical crafter assembles ammo by itself.
+
+  - id: fa_gunners
+    deps: [fa_intro]
+    icon: minecraft:crossbow
+    tasks: [{type: kill, entity: minecraft:pillager, count: 5}]
+    rewards: [{type: item, item: minecraft:gunpowder, count: 16}]
+    ru:
+      title: "Стрелки иллагеров"
+      subtitle: "TaCZ NPCs"
+      text: |
+        В аванпостах, лагерях и фортах иллагеры часто носят огнестрел. Они прячутся за укрытиями и стреляют очередями, как игроки.
+        **Где:** только в диких землях — у спавна и баз стрелков нет.
+        **Лут:** иногда падает их оружие.
+    en:
+      title: "Illager Gunners"
+      subtitle: "TaCZ NPCs"
+      text: |
+        Illagers in outposts, camps and forts often carry guns. They take cover and fire bursts like players do.
+        **Where:** only in the wilds: no gunners near spawn and bases.
+        **Loot:** sometimes their gun drops.
+
+  - id: fa_mercenary
+    deps: [fa_gunners]
+    icon: minecraft:iron_chestplate
+    tasks: [{type: kill, entity: tacznpcs:npc}]
+    ru:
+      title: "Наёмник"
+      subtitle: "Вооружённый NPC"
+      text: |
+        Одиночные бойцы с полным снаряжением бродят по дальним землям. Не каждый враждебен — некоторые нейтральны, пока ты не выстрелишь первым.
+        Победи одного — и узнаешь, чем он был вооружён.
+    en:
+      title: "The Mercenary"
+      subtitle: "An armed NPC"
+      text: |
+        Lone fighters in full gear roam the far lands. Not all are hostile: some stay neutral until you shoot first.
+        Beat one and see what they carried.
+
+  - id: fa_molotov
+    deps: [ip_distill]
+    icon: immersivepetroleum:molotov
+    tasks: [{type: item, item: immersivepetroleum:molotov, count: 4}]
+    ru:
+      title: "Коктейль Молотова"
+      subtitle: "Immersive Petroleum"
+      text: |
+        Бутылка бензина с тряпкой — против толпы в данже. **Осторожно:** огонь распространяется — не кидай рядом с чужими домами.
+    en:
+      title: "Molotov Cocktail"
+      subtitle: "Immersive Petroleum"
+      text: |
+        A bottle of gasoline with a rag, for dungeon crowds. **Careful:** fire spreads: don't throw it near other people's houses.
+
+  - id: fa_tfmg_arms
+    deps: [tfmg_intro]
+    icon: tfmg:flamethrower
+    tasks: [{type: item, item: tfmg:flamethrower}]
+    ru:
+      title: "Огнемёт"
+      subtitle: "TFMG"
+      text: |
+        Огнемёт TFMG питается топливом из твоей нефтяной вышки. Рядом в TFMG — медные гранаты и картофельная пушка с напалмом.
+        **Пересечение ролей:** топливо — от нефтяника, сталь — от металлурга, а стреляет воин.
+    en:
+      title: "Flamethrower"
+      subtitle: "TFMG"
+      text: |
+        The TFMG flamethrower runs on fuel from your oil rig. TFMG also has copper grenades and a napalm potato cannon.
+        **Roles meet:** fuel from the oil worker, steel from the smelter, and the warrior pulls the trigger.
+
+  - id: fa_artillery
+    deps: [w_cannon]
+    icon: createbigcannons:cannon_builder
+    tasks: [{type: item, item: createbigcannons:steel_cannon_barrel}]
+    ru:
+      title: "Стальная артиллерия"
+      subtitle: "Create Big Cannons"
+      text: |
+        Чугунные пушки — первый шаг, стальные стволы выдерживают больше пороха и стреляют дальше. Ствол отливают в формах или строят строителем пушек.
+        **Зачем:** против Левиафана с берега, против крепостей иллагеров — и для защиты базы.
+    en:
+      title: "Steel Artillery"
+      subtitle: "Create Big Cannons"
+      text: |
+        Cast iron cannons are step one; steel barrels take more powder and fire further. Cast them in moulds or with the cannon builder.
+        **Why:** against the Leviathan from the shore, against illager forts, and for base defence.
+
+  - id: fa_autocannon
+    deps: [fa_artillery]
+    icon: createbigcannons:steel_autocannon_barrel
+    tasks: [{type: item, item: createbigcannons:steel_autocannon_barrel}, {type: item, item: createbigcannons:steel_autocannon_breech}]
+    ru:
+      title: "Автопушка"
+      subtitle: "Скорострельная"
+      text: |
+        Автопушка стреляет очередями малокалиберных снарядов — отличное ПВО для дирижабля и защита от рейдов.
+    en:
+      title: "Autocannon"
+      subtitle: "Rapid fire"
+      text: |
+        The autocannon fires bursts of small shells: great air defence for an airship and protection against raids.
+
+  - id: fa_ship_guns
+    deps: [fa_artillery]
+    icon: smallships:cannon
+    tasks: [{type: item, item: smallships:cannon, count: 2}]
+    ru:
+      title: "Бортовые пушки"
+      subtitle: "Small Ships"
+      text: |
+        Пушки ставятся на борта кораблей Small Ships. Ядра, книппели (рвут паруса) и картечь (против абордажа).
+    en:
+      title: "Ship Guns"
+      subtitle: "Small Ships"
+      text: |
+        Cannons mount on Small Ships ship sides. Cannonballs, chain shot (tears sails) and grapeshot (against boarders).
+
+  - id: fa_air_guns
+    deps: [s_biplane]
+    icon: immersive_aircraft:rotary_cannon
+    tasks: [{type: item, item: immersive_aircraft:rotary_cannon}]
+    ru:
+      title: "Пулемёт на крыле"
+      subtitle: "Immersive Aircraft"
+      text: |
+        Роторная пушка ставится на самолёт или гиродин. Есть и бомболюк — для тех, кто любит рушить крепости иллагеров сверху.
+    en:
+      title: "Wing Gun"
+      subtitle: "Immersive Aircraft"
+      text: |
+        The rotary cannon mounts on a plane or gyrodyne. There's a bomb bay too, for those who like levelling illager forts from above.
+
+  - id: fa_drone
+    deps: [fa_intro, s_physics]
+    icon: droneworks:drone_core
+    tasks: [{type: item, item: droneworks:drone_core}, {type: item, item: droneworks:drone_remote_control}]
+    rewards: [{type: item, item: droneworks:drone_propeller, count: 4}]
+    ru:
+      title: "FPV-дрон"
+      subtitle: "Create Droneworks"
+      text: |
+        **Что:** дрон, который ты собираешь сам из блоков Aeronautics: ядро дрона, пропеллеры, камера. Летаешь от первого лица через пульт.
+        **Зачем:** разведка данжей и крепостей без риска, доставка грузов, а с полезной нагрузкой — дрон-камикадзе (TNT или пушка картофеля на борту).
+        **Как:** ядро + 4 пропеллера + камера, собери на физическом сборщике и привяжи пульт.
+        ⚠ Мод молодой (альфа): сохраняй схему дрона, если он ведёт себя странно — пиши админу.
+    en:
+      title: "FPV Drone"
+      subtitle: "Create Droneworks"
+      text: |
+        **What:** a drone you build yourself from Aeronautics blocks: a drone core, propellers, a camera. Fly it first-person with a remote.
+        **Why:** scout dungeons and forts without risk, deliver cargo, and with a payload it's a kamikaze drone (TNT or a potato cannon on board).
+        **How:** core + 4 propellers + camera, assemble on a physics assembler and bind the remote.
+        ⚠ The mod is young (alpha): keep a schematic of your drone; if it misbehaves, tell the admin.
+
+  - id: fa_drone_hub
+    deps: [fa_drone]
+    icon: droneworks:drone_hub
+    tasks: [{type: item, item: droneworks:drone_hub}, {type: item, item: droneworks:commander_seat}]
+    ru:
+      title: "Командный пункт"
+      subtitle: "Несколько дронов"
+      text: |
+        Хаб дронов и кресло командира позволяют переключаться между дронами — разведчик, грузовик и ударный в одной связке.
+    en:
+      title: "Command Post"
+      subtitle: "Several drones"
+      text: |
+        A drone hub and a commander seat let you switch between drones: a scout, a hauler and a striker in one team.
+
+  - id: fa_master
+    deps: [fa_mercenary, fa_autocannon, fa_ship_guns, fa_air_guns, fa_drone_hub, fa_attachment]
+    icon: minecraft:netherite_chestplate
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards: [{type: xp_levels, count: 10}]
+    ru:
+      title: "Генерал"
+      subtitle: "Земля, вода, небо"
+      text: |
+        Пехота, флот, авиация и дроны. Самое время построить казармы (Minecolonies) и обучить стражу — твою колонию теперь не взять.
+    en:
+      title: "General"
+      subtitle: "Land, sea, sky"
+      text: |
+        Infantry, navy, air force and drones. Time to build barracks (Minecolonies) and train guards: nobody takes your colony now.

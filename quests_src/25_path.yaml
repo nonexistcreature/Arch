@@ -1,0 +1,334 @@
+chapter:
+  id: path
+  order: 0.5
+  icon: minecraft:recovery_compass
+  ru: {title: "Путь Архейвена", subtitle: "Куда идти дальше: сквозная линия через все главы"}
+  en: {title: "The Arkhaven Path", subtitle: "Where to go next: one line through every chapter"}
+quests:
+  - id: path_start
+    icon: minecraft:recovery_compass
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards: [{type: item, item: minecraft:bread, count: 8}]
+    ru:
+      title: "Как читать Путь"
+      subtitle: "Одна линия — много дорог"
+      text: |
+        **Что это:** главная линия сборки. Каждый шаг — веха, после которой открываются новые главы.
+        **Зачем:** модов сотни, и Путь показывает разумный порядок: еда → инструменты → механика → электричество → сети → атом → боссы и иные миры.
+        **Как:** выполняй шаги здесь, а подробности ищи в главе, названной в описании. Свернуть в сторону можно в любой момент: Путь не запирает остальные главы.
+    en:
+      title: "How to Read the Path"
+      subtitle: "One line, many roads"
+      text: |
+        **What:** the main line of the pack. Every step is a milestone that opens new chapters.
+        **Why:** there are hundreds of mods; the Path shows a sensible order: food → tools → machines → electricity → networks → atoms → bosses and other worlds.
+        **How:** do the steps here and read the details in the chapter named in each description. You can branch off any time: the Path never locks other chapters.
+
+  - id: path_settle
+    deps: [path_start]
+    icon: minecraft:red_bed
+    tasks: [{type: item, item: minecraft:red_bed}]
+    rewards: [{type: xp_levels, count: 2}]
+    ru:
+      title: "Осесть"
+      subtitle: "Глава «Первые шаги»"
+      text: |
+        Кровать (любого цвета, для задания — красная), сундук, приват и вейстоун — твой первый дом. Возле спавна и баз мир спокойный, сражения — по желанию в диких землях.
+        **Дальше:** «Первые шаги» научат приватить землю (Open Parties and Claims) и носить рюкзак.
+    en:
+      title: "Settle Down"
+      subtitle: "Chapter «First Steps»"
+      text: |
+        A bed, a chest, a claim and a waystone: your first home. Near spawn and bases the world is calm; fights are optional, out in the wilds.
+        **Next:** «First Steps» teaches claiming land (Open Parties and Claims) and carrying a backpack.
+
+  - id: path_food
+    deps: [path_settle]
+    icon: farmersdelight:cooking_pot
+    tasks: [{type: item, item: farmersdelight:cooking_pot}]
+    rewards: [{type: item, item: farmersdelight:tomato_seeds, count: 4}]
+    ru:
+      title: "Сытый — значит сильный"
+      subtitle: "Главы «Кухня» и «Сад»"
+      text: |
+        **Зачем:** разнообразная еда даёт бонусы к здоровью (Spice of Life), а блюда — баффы на часы игры.
+        **Как:** котёл Farmer's Delight + грядки из «Сада». Сезоны (Serene Seasons) меняют, что растёт: зимой — теплица.
+    en:
+      title: "Well Fed Means Strong"
+      subtitle: "Chapters «Kitchen» and «Garden»"
+      text: |
+        **Why:** varied food grants extra health (Spice of Life), and dishes give buffs that last for hours.
+        **How:** a Farmer's Delight cooking pot plus beds from «Garden». Seasons (Serene Seasons) change what grows: greenhouse in winter.
+
+  - id: path_iron
+    deps: [path_settle]
+    icon: minecraft:iron_pickaxe
+    tasks: [{type: item, item: minecraft:iron_pickaxe}]
+    ru:
+      title: "Железный век"
+      subtitle: "Руды, печи, первые инструменты"
+      text: |
+        Железная кирка открывает почти все руды модов: цинк (Create), осмий (Mekanism), йеллорит (Extreme Reactors), свинец и бокситы (TFMG).
+        **Совет:** зажми клавишу Ultimine, чтобы копать жилу целиком.
+    en:
+      title: "The Iron Age"
+      subtitle: "Ores, furnaces, first tools"
+      text: |
+        An iron pickaxe unlocks nearly every modded ore: zinc (Create), osmium (Mekanism), yellorite (Extreme Reactors), lead and bauxite (TFMG).
+        **Tip:** hold the Ultimine key to mine a whole vein.
+
+  - id: path_role
+    deps: [path_settle]
+    icon: minecraft:writable_book
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Выбери занятие"
+      subtitle: "Роли и умения"
+      text: |
+        Ты не обязан делать всё. **Инженер** — Create и Mekanism, **маг** — Ars Nouveau и Iron's Spells, **повар/фермер** — кухня и сад, **воин** — оружие и боссы, **мэр** — колония Minecolonies.
+        Самое интересное — на стыках: квесты с пометкой «рукопожатие» требуют помощи соседа по другой роли. Очки умений — клавиша **P**.
+    en:
+      title: "Pick a Calling"
+      subtitle: "Roles and skills"
+      text: |
+        You don't have to do everything. **Engineer**: Create and Mekanism; **mage**: Ars Nouveau and Iron's Spells; **cook/farmer**: kitchen and garden; **warrior**: weapons and bosses; **mayor**: a Minecolonies colony.
+        The best parts are where roles meet: «handshake» quests need a neighbour from another role. Skill points: **P** key.
+
+  - id: path_create
+    deps: [path_iron]
+    icon: create:andesite_casing
+    tasks: [{type: item, item: create:andesite_casing}]
+    rewards: [{type: item, item: create:andesite_alloy, count: 16}]
+    ru:
+      title: "Механика"
+      subtitle: "Глава «Create»"
+      text: |
+        **Что:** Create — вращение вместо электричества: валы, шестерни, пресс, миксер, конвейеры.
+        **Зачем:** почти вся сборка опирается на Create: еда, броня, оружие, дирижабли и даже реакторы делаются на его линиях.
+        **Как:** андезитовый сплав → корпус → водяное колесо. Удерживай **W** над блоком — Ponder покажет, как он работает.
+    en:
+      title: "Mechanics"
+      subtitle: "Chapter «Create»"
+      text: |
+        **What:** Create runs on rotation instead of electricity: shafts, cogs, press, mixer, belts.
+        **Why:** almost the whole pack leans on Create: food, armour, guns, airships and even reactors are made on its lines.
+        **How:** andesite alloy → casing → water wheel. Hold **W** over a block: Ponder shows how it works.
+
+  - id: path_brass
+    deps: [path_create]
+    icon: create:brass_ingot
+    tasks: [{type: item, item: create:brass_ingot, count: 8}]
+    ru:
+      title: "Латунь"
+      subtitle: "Ключ ко второму уровню"
+      text: |
+        Латунь (медь + цинк в нагретом миксере) открывает умные механизмы: точная сборка, деплойеры, логистика, поезда.
+        **Дальше:** «Create: дополнения» — батареи, сталь из Big Cannons, зачарование опытом.
+    en:
+      title: "Brass"
+      subtitle: "The key to tier two"
+      text: |
+        Brass (copper + zinc in a heated mixer) unlocks smart machinery: precision assembly, deployers, logistics, trains.
+        **Next:** «Create: Add-ons»: batteries, Big Cannons steel, experience enchanting.
+
+  - id: path_steel
+    deps: [path_brass]
+    icon: immersiveengineering:ingot_steel
+    tasks: [{type: item, item: immersiveengineering:ingot_steel, count: 8}]
+    ru:
+      title: "Сталь"
+      subtitle: "Глава «Сталь и нефть»"
+      text: |
+        Сталь можно получить тремя путями: коксовая печь и доменка Immersive Engineering, сталелитейка TFMG или Mekanism. Выбирай любой — Almost Unified сводит всю сталь в один слиток.
+        **Зачем:** из стали делают оружие TaCZ, корабельные пушки, реакторные корпуса и турбины.
+    en:
+      title: "Steel"
+      subtitle: "Chapter «Steel and Oil»"
+      text: |
+        Steel has three roads: the Immersive Engineering coke oven and blast furnace, the TFMG steelworks, or Mekanism. Pick any: Almost Unified turns all steel into one ingot.
+        **Why:** steel makes TaCZ guns, ship cannons, reactor casings and turbines.
+
+  - id: path_power
+    deps: [path_steel]
+    icon: mekanism:energy_tablet
+    tasks: [{type: item, item: mekanism:energy_tablet}]
+    ru:
+      title: "Электричество"
+      subtitle: "Главы «Mekanism» и «Сталь и нефть»"
+      text: |
+        Энергия (FE) питает машины Mekanism, Immersive Engineering и AE2. Генераторы Create Addition превращают вращение в ток — мост между мирами.
+        **Совет:** начни с солнечных панелей или генератора на биотопливе: они не дымят.
+    en:
+      title: "Electricity"
+      subtitle: "Chapters «Mekanism» and «Steel and Oil»"
+      text: |
+        Energy (FE) powers Mekanism, Immersive Engineering and AE2 machines. Create Addition alternators turn rotation into power: the bridge between worlds.
+        **Tip:** start with solar panels or a biofuel generator: they make no smog.
+
+  - id: path_network
+    deps: [path_power]
+    icon: ae2:controller
+    tasks: [{type: item, item: ae2:controller}]
+    ru:
+      title: "Сеть вещей"
+      subtitle: "Главы «Хранилище» и «AE2: глубже»"
+      text: |
+        **Зачем:** когда сундуков слишком много, AE2 превращает их в одну цифровую базу с поиском и автокрафтом.
+        **Как:** метеорит → прессы → процессоры → контроллер. Каналы в Arkhaven бесконечные: можно не мучиться с разводкой.
+    en:
+      title: "A Network of Things"
+      subtitle: "Chapters «Storage» and «AE2: Deeper»"
+      text: |
+        **Why:** when there are too many chests, AE2 turns them into one digital base with search and autocrafting.
+        **How:** meteorite → presses → processors → controller. Channels are unlimited in Arkhaven: no wiring headaches.
+
+  - id: path_atom
+    deps: [path_network]
+    icon: bigreactors:yellorium_ingot
+    tasks: [{type: item, item: bigreactors:yellorium_ingot, count: 4}]
+    ru:
+      title: "Атом"
+      subtitle: "Глава «Атом»"
+      text: |
+        Реакторы дают энергию для самых жадных машин: SPS, термоядерный синтез, мега-ячейки.
+        **Мягкий путь:** Extreme Reactors — без радиации и загрязнения. **Рисковый путь:** реактор деления Mekanism — мощнее, но при аварии заражает округу (только её).
+    en:
+      title: "The Atom"
+      subtitle: "Chapter «The Atom»"
+      text: |
+        Reactors power the hungriest machines: the SPS, fusion, mega cells.
+        **Gentle road:** Extreme Reactors: no radiation, no pollution. **Risky road:** the Mekanism fission reactor: stronger, but a meltdown contaminates the area (only that area).
+
+  - id: path_magic
+    deps: [path_role]
+    icon: ars_nouveau:worn_notebook
+    tasks: [{type: item, item: ars_nouveau:worn_notebook}]
+    ru:
+      title: "Магия"
+      subtitle: "Главы «Ars Nouveau», «Iron's Spells», «Оккультизм»"
+      text: |
+        Магия — параллельная ветка техники: заклинания полёта, телепорта, автоматизация фамильярами и духами.
+        Не обязана быть твоей — но маг в команде делает жизнь инженера проще (и наоборот).
+    en:
+      title: "Magic"
+      subtitle: "Chapters «Ars Nouveau», «Iron's Spells», «Occultism»"
+      text: |
+        Magic runs parallel to tech: flight and teleport spells, automation by familiars and spirits.
+        It doesn't have to be yours, but a mage on the team makes an engineer's life easier (and vice versa).
+
+  - id: path_wheels
+    deps: [path_brass]
+    icon: smallships:oak_cog
+    tasks: [{type: checkmark}]
+    ru:
+      title: "В дорогу"
+      subtitle: "Глава «Транспорт»"
+      text: |
+        Корабли (Small Ships), поезда (Steam 'n' Rails), самолёты (Immersive Aircraft), дирижабли и FPV-дроны (Aeronautics) — выбирай, как путешествовать.
+        Дальние земли — там руды, данжи и боссы.
+    en:
+      title: "Hit the Road"
+      subtitle: "Chapter «Transport»"
+      text: |
+        Ships (Small Ships), trains (Steam 'n' Rails), planes (Immersive Aircraft), airships and FPV drones (Aeronautics): choose how you travel.
+        Far lands hold ores, dungeons and bosses.
+
+  - id: path_arms
+    deps: [path_steel]
+    icon: tacz:gun_smith_table
+    tasks: [{type: item, item: tacz:gun_smith_table}]
+    ru:
+      title: "Оружие"
+      subtitle: "Главы «Оружие» и «Огнестрел»"
+      text: |
+        Стол оружейника TaCZ собирает огнестрел из стали и пороха. В бандитских крепостях и лагерях иллагеров тебя ждут стрелки с тем же оружием — и их лут.
+    en:
+      title: "Arms"
+      subtitle: "Chapters «Weapons» and «Firearms»"
+      text: |
+        The TaCZ gunsmith table builds firearms from steel and gunpowder. Bandit fortresses and illager camps hold shooters with the same guns, and their loot.
+
+  - id: path_first_boss
+    deps: [path_arms]
+    icon: minecraft:netherite_sword
+    tasks: [{type: kill, entity: twilightforest:naga}]
+    rewards: [{type: xp_levels, count: 5}]
+    ru:
+      title: "Первый босс"
+      subtitle: "Главы «Приключения» и «Боссы»"
+      text: |
+        Нага в Сумеречном лесу — честный первый босс: медленная, громкая, учит уворачиваться.
+        **Дальше:** глава «Боссы» перечисляет всех по сложности: от Наги до Левиафана.
+    en:
+      title: "The First Boss"
+      subtitle: "Chapters «Adventure» and «Bosses»"
+      text: |
+        The Naga in the Twilight Forest is a fair first boss: slow, loud, it teaches you to dodge.
+        **Next:** the «Bosses» chapter lists them all by difficulty, from the Naga to the Leviathan.
+
+  - id: path_dungeons
+    deps: [path_first_boss]
+    icon: lootr:lootr_chest
+    tasks: [{type: structure, structure: dungeons_arise:bandit_towers}]
+    ru:
+      title: "Данжи"
+      subtitle: "Глава «Данжи и постройки»"
+      text: |
+        Сундуки в данжах — личные (Lootr): каждый игрок получает свой лут, никто никого не обкрадывает.
+        Бандитские башни — хорошее начало: стрелки, ловушки, сундуки с порохом и сталью.
+    en:
+      title: "Dungeons"
+      subtitle: "Chapter «Dungeons and Structures»"
+      text: |
+        Dungeon chests are personal (Lootr): every player gets their own loot, nobody robs anybody.
+        Bandit Towers are a good start: shooters, traps, chests with gunpowder and steel.
+
+  - id: path_worlds
+    deps: [path_first_boss]
+    icon: minecraft:ender_eye
+    tasks: [{type: dimension, dimension: aether:the_aether}]
+    ru:
+      title: "Иные миры"
+      subtitle: "Глава «Иные миры»"
+      text: |
+        Эфир наверху, Подсад внизу, Улей пчёл, Другая сторона за Варденом, Край — у каждого мира свои руды и боссы.
+    en:
+      title: "Other Worlds"
+      subtitle: "Chapter «Other Worlds»"
+      text: |
+        The Aether above, the Undergarden below, the Bumblezone, the Otherside past the Warden, the End: every world has its own ores and bosses.
+
+  - id: path_city
+    deps: [path_role]
+    icon: minecolonies:supplycampdeployer
+    tasks: [{type: item, item: minecolonies:supplycampdeployer}]
+    ru:
+      title: "Город"
+      subtitle: "Глава «Город»"
+      text: |
+        Колония Minecolonies работает за тебя: строители, фермеры, шахтёры. Она кормится твоими ресурсами и возвращает их сторицей.
+    en:
+      title: "A Town"
+      subtitle: "Chapter «Town»"
+      text: |
+        A Minecolonies colony works for you: builders, farmers, miners. It eats your resources and returns them many times over.
+
+  - id: path_great
+    deps: [path_atom, path_dungeons, path_worlds, path_city, path_magic, path_food, path_wheels]
+    icon: minecraft:nether_star
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards: [{type: xp_levels, count: 10}]
+    ru:
+      title: "Великие стройки"
+      subtitle: "Глава «Великие стройки»"
+      text: |
+        Ты прошёл все дороги. Финал — общие проекты сервера: цитадель в небе, термоядерная станция, заповедник, город.
+        Это не гонка: великие стройки делаются вместе и за месяцы.
+    en:
+      title: "Great Works"
+      subtitle: "Chapter «Great Works»"
+      text: |
+        You've walked every road. The finale: the server's shared projects: a sky citadel, a fusion plant, a nature reserve, a city.
+        It isn't a race: great works are built together, over months.

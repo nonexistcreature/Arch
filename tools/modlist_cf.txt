@@ -3,7 +3,6 @@ ftb-ultimine-forge | 1 | вейнмайнер
 ftb-xmod-compat | 1 | совместимость
 spice-of-life-carrot-edition | 2 | еда
 the-twilight-forest | 2 | измерение
-tacz-1-21-1 | 7 | огнестрел
 immersive-engineering | 5 | мультиблоки
 applied-energistics-2-wireless-terminals | 5 | терминалы
 ars-elemental | 6 | магия

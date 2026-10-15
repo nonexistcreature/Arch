@@ -15,7 +15,10 @@ import net.neoforged.neoforge.event.server.ServerStartedEvent;
 /**
  * Everyone starts on dry land, whatever their origin or class (owner's rule):
  * - on server start the world spawn is moved out of water onto the nearest dry, non-ocean surface;
- * - first login and every respawn without a bed/anchor put the player on that spot in the overworld.
+ * - first login and respawn without a bed/anchor: a player already standing on dry land is left alone
+ *   (vanilla's spot, or wherever NeoOrigins put them); only a player in water / over nothing solid is moved,
+ *   to the nearest dry land around THEM. Earlier versions always snapped to the world spawn and searched rings
+ *   from it, moving players up to 256 blocks away from a perfectly fine spot (snow, slabs, leaves failed the check).
  */
 public final class LandSpawn {
     private static final String FIRST_JOIN_TAG = "arkhaven_landed";
@@ -47,14 +50,40 @@ public final class LandSpawn {
         if (!(event.getEntity() instanceof ServerPlayer p)) return;
         if (p.getTags().contains(FIRST_JOIN_TAG)) return;
         p.addTag(FIRST_JOIN_TAG);
-        toSpawn(p);
+        rescueIfWet(p);
     }
 
     @SubscribeEvent
     public static void onRespawn(PlayerEvent.PlayerRespawnEvent event) {
         if (event.isEndConquered() || !(event.getEntity() instanceof ServerPlayer p)) return;
         if (p.getRespawnPosition() != null) return; // has a bed / anchor: vanilla handles it
-        toSpawn(p);
+        rescueIfWet(p);
+    }
+
+    /** Leave the player where they are unless they stand in water / over nothing solid; then the nearest land around them. */
+    static void rescueIfWet(ServerPlayer p) {
+        ServerLevel level = p.serverLevel();
+        BlockPos at = p.blockPosition();
+        if (isSafeStanding(level, at)) return;
+        BlockPos land = findLand(level, at, 256);
+        if (land == null) {
+            if (level == p.server.overworld()) toSpawn(p);
+            return;
+        }
+        ArkhavenCore.LOG.info("{} appeared in water/unsafe at {}; moved to dry land at {}", p.getGameProfile().getName(), at, land);
+        p.teleportTo(level, land.getX() + 0.5, land.getY(), land.getZ() + 0.5, p.getYRot(), p.getXRot());
+        p.setAirSupply(p.getMaxAirSupply());
+    }
+
+    /** Lenient check of the exact spot: no fluid at feet/head, and something with collision within 3 blocks below. */
+    public static boolean isSafeStanding(ServerLevel level, BlockPos feet) {
+        if (!level.getFluidState(feet).isEmpty() || !level.getFluidState(feet.above()).isEmpty()) return false;
+        for (int dy = 1; dy <= 3; dy++) { // right after placement the player may hover a block or two above ground
+            BlockPos below = feet.below(dy);
+            if (!level.getFluidState(below).isEmpty()) return false;
+            if (!level.getBlockState(below).getCollisionShape(level, below).isEmpty()) return true;
+        }
+        return false;
     }
 
     public static void toSpawn(ServerPlayer p) {
@@ -92,8 +121,6 @@ public final class LandSpawn {
                     if (biome.is(BiomeTags.IS_OCEAN) || biome.is(BiomeTags.IS_DEEP_OCEAN)) continue;
                     if (++loads > 48) return null;
                     BlockPos top = level.getHeightmapPos(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, p);
-                    ArkhavenCore.LOG.info("land candidate {} biome {} top {} block {} fluid {}", p, biome.unwrapKey().map(Object::toString).orElse("?"), top,
-                            level.getBlockState(top.below()), level.getFluidState(top.below()).getType());
                     if (isDryLand(level, p)) return top;
                 }
             }

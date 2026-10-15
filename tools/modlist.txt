@@ -221,3 +221,9 @@ packet-fixer | 1 | большие пакеты
 particle-core | 1 | FPS частицы
 fast-paintings | 1 | FPS картины
 flerovium | 1 | FPS предметы в GUI
+# --- wave 11: owner's wishlist (guns NPCs, drones, reactors, ships)
+tacz-1.21.1 | 11 | огнестрел (перенесён с CurseForge на Modrinth)
+tacz-npcs | 11 | стрелки-NPC: враги в опасных зонах, лут
+create-droneworks-simulated | 11 | FPV-дроны на физике Aeronautics [beta]
+extreme-reactors | 11 | реакторы (Big Reactors) без загрязнения
+small-ships | 11 | парусные корабли с пушками

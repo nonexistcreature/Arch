@@ -1,0 +1,255 @@
+chapter:
+  id: brewery
+  order: 3.5
+  icon: brewinandchewin:tankard
+  ru: {title: "Пивоварня и винокурня", subtitle: "Пиво, вино, ром и водка — с баффами и умеренностью"}
+  en: {title: "Brewery and Winery", subtitle: "Beer, wine, rum and vodka: with buffs, in moderation"}
+quests:
+  - id: br_intro
+    deps: [k_brewin_keg]
+    icon: brewinandchewin:keg
+    shape: gear
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Как здесь пьют"
+      subtitle: "Brewin' and Chewin', Vinery, Herbal Brews"
+      text: |
+        **Что:** напитки варят в кеге (Brewin' and Chewin'), вино выдерживают в бочках (Vinery), чай и кофе — в чайнике (Herbal Brews, Farmer's Respite).
+        **Зачем:** каждый напиток даёт свой бафф (смотри подсказку предмета): сила, сопротивление, скорость, тепло зимой.
+        **Опьянение:** крепкое даёт эффект «Навеселе» — пара кружек бодрит, а много — шатает камеру. Знай меру.
+        **Совет:** у кега есть температура: одни напитки бродят в тепле (огонь, греющая бочка), другие — в холоде (ледяной ящик). Нужная — в рецепте EMI.
+    en:
+      title: "How Drinking Works Here"
+      subtitle: "Brewin' and Chewin', Vinery, Herbal Brews"
+      text: |
+        **What:** drinks are brewed in a keg (Brewin' and Chewin'), wine is aged in barrels (Vinery), tea and coffee in a kettle (Herbal Brews, Farmer's Respite).
+        **Why:** every drink grants its own buff (see the item tooltip): strength, resistance, speed, warmth in winter.
+        **Tipsiness:** strong drinks make you Tipsy: a couple of mugs perk you up, too many sway the camera. Know your limit.
+        **Tip:** a keg has a temperature: some drinks ferment warm (fire, heating cask), others cold (ice crate). The recipe in EMI shows which.
+
+  - id: br_tankard
+    deps: [br_intro]
+    icon: brewinandchewin:tankard
+    tasks: [{type: item, item: brewinandchewin:tankard, count: 4}]
+    ru:
+      title: "Кружки"
+      subtitle: "Без тары не нальют"
+      text: |
+        Напитки из кега разливают в кружки. Держи стопку — и для себя, и для гостей таверны.
+    en:
+      title: "Tankards"
+      subtitle: "No mug, no drink"
+      text: |
+        Keg drinks are poured into tankards. Keep a stack, for yourself and for tavern guests.
+
+  - id: br_stout
+    deps: [br_tankard]
+    icon: brewinandchewin:steel_toe_stout
+    tasks: [{type: item, item: brewinandchewin:steel_toe_stout}]
+    ru:
+      title: "Стаут «Стальной носок»"
+      subtitle: "Напиток шахтёра"
+      text: |
+        Тёмное пиво для тех, кто работает руками. Бафф защищает в шахте — посмотри, какой именно, в подсказке.
+    en:
+      title: "Steel Toe Stout"
+      subtitle: "A miner's drink"
+      text: |
+        Dark beer for those who work with their hands. Its buff helps in the mine: check the tooltip for which one.
+
+  - id: br_ale
+    deps: [br_tankard]
+    icon: brewinandchewin:strongroot_ale
+    tasks: [{type: item, item: brewinandchewin:strongroot_ale}]
+    ru:
+      title: "Эль «Крепкий корень»"
+      subtitle: "Напиток воина"
+      text: |
+        Варится с корнеплодами — перед боем с боссом выпей кружку, вместе с блюдом из «Кухни».
+    en:
+      title: "Strongroot Ale"
+      subtitle: "A warrior's drink"
+      text: |
+        Brewed with root vegetables: drink a mug before a boss fight, together with a dish from «Kitchen».
+
+  - id: br_rum
+    deps: [br_tankard]
+    icon: brewinandchewin:saccharine_rum
+    tasks: [{type: item, item: brewinandchewin:saccharine_rum}]
+    ru:
+      title: "Сахарный ром"
+      subtitle: "Напиток моряка"
+      text: |
+        Ром из сахарного тростника — без него не выходит в море ни один капитан Small Ships.
+    en:
+      title: "Saccharine Rum"
+      subtitle: "A sailor's drink"
+      text: |
+        Rum from sugar cane: no Small Ships captain sets sail without it.
+
+  - id: br_vodka
+    deps: [br_rum]
+    icon: brewinandchewin:vodka
+    tasks: [{type: item, item: brewinandchewin:vodka}]
+    ru:
+      title: "Водка"
+      subtitle: "Крепкая"
+      text: |
+        Из картофеля. Крепкая — пей понемногу, а бафф смотри в подсказке.
+    en:
+      title: "Vodka"
+      subtitle: "Strong stuff"
+      text: |
+        Made from potatoes. Strong: sip it, and check the tooltip for its buff.
+
+  - id: br_bloody_mary
+    deps: [br_vodka]
+    icon: brewinandchewin:bloody_mary
+    tasks: [{type: item, item: brewinandchewin:bloody_mary}]
+    ru:
+      title: "Кровавая Мэри"
+      subtitle: "Коктейль"
+      text: |
+        Водка + томаты из «Сада». Первый коктейль — для бара в таверне.
+    en:
+      title: "Bloody Mary"
+      subtitle: "A cocktail"
+      text: |
+        Vodka + tomatoes from «Garden». Your first cocktail, for the tavern bar.
+
+  - id: br_rice_wine
+    deps: [br_tankard, k_rice]
+    icon: brewinandchewin:rice_wine
+    tasks: [{type: item, item: brewinandchewin:rice_wine}]
+    ru:
+      title: "Рисовое вино"
+      subtitle: "Из риса Farmer's Delight"
+      text: |
+        Рис с рисового поля — в кег. Пересечение «Сада» и «Пивоварни»: без фермера не выйдет.
+    en:
+      title: "Rice Wine"
+      subtitle: "From Farmer's Delight rice"
+      text: |
+        Rice from your paddy goes into the keg. «Garden» meets «Brewery»: no farmer, no wine.
+
+  - id: br_heating_cask
+    deps: [br_intro]
+    icon: brewinandchewin:heating_cask
+    tasks: [{type: item, item: brewinandchewin:heating_cask}]
+    ru:
+      title: "Греющая бочка"
+      subtitle: "Тепло для кега"
+      text: |
+        Источник тепла для кега: напитки, которым нужно тепло, бродят даже зимой. Для холодных — ледяной ящик.
+    en:
+      title: "Heating Cask"
+      subtitle: "Warmth for the keg"
+      text: |
+        A heat source for the keg: warm-brewed drinks ferment even in winter. For cold ones, use an ice crate.
+
+  - id: br_cheese_wheel
+    deps: [br_intro]
+    icon: brewinandchewin:flaxen_cheese_wheel
+    tasks: [{type: item, item: brewinandchewin:flaxen_cheese_wheel}]
+    ru:
+      title: "Головка сыра"
+      subtitle: "Тоже бродит"
+      text: |
+        Сыр Brewin' and Chewin' зреет в кеге, как пиво. Нарезанный — лучшая закуска к элю.
+    en:
+      title: "Cheese Wheel"
+      subtitle: "It ferments too"
+      text: |
+        Brewin' and Chewin' cheese matures in the keg like beer. Sliced, it's the best snack for ale.
+
+  - id: br_wine_box
+    deps: [k_vinery_barrel]
+    icon: vinery:wine_box
+    tasks: [{type: item, item: vinery:wine_box}]
+    ru:
+      title: "Винный ящик"
+      subtitle: "Vinery: выдержка"
+      text: |
+        Вино Vinery становится лучше со временем: чем дольше бутылка лежит, тем сильнее её эффект. Ящик хранит бутылки и показывает год урожая.
+    en:
+      title: "Wine Box"
+      subtitle: "Vinery: ageing"
+      text: |
+        Vinery wine improves with time: the longer a bottle rests, the stronger its effect. The box stores bottles and shows the vintage.
+
+  - id: br_cider
+    deps: [k_vinery_press]
+    icon: vinery:apple_cider
+    tasks: [{type: item, item: vinery:apple_cider}]
+    ru:
+      title: "Яблочный сидр"
+      subtitle: "Из пресса Vinery"
+      text: |
+        Яблоки в пресс, сок в бочку — получится сидр. Яблоки растут на деревьях Let's Do — посади сад.
+    en:
+      title: "Apple Cider"
+      subtitle: "From the Vinery press"
+      text: |
+        Apples into the press, juice into the barrel: cider. Apples grow on Let's Do trees: plant an orchard.
+
+  - id: br_eiswein
+    deps: [br_wine_box]
+    icon: vinery:eiswein
+    tasks: [{type: item, item: vinery:eiswein}]
+    ru:
+      title: "Ледяное вино"
+      subtitle: "Редкое вино"
+      text: |
+        Айсвайн — редкое и дорогое вино Vinery. Рецепт и нужный сорт винограда — в EMI.
+    en:
+      title: "Eiswein"
+      subtitle: "A rare wine"
+      text: |
+        Eiswein is a rare, pricey Vinery wine. The recipe and grape variety are in EMI.
+
+  - id: br_tea_kettle
+    deps: [br_intro]
+    icon: herbalbrews:copper_tea_kettle
+    tasks: [{type: item, item: herbalbrews:copper_tea_kettle}]
+    ru:
+      title: "Медный чайник"
+      subtitle: "Herbal Brews"
+      text: |
+        Безалкогольная ветка: зелёный, улун, ройбуш, мате, гибискус, лавандовый чай — каждый со своим баффом. Кофе бодрит и ускоряет работу.
+    en:
+      title: "Copper Tea Kettle"
+      subtitle: "Herbal Brews"
+      text: |
+        The alcohol-free branch: green, oolong, rooibos, mate, hibiscus and lavender tea, each with its own buff. Coffee perks you up and speeds up work.
+
+  - id: br_hot_chocolate
+    deps: [c_chocolate]
+    icon: create_confectionery:hot_chocolate_bottle
+    tasks: [{type: item, item: create_confectionery:hot_chocolate_bottle}]
+    ru:
+      title: "Горячий шоколад"
+      subtitle: "Create Confectionery"
+      text: |
+        Шоколад из миксера Create — в бутылку. Восстанавливает силы без опьянения. Дети колонии оценят.
+    en:
+      title: "Hot Chocolate"
+      subtitle: "Create Confectionery"
+      text: |
+        Chocolate from a Create mixer, bottled. Restores you without tipsiness. The colony kids will love it.
+
+  - id: br_master
+    deps: [br_stout, br_ale, br_bloody_mary, br_rice_wine, br_eiswein, br_cider, br_tea_kettle, br_hot_chocolate, br_cheese_wheel, br_heating_cask]
+    icon: brewinandchewin:keg
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards: [{type: xp_levels, count: 6}]
+    ru:
+      title: "Хозяин таверны"
+      subtitle: "Барная карта готова"
+      text: |
+        Пиво, вино, крепкое, чай и шоколад. Открой таверну (Minecolonies или своя постройка) — пусть игроки после похода идут к тебе.
+    en:
+      title: "Tavern Keeper"
+      subtitle: "The drinks menu is ready"
+      text: |
+        Beer, wine, spirits, tea and chocolate. Open a tavern (Minecolonies or your own build) so players come to you after an expedition.

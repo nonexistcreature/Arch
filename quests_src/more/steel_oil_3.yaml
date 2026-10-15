@@ -1,0 +1,117 @@
+extends: steel_oil
+quests:
+  - id: tfmg_coke
+    deps: [tfmg_intro]
+    roles: [engineer]
+    icon: tfmg:coke_oven
+    tasks: [{type: item, item: tfmg:coke_oven}]
+    ru:
+      title: "Коксовая печь TFMG"
+      subtitle: "Create: The Factory Must Grow"
+      text: |
+        **Что:** TFMG — тяжёлая промышленность на Create: кокс, сталь, нефть, пластик, электрика.
+        **Зачем кокс:** без него нет стали TFMG. Коксовая печь собирается из блоков, дым — на улицу (следи за смогом, глава «Стихии»).
+    en:
+      title: "TFMG Coke Oven"
+      subtitle: "Create: The Factory Must Grow"
+      text: |
+        **What:** TFMG is heavy industry on Create: coke, steel, oil, plastic, electrics.
+        **Why coke:** no coke, no TFMG steel. The coke oven is a multiblock; vent the smoke outside (watch the smog, «Elements» chapter).
+
+  - id: tfmg_aluminum
+    deps: [tfmg_steel]
+    roles: [engineer]
+    icon: tfmg:bauxite
+    tasks: [{type: item, item: tfmg:bauxite, count: 16}]
+    ru:
+      title: "Бокситы"
+      subtitle: "Путь к алюминию"
+      text: |
+        Бокситы — руда алюминия. Алюминиевые трубы и шестерни легче и пропускают больше, чем медь и андезит.
+    en:
+      title: "Bauxite"
+      subtitle: "The road to aluminium"
+      text: |
+        Bauxite is aluminium ore. Aluminium pipes and cogs are lighter and carry more than copper and andesite.
+
+  - id: tfmg_concrete
+    deps: [tfmg_coke]
+    roles: [engineer, builder]
+    icon: tfmg:rebar_concrete
+    tasks: [{type: item, item: tfmg:rebar_concrete, count: 16}]
+    ru:
+      title: "Железобетон"
+      subtitle: "Для настоящих заводов"
+      text: |
+        Бетон с арматурой выдерживает взрывы лучше камня. Фундамент для реактора или порохового склада.
+    en:
+      title: "Reinforced Concrete"
+      subtitle: "For real factories"
+      text: |
+        Concrete with rebar withstands blasts better than stone. A foundation for a reactor or a powder store.
+
+  - id: tfmg_circuit
+    deps: [tfmg_plastic]
+    roles: [engineer]
+    icon: tfmg:circuit_board
+    tasks: [{type: item, item: tfmg:circuit_board}]
+    ru:
+      title: "Печатная плата"
+      subtitle: "Электроника TFMG"
+      text: |
+        Пластик + медь → плата. Из плат — электромоторы, транзисторы, светофоры. Электрическая ветка TFMG.
+    en:
+      title: "Circuit Board"
+      subtitle: "TFMG electronics"
+      text: |
+        Plastic + copper → a board. Boards make electric motors, transistors, traffic lights: the TFMG electric branch.
+
+  - id: tfmg_motor
+    deps: [tfmg_circuit]
+    roles: [engineer]
+    icon: tfmg:electric_motor
+    tasks: [{type: item, item: tfmg:electric_motor}]
+    ru:
+      title: "Электромотор TFMG"
+      subtitle: "Ток → вращение"
+      text: |
+        Мотор крутит валы Create от электричества — питай завод от реактора, а не от ветряков.
+    en:
+      title: "TFMG Electric Motor"
+      subtitle: "Power → rotation"
+      text: |
+        The motor turns Create shafts from electricity: run your factory off a reactor instead of windmills.
+
+  - id: tfmg_pumpjack
+    deps: [tfmg_engine]
+    roles: [engineer]
+    icon: tfmg:large_pumpjack_hammer_part
+    tasks: [{type: item, item: tfmg:large_pumpjack_hammer_part}]
+    ru:
+      title: "Станок-качалка"
+      subtitle: "Нефть TFMG"
+      text: |
+        Качалка TFMG выкачивает нефть из залежей под землёй — тот же источник, что у Immersive Petroleum, но на механике Create.
+    en:
+      title: "Pumpjack"
+      subtitle: "TFMG oil"
+      text: |
+        The TFMG pumpjack draws oil from deposits underground: the same resource as Immersive Petroleum, but on Create mechanics.
+
+  - id: tfmg_master
+    deps: [tfmg_aluminum, tfmg_concrete, tfmg_motor, tfmg_pumpjack]
+    roles: [engineer]
+    icon: tfmg:steel_casing
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards: [{type: xp_levels, count: 8}]
+    ru:
+      title: "Индустриализация"
+      subtitle: "Завод должен расти"
+      text: |
+        Кокс, сталь, алюминий, бетон, пластик и электроника. Помни про смог: фильтры и деревья вокруг завода держат небо чистым.
+    en:
+      title: "Industrialisation"
+      subtitle: "The factory must grow"
+      text: |
+        Coke, steel, aluminium, concrete, plastic and electronics. Mind the smog: filters and trees around the plant keep the sky clear.

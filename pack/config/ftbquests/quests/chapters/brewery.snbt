@@ -1,0 +1,378 @@
+{
+	id: "6B2FA039D6C53884"
+	group: ""
+	order_index: 35
+	filename: "brewery"
+	icon: {
+		id: "brewinandchewin:tankard"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "5486FB52402473EA"
+			x: 0.0d
+			y: -1.875d
+			shape: "gear"
+			icon: {
+				id: "brewinandchewin:keg"
+				count: 1
+			}
+			dependencies: [
+				"17AC84486D9AD8A3"
+			]
+			tasks: [
+				{
+					id: "7C23305619B6E636"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "7DD48C8425292F88"
+			x: 1.5d
+			y: -2.5d
+			icon: {
+				id: "brewinandchewin:tankard"
+				count: 1
+			}
+			dependencies: [
+				"5486FB52402473EA"
+			]
+			tasks: [
+				{
+					id: "127A4D38BA6FE5EE"
+					type: "item"
+					item: {
+						count: 1
+						id: "brewinandchewin:tankard"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "50F75DDCB799AF7E"
+			x: 3.0d
+			y: -1.875d
+			icon: {
+				id: "brewinandchewin:steel_toe_stout"
+				count: 1
+			}
+			dependencies: [
+				"7DD48C8425292F88"
+			]
+			tasks: [
+				{
+					id: "4603E68CFCA17F7A"
+					type: "item"
+					item: {
+						count: 1
+						id: "brewinandchewin:steel_toe_stout"
+					}
+				}
+			]
+		}
+		{
+			id: "32CE37C4439EBF06"
+			x: 3.0d
+			y: -0.625d
+			icon: {
+				id: "brewinandchewin:strongroot_ale"
+				count: 1
+			}
+			dependencies: [
+				"7DD48C8425292F88"
+			]
+			tasks: [
+				{
+					id: "1F3EC1F0174CE415"
+					type: "item"
+					item: {
+						count: 1
+						id: "brewinandchewin:strongroot_ale"
+					}
+				}
+			]
+		}
+		{
+			id: "62B9319C01B84D25"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "brewinandchewin:saccharine_rum"
+				count: 1
+			}
+			dependencies: [
+				"7DD48C8425292F88"
+			]
+			tasks: [
+				{
+					id: "27225A9C719E1CC2"
+					type: "item"
+					item: {
+						count: 1
+						id: "brewinandchewin:saccharine_rum"
+					}
+				}
+			]
+		}
+		{
+			id: "091CA59FFEDBA284"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "brewinandchewin:vodka"
+				count: 1
+			}
+			dependencies: [
+				"62B9319C01B84D25"
+			]
+			tasks: [
+				{
+					id: "7F3035B4ECBA7E40"
+					type: "item"
+					item: {
+						count: 1
+						id: "brewinandchewin:vodka"
+					}
+				}
+			]
+		}
+		{
+			id: "6910FEE1E367ED56"
+			x: 6.0d
+			y: 0.0d
+			icon: {
+				id: "brewinandchewin:bloody_mary"
+				count: 1
+			}
+			dependencies: [
+				"091CA59FFEDBA284"
+			]
+			tasks: [
+				{
+					id: "671BEDF4020998FF"
+					type: "item"
+					item: {
+						count: 1
+						id: "brewinandchewin:bloody_mary"
+					}
+				}
+			]
+		}
+		{
+			id: "07CB93262CD3754E"
+			x: 3.0d
+			y: 1.875d
+			icon: {
+				id: "brewinandchewin:rice_wine"
+				count: 1
+			}
+			dependencies: [
+				"7DD48C8425292F88"
+				"559D4C6BCF8BCEB9"
+			]
+			tasks: [
+				{
+					id: "44BD64F28E7E9709"
+					type: "item"
+					item: {
+						count: 1
+						id: "brewinandchewin:rice_wine"
+					}
+				}
+			]
+		}
+		{
+			id: "65E7D3DC2B1E7814"
+			x: 1.5d
+			y: -1.25d
+			icon: {
+				id: "brewinandchewin:heating_cask"
+				count: 1
+			}
+			dependencies: [
+				"5486FB52402473EA"
+			]
+			tasks: [
+				{
+					id: "30E9C368893FD000"
+					type: "item"
+					item: {
+						count: 1
+						id: "brewinandchewin:heating_cask"
+					}
+				}
+			]
+		}
+		{
+			id: "61EBEE973BA8D5C1"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "brewinandchewin:flaxen_cheese_wheel"
+				count: 1
+			}
+			dependencies: [
+				"5486FB52402473EA"
+			]
+			tasks: [
+				{
+					id: "02224E004DDFE724"
+					type: "item"
+					item: {
+						count: 1
+						id: "brewinandchewin:flaxen_cheese_wheel"
+					}
+				}
+			]
+		}
+		{
+			id: "191DFF76FFDB55DB"
+			x: 0.0d
+			y: -0.625d
+			icon: {
+				id: "vinery:wine_box"
+				count: 1
+			}
+			dependencies: [
+				"54B6204A21417774"
+			]
+			tasks: [
+				{
+					id: "6076E2EE2CEC0C34"
+					type: "item"
+					item: {
+						count: 1
+						id: "vinery:wine_box"
+					}
+				}
+			]
+		}
+		{
+			id: "5EEBE11F73184DB4"
+			x: 0.0d
+			y: 0.625d
+			icon: {
+				id: "vinery:apple_cider"
+				count: 1
+			}
+			dependencies: [
+				"45AAADFE7F430492"
+			]
+			tasks: [
+				{
+					id: "3E91B1BE4F2E6BFE"
+					type: "item"
+					item: {
+						count: 1
+						id: "vinery:apple_cider"
+					}
+				}
+			]
+		}
+		{
+			id: "7DECAA9F406D6656"
+			x: 1.5d
+			y: 1.25d
+			icon: {
+				id: "vinery:eiswein"
+				count: 1
+			}
+			dependencies: [
+				"191DFF76FFDB55DB"
+			]
+			tasks: [
+				{
+					id: "2CEA8B0749A5AD64"
+					type: "item"
+					item: {
+						count: 1
+						id: "vinery:eiswein"
+					}
+				}
+			]
+		}
+		{
+			id: "6FE0B5D606E2BDD2"
+			x: 1.5d
+			y: 2.5d
+			icon: {
+				id: "herbalbrews:copper_tea_kettle"
+				count: 1
+			}
+			dependencies: [
+				"5486FB52402473EA"
+			]
+			tasks: [
+				{
+					id: "5CF4F96CC560DAC5"
+					type: "item"
+					item: {
+						count: 1
+						id: "herbalbrews:copper_tea_kettle"
+					}
+				}
+			]
+		}
+		{
+			id: "427DBC1360C65E19"
+			x: 0.0d
+			y: 1.875d
+			icon: {
+				id: "create_confectionery:hot_chocolate_bottle"
+				count: 1
+			}
+			dependencies: [
+				"626D50B98EDCF165"
+			]
+			tasks: [
+				{
+					id: "72F8AF873DA06ACE"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_confectionery:hot_chocolate_bottle"
+					}
+				}
+			]
+		}
+		{
+			id: "0E78C4B235C0F0A3"
+			x: 7.5d
+			y: 0.0d
+			shape: "hexagon"
+			icon: {
+				id: "brewinandchewin:keg"
+				count: 1
+			}
+			dependencies: [
+				"50F75DDCB799AF7E"
+				"32CE37C4439EBF06"
+				"6910FEE1E367ED56"
+				"07CB93262CD3754E"
+				"7DECAA9F406D6656"
+				"5EEBE11F73184DB4"
+				"6FE0B5D606E2BDD2"
+				"427DBC1360C65E19"
+				"61EBEE973BA8D5C1"
+				"65E7D3DC2B1E7814"
+			]
+			tasks: [
+				{
+					id: "09B4DBCAA05C10A5"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "36707CBA0FB6D888"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+		}
+	]
+}

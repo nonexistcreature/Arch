@@ -1,7 +1,7 @@
 {
 	id: "6F2A8A724E748B44"
 	group: ""
-	order_index: 15
+	order_index: 150
 	filename: "alchemy"
 	icon: {
 		id: "minecraft:brewing_stand"

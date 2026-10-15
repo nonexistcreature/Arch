@@ -1,0 +1,13 @@
+name = "Create: Droneworks Simulated"
+filename = "droneworks-0.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MUCGQaGv/versions/qdoPpTVX/droneworks-0.1.1.jar"
+hash-format = "sha512"
+hash = "512d8d5f5c4b17afc265aebcb35059fe89d7473bd6a2b7c2d0530837df2df304fa1c97e78907d28b47b123b4bd91b237cea33f06a73a7814f5b545bf5d945bb6"
+
+[update]
+[update.modrinth]
+mod-id = "MUCGQaGv"
+version = "qdoPpTVX"

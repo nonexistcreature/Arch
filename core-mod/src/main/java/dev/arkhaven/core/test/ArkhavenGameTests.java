@@ -72,4 +72,21 @@ public final class ArkhavenGameTests {
         if (reason == null) h.fail("director would run with no players online");
         h.succeed();
     }
+
+    /** LandSpawn leaves players on any solid footing (snow layer, slab, leaves) and only rescues them from water. */
+    @GameTest(template = "empty", timeoutTicks = 20)
+    public static void landSpawnSafeStanding(GameTestHelper h) {
+        var lvl = h.getLevel();
+        Object[][] cases = {{Blocks.SNOW, true}, {Blocks.OAK_SLAB, true}, {Blocks.OAK_LEAVES, true}, {Blocks.GRASS_BLOCK, true}, {Blocks.WATER, false}};
+        int x = 0;
+        for (Object[] c : cases) {
+            BlockPos ground = new BlockPos(x, 1, 2);
+            h.setBlock(ground, (net.minecraft.world.level.block.Block) c[0]);
+            if (c[0] == Blocks.WATER) h.setBlock(ground.above(), Blocks.WATER);
+            boolean safe = dev.arkhaven.core.zones.LandSpawn.isSafeStanding(lvl, h.absolutePos(ground.above()));
+            if (safe != (boolean) c[1]) h.fail(c[0] + ": expected safe=" + c[1]);
+            x += 2;
+        }
+        h.succeed();
+    }
 }

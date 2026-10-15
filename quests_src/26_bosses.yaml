@@ -1,0 +1,301 @@
+chapter:
+  id: bosses
+  order: 16.5
+  icon: cataclysm:boss_respawner
+  ru: {title: "Боссы", subtitle: "Все боссы сборки по сложности: где искать, чем бить, что дают"}
+  en: {title: "Bosses", subtitle: "Every boss in the pack by difficulty: where, how, and what they drop"}
+quests:
+  - id: boss_intro
+    deps: [path_first_boss]
+    icon: minecraft:shield
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards: [{type: item, item: minecraft:golden_apple, count: 2}]
+    ru:
+      title: "Как ходить на боссов"
+      subtitle: "Подготовка решает"
+      text: |
+        **Еда:** блюда с баффами из «Кухни» (+здоровье, +регенерация) важнее брони.
+        **Зелья:** алхимия Arkhaven — Огненная кожа, Морской волк, Звёздное зрение.
+        **Команда:** большинство боссов рассчитаны на 2–4 игроков; голосовой чат — зажми Caps Lock.
+        **Смерть не страшна:** вещи остаются в могиле (Gravestone), её видно на карте.
+        В главе «Приключения» — первые боссы (Нага, Лич, Гидра…), здесь — остальные, от простых к страшным.
+    en:
+      title: "How to Go Boss Hunting"
+      subtitle: "Preparation wins"
+      text: |
+        **Food:** buff dishes from «Kitchen» (+health, +regeneration) matter more than armour.
+        **Potions:** Arkhaven alchemy: Fire Skin, Sea Wolf, Star Sight.
+        **Team:** most bosses are tuned for 2–4 players; voice chat: hold Caps Lock.
+        **Death isn't scary:** your items stay in a grave (Gravestone), shown on the map.
+        The first bosses (Naga, Lich, Hydra…) are in «Adventure»; here are the rest, from easy to terrifying.
+
+  - id: boss_elder_guardian
+    deps: [boss_intro]
+    icon: minecraft:sponge
+    tasks: [{type: kill, entity: minecraft:elder_guardian}]
+    rewards: [{type: item, item: minecraft:sponge, count: 4}]
+    ru:
+      title: "Древний страж"
+      subtitle: "Подводная крепость (YUNG's)"
+      text: |
+        **Где:** океанская крепость, теперь большая и запутанная (YUNG's Better Ocean Monuments).
+        **Чем:** зелье подводного дыхания + Морской волк, кирка с «Эффективностью» против усталости копания.
+        **Что даёт:** губки и доступ к сокровищнице с золотом.
+    en:
+      title: "Elder Guardian"
+      subtitle: "Ocean monument (YUNG's)"
+      text: |
+        **Where:** the ocean monument, now large and mazy (YUNG's Better Ocean Monuments).
+        **How:** water breathing + Sea Wolf potion, an Efficiency pickaxe against Mining Fatigue.
+        **Drops:** sponges and the way to the gold vault.
+
+  - id: boss_wroughtnaut_naga
+    deps: [boss_intro]
+    icon: mowziesmobs:naga_fang
+    tasks: [{type: kill, entity: mowziesmobs:naga}]
+    ru:
+      title: "Нага прибрежных скал"
+      subtitle: "Mowzie's Mobs"
+      text: |
+        **Где:** морские скалы на побережьях — летучая змея плюётся кислотой.
+        **Чем:** лук или огнестрел: в ближнем бою её не достать. Когда она падает на землю после серии плевков — бей.
+        **Что даёт:** клык наги — кинжал, который бьёт в спину вдвое сильнее.
+    en:
+      title: "Sea Cliff Naga"
+      subtitle: "Mowzie's Mobs"
+      text: |
+        **Where:** sea cliffs on coasts: a flying serpent that spits acid.
+        **How:** a bow or a gun: you can't reach it in melee. When it lands after a volley, strike.
+        **Drops:** a naga fang: a dagger that hits twice as hard from behind.
+
+  - id: boss_harbinger
+    deps: [adv_ignis]
+    icon: cataclysm:mech_eye
+    tasks: [{type: kill, entity: cataclysm:the_harbinger}]
+    rewards: [{type: xp_levels, count: 5}]
+    ru:
+      title: "Предвестник"
+      subtitle: "L_Ender's Cataclysm"
+      text: |
+        **Где:** Заброшенная фабрика (Ancient Factory) глубоко под землёй. Механический вызов — механический ответ.
+        **Чем:** держи дистанцию и прячься за колонны от ракет; хорошо работают зачарованные стрелы и пушка картофеля Create.
+        **Что даёт:** оружие наплечного залпа, которое стреляет ракетами иссушения.
+    en:
+      title: "The Harbinger"
+      subtitle: "L_Ender's Cataclysm"
+      text: |
+        **Where:** the Ancient Factory deep underground. A mechanical challenge with a mechanical answer.
+        **How:** keep distance and hide behind pillars from missiles; enchanted arrows and the Create potato cannon work well.
+        **Drops:** a shoulder launcher that fires wither missiles.
+
+  - id: boss_ancient_remnant
+    deps: [adv_ignis]
+    icon: cataclysm:necklace_of_the_desert
+    tasks: [{type: kill, entity: cataclysm:ancient_remnant}]
+    ru:
+      title: "Древний остов"
+      subtitle: "Проклятая пирамида"
+      text: |
+        **Где:** Проклятая пирамида в пустыне — за ловушками с ядовитыми дротиками и обвалами.
+        **Чем:** прыжок через ударные волны песка; щит против носорога-призыва.
+        **Что даёт:** ожерелье пустыни и «Гнев пустыни» — песчаная буря в бутылке.
+    en:
+      title: "Ancient Remnant"
+      subtitle: "Cursed Pyramid"
+      text: |
+        **Where:** the Cursed Pyramid in the desert, past poison dart traps and cave-ins.
+        **How:** jump over sand shockwaves; a shield against the summoned rhino charge.
+        **Drops:** the desert necklace and Wrath of the Desert: a sandstorm in a bottle.
+
+  - id: boss_maledictus
+    deps: [adv_ender_guardian]
+    icon: cataclysm:cursium_chestplate
+    tasks: [{type: kill, entity: cataclysm:maledictus}]
+    ru:
+      title: "Маледиктус"
+      subtitle: "Ледяная тюрьма"
+      text: |
+        **Где:** Ледяная тюрьма (Frosted Prison) в заснеженных горах.
+        **Чем:** огненное оружие и Огненная кожа; он телепортируется за спину — слушай звук.
+        **Что даёт:** проклятый лук и материалы для брони курсия.
+    en:
+      title: "Maledictus"
+      subtitle: "Frosted Prison"
+      text: |
+        **Where:** the Frosted Prison in snowy mountains.
+        **How:** fire weapons and Fire Skin; he teleports behind you: listen for the sound.
+        **Drops:** the cursed bow and materials for cursium armour.
+
+  - id: boss_scylla
+    deps: [adv_leviathan]
+    icon: cataclysm:ceraunus
+    tasks: [{type: kill, entity: cataclysm:scylla}]
+    rewards: [{type: xp_levels, count: 10}]
+    ru:
+      title: "Сцилла"
+      subtitle: "Акрополь в бурю"
+      text: |
+        **Где:** Акрополь — остров среди океана. Бой идёт в грозу: молнии бьют по воде.
+        **Чем:** не стой в воде во время грозы и держи дистанцию от её трезубца.
+        **Что даёт:** Цераунус — гарпун-молния.
+    en:
+      title: "Scylla"
+      subtitle: "The Acropolis in a storm"
+      text: |
+        **Where:** the Acropolis, an island in the ocean. The fight happens in a thunderstorm: lightning hits the water.
+        **How:** stay out of the water during the storm and keep away from her trident.
+        **Drops:** Ceraunus: a lightning harpoon.
+
+  - id: boss_forgotten_guardian
+    deps: [adv_undergarden]
+    icon: undergarden:forgotten_sword
+    tasks: [{type: kill, entity: undergarden:forgotten_guardian}]
+    ru:
+      title: "Забытый страж"
+      subtitle: "Подсад"
+      text: |
+        **Где:** катакомбы Подсада — каменный гигант без лица.
+        **Чем:** только тяжёлое оружие пробивает его броню; отходи, когда он заносит руку.
+        **Что даёт:** забытые слитки — лучший металл Подсада.
+    en:
+      title: "Forgotten Guardian"
+      subtitle: "The Undergarden"
+      text: |
+        **Where:** the Undergarden catacombs: a faceless stone giant.
+        **How:** only heavy weapons crack its armour; step back when it raises its arm.
+        **Drops:** forgotten ingots, the best metal of the Undergarden.
+
+  - id: boss_warden
+    deps: [adv_otherside]
+    icon: deeperdarker:warden_carapace
+    tasks: [{type: kill, entity: minecraft:warden}]
+    rewards: [{type: xp_levels, count: 8}]
+    ru:
+      title: "Хранитель"
+      subtitle: "Древний город"
+      text: |
+        **Можно и не драться:** Хранитель слеп и ищет по звуку. Шерсть на полу, присед — и он не услышит.
+        **Если всё же бой:** 500 здоровья, удар сквозь броню и звуковой луч сквозь стены. Только командой, с зельями силы.
+        **Что даёт:** панцирь Хранителя — броня Deeper Darker, которая глушит шаги.
+    en:
+      title: "The Warden"
+      subtitle: "The Ancient City"
+      text: |
+        **You can skip the fight:** the Warden is blind and hunts by sound. Wool on the floor, sneaking, and it won't hear you.
+        **If you do fight:** 500 health, armour-piercing hits and a sonic boom through walls. Team only, with strength potions.
+        **Drops:** the Warden carapace: Deeper Darker armour that muffles your steps.
+
+  - id: boss_stalker
+    deps: [boss_warden]
+    icon: deeperdarker:soul_elytra
+    tasks: [{type: kill, entity: deeperdarker:stalker}]
+    ru:
+      title: "Сталкер"
+      subtitle: "Другая сторона"
+      text: |
+        **Где:** Древний храм на Другой стороне (Deeper Darker) — родня Хранителя, но видит.
+        **Чем:** свет и шум против него бесполезны — только сила. Резонариевое оружие режет скалк.
+        **Что даёт:** путь к душевным элитрам — крыльям, которые взлетают сами.
+    en:
+      title: "The Stalker"
+      subtitle: "The Otherside"
+      text: |
+        **Where:** the Ancient Temple on the Otherside (Deeper Darker): a Warden's relative that can see.
+        **How:** light and noise are useless against it, only force. Resonarium weapons cut through sculk.
+        **Drops:** the way to soul elytra: wings that take off by themselves.
+
+  - id: boss_fire_boss
+    deps: [irons_dead_king]
+    icon: irons_spellbooks:fire_rune
+    tasks: [{type: kill, entity: irons_spellbooks:fire_boss}]
+    ru:
+      title: "Повелитель пламени"
+      subtitle: "Iron's Spells"
+      text: |
+        **Где:** башня пироманта (Iron's Spells) — следи за картой.
+        **Чем:** заклинания льда и воды, Огненная кожа и щит от огненных шаров.
+        **Что даёт:** книги школы огня высших уровней.
+    en:
+      title: "Lord of Flame"
+      subtitle: "Iron's Spells"
+      text: |
+        **Where:** the pyromancer tower (Iron's Spells): watch your map.
+        **How:** ice and water spells, Fire Skin and a shield against fireballs.
+        **Drops:** high-tier fire school spellbooks.
+
+  - id: boss_wilden_chimera
+    deps: [ars_wilden]
+    icon: ars_nouveau:wilden_tribute
+    tasks: [{type: kill, entity: ars_nouveau:wilden_boss}]
+    ru:
+      title: "Химера уайлденов"
+      subtitle: "Ars Nouveau"
+      text: |
+        **Где:** призывается ритуалом «Вызов химеры» — бой у тебя на заднем дворе, если хочешь.
+        **Чем:** заклинания Удар + Усиление, отходи при рывке; у химеры три фазы.
+        **Что даёт:** Дань уайлденов — ключ к архимаговским реликвиям.
+    en:
+      title: "Wilden Chimera"
+      subtitle: "Ars Nouveau"
+      text: |
+        **Where:** summoned by the Wilden Summon ritual: the fight is in your back yard, if you like.
+        **How:** Harm + Amplify spells, step aside from the charge; the chimera has three phases.
+        **Drops:** the Wilden Tribute, key to archmage relics.
+
+  - id: boss_headless
+    deps: [adv_pumpkinhead]
+    icon: born_in_chaos_v1:soulbane
+    tasks: [{type: kill, entity: born_in_chaos_v1:lord_the_headless}]
+    ru:
+      title: "Безголовый лорд"
+      subtitle: "Born in Chaos"
+      text: |
+        **Где:** редкий ночной всадник диких земель — к спавну и базам его не пускают правила зон.
+        **Чем:** свет и святое оружие; его конь сильнее всадника — сначала коня.
+        **Что даёт:** Погибель душ — меч, который крадёт здоровье.
+    en:
+      title: "The Headless Lord"
+      subtitle: "Born in Chaos"
+      text: |
+        **Where:** a rare night rider of the wilds: zone rules keep him away from spawn and bases.
+        **How:** light and holy weapons; his steed is stronger than the rider: take the horse first.
+        **Drops:** Soulbane, a life-stealing sword.
+
+  - id: boss_maw
+    deps: [adv_cornelia]
+    icon: aquamirae:abyssal_amethyst
+    tasks: [{type: kill, entity: aquamirae:maw}]
+    ru:
+      title: "Пасть ледяного моря"
+      subtitle: "Aquamirae"
+      text: |
+        **Где:** ледяные моря Aquamirae, там же, где корабли-призраки.
+        **Чем:** с корабля Small Ships и пушками; в воде к ней лучше не прыгать.
+        **Что даёт:** бездонный аметист для брони бездны.
+    en:
+      title: "The Maw of the Ice Sea"
+      subtitle: "Aquamirae"
+      text: |
+        **Where:** the icy seas of Aquamirae, where the ghost ships sail.
+        **How:** from a Small Ships ship, with cannons; better not jump into the water with it.
+        **Drops:** abyssal amethyst for abyssal armour.
+
+  - id: boss_hunter
+    deps: [boss_harbinger, boss_ancient_remnant, boss_maledictus, boss_scylla, boss_forgotten_guardian, boss_warden, boss_fire_boss, boss_wilden_chimera]
+    icon: minecraft:dragon_head
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards: [{type: xp_levels, count: 15}, {type: item, item: minecraft:enchanted_golden_apple}]
+    ru:
+      title: "Охотник на чудовищ"
+      subtitle: "Восемь великих побед"
+      text: |
+        Ты победил тех, о ком рассказывают в тавернах. Повесь трофей (Handcrafted) на стену зала — пусть новички знают, к кому идти за советом.
+        **Повторный бой:** Респаунер боссов (Cataclysm) возвращает поверженного босса в его логово.
+    en:
+      title: "Monster Hunter"
+      subtitle: "Eight great victories"
+      text: |
+        You've beaten the ones they tell stories about in taverns. Hang a trophy (Handcrafted) in your hall so newcomers know whom to ask for advice.
+        **Rematch:** the Boss Respawner (Cataclysm) brings a beaten boss back to its lair.

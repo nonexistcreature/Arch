@@ -1,7 +1,7 @@
 {
 	id: "75D3C2A26C328D05"
 	group: ""
-	order_index: 8
+	order_index: 80
 	filename: "sky"
 	icon: {
 		id: "aeronautics:propeller_bearing"

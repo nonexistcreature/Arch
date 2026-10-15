@@ -8,6 +8,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 reg = json.loads((ROOT / "tests/out/registry.json").read_text("utf8"))
 items, ents = set(reg["item"]), set(reg["entity_type"])
+structs = set(reg.get("structure", []))
 errs, warns = [], []
 chapters, allq = [], {}
 sys.path.insert(0, str(ROOT / "tools"))
@@ -40,6 +41,8 @@ for fn, d in chapters:
             if t["type"] == "item":
                 chk_item(w, t["item"])
                 if t.get("count", 1) > 64: errs.append(f"{w}: anti-grind: count {t['count']} > 64")
+            if t["type"] == "structure" and structs and t["structure"].lstrip("#") not in structs and not t["structure"].startswith("#"):
+                errs.append(f"{w}: unknown structure {t['structure']}")
             if t["type"] == "kill":
                 if t["entity"] not in ents: errs.append(f"{w}: unknown entity {t['entity']}")
                 if t.get("count", 1) > 10: errs.append(f"{w}: anti-grind: kill {t['count']} > 10")

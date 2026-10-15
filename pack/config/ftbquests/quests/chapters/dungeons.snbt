@@ -1,0 +1,553 @@
+{
+	id: "67DBF023F7901684"
+	group: ""
+	order_index: 166
+	filename: "dungeons"
+	icon: {
+		id: "lootr:lootr_chest"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "124FA016AD13E65C"
+			x: 0.0d
+			y: -5.625d
+			shape: "gear"
+			icon: {
+				id: "minecraft:filled_map"
+				count: 1
+			}
+			dependencies: [
+				"012668B87D0FA2D0"
+			]
+			tasks: [
+				{
+					id: "54456DA4469E590A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "6C141E9B0643DAE1"
+					type: "item"
+					item: {
+						count: 32
+						id: "minecraft:torch"
+					}
+				}
+			]
+		}
+		{
+			id: "398D7D0D31B16A8C"
+			x: 1.5d
+			y: -3.75d
+			icon: {
+				id: "minecraft:barrel"
+				count: 1
+			}
+			dependencies: [
+				"124FA016AD13E65C"
+			]
+			tasks: [
+				{
+					id: "5D0A8B0CF17025F2"
+					type: "structure"
+					structure: "nova_structures:tavern_oak"
+				}
+			]
+		}
+		{
+			id: "3DC14FDAB04AB0DE"
+			x: 1.5d
+			y: -2.5d
+			icon: {
+				id: "minecraft:spawner"
+				count: 1
+			}
+			dependencies: [
+				"124FA016AD13E65C"
+			]
+			tasks: [
+				{
+					id: "5897BB3CC976D966"
+					type: "structure"
+					structure: "betterdungeons:skeleton_dungeon"
+				}
+			]
+		}
+		{
+			id: "1DD3D00D98540144"
+			x: 1.5d
+			y: -1.25d
+			icon: {
+				id: "minecraft:rail"
+				count: 1
+			}
+			dependencies: [
+				"124FA016AD13E65C"
+			]
+			tasks: [
+				{
+					id: "7A3AA96F26B28128"
+					type: "structure"
+					structure: "bettermineshafts:mineshaft_oak"
+				}
+			]
+		}
+		{
+			id: "14590C32AE474724"
+			x: 0.0d
+			y: -4.375d
+			icon: {
+				id: "minecraft:crossbow"
+				count: 1
+			}
+			dependencies: [
+				"012668B87D0FA2D0"
+			]
+			tasks: [
+				{
+					id: "4BD9B85E8E612313"
+					type: "structure"
+					structure: "nova_structures:illager_camp"
+				}
+			]
+		}
+		{
+			id: "24FE42BA2A7CCC9B"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "minecraft:white_banner"
+				count: 1
+			}
+			dependencies: [
+				"14590C32AE474724"
+			]
+			tasks: [
+				{
+					id: "3C7F562AE3D6C911"
+					type: "structure"
+					structure: "dungeons_arise:illager_fort"
+				}
+			]
+		}
+		{
+			id: "6A4762E3C93C0B5B"
+			x: 3.0d
+			y: -1.25d
+			icon: {
+				id: "smallships:cannon"
+				count: 1
+			}
+			dependencies: [
+				"24FE42BA2A7CCC9B"
+			]
+			tasks: [
+				{
+					id: "5931E0E45640B683"
+					type: "structure"
+					structure: "dungeons_arise:illager_galley"
+				}
+			]
+		}
+		{
+			id: "6EBAA1CC314A251D"
+			x: 0.0d
+			y: -3.125d
+			icon: {
+				id: "minecraft:iron_bars"
+				count: 1
+			}
+			dependencies: [
+				"012668B87D0FA2D0"
+			]
+			tasks: [
+				{
+					id: "742D80A8C5354F82"
+					type: "structure"
+					structure: "dungeons_arise:bandit_village"
+				}
+			]
+		}
+		{
+			id: "1AA7A9B0DC93023F"
+			x: 3.0d
+			y: 0.0d
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				count: 1
+			}
+			dependencies: [
+				"1DD3D00D98540144"
+			]
+			tasks: [
+				{
+					id: "4BE690C5A2968C88"
+					type: "structure"
+					structure: "dungeons_arise:mining_system"
+				}
+			]
+		}
+		{
+			id: "67026509AEC7D314"
+			x: 4.5d
+			y: -1.25d
+			icon: {
+				id: "minecraft:blast_furnace"
+				count: 1
+			}
+			dependencies: [
+				"1AA7A9B0DC93023F"
+			]
+			tasks: [
+				{
+					id: "67021690AD6EF466"
+					type: "structure"
+					structure: "dungeons_arise:foundry"
+				}
+			]
+		}
+		{
+			id: "33B479E1E8E88664"
+			x: 0.0d
+			y: -1.875d
+			icon: {
+				id: "minecraft:bell"
+				count: 1
+			}
+			dependencies: [
+				"012668B87D0FA2D0"
+			]
+			tasks: [
+				{
+					id: "29653AC69186511B"
+					type: "structure"
+					structure: "dungeons_arise:monastery"
+				}
+			]
+		}
+		{
+			id: "68FD7B1F449B1EB6"
+			x: 1.5d
+			y: 1.25d
+			icon: {
+				id: "minecraft:fermented_spider_eye"
+				count: 1
+			}
+			dependencies: [
+				"33B479E1E8E88664"
+			]
+			tasks: [
+				{
+					id: "7878CC1A0CFE02A7"
+					type: "structure"
+					structure: "dungeons_arise:plague_asylum"
+				}
+			]
+		}
+		{
+			id: "0829E4B42B4D1A82"
+			x: 3.0d
+			y: 1.25d
+			icon: {
+				id: "minecraft:sweet_berries"
+				count: 1
+			}
+			dependencies: [
+				"68FD7B1F449B1EB6"
+			]
+			tasks: [
+				{
+					id: "17929ADCBAA14FF3"
+					type: "structure"
+					structure: "dungeons_arise:thornborn_towers"
+				}
+			]
+		}
+		{
+			id: "1BAE5339A9DDE90E"
+			x: 4.5d
+			y: 0.0d
+			icon: {
+				id: "minecraft:elytra"
+				count: 1
+			}
+			dependencies: [
+				"0829E4B42B4D1A82"
+			]
+			tasks: [
+				{
+					id: "4B2D0D97263A4AA3"
+					type: "structure"
+					structure: "dungeons_arise:heavenly_challenger"
+				}
+			]
+		}
+		{
+			id: "0DD810CD0C1C7B8F"
+			x: 4.5d
+			y: 1.25d
+			icon: {
+				id: "minecraft:spyglass"
+				count: 1
+			}
+			dependencies: [
+				"6A4762E3C93C0B5B"
+			]
+			tasks: [
+				{
+					id: "1BAD3B801D548487"
+					type: "structure"
+					structure: "dungeons_arise:undead_pirate_ship"
+				}
+			]
+		}
+		{
+			id: "322941DAB346E48E"
+			x: 6.0d
+			y: -1.25d
+			icon: {
+				id: "minecraft:gold_block"
+				count: 1
+			}
+			dependencies: [
+				"67026509AEC7D314"
+				"1BAE5339A9DDE90E"
+			]
+			tasks: [
+				{
+					id: "1A4200A0A25F829C"
+					type: "structure"
+					structure: "dungeons_arise:shiraz_palace"
+				}
+			]
+		}
+		{
+			id: "2F44F8C0075501B1"
+			x: 0.0d
+			y: -0.625d
+			icon: {
+				id: "irons_spellbooks:scroll"
+				count: 1
+			}
+			dependencies: [
+				"062A4C4223BD9574"
+			]
+			tasks: [
+				{
+					id: "2194BD20B16DA1F8"
+					type: "structure"
+					structure: "irons_spellbooks:catacombs"
+				}
+			]
+		}
+		{
+			id: "31BFEC0EEAA7251A"
+			x: 1.5d
+			y: 2.5d
+			icon: {
+				id: "irons_spellbooks:arcane_essence"
+				count: 1
+			}
+			dependencies: [
+				"2F44F8C0075501B1"
+			]
+			tasks: [
+				{
+					id: "3E66ADBBCC4AC19D"
+					type: "structure"
+					structure: "irons_spellbooks:citadel"
+				}
+			]
+		}
+		{
+			id: "682C987E312106E8"
+			x: 6.0d
+			y: 0.0d
+			icon: {
+				id: "cataclysm:abyssal_egg"
+				count: 1
+			}
+			dependencies: [
+				"0DD810CD0C1C7B8F"
+			]
+			tasks: [
+				{
+					id: "19D1074AF5FA4AD4"
+					type: "structure"
+					structure: "cataclysm:sunken_city"
+				}
+			]
+		}
+		{
+			id: "65DEA3AA471B1627"
+			x: 6.0d
+			y: 1.25d
+			icon: {
+				id: "cataclysm:mech_eye"
+				count: 1
+			}
+			dependencies: [
+				"67026509AEC7D314"
+			]
+			tasks: [
+				{
+					id: "237D7BE7865A249A"
+					type: "structure"
+					structure: "cataclysm:ancient_factory"
+				}
+			]
+		}
+		{
+			id: "1D9ABAB93B21593F"
+			x: 0.0d
+			y: 0.625d
+			icon: {
+				id: "twilightforest:maze_map"
+				count: 1
+			}
+			dependencies: [
+				"739285040B5B0234"
+			]
+			tasks: [
+				{
+					id: "5B200A42496DB844"
+					type: "structure"
+					structure: "twilightforest:labyrinth"
+				}
+			]
+		}
+		{
+			id: "0233DEB78E99055C"
+			x: 0.0d
+			y: 1.875d
+			icon: {
+				id: "the_bumblezone:honey_crystal"
+				count: 1
+			}
+			dependencies: [
+				"5191867CC65E64EB"
+			]
+			tasks: [
+				{
+					id: "3FF442350D1A80AD"
+					type: "structure"
+					structure: "the_bumblezone:hive_temple"
+				}
+			]
+		}
+		{
+			id: "57FDCFE312B601D6"
+			x: 0.0d
+			y: 3.125d
+			icon: {
+				id: "aether:bronze_dungeon_key"
+				count: 1
+			}
+			dependencies: [
+				"29EFEF68F03D66A9"
+			]
+			tasks: [
+				{
+					id: "11F7968DAD9909DE"
+					type: "structure"
+					structure: "aether:bronze_dungeon"
+				}
+			]
+		}
+		{
+			id: "6493D15E22B26AAA"
+			x: 1.5d
+			y: 3.75d
+			icon: {
+				id: "deep_aether:brass_dungeon_key"
+				count: 1
+			}
+			dependencies: [
+				"57FDCFE312B601D6"
+			]
+			tasks: [
+				{
+					id: "1808E5675E96F3A2"
+					type: "structure"
+					structure: "deep_aether:brass_dungeon"
+				}
+			]
+		}
+		{
+			id: "41271CF75F0F514B"
+			x: 0.0d
+			y: 4.375d
+			icon: {
+				id: "deeperdarker:heart_of_the_deep"
+				count: 1
+			}
+			dependencies: [
+				"241D0F92C3E12524"
+			]
+			tasks: [
+				{
+					id: "052001EA1B709EA8"
+					type: "structure"
+					structure: "deeperdarker:ancient_temple"
+				}
+			]
+		}
+		{
+			id: "18D1F60CD2B50700"
+			x: 0.0d
+			y: 5.625d
+			icon: {
+				id: "minecraft:purpur_block"
+				count: 1
+			}
+			dependencies: [
+				"5814EB842FA7B370"
+			]
+			tasks: [
+				{
+					id: "1279F321D4CA7118"
+					type: "structure"
+					structure: "nova_structures:end_castle"
+				}
+			]
+		}
+		{
+			id: "5A9C5F24AD35D296"
+			x: 7.5d
+			y: 0.0d
+			shape: "hexagon"
+			icon: {
+				id: "minecraft:recovery_compass"
+				count: 1
+			}
+			dependencies: [
+				"322941DAB346E48E"
+				"31BFEC0EEAA7251A"
+				"682C987E312106E8"
+				"1D9ABAB93B21593F"
+				"0233DEB78E99055C"
+				"6493D15E22B26AAA"
+				"41271CF75F0F514B"
+				"18D1F60CD2B50700"
+				"6EBAA1CC314A251D"
+			]
+			tasks: [
+				{
+					id: "102ED79209E7340D"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "4B32C06B79CA3BCD"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+		}
+	]
+}

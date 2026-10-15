@@ -1,0 +1,431 @@
+chapter:
+  id: dungeons
+  order: 16.6
+  icon: lootr:lootr_chest
+  ru: {title: "Данжи и постройки", subtitle: "Найди, зайди, выживи: личный лут в каждом сундуке"}
+  en: {title: "Dungeons and Structures", subtitle: "Find it, enter it, survive: personal loot in every chest"}
+quests:
+  - id: dg_intro
+    deps: [path_dungeons]
+    icon: minecraft:filled_map
+    shape: gear
+    tasks: [{type: checkmark}]
+    rewards: [{type: item, item: minecraft:torch, count: 32}]
+    ru:
+      title: "Как искать данжи"
+      subtitle: "Карта, Lootr и зоны"
+      text: |
+        **Зачем:** в данжах — лучшее снаряжение без гринда, книги заклинаний, порох, сталь и редкие семена.
+        **Как найти:** картографы в деревнях продают карты, Xaero отмечает найденное, а Explorer's Compass не нужен — бродить интереснее.
+        **Lootr:** сундук общий на вид, но у каждого игрока свой лут. Пришёл вторым — всё равно найдёшь своё.
+        **Квест засчитывается,** когда ты стоишь внутри постройки.
+    en:
+      title: "How to Find Dungeons"
+      subtitle: "Maps, Lootr and zones"
+      text: |
+        **Why:** dungeons hold the best gear without grinding: spellbooks, gunpowder, steel, rare seeds.
+        **How to find them:** cartographers sell maps, Xaero marks what you've found, and wandering is more fun than a compass.
+        **Lootr:** a chest looks shared, but each player gets their own loot. Came second? You still find yours.
+        **A quest completes** when you stand inside the structure.
+
+  - id: dg_tavern
+    deps: [dg_intro]
+    icon: minecraft:barrel
+    tasks: [{type: structure, structure: nova_structures:tavern_oak}]
+    ru:
+      title: "Таверна у дороги"
+      subtitle: "Dungeons & Taverns"
+      text: |
+        Безопасное место: трактирщик, картограф и доска с картами к ближайшим данжам. Хорошая первая цель для путешествия.
+        Таверны бывают в любом лесу — для квеста подойдёт дубовая.
+    en:
+      title: "A Roadside Tavern"
+      subtitle: "Dungeons & Taverns"
+      text: |
+        A safe spot: an innkeeper, a cartographer and a board of maps to nearby dungeons. A good first travel goal.
+        Taverns appear in every forest; the oak one counts for this quest.
+
+  - id: dg_yung_dungeon
+    deps: [dg_intro]
+    icon: minecraft:spawner
+    tasks: [{type: structure, structure: betterdungeons:skeleton_dungeon}]
+    ru:
+      title: "Склеп скелетов"
+      subtitle: "YUNG's Better Dungeons"
+      text: |
+        Подземный склеп с несколькими залами и спавнерами. **Совет:** факел на спавнер не ставится — разбей его или окружи светом.
+        Хорошая тренировка перед большими данжами.
+    en:
+      title: "Skeleton Crypt"
+      subtitle: "YUNG's Better Dungeons"
+      text: |
+        An underground crypt with several halls and spawners. **Tip:** break the spawner or light it up all around.
+        Good practice before the big dungeons.
+
+  - id: dg_mineshaft
+    deps: [dg_intro]
+    icon: minecraft:rail
+    tasks: [{type: structure, structure: bettermineshafts:mineshaft_oak}]
+    ru:
+      title: "Заброшенная шахта"
+      subtitle: "YUNG's Better Mineshafts"
+      text: |
+        Шахты стали большими: вагонетки с лутом, лестницы, обвалы. Руды видны в стенах — бери кирку получше.
+    en:
+      title: "Abandoned Mineshaft"
+      subtitle: "YUNG's Better Mineshafts"
+      text: |
+        Mineshafts are big now: loot minecarts, ladders, cave-ins. Ores show in the walls: bring a good pickaxe.
+
+  - id: dg_illager_camp
+    deps: [path_dungeons]
+    icon: minecraft:crossbow
+    tasks: [{type: structure, structure: nova_structures:illager_camp}]
+    ru:
+      title: "Лагерь иллагеров"
+      subtitle: "Стрелки TaCZ"
+      text: |
+        Иллагеры в лагерях часто вооружены **огнестрелом** (TaCZ NPCs): пистолеты и винтовки. Подходи из-за укрытия.
+        **Лут:** их оружие иногда падает с тела — бесплатный ствол.
+    en:
+      title: "Illager Camp"
+      subtitle: "TaCZ shooters"
+      text: |
+        Camp illagers are often armed with **firearms** (TaCZ NPCs): pistols and rifles. Approach from cover.
+        **Loot:** their gun sometimes drops: a free firearm.
+
+  - id: dg_illager_fort
+    deps: [dg_illager_camp]
+    icon: minecraft:white_banner
+    tasks: [{type: structure, structure: dungeons_arise:illager_fort}]
+    ru:
+      title: "Форт иллагеров"
+      subtitle: "When Dungeons Arise"
+      text: |
+        Крепость с башнями и десятками иллагеров — больше половины со стволами. Это уже штурм: нужна команда, бинты и броня.
+        **Тактика:** снять стрелков на стенах издалека (снайперка TaCZ), потом ломать ворота.
+    en:
+      title: "Illager Fort"
+      subtitle: "When Dungeons Arise"
+      text: |
+        A fortress with towers and dozens of illagers, more than half with guns. This is an assault: bring a team, healing and armour.
+        **Tactics:** pick off the wall shooters from afar (a TaCZ sniper), then breach the gate.
+
+  - id: dg_illager_galley
+    deps: [dg_illager_fort]
+    icon: smallships:cannon
+    tasks: [{type: structure, structure: dungeons_arise:illager_galley}]
+    ru:
+      title: "Галера иллагеров"
+      subtitle: "Абордаж"
+      text: |
+        Корабль иллагеров в открытом море. Подойди на своём корабле Small Ships, дай залп из пушек и бери на абордаж (крюк-кошка из «Оружия»).
+    en:
+      title: "Illager Galley"
+      subtitle: "Boarding"
+      text: |
+        An illager ship on the open sea. Sail up in your Small Ships ship, fire a broadside and board it (grappling hook from «Weapons»).
+
+  - id: dg_bandit_village
+    deps: [path_dungeons]
+    icon: minecraft:iron_bars
+    tasks: [{type: structure, structure: dungeons_arise:bandit_village}]
+    ru:
+      title: "Деревня бандитов"
+      subtitle: "When Dungeons Arise"
+      text: |
+        Бандиты заняли деревню на сваях. Стрелки на крышах, ловушки на мостках. Лут — порох, сталь, золото.
+    en:
+      title: "Bandit Village"
+      subtitle: "When Dungeons Arise"
+      text: |
+        Bandits have taken a village on stilts. Shooters on the roofs, traps on the walkways. Loot: gunpowder, steel, gold.
+
+  - id: dg_mining_system
+    deps: [dg_mineshaft]
+    icon: minecraft:iron_pickaxe
+    tasks: [{type: structure, structure: dungeons_arise:mining_system}]
+    ru:
+      title: "Горная система"
+      subtitle: "When Dungeons Arise"
+      text: |
+        Огромный рудник с лифтами и вагонетками. Внутри — пауки и шахтёры-зомби, а в конце — богатые сундуки с рудой и инструментами.
+    en:
+      title: "Mining System"
+      subtitle: "When Dungeons Arise"
+      text: |
+        A huge mine with lifts and minecarts. Spiders and zombie miners inside, and rich chests of ore and tools at the end.
+
+  - id: dg_foundry
+    deps: [dg_mining_system]
+    icon: minecraft:blast_furnace
+    tasks: [{type: structure, structure: dungeons_arise:foundry}]
+    ru:
+      title: "Литейная"
+      subtitle: "Огонь и лава"
+      text: |
+        Заброшенный металлургический завод: потоки лавы, огненные мобы. **Бери:** Огненную кожу или зелье огнестойкости.
+        **Награда:** слитки и блоки металлов — подспорье для инженеров.
+    en:
+      title: "The Foundry"
+      subtitle: "Fire and lava"
+      text: |
+        An abandoned steelworks: lava streams and fire mobs. **Bring:** Fire Skin or fire resistance.
+        **Reward:** ingots and metal blocks, a boost for engineers.
+
+  - id: dg_monastery
+    deps: [path_dungeons]
+    icon: minecraft:bell
+    tasks: [{type: structure, structure: dungeons_arise:monastery}]
+    ru:
+      title: "Монастырь"
+      subtitle: "When Dungeons Arise"
+      text: |
+        Горный монастырь с библиотекой. **Для магов:** книги зачарований и ингредиенты для Ars Nouveau.
+    en:
+      title: "Monastery"
+      subtitle: "When Dungeons Arise"
+      text: |
+        A mountain monastery with a library. **For mages:** enchanted books and Ars Nouveau ingredients.
+
+  - id: dg_plague_asylum
+    deps: [dg_monastery]
+    icon: minecraft:fermented_spider_eye
+    tasks: [{type: structure, structure: dungeons_arise:plague_asylum}]
+    ru:
+      title: "Чумная лечебница"
+      subtitle: "Только с противоядием"
+      text: |
+        Мрачная больница в болоте: отравления на каждом шагу. **Бери:** молоко и «Чистое дыхание» из алхимии Arkhaven.
+    en:
+      title: "Plague Asylum"
+      subtitle: "Bring an antidote"
+      text: |
+        A grim hospital in the swamp: poison at every step. **Bring:** milk and Clean Breath from Arkhaven alchemy.
+
+  - id: dg_thornborn
+    deps: [dg_plague_asylum]
+    icon: minecraft:sweet_berries
+    tasks: [{type: structure, structure: dungeons_arise:thornborn_towers}]
+    ru:
+      title: "Колючие башни"
+      subtitle: "When Dungeons Arise"
+      text: |
+        Башни, оплетённые шипами, и их стражи. Подъём — само по себе испытание: крюк-кошка сильно помогает.
+    en:
+      title: "Thornborn Towers"
+      subtitle: "When Dungeons Arise"
+      text: |
+        Towers wrapped in thorns, and their guardians. The climb itself is a trial: a grappling hook helps a lot.
+
+  - id: dg_heavenly
+    deps: [dg_thornborn]
+    icon: minecraft:elytra
+    tasks: [{type: structure, structure: dungeons_arise:heavenly_challenger}]
+    ru:
+      title: "Небесный претендент"
+      subtitle: "Данж в облаках"
+      text: |
+        Летающая крепость высоко над землёй. Добраться можно на дирижабле, самолёте или с элитрами — внизу пропасть.
+    en:
+      title: "Heavenly Challenger"
+      subtitle: "A dungeon in the clouds"
+      text: |
+        A flying fortress far above the ground. Reach it by airship, plane or elytra: there's only a drop below.
+
+  - id: dg_pirate_ship
+    deps: [dg_illager_galley]
+    icon: minecraft:spyglass
+    tasks: [{type: structure, structure: dungeons_arise:undead_pirate_ship}]
+    ru:
+      title: "Корабль мертвецов"
+      subtitle: "When Dungeons Arise"
+      text: |
+        Пиратский корабль-призрак с командой скелетов. Капитанская каюта хранит лучшие сокровища моря.
+    en:
+      title: "Undead Pirate Ship"
+      subtitle: "When Dungeons Arise"
+      text: |
+        A ghost pirate ship crewed by skeletons. The captain's cabin holds the best treasure of the sea.
+
+  - id: dg_shiraz
+    deps: [dg_foundry, dg_heavenly]
+    icon: minecraft:gold_block
+    tasks: [{type: structure, structure: dungeons_arise:shiraz_palace}]
+    ru:
+      title: "Дворец Шираз"
+      subtitle: "Самый богатый данж"
+      text: |
+        Огромный дворец в пустыне: несколько этажей, стражи, ловушки и сокровищница. Идти минимум втроём.
+    en:
+      title: "Shiraz Palace"
+      subtitle: "The richest dungeon"
+      text: |
+        A huge desert palace: several floors, guards, traps and a treasury. Go with at least three.
+
+  - id: dg_irons_catacombs
+    deps: [irons_book]
+    icon: irons_spellbooks:scroll
+    tasks: [{type: structure, structure: irons_spellbooks:catacombs}]
+    ru:
+      title: "Катакомбы магов"
+      subtitle: "Iron's Spells"
+      text: |
+        Подземные катакомбы с некромантами. Свитки и книги заклинаний — главный лут для магов.
+    en:
+      title: "Mage Catacombs"
+      subtitle: "Iron's Spells"
+      text: |
+        Underground catacombs with necromancers. Scrolls and spellbooks: the main loot for mages.
+
+  - id: dg_irons_citadel
+    deps: [dg_irons_catacombs]
+    icon: irons_spellbooks:arcane_essence
+    tasks: [{type: structure, structure: irons_spellbooks:citadel}]
+    ru:
+      title: "Цитадель"
+      subtitle: "Логово Мёртвого короля"
+      text: |
+        Тёмная цитадель — здесь живёт Мёртвый король (квест в главе «Iron's Spells»). Лут — редкие руны и мифриловые свитки.
+    en:
+      title: "The Citadel"
+      subtitle: "The Dead King's lair"
+      text: |
+        A dark citadel, home of the Dead King (quest in the «Iron's Spells» chapter). Loot: rare runes and mithril scrolls.
+
+  - id: dg_cataclysm_city
+    deps: [dg_pirate_ship]
+    icon: cataclysm:abyssal_egg
+    tasks: [{type: structure, structure: cataclysm:sunken_city}]
+    ru:
+      title: "Затонувший город"
+      subtitle: "Логово Левиафана"
+      text: |
+        Город на дне океана. Внутри — проход к Левиафану. **Бери:** зелья подводного дыхания на всю команду и копьё/трезубец.
+    en:
+      title: "Sunken City"
+      subtitle: "The Leviathan's lair"
+      text: |
+        A city on the ocean floor, with the way to the Leviathan. **Bring:** water breathing for the whole team and a trident.
+
+  - id: dg_cataclysm_factory
+    deps: [dg_foundry]
+    icon: cataclysm:mech_eye
+    tasks: [{type: structure, structure: cataclysm:ancient_factory}]
+    ru:
+      title: "Древняя фабрика"
+      subtitle: "Логово Предвестника"
+      text: |
+        Механический данж глубоко под землёй — дорога к боссу Предвестнику из главы «Боссы».
+    en:
+      title: "Ancient Factory"
+      subtitle: "The Harbinger's lair"
+      text: |
+        A mechanical dungeon deep underground: the road to the Harbinger from the «Bosses» chapter.
+
+  - id: dg_twilight_maze
+    deps: [adv_twilight]
+    icon: twilightforest:maze_map
+    tasks: [{type: structure, structure: twilightforest:labyrinth}]
+    ru:
+      title: "Лабиринт Минотавра"
+      subtitle: "Сумеречный лес"
+      text: |
+        Подземный лабиринт под болотом. Карта лабиринта (её делают из карты и ядра лабиринта) показывает путь к Миношруму.
+    en:
+      title: "The Labyrinth"
+      subtitle: "Twilight Forest"
+      text: |
+        An underground labyrinth beneath the swamp. A maze map (made from a map and a maze core) shows the way to the Minoshroom.
+
+  - id: dg_hive_temple
+    deps: [adv_bumblezone]
+    icon: the_bumblezone:honey_crystal
+    tasks: [{type: structure, structure: the_bumblezone:hive_temple}]
+    ru:
+      title: "Храм улья"
+      subtitle: "Bumblezone"
+      text: |
+        Сердце пчелиного измерения. Не зли пчёл — надень пчелиную броню и держи при себе мёд.
+    en:
+      title: "Hive Temple"
+      subtitle: "Bumblezone"
+      text: |
+        The heart of the bee dimension. Don't anger the bees: wear bee armour and keep honey handy.
+
+  - id: dg_aether_bronze
+    deps: [adv_aether]
+    icon: aether:bronze_dungeon_key
+    tasks: [{type: structure, structure: aether:bronze_dungeon}]
+    ru:
+      title: "Бронзовое подземелье"
+      subtitle: "Эфир"
+      text: |
+        Первое подземелье Эфира — внутри Скользящий (Slider). Его ключ откроет сундук с наградой.
+    en:
+      title: "Bronze Dungeon"
+      subtitle: "The Aether"
+      text: |
+        The first Aether dungeon, home of the Slider. Its key opens the reward chest.
+
+  - id: dg_deep_aether_brass
+    deps: [dg_aether_bronze]
+    icon: deep_aether:brass_dungeon_key
+    tasks: [{type: structure, structure: deep_aether:brass_dungeon}]
+    ru:
+      title: "Латунное подземелье"
+      subtitle: "Deep Aether"
+      text: |
+        Подземелье Глубокого Эфира с механическими стражами. Лут — заготовки грозовой брони (Stormforged).
+    en:
+      title: "Brass Dungeon"
+      subtitle: "Deep Aether"
+      text: |
+        A Deep Aether dungeon with mechanical guardians. Loot: Stormforged armour templates.
+
+  - id: dg_ancient_temple
+    deps: [adv_otherside]
+    icon: deeperdarker:heart_of_the_deep
+    tasks: [{type: structure, structure: deeperdarker:ancient_temple}]
+    ru:
+      title: "Древний храм"
+      subtitle: "Другая сторона"
+      text: |
+        Храм в глубинах Другой стороны: тишина обязательна. Лут — Сердце глубин и путь к Сталкеру.
+    en:
+      title: "Ancient Temple"
+      subtitle: "The Otherside"
+      text: |
+        A temple deep in the Otherside: silence is mandatory. Loot: the Heart of the Deep and the way to the Stalker.
+
+  - id: dg_end_castle
+    deps: [adv_end]
+    icon: minecraft:purpur_block
+    tasks: [{type: structure, structure: nova_structures:end_castle}]
+    ru:
+      title: "Замок Края"
+      subtitle: "Dungeons & Taverns"
+      text: |
+        Замок на дальних островах Края — шалкеры, сундуки и путь к элитрам, если город Края ещё не нашёлся.
+    en:
+      title: "End Castle"
+      subtitle: "Dungeons & Taverns"
+      text: |
+        A castle on the far End islands: shulkers, chests, and a road to elytra if you haven't found an End city yet.
+
+  - id: dg_master
+    deps: [dg_shiraz, dg_irons_citadel, dg_cataclysm_city, dg_twilight_maze, dg_hive_temple, dg_deep_aether_brass, dg_ancient_temple, dg_end_castle, dg_bandit_village]
+    icon: minecraft:recovery_compass
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards: [{type: xp_levels, count: 12}]
+    ru:
+      title: "Расхититель гробниц"
+      subtitle: "Девять великих данжей"
+      text: |
+        Ты видел небеса и бездны этого мира. Отметь найденное на общей карте (Xaero → путевые точки → поделиться) — пусть друзья идут по твоим следам.
+    en:
+      title: "Tomb Raider"
+      subtitle: "Nine great dungeons"
+      text: |
+        You've seen the heavens and the depths of this world. Share your finds on the map (Xaero → waypoints → share) so friends can follow.

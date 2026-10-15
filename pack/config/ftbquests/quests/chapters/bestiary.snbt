@@ -1,0 +1,337 @@
+{
+	id: "0BD79D79E7D32154"
+	group: ""
+	order_index: 55
+	filename: "bestiary"
+	icon: {
+		id: "naturalist:capture_net"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "13CF20102D7B78A9"
+			x: 0.0d
+			y: -1.25d
+			shape: "gear"
+			icon: {
+				id: "naturalist:capture_net"
+				count: 1
+			}
+			dependencies: [
+				"58A5F95E7247AE74"
+			]
+			tasks: [
+				{
+					id: "5EB7E3554C09D991"
+					type: "item"
+					item: {
+						count: 1
+						id: "naturalist:capture_net"
+					}
+				}
+			]
+		}
+		{
+			id: "1C77C072846E22DB"
+			x: 1.5d
+			y: -5.0d
+			icon: {
+				id: "naturalist:firefly"
+				count: 1
+			}
+			dependencies: [
+				"13CF20102D7B78A9"
+			]
+			tasks: [
+				{
+					id: "3A97E32EFB6A0F32"
+					type: "item"
+					item: {
+						count: 1
+						id: "naturalist:firefly"
+					}
+				}
+			]
+		}
+		{
+			id: "55964F7444DDA930"
+			x: 1.5d
+			y: -3.75d
+			icon: {
+				id: "naturalist:snail_shell"
+				count: 1
+			}
+			dependencies: [
+				"13CF20102D7B78A9"
+			]
+			tasks: [
+				{
+					id: "0F657AB332A3A0A6"
+					type: "item"
+					item: {
+						count: 1
+						id: "naturalist:snail_shell"
+					}
+				}
+			]
+		}
+		{
+			id: "3EDAFB99296BD41D"
+			x: 1.5d
+			y: -2.5d
+			icon: {
+				id: "friendsandfoes:penguin_feather"
+				count: 1
+			}
+			dependencies: [
+				"13CF20102D7B78A9"
+			]
+			tasks: [
+				{
+					id: "20D366F884E64766"
+					type: "item"
+					item: {
+						count: 1
+						id: "friendsandfoes:penguin_feather"
+					}
+				}
+			]
+		}
+		{
+			id: "5866BB61BDFE6005"
+			x: 1.5d
+			y: -1.25d
+			icon: {
+				id: "friendsandfoes:crab_claw"
+				count: 1
+			}
+			dependencies: [
+				"13CF20102D7B78A9"
+			]
+			tasks: [
+				{
+					id: "39C0162109939F57"
+					type: "item"
+					item: {
+						count: 1
+						id: "friendsandfoes:crab_claw"
+					}
+				}
+			]
+		}
+		{
+			id: "4F8BAF5FD1792F61"
+			x: 0.0d
+			y: 0.0d
+			icon: {
+				id: "minecraft:lightning_rod"
+				count: 1
+			}
+			dependencies: [
+				"035FE318376C81BB"
+			]
+			tasks: [
+				{
+					id: "7A93D3E39B494ADB"
+					type: "item"
+					item: {
+						count: 1
+						id: "friendsandfoes:waxed_lightning_rod"
+					}
+				}
+			]
+		}
+		{
+			id: "033B1D9A70472766"
+			x: 1.5d
+			y: 0.0d
+			icon: {
+				id: "friendsandfoes:totem_of_illusion"
+				count: 1
+			}
+			dependencies: [
+				"13CF20102D7B78A9"
+			]
+			tasks: [
+				{
+					id: "531D28F468949D1B"
+					type: "item"
+					item: {
+						count: 1
+						id: "friendsandfoes:totem_of_illusion"
+					}
+				}
+			]
+		}
+		{
+			id: "2402F75EF7C35548"
+			x: 3.0d
+			y: 0.0d
+			icon: {
+				id: "friendsandfoes:wildfire_crown"
+				count: 1
+			}
+			dependencies: [
+				"033B1D9A70472766"
+			]
+			tasks: [
+				{
+					id: "60698FACB9874C36"
+					type: "item"
+					item: {
+						count: 1
+						id: "friendsandfoes:wildfire_crown"
+					}
+				}
+			]
+		}
+		{
+			id: "329BCF45C9315052"
+			x: 1.5d
+			y: 1.25d
+			icon: {
+				id: "crittersandcompanions:koi_fish"
+				count: 1
+			}
+			dependencies: [
+				"13CF20102D7B78A9"
+			]
+			tasks: [
+				{
+					id: "52BBCDD8A070F37C"
+					type: "item"
+					item: {
+						count: 1
+						id: "crittersandcompanions:koi_fish_bucket"
+					}
+				}
+			]
+		}
+		{
+			id: "32002160EE532F37"
+			x: 1.5d
+			y: 2.5d
+			icon: {
+				id: "crittersandcompanions:dragonfly_wing"
+				count: 1
+			}
+			dependencies: [
+				"13CF20102D7B78A9"
+			]
+			tasks: [
+				{
+					id: "3E739840B4B03822"
+					type: "item"
+					item: {
+						count: 1
+						id: "crittersandcompanions:dragonfly_wing"
+					}
+				}
+			]
+		}
+		{
+			id: "3B2210219FF0E30D"
+			x: 1.5d
+			y: 3.75d
+			icon: {
+				id: "crittersandcompanions:silk"
+				count: 1
+			}
+			dependencies: [
+				"13CF20102D7B78A9"
+			]
+			tasks: [
+				{
+					id: "7E3F98CA8B09649C"
+					type: "item"
+					item: {
+						count: 1
+						id: "crittersandcompanions:silk"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "339ADBA3BE321FC3"
+			x: 0.0d
+			y: 1.25d
+			icon: {
+				id: "mca:family_tree"
+				count: 1
+			}
+			dependencies: [
+				"5E28B4759F897AD5"
+			]
+			tasks: [
+				{
+					id: "02FA208F88016849"
+					type: "item"
+					item: {
+						count: 1
+						id: "mca:family_tree"
+					}
+				}
+			]
+		}
+		{
+			id: "54CA79F1B0C4FC67"
+			x: 1.5d
+			y: 5.0d
+			icon: {
+				id: "mca:engagement_ring"
+				count: 1
+			}
+			dependencies: [
+				"339ADBA3BE321FC3"
+			]
+			tasks: [
+				{
+					id: "6AEA6E689F357737"
+					type: "item"
+					item: {
+						count: 1
+						id: "mca:engagement_ring"
+					}
+				}
+			]
+		}
+		{
+			id: "6AC6020BC3187145"
+			x: 4.5d
+			y: 0.0d
+			shape: "hexagon"
+			icon: {
+				id: "minecraft:spawner"
+				count: 1
+			}
+			dependencies: [
+				"1C77C072846E22DB"
+				"55964F7444DDA930"
+				"3EDAFB99296BD41D"
+				"5866BB61BDFE6005"
+				"4F8BAF5FD1792F61"
+				"2402F75EF7C35548"
+				"329BCF45C9315052"
+				"32002160EE532F37"
+				"3B2210219FF0E30D"
+				"54CA79F1B0C4FC67"
+			]
+			tasks: [
+				{
+					id: "39DB035CF142DC04"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "1417571D089632A0"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+		}
+	]
+}

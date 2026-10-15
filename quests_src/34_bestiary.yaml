@@ -1,0 +1,223 @@
+chapter:
+  id: bestiary
+  order: 5.5
+  icon: naturalist:capture_net
+  ru: {title: "Бестиарий и спутники", subtitle: "Звери, питомцы и жители: кого приручить, кого изучить"}
+  en: {title: "Bestiary and Companions", subtitle: "Beasts, pets and villagers: whom to tame, whom to study"}
+quests:
+  - id: be_intro
+    deps: [a_lead]
+    icon: naturalist:capture_net
+    shape: gear
+    tasks: [{type: item, item: naturalist:capture_net}]
+    ru:
+      title: "Сачок натуралиста"
+      subtitle: "Naturalist"
+      text: |
+        **Что:** в мире живут сотни новых существ (Naturalist, Alex's Mobs, Friends & Foes, Critters & Companions). Большинство мирные.
+        **Зачем:** у каждого есть польза — материалы, помощь, питомец. Этот раздел расскажет о самых полезных.
+        **Сачок** ловит бабочек, светлячков и мелочь — их можно выпустить у дома.
+    en:
+      title: "The Naturalist's Net"
+      subtitle: "Naturalist"
+      text: |
+        **What:** hundreds of new creatures live in the world (Naturalist, Alex's Mobs, Friends & Foes, Critters & Companions). Most are peaceful.
+        **Why:** each is useful: materials, help, a pet. This chapter covers the most useful ones.
+        **The net** catches butterflies, fireflies and other small things: release them near home.
+
+  - id: be_firefly
+    deps: [be_intro]
+    icon: naturalist:firefly
+    tasks: [{type: item, item: naturalist:firefly}]
+    ru:
+      title: "Светлячок"
+      subtitle: "Живой фонарь"
+      text: |
+        Светлячки светятся в болотах ночью. Поймай и выпусти в саду — красиво, и путь к дому видно.
+    en:
+      title: "Firefly"
+      subtitle: "A living lantern"
+      text: |
+        Fireflies glow in swamps at night. Catch some and release them in your garden: pretty, and you can see the way home.
+
+  - id: be_snail
+    deps: [be_intro]
+    icon: naturalist:snail_shell
+    tasks: [{type: item, item: naturalist:snail_shell}]
+    ru:
+      title: "Раковина улитки"
+      subtitle: "Натуральный материал"
+      text: |
+        Улитки оставляют раковины — материал для крафта (что из них делают — в EMI).
+    en:
+      title: "Snail Shell"
+      subtitle: "A natural material"
+      text: |
+        Snails leave shells: a crafting material (see EMI for what they make).
+
+  - id: be_penguin
+    deps: [be_intro]
+    icon: friendsandfoes:penguin_feather
+    tasks: [{type: item, item: friendsandfoes:penguin_feather}]
+    ru:
+      title: "Перо пингвина"
+      subtitle: "Friends & Foes"
+      text: |
+        Пингвины живут на ледяных берегах. Их перья — для стрел и одежды.
+    en:
+      title: "Penguin Feather"
+      subtitle: "Friends & Foes"
+      text: |
+        Penguins live on icy shores. Their feathers go into arrows and clothing.
+
+  - id: be_crab
+    deps: [be_intro]
+    icon: friendsandfoes:crab_claw
+    tasks: [{type: item, item: friendsandfoes:crab_claw}]
+    ru:
+      title: "Клешня краба"
+      subtitle: "Длинные руки"
+      text: |
+        Зелье из клешни краба увеличивает дальность взаимодействия — строитель дотянется до дальних блоков.
+    en:
+      title: "Crab Claw"
+      subtitle: "Long arms"
+      text: |
+        A potion from a crab claw extends your reach: builders can touch distant blocks.
+
+  - id: be_copper_golem
+    deps: [a_copper_golem]
+    icon: minecraft:lightning_rod
+    tasks: [{type: item, item: friendsandfoes:waxed_lightning_rod}]
+    ru:
+      title: "Друг-медяк"
+      subtitle: "Friends & Foes"
+      text: |
+        Медного голема собирают из медного блока и громоотвода. Он нажимает медные кнопки и со временем окисляется — вощёный громоотвод пригодится для его домика.
+    en:
+      title: "A Copper Friend"
+      subtitle: "Friends & Foes"
+      text: |
+        The copper golem is built from a copper block and a lightning rod. It presses copper buttons and oxidises over time: a waxed lightning rod suits its little house.
+
+  - id: be_totem_illusion
+    deps: [be_intro]
+    icon: friendsandfoes:totem_of_illusion
+    tasks: [{type: item, item: friendsandfoes:totem_of_illusion}]
+    ru:
+      title: "Тотем иллюзий"
+      subtitle: "От иллюзиониста"
+      text: |
+        Иллюзионист оставляет тотем, который создаёт копии тебя при ударе — враги путаются. Хорош против стрелков иллагеров.
+    en:
+      title: "Totem of Illusion"
+      subtitle: "From the illusioner"
+      text: |
+        The illusioner drops a totem that spawns copies of you when hit: enemies get confused. Good against illager gunners.
+
+  - id: be_wildfire
+    deps: [be_totem_illusion]
+    icon: friendsandfoes:wildfire_crown
+    tasks: [{type: item, item: friendsandfoes:wildfire_crown}]
+    ru:
+      title: "Корона пламени"
+      subtitle: "Мини-босс Нижнего мира"
+      text: |
+        Дикое пламя (Wildfire) — королева ифритов в бастионах. Её корона защищает от огня — полезна в Литейной и против Игниса.
+    en:
+      title: "Wildfire Crown"
+      subtitle: "A Nether mini-boss"
+      text: |
+        The Wildfire is the blaze queen of bastions. Her crown protects against fire: useful in the Foundry and against Ignis.
+
+  - id: be_koi
+    deps: [be_intro]
+    icon: crittersandcompanions:koi_fish
+    tasks: [{type: item, item: crittersandcompanions:koi_fish_bucket}]
+    ru:
+      title: "Карп кои"
+      subtitle: "Critters & Companions"
+      text: |
+        Декоративная рыбка для пруда у дома. Кои в пруду рядом с кроватью — говорят, к удаче (и к красивым скриншотам).
+    en:
+      title: "Koi"
+      subtitle: "Critters & Companions"
+      text: |
+        A decorative fish for a garden pond. Koi near your bed bring luck, they say (and nice screenshots).
+
+  - id: be_dragonfly
+    deps: [be_intro]
+    icon: crittersandcompanions:dragonfly_wing
+    tasks: [{type: item, item: crittersandcompanions:dragonfly_wing}]
+    ru:
+      title: "Крыло стрекозы"
+      subtitle: "Ингредиент"
+      text: |
+        Стрекозы живут у воды. Их крылья — ингредиент снадобий и брони для питомцев-стрекоз.
+    en:
+      title: "Dragonfly Wing"
+      subtitle: "An ingredient"
+      text: |
+        Dragonflies live near water. Their wings go into tonics and armour for pet dragonflies.
+
+  - id: be_silk
+    deps: [be_intro]
+    icon: crittersandcompanions:silk
+    tasks: [{type: item, item: crittersandcompanions:silk, count: 4}]
+    ru:
+      title: "Шёлк"
+      subtitle: "Из коконов"
+      text: |
+        Шелкопряды плетут коконы, из них — шёлк для шёлкового поводка (не рвётся) и тканей.
+    en:
+      title: "Silk"
+      subtitle: "From cocoons"
+      text: |
+        Silkworms spin cocoons; they become silk for a silk lead (it doesn't snap) and fabrics.
+
+  - id: be_mca_family
+    deps: [city_mca]
+    icon: mca:family_tree
+    tasks: [{type: item, item: mca:family_tree}]
+    ru:
+      title: "Семейное древо"
+      subtitle: "Minecraft Comes Alive"
+      text: |
+        Жители MCA живые: у них имена, характеры, семьи. Древо показывает, кто кому родня — в том числе твои дети, если ты женился в деревне.
+    en:
+      title: "Family Tree"
+      subtitle: "Minecraft Comes Alive"
+      text: |
+        MCA villagers are alive: names, personalities, families. The tree shows who's related, including your own children if you married in the village.
+
+  - id: be_mca_ring
+    deps: [be_mca_family]
+    icon: mca:engagement_ring
+    tasks: [{type: item, item: mca:engagement_ring}]
+    ru:
+      title: "Помолвка"
+      subtitle: "Не только для жителей"
+      text: |
+        Подари кольцо жителю, которому ты нравишься, — или другому игроку. Свадьба в таверне — повод собрать сервер.
+    en:
+      title: "Engagement"
+      subtitle: "Not just for villagers"
+      text: |
+        Give a ring to a villager who likes you, or to another player. A wedding in the tavern is a reason to gather the server.
+
+  - id: be_master
+    deps: [be_firefly, be_snail, be_penguin, be_crab, be_copper_golem, be_wildfire, be_koi, be_dragonfly, be_silk, be_mca_ring]
+    icon: minecraft:spawner
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards: [{type: xp_levels, count: 6}]
+    ru:
+      title: "Натуралист"
+      subtitle: "Живой мир"
+      text: |
+        Ты знаешь, кто живёт рядом и чем полезен. Предложи сделать на сервере заповедник — это одна из Великих строек.
+    en:
+      title: "Naturalist"
+      subtitle: "A living world"
+      text: |
+        You know who lives around you and what they're good for. Suggest a nature reserve: it's one of the Great Works.

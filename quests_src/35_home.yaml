@@ -1,0 +1,239 @@
+chapter:
+  id: home
+  order: 20.5
+  icon: another_furniture:oak_bench
+  ru: {title: "Дом и уют", subtitle: "Мебель, свет, крыши, тропинки: сотни блоков для красивого дома"}
+  en: {title: "Home and Comfort", subtitle: "Furniture, lights, roofs, paths: hundreds of blocks for a beautiful home"}
+quests:
+  - id: ho_intro
+    deps: [path_settle]
+    roles: [builder]
+    icon: mcwfurnitures:birch_desk
+    shape: gear
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Зачем уют"
+      subtitle: "Красиво — тоже геймплей"
+      text: |
+        **Зачем:** красивый дом — повод зайти в гости, а колония Minecolonies растёт быстрее, когда жители счастливы.
+        **Как:** почти вся мебель крафтится из досок нужной породы — ищи в EMI по слову «chair», «table», «lamp».
+        **Совет:** у многих блоков Macaw's есть варианты — смотри в EMI, из одной заготовки часто выходит несколько форм.
+    en:
+      title: "Why Comfort"
+      subtitle: "Pretty is gameplay too"
+      text: |
+        **Why:** a beautiful home is a reason to visit, and a Minecolonies colony grows faster when its people are happy.
+        **How:** almost all furniture is crafted from planks of the right wood: search EMI for «chair», «table», «lamp».
+        **Tip:** many Macaw's blocks come in variants: check EMI, one piece often yields several shapes.
+
+  - id: ho_desk
+    deps: [ho_intro]
+    roles: [builder]
+    icon: mcwfurnitures:birch_desk
+    tasks: [{type: item, item: mcwfurnitures:birch_desk}]
+    ru:
+      title: "Рабочий стол"
+      subtitle: "Macaw's Furniture"
+      text: |
+        Столы, шкафы, ящики, стулья — у Macaw's каждая мебель ещё и функциональна: шкафы и ящики хранят вещи.
+    en:
+      title: "A Desk"
+      subtitle: "Macaw's Furniture"
+      text: |
+        Desks, wardrobes, drawers, chairs: in Macaw's, furniture is functional too: wardrobes and drawers store items.
+
+  - id: ho_lights
+    deps: [ho_intro]
+    roles: [builder]
+    icon: mcwlights:golden_chandelier
+    tasks: [{type: item, item: mcwlights:golden_chandelier}]
+    ru:
+      title: "Люстра"
+      subtitle: "Macaw's Lights"
+      text: |
+        Свет решает: люстры, бра, факелы-тики, потолочные вентиляторы со светом. Освещённый дом — ещё и защита от мобов.
+    en:
+      title: "A Chandelier"
+      subtitle: "Macaw's Lights"
+      text: |
+        Lighting matters: chandeliers, sconces, tiki torches, ceiling fan lights. A well-lit home also keeps mobs out.
+
+  - id: ho_roof
+    deps: [ho_intro]
+    roles: [builder]
+    icon: mcwroofs:thatch_roof
+    tasks: [{type: item, item: mcwroofs:thatch_roof, count: 16}]
+    ru:
+      title: "Соломенная крыша"
+      subtitle: "Macaw's Roofs"
+      text: |
+        Крыши разных уклонов и материалов — ступенек больше не нужно. Соломенная — для деревенского дома, черепица — для города.
+    en:
+      title: "A Thatch Roof"
+      subtitle: "Macaw's Roofs"
+      text: |
+        Roofs of every pitch and material: no more stair-step roofs. Thatch for a village cottage, tiles for a town.
+
+  - id: ho_path
+    deps: [ho_intro]
+    roles: [builder]
+    icon: mcwpaths:cobblestone_dumble_paving
+    tasks: [{type: item, item: mcwpaths:cobblestone_dumble_paving, count: 16}]
+    ru:
+      title: "Мощёная дорожка"
+      subtitle: "Macaw's Paths"
+      text: |
+        Узорные мостовые и плиты — дорожка от дома к вейстоуну сразу делает базу обжитой.
+    en:
+      title: "A Paved Path"
+      subtitle: "Macaw's Paths"
+      text: |
+        Patterned paving and flagstones: a path from your door to the waystone makes a base feel lived-in.
+
+  - id: ho_window_door
+    deps: [ho_intro]
+    roles: [builder]
+    icon: mcwdoors:birch_cottage_door
+    tasks: [{type: item, item: mcwdoors:birch_cottage_door}, {type: item, item: mcwwindows:birch_four_window, count: 2}]
+    ru:
+      title: "Окна и двери"
+      subtitle: "Macaw's Doors & Windows"
+      text: |
+        Двери разных стилей (японская, коттедж, амбарная) и окна с переплётом. Шторы на карнизе открываются ПКМ.
+    en:
+      title: "Windows and Doors"
+      subtitle: "Macaw's Doors & Windows"
+      text: |
+        Doors in many styles (Japanese, cottage, barn) and mullioned windows. Curtains on a rod open with right click.
+
+  - id: ho_bridge
+    deps: [ho_path]
+    roles: [builder]
+    icon: mcwbridges:dark_oak_rail_bridge
+    tasks: [{type: item, item: mcwbridges:dark_oak_rail_bridge, count: 8}]
+    ru:
+      title: "Мост через ручей"
+      subtitle: "Macaw's Bridges"
+      text: |
+        Мосты собираются из сегментов и сами подстраиваются по длине. Верёвочный — для ущелий, каменный — для рек.
+    en:
+      title: "A Bridge over the Stream"
+      subtitle: "Macaw's Bridges"
+      text: |
+        Bridges snap together from segments and adjust to length. Rope for ravines, stone for rivers.
+
+  - id: ho_sofa
+    deps: [ho_desk]
+    roles: [builder]
+    icon: another_furniture:white_sofa
+    tasks: [{type: item, item: another_furniture:white_sofa, count: 2}]
+    ru:
+      title: "Диван"
+      subtitle: "Another Furniture"
+      text: |
+        Диваны, табуреты, полки, цветочные ящики. На диване и стульях можно **сидеть** — ПКМ.
+    en:
+      title: "A Sofa"
+      subtitle: "Another Furniture"
+      text: |
+        Sofas, stools, shelves, flower boxes. You can **sit** on sofas and chairs: right click.
+
+  - id: ho_trophy
+    deps: [ho_desk, boss_intro]
+    roles: [builder, warrior]
+    icon: handcrafted:bear_trophy
+    tasks: [{type: item, item: handcrafted:bear_trophy}]
+    ru:
+      title: "Трофей на стену"
+      subtitle: "Handcrafted"
+      text: |
+        Трофейные головы зверей и мобов — повесь над камином. Воин добывает, строитель вешает: обмен ролями.
+    en:
+      title: "A Wall Trophy"
+      subtitle: "Handcrafted"
+      text: |
+        Trophy heads of beasts and mobs: hang them over the fireplace. The warrior hunts, the builder hangs: roles meet.
+
+  - id: ho_kitchen_set
+    deps: [ho_desk, k_cfb_counter]
+    roles: [builder, cook]
+    icon: handcrafted:kitchen_hood
+    tasks: [{type: item, item: handcrafted:kitchen_hood}, {type: item, item: handcrafted:oven}]
+    ru:
+      title: "Кухня мечты"
+      subtitle: "Handcrafted + Cooking for Blockheads"
+      text: |
+        Вытяжка и печь Handcrafted рядом с рабочими блоками Cooking for Blockheads — кухня, где можно и готовить, и показывать гостям.
+    en:
+      title: "Dream Kitchen"
+      subtitle: "Handcrafted + Cooking for Blockheads"
+      text: |
+        A Handcrafted hood and oven next to Cooking for Blockheads work blocks: a kitchen you can cook in and show off.
+
+  - id: ho_framed
+    deps: [b_framed]
+    roles: [builder]
+    icon: framedblocks:framed_secret_storage
+    tasks: [{type: item, item: framedblocks:framed_secret_storage}]
+    ru:
+      title: "Тайник"
+      subtitle: "Framed Blocks"
+      text: |
+        Обрамлённый блок принимает вид любого другого — а тайник ещё и хранит вещи. Сейф за книжной полкой.
+    en:
+      title: "Secret Stash"
+      subtitle: "Framed Blocks"
+      text: |
+        A framed block takes the look of any other, and the secret storage also holds items. A safe behind the bookshelf.
+
+  - id: ho_timberframe
+    deps: [ho_intro]
+    roles: [builder]
+    icon: domum_ornamentum:architectscutter
+    tasks: [{type: item, item: domum_ornamentum:architectscutter}]
+    ru:
+      title: "Резак архитектора"
+      subtitle: "Domum Ornamentum"
+      text: |
+        Делает фахверк, черепицу и колонны из любых двух материалов. Именно им строят дома Minecolonies — можно и свои.
+    en:
+      title: "Architect's Cutter"
+      subtitle: "Domum Ornamentum"
+      text: |
+        Makes timber frames, shingles and pillars from any two materials. Minecolonies builds its houses with it; you can too.
+
+  - id: ho_supplementaries
+    deps: [ho_intro]
+    roles: [builder]
+    icon: supplementaries:notice_board
+    tasks: [{type: item, item: supplementaries:notice_board}, {type: item, item: supplementaries:item_shelf, count: 2}]
+    ru:
+      title: "Доска объявлений"
+      subtitle: "Supplementaries"
+      text: |
+        Повесь книгу на доску — её прочтёт каждый прохожий. Полки показывают предметы, банки хранят жидкости и светлячков.
+        **Идея:** доска у спавна с правилами и новостями сервера.
+    en:
+      title: "Notice Board"
+      subtitle: "Supplementaries"
+      text: |
+        Pin a book on the board and every passer-by can read it. Shelves display items, jars hold liquids and fireflies.
+        **Idea:** a board at spawn with the server rules and news.
+
+  - id: ho_master
+    deps: [ho_lights, ho_roof, ho_window_door, ho_bridge, ho_sofa, ho_trophy, ho_kitchen_set, ho_framed, ho_timberframe, ho_supplementaries]
+    roles: [builder]
+    icon: minecraft:red_bed
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards: [{type: xp_levels, count: 6}]
+    ru:
+      title: "Уютное гнездо"
+      subtitle: "Дом, куда хочется вернуться"
+      text: |
+        Свет, крыша, мебель, трофеи и тайник. Пригласи друзей на новоселье — и сделай скриншот с шейдерами.
+    en:
+      title: "A Cosy Nest"
+      subtitle: "A home worth coming back to"
+      text: |
+        Lights, roof, furniture, trophies and a stash. Invite friends to a housewarming, and take a screenshot with shaders on.

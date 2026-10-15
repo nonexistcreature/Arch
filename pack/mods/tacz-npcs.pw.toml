@@ -1,0 +1,13 @@
+name = "[TACZ] NPCs"
+filename = "tacznpcs-2.1.0-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/A3oZ8vhW/versions/J6Bjfwku/tacznpcs-2.1.0-1.21.1.jar"
+hash-format = "sha512"
+hash = "3b0a0ee73efc888c7a5fae06087adc6b456b3840f081f04dcdb5cc9ac2dd5e1511dff6ebe76e8c752f1af8a1a639ba40c808cf49efa0c45f1cc01d6e0b4d25af"
+
+[update]
+[update.modrinth]
+mod-id = "A3oZ8vhW"
+version = "J6Bjfwku"

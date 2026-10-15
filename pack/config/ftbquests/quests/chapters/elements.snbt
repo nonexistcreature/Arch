@@ -1,7 +1,7 @@
 {
 	id: "6B5C9EE747778BF3"
 	group: ""
-	order_index: 18
+	order_index: 180
 	filename: "elements"
 	icon: {
 		id: "arkhaven_core:ward_generator_t1"

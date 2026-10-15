@@ -1,0 +1,258 @@
+chapter:
+  id: worlds
+  order: 16.7
+  icon: minecraft:ender_eye
+  ru: {title: "Иные миры", subtitle: "Что добывать в каждом измерении и зачем туда возвращаться"}
+  en: {title: "Other Worlds", subtitle: "What to gather in each dimension, and why to come back"}
+quests:
+  - id: wo_intro
+    deps: [path_worlds]
+    icon: minecraft:ender_eye
+    shape: gear
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Карта миров"
+      subtitle: "Куда и зачем"
+      text: |
+        **Эфир** (небесные острова) — лёгкие металлы, полёт, мирные животные. **Глубокий Эфир** — его продолжение со своими рудами.
+        **Подсад** (под бедроком) — тёмные пещеры, лучшие металлы для брони.
+        **Улей** (Bumblezone) — пчёлы, мёд, королевское желе.
+        **Другая сторона** (за порталом из скалка) — опасно, но там броня Хранителя.
+        **Сумеречный лес** — цепочка боссов (глава «Приключения»). **Край** — элитры, шалкеры, пустота.
+    en:
+      title: "A Map of Worlds"
+      subtitle: "Where and why"
+      text: |
+        **The Aether** (sky islands): light metals, flight, gentle animals. **Deep Aether** extends it with its own ores.
+        **The Undergarden** (below bedrock): dark caves, the best armour metals.
+        **The Bumblezone**: bees, honey, royal jelly.
+        **The Otherside** (through a sculk portal): dangerous, but it has Warden armour.
+        **The Twilight Forest**: a chain of bosses («Adventure»). **The End**: elytra, shulkers, the void.
+
+  - id: wo_skyjade
+    deps: [wo_intro, adv_aether]
+    icon: deep_aether:skyjade
+    tasks: [{type: item, item: deep_aether:skyjade, count: 8}]
+    ru:
+      title: "Небесный нефрит"
+      subtitle: "Deep Aether"
+      text: |
+        Руда Глубокого Эфира. Из неё — инструменты и броня, лёгкие и быстрые, промежуточный шаг между зинитом и грозовой бронёй.
+    en:
+      title: "Skyjade"
+      subtitle: "Deep Aether"
+      text: |
+        A Deep Aether ore. It makes light, fast tools and armour, a step between zanite and stormforged gear.
+
+  - id: wo_stratus
+    deps: [wo_skyjade]
+    icon: deep_aether:stratus_chestplate
+    tasks: [{type: item, item: deep_aether:stratus_chestplate}]
+    ru:
+      title: "Стратус"
+      subtitle: "Облачная броня"
+      text: |
+        Броня из стратуса делает тебя быстрее в небе. Хороша для исследования Эфира на дирижабле или пешком по облакам.
+    en:
+      title: "Stratus"
+      subtitle: "Cloud armour"
+      text: |
+        Stratus armour makes you faster in the sky. Good for exploring the Aether by airship or on foot over the clouds.
+
+  - id: wo_aerwhale
+    deps: [wo_skyjade]
+    icon: deep_aether:aerwhale_saddle
+    tasks: [{type: item, item: deep_aether:aerwhale_saddle}]
+    ru:
+      title: "Седло воздушного кита"
+      subtitle: "Летающий маунт"
+      text: |
+        Небесный кит Эфира мирно плывёт по воздуху. С седлом на нём можно лететь — медленно, но красиво.
+    en:
+      title: "Aerwhale Saddle"
+      subtitle: "A flying mount"
+      text: |
+        The Aether's aerwhale drifts peacefully through the air. With a saddle you can ride it: slow, but beautiful.
+
+  - id: wo_cloggrum
+    deps: [wo_intro, adv_undergarden]
+    icon: undergarden:cloggrum_ingot
+    tasks: [{type: item, item: undergarden:cloggrum_ingot, count: 8}]
+    ru:
+      title: "Клоггрум"
+      subtitle: "Подсад"
+      text: |
+        Первый металл Подсада — прочнее железа. Дальше идут морозная сталь (Froststeel) и утериум — у каждого свой бонус против местных монстров.
+    en:
+      title: "Cloggrum"
+      subtitle: "The Undergarden"
+      text: |
+        The Undergarden's first metal, sturdier than iron. Next come froststeel and utherium, each with a bonus against local monsters.
+
+  - id: wo_utherium
+    deps: [wo_cloggrum]
+    icon: undergarden:utherium_crystal
+    tasks: [{type: item, item: undergarden:utherium_crystal, count: 4}]
+    ru:
+      title: "Утериум"
+      subtitle: "Против порченых"
+      text: |
+        Оружие из утериума бьёт сильнее по порченым тварям Подсада — бери его в катакомбы.
+    en:
+      title: "Utherium"
+      subtitle: "Against the rotten"
+      text: |
+        Utherium weapons hit Undergarden rotspawn harder: take one to the catacombs.
+
+  - id: wo_gloomgourd
+    deps: [wo_cloggrum]
+    icon: undergarden:gloomgourd
+    tasks: [{type: item, item: undergarden:gloomgourd}]
+    ru:
+      title: "Мрачная тыква"
+      subtitle: "Еда без солнца"
+      text: |
+        В Подсаде нет солнца, но растут свои культуры. Мрачная тыква — основа местной кухни (пирог!) и разнообразия рациона.
+    en:
+      title: "Gloomgourd"
+      subtitle: "Food without sun"
+      text: |
+        There's no sun in the Undergarden, but it has its own crops. The gloomgourd is the base of local cuisine (pie!) and food variety.
+
+  - id: wo_royal_jelly
+    deps: [wo_intro, adv_bumblezone]
+    icon: the_bumblezone:royal_jelly_bottle
+    tasks: [{type: item, item: the_bumblezone:royal_jelly_bottle}]
+    ru:
+      title: "Королевское желе"
+      subtitle: "Bumblezone"
+      text: |
+        Самая ценная добыча Улья. Нужно для пчелиной брони и снадобий, а пчеловодам Productive Bees — для редких пород.
+    en:
+      title: "Royal Jelly"
+      subtitle: "Bumblezone"
+      text: |
+        The Bumblezone's most valuable prize. Used for bee armour and tonics, and Productive Bees keepers need it for rare breeds.
+
+  - id: wo_bee_armor
+    deps: [wo_royal_jelly]
+    icon: the_bumblezone:bumble_bee_chestplate_1
+    tasks: [{type: item, item: the_bumblezone:bumble_bee_chestplate_1}]
+    ru:
+      title: "Пчелиная броня"
+      subtitle: "Свой среди пчёл"
+      text: |
+        Пчелиная броня успокаивает пчёл и помогает держаться в воздухе (подробно — в подсказке предметов). Комплект — проход в самые глубокие ульи.
+    en:
+      title: "Bee Armour"
+      subtitle: "One of the hive"
+      text: |
+        Bee armour calms the bees and helps you stay airborne (details in the item tooltips). The full set is your pass to the deepest hives.
+
+  - id: wo_essence
+    deps: [wo_bee_armor]
+    icon: the_bumblezone:essence_of_the_bees
+    tasks: [{type: item, item: the_bumblezone:essence_of_the_bees}]
+    ru:
+      title: "Эссенция пчёл"
+      subtitle: "Испытания святилищ"
+      text: |
+        Святилища Улья проводят испытания: пройди — получишь эссенцию. Что она даёт — в подсказке предмета.
+    en:
+      title: "Essence of the Bees"
+      subtitle: "Sanctum trials"
+      text: |
+        Bumblezone sanctums run trials: beat one and you get an essence. Its effect is in the item tooltip.
+
+  - id: wo_echo
+    deps: [wo_intro, adv_otherside]
+    icon: deeperdarker:reinforced_echo_shard
+    tasks: [{type: item, item: deeperdarker:reinforced_echo_shard}]
+    ru:
+      title: "Усиленный осколок эха"
+      subtitle: "Deeper Darker"
+      text: |
+        Осколки эха с Другой стороны — материал для портала и улучшений. Добываются тихо: любой шум зовёт стражей скалка.
+    en:
+      title: "Reinforced Echo Shard"
+      subtitle: "Deeper Darker"
+      text: |
+        Echo shards from the Otherside: material for portals and upgrades. Gather them quietly: any noise calls the sculk guardians.
+
+  - id: wo_resonarium
+    deps: [wo_echo]
+    icon: deeperdarker:resonarium
+    tasks: [{type: item, item: deeperdarker:resonarium, count: 4}]
+    ru:
+      title: "Резонарий"
+      subtitle: "Звуковой металл"
+      text: |
+        Металл, который отзывается на звук. Инструменты из резонария режут скалк, а броня глушит шаги.
+    en:
+      title: "Resonarium"
+      subtitle: "A sound metal"
+      text: |
+        A metal that resonates with sound. Resonarium tools cut sculk, and the armour muffles your steps.
+
+  - id: wo_warden_armor
+    deps: [wo_resonarium, boss_warden]
+    icon: deeperdarker:warden_chestplate
+    shape: hexagon
+    tasks: [{type: item, item: deeperdarker:warden_chestplate}]
+    ru:
+      title: "Броня Хранителя"
+      subtitle: "Лучше незерита"
+      text: |
+        Улучшение незеритовой брони на кузнечном столе (рецепт — в EMI). Прочнее незерита и делает тебя тише.
+    en:
+      title: "Warden Armour"
+      subtitle: "Better than netherite"
+      text: |
+        An upgrade of netherite armour at a smithing table (recipe in EMI). Tougher than netherite, and it makes you quieter.
+
+  - id: wo_shulker
+    deps: [wo_intro, adv_end]
+    icon: minecraft:shulker_shell
+    tasks: [{type: item, item: minecraft:shulker_shell, count: 4}]
+    ru:
+      title: "Панцири шалкеров"
+      subtitle: "Край"
+      text: |
+        Ящики шалкеров — переносные сундуки. Их любят все: строитель, шахтёр, путешественник. Охоться в городах Края и замках Dungeons & Taverns.
+    en:
+      title: "Shulker Shells"
+      subtitle: "The End"
+      text: |
+        Shulker boxes are portable chests. Everyone loves them: builders, miners, travellers. Hunt in End cities and Dungeons & Taverns castles.
+
+  - id: wo_elytra
+    deps: [wo_shulker]
+    icon: minecraft:elytra
+    tasks: [{type: item, item: minecraft:elytra}]
+    ru:
+      title: "Элитры"
+      subtitle: "Крылья"
+      text: |
+        Элитры с корабля Края. Ракеты, починка — и ты летаешь куда угодно. Острова Края стали разнообразнее (Nullscape) — ищи дальше от центра.
+    en:
+      title: "Elytra"
+      subtitle: "Wings"
+      text: |
+        Elytra from an End ship. Rockets, Mending, and you fly anywhere. The End islands are more varied now (Nullscape): search far from the centre.
+
+  - id: wo_master
+    deps: [wo_stratus, wo_aerwhale, wo_utherium, wo_gloomgourd, wo_essence, wo_warden_armor, wo_elytra]
+    icon: minecraft:nether_star
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards: [{type: xp_levels, count: 10}]
+    ru:
+      title: "Странник миров"
+      subtitle: "Везде был, всё видел"
+      text: |
+        Небо, бездна, улей, тишина и пустота. Поставь вейстоун у каждого портала — следующему путнику будет проще.
+    en:
+      title: "World Wanderer"
+      subtitle: "Been everywhere, seen everything"
+      text: |
+        Sky, abyss, hive, silence and void. Put a waystone at every portal: the next traveller will thank you.

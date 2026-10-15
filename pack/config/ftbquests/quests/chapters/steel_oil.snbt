@@ -1,7 +1,7 @@
 {
 	id: "3609E2F89D752FA6"
 	group: ""
-	order_index: 10
+	order_index: 100
 	filename: "steel_oil"
 	icon: {
 		id: "immersiveengineering:hammer"
@@ -44,7 +44,7 @@
 		{
 			id: "42529685BB61068A"
 			x: 1.5d
-			y: -1.25d
+			y: -1.875d
 			icon: {
 				id: "immersiveengineering:coke_oven"
 				count: 1
@@ -67,7 +67,7 @@
 		{
 			id: "450EFCA7DA0C32C3"
 			x: 3.0d
-			y: -2.5d
+			y: -4.375d
 			icon: {
 				id: "immersiveengineering:ingot_steel"
 				count: 1
@@ -90,7 +90,7 @@
 		{
 			id: "7BACE05C294403E1"
 			x: 3.0d
-			y: -1.25d
+			y: -3.125d
 			icon: {
 				id: "immersiveengineering:windmill"
 				count: 1
@@ -121,7 +121,7 @@
 		{
 			id: "1A07CB4F99214042"
 			x: 4.5d
-			y: -2.5d
+			y: -3.125d
 			icon: {
 				id: "immersiveengineering:sample_drill"
 				count: 1
@@ -144,7 +144,7 @@
 		{
 			id: "0487C41259C69160"
 			x: 4.5d
-			y: -1.25d
+			y: -1.875d
 			icon: {
 				id: "immersivepetroleum:seismic_survey"
 				count: 1
@@ -166,7 +166,7 @@
 		{
 			id: "7F7D4CF8C56466A4"
 			x: 6.0d
-			y: -1.875d
+			y: -2.5d
 			icon: {
 				id: "immersivepetroleum:pumpjack"
 				count: 1
@@ -188,7 +188,7 @@
 		{
 			id: "3E617B5D12B1FC24"
 			x: 7.5d
-			y: -2.5d
+			y: -3.125d
 			icon: {
 				id: "immersivepetroleum:distillation_tower"
 				count: 1
@@ -234,7 +234,7 @@
 		{
 			id: "1A020305E1D3E7EE"
 			x: 1.5d
-			y: 0.0d
+			y: -0.625d
 			icon: {
 				id: "tfmg:engine_controller"
 				count: 1
@@ -257,7 +257,7 @@
 		{
 			id: "294E4669A44B8A90"
 			x: 7.5d
-			y: -1.25d
+			y: -1.875d
 			shape: "hexagon"
 			icon: {
 				id: "minecraft:campfire"
@@ -276,7 +276,7 @@
 		{
 			id: "2AD96C483D33D856"
 			x: 3.0d
-			y: 0.0d
+			y: -1.875d
 			icon: {
 				id: "immersiveengineering:treated_wood_horizontal"
 				count: 1
@@ -299,7 +299,7 @@
 		{
 			id: "7AFF934DCA0E6570"
 			x: 4.5d
-			y: 0.0d
+			y: -0.625d
 			icon: {
 				id: "immersiveengineering:wire_copper"
 				count: 1
@@ -339,7 +339,7 @@
 		{
 			id: "4FBD2D0E83BE60B4"
 			x: 6.0d
-			y: -0.625d
+			y: -1.25d
 			icon: {
 				id: "immersiveengineering:capacitor_lv"
 				count: 1
@@ -362,7 +362,7 @@
 		{
 			id: "5483FBF5D1816A4C"
 			x: 4.5d
-			y: 1.25d
+			y: 0.625d
 			icon: {
 				id: "immersiveengineering:component_steel"
 				count: 1
@@ -394,7 +394,7 @@
 		{
 			id: "328FDBEF228A8FFE"
 			x: 6.0d
-			y: 0.625d
+			y: 0.0d
 			icon: {
 				id: "immersiveengineering:heavy_engineering"
 				count: 1
@@ -426,7 +426,7 @@
 		{
 			id: "5C46F0227CB6505C"
 			x: 7.5d
-			y: 0.0d
+			y: -0.625d
 			icon: {
 				id: "immersiveengineering:crusher"
 				count: 1
@@ -444,7 +444,7 @@
 		{
 			id: "3E2D9D8E886F6C84"
 			x: 7.5d
-			y: 1.25d
+			y: 0.625d
 			icon: {
 				id: "immersiveengineering:arc_furnace"
 				count: 1
@@ -463,7 +463,7 @@
 		{
 			id: "2F616E00AAE960B1"
 			x: 7.5d
-			y: 2.5d
+			y: 1.875d
 			icon: {
 				id: "immersiveengineering:excavator"
 				count: 1
@@ -483,7 +483,7 @@
 		{
 			id: "59FAF5536B9FD537"
 			x: 4.5d
-			y: 2.5d
+			y: 1.875d
 			icon: {
 				id: "immersiveengineering:revolver"
 				count: 1
@@ -506,7 +506,7 @@
 		{
 			id: "3046392D71FAC550"
 			x: 6.0d
-			y: 1.875d
+			y: 1.25d
 			icon: {
 				id: "immersiveengineering:skyhook"
 				count: 1
@@ -595,7 +595,7 @@
 		{
 			id: "35E236DBFB93865C"
 			x: 1.5d
-			y: 1.25d
+			y: 0.625d
 			icon: {
 				id: "tfmg:steel_ingot"
 				count: 1
@@ -618,7 +618,7 @@
 		{
 			id: "6E091F8E2D5D5FBC"
 			x: 3.0d
-			y: 1.25d
+			y: -0.625d
 			icon: {
 				id: "tfmg:plastic_sheet"
 				count: 1
@@ -642,7 +642,7 @@
 		{
 			id: "64C0EDFF9ABD667E"
 			x: 3.0d
-			y: 2.5d
+			y: 0.625d
 			icon: {
 				id: "tfmg:lithium_ingot"
 				count: 1
@@ -660,6 +660,169 @@
 						id: "tfmg:lithium_ingot"
 					}
 					count: 4L
+				}
+			]
+		}
+		{
+			id: "0A4D3CC8580A871B"
+			x: 1.5d
+			y: 1.875d
+			icon: {
+				id: "tfmg:coke_oven"
+				count: 1
+			}
+			dependencies: [
+				"3DEC14AC13120A77"
+			]
+			tasks: [
+				{
+					id: "562A0918FD3A1519"
+					type: "item"
+					item: {
+						count: 1
+						id: "tfmg:coke_oven"
+					}
+				}
+			]
+		}
+		{
+			id: "3159A577DDBB09A3"
+			x: 3.0d
+			y: 1.875d
+			icon: {
+				id: "tfmg:bauxite"
+				count: 1
+			}
+			dependencies: [
+				"35E236DBFB93865C"
+			]
+			tasks: [
+				{
+					id: "6D149F88AA916A09"
+					type: "item"
+					item: {
+						count: 1
+						id: "tfmg:bauxite"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "587BA5DC216ED50E"
+			x: 3.0d
+			y: 3.125d
+			icon: {
+				id: "tfmg:rebar_concrete"
+				count: 1
+			}
+			dependencies: [
+				"0A4D3CC8580A871B"
+			]
+			tasks: [
+				{
+					id: "21ED281AB737C918"
+					type: "item"
+					item: {
+						count: 1
+						id: "tfmg:rebar_concrete"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "594F228266507B1D"
+			x: 4.5d
+			y: 3.125d
+			icon: {
+				id: "tfmg:circuit_board"
+				count: 1
+			}
+			dependencies: [
+				"6E091F8E2D5D5FBC"
+			]
+			tasks: [
+				{
+					id: "376E2C54336E074C"
+					type: "item"
+					item: {
+						count: 1
+						id: "tfmg:circuit_board"
+					}
+				}
+			]
+		}
+		{
+			id: "34A6CC13D56A641D"
+			x: 6.0d
+			y: 2.5d
+			icon: {
+				id: "tfmg:electric_motor"
+				count: 1
+			}
+			dependencies: [
+				"594F228266507B1D"
+			]
+			tasks: [
+				{
+					id: "160E52632C4CE11D"
+					type: "item"
+					item: {
+						count: 1
+						id: "tfmg:electric_motor"
+					}
+				}
+			]
+		}
+		{
+			id: "6D88123A2F5C4016"
+			x: 3.0d
+			y: 4.375d
+			icon: {
+				id: "tfmg:large_pumpjack_hammer_part"
+				count: 1
+			}
+			dependencies: [
+				"1A020305E1D3E7EE"
+			]
+			tasks: [
+				{
+					id: "4019F2F9CF2828C3"
+					type: "item"
+					item: {
+						count: 1
+						id: "tfmg:large_pumpjack_hammer_part"
+					}
+				}
+			]
+		}
+		{
+			id: "2914A07238F4FC3A"
+			x: 7.5d
+			y: 3.125d
+			shape: "hexagon"
+			icon: {
+				id: "tfmg:steel_casing"
+				count: 1
+			}
+			dependencies: [
+				"3159A577DDBB09A3"
+				"587BA5DC216ED50E"
+				"34A6CC13D56A641D"
+				"6D88123A2F5C4016"
+			]
+			tasks: [
+				{
+					id: "64FE9545E812BC8C"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "2E6B0446B49F4CF1"
+					type: "xp_levels"
+					xp_levels: 8
 				}
 			]
 		}

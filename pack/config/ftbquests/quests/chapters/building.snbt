@@ -1,7 +1,7 @@
 {
 	id: "6C67AEF364E06285"
 	group: ""
-	order_index: 20
+	order_index: 200
 	filename: "building"
 	icon: {
 		id: "buildinggadgets2:gadget_building"
