@@ -4,7 +4,7 @@
 	order_index: 175
 	filename: "firearms"
 	icon: {
-		id: "tacz:modern_kinetic_gun"
+		id: "tacz:gun_smith_table"
 		count: 1
 	}
 	default_quest_shape: ""
@@ -16,7 +16,7 @@
 			y: -2.5d
 			shape: "gear"
 			icon: {
-				id: "tacz:modern_kinetic_gun"
+				id: "tacz:gun_smith_table"
 				count: 1
 			}
 			dependencies: [
@@ -25,11 +25,7 @@
 			tasks: [
 				{
 					id: "7C460702F8DF539C"
-					type: "item"
-					item: {
-						count: 1
-						id: "tacz:modern_kinetic_gun"
-					}
+					type: "checkmark"
 				}
 			]
 			rewards: [
@@ -70,7 +66,7 @@
 			x: 1.5d
 			y: -2.5d
 			icon: {
-				id: "tacz:attachment"
+				id: "tacz:workbench_b"
 				count: 1
 			}
 			dependencies: [
@@ -79,11 +75,7 @@
 			tasks: [
 				{
 					id: "4272C1DBBA34D277"
-					type: "item"
-					item: {
-						count: 1
-						id: "tacz:attachment"
-					}
+					type: "checkmark"
 				}
 			]
 		}

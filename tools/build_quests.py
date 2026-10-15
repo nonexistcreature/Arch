@@ -202,7 +202,7 @@ def main():
         "default_autoclaim_rewards": "disabled", "default_quest_shape": "circle",
         "default_quest_disable_jei": False, "emergency_items_cooldown": 300, "drop_loot_crates": False,
         "disable_gui": False, "grid_scale": D(0.5), "pause_game": False,
-        "lock_message": "", "progression_mode": "linear", "detection_delay": 20,
+        "lock_message": "", "progression_mode": "flexible", "detection_delay": 20,
         "show_lock_icons": True, "drop_book_on_death": False,
     }) + "\n", "utf8", newline="\n")
     (OUT / "chapter_groups.snbt").write_text("{\n\tchapter_groups: [ ]\n}\n", "utf8", newline="\n")

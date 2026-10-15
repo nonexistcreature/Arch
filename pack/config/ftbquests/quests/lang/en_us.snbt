@@ -2546,6 +2546,329 @@
 	quest.26441D1B5F1BFDE4.quest_desc: [
 		"Ars Elemental: a school focus empowers spells of one element. Pick yours."
 	]
+	quest.4E176049191FFEEA.title: "How Spellcasting Works"
+	quest.4E176049191FFEEA.quest_subtitle: "C to craft, X to switch, right click to cast"
+	quest.4E176049191FFEEA.quest_desc: [
+		"&lWhy:&r A spell = a form + effects + augments. Open the book with C and build your first: Projectile + Break."
+		"Ars Nouveau grants aspiring wizards the ability to craft powerful spells. Through creative spellcrafting, you can vanquish foes, reshape the world, automate tasks, create spectacles, and so much more!"
+		"To begin spellcasting, you will need to craft a Novice’s Spell Book which will allow you to create, store, and cast spells using Mana."
+		"Upgrading your Spell Book, learning new Glyphs, and crafting magical equipment will further enhance your ability to cast new and more powerful spells."
+	]
+	quest.42E6307F696C36A1.title: "Sourceberry"
+	quest.42E6307F696C36A1.quest_desc: [
+		"&lWhy:&r Sourceberries are the first cure for low mana and the base of mana regeneration potions."
+		"A Sourceberry Bush can be found in Taiga and Archwood Forest biomes, and produces Sourceberries. A Sourceberry can be used to craft a Potion of Mana Regeneration or consumed as food. Starbuncles will automatically harvest fully grown Source Berry Bushes, making them useful for early automation of the Agronomic Sourcelink. Sourceberry foods will also grant Mana Regeneration."
+	]
+	quest.13E932A95A85C46D.title: "Archwood"
+	quest.13E932A95A85C46D.quest_desc: [
+		"&lWhy:&r The magic tree: almost every Ars device is built from it, and its fruits are special resources."
+		"Archwood Trees have a small chance to spawn in any biome, and come in four types. Rarely, you may stumble upon an Archwood Forest, a biome full of magical creatures, naturally spawning lights, and Archwood trees. Can be used as decoration, rituals, or for crafting wands. Archwood Trees also have a chance to spawn magical fruits that can be consumed or brewed into potions."
+	]
+	quest.70EE5377275D6AD4.title: "New Glyphs"
+	quest.70EE5377275D6AD4.quest_desc: [
+		"&lWhy:&r Glyphs are the words of spells. Every new glyph unlocks a new effect or augment."
+		"New Glyphs may be created through the Scribe’s Table from certain items and paying EXP. Once crafted, the Glyph can be consumed to learn it, making it available during spellcrafting."
+		"Players can share their current Glyph knowledge with each other by crafting an Annotated Codex."
+	]
+	quest.1920413ABE5E39A6.title: "Source Relay: Splitter"
+	quest.1920413ABE5E39A6.quest_desc: [
+		"&lWhy:&r Splits the Source flow across several devices: without it a big workshop starves."
+		"Operates similar to the Source Relay, but will support taking from and transferring to multiple jars at once. The splitter has a much larger through-put than the Source Relay, and will split this throughput amongst all of its jars. See the instructions on the Source Relay for use."
+	]
+	quest.4FDB9D9557C77EE0.title: "Source Relay: Warper"
+	quest.4FDB9D9557C77EE0.quest_desc: [
+		"&lWhy:&r Sends Source over long distances without a chain of relays."
+		"Operates similar to the Source Relay: Splitter but can teleport source an endless distance between other Warp relays. For distances beyond 30 blocks, there is a chance that some source will be lost during warp."
+	]
+	quest.045E4DF07ADA97A8.title: "Five Sourcelinks"
+	quest.045E4DF07ADA97A8.quest_desc: [
+		"&lWhy:&r Each sourcelink feeds on something: plant growth, fire, mushrooms, mob deaths, potions. Build all five and Source never runs out."
+		"Source is a magical resource used for many purposes such as speeding up the Imbuement Chamber, fueling devices, powering magical helpers, creating portals, or fueling powerful Enchanting Apparatus recipes."
+		"Sourcelinks are specialized artifacts that can collect and concentrate Source from the world into Source Jars. Source Relays can be used to transfer Source over large distances between jars."
+		"The Agronomic and Mycelial Sourcelinks are good early options for building up your Source supply."
+	]
+	quest.1D1D4E99997FB1CE.title: "Arcane Pedestal"
+	quest.1D1D4E99997FB1CE.quest_desc: [
+		"&lWhy:&r Pedestals around the Imbuement Chamber and the Enchanting Apparatus are the crafting table of magic."
+		"The Imbuement Chamber allows the conversion of Amethyst Shards or Lapis Lazuli into Source Gems. By placing three Arcane Pedestals bearing certain items adjacent to the chamber, Source Gems can be imbued further into Essences which are used in many Glyph recipes."
+		"Placing an Enchanting Apparatus on top of an Arcane Core allows the crafting of essentials such as Magebloom Seeds, magical equipment, and charms to summon magical helpers. It can also directly enchant your gear with enchantments of your choice."
+		"The Alteration Table allows for slotting in various Threads into magical armor that grant special properties while worn."
+	]
+	quest.206EE22AAE892841.title: "Enchanting Without the Lottery"
+	quest.206EE22AAE892841.quest_desc: [
+		"&lWhy:&r The Apparatus applies the enchantment you choose and raises its level: no enchanting-table randomness."
+		"The Enchanting Apparatus may add new enchantments or upgrade existing ones by using Source and items. To begin, select a level 1 enchantment and add its items to the pedestals. Place a jar of Source nearby, and use the item you want to enchant on the apparatus. The apparatus may only apply enchantments that are valid to the item you have given it."
+	]
+	quest.2A1975EFA7DC9A10.title: "Reactive Enchantment"
+	quest.2A1975EFA7DC9A10.quest_desc: [
+		"&lWhy:&r A weapon that casts a spell when it hits: a sword that ignites and knocks enemies back."
+		"Items with Reactive have a chance to cast spells when swung. The spell on the Spell Parchment determines the spell that will be inscribed on the item."
+	]
+	quest.6448B9F48E0F9798.title: "Basic Spell Turret"
+	quest.6448B9F48E0F9798.quest_desc: [
+		"&lWhy:&r A turret casts a spell on a redstone signal: magic for automation: break, plant, ignite."
+		"Turrets can be used to cast spells when given a redstone signal, functioning like a dispenser. Turrets will accept spells that use Touch and Projectile. Spells may be set using an inscribed piece of Spell Parchment. To cast spells, turrets will draw source from linked or nearby Source Jars. Turrets may use Item Pickup and Place Block as long as an inventory is placed adjacent to this block."
+	]
+	quest.752430A21D3E840F.title: "Adjustable Spell Turret"
+	quest.752430A21D3E840F.quest_desc: [
+		"&lWhy:&r An aimable turret, for farms and base defence."
+		"Turrets can be used to cast spells when given a redstone signal, functioning like a dispenser. Turrets will accept spells that use Touch and Projectile. Spells may be set using an inscribed piece of Spell Parchment. To cast spells, turrets will draw source from linked or nearby Source Jars. Turrets may use Item Pickup and Place Block as long as an inventory is placed adjacent to this block."
+	]
+	quest.2B34CDFC8809AFAA.title: "Spell Prism"
+	quest.2B34CDFC8809AFAA.quest_desc: [
+		"&lWhy:&r The prism redirects flying spell projectiles: for clever farms and traps."
+		"When a projectile spell hits this block, it is redirected the direction the block is facing. Spell Prisms will send a signal to nearby Observers if a spell is redirected."
+	]
+	quest.104996AFE6559440.title: "Enchanter's Sword"
+	quest.104996AFE6559440.quest_desc: [
+		"&lWhy:&r A sword with a spell inscribed: every hit casts it."
+		"Applies a Touch spell before damaging an entity. Additionally, all spells gain Spell Damage. Apply a spell at the Scribes Table that does NOT contain a form, such as Ignite -> Extend Time."
+	]
+	quest.75B39896169E71E9.title: "Enchanter's Shield"
+	quest.75B39896169E71E9.quest_desc: [
+		"&lWhy:&r A shield that restores mana and speeds its regeneration while you block."
+		"Upon blocking damage, the user will gain a short duration of Mana Regeneration and Spell Damage. Additionally, this shield will repair over time using the wearers mana."
+	]
+	quest.53F653AE1FF03B77.title: "Enchanter's Mirror"
+	quest.53F653AE1FF03B77.quest_desc: [
+		"&lWhy:&r A self-cast spell without the book in hand: healing or flight on one button."
+		"Applies a self spell to the user. Spells cast with this mirror are discounted and gain additional bonus duration to all glyphs. Apply a spell at the Scribe's table that DOES NOT contain a form such as Heal -> Amplify."
+	]
+	quest.3C6D96AB50637D7A.title: "Enchanter's Bow"
+	quest.3C6D96AB50637D7A.quest_desc: [
+		"&lWhy:&r Arrows become spell projectiles. Works with augmented arrows: Pierce, Split, Amplify."
+		"A bow that can be inscribed with a spell using the Scribes Table. If the player has enough mana, arrows will become Spell Arrows and will apply the spell on their target. If no arrows are in the inventory, a spell arrow that deals 0 damage will be cast. If there is not enough mana, regular arrows will be fired. Enchanter's Bows may use special Augment Arrows for empowering the inscribed spell."
+	]
+	quest.037246CB240983F6.title: "Enchanter's Crossbow"
+	quest.037246CB240983F6.quest_desc: [
+		"A crossbow that can be inscribed with a spell. The mana cost of the spell will be deducted when the bow is loaded if mana is present. Enchanter's Crossbows may use special augment arrows to empower their spells."
+	]
+	quest.172486C0A007A2F5.title: "Enchanter's Gauntlet"
+	quest.172486C0A007A2F5.quest_desc: [
+		"&lWhy:&r A multi-tool gauntlet: digs at diamond hardness and casts its inscribed spell."
+		"Gauntlets are a spell casting multi-tool that can break blocks at diamond hardness. Gauntlets accept a single spell and are inscribed using the Scribes Table. Gauntlets always start with Touch and MUST be inscribed with a spell that does not contain a form. Spells cast with the gauntlet are cast with a discount."
+	]
+	quest.21A3B8E069D5C396.title: "Enchanter's Fishing Rod"
+	quest.21A3B8E069D5C396.quest_desc: [
+		"&lWhy:&r A fishing rod with an inscribed spell that fires on the catch."
+		"Fishing Rods accept a single spell and are inscribed using the Scribes Table. Rods always start with Touch and MUST be inscribed with a spell that does not contain a form. Fishing Rods can be used like a normal fishing rod, but hooking an entity will allow the user to cast the spell on the hooked entity until the line is broken."
+	]
+	quest.29EB7A6F200629F9.title: "Potion Flask"
+	quest.29EB7A6F200629F9.quest_desc: [
+		"&lWhy:&r Eight drinks of a potion in one flask: less inventory space."
+		"A flask that stores 8 charges of a potion. To fill the flask, use the flask on a Potion Jar, or craft the flask in a Crafting Table with another potion. You may empty the flask by using the flask on a Potion Jar while sneaking."
+	]
+	quest.154416231C2F76E8.title: "Splash Flask Cannon"
+	quest.154416231C2F76E8.quest_desc: [
+		"&lWhy:&r Fires potions from your flasks: heal the team from afar or poison enemies."
+		"Flask Cannons can consume potions from bottles and flasks from the players inventory and convert the potion into a Splash or Lingering potion. To select the potion to be thrown, use the Radial Menu to select your flask or potion and use the launcher."
+	]
+	quest.6E59CE5F5C83E272.title: "Potion Jar"
+	quest.6E59CE5F5C83E272.quest_desc: [
+		"&lWhy:&r The jar stores potions by the litre, and the Melder merges two potions into one with both effects."
+		"A jar that stores up to 100 potions. Potion can be removed by using an Empty Bottle, Potion Flask, or Arrows on the jar. Wixies will use these jars during Potion Autocrafting. The jar may be locked by using a Dominion Wand while sneaking. Locked Jars will only receive the potion it is locked to from Wixies. Can be used with a Comparator."
+	]
+	quest.633AA32EA34D7061.title: "Ring of Jumping"
+	quest.633AA32EA34D7061.quest_desc: [
+		"Allows the user to continue jumping in the air. Each jump will expend mana."
+	]
+	quest.279AB0FC8F611A73.title: "Amulet of Mana Regen"
+	quest.279AB0FC8F611A73.quest_desc: [
+		"Increases mana regeneration by a moderate amount."
+	]
+	quest.59E1AE454D70F39B.title: "Ring of Discount"
+	quest.59E1AE454D70F39B.quest_desc: [
+		"&lWhy:&r Spells cost less mana. The greater ring is even cheaper."
+	]
+	quest.6E14FFA9CCE9A7CE.title: "Belt of Unstable Gifts"
+	quest.6E14FFA9CCE9A7CE.quest_desc: [
+		"Occasionally grants a random positive potion effect for a short duration. These effects can vary in strength."
+	]
+	quest.7E13C03E04ADD748.title: "Dominion Wand"
+	quest.7E13C03E04ADD748.quest_desc: [
+		"&lWhy:&r The wand tells helpers where to take from and where to put to: the main tool of magical automation."
+		"A tool for configuring Source Relays and automation entities. To set a transfer path, use the wand on the object that you would like to take source from, and then use it on the block you would like to send source to. For example: Source Jar to Source Relay, Source Relay to Source Relay, or Source Relay to Source Jar. To clear connections, sneak and use this wand on a relay. You can switch into Strict mode using the radial menu, allowing to specify the side of the blocks to use."
+	]
+	quest.0E5FE0A30306EC2F.title: "Item Lists"
+	quest.0E5FE0A30306EC2F.quest_desc: [
+		"&lWhy:&r Filters for helpers: what a Starbuncle may carry and what not."
+		"Provides a list of items to automation related entities. To inscribe an item, place on the Scribes Table and use blocks and items on the table while sneaking. When given to a Starbuncle, the Starbuncle will only pickup and take items on the scroll."
+	]
+	quest.4F1E2023AFA94234.title: "Repository"
+	quest.4F1E2023AFA94234.quest_desc: [
+		"&lWhy:&r Magic storage: a double chest in one block."
+		"A repository can store a double chests worth of items. When named, it will display the name as a tooltip, and preserve it when dropped as an item. Useful for creating named inventory tabs with the Storage Lectern. A Repository Catalog can be used as a proxy for a chain of connected repositories, and respects filter scrolls on repositories when inserting items."
+	]
+	quest.28F0FA2905918F94.title: "Storage Lectern"
+	quest.28F0FA2905918F94.quest_desc: [
+		"&lWhy:&r The lectern sees every linked storage and crafts from it: AE2 for mages."
+		"The Storage Lectern can used to view, manage, and craft from multiple connected inventories. The number of inventories that may be connected is determined by the number of Bookwyrms bound to the lectern. You can add more Bookwyrms to the lectern by using a Bookwyrm Charm. Use the Dominion Wand from an inventory to the lectern in order to bind or remove access. Inventories can be connected 30 blocks away."
+	]
+	quest.23BFF9C277F8C594.title: "Bookwyrm Charm"
+	quest.23BFF9C277F8C594.quest_desc: [
+		"Bookwyrm Charms can be used on a Storage Lectern to increase the number of accessible inventories. Augment a Ritual of Awakening with Book and Quills in order to obtain charms. Bookwyrms can be dyed using white, black, blue, green, red, or purple dye."
+	]
+	quest.3839B36CEF452636.title: "Repository Catalog"
+	quest.3839B36CEF452636.quest_desc: [
+		"&lWhy:&r The catalog inserts and extracts from every connected repository: a funnel into your magic storage."
+		"Catalogs can insert and extract items from any adjacent and connected repository. Catalogs respect filters placed on repositories via item frames while inserting items, and will prioritize existing stacks of an item. Filter scrolls can be used on the Catalog, storing the filter and applying it to all connected repositories when interacted with directly."
+	]
+	quest.3CAD5052819B777C.title: "Display Case"
+	quest.3CAD5052819B777C.quest_desc: [
+		"A Display Case can be configured to output a redstone signal when a certain level of inventory is reached. To set the item for tracking, use an item on the case. Interact with the block to increase the count, and punch to decrease. To link to an inventory, Dominion Wand an inventory to the display case. Wanding while sneaking will invert if the signal outputs below or greater than the set count."
+	]
+	quest.2EE3E2A5CC03A321.title: "Alteration Table"
+	quest.2EE3E2A5CC03A321.quest_desc: [
+		"&lWhy:&r Here you fit Threads into magic armour: special abilities."
+		"Used to inscribe Threads onto magical armors. To use the table, place armor onto the stand of the table. The tablet will display the available Thread Slots on the armor. To add or remove a Thread, use the thread on the tablet of the table. Removing the armor will apply the threads to the armor. To remove a thread, place the armor on the table and interact with the display with an empty hand."
+	]
+	quest.07FFE018E9BEFB8C.title: "Sorcerer's Robes"
+	quest.07FFE018E9BEFB8C.quest_desc: [
+		"&lWhy:&r The weakest protection, but the most mana and thread slots: for a pure mage."
+		"Magical robes will increase the wearers mana regen and can be upgraded with special abilities using Threads. The Sorceror's set provides the lowest defence, but provides the most powerful set of slots for Threads. The Arcanist's and Battlemage's sets provide increasingly more defence, but fewer and less powerful Thread Slots. For more information on Threads, see the section on Armor and Perks."
+	]
+	quest.01CAFE98321BB2D6.title: "Arcanist's Robes"
+	quest.01CAFE98321BB2D6.quest_desc: [
+		"&lWhy:&r A balance of protection and mana."
+		"Magical armor can be upgraded with Threads to provide additional effects. Each type of armor has a different number of slots, and those slots vary in size. Larger slots will increase the power of threads, and some threads require a slot of a certain size or larger. To apply threads, see the section on the Alteration Table."
+	]
+	quest.0CF962DA69866229.title: "Battlemage Armour"
+	quest.0CF962DA69866229.quest_desc: [
+		"&lWhy:&r Protection close to real armour, less mana: for a frontline mage."
+		"Threads may be applied to armor using the Alteration Apparatus. Each piece of armor has a unique set of Thread Slots with their own variety of levels. Some Threads may require a Thread Slot of a minimum level, but many threads simply increase in power based on the slot they are given."
+	]
+	quest.6F1261F9C2723A08.title: "Threads"
+	quest.6F1261F9C2723A08.quest_desc: [
+		"&lWhy:&r A blank thread becomes an ability thread in the Apparatus: night vision, jump, speed, mana regen."
+	]
+	quest.16BB5DC8FD9AC769.title: "Awakening"
+	quest.16BB5DC8FD9AC769.quest_desc: [
+		"&lWhy:&r Awakens trees and amethyst into living helpers: the Weald Walker, the Amethyst Golem."
+		"Awakens nearby Archwood trees into Weald Walkers and Budding Amethyst into Amethyst Golems. Weald Walkers can be given a position in the world to guard against hostile mobs. They will heal over time, and turn into Weald Waddlers if they die. To create a Weald Walker, perform this ritual near the base of an Archwood Tree. Augmenting with Book and Quills will create Bookwyrm Charms."
+	]
+	quest.1E0AC6CFD51CC217.title: "Binding"
+	quest.1E0AC6CFD51CC217.quest_desc: [
+		"The Ritual of Binding converts nearby eligible entities into Bound Scripts, used for summoning a Familiar. For more information, see the section on Familiars."
+	]
+	quest.070432BFD467ACDA.title: "Containment"
+	quest.070432BFD467ACDA.quest_desc: [
+		"Captures a nearby entity and places it into any nearby placed Containment Jars. After the first capture, this ritual requires additional source to continue. Mobs and jars must be within 3 blocks of the brazier."
+		"Allows you to capture and store mobs for transportation or decoration. To capture a mob, you must perform a Ritual of Containment. See the Ritual of Containment for more info. To release a mob, cast Dispel on the jar and the mob will be released above the jar. Note Blocks placed above a jar will play an ambient sound of the mob inside."
+	]
+	quest.5832947FD82D4604.title: "Sunrise"
+	quest.5832947FD82D4604.quest_desc: [
+		"Sets the time to day."
+	]
+	quest.0417263A3AAB284F.title: "Moonfall"
+	quest.0417263A3AAB284F.quest_desc: [
+		"Sets the time to night."
+	]
+	quest.7CD13204170C4C96.title: "Cloudshaping"
+	quest.7CD13204170C4C96.quest_desc: [
+		"This ritual can change the weather at a moments notice. By default, this ritual will set the weather to clear. Augmenting with Gunpowder will cause it to rain, while a Lapis Block will cause it to storm."
+	]
+	quest.378A386846920E3B.title: "Overgrowth"
+	quest.378A386846920E3B.quest_desc: [
+		"Occasionally bone meals blocks in the area around it. This ritual requires source to operate. If augmented with a Bone Block, this ritual will instead force baby animals to grow faster."
+	]
+	quest.3F90ABC846576DB6.title: "Harvest"
+	quest.3F90ABC846576DB6.quest_desc: [
+		"Casts the Harvest effect on nearby crops. Consumes source each time a set of crops are harvested. If an inventory is adjacent to the brazier, the items will be deposited in them before dropping on the ground."
+	]
+	quest.5461E590E1F01494.title: "Fertility"
+	quest.5461E590E1F01494.quest_desc: [
+		"Periodically causes nearby animals to breed if possible. This ritual requires source to operate, and will have no effect if there are twenty or more animals nearby."
+	]
+	quest.7D1EECCF6E402A55.title: "Forestation"
+	quest.7D1EECCF6E402A55.quest_desc: [
+		"Places grown Oak and Birch trees, and applies bonemeal in a 7x7 (circular) area. Augmenting with a source gem will increase the radius by 1 for each gem. Augmenting with a Brown Mushroom will convert the area to Podzol and spawn taiga resources. Augmenting with Glow Berries will spawn jungle resources."
+	]
+	quest.5CAEC38CBEDFE5F6.title: "Restoration"
+	quest.5CAEC38CBEDFE5F6.quest_desc: [
+		"Heals nearby entities or harms undead over time. Additionally, Zombie Villagers will be instantly cured, and the resulting villager will offer discounts if a player was nearby. This ritual requires source to operate."
+	]
+	quest.7663D1448EE06D9C.title: "Sanctuary"
+	quest.7663D1448EE06D9C.quest_desc: [
+		"Denies hostile mobs from naturally spawning in a 32 block radius. Augment with rotten flesh to increase the radius by 1 each, up to 128. Costs source once a minute if a spawn is denied."
+	]
+	quest.591A5B36BD57EC66.title: "Scrying"
+	quest.591A5B36BD57EC66.quest_desc: [
+		"&lWhy:&r Highlights chosen blocks through walls: find ore without digging blind."
+		"Grants vision of a given block through any other block for a given time. White particles signify you are very close, green is semi-far, and blue particles are blocks very far from you.  To complete the ritual, throw any block of your choice before starting. You may also add a Manipulation Essence to increase the duration to 15 minutes."
+	]
+	quest.5B201DF395D5CCC4.title: "Burrowing"
+	quest.5B201DF395D5CCC4.quest_desc: [
+		"Digs four adjacent holes to bedrock, dropping any blocks."
+	]
+	quest.231E10FEAEB1BFC8.title: "Disintegration"
+	quest.231E10FEAEB1BFC8.quest_desc: [
+		"Destroys nearby monsters and converts them into Experience Gems worth twice as much experience. Monsters destroyed this way will not drop items. This ritual consumes source each time a monster is destroyed."
+	]
+	quest.7DB905138567A025.title: "Gravity"
+	quest.7DB905138567A025.quest_desc: [
+		"Grants nearby players the Gravity effect, forcing them to the ground for a short time. If the player is nearby, this ritual will refresh their gravity debuff. Each time this ritual grants or refreshes gravity, it will expend source from nearby jars."
+	]
+	quest.66C04B592F90514C.title: "Conjure Island: Plains"
+	quest.66C04B592F90514C.quest_desc: [
+		"Creates an island of grass and dirt in a circle around the ritual, converting the area to Plains. Augmenting with a Frostaya with convert to Snow Plains. The island will generate with a radius of 7 blocks. Augmenting the ritual with Source Gems will increase the radius by 1 for each gem. Source must be provided nearby as blocks are generated."
+	]
+	quest.18A1689A31C40F63.title: "Challenge"
+	quest.18A1689A31C40F63.quest_desc: [
+		"Summons an illager raid when used inside a village. An Emerald may be used to increase the difficulty of the raid to the maximum amount, making Totems of the Undying accessible on easier difficulties. Augmenting has no effect on Hard difficulty."
+	]
+	quest.0C5E869F026825FF.title: "Warping"
+	quest.0C5E869F026825FF.quest_desc: [
+		"Warps all nearby entities to the location on a warp scroll. Before starting the ritual, you must first augment the ritual with an inscribed Warp Scroll."
+	]
+	quest.530BC067BF6E1EA5.title: "Ritual Brazier Relay"
+	quest.530BC067BF6E1EA5.quest_desc: [
+		"Allows the users to bind a Ritual Brazier ritual to a new location. Multiple rituals can be connected to the same brazier relay. To connect, use the Dominion Wand on your Ritual Brazier, then the relay. Source is consumed at the original braziers location. Can be bound within 15 blocks."
+	]
+	quest.13E8B84B96C128B0.title: "Amethyst Golem Charm"
+	quest.13E8B84B96C128B0.quest_desc: [
+		"Amethyst Golems will harvest, grow, and collect Amethyst near its home. To obtain an Amethyst Golem, perform the Ritual of Awakening near Budding Amethyst to obtain the Amethyst Golem Charm."
+	]
+	quest.077E63FB066093F8.title: "Weald Walker"
+	quest.077E63FB066093F8.quest_desc: [
+		"Weald Walkers are living Archwood Trees that guard their homes against hostile monsters. A Weald Walker can be created from the Ritual of Awakening. When summoned, the Weald Walker will roam randomly unless given a home position. To give the Weald Walker a home, use the dominion wand on the Weald Walker, and then the block you wish it to guard."
+	]
+	quest.53B1B43E512492DB.title: "Alakarkinos Charm"
+	quest.53B1B43E512492DB.quest_desc: [
+		"&lWhy:&r The Alakarkinos crab sifts sand and gravel for archaeology loot: sherds and treasures."
+		"Alakarkinos can sift sand and gravel to find items found in archaeology sites. They can be found on beaches and will give you a token if they receive a Pottery Sherd of any kind."
+	]
+	quest.022E4B84065E57CF.title: "Familiar"
+	quest.022E4B84065E57CF.quest_desc: [
+		"&lWhy:&r A familiar stays by your side and gives a bonus: the Starbuncle speed, the Wixie longer potions, the Bookwyrm cheaper spells."
+		"To begin summoning familiars, you will need to obtain a Bound Script of the entity you wish to befriend. These can be obtained by performing the Ritual of Binding near a relevant entity. See the full list of eligible entities in the Familiars section. Once you have obtained a Bound Script, use it to learn the familiar."
+	]
+	quest.6197C666E8AD149F.title: "Gold Sconce"
+	quest.6197C666E8AD149F.quest_desc: [
+		"Decorative lights. To ignite, cast Light on the sconce. The color of the flame corresponds with your spell color. The Magelight Torch on a wall can change the direction of its flames by interacting. Use Touch or Projectile Sensitive to target the sconce."
+	]
+	quest.0DDF4F22665E681A.title: "Mirrorweave"
+	quest.0DDF4F22665E681A.quest_desc: [
+		"Mirrorweave can replicate the appearance of any block that is used on it. These blocks will take on the same collisions and light as their replicated block. Sense Magic will reveal the illusion. All illusion blocks can also be used as frames for portals. Casting light on an illusion block will allow it to emit light."
+	]
+	quest.24A8B12CEC2DAE22.title: "Warp Portal"
+	quest.24A8B12CEC2DAE22.quest_desc: [
+		"&lWhy:&r A permanent portal to any spot in the dimension: a shared transport network for the server."
+		"Warp portals, like warp scrolls, provide a one-way teleport to any location, provided it is in the same dimension. To construct a Warp Portal, build a frame from Sourcestone or its variants in the shape of a rectangle and provide a full Source Jar nearby. Then, throw a warp scroll with a written location into the frame. Given there is enough source nearby, the portal will be created."
+	]
+	quest.06B2954D508D8530.title: "Planarium"
+	quest.06B2954D508D8530.quest_desc: [
+		"&lWhy:&r A pocket dimension in a jar: your own little base you can step into."
+		"The Planarium allows for the creation of custom pocket dimensions. Blocks placed within the jar will be rendered inside the Planarium. To create a new dimension, name a Planarium with the Name glyph or an anvil. Interact with the planarium while sneaking to enter the jar."
+		"The spawn point of the Planarium can be set by using the Dominion Wand on a boundary of the jar, and then using the wand again on your desired spawn point. To exit the jar, simply break any wall of the dimension."
+	]
+	quest.2A4234012CF07503.title: "Scryer's Oculus"
+	quest.2A4234012CF07503.quest_desc: [
+		"&lWhy:&r Watch through a crystal placed far away: a camera for your farm or base entrance."
+	]
+	quest.3A0AA55BF72A51A3.title: "Master of Ars Nouveau"
+	quest.3A0AA55BF72A51A3.quest_desc: [
+		"Source flows by itself, helpers work, armour and weapons are steeped in magic. The rest is your imagination in the spell book."
+	]
 	chapter.543CD5142769B82D.title: "Iron's Spells"
 	chapter.543CD5142769B82D.chapter_subtitle: [
 		"Schools of battle magic"
@@ -3438,7 +3761,7 @@
 	quest.3A4404A355E47B8F.quest_subtitle: "TaCZ"
 	quest.3A4404A355E47B8F.quest_desc: [
 		"&lWhat:&r TaCZ adds realistic guns: pistols, rifles, shotguns, snipers. Recoil, reloads, scopes."
-		"&lHow:&r gunsmith table → pick a model → you need steel, gunpowder and parts. Any gun you build completes the quest."
+		"&lHow:&r gunsmith table → pick a model → you need steel, gunpowder and parts. Tick the box when you've built one (every gun is its own model inside the item, so the quest can't detect it by itself)."
 		"&lControls:&r right click to aim, R to reload, G for fire mode, H to inspect, Z for attachments (rebindable in settings)."
 		"Guns hurt friends too: PvP is on, mind your line of fire."
 	]

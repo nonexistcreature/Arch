@@ -11,7 +11,7 @@
 	grid_scale: 0.5d
 	pause_game: false
 	lock_message: ""
-	progression_mode: "linear"
+	progression_mode: "flexible"
 	detection_delay: 20
 	show_lock_icons: true
 	drop_book_on_death: false

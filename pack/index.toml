@@ -34,7 +34,7 @@ hash = "50262fb23e36a41a5b436887281646341a6c2bc0db1f5333078530eaf01133dd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars.snbt"
-hash = "55d2bfc02bb0f1c3879a1945df727011396cde0aa22fc6501e28e0939aab0320"
+hash = "49427007f020106cce750e71a2fd7e937c77fbee20696abfaf8e5664813747b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/atom.snbt"
@@ -86,7 +86,7 @@ hash = "376dc90ddbf6986e249d51fe77b7eb4dc1a22401071859b3dacc9087e61cb50d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/firearms.snbt"
-hash = "462b501da29c8ab177b93caf2ad2cbfada4974fdd60c970ebcdbf27ce7475d33"
+hash = "9195e8c0da935ec4e98d7e270d0a9ba42bc6fa7ffb7511d1708501a88423c076"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/first_steps.snbt"
@@ -170,15 +170,15 @@ hash = "e94290ffe66fc394c77629a26c1cc713f35fc7e1689c25aa3dd2ef9bde2a6ea8"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "d04d5331950919436864583a7ee324582806e147abc33f1a921cc15f2c01d0ab"
+hash = "462be260324d4e1288a1a4476d4de0ec35126e18a4ce443be04df10d784560c5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "75544c3f1b6f7eda0c346a55f033642974b56b74376ae3d807ccbc2c7c6f94f4"
+hash = "39c2a237ff11869f843ea9a685d735ad670c5605463ec4e2e186bc12500da428"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "906e48061ef23b9d1ad10bd09e3db93a1863f2e2bc6096c644c2d56384c4344b"
+hash = "4407e0365498524d361a39b768cd19588ef730fb9a15940dca19ece4b49d13c5"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -354,7 +354,7 @@ hash = "c11f7b38713be52de96e3c304a7750b5ff5bd441410dde2958022de95930d212"
 
 [[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
-hash = "d42b6f343c09ff892e78abecfe91512f6db5f0713a9c8d21aa37ab0ef4d8811c"
+hash = "1f79632cf175649c4004caf101584400e80bf45752bd11d7e928ca8580b17cee"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"

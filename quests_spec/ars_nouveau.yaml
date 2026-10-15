@@ -1,0 +1,424 @@
+# Ars Nouveau, full coverage of the mod's own book (Worn Notebook). Existing quests (quests_src/12_ars.yaml,
+# more/ars_2.yaml) cover the basics; these add everything else in book order. Texts: ars_nouveau lang (ru/en).
+extends: ars
+lang: [ars_nouveau]
+out: ars_gen
+quests:
+  # --- Getting started
+  - id: arsg_spellcraft
+    deps: [ars_book]
+    roles: [mage]
+    icon: ars_nouveau:novice_spell_book
+    doc: page1.spell_casting
+    title: {ru: "Как творить заклинания", en: "How Spellcasting Works"}
+    subtitle: {ru: "C — создать, X — переключить, ПКМ — сотворить", en: "C to craft, X to switch, right click to cast"}
+    why: {ru: "Заклинание = форма + эффекты + усиления. Открой книгу клавишей C и собери первое: Снаряд + Ломание.", en: "A spell = a form + effects + augments. Open the book with C and build your first: Projectile + Break."}
+  - id: arsg_mana
+    deps: [arsg_spellcraft]
+    roles: [mage]
+    icon: ars_nouveau:sourceberry_bush
+    items: [ars_nouveau:sourceberry_bush]
+    doc: page1.sourceberry_bush
+    why: {ru: "Ягоды Истока — первое лекарство от нехватки маны и сырьё для зелья регенерации маны.", en: "Sourceberries are the first cure for low mana and the base of mana regeneration potions."}
+  - id: arsg_archwood
+    deps: [arsg_spellcraft]
+    roles: [mage]
+    items: [ars_nouveau:blue_archwood_log*8]
+    icon: ars_nouveau:blue_archwood_log
+    doc: page1.archwood
+    title: {ru: "Арчвуд", en: "Archwood"}
+    why: {ru: "Магическое дерево: из него делают почти все устройства Ars, а его плоды (бомбегранат, фростайя, мендостин, бастионный фрукт) — особые ресурсы.", en: "The magic tree: almost every Ars device is built from it, and its fruits are special resources."}
+  - id: arsg_glyph
+    deps: [ars_scribe]
+    roles: [mage]
+    items: [ars_nouveau:blank_glyph]
+    doc: page1.learning_glyphs
+    title: {ru: "Новые глифы", en: "New Glyphs"}
+    why: {ru: "Глифы — «слова» заклинаний. Каждый новый глиф открывает новый эффект или усиление.", en: "Glyphs are the words of spells. Every new glyph unlocks a new effect or augment."}
+  # --- Source
+  - id: arsg_source_relay_split
+    deps: [ars_relay]
+    roles: [mage, engineer]
+    items: [ars_nouveau:relay_splitter]
+    doc: page1.relay_splitter
+    why: {ru: "Делит поток Истока на несколько устройств — без него большая мастерская голодает.", en: "Splits the Source flow across several devices: without it a big workshop starves."}
+  - id: arsg_source_relay_warp
+    deps: [arsg_source_relay_split]
+    roles: [mage]
+    items: [ars_nouveau:relay_warp]
+    doc: page1.relay_warp
+    why: {ru: "Передаёт Исток на большие расстояния без цепочки реле.", en: "Sends Source over long distances without a chain of relays."}
+  - id: arsg_creative_flow
+    deps: [ars_vitalic, ars_volcanic, ars_agronomic, ars_mycelial, ars_alchemical]
+    roles: [mage]
+    items: [ars_nouveau:source_jar*4]
+    title: {ru: "Пять сочетаний", en: "Five Sourcelinks"}
+    doc: page1.source
+    why: {ru: "Каждое сочетание кормится своим: рост растений, огонь, грибы, смерть мобов, зелья. Собери все пять — Исток не кончится никогда.", en: "Each sourcelink feeds on something: plant growth, fire, mushrooms, mob deaths, potions. Build all five and Source never runs out."}
+  # --- Crafting
+  - id: arsg_pedestal
+    deps: [ars_imbuement]
+    roles: [mage]
+    items: [ars_nouveau:arcane_pedestal*3]
+    doc: page1.magical_crafting
+    why: {ru: "Пьедесталы вокруг Камеры Впитывания и Чародейского Аппарата — это «верстак» магии.", en: "Pedestals around the Imbuement Chamber and the Enchanting Apparatus are the crafting table of magic."}
+  - id: arsg_enchanting
+    deps: [ars_apparatus]
+    roles: [mage]
+    items: [minecraft:enchanted_book]
+    doc: page1.how_to_enchant
+    title: {ru: "Чары без лотереи", en: "Enchanting Without the Lottery"}
+    why: {ru: "Аппарат накладывает выбранные чары и поднимает их уровень — без случайностей стола зачарований.", en: "The Apparatus applies the enchantment you choose and raises its level: no enchanting-table randomness."}
+  - id: arsg_reactive
+    deps: [arsg_enchanting]
+    roles: [mage, warrior]
+    items: [ars_nouveau:spell_parchment]
+    doc: page1.reactive_enchantment
+    title: {ru: "Реактивные чары", en: "Reactive Enchantment"}
+    why: {ru: "Оружие, которое само творит заклинание при ударе: меч, поджигающий и отталкивающий врагов.", en: "A weapon that casts a spell when it hits: a sword that ignites and knocks enemies back."}
+  # --- Spell items & equipment
+  - id: arsg_turret
+    deps: [ars_apparatus]
+    roles: [mage, engineer]
+    items: [ars_nouveau:basic_spell_turret]
+    doc: page1.basic_spell_turret
+    why: {ru: "Турель творит заклинание по сигналу редстоуна — магия для автоматизации: ломать, сажать, поджигать.", en: "A turret casts a spell on a redstone signal: magic for automation: break, plant, ignite."}
+  - id: arsg_turret_rotating
+    deps: [arsg_turret]
+    roles: [mage, engineer]
+    items: [ars_nouveau:rotating_spell_turret]
+    doc: page1.basic_spell_turret
+    why: {ru: "Турель, которую можно наводить, — для ферм и обороны базы.", en: "An aimable turret, for farms and base defence."}
+  - id: arsg_spell_prism
+    deps: [arsg_turret]
+    roles: [mage]
+    items: [ars_nouveau:spell_prism]
+    doc: page1.spell_prism
+    why: {ru: "Призма поворачивает летящий снаряд-заклинание — для хитрых ферм и ловушек.", en: "The prism redirects flying spell projectiles: for clever farms and traps."}
+  - id: arsg_sword
+    deps: [arsg_reactive]
+    roles: [warrior, mage]
+    items: [ars_nouveau:enchanters_sword]
+    doc: page1.enchanters_sword
+    why: {ru: "Меч, в который вписано заклинание: каждый удар его творит.", en: "A sword with a spell inscribed: every hit casts it."}
+  - id: arsg_shield
+    deps: [arsg_sword]
+    roles: [warrior, mage]
+    items: [ars_nouveau:enchanters_shield]
+    doc: page1.enchanters_shield
+    why: {ru: "Щит, который восстанавливает ману и ускоряет её регенерацию, пока ты блокируешь.", en: "A shield that restores mana and speeds its regeneration while you block."}
+  - id: arsg_mirror
+    deps: [arsg_spellcraft]
+    roles: [mage]
+    items: [ars_nouveau:enchanters_mirror]
+    doc: page1.enchanters_mirror
+    why: {ru: "Заклинание на себя без книги в руке: лечение или полёт одной кнопкой.", en: "A self-cast spell without the book in hand: healing or flight on one button."}
+  - id: arsg_bow
+    deps: [arsg_sword]
+    roles: [warrior, mage]
+    items: [ars_nouveau:spell_bow]
+    doc: page1.spell_bow
+    why: {ru: "Стрелы становятся снарядами-заклинаниями. Работает с дополненными стрелами: Пронзание, Расщепление, Усиление.", en: "Arrows become spell projectiles. Works with augmented arrows: Pierce, Split, Amplify."}
+  - id: arsg_crossbow
+    deps: [arsg_bow]
+    roles: [warrior, mage]
+    items: [ars_nouveau:spell_crossbow]
+    doc: page1.spell_crossbow
+  - id: arsg_gauntlet
+    deps: [arsg_sword]
+    roles: [mage, engineer]
+    items: [ars_nouveau:enchanters_gauntlet]
+    doc: page1.enchanters_gauntlet
+    why: {ru: "Перчатка-мультиинструмент: копает как алмаз и творит вписанное заклинание.", en: "A multi-tool gauntlet: digs at diamond hardness and casts its inscribed spell."}
+  - id: arsg_fishing
+    deps: [arsg_spellcraft]
+    roles: [mage]
+    items: [ars_nouveau:enchanters_fishing_rod]
+    doc: page1.enchanters_fishing_rod
+    why: {ru: "Удочка, в которую вписано заклинание: при подсечке оно срабатывает на добыче — например, сразу жарит рыбу или притягивает её к тебе.", en: "A fishing rod with an inscribed spell that fires on the catch."}
+  - id: arsg_flask
+    deps: [arsg_mana]
+    roles: [mage, alchemist]
+    items: [ars_nouveau:potion_flask]
+    doc: page1.potion_flask
+    why: {ru: "8 глотков зелья в одной фляге — меньше места в инвентаре.", en: "Eight drinks of a potion in one flask: less inventory space."}
+  - id: arsg_flask_cannon
+    deps: [arsg_flask]
+    roles: [mage, alchemist]
+    items: [ars_nouveau:splash_flask_cannon]
+    doc: page1.flask_cannons
+    why: {ru: "Метает зелья из твоих фляг — лечить команду издалека или травить врагов.", en: "Fires potions from your flasks: heal the team from afar or poison enemies."}
+  - id: arsg_potion_jar
+    deps: [arsg_flask]
+    roles: [alchemist]
+    items: [ars_nouveau:potion_jar, ars_nouveau:potion_melder]
+    doc: page1.potion_jar
+    why: {ru: "Кувшин хранит зелья литрами, а Связыватель соединяет два зелья в одно с двумя эффектами.", en: "The jar stores potions by the litre, and the Melder merges two potions into one with both effects."}
+  - id: arsg_jump_ring
+    deps: [ars_jewelry]
+    roles: [mage]
+    items: [ars_nouveau:jump_ring]
+    doc: page1.jump_ring
+  - id: arsg_mana_amulets
+    deps: [ars_jewelry]
+    roles: [mage]
+    items: [ars_nouveau:amulet_of_mana_regen]
+    doc: page1.amulet_of_mana_regen
+  - id: arsg_discount
+    deps: [ars_jewelry]
+    roles: [mage]
+    items: [ars_nouveau:ring_of_lesser_discount]
+    title: {ru: "Кольцо скидки", en: "Ring of Discount"}
+    why: {ru: "Заклинания стоят меньше маны. Большое кольцо (Чёрная Пятница) — ещё дешевле.", en: "Spells cost less mana. The greater ring is even cheaper."}
+  - id: arsg_unstable_belt
+    deps: [ars_belt]
+    roles: [mage]
+    items: [ars_nouveau:belt_of_unstable_gifts]
+    doc: page1.belt_of_unstable_gifts
+  - id: arsg_dominion
+    deps: [ars_starbuncle]
+    roles: [mage]
+    items: [ars_nouveau:dominion_wand]
+    doc: page1.dominion_wand
+    why: {ru: "Жезл указывает фамильярам и помощникам, откуда брать и куда класть — главный инструмент магической автоматизации.", en: "The wand tells helpers where to take from and where to put to: the main tool of magical automation."}
+  - id: arsg_scrolls
+    deps: [arsg_dominion]
+    roles: [mage]
+    items: [ars_nouveau:allow_scroll, ars_nouveau:deny_scroll]
+    doc: page1.allow_scroll
+    title: {ru: "Списки предметов", en: "Item Lists"}
+    why: {ru: "Фильтры для помощников: что звездоух может носить, а что нет.", en: "Filters for helpers: what a Starbuncle may carry and what not."}
+  # --- Storage
+  - id: arsg_repository
+    deps: [arsg_archwood]
+    roles: [mage, builder]
+    items: [ars_nouveau:repository*2]
+    doc: page1.repository
+    why: {ru: "Магическое хранилище: двойной сундук в одном блоке.", en: "Magic storage: a double chest in one block."}
+  - id: arsg_lectern
+    deps: [arsg_repository]
+    roles: [mage]
+    items: [ars_nouveau:storage_lectern]
+    doc: page1.storage_lectern
+    why: {ru: "Кафедра видит все связанные хранилища и крафтит из них — «AE2 для мага».", en: "The lectern sees every linked storage and crafts from it: AE2 for mages."}
+  - id: arsg_bookwyrm
+    deps: [arsg_lectern]
+    roles: [mage]
+    items: [ars_nouveau:bookwyrm_charm]
+    doc: page1.bookwyrm_charm
+  - id: arsg_catalog
+    deps: [arsg_lectern]
+    roles: [mage]
+    items: [ars_nouveau:repository_controller]
+    doc: page1.repository_controller
+    why: {ru: "Каталог кладёт и забирает предметы из всех соседних репозиториев сразу — воронка в твоё магическое хранилище.", en: "The catalog inserts and extracts from every connected repository: a funnel into your magic storage."}
+  - id: arsg_detector
+    deps: [arsg_lectern]
+    roles: [mage, engineer]
+    items: [ars_nouveau:item_detector]
+    doc: page1.item_detector
+  # --- Armour
+  - id: arsg_alteration
+    deps: [ars_apparatus]
+    roles: [mage]
+    items: [ars_nouveau:alteration_table]
+    doc: page1.alteration_table
+    why: {ru: "Здесь в магическую броню вставляют Нити — особые способности.", en: "Here you fit Threads into magic armour: special abilities."}
+  - id: arsg_sorcerer
+    deps: [arsg_alteration]
+    roles: [mage]
+    items: [ars_nouveau:sorcerer_hood, ars_nouveau:sorcerer_robes, ars_nouveau:sorcerer_leggings, ars_nouveau:sorcerer_boots]
+    icon: ars_nouveau:sorcerer_robes
+    doc: page1.armor
+    title: {ru: "Одеяния колдуна", en: "Sorcerer's Robes"}
+    why: {ru: "Самая слабая защита, но больше всего маны и слотов под Нити — для чистого мага.", en: "The weakest protection, but the most mana and thread slots: for a pure mage."}
+  - id: arsg_arcanist
+    deps: [arsg_alteration]
+    roles: [mage]
+    items: [ars_nouveau:arcanist_hood, ars_nouveau:arcanist_robes, ars_nouveau:arcanist_leggings, ars_nouveau:arcanist_boots]
+    icon: ars_nouveau:arcanist_robes
+    title: {ru: "Одеяния арканиста", en: "Arcanist's Robes"}
+    why: {ru: "Баланс защиты и маны.", en: "A balance of protection and mana."}
+    doc: page1.armor_upgrading
+  - id: arsg_battlemage
+    deps: [arsg_alteration]
+    roles: [mage, warrior]
+    items: [ars_nouveau:battlemage_hood, ars_nouveau:battlemage_robes, ars_nouveau:battlemage_leggings, ars_nouveau:battlemage_boots]
+    icon: ars_nouveau:battlemage_robes
+    title: {ru: "Доспех боевого мага", en: "Battlemage Armour"}
+    why: {ru: "Защита почти как у брони, маны меньше — для мага на передовой.", en: "Protection close to real armour, less mana: for a frontline mage."}
+    doc: page1.applying_perks
+  - id: arsg_thread
+    deps: [arsg_sorcerer]
+    roles: [mage]
+    items: [ars_nouveau:blank_thread]
+    title: {ru: "Нити", en: "Threads"}
+    why: {ru: "Пустая нить превращается в Аппарате в нить-способность: ночное зрение, прыжок, скорость, восстановление маны.", en: "A blank thread becomes an ability thread in the Apparatus: night vision, jump, speed, mana regen."}
+  # --- Rituals
+  - id: arsg_rit_awakening
+    deps: [ars_ritual_flight]
+    roles: [mage]
+    items: [ars_nouveau:ritual_awakening]
+    doc: ritual_desc.ritual_awakening
+    why: {ru: "Пробуждает деревья и аметист в живых помощников: Заросшего ходока, Аметистового голема.", en: "Awakens trees and amethyst into living helpers: the Weald Walker, the Amethyst Golem."}
+  - id: arsg_rit_binding
+    deps: [ars_ritual_flight]
+    roles: [mage]
+    items: [ars_nouveau:ritual_binding]
+    doc: ritual_desc.ritual_binding
+  - id: arsg_rit_containment
+    deps: [arsg_rit_binding]
+    roles: [mage]
+    items: [ars_nouveau:ritual_containment, ars_nouveau:mob_jar]
+    doc: ritual_desc.ritual_containment
+    doc2: page1.mob_jar
+  - id: arsg_rit_sunrise
+    deps: [ars_ritual_flight]
+    roles: [mage]
+    items: [ars_nouveau:ritual_sunrise]
+    doc: ritual_desc.ritual_sunrise
+  - id: arsg_rit_moonfall
+    deps: [arsg_rit_sunrise]
+    roles: [mage]
+    items: [ars_nouveau:ritual_moonfall]
+    doc: ritual_desc.ritual_moonfall
+  - id: arsg_rit_cloudshaping
+    deps: [arsg_rit_sunrise]
+    roles: [mage]
+    items: [ars_nouveau:ritual_cloudshaping]
+    doc: ritual_desc.ritual_cloudshaping
+  - id: arsg_rit_overgrowth
+    deps: [ars_ritual_flight]
+    roles: [mage, gardener]
+    items: [ars_nouveau:ritual_overgrowth]
+    doc: ritual_desc.ritual_overgrowth
+  - id: arsg_rit_harvest
+    deps: [arsg_rit_overgrowth]
+    roles: [mage, gardener]
+    items: [ars_nouveau:ritual_harvest]
+    doc: ritual_desc.ritual_harvest
+  - id: arsg_rit_fertility
+    deps: [arsg_rit_overgrowth]
+    roles: [mage, gardener]
+    items: [ars_nouveau:ritual_fertility]
+    doc: ritual_desc.ritual_fertility
+  - id: arsg_rit_forestation
+    deps: [arsg_rit_overgrowth]
+    roles: [mage, builder]
+    items: [ars_nouveau:ritual_forestation]
+    doc: ritual_desc.ritual_forestation
+  - id: arsg_rit_restoration
+    deps: [ars_ritual_flight]
+    roles: [mage]
+    items: [ars_nouveau:ritual_restoration]
+    doc: ritual_desc.ritual_restoration
+  - id: arsg_rit_sanctuary
+    deps: [arsg_rit_restoration]
+    roles: [mage]
+    items: [ars_nouveau:ritual_sanctuary]
+    doc: ritual_desc.ritual_sanctuary
+  - id: arsg_rit_scrying
+    deps: [ars_ritual_flight]
+    roles: [mage]
+    items: [ars_nouveau:ritual_scrying]
+    doc: ritual_desc.ritual_scrying
+    why: {ru: "Подсвечивает нужные блоки сквозь стены — поиск руды без копания вслепую.", en: "Highlights chosen blocks through walls: find ore without digging blind."}
+  - id: arsg_rit_burrowing
+    deps: [arsg_rit_scrying]
+    roles: [mage]
+    items: [ars_nouveau:ritual_burrowing]
+    doc: ritual_desc.ritual_burrowing
+  - id: arsg_rit_disintegration
+    deps: [arsg_rit_sanctuary]
+    roles: [mage]
+    items: [ars_nouveau:ritual_disintegration]
+    doc: ritual_desc.ritual_disintegration
+  - id: arsg_rit_gravity
+    deps: [ars_ritual_flight]
+    roles: [mage, builder]
+    items: [ars_nouveau:ritual_gravity]
+    doc: ritual_desc.ritual_gravity
+  - id: arsg_rit_island
+    deps: [arsg_rit_cloudshaping]
+    roles: [mage, builder]
+    items: [ars_nouveau:ritual_conjure_island_plains]
+    doc: ritual_desc.ritual_conjure_island_plains
+  - id: arsg_rit_challenge
+    deps: [ars_wilden]
+    roles: [mage, warrior]
+    items: [ars_nouveau:ritual_challenge]
+    doc: ritual_desc.ritual_challenge
+  - id: arsg_rit_warping
+    deps: [ars_warp]
+    roles: [mage]
+    items: [ars_nouveau:ritual_warping]
+    doc: ritual_desc.ritual_warping
+  - id: arsg_brazier_relay
+    deps: [arsg_rit_awakening]
+    roles: [mage]
+    items: [ars_nouveau:brazier_relay]
+    doc: page1.brazier_relay
+  # --- Helpers
+  - id: arsg_golem
+    deps: [arsg_rit_awakening]
+    roles: [mage]
+    items: [ars_nouveau:amethyst_golem_charm]
+    doc: page1.amethyst_golem_charm
+  - id: arsg_walker
+    deps: [arsg_rit_awakening]
+    roles: [mage, warrior]
+    tasks: [{type: checkmark}]
+    icon: ars_nouveau:green_archwood_sapling
+    title: {ru: "Заросший ходок", en: "Weald Walker"}
+    doc: page1.weald_walker
+  - id: arsg_alakarkinos
+    deps: [ars_drygmy]
+    roles: [mage]
+    items: [ars_nouveau:alakarkinos_charm]
+    doc: page1.alakarkinos_charm
+    why: {ru: "Краб Алакаркинос просеивает песок и гравий и находит то, что обычно добывают археологией: черепки, сокровища.", en: "The Alakarkinos crab sifts sand and gravel for archaeology loot: sherds and treasures."}
+  - id: arsg_familiar
+    deps: [arsg_rit_binding]
+    roles: [mage]
+    tasks: [{type: checkmark}]
+    icon: ars_nouveau:familiar_starbuncle
+    title: {ru: "Фамильяр", en: "Familiar"}
+    doc: page1.summoning_familiars
+    why: {ru: "Фамильяр всегда рядом и даёт бонус: звездоух — скорость, викси — зелья подольше, книгочей — дешевле заклинания.", en: "A familiar stays by your side and gives a bonus: the Starbuncle speed, the Wixie longer potions, the Bookwyrm cheaper spells."}
+  # --- World & travel
+  - id: arsg_magelight
+    deps: [arsg_spellcraft]
+    roles: [mage, builder]
+    items: [ars_nouveau:sconce*2]
+    doc: page1.magelight_torch
+  - id: arsg_illusion
+    deps: [ars_apparatus]
+    roles: [mage, builder]
+    items: [ars_nouveau:mirrorweave*8]
+    doc: page1.illusion_blocks
+  - id: arsg_portal
+    deps: [ars_warp]
+    roles: [mage]
+    items: [ars_nouveau:portal]
+    doc: page1.warp_portal
+    why: {ru: "Постоянный портал в любую точку измерения — общая транспортная сеть для сервера.", en: "A permanent portal to any spot in the dimension: a shared transport network for the server."}
+  - id: arsg_planarium
+    deps: [arsg_portal]
+    roles: [mage, builder]
+    items: [ars_nouveau:planarium]
+    doc: page1.planarium
+    why: {ru: "Карманное измерение в банке: своя маленькая база, куда можно войти.", en: "A pocket dimension in a jar: your own little base you can step into."}
+  - id: arsg_scry_crystal
+    deps: [arsg_rit_scrying]
+    roles: [mage]
+    items: [ars_nouveau:scryers_crystal, ars_nouveau:scryers_oculus]
+    title: {ru: "Око провидца", en: "Scryer's Oculus"}
+    why: {ru: "Смотри глазами кристалла, поставленного далеко — видеонаблюдение за фермой или входом в базу.", en: "Watch through a crystal placed far away: a camera for your farm or base entrance."}
+  - id: arsg_master
+    deps: [arsg_creative_flow, arsg_battlemage, arsg_thread, arsg_lectern, arsg_planarium, arsg_rit_disintegration, arsg_familiar, arsg_golem, arsg_turret_rotating]
+    roles: [mage]
+    shape: hexagon
+    icon: ars_nouveau:archmage_spell_book
+    title: {ru: "Магистр Ars Nouveau", en: "Master of Ars Nouveau"}
+    text: {ru: "Исток течёт сам, помощники работают, броня и оружие напитаны магией. Остальное — твоя фантазия в книге заклинаний.", en: "Source flows by itself, helpers work, armour and weapons are steeped in magic. The rest is your imagination in the spell book."}
+    rewards: [{type: xp_levels, count: 15}]

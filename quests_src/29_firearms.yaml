@@ -1,22 +1,22 @@
 chapter:
   id: firearms
   order: 17.5
-  icon: tacz:modern_kinetic_gun
+  icon: tacz:gun_smith_table
   ru: {title: "Огнестрел и война", subtitle: "Стволы TaCZ, стрелки-NPC, артиллерия, дроны"}
   en: {title: "Firearms and War", subtitle: "TaCZ guns, gunner NPCs, artillery, drones"}
 quests:
   - id: fa_intro
     deps: [w_gunsmith]
-    icon: tacz:modern_kinetic_gun
+    icon: tacz:gun_smith_table
     shape: gear
-    tasks: [{type: item, item: tacz:modern_kinetic_gun}]
+    tasks: [{type: checkmark}]
     rewards: [{type: item, item: tacz:target}]
     ru:
       title: "Первый ствол"
       subtitle: "TaCZ"
       text: |
         **Что это:** TaCZ — реалистичное оружие: пистолеты, автоматы, дробовики, снайперки. Отдача, перезарядка, прицелы.
-        **Как:** стол оружейника → выбери модель → нужны сталь, порох и детали. Любой собранный ствол засчитает квест.
+        **Как:** стол оружейника → выбери модель → нужны сталь, порох и детали. Собрал — поставь галочку (каждый ствол — своя модель внутри предмета, поэтому квест не может проверить его сам).
         **Управление:** ПКМ — прицел, R — перезарядка, G — режим огня, H — осмотр, Z — обвес (клавиши меняются в настройках).
         Оружие опасно и для друзей: PvP на сервере включено, следи за линией огня.
     en:
@@ -24,7 +24,7 @@ quests:
       subtitle: "TaCZ"
       text: |
         **What:** TaCZ adds realistic guns: pistols, rifles, shotguns, snipers. Recoil, reloads, scopes.
-        **How:** gunsmith table → pick a model → you need steel, gunpowder and parts. Any gun you build completes the quest.
+        **How:** gunsmith table → pick a model → you need steel, gunpowder and parts. Tick the box when you've built one (every gun is its own model inside the item, so the quest can't detect it by itself).
         **Controls:** right click to aim, R to reload, G for fire mode, H to inspect, Z for attachments (rebindable in settings).
         Guns hurt friends too: PvP is on, mind your line of fire.
 
@@ -45,8 +45,8 @@ quests:
 
   - id: fa_attachment
     deps: [fa_intro]
-    icon: tacz:attachment
-    tasks: [{type: item, item: tacz:attachment}]
+    icon: tacz:workbench_b
+    tasks: [{type: checkmark}]
     ru:
       title: "Обвес"
       subtitle: "Прицелы, глушители, рукояти"
