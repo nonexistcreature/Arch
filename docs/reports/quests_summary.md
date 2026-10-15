@@ -1,6 +1,6 @@
 # quests_summary (авто, tools/validate_quests.py)
 
-Всего квестов: **749**, глав: 37
+Всего квестов: **998**, глав: 37
 
 | файл | глава | квестов |
 |---|---|---|
@@ -19,13 +19,13 @@
 | 32_create_addons.yaml | Create: дополнения | 17 |
 | 08_sky.yaml | Небо и дороги | 22 |
 | 30_transport.yaml | Транспорт | 15 |
-| 09_mekanism.yaml | Mekanism и атом | 36 |
+| 09_mekanism.yaml | Mekanism и атом | 131 |
 | 28_atom.yaml | Атом | 10 |
 | 10_steel_oil.yaml | Сталь и нефть | 34 |
-| 11_storage.yaml | Хранилище | 30 |
-| 12_ars.yaml | Ars Nouveau | 28 |
+| 11_storage.yaml | Хранилище | 65 |
+| 12_ars.yaml | Ars Nouveau | 97 |
 | 13_irons.yaml | Iron's Spells | 17 |
-| 14_occultism.yaml | Occultism | 17 |
+| 14_occultism.yaml | Occultism | 67 |
 | 15_alchemy.yaml | Алхимия | 17 |
 | 16_adventure.yaml | Приключения | 36 |
 | 26_bosses.yaml | Боссы | 15 |
@@ -42,6 +42,6 @@
 | 23_welcome_back.yaml | С возвращением! | 7 |
 | 24_festivals.yaml | Праздники | 8 |
 
-Роли: engineer: 192, warrior: 84, mage: 71, cook: 62, breeder: 62, gardener: 50, builder: 45, mayor: 26, alchemist: 21
+Роли: engineer: 328, mage: 190, warrior: 111, cook: 63, breeder: 62, builder: 59, gardener: 54, mayor: 27, alchemist: 24
 
 Ошибок: 0, предупреждений: 0

@@ -2029,6 +2029,436 @@
 	quest.328AF20751E40D18.quest_desc: [
 		"Refined glowstone tools are the fastest in Mekanism Tools."
 	]
+	quest.208F1AAF087B6DB8.title: "Tin and Lead"
+	quest.208F1AAF087B6DB8.quest_desc: [
+		"A lightweight, yet sturdy, conductive material."
+		"A somewhat rare metal that is excellent at resisting radioactive particles."
+	]
+	quest.5389D027A4F6E785.title: "Fluorite"
+	quest.5389D027A4F6E785.quest_desc: [
+		"A mineral found relatively deep under the world's surface. The crystals can be processed into Hydrofluoric Acid, an essential chemical for Uranium processing."
+	]
+	quest.6686A7AD590ABADB.title: "Raw Uranium"
+	quest.6686A7AD590ABADB.quest_desc: [
+		"&lWhy:&r Uranium fuels fission reactors."
+		"A common, heavy metal, which can yield massive amounts of energy when properly processed. In its naturally-occurring form, it is not radioactive enough to cause harm."
+	]
+	quest.160283B76377C7AB.title: "Metallurgic Infuser"
+	quest.160283B76377C7AB.quest_desc: [
+		"&lWhy:&r The infuser makes steel, alloys and circuits."
+		"A machine used to infuse various materials into (generally) metals to create metal alloys and other compounds."
+	]
+	quest.3CE4764A153AC85A.title: "Infused Alloy"
+	quest.3CE4764A153AC85A.quest_desc: [
+		"&lWhy:&r Copper + redstone; used for advanced tiers."
+		"Infuse Copper with Redstone"
+	]
+	quest.6F48949B7D675579.title: "Reinforced Alloy"
+	quest.6F48949B7D675579.quest_desc: [
+		"&lWhy:&r Diamond alloy for elite tiers."
+		"Diamonds make everything better!"
+	]
+	quest.03FC9E1F3F7355E0.title: "Atomic Alloy"
+	quest.03FC9E1F3F7355E0.quest_desc: [
+		"&lWhy:&r Refined obsidian alloy for ultimate tiers."
+		"Create one of the strongest alloys in existence"
+	]
+	quest.7530C844138E673F.title: "Enriched Materials"
+	quest.7530C844138E673F.quest_desc: [
+		"&lWhy:&r Enriched materials are 8x more efficient in the infuser."
+		"Enrich your infusion inputs to increase their efficiency"
+	]
+	quest.7E9E462FF6FFDA13.title: "Steel Casing"
+	quest.7E9E462FF6FFDA13.quest_desc: [
+		"A sturdy, steel-based casing used as a foundation for machinery."
+	]
+	quest.7EF57D7933D864F4.title: "Advanced Control Circuit"
+	quest.7EF57D7933D864F4.quest_desc: [
+		"Craft an Advanced Control Circuit"
+	]
+	quest.401F6DCAA652419D.title: "Elite Control Circuit"
+	quest.401F6DCAA652419D.quest_desc: [
+		"Create a circuit with even more pathways"
+	]
+	quest.2C98FBD7D2FE6DDD.title: "Ultimate Control Circuit"
+	quest.2C98FBD7D2FE6DDD.quest_desc: [
+		"Can this thing run Minecraft yet?"
+	]
+	quest.008F89647DA1CDCE.title: "Osmium Compressor"
+	quest.008F89647DA1CDCE.quest_desc: [
+		"&lWhy:&r Makes refined obsidian and glowstone."
+		"A fairly advanced machine used to compress osmium into various dusts in order to create their ingot counterparts."
+	]
+	quest.0EF010CE1FF4BE11.title: "Combiner"
+	quest.0EF010CE1FF4BE11.quest_desc: [
+		"A machine used to combine items together. For example, raw ores and cobblestone to form their ore counterparts."
+	]
+	quest.0FB69DB081CB20D4.title: "Precision Sawmill"
+	quest.0FB69DB081CB20D4.quest_desc: [
+		"&lWhy:&r 6 planks per log plus sawdust."
+		"A machine used to process logs and other wood-based items more efficiently, as well as to obtain sawdust."
+	]
+	quest.48C6E1726C3D2A5E.title: "Fivefold Processing: Dissolution"
+	quest.48C6E1726C3D2A5E.quest_desc: [
+		"&lWhy:&r The top of Mekanism ore processing: 5 ingots per ore."
+		"An ultimate machine used to chemically dissolve all impurities of an ore, leaving an unprocessed slurry behind."
+	]
+	quest.3D21F6C40F18B9E5.title: "Chemical Washer"
+	quest.3D21F6C40F18B9E5.quest_desc: [
+		"An ultimate machine that cleans unprocessed slurry and prepares it for crystallization."
+	]
+	quest.493F355FE29BB330.title: "Chemical Crystallizer"
+	quest.493F355FE29BB330.quest_desc: [
+		"An ultimate machine used to crystallize purified ore slurry into ore crystals."
+		"Craft a Chemical Crystallizer, Dissolution Chamber and Washer"
+	]
+	quest.37DD07DD4F509A57.title: "Ore Crystals"
+	quest.37DD07DD4F509A57.quest_desc: [
+		"&lWhy:&r Crystals are the 5x output; feed them into the injection chamber."
+	]
+	quest.57879D32834BD4B2.title: "Chemical Oxidizer"
+	quest.57879D32834BD4B2.quest_desc: [
+		"A machine capable of oxidizing solid materials into gas phase."
+	]
+	quest.4360665E87FB5B7D.title: "Chemical Infuser"
+	quest.4360665E87FB5B7D.quest_desc: [
+		"&lWhy:&r Combines two gases into a third: the base of Mekanism chemistry."
+		"A machine that produces a new chemicals by infusing two others."
+	]
+	quest.5555A9E6C5C1ACF4.title: "Rotary Condensentrator"
+	quest.5555A9E6C5C1ACF4.quest_desc: [
+		"&lWhy:&r Turns gas into liquid and back."
+		"A machine capable of converting chemicals into their fluid form and vice versa."
+	]
+	quest.5CFD190864B3EEFC.title: "Pressurized Reaction Chamber"
+	quest.5CFD190864B3EEFC.quest_desc: [
+		"&lWhy:&r Makes HDPE plastic, substrate and ethylene."
+		"An advanced machine that processes a solid, liquid and chemical mixture and creates both a chemical and solid product."
+	]
+	quest.3543811430F83BB5.title: "HDPE Sheet"
+	quest.3543811430F83BB5.quest_desc: [
+		"&lWhy:&r Plastic sheets for modules, Robit and elytra."
+	]
+	quest.7C3041E19838CDEA.title: "Thermal Evaporation Plant"
+	quest.7C3041E19838CDEA.quest_desc: [
+		"&lWhy:&r Water → brine → lithium for fusion and induction cells."
+		"The controller for a Thermal Evaporation Plant, acting as the master block of the structure. Only one of these should be placed on a multiblock."
+	]
+	quest.1412FCAB06C56612.title: "Lithium"
+	quest.1412FCAB06C56612.quest_desc: [
+		"&lWhy:&r Lithium → tritium → fusion fuel; also induction cells."
+	]
+	quest.47574A538D6C9510.title: "Dynamic Tank"
+	quest.47574A538D6C9510.quest_desc: [
+		"The casing used in the Dynamic Tank multiblock, a structure capable of storing great amounts of fluid and chemicals."
+	]
+	quest.73AFEF7642C120FF.title: "Basic Bin"
+	quest.73AFEF7642C120FF.quest_desc: [
+		"A block used to store large quantities of a single type of item."
+		"Create a bin to store large amounts of one item"
+	]
+	quest.162761C557CA4953.title: "Personal Chest"
+	quest.162761C557CA4953.quest_desc: [
+		"&lWhy:&r A chest only the owner opens, portable."
+		"A 54-slot chest that can be opened from your own inventory."
+	]
+	quest.183F425FAC8622D9.title: "Tanks"
+	quest.183F425FAC8622D9.quest_desc: [
+		"A handy, sturdy, portable tank that lets you carry multiple buckets of fluid wherever you please. Also doubles as a bucket!"
+		"A portable tank that lets you carry chemicals wherever you please."
+	]
+	quest.00432F389CAB2B52.title: "Advanced Energy Cube"
+	quest.00432F389CAB2B52.quest_desc: [
+		"An advanced device for storing and distributing energy."
+	]
+	quest.6E9A9F2CEA14E074.title: "Elite Energy Cube"
+	quest.6E9A9F2CEA14E074.quest_desc: [
+		"An advanced device for storing and distributing energy."
+	]
+	quest.461FB926CD1026EB.title: "Electric Pump"
+	quest.461FB926CD1026EB.quest_desc: [
+		"An advanced, upgradeable pump, capable of extracting any type of fluid."
+		"Craft an Electric Pump in order to automatically 'suck up' fluids"
+	]
+	quest.0E2A1D841BFB6CCE.title: "Fluidic Plenisher"
+	quest.0E2A1D841BFB6CCE.quest_desc: [
+		"A machine that is capable of creating entire lakes by filling ravines with fluids."
+	]
+	quest.54FC0564B01E0138.title: "Logistical Sorter"
+	quest.54FC0564B01E0138.quest_desc: [
+		"A filter-based, advanced sorting machine that can auto-eject specified items out of and into adjacent inventories and Logistical Transporters."
+	]
+	quest.638025CB1C61A8DD.title: "Special Transporters"
+	quest.638025CB1C61A8DD.quest_desc: [
+		"&lWhy:&r Restrictive = fallback path, diversion = redstone-controlled."
+		"- Only used if no other paths available"
+		"- Controllable by redstone"
+	]
+	quest.6E409A67689220F9.title: "Advanced Tier Installer"
+	quest.6E409A67689220F9.quest_desc: [
+		"&lWhy:&r Upgrades a factory in place."
+		"Craft any tier of Installer to upgrade your factories in place"
+	]
+	quest.214BE62DD0DF735B.title: "Elite Enriching Factory"
+	quest.214BE62DD0DF735B.quest_desc: [
+		"&lWhy:&r Elite factory: 7 operations at once."
+	]
+	quest.7B6995F354F6FA92.title: "Formulaic Assemblicator"
+	quest.7B6995F354F6FA92.quest_desc: [
+		"A machine that uses energy to rapidly craft items and blocks from Crafting Formulas. Doubles as an advanced crafting bench."
+		"Craft a machine to do the crafting for you"
+	]
+	quest.16AB42CFA6A3F851.title: "Oredictionificator"
+	quest.16AB42CFA6A3F851.quest_desc: [
+		"A machine used to unify and translate between various items and blocks using item tags."
+	]
+	quest.745C0507A5A7D3DA.title: "QIO Drives"
+	quest.745C0507A5A7D3DA.quest_desc: [
+		"&lWhy:&r Denser drives hold more items per slot."
+		"Increase the storage bandwidth of your QIO Drive"
+	]
+	quest.2A6AC46D22A7A02C.title: "QIO Import and Export"
+	quest.2A6AC46D22A7A02C.quest_desc: [
+		"A QIO-linked item import unit. Place on a block and import its contents to your QIO system."
+		"A QIO-linked item export unit. Place on a block and export contents from your QIO system to the block."
+	]
+	quest.55D767D9EC0BE5F4.title: "Portable QIO Dashboard"
+	quest.55D767D9EC0BE5F4.quest_desc: [
+		"&lWhy:&r The whole QIO network in your hand."
+		"Craft a Portable QIO Dashboard"
+	]
+	quest.0A66EFD9B0C21198.title: "QIO Redstone Adapter"
+	quest.0A66EFD9B0C21198.quest_desc: [
+		"A QIO-linked redstone adapter. Use to monitor your QIO system's contents."
+	]
+	quest.57435E17FA17DFC5.title: "Teleportation Core"
+	quest.57435E17FA17DFC5.quest_desc: [
+		"&lWhy:&r Needed for teleporters and the entangloporter."
+		"Construct the core of all teleportation technology"
+	]
+	quest.4EAF0DA87182D9E9.title: "Portable Teleporter"
+	quest.4EAF0DA87182D9E9.quest_desc: [
+		"&lWhy:&r Teleport to your own stations from your pocket."
+		"Craft a Portable Teleporter"
+	]
+	quest.0D399BDAC9FE778F.title: "Quantum Entangloporter"
+	quest.0D399BDAC9FE778F.quest_desc: [
+		"A highly-advanced block capable of transmitting any practical resource across long distances and dimensions."
+	]
+	quest.44ABA6974D840D8C.title: "Dimensional Stabilizer"
+	quest.44ABA6974D840D8C.quest_desc: [
+		"&lWhy:&r Keeps chunks loaded. Don't overdo it — the server pays for it."
+		"A machine that prevents areas of the world from disappearing when not observed."
+	]
+	quest.76F5F3EE70F4B2D0.title: "Seismic Vibrator"
+	quest.76F5F3EE70F4B2D0.quest_desc: [
+		"A machine that uses seismic vibrations to provide information on differing layers of the world."
+		"Craft a Seismic Vibrator and Seismic Reader, and then view the world beneath you"
+	]
+	quest.1F5242D27AAD1D64.title: "Security Desk"
+	quest.1F5242D27AAD1D64.quest_desc: [
+		"A central control hub for managing the security of all your owned machinery."
+	]
+	quest.53F73E79C3E9CCD9.title: "Robit"
+	quest.53F73E79C3E9CCD9.quest_desc: [
+		"&lWhy:&r Robit follows you, picks up items, smelts and crafts."
+		"Craft and place a Robit on a Chargepad"
+	]
+	quest.2F8EDC4D6C27C09F.title: "Nutritional Liquifier"
+	quest.2F8EDC4D6C27C09F.quest_desc: [
+		"A machine that is capable of processing any foods into non-dangerous, easily-digestible Nutritional Paste."
+		"Completely fill a Canteen with Nutritional Paste"
+	]
+	quest.6057CF46D9BA8F96.title: "Scuba Gear"
+	quest.6057CF46D9BA8F96.quest_desc: [
+		"&lWhy:&r Oxygen tank: breathe underwater and in polluted air."
+		"Craft some Scuba Gear to refill your oxygen supply under water and filter out contaminants"
+	]
+	quest.3044A1B30724966F.title: "Free Runners"
+	quest.3044A1B30724966F.quest_desc: [
+		"&lWhy:&r No fall damage, step up blocks."
+		"Protect yourself from falling with a pair of Free Runners"
+	]
+	quest.2266D6B64109393A.title: "Flamethrower"
+	quest.2266D6B64109393A.quest_desc: [
+		"&lWhy:&r Hydrogen flamethrower. Not near wooden houses."
+		"Be responsible and don't burn down any forests; or do, we're not your manager"
+	]
+	quest.2D36B9BF63341043.title: "Electric Bow"
+	quest.2D36B9BF63341043.quest_desc: [
+		"&lWhy:&r An energy bow that never breaks and can ignite arrows."
+	]
+	quest.73EE4C3F40C5A06C.title: "Armored Jetpack"
+	quest.73EE4C3F40C5A06C.quest_desc: [
+		"&lWhy:&r Jetpack with chest armor."
+		"Use a Jetpack to take to the skies"
+	]
+	quest.0E79B85CF20BF406.title: "Dictionary"
+	quest.0E79B85CF20BF406.quest_desc: [
+		"A tool used for viewing the tags of various components such as: items, blocks, and fluids."
+	]
+	quest.48E5ED223B38875F.title: "Cardboard Box"
+	quest.48E5ED223B38875F.quest_desc: [
+		"&lWhy:&r Pack a block with its contents and move it."
+		"Use a Cardboard Box to move another block"
+	]
+	quest.54CA9815FAB50F6F.title: "Pigment Extractor"
+	quest.54CA9815FAB50F6F.quest_desc: [
+		"A machine used to color blocks and items via a careful application of a stored pigment."
+	]
+	quest.3154CA022255B234.title: "Fuelwood Heater"
+	quest.3154CA022255B234.quest_desc: [
+		"A machine that is capable of producing large quantities of heat energy by burning combustible items."
+		"A simple way of transferring heat from one location to another."
+	]
+	quest.1CF813637A5B621E.title: "Resistive Heater"
+	quest.1CF813637A5B621E.quest_desc: [
+		"A condensed, coiled resistor capable of converting electrical energy directly into heat energy."
+	]
+	quest.1D28DF9B4B56E388.title: "Gas-Burning Generator"
+	quest.1D28DF9B4B56E388.quest_desc: [
+		"&lWhy:&r Burns hydrogen or ethylene; ethylene is great early fuel."
+		"A generator that harnesses the varying molecular gases to produce energy."
+	]
+	quest.4ECD9FC70302709F.title: "Advanced Solar Generator"
+	quest.4ECD9FC70302709F.quest_desc: [
+		"An advanced generator that directly absorbs the sun's rays with little loss to produce energy."
+	]
+	quest.13B3A34AD465CD24.title: "Lasers"
+	quest.13B3A34AD465CD24.quest_desc: [
+		"An advanced form of linear energy transfer that utilizes an extremely collimated beam of light."
+		"A block that can be used to merge, redirect and amplify laser beams, with fine controls over when to fire."
+	]
+	quest.2513CEB7E663CD30.title: "Laser Tractor Beam"
+	quest.2513CEB7E663CD30.quest_desc: [
+		"A block used to merge and redirect laser beams. Collects drops from blocks it has broken."
+		"Tractor beams pull in the drops of blocks they break"
+	]
+	quest.3D2A3AFC097DC31B.title: "Uranium Enrichment"
+	quest.3D2A3AFC097DC31B.quest_desc: [
+		"&lWhy:&r Ore → yellow cake → hexafluoride → centrifuge → fissile fuel."
+		"Create some cake that must not be eaten"
+		"A machine with one single purpose: to spin its contents really, REALLY fast."
+	]
+	quest.3A116AD1C9958C8C.title: "Reactor Control"
+	quest.3A116AD1C9958C8C.quest_desc: [
+		"&lWhy:&r Logic adapter + redstone = automatic SCRAM. Build it before the first start."
+		"A collection of control rods used to halt a fission chain reaction. Placed on top of a tower of Fission Fuel Assemblies."
+		"A block that can be used to monitor or control the Fission Reactor with redstone."
+	]
+	quest.1325BCDFC065DACE.title: "Polonium Pellet"
+	quest.1325BCDFC065DACE.quest_desc: [
+		"&lWhy:&r Waste → polonium, the key to the SPS."
+		"Refine your Nuclear Waste into Polonium"
+	]
+	quest.26B5695FC133B624.title: "Plutonium Pellet"
+	quest.26B5695FC133B624.quest_desc: [
+		"Refine your Nuclear Waste into Plutonium"
+	]
+	quest.0054E6CAF20561EA.title: "Solar Neutron Activator"
+	quest.0054E6CAF20561EA.quest_desc: [
+		"A machine that directs the neutron radiation of the sun into its internal reservoir, allowing for the slow creation of various isotopes."
+	]
+	quest.0B7681931EC0F059.title: "Full Hazmat Suit"
+	quest.0B7681931EC0F059.quest_desc: [
+		"&lWhy:&r Only the full 4-piece set protects you."
+		"Use a Dosimeter to see how badly you irradiated yourself"
+		"Protect yourself from radiation with a Hazmat Suit"
+	]
+	quest.097AA259F55DA84F.title: "Antimatter Pellet"
+	quest.097AA259F55DA84F.quest_desc: [
+		"Create matter that shouldn't be able to exist here"
+	]
+	quest.3A34D2D14C91B14C.title: "Antiprotonic Nucleosynthesizer"
+	quest.3A34D2D14C91B14C.quest_desc: [
+		"A machine which uses bits of antimatter and mass amounts of energy to atomically transmute various resources."
+		"Craft an Antiprotonic Nucleosynthesizer and don't worry if you can't pronounce the name"
+	]
+	quest.3FA160B1B430B7FA.title: "Igniting Fusion"
+	quest.3FA160B1B430B7FA.quest_desc: [
+		"&lWhy:&r Hohlraum with D-T fuel plus a strong laser ignite fusion."
+		"A panel of Fusion Reactor Glass that is capable of absorbing optical energy and thereby heating up the Fusion Reactor."
+	]
+	quest.33EE9D2288D0A1A3.title: "Modification Station"
+	quest.33EE9D2288D0A1A3.quest_desc: [
+		"An advanced workbench capable of installing and removing modules from modular equipment (i.e. MekaSuit!)"
+	]
+	quest.67CB221E25650927.title: "Full MekaSuit"
+	quest.67CB221E25650927.quest_desc: [
+		"Protect yourself with a complete MekaSuit and a Meka-Tool"
+	]
+	quest.7A13054B48B60CD3.title: "Meka-Tool"
+	quest.7A13054B48B60CD3.quest_desc: [
+		"&lWhy:&r Pickaxe, axe, shovel, sword — and teleport, vein mining, silk touch with modules."
+	]
+	quest.51211D3EA449AAB1.title: "mg_module_jet"
+	quest.51211D3EA449AAB1.quest_desc: [
+		"Applies a hydrogen-fueled jetpack to the MekaSuit."
+	]
+	quest.77965E98C0CC2E14.title: "mg_module_radiation"
+	quest.77965E98C0CC2E14.quest_desc: [
+		"Provides thick, radiation-proof metal plating to any MekaSuit armor piece."
+	]
+	quest.7E8B7F88FD7E6325.title: "mg_module_breathing"
+	quest.7E8B7F88FD7E6325.quest_desc: [
+		"Applies a miniature electromagnetic field around the breathing apparatus, preventing selected potion effect types."
+	]
+	quest.2701EE491464FD16.title: "mg_module_vision"
+	quest.2701EE491464FD16.quest_desc: [
+		"Brightens the surrounding environment, allowing the user to see through darkness. Install multiple for more effective night vision."
+	]
+	quest.1B8B8ACB1D5CDE7C.title: "mg_module_magnet"
+	quest.1B8B8ACB1D5CDE7C.quest_desc: [
+		"Uses powerful magnets to draw distant items towards the player. Install multiple for a greater range."
+	]
+	quest.20B5038DA250FE4E.title: "mg_module_vein"
+	quest.20B5038DA250FE4E.quest_desc: [
+		"Allows for quick mining of ore deposits and rapid felling of trees."
+	]
+	quest.411F81EF8B370C25.title: "mg_module_elytra"
+	quest.411F81EF8B370C25.quest_desc: [
+		"Applies an HDPE Reinforced Elytra to the MekaSuit."
+	]
+	quest.2F8204523469DF85.title: "mg_module_gravity"
+	quest.2F8204523469DF85.quest_desc: [
+		"Using experimental technologies and the tremendous energy of antimatter, allows the user to defy gravity."
+	]
+	quest.6CB2C1719214613C.title: "mg_module_attack"
+	quest.6CB2C1719214613C.quest_desc: [
+		"Amplifies melee attacks on players or mobs."
+	]
+	quest.52AC0472F5C60571.title: "Bronze Armor"
+	quest.52AC0472F5C60571.quest_desc: [
+		"&lWhy:&r First armor better than iron."
+	]
+	quest.511247AD68873F1F.title: "Lapis Armor"
+	quest.511247AD68873F1F.quest_desc: [
+		"&lWhy:&r Weak but highly enchantable."
+	]
+	quest.0C9357EA1044CD3F.title: "Full Osmium Set"
+	quest.0C9357EA1044CD3F.quest_desc: [
+		"&lWhy:&r Osmium is tougher than iron and common — a fair mid-game set."
+	]
+	quest.731873834639106E.title: "Steel Armor"
+	quest.731873834639106E.quest_desc: [
+		"&lWhy:&r Tough and cheap once you have steel."
+	]
+	quest.49C07FA18C49B0DD.title: "Refined Glowstone Armor"
+	quest.49C07FA18C49B0DD.quest_desc: [
+		"&lWhy:&r Gives light around you."
+	]
+	quest.64CE71B25A3CAE2C.title: "Refined Obsidian Warrior"
+	quest.64CE71B25A3CAE2C.quest_desc: [
+		"&lWhy:&r Best non-modular armor, near netherite."
+	]
+	quest.58724F96B511E562.title: "Steel Shield"
+	quest.58724F96B511E562.quest_desc: [
+		"&lWhy:&r Metal shields last longer."
+	]
+	quest.0D65B1FEB6CF518B.title: "Mekanism Master"
+	quest.0D65B1FEB6CF518B.quest_desc: [
+		"5x processing, fusion, antimatter and a full MekaSuit."
+	]
 	chapter.1D269465AE61C05E.title: "The Atom"
 	chapter.1D269465AE61C05E.chapter_subtitle: [
 		"Extreme Reactors and Mekanism fission: lots of power, little harm"
@@ -2309,6 +2739,244 @@
 	quest.768779FCB55BCD1C.quest_subtitle: "Applied Mekanistics"
 	quest.768779FCB55BCD1C.quest_desc: [
 		"With Applied Mekanistics the network stores Mekanism &lgases and chemicals&r. Autocraft osmium, steel and fuel without running around."
+	]
+	quest.29A06962A5C66618.title: "Growth Accelerator"
+	quest.29A06962A5C66618.quest_desc: [
+		"&lWhy:&r Certus doesn't have to be mined forever: budding quartz grows crystals on its own."
+		"Certus quartz buds will sprout from budding certus blocks, similar to amethyst. If you break a bud that is not finished growing, it will drop one certus quartz dust, unchanged by fortune. If you break a fully grown cluster, it will drop four certus quartz crystals, and fortune will increase this number."
+		"There are 4 tiers of budding certus blocks: Flawless, Flawed, Chipped, and Damaged, and you initially find them in meteorites."
+		"Every time a bud grows by another stage, the budding block has a chance to degrade by one tier, eventually turning into a plain certus quartz block."
+	]
+	quest.271C176D620BFB3A.title: "Inscriber Logic Press"
+	quest.271C176D620BFB3A.quest_desc: [
+		"&lWhy:&r The four presses unlock every processor."
+		"There are 5 different presses used in the inscriber."
+		"The Silicon, Logic, Calculation, and Engineering presses are used in the production of processors. These 4 presses are obtained by breaking a mysterious cube in a meteorite. They can also be duplicated in an inscriber."
+		"The Name Press can be used in an inscriber to name items, similar to an anvil."
+	]
+	quest.1F1420D431DD22F8.title: "Logic Processor"
+	quest.1F1420D431DD22F8.quest_desc: [
+		"&lWhy:&r Logic, calculation and engineering processors: automate them early, you'll need hundreds."
+		"Processors are one of the primary ingredients in AE2 devices and machines. They are also one of your first big automation challenges. There are three types of processor, made with gold, certus quartz crystal, and diamond respectively. They are made using presses in an inscriber, in a multi-step process (usually achieved via a series of inscribers and filtered piping)."
+		"1. Gather/make the required ingredients: silicon, redstone, gold, certus quartz crystal, diamond."
+		"2. Press the prerequisite printed circuit components"
+	]
+	quest.7493F8085971A0E6.title: "ME Drive"
+	quest.7493F8085971A0E6.quest_desc: [
+		"&lWhy:&r The drive holds 10 storage cells: the network's hard disk."
+		"The Drive is the device you plug your storage cells into in order to use them for network storage. It has 10 slots which each accept a cell."
+		"If for some reason you want to, you can push and pull the cells from its inventory with any item logistics like hoppers or ae2 busses."
+		"It can be rotated with a certus quartz wrench."
+	]
+	quest.1FF250305243F2AD.title: "4k ME Item Storage Cell"
+	quest.1FF250305243F2AD.quest_desc: [
+		"&lWhy:&r A cell holds a limited number of item types (63) and bytes."
+		"Storage Cells are one of the primary methods of storage in Applied Energistics. They go in drives or chests."
+		"See Bytes and Types for an explanation of their capacities in bytes and types."
+		"Storage components can be removed from the housing if the cell is empty by shift-right clicking with the cell in your hand."
+		"Storage Cells are defined by both &obytes&r and &otypes&r. Bytes, like in your actual computer, are a measure of the total amount of \"stuff\" in a storage cell. Types are a measure of how many different, well, &otypes&r of things are stored in a cell. Each type represents a unique item, so 4,096 cobblestone is 1 type but 16 different swords with different enchantments are 16 types."
+		"Each storage cell can store a fixed amount of data."
+	]
+	quest.11197930ED7FA35F.title: "Cell Workbench"
+	quest.11197930ED7FA35F.quest_desc: [
+		"&lWhy:&r Set a cell's filter and add upgrade cards here."
+		"The Cell Workbench allows you to configure storage cells and view cells."
+		"You can add upgrade cards and configure \"partitions\" to filter what the cell will store."
+		"Items and fluids can be dragged into the slots from JEI/REI even if you don't actually have any of that item."
+	]
+	quest.494F464FD106FB9E.title: "Acceleration Card"
+	quest.494F464FD106FB9E.quest_desc: [
+		"&lWhy:&r Upgrade cards: speed, capacity, fuzzy, inverter."
+		"Upgrade cards change the behavior of AE2 devices and machines, increasing their speed, improving their filter capacity, enabling redstone control, etc."
+		"Cards are crafted with either basic or advanced card bases"
+		"Redstone cards add redstone control, adding a toggle button in the device's GUI to swap between various redstone conditions."
+	]
+	quest.03CD74443853451C.title: "ME Crafting Terminal"
+	quest.03CD74443853451C.quest_desc: [
+		"&lWhy:&r The crafting terminal searches the whole base and crafts straight from the network."
+		"While pattern providers, import busses, storage busses, and the et cetera are the primary method by which an AE2 network interacts with the world, Terminals are the primary method by which an AE2 network interacts with &oyou&r. There are several variants with differing functions."
+		"Terminals will inherit the color of the cable they are mounted on."
+		"They are cable subparts."
+	]
+	quest.4299B226322341FC.title: "ME Pattern Encoding Terminal"
+	quest.4299B226322341FC.quest_desc: [
+		"&lWhy:&r A pattern is a recipe you write once; then the network knows how to make the item."
+		"Patterns are made in a pattern encoding terminal out of blank patterns, and inserted in pattern providers or molecular assemblers."
+		"There are several different types of pattern for different things:"
+		"* crafting patterns encode recipes made by a crafting table. They can be put directly in a molecular assembler to make it craft the result whenever given the ingredients, but their main use is in a pattern provider next to a molecular assembler. Pattern providers have special behavior in this case, and will send the relevant pattern along with the ingredients to adjacent assemblers."
+	]
+	quest.2DA35D6CA4347FBE.title: "Molecular Assembler"
+	quest.2DA35D6CA4347FBE.quest_desc: [
+		"&lWhy:&r The molecular assembler performs crafting-table patterns next to a pattern provider."
+		"The molecular assembler takes items input into it and carries out the operation defined by an adjacent pattern provider, or the inserted crafting pattern, smithing table pattern, or stonecutting pattern, then pushes the result to adjacent inventories."
+		"This assembler has a crafting pattern that specifies the 1 oak log = 4 oak planks recipe. When oak logs are fed into the upper hopper, the assembler crafts and spits oak planks into the lower hopper."
+		"However, their main use is next to a pattern provider."
+	]
+	quest.0FF5477F502C15E4.title: "Crafting Unit"
+	quest.0FF5477F502C15E4.quest_desc: [
+		"&lWhy:&r The crafting CPU is a multiblock that plans the chain."
+		"Crafting CPUs manage crafting requests/jobs. They store the intermediate ingredients while crafting jobs with multiple steps are being carried out, and affect how big jobs can be, and to some degree how fast they are completed. See autocrafting for more details."
+		"Each crafting CPU handles 1 request or job, so if you want to request both a calculation processor and 256 smooth stone at once, you need 2 CPU multiblocks."
+		"They can be set to handle requests from players, automation (export busses and interfaces), or both."
+	]
+	quest.040984A2E748EB52.title: "ME Interface"
+	quest.040984A2E748EB52.quest_desc: [
+		"&lWhy:&r The interface keeps a set stock from the network and accepts anything inserted."
+		"Interfaces act like a small chest and fluid tank that fills itself from and empties to network storage depending on what you set it to keep a stock of in its slots. It tries to complete this in a single gametick, so it can fill itself with or empty itself from up to 9 stacks per gametick, making it a fast method of import or export if you have fast item pipes."
+		"Another useful trait is that while most fluid tanks can only store 1 type of fluid, interfaces can store up to 9, as well as items."
+	]
+	quest.41F7E6DD3272D341.title: "ME Storage Bus"
+	quest.41F7E6DD3272D341.quest_desc: [
+		"&lWhy:&r The storage bus connects any chest, barrel or Create vault to the network."
+		"Ever wanted to &okeep&r your chest monster instead of replacing it with something sensible? We present the Storage Bus!"
+		"The storage bus turns the inventory it's touching into network storage. It does this by allowing the network to see the contents of that inventory, and by pushing to and pulling from that inventory in order to fulfill devices pushing to and pulling from network storage."
+		"Due to AE2's philosophy of emergent mechanics through interaction of the functions of the devices, you don't necessarily &ohave&r to use a storage bus for &ostorage&r."
+	]
+	quest.0B198C324326DE2E.title: "ME Import Bus"
+	quest.0B198C324326DE2E.quest_desc: [
+		"&lWhy:&r Import pulls from machines, export pushes into them: processing lines."
+		"&lyour ME system and the world&r"
+		"An important concept in AE2 is the idea of Network Storage. It is the place in which the contents of a network are stored, usually storage cells or whatever inventory a storage bus is connected to. Most AE2 devices interact with it in one way or another."
+		"For example,"
+	]
+	quest.5E6C92E8BB0B638C.title: "ME Formation Plane"
+	quest.5E6C92E8BB0B638C.quest_desc: [
+		"&lWhy:&r The annihilation plane breaks blocks into the network; the formation plane places them."
+		"The Annihilation Plane breaks blocks and picks up items. It works similarly to an import bus, pushing things into network storage. For items to be picked up, they must collide with the face of the plane, it does not pick up in an area."
+		"Annihilation planes can be enchanted with any pickaxe enchantment, so yes, you can put crazy levels of fortune on a few and automate ore processing if your modpack allows it. In addition, silk touch does what you'd expect it to, efficiency reduces the energy cost of breaking a block, and unbreaking gives a chance of not using any energy."
+		"They are cable subparts."
+	]
+	quest.3EA0814B8D511AFD.title: "ME IO Port"
+	quest.3EA0814B8D511AFD.quest_desc: [
+		"&lWhy:&r Moves cell contents into the network and back."
+		"The IO Port allows you to rapidly fill or empty storage cells to or from network storage."
+		"It can be rotated with a certus quartz wrench."
+		"* The IO Port can be set to move the cell to the output slots when the cell is empty, full, or when the work is done. * If a redstone card is inserted, there will be options for various redstone conditions * In the center of the GUI, there is an arrow to set which direction to transfer items, from the cell to network storage, or from storage to the cell."
+	]
+	quest.3BAF7ADE145A5297.title: "Channels"
+	quest.3BAF7ADE145A5297.quest_desc: [
+		"&lWhy:&r Channels are unlimited in Arkhaven, but it's worth knowing how they normally work."
+		"Applied Energistics 2's ME Networks require Channels to support devices which use networked storage, or other network services. Think of channels like USB cables to all your devices. A computer only has so many USB ports and can only support so many devices connected to it. Most machines, full-block devices, and standard cables can only pass through up to 8 channels. You can think of full-block devices and standard cables as a bundle of 8 \"channel wires\". However, dense cables can support up to 32 channels. The only other devices capable of transmitting 32 are me p2p tunnel and the Quantum Network Bridge."
+	]
+	quest.724D2A0EF7D18896.title: "Quartz Fiber"
+	quest.724D2A0EF7D18896.quest_desc: [
+		"&lWhy:&r A subnetwork keeps farms separate from the main network."
+		"Item Pipe Subnet"
+		"Fluid Pipe Subnet"
+		"Filtered Annihilation Plane"
+	]
+	quest.0288370B301E6D74.title: "Energy Acceptor"
+	quest.0288370B301E6D74.quest_desc: [
+		"&lWhy:&r The energy acceptor takes FE; energy cells smooth out peaks."
+		"Your network will require energy to run. Networks have a pool of energy that devices directly pull from, and vibration chambers, energy acceptors (and controllers) add to. You can see the energy statistics for a network by right-clicking anywhere on it with a network tool or by right-clicking the network's controller, if it has one. This network-wide storage and distribution means that there are no energy transfer rate limits, so devices can pull arbitrarily high amounts of energy and energy acceptors can intake at functionally unlimited speed, only limited by your energy storage."
+	]
+	quest.7813E866A41FE514.title: "Vibration Chamber"
+	quest.7813E866A41FE514.quest_desc: [
+		"&lWhy:&r Burns fuel to power the network before you have generators."
+		"While the primary intended method of providing energy to your network is an energy acceptor, the vibration chamber can directly generate small to middling amounts of AE."
+		"By default (no upgrades and default configs) it makes 40 AE/t."
+		"When the network's energy storage is full, the vibration chamber throttles down to conserve fuel, but cannot fully shut off."
+	]
+	quest.374F3B1674E00EBA.title: "ME Wireless Access Point"
+	quest.374F3B1674E00EBA.quest_desc: [
+		"&lWhy:&r The access point is the router for wireless terminals."
+		"Allows wireless access via a wireless terminal. Range and power usage is determined based on the number of wireless booster installed."
+		"A network can have any number of wireless access points with any number of wireless booster in each one, allowing you to optimize power usage and range by altering your setup."
+		"Requires a channel."
+	]
+	quest.268FCB5DE77484F6.title: "ME Quantum Ring"
+	quest.268FCB5DE77484F6.quest_desc: [
+		"&lWhy:&r The quantum bridge links two networks at any distance, even across dimensions."
+		"Quantum Network Bridges can extend a network over infinite distances and even between dimensions. They can carry 32 channels in total (regardless of how cables are connected to each face), essentially acting like a wireless dense cable."
+		"An imaginary cable between the two endpoints"
+		"Of note, &lboth sides must be chunkloaded&r so a spatial anchor or other chunkloader must be used if the 2 sides are far apart."
+	]
+	quest.5D20B3A04975D7B8.title: "Spatial IO Port"
+	quest.5D20B3A04975D7B8.quest_desc: [
+		"&lWhy:&r Spatial IO cuts a piece of the world into a cell and puts it back elsewhere: move a whole base."
+		"The volume to be moved"
+		"Spatial IO is a way to cut-and-paste physical volumes of space in your world. It can be used to move flawless budding quartz, have a room in your base where you can swap out various interiors to use it for different purposes, or even move the end portal!"
+		"It works by &oswapping&r the defined volume with an identically-sized volume in the spatial storage dimension, sending whatever's in the pylon array to the spatial storage dimension, and whatever's in the dimension to the pylon array."
+	]
+	quest.0E385B3940A59AA8.title: "Matter Condenser"
+	quest.0E385B3940A59AA8.quest_desc: [
+		"&lWhy:&r The condenser destroys junk into matter balls and singularities."
+		"The matter condenser can be used as either a trash can or to create matter balls and singularities. It can take any item or fluid or etc. a storage cell can store."
+		"* In trash can mode, the matter condenser just voids everything that enters it * In matter ball mode the condenser makes matter balls out of whatever you put in it. This mode requires that you put a storage component in the top slot of the condenser. Matter balls take 256 items or buckets each, so a cell component 1k (which provides 8192 bits of capacity) is more than enough. * In matter singularity mode the condenser makes singularities out of whatever you put in it."
+	]
+	quest.1A3571D8433E2691.title: "Singularity"
+	quest.1A3571D8433E2691.quest_desc: [
+		"&lWhy:&r A singularity + ender dust makes the entangled singularities for the quantum bridge."
+		"A very compact ball of matter."
+		"Made with 256,000 items or buckets in a condenser in singularity mode."
+		"Required to create a connection between two Quantum Network Bridges, they are always produced in matching pairs. To create a connection place 1 of the pair of quantum entangled singularities into the quantum link of the bridge on each side."
+	]
+	quest.49C287CE796A9FB6.title: "Fluix Pickaxe"
+	quest.49C287CE796A9FB6.quest_desc: [
+		"&lWhy:&r Fluix tools are a bit better than iron."
+		"Fluix tools are similar to iron tools, having 3x the durability and a slightly higher attack damage and mining speed."
+		"All fluix tools act as if they have at least fortune/looting 1, which is useful before getting access to an enchanting table."
+		"You will need to make a fluix upgrade smithing template"
+	]
+	quest.269590655BC4AC7F.title: "Entropy Manipulator"
+	quest.269590655BC4AC7F.quest_desc: [
+		"&lWhy:&r Heats or cools blocks: smelts ore in place, freezes water."
+		"The Entropy Manipulator allows you to heat and cool things by right-clicking and shift-right-clicking respectively. It can't do much, just things like evaporating or freezing water, solidifying lava to obsidian, smelting logs to charcoal, and smelting cobble to stone in-world."
+		"If there is not a specific thing it can do to a block, it will act as a flint-and-steel."
+		"Its energy can be recharged in a charger."
+	]
+	quest.045D42BC6E8FA95A.title: "Matter Cannon"
+	quest.045D42BC6E8FA95A.quest_desc: [
+		"&lWhy:&r A gun that fires matter balls or metal nuggets."
+		"The matter cannon is a portable railgun that can fire small items as projectiles, like matter balls and metal nuggets. The damage depends on the item being fired, with \"heavier\" items like gold nuggets (10 damage) doing more damage than light items like matter balls (2 damage). It consumes a base energy of 1600 AE per shot."
+		"When the config option \"matterCannonBlockDamage\" is true, the cannon will break blocks depending on their hardness and the damage of the ammunition."
+		"Its energy can be recharged in a charger."
+	]
+	quest.70280A04D1F446B1.title: "Network Tool"
+	quest.70280A04D1F446B1.quest_desc: [
+		"&lWhy:&r The network tool diagnoses; the memory card copies settings between devices."
+		"The Network Tool is a modified wrench that also shows network diagnostic information and can store upgrade cards. While it retains the wrench's ability to quickly disassemble things and pull subparts off of a cable, it cannot rotate things."
+		"It has 9 slots in which to store upgrade cards, and they will be available in any AE2 device UI if the tool is anywhere in your inventory."
+		"Right-clicking any part of a network will show a diagnostic info window, similar to right-clicking a controller. This window shows"
+	]
+	quest.1B1D42A792FEEC99.title: "ME Toggle Bus"
+	quest.1B1D42A792FEEC99.quest_desc: [
+		"&lWhy:&r Switches part of the network with redstone, e.g. a farm when stock is full."
+		"A bus which functions similarly to fluix glass cable or other cables, but it allows its connection state to be toggled via redstone. This allows you to cut off a section of a ME Network."
+		"When redstone signal supplied the part enables the connection, inverted toggle bus provides the reverse behavior by disabling the connection instead."
+		"Of note, toggling these may cause the network to reboot and recalculate the connected devices."
+	]
+	quest.128F2E6930ACBDB3.title: "View Cell"
+	quest.128F2E6930ACBDB3.quest_desc: [
+		"&lWhy:&r A terminal filter: show only ore, only food."
+		"View Cells are used to filter the display of terminals. You partition them in a cell workbench."
+		"For example, say you want a terminal to only display a selection of stone building materials. Partition the view cell to those materials and place it in a terminal, and only those items will be shown."
+		"View cells are additive, if you have a view cell for oak planks and a view cell for cobblestone, putting both in will show both planks and cobblestone."
+	]
+	quest.4432EC872881230D.title: "Facades"
+	quest.4432EC872881230D.quest_desc: [
+		"&lWhy:&r A facade hides a cable as any block."
+		"Facades can be used to make your base appear more clean. They can cover up both sizes of cable, and be made out of many kinds of blocks."
+		"They can cover all sides of a cable, but will let subparts and cable connections protrude though."
+		"Be clever with them to improve your base aesthetic or make blocks with different textures on each side."
+	]
+	quest.73458882DFB6CE71.title: "ME Storage Monitor"
+	quest.73458882DFB6CE71.quest_desc: [
+		"&lWhy:&r A storage monitor shows a chosen item's count; the conversion monitor also hands it out."
+		"Monitors allow visualization and interaction with a single item or fluid type, without opening a GUI."
+		"Monitors will inherit the color of the cable they are mounted on."
+		"If the monitor is on the floor or ceiling, you can rotate it with a certus quartz wrench."
+	]
+	quest.313F20F0F2B83E4B.title: "ME Chest"
+	quest.313F20F0F2B83E4B.quest_desc: [
+		"&lWhy:&r The ME chest: one cell in a block, a small storage without a network."
+		"The ME Chest acts like a miniature network with a terminal, drive, and energy acceptor. While it can be used as a tiny storage network, its capacity for just one single storage cell means it has limited utility as such."
+		"Instead, it is useful for interacting with specifically the storage cell mounted inside it. Its integrated terminal can only see and access the items in the mounted drive, while devices on the general network can access items in any network storage, including ME chests."
+		"It has 2 different GUIs and is sided for item transport. Interacting with the top terminal opens the integrated terminal."
+	]
+	quest.3B8BB67D88DE00FE.title: "Network Engineer"
+	quest.3B8BB67D88DE00FE.quest_desc: [
+		"You've mastered AE2 from quartz farms to moving bases."
 	]
 	quest.36C60720F4EA9E96.title: "The Meteorite Compass"
 	quest.36C60720F4EA9E96.quest_desc: [
@@ -3041,6 +3709,320 @@
 	quest.570A419BD05A6077.quest_desc: [
 		"A djinni runs a machine: loads ingredients and collects results from magical storage."
 	]
+	quest.6BE1348766348F20.title: "Spiritfire"
+	quest.6BE1348766348F20.quest_desc: [
+		"&lWhy:&r Spiritfire turns ordinary items into occult ones."
+		"The main uses of [](item://occultism:spirit_fire) are to convert [](item://minecraft:diamond) into [](item://occultism:spirit_attuned_gem),"
+		"to get basic ingredients such as [](item://occultism:otherstone) and [Otherworld Saplings](item://occultism:otherworld_sapling_natural),"
+		"and to purify impure chalks."
+	]
+	quest.157AAA8C21BFE0F9.title: "The Third Eye"
+	quest.157AAA8C21BFE0F9.quest_desc: [
+		"The ability to see beyond the physical world is referred to as [#](ad03fc)Third Eye[#]()."
+		"Humans do not possess such an ability to see [#](ad03fc)beyond the veil[#](),"
+		"however with certain substances and contraptions the knowledgeable summoner can work around this limitation."
+	]
+	quest.13DE2F84620EE0AF.title: "Sacrificial Bowl"
+	quest.13DE2F84620EE0AF.quest_desc: [
+		"These bowls are used to place the items we will sacrifice as part of a ritual and you will need a handful of them."
+		"Note: Their exact placement in the ritual does not matter - just keep them within 8 blocks horizontally of the pentacle center!"
+		"Once everything has been set up and you are ready to start, this special ritual bowl is used to activate the ritual by [#](ad03fc)right-clicking[#]() it with the activation item,"
+		"usually a [Book of Binding](entry://getting_started/books_of_binding)."
+	]
+	quest.36A810031247CDD3.title: "Large Candle"
+	quest.36A810031247CDD3.quest_desc: [
+		"Candles provide stability to rituals and are an important part of almost all pentacles."
+		"&lLarge Candles also act like bookshelves for enchantment purposes.&r"
+		"\\"
+		"\\"
+		"Candles from Minecraft and other Mods may be used in place of Occultism candles."
+	]
+	quest.5711E9243534BDAE.title: "Chalk Brush"
+	quest.5711E9243534BDAE.quest_desc: [
+		"Chalk is a pain to clean up, by [#](ad03fc)right-clicking[#]() with a brush you can remove it from the world much more easily."
+	]
+	quest.3B559043D151BEBF.title: "The First Ritual"
+	quest.3B559043D151BEBF.quest_desc: [
+		"These pages will walk the gentle reader through the process of the [first ritual](entry://summoning_rituals/summon_crusher_t1) step by step."
+		"\\"
+		"We &lstart&r by placing the [](item://occultism:golden_sacrificial_bowl) and drawing the appropriate pentacle, [Aviar's Circle](entry://pentacles/summon_foliot) as seen on the left around it."
+		"Rituals allow to summon spirits into our plane of existence, or bind them into objects or living beings. Every ritual consists of a [#](ad03fc)Pentacle[#](), [#](ad03fc)Ritual Ingredients[#]() provided via sacrificial bowls, a [#](ad03fc)Starting Item[#]() and optionally the [#](ad03fc)Sacrifice[#]() of living beings. A purple particle effect will show that the ritual is successful and in progress."
+	]
+	quest.0B2E97D95D6ABF82.title: "Book of Binding: Empty"
+	quest.0B2E97D95D6ABF82.quest_desc: [
+		"To call forth a spirit, a [#](ad03fc)Book of Binding[#]() must be used in the ritual."
+		"There is a type of book corresponding to each type (or tier) of spirit."
+		"To identify a spirit to summon, it's name must be written in the [#](ad03fc)Book of Binding[#](), resulting in a [#](ad03fc)Bound Book of Binding[#]() that can be used in the ritual."
+	]
+	quest.2CA35C400C546163.title: "Book of Binding: Foliot (Bound)"
+	quest.2CA35C400C546163.quest_desc: [
+		"To summon a spirit the magician needs to know their [#](ad03fc)True Name[#](). By calling the true naming during the summoning ritual the Spirit is drawn forth from [#](ad03fc)The Other Place[#]() and forced to do the summoners bidding."
+		"\\"
+		"\\"
+		"&oIt should be noted, that it does not matter which spirit name is used in summoning, only the spirit tier is relevant.&r"
+	]
+	quest.14527BC9485CE9F5.title: "The Spirit Hierarchy"
+	quest.14527BC9485CE9F5.quest_desc: [
+		"&lWhy:&r Foliot < Djinni < Afrit < Marid."
+		"The lowest identified class of spirit. Equipped with some intelligence and a modicum of power they are most often used for manual labor or minor artifacts."
+		"The most commonly summoned class. There is a great variety of Djinni, differing both in intelligence and power. Djinni can be used for a variety of task, ranging from higher artifacts over possession of living beings to carrying out tasks in their Chosen Form."
+	]
+	quest.16CEB8D707FC6B0F.title: "Empty Magic Lamp"
+	quest.16CEB8D707FC6B0F.quest_desc: [
+		"Magic Lamps can be used to keep spirits safe from [#](ad03fc)Essence Decay[#]() (if the spirit has decay), while still having access to some of their powers. Right-Click on one of your workers to store and transport it as desired."
+	]
+	quest.22CAE8CB27182222.title: "Miner Foliot"
+	quest.22CAE8CB27182222.quest_desc: [
+		"&lWhy:&r A spirit miner digs in its own dimension and brings ore back."
+		"By summoning a spirit into a Magic Lamp and placing it in a [Dimensional Mineshaft (see next step)](entry://getting_started/mineshaft) it can be made to mine for you in a [#](ad03fc)Mining Dimension[#]()."
+		"See [Foliot Miner](entry://crafting_rituals/craft_foliot_miner) and the subsequent entries for information on how to craft spirit miners."
+	]
+	quest.47BFFD5BDFFC48EA.title: "Dimensional Mineshaft"
+	quest.47BFFD5BDFFC48EA.quest_desc: [
+		"See [Dimensional Mineshaft](entry://crafting_rituals/craft_dimensional_mineshaft) in the [Binding Rituals](category://crafting_rituals) Category."
+	]
+	quest.785111D423C73BF4.title: "Ore Miner Djinni"
+	quest.785111D423C73BF4.quest_desc: [
+		"The [#](AA00AA)Djinni[#]() miner harvests ores specifically. By discarding other blocks it is able to mine faster and"
+		" more efficiently. The greater power of the djinni it damages the magic lamp relatively quickly."
+	]
+	quest.1F304D85DB83850F.title: "Deep Ore Miner Afrit"
+	quest.1F304D85DB83850F.quest_desc: [
+		"The [#](AA00AA)Afrit[#]() miner harvests ores, like djinni miners, and additionally"
+		" mines some deepslate ores. This miner is faster and more efficient"
+		" than the djinnis, thus damaging the magic lamp even more slowly."
+	]
+	quest.60BFA4BAD2244519.title: "Master Miner Marid"
+	quest.60BFA4BAD2244519.quest_desc: [
+		"The [#](AA00AA)Marid[#]() miner is the most powerful miner spirit, it has the fasted mining speed and best magic lamp"
+		" preservation. Unlike other miner spirits they also can mine the rarest ores, such as [](item://minecraft:ancient_debris) and [](item://occultism:iesnium_ore)."
+	]
+	quest.62898C38547CB748.title: "Spirit Crusher"
+	quest.62898C38547CB748.quest_desc: [
+		"&lWhy:&r Crushes ore into dust: two dusts per ore."
+		"Crusher spirits are summoned to crush ores into dusts, effectively multiplying the metal output."
+		"   They will pick up appropriate ores and drop the resulting dusts into the world."
+		"   A spark particle effect and a crushing sound indicate the crusher is at work."
+	]
+	quest.33F1EAB5F17B4004.title: "Spirit Smelter"
+	quest.33F1EAB5F17B4004.quest_desc: [
+		"Smelter spirits are summoned to do furnace, blast furnace, smoker and campfire process,"
+		"without using fuel. They will pick up appropriate items and drop the resulting into the world."
+		"A fire particle effect and a flame sound indicate the smelter is at work."
+	]
+	quest.05C7EA617D95F814.title: "Spirit Crystallizer"
+	quest.05C7EA617D95F814.quest_desc: [
+		"Crystallizer spirits are summoned to regenerate gem from their dusts and directly multiply"
+		"the output of breaking gem ores. They will pick up appropriate items and drop the resulting into"
+		"the world. A magical particle effect and a amethyst sound indicate the crystallizer is at work."
+	]
+	quest.1D0B04D9A9947955.title: "Foliot Farmer"
+	quest.1D0B04D9A9947955.quest_desc: [
+		"The farmer will harvest and re-plant crops in it's working area."
+		" If a deposit location is set it will collect the dropped items into the specified chest."
+	]
+	quest.2E048D09F8C3DC88.title: "Spirit Traders"
+	quest.2E048D09F8C3DC88.quest_desc: [
+		"Trade spirits pick up appropriate items and throw trade results on the ground."
+		"The spirit is only actively exchanging items if purple particles spawn around it."
+		"\\"
+		"\\"
+		"&lIf you do not see any particles&r, ensure that you gave the proper item and amount."
+	]
+	quest.768BC79277A283F6.title: "Weather and Time Magic"
+	quest.768BC79277A283F6.quest_desc: [
+		"Weather magic is especially useful for farmers and others depending"
+		"on specific weather. Summons spirits to modify the weather."
+		"Different types of weather modification require different spirits."
+		"\\"
+		"\\"
+		"Weather spirits will only modify the weather once and then vanish."
+	]
+	quest.2FB0C781AACEF443.title: "The Wild Hunt"
+	quest.2FB0C781AACEF443.quest_desc: [
+		"A group of legendary Greater Spirits, usually appearing in the form of wither skeletons, with their skeleton minions. The Greater Spirits are bound to their minions in such fashion that they are virtually invulnerable until their minions have been sent back to [#](ad03fc)The Other Place[#]()."
+		"Besides venturing into nether dungeons, there is one more way to get these skulls. The legendary [#](ad03fc)Wild Hunt[#]() consists of [#](ad03fc)Greater Spirits[#]() taking the form of wither skeletons. While summoning the Wild Hunt is incredibly dangerous, it is the fastest way to get wither skeleton skulls."
+	]
+	quest.20A5250B160AC5B0.title: "Possession Rituals"
+	quest.20A5250B160AC5B0.quest_desc: [
+		"&lWhy:&r Possess a mob for guaranteed rare drops without hunting."
+		"Possessed mobs are controlled by spirits, allowing the summoner to determine some of their properties. They usually have &lhigh drop rates&r for rare drops, but are generally harder to kill."
+		"\\"
+		"\\"
+		"You probably will want to start by summoning a [Possessed Endermite](entry://possession_rituals/possess_endermite) to get [](item://minecraft:end_stone) to craft [Advanced Chalks](entry://getting_started/chalks)."
+	]
+	quest.63EFFCF318247D1D.title: "Possessed Shulker"
+	quest.63EFFCF318247D1D.quest_desc: [
+		"In this ritual a [#](ad03fc)Shulker[#]() is spawned using the life energy of a [#](ad03fc)Cube Mob[#]() and immediately possessed by the summoned [#](ad03fc)Afrit[#](). The [#](ad03fc)Possessed Shulker[#]() will always drop at least one [](item://minecraft:shulker_shell) when killed. You can use vanilla shulker multiplication to get normal shulkers but their have less chance to drop shells."
+	]
+	quest.5BA258F7F0DD5F3E.title: "Possessed Warden"
+	quest.5BA258F7F0DD5F3E.quest_desc: [
+		"In this ritual a [#](ad03fc)Warden[#]() is spawned using the life energy of a [#](ad03fc)Axolotl[#]() and immediately possessed by the summoned [#](ad03fc)Afrit[#](). The [#](ad03fc)Possessed Warden[#]() will always drop at least six [](item://minecraft:echo_shard) when killed and as a chance to drop [](item://minecraft:disc_fragment_5), [](item://minecraft:music_disc_otherside), [](item://minecraft:silence_armor_trim_smithing_template), [](item://minecraft:ward_armor_trim_smithing_template). If you try to escape, this possessed Warden will go to the floor like a normal warden."
+	]
+	quest.16B9D3C04837AABD.title: "Summoning a Horde"
+	quest.16B9D3C04837AABD.quest_desc: [
+		"&lWhy:&r Summons a wave of enemies: team practice and loot."
+		"Summon a Wild Evoker and his henchmen to get [](item://minecraft:totem_of_undying), [](item://minecraft:vex_armor_trim_smithing_template) and [](item://minecraft:sentry_armor_trim_smithing_template)."
+	]
+	quest.5734A13F8CF72FE5.title: "Familiar Ring"
+	quest.5734A13F8CF72FE5.quest_desc: [
+		"Enterprising summoners have found a way to bind familiars into jewelry that passively applies their buff, the [Familiar Ring](entry://crafting_rituals/craft_familiar_ring)."
+	]
+	quest.64C5700CB6C57BCE.title: "Greedy Familiar"
+	quest.64C5700CB6C57BCE.quest_desc: [
+		"The greedy familiar is a Foliot that will pick up nearby items for it's master. When captured in a familiar ring it increased the pick-up range of the wearer."
+		"\\"
+		"\\"
+		"&lUpgrade Behaviour&r\\"
+		"When upgraded by a blacksmith familiar, it can find blocks for its master. [#](ad03fc)Right-click[#]() it with a block to tell it what to look for."
+	]
+	quest.09AE03699F6FF6FE.title: "Blacksmith Familiar"
+	quest.09AE03699F6FF6FE.quest_desc: [
+		"Whenever the player picks up stone, there is a chance for the blacksmith familiar to repair their equipment a little bit."
+		"\\"
+		"\\"
+		"&lUpgrade Behaviour&r: \\"
+		"Cannot be upgraded, but upgrades other Familiars."
+	]
+	quest.4646F00FB5F7ADC2.title: "Dragon Familiar"
+	quest.4646F00FB5F7ADC2.quest_desc: [
+		"Greedy familiars can ride on dragon familiars, giving the dragon the greedy effects additionally."
+		"\\"
+		"\\"
+		"&lUpgrade Behaviour&r\\"
+		"When upgraded by a blacksmith familiar, it will throw swords at nearby enemies."
+	]
+	quest.64F4FE179136705A.title: "Iesnium Golem"
+	quest.64F4FE179136705A.quest_desc: [
+		"An Iesnium Golem is a direct upgrade from a regular Iron Golem, this new version is much stronger and invulnerable. \\"
+		"Only a player can dismiss them, by hitting while crouched, returning as a [](item://occultism:fragile_soul_gem)."
+	]
+	quest.21E8DA2E786B5EBF.title: "Resurrecting a Familiar"
+	quest.21E8DA2E786B5EBF.quest_desc: [
+		"The resurrection is a relatively simple process. The soul shard is strengthened with [](item://occultism:otherworld_essence) until it is strong enough to allow the familiar to return to the mortal realm and create a new body for itself."
+		"\\"
+		"\\"
+		"The essence is obtained by growing (lots of) Demons Dream plants."
+	]
+	quest.05BF4C9E9D36E77F.title: "Soul Gem"
+	quest.05BF4C9E9D36E77F.quest_desc: [
+		"&lWhy:&r A soul gem captures a mob to move it anywhere."
+		"To capture an entity, [#](AA00AA)right-click[#]() it with the soul gem. \\"
+		"[#](AA00AA)right-click[#]() again to release the entity."
+		"\\"
+		"\\"
+		"Bosses cannot be captured."
+	]
+	quest.78E9154728593312.title: "Infused Pickaxe"
+	quest.78E9154728593312.quest_desc: [
+		"After preparing the raw materials, the pickaxe needs to be infused with a spirit."
+		"\\"
+		"\\"
+		"Follow the instructions at [Craft Infuse Pickaxe](entry://crafting_rituals/craft_infused_pickaxe)"
+	]
+	quest.266E74BDF17EB46A.title: "Iesnium Pickaxe"
+	quest.266E74BDF17EB46A.quest_desc: [
+		"Like the [Infused Pickaxe](entry://getting_started/infused_pickaxe), this pickaxe can be used to mine Tier 2 Otherworld Materials such as [](item://occultism:iesnium_ore). As it is made from metal, instead of brittle [](item://occultism:spirit_attuned_gem), it is very durable and can be used for a long time."
+	]
+	quest.7B3F08C22542815B.title: "Iesnium Anvil"
+	quest.7B3F08C22542815B.quest_desc: [
+		"The [](item://occultism:iesnium_anvil) is a [#](AA00AA)Marid[#]() infusion."
+		"This anvil has some improvements:"
+		"1. Is unbreakable;"
+		"2. Can exceed the maximum level of enchantments by 1;"
+		"3. Marid will pay half of the showed level cost (round up);"
+		"4. The cost increase of working with the same item is reduced;"
+		"5. The maximum cost limit is increased;"
+	]
+	quest.7E30173AF0DAA1A7.title: "Tier 1 Dimensional Storage Stabilizer"
+	quest.7E30173AF0DAA1A7.quest_desc: [
+		"&lWhy:&r Stabilizers around the actuator raise storage capacity."
+		"The stabilizer system works by tier, starting from 0 (which does not add space) up to 5."
+		"\\"
+		"\\"
+		"To get started, see the recipes and instructions on the following pages."
+	]
+	quest.7005DBFFDE4D8507.title: "Tier 4 Dimensional Storage Stabilizer"
+	quest.7005DBFFDE4D8507.quest_desc: [
+		"This highly advanced storage stabilizer is inhabited by a [#](AA00AA)Marid[#]() that supports the dimensional matrix"
+		" in keeping the storage dimension stable, thus allowing to store more items."
+		"\\"
+		"\\"
+		"By default each Tier 4 Stabilizer adds &l512&r item types and 4098000 items storage capacity."
+	]
+	quest.777B0130DE546921.title: "Storage Accessor"
+	quest.777B0130DE546921.quest_desc: [
+		"The [](item://occultism:storage_remote) can be linked to a [](item://occultism:storage_controller) by shift-clicking."
+		" The [#](AA00AA)Djinni[#]() bound to the accessor will then be able to"
+		" access items from the actuator even from across dimensions."
+	]
+	quest.281C924603403A40.title: "Stable Wormhole"
+	quest.281C924603403A40.quest_desc: [
+		"The Storage Actuator behaves much like a big chest or shulker box."
+		" That means, hoppers and pipes can insert and extract items."
+	]
+	quest.1B5A0ED0BD2CD9FC.title: "Surprisingly Substantial Satchel"
+	quest.1B5A0ED0BD2CD9FC.quest_desc: [
+		"&lWhy:&r A dimensional satchel: bigger inside than outside."
+		"A [#](AA00AA)Foliot[#]() is bound to the satchel, tasked with &lslightly&r warping reality. This allows to store more"
+		" items in the satchel than its size would indicate, making it a practical travellers companion."
+	]
+	quest.0B2A09B8ED730BCA.title: "Apprentice Ritual Satchel"
+	quest.0B2A09B8ED730BCA.quest_desc: [
+		"&lWhy:&r Places a whole ritual circle from the satchel in a few clicks."
+		"Visit the entry about the [Apprentice Satchel](entry://crafting_rituals/apprentice_ritual_satchel) or the [Artisanal Satchel](entry://crafting_rituals/apprentice_ritual_satchel) in the [Binding Rituals Category](category://crafting_rituals) to learn how to enchant a satchel and use it for rituals."
+	]
+	quest.1BAEF5BAEF1A9803.title: "Entity Wormhole"
+	quest.1BAEF5BAEF1A9803.quest_desc: [
+		"To set the destination, you''ll need a compass. Right-click to place it and shift+right-click to remove it."
+		"+ A standard compass takes you to the world spawn;"
+		"+ A compass attached to a lodestone takes you to the top of it. (After placing it in the wormhole, the lodestone can be broken);"
+	]
+	quest.77EC4B9921BBA1C4.title: "True Sight Staff"
+	quest.77EC4B9921BBA1C4.quest_desc: [
+		"The [](item://occultism:true_sight_staff) employs an [#](AA00AA)Marid[#]() to assist the summoner in tasks of finding and interacting with the otherworld."
+		" Unlike [#](AA00AA)Foliot[#]() in the otherworld goggles, which can only provide vision, with this staff in the off-hand or curio slot, the occultist can collect otherworld materials."
+		" The divining rods search abilities receive an upgrade, now is possible locate any block."
+	]
+	quest.1EE09B08F3B6567C.title: "Vitality Compass"
+	quest.1EE09B08F3B6567C.quest_desc: [
+		"The [](item://occultism:vitality_compass) is a mystical tool infused with a [#](AA00AA)Foliot[#]()"
+		" that allows it to be attuned to the essence of living beings."
+		" By right-clicking on a creature, you bind its life force to the compass,"
+		" allowing the needle to always point toward its location no matter the distance (while loaded)."
+	]
+	quest.7526D01774227A65.title: "Knowledge Tablet"
+	quest.7526D01774227A65.quest_desc: [
+		"This item use is very simple: \\"
+		"[#](55FF55)Right-Click[#]() will storage all of your experience points. \\"
+		"[#](55FF55)Shift-Right-Click[#]() receive all stored points. \\"
+		"\\"
+		"NOTE: Sometimes, with big values, you can lost a small quantity of point due numerical approximations."
+	]
+	quest.529F0FBF184DE56C.title: "Unbound Spirits"
+	quest.529F0FBF184DE56C.quest_desc: [
+		"Generally spirits are summoned [#](ad03fc)bound[#](), which refers to any condition that keeps them under control of the summoner. A side effect of binding spells is that part of the spirit remains in [#](ad03fc)The Other Place[#](), robbing them of large portions of the power, but at the same time also protecting their essence from foreign access in this world."
+	]
+	quest.2DD49A38DAC38A8E.title: "Marid Essence"
+	quest.2DD49A38DAC38A8E.quest_desc: [
+		"[](item://occultism:marid_essence)  is required to safely control the most powerful spirits, commonly used"
+		" in the form of blue chalk. To obtain the essence, an [#](AA00AA)Marid[#]() needs to be summoned"
+		" unbound into this plane, and killed. Be warned that this is no simple endeavour,"
+		" and unbound spirit presents great danger to all nearby."
+	]
+	quest.32764B23238080CF.title: "Dimensional Battlefield"
+	quest.32764B23238080CF.quest_desc: [
+		"The dimensional battlefield will discard any items it cannot store, so it is important"
+		"  to regularly empty the output, either manually, with hoppers or using a transporter spirit.\\"
+		"  Interactions per side:"
+		"  + Top -> input slots (gem, weapon, fuel);"
+		"  + Bottom -> loot slots;"
+		"  + Other -> all slots;"
+	]
+	quest.4CE75A9F1AC7342B.title: "Master of Spirits"
+	quest.4CE75A9F1AC7342B.quest_desc: [
+		"Spirits mine, smelt, carry and store for you."
+	]
 	chapter.6F2A8A724E748B44.title: "Alchemy"
 	chapter.6F2A8A724E748B44.chapter_subtitle: [
 		"Potions everyone needs"
@@ -3739,7 +4721,7 @@
 	]
 	quest.508564D2E50AB706.title: "Ammunition"
 	quest.508564D2E50AB706.quest_desc: [
-		"Ammo is made at the gunsmith table from brass and gunpowder. Ask the engineer to set up a Create line."
+		"Ammo is made at the gunsmith table from brass and gunpowder. Ask the engineer to set up a Create line. Tick the box once you have a stock (every calibre is its own model inside the item, so the quest can't detect it)."
 	]
 	quest.1428749F03E36AA4.title: "Shot and Charges"
 	quest.1428749F03E36AA4.quest_desc: [

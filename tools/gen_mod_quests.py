@@ -2,24 +2,28 @@
 """quests_spec/<mod>.yaml -> quests_src/more/<file>_gen.yaml (then build_quests.py as usual).
 
 A spec lists quests in the order and with the links *we* choose, and only a short «why» line written by us;
-titles and descriptions come from the mod's own guide texts (lang files: ru_ru for RU, en_us for EN), so quests
-cover everything the mod's book covers and stay accurate.
+titles and descriptions come from the mod's own guide texts (lang files: ru_ru for RU, en_us for EN, or guide
+markdown pages for English-only guides such as AE2), so quests cover what the mod's book covers and stay accurate.
 
 Spec format:
   extends: ars                      # chapter to add to (or `chapter: {...}` like quests_src files)
   lang: [ars_nouveau]               # namespaces whose lang files are read (jar assets)
+  autodoc: description              # optional: quests without doc use <autodoc>.<ns>.<first item path>
   out: ars_gen                      # output file name (quests_src/more/<out>.yaml)
   quests:
     - id: ars_turret                # unique
       deps: [ars_apparatus]
       items: [ars_nouveau:basic_spell_turret, "minecraft:redstone*4"]   # item tasks (id*count); none -> checkmark
+      tasks: [...]                  # extra raw tasks (kill, structure, ...)
       icon: ...                     # default: first item
-      doc: page1.basic_spell_turret # lang key (relative to the first lang namespace, or absolute with a dot-prefix-free full key)
-      doc2: page2.basic_spell_turret   # optional second paragraph
-      why: {ru: "...", en: "..."}   # optional first line
+      doc: page1.basic_spell_turret # lang key (relative to the first lang namespace) or md:<path inside a jar>
+      doc2: ...                     # optional second paragraph
+      why: {ru: "...", en: "..."}   # optional first line (written by us)
+      text: {ru: "...", en: "..."}  # optional closing paragraph (written by us)
       title: {ru: "...", en: "..."} # optional, default = item name from lang
       subtitle: {ru: "...", en: "..."}
       roles: [mage]; shape: gear; rewards: [...]   # passed through
+RU never shows an English guide paragraph when the spec has a Russian «why» line.
 """
 import json
 import re
@@ -32,6 +36,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 JAR_DIRS = [ROOT / "tests/server_run/mods", ROOT / "tests/client_run/game/mods"]
 FMT = re.compile(r"\$\([^)]*\)|§.|\{\{[^}]*\}\}")
+NL = "\n"
 
 
 def lang_for(namespaces):
@@ -51,12 +56,33 @@ def lang_for(namespaces):
 
 
 def clean(t, limit=700):
-    t = FMT.sub("", t or "").replace("\\n", "\n").replace('\\"', '"').strip()
-    t = re.sub(r"\n{3,}", "\n\n", t)
+    t = FMT.sub("", t or "").replace("\\n", NL).replace('\\"', '"').strip()
+    t = re.sub(r"\n{3,}", NL + NL, t)
     if len(t) > limit:
         cut = t[:limit]
-        t = cut[:max(cut.rfind(". "), cut.rfind(".\n"), limit // 2) + 1].strip()
+        t = cut[:max(cut.rfind(". "), cut.rfind("." + NL), limit // 2) + 1].strip()
     return t
+
+
+def md_doc(path, limit=650):
+    """First paragraphs of a guide markdown page inside any jar (GuideME / AE2-style), without markup."""
+    for d in JAR_DIRS:
+        for j in d.glob("*.jar"):
+            try:
+                with zipfile.ZipFile(j) as z:
+                    if path not in z.namelist():
+                        continue
+                    s = z.read(path).decode("utf8", "replace").replace("\r", "")
+            except zipfile.BadZipFile:
+                continue
+            s = re.sub(r"^---.*?---", "", s, flags=re.S)
+            s = re.sub(r'<ItemLink id="([^"]+)"[^>]*>', lambda m: m.group(1).split(":")[-1].replace("_", " "), s)
+            s = re.sub(r"<[^>]+>", "", s)
+            s = re.sub(r"\[([^\]]+)\]\([^)]*\)", lambda m: m.group(1), s)
+            paras = [" ".join(x.split()) for x in re.split(r"\n\s*\n", s)]
+            paras = [x for x in paras if x and not x.startswith("#") and not x.startswith("!")]
+            return clean(NL.join(paras[:3]), limit)
+    return ""
 
 
 def item_name(iid, lang):
@@ -87,7 +113,9 @@ def main():
             def doc(key, lang):
                 if not key:
                     return ""
-                full = key if key.count(".") >= 2 and key.split(".")[0] in ns else f"{ns[0]}.{key}"
+                if key.startswith("md:"):  # guide markdown is English-only
+                    return md_doc(key[3:]) if lang is en else ""
+                full = key if (key.split(".")[0] in ns or key.startswith(("book.", "item.", "block.", "entity.", "tooltip.", "description.", "advancements.", "info.", "guide."))) else f"{ns[0]}.{key}"
                 alts = [full, full.replace(".page1.", ".page."), full.replace(".page.", ".page1.")]
                 return next((clean(lang[a]) for a in alts if len(lang.get(a, "")) > 12), "")
 
@@ -97,28 +125,34 @@ def main():
                     res[k] = q[k]
             res["icon"] = q.get("icon") or (items[0].split("*")[0] if items else "minecraft:book")
             for loc, lang, other in (("ru", ru, en), ("en", en, None)):
-                title = (q.get("title") or {}).get(loc) or (item_name(items[0].split("*")[0], lang) if items else None) \
-                    or (item_name(items[0].split("*")[0], other) if items and other else None) or q["id"]
+                first = items[0].split("*")[0] if items else None
+                title = (q.get("title") or {}).get(loc) or (item_name(first, lang) if first else None) \
+                    or (item_name(first, other) if first and other else None) or q["id"]
                 body = []
                 why = (q.get("why") or {}).get(loc)
                 if why:
                     body.append(f"**Зачем:** {why}" if loc == "ru" else f"**Why:** {why}")
-                # no Russian page text: fall back to English only when we have no Russian «why» line of our own
-                fb = other if (other and not why) else None
+                fb = other if (other and not why) else None  # RU: English guide text only when we wrote no RU line
                 d1 = doc(q.get("doc"), lang) or (doc(q.get("doc"), fb) if fb else "")
                 d2 = doc(q.get("doc2"), lang) or (doc(q.get("doc2"), fb) if fb else "")
                 if q.get("doc") and not d1 and not why:
-                    missing.append(f"{q['id']}: {q['doc']}")
+                    missing.append(f"{q['id']}({loc}): {q['doc']}")
+                if not q.get("doc") and spec.get("autodoc") and first:  # e.g. autodoc: description -> description.<ns>.<path>
+                    fns, fp = first.split(":", 1)
+                    for v in (fp, re.sub(r"^(module_|basic_|advanced_|elite_|ultimate_)", "", fp)):
+                        d1 = doc(f"{spec['autodoc']}.{fns}.{v}", lang) or (doc(f"{spec['autodoc']}.{fns}.{v}", fb) if fb else "")
+                        if d1:
+                            break
                 body += [x for x in (d1, d2) if x]
                 extra = (q.get("text") or {}).get(loc)
                 if extra:
                     body.append(extra)
-                res[loc] = {"title": title, "subtitle": (q.get("subtitle") or {}).get(loc, ""), "text": "\n".join(body) or title}
+                res[loc] = {"title": title, "subtitle": (q.get("subtitle") or {}).get(loc, ""), "text": NL.join(body) or title}
             out_q.append(res)
         doc_out = {k: spec[k] for k in ("extends", "chapter") if k in spec}
         doc_out["quests"] = out_q
         out = ROOT / "quests_src/more" / f"{spec['out']}.yaml"
-        out.write_text("# GENERATED by tools/gen_mod_quests.py from " + spec_path.name + " — edit the spec, not this file\n"
+        out.write_text("# GENERATED by tools/gen_mod_quests.py from " + spec_path.name + " - edit the spec, not this file" + NL
                        + yaml.safe_dump(doc_out, allow_unicode=True, sort_keys=False, width=200), "utf8")
         print(f"{spec_path.name}: {len(out_q)} quests -> {out.relative_to(ROOT)}" + (f"; missing docs: {missing}" if missing else ""))
 

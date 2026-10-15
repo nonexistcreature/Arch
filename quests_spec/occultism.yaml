@@ -1,0 +1,311 @@
+# Occultism: the Dictionary of Spirits (Modonomicon) is fully translated to Russian, so texts come straight from it.
+extends: occultism
+lang: [occultism]
+out: occultism_gen
+quests:
+  - id: occg_spirit_fire
+    deps: [occ_dictionary]
+    roles: [mage]
+    items: [occultism:spirit_attuned_gem]
+    icon: occultism:spirit_fire
+    title: {ru: "Огонь духов", en: "Spiritfire"}
+    doc: book.occultism.dictionary_of_spirits.getting_started.spirit_fire.main_uses.text
+    why: {ru: "Огонь духов (подожги видение демона на земле) превращает обычные вещи в оккультные: алмаз — в камень, настроенный на духов, золото — в...", en: "Spiritfire turns ordinary items into occult ones."}
+  - id: occg_otherworld_sight
+    deps: [occ_demons_dream]
+    roles: [mage]
+    items: [occultism:demons_dream_essence]
+    title: {ru: "Третий глаз", en: "The Third Eye"}
+    doc: book.occultism.dictionary_of_spirits.getting_started.third_eye.about.text
+  - id: occg_bowls
+    deps: [occ_chalk]
+    roles: [mage]
+    items: [occultism:sacrificial_bowl*4, occultism:golden_sacrificial_bowl]
+    icon: occultism:golden_sacrificial_bowl
+    doc: book.occultism.dictionary_of_spirits.getting_started.ritual_prep_bowl.sacrificial_bowl.text
+    doc2: book.occultism.dictionary_of_spirits.getting_started.ritual_prep_bowl.golden_sacrificial_bowl.text
+  - id: occg_candles
+    deps: [occg_bowls]
+    roles: [mage]
+    items: [occultism:large_candle*4]
+    doc: book.occultism.dictionary_of_spirits.getting_started.candle.intro.text
+  - id: occg_brush
+    deps: [occ_chalk]
+    roles: [mage]
+    items: [occultism:brush]
+    doc: book.occultism.dictionary_of_spirits.getting_started.brush.intro.text
+  - id: occg_first_ritual
+    deps: [occg_bowls, occg_candles]
+    roles: [mage]
+    icon: occultism:pentacle_craft
+    title: {ru: "Первый ритуал", en: "The First Ritual"}
+    doc: book.occultism.dictionary_of_spirits.getting_started.first_ritual.intro.text
+    doc2: book.occultism.dictionary_of_spirits.rituals.overview.intro.text
+  - id: occg_book_binding
+    deps: [occg_first_ritual]
+    roles: [mage]
+    items: [occultism:book_of_binding_empty, occultism:awakened_feather]
+    icon: occultism:book_of_binding_empty
+    doc: book.occultism.dictionary_of_spirits.getting_started.books_of_binding.intro.text
+  - id: occg_true_names
+    deps: [occg_book_binding]
+    roles: [mage]
+    icon: occultism:book_of_binding_bound_foliot
+    items: [occultism:book_of_binding_bound_foliot]
+    doc: book.occultism.dictionary_of_spirits.spirits.true_names.intro.text
+  - id: occg_spirits
+    deps: [occg_true_names]
+    roles: [mage]
+    icon: occultism:otherworld_essence
+    title: {ru: "Иерархия духов", en: "The Spirit Hierarchy"}
+    doc: book.occultism.dictionary_of_spirits.spirits.overview.foliot.text
+    doc2: book.occultism.dictionary_of_spirits.spirits.overview.djinni.text
+    why: {ru: "Фолиот < Джинн < Африт < Марид. Чем сильнее дух, тем больше он может — и тем дороже ритуал.", en: "Foliot < Djinni < Afrit < Marid."}
+  - id: occg_lamp
+    deps: [occ_foliot]
+    roles: [mage]
+    items: [occultism:magic_lamp_empty]
+    doc: book.occultism.dictionary_of_spirits.getting_started.magic_lamps.spotlight.text
+  - id: occg_miner_foliot
+    deps: [occg_lamp]
+    roles: [mage, engineer]
+    items: [occultism:miner_foliot_unspecialized]
+    doc: book.occultism.dictionary_of_spirits.getting_started.spirit_miners.crafting.text
+    why: {ru: "Дух-шахтёр копает в своём измерении и приносит руду — без единого удара киркой.", en: "A spirit miner digs in its own dimension and brings ore back."}
+  - id: occg_mineshaft
+    deps: [occg_miner_foliot]
+    roles: [mage, engineer]
+    items: [occultism:dimensional_mineshaft]
+    doc: book.occultism.dictionary_of_spirits.getting_started.mineshaft.crafting.text
+  - id: occg_miner_djinni
+    deps: [occg_mineshaft, occ_djinni]
+    roles: [mage, engineer]
+    items: [occultism:miner_djinni_ores]
+    doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_djinni_miner.spotlight.text
+  - id: occg_miner_afrit
+    deps: [occg_miner_djinni, occ_afrit]
+    roles: [mage, engineer]
+    items: [occultism:miner_afrit_deeps]
+    doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_afrit_miner.spotlight.text
+  - id: occg_miner_marid
+    deps: [occg_miner_afrit]
+    roles: [mage, engineer]
+    items: [occultism:miner_marid_master]
+    doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_marid_miner.spotlight.text
+  - id: occg_crusher
+    deps: [occ_foliot]
+    roles: [mage, engineer]
+    icon: occultism:iron_dust
+    items: [occultism:iron_dust*16]
+    title: {ru: "Дух-дробильщик", en: "Spirit Crusher"}
+    doc: book.occultism.dictionary_of_spirits.summoning_rituals.summon_crusher_t1.about_crushers.text
+    why: {ru: "Дробит руду в пыль — две пыли с руды вместо одного слитка. Удвоение без машин.", en: "Crushes ore into dust: two dusts per ore."}
+  - id: occg_smelter
+    deps: [occg_crusher]
+    roles: [mage, engineer]
+    icon: minecraft:iron_ingot
+    tasks: [{type: checkmark}]
+    title: {ru: "Дух-плавильщик", en: "Spirit Smelter"}
+    doc: book.occultism.dictionary_of_spirits.summoning_rituals.summon_smelter_t1.about_smelters.text
+  - id: occg_crystallizer
+    deps: [occg_crusher]
+    roles: [mage]
+    icon: minecraft:amethyst_shard
+    tasks: [{type: checkmark}]
+    title: {ru: "Дух-кристаллизатор", en: "Spirit Crystallizer"}
+    doc: book.occultism.dictionary_of_spirits.summoning_rituals.summon_crystallizer_t1.about_crystallizers.text
+  - id: occg_farmer
+    deps: [occ_lumberjack]
+    roles: [mage, gardener]
+    items: [occultism:book_of_calling_foliot_farmer]
+    title: {ru: "Фолиот-фермер", en: "Foliot Farmer"}
+    doc: book.occultism.dictionary_of_spirits.summoning_rituals.summon_farmer.intro.text
+  - id: occg_traders
+    deps: [occ_otherworld_tree]
+    roles: [mage]
+    icon: occultism:otherstone
+    tasks: [{type: checkmark}]
+    title: {ru: "Духи-торговцы", en: "Spirit Traders"}
+    doc: book.occultism.dictionary_of_spirits.summoning_rituals.trade_spirits.intro.text
+  - id: occg_weather
+    deps: [occ_djinni]
+    roles: [mage]
+    icon: minecraft:lightning_rod
+    tasks: [{type: checkmark}]
+    title: {ru: "Магия погоды и времени", en: "Weather and Time Magic"}
+    doc: book.occultism.dictionary_of_spirits.summoning_rituals.weather_magic.intro.text
+  - id: occg_wild_hunt
+    deps: [occ_afrit]
+    roles: [mage, warrior]
+    icon: minecraft:wither_skeleton_skull
+    items: [minecraft:wither_skeleton_skull]
+    title: {ru: "Дикая охота", en: "The Wild Hunt"}
+    doc: book.occultism.dictionary_of_spirits.spirits.wild_hunt.intro.text
+    doc2: book.occultism.dictionary_of_spirits.possession_rituals.wither_skull.intro.text
+  - id: occg_possession
+    deps: [occ_djinni]
+    roles: [mage]
+    icon: occultism:pentacle_possess
+    tasks: [{type: checkmark}]
+    title: {ru: "Ритуалы одержимости", en: "Possession Rituals"}
+    doc: book.occultism.dictionary_of_spirits.getting_started.possession_rituals.intro.text
+    why: {ru: "Вселяет духа в моба и тут же убивает его — гарантированный лут с редких мобов (шалкеры, стражи, Хранитель) без охоты.", en: "Possess a mob for guaranteed rare drops without hunting."}
+  - id: occg_possess_shulker
+    deps: [occg_possession]
+    roles: [mage]
+    items: [minecraft:shulker_shell*2]
+    title: {ru: "Одержимый шалкер", en: "Possessed Shulker"}
+    doc: book.occultism.dictionary_of_spirits.possession_rituals.possess_shulker.description.text
+  - id: occg_possess_warden
+    deps: [occg_possess_shulker]
+    roles: [mage]
+    icon: minecraft:echo_shard
+    tasks: [{type: checkmark}]
+    title: {ru: "Одержимый Хранитель", en: "Possessed Warden"}
+    doc: book.occultism.dictionary_of_spirits.possession_rituals.possess_warden.description.text
+  - id: occg_hordes
+    deps: [occg_possession]
+    roles: [mage, warrior]
+    icon: minecraft:zombie_head
+    tasks: [{type: checkmark}]
+    title: {ru: "Призыв орды", en: "Summoning a Horde"}
+    doc: book.occultism.dictionary_of_spirits.possession_rituals.horde_illager.description.text
+    why: {ru: "Ритуал вызывает волну врагов — тренировка для команды и быстрый лут. Проводи вдали от чужих домов.", en: "Summons a wave of enemies: team practice and loot."}
+  - id: occg_familiar_ring
+    deps: [occ_familiar]
+    roles: [mage]
+    items: [occultism:familiar_ring]
+    doc: book.occultism.dictionary_of_spirits.familiar_rituals.overview.ring.text
+  - id: occg_familiar_greedy
+    deps: [occg_familiar_ring]
+    roles: [mage]
+    icon: minecraft:hopper
+    tasks: [{type: checkmark}]
+    title: {ru: "Жадный фамильяр", en: "Greedy Familiar"}
+    doc: book.occultism.dictionary_of_spirits.familiar_rituals.familiar_greedy.description.text
+  - id: occg_familiar_blacksmith
+    deps: [occg_familiar_ring]
+    roles: [mage]
+    icon: minecraft:anvil
+    tasks: [{type: checkmark}]
+    title: {ru: "Фамильяр-кузнец", en: "Blacksmith Familiar"}
+    doc: book.occultism.dictionary_of_spirits.familiar_rituals.familiar_blacksmith.description.text
+  - id: occg_familiar_dragon
+    deps: [occg_familiar_ring]
+    roles: [mage]
+    icon: minecraft:dragon_head
+    tasks: [{type: checkmark}]
+    title: {ru: "Фамильяр-дракон", en: "Dragon Familiar"}
+    doc: book.occultism.dictionary_of_spirits.familiar_rituals.familiar_dragon.description.text
+  - id: occg_iesnium_golem
+    deps: [occg_familiar_ring, occ_iesnium]
+    roles: [mage, warrior]
+    icon: occultism:iesnium_block
+    tasks: [{type: checkmark}]
+    title: {ru: "Айзниевый голем", en: "Iesnium Golem"}
+    doc: book.occultism.dictionary_of_spirits.familiar_rituals.iesnium_golem.description.text
+  - id: occg_resurrection
+    deps: [occg_familiar_ring]
+    roles: [mage]
+    items: [occultism:soul_gem]
+    title: {ru: "Воскрешение фамильяра", en: "Resurrecting a Familiar"}
+    doc: book.occultism.dictionary_of_spirits.familiar_rituals.resurrection.description.text
+  - id: occg_soul_gem
+    deps: [occ_afrit]
+    roles: [mage]
+    items: [occultism:soul_gem]
+    doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_soul_gem.usage.text
+    why: {ru: "Камень души ловит моба и переносит его куда угодно — перевезти жителя, лошадь или питомца.", en: "A soul gem captures a mob to move it anywhere."}
+  - id: occg_infused_pickaxe
+    deps: [occg_spirit_fire]
+    roles: [mage, engineer]
+    items: [occultism:infused_pickaxe]
+    doc: book.occultism.dictionary_of_spirits.getting_started.infused_pickaxe.crafting.text
+  - id: occg_iesnium_pickaxe
+    deps: [occg_infused_pickaxe, occ_iesnium]
+    roles: [mage, engineer]
+    items: [occultism:iesnium_pickaxe]
+    doc: book.occultism.dictionary_of_spirits.getting_started.iesnium_pickaxe.spotlight.text
+  - id: occg_iesnium_anvil
+    deps: [occ_iesnium]
+    roles: [mage]
+    items: [occultism:iesnium_anvil]
+    doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_iesnium_anvil.spotlight.text
+  - id: occg_storage_stabilizer
+    deps: [occ_storage]
+    roles: [mage, engineer]
+    items: [occultism:storage_stabilizer_tier1]
+    doc: book.occultism.dictionary_of_spirits.storage.storage_stabilizer.crafting.text
+    why: {ru: "Стабилизаторы вокруг актуатора увеличивают ёмкость пространственного хранилища — от тысяч до миллионов предметов.", en: "Stabilizers around the actuator raise storage capacity."}
+  - id: occg_storage_stabilizer4
+    deps: [occg_storage_stabilizer]
+    roles: [mage, engineer]
+    items: [occultism:storage_stabilizer_tier4]
+    doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_stabilizer_tier4.spotlight.text
+  - id: occg_storage_remote
+    deps: [occ_storage]
+    roles: [mage]
+    items: [occultism:storage_remote]
+    doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_storage_remote.spotlight.text
+  - id: occg_storage_automation
+    deps: [occ_machine]
+    roles: [mage, engineer]
+    icon: occultism:stable_wormhole
+    items: [occultism:stable_wormhole]
+    doc: book.occultism.dictionary_of_spirits.storage.storage_system_automation.intro.text
+  - id: occg_satchel
+    deps: [occg_first_ritual]
+    roles: [mage]
+    items: [occultism:satchel]
+    doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_satchel.spotlight.text
+    why: {ru: "Сумка-измерение: в ней больше места, чем снаружи.", en: "A dimensional satchel: bigger inside than outside."}
+  - id: occg_ritual_satchel
+    deps: [occg_satchel]
+    roles: [mage]
+    items: [occultism:ritual_satchel_t1]
+    doc: book.occultism.dictionary_of_spirits.getting_started.ritual_satchels.more.text
+    why: {ru: "Ставит весь ритуальный круг из сумки за пару кликов — не нужно таскать мелки и чаши по одной.", en: "Places a whole ritual circle from the satchel in a few clicks."}
+  - id: occg_wormhole
+    deps: [occ_afrit]
+    roles: [mage]
+    items: [occultism:entity_wormhole]
+    doc: book.occultism.dictionary_of_spirits.crafting_rituals.entity_wormhole.destination.text
+  - id: occg_true_sight
+    deps: [occ_goggles]
+    roles: [mage]
+    items: [occultism:true_sight_staff]
+    doc: book.occultism.dictionary_of_spirits.crafting_rituals.true_sight_staff.spotlight.text
+  - id: occg_vitality
+    deps: [occ_afrit]
+    roles: [mage]
+    items: [occultism:vitality_compass]
+    doc: book.occultism.dictionary_of_spirits.crafting_rituals.vitality_compass.spotlight.text
+  - id: occg_knowledge
+    deps: [occ_djinni]
+    roles: [mage]
+    items: [occultism:knowledge_tablet]
+    doc: book.occultism.dictionary_of_spirits.crafting_rituals.knowledge_tablet.use.text
+  - id: occg_unbound
+    deps: [occ_afrit]
+    roles: [mage, warrior]
+    items: [occultism:afrit_essence]
+    title: {ru: "Несвязанные духи", en: "Unbound Spirits"}
+    doc: book.occultism.dictionary_of_spirits.spirits.unbound_spirits.intro.text
+  - id: occg_marid
+    deps: [occg_unbound]
+    roles: [mage]
+    items: [occultism:marid_essence]
+    doc: book.occultism.dictionary_of_spirits.summoning_rituals.marid_essence.intro.text
+  - id: occg_battlefield
+    deps: [occg_marid]
+    roles: [mage, warrior]
+    items: [occultism:dimensional_battlefield]
+    doc: book.occultism.dictionary_of_spirits.crafting_rituals.dimensional_battlefield.capabilities.text
+  - id: occg_master
+    deps: [occg_miner_marid, occg_storage_stabilizer4, occg_battlefield, occg_iesnium_golem, occg_possess_warden, occg_wormhole, occg_ritual_satchel]
+    roles: [mage]
+    shape: hexagon
+    icon: occultism:dictionary_of_spirits
+    title: {ru: "Повелитель духов", en: "Master of Spirits"}
+    text: {ru: "Духи копают, плавят, носят и хранят за тебя, а мариды подчиняются твоему слову. Словарь духов прочитан от корки до корки.", en: "Spirits mine, smelt, carry and store for you."}
+    rewards: [{type: xp_levels, count: 15}]

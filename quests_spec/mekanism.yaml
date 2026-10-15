@@ -1,0 +1,526 @@
+# Mekanism + Generators + Tools: every block has its own description text (description.<ns>.<id>), ru translated.
+extends: mekanism
+lang: [mekanism, mekanismgenerators, mekanismtools]
+autodoc: description
+out: mekanism_gen
+quests:
+  # --- ores and first machines
+  - id: mg_ores
+    deps: [m_osmium]
+    roles: [engineer]
+    items: [mekanism:raw_tin*8, mekanism:raw_lead*8]
+    title: {ru: "Олово и свинец", en: "Tin and Lead"}
+    doc: description.mekanism.tin_ore
+    doc2: description.mekanism.lead_ore
+  - id: mg_fluorite
+    deps: [mg_ores]
+    roles: [engineer]
+    items: [mekanism:fluorite_gem*4]
+    doc: description.mekanism.fluorite_ore
+  - id: mg_uranium
+    deps: [mg_ores]
+    roles: [engineer]
+    items: [mekanism:raw_uranium*4]
+    doc: description.mekanism.uranium_ore
+    why: {ru: "Уран — топливо для ядерного реактора. Без защиты не носи его в кармане часами.", en: "Uranium fuels fission reactors."}
+  - id: mg_infuser
+    deps: [m_osmium]
+    roles: [engineer]
+    items: [mekanism:metallurgic_infuser]
+    why: {ru: "Наполнитель — сердце ранних рецептов Mekanism: сталь, сплавы, схемы — всё через него.", en: "The infuser makes steel, alloys and circuits."}
+  - id: mg_alloy_infused
+    deps: [mg_infuser]
+    roles: [engineer]
+    items: [mekanism:alloy_infused*4]
+    doc: advancements.mekanism.infused_alloy.description
+    why: {ru: "Медь + редстоун в наполнителе. Нужен для продвинутых машин, кабелей и фабрик.", en: "Copper + redstone; used for advanced tiers."}
+  - id: mg_alloy_reinforced
+    deps: [mg_alloy_infused, mg_enriched]
+    roles: [engineer]
+    items: [mekanism:alloy_reinforced*2]
+    doc: advancements.mekanism.reinforced_alloy.description
+    why: {ru: "Сплав с алмазом — элитный уровень машин.", en: "Diamond alloy for elite tiers."}
+  - id: mg_alloy_atomic
+    deps: [mg_alloy_reinforced, m_refined_obsidian]
+    roles: [engineer]
+    items: [mekanism:alloy_atomic]
+    doc: advancements.mekanism.atomic_alloy.description
+    why: {ru: "Сплав с очищенным обсидианом — для ультимативных машин и MekaSuit.", en: "Refined obsidian alloy for ultimate tiers."}
+  - id: mg_enriched
+    deps: [m_enrich]
+    roles: [engineer]
+    items: [mekanism:enriched_carbon*8, mekanism:enriched_redstone*8]
+    title: {ru: "Обогащённые материалы", en: "Enriched Materials"}
+    doc: advancements.mekanism.infusing_efficiency.description
+    why: {ru: "Камера обогащения превращает уголь и редстоун в обогащённую форму — в наполнителе она даёт в 8 раз больше, чем сырой материал.", en: "Enriched materials are 8x more efficient in the infuser."}
+  - id: mg_steel_casing
+    deps: [m_steel]
+    roles: [engineer]
+    items: [mekanism:steel_casing*4]
+  - id: mg_circuit_adv
+    deps: [m_circuit, mg_alloy_infused]
+    roles: [engineer]
+    items: [mekanism:advanced_control_circuit*2]
+    doc: advancements.mekanism.advanced_control_circuit.description
+  - id: mg_circuit_elite
+    deps: [mg_circuit_adv, mg_alloy_reinforced]
+    roles: [engineer]
+    items: [mekanism:elite_control_circuit*2]
+    doc: advancements.mekanism.elite_control_circuit.description
+  - id: mg_circuit_ultimate
+    deps: [mg_circuit_elite, mg_alloy_atomic]
+    roles: [engineer]
+    items: [mekanism:ultimate_control_circuit]
+    doc: advancements.mekanism.ultimate_control_circuit.description
+  - id: mg_compressor
+    deps: [m_enrich]
+    roles: [engineer]
+    items: [mekanism:osmium_compressor]
+    why: {ru: "Сжимает осмий с пылью — так делают очищенный обсидиан и светокамень: лучшие инструменты и броня Mekanism.", en: "Makes refined obsidian and glowstone."}
+  - id: mg_combiner
+    deps: [m_crusher]
+    roles: [engineer]
+    items: [mekanism:combiner]
+  - id: mg_sawmill
+    deps: [mg_steel_casing]
+    roles: [engineer, builder]
+    items: [mekanism:precision_sawmill]
+    why: {ru: "6 досок с бревна вместо 4 и опилки в придачу — плотникам и строителям.", en: "6 planks per log plus sawdust."}
+  # --- ore processing x3 / x4 / x5
+  - id: mg_dissolution
+    deps: [m_injection]
+    roles: [engineer]
+    items: [mekanism:chemical_dissolution_chamber]
+    title: {ru: "Пятикратная переработка: растворение", en: "Fivefold Processing: Dissolution"}
+    why: {ru: "Вершина переработки руды Mekanism — 5 слитков с одной руды. Цепочка: растворитель → промывщик → кристаллизатор → инжектор → очиститель → дробилка → обогатитель.", en: "The top of Mekanism ore processing: 5 ingots per ore."}
+  - id: mg_washer
+    deps: [mg_dissolution]
+    roles: [engineer]
+    items: [mekanism:chemical_washer]
+  - id: mg_crystallizer
+    deps: [mg_washer]
+    roles: [engineer]
+    items: [mekanism:chemical_crystallizer]
+    doc2: advancements.mekanism.chemical_crystallizer.description
+  - id: mg_five_x
+    deps: [mg_crystallizer]
+    roles: [engineer]
+    items: [mekanism:crystal_iron*4]
+    title: {ru: "Рудные кристаллы", en: "Ore Crystals"}
+    why: {ru: "Кристалл — это и есть пятикратный выход. Подай его в инжектор, и цепочка замкнётся.", en: "Crystals are the 5x output; feed them into the injection chamber."}
+  - id: mg_oxidizer
+    deps: [mg_electrolysis_chain]
+    roles: [engineer]
+    items: [mekanism:chemical_oxidizer]
+  - id: mg_electrolysis_chain
+    deps: [m_electrolytic]
+    roles: [engineer]
+    items: [mekanism:chemical_infuser]
+    why: {ru: "Смешивает два газа в третий: хлор + водород = хлороводород, диоксид серы + кислород = триоксид — основа химии Mekanism.", en: "Combines two gases into a third: the base of Mekanism chemistry."}
+  - id: mg_rotary
+    deps: [mg_electrolysis_chain]
+    roles: [engineer]
+    items: [mekanism:rotary_condensentrator]
+    why: {ru: "Превращает газ в жидкость и обратно — нужен, чтобы залить химикат в ведро или резервуар.", en: "Turns gas into liquid and back."}
+  - id: mg_prc
+    deps: [mg_electrolysis_chain]
+    roles: [engineer]
+    items: [mekanism:pressurized_reaction_chamber]
+    why: {ru: "Реакционная камера делает пластик (HDPE), субстрат и этилен. Пластик нужен для модулей, элитр и Робита.", en: "Makes HDPE plastic, substrate and ethylene."}
+  - id: mg_hdpe
+    deps: [mg_prc]
+    roles: [engineer]
+    items: [mekanism:hdpe_sheet*8]
+    why: {ru: "Листы пластика — для модулей MekaSuit, Робита, элитр и цветного стекла.", en: "Plastic sheets for modules, Robit and elytra."}
+  - id: mg_evaporation
+    deps: [mg_steel_casing]
+    roles: [engineer]
+    items: [mekanism:thermal_evaporation_controller, mekanism:thermal_evaporation_block*30, mekanism:thermal_evaporation_valve]
+    title: {ru: "Тепловой испаритель", en: "Thermal Evaporation Plant"}
+    doc: description.mekanism.thermal_evaporation_controller
+    why: {ru: "Многоблочная солеварня: вода → рассол → литий. Литий нужен для термояда и индукционной матрицы. Нагревай её солнцем или нагревателями.", en: "Water → brine → lithium for fusion and induction cells."}
+  - id: mg_lithium
+    deps: [mg_evaporation]
+    roles: [engineer]
+    items: [mekanism:dust_lithium*4]
+    title: {ru: "Литий", en: "Lithium"}
+    why: {ru: "Литий → тритий (в нейтронном активаторе) → топливо для термояда. И ещё индукционные ячейки.", en: "Lithium → tritium → fusion fuel; also induction cells."}
+  - id: mg_dynamic_tank
+    deps: [mg_steel_casing]
+    roles: [engineer]
+    items: [mekanism:dynamic_tank*24, mekanism:dynamic_valve*2]
+    title: {ru: "Динамический резервуар", en: "Dynamic Tank"}
+    doc: description.mekanism.dynamic_tank
+  # --- storage and logistics
+  - id: mg_bin
+    deps: [m_steel]
+    roles: [engineer, builder]
+    items: [mekanism:basic_bin]
+    doc2: advancements.mekanism.simple_mass_storage.description
+  - id: mg_personal_chest
+    deps: [m_steel]
+    roles: [engineer]
+    items: [mekanism:personal_chest]
+    why: {ru: "Сундук, который открывает только хозяин — и можно носить с собой.", en: "A chest only the owner opens, portable."}
+  - id: mg_tanks
+    deps: [m_steel]
+    roles: [engineer]
+    items: [mekanism:basic_fluid_tank, mekanism:basic_chemical_tank]
+    title: {ru: "Резервуары", en: "Tanks"}
+    doc: description.mekanism.fluid_tank
+    doc2: description.mekanism.chemical_tank
+  - id: mg_energy_cube_adv
+    deps: [m_cables, mg_alloy_infused]
+    roles: [engineer]
+    items: [mekanism:advanced_energy_cube]
+  - id: mg_energy_cube_elite
+    deps: [mg_energy_cube_adv, mg_circuit_elite]
+    roles: [engineer]
+    items: [mekanism:elite_energy_cube]
+  - id: mg_pump
+    deps: [mg_steel_casing]
+    roles: [engineer]
+    items: [mekanism:electric_pump]
+    doc2: advancements.mekanism.pump.description
+  - id: mg_plenisher
+    deps: [mg_pump]
+    roles: [engineer, builder]
+    items: [mekanism:fluidic_plenisher]
+  - id: mg_sorter
+    deps: [m_logistics]
+    roles: [engineer]
+    items: [mekanism:logistical_sorter]
+  - id: mg_transporters
+    deps: [m_logistics]
+    roles: [engineer]
+    items: [mekanism:restrictive_transporter*4, mekanism:diversion_transporter*4]
+    title: {ru: "Особые транспортеры", en: "Special Transporters"}
+    doc: description.mekanism.restrictive
+    doc2: description.mekanism.diversion
+    why: {ru: "Ограничительный — запасной путь, отклоняющий — включается редстоуном. Ими собирают сортировку без лишних машин.", en: "Restrictive = fallback path, diversion = redstone-controlled."}
+  - id: mg_factory_tier
+    deps: [m_factory, mg_circuit_adv]
+    roles: [engineer]
+    items: [mekanism:advanced_tier_installer]
+    doc2: advancements.mekanism.installer.description
+    why: {ru: "Установщик улучшает фабрику прямо на месте, не ломая её и не теряя содержимое.", en: "Upgrades a factory in place."}
+  - id: mg_factory_elite
+    deps: [mg_factory_tier, mg_circuit_elite]
+    roles: [engineer]
+    items: [mekanism:elite_enriching_factory]
+    why: {ru: "Элитная фабрика — 7 операций одновременно. Можно собрать из обычной машины установщиками.", en: "Elite factory: 7 operations at once."}
+  - id: mg_assemblicator
+    deps: [mg_circuit_adv]
+    roles: [engineer]
+    items: [mekanism:formulaic_assemblicator, mekanism:crafting_formula]
+    doc2: advancements.mekanism.automated_crafting.description
+  - id: mg_oredict
+    deps: [m_steel]
+    roles: [engineer]
+    items: [mekanism:oredictionificator]
+  # --- QIO
+  - id: mg_qio_drives
+    deps: [m_qio]
+    roles: [engineer]
+    items: [mekanism:qio_drive_hyper_dense]
+    title: {ru: "Диски QIO", en: "QIO Drives"}
+    doc: advancements.mekanism.advanced_qio_drive.description
+    why: {ru: "Диск плотнее — больше предметов в той же ячейке массива. Сверхмассивный хранит миллионы.", en: "Denser drives hold more items per slot."}
+  - id: mg_qio_io
+    deps: [m_qio]
+    roles: [engineer]
+    items: [mekanism:qio_importer, mekanism:qio_exporter]
+    title: {ru: "Импорт и экспорт QIO", en: "QIO Import and Export"}
+    doc: description.mekanism.qio_importer
+    doc2: description.mekanism.qio_exporter
+  - id: mg_qio_portable
+    deps: [mg_qio_io]
+    roles: [engineer]
+    items: [mekanism:portable_qio_dashboard]
+    doc: advancements.mekanism.portable_qio_dashboard.description
+    why: {ru: "Вся сеть QIO в руке — где бы ты ни был.", en: "The whole QIO network in your hand."}
+  - id: mg_qio_redstone
+    deps: [mg_qio_io]
+    roles: [engineer]
+    items: [mekanism:qio_redstone_adapter]
+  # --- teleport and chunk
+  - id: mg_teleport_core
+    deps: [mg_circuit_adv]
+    roles: [engineer]
+    items: [mekanism:teleportation_core]
+    doc: advancements.mekanism.teleportation_core.description
+    why: {ru: "Ядро из алмазов, лазурита и золота — без него нет телепорта и запутывателя.", en: "Needed for teleporters and the entangloporter."}
+  - id: mg_portable_teleporter
+    deps: [m_teleporter]
+    roles: [engineer]
+    items: [mekanism:portable_teleporter]
+    doc: advancements.mekanism.portable_teleporter.description
+    why: {ru: "Телепорт к любой своей станции из кармана. Нужна энергия и станция-приёмник.", en: "Teleport to your own stations from your pocket."}
+  - id: mg_entangloporter
+    deps: [mg_teleport_core]
+    roles: [engineer]
+    items: [mekanism:quantum_entangloporter]
+  - id: mg_stabilizer
+    deps: [mg_circuit_adv]
+    roles: [engineer]
+    items: [mekanism:dimensional_stabilizer, mekanism:upgrade_anchor]
+    doc2: description.mekanism.anchor
+    why: {ru: "Держит чанки загруженными, чтобы фабрика работала, пока тебя нет рядом. Не загружай полкарты — каждому серверу тяжело.", en: "Keeps chunks loaded. Don't overdo it — the server pays for it."}
+  - id: mg_seismic
+    deps: [mg_steel_casing]
+    roles: [engineer]
+    items: [mekanism:seismic_vibrator, mekanism:seismic_reader]
+    doc2: advancements.mekanism.seismic_vibrations.description
+  - id: mg_security
+    deps: [m_circuit]
+    roles: [engineer, mayor]
+    items: [mekanism:security_desk]
+  # --- life support and gear
+  - id: mg_robit
+    deps: [mg_hdpe]
+    roles: [engineer]
+    items: [mekanism:robit, mekanism:chargepad]
+    doc: advancements.mekanism.robit.description
+    why: {ru: "Робит ходит за тобой, подбирает предметы, плавит и крафтит. Живёт на зарядной панели.", en: "Robit follows you, picks up items, smelts and crafts."}
+  - id: mg_canteen
+    deps: [m_steel]
+    roles: [engineer, cook]
+    items: [mekanism:nutritional_liquifier, mekanism:canteen]
+    doc: description.mekanism.nutritional_liquifier
+    doc2: advancements.mekanism.full_canteen.description
+  - id: mg_scuba
+    deps: [m_electrolytic]
+    roles: [engineer]
+    items: [mekanism:scuba_mask, mekanism:scuba_tank]
+    title: {ru: "Акваланг", en: "Scuba Gear"}
+    doc: advancements.mekanism.breathing_assistance.description
+    why: {ru: "Баллон с кислородом из электролизёра — под водой и в загрязнённом воздухе ты дышишь.", en: "Oxygen tank: breathe underwater and in polluted air."}
+  - id: mg_free_runners
+    deps: [m_steel]
+    roles: [engineer, warrior]
+    items: [mekanism:free_runners]
+    doc: advancements.mekanism.running_free.description
+    why: {ru: "Ботинки гасят урон от падения и дают подниматься на блок — отлично для гор.", en: "No fall damage, step up blocks."}
+  - id: mg_flamethrower
+    deps: [mg_electrolysis_chain]
+    roles: [warrior]
+    items: [mekanism:flamethrower]
+    doc: advancements.mekanism.playing_with_fire.description
+    why: {ru: "Огнемёт на водороде. Жжёт мобов и плавит лут. Не стреляй рядом с чужими деревянными домами.", en: "Hydrogen flamethrower. Not near wooden houses."}
+  - id: mg_electric_bow
+    deps: [mg_alloy_infused]
+    roles: [warrior]
+    items: [mekanism:electric_bow]
+    why: {ru: "Лук на энергии: не ломается и может поджигать стрелы.", en: "An energy bow that never breaks and can ignite arrows."}
+  - id: mg_jetpack_armored
+    deps: [m_jetpack]
+    roles: [engineer, warrior]
+    items: [mekanism:jetpack_armored]
+    doc: advancements.mekanism.hydrogen_powered_flight.description
+    why: {ru: "Ранец с бронепластиной: летаешь и не теряешь защиту груди.", en: "Jetpack with chest armor."}
+  - id: mg_dictionary
+    deps: [m_osmium]
+    roles: [engineer]
+    items: [mekanism:dictionary, mekanism:network_reader]
+    doc2: description.mekanism.network_reader
+  - id: mg_cardboard
+    deps: [m_osmium]
+    roles: [engineer, builder]
+    items: [mekanism:cardboard_box]
+    doc: advancements.mekanism.moving_blocks.description
+    why: {ru: "Упакуй блок вместе с содержимым (сундук, машину) и перенеси на новое место.", en: "Pack a block with its contents and move it."}
+  - id: mg_painting
+    deps: [mg_steel_casing]
+    roles: [builder]
+    items: [mekanism:pigment_extractor, mekanism:painting_machine]
+    doc: description.mekanism.painting_machine
+  # --- heat, lasers, generators
+  - id: mg_heaters
+    deps: [mg_steel_casing]
+    roles: [engineer]
+    items: [mekanism:fuelwood_heater, mekanism:basic_thermodynamic_conductor*8]
+    doc2: description.mekanism.conductor
+  - id: mg_resistive
+    deps: [mg_heaters]
+    roles: [engineer]
+    items: [mekanism:resistive_heater]
+  - id: mg_gas_gen
+    deps: [m_electrolytic]
+    roles: [engineer]
+    items: [mekanismgenerators:gas_burning_generator]
+    why: {ru: "Сжигает водород или этилен. Этилен из реакционной камеры — одно из лучших ранних топлив.", en: "Burns hydrogen or ethylene; ethylene is great early fuel."}
+  - id: mg_adv_solar
+    deps: [m_solar]
+    roles: [engineer]
+    items: [mekanismgenerators:advanced_solar_generator]
+  - id: mg_laser
+    deps: [mg_circuit_adv]
+    roles: [engineer]
+    items: [mekanism:laser, mekanism:laser_amplifier]
+    title: {ru: "Лазеры", en: "Lasers"}
+    doc: description.mekanism.laser
+    doc2: description.mekanism.laser_amplifier
+  - id: mg_tractor
+    deps: [mg_laser]
+    roles: [engineer]
+    items: [mekanism:laser_tractor_beam]
+    doc2: advancements.mekanism.auto_collection.description
+  # --- nuclear
+  - id: mg_centrifuge
+    deps: [mg_uranium, mg_rotary]
+    roles: [engineer]
+    items: [mekanism:yellow_cake_uranium*4, mekanism:isotopic_centrifuge]
+    title: {ru: "Обогащение урана", en: "Uranium Enrichment"}
+    doc: advancements.mekanism.yellow_cake.description
+    doc2: description.mekanism.isotopic_centrifuge
+    why: {ru: "Урановая руда → жёлтый кек → гексафторид → центрифуга → топливо для деления.", en: "Ore → yellow cake → hexafluoride → centrifuge → fissile fuel."}
+  - id: mg_fission_control
+    deps: [m_fission]
+    roles: [engineer]
+    items: [mekanismgenerators:control_rod_assembly*4, mekanismgenerators:fission_reactor_port*4, mekanismgenerators:fission_reactor_logic_adapter]
+    title: {ru: "Управление реактором", en: "Reactor Control"}
+    doc: description.mekanismgenerators.control_rod_assembly
+    doc2: description.mekanismgenerators.fission_reactor_logic_adapter
+    why: {ru: "Логический адаптер + редстоун = автоматическая аварийная остановка (SCRAM) при перегреве. Ставь её ДО первого запуска.", en: "Logic adapter + redstone = automatic SCRAM. Build it before the first start."}
+  - id: mg_polonium
+    deps: [mg_fission_control, mg_sna]
+    roles: [engineer]
+    items: [mekanism:pellet_polonium*2]
+    doc: advancements.mekanism.polonium.description
+    why: {ru: "Ядерные отходы в нейтронном активаторе превращаются в полоний — ключ к SPS и антиматерии.", en: "Waste → polonium, the key to the SPS."}
+  - id: mg_plutonium
+    deps: [mg_fission_control]
+    roles: [engineer]
+    items: [mekanism:pellet_plutonium*2]
+    doc: advancements.mekanism.plutonium.description
+  - id: mg_sna
+    deps: [mg_steel_casing]
+    roles: [engineer]
+    items: [mekanism:solar_neutron_activator]
+  - id: mg_dosimeter
+    deps: [m_radiation_kit]
+    roles: [engineer]
+    items: [mekanism:dosimeter, mekanism:hazmat_pants, mekanism:hazmat_boots]
+    title: {ru: "Полный защитный костюм", en: "Full Hazmat Suit"}
+    doc: advancements.mekanism.personal_radiation.description
+    doc2: advancements.mekanism.radiation_prevention.description
+    why: {ru: "Только полный комплект (4 части) защищает от радиации. Дозиметр покажет, сколько ты уже получил.", en: "Only the full 4-piece set protects you."}
+  - id: mg_antimatter
+    deps: [m_sps]
+    roles: [engineer]
+    items: [mekanism:pellet_antimatter]
+    doc: advancements.mekanism.antimatter.description
+  - id: mg_nucleo
+    deps: [mg_antimatter]
+    roles: [engineer]
+    items: [mekanism:antiprotonic_nucleosynthesizer]
+    doc2: advancements.mekanism.nucleosynthesizer.description
+  - id: mg_fusion_parts
+    deps: [mg_lithium, mg_laser]
+    roles: [engineer]
+    items: [mekanismgenerators:hohlraum, mekanismgenerators:laser_focus_matrix, mekanismgenerators:fusion_reactor_port*2]
+    title: {ru: "Розжиг термояда", en: "Igniting Fusion"}
+    doc: description.mekanismgenerators.laser_focus_matrix
+    why: {ru: "Хольраум с D-T топливом и мощный лазер через фокусную матрицу разжигают реакцию. Дальше реактор сам себя питает.", en: "Hohlraum with D-T fuel plus a strong laser ignite fusion."}
+  # --- MekaSuit
+  - id: mg_modification
+    deps: [m_mekasuit]
+    roles: [engineer]
+    items: [mekanism:modification_station]
+  - id: mg_mekasuit_full
+    deps: [m_mekasuit]
+    roles: [engineer, warrior]
+    items: [mekanism:mekasuit_pants, mekanism:mekasuit_boots]
+    title: {ru: "Полный MekaSuit", en: "Full MekaSuit"}
+    doc: advancements.mekanism.mekasuit.description
+  - id: mg_meka_tool
+    deps: [m_mekasuit, m_atomic_disassembler]
+    roles: [engineer]
+    items: [mekanism:meka_tool]
+    why: {ru: "Всё-в-одном: кирка, топор, лопата, меч и, с модулями, телепорт, вейнмайнинг и шёлковое касание.", en: "Pickaxe, axe, shovel, sword — and teleport, vein mining, silk touch with modules."}
+  - id: mg_module_jet
+    deps: [mg_modification]
+    roles: [engineer]
+    items: [mekanism:module_jetpack_unit]
+  - id: mg_module_radiation
+    deps: [mg_modification]
+    roles: [engineer]
+    items: [mekanism:module_radiation_shielding_unit]
+  - id: mg_module_breathing
+    deps: [mg_modification]
+    roles: [engineer]
+    items: [mekanism:module_inhalation_purification_unit]
+  - id: mg_module_vision
+    deps: [mg_modification]
+    roles: [engineer]
+    items: [mekanism:module_vision_enhancement_unit]
+  - id: mg_module_magnet
+    deps: [mg_modification]
+    roles: [engineer]
+    items: [mekanism:module_magnetic_attraction_unit]
+  - id: mg_module_vein
+    deps: [mg_modification, mg_meka_tool]
+    roles: [engineer]
+    items: [mekanism:module_vein_mining_unit]
+  - id: mg_module_elytra
+    deps: [mg_modification, mg_hdpe]
+    roles: [engineer]
+    items: [mekanism:module_elytra_unit]
+  - id: mg_module_gravity
+    deps: [mg_module_jet, mg_antimatter]
+    roles: [engineer]
+    items: [mekanism:module_gravitational_modulating_unit]
+  - id: mg_module_attack
+    deps: [mg_modification]
+    roles: [warrior]
+    items: [mekanism:module_attack_amplification_unit]
+  # --- armor and tools (Mekanism Tools)
+  - id: mg_bronze_set
+    deps: [mg_ores]
+    roles: [warrior]
+    items: [mekanismtools:bronze_helmet, mekanismtools:bronze_chestplate, mekanismtools:bronze_leggings, mekanismtools:bronze_boots]
+    title: {ru: "Бронзовая броня", en: "Bronze Armor"}
+    why: {ru: "Сплав олова и меди: первая броня лучше железной, когда железо уходит на машины.", en: "First armor better than iron."}
+  - id: mg_lapis_set
+    deps: [m_osmium]
+    roles: [warrior, mage]
+    items: [mekanismtools:lapis_lazuli_helmet, mekanismtools:lapis_lazuli_chestplate, mekanismtools:lapis_lazuli_leggings, mekanismtools:lapis_lazuli_boots]
+    title: {ru: "Лазуритовая броня", en: "Lapis Armor"}
+    why: {ru: "Слабая, но хорошо зачаровывается — магу под зачарования.", en: "Weak but highly enchantable."}
+  - id: mg_osmium_set
+    deps: [m_osmium_armor]
+    roles: [warrior]
+    items: [mekanismtools:osmium_helmet, mekanismtools:osmium_leggings, mekanismtools:osmium_boots]
+    title: {ru: "Полный осмиевый комплект", en: "Full Osmium Set"}
+    why: {ru: "Осмий прочнее железа и добывается почти на любой высоте — честный комплект на средний этап.", en: "Osmium is tougher than iron and common — a fair mid-game set."}
+  - id: mg_steel_set
+    deps: [m_steel]
+    roles: [warrior]
+    items: [mekanismtools:steel_helmet, mekanismtools:steel_chestplate, mekanismtools:steel_leggings, mekanismtools:steel_boots]
+    title: {ru: "Стальная броня", en: "Steel Armor"}
+    why: {ru: "Прочная и дешёвая для того, у кого уже идёт сталь.", en: "Tough and cheap once you have steel."}
+  - id: mg_glowstone_set
+    deps: [m_refined_glowstone]
+    roles: [warrior]
+    items: [mekanismtools:refined_glowstone_helmet, mekanismtools:refined_glowstone_chestplate, mekanismtools:refined_glowstone_leggings, mekanismtools:refined_glowstone_boots]
+    title: {ru: "Броня из светокамня", en: "Refined Glowstone Armor"}
+    why: {ru: "Светится в темноте вокруг тебя — для шахт и данжей.", en: "Gives light around you."}
+  - id: mg_obsidian_set
+    deps: [m_refined_obsidian]
+    roles: [warrior]
+    items: [mekanismtools:refined_obsidian_helmet, mekanismtools:refined_obsidian_leggings, mekanismtools:refined_obsidian_boots, mekanismtools:refined_obsidian_sword]
+    title: {ru: "Обсидиановый воин", en: "Refined Obsidian Warrior"}
+    why: {ru: "Лучшая не-модульная броня в Mekanism, почти как незерит, но без поисков обломков.", en: "Best non-modular armor, near netherite."}
+  - id: mg_shields
+    deps: [m_steel]
+    roles: [warrior]
+    items: [mekanismtools:steel_shield]
+    why: {ru: "Металлические щиты держат больше ударов, чем деревянный.", en: "Metal shields last longer."}
+  - id: mg_master
+    deps: [mg_fusion_parts, mg_nucleo, mg_mekasuit_full, mg_module_gravity, mg_five_x, mg_qio_portable, mg_factory_elite, mg_obsidian_set]
+    roles: [engineer]
+    shape: hexagon
+    icon: mekanism:ultimate_control_circuit
+    title: {ru: "Мастер Mekanism", en: "Mekanism Master"}
+    text: {ru: "Пятикратная переработка, термояд, антиматерия и полный MekaSuit. Дальше — только помогать соседям строить их реакторы.", en: "5x processing, fusion, antimatter and a full MekaSuit."}
+    rewards: [{type: xp_levels, count: 20}]

@@ -1,0 +1,236 @@
+# Applied Energistics 2: everything in the AE2 guide (assets/ae2/ae2guide) not covered by storage/storage_2/storage_3.
+# EN text = first paragraphs of the guide page; RU = our own short explanation (the guide has no Russian version).
+extends: storage
+lang: [ae2]
+out: ae2_gen
+quests:
+  - id: ae2g_certus_growth
+    deps: [ae_meteor]
+    roles: [engineer]
+    items: [ae2:growth_accelerator]
+    doc: md:assets/ae2/ae2guide/ae2-mechanics/certus-growth.md
+    why: {ru: "Кварц не нужно копать вечно: почкующийся кварц из метеорита растит кристаллы сам, а ускоритель роста делает это в разы быстрее. Ставь кластеры, собирай урожай.", en: "Certus doesn't have to be mined forever: budding quartz grows crystals on its own."}
+  - id: ae2g_presses
+    deps: [ae_inscriber]
+    roles: [engineer]
+    items: [ae2:logic_processor_press, ae2:calculation_processor_press, ae2:engineering_processor_press, ae2:silicon_press]
+    icon: ae2:silicon_press
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/presses.md
+    why: {ru: "Четыре пресса — ключ ко всем процессорам. Они лежат в сундуке метеорита; вторые копии печатаются в высекателе из железного блока.", en: "The four presses unlock every processor."}
+  - id: ae2g_processors
+    deps: [ae2g_presses]
+    roles: [engineer]
+    items: [ae2:logic_processor*4, ae2:calculation_processor*4, ae2:engineering_processor*4]
+    icon: ae2:engineering_processor
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/processors.md
+    why: {ru: "Логический (золото) — для ячеек и шин, вычислительный (кварц) — для крафта, инженерный (алмаз) — для контроллера и сложных устройств. Автоматизируй их высекателями заранее: процессоры нужны сотнями.", en: "Logic, calculation and engineering processors: automate them early, you'll need hundreds."}
+  - id: ae2g_drive
+    deps: [ae_controller]
+    roles: [engineer]
+    items: [ae2:drive]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/drive.md
+    why: {ru: "Привод держит 10 ячеек хранения — это и есть «жёсткий диск» сети.", en: "The drive holds 10 storage cells: the network's hard disk."}
+  - id: ae2g_cells
+    deps: [ae2g_drive]
+    roles: [engineer]
+    items: [ae2:item_storage_cell_4k, ae2:fluid_storage_cell_4k]
+    icon: ae2:item_storage_cell_4k
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/storage_cells.md
+    doc2: md:assets/ae2/ae2guide/ae2-mechanics/bytes-and-types.md
+    why: {ru: "Ячейка хранит ограниченное число **типов** предметов (63) и **байтов**. Много разных мелочей быстро съедают типы — для однородного (булыжник, руда) лучше большие ячейки.", en: "A cell holds a limited number of item types (63) and bytes."}
+  - id: ae2g_workbench
+    deps: [ae2g_cells]
+    roles: [engineer]
+    items: [ae2:cell_workbench]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/cell_workbench.md
+    why: {ru: "Здесь ячейке задают фильтр (только руда, только еда) и вставляют карты улучшений.", en: "Set a cell's filter and add upgrade cards here."}
+  - id: ae2g_cards
+    deps: [ae2g_workbench]
+    roles: [engineer]
+    items: [ae2:speed_card, ae2:capacity_card, ae2:fuzzy_card, ae2:inverter_card]
+    icon: ae2:speed_card
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/upgrade_cards.md
+    why: {ru: "Карты улучшений: скорость для шин, ёмкость для фильтров, «нечёткая» — для поломанных инструментов, инвертор — превращает белый список в чёрный.", en: "Upgrade cards: speed, capacity, fuzzy, inverter."}
+  - id: ae2g_terminal
+    deps: [ae_network]
+    roles: [engineer]
+    items: [ae2:crafting_terminal]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/terminals.md
+    why: {ru: "Крафтовый терминал: поиск по всей базе и верстак, который берёт ингредиенты прямо из сети.", en: "The crafting terminal searches the whole base and crafts straight from the network."}
+  - id: ae2g_patterns
+    deps: [ae2g_terminal, ae_autocraft]
+    roles: [engineer]
+    items: [ae2:pattern_encoding_terminal, ae2:blank_pattern*8]
+    icon: ae2:pattern_encoding_terminal
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/patterns.md
+    why: {ru: "Шаблон — «рецепт», который ты записываешь один раз. Дальше сеть сама знает, как сделать предмет.", en: "A pattern is a recipe you write once; then the network knows how to make the item."}
+  - id: ae2g_assembler
+    deps: [ae2g_patterns]
+    roles: [engineer]
+    items: [ae2:molecular_assembler]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/molecular_assembler.md
+    why: {ru: "Молекулярный сборщик выполняет крафты верстака по шаблонам — рядом с поставщиком шаблонов.", en: "The molecular assembler performs crafting-table patterns next to a pattern provider."}
+  - id: ae2g_cpu
+    deps: [ae2g_patterns]
+    roles: [engineer]
+    items: [ae2:crafting_unit, ae2:1k_crafting_storage]
+    icon: ae2:1k_crafting_storage
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/crafting_cpu_multiblock.md
+    why: {ru: "Процессор крафта — многоблок, который планирует цепочку. Больше хранилища крафта — больше и сложнее заказы; ускорители — больше параллельных операций.", en: "The crafting CPU is a multiblock that plans the chain."}
+  - id: ae2g_interface
+    deps: [ae_network]
+    roles: [engineer]
+    items: [ae2:interface]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/interface.md
+    why: {ru: "Интерфейс держит в себе заданный запас предметов из сети и принимает всё, что в него кладут, — точка обмена с машинами других модов.", en: "The interface keeps a set stock from the network and accepts anything inserted."}
+  - id: ae2g_storage_bus
+    deps: [ae2g_interface]
+    roles: [engineer]
+    items: [ae2:storage_bus]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/storage_bus.md
+    why: {ru: "Шина хранения подключает к сети любой сундук, бочку или хранилище Create — их содержимое видно в терминале.", en: "The storage bus connects any chest, barrel or Create vault to the network."}
+  - id: ae2g_import_export
+    deps: [ae_buses]
+    roles: [engineer]
+    items: [ae2:import_bus, ae2:export_bus]
+    icon: ae2:export_bus
+    doc: md:assets/ae2/ae2guide/ae2-mechanics/import-export-storage.md
+    why: {ru: "Импортная шина вытягивает из машины в сеть, экспортная — выталкивает из сети в машину. Так строятся линии переработки.", en: "Import pulls from machines, export pushes into them: processing lines."}
+  - id: ae2g_planes
+    deps: [ae2g_import_export]
+    roles: [engineer]
+    items: [ae2:formation_plane, ae2:annihilation_plane]
+    icon: ae2:annihilation_plane
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/annihilation_plane.md
+    why: {ru: "Плоскость поглощения ломает блоки и подбирает предметы прямо в сеть, плоскость формирования — ставит блоки. Генератор булыжника без воронок.", en: "The annihilation plane breaks blocks into the network; the formation plane places them."}
+  - id: ae2g_io_port
+    deps: [ae2g_cells]
+    roles: [engineer]
+    items: [ae2:io_port]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/io_port.md
+    why: {ru: "Переливает содержимое ячеек в сеть и обратно — для переезда и сортировки.", en: "Moves cell contents into the network and back."}
+  - id: ae2g_channels
+    deps: [ae_cables]
+    roles: [engineer]
+    icon: ae2:fluix_smart_cable
+    doc: md:assets/ae2/ae2guide/ae2-mechanics/channels.md
+    title: {ru: "Каналы", en: "Channels"}
+    why: {ru: "В обычном AE2 каждый кабель несёт ограниченное число каналов. **В Arkhaven каналы бесконечные** — можно не планировать разводку, но знать про них полезно, если поиграешь в другие сборки.", en: "Channels are unlimited in Arkhaven, but it's worth knowing how they normally work."}
+  - id: ae2g_subnet
+    deps: [ae2g_storage_bus]
+    roles: [engineer]
+    icon: ae2:quartz_fiber
+    items: [ae2:quartz_fiber]
+    doc: md:assets/ae2/ae2guide/ae2-mechanics/subnetworks.md
+    why: {ru: "Подсеть — отдельная маленькая сеть (например, для ферм), которая не захламляет основную. Кварцевое волокно передаёт энергию, но не данные.", en: "A subnetwork keeps farms separate from the main network."}
+  - id: ae2g_energy
+    deps: [ae_power]
+    roles: [engineer]
+    items: [ae2:energy_acceptor, ae2:dense_energy_cell]
+    icon: ae2:dense_energy_cell
+    doc: md:assets/ae2/ae2guide/ae2-mechanics/energy.md
+    why: {ru: "Приёмник энергии берёт FE от Mekanism/Create Addition, ячейки энергии сглаживают пики при автокрафте.", en: "The energy acceptor takes FE; energy cells smooth out peaks."}
+  - id: ae2g_vibration
+    deps: [ae_power]
+    roles: [engineer]
+    items: [ae2:vibration_chamber]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/vibration_chamber.md
+    why: {ru: "Сжигает топливо и питает сеть — когда ещё нет генераторов.", en: "Burns fuel to power the network before you have generators."}
+  - id: ae2g_wireless_ap
+    deps: [ae_wireless]
+    roles: [engineer]
+    items: [ae2:wireless_access_point]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/wireless_access_point.md
+    why: {ru: "Точка доступа — «роутер» для беспроводного терминала. Чем больше карт ускорения в ней, тем дальше берёт.", en: "The access point is the router for wireless terminals."}
+  - id: ae2g_quantum
+    deps: [ae_p2p]
+    roles: [engineer]
+    items: [ae2:quantum_ring*8, ae2:quantum_link]
+    icon: ae2:quantum_link
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/quantum_bridge.md
+    why: {ru: "Квантовый мост соединяет две сети на любом расстоянии и между измерениями — база в Незере видит склад дома.", en: "The quantum bridge links two networks at any distance, even across dimensions."}
+  - id: ae2g_spatial
+    deps: [ae2g_quantum]
+    roles: [engineer, builder]
+    items: [ae2:spatial_io_port, ae2:spatial_pylon*8, ae2:spatial_storage_cell_2]
+    icon: ae2:spatial_io_port
+    doc: md:assets/ae2/ae2guide/ae2-mechanics/spatial-io.md
+    why: {ru: "Пространственный ввод-вывод вырезает кусок мира в ячейку и ставит обратно в другом месте. Переезд базы целиком!", en: "Spatial IO cuts a piece of the world into a cell and puts it back elsewhere: move a whole base."}
+  - id: ae2g_condenser
+    deps: [ae2g_cells]
+    roles: [engineer]
+    items: [ae2:condenser, ae2:matter_ball*8]
+    icon: ae2:condenser
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/condenser.md
+    why: {ru: "Конденсатор уничтожает мусор, превращая его в шарики материи (патроны для материальной пушки) и сингулярности.", en: "The condenser destroys junk into matter balls and singularities."}
+  - id: ae2g_singularity
+    deps: [ae2g_condenser]
+    roles: [engineer]
+    items: [ae2:singularity]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/singularities.md
+    why: {ru: "Сингулярность + пыль Края — квантовая запутанная сингулярность для квантового моста.", en: "A singularity + ender dust makes the entangled singularities for the quantum bridge."}
+  - id: ae2g_tools
+    deps: [ae_fluix]
+    roles: [engineer]
+    items: [ae2:fluix_pickaxe]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/fluix_tools.md
+    why: {ru: "Флюиксовые инструменты чуть лучше железных и чинятся флюиксом.", en: "Fluix tools are a bit better than iron."}
+  - id: ae2g_entropy
+    deps: [ae_charger]
+    roles: [engineer]
+    items: [ae2:entropy_manipulator]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/entropy_manipulator.md
+    why: {ru: "Нагревает или охлаждает блоки: плавит руду на месте, замораживает воду, тушит лаву.", en: "Heats or cools blocks: smelts ore in place, freezes water."}
+  - id: ae2g_matter_cannon
+    deps: [ae2g_condenser]
+    roles: [warrior, engineer]
+    items: [ae2:matter_cannon]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/matter_cannon.md
+    why: {ru: "Ружьё, которое стреляет шариками материи или любыми металлическими самородками.", en: "A gun that fires matter balls or metal nuggets."}
+  - id: ae2g_tools_net
+    deps: [ae_network]
+    roles: [engineer]
+    items: [ae2:network_tool, ae2:memory_card]
+    icon: ae2:network_tool
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/network_tool.md
+    why: {ru: "Сетевой инструмент показывает, что творится в сети, а карта памяти копирует настройки устройства на другое — экономит кучу кликов.", en: "The network tool diagnoses; the memory card copies settings between devices."}
+  - id: ae2g_level_toggle
+    deps: [ae_level]
+    roles: [engineer]
+    items: [ae2:toggle_bus]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/toggle_bus.md
+    why: {ru: "Включает и выключает участок сети по редстоуну — например, ферму, когда запас наполнился.", en: "Switches part of the network with redstone, e.g. a farm when stock is full."}
+  - id: ae2g_view_cell
+    deps: [ae2g_terminal]
+    roles: [engineer]
+    items: [ae2:view_cell]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/view_cell.md
+    why: {ru: "Ячейка-фильтр для терминала: показывает только руду, только еду — удобно, когда в сети тысячи предметов.", en: "A terminal filter: show only ore, only food."}
+  - id: ae2g_facades
+    deps: [ae_cables]
+    roles: [engineer, builder]
+    items: [ae2:cable_anchor*8]
+    icon: ae2:cable_anchor
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/facades.md
+    title: {ru: "Фасады", en: "Facades"}
+    why: {ru: "Фасад прячет кабель под видом любого блока. Делается в резаке на верстаке: блок + кабельный якорь.", en: "A facade hides a cable as any block."}
+  - id: ae2g_monitors
+    deps: [ae_level]
+    roles: [engineer]
+    items: [ae2:storage_monitor]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/monitors.md
+    why: {ru: "Монитор показывает количество выбранного предмета на стене склада, а монитор обмена ещё и выдаёт его по клику.", en: "A storage monitor shows a chosen item's count; the conversion monitor also hands it out."}
+  - id: ae2g_me_chest
+    deps: [ae2g_cells]
+    roles: [engineer]
+    items: [ae2:chest]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/chest.md
+    why: {ru: "ME-сундук: одна ячейка в блоке — маленькое хранилище без сети, хорошо для старта.", en: "The ME chest: one cell in a block, a small storage without a network."}
+  - id: ae2g_master
+    deps: [ae2g_spatial, ae2g_cpu, ae2g_assembler, ae2g_planes, ae2g_singularity, ae2g_subnet, ae2g_wireless_ap, ae2g_cards]
+    roles: [engineer]
+    shape: hexagon
+    icon: ae2:controller
+    title: {ru: "Инженер сети", en: "Network Engineer"}
+    text: {ru: "Ты освоил AE2 целиком: от кварцевой фермы до переноса баз. Дальше — MEGA, ExtendedAE и мега-автокрафт в этой же главе.", en: "You've mastered AE2 from quartz farms to moving bases."}
+    rewards: [{type: xp_levels, count: 12}]

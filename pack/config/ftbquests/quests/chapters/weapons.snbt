@@ -376,7 +376,7 @@
 			x: 3.0d
 			y: 1.25d
 			icon: {
-				id: "tacz:ammo"
+				id: "minecraft:gunpowder"
 				count: 1
 			}
 			dependencies: [
@@ -385,12 +385,7 @@
 			tasks: [
 				{
 					id: "66C5B7A9743DABB9"
-					type: "item"
-					item: {
-						count: 1
-						id: "tacz:ammo"
-					}
-					count: 32L
+					type: "checkmark"
 				}
 			]
 		}
