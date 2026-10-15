@@ -9,6 +9,10 @@ file = "config/almostunified/unification/materials.json"
 hash = "0780097c0dea4a5a000600c63976af60f3fa50f0e719e59431e4e536f8bcd64d"
 
 [[files]]
+file = "config/c2me.toml"
+hash = "88d773841d6dda80ee1d047eea9d91cbea7910a5f1d8aea818b0356da71d5daa"
+
+[[files]]
 file = "config/dmr-server.toml"
 hash = "a576c72d85ee359051c122d77ab58801163091642cc0d93262ca3e23987078b7"
 
@@ -299,6 +303,10 @@ hash = "d0f21ebfaba2aa8cd957fb1c0991418f73afb10d544abd3ad91b6e9d559fb028"
 [[files]]
 file = "kubejs/server_scripts/00_world_rules.js"
 hash = "9e013638ffb907d143006ebf8d57f0f8803e70bd93b2265a670258ce932b8773"
+
+[[files]]
+file = "kubejs/server_scripts/05_autosave.js"
+hash = "d12b9e8a638faa5c4159eb4a7d1837e8e4d3afd6247fa8b524f120fb590da73b"
 
 [[files]]
 file = "kubejs/server_scripts/10_welcome.js"
