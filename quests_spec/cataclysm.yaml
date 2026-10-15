@@ -1,0 +1,319 @@
+# L_Ender's Cataclysm: the remaining bosses, their structures and the gear forged from their loot.
+# Item texts (item.cataclysm.*.desc) are short effect lines; the «why» lines explain the fight and the use.
+chapter:
+  id: cataclysm
+  order: 16.8
+  icon: cataclysm:ignitium_ingot
+  ru: {title: "Катаклизм", subtitle: "Ignis, Чудище, Левиафан и оружие из их сердец"}
+  en: {title: "Cataclysm", subtitle: "Ignis, the Monstrosity, the Leviathan and weapons forged from their hearts"}
+lang: [cataclysm]
+autodoc: ["item.{ns}.{path}.desc"]
+out: cataclysm_gen
+quests:
+  - id: ctg_intro
+    deps: [boss_intro]
+    shape: gear
+    roles: [warrior]
+    icon: cataclysm:boss_respawner
+    tasks: [{type: checkmark}]
+    title: {ru: "Глаза боссов", en: "Boss Eyes"}
+    why: {ru: "Каждый босс Катаклизма спит в своей постройке. Глаз (пламени, пустоты, бури, пустыни...) летит к ближайшей, как око Края к крепости. Глаза крафтятся из лута младших мобов и боссов. Боссы — далеко от спавна, в зонах опасности: иди командой и с запасом зелий.", en: "Each boss sleeps in its own structure; craft its eye to find it. Go as a team."}
+  # --- Netherite Monstrosity
+  - id: ctg_monstrous_eye
+    deps: [ctg_intro]
+    roles: [warrior]
+    items: [cataclysm:monstrous_eye]
+    why: {ru: "Глаз чудовища ведёт к Кузнице душ в Незере, где спит Незеритовое чудище.", en: "Leads to the Soul Blacksmith in the Nether."}
+  - id: ctg_soul_smith
+    deps: [ctg_monstrous_eye]
+    roles: [warrior]
+    icon: cataclysm:netherite_effigy
+    tasks: [{type: structure, structure: cataclysm:soul_black_smith}]
+    title: {ru: "Кузница душ", en: "Soul Blacksmith"}
+    why: {en: A forge deep in the Nether; the Monstrosity sleeps by the furnace., ru: 'Кузница в недрах Незера. Чудище спит у горна — разбуди его, когда команда готова.'}
+  - id: ctg_monstrosity
+    deps: [ctg_soul_smith]
+    roles: [warrior]
+    shape: hexagon
+    icon: cataclysm:monstrous_horn
+    tasks: [{type: kill, entity: cataclysm:netherite_monstrosity}]
+    title: {ru: "Незеритовое чудище", en: "Netherite Monstrosity"}
+    why: {ru: "Огромный голем из незерита и лавы. Медленный, но каждый удар — как наковальня. Держись сбоку и уходи от прыжков с лавой. Огнестойкость обязательна.", en: "Slow but devastating; stay at its side and dodge the lava slams."}
+  - id: ctg_monstrous_helm
+    deps: [ctg_monstrosity]
+    roles: [warrior]
+    items: [cataclysm:monstrous_helm]
+  - id: ctg_infernal_forge
+    deps: [ctg_monstrosity]
+    roles: [warrior]
+    items: [cataclysm:infernal_forge]
+    why: {ru: "Молот чудища бьёт по площади ударом в землю.", en: "The Monstrosity's hammer: area slams."}
+  - id: ctg_mech_anvil
+    deps: [ctg_monstrosity]
+    roles: [engineer]
+    items: [cataclysm:mechanical_fusion_anvil]
+    why: {ru: "Механическая наковальня сплавляет лучшие вещи Катаклизма. Без неё не собрать игнитовые элитры и проклятые доспехи.", en: "Fuses top-tier Cataclysm gear."}
+  - id: ctg_effigy
+    deps: [ctg_monstrosity]
+    roles: [breeder, warrior]
+    items: [cataclysm:netherite_effigy]
+  # --- Ignis
+  - id: ctg_flame_eye
+    deps: [ctg_monstrosity]
+    roles: [warrior]
+    items: [cataclysm:flame_eye]
+    why: {ru: "Глаз пламени ведёт к Горящей арене в Незере.", en: "Leads to the Burning Arena."}
+  - id: ctg_burning_arena
+    deps: [ctg_flame_eye]
+    roles: [warrior]
+    icon: cataclysm:altar_of_fire
+    tasks: [{type: structure, structure: cataclysm:burning_arena}]
+    title: {ru: "Горящая арена", en: "Burning Arena"}
+    why: {en: Light the fire altar to summon Ignis., ru: Арена в лавовом озере. Зажги алтарь огня — и Игнис выйдет на бой.}
+  - id: ctg_ignis
+    deps: [ctg_burning_arena]
+    roles: [warrior]
+    shape: hexagon
+    icon: cataclysm:ignitium_ingot
+    tasks: [{type: kill, entity: cataclysm:ignis}]
+    title: {ru: "Игнис", en: "Ignis"}
+    why: {ru: "Рыцарь в огне с тремя фазами. Блокируй его удары щитом в нужный момент — так он открывается. В третьей фазе он почти не останавливается: бей между рывками.", en: "Three phases; parry with a shield to open him up."}
+  - id: ctg_ignitium
+    deps: [ctg_ignis]
+    roles: [engineer, warrior]
+    items: [cataclysm:ignitium_ingot*4, cataclysm:ignitium_upgrade_smithing_template]
+    title: {ru: "Игнит", en: "Ignitium"}
+    why: {ru: "Игнитовый шаблон превращает незерит в игнит на кузнечном столе.", en: "The template upgrades netherite to ignitium."}
+  - id: ctg_ignitium_set
+    deps: [ctg_ignitium]
+    roles: [warrior]
+    items: [cataclysm:ignitium_helmet, cataclysm:ignitium_chestplate, cataclysm:ignitium_leggings, cataclysm:ignitium_boots]
+    title: {ru: "Игнитовая броня", en: "Ignitium Armor"}
+    why: {ru: "Шлем видит сквозь лаву, поножи дают огненные рефлексы, ботинки ходят по лаве. Нагрудник соединяется с элитрами.", en: "Lava sight, lava walking; the chestplate merges with elytra."}
+  - id: ctg_ignitium_elytra
+    deps: [ctg_ignitium_set, ctg_mech_anvil]
+    roles: [warrior]
+    items: [cataclysm:ignitium_elytra_chestplate]
+    why: {ru: "Нагрудник с элитрами — летай, не снимая брони.", en: "Fly without giving up the chestplate."}
+  - id: ctg_bulwark
+    deps: [ctg_ignis]
+    roles: [warrior]
+    items: [cataclysm:bulwark_of_the_flame]
+  - id: ctg_incinerator
+    deps: [ctg_ignis]
+    roles: [warrior]
+    items: [cataclysm:the_incinerator]
+    why: {en: Fire pillars; they burn dropped items., ru: 'Испепелитель: держи ПКМ — перед тобой вырастут столбы огня. Осторожно рядом с лутом: огонь сжигает предметы.'}
+  - id: ctg_blazing_grips
+    deps: [ctg_ignis]
+    roles: [warrior]
+    items: [cataclysm:blazing_grips]
+  # --- Ender Guardian (End)
+  - id: ctg_void_eye
+    deps: [adv_ender_guardian]
+    roles: [warrior]
+    items: [cataclysm:void_core]
+  - id: ctg_gauntlet_guard
+    deps: [adv_ender_guardian]
+    roles: [warrior]
+    items: [cataclysm:gauntlet_of_guard]
+  - id: ctg_void_forge
+    deps: [ctg_void_eye, ctg_infernal_forge]
+    roles: [warrior]
+    items: [cataclysm:void_forge]
+  - id: ctg_ender_golem
+    deps: [adv_ender_guardian]
+    roles: [warrior]
+    icon: cataclysm:void_stone
+    tasks: [{type: kill, entity: cataclysm:ender_golem}]
+    title: {ru: "Эндер-голем", en: "Ender Golem"}
+    why: {ru: "Страж руин Края. Его удар разрывает землю рунами пустоты — не стой на светящихся плитах.", en: "Avoid the glowing void runes under your feet."}
+  - id: ctg_enderite
+    deps: [ctg_ender_golem]
+    roles: [engineer]
+    items: [cataclysm:enderite_ingot*2]
+  # --- Leviathan (sunken city)
+    why: {en: Material for void weapons., ru: Эндерит из лута голема — материал для оружия пустоты.}
+  - id: ctg_abyss_eye
+    deps: [adv_leviathan]
+    roles: [warrior]
+    items: [cataclysm:abyss_eye]
+    why: {en: Leads to the sunken city., ru: Глаз бездны ведёт к затопленному городу и логову Левиафана.}
+  - id: ctg_tidal_claws
+    deps: [adv_leviathan]
+    roles: [warrior]
+    items: [cataclysm:tidal_claws]
+    why: {ru: "Клешни — крюк-кошка: цепляйся и подтягивайся к стенам и врагам.", en: "A grappling hook to pull yourself in."}
+  - id: ctg_baby_leviathan
+    deps: [adv_leviathan]
+    roles: [breeder]
+    items: [cataclysm:abyssal_egg]
+    why: {ru: "Яйцо бездны вылупляется в малыша-левиафана — ручной морской питомец.", en: "Hatches a tame baby Leviathan."}
+  - id: ctg_coralssus
+    deps: [dg_cataclysm_city]
+    roles: [warrior]
+    icon: cataclysm:crystallized_coral
+    tasks: [{type: kill, entity: cataclysm:coralssus}]
+    title: {ru: "Кораллосс", en: "Coralssus"}
+    why: {ru: "Коралловый великан у затопленного города. Бьёт с разбега — уворачивайся вбок.", en: "A coral giant; sidestep its charge."}
+  - id: ctg_coral_weapons
+    deps: [ctg_coralssus]
+    roles: [warrior]
+    items: [cataclysm:coral_spear, cataclysm:coral_bardiche]
+    title: {ru: "Коралловое оружие", en: "Coral Weapons"}
+    why: {ru: "Копьё и бердыш из кристаллизованного коралла — хорошее оружие для воды.", en: "Good weapons for underwater fights."}
+  - id: ctg_azure_shield
+    deps: [boss_scylla]
+    roles: [warrior]
+    items: [cataclysm:azure_sea_shield]
+    why: {en: Scylla's shield., ru: Лазурный щит Сциллы отражает удары и снаряды морской силой.}
+  - id: ctg_ceraunus
+    deps: [boss_scylla]
+    roles: [warrior]
+    items: [cataclysm:ceraunus]
+  - id: ctg_astrape
+    deps: [boss_scylla]
+    roles: [warrior]
+    items: [cataclysm:astrape]
+  # --- Harbinger and factory
+  - id: ctg_mech_eye
+    deps: [dg_cataclysm_factory]
+    roles: [warrior]
+    items: [cataclysm:mech_eye]
+    why: {en: Leads to the ancient factory., ru: 'Механический глаз ведёт к древней фабрике, где спит Предвестник.'}
+  - id: ctg_prowler
+    deps: [dg_cataclysm_factory]
+    roles: [warrior]
+    icon: cataclysm:lava_power_cell
+    tasks: [{type: kill, entity: cataclysm:the_prowler}]
+    title: {ru: "Скиталец", en: "The Prowler"}
+    why: {ru: "Механический паук-охранник древней фабрики. Стреляет лазерами из пасти — прячься за колоннами.", en: "A laser-firing mech spider; use the pillars."}
+  - id: ctg_wither_weapon
+    deps: [boss_harbinger]
+    roles: [warrior]
+    items: [cataclysm:wither_assault_shoulder_weapon]
+  - id: ctg_laser_gatling
+    deps: [boss_harbinger]
+    roles: [warrior, engineer]
+    items: [cataclysm:laser_gatling]
+  - id: ctg_witherite
+    deps: [boss_harbinger]
+    roles: [engineer]
+    items: [cataclysm:witherite_ingot*2]
+  # --- Ancient Remnant (desert)
+    why: {en: Alloy for missile weapons., ru: 'Визерит — сплав из лута Предвестника, основа для ракетного оружия.'}
+  - id: ctg_desert_eye
+    deps: [ctg_intro]
+    roles: [warrior]
+    items: [cataclysm:desert_eye]
+    why: {en: Leads to the cursed pyramid., ru: Глаз пустыни ведёт к проклятой пирамиде Древнего Остатка.}
+  - id: ctg_cursed_pyramid
+    deps: [ctg_desert_eye]
+    roles: [warrior]
+    icon: cataclysm:cursed_tombstone
+    tasks: [{type: structure, structure: cataclysm:cursed_pyramid}]
+    title: {ru: "Проклятая пирамида", en: "Cursed Pyramid"}
+    why: {ru: "Внутри ловушки: падающий песок, огонь и ядовитые дротики. Иди медленно и смотри под ноги.", en: "Traps everywhere: falling sand, fire, darts."}
+  - id: ctg_necklace
+    deps: [ctg_cursed_pyramid]
+    roles: [warrior]
+    items: [cataclysm:necklace_of_the_desert]
+  - id: ctg_remnant_loot
+    deps: [boss_ancient_remnant]
+    roles: [warrior]
+    items: [cataclysm:wrath_of_the_desert, cataclysm:sandstorm_in_a_bottle]
+    title: {ru: "Гнев пустыни", en: "Wrath of the Desert"}
+    why: {ru: "Лук выпускает песчаные бури, бутылка призывает их вокруг тебя.", en: "Sandstorm bow and bottled storms."}
+  - id: ctg_khopesh
+    deps: [boss_ancient_remnant]
+    roles: [warrior]
+    items: [cataclysm:khopesh]
+    why: {ru: "Хопеш — изогнутый клинок пустыни, быстрые удары по нескольким врагам.", en: "Fast sweeping desert blade."}
+  - id: ctg_kobolediator
+    deps: [ctg_cursed_pyramid]
+    roles: [warrior]
+    icon: cataclysm:kobolediator_skull
+    tasks: [{type: kill, entity: cataclysm:kobolediator}]
+    title: {ru: "Кобольдиатор", en: "Kobolediator"}
+    why: {ru: "Скелет-гладиатор с огромным мечом. Сначала убей мелких кобольдов-воришек — иначе утащат вещи (липкие перчатки это предотвращают).", en: "Kill the thieving koboldeons first."}
+  - id: ctg_sticky
+    deps: [ctg_kobolediator]
+    roles: [warrior]
+    items: [cataclysm:sticky_gloves]
+  - id: ctg_wadjet
+    deps: [ctg_cursed_pyramid]
+    roles: [warrior]
+    icon: cataclysm:lionfish_spike
+    tasks: [{type: kill, entity: cataclysm:wadjet}]
+    title: {ru: "Уаджет", en: "Wadjet"}
+    why: {ru: "Змея-страж пирамиды. Ядовитые плевки — держи молоко.", en: "Poison spit: bring milk."}
+  # --- Maledictus (frost)
+  - id: ctg_cursed_eye
+    deps: [ctg_intro]
+    roles: [warrior]
+    items: [cataclysm:cursed_eye]
+    why: {en: Leads to the Frosted Prison., ru: Проклятый глаз ведёт к ледяной темнице Малидиктуса.}
+  - id: ctg_frosted_prison
+    deps: [ctg_cursed_eye]
+    roles: [warrior]
+    icon: cataclysm:pointed_icicle
+    tasks: [{type: structure, structure: cataclysm:frosted_prison}]
+    title: {ru: "Ледяная темница", en: "Frosted Prison"}
+    why: {en: An icy prison full of draugr., ru: 'Темница во льдах, полная драугров. Тёплая одежда и огонь под рукой.'}
+  - id: ctg_aptrgangr
+    deps: [ctg_frosted_prison]
+    roles: [warrior]
+    icon: cataclysm:aptrgangr_head
+    tasks: [{type: kill, entity: cataclysm:aptrgangr}]
+    title: {ru: "Аптргангр", en: "Aptrgangr"}
+    why: {ru: "Огромный драугр-палач. Его замах медленный, но широкий: отходи назад, а не вбок.", en: "Slow wide swings: step back, not aside."}
+  - id: ctg_cursium
+    deps: [boss_maledictus]
+    roles: [engineer, warrior]
+    items: [cataclysm:cursium_ingot*4, cataclysm:cursium_upgrade_smithing_template]
+    title: {ru: "Курсий", en: "Cursium"}
+    why: {en: The template upgrades netherite armor to cursium., ru: Курсиевый шаблон превращает незеритовую броню в проклятую.}
+  - id: ctg_cursium_set
+    deps: [ctg_cursium]
+    roles: [warrior]
+    items: [cataclysm:cursium_helmet, cataclysm:cursium_chestplate, cataclysm:cursium_leggings, cataclysm:cursium_boots]
+    title: {ru: "Проклятые доспехи", en: "Cursium Armor"}
+    why: {ru: "Призрачное зрение, уклонение, невесомость — и нагрудник, который однажды возвращает тебя к жизни.", en: "Ghost sight, dodge, featherfall, and a chestplate that revives you."}
+  - id: ctg_soul_render
+    deps: [boss_maledictus]
+    roles: [warrior]
+    items: [cataclysm:soul_render]
+  - id: ctg_cursed_bow
+    deps: [boss_maledictus]
+    roles: [warrior]
+    items: [cataclysm:cursed_bow]
+  - id: ctg_annihilator
+    deps: [boss_maledictus]
+    roles: [warrior]
+    items: [cataclysm:the_annihilator]
+  # --- amethyst
+    why: {en: 'Huge crits, area attack two-handed.', ru: 'Аннигилятор — секира с огромным критом и ударом по площади, если держать двумя руками.'}
+  - id: ctg_amethyst_crab
+    deps: [ctg_intro]
+    roles: [warrior, cook]
+    icon: cataclysm:amethyst_crab_shell
+    tasks: [{type: kill, entity: cataclysm:amethyst_crab}]
+    title: {ru: "Аметистовый краб", en: "Amethyst Crab"}
+    why: {ru: "Живёт в аметистовых гнёздах под землёй. Его мясо, благословлённое на алтаре, защищает от Тьмы и глубинного Стража.", en: "Its blessed meat protects from Darkness."}
+  - id: ctg_blessed_meat
+    deps: [ctg_amethyst_crab]
+    roles: [cook]
+    items: [cataclysm:blessed_amethyst_crab_meat]
+  - id: ctg_pauldrons
+    deps: [ctg_amethyst_crab]
+    roles: [warrior]
+    items: [cataclysm:bloom_stone_pauldrons]
+    why: {ru: "Наплечники выпускают вокруг рой острых аметистов по нажатию клавиши.", en: "Release a swarm of amethyst shards."}
+  - id: ctg_master
+    deps: [ctg_ignitium_elytra, ctg_cursium_set, ctg_monstrosity, ctg_remnant_loot, ctg_laser_gatling, ctg_void_forge, ctg_coral_weapons]
+    roles: [warrior]
+    shape: hexagon
+    icon: cataclysm:ignitium_elytra_chestplate
+    title: {ru: "Переживший катаклизм", en: "Cataclysm Survivor"}
+    text: {ru: "Ignis, Чудище, Левиафан, Сцилла, Малидиктус, Предвестник и Древний Остаток — все пали. Их сердца теперь в твоей броне.", en: "Every Cataclysm boss has fallen; their hearts are in your armor."}
+    rewards: [{type: xp_levels, count: 25}]

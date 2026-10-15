@@ -1,7 +1,7 @@
 # Twilight Forest: progression advancements and the explorer's notes (twilightforest.book.*) are translated.
 chapter:
   id: twilight
-  order: 16.5
+  order: 16.6
   icon: twilightforest:naga_trophy
   ru: {title: "Сумеречный лес", subtitle: "Путь через барьеры: от Наги до Снежной королевы"}
   en: {title: "Twilight Forest", subtitle: "Through the barriers: from the Naga to the Snow Queen"}

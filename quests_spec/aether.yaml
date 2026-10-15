@@ -1,7 +1,7 @@
 # The Aether: the Book of Lore describes nearly every item (lore.item.aether.* / lore.block.aether.*), mostly translated.
 chapter:
   id: aether_sky
-  order: 16.6
+  order: 16.7
   icon: aether:aether_portal_frame
   ru: {title: "Эфир", subtitle: "Небесные острова, три подземелья, валькирии и Дух Солнца"}
   en: {title: "The Aether", subtitle: "Sky islands, three dungeons, Valkyries and the Sun Spirit"}

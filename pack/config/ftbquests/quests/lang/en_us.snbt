@@ -5422,6 +5422,153 @@
 		"You've beaten the ones they tell stories about in taverns. Hang a trophy (Handcrafted) in your hall so newcomers know whom to ask for advice."
 		"&lRematch:&r the Boss Respawner (Cataclysm) brings a beaten boss back to its lair."
 	]
+	chapter.67DBF023F7901684.title: "Dungeons and Structures"
+	chapter.67DBF023F7901684.chapter_subtitle: [
+		"Find it, enter it, survive: personal loot in every chest"
+	]
+	quest.124FA016AD13E65C.title: "How to Find Dungeons"
+	quest.124FA016AD13E65C.quest_subtitle: "Maps, Lootr and zones"
+	quest.124FA016AD13E65C.quest_desc: [
+		"&lWhy:&r dungeons hold the best gear without grinding: spellbooks, gunpowder, steel, rare seeds."
+		"&lHow to find them:&r cartographers sell maps, Xaero marks what you've found, and wandering is more fun than a compass."
+		"&lLootr:&r a chest looks shared, but each player gets their own loot. Came second? You still find yours."
+		"&lA quest completes&r when you stand inside the structure."
+	]
+	quest.398D7D0D31B16A8C.title: "A Roadside Tavern"
+	quest.398D7D0D31B16A8C.quest_subtitle: "Dungeons & Taverns"
+	quest.398D7D0D31B16A8C.quest_desc: [
+		"A safe spot: an innkeeper, a cartographer and a board of maps to nearby dungeons. A good first travel goal."
+		"Taverns appear in every forest; the oak one counts for this quest."
+	]
+	quest.3DC14FDAB04AB0DE.title: "Skeleton Crypt"
+	quest.3DC14FDAB04AB0DE.quest_subtitle: "YUNG's Better Dungeons"
+	quest.3DC14FDAB04AB0DE.quest_desc: [
+		"An underground crypt with several halls and spawners. &lTip:&r break the spawner or light it up all around."
+		"Good practice before the big dungeons."
+	]
+	quest.1DD3D00D98540144.title: "Abandoned Mineshaft"
+	quest.1DD3D00D98540144.quest_subtitle: "YUNG's Better Mineshafts"
+	quest.1DD3D00D98540144.quest_desc: [
+		"Mineshafts are big now: loot minecarts, ladders, cave-ins. Ores show in the walls: bring a good pickaxe."
+	]
+	quest.14590C32AE474724.title: "Illager Camp"
+	quest.14590C32AE474724.quest_subtitle: "TaCZ shooters"
+	quest.14590C32AE474724.quest_desc: [
+		"Camp illagers are often armed with &lfirearms&r (TaCZ NPCs): pistols and rifles. Approach from cover."
+		"&lLoot:&r their gun sometimes drops: a free firearm."
+	]
+	quest.24FE42BA2A7CCC9B.title: "Illager Fort"
+	quest.24FE42BA2A7CCC9B.quest_subtitle: "When Dungeons Arise"
+	quest.24FE42BA2A7CCC9B.quest_desc: [
+		"A fortress with towers and dozens of illagers, more than half with guns. This is an assault: bring a team, healing and armour."
+		"&lTactics:&r pick off the wall shooters from afar (a TaCZ sniper), then breach the gate."
+	]
+	quest.6A4762E3C93C0B5B.title: "Illager Galley"
+	quest.6A4762E3C93C0B5B.quest_subtitle: "Boarding"
+	quest.6A4762E3C93C0B5B.quest_desc: [
+		"An illager ship on the open sea. Sail up in your Small Ships ship, fire a broadside and board it (grappling hook from «Weapons»)."
+	]
+	quest.6EBAA1CC314A251D.title: "Bandit Village"
+	quest.6EBAA1CC314A251D.quest_subtitle: "When Dungeons Arise"
+	quest.6EBAA1CC314A251D.quest_desc: [
+		"Bandits have taken a village on stilts. Shooters on the roofs, traps on the walkways. Loot: gunpowder, steel, gold."
+	]
+	quest.1AA7A9B0DC93023F.title: "Mining System"
+	quest.1AA7A9B0DC93023F.quest_subtitle: "When Dungeons Arise"
+	quest.1AA7A9B0DC93023F.quest_desc: [
+		"A huge mine with lifts and minecarts. Spiders and zombie miners inside, and rich chests of ore and tools at the end."
+	]
+	quest.67026509AEC7D314.title: "The Foundry"
+	quest.67026509AEC7D314.quest_subtitle: "Fire and lava"
+	quest.67026509AEC7D314.quest_desc: [
+		"An abandoned steelworks: lava streams and fire mobs. &lBring:&r Fire Skin or fire resistance."
+		"&lReward:&r ingots and metal blocks, a boost for engineers."
+	]
+	quest.33B479E1E8E88664.title: "Monastery"
+	quest.33B479E1E8E88664.quest_subtitle: "When Dungeons Arise"
+	quest.33B479E1E8E88664.quest_desc: [
+		"A mountain monastery with a library. &lFor mages:&r enchanted books and Ars Nouveau ingredients."
+	]
+	quest.68FD7B1F449B1EB6.title: "Plague Asylum"
+	quest.68FD7B1F449B1EB6.quest_subtitle: "Bring an antidote"
+	quest.68FD7B1F449B1EB6.quest_desc: [
+		"A grim hospital in the swamp: poison at every step. &lBring:&r milk and Clean Breath from Arkhaven alchemy."
+	]
+	quest.0829E4B42B4D1A82.title: "Thornborn Towers"
+	quest.0829E4B42B4D1A82.quest_subtitle: "When Dungeons Arise"
+	quest.0829E4B42B4D1A82.quest_desc: [
+		"Towers wrapped in thorns, and their guardians. The climb itself is a trial: a grappling hook helps a lot."
+	]
+	quest.1BAE5339A9DDE90E.title: "Heavenly Challenger"
+	quest.1BAE5339A9DDE90E.quest_subtitle: "A dungeon in the clouds"
+	quest.1BAE5339A9DDE90E.quest_desc: [
+		"A flying fortress far above the ground. Reach it by airship, plane or elytra: there's only a drop below."
+	]
+	quest.0DD810CD0C1C7B8F.title: "Undead Pirate Ship"
+	quest.0DD810CD0C1C7B8F.quest_subtitle: "When Dungeons Arise"
+	quest.0DD810CD0C1C7B8F.quest_desc: [
+		"A ghost pirate ship crewed by skeletons. The captain's cabin holds the best treasure of the sea."
+	]
+	quest.322941DAB346E48E.title: "Shiraz Palace"
+	quest.322941DAB346E48E.quest_subtitle: "The richest dungeon"
+	quest.322941DAB346E48E.quest_desc: [
+		"A huge desert palace: several floors, guards, traps and a treasury. Go with at least three."
+	]
+	quest.2F44F8C0075501B1.title: "Mage Catacombs"
+	quest.2F44F8C0075501B1.quest_subtitle: "Iron's Spells"
+	quest.2F44F8C0075501B1.quest_desc: [
+		"Underground catacombs with necromancers. Scrolls and spellbooks: the main loot for mages."
+	]
+	quest.31BFEC0EEAA7251A.title: "The Citadel"
+	quest.31BFEC0EEAA7251A.quest_subtitle: "The Dead King's lair"
+	quest.31BFEC0EEAA7251A.quest_desc: [
+		"A dark citadel, home of the Dead King (quest in the «Iron's Spells» chapter). Loot: rare runes and mithril scrolls."
+	]
+	quest.682C987E312106E8.title: "Sunken City"
+	quest.682C987E312106E8.quest_subtitle: "The Leviathan's lair"
+	quest.682C987E312106E8.quest_desc: [
+		"A city on the ocean floor, with the way to the Leviathan. &lBring:&r water breathing for the whole team and a trident."
+	]
+	quest.65DEA3AA471B1627.title: "Ancient Factory"
+	quest.65DEA3AA471B1627.quest_subtitle: "The Harbinger's lair"
+	quest.65DEA3AA471B1627.quest_desc: [
+		"A mechanical dungeon deep underground: the road to the Harbinger from the «Bosses» chapter."
+	]
+	quest.1D9ABAB93B21593F.title: "The Labyrinth"
+	quest.1D9ABAB93B21593F.quest_subtitle: "Twilight Forest"
+	quest.1D9ABAB93B21593F.quest_desc: [
+		"An underground labyrinth beneath the swamp. A maze map (made from a map and a maze core) shows the way to the Minoshroom."
+	]
+	quest.0233DEB78E99055C.title: "Hive Temple"
+	quest.0233DEB78E99055C.quest_subtitle: "Bumblezone"
+	quest.0233DEB78E99055C.quest_desc: [
+		"The heart of the bee dimension. Don't anger the bees: wear bee armour and keep honey handy."
+	]
+	quest.57FDCFE312B601D6.title: "Bronze Dungeon"
+	quest.57FDCFE312B601D6.quest_subtitle: "The Aether"
+	quest.57FDCFE312B601D6.quest_desc: [
+		"The first Aether dungeon, home of the Slider. Its key opens the reward chest."
+	]
+	quest.6493D15E22B26AAA.title: "Brass Dungeon"
+	quest.6493D15E22B26AAA.quest_subtitle: "Deep Aether"
+	quest.6493D15E22B26AAA.quest_desc: [
+		"A Deep Aether dungeon with mechanical guardians. Loot: Stormforged armour templates."
+	]
+	quest.41271CF75F0F514B.title: "Ancient Temple"
+	quest.41271CF75F0F514B.quest_subtitle: "The Otherside"
+	quest.41271CF75F0F514B.quest_desc: [
+		"A temple deep in the Otherside: silence is mandatory. Loot: the Heart of the Deep and the way to the Stalker."
+	]
+	quest.18D1F60CD2B50700.title: "End Castle"
+	quest.18D1F60CD2B50700.quest_subtitle: "Dungeons & Taverns"
+	quest.18D1F60CD2B50700.quest_desc: [
+		"A castle on the far End islands: shulkers, chests, and a road to elytra if you haven't found an End city yet."
+	]
+	quest.5A9C5F24AD35D296.title: "Tomb Raider"
+	quest.5A9C5F24AD35D296.quest_subtitle: "Nine great dungeons"
+	quest.5A9C5F24AD35D296.quest_desc: [
+		"You've seen the heavens and the depths of this world. Share your finds on the map (Xaero → waypoints → share) so friends can follow."
+	]
 	chapter.710611A423EC0104.title: "Twilight Forest"
 	chapter.710611A423EC0104.chapter_subtitle: [
 		"Through the barriers: from the Naga to the Snow Queen"
@@ -5678,152 +5825,93 @@
 	quest.0E3645CB18E6DF1E.quest_desc: [
 		"All barriers lifted, all bosses down."
 	]
-	chapter.67DBF023F7901684.title: "Dungeons and Structures"
-	chapter.67DBF023F7901684.chapter_subtitle: [
-		"Find it, enter it, survive: personal loot in every chest"
+	chapter.3E92433C873CD4AC.title: "Other Worlds"
+	chapter.3E92433C873CD4AC.chapter_subtitle: [
+		"What to gather in each dimension, and why to come back"
 	]
-	quest.124FA016AD13E65C.title: "How to Find Dungeons"
-	quest.124FA016AD13E65C.quest_subtitle: "Maps, Lootr and zones"
-	quest.124FA016AD13E65C.quest_desc: [
-		"&lWhy:&r dungeons hold the best gear without grinding: spellbooks, gunpowder, steel, rare seeds."
-		"&lHow to find them:&r cartographers sell maps, Xaero marks what you've found, and wandering is more fun than a compass."
-		"&lLootr:&r a chest looks shared, but each player gets their own loot. Came second? You still find yours."
-		"&lA quest completes&r when you stand inside the structure."
+	quest.2D77445198E97346.title: "A Map of Worlds"
+	quest.2D77445198E97346.quest_subtitle: "Where and why"
+	quest.2D77445198E97346.quest_desc: [
+		"&lThe Aether&r (sky islands): light metals, flight, gentle animals. &lDeep Aether&r extends it with its own ores."
+		"&lThe Undergarden&r (below bedrock): dark caves, the best armour metals."
+		"&lThe Bumblezone&r: bees, honey, royal jelly."
+		"&lThe Otherside&r (through a sculk portal): dangerous, but it has Warden armour."
+		"&lThe Twilight Forest&r: a chain of bosses («Adventure»). &lThe End&r: elytra, shulkers, the void."
 	]
-	quest.398D7D0D31B16A8C.title: "A Roadside Tavern"
-	quest.398D7D0D31B16A8C.quest_subtitle: "Dungeons & Taverns"
-	quest.398D7D0D31B16A8C.quest_desc: [
-		"A safe spot: an innkeeper, a cartographer and a board of maps to nearby dungeons. A good first travel goal."
-		"Taverns appear in every forest; the oak one counts for this quest."
+	quest.330A2A98C519162A.title: "Skyjade"
+	quest.330A2A98C519162A.quest_subtitle: "Deep Aether"
+	quest.330A2A98C519162A.quest_desc: [
+		"A Deep Aether ore. It makes light, fast tools and armour, a step between zanite and stormforged gear."
 	]
-	quest.3DC14FDAB04AB0DE.title: "Skeleton Crypt"
-	quest.3DC14FDAB04AB0DE.quest_subtitle: "YUNG's Better Dungeons"
-	quest.3DC14FDAB04AB0DE.quest_desc: [
-		"An underground crypt with several halls and spawners. &lTip:&r break the spawner or light it up all around."
-		"Good practice before the big dungeons."
+	quest.266F8321887A4C29.title: "Stratus"
+	quest.266F8321887A4C29.quest_subtitle: "Cloud armour"
+	quest.266F8321887A4C29.quest_desc: [
+		"Stratus armour makes you faster in the sky. Good for exploring the Aether by airship or on foot over the clouds."
 	]
-	quest.1DD3D00D98540144.title: "Abandoned Mineshaft"
-	quest.1DD3D00D98540144.quest_subtitle: "YUNG's Better Mineshafts"
-	quest.1DD3D00D98540144.quest_desc: [
-		"Mineshafts are big now: loot minecarts, ladders, cave-ins. Ores show in the walls: bring a good pickaxe."
+	quest.2F5CB4C9BE71E92E.title: "Aerwhale Saddle"
+	quest.2F5CB4C9BE71E92E.quest_subtitle: "A flying mount"
+	quest.2F5CB4C9BE71E92E.quest_desc: [
+		"The Aether's aerwhale drifts peacefully through the air. With a saddle you can ride it: slow, but beautiful."
 	]
-	quest.14590C32AE474724.title: "Illager Camp"
-	quest.14590C32AE474724.quest_subtitle: "TaCZ shooters"
-	quest.14590C32AE474724.quest_desc: [
-		"Camp illagers are often armed with &lfirearms&r (TaCZ NPCs): pistols and rifles. Approach from cover."
-		"&lLoot:&r their gun sometimes drops: a free firearm."
+	quest.41B2832A942564A8.title: "Cloggrum"
+	quest.41B2832A942564A8.quest_subtitle: "The Undergarden"
+	quest.41B2832A942564A8.quest_desc: [
+		"The Undergarden's first metal, sturdier than iron. Next come froststeel and utherium, each with a bonus against local monsters."
 	]
-	quest.24FE42BA2A7CCC9B.title: "Illager Fort"
-	quest.24FE42BA2A7CCC9B.quest_subtitle: "When Dungeons Arise"
-	quest.24FE42BA2A7CCC9B.quest_desc: [
-		"A fortress with towers and dozens of illagers, more than half with guns. This is an assault: bring a team, healing and armour."
-		"&lTactics:&r pick off the wall shooters from afar (a TaCZ sniper), then breach the gate."
+	quest.4A7C65037569EC58.title: "Utherium"
+	quest.4A7C65037569EC58.quest_subtitle: "Against the rotten"
+	quest.4A7C65037569EC58.quest_desc: [
+		"Utherium weapons hit Undergarden rotspawn harder: take one to the catacombs."
 	]
-	quest.6A4762E3C93C0B5B.title: "Illager Galley"
-	quest.6A4762E3C93C0B5B.quest_subtitle: "Boarding"
-	quest.6A4762E3C93C0B5B.quest_desc: [
-		"An illager ship on the open sea. Sail up in your Small Ships ship, fire a broadside and board it (grappling hook from «Weapons»)."
+	quest.557D7ED45056F22C.title: "Gloomgourd"
+	quest.557D7ED45056F22C.quest_subtitle: "Food without sun"
+	quest.557D7ED45056F22C.quest_desc: [
+		"There's no sun in the Undergarden, but it has its own crops. The gloomgourd is the base of local cuisine (pie!) and food variety."
 	]
-	quest.6EBAA1CC314A251D.title: "Bandit Village"
-	quest.6EBAA1CC314A251D.quest_subtitle: "When Dungeons Arise"
-	quest.6EBAA1CC314A251D.quest_desc: [
-		"Bandits have taken a village on stilts. Shooters on the roofs, traps on the walkways. Loot: gunpowder, steel, gold."
+	quest.1AD3AAF02A0AEC65.title: "Royal Jelly"
+	quest.1AD3AAF02A0AEC65.quest_subtitle: "Bumblezone"
+	quest.1AD3AAF02A0AEC65.quest_desc: [
+		"The Bumblezone's most valuable prize. Used for bee armour and tonics, and Productive Bees keepers need it for rare breeds."
 	]
-	quest.1AA7A9B0DC93023F.title: "Mining System"
-	quest.1AA7A9B0DC93023F.quest_subtitle: "When Dungeons Arise"
-	quest.1AA7A9B0DC93023F.quest_desc: [
-		"A huge mine with lifts and minecarts. Spiders and zombie miners inside, and rich chests of ore and tools at the end."
+	quest.538CE3778B5E486F.title: "Bee Armour"
+	quest.538CE3778B5E486F.quest_subtitle: "One of the hive"
+	quest.538CE3778B5E486F.quest_desc: [
+		"Bee armour calms the bees and helps you stay airborne (details in the item tooltips). The full set is your pass to the deepest hives."
 	]
-	quest.67026509AEC7D314.title: "The Foundry"
-	quest.67026509AEC7D314.quest_subtitle: "Fire and lava"
-	quest.67026509AEC7D314.quest_desc: [
-		"An abandoned steelworks: lava streams and fire mobs. &lBring:&r Fire Skin or fire resistance."
-		"&lReward:&r ingots and metal blocks, a boost for engineers."
+	quest.327022E9A286F5E3.title: "Essence of the Bees"
+	quest.327022E9A286F5E3.quest_subtitle: "Sanctum trials"
+	quest.327022E9A286F5E3.quest_desc: [
+		"Bumblezone sanctums run trials: beat one and you get an essence. Its effect is in the item tooltip."
 	]
-	quest.33B479E1E8E88664.title: "Monastery"
-	quest.33B479E1E8E88664.quest_subtitle: "When Dungeons Arise"
-	quest.33B479E1E8E88664.quest_desc: [
-		"A mountain monastery with a library. &lFor mages:&r enchanted books and Ars Nouveau ingredients."
+	quest.774EC0F3488A630B.title: "Reinforced Echo Shard"
+	quest.774EC0F3488A630B.quest_subtitle: "Deeper Darker"
+	quest.774EC0F3488A630B.quest_desc: [
+		"Echo shards from the Otherside: material for portals and upgrades. Gather them quietly: any noise calls the sculk guardians."
 	]
-	quest.68FD7B1F449B1EB6.title: "Plague Asylum"
-	quest.68FD7B1F449B1EB6.quest_subtitle: "Bring an antidote"
-	quest.68FD7B1F449B1EB6.quest_desc: [
-		"A grim hospital in the swamp: poison at every step. &lBring:&r milk and Clean Breath from Arkhaven alchemy."
+	quest.07ACEBF0D34DBEB0.title: "Resonarium"
+	quest.07ACEBF0D34DBEB0.quest_subtitle: "A sound metal"
+	quest.07ACEBF0D34DBEB0.quest_desc: [
+		"A metal that resonates with sound. Resonarium tools cut sculk, and the armour muffles your steps."
 	]
-	quest.0829E4B42B4D1A82.title: "Thornborn Towers"
-	quest.0829E4B42B4D1A82.quest_subtitle: "When Dungeons Arise"
-	quest.0829E4B42B4D1A82.quest_desc: [
-		"Towers wrapped in thorns, and their guardians. The climb itself is a trial: a grappling hook helps a lot."
+	quest.7C11137082F10408.title: "Warden Armour"
+	quest.7C11137082F10408.quest_subtitle: "Better than netherite"
+	quest.7C11137082F10408.quest_desc: [
+		"An upgrade of netherite armour at a smithing table (recipe in EMI). Tougher than netherite, and it makes you quieter."
 	]
-	quest.1BAE5339A9DDE90E.title: "Heavenly Challenger"
-	quest.1BAE5339A9DDE90E.quest_subtitle: "A dungeon in the clouds"
-	quest.1BAE5339A9DDE90E.quest_desc: [
-		"A flying fortress far above the ground. Reach it by airship, plane or elytra: there's only a drop below."
+	quest.3CC5C3F80E21EBE7.title: "Shulker Shells"
+	quest.3CC5C3F80E21EBE7.quest_subtitle: "The End"
+	quest.3CC5C3F80E21EBE7.quest_desc: [
+		"Shulker boxes are portable chests. Everyone loves them: builders, miners, travellers. Hunt in End cities and Dungeons & Taverns castles."
 	]
-	quest.0DD810CD0C1C7B8F.title: "Undead Pirate Ship"
-	quest.0DD810CD0C1C7B8F.quest_subtitle: "When Dungeons Arise"
-	quest.0DD810CD0C1C7B8F.quest_desc: [
-		"A ghost pirate ship crewed by skeletons. The captain's cabin holds the best treasure of the sea."
+	quest.1CC4A7924CB673E5.title: "Elytra"
+	quest.1CC4A7924CB673E5.quest_subtitle: "Wings"
+	quest.1CC4A7924CB673E5.quest_desc: [
+		"Elytra from an End ship. Rockets, Mending, and you fly anywhere. The End islands are more varied now (Nullscape): search far from the centre."
 	]
-	quest.322941DAB346E48E.title: "Shiraz Palace"
-	quest.322941DAB346E48E.quest_subtitle: "The richest dungeon"
-	quest.322941DAB346E48E.quest_desc: [
-		"A huge desert palace: several floors, guards, traps and a treasury. Go with at least three."
-	]
-	quest.2F44F8C0075501B1.title: "Mage Catacombs"
-	quest.2F44F8C0075501B1.quest_subtitle: "Iron's Spells"
-	quest.2F44F8C0075501B1.quest_desc: [
-		"Underground catacombs with necromancers. Scrolls and spellbooks: the main loot for mages."
-	]
-	quest.31BFEC0EEAA7251A.title: "The Citadel"
-	quest.31BFEC0EEAA7251A.quest_subtitle: "The Dead King's lair"
-	quest.31BFEC0EEAA7251A.quest_desc: [
-		"A dark citadel, home of the Dead King (quest in the «Iron's Spells» chapter). Loot: rare runes and mithril scrolls."
-	]
-	quest.682C987E312106E8.title: "Sunken City"
-	quest.682C987E312106E8.quest_subtitle: "The Leviathan's lair"
-	quest.682C987E312106E8.quest_desc: [
-		"A city on the ocean floor, with the way to the Leviathan. &lBring:&r water breathing for the whole team and a trident."
-	]
-	quest.65DEA3AA471B1627.title: "Ancient Factory"
-	quest.65DEA3AA471B1627.quest_subtitle: "The Harbinger's lair"
-	quest.65DEA3AA471B1627.quest_desc: [
-		"A mechanical dungeon deep underground: the road to the Harbinger from the «Bosses» chapter."
-	]
-	quest.1D9ABAB93B21593F.title: "The Labyrinth"
-	quest.1D9ABAB93B21593F.quest_subtitle: "Twilight Forest"
-	quest.1D9ABAB93B21593F.quest_desc: [
-		"An underground labyrinth beneath the swamp. A maze map (made from a map and a maze core) shows the way to the Minoshroom."
-	]
-	quest.0233DEB78E99055C.title: "Hive Temple"
-	quest.0233DEB78E99055C.quest_subtitle: "Bumblezone"
-	quest.0233DEB78E99055C.quest_desc: [
-		"The heart of the bee dimension. Don't anger the bees: wear bee armour and keep honey handy."
-	]
-	quest.57FDCFE312B601D6.title: "Bronze Dungeon"
-	quest.57FDCFE312B601D6.quest_subtitle: "The Aether"
-	quest.57FDCFE312B601D6.quest_desc: [
-		"The first Aether dungeon, home of the Slider. Its key opens the reward chest."
-	]
-	quest.6493D15E22B26AAA.title: "Brass Dungeon"
-	quest.6493D15E22B26AAA.quest_subtitle: "Deep Aether"
-	quest.6493D15E22B26AAA.quest_desc: [
-		"A Deep Aether dungeon with mechanical guardians. Loot: Stormforged armour templates."
-	]
-	quest.41271CF75F0F514B.title: "Ancient Temple"
-	quest.41271CF75F0F514B.quest_subtitle: "The Otherside"
-	quest.41271CF75F0F514B.quest_desc: [
-		"A temple deep in the Otherside: silence is mandatory. Loot: the Heart of the Deep and the way to the Stalker."
-	]
-	quest.18D1F60CD2B50700.title: "End Castle"
-	quest.18D1F60CD2B50700.quest_subtitle: "Dungeons & Taverns"
-	quest.18D1F60CD2B50700.quest_desc: [
-		"A castle on the far End islands: shulkers, chests, and a road to elytra if you haven't found an End city yet."
-	]
-	quest.5A9C5F24AD35D296.title: "Tomb Raider"
-	quest.5A9C5F24AD35D296.quest_subtitle: "Nine great dungeons"
-	quest.5A9C5F24AD35D296.quest_desc: [
-		"You've seen the heavens and the depths of this world. Share your finds on the map (Xaero → waypoints → share) so friends can follow."
+	quest.2B5661B8607D6510.title: "World Wanderer"
+	quest.2B5661B8607D6510.quest_subtitle: "Been everywhere, seen everything"
+	quest.2B5661B8607D6510.quest_desc: [
+		"Sky, abyss, hive, silence and void. Put a waystone at every portal: the next traveller will thank you."
 	]
 	chapter.1D555EC874F7223F.title: "The Aether"
 	chapter.1D555EC874F7223F.chapter_subtitle: [
@@ -6025,93 +6113,232 @@
 	quest.3864AD324F7C2EAD.quest_desc: [
 		"Three dungeons cleared, the Sun Spirit defeated."
 	]
-	chapter.3E92433C873CD4AC.title: "Other Worlds"
-	chapter.3E92433C873CD4AC.chapter_subtitle: [
-		"What to gather in each dimension, and why to come back"
+	chapter.5C3C5449885B5EAF.title: "Cataclysm"
+	chapter.5C3C5449885B5EAF.chapter_subtitle: [
+		"Ignis, the Monstrosity, the Leviathan and weapons forged from their hearts"
 	]
-	quest.2D77445198E97346.title: "A Map of Worlds"
-	quest.2D77445198E97346.quest_subtitle: "Where and why"
-	quest.2D77445198E97346.quest_desc: [
-		"&lThe Aether&r (sky islands): light metals, flight, gentle animals. &lDeep Aether&r extends it with its own ores."
-		"&lThe Undergarden&r (below bedrock): dark caves, the best armour metals."
-		"&lThe Bumblezone&r: bees, honey, royal jelly."
-		"&lThe Otherside&r (through a sculk portal): dangerous, but it has Warden armour."
-		"&lThe Twilight Forest&r: a chain of bosses («Adventure»). &lThe End&r: elytra, shulkers, the void."
+	quest.6B0239F4A91328CE.title: "Boss Eyes"
+	quest.6B0239F4A91328CE.quest_desc: [
+		"&lWhy:&r Each boss sleeps in its own structure; craft its eye to find it. Go as a team."
 	]
-	quest.330A2A98C519162A.title: "Skyjade"
-	quest.330A2A98C519162A.quest_subtitle: "Deep Aether"
-	quest.330A2A98C519162A.quest_desc: [
-		"A Deep Aether ore. It makes light, fast tools and armour, a step between zanite and stormforged gear."
+	quest.72271F44CF818EB3.title: "Eye of Monstrous"
+	quest.72271F44CF818EB3.quest_desc: [
+		"&lWhy:&r Leads to the Soul Blacksmith in the Nether."
 	]
-	quest.266F8321887A4C29.title: "Stratus"
-	quest.266F8321887A4C29.quest_subtitle: "Cloud armour"
-	quest.266F8321887A4C29.quest_desc: [
-		"Stratus armour makes you faster in the sky. Good for exploring the Aether by airship or on foot over the clouds."
+	quest.2702FC0751B9D94C.title: "Soul Blacksmith"
+	quest.2702FC0751B9D94C.quest_desc: [
+		"&lWhy:&r A forge deep in the Nether; the Monstrosity sleeps by the furnace."
 	]
-	quest.2F5CB4C9BE71E92E.title: "Aerwhale Saddle"
-	quest.2F5CB4C9BE71E92E.quest_subtitle: "A flying mount"
-	quest.2F5CB4C9BE71E92E.quest_desc: [
-		"The Aether's aerwhale drifts peacefully through the air. With a saddle you can ride it: slow, but beautiful."
+	quest.0D409B1B1A356229.title: "Netherite Monstrosity"
+	quest.0D409B1B1A356229.quest_desc: [
+		"&lWhy:&r Slow but devastating; stay at its side and dodge the lava slams."
 	]
-	quest.41B2832A942564A8.title: "Cloggrum"
-	quest.41B2832A942564A8.quest_subtitle: "The Undergarden"
-	quest.41B2832A942564A8.quest_desc: [
-		"The Undergarden's first metal, sturdier than iron. Next come froststeel and utherium, each with a bonus against local monsters."
+	quest.37EB413D543566D3.title: "Monstrous Helm"
+	quest.37EB413D543566D3.quest_desc: [
+		"While worn, if you fall below half health knock back nearby entities"
 	]
-	quest.4A7C65037569EC58.title: "Utherium"
-	quest.4A7C65037569EC58.quest_subtitle: "Against the rotten"
-	quest.4A7C65037569EC58.quest_desc: [
-		"Utherium weapons hit Undergarden rotspawn harder: take one to the catacombs."
+	quest.358CC6629333345D.title: "Infernal Forge"
+	quest.358CC6629333345D.quest_desc: [
+		"&lWhy:&r The Monstrosity's hammer: area slams."
+		"When in your main hand, right click at a block to cause AOE damage"
 	]
-	quest.557D7ED45056F22C.title: "Gloomgourd"
-	quest.557D7ED45056F22C.quest_subtitle: "Food without sun"
-	quest.557D7ED45056F22C.quest_desc: [
-		"There's no sun in the Undergarden, but it has its own crops. The gloomgourd is the base of local cuisine (pie!) and food variety."
+	quest.78D65F1F74044D75.title: "Mechanical Fusion Anvil"
+	quest.78D65F1F74044D75.quest_desc: [
+		"&lWhy:&r Fuses top-tier Cataclysm gear."
 	]
-	quest.1AD3AAF02A0AEC65.title: "Royal Jelly"
-	quest.1AD3AAF02A0AEC65.quest_subtitle: "Bumblezone"
-	quest.1AD3AAF02A0AEC65.quest_desc: [
-		"The Bumblezone's most valuable prize. Used for bee armour and tonics, and Productive Bees keepers need it for rare breeds."
+	quest.7FE08E26172BFAF6.title: "Netherite Effigy"
+	quest.7FE08E26172BFAF6.quest_desc: [
+		"Summon Netherite Ministrosity, can be tamed through Lava Power Cell"
 	]
-	quest.538CE3778B5E486F.title: "Bee Armour"
-	quest.538CE3778B5E486F.quest_subtitle: "One of the hive"
-	quest.538CE3778B5E486F.quest_desc: [
-		"Bee armour calms the bees and helps you stay airborne (details in the item tooltips). The full set is your pass to the deepest hives."
+	quest.4AF2C26F2B218882.title: "Eye of Flame"
+	quest.4AF2C26F2B218882.quest_desc: [
+		"&lWhy:&r Leads to the Burning Arena."
 	]
-	quest.327022E9A286F5E3.title: "Essence of the Bees"
-	quest.327022E9A286F5E3.quest_subtitle: "Sanctum trials"
-	quest.327022E9A286F5E3.quest_desc: [
-		"Bumblezone sanctums run trials: beat one and you get an essence. Its effect is in the item tooltip."
+	quest.4E4236D28AFB6F57.title: "Burning Arena"
+	quest.4E4236D28AFB6F57.quest_desc: [
+		"&lWhy:&r Light the fire altar to summon Ignis."
 	]
-	quest.774EC0F3488A630B.title: "Reinforced Echo Shard"
-	quest.774EC0F3488A630B.quest_subtitle: "Deeper Darker"
-	quest.774EC0F3488A630B.quest_desc: [
-		"Echo shards from the Otherside: material for portals and upgrades. Gather them quietly: any noise calls the sculk guardians."
+	quest.2F1F7F34A0DEFF5C.title: "Ignis"
+	quest.2F1F7F34A0DEFF5C.quest_desc: [
+		"&lWhy:&r Three phases; parry with a shield to open him up."
 	]
-	quest.07ACEBF0D34DBEB0.title: "Resonarium"
-	quest.07ACEBF0D34DBEB0.quest_subtitle: "A sound metal"
-	quest.07ACEBF0D34DBEB0.quest_desc: [
-		"A metal that resonates with sound. Resonarium tools cut sculk, and the armour muffles your steps."
+	quest.707A85C111EC71EB.title: "Ignitium"
+	quest.707A85C111EC71EB.quest_desc: [
+		"&lWhy:&r The template upgrades netherite to ignitium."
 	]
-	quest.7C11137082F10408.title: "Warden Armour"
-	quest.7C11137082F10408.quest_subtitle: "Better than netherite"
-	quest.7C11137082F10408.quest_desc: [
-		"An upgrade of netherite armour at a smithing table (recipe in EMI). Tougher than netherite, and it makes you quieter."
+	quest.7060B6E399DF7354.title: "Ignitium Armor"
+	quest.7060B6E399DF7354.quest_desc: [
+		"&lWhy:&r Lava sight, lava walking; the chestplate merges with elytra."
 	]
-	quest.3CC5C3F80E21EBE7.title: "Shulker Shells"
-	quest.3CC5C3F80E21EBE7.quest_subtitle: "The End"
-	quest.3CC5C3F80E21EBE7.quest_desc: [
-		"Shulker boxes are portable chests. Everyone loves them: builders, miners, travellers. Hunt in End cities and Dungeons & Taverns castles."
+	quest.566410A2772CF7C9.title: "Ignitium Elytra Chestplate"
+	quest.566410A2772CF7C9.quest_desc: [
+		"&lWhy:&r Fly without giving up the chestplate."
 	]
-	quest.1CC4A7924CB673E5.title: "Elytra"
-	quest.1CC4A7924CB673E5.quest_subtitle: "Wings"
-	quest.1CC4A7924CB673E5.quest_desc: [
-		"Elytra from an End ship. Rockets, Mending, and you fly anywhere. The End islands are more varied now (Nullscape): search far from the centre."
+	quest.5509C355B2E51C5B.title: "Bulwark of the Flame"
+	quest.5509C355B2E51C5B.quest_desc: [
+		"Release while sneaking to charge forward and damage entities in front"
 	]
-	quest.2B5661B8607D6510.title: "World Wanderer"
-	quest.2B5661B8607D6510.quest_subtitle: "Been everywhere, seen everything"
-	quest.2B5661B8607D6510.quest_desc: [
-		"Sky, abyss, hive, silence and void. Put a waystone at every portal: the next traveller will thank you."
+	quest.3282A9FFAF120EDC.title: "The Incinerator"
+	quest.3282A9FFAF120EDC.quest_desc: [
+		"&lWhy:&r Fire pillars; they burn dropped items."
+	]
+	quest.501F5D9A88B3077C.title: "Blazing Grips"
+	quest.501F5D9A88B3077C.quest_desc: [
+		"On hit, there is a chance to apply Blazing Brand to the target"
+	]
+	quest.7CF748B04341886A.title: "Void Core"
+	quest.7CF748B04341886A.quest_desc: [
+		"Right click to summon Void Runes"
+	]
+	quest.170AB93D557D27B5.title: "Gauntlet of Guard"
+	quest.170AB93D557D27B5.quest_desc: [
+		"When in your main hand, right click to pull entities"
+	]
+	quest.2C17B18E5893B7D2.title: "Void Forge"
+	quest.2C17B18E5893B7D2.quest_desc: [
+		"When in main hand, right click at a block to summon Void Runes in a fan shape"
+	]
+	quest.19870AAD7C79C411.title: "Ender Golem"
+	quest.19870AAD7C79C411.quest_desc: [
+		"&lWhy:&r Avoid the glowing void runes under your feet."
+	]
+	quest.076817D007F75FDD.title: "Enderite Ingot"
+	quest.076817D007F75FDD.quest_desc: [
+		"&lWhy:&r Material for void weapons."
+	]
+	quest.5347C81AEB9C341D.title: "Eye of Abyss"
+	quest.5347C81AEB9C341D.quest_desc: [
+		"&lWhy:&r Leads to the sunken city."
+	]
+	quest.63FE96C2B6606DA9.title: "Tidal Claws"
+	quest.63FE96C2B6606DA9.quest_desc: [
+		"&lWhy:&r A grappling hook to pull yourself in."
+		"Right click to fire a grappling hook"
+	]
+	quest.7A3FEBF83761CC7A.title: "Abyssal Egg"
+	quest.7A3FEBF83761CC7A.quest_desc: [
+		"&lWhy:&r Hatches a tame baby Leviathan."
+	]
+	quest.14111229BDEAED1D.title: "Coralssus"
+	quest.14111229BDEAED1D.quest_desc: [
+		"&lWhy:&r A coral giant; sidestep its charge."
+	]
+	quest.35B16BE62398D658.title: "Coral Weapons"
+	quest.35B16BE62398D658.quest_desc: [
+		"&lWhy:&r Good weapons for underwater fights."
+	]
+	quest.3ECC2C58C7C1444E.title: "Azure Sea Shield"
+	quest.3ECC2C58C7C1444E.quest_desc: [
+		"&lWhy:&r Scylla's shield."
+	]
+	quest.19559516FB1134F0.title: "Ceraunus"
+	quest.19559516FB1134F0.quest_desc: [
+		"You can Throw the Anchor"
+	]
+	quest.5070203F7A73344C.title: "Astrape"
+	quest.5070203F7A73344C.quest_desc: [
+		"Right click to shoot a Lightning Spear"
+	]
+	quest.65641002583081AD.title: "Eye of Mech"
+	quest.65641002583081AD.quest_desc: [
+		"&lWhy:&r Leads to the ancient factory."
+	]
+	quest.72A78A25DF757261.title: "The Prowler"
+	quest.72A78A25DF757261.quest_desc: [
+		"&lWhy:&r A laser-firing mech spider; use the pillars."
+	]
+	quest.5D9ECE38934C5D09.title: "Wither Assault Shoulder Weapon"
+	quest.5D9ECE38934C5D09.quest_desc: [
+		"Right click to shoot Wither Missiles"
+	]
+	quest.294B560EDD7DA424.title: "Laser Gatling"
+	quest.294B560EDD7DA424.quest_desc: [
+		"You can reload with the Redstone in your inventory"
+	]
+	quest.2BDDCFE4B8CD8AFB.title: "Witherite Ingot"
+	quest.2BDDCFE4B8CD8AFB.quest_desc: [
+		"&lWhy:&r Alloy for missile weapons."
+	]
+	quest.4AD5119537D623EF.title: "Eye of Desert"
+	quest.4AD5119537D623EF.quest_desc: [
+		"&lWhy:&r Leads to the cursed pyramid."
+	]
+	quest.36BCC059E4D54458.title: "Cursed Pyramid"
+	quest.36BCC059E4D54458.quest_desc: [
+		"&lWhy:&r Traps everywhere: falling sand, fire, darts."
+	]
+	quest.48DBA50CE351F9F1.title: "Necklace of the desert"
+	quest.48DBA50CE351F9F1.quest_desc: [
+		"It looks like you can wake something up......"
+	]
+	quest.30E1574759A1ED41.title: "Wrath of the Desert"
+	quest.30E1574759A1ED41.quest_desc: [
+		"&lWhy:&r Sandstorm bow and bottled storms."
+		"Fires three cursed sandstorms"
+	]
+	quest.249DF8692D6AF727.title: "Khopesh"
+	quest.249DF8692D6AF727.quest_desc: [
+		"&lWhy:&r Fast sweeping desert blade."
+	]
+	quest.640839E0F72CBF82.title: "Kobolediator"
+	quest.640839E0F72CBF82.quest_desc: [
+		"&lWhy:&r Kill the thieving koboldeons first."
+	]
+	quest.53870F00F00B36B8.title: "Sticky Gloves"
+	quest.53870F00F00B36B8.quest_desc: [
+		"Block the looting of Koboleton"
+	]
+	quest.6FA277D6E33EEF1D.title: "Wadjet"
+	quest.6FA277D6E33EEF1D.quest_desc: [
+		"&lWhy:&r Poison spit: bring milk."
+	]
+	quest.51E02638B5244131.title: "Eye of Curse"
+	quest.51E02638B5244131.quest_desc: [
+		"&lWhy:&r Leads to the Frosted Prison."
+	]
+	quest.6E68BAC601531C7F.title: "Frosted Prison"
+	quest.6E68BAC601531C7F.quest_desc: [
+		"&lWhy:&r An icy prison full of draugr."
+	]
+	quest.1CE2BA9020BFB2BE.title: "Aptrgangr"
+	quest.1CE2BA9020BFB2BE.quest_desc: [
+		"&lWhy:&r Slow wide swings: step back, not aside."
+	]
+	quest.294AF5BCD22280CE.title: "Cursium"
+	quest.294AF5BCD22280CE.quest_desc: [
+		"&lWhy:&r The template upgrades netherite armor to cursium."
+	]
+	quest.756DA255BF7A86EB.title: "Cursium Armor"
+	quest.756DA255BF7A86EB.quest_desc: [
+		"&lWhy:&r Ghost sight, dodge, featherfall, and a chestplate that revives you."
+	]
+	quest.0D8A50688B12EBBC.title: "Soul Render"
+	quest.0D8A50688B12EBBC.quest_desc: [
+		"You can Rush of Render"
+	]
+	quest.3CE0C222EE372367.title: "Cursed Bow"
+	quest.3CE0C222EE372367.quest_desc: [
+		"You can shoot 3 Phantom Arrows"
+	]
+	quest.73C5B755D851E8D3.title: "The Annihilator"
+	quest.73C5B755D851E8D3.quest_desc: [
+		"&lWhy:&r Huge crits, area attack two-handed."
+	]
+	quest.1AE098A84FEE3785.title: "Amethyst Crab"
+	quest.1AE098A84FEE3785.quest_desc: [
+		"&lWhy:&r Its blessed meat protects from Darkness."
+	]
+	quest.3C370B783F2158A4.title: "Blessed Amethyst Crab Meat"
+	quest.3C370B783F2158A4.quest_desc: [
+		"Be affected by the blessing effect. It is immune to darkness, abyssal fear and abyssal burn during the blessing effect"
+	]
+	quest.29F7DF699536A40D.title: "Bloom Stone Pauldrons"
+	quest.29F7DF699536A40D.quest_desc: [
+		"&lWhy:&r Release a swarm of amethyst shards."
+	]
+	quest.0C911114C0E16E1C.title: "Cataclysm Survivor"
+	quest.0C911114C0E16E1C.quest_desc: [
+		"Every Cataclysm boss has fallen; their hearts are in your armor."
 	]
 	chapter.4499A461977E88CA.title: "Weapons & Gear"
 	chapter.4499A461977E88CA.chapter_subtitle: [
