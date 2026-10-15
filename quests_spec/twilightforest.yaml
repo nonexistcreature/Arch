@@ -1,0 +1,388 @@
+# Twilight Forest: progression advancements and the explorer's notes (twilightforest.book.*) are translated.
+chapter:
+  id: twilight
+  order: 16.5
+  icon: twilightforest:naga_trophy
+  ru: {title: "Сумеречный лес", subtitle: "Путь через барьеры: от Наги до Снежной королевы"}
+  en: {title: "Twilight Forest", subtitle: "Through the barriers: from the Naga to the Snow Queen"}
+lang: [twilightforest]
+out: twilight_gen
+quests:
+  # --- arrival
+  - id: tfg_portal
+    deps: [adv_twilight]
+    shape: gear
+    roles: [warrior, gardener]
+    icon: twilightforest:twilight_portal_miniature_structure
+    tasks: [{type: dimension, dimension: twilightforest:twilight_forest}]
+    title: {ru: "Сквозь портал", en: "Through the Portal"}
+    doc: advancement.twilightforest.root.desc
+    why: {ru: "Портал: яма 2×2 с водой, обложенная цветами, и брошенный в неё алмаз. Лес вечно сумеречный — мобы тут злее, но лут того стоит. Барьеры не пустят дальше, пока не победишь босса прошлой зоны.", en: "A 2x2 water pool ringed with flowers plus a diamond. Barriers block the way until you beat the previous boss."}
+  - id: tfg_magic_map
+    deps: [tfg_portal]
+    roles: [warrior]
+    items: [twilightforest:magic_map_focus, twilightforest:magic_map]
+    title: {ru: "Волшебная карта", en: "Magic Map"}
+    why: {ru: "Перо ворона + светлячок + порошок из корней — фокус карты. Карта показывает биомы и все главные постройки леса.", en: "Shows biomes and the forest's main structures."}
+  - id: tfg_hunter
+    deps: [tfg_portal]
+    roles: [warrior, cook]
+    items: [twilightforest:raw_venison*4, twilightforest:raven_feather*2]
+    title: {ru: "Местная фауна", en: "Local Wildlife"}
+    doc: advancement.twilightforest.twilight_hunter.desc
+    why: {en: 'Deer, boars and ravens: meat and feathers.', ru: 'Олени, кабаны и вороны — мясо и перья для карты.'}
+  - id: tfg_hollow_hill
+    deps: [tfg_portal]
+    roles: [warrior]
+    icon: twilightforest:torchberries
+    tasks: [{type: structure, structure: twilightforest:small_hollow_hill}]
+    title: {ru: "Полый холм", en: "Hollow Hill"}
+    why: {ru: "Холмы полны руды, сундуков и спавнеров. Чем больше холм, тем глубже и опаснее.", en: "Hills full of ore, chests and spawners."}
+  - id: tfg_hedge_maze
+    deps: [tfg_portal]
+    roles: [warrior]
+    icon: twilightforest:hedge
+    tasks: [{type: structure, structure: twilightforest:hedge_maze}]
+    title: {ru: "Лабиринт из изгороди", en: "Hedge Maze"}
+    doc: advancement.twilightforest.hedge.desc
+    why: {en: The hedge hurts; follow the paths to the chests., ru: 'Колючая изгородь ранит — иди по тропинкам. В центре сундуки, а пауки в зарослях.'}
+  - id: tfg_quest_grove
+    deps: [tfg_portal]
+    roles: [breeder]
+    icon: twilightforest:quest_ram_trophy
+    tasks: [{type: structure, structure: twilightforest:quest_grove}]
+    title: {ru: "Роща квестового барана", en: "Quest Grove"}
+    why: {ru: "В роще живёт разноцветный баран. Скорми ему шерсть всех 16 цветов — и он отблагодарит сундуком с наградой.", en: "Feed the ram wool of all 16 colours for a reward."}
+  - id: tfg_uncrafting
+    deps: [tfg_portal]
+    roles: [engineer]
+    items: [twilightforest:uncrafting_table]
+    why: {ru: "Разбирает предмет обратно на ингредиенты (дорого в опыте). Найденный кривой лут — в материалы.", en: "Breaks items back into ingredients for XP."}
+  - id: tfg_berries
+    deps: [tfg_portal]
+    roles: [cook, gardener]
+    items: [twilightforest:torchberries*4, twilightforest:mushgloom*4]
+    title: {ru: "Дары сумерек", en: "Gifts of the Dusk"}
+    why: {ru: "Факельные ягоды светятся — растут в корнях пещер. Плодовые кусты дают ягоды для кухни.", en: "Glowing torchberries and dusk fruit."}
+  - id: tfg_dining
+    deps: [tfg_berries, tfg_hunter]
+    roles: [cook]
+    items: [twilightforest:cooked_venison*2, twilightforest:maze_wafer*4]
+    title: {ru: "Сумеречная кухня", en: "Twilight Dining"}
+    doc: advancement.twilightforest.twilight_dining.desc
+  # --- Naga
+    why: {en: Venison and maze wafers., ru: Оленина и вафли лабиринта — местная кухня.}
+  - id: tfg_naga_court
+    deps: [tfg_magic_map]
+    roles: [warrior]
+    icon: twilightforest:nagastone_head
+    tasks: [{type: structure, structure: twilightforest:naga_courtyard}]
+    title: {ru: "Двор Наги", en: "Naga Courtyard"}
+    why: {ru: "Нага — огромная змея: бей в голову и уходи от рывков. Не стой спиной к стене.", en: "Hit the head, dodge the charges."}
+  - id: tfg_naga_armor
+    deps: [adv_naga]
+    roles: [warrior]
+    items: [twilightforest:naga_chestplate, twilightforest:naga_leggings]
+    title: {ru: "Броня из чешуи наги", en: "Naga Scale Armor"}
+    doc: advancement.twilightforest.naga_armors.desc
+    why: {ru: "Нагрудник и поножи из чешуи — защита как у железа, но легче и надёжнее.", en: "Iron-level protection from naga scales."}
+  - id: tfg_naga_trophy
+    deps: [adv_naga]
+    roles: [builder]
+    items: [twilightforest:naga_trophy]
+  # --- Lich
+    why: {en: 'The Naga''s head, your first trophy.', ru: Голова Наги — первый трофей. Пьедестал для трофеев ждёт её в руинах тёмного леса.}
+  - id: tfg_lich_tower
+    deps: [adv_naga]
+    roles: [warrior, mage]
+    icon: twilightforest:lich_tower_miniature_structure
+    tasks: [{type: structure, structure: twilightforest:lich_tower}]
+    title: {ru: "Башня лича", en: "Lich Tower"}
+    doc: twilightforest.book.lichtower.1
+    why: {ru: "Лич сначала прячется за щитами — сбивай их стрелами или снарядами, потом бей. Его миньоны воскрешают павших.", en: "Break his shields with ranged hits first."}
+  - id: tfg_scepters
+    deps: [adv_lich]
+    roles: [mage]
+    items: [twilightforest:twilight_scepter, twilightforest:lifedrain_scepter, twilightforest:zombie_scepter, twilightforest:fortification_scepter]
+    title: {ru: "Четыре скипетра", en: "The Four Scepters"}
+    doc: advancement.twilightforest.lich_scepters.desc
+    why: {ru: "Сумеречный стреляет, жизнекрад лечит тебя за счёт врага, зомби-скипетр призывает союзников, укрепления даёт щиты.", en: "Bolts, life drain, zombie allies and shields."}
+  - id: tfg_lich_trophy
+    deps: [adv_lich]
+    roles: [builder]
+    items: [twilightforest:lich_trophy]
+    why: {en: The Lich's trophy., ru: Трофей лича. Поставь рядом с головой Наги.}
+  - id: tfg_ironwood_tools
+    deps: [adv_ironwood]
+    roles: [warrior, engineer]
+    items: [twilightforest:ironwood_helmet, twilightforest:ironwood_chestplate, twilightforest:ironwood_leggings, twilightforest:ironwood_boots]
+    title: {ru: "Броня из железного дерева", en: "Ironwood Armor"}
+    why: {ru: "Сразу зачарована на защиту — хороший комплект в начале леса.", en: "Comes pre-enchanted with protection."}
+  - id: tfg_steeleaf
+    deps: [tfg_portal]
+    roles: [warrior, gardener]
+    items: [twilightforest:steeleaf_helmet, twilightforest:steeleaf_chestplate, twilightforest:steeleaf_leggings, twilightforest:steeleaf_boots]
+    title: {ru: "Стальной лист", en: "Steeleaf Armor"}
+    why: {ru: "Листья, крепкие как сталь: падают с мобов-«листовиков» в лесу. Броня зачарована на защиту от снарядов.", en: "Steel-hard leaves; armor with projectile protection."}
+  - id: tfg_steeleaf_tools
+    deps: [tfg_steeleaf]
+    roles: [warrior, gardener]
+    items: [twilightforest:steeleaf_sword, twilightforest:steeleaf_pickaxe, twilightforest:steeleaf_axe]
+    title: {ru: "Инструменты из стального листа", en: "Steeleaf Tools"}
+  # --- swamp and labyrinth
+    why: {en: 'Pre-enchanted: looting sword, fortune pickaxe.', ru: 'Зачарованы сразу: меч — на добычу, кирка — на удачу.'}
+  - id: tfg_labyrinth
+    deps: [adv_lich]
+    roles: [warrior]
+    icon: twilightforest:mazestone
+    tasks: [{type: structure, structure: twilightforest:labyrinth}]
+    title: {ru: "Лабиринт минотавра", en: "Minotaur Labyrinth"}
+    doc: twilightforest.book.labyrinth.1
+  - id: tfg_maze_map
+    deps: [tfg_labyrinth]
+    roles: [warrior]
+    items: [twilightforest:maze_map_focus, twilightforest:maze_map]
+    doc: advancement.twilightforest.maze_map.desc
+    why: {en: Shows the corridors around you., ru: Карта лабиринта показывает коридоры вокруг — без неё легко заблудиться.}
+  - id: tfg_mazebreaker
+    deps: [tfg_labyrinth]
+    roles: [engineer]
+    items: [twilightforest:mazebreaker_pickaxe]
+    title: {ru: "Кирка разрушителя лабиринта", en: "Mazebreaker Pickaxe"}
+    why: {ru: "Ломает камень лабиринта как песок. Лежит в тайном хранилище — ищи стены, которые звучат иначе.", en: "Breaks mazestone easily; found in a secret vault."}
+  - id: tfg_minotaur_axe
+    deps: [adv_minoshroom]
+    roles: [warrior]
+    items: [twilightforest:diamond_minotaur_axe]
+    why: {ru: "Топор минотавра наносит двойной урон при рывке.", en: "Double damage while charging."}
+  - id: tfg_stroganoff
+    deps: [adv_minoshroom]
+    roles: [cook]
+    items: [twilightforest:meef_stroganoff]
+    doc: advancement.twilightforest.progress_labyrinth.desc
+    why: {ru: "Строганов из мифического мяса — съешь его, и жар огненного болота больше не жжёт.", en: "Eat it to endure the Fire Swamp's heat."}
+  - id: tfg_hydra_lair
+    deps: [tfg_stroganoff]
+    roles: [warrior]
+    icon: twilightforest:hydra_trophy
+    tasks: [{type: structure, structure: twilightforest:hydra_lair}]
+    title: {ru: "Логово гидры", en: "Hydra Lair"}
+    doc: twilightforest.book.hydralair.1
+    why: {ru: "Гидра плюётся огнём и бомбами. Бей в открытые пасти — каждую голову нужно отрубить. Огнестойкость обязательна.", en: "Hit the open mouths. Fire resistance required."}
+  - id: tfg_fiery
+    deps: [adv_hydra]
+    roles: [warrior, engineer]
+    items: [twilightforest:fiery_blood, twilightforest:fiery_ingot*4]
+    title: {ru: "Огненная кровь", en: "Fiery Blood"}
+    why: {ru: "Кровь гидры + железо = огненный слиток. Огненные инструменты сразу плавят добычу.", en: "Hydra blood + iron = fiery ingots; tools auto-smelt."}
+  - id: tfg_fiery_set
+    deps: [tfg_fiery]
+    roles: [warrior]
+    items: [twilightforest:fiery_helmet, twilightforest:fiery_chestplate, twilightforest:fiery_leggings, twilightforest:fiery_boots]
+    title: {ru: "Огненная броня", en: "Fiery Armor"}
+    doc: advancement.twilightforest.fiery_set.desc
+    why: {ru: "Поджигает тех, кто тебя бьёт, и защищает от огня.", en: "Burns attackers, protects from fire."}
+  - id: tfg_fiery_tools
+    deps: [tfg_fiery]
+    roles: [warrior, engineer]
+    items: [twilightforest:fiery_sword, twilightforest:fiery_pickaxe]
+    why: {en: The pickaxe smelts ore as you mine; the sword burns., ru: 'Огненная кирка сразу переплавляет руду, меч поджигает.'}
+  - id: tfg_hydra_chop
+    deps: [adv_hydra]
+    roles: [cook]
+    items: [twilightforest:hydra_chop]
+    why: {ru: "Отбивная из гидры — лучшая еда в лесу: восполняет почти весь голод и даёт регенерацию.", en: "The best food in the forest."}
+  # --- dark forest and knights
+  - id: tfg_stronghold
+    deps: [adv_lich]
+    roles: [warrior]
+    icon: twilightforest:knightmetal_ingot
+    tasks: [{type: structure, structure: twilightforest:knight_stronghold}]
+    title: {ru: "Крепость рыцарей", en: "Knight Stronghold"}
+    doc: twilightforest.book.tfstronghold.1
+    why: {ru: "В крепости бродят гоблины-рыцари в броне. Их доспехи разбираются на рыцарский металл. В глубине — склеп Рыцарей-призраков.", en: "Goblin knights drop knightmetal; phantoms wait below."}
+  - id: tfg_knightmetal
+    deps: [tfg_stronghold]
+    roles: [warrior, engineer]
+    items: [twilightforest:armor_shard*9, twilightforest:knightmetal_ingot*4]
+    title: {ru: "Рыцарский металл", en: "Knightmetal"}
+    why: {ru: "Осколки брони гоблинов сплавляются в слитки. Рыцарский металл — следующая ступень после алмаза.", en: "Armor shards become knightmetal, a step past diamond."}
+  - id: tfg_knightmetal_set
+    deps: [tfg_knightmetal]
+    roles: [warrior]
+    items: [twilightforest:knightmetal_helmet, twilightforest:knightmetal_chestplate, twilightforest:knightmetal_leggings, twilightforest:knightmetal_boots]
+    title: {ru: "Рыцарская броня", en: "Knightmetal Armor"}
+    why: {ru: "Очень прочная, гасит часть урона от сильных ударов.", en: "Very durable, softens heavy hits."}
+  - id: tfg_knightmetal_weapons
+    deps: [tfg_knightmetal]
+    roles: [warrior]
+    items: [twilightforest:knightmetal_sword, twilightforest:knightmetal_shield, twilightforest:block_and_chain]
+    title: {ru: "Рыцарское оружие", en: "Knightmetal Weapons"}
+    why: {ru: "Блок на цепи — метательный кистень, бьёт насквозь. Щит рыцаря держит любые удары.", en: "Block and chain: a thrown flail."}
+  - id: tfg_phantom_set
+    deps: [adv_knight_phantom]
+    roles: [warrior]
+    items: [twilightforest:phantom_helmet, twilightforest:phantom_chestplate]
+    title: {ru: "Доспехи призрака", en: "Phantom Armor"}
+    why: {ru: "Призрачная броня не теряется при смерти — остаётся с тобой.", en: "Phantom armor stays with you on death."}
+  - id: tfg_dark_tower
+    deps: [adv_knight_phantom]
+    roles: [warrior, engineer]
+    icon: twilightforest:carminite
+    tasks: [{type: structure, structure: twilightforest:dark_tower}]
+    title: {ru: "Тёмная башня", en: "Dark Tower"}
+    doc: twilightforest.book.darktower.1
+    why: {ru: "Огромная башня с механизмами из карминита. Поднимайся этажами — наверху Ур-гаст.", en: "A tower of carminite devices; the Ur-Ghast waits on top."}
+  - id: tfg_carminite
+    deps: [tfg_dark_tower]
+    roles: [engineer]
+    items: [twilightforest:carminite*4, twilightforest:carminite_builder]
+    title: {ru: "Карминит", en: "Carminite"}
+    why: {ru: "Механизмы башни: строитель мостов, исчезающие блоки, реактор. Красиво работает в своих постройках.", en: "Tower mechanisms: builders, vanishing blocks, reactor."}
+  - id: tfg_ghast_trap
+    deps: [tfg_dark_tower]
+    roles: [warrior]
+    items: [twilightforest:ghast_trap]
+    doc: advancement.twilightforest.progress_ur_ghast.desc
+    why: {ru: "Убей гастлингов рядом с ловушкой и включи её — Ур-гаст рухнет вниз, где его можно бить.", en: "Kill ghastlings near the trap, then trigger it to pull the Ur-Ghast down."}
+  - id: tfg_fiery_tears
+    deps: [adv_ur_ghast]
+    roles: [mage]
+    items: [twilightforest:fiery_tears]
+  # --- highlands
+    why: {en: A powerful ingredient for potions and magic., ru: Слёзы Ур-гаста — сильный ингредиент для зелий и магии.}
+  - id: tfg_yeti_cave
+    deps: [adv_ur_ghast]
+    roles: [warrior]
+    icon: twilightforest:alpha_yeti_fur
+    tasks: [{type: structure, structure: twilightforest:yeti_cave}]
+    title: {ru: "Пещера йети", en: "Yeti Cave"}
+    doc: twilightforest.book.yeticave.1
+    why: {ru: "Альфа-йети швыряет ледяные глыбы. Метель не утихнет, пока он жив.", en: "The Alpha Yeti throws ice; the blizzard stops when he falls."}
+  - id: tfg_yeti_set
+    deps: [tfg_yeti_cave]
+    roles: [warrior]
+    items: [twilightforest:yeti_helmet, twilightforest:yeti_chestplate, twilightforest:yeti_leggings, twilightforest:yeti_boots]
+    title: {ru: "Меховая броня йети", en: "Yeti Armor"}
+    doc: advancement.twilightforest.progress_yeti.desc
+    why: {ru: "Тёплая броня: замораживает тех, кто тебя бьёт, и спасает от холода снежных земель.", en: "Freezes attackers, keeps you warm."}
+  - id: tfg_arctic_set
+    deps: [tfg_portal]
+    roles: [warrior, breeder]
+    items: [twilightforest:arctic_helmet, twilightforest:arctic_chestplate, twilightforest:arctic_leggings, twilightforest:arctic_boots]
+    title: {ru: "Арктическая броня", en: "Arctic Armor"}
+    doc: advancement.twilightforest.arctic_dyed.desc
+    why: {ru: "Мех арктических лис из снегов леса. Окрашивается в любой цвет.", en: "Arctic fox fur; dyeable."}
+  - id: tfg_aurora
+    deps: [tfg_yeti_cave]
+    roles: [warrior, mage]
+    icon: twilightforest:aurora_block
+    tasks: [{type: structure, structure: twilightforest:aurora_palace}]
+    title: {ru: "Дворец авроры", en: "Aurora Palace"}
+    doc: twilightforest.book.icetower.1
+  - id: tfg_ice_weapons
+    deps: [adv_snow_queen]
+    roles: [warrior]
+    items: [twilightforest:ice_bow, twilightforest:ice_sword]
+    title: {ru: "Ледяное оружие", en: "Ice Weapons"}
+    why: {ru: "Ледяной лук и меч замедляют врагов.", en: "Ice bow and sword slow enemies."}
+  - id: tfg_troll_cave
+    deps: [adv_snow_queen]
+    roles: [warrior]
+    icon: twilightforest:trollber
+    tasks: [{type: structure, structure: twilightforest:troll_cave}]
+    title: {ru: "Пещеры троллей", en: "Troll Caves"}
+    doc: twilightforest.book.trollcave.1
+    why: {ru: "Ищи там лампу пепла — только она сжигает колючки, закрывающие путь в высокогорье.", en: "Find the Lamp of Cinders to burn the thorns."}
+  - id: tfg_lamp
+    deps: [tfg_troll_cave]
+    roles: [warrior]
+    items: [twilightforest:lamp_of_cinders]
+    doc: advancement.twilightforest.progress_troll.desc
+    why: {en: The lamp burns away the thorns., ru: Лампа сжигает колючки — путь в высокогорье открыт.}
+  - id: tfg_beanstalk
+    deps: [tfg_troll_cave]
+    roles: [gardener]
+    items: [twilightforest:magic_beans]
+    why: {ru: "Волшебные бобы, посаженные на светящуюся землю под облаками, вырастают в стебель до облачного замка великанов.", en: "Magic beans grow a beanstalk to the giants' castle."}
+  - id: tfg_giants
+    deps: [tfg_beanstalk]
+    roles: [warrior, engineer]
+    items: [twilightforest:giant_pickaxe]
+    title: {ru: "Инструменты великанов", en: "Giant's Tools"}
+    why: {ru: "Великанская кирка копает 3×3×3, но тяжёлая. Великаны охраняют её в облаках.", en: "The giant pickaxe digs huge areas."}
+  # --- gear and loot
+  - id: tfg_charms
+    deps: [adv_naga]
+    roles: [warrior]
+    items: [twilightforest:charm_of_life_2, twilightforest:charm_of_keeping_1]
+    title: {ru: "Обереги", en: "Charms"}
+    why: {ru: "Оберег жизни спасает от смерти один раз, оберег хранения оставляет часть вещей при смерти.", en: "Charm of life saves you once; keeping keeps items on death."}
+  - id: tfg_bows
+    deps: [adv_lich]
+    roles: [warrior]
+    items: [twilightforest:triple_bow, twilightforest:seeker_bow, twilightforest:ender_bow]
+    title: {ru: "Луки сумерек", en: "Twilight Bows"}
+    why: {ru: "Тройной стреляет тремя стрелами, ищущий — самонаводится, лук Края телепортирует тебя к цели.", en: "Triple shot, homing and swap-teleport bows."}
+  - id: tfg_ore_magnet
+    deps: [adv_lich]
+    roles: [engineer]
+    items: [twilightforest:ore_magnet]
+    why: {ru: "Притягивает жилу руды к тебе сквозь камень.", en: "Pulls an ore vein to you through stone."}
+  - id: tfg_crumble_horn
+    deps: [adv_lich]
+    roles: [engineer]
+    items: [twilightforest:crumble_horn]
+    why: {en: Crumbles nearby stone to clear a path., ru: Рог крошит камень в гравий и булыжник вокруг — быстрый проход сквозь скалу.}
+  - id: tfg_peacock_fan
+    deps: [adv_lich]
+    roles: [warrior]
+    items: [twilightforest:peacock_feather_fan]
+    why: {ru: "Веер сдувает мобов и снаряды, а прыжок с ним даёт подъём в воздух.", en: "Blows mobs and projectiles away."}
+  - id: tfg_moonworm
+    deps: [adv_lich]
+    roles: [builder]
+    items: [twilightforest:moonworm_queen]
+    why: {ru: "Королева лунных червей бросает светящихся червей на стены — свет в пещерах без факелов.", en: "Throws glowing moonworms: light without torches."}
+  - id: tfg_travellers
+    deps: [tfg_portal]
+    roles: [warrior]
+    items: [twilightforest:travellers_boots, twilightforest:travellers_vest]
+    title: {ru: "Снаряжение путника", en: "Traveller's Gear"}
+    doc: advancement.twilightforest.craft_travellers_gear.desc
+    doc2: advancement.twilightforest.modify_travellers_gear.desc
+    why: {en: Traveller's gear takes modifiers., ru: 'Снаряжение путника можно улучшать модификаторами — пояс, ботинки, крылья.'}
+  - id: tfg_cicada
+    deps: [tfg_portal]
+    roles: [breeder]
+    items: [twilightforest:cicada_jar, twilightforest:firefly_jar]
+    title: {ru: "Банка с жуками", en: "Bug Jars"}
+    why: {ru: "Цикада стрекочет, светлячок светит — уютный декор и фонарь.", en: "Cozy decor and lanterns."}
+  - id: tfg_trophy_pedestal
+    deps: [adv_naga]
+    roles: [builder]
+    items: [twilightforest:trophy_pedestal]
+    doc: advancement.twilightforest.progress_trophy_pedestal.desc
+    why: {en: Place a trophy on the pedestal to earn your title., ru: Положи трофей на пьедестал в руинах тёмного леса — и рыцари признают твой титул.}
+  - id: tfg_trophies
+    deps: [adv_snow_queen]
+    roles: [builder]
+    items: [twilightforest:hydra_trophy, twilightforest:ur_ghast_trophy, twilightforest:snow_queen_trophy]
+    title: {ru: "Зал трофеев", en: "Trophy Hall"}
+    why: {ru: "Поставь головы боссов в зале ратуши — пусть новички видят, чего вы добились.", en: "Show off boss heads in your town hall."}
+  - id: tfg_final_castle
+    deps: [tfg_giants, adv_snow_queen]
+    roles: [warrior]
+    icon: twilightforest:castle_brick
+    tasks: [{type: structure, structure: twilightforest:final_castle}]
+    title: {ru: "Последний замок", en: "Final Castle"}
+    doc: advancement.twilightforest.progression_end.desc
+    why: {ru: "Замок на вершине высокогорья — конец пути. Пока здесь нет босса, но есть красивый вид.", en: "The end of the path, for now."}
+  - id: tfg_master
+    deps: [tfg_final_castle, tfg_knightmetal_set, tfg_fiery_set, tfg_yeti_set, tfg_scepters, tfg_trophies]
+    roles: [warrior]
+    shape: hexagon
+    icon: twilightforest:snow_queen_trophy
+    title: {ru: "Покоритель сумерек", en: "Conqueror of the Twilight"}
+    text: {ru: "Все барьеры сняты, все боссы повержены, все комплекты брони собраны. Сумеречный лес теперь безопаснее — для тех, кто идёт по твоим следам.", en: "All barriers lifted, all bosses down."}
+    rewards: [{type: xp_levels, count: 20}]

@@ -58,6 +58,7 @@ def lang_for(namespaces):
 
 def clean(t, limit=700):
     t = FMT.sub("", t or "").replace("\\n", NL).replace('\\"', '"').strip()
+    t = re.sub(r"\[\[[^\]]*\]\]\s*", "", t)  # Twilight Forest note headers
     t = re.sub(r"\n{3,}", NL + NL, t)
     t = re.sub(r"(?<!\w)_([^_\n]+)_(?!\w)", r"\1", t)  # Create tooltip highlight markup
     if len(t) > limit:
@@ -67,7 +68,9 @@ def clean(t, limit=700):
 
 
 def md_doc(path, limit=650):
-    """First paragraphs of a guide markdown page inside any jar (GuideME / AE2-style), without markup."""
+    """First paragraphs of a guide page inside any jar, without markup: GuideME/AE2 markdown, IE manual .txt,
+    or a Patchouli entry .json (`path.json#N` starts at page N; two pages are taken)."""
+    path, _, page = path.partition("#")
     for d in JAR_DIRS:
         for j in d.glob("*.jar"):
             try:
@@ -77,6 +80,9 @@ def md_doc(path, limit=650):
                     s = z.read(path).decode("utf8", "replace").replace("\r", "")
             except zipfile.BadZipFile:
                 continue
+            if path.endswith(".json"):
+                pages = [x.get("text", "") for x in json.loads(s).get("pages", []) if isinstance(x, dict)]
+                s = (NL + NL).join(x for x in pages[int(page or 0):int(page or 0) + 2] if x).replace("$(br)", NL + NL)
             if path.endswith(".txt"):  # Immersive Engineering manual: title, subtitle, then text with <br> and <&anchors>
                 s = (NL + NL).join(s.split(NL)[2:]).replace("<br>", NL + NL)
             s = re.sub(r"<link;[^;>]*;([^>]*)>", lambda m: m.group(1), s).replace("<np>", NL + NL)
@@ -123,9 +129,10 @@ def main():
                     scene = f"{ns[0]}.ponder.{key[7:]}"
                     lines = [clean(lang[f"{scene}.text_{i}"], 300) for i in range(1, 9) if f"{scene}.text_{i}" in lang]
                     return clean(" ".join(x if x.endswith((".", "!", "?")) else x + "." for x in lines), 600)
-                full = key if (key.split(".")[0] in ns or key.startswith(("book.", "item.", "block.", "entity.", "tooltip.", "description.", "advancements.", "info.", "guide."))) else f"{ns[0]}.{key}"
+                full = key if (key.split(".")[0] in ns or key.startswith(("book.", "item.", "block.", "entity.", "tooltip.", "description.", "advancements.", "advancement.", "info.", "guide.", "spell.", "effect."))) else f"{ns[0]}.{key}"
                 alts = [full, full.replace(".page1.", ".page."), full.replace(".page.", ".page1.")]
-                return next((clean(lang[a]) for a in alts if len(lang.get(a, "")) > 12), "")
+                ok = [a for a in alts if len(lang.get(a, "")) > 12 and not re.search(r"%(\d\$)?[sd]", lang[a])]  # skip texts with %s slots
+                return clean(lang[ok[0]]) if ok else ""
 
             res = {"id": q["id"], "tasks": tasks}
             for k in ("deps", "roles", "shape", "rewards", "pos", "optional", "repeatable"):

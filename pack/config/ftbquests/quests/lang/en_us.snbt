@@ -4300,6 +4300,317 @@
 		"Towers and camps of hostile mages dot the world — necromancers, pyromancers, cultists. This is &lzone 3&r."
 		"Beating them yields rare books, inks and school trophies. Go as a group and bring food."
 	]
+	quest.37CE8B7ABAD95E28.title: "Magic Structures"
+	quest.37CE8B7ABAD95E28.quest_desc: [
+		"&lWhy:&r Early magic is exploring: towers, huts and forts. Each has a strong mage."
+		"Early game progression is dominated by exploring and looting. The world is full of magic loot, especially in new magic structures that can be found dotted across the lands. But be careful! Each magic structure is home to a powerful mage, who will not take kindly to you."
+		"Scrolls will be your first taste of magic. While they can be consumed to cast the spell they hold, it is better to save them until you can inscribe it into a spell book, where it can be used repeatedly, via an Inscription Table >>>"
+	]
+	quest.5D7DD45CF34F8B76.title: "Pyromancer Tower"
+	quest.5D7DD45CF34F8B76.quest_desc: [
+		"&lWhy:&r Find a pyromancer tower: fire scrolls inside."
+	]
+	quest.3AA33F1AB8EA6FA0.title: "Evoker Fort"
+	quest.3AA33F1AB8EA6FA0.quest_desc: [
+		"&lWhy:&r An illager mage fortress. Go as a group."
+	]
+	quest.4E016BB473E77206.title: "Mountain Tower"
+	quest.4E016BB473E77206.quest_desc: [
+		"&lWhy:&r A mountain tower with cryomancers and ice scrolls."
+	]
+	quest.649DBD9BAE8C8D1C.title: "Catacombs"
+	quest.649DBD9BAE8C8D1C.quest_desc: [
+		"&lWhy:&r Undead dungeon, the way to the Dead King."
+	]
+	quest.619C0EEA858D0BF8.title: "Ice Spider Den"
+	quest.619C0EEA858D0BF8.quest_desc: [
+		"&lWhy:&r Frozen bones and spider eggs for alchemy."
+	]
+	quest.2A583A6AA81CA063.title: "The Citadel"
+	quest.2A583A6AA81CA063.quest_desc: [
+		"&lWhy:&r A huge fortress guarded by the Citadel Keeper."
+	]
+	quest.32FBD7AB171A572F.title: "Mid Game"
+	quest.32FBD7AB171A572F.quest_desc: [
+		"&lWhy:&r A gold book holds more spells."
+		"Upon reaching nether level resources, you will unlock an entirely new dynamic to gaining power: The Scroll ForgeThe Scroll Forge is used to craft scrolls by using ink, paper, and a focus. The ink determines the rarity (and therefore level), and the focus determines spell's school."
+	]
+	quest.66498EEE1D03149B.title: "Enchanted Spell Book"
+	quest.66498EEE1D03149B.quest_desc: [
+		"&lWhy:&r More slots and bonus mana."
+	]
+	quest.4F373047F55047BE.title: "Late Game"
+	quest.4F373047F55047BE.quest_desc: [
+		"&lWhy:&r The netherite book: 12 slots."
+		"Late game is reached by obtaining netherite and vast quantities of basic resources, and powered by the Arcane Anvil.The Arcane Anvil is the most powerful crafting station, used to level up your scrolls, upgrade armor and spell books, and imbue weapons with spells."
+	]
+	quest.3DF57D5706B45337.title: "Unique Spell Books"
+	quest.3DF57D5706B45337.quest_desc: [
+		"&lWhy:&r Necronomicon, dragonskin book and others drop only from bosses and vaults."
+		"Unique spell books are rare drops from certain mobs that come with spells inscribed, which cannot be removed or edited. Not every spell book can be manufactured -- it is called the arcane art, after all."
+		"The spells in a unique spell book are locked, but can be improved. By combining a unique spell book in the Arcane Anvil with a higher-level scroll of the same spell from the spell book, you can raise the level of the locked spell."
+	]
+	quest.55B28F062048D323.title: "Epic and Legendary Ink"
+	quest.55B28F062048D323.quest_desc: [
+		"&lWhy:&r Ink sets the scroll's rarity in the forge."
+		"The most common of the inks (ergo the name), common ink can craft the lowest level of spells. If a spell's lowest level is above common, it cannot be crafted with common ink. The same goes for all other inks."
+		"Less common than common, it can craft slightly more powerful spells."
+	]
+	quest.711FD1AD09A96AA8.title: "Lesser Spell Slot Improvement"
+	quest.711FD1AD09A96AA8.quest_desc: [
+		"&lWhy:&r Adds a spell slot to a book."
+	]
+	quest.37DD901E5EDDF578.title: "Staves and Spell Weapons"
+	quest.37DD901E5EDDF578.quest_desc: [
+		"&lWhy:&r Staves boost spell power; spell blades hold their own spells."
+		"Casting Implements are items that can be right-clicked (used) in order to cast your active spell. Most often, they also provide passive benefits, allowing for a dedicated wizard playstyle."
+		"A simple stick is all it takes to get the crystal ball rolling."
+	]
+	quest.1E69531BF5075088.title: "Alchemist Cauldron"
+	quest.1E69531BF5075088.quest_desc: [
+		"&lWhy:&r Brews inks and elixirs, dissolves scrolls back into essence."
+	]
+	quest.1ED5B2479E899B35.title: "Elixirs"
+	quest.1ED5B2479E899B35.quest_desc: [
+		"&lWhy:&r Oakskin, evasion and invisibility."
+	]
+	quest.0717565A1E2B9135.title: "Greater Elixirs"
+	quest.0717565A1E2B9135.quest_desc: [
+		"&lWhy:&r Stronger, longer elixirs for boss fights."
+	]
+	quest.69EC7A617666F350.title: "Tinctures"
+	quest.69EC7A617666F350.quest_desc: [
+		"Dropped from Ominous Bosses"
+	]
+	quest.7FF93BEFC552763F.title: "Fire Ale"
+	quest.7FF93BEFC552763F.quest_desc: [
+		"&lWhy:&r Fire ale for fire mages."
+	]
+	quest.12160D22993CF48F.title: "Mage's Library"
+	quest.12160D22993CF48F.quest_desc: [
+		"&lWhy:&r Pedestal and wisewood shelves for your tower."
+	]
+	quest.151474994DB8BD72.title: "Portal Frame"
+	quest.151474994DB8BD72.quest_desc: [
+		"&lWhy:&r Frames + Portal spell = a permanent gate."
+		"Can be connected with Portal spell"
+	]
+	quest.0336A72055E2BA37.title: "Shriving Stone"
+	quest.0336A72055E2BA37.quest_desc: [
+		"&lWhy:&r Removes upgrades so you can re-spec."
+	]
+	quest.45BAAE2BE8DAB33D.title: "School of Fire"
+	quest.45BAAE2BE8DAB33D.quest_desc: [
+		"&lWhy:&r Area damage. Not near forests or wooden houses."
+		"Manifest and throw a ball of fire, exploding and dealing massive damage on impact."
+		"Recast to place anchor points, which erupts into a wall of fire when the cast finishes, or when the maximum length is reached. This wall blocks projectiles and ignites creatures that pass through it."
+	]
+	quest.0E045D512219B5AA.title: "School of Ice"
+	quest.0E045D512219B5AA.quest_desc: [
+		"&lWhy:&r Slows and freezes: crowd control."
+		"Fire a beam of cold energy, dealing low damage but immediately applying freeze to the creature hit."
+		"Conjure a giant chunk of ice above a targeted creature or block. After a short delay, it will fall down and explode for area frost damage, doing additional damage to any creatures hit on the way down."
+	]
+	quest.7CED103CE5224479.title: "School of Lightning"
+	quest.7CED103CE5224479.quest_desc: [
+		"Start a chain of lightning from a targeted creature, causing waves of zapping magic to cascade to nearby creatures"
+		"Imbue yourself with the power of lightning, increasing your speed and combat abilities."
+	]
+	quest.31C90D0E6D94FF84.title: "Bottle o' Lightning"
+	quest.31C90D0E6D94FF84.quest_desc: [
+		"Use an empty bottle on a charged creeper to obtain."
+	]
+	quest.436F4C31A566E4DD.title: "Holy School"
+	quest.436F4C31A566E4DD.quest_desc: [
+		"&lWhy:&r Heal yourself and allies — every team needs a healer."
+		"Cast to infuse yourself with holy energy and immediately regain health."
+		"Cast to target any creature, showing a glowing outline. Completing the cast will heal this creature."
+	]
+	quest.3B0DD55F2A217826.title: "Ender School"
+	quest.3B0DD55F2A217826.quest_desc: [
+		"&lWhy:&r Teleport, recall home, pocket dimension."
+		"Instantaneously teleport to where you are looking, leaving nothing but a cloud of ender energy behind."
+		"Warps you back to your spawn location, or world spawn if there is none."
+	]
+	quest.029A46AC640B1072.title: "Blood School"
+	quest.029A46AC640B1072.quest_desc: [
+		"&lWhy:&r Steals life and raises the dead."
+		"Cast to summon undead minions from the earth beneath you. The higher the power, the better equipment they will have."
+		"Hold to cast a ray of necrotic energy that siphons health from creatures it hits, damaging them and healing you for 100% of damage done."
+	]
+	quest.1781E0393F790FC5.title: "Blood Vial"
+	quest.1781E0393F790FC5.quest_desc: [
+		"By heating up a Minecraft cauldron with a campfire below, or by using an Alchemist cauldron, mobs placed inside can be cooked for blood."
+	]
+	quest.7C1F105E13D52F97.title: "Evocation School"
+	quest.7C1F105E13D52F97.quest_desc: [
+		"Cast to conjure vexes that will follow, protect, and fight for you."
+		"Conjure a stationary shield of arcane energy where you look that will block projectiles and prevent creatures from passing."
+	]
+	quest.6C75A953F061D0B3.title: "Nature School"
+	quest.6C75A953F061D0B3.quest_desc: [
+		"Around a targeted creature, sprout magical roots than entangle them and completely prevent non-magical movement"
+		"The great power of oak infuses itself into your skin, granting damage reduction of any incoming damage for a duration."
+	]
+	quest.00639AF876EA60B0.title: "Eldritch Magic"
+	quest.00639AF876EA60B0.quest_desc: [
+		"&lWhy:&r Forbidden school, learned from manuscripts in ancient cities."
+		"From where you look, erupt a mass of sculk energy in the form of wailing tentacles, damaging and blinding creatures caught in the chaos."
+		"Blast forth a sonic boom of immense power, passing through solid material and harming all creatures in its path."
+	]
+	quest.6E60BCE3732C6E60.title: "Cooldown Upgrades"
+	quest.6E60BCE3732C6E60.quest_desc: [
+		"&lWhy:&r Faster spell cooldowns."
+	]
+	quest.0F9F93E560058AEE.title: "More Mana"
+	quest.0F9F93E560058AEE.quest_desc: [
+		"&lWhy:&r More mana: more casts in a row."
+	]
+	quest.0517E2BEDD9A8CBF.title: "Protection Upgrades"
+	quest.0517E2BEDD9A8CBF.quest_desc: [
+		"&lWhy:&r Extra armor for mage gear."
+	]
+	quest.599814422E929544.title: "Wandering Magician Set"
+	quest.599814422E929544.quest_desc: [
+		"&lWhy:&r First mage armor: a bit of mana and cast speed."
+	]
+	quest.22E37928A1F4E5F3.title: "Pyromancer Set"
+	quest.22E37928A1F4E5F3.quest_desc: [
+		"&lWhy:&r Fire power and fire resistance."
+	]
+	quest.3D9DAFF1DD2DB56F.title: "Cryomancer Set"
+	quest.3D9DAFF1DD2DB56F.quest_desc: [
+		"&lWhy:&r Ice power and frost protection."
+	]
+	quest.4324928AC259FF0A.title: "Electromancer Set"
+	quest.4324928AC259FF0A.quest_desc: [
+		"&lWhy:&r Lightning power and speed."
+	]
+	quest.505F9B9308C5705E.title: "Priest Set"
+	quest.505F9B9308C5705E.quest_desc: [
+		"&lWhy:&r Boosts healing: the team healer's armor."
+	]
+	quest.5772070EE5904042.title: "Shadowwalker Set"
+	quest.5772070EE5904042.quest_desc: [
+		"&lWhy:&r Ender power and stealth."
+	]
+	quest.1D9C4A678FD1843A.title: "Cultist Set"
+	quest.1D9C4A678FD1843A.quest_desc: [
+		"&lWhy:&r Blood power: life steal and undead."
+	]
+	quest.7BDD1FD256B59F70.title: "Archevoker Set"
+	quest.7BDD1FD256B59F70.quest_desc: [
+		"&lWhy:&r Evocation power: more vexes and fangs."
+	]
+	quest.5D8E54B41454D7D5.title: "Plagued Set"
+	quest.5D8E54B41454D7D5.quest_desc: [
+		"&lWhy:&r Nature and poison power."
+	]
+	quest.7A8BAE07E712FA12.title: "Netherite Battlemage Set"
+	quest.7A8BAE07E712FA12.quest_desc: [
+		"&lWhy:&r Netherite-level defence plus mana."
+	]
+	quest.03089F07F5504FEB.title: "Infernal Sorcerer Chestplate"
+	quest.03089F07F5504FEB.quest_desc: [
+		"Dealing Fire Spell Damage adds a stack of Immolation to the creature"
+	]
+	quest.648C9C830C653736.title: "Mage Rings"
+	quest.648C9C830C653736.quest_desc: [
+		"&lWhy:&r Faster cooldown and cast time."
+	]
+	quest.227BF055317FB7E0.title: "Ward Rings"
+	quest.227BF055317FB7E0.quest_desc: [
+		"&lWhy:&r Pick the ward ring that matches the boss."
+		"Grants fire immunity"
+	]
+	quest.05D7400821AB6A23.title: "Amulet of Concentration"
+	quest.05D7400821AB6A23.quest_desc: [
+		"Long Casts become uninterruptible"
+	]
+	quest.07194CCCBA38D0C1.title: "Affinity Ring"
+	quest.07194CCCBA38D0C1.quest_desc: [
+		"&lWhy:&r Raises the level of one spell."
+	]
+	quest.2CB288E440D62BB4.title: "Conjurer's Talisman"
+	quest.2CB288E440D62BB4.quest_desc: [
+		"&lWhy:&r Summons last longer."
+	]
+	quest.4910FD8B790BB4EA.title: "Emerald Stoneplate Ring"
+	quest.4910FD8B790BB4EA.quest_desc: [
+		"Slain creatures drop +25% experience"
+	]
+	quest.4D31E18F609B59F8.title: "Amethyst Rapier"
+	quest.4D31E18F609B59F8.quest_desc: [
+		"&lWhy:&r A fast blade scaling with spell power."
+	]
+	quest.3C9DD0A3E7385CD0.title: "Magehunter"
+	quest.3C9DD0A3E7385CD0.quest_desc: [
+		"&lWhy:&r Anti-mage sword."
+	]
+	quest.4E820FD029FE30EE.title: "Spellbreaker"
+	quest.4E820FD029FE30EE.quest_desc: [
+		"&lWhy:&r Interrupts enemy spellcasting."
+	]
+	quest.04117E5E42C6A4DD.title: "Autoloader Crossbow"
+	quest.04117E5E42C6A4DD.quest_desc: [
+		"> Automatically loads next available projectile while in inventory. Crouch-Click to cancel"
+	]
+	quest.5736887E673B4861.title: "Ice Staff"
+	quest.5736887E673B4861.quest_desc: [
+		"&lWhy:&r Boosts ice spells."
+	]
+	quest.4ECCDA9E795CEC44.title: "Pyrium Staff"
+	quest.4ECCDA9E795CEC44.quest_desc: [
+		"&lWhy:&r The best staff for fire mages."
+	]
+	quest.2161D87DAD290E20.title: "Dragonskin"
+	quest.2161D87DAD290E20.quest_desc: [
+		"Dropped from the Ender Dragon."
+	]
+	quest.17010B5742787A3F.title: "Cinder Essence"
+	quest.17010B5742787A3F.quest_desc: [
+		"Dropped from Ancient Knights."
+	]
+	quest.066C6A280BD39351.title: "Frozen Bone"
+	quest.066C6A280BD39351.quest_desc: [
+		"Dropped from strays."
+	]
+	quest.69942EFA5E8584EF.title: "Ruined Book"
+	quest.69942EFA5E8584EF.quest_desc: [
+		"Found in likewise sculk-infested cities."
+	]
+	quest.7EB8E5C4A09D0649.title: "Defeat a Pyromancer"
+	quest.7EB8E5C4A09D0649.quest_desc: [
+		"&lWhy:&r Fights with fireballs; bring fire protection."
+	]
+	quest.503D54E9E24A6C70.title: "Defeat a Cryomancer"
+	quest.503D54E9E24A6C70.quest_desc: [
+		"&lWhy:&r Slows and freezes; close the distance."
+	]
+	quest.0F3330C9F12CC680.title: "Defeat an Archevoker"
+	quest.0F3330C9F12CC680.quest_desc: [
+		"&lWhy:&r Kill the vexes first; keep moving."
+	]
+	quest.7C9C10AB62CD4A71.title: "Defeat a Necromancer"
+	quest.7C9C10AB62CD4A71.quest_desc: [
+		"&lWhy:&r Hit the necromancer, not his skeletons."
+	]
+	quest.4B05E241BD05306F.title: "Ice Spider"
+	quest.4B05E241BD05306F.quest_desc: [
+		"&lWhy:&r Poison and cold; carry milk."
+	]
+	quest.4F90DE4C3503858F.title: "Citadel Keeper"
+	quest.4F90DE4C3503858F.quest_desc: [
+		"&lWhy:&r Huge flamberge; keep distance and dodge."
+	]
+	quest.03916D6A55B1E05A.title: "Tyros, the Fire Boss"
+	quest.03916D6A55B1E05A.quest_desc: [
+		"&lWhy:&r A fire lord; fire ward ring, potions and a healer required."
+	]
+	quest.76FE632065909AEB.title: "Archmage"
+	quest.76FE632065909AEB.quest_desc: [
+		"All schools learned, the towers cleared, bosses defeated."
+	]
 	quest.59DAC3A798675F2C.title: "Mithril"
 	quest.59DAC3A798675F2C.quest_desc: [
 		"Mithril ore lies deep underground. It makes the best spellbooks and mage armour."
@@ -5110,6 +5421,262 @@
 	quest.221D262C7B1A153F.quest_desc: [
 		"You've beaten the ones they tell stories about in taverns. Hang a trophy (Handcrafted) in your hall so newcomers know whom to ask for advice."
 		"&lRematch:&r the Boss Respawner (Cataclysm) brings a beaten boss back to its lair."
+	]
+	chapter.710611A423EC0104.title: "Twilight Forest"
+	chapter.710611A423EC0104.chapter_subtitle: [
+		"Through the barriers: from the Naga to the Snow Queen"
+	]
+	quest.5B22481D0318449C.title: "Through the Portal"
+	quest.5B22481D0318449C.quest_desc: [
+		"&lWhy:&r A 2x2 water pool ringed with flowers plus a diamond. Barriers block the way until you beat the previous boss."
+		"Enter the mysterious, magical woodlands: the Twilight Forest"
+	]
+	quest.52D600F6F6A4599B.title: "Magic Map"
+	quest.52D600F6F6A4599B.quest_desc: [
+		"&lWhy:&r Shows biomes and the forest's main structures."
+	]
+	quest.25582DEA26794926.title: "Local Wildlife"
+	quest.25582DEA26794926.quest_desc: [
+		"&lWhy:&r Deer, boars and ravens: meat and feathers."
+		"Hunt some of the local wildlife"
+	]
+	quest.1734937E7EF0E1D9.title: "Hollow Hill"
+	quest.1734937E7EF0E1D9.quest_desc: [
+		"&lWhy:&r Hills full of ore, chests and spawners."
+	]
+	quest.22269FB2349988D1.title: "Hedge Maze"
+	quest.22269FB2349988D1.quest_desc: [
+		"&lWhy:&r The hedge hurts; follow the paths to the chests."
+		"Defeat a spider in a Hedge Maze"
+	]
+	quest.712F29F5428CEECD.title: "Quest Grove"
+	quest.712F29F5428CEECD.quest_desc: [
+		"&lWhy:&r Feed the ram wool of all 16 colours for a reward."
+	]
+	quest.1BC6272C15A5B674.title: "Uncrafting Table"
+	quest.1BC6272C15A5B674.quest_desc: [
+		"&lWhy:&r Breaks items back into ingredients for XP."
+	]
+	quest.56E5F7DCFEDB31C1.title: "Gifts of the Dusk"
+	quest.56E5F7DCFEDB31C1.quest_desc: [
+		"&lWhy:&r Glowing torchberries and dusk fruit."
+	]
+	quest.1B7C490BEBCBA745.title: "Twilight Dining"
+	quest.1B7C490BEBCBA745.quest_desc: [
+		"&lWhy:&r Venison and maze wafers."
+		"Eat every edible item type exclusive to Twilight Forest"
+	]
+	quest.3B6772C9A9CA5C7B.title: "Naga Courtyard"
+	quest.3B6772C9A9CA5C7B.quest_desc: [
+		"&lWhy:&r Hit the head, dodge the charges."
+	]
+	quest.6842664BD760C6E6.title: "Naga Scale Armor"
+	quest.6842664BD760C6E6.quest_desc: [
+		"&lWhy:&r Iron-level protection from naga scales."
+	]
+	quest.78B04B9BD214FBFF.title: "Naga Trophy"
+	quest.78B04B9BD214FBFF.quest_desc: [
+		"&lWhy:&r The Naga's head, your first trophy."
+	]
+	quest.245DA7E979F6C2D3.title: "Lich Tower"
+	quest.245DA7E979F6C2D3.quest_desc: [
+		"&lWhy:&r Break his shields with ranged hits first."
+		"[An explorer's notebook, gnawed on by monsters]"
+		""
+		"I have begun examining the strange aura surrounding this tower. The bricks of the tower are protected by a curse, stronger than any I've seen before. The magic from the curse is boiling off into the"
+	]
+	quest.7009BDB5B2408FBD.title: "The Four Scepters"
+	quest.7009BDB5B2408FBD.quest_desc: [
+		"&lWhy:&r Bolts, life drain, zombie allies and shields."
+		"Acquire all four scepters of power"
+	]
+	quest.64915B3C86849449.title: "Twilight Lich Trophy"
+	quest.64915B3C86849449.quest_desc: [
+		"&lWhy:&r The Lich's trophy."
+	]
+	quest.5EED486251257C86.title: "Ironwood Armor"
+	quest.5EED486251257C86.quest_desc: [
+		"&lWhy:&r Comes pre-enchanted with protection."
+	]
+	quest.1687CDE75715D2CD.title: "Steeleaf Armor"
+	quest.1687CDE75715D2CD.quest_desc: [
+		"&lWhy:&r Steel-hard leaves; armor with projectile protection."
+	]
+	quest.6D0E11901BC3FCDC.title: "Steeleaf Tools"
+	quest.6D0E11901BC3FCDC.quest_desc: [
+		"&lWhy:&r Pre-enchanted: looting sword, fortune pickaxe."
+	]
+	quest.710A35AF9F139298.title: "Minotaur Labyrinth"
+	quest.710A35AF9F139298.quest_desc: [
+		"The mosquitoes in this swamp are vexing, but strange. The vast majority of them seem to have no natural source, nor do they seem to have a role in the local ecology. I have begun to suspect that they are"
+	]
+	quest.3153879318778022.title: "Maze Map Focus"
+	quest.3153879318778022.quest_desc: [
+		"&lWhy:&r Shows the corridors around you."
+	]
+	quest.51CE9E909CC7B4F6.title: "Mazebreaker Pickaxe"
+	quest.51CE9E909CC7B4F6.quest_desc: [
+		"&lWhy:&r Breaks mazestone easily; found in a secret vault."
+	]
+	quest.322A3A6F03A9EB1C.title: "Diamond Minotaur Axe"
+	quest.322A3A6F03A9EB1C.quest_desc: [
+		"&lWhy:&r Double damage while charging."
+	]
+	quest.0F22E50464FBE6F6.title: "Meef Stroganoff"
+	quest.0F22E50464FBE6F6.quest_desc: [
+		"&lWhy:&r Eat it to endure the Fire Swamp's heat."
+		"Eat the Meef Stroganoff to acclimatize your body to the dangerous heat of the Fire Swamp"
+	]
+	quest.7912A8A04775CD18.title: "Hydra Lair"
+	quest.7912A8A04775CD18.quest_desc: [
+		"&lWhy:&r Hit the open mouths. Fire resistance required."
+		"Fire is a trivial obstacle for a master explorer such as myself. I have traversed seas of fire, and swam through oceans of lava. The burning air here is an interesting variation, but"
+	]
+	quest.39DA916EDD2A66FD.title: "Fiery Blood"
+	quest.39DA916EDD2A66FD.quest_desc: [
+		"&lWhy:&r Hydra blood + iron = fiery ingots; tools auto-smelt."
+	]
+	quest.7985B158A5E6EAF7.title: "Fiery Armor"
+	quest.7985B158A5E6EAF7.quest_desc: [
+		"&lWhy:&r Burns attackers, protects from fire."
+		"Wield a fiery tool or weapon while having at least one piece of fiery armor in your inventory"
+	]
+	quest.5B20F48F05BC37DF.title: "Fiery Sword"
+	quest.5B20F48F05BC37DF.quest_desc: [
+		"&lWhy:&r The pickaxe smelts ore as you mine; the sword burns."
+	]
+	quest.667F2107796C111B.title: "Hydra Chop"
+	quest.667F2107796C111B.quest_desc: [
+		"&lWhy:&r The best food in the forest."
+	]
+	quest.5DE4AEAAD0DE1486.title: "Knight Stronghold"
+	quest.5DE4AEAAD0DE1486.quest_desc: [
+		"&lWhy:&r Goblin knights drop knightmetal; phantoms wait below."
+		"The tendrils of darkness surrounding this area are just a manifestation of a protective spell over the entire dark forest. The spell causes blindness, which is quite vexing. I have seen several"
+	]
+	quest.02A3EC03F9F3600A.title: "Knightmetal"
+	quest.02A3EC03F9F3600A.quest_desc: [
+		"&lWhy:&r Armor shards become knightmetal, a step past diamond."
+	]
+	quest.2AB70EA80310259B.title: "Knightmetal Armor"
+	quest.2AB70EA80310259B.quest_desc: [
+		"&lWhy:&r Very durable, softens heavy hits."
+	]
+	quest.3CC46684DEE45058.title: "Knightmetal Weapons"
+	quest.3CC46684DEE45058.quest_desc: [
+		"&lWhy:&r Block and chain: a thrown flail."
+	]
+	quest.216E95B531E571C4.title: "Phantom Armor"
+	quest.216E95B531E571C4.quest_desc: [
+		"&lWhy:&r Phantom armor stays with you on death."
+	]
+	quest.0F634CBEAFED965C.title: "Dark Tower"
+	quest.0F634CBEAFED965C.quest_desc: [
+		"&lWhy:&r A tower of carminite devices; the Ur-Ghast waits on top."
+		"This tower clearly has mechanisms that are not responding to me. Their magic almost yearns to acknowledge my touch, but it cannot. It is if the devices of the tower are being"
+	]
+	quest.4760190435A8BE43.title: "Carminite"
+	quest.4760190435A8BE43.quest_desc: [
+		"&lWhy:&r Tower mechanisms: builders, vanishing blocks, reactor."
+	]
+	quest.64A9365315B0B355.title: "Ghast Trap"
+	quest.64A9365315B0B355.quest_desc: [
+		"&lWhy:&r Kill ghastlings near the trap, then trigger it to pull the Ur-Ghast down."
+	]
+	quest.3B0D69B7E270A57F.title: "Fiery Tears"
+	quest.3B0D69B7E270A57F.quest_desc: [
+		"&lWhy:&r A powerful ingredient for potions and magic."
+	]
+	quest.564955218D8CB2E5.title: "Yeti Cave"
+	quest.564955218D8CB2E5.quest_desc: [
+		"&lWhy:&r The Alpha Yeti throws ice; the blizzard stops when he falls."
+		"The blizzard surrounding these snowy lands is unceasing. This is no ordinary snowfall--this is a magical phenomenon. I will have to conduct experiments to find what is capable of"
+	]
+	quest.008082A7AC999C27.title: "Yeti Armor"
+	quest.008082A7AC999C27.quest_desc: [
+		"&lWhy:&r Freezes attackers, keeps you warm."
+	]
+	quest.694E1A3473B96593.title: "Arctic Armor"
+	quest.694E1A3473B96593.quest_desc: [
+		"&lWhy:&r Arctic fox fur; dyeable."
+		"Dye four unique pieces of Arctic armor"
+	]
+	quest.7CCD3B6DD5A72524.title: "Aurora Palace"
+	quest.7CCD3B6DD5A72524.quest_desc: [
+		"I overcame one blizzard, only to run into this terrible ice storm atop the glacier. My explorations have shown me the splendor of an ice palace, shining with the colors of the"
+	]
+	quest.34293E6276A6679F.title: "Ice Weapons"
+	quest.34293E6276A6679F.quest_desc: [
+		"&lWhy:&r Ice bow and sword slow enemies."
+	]
+	quest.4CD79C11522B3390.title: "Troll Caves"
+	quest.4CD79C11522B3390.quest_desc: [
+		"&lWhy:&r Find the Lamp of Cinders to burn the thorns."
+		"There seems to be no way to protect myself from the toxic rainstorm surrounding this area. In my brief excursions, I have also encountered another protection spell, similar to the others I have"
+	]
+	quest.2B33E7A7AEAF57F9.title: "Lamp of Cinders"
+	quest.2B33E7A7AEAF57F9.quest_desc: [
+		"&lWhy:&r The lamp burns away the thorns."
+	]
+	quest.45F6B9C684D4968C.title: "Magic Beans"
+	quest.45F6B9C684D4968C.quest_desc: [
+		"&lWhy:&r Magic beans grow a beanstalk to the giants' castle."
+	]
+	quest.034F8716B7A5345E.title: "Giant's Tools"
+	quest.034F8716B7A5345E.quest_desc: [
+		"&lWhy:&r The giant pickaxe digs huge areas."
+	]
+	quest.38165F9BAFDE679A.title: "Charms"
+	quest.38165F9BAFDE679A.quest_desc: [
+		"&lWhy:&r Charm of life saves you once; keeping keeps items on death."
+	]
+	quest.609281F46703D192.title: "Twilight Bows"
+	quest.609281F46703D192.quest_desc: [
+		"&lWhy:&r Triple shot, homing and swap-teleport bows."
+	]
+	quest.486074F0E4534C30.title: "Ore Magnet"
+	quest.486074F0E4534C30.quest_desc: [
+		"&lWhy:&r Pulls an ore vein to you through stone."
+	]
+	quest.19553E461865AD4A.title: "Crumble Horn"
+	quest.19553E461865AD4A.quest_desc: [
+		"&lWhy:&r Crumbles nearby stone to clear a path."
+	]
+	quest.39F6AD01902D01FD.title: "Peacock Feather Fan"
+	quest.39F6AD01902D01FD.quest_desc: [
+		"&lWhy:&r Blows mobs and projectiles away."
+	]
+	quest.5B6B7B16E2215B92.title: "Moonworm Queen"
+	quest.5B6B7B16E2215B92.quest_desc: [
+		"&lWhy:&r Throws glowing moonworms: light without torches."
+	]
+	quest.3A156ED0C031D524.title: "Traveller's Gear"
+	quest.3A156ED0C031D524.quest_desc: [
+		"&lWhy:&r Traveller's gear takes modifiers."
+		"Craft a piece of traveller's gear"
+		"Add a modifier to a piece of traveller's gear"
+	]
+	quest.1A53A3D446A56369.title: "Bug Jars"
+	quest.1A53A3D446A56369.quest_desc: [
+		"&lWhy:&r Cozy decor and lanterns."
+	]
+	quest.42FE5D9C0791AD9E.title: "Trophy Pedestal"
+	quest.42FE5D9C0791AD9E.quest_desc: [
+		"&lWhy:&r Place a trophy on the pedestal to earn your title."
+		"Claim your title by placing a trophy on the pedestal in the Dark Forest ruins"
+	]
+	quest.17FD3681EA08ECEB.title: "Trophy Hall"
+	quest.17FD3681EA08ECEB.quest_desc: [
+		"&lWhy:&r Show off boss heads in your town hall."
+	]
+	quest.40167F02FC81A8A0.title: "Final Castle"
+	quest.40167F02FC81A8A0.quest_desc: [
+		"&lWhy:&r The end of the path, for now."
+		"Anything past this point in the Highlands is a work in progress. It will be finished in the future"
+	]
+	quest.0E3645CB18E6DF1E.title: "Conqueror of the Twilight"
+	quest.0E3645CB18E6DF1E.quest_desc: [
+		"All barriers lifted, all bosses down."
 	]
 	chapter.67DBF023F7901684.title: "Dungeons and Structures"
 	chapter.67DBF023F7901684.chapter_subtitle: [

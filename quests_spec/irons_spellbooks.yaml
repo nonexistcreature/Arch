@@ -1,0 +1,451 @@
+# Iron's Spells 'n Spellbooks: spell guides (spell.*.guide) and item texts are translated; the Patchouli guide is English.
+extends: irons
+lang: [irons_spellbooks]
+autodoc: ["item.{ns}.{path}.guide", "item.{ns}.{path}.desc", "block.{ns}.{path}.desc"]
+out: irons_gen
+quests:
+  # --- progression (guide book)
+  - id: isg_early
+    deps: [irons_scroll]
+    roles: [mage]
+    icon: irons_spellbooks:furled_map
+    items: [irons_spellbooks:furled_map]
+    title: {ru: "Магические постройки", en: "Magic Structures"}
+    doc: md:assets/irons_spellbooks/patchouli_books/iss_guide_book/en_us/entries/progression/early_game.json
+    why: {ru: "Ранняя магия — это разведка: башни пиромантов, хижины, форты эвокеров. Свёрнутая карта ведёт к ближайшей постройке. В каждой живёт сильный маг.", en: "Early magic is exploring: towers, huts and forts. Each has a strong mage."}
+  - id: isg_pyro_tower
+    deps: [isg_early]
+    roles: [mage, warrior]
+    icon: irons_spellbooks:pyromancer_helmet
+    tasks: [{type: structure, structure: irons_spellbooks:pyromancer_tower}]
+    title: {ru: "Башня пироманта", en: "Pyromancer Tower"}
+    why: {ru: "Найди башню пироманта. Внутри — огненные свитки и руна огня.", en: "Find a pyromancer tower: fire scrolls inside."}
+  - id: isg_evoker_fort
+    deps: [isg_early]
+    roles: [mage, warrior]
+    icon: irons_spellbooks:evoker_spell_book
+    tasks: [{type: structure, structure: irons_spellbooks:evoker_fort}]
+    title: {ru: "Форт эвокеров", en: "Evoker Fort"}
+    why: {ru: "Крепость иллагеров-магов. Ходи туда с группой: архиэвокер вызывает клыки и вексов.", en: "An illager mage fortress. Go as a group."}
+  - id: isg_mountain_tower
+    deps: [isg_early]
+    roles: [mage]
+    icon: irons_spellbooks:cryomancer_helmet
+    tasks: [{type: structure, structure: irons_spellbooks:mountain_tower}]
+    title: {ru: "Горная башня", en: "Mountain Tower"}
+    why: {en: A mountain tower with cryomancers and ice scrolls., ru: 'Башня в горах: криоманты и ледяные свитки.'}
+  - id: isg_catacombs
+    deps: [isg_early]
+    roles: [mage, warrior]
+    icon: irons_spellbooks:decrepit_key
+    tasks: [{type: structure, structure: irons_spellbooks:catacombs}]
+    title: {ru: "Катакомбы", en: "Catacombs"}
+    why: {ru: "Подземелье нежити с ключами и некромантами. Здесь же ищут путь к Мёртвому королю.", en: "Undead dungeon, the way to the Dead King."}
+  - id: isg_spider_den
+    deps: [isg_mountain_tower]
+    roles: [mage, warrior]
+    icon: irons_spellbooks:ice_spider_egg
+    tasks: [{type: structure, structure: irons_spellbooks:ice_spider_den}]
+    title: {ru: "Логово ледяных пауков", en: "Ice Spider Den"}
+    why: {en: Frozen bones and spider eggs for alchemy., ru: Пещера ледяных пауков под снегом. Здесь замёрзшие кости и паучьи яйца для алхимии.}
+  - id: isg_citadel
+    deps: [isg_catacombs]
+    roles: [mage, warrior]
+    icon: irons_spellbooks:furled_map_citadel
+    tasks: [{type: structure, structure: irons_spellbooks:citadel}]
+    title: {ru: "Цитадель", en: "The Citadel"}
+    why: {ru: "Огромная крепость с Хранителем цитадели. Одна из самых опасных построек мира — только командой.", en: "A huge fortress guarded by the Citadel Keeper."}
+  - id: isg_mid
+    deps: [irons_inscription]
+    roles: [mage]
+    icon: irons_spellbooks:gold_spell_book
+    items: [irons_spellbooks:gold_spell_book]
+    title: {ru: "Середина пути", en: "Mid Game"}
+    doc: md:assets/irons_spellbooks/patchouli_books/iss_guide_book/en_us/entries/progression/mid_game.json
+    why: {ru: "Золотая книга держит больше заклинаний. Свиток из постройки — в стол начертаний, и книга запоминает его навсегда.", en: "A gold book holds more spells."}
+  - id: isg_diamond_book
+    deps: [isg_mid]
+    roles: [mage]
+    items: [irons_spellbooks:diamond_spell_book]
+    why: {en: More slots and bonus mana., ru: Алмазная книга — больше ячеек и бонус к мане.}
+  - id: isg_late
+    deps: [isg_diamond_book, irons_mithril]
+    roles: [mage]
+    icon: irons_spellbooks:netherite_spell_book
+    items: [irons_spellbooks:netherite_spell_book]
+    title: {ru: "Поздняя магия", en: "Late Game"}
+    doc: md:assets/irons_spellbooks/patchouli_books/iss_guide_book/en_us/entries/progression/late_game.json
+    why: {ru: "Незеритовая книга — 12 ячеек. Дальше уже уникальные книги с боссов.", en: "The netherite book: 12 slots."}
+  - id: isg_uncraftable_books
+    deps: [isg_late]
+    roles: [mage]
+    icon: irons_spellbooks:necronomicon_spell_book
+    tasks: [{type: checkmark}]
+    title: {ru: "Особые книги", en: "Unique Spell Books"}
+    doc: md:assets/irons_spellbooks/patchouli_books/iss_guide_book/en_us/entries/spell_books/uncraftable_spell_books.json
+    why: {ru: "Некрономикон, книга драконьей кожи, проклятая кукла — их не скрафтить, только добыть у боссов и в сокровищницах. Каждая усиливает свою школу.", en: "Necronomicon, dragonskin book and others drop only from bosses and vaults."}
+  - id: isg_inks
+    deps: [irons_inks]
+    roles: [mage]
+    items: [irons_spellbooks:epic_ink, irons_spellbooks:legendary_ink]
+    title: {ru: "Эпические и легендарные чернила", en: "Epic and Legendary Ink"}
+    doc: md:assets/irons_spellbooks/patchouli_books/iss_guide_book/en_us/entries/progression/ink.json
+    why: {ru: "Чернила определяют уровень свитка в кузне. Легендарные — для заклинаний высшего уровня.", en: "Ink sets the scroll's rarity in the forge."}
+  - id: isg_slot_upgrade
+    deps: [irons_book]
+    roles: [mage]
+    items: [irons_spellbooks:lesser_spell_slot_upgrade]
+    why: {ru: "Добавляет книге одну ячейку заклинания.", en: "Adds a spell slot to a book."}
+  - id: isg_casting_implements
+    deps: [irons_book]
+    roles: [mage, warrior]
+    icon: irons_spellbooks:graybeard_staff
+    tasks: [{type: checkmark}]
+    title: {ru: "Посохи и магическое оружие", en: "Staves and Spell Weapons"}
+    doc: md:assets/irons_spellbooks/patchouli_books/iss_guide_book/en_us/entries/spell_books/casting_implements.json
+    why: {ru: "Посох усиливает силу заклинаний, а клинки вроде Губителя магов или Двуручника содержат свои заклинания — для боевого мага.", en: "Staves boost spell power; spell blades hold their own spells."}
+  # --- crafting stations and alchemy
+  - id: isg_cauldron
+    deps: [irons_essence]
+    roles: [mage, alchemist]
+    items: [irons_spellbooks:alchemist_cauldron]
+    why: {ru: "Котёл алхимика варит чернила, эликсиры и растворяет свитки обратно в эссенцию. Ставь на огонь.", en: "Brews inks and elixirs, dissolves scrolls back into essence."}
+  - id: isg_elixirs
+    deps: [isg_cauldron]
+    roles: [alchemist]
+    items: [irons_spellbooks:oakskin_elixir, irons_spellbooks:evasion_elixir, irons_spellbooks:invisibility_elixir]
+    title: {ru: "Эликсиры", en: "Elixirs"}
+    why: {ru: "Дубовая кожа — броня, уклонение — шанс избежать удара, невидимость — пройти мимо охраны.", en: "Oakskin, evasion and invisibility."}
+  - id: isg_greater_elixirs
+    deps: [isg_elixirs]
+    roles: [alchemist]
+    items: [irons_spellbooks:greater_oakskin_elixir, irons_spellbooks:greater_evasion_elixir, irons_spellbooks:greater_healing_potion]
+    title: {ru: "Сильные эликсиры", en: "Greater Elixirs"}
+    why: {en: 'Stronger, longer elixirs for boss fights.', ru: 'Те же эликсиры, но сильнее и дольше — перед боссом.'}
+  - id: isg_tinctures
+    deps: [isg_cauldron]
+    roles: [alchemist, mage]
+    items: [irons_spellbooks:tincture_of_forgetfulness, irons_spellbooks:netherward_tincture]
+    title: {ru: "Настойки", en: "Tinctures"}
+  - id: isg_casters_tea
+    deps: [isg_cauldron]
+    roles: [cook, mage]
+    items: [irons_spellbooks:fire_ale]
+    why: {ru: "Огненный эль — напиток мага огня. А чай заклинателя сокращает перезарядку.", en: "Fire ale for fire mages."}
+  - id: isg_pedestal
+    deps: [irons_inscription]
+    roles: [builder, mage]
+    items: [irons_spellbooks:pedestal, irons_spellbooks:wisewood_bookshelf*4]
+    title: {ru: "Библиотека мага", en: "Mage's Library"}
+    why: {ru: "Пьедестал и шкафы из мудрого дерева — красивая башня мага на базе.", en: "Pedestal and wisewood shelves for your tower."}
+  - id: isg_portal
+    deps: [irons_teleport]
+    roles: [mage]
+    items: [irons_spellbooks:portal_frame*2]
+    why: {ru: "Рамки + заклинание «Портал» = постоянный проход между двумя точками.", en: "Frames + Portal spell = a permanent gate."}
+  - id: isg_shriving
+    deps: [irons_upgrade]
+    roles: [mage]
+    items: [irons_spellbooks:shriving_stone]
+    why: {ru: "Камень очищения снимает улучшения с предмета — переделай броню под другую школу.", en: "Removes upgrades so you can re-spec."}
+  # --- schools: signature spells
+  - id: isg_school_fire
+    deps: [irons_runes]
+    roles: [mage]
+    items: [irons_spellbooks:fire_upgrade_orb]
+    title: {ru: "Школа огня", en: "School of Fire"}
+    doc: spell.irons_spellbooks.fireball.guide
+    doc2: spell.irons_spellbooks.wall_of_fire.guide
+    why: {ru: "Огонь — урон по площади. Не используй возле лесов и чужих деревянных домов.", en: "Area damage. Not near forests or wooden houses."}
+  - id: isg_school_ice
+    deps: [irons_runes]
+    roles: [mage]
+    items: [irons_spellbooks:ice_rune, irons_spellbooks:ice_upgrade_orb]
+    title: {ru: "Школа льда", en: "School of Ice"}
+    doc: spell.irons_spellbooks.ray_of_frost.guide
+    doc2: spell.irons_spellbooks.ice_block.guide
+    why: {ru: "Лёд замедляет и замораживает — лучшая школа для контроля толпы.", en: "Slows and freezes: crowd control."}
+  - id: isg_school_lightning
+    deps: [irons_runes]
+    roles: [mage]
+    items: [irons_spellbooks:lightning_rune, irons_spellbooks:lightning_upgrade_orb]
+    title: {ru: "Школа молнии", en: "School of Lightning"}
+    doc: spell.irons_spellbooks.chain_lightning.guide
+    doc2: spell.irons_spellbooks.charge.guide
+  - id: isg_lightning_bottle
+    deps: [isg_school_lightning]
+    roles: [mage]
+    items: [irons_spellbooks:lightning_bottle]
+  - id: isg_school_holy
+    deps: [irons_runes]
+    roles: [mage]
+    items: [irons_spellbooks:holy_rune, irons_spellbooks:holy_upgrade_orb]
+    title: {ru: "Школа света", en: "Holy School"}
+    doc: spell.irons_spellbooks.heal.guide
+    doc2: spell.irons_spellbooks.blessing_of_life.guide
+    why: {ru: "Лечение себя и союзников — каждой команде нужен свой целитель.", en: "Heal yourself and allies — every team needs a healer."}
+  - id: isg_school_ender
+    deps: [irons_runes]
+    roles: [mage]
+    items: [irons_spellbooks:ender_rune, irons_spellbooks:ender_upgrade_orb]
+    title: {ru: "Школа Края", en: "Ender School"}
+    doc: spell.irons_spellbooks.teleport.guide
+    doc2: spell.irons_spellbooks.recall.guide
+    why: {ru: "Телепорт, возврат домой и карманное измерение — мобильность мага.", en: "Teleport, recall home, pocket dimension."}
+  - id: isg_school_blood
+    deps: [irons_runes]
+    roles: [mage]
+    items: [irons_spellbooks:blood_rune, irons_spellbooks:blood_upgrade_orb]
+    title: {ru: "Школа крови", en: "Blood School"}
+    doc: spell.irons_spellbooks.raise_dead.guide
+    doc2: spell.irons_spellbooks.ray_of_siphoning.guide
+    why: {ru: "Кровь крадёт жизнь врагов и поднимает мертвецов на твою сторону.", en: "Steals life and raises the dead."}
+  - id: isg_blood_vial
+    deps: [isg_school_blood]
+    roles: [mage]
+    items: [irons_spellbooks:blood_vial]
+  - id: isg_school_evocation
+    deps: [irons_runes]
+    roles: [mage]
+    items: [irons_spellbooks:evocation_rune, irons_spellbooks:evocation_upgrade_orb]
+    title: {ru: "Школа призыва", en: "Evocation School"}
+    doc: spell.irons_spellbooks.summon_vex.guide
+    doc2: spell.irons_spellbooks.shield.guide
+  - id: isg_school_nature
+    deps: [irons_runes]
+    roles: [mage, gardener]
+    items: [irons_spellbooks:nature_rune, irons_spellbooks:nature_upgrade_orb]
+    title: {ru: "Школа природы", en: "Nature School"}
+    doc: spell.irons_spellbooks.root.guide
+    doc2: spell.irons_spellbooks.oakskin.guide
+  - id: isg_school_eldritch
+    deps: [isg_late]
+    roles: [mage]
+    icon: irons_spellbooks:eldritch_manuscript
+    items: [irons_spellbooks:eldritch_manuscript]
+    title: {ru: "Древняя магия", en: "Eldritch Magic"}
+    doc: spell.irons_spellbooks.sculk_tentacles.guide
+    doc2: spell.irons_spellbooks.sonic_boom.guide
+    why: {ru: "Запретная школа: учится только по манускриптам из древних городов. Самые разрушительные заклинания.", en: "Forbidden school, learned from manuscripts in ancient cities."}
+  - id: isg_cooldown
+    deps: [irons_runes]
+    roles: [mage]
+    items: [irons_spellbooks:cooldown_rune, irons_spellbooks:cooldown_upgrade_orb]
+    title: {ru: "Ускорение перезарядки", en: "Cooldown Upgrades"}
+    why: {en: Faster spell cooldowns., ru: 'Руна перезарядки + сфера в аркановой наковальне: заклинания откатываются быстрее.'}
+  - id: isg_mana
+    deps: [irons_runes]
+    roles: [mage]
+    items: [irons_spellbooks:mana_upgrade_orb]
+    title: {ru: "Больше маны", en: "More Mana"}
+    why: {en: 'More mana: more casts in a row.', ru: Сфера маны в броне — больше заклинаний подряд.}
+  - id: isg_protection
+    deps: [irons_runes]
+    roles: [mage, warrior]
+    items: [irons_spellbooks:protection_rune, irons_spellbooks:protection_upgrade_orb]
+    title: {ru: "Защитные улучшения", en: "Protection Upgrades"}
+  # --- armor sets (one per school)
+    why: {en: Extra armor for mage gear., ru: Сфера защиты в броню мага — он живёт дольше в ближнем бою.}
+  - id: isg_wandering
+    deps: [irons_armor]
+    roles: [mage]
+    items: [irons_spellbooks:wandering_magician_helmet, irons_spellbooks:wandering_magician_chestplate, irons_spellbooks:wandering_magician_leggings, irons_spellbooks:wandering_magician_boots]
+    title: {ru: "Одеяние странствующего мага", en: "Wandering Magician Set"}
+    why: {ru: "Первая магическая броня: немного маны и скорости заклинаний за дешёвую ткань.", en: "First mage armor: a bit of mana and cast speed."}
+  - id: isg_pyromancer
+    deps: [isg_school_fire, irons_armor]
+    roles: [mage]
+    items: [irons_spellbooks:pyromancer_helmet, irons_spellbooks:pyromancer_chestplate, irons_spellbooks:pyromancer_leggings, irons_spellbooks:pyromancer_boots]
+    title: {ru: "Комплект пироманта", en: "Pyromancer Set"}
+    why: {ru: "Сила огня + защита от поджога.", en: "Fire power and fire resistance."}
+  - id: isg_cryomancer
+    deps: [isg_school_ice, irons_armor]
+    roles: [mage]
+    items: [irons_spellbooks:cryomancer_helmet, irons_spellbooks:cryomancer_chestplate, irons_spellbooks:cryomancer_leggings, irons_spellbooks:cryomancer_boots]
+    title: {ru: "Комплект криоманта", en: "Cryomancer Set"}
+    why: {en: Ice power and frost protection., ru: Сила льда и защита от мороза.}
+  - id: isg_electromancer
+    deps: [isg_school_lightning, irons_armor]
+    roles: [mage]
+    items: [irons_spellbooks:electromancer_helmet, irons_spellbooks:electromancer_chestplate, irons_spellbooks:electromancer_leggings, irons_spellbooks:electromancer_boots]
+    title: {ru: "Комплект электроманта", en: "Electromancer Set"}
+    why: {en: Lightning power and speed., ru: Сила молнии и скорость.}
+  - id: isg_priest
+    deps: [isg_school_holy, irons_armor]
+    roles: [mage]
+    items: [irons_spellbooks:priest_helmet, irons_spellbooks:priest_chestplate, irons_spellbooks:priest_leggings, irons_spellbooks:priest_boots]
+    title: {ru: "Облачение жреца", en: "Priest Set"}
+    why: {en: 'Boosts healing: the team healer''s armor.', ru: Усиливает лечение и святые заклинания — броня целителя команды.}
+  - id: isg_shadowwalker
+    deps: [isg_school_ender, irons_armor]
+    roles: [mage, warrior]
+    items: [irons_spellbooks:shadowwalker_helmet, irons_spellbooks:shadowwalker_chestplate, irons_spellbooks:shadowwalker_leggings, irons_spellbooks:shadowwalker_boots]
+    title: {ru: "Комплект теневого странника", en: "Shadowwalker Set"}
+    why: {en: Ender power and stealth., ru: Сила Края и скрытность — для мага-разведчика.}
+  - id: isg_cultist
+    deps: [isg_school_blood, irons_armor]
+    roles: [mage]
+    items: [irons_spellbooks:cultist_helmet, irons_spellbooks:cultist_chestplate, irons_spellbooks:cultist_leggings, irons_spellbooks:cultist_boots]
+    title: {ru: "Одеяние культиста", en: "Cultist Set"}
+    why: {en: 'Blood power: life steal and undead.', ru: 'Сила крови: вампиризм и призыв нежити.'}
+  - id: isg_archevoker
+    deps: [isg_school_evocation, irons_armor]
+    roles: [mage]
+    items: [irons_spellbooks:archevoker_helmet, irons_spellbooks:archevoker_chestplate, irons_spellbooks:archevoker_leggings, irons_spellbooks:archevoker_boots]
+    title: {ru: "Комплект архиэвокера", en: "Archevoker Set"}
+    why: {en: 'Evocation power: more vexes and fangs.', ru: 'Сила призыва: больше вексов и клыков.'}
+  - id: isg_plagued
+    deps: [isg_school_nature, irons_armor]
+    roles: [mage]
+    items: [irons_spellbooks:plagued_helmet, irons_spellbooks:plagued_chestplate, irons_spellbooks:plagued_leggings, irons_spellbooks:plagued_boots]
+    title: {ru: "Чумной комплект", en: "Plagued Set"}
+    why: {en: Nature and poison power., ru: Сила природы и яда.}
+  - id: isg_netherite_mage
+    deps: [isg_late]
+    roles: [mage]
+    items: [irons_spellbooks:netherite_mage_helmet, irons_spellbooks:netherite_mage_chestplate, irons_spellbooks:netherite_mage_leggings, irons_spellbooks:netherite_mage_boots]
+    title: {ru: "Незеритовые доспехи мага", en: "Netherite Battlemage Set"}
+    why: {ru: "Защита как у незерита + мана. Для мага, который стоит в первом ряду.", en: "Netherite-level defence plus mana."}
+  - id: isg_infernal
+    deps: [isg_pyromancer, irons_boss]
+    roles: [mage]
+    items: [irons_spellbooks:infernal_sorcerer_chestplate]
+  # --- jewelry and curios
+  - id: isg_rings
+    deps: [irons_rings]
+    roles: [mage]
+    items: [irons_spellbooks:cooldown_ring, irons_spellbooks:cast_time_ring]
+    title: {ru: "Кольца мага", en: "Mage Rings"}
+    why: {ru: "Кольца в слоты аксессуаров: быстрее перезарядка и каст.", en: "Faster cooldown and cast time."}
+  - id: isg_ward_rings
+    deps: [irons_rings]
+    roles: [mage, warrior]
+    items: [irons_spellbooks:fireward_ring, irons_spellbooks:frostward_ring, irons_spellbooks:poisonward_ring]
+    title: {ru: "Защитные кольца", en: "Ward Rings"}
+    why: {ru: "Защита от огня, холода и яда. Перед боссом — подбери кольцо под его стихию.", en: "Pick the ward ring that matches the boss."}
+  - id: isg_concentration
+    deps: [irons_rings]
+    roles: [mage]
+    items: [irons_spellbooks:concentration_amulet]
+  - id: isg_affinity
+    deps: [irons_rings]
+    roles: [mage]
+    items: [irons_spellbooks:affinity_ring]
+    title: {ru: "Кольцо родства", en: "Affinity Ring"}
+    why: {ru: "Повышает уровень одного заклинания — то, на котором держится твой билд.", en: "Raises the level of one spell."}
+  - id: isg_conjurer
+    deps: [isg_school_evocation]
+    roles: [mage]
+    items: [irons_spellbooks:conjurers_talisman]
+    why: {en: Summons last longer., ru: Призванные существа живут дольше.}
+  - id: isg_emerald_ring
+    deps: [irons_rings]
+    roles: [mage]
+    items: [irons_spellbooks:emerald_stoneplate_ring]
+  # --- weapons and loot
+  - id: isg_rapier
+    deps: [isg_casting_implements]
+    roles: [warrior]
+    items: [irons_spellbooks:amethyst_rapier]
+    why: {en: A fast blade scaling with spell power., ru: 'Аметистовая рапира — быстрый клинок, растущий от силы заклинаний.'}
+  - id: isg_magehunter
+    deps: [isg_casting_implements]
+    roles: [warrior]
+    items: [irons_spellbooks:magehunter]
+    why: {ru: "Меч против магов: отражает их заклинания. Хорош против архиэвокеров и культистов.", en: "Anti-mage sword."}
+  - id: isg_spellbreaker
+    deps: [isg_magehunter]
+    roles: [warrior]
+    items: [irons_spellbooks:spellbreaker]
+    why: {en: Interrupts enemy spellcasting., ru: 'Клинок, прерывающий чужие заклинания. Против вражеских магов и боссов-магов.'}
+  - id: isg_autoloader
+    deps: [isg_casting_implements]
+    roles: [warrior]
+    items: [irons_spellbooks:autoloader_crossbow]
+  - id: isg_ice_staff
+    deps: [isg_school_ice]
+    roles: [mage]
+    items: [irons_spellbooks:ice_staff]
+    why: {en: Boosts ice spells., ru: Ледяной посох усиливает школу льда.}
+  - id: isg_pyrium
+    deps: [isg_school_fire, irons_mithril]
+    roles: [mage]
+    items: [irons_spellbooks:pyrium_ingot*2, irons_spellbooks:pyrium_staff]
+    title: {ru: "Пириевый посох", en: "Pyrium Staff"}
+    why: {en: The best staff for fire mages., ru: Пирий — металл из огня и мифрила. Посох из него — сильнейший для огненного мага.}
+  - id: isg_dragonskin
+    deps: [isg_late]
+    roles: [mage]
+    items: [irons_spellbooks:dragonskin]
+  - id: isg_cinder
+    deps: [isg_school_fire]
+    roles: [mage]
+    items: [irons_spellbooks:cinder_essence]
+  - id: isg_frozen_bone
+    deps: [isg_spider_den]
+    roles: [mage]
+    items: [irons_spellbooks:frozen_bone]
+  - id: isg_ruined_book
+    deps: [isg_catacombs]
+    roles: [mage]
+    items: [irons_spellbooks:ruined_book]
+  # --- enemy mages (kill tasks)
+  - id: isg_kill_pyromancer
+    deps: [isg_pyro_tower]
+    roles: [warrior, mage]
+    icon: irons_spellbooks:pyromancer_helmet
+    tasks: [{type: kill, entity: irons_spellbooks:pyromancer}]
+    title: {ru: "Победи пироманта", en: "Defeat a Pyromancer"}
+    why: {ru: "Сражается огненными шарами. Защита от огня и вода под рукой — твои друзья.", en: "Fights with fireballs; bring fire protection."}
+  - id: isg_kill_cryomancer
+    deps: [isg_mountain_tower]
+    roles: [warrior, mage]
+    icon: irons_spellbooks:cryomancer_helmet
+    tasks: [{type: kill, entity: irons_spellbooks:cryomancer}]
+    title: {ru: "Победи криоманта", en: "Defeat a Cryomancer"}
+    why: {en: Slows and freezes; close the distance., ru: Замедляет и замораживает. Держи зелья скорости и бей вблизи.}
+  - id: isg_kill_archevoker
+    deps: [isg_evoker_fort]
+    roles: [warrior, mage]
+    icon: irons_spellbooks:archevoker_helmet
+    tasks: [{type: kill, entity: irons_spellbooks:archevoker}]
+    title: {ru: "Победи архиэвокера", en: "Defeat an Archevoker"}
+    why: {en: Kill the vexes first; keep moving., ru: 'Сначала убей вексов, потом его самого. Клыки из земли — двигайся всё время.'}
+  - id: isg_kill_necromancer
+    deps: [isg_catacombs]
+    roles: [warrior, mage]
+    icon: irons_spellbooks:blood_staff
+    tasks: [{type: kill, entity: irons_spellbooks:necromancer}]
+    title: {ru: "Победи некроманта", en: "Defeat a Necromancer"}
+    why: {en: 'Hit the necromancer, not his skeletons.', ru: 'Поднимает мертвецов. Бей его, а не скелетов — они исчезнут вместе с ним.'}
+  - id: isg_kill_spider
+    deps: [isg_spider_den]
+    roles: [warrior]
+    icon: irons_spellbooks:icy_fang
+    tasks: [{type: kill, entity: irons_spellbooks:ice_spider}]
+    title: {ru: "Ледяной паук", en: "Ice Spider"}
+    why: {en: Poison and cold; carry milk., ru: Яд и холод. Молоко и тёплая одежда спасут.}
+  - id: isg_kill_keeper
+    deps: [isg_citadel]
+    roles: [warrior, mage]
+    shape: hexagon
+    icon: irons_spellbooks:keeper_flamberge
+    tasks: [{type: kill, entity: irons_spellbooks:citadel_keeper}]
+    title: {ru: "Хранитель цитадели", en: "Citadel Keeper"}
+    why: {ru: "Страж цитадели бьёт огромным фламбергом. Держи дистанцию и уворачивайся — один на один почти без шансов.", en: "Huge flamberge; keep distance and dodge."}
+  - id: isg_kill_tyros
+    deps: [isg_kill_pyromancer, isg_late]
+    roles: [warrior, mage]
+    shape: hexagon
+    icon: irons_spellbooks:tyros_statue
+    tasks: [{type: kill, entity: irons_spellbooks:fire_boss}]
+    title: {ru: "Тирос, огненный босс", en: "Tyros, the Fire Boss"}
+    why: {ru: "Повелитель огня из глубин Незера. Кольцо защиты от огня, зелья и лекарь в команде обязательны.", en: "A fire lord; fire ward ring, potions and a healer required."}
+  - id: isg_master
+    deps: [isg_kill_tyros, isg_kill_keeper, isg_netherite_mage, isg_school_eldritch, isg_uncraftable_books, irons_dead_king]
+    roles: [mage]
+    shape: hexagon
+    icon: irons_spellbooks:legendary_spell_book
+    title: {ru: "Архимаг", en: "Archmage"}
+    text: {ru: "Все школы изучены, все башни пройдены, Мёртвый король и Тирос повержены. Теперь ты — тот маг, которого боятся в диких землях.", en: "All schools learned, the towers cleared, bosses defeated."}
+    rewards: [{type: xp_levels, count: 20}]
