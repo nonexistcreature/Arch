@@ -19,11 +19,13 @@ const ARK_ELITE = {
 }
 
 function arkEliteTier(level, x, z) {
-  const dim = String(level.dimension().location())
+  // level may be a WorldGenRegion (chunk generation): use the real ServerLevel; in KubeJS `dimension` is a property (its id)
+  const lvl = level.getLevel()
+  const dim = String(lvl.dimension)
   if (ARK_ELITE.dangerDims.indexOf(dim) >= 0) return 2
   if (ARK_ELITE.calmDims.indexOf(dim) >= 0) return 1
   if (dim !== 'minecraft:overworld') return 0
-  const s = level.getLevel().getSharedSpawnPos()
+  const s = lvl.getSharedSpawnPos()
   const d = Math.sqrt((x - s.getX()) * (x - s.getX()) + (z - s.getZ()) * (z - s.getZ()))
   return d >= ARK_ELITE.farRadius ? 2 : d >= ARK_ELITE.nearRadius ? 1 : 0
 }
@@ -52,13 +54,24 @@ function arkMakeElite(mob, tier) {
   mob.getPersistentData().putInt('ark_elite', tier)
 }
 
+/** Registry id of an entity, e.g. "minecraft:spider". */
+function arkEntityId(entity) {
+  const Reg = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
+  return String(Reg.ENTITY_TYPE.getKey(entity.getType()))
+}
+
+// A scripting mistake here must never take the server down (it did once): log it and spawn the mob normally.
 NativeEvents.onEvent('net.neoforged.neoforge.event.entity.living.FinalizeSpawnEvent', e => {
+  try { arkOnFinalizeSpawn(e) } catch (err) { console.error('[Arkhaven elites] ' + err) }
+})
+
+function arkOnFinalizeSpawn(e) {
   const mob = e.getEntity()
   const Enemy = Java.loadClass('net.minecraft.world.entity.monster.Enemy')
   if (!(mob instanceof Enemy)) return
   const type = String(e.getSpawnType())
   if (['NATURAL', 'CHUNK_GENERATION', 'STRUCTURE', 'PATROL'].indexOf(type) < 0) return
-  const id = String(mob.getType().builtInRegistryHolder().key().location())
+  const id = arkEntityId(mob)
   if (ARK_ELITE.skipNamespaces.indexOf(id.split(':')[0]) >= 0) return
   const Attr = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes')
   if (mob.getAttributeBaseValue(Attr.MAX_HEALTH) > ARK_ELITE.maxBaseHealth) return
@@ -66,10 +79,14 @@ NativeEvents.onEvent('net.neoforged.neoforge.event.entity.living.FinalizeSpawnEv
   if (tier === 0) return
   if (Math.random() >= ARK_ELITE.chance[tier]) return
   arkMakeElite(mob, tier)
-})
+}
 
 // Extra loot when a player kills an elite: worth the fight, never a farm (natural spawns only).
 EntityEvents.death(event => {
+  try { arkEliteLoot(event) } catch (err) { console.error('[Arkhaven elites] ' + err) }
+})
+
+function arkEliteLoot(event) {
   const mob = event.entity
   if (!mob || mob.isPlayer()) return
   const tier = mob.getPersistentData().getInt('ark_elite')
@@ -81,4 +98,4 @@ EntityEvents.death(event => {
   if (tier === 2 && Math.random() < 0.05) drop('arkhaven:rift_shard', 1)
   const Orb = Java.loadClass('net.minecraft.world.entity.ExperienceOrb')
   mob.level.addFreshEntity(new Orb(mob.level, mob.x, mob.y, mob.z, 10 * tier))
-})
+}

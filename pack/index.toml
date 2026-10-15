@@ -338,7 +338,7 @@ hash = "3f0d4d7ae78205a134adcf2c9588be4bd68347080eb1c5ae932ae540a9a320de"
 
 [[files]]
 file = "kubejs/server_scripts/65_elites.js"
-hash = "d3851a55c21915647e29703699885d900dbb0fb5942a8229f84956e33e0ad97d"
+hash = "cc7e00d4a6f87fbcff63b82be0973a44835e7c3fc68fbba8cbf2312415ff3b08"
 
 [[files]]
 file = "kubejs/server_scripts/66_progression_gates.js"

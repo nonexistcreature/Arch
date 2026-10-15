@@ -20,6 +20,20 @@ ServerEvents.loaded(event => {
           ' dmg=' + en.getAttributeValue(Attributes.ATTACK_DAMAGE) + ' head=' + en.getItemBySlot(Java.loadClass('net.minecraft.world.entity.EquipmentSlot').HEAD).getItem())
         en.discard()
       })
+      // the real natural-spawn path: FinalizeSpawnEvent(NATURAL) through arkOnFinalizeSpawn, 40 mobs at tier-2 distance
+      const FSE = Java.loadClass('net.neoforged.neoforge.event.entity.living.FinalizeSpawnEvent')
+      const MST = Java.loadClass('net.minecraft.world.entity.MobSpawnType')
+      const lvl = server.overworld()
+      let elites = 0, errors = 0, probeMob = null
+      for (let i = 0; i < 40; i++) {
+        probeMob = lvl.createEntity(i % 2 ? 'minecraft:spider' : 'minecraft:zombie')
+        probeMob.setPos(s.x + i, s.y, s.z + 3)
+        try {
+          arkOnFinalizeSpawn(new FSE(probeMob, lvl, s.x + i, s.y, s.z + 3, lvl.getCurrentDifficultyAt(probeMob.blockPosition()), MST.NATURAL, null, null))
+        } catch (err) { errors++; console.error('ARK_ELITE_NATURAL error ' + err) }
+        if (probeMob.getPersistentData().getInt("ark_elite") === 2) elites++
+      }
+      console.info('ARK_ELITE_NATURAL mobs=40 elites=' + elites + ' errors=' + errors)
     })
   })
 })
