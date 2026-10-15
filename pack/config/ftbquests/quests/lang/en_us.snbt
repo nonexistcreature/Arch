@@ -5825,6 +5825,206 @@
 	quest.5A9C5F24AD35D296.quest_desc: [
 		"You've seen the heavens and the depths of this world. Share your finds on the map (Xaero → waypoints → share) so friends can follow."
 	]
+	chapter.1D555EC874F7223F.title: "The Aether"
+	chapter.1D555EC874F7223F.chapter_subtitle: [
+		"Sky islands, three dungeons, Valkyries and the Sun Spirit"
+	]
+	quest.57CB4834EABEA660.title: "The Paradise Above"
+	quest.57CB4834EABEA660.quest_desc: [
+		"&lWhy:&r A glowstone frame lit with water. Falling off an island is deadly — bring a parachute."
+	]
+	quest.26BEBF6342A10D42.title: "Book of Lore"
+	quest.26BEBF6342A10D42.quest_desc: [
+		"&lWhy:&r Put any Aether item in to learn about it."
+	]
+	quest.1F092A54F8037433.title: "Skyroot"
+	quest.1F092A54F8037433.quest_desc: [
+		"&lWhy:&r Skyroot tools double drops from Aether blocks."
+	]
+	quest.60F580AC00BE4892.title: "Holystone"
+	quest.60F580AC00BE4892.quest_desc: [
+		"&lWhy:&r Holystone tools sometimes drop ambrosium."
+	]
+	quest.654D5A55BB42444A.title: "Ambrosium Shard"
+	quest.654D5A55BB42444A.quest_desc: [
+		"&lWhy:&r The Aether's fuel; also heals."
+	]
+	quest.53D2345AC89B0835.title: "Altar"
+	quest.53D2345AC89B0835.quest_desc: [
+		"&lWhy:&r Enchants and repairs Aether items."
+	]
+	quest.1B815D468F9CCF79.title: "Freezer"
+	quest.1B815D468F9CCF79.quest_desc: [
+		"&lWhy:&r Freezes Aether items into ice gear."
+	]
+	quest.18AA7F9B9C17BCE1.title: "Incubator"
+	quest.18AA7F9B9C17BCE1.quest_desc: [
+		"&lWhy:&r Hatches moa eggs on ambrosium."
+	]
+	quest.5DBD02C687182C9D.title: "Moa Egg"
+	quest.5DBD02C687182C9D.quest_desc: [
+		"&lWhy:&r Hatch a moa: a mount with double jump."
+	]
+	quest.13BDFCE86BC9783F.title: "Zanite Pickaxe"
+	quest.13BDFCE86BC9783F.quest_desc: [
+		"&lWhy:&r Zanite gets stronger as it wears."
+	]
+	quest.44624303E124B5EA.title: "Zanite Armor"
+	quest.44624303E124B5EA.quest_desc: [
+		"&lWhy:&r Zanite armor improves as it wears."
+	]
+	quest.6194BCE15C5C9CDF.title: "Zanite Gloves"
+	quest.6194BCE15C5C9CDF.quest_desc: [
+		"&lWhy:&r An extra glove slot for armor."
+	]
+	quest.664A653B9D0CF6A3.title: "Rings and Pendants"
+	quest.664A653B9D0CF6A3.quest_desc: [
+		"&lWhy:&r Zanite accessories speed up mining."
+	]
+	quest.40971DC17C102818.title: "Ice Ring"
+	quest.40971DC17C102818.quest_desc: [
+		"&lWhy:&r Freezes water and lava underfoot."
+	]
+	quest.61C6A0E5798C1DB8.title: "Cold Parachute"
+	quest.61C6A0E5798C1DB8.quest_desc: [
+		"&lWhy:&r Open it when falling off an island."
+	]
+	quest.1539B08B133CF2D3.title: "Golden Parachute"
+	quest.1539B08B133CF2D3.quest_desc: [
+		"&lWhy:&r Lasts longer than the cold one."
+	]
+	quest.6E4AF6B8A4CB34FC.title: "Dart Shooters"
+	quest.6E4AF6B8A4CB34FC.quest_desc: [
+		"&lWhy:&r Ranged option against zephyrs."
+	]
+	quest.3CABA48D07FA839C.title: "Poison Dart Shooter"
+	quest.3CABA48D07FA839C.quest_desc: [
+		"&lWhy:&r Poison paralyses the target."
+	]
+	quest.108F62A4DB1634B5.title: "Swet Ball"
+	quest.108F62A4DB1634B5.quest_desc: [
+		"&lWhy:&r Swets grab you; their goo is Aether glue."
+	]
+	quest.4C37B1D77C5A365C.title: "Blue Berry"
+	quest.4C37B1D77C5A365C.quest_desc: [
+		"&lWhy:&r The white apple cures Aether poison."
+	]
+	quest.0DC27AF0BD968B69.title: "Enchanted Berry"
+	quest.0DC27AF0BD968B69.quest_desc: [
+		"&lWhy:&r Best food and fuel; made at the altar."
+	]
+	quest.42179C47C3563FA4.title: "Blue Gummy Swet"
+	quest.42179C47C3563FA4.quest_desc: [
+		"&lWhy:&r Restores health."
+	]
+	quest.665F084C83DDEBDD.title: "Quicksoil"
+	quest.665F084C83DDEBDD.quest_desc: [
+		"&lWhy:&r Slippery soil and seamless glass."
+	]
+	quest.33A6E21A49B8E8B1.title: "Aerclouds"
+	quest.33A6E21A49B8E8B1.quest_desc: [
+		"&lWhy:&r Cold clouds stop falls, blue ones bounce."
+	]
+	quest.30BC81A05184506E.title: "Golden Oak"
+	quest.30BC81A05184506E.quest_desc: [
+		"&lWhy:&r Golden oaks give amber."
+	]
+	quest.3D36C44D5BEEED71.title: "Sky Storms"
+	quest.3D36C44D5BEEED71.quest_desc: [
+		"&lWhy:&r Zephyrs knock you off islands; fight them from range."
+	]
+	quest.5E911E344FEBFB3D.title: "Bronze Dungeon"
+	quest.5E911E344FEBFB3D.quest_desc: [
+		"&lWhy:&r Hit the Slider only with a pickaxe when it stops."
+	]
+	quest.08086AD3C37DBF74.title: "Bronze Key"
+	quest.08086AD3C37DBF74.quest_desc: [
+		"&lWhy:&r Opens the bronze dungeon's treasure room."
+	]
+	quest.6214182AE1EB9618.title: "Gravitite"
+	quest.6214182AE1EB9618.quest_desc: [
+		"&lWhy:&r Floating ore; enchant it on the altar."
+	]
+	quest.228AA03EF355CEA5.title: "Gravitite Armor"
+	quest.228AA03EF355CEA5.quest_desc: [
+		"&lWhy:&r Full set: high jump and no fall damage."
+	]
+	quest.35C60B398E091F84.title: "Gravitite Pickaxe"
+	quest.35C60B398E091F84.quest_desc: [
+		"&lWhy:&r Right-click to lift blocks."
+	]
+	quest.4972C6A445A2CAEE.title: "Silver Dungeon"
+	quest.4972C6A445A2CAEE.quest_desc: [
+		"&lWhy:&r Clear the guards before facing the Valkyrie Queen."
+	]
+	quest.5FB905FDDDDB793E.title: "Valkyrie Armor"
+	quest.5FB905FDDDDB793E.quest_desc: [
+		"&lWhy:&r With the Valkyrie cape: flight."
+	]
+	quest.4A7E9FD340472574.title: "Valkyrie Lance"
+	quest.4A7E9FD340472574.quest_desc: [
+		"&lWhy:&r Long reach, strong when falling."
+	]
+	quest.4A5EB7F6A0A09202.title: "Neptune Armor"
+	quest.4A5EB7F6A0A09202.quest_desc: [
+		"&lWhy:&r Fast swimming, water breathing."
+	]
+	quest.177262B1FF8AD54B.title: "Gold Dungeon"
+	quest.177262B1FF8AD54B.quest_desc: [
+		"&lWhy:&r Reflect his fireballs. Bring fire resistance."
+	]
+	quest.163831DD11F3A1A3.title: "Phoenix Armor"
+	quest.163831DD11F3A1A3.quest_desc: [
+		"&lWhy:&r Fire and lava immunity."
+	]
+	quest.7450698EFDB0FBE4.title: "Phoenix Bow"
+	quest.7450698EFDB0FBE4.quest_desc: [
+		"&lWhy:&r Ignites arrows."
+	]
+	quest.6031406EF6D183DA.title: "Obsidian Chestplate"
+	quest.6031406EF6D183DA.quest_desc: [
+		"&lWhy:&r Cooled phoenix armor: very tough."
+	]
+	quest.745340AAF59D8E96.title: "Legendary Swords"
+	quest.745340AAF59D8E96.quest_desc: [
+		"&lWhy:&r Fire, lightning and holy swords."
+	]
+	quest.57E53AF056CC6DBF.title: "Vampire Blade"
+	quest.57E53AF056CC6DBF.quest_desc: [
+		"&lWhy:&r Heals you with a part of damage dealt."
+	]
+	quest.7DFA457CE94E0AA2.title: "Hammer of Kingbdogz"
+	quest.7DFA457CE94E0AA2.quest_desc: [
+		"&lWhy:&r Knocks enemies far away."
+	]
+	quest.5FC480D7CEC234B7.title: "Aether Staves"
+	quest.5FC480D7CEC234B7.quest_desc: [
+		"&lWhy:&r Cloud and nature staves."
+	]
+	quest.10F015CF2C87093B.title: "Capes"
+	quest.10F015CF2C87093B.quest_desc: [
+		"&lWhy:&r Step-up and invisibility capes."
+	]
+	quest.6DAC0BEF66AC01E2.title: "Shield of Repulsion"
+	quest.6DAC0BEF66AC01E2.quest_desc: [
+		"&lWhy:&r Reflects projectiles while you stand still."
+	]
+	quest.003213FD869C4D94.title: "Regeneration Stone"
+	quest.003213FD869C4D94.quest_desc: [
+		"&lWhy:&r Slow healing as an accessory."
+	]
+	quest.2E3DBCFA30BA66B0.title: "Life Shard"
+	quest.2E3DBCFA30BA66B0.quest_desc: [
+		"&lWhy:&r Adds a permanent heart."
+	]
+	quest.767EE34F585E0751.title: "Victory Medal"
+	quest.767EE34F585E0751.quest_desc: [
+		"&lWhy:&r Ten medals let you challenge the Queen."
+	]
+	quest.3864AD324F7C2EAD.title: "Keeper of the Skies"
+	quest.3864AD324F7C2EAD.quest_desc: [
+		"Three dungeons cleared, the Sun Spirit defeated."
+	]
 	chapter.3E92433C873CD4AC.title: "Other Worlds"
 	chapter.3E92433C873CD4AC.chapter_subtitle: [
 		"What to gather in each dimension, and why to come back"

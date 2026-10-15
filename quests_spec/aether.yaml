@@ -1,0 +1,287 @@
+# The Aether: the Book of Lore describes nearly every item (lore.item.aether.* / lore.block.aether.*), mostly translated.
+chapter:
+  id: aether_sky
+  order: 16.6
+  icon: aether:aether_portal_frame
+  ru: {title: "Эфир", subtitle: "Небесные острова, три подземелья, валькирии и Дух Солнца"}
+  en: {title: "The Aether", subtitle: "Sky islands, three dungeons, Valkyries and the Sun Spirit"}
+lang: [aether]
+autodoc: ["lore.item.{ns}.{path}", "lore.block.{ns}.{path}"]
+out: aether_gen
+quests:
+  - id: aeg_portal
+    deps: [adv_aether]
+    shape: gear
+    roles: [warrior, builder]
+    icon: minecraft:glowstone
+    tasks: [{type: dimension, dimension: aether:the_aether}]
+    title: {ru: "Небесный рай", en: "The Paradise Above"}
+    why: {ru: "Рамка из светокамня, зажжённая ведром воды, — портал в Эфир. Внизу пустота: падение с острова — смерть, бери с собой парашют или облако под ногами.", en: "A glowstone frame lit with water. Falling off an island is deadly — bring a parachute."}
+  - id: aeg_lore
+    deps: [aeg_portal]
+    roles: [mage]
+    items: [aether:book_of_lore]
+    why: {ru: "Книга знаний: положи в неё любой предмет Эфира — и узнаешь, что это и зачем.", en: "Put any Aether item in to learn about it."}
+  - id: aeg_skyroot
+    deps: [aeg_portal]
+    roles: [builder, engineer]
+    items: [aether:skyroot_log*16, aether:skyroot_pickaxe]
+    title: {ru: "Небесный корень", en: "Skyroot"}
+    why: {ru: "Местное дерево. Инструменты из него удваивают добычу с блоков Эфира. Ведро из небесного корня — для молока и зелий.", en: "Skyroot tools double drops from Aether blocks."}
+  - id: aeg_holystone
+    deps: [aeg_skyroot]
+    roles: [engineer]
+    items: [aether:holystone_pickaxe, aether:holystone*32]
+    title: {ru: "Святой камень", en: "Holystone"}
+    why: {ru: "Инструменты из святого камня иногда роняют амброзиевые осколки.", en: "Holystone tools sometimes drop ambrosium."}
+  - id: aeg_ambrosium
+    deps: [aeg_holystone]
+    roles: [engineer]
+    items: [aether:ambrosium_shard*8, aether:ambrosium_torch*8]
+    why: {ru: "Топливо Эфира: в обычной печи тут ничего не горит. Ещё лечит, если съесть.", en: "The Aether's fuel; also heals."}
+  - id: aeg_altar
+    deps: [aeg_ambrosium]
+    roles: [mage, engineer]
+    items: [aether:altar]
+    why: {ru: "Алтарь зачаровывает и чинит предметы Эфира на амброзии.", en: "Enchants and repairs Aether items."}
+  - id: aeg_freezer
+    deps: [aeg_ambrosium]
+    roles: [engineer]
+    items: [aether:freezer]
+    why: {en: Freezes Aether items into ice gear., ru: 'Морозильник замораживает предметы Эфира: лёд из воды, ледяные кольца, подвески.'}
+  - id: aeg_incubator
+    deps: [aeg_ambrosium, aeg_moa]
+    roles: [breeder]
+    items: [aether:incubator]
+    why: {en: Hatches moa eggs on ambrosium., ru: Инкубатор на амброзии высиживает яйца моа — свой ездовой питомец.}
+  - id: aeg_moa
+    deps: [aeg_portal]
+    roles: [breeder]
+    items: [aether:blue_moa_egg]
+    title: {ru: "Яйцо моа", en: "Moa Egg"}
+    why: {ru: "Вылупи моа в инкубаторе — ездовая птица с двойным прыжком и плавным падением. Чёрные моа прыгают трижды.", en: "Hatch a moa: a mount with double jump."}
+  - id: aeg_zanite_tools
+    deps: [adv_zanite]
+    roles: [engineer, warrior]
+    items: [aether:zanite_pickaxe, aether:zanite_sword]
+    why: {ru: "Цанит становится тем сильнее, чем больше износ — интересный выбор вместо железа.", en: "Zanite gets stronger as it wears."}
+  - id: aeg_zanite_armor
+    deps: [adv_zanite]
+    roles: [warrior]
+    items: [aether:zanite_helmet, aether:zanite_chestplate, aether:zanite_leggings, aether:zanite_boots]
+    title: {ru: "Цанитовая броня", en: "Zanite Armor"}
+    why: {en: Zanite armor improves as it wears., ru: 'Чем больше износ, тем лучше защита цанита — броня «разгоняется» в бою.'}
+  - id: aeg_gloves
+    deps: [adv_zanite]
+    roles: [warrior]
+    items: [aether:zanite_gloves]
+    why: {ru: "В Эфире есть слот перчаток — ещё немного брони и урона кулаком.", en: "An extra glove slot for armor."}
+  - id: aeg_rings
+    deps: [adv_zanite]
+    roles: [warrior, mage]
+    items: [aether:zanite_ring, aether:zanite_pendant]
+    title: {ru: "Кольца и подвески", en: "Rings and Pendants"}
+    why: {ru: "Цанитовые аксессуары ускоряют копание.", en: "Zanite accessories speed up mining."}
+  - id: aeg_ice_ring
+    deps: [aeg_freezer]
+    roles: [warrior]
+    items: [aether:ice_ring]
+    why: {ru: "Замораживает воду и лаву под ногами — ходи по лаве в Незере.", en: "Freezes water and lava underfoot."}
+  - id: aeg_parachute
+    deps: [aeg_portal]
+    roles: [warrior]
+    items: [aether:cold_parachute*2]
+    why: {ru: "Парашют из холодного облака. Открой, если падаешь с острова, — спасёт жизнь.", en: "Open it when falling off an island."}
+  - id: aeg_golden_parachute
+    deps: [aeg_parachute]
+    roles: [warrior]
+    items: [aether:golden_parachute]
+    why: {en: Lasts longer than the cold one., ru: 'Золотой парашют держится дольше и не тает, как холодный.'}
+  - id: aeg_darts
+    deps: [aeg_skyroot]
+    roles: [warrior]
+    items: [aether:golden_dart_shooter, aether:golden_dart*16]
+    title: {ru: "Духовые трубки", en: "Dart Shooters"}
+    why: {en: Ranged option against zephyrs., ru: Золотые дротики бьют издали и не требуют стрел. Хороши против зефиров.}
+  - id: aeg_poison_darts
+    deps: [aeg_darts]
+    roles: [warrior, alchemist]
+    items: [aether:poison_dart_shooter, aether:poison_dart*8]
+    why: {en: Poison paralyses the target., ru: Ядовитые дротики парализуют цель — для охоты и защиты базы.}
+  - id: aeg_swet
+    deps: [aeg_portal]
+    roles: [warrior]
+    items: [aether:swet_ball*4]
+    why: {ru: "Студенистые свиты прыгают на тебя и сжимают. Их слизь — клей и удобрение Эфира.", en: "Swets grab you; their goo is Aether glue."}
+  - id: aeg_berries
+    deps: [aeg_portal]
+    roles: [cook, gardener]
+    items: [aether:blue_berry*8, aether:white_apple]
+    why: {ru: "Белое яблоко снимает отравление от воды Эфира и яда эхоров.", en: "The white apple cures Aether poison."}
+  - id: aeg_enchanted_berry
+    deps: [aeg_berries, aeg_altar]
+    roles: [cook]
+    items: [aether:enchanted_berry*4]
+    why: {en: Best food and fuel; made at the altar., ru: Зачарованная ягода — лучшее топливо и лучшая еда Эфира. Делается на алтаре.}
+  - id: aeg_gummy
+    deps: [aeg_swet]
+    roles: [cook]
+    items: [aether:blue_gummy_swet*2]
+    why: {en: Restores health., ru: 'Мармелад из свита восстанавливает здоровье и даёт эффект — подарок тем, кто шёл через облака.'}
+  - id: aeg_quicksoil
+    deps: [aeg_portal]
+    roles: [builder]
+    items: [aether:quicksoil*8, aether:quicksoil_glass*4]
+    why: {en: Slippery soil and seamless glass., ru: Зыбкая почва скользит и держит инерцию; стекло из неё — прозрачные стены без швов.}
+  - id: aeg_aerclouds
+    deps: [aeg_portal]
+    roles: [builder]
+    items: [aether:cold_aercloud*8, aether:blue_aercloud*4]
+    title: {ru: "Облака", en: "Aerclouds"}
+    why: {ru: "Холодное облако смягчает падение, синее подбрасывает вверх — батут и спасение одновременно.", en: "Cold clouds stop falls, blue ones bounce."}
+  - id: aeg_golden_oak
+    deps: [aeg_skyroot]
+    roles: [gardener]
+    items: [aether:golden_amber*4]
+    title: {ru: "Золотой дуб", en: "Golden Oak"}
+    why: {ru: "Золотые дубы дают янтарь — материал для золотых дротиков и шапок.", en: "Golden oaks give amber."}
+  - id: aeg_aerwhale
+    deps: [aeg_portal]
+    roles: [breeder]
+    icon: aether:aether_portal_frame
+    tasks: [{type: kill, entity: aether:zephyr}]
+    title: {ru: "Небесные бури", en: "Sky Storms"}
+    why: {ru: "Зефиры стреляют снежками, сбрасывая с островов. Бей их издали — и держись дальше от края.", en: "Zephyrs knock you off islands; fight them from range."}
+  # --- dungeons
+  - id: aeg_bronze
+    deps: [aeg_portal]
+    roles: [warrior]
+    icon: aether:bronze_dungeon_key
+    tasks: [{type: structure, structure: aether:bronze_dungeon}]
+    title: {ru: "Бронзовое подземелье", en: "Bronze Dungeon"}
+    why: {ru: "Внутри острова — комнаты со стражами и Слайдер, каменный куб. Бей его только киркой, когда он остановится.", en: "Hit the Slider only with a pickaxe when it stops."}
+  - id: aeg_bronze_key
+    deps: [adv_aether]
+    roles: [warrior]
+    items: [aether:bronze_dungeon_key]
+    why: {en: Opens the bronze dungeon's treasure room., ru: Ключ из бронзового подземелья открывает его сокровищницу.}
+  - id: aeg_gravitite
+    deps: [aeg_bronze_key]
+    roles: [engineer]
+    items: [aether:enchanted_gravitite*4]
+    title: {ru: "Гравитит", en: "Gravitite"}
+    why: {ru: "Руда, которая взлетает, если её не поймать. Зачаруй на алтаре — материал для лучшей брони Эфира.", en: "Floating ore; enchant it on the altar."}
+  - id: aeg_gravitite_set
+    deps: [aeg_gravitite]
+    roles: [warrior]
+    items: [aether:gravitite_helmet, aether:gravitite_chestplate, aether:gravitite_leggings, aether:gravitite_boots]
+    title: {ru: "Гравититовая броня", en: "Gravitite Armor"}
+    why: {ru: "Полный комплект даёт высокий прыжок и защиту от падения.", en: "Full set: high jump and no fall damage."}
+  - id: aeg_gravitite_tools
+    deps: [aeg_gravitite]
+    roles: [engineer]
+    items: [aether:gravitite_pickaxe]
+    why: {ru: "Гравититовая кирка поднимает блоки в воздух ПКМ — перенеси что угодно.", en: "Right-click to lift blocks."}
+  - id: aeg_silver
+    deps: [adv_aether]
+    roles: [warrior]
+    icon: aether:silver_dungeon_key
+    tasks: [{type: structure, structure: aether:silver_dungeon}]
+    title: {ru: "Серебряный храм", en: "Silver Dungeon"}
+    why: {ru: "Храм валькирий в облаках. Королева валькирий не нападёт, пока не перебьёшь её стражей и не заговоришь с ней.", en: "Clear the guards before facing the Valkyrie Queen."}
+  - id: aeg_valkyrie_set
+    deps: [adv_valkyrie]
+    roles: [warrior]
+    items: [aether:valkyrie_helmet, aether:valkyrie_chestplate, aether:valkyrie_leggings, aether:valkyrie_boots]
+    title: {ru: "Доспехи валькирии", en: "Valkyrie Armor"}
+    why: {ru: "Полный комплект с плащом валькирии дарит полёт.", en: "With the Valkyrie cape: flight."}
+  - id: aeg_valkyrie_lance
+    deps: [adv_valkyrie]
+    roles: [warrior]
+    items: [aether:valkyrie_lance]
+    why: {en: 'Long reach, strong when falling.', ru: Копьё валькирии бьёт далеко и сильнее при ударе сверху вниз.}
+  - id: aeg_neptune
+    deps: [adv_valkyrie]
+    roles: [warrior]
+    items: [aether:neptune_helmet, aether:neptune_chestplate, aether:neptune_leggings, aether:neptune_boots]
+    title: {ru: "Доспехи Нептуна", en: "Neptune Armor"}
+    why: {ru: "Быстрое плавание и дыхание под водой.", en: "Fast swimming, water breathing."}
+  - id: aeg_gold
+    deps: [adv_valkyrie]
+    roles: [warrior]
+    icon: aether:gold_dungeon_key
+    tasks: [{type: structure, structure: aether:gold_dungeon}]
+    title: {ru: "Золотой остров", en: "Gold Dungeon"}
+    why: {ru: "Остров Духа Солнца. Бой в огне: бей его отражёнными огненными шарами. Огнестойкость и ледяное кольцо обязательны.", en: "Reflect his fireballs. Bring fire resistance."}
+  - id: aeg_phoenix
+    deps: [adv_sun_spirit]
+    roles: [warrior]
+    items: [aether:phoenix_helmet, aether:phoenix_chestplate, aether:phoenix_leggings, aether:phoenix_boots]
+    title: {ru: "Доспехи феникса", en: "Phoenix Armor"}
+    why: {ru: "Иммунитет к огню и лаве. В воде остывают в обсидиановые.", en: "Fire and lava immunity."}
+  - id: aeg_phoenix_bow
+    deps: [adv_sun_spirit]
+    roles: [warrior]
+    items: [aether:phoenix_bow]
+    why: {en: Ignites arrows., ru: 'Лук феникса поджигает стрелы и тратит их меньше, пока он нагрет.'}
+  - id: aeg_obsidian
+    deps: [aeg_phoenix]
+    roles: [warrior]
+    items: [aether:obsidian_chestplate]
+    why: {ru: "Феникс, остывший в воде, становится обсидиановым — одна из самых прочных броней.", en: "Cooled phoenix armor: very tough."}
+  - id: aeg_weapons
+    deps: [adv_valkyrie]
+    roles: [warrior]
+    items: [aether:flaming_sword, aether:lightning_sword, aether:holy_sword]
+    title: {ru: "Легендарные мечи", en: "Legendary Swords"}
+    why: {ru: "Огненный поджигает, молниевый бьёт током, святой — против нежити.", en: "Fire, lightning and holy swords."}
+  - id: aeg_vampire
+    deps: [aeg_weapons]
+    roles: [warrior]
+    items: [aether:vampire_blade]
+    why: {en: Heals you with a part of damage dealt., ru: Вампирский клинок лечит тебя частью нанесённого урона.}
+  - id: aeg_hammer
+    deps: [aeg_bronze]
+    roles: [warrior]
+    items: [aether:hammer_of_kingbdogz]
+    why: {en: Knocks enemies far away., ru: 'Молот отбрасывает врагов далеко — выбивай мобов с острова, а не себя.'}
+  - id: aeg_staves
+    deps: [adv_valkyrie]
+    roles: [mage]
+    items: [aether:cloud_staff, aether:nature_staff]
+    title: {ru: "Посохи Эфира", en: "Aether Staves"}
+    why: {ru: "Посох облаков призывает защитные облака, посох природы — управляет моа и зверями.", en: "Cloud and nature staves."}
+  - id: aeg_capes
+    deps: [adv_valkyrie]
+    roles: [warrior]
+    items: [aether:agility_cape, aether:invisibility_cloak]
+    title: {ru: "Плащи", en: "Capes"}
+    why: {ru: "Плащ ловкости — шаг на блок, плащ невидимости — мобы тебя не видят.", en: "Step-up and invisibility capes."}
+  - id: aeg_shield
+    deps: [adv_sun_spirit]
+    roles: [warrior]
+    items: [aether:shield_of_repulsion]
+    why: {ru: "Щит отражает снаряды, пока ты не двигаешься.", en: "Reflects projectiles while you stand still."}
+  - id: aeg_regeneration
+    deps: [adv_sun_spirit]
+    roles: [warrior]
+    items: [aether:regeneration_stone]
+    why: {en: Slow healing as an accessory., ru: Камень регенерации в слоте аксессуаров медленно лечит.}
+  - id: aeg_life_shard
+    deps: [adv_sun_spirit]
+    roles: [warrior]
+    items: [aether:life_shard]
+    why: {ru: "Осколок жизни навсегда добавляет сердце здоровья.", en: "Adds a permanent heart."}
+  - id: aeg_medal
+    deps: [adv_valkyrie]
+    roles: [warrior]
+    items: [aether:victory_medal*5]
+    why: {ru: "Медали за побитых валькирий. Десять медалей — право сразиться с королевой.", en: "Ten medals let you challenge the Queen."}
+  - id: aeg_master
+    deps: [adv_sun_spirit, aeg_phoenix, aeg_gravitite_set, aeg_valkyrie_set, aeg_life_shard, aeg_staves]
+    roles: [warrior]
+    shape: hexagon
+    icon: aether:phoenix_chestplate
+    title: {ru: "Хранитель небес", en: "Keeper of the Skies"}
+    text: {ru: "Три подземелья пройдены, Дух Солнца повержен, а над островами снова светит спокойное солнце.", en: "Three dungeons cleared, the Sun Spirit defeated."}
+    rewards: [{type: xp_levels, count: 15}]
