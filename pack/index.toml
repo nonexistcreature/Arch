@@ -362,7 +362,7 @@ hash = "dd7397b0e31358796109e84ef5e60b6d6c72582bfcb656da39fd5330c458a767"
 
 [[files]]
 file = "kubejs/server_scripts/60_haven_guides.js"
-hash = "3f0d4d7ae78205a134adcf2c9588be4bd68347080eb1c5ae932ae540a9a320de"
+hash = "1609102ddd7683c7f070ec4f29ee24a94d92f11d53c05627f63e8d2e02fbc41f"
 
 [[files]]
 file = "kubejs/server_scripts/65_elites.js"

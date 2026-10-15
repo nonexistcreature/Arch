@@ -46,14 +46,32 @@ ServerEvents.commandRegistry(e => {
   }))
 })
 
-ItemEvents.entityInteracted(e => {
-  const tags = e.target.tags
-  if (!tags.contains('ark_guide')) return
-  const g = ARK_GUIDES.find(x => tags.contains(`ark_guide_${x.id}`))
+// Right-click goes through NeoForge's player interaction events directly: Easy NPC can consume the click in
+// interactAt before KubeJS's ItemEvents.entityInteracted fires, so we listen to both events, cancel them so the
+// NPC's own editor/dialog does not open, and answer once per click (both events and both hands fire).
+const arkGuideLastTalk = {}
+
+function arkGuideInteract(e) {
+  if (e.level.isClientSide()) return
+  let target = e.target
+  if (!target || !target.tags || !target.tags.contains('ark_guide')) return
+  let g = ARK_GUIDES.find(x => target.tags.contains(`ark_guide_${x.id}`))
   if (!g) return
-  e.cancel()
-  if (e.hand != 'MAIN_HAND') return
-  const p = e.player
+  e.setCanceled(true)
+  e.setCancellationResult(Java.loadClass('net.minecraft.world.InteractionResult').SUCCESS)
+  let p = e.entity
+  let key = String(p.uuid)
+  let now = e.level.gameTime
+  if (arkGuideLastTalk[key] !== undefined && now - arkGuideLastTalk[key] < 10) return
+  arkGuideLastTalk[key] = now
   p.tell(Text.translate(`arkhaven.guide.${g.id}.name`).gold().append(Text.of(': ').white()).append(Text.translate(`arkhaven.guide.${g.id}.line`).white()))
   p.tell(Text.translate('arkhaven.guide.open_book').green().underlined().clickRunCommand(`/ftbquests open_book`))
+  console.info(`[Arkhaven] guide ${g.id} talked to ${p.username}`)
+}
+
+NativeEvents.onEvent('net.neoforged.neoforge.event.entity.player.PlayerInteractEvent$EntityInteractSpecific', e => {
+  try { arkGuideInteract(e) } catch (err) { console.error('[Arkhaven guides] ' + err) }
+})
+NativeEvents.onEvent('net.neoforged.neoforge.event.entity.player.PlayerInteractEvent$EntityInteract', e => {
+  try { arkGuideInteract(e) } catch (err) { console.error('[Arkhaven guides] ' + err) }
 })
