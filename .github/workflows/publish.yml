@@ -55,3 +55,4 @@ jobs:
             launcher/dist/Arkhaven-Prism-Instance.zip
             launcher/dist/Arkhaven-Own-Launcher.zip
             launcher/dist/Arkhaven-*.mrpack
+            launcher/dist/Arkhaven-ZeroTier.cmd

@@ -144,7 +144,7 @@ def build_own_launcher_zip():
     if d.exists():
         shutil.rmtree(d)
     d.mkdir(parents=True)
-    for f in ("install-to-launcher.cmd", "install-to-launcher.ps1", "zerotier-join.ps1"):
+    for f in ("install-to-launcher.cmd", "install-to-launcher.ps1", "zerotier-join.ps1", "Arkhaven-ZeroTier.cmd"):
         shutil.copy(L / f, d / f)
     shutil.copy(L / "build/discover/Discover.jar", d / "Discover.jar")
     shutil.copy(L / "own-launcher-README.txt", d / "ПРОЧТИ.txt")
@@ -204,6 +204,7 @@ def main():
     (L / "dist").mkdir(exist_ok=True)
     build_prism_zip(mc)
     build_own_launcher_zip()
+    shutil.copy(L / "Arkhaven-ZeroTier.cmd", L / "dist/Arkhaven-ZeroTier.cmd")  # standalone: just joins the friends' network
     # universal .mrpack: Prism, Modrinth App, ATLauncher, GDLauncher...
     subprocess.run([sys.executable, str(ROOT / "tools/export_mrpack.py"), "--version", REL["version"]], check=True)
     iscc = ROOT / "tools/bin/inno/ISCC.exe"
