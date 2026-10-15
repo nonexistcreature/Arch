@@ -99,6 +99,75 @@
 		"You know the essentials. Now pick your &lorigin&r (chapter \"Origin & Path\") and set up a first home (chapter \"First Steps\")."
 		"Other chapters open up as soon as you get into their topic — or peek into any of them right now."
 	]
+	chapter.3FC26F62283432CD.title: "Player Memo"
+	chapter.3FC26F62283432CD.chapter_subtitle: [
+		"Short answers to common questions: a 5-minute read"
+	]
+	quest.797D0E483FA8CEEB.title: "Meteors, Tornadoes, Rifts"
+	quest.797D0E483FA8CEEB.quest_subtitle: "How to protect yourself from disasters"
+	quest.797D0E483FA8CEEB.quest_desc: [
+		"&lWhen:&r only while someone is online; the first 7 in-game days are calm; big disasters come &lat most once every 3 real days&r. Each one first arrives as a tutorial, after the «First Meeting» quest in the «Elements» chapter."
+		"&lWarning:&r 10 minutes before a meteor: a title, a bell and a glowing pillar over the impact site. The &lStar Atlas&r shows the night's forecast; so does `/arkhaven forecast`."
+		"&l☄ Meteor:&r a ward generator (crystal: amethyst + meteor dust): within 32/64/128 blocks meteors burn up and explosions don't break blocks."
+		"&l🌪 Tornadoes and storms:&r a weather deflector breaks them up near your base, a siren wakes you, a sensor gives a redstone signal (close shutters, park the airship). A lightning rod prevents fires."
+		"&l🌀 Rifts:&r never open in the safe zone, near a Hearth Stone or next to a tier II ward."
+		"&l🧟 Monsters:&r a Hearth Stone (48 blocks) and claims stop mobs from spawning. Creepers never break blocks anywhere."
+		"Details: the «Elements» chapter."
+	]
+	quest.5A2C5F9CF1420CA0.title: "Can I Craft a Gun and a Plane?"
+	quest.5A2C5F9CF1420CA0.quest_subtitle: "Yes: almost everything is craftable"
+	quest.5A2C5F9CF1420CA0.quest_desc: [
+		"&lGuns (TaCZ):&r gunsmith table → model → steel, gunpowder, parts. Ammo and attachments there too. «Firearms and War» chapter."
+		"&lCannons:&r Create Big Cannons (on land), Small Ships broadside cannons, the Immersive Aircraft rotary cannon."
+		"&lPlanes (Immersive Aircraft):&r biplane, gyrodyne, quadrocopter, airship: from an engine, hull and propeller at a crafting table. «Sky» chapter."
+		"&lYour own aircraft (Create Aeronautics):&r build from blocks with propellers and a wheel, any shape. «Sky» chapter."
+		"&lShips (Small Ships):&r cog, brig, galleon, drakkar. &lTrains:&r Create + Steam 'n' Rails. &lFPV drones:&r Create Droneworks. «Transport» chapter."
+		"&lFinding a recipe:&r hover an item in EMI and press &lR&r (recipe) or &lU&r (uses)."
+	]
+	quest.1438069491CE0496.title: "Main Keys"
+	quest.1438069491CE0496.quest_subtitle: "Cheat sheet"
+	quest.1438069491CE0496.quest_desc: [
+		"&lL&r quests · &lP&r skills · &lM&r map · &lB&r backpack · &lCaps Lock&r (hold) voice, &lV&r its settings"
+		"&lW&r over a Create block: Ponder tutorial · &lR / U&r in EMI: recipe / uses"
+		"&lUltimine&r: hold its key (see Controls) and mine: the whole vein"
+		"&lYour character&r: change race/class with an Orb of Origin (costs XP)."
+	]
+	quest.00EB4BACA0AC0845.title: "If You Die"
+	quest.00EB4BACA0AC0845.quest_subtitle: "Your items are safe"
+	quest.00EB4BACA0AC0845.quest_desc: [
+		"All your items stay in a &lgrave&r where you died: the death point is marked on the Xaero map."
+		"Without a bed you respawn at spawn. If you appear in water, the pack moves you to the nearest dry land."
+	]
+	quest.6287ECAD55E7E7A0.title: "Claims and PvP"
+	quest.6287ECAD55E7E7A0.quest_subtitle: "What's yours is protected"
+	quest.6287ECAD55E7E7A0.quest_desc: [
+		"&lClaim:&r map (M) → select chunks → «Claim». Inside a claim nobody breaks blocks, opens chests or uses machines without your permission. Add friends to a Party."
+		"&lPvP is on&r, and guns hit through a crowd: mind your line of fire. Attacking players without agreement isn't nice."
+		"&lDungeon chests&r are personal (Lootr): everyone gets their own loot."
+	]
+	quest.24DEEB4CF1811863.title: "Where It's Dangerous"
+	quest.24DEEB4CF1811863.quest_subtitle: "A calm world, danger by choice"
+	quest.24DEEB4CF1811863.quest_desc: [
+		"&lNear spawn&r (up to ~250 blocks), inside claims and near a Hearth Stone monsters don't spawn. &lFurther out&r there are more, and bosses, gunners and strong mobs live &lpast ~1500 blocks&r, in dungeons and other worlds."
+		"Want a fight? Head into the wilds. Want to build? Settle closer to spawn."
+	]
+	quest.78F07D05EA3AF586.title: "Food and Seasons"
+	quest.78F07D05EA3AF586.quest_subtitle: "Variety = health"
+	quest.78F07D05EA3AF586.quest_desc: [
+		"Try new dishes: every few &ldifferent&r foods grant +2 hearts of health (Spice of Life: Carrot Edition)."
+		"&lSeasons&r change every few in-game weeks: in winter outdoor crops don't grow, so build a greenhouse (glass over your beds)."
+	]
+	quest.54FFA2AF231F36C6.title: "Playing Together"
+	quest.54FFA2AF231F36C6.quest_subtitle: "Roles and quests"
+	quest.54FFA2AF231F36C6.quest_desc: [
+		"Quests can be done &las a team&r: create an FTB Teams party and progress is shared. Pick roles: engineer, mage, cook, warrior, builder, mayor."
+		"«Handshake» quests need items from different branches: more fun that way."
+	]
+	quest.0C6CC72CF1D60E84.title: "Ready!"
+	quest.0C6CC72CF1D60E84.quest_subtitle: "Next: «The Arkhaven Path»"
+	quest.0C6CC72CF1D60E84.quest_desc: [
+		"You know the essentials. Open &l«The Arkhaven Path»&r: it guides you through the pack step by step."
+	]
 	chapter.153AE3239EBFC45C.title: "The Arkhaven Path"
 	chapter.153AE3239EBFC45C.chapter_subtitle: [
 		"Where to go next: one line through every chapter"

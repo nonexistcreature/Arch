@@ -1,0 +1,176 @@
+chapter:
+  id: memo
+  order: 0.2
+  icon: minecraft:writable_book
+  ru: {title: "Памятка игрока", subtitle: "Короткие ответы на частые вопросы: прочитай за 5 минут"}
+  en: {title: "Player Memo", subtitle: "Short answers to common questions: a 5-minute read"}
+quests:
+  - id: memo_disasters
+    icon: arkhaven:ward_crystal_t1
+    shape: gear
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Метеориты, торнадо, разломы"
+      subtitle: "Как защититься от катастроф"
+      text: |
+        **Когда:** только пока кто-то онлайн, первые 7 игровых дней — тишина, крупные катастрофы — **не чаще раза в 3 реальных дня**. Каждая сначала приходит учебной, после квеста «Знакомство» в главе «Стихии».
+        **Предупреждение:** за 10 минут до метеорита — титр, колокол и светящийся столб над местом падения. **Звёздный атлас** показывает прогноз на ночь, команда `/arkhaven forecast` — тоже.
+        **☄ Метеорит:** генератор оберега (кристалл: аметист + метеоритная пыль) — в радиусе 32/64/128 блоков метеорит сгорает в воздухе, взрывы не ломают блоки.
+        **🌪 Торнадо и бури:** дефлектор погоды разбивает их у базы, сирена будит, датчик даёт редстоун-сигнал (закрыть ставни, увести дирижабль). Громоотвод — от пожаров.
+        **🌀 Разломы:** не открываются в безопасной зоне (спавн, приваты, Камень очага) и рядом с оберегом II.
+        **🧟 Монстры:** Камень очага (48 блоков) и приваты не дают мобам появляться. Криперы не ломают блоки нигде.
+        Подробно — глава «Стихии».
+    en:
+      title: "Meteors, Tornadoes, Rifts"
+      subtitle: "How to protect yourself from disasters"
+      text: |
+        **When:** only while someone is online; the first 7 in-game days are calm; big disasters come **at most once every 3 real days**. Each one first arrives as a tutorial, after the «First Meeting» quest in the «Elements» chapter.
+        **Warning:** 10 minutes before a meteor: a title, a bell and a glowing pillar over the impact site. The **Star Atlas** shows the night's forecast; so does `/arkhaven forecast`.
+        **☄ Meteor:** a ward generator (crystal: amethyst + meteor dust): within 32/64/128 blocks meteors burn up and explosions don't break blocks.
+        **🌪 Tornadoes and storms:** a weather deflector breaks them up near your base, a siren wakes you, a sensor gives a redstone signal (close shutters, park the airship). A lightning rod prevents fires.
+        **🌀 Rifts:** never open in the safe zone, near a Hearth Stone or next to a tier II ward.
+        **🧟 Monsters:** a Hearth Stone (48 blocks) and claims stop mobs from spawning. Creepers never break blocks anywhere.
+        Details: the «Elements» chapter.
+
+  - id: memo_crafting
+    icon: tacz:gun_smith_table
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Можно ли скрафтить ствол и самолёт?"
+      subtitle: "Да — почти всё крафтится"
+      text: |
+        **Огнестрел (TaCZ):** стол оружейника → модель → сталь, порох, детали. Патроны и обвес — там же. Глава «Огнестрел и война».
+        **Пушки:** Create Big Cannons (на суше), бортовые пушки Small Ships, роторная пушка Immersive Aircraft.
+        **Самолёты (Immersive Aircraft):** биплан, гиродин, квадрокоптер, дирижабль — из двигателя, корпуса и пропеллера на верстаке. Глава «Небо».
+        **Свои летательные аппараты (Create Aeronautics):** собираешь из блоков с пропеллерами и рулём — любой формы. Глава «Небо».
+        **Корабли (Small Ships):** когг, бриг, галеон, драккар. **Поезда:** Create + Steam 'n' Rails. **FPV-дроны:** Create Droneworks. Глава «Транспорт».
+        **Где смотреть рецепт:** наведи на предмет в EMI и нажми **R** (рецепт) или **U** (где используется).
+    en:
+      title: "Can I Craft a Gun and a Plane?"
+      subtitle: "Yes: almost everything is craftable"
+      text: |
+        **Guns (TaCZ):** gunsmith table → model → steel, gunpowder, parts. Ammo and attachments there too. «Firearms and War» chapter.
+        **Cannons:** Create Big Cannons (on land), Small Ships broadside cannons, the Immersive Aircraft rotary cannon.
+        **Planes (Immersive Aircraft):** biplane, gyrodyne, quadrocopter, airship: from an engine, hull and propeller at a crafting table. «Sky» chapter.
+        **Your own aircraft (Create Aeronautics):** build from blocks with propellers and a wheel, any shape. «Sky» chapter.
+        **Ships (Small Ships):** cog, brig, galleon, drakkar. **Trains:** Create + Steam 'n' Rails. **FPV drones:** Create Droneworks. «Transport» chapter.
+        **Finding a recipe:** hover an item in EMI and press **R** (recipe) or **U** (uses).
+
+  - id: memo_keys
+    icon: minecraft:oak_sign
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Главные клавиши"
+      subtitle: "Шпаргалка"
+      text: |
+        **L** — квесты · **P** — умения · **M** — карта · **B** — рюкзак · **Caps Lock** (зажать) — голос, **V** — его настройки
+        **W** над блоком Create — обучение Ponder · **R / U** в EMI — рецепт / применение
+        **Ultimine** — зажми клавишу (см. «Управление») и копай: жила целиком
+        **Свой персонаж** — сменить расу/класс можно Сферой происхождения (стоит опыт).
+    en:
+      title: "Main Keys"
+      subtitle: "Cheat sheet"
+      text: |
+        **L** quests · **P** skills · **M** map · **B** backpack · **Caps Lock** (hold) voice, **V** its settings
+        **W** over a Create block: Ponder tutorial · **R / U** in EMI: recipe / uses
+        **Ultimine**: hold its key (see Controls) and mine: the whole vein
+        **Your character**: change race/class with an Orb of Origin (costs XP).
+
+  - id: memo_death
+    icon: minecraft:skeleton_skull
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Если умер"
+      subtitle: "Вещи не пропадут"
+      text: |
+        Все вещи остаются в **могиле** на месте смерти — точка смерти отмечается на карте Xaero.
+        Без кровати возродишься на спавне. Если появился в воде — мод сам перенесёт на ближайшую сушу.
+    en:
+      title: "If You Die"
+      subtitle: "Your items are safe"
+      text: |
+        All your items stay in a **grave** where you died: the death point is marked on the Xaero map.
+        Without a bed you respawn at spawn. If you appear in water, the pack moves you to the nearest dry land.
+
+  - id: memo_claims
+    icon: minecraft:shield
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Приваты и PvP"
+      subtitle: "Своё — защищено"
+      text: |
+        **Приват:** карта (M) → выдели чанки → «Заприватить». В привате никто не ломает, не открывает сундуки и не включает механизмы без твоего разрешения. Друзей добавь в группу (Party).
+        **PvP включено**, а огнестрел бьёт сквозь толпу — следи за линией огня. Нападать на игроков без договорённости — некрасиво.
+        **Сундуки в данжах** личные (Lootr): каждый получает свой лут.
+    en:
+      title: "Claims and PvP"
+      subtitle: "What's yours is protected"
+      text: |
+        **Claim:** map (M) → select chunks → «Claim». Inside a claim nobody breaks blocks, opens chests or uses machines without your permission. Add friends to a Party.
+        **PvP is on**, and guns hit through a crowd: mind your line of fire. Attacking players without agreement isn't nice.
+        **Dungeon chests** are personal (Lootr): everyone gets their own loot.
+
+  - id: memo_zones
+    icon: minecraft:map
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Где опасно"
+      subtitle: "Мир спокойный — опасность по желанию"
+      text: |
+        **У спавна** (до ~250 блоков), в приватах и у Камня очага монстры сами не появляются. **Дальше** их больше, а боссы, стрелки и сильные мобы — **после ~1500 блоков**, в данжах и иных мирах.
+        Хочешь драки — иди в дикие земли. Хочешь строить — стройся ближе к спавну.
+    en:
+      title: "Where It's Dangerous"
+      subtitle: "A calm world, danger by choice"
+      text: |
+        **Near spawn** (up to ~250 blocks), inside claims and near a Hearth Stone monsters don't spawn. **Further out** there are more, and bosses, gunners and strong mobs live **past ~1500 blocks**, in dungeons and other worlds.
+        Want a fight? Head into the wilds. Want to build? Settle closer to spawn.
+
+  - id: memo_food
+    icon: minecraft:golden_carrot
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Еда и сезоны"
+      subtitle: "Разнообразие = здоровье"
+      text: |
+        Пробуй новые блюда: за каждые несколько **разных** блюд даётся +2 сердца здоровья (Spice of Life: Carrot Edition).
+        **Сезоны** меняются раз в несколько игровых недель: зимой посевы снаружи не растут — строй теплицу (стекло над грядками).
+    en:
+      title: "Food and Seasons"
+      subtitle: "Variety = health"
+      text: |
+        Try new dishes: every few **different** foods grant +2 hearts of health (Spice of Life: Carrot Edition).
+        **Seasons** change every few in-game weeks: in winter outdoor crops don't grow, so build a greenhouse (glass over your beds).
+
+  - id: memo_team
+    icon: minecraft:bell
+    tasks: [{type: checkmark}]
+    ru:
+      title: "Играть вместе"
+      subtitle: "Роли и квесты"
+      text: |
+        Квесты можно проходить **командой**: создай группу FTB Teams — прогресс общий. Выбирай роли: инженер, маг, повар, воин, строитель, мэр.
+        Квесты с пометкой «рукопожатие» требуют предметы из разных веток — так интереснее.
+    en:
+      title: "Playing Together"
+      subtitle: "Roles and quests"
+      text: |
+        Quests can be done **as a team**: create an FTB Teams party and progress is shared. Pick roles: engineer, mage, cook, warrior, builder, mayor.
+        «Handshake» quests need items from different branches: more fun that way.
+
+  - id: memo_done
+    deps: [memo_disasters, memo_crafting, memo_keys, memo_death, memo_claims, memo_zones, memo_food, memo_team]
+    icon: minecraft:recovery_compass
+    shape: hexagon
+    tasks: [{type: checkmark}]
+    rewards: [{type: item, item: minecraft:cooked_beef, count: 16}, {type: xp_levels, count: 3}]
+    ru:
+      title: "Готов!"
+      subtitle: "Дальше — «Путь Архейвена»"
+      text: |
+        Всё главное ты знаешь. Открой главу **«Путь Архейвена»** — она поведёт по сборке шаг за шагом.
+    en:
+      title: "Ready!"
+      subtitle: "Next: «The Arkhaven Path»"
+      text: |
+        You know the essentials. Open **«The Arkhaven Path»**: it guides you through the pack step by step.

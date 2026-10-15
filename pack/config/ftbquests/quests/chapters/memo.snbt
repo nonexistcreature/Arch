@@ -1,0 +1,176 @@
+{
+	id: "3FC26F62283432CD"
+	group: ""
+	order_index: 2
+	filename: "memo"
+	icon: {
+		id: "minecraft:writable_book"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "797D0E483FA8CEEB"
+			x: 0.0d
+			y: -4.375d
+			shape: "gear"
+			icon: {
+				id: "arkhaven:ward_crystal_t1"
+				count: 1
+			}
+			tasks: [
+				{
+					id: "4F04FE10755D1884"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "5A2C5F9CF1420CA0"
+			x: 0.0d
+			y: -3.125d
+			icon: {
+				id: "tacz:gun_smith_table"
+				count: 1
+			}
+			tasks: [
+				{
+					id: "1F80EE7CBD34CA5B"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "1438069491CE0496"
+			x: 0.0d
+			y: -1.875d
+			icon: {
+				id: "minecraft:oak_sign"
+				count: 1
+			}
+			tasks: [
+				{
+					id: "259ADABA5D17DEAA"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "00EB4BACA0AC0845"
+			x: 0.0d
+			y: -0.625d
+			icon: {
+				id: "minecraft:skeleton_skull"
+				count: 1
+			}
+			tasks: [
+				{
+					id: "5A4BD544D587DF69"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "6287ECAD55E7E7A0"
+			x: 0.0d
+			y: 0.625d
+			icon: {
+				id: "minecraft:shield"
+				count: 1
+			}
+			tasks: [
+				{
+					id: "0B39FE7A116D1527"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "24DEEB4CF1811863"
+			x: 0.0d
+			y: 1.875d
+			icon: {
+				id: "minecraft:map"
+				count: 1
+			}
+			tasks: [
+				{
+					id: "1835EC0FB077F4F9"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "78F07D05EA3AF586"
+			x: 0.0d
+			y: 3.125d
+			icon: {
+				id: "minecraft:golden_carrot"
+				count: 1
+			}
+			tasks: [
+				{
+					id: "0FA966BB8821E5EF"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "54FFA2AF231F36C6"
+			x: 0.0d
+			y: 4.375d
+			icon: {
+				id: "minecraft:bell"
+				count: 1
+			}
+			tasks: [
+				{
+					id: "54FAD4BF5DABF78B"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "0C6CC72CF1D60E84"
+			x: 1.5d
+			y: 0.0d
+			shape: "hexagon"
+			icon: {
+				id: "minecraft:recovery_compass"
+				count: 1
+			}
+			dependencies: [
+				"797D0E483FA8CEEB"
+				"5A2C5F9CF1420CA0"
+				"1438069491CE0496"
+				"00EB4BACA0AC0845"
+				"6287ECAD55E7E7A0"
+				"24DEEB4CF1811863"
+				"78F07D05EA3AF586"
+				"54FFA2AF231F36C6"
+			]
+			tasks: [
+				{
+					id: "05CB01650F6C6B62"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "1CDEFB0CF1B65DA0"
+					type: "item"
+					item: {
+						count: 16
+						id: "minecraft:cooked_beef"
+					}
+				}
+				{
+					id: "148E33C5C6C5A76B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+	]
+}

@@ -117,6 +117,10 @@ file = "config/ftbquests/quests/chapters/mekanism.snbt"
 hash = "d6f343da09aab0ce2538e2577e9b799a9c61ca9c3e2c4f4afc0a8ad2dc0847f2"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/memo.snbt"
+hash = "86ffe8df4fa96fe594ed38b87ff8e5f149a5bbbf8c95c2eb5fb5c55f7041e876"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/occultism.snbt"
 hash = "531787ae0fc8f793fe4360541766cd1a16e0bb568f711b89ec7190b99b26e1fe"
 
@@ -166,11 +170,11 @@ hash = "d04d5331950919436864583a7ee324582806e147abc33f1a921cc15f2c01d0ab"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "ff4d85f2d7692c39dad3de829cd319b0b2e36d7e96722864a85547d841b555a2"
+hash = "6bf09c241940e290fce8dccd590194bc57b491a8157740c4296c9796082df2ff"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "40d8381dc1ac86c203b7de1ad398f015a55fd14d2eba7aae9633f6a081df118d"
+hash = "1a3ca71dd8f77a1ba97be83870b760c2d9dee1fccca5b46407d27c8c8e497d2b"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -334,7 +338,7 @@ hash = "3f0d4d7ae78205a134adcf2c9588be4bd68347080eb1c5ae932ae540a9a320de"
 
 [[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
-hash = "7464e4e7bc77aa318dc80ef6b3b8841e136451868e26751ec31b7b13410e34c0"
+hash = "1d866bb7169823f3c53f29cd24b8de85d6bc5b572c62b9d60c16a58ebbf8f086"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"
