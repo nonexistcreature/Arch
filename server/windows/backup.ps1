@@ -1,4 +1,5 @@
-﻿# Arkhaven hourly backup (Windows host): zips the world into C:\Arkhaven\backups, keeps 24 hourly + 7 daily copies.
+# Arkhaven hourly backup (Windows host): zips the world into C:\Arkhaven\backups, keeps 24 hourly + 7 daily copies
+# (fewer if the drive gets below 15 GB free).
 $Dir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $world = Join-Path $Dir "server\world"
 if (-not (Test-Path $world)) { exit }
@@ -16,3 +17,11 @@ $keep = @{}
 $all | Where-Object { $_.LastWriteTime -gt (Get-Date).AddHours(-24) } | ForEach-Object { $keep[$_.FullName] = $true }
 $all | Group-Object { $_.LastWriteTime.Date } | Select-Object -First 7 | ForEach-Object { $keep[$_.Group[0].FullName] = $true }
 $all | Where-Object { -not $keep[$_.FullName] } | Remove-Item -Force
+# Disk guard: a pre-generated world is gigabytes; keep at least 15 GB free on the drive by dropping the
+# oldest backups first, but never the newest 3.
+$drive = (Get-Item $Dir).PSDrive
+$left = Get-ChildItem (Join-Path $Dir "backups") -Filter "world_*.zip" | Sort-Object LastWriteTime -Descending | Select-Object -Skip 3
+foreach ($old in ($left | Sort-Object LastWriteTime)) {
+  if ((Get-PSDrive $drive.Name).Free -ge 15GB) { break }
+  Remove-Item $old.FullName -Force
+}

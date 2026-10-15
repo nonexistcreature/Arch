@@ -325,6 +325,10 @@ file = "kubejs/server_scripts/05_autosave.js"
 hash = "d12b9e8a638faa5c4159eb4a7d1837e8e4d3afd6247fa8b524f120fb590da73b"
 
 [[files]]
+file = "kubejs/server_scripts/06_pregen.js"
+hash = "0e8b5756e76f36f20f974fd194f350adec99da38f2062e6c3aeb43064ffc56cb"
+
+[[files]]
 file = "kubejs/server_scripts/10_welcome.js"
 hash = "df85f847cfb09a5ad29a894de471284502e274f60195d1396f1e35a3ce3cfd25"
 
@@ -592,6 +596,11 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "80455b28c3010ad153ccabc2998cb445b9854b26b386628243a9c8160b8d7e8e"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "68cc51e721e993a8b7a2cbaf45369933b22b07a9c82327ab14757ee10684aa81"
 metafile = true
 
 [[files]]
