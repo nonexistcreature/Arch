@@ -1,0 +1,238 @@
+# Create: The Factory Must Grow. Ponder scenes and tooltips are mostly English-only, so RU comes from our «why» lines.
+extends: steel_oil
+lang: [tfmg]
+autodoc: ["item.{ns}.{path}.tooltip.summary", "block.{ns}.{path}.tooltip.summary"]
+out: tfmg_gen
+quests:
+  # --- metallurgy
+  - id: tfg2_fireclay
+    deps: [tfmg_intro]
+    roles: [engineer]
+    items: [tfmg:fireclay_ball*8, tfmg:fireproof_brick*16]
+    title: {ru: "Огнеупорная глина", en: "Fireclay"}
+    why: {ru: "Из огнеупорного кирпича строят домну и коксовую печь TFMG.", en: "Fireproof bricks build the blast furnace and coke oven."}
+  - id: tfg2_coke_oven
+    deps: [tfmg_coke]
+    roles: [engineer]
+    icon: tfmg:coke_oven
+    tasks: [{type: checkmark}]
+    title: {ru: "Коксовая батарея", en: "Coke Oven Battery"}
+    doc: ponder:coke_oven
+    why: {ru: "Ставь печи рядом — они объединяются в батарею и делают кокс и креозот быстрее.", en: "Ovens placed together merge into a battery."}
+  - id: tfg2_blast_furnace
+    deps: [tfg2_fireclay, tfg2_coke_oven]
+    roles: [engineer]
+    items: [tfmg:blast_furnace_output, tfmg:blast_furnace_hatch, tfmg:blast_furnace_reinforcement*8]
+    title: {ru: "Доменная печь", en: "Blast Furnace"}
+    doc: ponder:blast_furnace
+    why: {ru: "Многоблочная домна: руда + кокс + известняк → жидкий чугун и шлак. Чем выше печь, тем больше за раз.", en: "Ore + coke + flux → molten iron and slag. Taller = more."}
+  - id: tfg2_blast_stove
+    deps: [tfg2_blast_furnace]
+    roles: [engineer]
+    items: [tfmg:blast_stove]
+    why: {ru: "Воздухонагреватель дует в домну горячим воздухом — плавка быстрее.", en: "Hot blast speeds up the furnace."}
+  - id: tfg2_casting
+    deps: [tfg2_blast_furnace]
+    roles: [engineer]
+    items: [tfmg:casting_basin]
+    why: {ru: "Литьевая форма застывает жидкий металл в слитки и блоки.", en: "Casts molten metal into ingots and blocks."}
+  - id: tfg2_cast_iron
+    deps: [tfg2_casting]
+    roles: [engineer]
+    items: [tfmg:cast_iron_ingot*8, tfmg:cast_iron_pipe*8]
+    title: {ru: "Чугун", en: "Cast Iron"}
+    why: {ru: "Чугунные трубы и баки держат горячие жидкости и высокое давление.", en: "Cast iron pipes for hot fluids."}
+  - id: tfg2_steel_mechanism
+    deps: [tfmg_steel]
+    roles: [engineer]
+    items: [tfmg:steel_mechanism*2]
+    why: {ru: "Стальной механизм — как точный механизм Create, но для тяжёлых машин TFMG.", en: "The heavy-industry counterpart of the precision mechanism."}
+  - id: tfg2_heavy_plate
+    deps: [tfmg_steel]
+    roles: [engineer]
+    items: [tfmg:heavy_plate*4]
+    why: {en: Casing for engines and machines., ru: Тяжёлая плита — корпус двигателей и машин TFMG.}
+  - id: tfg2_steel_gear
+    deps: [tfmg_steel]
+    roles: [engineer]
+    items: [tfmg:steel_cogwheel*4, tfmg:steel_gearbox, tfmg:steel_flywheel]
+    title: {ru: "Стальная передача", en: "Steel Gearing"}
+    why: {ru: "Стальные шестерни выдерживают мощность двигателей, от которой ломаются обычные.", en: "Steel gears handle engine power."}
+  - id: tfg2_tools
+    deps: [tfmg_steel]
+    roles: [engineer, warrior]
+    items: [tfmg:steel_pickaxe, tfmg:steel_sword, tfmg:aluminum_pickaxe]
+    title: {ru: "Инструменты TFMG", en: "TFMG Tools"}
+    why: {en: Tougher than iron tools., ru: Стальные и алюминиевые инструменты — прочнее железных.}
+  - id: tfg2_galena
+    deps: [tfmg_intro]
+    roles: [engineer]
+    items: [tfmg:galena*8]
+    why: {ru: "Галенит — свинцовая и серебряная руда. Свинец — аккумуляторы и защита от радиации.", en: "Lead and silver ore."}
+  - id: tfg2_lead_tools
+    deps: [tfg2_galena]
+    roles: [engineer]
+    items: [tfmg:lead_pickaxe, tfmg:lead_sword]
+  # --- oil and chemistry
+    why: {en: Slow but durable., ru: 'Свинцовые инструменты тяжёлые и медленные, зато долговечные.'}
+  - id: tfg2_surface_scanner
+    deps: [tfmg_intro]
+    roles: [engineer]
+    items: [tfmg:surface_scanner]
+    why: {ru: "Сканер ищет месторождения нефти под землёй — потом ставь над ним качалку.", en: "Finds oil deposits."}
+  - id: tfg2_distillation
+    deps: [tfmg_pumpjack]
+    roles: [engineer]
+    items: [tfmg:steel_distillation_controller, tfmg:steel_distillation_output*4]
+    title: {ru: "Ректификационная колонна", en: "Distillation Tower"}
+    doc: ponder:distillation_tower
+    why: {ru: "Нефть → бензин, дизель, керосин, нафта, мазут и газ. Каждый ярус колонны выдаёт свою фракцию.", en: "Oil → gasoline, diesel, kerosene, naphtha and more."}
+  - id: tfg2_vat
+    deps: [tfmg_plastic]
+    roles: [engineer]
+    items: [tfmg:steel_chemical_vat*4, tfmg:industrial_mixer]
+    title: {ru: "Химический чан", en: "Chemical Vat"}
+    doc: ponder:chemical_vat
+    why: {ru: "Многоблочный чан для химии: серная кислота, пластик, электролиз.", en: "Multiblock vat for acids, plastic and electrolysis."}
+  - id: tfg2_flarestack
+    deps: [tfg2_distillation]
+    roles: [engineer]
+    items: [tfmg:flarestack]
+    why: {ru: "Факел сжигает лишний газ, чтобы колонна не встала. Дымит — ставь подальше от дома и следи за загрязнением.", en: "Burns excess gas. Watch pollution."}
+  - id: tfg2_smokestack
+    deps: [tfg2_blast_furnace]
+    roles: [engineer]
+    items: [tfmg:metal_smokestack*4]
+    why: {ru: "Трубы уводят дым от печей вверх — заводской вид и меньше смога у земли.", en: "Leads smoke up and away."}
+  - id: tfg2_asphalt
+    deps: [tfg2_distillation]
+    roles: [builder]
+    items: [tfmg:asphalt*32]
+    why: {ru: "Асфальт из битума — дороги, по которым машины едут быстрее.", en: "Roads for faster driving."}
+  - id: tfg2_synthetic
+    deps: [tfmg_plastic]
+    roles: [engineer]
+    items: [tfmg:synthetic_leather*4, tfmg:synthetic_string*4]
+    title: {ru: "Синтетика", en: "Synthetics"}
+    why: {ru: "Кожа и нитки без коров и пауков.", en: "Leather and string without animals."}
+  # --- engines
+  - id: tfg2_simple_engine
+    deps: [tfmg_engine]
+    roles: [engineer]
+    items: [tfmg:regular_engine, tfmg:spark_plug*2]
+    doc: ponder:engines
+    why: {ru: "Двигатель на бензине крутит Create-сеть с огромной силой. Нужны свечи, топливо и выхлоп.", en: "A gasoline engine for huge rotational power."}
+  - id: tfg2_large_engine
+    deps: [tfg2_simple_engine, tfg2_steel_mechanism]
+    roles: [engineer]
+    items: [tfmg:large_engine, tfmg:crankshaft]
+    why: {ru: "Большой двигатель собирается из цилиндров на коленвале — чем больше цилиндров, тем мощнее.", en: "More cylinders, more power."}
+  - id: tfg2_radial
+    deps: [tfg2_simple_engine]
+    roles: [engineer]
+    items: [tfmg:radial_engine]
+    why: {ru: "Звездообразный двигатель — компактный и мощный, для самолётов и кораблей.", en: "Compact power for planes and ships."}
+  - id: tfg2_turbine
+    deps: [tfg2_large_engine]
+    roles: [engineer]
+    items: [tfmg:turbine_engine]
+    why: {ru: "Газовая турбина на керосине — самая мощная силовая установка TFMG.", en: "The strongest TFMG power unit."}
+  - id: tfg2_turbo
+    deps: [tfg2_simple_engine]
+    roles: [engineer]
+    items: [tfmg:turbo, tfmg:air_intake, tfmg:exhaust]
+    title: {ru: "Турбонаддув", en: "Turbocharging"}
+  # --- electricity
+    why: {en: More engine power; the exhaust vents gases., ru: 'Турбина и воздухозаборник прибавляют мощности двигателю, выхлоп уводит газы.'}
+  - id: tfg2_electricity
+    deps: [tfmg_motor]
+    roles: [engineer]
+    items: [tfmg:generator, tfmg:copper_wire*8, tfmg:cable_connector*4]
+    title: {ru: "Электричество TFMG", en: "TFMG Electricity"}
+    doc: ponder:electricity
+    why: {ru: "Генератор превращает вращение в ток, провода несут его к моторам и лампам. Напряжение и сопротивление считаются по-настоящему.", en: "Generators turn rotation into current; voltage and resistance are simulated."}
+  - id: tfg2_multimeter
+    deps: [tfg2_electricity]
+    roles: [engineer]
+    items: [tfmg:multimeter, tfmg:electricians_wrench]
+    why: {ru: "Мультиметр показывает напряжение и ток — без него сложно найти, где сеть «просела».", en: "Shows voltage and current."}
+  - id: tfg2_accumulator
+    deps: [tfg2_electricity, tfmg_lithium]
+    roles: [engineer]
+    items: [tfmg:accumulator]
+    why: {en: Stores power for night and load spikes., ru: Литиевый аккумулятор запасает ток на ночь и пики нагрузки.}
+  - id: tfg2_transformer
+    deps: [tfg2_electricity]
+    roles: [engineer]
+    items: [tfmg:transformer, tfmg:large_coil]
+    doc: ponder:electricity_two
+    why: {en: Steps voltage up for long lines and down for machines., ru: Трансформатор повышает напряжение для дальних линий и понижает у потребителей.}
+  - id: tfg2_electronics
+    deps: [tfmg_circuit]
+    roles: [engineer]
+    items: [tfmg:resistor*4, tfmg:transistor_item*2, tfmg:capacitor_item*2]
+    title: {ru: "Электронные компоненты", en: "Electronic Components"}
+    why: {ru: "Резисторы, транзисторы, конденсаторы — собираются на конвейере Create (последовательная сборка).", en: "Made by sequenced assembly."}
+  - id: tfg2_winding
+    deps: [tfg2_electricity]
+    roles: [engineer]
+    items: [tfmg:winding_machine]
+    why: {en: Winds coils for motors and generators., ru: Намоточный станок делает катушки и обмотки для моторов и генераторов.}
+  - id: tfg2_converter
+    deps: [tfg2_electricity]
+    roles: [engineer]
+    items: [tfmg:converter]
+    why: {ru: "Преобразователь переводит ток TFMG в FE — питай машины Mekanism и IE от своего завода.", en: "Converts TFMG power to FE for other mods."}
+  - id: tfg2_lights
+    deps: [tfg2_electricity]
+    roles: [builder]
+    items: [tfmg:light_bulb*4, tfmg:neon_tube*4, tfmg:traffic_light]
+    title: {ru: "Свет города", en: "City Lights"}
+    why: {ru: "Лампы, неон и светофоры для улиц твоего города.", en: "Lamps, neon and traffic lights."}
+  - id: tfg2_electric_pump
+    deps: [tfg2_electricity]
+    roles: [engineer]
+    items: [tfmg:electric_pump]
+  # --- construction
+    why: {en: Pumps fluids on electricity alone., ru: Электрический насос качает жидкости без вращения — только ток.}
+  - id: tfg2_rebar
+    deps: [tfmg_concrete]
+    roles: [builder]
+    items: [tfmg:rebar*16, tfmg:concrete_hose]
+    title: {ru: "Железобетон", en: "Reinforced Concrete"}
+    why: {ru: "Арматура + бетонный шланг = прочные стены, которые держат взрывы и метеориты.", en: "Walls that stand up to blasts and meteors."}
+  - id: tfg2_factory_floor
+    deps: [tfmg_concrete]
+    roles: [builder]
+    items: [tfmg:factory_floor*32]
+  # --- weapons (moderate)
+    why: {en: A proper factory floor., ru: Заводской пол — красивое основание цеха.}
+  - id: tfg2_extinguisher
+    deps: [tfmg_intro]
+    roles: [engineer, builder]
+    items: [tfmg:fire_extinguisher]
+    why: {ru: "Огнетушитель гасит пожар от молнии или огнемёта соседа. Держи у каждой деревянной постройки!", en: "Puts out fires. Keep one near wooden builds!"}
+  - id: tfg2_flamethrower
+    deps: [tfg2_distillation]
+    roles: [warrior]
+    items: [tfmg:flamethrower]
+    why: {ru: "Огнемёт на топливе из колонны. Сжигает толпы мобов — и леса, так что аккуратно.", en: "Burns mob crowds — and forests, so be careful."}
+  - id: tfg2_potato_cannon
+    deps: [tfg2_steel_mechanism]
+    roles: [warrior]
+    items: [tfmg:advanced_potato_cannon]
+    why: {en: 'Farther, faster, stronger.', ru: 'Улучшенная картофельная пушка: дальше, быстрее, сильнее.'}
+  - id: tfg2_grenades
+    deps: [tfg2_vat]
+    roles: [warrior]
+    items: [tfmg:copper_grenade*4, tfmg:thermite_grenade*2]
+    title: {ru: "Гранаты", en: "Grenades"}
+    why: {ru: "Термитная граната прожигает броню. Бросай в диких землях, а не рядом с чужими домами.", en: "Use them in the wilds, not near other players' houses."}
+  - id: tfg2_master
+    deps: [tfg2_turbine, tfg2_distillation, tfg2_blast_stove, tfg2_converter, tfg2_accumulator, tfg2_rebar]
+    roles: [engineer]
+    shape: hexagon
+    icon: tfmg:turbine_engine
+    title: {ru: "Завод должен расти", en: "The Factory Must Grow"}
+    text: {ru: "Домна, нефтяная колонна, турбины и электросеть — твой завод снабжает весь сервер. Только следи за трубами: воздух тоже общий.", en: "Your factory powers the server. Mind the shared air."}
+    rewards: [{type: xp_levels, count: 15}]

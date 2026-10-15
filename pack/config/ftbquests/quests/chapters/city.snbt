@@ -58,7 +58,7 @@
 		{
 			id: "68A40D4402EEB3F1"
 			x: 3.0d
-			y: 0.0d
+			y: -0.625d
 			icon: {
 				id: "minecolonies:blockhutbuilder"
 				count: 1
@@ -212,7 +212,7 @@
 		{
 			id: "1A706D39C73346D7"
 			x: 6.0d
-			y: -2.5d
+			y: -15.625d
 			shape: "gear"
 			icon: {
 				id: "minecolonies:colony_banner"
@@ -391,7 +391,7 @@
 		{
 			id: "6D716CFDB6533D8D"
 			x: 6.0d
-			y: -1.25d
+			y: -14.375d
 			icon: {
 				id: "minecolonies:blockhutsmeltery"
 				count: 1
@@ -422,7 +422,7 @@
 		{
 			id: "215D51C751B21BDD"
 			x: 6.0d
-			y: 0.0d
+			y: -13.125d
 			icon: {
 				id: "minecolonies:blockhuthospital"
 				count: 1
@@ -445,7 +445,7 @@
 		{
 			id: "6E16091A853C2E58"
 			x: 6.0d
-			y: 1.25d
+			y: -11.875d
 			icon: {
 				id: "minecolonies:blockhutlibrary"
 				count: 1
@@ -468,7 +468,7 @@
 		{
 			id: "032164E8868189BE"
 			x: 7.5d
-			y: -0.625d
+			y: -5.625d
 			icon: {
 				id: "minecolonies:blockhutenchanter"
 				count: 1
@@ -491,7 +491,7 @@
 		{
 			id: "2EDF7718966F865E"
 			x: 7.5d
-			y: 0.625d
+			y: -4.375d
 			icon: {
 				id: "minecolonies:blockhutalchemist"
 				count: 1
@@ -514,7 +514,7 @@
 		{
 			id: "5FF1BE65A592559C"
 			x: 6.0d
-			y: 2.5d
+			y: -10.625d
 			icon: {
 				id: "minecolonies:blockhutbarracks"
 				count: 1
@@ -573,6 +573,698 @@
 				{
 					id: "679395086A8EE838"
 					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "0FD8FAF0813FFD2A"
+			x: 3.0d
+			y: 0.625d
+			icon: {
+				id: "minecolonies:blockhutcitizen"
+				count: 1
+			}
+			dependencies: [
+				"0961E98A888A1F6F"
+			]
+			tasks: [
+				{
+					id: "2D12DE731A9EDD93"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutcitizen"
+					}
+				}
+			]
+		}
+		{
+			id: "031569B36F8A9A21"
+			x: 6.0d
+			y: -9.375d
+			icon: {
+				id: "minecolonies:blockhutbaker"
+				count: 1
+			}
+			dependencies: [
+				"6CF67932543F364E"
+				"2448820009AD4703"
+			]
+			tasks: [
+				{
+					id: "7AE2882446B4814E"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutbaker"
+					}
+				}
+			]
+		}
+		{
+			id: "3B062B23874F55A0"
+			x: 6.0d
+			y: -8.125d
+			icon: {
+				id: "minecolonies:blockhutkitchen"
+				count: 1
+			}
+			dependencies: [
+				"6CF67932543F364E"
+			]
+			tasks: [
+				{
+					id: "7E4521C8AFE27E3A"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutkitchen"
+					}
+				}
+			]
+		}
+		{
+			id: "7559DB448E569963"
+			x: 6.0d
+			y: -6.875d
+			icon: {
+				id: "minecolonies:blockhutcomposter"
+				count: 1
+			}
+			dependencies: [
+				"2448820009AD4703"
+			]
+			tasks: [
+				{
+					id: "5AC2679ABC9BE9C9"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutcomposter"
+					}
+				}
+			]
+		}
+		{
+			id: "72D923C815DFEA86"
+			x: 6.0d
+			y: -5.625d
+			icon: {
+				id: "minecolonies:blockhutplantation"
+				count: 1
+			}
+			dependencies: [
+				"2448820009AD4703"
+			]
+			tasks: [
+				{
+					id: "2CF77BDD55A53FF4"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutplantation"
+					}
+				}
+			]
+		}
+		{
+			id: "25460C176D191862"
+			x: 6.0d
+			y: -4.375d
+			icon: {
+				id: "minecolonies:blockhutflorist"
+				count: 1
+			}
+			dependencies: [
+				"2448820009AD4703"
+			]
+			tasks: [
+				{
+					id: "4AFB3037999C257D"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutflorist"
+					}
+				}
+			]
+		}
+		{
+			id: "550B68541BA21A5F"
+			x: 6.0d
+			y: -3.125d
+			icon: {
+				id: "minecolonies:blockhutbeekeeper"
+				count: 1
+			}
+			dependencies: [
+				"2448820009AD4703"
+			]
+			tasks: [
+				{
+					id: "5A0D8E617BA32A68"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutbeekeeper"
+					}
+				}
+			]
+		}
+		{
+			id: "1F9880AEC67EF7B7"
+			x: 6.0d
+			y: -1.875d
+			icon: {
+				id: "minecolonies:blockhutchickenherder"
+				count: 1
+			}
+			dependencies: [
+				"709BD9478FFC95A5"
+			]
+			tasks: [
+				{
+					id: "6D93D2A1F3AC0BC0"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutchickenherder"
+					}
+				}
+			]
+		}
+		{
+			id: "1E035F3D1994FFE2"
+			x: 6.0d
+			y: -0.625d
+			icon: {
+				id: "minecolonies:blockhutswineherder"
+				count: 1
+			}
+			dependencies: [
+				"709BD9478FFC95A5"
+			]
+			tasks: [
+				{
+					id: "62333D59A6303360"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutswineherder"
+					}
+				}
+			]
+		}
+		{
+			id: "68A74DE8645E4D01"
+			x: 6.0d
+			y: 0.625d
+			icon: {
+				id: "minecolonies:blockhutrabbithutch"
+				count: 1
+			}
+			dependencies: [
+				"709BD9478FFC95A5"
+			]
+			tasks: [
+				{
+					id: "6429C1AFB760E899"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutrabbithutch"
+					}
+				}
+			]
+		}
+		{
+			id: "69B005DB7BEA8175"
+			x: 6.0d
+			y: 1.875d
+			icon: {
+				id: "minecolonies:blockhutstable"
+				count: 1
+			}
+			dependencies: [
+				"709BD9478FFC95A5"
+			]
+			tasks: [
+				{
+					id: "74DD6D9FB4146101"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutstable"
+					}
+				}
+			]
+		}
+		{
+			id: "2631D1F7D578FA91"
+			x: 6.0d
+			y: 3.125d
+			icon: {
+				id: "minecolonies:blockhutsawmill"
+				count: 1
+			}
+			dependencies: [
+				"2A25F70A883FD806"
+			]
+			tasks: [
+				{
+					id: "21F628AD13581999"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutsawmill"
+					}
+				}
+			]
+		}
+		{
+			id: "628B0898C1C9008C"
+			x: 6.0d
+			y: 4.375d
+			icon: {
+				id: "minecolonies:blockhutstonemason"
+				count: 1
+			}
+			dependencies: [
+				"35775EEABB31E72C"
+			]
+			tasks: [
+				{
+					id: "07D28F5EFFB573FF"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutstonemason"
+					}
+				}
+			]
+		}
+		{
+			id: "5A2B342F6DAC08FD"
+			x: 6.0d
+			y: 5.625d
+			icon: {
+				id: "minecolonies:blockhutstonesmeltery"
+				count: 1
+			}
+			dependencies: [
+				"35775EEABB31E72C"
+			]
+			tasks: [
+				{
+					id: "2113594CEE5BC869"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutstonesmeltery"
+					}
+				}
+			]
+		}
+		{
+			id: "6A6B9866D4981CA1"
+			x: 6.0d
+			y: 6.875d
+			icon: {
+				id: "minecolonies:blockhutcrusher"
+				count: 1
+			}
+			dependencies: [
+				"35775EEABB31E72C"
+			]
+			tasks: [
+				{
+					id: "4FEAD5B32ECB72F1"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutcrusher"
+					}
+				}
+			]
+		}
+		{
+			id: "1A19CE3AE1C9EE6B"
+			x: 7.5d
+			y: -3.125d
+			icon: {
+				id: "minecolonies:blockhutsifter"
+				count: 1
+			}
+			dependencies: [
+				"6A6B9866D4981CA1"
+			]
+			tasks: [
+				{
+					id: "0C273EB255405C09"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutsifter"
+					}
+				}
+			]
+		}
+		{
+			id: "1DA2F0A4360E14A8"
+			x: 7.5d
+			y: -1.875d
+			icon: {
+				id: "minecolonies:blockhutglassblower"
+				count: 1
+			}
+			dependencies: [
+				"6D716CFDB6533D8D"
+			]
+			tasks: [
+				{
+					id: "774978182349ED74"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutglassblower"
+					}
+				}
+			]
+		}
+		{
+			id: "073523D80B8B4CF5"
+			x: 6.0d
+			y: 8.125d
+			icon: {
+				id: "minecolonies:blockhutdyer"
+				count: 1
+			}
+			dependencies: [
+				"709BD9478FFC95A5"
+			]
+			tasks: [
+				{
+					id: "1C84632A8531B613"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutdyer"
+					}
+				}
+			]
+		}
+		{
+			id: "5E5A9A560271FE5D"
+			x: 7.5d
+			y: -0.625d
+			icon: {
+				id: "minecolonies:blockhutconcretemixer"
+				count: 1
+			}
+			dependencies: [
+				"5A2B342F6DAC08FD"
+			]
+			tasks: [
+				{
+					id: "26A9E0A1761158F2"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutconcretemixer"
+					}
+				}
+			]
+		}
+		{
+			id: "508844C01F0CA98B"
+			x: 6.0d
+			y: 9.375d
+			icon: {
+				id: "minecolonies:blockhutfletcher"
+				count: 1
+			}
+			dependencies: [
+				"2A25F70A883FD806"
+			]
+			tasks: [
+				{
+					id: "3486FC379D4DC7BE"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutfletcher"
+					}
+				}
+			]
+		}
+		{
+			id: "4BE21434F371AE4E"
+			x: 7.5d
+			y: 0.625d
+			icon: {
+				id: "minecolonies:blockhutmechanic"
+				count: 1
+			}
+			dependencies: [
+				"6D716CFDB6533D8D"
+			]
+			tasks: [
+				{
+					id: "3062A121B7C766FC"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutmechanic"
+					}
+				}
+			]
+		}
+		{
+			id: "00B201D2CB365B8B"
+			x: 7.5d
+			y: 1.875d
+			icon: {
+				id: "minecolonies:blockhutschool"
+				count: 1
+			}
+			dependencies: [
+				"6E16091A853C2E58"
+			]
+			tasks: [
+				{
+					id: "61573262B96A7010"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutschool"
+					}
+				}
+			]
+		}
+		{
+			id: "6ACFC7FF1495BE58"
+			x: 6.0d
+			y: 10.625d
+			icon: {
+				id: "minecolonies:blockhutarchery"
+				count: 1
+			}
+			dependencies: [
+				"18D3669431D9E42A"
+			]
+			tasks: [
+				{
+					id: "32349ACE4B068CB1"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutarchery"
+					}
+				}
+			]
+		}
+		{
+			id: "1D98419730E30EC8"
+			x: 6.0d
+			y: 11.875d
+			icon: {
+				id: "minecolonies:blockhutcombatacademy"
+				count: 1
+			}
+			dependencies: [
+				"18D3669431D9E42A"
+			]
+			tasks: [
+				{
+					id: "2CB7313C8B9FB6E9"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutcombatacademy"
+					}
+				}
+			]
+		}
+		{
+			id: "37E062B0495F7922"
+			x: 7.5d
+			y: 3.125d
+			icon: {
+				id: "minecolonies:blockhutbarrackstower"
+				count: 1
+			}
+			dependencies: [
+				"5FF1BE65A592559C"
+			]
+			tasks: [
+				{
+					id: "0AEB4D86A5F6E9E0"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutbarrackstower"
+					}
+				}
+			]
+		}
+		{
+			id: "107C3FDC298F433A"
+			x: 6.0d
+			y: 13.125d
+			icon: {
+				id: "minecolonies:blockhutgatehouse"
+				count: 1
+			}
+			dependencies: [
+				"18D3669431D9E42A"
+			]
+			tasks: [
+				{
+					id: "50787583F85F20EF"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutgatehouse"
+					}
+				}
+			]
+		}
+		{
+			id: "70BF3B831544AF3D"
+			x: 7.5d
+			y: 4.375d
+			icon: {
+				id: "minecolonies:blockhutgraveyard"
+				count: 1
+			}
+			dependencies: [
+				"215D51C751B21BDD"
+			]
+			tasks: [
+				{
+					id: "2C22445CD4C44D32"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutgraveyard"
+					}
+				}
+			]
+		}
+		{
+			id: "070DE4F43FA71987"
+			x: 7.5d
+			y: 5.625d
+			icon: {
+				id: "minecolonies:blockhutnetherworker"
+				count: 1
+			}
+			dependencies: [
+				"6D716CFDB6533D8D"
+			]
+			tasks: [
+				{
+					id: "15CBE9D005617EE3"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutnetherworker"
+					}
+				}
+			]
+		}
+		{
+			id: "0587D8CD66473A53"
+			x: 6.0d
+			y: 14.375d
+			icon: {
+				id: "minecolonies:blockhutmysticalsite"
+				count: 1
+			}
+			dependencies: [
+				"15EA1D5A0184FB40"
+			]
+			tasks: [
+				{
+					id: "1B94EA1604AAAEF8"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutmysticalsite"
+					}
+				}
+			]
+		}
+		{
+			id: "2D5C32063F6E6D85"
+			x: 6.0d
+			y: 15.625d
+			icon: {
+				id: "minecolonies:blockhutfield"
+				count: 1
+			}
+			dependencies: [
+				"2448820009AD4703"
+			]
+			tasks: [
+				{
+					id: "2A50E239F7FB3244"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecolonies:blockhutfield"
+					}
+				}
+			]
+		}
+		{
+			id: "15CD6B6F746E5979"
+			x: 9.0d
+			y: 0.0d
+			shape: "hexagon"
+			icon: {
+				id: "minecolonies:blockhuttownhall"
+				count: 1
+			}
+			dependencies: [
+				"031569B36F8A9A21"
+				"5E5A9A560271FE5D"
+				"00B201D2CB365B8B"
+				"1D98419730E30EC8"
+				"070DE4F43FA71987"
+				"0587D8CD66473A53"
+			]
+			tasks: [
+				{
+					id: "00ACDD34AE54466A"
+					type: "checkmark"
+				}
+			]
+			rewards: [
+				{
+					id: "4802304079ED68A7"
+					type: "xp_levels"
+					xp_levels: 15
 				}
 			]
 		}

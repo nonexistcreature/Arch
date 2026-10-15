@@ -1,0 +1,331 @@
+# MineColonies: every hut has a translated advancement text and many have an in-game info page.
+extends: city
+lang:
+- minecolonies
+out: minecolonies_gen
+quests:
+- id: cyg_citizen
+  deps:
+  - city_townhall
+  roles:
+  - mayor
+  items:
+  - minecolonies:blockhutcitizen
+  doc: advancements.minecolonies.build.citizen.description
+  doc2: com.minecolonies.coremod.info.citizen.0
+- id: cyg_baker
+  deps:
+  - city_food
+  - city_farmer
+  roles:
+  - cook
+  - mayor
+  items:
+  - minecolonies:blockhutbaker
+  doc: advancements.minecolonies.build.baker.description
+  doc2: com.minecolonies.coremod.info.baker.0
+- id: cyg_kitchen
+  deps:
+  - city_food
+  roles:
+  - cook
+  - mayor
+  items:
+  - minecolonies:blockhutkitchen
+  why:
+    ru: 'Кухня нанимает поваров-помощников: колония растёт, а еды хватает всем.'
+    en: More cooks for a growing colony.
+- id: cyg_composter
+  deps:
+  - city_farmer
+  roles:
+  - gardener
+  - mayor
+  items:
+  - minecolonies:blockhutcomposter
+  doc: advancements.minecolonies.build.composter.description
+  doc2: com.minecolonies.coremod.info.composter.0
+- id: cyg_plantation
+  deps:
+  - city_farmer
+  roles:
+  - gardener
+  - mayor
+  items:
+  - minecolonies:blockhutplantation
+  why:
+    ru: Плантация выращивает тростник, кактусы, бамбук и другие особые растения.
+    en: Grows cane, cactus, bamboo and more.
+- id: cyg_florist
+  deps:
+  - city_farmer
+  roles:
+  - gardener
+  - mayor
+  items:
+  - minecolonies:blockhutflorist
+  doc: advancements.minecolonies.build.florist.description
+- id: cyg_beekeeper
+  deps:
+  - city_farmer
+  roles:
+  - breeder
+  - mayor
+  items:
+  - minecolonies:blockhutbeekeeper
+  why:
+    ru: Пчеловод колонии собирает мёд и соты с ульев.
+    en: Collects honey from hives.
+- id: cyg_chickenherder
+  deps:
+  - city_animals
+  roles:
+  - breeder
+  - mayor
+  items:
+  - minecolonies:blockhutchickenherder
+  doc: advancements.minecolonies.build.chicken_herder.description
+  doc2: com.minecolonies.coremod.info.chickenherder.0
+- id: cyg_swineherder
+  deps:
+  - city_animals
+  roles:
+  - breeder
+  - mayor
+  items:
+  - minecolonies:blockhutswineherder
+  doc: advancements.minecolonies.build.swine_herder.description
+  doc2: com.minecolonies.coremod.info.swineherder.0
+- id: cyg_rabbithutch
+  deps:
+  - city_animals
+  roles:
+  - breeder
+  - mayor
+  items:
+  - minecolonies:blockhutrabbithutch
+  why:
+    ru: Кролиководы дают мясо и шкурки.
+    en: Rabbit meat and hides.
+- id: cyg_stable
+  deps:
+  - city_animals
+  roles:
+  - breeder
+  - mayor
+  items:
+  - minecolonies:blockhutstable
+  why:
+    ru: 'Конюшня: лошади для гвардии и жителей.'
+    en: Horses for guards and citizens.
+- id: cyg_sawmill
+  deps:
+  - city_lumber
+  roles:
+  - builder
+  - mayor
+  items:
+  - minecolonies:blockhutsawmill
+  doc: advancements.minecolonies.build.sawmill.description
+- id: cyg_stonemason
+  deps:
+  - city_miner
+  roles:
+  - builder
+  - mayor
+  items:
+  - minecolonies:blockhutstonemason
+  doc: advancements.minecolonies.build.stonemason.description
+- id: cyg_stonesmeltery
+  deps:
+  - city_miner
+  roles:
+  - builder
+  - mayor
+  items:
+  - minecolonies:blockhutstonesmeltery
+  doc: advancements.minecolonies.build.stone_smeltery.description
+- id: cyg_crusher
+  deps:
+  - city_miner
+  roles:
+  - engineer
+  - mayor
+  items:
+  - minecolonies:blockhutcrusher
+  doc: advancements.minecolonies.build.crusher.description
+- id: cyg_sifter
+  deps:
+  - cyg_crusher
+  roles:
+  - engineer
+  - mayor
+  items:
+  - minecolonies:blockhutsifter
+  doc: advancements.minecolonies.build.sifter.description
+- id: cyg_glassblower
+  deps:
+  - city_smeltery
+  roles:
+  - builder
+  - mayor
+  items:
+  - minecolonies:blockhutglassblower
+  why:
+    ru: Стеклодув плавит песок в стекло и стеклянные панели для окон колонии.
+    en: Makes glass for the colony's windows.
+- id: cyg_dyer
+  deps:
+  - city_animals
+  roles:
+  - builder
+  - mayor
+  items:
+  - minecolonies:blockhutdyer
+  why:
+    ru: Красильщик красит шерсть, стекло и терракоту.
+    en: Dyes wool, glass and terracotta.
+- id: cyg_concretemixer
+  deps:
+  - cyg_stonesmeltery
+  roles:
+  - builder
+  - mayor
+  items:
+  - minecolonies:blockhutconcretemixer
+  why:
+    ru: Бетономешалка делает бетон — для высоких зданий колонии.
+    en: Makes concrete for tall buildings.
+- id: cyg_fletcher
+  deps:
+  - city_lumber
+  roles:
+  - warrior
+  - mayor
+  items:
+  - minecolonies:blockhutfletcher
+  why:
+    ru: Мастер луков делает стрелы и луки для лучников колонии.
+    en: Bows and arrows for archers.
+- id: cyg_mechanic
+  deps:
+  - city_smeltery
+  roles:
+  - engineer
+  - mayor
+  items:
+  - minecolonies:blockhutmechanic
+  why:
+    ru: Механик делает редстоун-механизмы, рельсы и вагонетки.
+    en: Redstone parts, rails and carts.
+- id: cyg_school
+  deps:
+  - city_library
+  roles:
+  - mayor
+  items:
+  - minecolonies:blockhutschool
+  why:
+    ru: Школа учит детей колонии — они вырастают умнее.
+    en: Children grow up smarter.
+- id: cyg_archery
+  deps:
+  - city_guard
+  roles:
+  - warrior
+  - mayor
+  items:
+  - minecolonies:blockhutarchery
+  doc: advancements.minecolonies.build.archery.description
+- id: cyg_combatacademy
+  deps:
+  - city_guard
+  roles:
+  - warrior
+  - mayor
+  items:
+  - minecolonies:blockhutcombatacademy
+  doc: advancements.minecolonies.build.combat_academy.description
+- id: cyg_barrackstower
+  deps:
+  - city_barracks
+  roles:
+  - warrior
+  - mayor
+  items:
+  - minecolonies:blockhutbarrackstower
+  doc: advancements.minecolonies.build.barracks_tower.description
+  doc2: com.minecolonies.coremod.info.barrackstower.0
+- id: cyg_gatehouse
+  deps:
+  - city_guard
+  roles:
+  - warrior
+  - mayor
+  - builder
+  items:
+  - minecolonies:blockhutgatehouse
+  why:
+    ru: 'Привратник: ворота стены колонии, которые открываются только своим.'
+    en: Gates that open only for citizens.
+- id: cyg_graveyard
+  deps:
+  - city_hospital
+  roles:
+  - mayor
+  - mage
+  items:
+  - minecolonies:blockhutgraveyard
+  doc: com.minecolonies.coremod.info.graveyard.0
+- id: cyg_netherworker
+  deps:
+  - city_smeltery
+  roles:
+  - warrior
+  - mayor
+  items:
+  - minecolonies:blockhutnetherworker
+  why:
+    ru: Житель ходит в Незер через портал колонии и приносит ресурсы. Нужны снаряжение и еда.
+    en: A citizen who raids the Nether for you.
+- id: cyg_mysticalsite
+  deps:
+  - city_university
+  roles:
+  - mage
+  - mayor
+  items:
+  - minecolonies:blockhutmysticalsite
+  doc: advancements.minecolonies.build.mysticalsite.description
+- id: cyg_field
+  deps:
+  - city_farmer
+  roles:
+  - gardener
+  - mayor
+  items:
+  - minecolonies:blockhutfield
+  why:
+    ru: 'Поле для фермера: поставь, назначь культуру — житель сам вспашет и засеет.'
+    en: A field for your farmer.
+- id: cyg_master
+  deps:
+  - cyg_baker
+  - cyg_concretemixer
+  - cyg_school
+  - cyg_combatacademy
+  - cyg_netherworker
+  - cyg_mysticalsite
+  roles:
+  - mayor
+  shape: hexagon
+  icon: minecolonies:blockhuttownhall
+  title:
+    ru: Город, который живёт сам
+    en: A City That Runs Itself
+  text:
+    ru: Пекари, каменщики, механики, школа и гвардия — колония кормит, строит и защищает себя. Ты — мэр, а не прораб.
+    en: Your colony feeds, builds and defends itself.
+  rewards:
+  - type: xp_levels
+    count: 15

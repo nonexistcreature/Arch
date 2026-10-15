@@ -3272,6 +3272,190 @@
 	quest.2914A07238F4FC3A.quest_desc: [
 		"Coke, steel, aluminium, concrete, plastic and electronics. Mind the smog: filters and trees around the plant keep the sky clear."
 	]
+	quest.5ECA5ED6855261BA.title: "Fireclay"
+	quest.5ECA5ED6855261BA.quest_desc: [
+		"&lWhy:&r Fireproof bricks build the blast furnace and coke oven."
+	]
+	quest.4D11317C715C21B6.title: "Coke Oven Battery"
+	quest.4D11317C715C21B6.quest_desc: [
+		"&lWhy:&r Ovens placed together merge into a battery."
+		"The Coke Oven is a machine that produces coal coke from coal. It is very slow so it is beneficial to have long arrays of them. Coal can be inserted from anywhere. Carbon Dioxide is extracted at the top, Creosote can be extracted anywhere else. After some time, coal coke will fall out of the machine."
+	]
+	quest.11A2A60CF4B777CB.title: "Blast Furnace"
+	quest.11A2A60CF4B777CB.quest_desc: [
+		"&lWhy:&r Ore + coke + flux → molten iron and slag. Taller = more."
+		"Main part of a blast furnace is a blast furnace output. To build a blast furnace, make a cylinder of fireproof bricks around it with one blast furnace hatch in it. This hatch will function as a hot air input. Blast furnaces need reinforcements to function. Everything is inserted to through a hole at the top. Next hatch can be placed on the top hole to collect furnace gas, items directed into it will fall into the blast furnace. Blast furnace reinforcements can be placed around the furnace to increase its speed."
+	]
+	quest.44074560068461DF.title: "Blast Stove"
+	quest.44074560068461DF.quest_desc: [
+		"&lWhy:&r Hot blast speeds up the furnace."
+	]
+	quest.08242AFBD392E776.title: "Casting Basin"
+	quest.08242AFBD392E776.quest_desc: [
+		"&lWhy:&r Casts molten metal into ingots and blocks."
+	]
+	quest.3C29252E178AF10C.title: "Cast Iron"
+	quest.3C29252E178AF10C.quest_desc: [
+		"&lWhy:&r Cast iron pipes for hot fluids."
+	]
+	quest.721B57CAE7CE28F2.title: "Steel Mechanism"
+	quest.721B57CAE7CE28F2.quest_desc: [
+		"&lWhy:&r The heavy-industry counterpart of the precision mechanism."
+	]
+	quest.3620AFEA4D92D4B4.title: "Heavy Plate"
+	quest.3620AFEA4D92D4B4.quest_desc: [
+		"&lWhy:&r Casing for engines and machines."
+	]
+	quest.0B40A8FB2D17C594.title: "Steel Gearing"
+	quest.0B40A8FB2D17C594.quest_desc: [
+		"&lWhy:&r Steel gears handle engine power."
+	]
+	quest.4A375F21AC4978AB.title: "TFMG Tools"
+	quest.4A375F21AC4978AB.quest_desc: [
+		"&lWhy:&r Tougher than iron tools."
+	]
+	quest.122A23D50B4234A1.title: "Galena"
+	quest.122A23D50B4234A1.quest_desc: [
+		"&lWhy:&r Lead and silver ore."
+	]
+	quest.2A2098A285C33969.title: "Lead Pickaxe"
+	quest.2A2098A285C33969.quest_desc: [
+		"&lWhy:&r Slow but durable."
+	]
+	quest.287FB412A80D9A4C.title: "Surface Scanner"
+	quest.287FB412A80D9A4C.quest_desc: [
+		"&lWhy:&r Finds oil deposits."
+		"Helps to find chunks with oil"
+	]
+	quest.6847F4C28664F3EF.title: "Distillation Tower"
+	quest.6847F4C28664F3EF.quest_desc: [
+		"&lWhy:&r Oil → gasoline, diesel, kerosene, naphtha and more."
+		"The base of a distillation tower is comprised of steel tanks. Tower is assembled by placing Steel Distillation Controller next to the tanks. To finish the multiblock, place up to 6 Distillation outputs and Industrial Pipes between them. Place a heat source under the tanks to power it, the dial on the tower shows the power level of the structure. Oil is inputted into the controller block."
+	]
+	quest.57EC2C8953E0A97C.title: "Chemical Vat"
+	quest.57EC2C8953E0A97C.quest_desc: [
+		"&lWhy:&r Multiblock vat for acids, plastic and electrolysis."
+		"The chemical vat is a machine with attachments that can give it many different uses. First attachment is the industrial mixer. When the mixer blade is inserted, the vat becomes a mixer. The industrial mixer can also become a centrifuge. Some recipes need heating. Placing 2 electrode holders with copper electrodes creates an electrolyzer. 3 graphite electrodes create a blast furnace."
+	]
+	quest.601C98B2B0AE949E.title: "Flarestack"
+	quest.601C98B2B0AE949E.quest_desc: [
+		"&lWhy:&r Burns excess gas. Watch pollution."
+		"Burns unneeded oil products"
+	]
+	quest.31C3166E6150C725.title: "Metal Smokestack"
+	quest.31C3166E6150C725.quest_desc: [
+		"&lWhy:&r Leads smoke up and away."
+	]
+	quest.08CEFA3508F0016D.title: "Asphalt"
+	quest.08CEFA3508F0016D.quest_desc: [
+		"&lWhy:&r Roads for faster driving."
+	]
+	quest.3D740BDDBBB1DC75.title: "Synthetics"
+	quest.3D740BDDBBB1DC75.quest_desc: [
+		"&lWhy:&r Leather and string without animals."
+	]
+	quest.2E806EC193D6C56D.title: "Regular Engine"
+	quest.2E806EC193D6C56D.quest_desc: [
+		"&lWhy:&r A gasoline engine for huge rotational power."
+		"To build an engine, start by placing up to 5 engine blocks in a line. The engine's tooltip will show you items needed for the assembly. Engine configuration can be changed with a schematic. Next step is inserting the cylinders (or turbine blades in turbine engines). Shafts are inserted by right clicking. Fuel input and exhaust output can be done from any block. Every engine block can be right clicked with certain items to be upgraded. For example industrial pipes make the engine consume fuel from neighboring tanks."
+	]
+	quest.488BC9D213903789.title: "Large Engine"
+	quest.488BC9D213903789.quest_desc: [
+		"&lWhy:&r More cylinders, more power."
+		"Creates rotation from less refined fuels"
+	]
+	quest.7E0F2CDFD6BDC524.title: "Radial Engine"
+	quest.7E0F2CDFD6BDC524.quest_desc: [
+		"&lWhy:&r Compact power for planes and ships."
+	]
+	quest.75CF4D487EB9FF03.title: "Turbine Engine"
+	quest.75CF4D487EB9FF03.quest_desc: [
+		"&lWhy:&r The strongest TFMG power unit."
+	]
+	quest.6C20A3E55F0AD3CD.title: "Turbocharging"
+	quest.6C20A3E55F0AD3CD.quest_desc: [
+		"&lWhy:&r More engine power; the exhaust vents gases."
+	]
+	quest.615B3B0DA6998ACF.title: "TFMG Electricity"
+	quest.615B3B0DA6998ACF.quest_desc: [
+		"&lWhy:&r Generators turn rotation into current; voltage and resistance are simulated."
+		"A generator creates 2 values, Voltage and Power. Generator:"
+		"   Voltage(U) = 200V"
+		"   Max Power = 8kW"
+		"Light Bulb:"
+		"   Voltage(U) = 200V"
+		"   Current(I) = 2A"
+		"   Power(P) = 100W"
+		"   Resistance(R) = 100Ω. When load is applied on a generator, it takes its voltage. Every an electric device has electrical resistance, light bulbs are 100 Ohm(Ω). Current with size of Voltage divided by Resistance will start flowing in the light bulb."
+	]
+	quest.4DBA62B14DC9CD80.title: "Multimeter"
+	quest.4DBA62B14DC9CD80.quest_desc: [
+		"&lWhy:&r Shows voltage and current."
+		"Shows data about an electrical block and its network"
+	]
+	quest.175FB7FD839C4A47.title: "Accumulator"
+	quest.175FB7FD839C4A47.quest_desc: [
+		"&lWhy:&r Stores power for night and load spikes."
+		"Holds a Large Amount of energy (inserted from bottom) that can be outputted Slowly from the Top"
+	]
+	quest.4DE23E23F98F80A2.title: "Transformer"
+	quest.4DE23E23F98F80A2.quest_desc: [
+		"&lWhy:&r Steps voltage up for long lines and down for machines."
+		"Some blocks have connections from 2 sides. These blocks create a new electric network on one of their sides. This subnetwork will get all the power from the main network but not the opposite way. The most basic block with this ability is the Diode, it has no other extra abilities. Next one is the potentiometer, this one can set the percentage of voltage that gets to the subnetwork. The switch works similarly but with redstone. The transformer changes voltage based on the ratio of turns between the primary and secondary coil."
+	]
+	quest.10FF7C32138FD2DB.title: "Electronic Components"
+	quest.10FF7C32138FD2DB.quest_desc: [
+		"&lWhy:&r Made by sequenced assembly."
+		"Adds resistance to a network"
+	]
+	quest.29DC664BF5E3BB07.title: "Winding Machine"
+	quest.29DC664BF5E3BB07.quest_desc: [
+		"&lWhy:&r Winds coils for motors and generators."
+		"Changes the amount of turns on spools and the resistance on resistors"
+	]
+	quest.3B1A72A757EE9C13.title: "Converter"
+	quest.3B1A72A757EE9C13.quest_desc: [
+		"&lWhy:&r Converts TFMG power to FE for other mods."
+		"Converts FE to TFMG energy and vice versa"
+	]
+	quest.5D7228E0468C2ECE.title: "City Lights"
+	quest.5D7228E0468C2ECE.quest_desc: [
+		"&lWhy:&r Lamps, neon and traffic lights."
+	]
+	quest.5885F30E7CF3C4F9.title: "Electric Pump"
+	quest.5885F30E7CF3C4F9.quest_desc: [
+		"&lWhy:&r Pumps fluids on electricity alone."
+	]
+	quest.15D110F1B5A5AAB6.title: "Reinforced Concrete"
+	quest.15D110F1B5A5AAB6.quest_desc: [
+		"&lWhy:&r Walls that stand up to blasts and meteors."
+	]
+	quest.7332C6399AE90323.title: "Factory Floor"
+	quest.7332C6399AE90323.quest_desc: [
+		"&lWhy:&r A proper factory floor."
+	]
+	quest.270D09DCA18C2A9F.title: "Fire Extinguisher"
+	quest.270D09DCA18C2A9F.quest_desc: [
+		"&lWhy:&r Puts out fires. Keep one near wooden builds!"
+	]
+	quest.1BED2E449CF8B36B.title: "Flamethrower"
+	quest.1BED2E449CF8B36B.quest_desc: [
+		"&lWhy:&r Burns mob crowds — and forests, so be careful."
+		"Burns  burnable Gases and Fluids to shoot out a burst of flame to burn your Enemies"
+	]
+	quest.0C7D5B49867AB317.title: "Advanced Potato Cannon"
+	quest.0C7D5B49867AB317.quest_desc: [
+		"&lWhy:&r Farther, faster, stronger."
+		"Launches Napalm Potatoes at Enemies. Can be powered with Air Pressure from a Backtank"
+	]
+	quest.728CE71459E1D7A7.title: "Grenades"
+	quest.728CE71459E1D7A7.quest_desc: [
+		"&lWhy:&r Use them in the wilds, not near other players' houses."
+	]
+	quest.06B6DC6F3547A72D.title: "The Factory Must Grow"
+	quest.06B6DC6F3547A72D.quest_desc: [
+		"Your factory powers the server. Mind the shared air."
+	]
 	chapter.3DEA61287EDBEADA.title: "Immersive Engineering"
 	chapter.3DEA61287EDBEADA.chapter_subtitle: [
 		"Wires, multiblock machines, revolver and railgun"
@@ -7078,6 +7262,141 @@
 	quest.076FE4C58EDAB8E3.title: "Villagers in Your Pocket"
 	quest.076FE4C58EDAB8E3.quest_desc: [
 		"Easy Villagers: pick up a villager as an item and place it in a trader block. A compact market without huge pens."
+	]
+	quest.0FD8FAF0813FFD2A.title: "Residence"
+	quest.0FD8FAF0813FFD2A.quest_desc: [
+		"Your citizens need a place to live! Build them a House - each level houses one citizen."
+		"The House is where your citizens will live. For every level of the House, the building will house one citizen. You will need multiple houses to house everyone. The only citizens that will not live in a House are your Guards."
+	]
+	quest.031569B36F8A9A21.title: "Bakery"
+	quest.031569B36F8A9A21.quest_desc: [
+		"Your citizens need some grains in their diet. Build a Bakery so the Baker can craft baked goods for them!"
+		"The Baker is part of the food production of your colony. They will bake bread, cookies, pumpkin pie, and/or cake. On page two of the Bakery GUI, you can select which items you want them to make."
+	]
+	quest.3B062B23874F55A0.title: "Chef's Kitchen"
+	quest.3B062B23874F55A0.quest_desc: [
+		"&lWhy:&r More cooks for a growing colony."
+	]
+	quest.7559DB448E569963.title: "Composter's Hut"
+	quest.7559DB448E569963.quest_desc: [
+		"A Composter will take your leftover saplings, leaves, and like items and expose them to the elements to make fertilizer."
+		"The Composter is part of the crafting line of your colony. The Composter will turn items into compost for Farmers and Florists to use."
+	]
+	quest.72D923C815DFEA86.title: "Plantation"
+	quest.72D923C815DFEA86.quest_desc: [
+		"&lWhy:&r Grows cane, cactus, bamboo and more."
+	]
+	quest.25460C176D191862.title: "Flower Shop"
+	quest.25460C176D191862.quest_desc: [
+		"The Flower Shop will use compost or other types of \"bonemeal\" to grow flowers."
+	]
+	quest.550B68541BA21A5F.title: "Apiary"
+	quest.550B68541BA21A5F.quest_desc: [
+		"&lWhy:&r Collects honey from hives."
+	]
+	quest.1F9880AEC67EF7B7.title: "Chicken Farmer's Hut"
+	quest.1F9880AEC67EF7B7.quest_desc: [
+		"Build a Chicken Farmer's Hut to bring in some eggs and meat. Remember to bring the chickens to the hut."
+		"The Chicken Farmer is part of the food production of your colony. The Chicken Farmer breeds, raises, and butchers chickens. They will collect eggs, feathers, and meat, as well as any drops from other mods. The Chicken Farmer will keep two chickens alive per level of their hut."
+	]
+	quest.1E035F3D1994FFE2.title: "Swineherd's Hut"
+	quest.1E035F3D1994FFE2.quest_desc: [
+		"Bacon - a meat eater's dream. Build a Swineherd's Hut so your citizens don't miss out."
+		"The Swineherd is part of the food production of your colony. The Swineherd breeds, raises, and butchers pigs. They will collect the meat, as well as any drops from other mods. The Swineherd will keep two pigs alive per level of their hut."
+	]
+	quest.68A74DE8645E4D01.title: "Rabbit Hutch"
+	quest.68A74DE8645E4D01.quest_desc: [
+		"&lWhy:&r Rabbit meat and hides."
+	]
+	quest.69B005DB7BEA8175.title: "Stable"
+	quest.69B005DB7BEA8175.quest_desc: [
+		"&lWhy:&r Horses for guards and citizens."
+	]
+	quest.2631D1F7D578FA91.title: "Sawmill"
+	quest.2631D1F7D578FA91.quest_desc: [
+		"With the Courier by your side, you can utilise crafters! Build the Sawmill to start your crafting experience."
+	]
+	quest.628B0898C1C9008C.title: "Stonemason's Hut"
+	quest.628B0898C1C9008C.quest_desc: [
+		"A Stonemason can craft 3x3 recipes using stone as their main ingredient. Build one to take advantage of their skill!"
+	]
+	quest.5A2B342F6DAC08FD.title: "Brick yard"
+	quest.5A2B342F6DAC08FD.quest_desc: [
+		"Build a Brick Yard to automate the forging of stone and more for other crafters"
+	]
+	quest.6A6B9866D4981CA1.title: "Crusher"
+	quest.6A6B9866D4981CA1.quest_desc: [
+		"Build a Crusher's Hut to get things like gravel from cobblestone!"
+	]
+	quest.1A19CE3AE1C9EE6B.title: "Sifter"
+	quest.1A19CE3AE1C9EE6B.quest_desc: [
+		"Build a Sifter's Hut to take advantage of extra resources hiding in blocks"
+	]
+	quest.1DA2F0A4360E14A8.title: "Glassblower's Hut"
+	quest.1DA2F0A4360E14A8.quest_desc: [
+		"&lWhy:&r Makes glass for the colony's windows."
+	]
+	quest.073523D80B8B4CF5.title: "Dyer's Hut"
+	quest.073523D80B8B4CF5.quest_desc: [
+		"&lWhy:&r Dyes wool, glass and terracotta."
+	]
+	quest.5E5A9A560271FE5D.title: "Concrete Mixer's Hut"
+	quest.5E5A9A560271FE5D.quest_desc: [
+		"&lWhy:&r Makes concrete for tall buildings."
+	]
+	quest.508844C01F0CA98B.title: "Fletcher's Hut"
+	quest.508844C01F0CA98B.quest_desc: [
+		"&lWhy:&r Bows and arrows for archers."
+	]
+	quest.4BE21434F371AE4E.title: "Mechanic's Hut"
+	quest.4BE21434F371AE4E.quest_desc: [
+		"&lWhy:&r Redstone parts, rails and carts."
+	]
+	quest.00B201D2CB365B8B.title: "School"
+	quest.00B201D2CB365B8B.quest_desc: [
+		"&lWhy:&r Children grow up smarter."
+	]
+	quest.6ACFC7FF1495BE58.title: "Archery"
+	quest.6ACFC7FF1495BE58.quest_desc: [
+		"Give your Knights some backup. Build an Archery to train Archers."
+	]
+	quest.1D98419730E30EC8.title: "Combat Academy"
+	quest.1D98419730E30EC8.quest_desc: [
+		"Battle is dangerous. Build a Combat Academy and assign a citizen to train there without the risk of losing their life!"
+	]
+	quest.37E062B0495F7922.title: "Barracks Tower"
+	quest.37E062B0495F7922.quest_desc: [
+		"Build the Barracks Towers inside your new Barracks. These towers are locked to the same level as the Barracks and will increase their max Guards every level!"
+		"The Barracks Tower is the heart of your military defense. Each Barracks Tower employs 1 Guard per level for a total of 5. However, the Guards will also live in the tower, freeing up beds for more citizens."
+		"There are two different types of Guards, Knights and Archers. Knights use swords, while Archers use bows."
+	]
+	quest.107C3FDC298F433A.title: "Gatehouse"
+	quest.107C3FDC298F433A.quest_desc: [
+		"&lWhy:&r Gates that open only for citizens."
+	]
+	quest.70BF3B831544AF3D.title: "Graveyard"
+	quest.70BF3B831544AF3D.quest_desc: [
+		"The Graveyard is the resting place of your fallen citizens!"
+		""
+		"Without it, you'll still be able to manually collect fallen citizens' graves, but your colony will mourn longer."
+		""
+		"Each Graveyard needs an Undertaker, who collects graves within the city."
+	]
+	quest.070DE4F43FA71987.title: "Nether Mine"
+	quest.070DE4F43FA71987.quest_desc: [
+		"&lWhy:&r A citizen who raids the Nether for you."
+	]
+	quest.0587D8CD66473A53.title: "Mystical Site"
+	quest.0587D8CD66473A53.quest_desc: [
+		"A Mystical Site may be pointless. It will only make your citizens proud. But you want one, so you should research and build one!"
+	]
+	quest.2D5C32063F6E6D85.title: "Field"
+	quest.2D5C32063F6E6D85.quest_desc: [
+		"&lWhy:&r A field for your farmer."
+	]
+	quest.15CD6B6F746E5979.title: "A City That Runs Itself"
+	quest.15CD6B6F746E5979.quest_desc: [
+		"Your colony feeds, builds and defends itself."
 	]
 	chapter.6C67AEF364E06285.title: "Building"
 	chapter.6C67AEF364E06285.chapter_subtitle: [

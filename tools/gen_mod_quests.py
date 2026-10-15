@@ -129,7 +129,7 @@ def main():
                     scene = f"{ns[0]}.ponder.{key[7:]}"
                     lines = [clean(lang[f"{scene}.text_{i}"], 300) for i in range(1, 9) if f"{scene}.text_{i}" in lang]
                     return clean(" ".join(x if x.endswith((".", "!", "?")) else x + "." for x in lines), 600)
-                full = key if (key.split(".")[0] in ns or key.startswith(("book.", "item.", "block.", "entity.", "tooltip.", "description.", "advancements.", "advancement.", "info.", "guide.", "spell.", "effect."))) else f"{ns[0]}.{key}"
+                full = key if (key.split(".")[0] in ns or key.startswith(("book.", "item.", "block.", "entity.", "tooltip.", "description.", "advancements.", "advancement.", "info.", "guide.", "spell.", "effect.", "com."))) else f"{ns[0]}.{key}"
                 alts = [full, full.replace(".page1.", ".page."), full.replace(".page.", ".page1.")]
                 ok = [a for a in alts if len(lang.get(a, "")) > 12 and not re.search(r"%(\d\$)?[sd]", lang[a])]  # skip texts with %s slots
                 return clean(lang[ok[0]]) if ok else ""
