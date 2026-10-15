@@ -1557,6 +1557,276 @@
 	quest.2B6BA5EF7AFE7EFB.quest_desc: [
 		"Create: Power Loader keeps a chunk loaded while its loader gets rotation — the factory runs when you're away."
 	]
+	quest.6E41A64ECE5960D9.title: "Hand Crank"
+	quest.6E41A64ECE5960D9.quest_desc: [
+		"Hand Cranks can be used by players to apply rotational force manually. Hold Right-Click to rotate it Counter-Clockwise. Sneak and Hold Right-Click to rotate it Clockwise."
+	]
+	quest.17742DEF09F4E37B.title: "Gear Ratios"
+	quest.17742DEF09F4E37B.quest_desc: [
+		"&lWhy:&r Large to small doubles speed but also stress."
+		"Large and Small cogs can be connected diagonally. Shifting from large to small cogs, the conveyed speed will be doubled. Shifting the opposite way, the conveyed speed will be halved."
+	]
+	quest.3E0C74616C4C4098.title: "Gearbox"
+	quest.3E0C74616C4C4098.quest_desc: [
+		"Jumping between axes of rotation can get bulky quickly. A gearbox is the more compact equivalent of this setup. Shafts around corners rotate in mirrored directions. Straight connections will be reversed."
+		"Chain Drives relay rotation to each other in a row. All shafts connected like this will rotate in the same direction. Any part of the row can be rotated by 90 degrees."
+	]
+	quest.6E4CC7DED631E6FB.title: "Large Water Wheel"
+	quest.6E4CC7DED631E6FB.quest_desc: [
+		"Large Water Wheels draw force from adjacent Water Currents. Covering additional sides will not improve its kinetic output further. These rotate only at half the speed of regular water wheels... ...but provide a substantially higher stress capacity. Use wood planks on the wheel to change its appearance."
+	]
+	quest.5A56460EB76ECD8F.title: "Windmill"
+	quest.5A56460EB76ECD8F.quest_desc: [
+		"&lWhy:&r More sails, more power — works anywhere."
+		"Any Structure can count as a valid Windmill, as long as it contains at least 8 sail-like Blocks."
+	]
+	quest.439AB1D66F23B816.title: "Speed and Stress"
+	quest.439AB1D66F23B816.quest_desc: [
+		"&lWhy:&r If the network stops, check the stressometer."
+		"The Stressometer displays the current Stress Capacity of the attached kinetic network. When wearing Engineers' Goggles, the player can get more detailed information from the Gauge. Comparators can emit analog Redstone Signals relative to the Stressometer's measurements."
+	]
+	quest.09B72D21E7475B38.title: "Sequenced Gearshift"
+	quest.09B72D21E7475B38.quest_desc: [
+		"Seq. Gearshifts relay rotation by following a timed list of instructions. Right-click it to open the Configuration UI. Upon receiving a Redstone Signal, it will start running its configured sequence. Once finished, it waits for the next Redstone Signal and starts over. A redstone comparator can be used to read the current progress."
+		"Rot. Speed Controllers relay rotation from their axis to a Large Cogwheel above them. Using the value panel on its side, the conveyed speed can be configured."
+	]
+	quest.789866CD897AFFAD.title: "Steam Boiler"
+	quest.789866CD897AFFAD.quest_desc: [
+		"&lWhy:&r A 3x3 tank boiler with blaze burners powers a factory."
+		"Steam Engines can be placed on a Fluid Tank. Clicking the engine with a Shaft creates the Kinetic Output. With sufficient Heat, Water and Boiler space... ...they will generate Rotational Force. The minimal setup requires 4 Fluid Tanks. With the help of Blaze Burners, the power output can be increased. Higher power levels require more Water, Size and Heat. The boiler's current power level can be inspected with Engineer's Goggles."
+		"Blaze Burners can provide Heat to Items processed in a Basin. For this, the Blaze has to be fed with flammable items. With a Blaze Cake, the Burner can reach an even stronger level of heat. The feeding process can be automated using Deployers or Mechanical Arms."
+	]
+	quest.65F0D1BE947AA3B9.title: "Blaze Cake"
+	quest.65F0D1BE947AA3B9.quest_desc: [
+		"&lWhy:&r Superheats a burner for superheated recipes."
+		"A Delicious treat for your hard-working Blaze Burners. Gets them all fired up!"
+	]
+	quest.3C14611B85BBFA31.title: "Steam Whistle"
+	quest.3C14611B85BBFA31.quest_desc: [
+		"Steam Whistles can be placed on a Fluid Tank. If the tank receives sufficient heat... ...the Whistle will play a note when activated. Use a Whistle item on the block to lower its pitch. Cycle between three different octaves using a Wrench. Engineer's Goggles can help to find out the current pitch of a Whistle."
+	]
+	quest.6F5A49281E0F0CF6.title: "Mechanical Piston"
+	quest.6F5A49281E0F0CF6.quest_desc: [
+		"Mechanical Pistons can move blocks in front of them. Speed and direction of movement depend on the Rotational Input. Sticky Mechanical Pistons can pull the attached blocks back."
+	]
+	quest.24B46602A0468CD7.title: "Gantry Carriage"
+	quest.24B46602A0468CD7.quest_desc: [
+		"Gantry Shafts form the basis of a gantry setup. Attached Carriages will move along them. Gantry setups can move attached Blocks."
+	]
+	quest.5F0AB56D6CE44650.title: "Rope Pulley"
+	quest.5F0AB56D6CE44650.quest_desc: [
+		"Rope Pulleys can move blocks vertically when given Rotational Force. Direction and Speed of movement depend on the Rotational Input."
+	]
+	quest.528D00532814FEBA.title: "Chassis"
+	quest.528D00532814FEBA.quest_desc: [
+		"Linear Chassis connect to identical Chassis blocks next to them. When one is moved by a Contraption, the others are dragged with it. Chassis of a different type or facing another direction will not attach."
+		"Radial Chassis connect to identical Chassis blocks in a row. When one is moved by a Contraption, the others are dragged with it. The side faces of a Radial Chassis can be made Sticky. Click again to make all other sides sticky. Sneak and Right-Click with an empty hand to remove the slime. Whenever a Block is next to a sticky face... ...it will attach all reachable blocks within a radius on that layer. Using a Wrench, a precise Radius can be specified for this chassis."
+	]
+	quest.63B007A73C7624F6.title: "Sticker"
+	quest.63B007A73C7624F6.quest_desc: [
+		"Stickers are ideal for Redstone-controlled block attachment. Upon receiving a signal, it will toggle its state. If it is now moved in a contraption, the block will move with it. Toggled once again, the block is no longer attached."
+	]
+	quest.529DC58B8DBDDA33.title: "Clockwork Bearing"
+	quest.529DC58B8DBDDA33.quest_desc: [
+		"&lWhy:&r Clock hands for your town hall tower."
+		"Clockwork Bearings attach to blocks in front of them. Upon receiving Rotational Force, the structure will be rotated according to the hour of the day. 3:00. 4:00. Right-Click the bearing to start or stop animating the structure. In front of the Hour Hand, a second structure can be added. Ensure that the two Structures are not glued to each other. The Second Structure will now rotate as the Minute Hand."
+	]
+	quest.0094FCEEFD55BC35.title: "Cart Assembler"
+	quest.0094FCEEFD55BC35.quest_desc: [
+		"Powered Cart Assemblers mount attached structures to passing Minecarts. Without a redstone signal, it disassembles passing cart contraptions back into blocks. Using a Wrench on the Minecart will let you carry the Contraption elsewhere."
+	]
+	quest.0005700F5C84E0CB.title: "Contraption Controls"
+	quest.0005700F5C84E0CB.quest_desc: [
+		"Actors on moving contraptions are always active by default. Contraption Controls can be used to toggle them on the fly. They can be attached anywhere on the contraption. While disassembled, the filter can be changed to target specific types of actors. If it is redstone-activated during assembly... ...targeted actors will be turned off from the start."
+	]
+	quest.14F40C35FEE4570C.title: "Mechanical Plough"
+	quest.14F40C35FEE4570C.quest_desc: [
+		"Whenever Ploughs are moved as part of an animated Contraption... ...they will break blocks without a solid collision hitbox. Additionally, ploughs can create farmland. ...they can also launch entities without hurting them."
+	]
+	quest.6E4C621731A2E3CC.title: "Mechanical Roller"
+	quest.6E4C621731A2E3CC.quest_desc: [
+		"&lWhy:&r Paves roads and fills holes as it moves."
+		"Mechanical rollers help to clean up terrain around tracks or paths. In its default mode, without a material set, it will simply clear blocks like a Drill. While disassembled, a suitable paving material can be specified. Materials can be supplied via chests or barrels attached to the structure. In addition to breaking blocks, it will now replace the layer beneath them. Note that any block destroyed by a roller has a chance not to yield drops. Rollers are especially useful on Trains, but can also be used on most other types of moving contraptions."
+	]
+	quest.03AADBDAD9561F63.title: "Portable Storage Interface"
+	quest.03AADBDAD9561F63.quest_desc: [
+		"&lWhy:&r Unloads a moving drill or train at a station."
+		"Moving inventories can be tricky to access with automation. This component can interact with storage without the need to stop the contraption. Place a second one with a gap of 1 or 2 blocks inbetween. Whenever they pass by each other, they will engage in a connection. While engaged, the stationary interface will represent ALL inventories on the contraption. Items can now be inserted... ...or extracted from the contraption. After no items have been exchanged for a while, the contraption will continue on its way."
+	]
+	quest.6A1F70D602EEF065.title: "Mechanical Arm"
+	quest.6A1F70D602EEF065.quest_desc: [
+		"Mechanical Arms have to be assigned their in- and outputs before they are placed. Right-Click inventories while holding the Arm to assign them as Targets. Right-Click again to toggle between Input (Blue) and Output (Yellow). Left-Click components to remove their Selection. Once placed, the Mechanical Arm will target the blocks selected previously. They can have any amount of in- and outputs within their range. However, not every type of Inventory can be interacted with directly. Funnels and Depots can help to Bridge that gap."
+		"Input. Outputs. Whenever an Arm has to choose between multiple valid outputs... ...it will act according to its setting. The value panel will allow you to configure it. Round Robin mode simply cycles through all outputs that are available. If an output is unable to take more items, it will be skipped. Forced Round Robin mode will never skip outputs, and instead wait until they are free."
+	]
+	quest.7BC536D0DABFF75C.title: "Weighted Ejector"
+	quest.7BC536D0DABFF75C.quest_desc: [
+		"Sneak and Right-Click holding an Ejector to select its target location. The placed ejector will now launch objects to the marked location. A valid target can be at any height or distance within range. They cannot however be off to a side. If no valid Target was selected, it will simply target the block directly in front. Supply Rotational Force in order to charge it up. Items placed on the ejector cause it to trigger. If Inventories are targeted, the ejector will wait until there is space."
+	]
+	quest.1A632D59F2F2863B.title: "Brass Funnel"
+	quest.1A632D59F2F2863B.quest_desc: [
+		"Andesite Funnels can only ever extract single items. Brass Funnels can extract up to a full stack. The value panel allows for precise control over the extracted stack size. Using items on the filter slot will restrict the funnel to only transfer matching stacks."
+		"The distribution behaviour of Brass Tunnels can be configured. 'Split' will attempt to distribute the stack evenly between available outputs. If an output is unable to take more items, it will be skipped. 'Forced Split' will never skip outputs, and instead wait until they are free. 'Round Robin' keeps stacks whole, and cycles through outputs iteratively. Once Again, if an output is unable to take more items, it will be skipped. 'Forced Round Robin' never skips outputs. 'Prefer Nearest' prioritizes the outputs closest to the items' input location."
+	]
+	quest.4931171F4435EBF9.title: "Smart Chute"
+	quest.4931171F4435EBF9.quest_desc: [
+		"Smart Chutes are vertical chutes with additional control. Items in the filter slot specify what to extract or transfer. Use the value panel to specify the extracted stack size. Redstone power will prevent Smart Chutes from acting."
+	]
+	quest.1B74397ACB9100F7.title: "Filters"
+	quest.1B74397ACB9100F7.quest_desc: [
+		"&lWhy:&r Filters let only matching items through."
+		"Matches items against a collection of items or other filters. Can be used in Filter Slots of Create's Components"
+	]
+	quest.7C703659B2D0B37E.title: "Crafting Blueprint"
+	quest.7C703659B2D0B37E.quest_desc: [
+		"Placed on a wall, it can be used to specify ingredient arrangements for easier manual crafting. Each slot represents a Recipe."
+	]
+	quest.3FF8BEF20FBB03E4.title: "Chain Conveyor"
+	quest.3FF8BEF20FBB03E4.quest_desc: [
+		"Right-click two conveyors with chains to connect them. Chain conveyors relay rotational power between each other.. ..and connect to shafts above or below them. Right-click holding a wrench to start travelling on the chain. At a junction, face towards a chain to follow it."
+		"Right-click a Chain Conveyor and place the Frogport nearby. Assign it an address in the inventory UI. If the address of an inserted package does not match it.. Albert. → Peter. ..the Frogport will place the package on the conveyor. Packages spin in place if they have no valid destination. More Frogports can be added anywhere on the chain network."
+	]
+	quest.370288E2C336547D.title: "White Postbox"
+	quest.370288E2C336547D.quest_desc: [
+		"&lWhy:&r Trains carry packages between postboxes."
+		"Right-click a Train Station and place the Postbox nearby. Assign it an address in the inventory UI. If the address of an inserted package does not match it.. Warehouse. → Outpost. ..trains stopping at the station will collect it as cargo. Conversely, packages matching the address will be dropped off. Packages that arrived by train can be extracted from the Postbox."
+	]
+	quest.04EC50D9EF207AD0.title: "Redstone Requester"
+	quest.04EC50D9EF207AD0.quest_desc: [
+		"Right-click a Stock link before placement to connect to its network. Just like Stock tickers, Redstone requesters can order items from the logistics network. Right-click the requester to open its configuration UI. The order set in the UI will be requested on every redstone pulse. Alternatively, the requester can be fully configured before placement. Right-click a Stock keeper with it and set the desired order there."
+	]
+	quest.6853B92385A49174.title: "Factory Gauge"
+	quest.6853B92385A49174.quest_desc: [
+		"&lWhy:&r Orders ingredients and keeps stock. The heart of Create 6 automation."
+		"Whenever gauges are not placed on a packager... They will instead monitor stock levels of all linked inventories. Right-click it with the item that should be monitored. It will now display the total amount present on the network. The gauge can replenish stock levels by sending other items to be processed. First, add the required ingredients as new factory gauges. From the target's UI, new connections can be made. For aesthetics, input panels can be wrenched to change the pathing."
+		"Right-click a Stock link before placement to connect to its network. When placed on a packager, factory gauges can monitor items inside the inventory. Right-click it with the item that should be monitored. It will now display the amount present in the inventory. The gauge can refill this inventory from the logistics network. Right-click it again to open its configuration UI. Set an address that should be used for the requested items. The target amount to maintain can now be set by holding Right-click on the gauge."
+	]
+	quest.796A20BC5A03BFB6.title: "White Table Cloth"
+	quest.796A20BC5A03BFB6.quest_desc: [
+		"&lWhy:&r A shop counter that sells from your stock."
+		"Table cloths can be used to display items. With the help of a logistics system, they can also be used to sell items. Start with the shop's inventory, a Packager and Stock link. Bind a Stock ticker to the link and place it in the shop. Employ a mob or blaze burner as the shop keeper. Fill the shop inventory with items to be sold. To create a new trade, interact with the shop keeper while holding a table cloth. Once placed, set a price in the item slot on the side."
+	]
+	quest.646CF849C136583D.title: "Hose Pulley"
+	quest.646CF849C136583D.quest_desc: [
+		"Hose Pulleys can be used to fill or drain large bodies of Fluid. With the Kinetic Input, the height of the pulleys' hose can be controlled. The Pulley retracts while the input rotation is inverted. On the opposite side, pipes can be connected. Attached pipe networks can either provide fluid to the hose... ...or pull from it, draining the pool instead. Fill and Drain speed of the pulley depends entirely on the fluid networks' throughput."
+		"When deploying the Hose Pulley into a large enough ocean... It will provide/dispose fluids without affecting the source. Pipe networks can limitlessly take fluids from/to such pulleys."
+	]
+	quest.1AE7B4D173A72FAB.title: "Smart Fluid Pipe"
+	quest.1AE7B4D173A72FAB.quest_desc: [
+		"Smart pipes can help control flows by fluid type. When placed directly at the source, they can specify the type of fluid to extract. Simply Right-Click their filter slot with any item containing the desired fluid. When placed further down a pipe network, smart pipes will only let matching fluids continue."
+	]
+	quest.7016908F07D01275.title: "Portable Fluid Interface"
+	quest.7016908F07D01275.quest_desc: [
+		"Fluid Tanks on moving contraptions cannot be accessed by any pipes. This component can interact with fluid tanks without the need to stop the contraption. Place a second one with a gap of 1 or 2 blocks inbetween. Whenever they pass by each other, they will engage in a connection. While engaged, the stationary interface will represent ALL Tanks on the contraption. Fluid can now be inserted... ...or extracted from the contraption. After no contents have been exchanged for a while, the contraption will continue on its way."
+	]
+	quest.5894F275AFB19AE1.title: "Redstone Link"
+	quest.5894F275AFB19AE1.quest_desc: [
+		"&lWhy:&r Wireless redstone."
+		"Redstone Links can transmit redstone signals wirelessly. Right-click while Sneaking to toggle receive mode. A simple Right-click with a Wrench can do the same. Receivers emit the redstone power of transmitters within 256 blocks. Placing items in the two slots can specify a Frequency. Only the links with matching Frequencies will communicate."
+	]
+	quest.41539C1104D0DC1A.title: "Create Logic Kit"
+	quest.41539C1104D0DC1A.quest_desc: [
+		"Pulse Extenders can lengthen a signal passing through. They activate after a short delay... ...and cool down for the configured duration. Using the value panel, the discharge time can be configured. The configured duration can range up to an hour."
+	]
+	quest.61D822F52C3F2A61.title: "Smart Observers"
+	quest.61D822F52C3F2A61.quest_desc: [
+		"Smart Observers can be used to detect a variety of events. It can detect items or fluids inside of generic containers. The filter slot can be used to look for specific contents only. It also activates when the block itself matches the filter. Additionally, smart observers can monitor belts, chutes and pipes. ...and will emit a pulse, if an item enters or exits a funnel."
+		"Threshold Switches monitor the fill level of containers. When the inventory content exceeds the upper threshold... ...the switch will change its redstone output. The signal stays until the lower threshold is reached. The redstone output can now be used to control item supply, keeping the buffer filled. The specific thresholds can be changed in the UI. A filter can help to only count specific contents toward the total. Fluid buffers can be monitored in a similar fashion."
+	]
+	quest.44B552C1221505DA.title: "Nixie Tube"
+	quest.44B552C1221505DA.quest_desc: [
+		"When powered by Redstone, Nixie Tubes will display the signal strength. Using written Clipboards, custom text can be displayed. Right-Click with Dye to change their display colour."
+	]
+	quest.16AFA75E1F1CA519.title: "Linked Controller"
+	quest.16AFA75E1F1CA519.quest_desc: [
+		"&lWhy:&r A remote that drives redstone links."
+		"Grants handheld control over Redstone Link frequencies assigned to its six buttons."
+	]
+	quest.0F833148CBCEE255.title: "Zinc"
+	quest.0F833148CBCEE255.quest_desc: [
+		"&lWhy:&r Zinc + copper = brass."
+	]
+	quest.2F436D152B6D226B.title: "Rose Quartz"
+	quest.2F436D152B6D226B.quest_desc: [
+		"&lWhy:&r Polished rose quartz makes electron tubes."
+	]
+	quest.63CED89D89010B73.title: "Sturdy Sheet"
+	quest.63CED89D89010B73.quest_desc: [
+		"&lWhy:&r Obsidian sheets for train parts and cannons."
+	]
+	quest.0B453B0B6FE80020.title: "Haunting"
+	quest.0B453B0B6FE80020.quest_desc: [
+		"&lWhy:&r A fan through soul fire haunts items."
+		"When passing through lava, the Air Flow becomes Heated. Items caught in the area will be smelted. Food items thrown here would be incinerated. Instead, a setup for Smoking using Fire should be used for them. Air Flows passing through water create a Washing Setup. Some interesting new processing can be done with it. The Speed of the Fan does NOT affect the processing speed, only its range. Fan Processing can also be applied to Items on Depots and Belts."
+	]
+	quest.792546CC41F59CA1.title: "Netherite Diving Gear"
+	quest.792546CC41F59CA1.quest_desc: [
+		"&lWhy:&r Swim in lava while the tank has air."
+		"A Wearable Tank for carrying Pressurized Air."
+	]
+	quest.5886D1EDDA939D43.title: "Cardboard Armor"
+	quest.5886D1EDDA939D43.quest_desc: [
+		"&lWhy:&r Barely protects, but mobs ignore a crouching box."
+	]
+	quest.7469E9A830ECCF65.title: "Wand Of Symmetry"
+	quest.7469E9A830ECCF65.quest_desc: [
+		"&lWhy:&r Build one half, the other mirrors."
+		"Mirrors Block placement while present in any Hotbar Slot."
+	]
+	quest.10E9DBF7B1535788.title: "Tree Fertilizer"
+	quest.10E9DBF7B1535788.quest_desc: [
+		"A powerful combination of minerals useful for growing saplings in tight spaces."
+	]
+	quest.00C5D1713FEED0DC.title: "Builder's Tea"
+	quest.00C5D1713FEED0DC.quest_desc: [
+		"The perfect drink to get the day started- Motivating and Saturating."
+	]
+	quest.05C861DE4ACBE483.title: "Schematic And Quill"
+	quest.05C861DE4ACBE483.quest_desc: [
+		"&lWhy:&r Save a build to a schematic and rebuild it anywhere."
+		"Used for saving a Structure in your world to a .nbt file."
+	]
+	quest.3C1291E302F6C9D6.title: "Copycat Panel"
+	quest.3C1291E302F6C9D6.quest_desc: [
+		"Converts any full block into a decorative panel. Also accepts Bars and Trapdoors."
+	]
+	quest.34D7C916CBEC9868.title: "White Seat"
+	quest.34D7C916CBEC9868.quest_desc: [
+		"&lWhy:&r Seats ride along on contraptions; a mob on a seat stays put."
+	]
+	quest.1DC60463C39AD55F.title: "Cuckoo Clock"
+	quest.1DC60463C39AD55F.quest_desc: [
+		"Fine craftsmanship for decorating a space and keeping track of time."
+	]
+	quest.21C87A4A59E7717B.title: "Peculiar Bell"
+	quest.21C87A4A59E7717B.quest_desc: [
+		"&lWhy:&r The haunted bell shows where mobs can spawn."
+		"A decorative Brass Bell. Placing it right above open Soul Fire may have side-effects..."
+	]
+	quest.7888BBDB0019B7BA.title: "Clipboard"
+	quest.7888BBDB0019B7BA.quest_desc: [
+		"Keeps your notes and makes you look more professional."
+	]
+	quest.7CD7B9B4111EDF4A.title: "Train Assembly"
+	quest.7CD7B9B4111EDF4A.quest_desc: [
+		"Select a Train Track then place the Station nearby. Stations are the Waypoints of your Track Network. To create a new Train, open the UI and switch to Assembly Mode. During Assembly no scheduled trains will approach this station. Create new bogeys by using Train Casing on Tracks. Click the track again to cycle between bogey designs. Attach blocks with the help of Super Glue. Assembled Trains will move faster if they can find fuel in assembled chests or barrels."
+	]
+	quest.655594C87BEF07E5.title: "Train Schedule"
+	quest.655594C87BEF07E5.quest_desc: [
+		"Schedules allow Trains to be controlled by other Drivers. Right-click with the item in hand to open its Interface. Once programmed, the Schedule can be handed off to a Train Driver. Any mob or blaze burner sitting in front of Train Controls is an eligible conductor. Creatures on a lead can be given their seat more conveniently. Schedules can be retrieved from Drivers at any moment."
+		"Schedules can be used to provide drivers with a destination. Comparators will receive a signal whenever a Train is present. Mind that a Station can only be approached from the indicated direction. Stations can also be used to assign new Schedules automatically. The Schedule placed on a station will automatically copy itself to present trains. As opposed to manual scheduling, drivers will not take the item with them."
+	]
+	quest.0313AA2F0A6E1CA0.title: "Train to the Nether"
+	quest.0313AA2F0A6E1CA0.quest_desc: [
+		"Tracks placed up against a nether portal... ...will attempt to create a paired track on the other side. Trains on this track are now able to travel across dimensions."
+	]
+	quest.3EBBB7FF40B4E7BF.title: "Train Observer"
+	quest.3EBBB7FF40B4E7BF.quest_desc: [
+		"Select a Train Track then place the Observer nearby. The Observer will detect any Trains passing over the marker. Observers can be filtered to activate for matching cargo."
+	]
+	quest.7F16EF7DB7292898.title: "Create Engineer"
+	quest.7F16EF7DB7292898.quest_desc: [
+		"Boilers, factory gauges, trains through the Nether and mail between towns."
+	]
 	chapter.771C1FF49C38AFE7.title: "Create: Add-ons"
 	chapter.771C1FF49C38AFE7.chapter_subtitle: [
 		"Batteries, power, experience enchanting, smart gearing"
@@ -2691,6 +2961,446 @@
 	quest.2914A07238F4FC3A.quest_desc: [
 		"Coke, steel, aluminium, concrete, plastic and electronics. Mind the smog: filters and trees around the plant keep the sky clear."
 	]
+	chapter.3DEA61287EDBEADA.title: "Immersive Engineering"
+	chapter.3DEA61287EDBEADA.chapter_subtitle: [
+		"Wires, multiblock machines, revolver and railgun"
+	]
+	quest.45545743A5457871.title: "Engineer's Manual"
+	quest.45545743A5457871.quest_desc: [
+		"&lWhy:&r Everything in IE is built with the hammer from layouts in this manual."
+		"Greetings and welcome to Immersive Engineering."
+		"The following notes and guides will showcase the most recent technology available in the modern combined worlds."
+		"However, certain pieces of science may be so weird, that this manual can not yet explain them. In traveling the worlds, certain Eureka-moments may lead to new pages being added to the manual, though this will be a rare exception."
+	]
+	quest.1C9C7E82FFB2E75D.title: "Engineer's Workbenches"
+	quest.1C9C7E82FFB2E75D.quest_desc: [
+		"&lWhy:&r The workbench makes blueprints: press molds, bullets, gun parts."
+		"The Engineer's Workbench is a professional worktable for the educated engineer. It is widely used to create items described by Engineer's Blueprints."
+		"A wide variety of blueprints can be crafted, as detailed here, whereas a few select ones can only be discovered in the world or bought from villagers."
+		"To use a blueprint in the Workbench, put it in the slot on the left of the GUI and the necessary ingredients in the six slots in the middle."
+	]
+	quest.205AABFE7AD734F6.title: "Alloy Kiln"
+	quest.205AABFE7AD734F6.quest_desc: [
+		"&lWhy:&r The first IE machine, no power: bronze, electrum, constantan."
+		"The Alloy Kiln is a simple furnace made out of heat resistant sandstone and bricks. Within it, temperatures are high enough to allow metals to be melted into a fluid state and mixed, creating an alloy;alloys."
+		"This allows the creation of important alloys like Electrum and Constantan without the tedious mixing of dusts."
+		"To form the Kiln, arrange 8 of the Kiln Bricks in a 2x2x2 cube, as shown above, and rightclick one of the sides' blocks with an Engineer's Hammer."
+	]
+	quest.691B4D3B6B61A89F.title: "Constantan and Electrum"
+	quest.691B4D3B6B61A89F.quest_desc: [
+		"&lWhy:&r Constantan for coils, electrum for MV wires."
+	]
+	quest.19C6607FC3B0C7B8.title: "Coke Oven"
+	quest.19C6607FC3B0C7B8.quest_desc: [
+		"&lWhy:&r 3x3x3 cube: coal to coke plus creosote."
+		"The Coke Oven is the first important machine on the engineer's journey."
+		"The brick oven heats up fuels in a low-oxygen environment, pyrolyzing them into a more carbon-rich version, such as Coal Coke, or Charcoal."
+		"A byproduct of this process is Creosote Oil;creosote_oil, which is used as a preservative for wood. This preserved wood serves as a basic construction material all throughout."
+	]
+	quest.61B82D82D1A4ACA6.title: "Blast Furnace"
+	quest.61B82D82D1A4ACA6.quest_desc: [
+		"&lWhy:&r Iron + coke → steel, no power needed."
+		"The Crude Blast Furnace is used to increase the carbon contents in iron, turning it into TD LINK STEEL."
+		"To achieve this, only pure, high-carbon fuels may be used for the furnace, such as coal coke and charcoal."
+		"Along with steel, the furnace will also create slag;slag, which you must remove or the furnace will cease to function."
+	]
+	quest.0667C77CBF1DBF02.title: "Improved Blast Furnace"
+	quest.0667C77CBF1DBF02.quest_desc: [
+		"&lWhy:&r Reinforced bricks and preheaters: much faster steel."
+		"The Improved Blast Furnace is a much more professional way of creating steel. Not only does it allow the automation of in- and outputs, it can also be outfitted with preheaters;preheater to speed up the refinement process by addition of hot air."
+		"The furnace is made from reinforced bricks, a prime choice for the aspiring engineer's first steel."
+		"The structure of the Furnace is similar to its crude predecessor, but the bricks have been reinforced and a hopper was added at the top to funnel in the inputs."
+	]
+	quest.5101C74CFBC8C2DC.title: "Treated Wood"
+	quest.5101C74CFBC8C2DC.quest_desc: [
+		"&lWhy:&r Posts carry wires, scaffolding helps build tall machines."
+		"Treated wood is any kind of wooden planks impregnated with Creosote Oil;creosote_oil."
+		"Despite their simplicity, these weatherproof planks are used throughout industrial matters where a durable wood is needed."
+		"Treated wood can also be used to craft Wallmounts, which can be very useful to mount connectors in a visually attractive way without using posts."
+	]
+	quest.2E5826298D96EEBE.title: "Water Wheel"
+	quest.2E5826298D96EEBE.quest_desc: [
+		"&lWhy:&r A waterwheel on a river powers you day and night."
+		"The simplest form of power generation available is not solar or coal, but using natural forces to excite a generator."
+		"The Kinetic Dynamo connects to integrated methods of producing shaft power and produces electrical power based on how fast they turn."
+		"Windmills and waterwheels, detailed in the following pages, are the sources of shaft power the Kinetic Dynamo will accept, and must be assembled after the dynamo for them to connect."
+	]
+	quest.348A5DB2F367FA7B.title: "Thermoelectric Generator"
+	quest.348A5DB2F367FA7B.quest_desc: [
+		"&lWhy:&r Between hot and cold blocks it makes power with no fuel."
+		"Thermoelectric Generators are another kind of power generation, and work without the use of any mechanical parts. These generators use the temperature gradient between two opposing sources to produce power."
+		"Placing a heat source on one side and a colder source on the opposite side generates energy based on the difference between the two temperatures."
+		"Any fluid will work based on its temperature, along with some other blocks."
+	]
+	quest.0880A0951D2F356D.title: "Medium Voltage"
+	quest.0880A0951D2F356D.quest_desc: [
+		"&lWhy:&r Electrum and a transformer move more power farther."
+		"Transformers are laminated iron cores wrapped in coils of wire that convert between different voltages of wire."
+		"Standard transformers can convert between LV and MV freely, but specialty circuits found in the HV Transformer are needed to convert to HV."
+		"Their compact internals allow standard transformers to be placed on Posts, however HV Transformers cannot be placed this way."
+	]
+	quest.7D24B59880179944.title: "High Voltage"
+	quest.7D24B59880179944.quest_desc: [
+		"&lWhy:&r Steel wires are the trunk line between bases. They shock — build them high."
+	]
+	quest.3B8B4D6CB4D64F33.title: "Insulated Wires"
+	quest.3B8B4D6CB4D64F33.quest_desc: [
+		"&lWhy:&r Indoors use insulated wires; bare ones shock."
+		"Power grids have three important devices: connectors in- and output to the net, relays attach multiple wires together, and Transformers that convert between different voltages of wire."
+		"Connectors serve as in- and outputs to the electrical grid. Powered devices connected with them will transfer power through the grid."
+		"Relays will not in- or output power, they serve as hubs for the electrical grid."
+	]
+	quest.462AFB78E531FC9C.title: "MV Accumulator"
+	quest.462AFB78E531FC9C.quest_desc: [
+		"Accumulators serve as energy storage units. Input and output power is limited to one connector of the voltage of the accumulator per side."
+		"Side configuration can be adjusted with the hammer: Blue corresponds to input, orange corresponds to output, and no colour marking preventing any connection at all."
+		"Sneaking while configuring a side will configure the side opposite to the one that was clicked."
+	]
+	quest.4C6CE2A973BF5263.title: "HV Accumulator"
+	quest.4C6CE2A973BF5263.quest_desc: [
+		"&lWhy:&r HV buffer for the railgun, tesla coil and lightning rod."
+	]
+	quest.346F3397EDB5B2A8.title: "Breaker Switch and Current Transformer"
+	quest.346F3397EDB5B2A8.quest_desc: [
+		"Breaker Switches are simple switches that can stop the flow of power through wires."
+		"They connect two wires of the same type and will only allow power to pass when activated. Due to the high risk, these switches cannot be connected to HV wiring."
+		"This can be used to separate power-hungry machinery from the network or hook up an additional set of generators when needed."
+	]
+	quest.6272FE2ABE4520CB.title: "Lightning Rod"
+	quest.6272FE2ABE4520CB.quest_desc: [
+		"&lWhy:&r Catches lightning and stores the energy."
+		"Lightning is a phenomenon of nature. It contains a huge amount of raw power, and this lightning rod is able to harness that power."
+		"Stacking steel fences on the port at the top of the rod increases the changes that lightning hits it during rain or thunder. The chance of a strike can be increased further by widening the rod into a net at its top."
+		"When the steel pole is struck, the huge amounts of energy created are stored in the base of the lightning rod and then slowly distributed to the energy connections at the sides."
+	]
+	quest.0BFF60364CFBA3A4.title: "Diesel Generator"
+	quest.0BFF60364CFBA3A4.quest_desc: [
+		"&lWhy:&r Huge power from diesel or biodiesel."
+		"High-Voltage architecture might be fascinating, but an electrical grid isn't very useful unless there is a generator which can provide for it."
+		"The Diesel Generator is the primary method of generating HV power. It will run off of Biodiesel;biodiesel or other heavy fuels, as detailed in the following pages. Due to its high output, it will consume fuel rapidly, so sufficient fuel production is a must."
+		"The engine and generator are constructed from radiators, pipes, engineering blocks, and scaffolding as shown above and formed via activating the central generator with an Engineer's Hammer."
+	]
+	quest.317A646E3485C32B.title: "Metal Press"
+	quest.317A646E3485C32B.quest_desc: [
+		"&lWhy:&r Plates, rods, gears and wires from one ingot each."
+		"The Metal Press is an automated way of shaping metal. It uses a high pressure piston to press plates, rods, or other metal components using molds."
+		"The machine is created as shown above by using an Engineer's Hammer on the piston."
+		"Power is input through the plug on the top of the piston, and items through the conveyors in the direction of movement."
+	]
+	quest.71D9EAB44F223902.title: "Squeezer and Fermenter"
+	quest.71D9EAB44F223902.quest_desc: [
+		"&lWhy:&r Seeds → plant oil, sugar → ethanol; together → biodiesel."
+		"The Squeezer is a multiblock structure that presses juice or oil out of organic materials with a large piston. The structure is built as shown above and formed by using the Engineer's Hammer on the central wooden barrel, on the side of the redstone port."
+		"Items can be input into the Squeezer via the two hatches at the back that are marked with blue dots. The hatch with the orange dot serves as an item output and the block below it to output fluids."
+		"Applying a redstone signal to the control panel at the front will halt the machine's process, this behavior can be inverted by use of the Engineer's Screwdriver."
+		"The Fermenter is a multiblock structure that extracts ethanol from certain fruits, grains and vegetables through a fermenting process. The structure is built as shown above and formed by using the Engineer's Hammer on the central cauldron, on the side of the redstone port."
+		"Items can be input into the Fermenter via the two hatches at the back that are marked with blue dots. The hatch with the orange dot serves as an item output and the block below it to output fluids."
+		"Applying a redstone signal to the control panel at the front will halt the machine's process, this behavior can be inverted by use of the Engineer's Screwdriver."
+	]
+	quest.0CCCE1041BFDD4F4.title: "Refinery"
+	quest.0CCCE1041BFDD4F4.quest_desc: [
+		"Many processes necessitate the addition of a catalyst. The refinery passes its input fluids through a mixer and a catalyst at the same time, producing novel outputs from one or two inputs."
+		"To form the machine, construct it as shown and rightclick the Heavy Engineering Block on the middle layer."
+		"Fluids are input through the two ports on either side of the block and output through the orange marked port at the front. Using buckets to interact with the refinery's tanks is also possible."
+	]
+	quest.010DB7A46B603A9A.title: "Industrial Hemp"
+	quest.010DB7A46B603A9A.quest_desc: [
+		"&lWhy:&r Fibre for fabric, rope, sails and hempcrete."
+		"Industrial Hemp is a very versatile plant, with uses all throughout the engineering profession. It seeds can be used for the creation of LINK TO GO HERE(plant oil), used in Biodiesel;biodiesel; its fibers can be used in the creation of a sturdy canvas, Tough Fabric."
+		"The seeds can be obtained by breaking tall grass and other similar methods of collection."
+		"Tough Fabric is a resilient weave made from hemp fiber. When waterproofed, it can be used as Ersatz Leather;ersatz_leather."
+	]
+	quest.0A76ADD1563FAB13.title: "Garden Cloche"
+	quest.0A76ADD1563FAB13.quest_desc: [
+		"&lWhy:&r A one-block auto-farm for any crop."
+		"Garden Cloches are machines designed to hasten the growth of plants in a controlled, semi hydroponic environment."
+		"It allows even agriculturally challenged engineers to grow plants quickly and automatically harvest their produce."
+		"The device accepts power through the plugs on the top and sides, and fluid and items through the other ports."
+	]
+	quest.7DD2F6A6B48065FD.title: "Mixer and Concrete"
+	quest.7DD2F6A6B48065FD.quest_desc: [
+		"&lWhy:&r Liquid concrete: blast-resistant building blocks."
+		"The Mixer is a multiblock structure that dissolves solids in fluids, mixing them together. The structure is built as shown above and formed by using the Engineer's Hammer on the central sheetmetal block."
+		"The most common uses for this machine are the mixing of Liquid Concrete;liquid, or the creation of Liquid Potions;potion from water and their various ingredients."
+		"Fluids are input into the mixer through the port at the bottom of its powersupply. Items can be input via the two hatches at the back. The fluid port at the front serves as fluid output."
+	]
+	quest.5A17D906E36CDBF7.title: "Concrete Bunker"
+	quest.5A17D906E36CDBF7.quest_desc: [
+		"&lWhy:&r Shelter from meteors and blasts; leaded concrete for reactors."
+		"Concrete is a very hard and resistant composite material. It's cheap to craft and makes for an excellent use for crushed excess slag;slag produced by making steel."
+		"Concrete can be cut and assembled into various bricks and pillars using the Stonecutter."
+		"Concrete bricks have the same blast resistance as concrete, but can be disassembled faster than their solid counterpart, making them a good structural material."
+	]
+	quest.3BC5DF8F9349944B.title: "Bottling Machine"
+	quest.3BC5DF8F9349944B.quest_desc: [
+		"The Bottling Machine fills fluids into containers or molds."
+		"The structure is created as shown above, but can be mirrored. To form it, rightclick the central conveyor with an Engineer's Hammer. The direction of the conveyors is important."
+		"The machine can store 8 buckets of fluid, which is input through the ports on the metal tank. Energy is input through the connection at the top of the opposing side."
+	]
+	quest.5EEEEB3E32962819.title: "Sawmill"
+	quest.5EEEEB3E32962819.quest_desc: [
+		"&lWhy:&r Strips and saws logs into planks and sawdust."
+		"The sawmill is a machine assembly which cuts wooden logs into neatly stacked planks."
+		"The machine operates in two stages: first, the log is stripped, then the stripped law is cut apart using a sawblade."
+		"Both steps of the process create sawdust, which is collected and output through the port at the front of the machine."
+	]
+	quest.074B63D941DB7CAF.title: "Silo and Tank"
+	quest.074B63D941DB7CAF.quest_desc: [
+		"&lWhy:&r Silo: 40k of one item; tank: 512 buckets."
+		"Silos offer space for a lot of items of the same type, making them excellent for mass storage of seeds, slag or cobblestone. They have space for 41472 items, equaling the capacity of 24 chests."
+		"The structure can be constructed out of any sheetmetal, it is not limited to using iron."
+		"Items can be input through the top grate, or through the bottom port. Items must be extracted from the bottom port."
+		"The Tank is a multiblock that provides space for large amounts of fluid."
+		"It will store up to 512 buckets of any fluid, which can be piped in via the top or bottom port."
+		"The structure can be constructed out of any sheetmetal, it is not limited to using iron."
+	]
+	quest.34463437BBA6632E.title: "Assembler"
+	quest.34463437BBA6632E.quest_desc: [
+		"The Assembler is a complex machine capable of crafting items, similar to a player."
+		"To form the structure, build it like demonstrated above and use the Engineer's Hammer on the inwards facing conveyor."
+		"The Assembler allows for up to 3 recipes to be stored inside it that will be performed in order. The outputs of previous recipes can be used as inputs for following recipes."
+	]
+	quest.796AFA592184D450.title: "Automated Workbench"
+	quest.796AFA592184D450.quest_desc: [
+		"The Automated Workbench is one of the first major successes of small-scale engineering."
+		"The machine is able to follow a set of instructions described by a Blueprint;start to assemble the items detailed by it."
+		"Upon assembling the multiblock, a Blueprint can be placed on its drawing table. After selecting the item that should be created, it will begin the assembly process. In order for the machine to work, it will need to be supplied with materials and power."
+	]
+	quest.334F4513E6CBA912.title: "Graphite Electrode"
+	quest.334F4513E6CBA912.quest_desc: [
+		"&lWhy:&r The arc furnace needs three graphite electrodes."
+		"Coal Coke is a purified form of carbon similar to charcoal. Coke is created from coal in the Coke Oven."
+		"It is used in steelmaking of all forms, from the simplest to the most advanced, and is a better furnace fuel than coal."
+		"Highly Ordered Pyrolytic (HOP) Graphite is a complex, allotrope of graphite used in special engineering constructs."
+	]
+	quest.3497BFB8C982710D.title: "Slag Products"
+	quest.3497BFB8C982710D.quest_desc: [
+		"&lWhy:&r Slag glass, bricks and gravel."
+		"Slag Gravel is slag that has been ground in the Crusher to a rough grit. As with other gravels, it can be crushed further into sand."
+		"Additionally, slag gravel contains valuable nutrients for aquatic flora. Waterlogged plants placed on slag gravel grow faster than when grown on other blocks."
+		"Remelting slag in a Furnace vitrifies it to a hard, darkened slag glass."
+	]
+	quest.16347FEBFCAA6464.title: "Mineral Deposits"
+	quest.16347FEBFCAA6464.quest_desc: [
+		"&lWhy:&r The core sample shows the deposit under you."
+		"Scattered throughout the stone of the world are small, concentrated deposits of ores, visible to the naked eye and recoverable with hand tools."
+		"Outside of those and in the underlying rock are Mineral Veins, composed of several different ores, too sparse for all but a special machine to recover."
+		"At the end of this section is an appendix listing all known mineral veins."
+	]
+	quest.506D26624B12F125.title: "Conveyor Belts"
+	quest.506D26624B12F125.quest_desc: [
+		"&lWhy:&r IE multiblocks are fed by conveyors."
+		"Conveyor Belts are an easy, unpowered method of moving in-world things around."
+		"Conveyor belts will move anything other creatures can push and several they cannot, with their primary design point being items. Other creatures such as cows and sheep can also be moved, but will not interact with some item-specific designs."
+		"Items dropped onto conveyor belts will move along a belt, and items can be dropped onto belts from devices such as hoppers or pipes."
+	]
+	quest.42BBEC80D2207D5E.title: "Iron Sheetmetal Chute"
+	quest.42BBEC80D2207D5E.quest_desc: [
+		"Chutes are simple constructions made from sheetmetal that allow creatures and items that fit inside to drop straight down."
+		"Chutes also insert into inventories below them and can be inserted into by conveyors or similar devices."
+		"Items within them won't be picked up by players and should be immune to most forms of attraction, magnetic or otherwise."
+	]
+	quest.3E0DD81BB79338A8.title: "Item and Fluid Routers"
+	quest.3E0DD81BB79338A8.quest_desc: [
+		"The Item Router is designed to parcel and sort items into inventories such as chests, machines, and conveyors."
+		"Items inserted into the router will be output from matching configured sides or open sides in that order."
+		"Items can be inserted from any side, and will be output from one of the other five sides, or will disallow input if they cannot be sorted."
+	]
+	quest.1CBBA1A0F316EFF2.title: "Pipes and Pump"
+	quest.1CBBA1A0F316EFF2.quest_desc: [
+		"Fluid Pipes are a versatile and efficient method of transporting fluids, unlike moving tanks ore buckets around en masse."
+		"Pipe systems will output any fluid input to them across the available ouputs, split evenly."
+		"At low pressure, pipe systems will transport fluid slowly. Pressurized fluids output from a Fluid Pump or certain large machines can move much faster."
+	]
+	quest.6F7BB611E8D98EC4.title: "Jerrycan"
+	quest.6F7BB611E8D98EC4.quest_desc: [
+		"&lWhy:&r A 10-bucket can to refuel vehicles and generators."
+		"Jerrycans are simple metal containers used to carry fluids. They can store up to 10 buckets and can pour that fluid into the world as well as into machines."
+		"Jerrycans cannot be used to pick up fluids from the world, but can be refilled from tanks such as barrels or large tanks."
+		"Additionally, they can be used to refill fluid-consuming items like the Mining Drill;start by placing the jerrycan and the tool together in a crafting grid."
+	]
+	quest.48B0EF47F5568A73.title: "Crates and Barrels"
+	quest.48B0EF47F5568A73.quest_desc: [
+		"&lWhy:&r Crates keep contents when broken; barrels hold fluids."
+		"Wooden Storage Crates are similar to a chest in function, storing up to 27 stacks of material and providing a comparator signal based on their fill."
+		"Unlike chests, they can be sealed up to keep all the material stored within a crate when picking it up."
+		"Using an Engineer's Hammer;engineers_hammer on a crate for an extended duration will seal it up, after which it can be broken to pick it up."
+	]
+	quest.60033203B5A72663.title: "Minecart with Wooden Storage Crate"
+	quest.60033203B5A72663.quest_desc: [
+		"Storage Crates can be placed into Minecarts, as with chests and hoppers."
+		"When placed into Minecarts, crates will act as they do outside, and store their items inside when they are broken, unlike chests."
+		"Storage Barrels can be placed into Minecarts, as with chests and hoppers."
+	]
+	quest.27A49C65BF1E6E60.title: "Electronics"
+	quest.27A49C65BF1E6E60.quest_desc: [
+		"&lWhy:&r Tubes and boards for advanced machines, turrets and the railgun."
+		"Many machines and tools are constructed from various sub-components. Some of these you will have to use on a regular basis, detailed on the following pages."
+		"Simple components can be crafted in the regular Crafting Table, but advanced components will need the help of a specialized workbench."
+		"The Basic Engineering Block serves as the main construction material for a large variety of machinery. It makes up a core frame for most single-block machinery, especially in matters of transportation and power storage."
+	]
+	quest.54291F60442EA4FF.title: "Logic Unit"
+	quest.54291F60442EA4FF.quest_desc: [
+		"&lWhy:&r A programmable logic block."
+		"With the versatility of Redstone Wires and shunting from Vacuum Tubes;tubes, complex redstone can be compacted into Logic Circuits."
+		"The Logic Unit is the specialty machine in which logic circuits are slotted to be used."
+		"It has enough space for a total of 10 circuits, and features a full 8 inbuilt registers, usable for any circuit."
+	]
+	quest.357238A037B74D9D.title: "Redstone Wiring"
+	quest.357238A037B74D9D.quest_desc: [
+		"Redstone Wires are aluminium coated in redstone dust. The resulting cables provide an easy way to transfer redstone signals over long distance without losing signal strength."
+		"Redstone Wire Connectors work as both relays and connectors: input and output connectors can have multiple wires connected."
+		"With the Engineer's Screwdriver, the connectors can be configured between in- and output mode and set to one of 16 coloured frequencies."
+	]
+	quest.27FC410F2C73B81F.title: "Engineered Lighting"
+	quest.27FC410F2C73B81F.quest_desc: [
+		"&lWhy:&r Floodlights keep mobs from spawning."
+		"Deep in the halls of the factories, it can be quite dark. Thankfully, lanterns can help illuminate the machinery."
+		"Their light-level can be adjusted by right-clicking them with an Engineer's Screwdriver."
+		"Cage lamps are a little more rugged and atmospheric than lanterns, while also providing redstone control. By default, a cage lamp requires a redstone signal to turn on, this behavior can be inverted by sneaking and right-clicking them a screwdriver."
+	]
+	quest.11F57772678E8456.title: "Tesla Coil"
+	quest.11F57772678E8456.quest_desc: [
+		"&lWhy:&r Shocks enemies around; wear Faraday armor yourself."
+		"The Tesla Coil started as a concept of wireless energy transfer. However, due to its potentially high loss rates and its rather interesting property of frying every living being in a 6 meter radius, it was quickly converted into an Engineer's dream of home defense."
+		"The upkeep cost of the coil is high, clocking in at 256 Flux of passive consumption plus an additional 512 every time it applies damage."
+		"The coil is disabled unless supplied with a redstone signal. Rightclicking it with an Engineer's Screwdriver will invert this behavior."
+	]
+	quest.6C4151F9D1CC5DD7.title: "Faraday Suit"
+	quest.6C4151F9D1CC5DD7.quest_desc: [
+		"&lWhy:&r Protects from wire and tesla shocks."
+	]
+	quest.56C28697797703A0.title: "Steel Tools"
+	quest.56C28697797703A0.quest_desc: [
+		"&lWhy:&r Tougher than iron for about the same cost."
+		"Engineer's Hammers are one of the most important tools in the engineer's toolbox."
+		"It can be used to configure and form machines, as well as crush ores."
+		"Engineer's Wire Cutters are used to remove all the wires connected to a block by simply rightclicking it."
+	]
+	quest.4CE89AEFF656E9AA.title: "IE Steel Armor"
+	quest.4CE89AEFF656E9AA.quest_desc: [
+		"&lWhy:&r Close to diamond; the helmet takes ear defenders."
+	]
+	quest.0EA0F172A29FF98F.title: "Ear Defenders"
+	quest.0EA0F172A29FF98F.quest_desc: [
+		"Ear Defenders are devices for protecting your hearing. They are quite important for engineers that work in close proximity to Diesel Generators; or other loud machinery."
+		"While wearing Ear Defenders, all noises are reduced by 90% and they make your ears considerably more warm and fuzzy! :D"
+		"Placing the Ear Defenders in the Engineer's Workbench; allows you to specify which types of noises you want cancelled and by how much their volume should be reduced."
+	]
+	quest.42EFDBCD46D2B14E.title: "Heavy Plated Shield"
+	quest.42EFDBCD46D2B14E.quest_desc: [
+		"&lWhy:&r A heavy shield with flash, shock and magnet upgrades."
+		"The Heavy Plated Shield is a direct upgrade to the normal wooden shields you might be acquainted with. In similar fashion, this shield will block most incoming damage from the front, but its durability has been increased considerably, and it can be upgraded."
+		"The Flashbulb upgrade adds a bright lightbulb and reflector screen to the shield. Upon being attacked, the device will produce a bright, blinding flash, disorienting everyone in front of the user."
+		"Adding Shock Emitters to the shield allows you to retaliate against attacking enemies. When the shield is struck, it will emit a shock, inflicting minor damage to the aggressor."
+	]
+	quest.34B33ADEBC15940D.title: "Mining Drill"
+	quest.34B33ADEBC15940D.quest_desc: [
+		"&lWhy:&r A diesel drill that digs 3x3."
+		"The handheld, diesel-powered drill is a big advancement in mining. With exchangeable drill heads and upgrades, its speed and other properties are almost entirely modifiable."
+		"To modify it, place it in an Engineer's Workbench;start."
+		"The drill runs off of Biodiesel;biodiesel and can be filled directly in the refinery, or filled at other storage such as barrels or large tanks."
+	]
+	quest.5F561CDE6C7EA8D3.title: "Drill Upgrades"
+	quest.5F561CDE6C7EA8D3.quest_desc: [
+		"&lWhy:&r Faster digging and a bigger fuel tank."
+	]
+	quest.3F91E8A636BF3798.title: "Buzzsaw"
+	quest.3F91E8A636BF3798.quest_desc: [
+		"&lWhy:&r Fells whole trees."
+		"This large, portable buzzsaw is designed to make quick work of trees and other pieces of foliage that may stand in the way of a pristine factory."
+		"After using the Engineer's Workbench;start to place a sawblade in it, and loading it with Biodiesel;biodiesel or another fuel, it can be used to carve through everything from small birches to large jungle trees."
+		"Like many other tools, the buzzsaw can be modified in the Engineer's Workbench. These upgrades affect the size of the internal tank, the number of blades it can store, and the durability of its sawblade."
+	]
+	quest.4491AAC0B8111658.title: "Revolver Upgrades"
+	quest.4491AAC0B8111658.quest_desc: [
+		"&lWhy:&r Speedloader and extended magazine."
+		"The Revolver, a more elegant weapon from a more civilized age, is an achievement of small mechanics.Small being relative here, since this weapon is chambered for 12-gauge."
+		"Similar to the Mining Drill, the Revolver will allow for modification in the Engineer's Workbench, as detailed on the last pages."
+		"Note that firing the revolver is quite noisy, and will attract the attention of hostile mobs in the area!"
+	]
+	quest.6FCEA0766DD51744.title: "Cartridges"
+	quest.6FCEA0766DD51744.quest_desc: [
+		"&lWhy:&r Casings from the press; AP for armored foes, buckshot for crowds."
+		"Cartridges are created in the Engineer's Workbench, by the use of specific Engineer's Blueprints. Blueprints for normal ammunition you can create yourself, but some more advanced types will require you to buy adequate blueprints from other engineers."
+		"Empty Casings and Shells are the basis for every projectile. Empty Casings can also be crafted in the Metal Press, using the Bullet Casing mold, which reduces the copper required. Similarly, Empty Shells can be made out of Phenolic Resin;empty_shell in a bottling machine."
+		"Casull Cartridges are created with a \"Common Projectiles\" blueprint."
+	]
+	quest.182FE3A5B21218A3.title: "Special Cartridges"
+	quest.182FE3A5B21218A3.quest_desc: [
+		"&lWhy:&r Silver vs undead, dragon's breath burns, wolfpack homes."
+	]
+	quest.16D90D05F0680667.title: "Chemical Thrower"
+	quest.16D90D05F0680667.quest_desc: [
+		"&lWhy:&r Sprays any fluid: creosote burns, water puts out fires."
+		"The Chemical Thrower is a device that propels fluids and optionally ignites from its internal tanks."
+		"The device can be loaded with any fluid, liquid or gas, and, on right click, will spray it out."
+		"To toggle the pilot light for the ignition of flammable fluids, sneak and right-click."
+	]
+	quest.71C74557859F7A44.title: "Railgun"
+	quest.71C74557859F7A44.quest_desc: [
+		"&lWhy:&r Fires steel rods; IE's strongest handheld weapon."
+		"The Railgun (or more accurately the Portable Induction Catapult) is a marvel of engineering. It consists of two rails through which an electric current flows and accelerates a sled, and by that, a projectile."
+		"The process is energy intensive but will accelerate various projectiles to high speeds."
+		"To launch a projectile from your inventory, click and hold the use button till the charge level reaches 99, then release."
+	]
+	quest.1D4F54791DD7872B.title: "Powerpack"
+	quest.1D4F54791DD7872B.quest_desc: [
+		"&lWhy:&r Charges your railgun, drill and shield on the go."
+		"Energy storage takes space and some heavyweight components. As such, storing large amounts of energy in each tool individually is inefficient and makes them awkward to wield."
+		"The Accumulator Backpack acts as a compromise, offering a centralized storage of energy for any powered tools to tap into."
+		"The carrying frame can be constructed with the recipe shown on the following page."
+	]
+	quest.32684CE8298AAFC6.title: "Turrets"
+	quest.32684CE8298AAFC6.quest_desc: [
+		"&lWhy:&r A gun turret for base defence. Whitelist your friends!"
+		"Turrets are the next step is automated defense of your factory. They feature a complex optical system combined with an electronic \"brain\" to effectively distinguish and acquire targets and use the inbuilt weaponry to neutralize them."
+		"All turrets feature energy ports at their base, and require a redstone signal to be active, although this behavior can be inverted by sneaking and rightclicking it with an Engineer's Screwdriver."
+		"Upon being placed, Turrets will remember their owner and will not allow other users to break or modify them."
+	]
+	quest.6575193BF5DBA93C.title: "Razor Wire"
+	quest.6575193BF5DBA93C.quest_desc: [
+		"Razorwire is a wire with sharpened pieces of metal attached. It will slow and cut any entity that tries to move through it."
+		"Razorwire can only be removed with Wirecutters, any other attempts will damage the player. Additionally, LV wires can be connected to electrify the razorwire for extra damage."
+	]
+	quest.66781CD614789BE2.title: "Collapsible Glider"
+	quest.66781CD614789BE2.quest_desc: [
+		"&lWhy:&r Elytra before the End."
+		"The villagers tell stories about cities in the sky, guarded by dragons, where brave adventurers may acquire magical wings that let them glide through the air."
+		"Humbug, surely - but the concept intrigues the engineer's mind. The Collapsible Glider is a device that affords just such liberties, allowing you to sail through the skies."
+		"It performs the same tasks as the \"Elytra\" that the villagers spoke of, but comes with a few downsides: It has lower durability and lacks any magical potential for enchantments."
+	]
+	quest.0B4EE9B9D0E5C8EC.title: "Steel Cable Coil"
+	quest.0B4EE9B9D0E5C8EC.quest_desc: [
+		"&lWhy:&r Ride steel cables between bases."
+		"The Engineer's Skyhook is a motorized grabber system designed to hook onto wires, hemp ropes or steel cables."
+		"With it, engineers can quickly traverse the length of a powerline to move between substations or other sites."
+		"Simply hold the right mouse button while close to a wire and you will be attached to it."
+	]
+	quest.5618E337E950989F.title: "Automaton Wolf"
+	quest.5618E337E950989F.quest_desc: [
+		"Within the Trial Chambers, you have found a slightly faded but still legible blueprint. It seems to contain instructions on how to construct a synthetic creature akin to the common wolf!"
+		"This construct is loyal to the person that deploys it."
+		"Being powered by a thermoelectric generator, it should never run out of energy to move itself."
+	]
+	quest.2275E9EDA5A1A5B7.title: "Shaders"
+	quest.2275E9EDA5A1A5B7.quest_desc: [
+		"&lWhy:&r Skins for guns and machines, from bags dropped by bosses."
+		"Shaders are items you can find in the world or aquire by trading with villagers."
+		"They don't have a purpose by themselves, but they can be equipped to Revolvers, Drills, Chemical Throwers, Heavy Plated Shields, Railguns, and Accumulator Backpacks (and possibly other things you still have to discover) to change the designs of the item."
+		"Simply put the item in an Engineer's Workbench and equip the shader in the appropriate slot."
+	]
+	quest.640FC1D2837BE6BB.title: "Other Engineers"
+	quest.640FC1D2837BE6BB.quest_desc: [
+		"&lWhy:&r Engineer villagers trade blueprints, ammo and shaders."
+		"Outside of the comfortable compound of any engineer are others less fortified."
+		"Inside of the villages and towns of the world come a variety of inhabitants who farm and build. Among these come some engineers at the forefront of the field in their towns, pushing against the tide."
+		"Common trades among those that ply designs and devices in the markets of the world are below."
+	]
+	quest.219A855AC1E03F0A.title: "Chief Engineer"
+	quest.219A855AC1E03F0A.quest_desc: [
+		"HV lines, lightning, biodiesel, turrets and a railgun."
+	]
 	chapter.1CB608F08E9C4FA8.title: "Storage"
 	chapter.1CB608F08E9C4FA8.chapter_subtitle: [
 		"AE2: from a chest to autocrafting"
@@ -2743,236 +3453,235 @@
 	quest.29A06962A5C66618.title: "Growth Accelerator"
 	quest.29A06962A5C66618.quest_desc: [
 		"&lWhy:&r Certus doesn't have to be mined forever: budding quartz grows crystals on its own."
+		"--- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Certus Growth icon: quartz_cluster ---"
 		"Certus quartz buds will sprout from budding certus blocks, similar to amethyst. If you break a bud that is not finished growing, it will drop one certus quartz dust, unchanged by fortune. If you break a fully grown cluster, it will drop four certus quartz crystals, and fortune will increase this number."
 		"There are 4 tiers of budding certus blocks: Flawless, Flawed, Chipped, and Damaged, and you initially find them in meteorites."
-		"Every time a bud grows by another stage, the budding block has a chance to degrade by one tier, eventually turning into a plain certus quartz block."
 	]
 	quest.271C176D620BFB3A.title: "Inscriber Logic Press"
 	quest.271C176D620BFB3A.quest_desc: [
 		"&lWhy:&r The four presses unlock every processor."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Presses icon: silicon_press position: 010 categories: - misc ingredients blocks item_ids: - ae2:silicon_press - ae2:logic_processor_press - ae2:calculation_processor_press - ae2:engineering_processor_press - ae2:name_press ---"
 		"There are 5 different presses used in the inscriber."
 		"The Silicon, Logic, Calculation, and Engineering presses are used in the production of processors. These 4 presses are obtained by breaking a mysterious cube in a meteorite. They can also be duplicated in an inscriber."
-		"The Name Press can be used in an inscriber to name items, similar to an anvil."
 	]
 	quest.1F1420D431DD22F8.title: "Logic Processor"
 	quest.1F1420D431DD22F8.quest_desc: [
 		"&lWhy:&r Logic, calculation and engineering processors: automate them early, you'll need hundreds."
-		"Processors are one of the primary ingredients in AE2 devices and machines. They are also one of your first big automation challenges. There are three types of processor, made with gold, certus quartz crystal, and diamond respectively. They are made using presses in an inscriber, in a multi-step process (usually achieved via a series of inscribers and filtered piping)."
-		"1. Gather/make the required ingredients: silicon, redstone, gold, certus quartz crystal, diamond."
-		"2. Press the prerequisite printed circuit components"
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Processors icon: logic_processor position: 010 categories: - misc ingredients blocks item_ids: - ae2:logic_processor - ae2:calculation_processor - ae2:engineering_processor - ae2:printed_silicon - ae2:printed_logic_processor - ae2:printed_calculation_processor - ae2:printed_engineering_processor - ae2:silicon ---"
+		"Processors are one of the primary ingredients in AE2 devices and machines. They are also one of your first big automation challenges. There are three types of processor, made with gold, certus quartz crystal, and diamond respectively."
 	]
 	quest.7493F8085971A0E6.title: "ME Drive"
 	quest.7493F8085971A0E6.quest_desc: [
 		"&lWhy:&r The drive holds 10 storage cells: the network's hard disk."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: ME Drive icon: drive position: 210 categories: - devices item_ids: - ae2:drive ---"
 		"The Drive is the device you plug your storage cells into in order to use them for network storage. It has 10 slots which each accept a cell."
 		"If for some reason you want to, you can push and pull the cells from its inventory with any item logistics like hoppers or ae2 busses."
-		"It can be rotated with a certus quartz wrench."
 	]
 	quest.1FF250305243F2AD.title: "4k ME Item Storage Cell"
 	quest.1FF250305243F2AD.quest_desc: [
 		"&lWhy:&r A cell holds a limited number of item types (63) and bytes."
-		"Storage Cells are one of the primary methods of storage in Applied Energistics. They go in drives or chests."
-		"See Bytes and Types for an explanation of their capacities in bytes and types."
-		"Storage components can be removed from the housing if the cell is empty by shift-right clicking with the cell in your hand."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Storage Cells icon: item_storage_cell_1k position: 410 categories: - tools item_ids: - ae2:item_cell_housing - ae2:fluid_cell_housing - ae2:cell_component_1k - ae2:cell_component_4k - ae2:cell_component_16k - ae2:cell_component_64k - ae2:cell"
+		"--- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Bytes and Types icon: creative_storage_cell ---"
 		"Storage Cells are defined by both &obytes&r and &otypes&r. Bytes, like in your actual computer, are a measure of the total amount of \"stuff\" in a storage cell. Types are a measure of how many different, well, &otypes&r of things are stored in a cell. Each type represents a unique item, so 4,096 cobblestone is 1 type but 16 different swords with different enchantments are 16 types."
 		"Each storage cell can store a fixed amount of data."
 	]
 	quest.11197930ED7FA35F.title: "Cell Workbench"
 	quest.11197930ED7FA35F.quest_desc: [
 		"&lWhy:&r Set a cell's filter and add upgrade cards here."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Cell Workbench icon: cell_workbench position: 310 categories: - machines item_ids: - ae2:cell_workbench ---"
 		"The Cell Workbench allows you to configure storage cells and view cells."
 		"You can add upgrade cards and configure \"partitions\" to filter what the cell will store."
-		"Items and fluids can be dragged into the slots from JEI/REI even if you don't actually have any of that item."
 	]
 	quest.494F464FD106FB9E.title: "Acceleration Card"
 	quest.494F464FD106FB9E.quest_desc: [
 		"&lWhy:&r Upgrade cards: speed, capacity, fuzzy, inverter."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Upgrade Cards icon: speed_card position: 410 categories: - tools item_ids: - ae2:basic_card - ae2:advanced_card - ae2:redstone_card - ae2:capacity_card - ae2:void_card - ae2:fuzzy_card - ae2:speed_card - ae2:inverter_card - ae2:crafting_card - ae2:equal_distribution_card - ae2:energy_card ---"
 		"Upgrade cards change the behavior of AE2 devices and machines, increasing their speed, improving their filter capacity, enabling redstone control, etc."
 		"Cards are crafted with either basic or advanced card bases"
-		"Redstone cards add redstone control, adding a toggle button in the device's GUI to swap between various redstone conditions."
 	]
 	quest.03CD74443853451C.title: "ME Crafting Terminal"
 	quest.03CD74443853451C.quest_desc: [
 		"&lWhy:&r The crafting terminal searches the whole base and crafts straight from the network."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Terminals icon: crafting_terminal position: 210 categories: - devices item_ids: - ae2:terminal - ae2:crafting_terminal - ae2:pattern_encoding_terminal - ae2:pattern_access_terminal ---"
 		"While pattern providers, import busses, storage busses, and the et cetera are the primary method by which an AE2 network interacts with the world, Terminals are the primary method by which an AE2 network interacts with &oyou&r. There are several variants with differing functions."
 		"Terminals will inherit the color of the cable they are mounted on."
-		"They are cable subparts."
 	]
 	quest.4299B226322341FC.title: "ME Pattern Encoding Terminal"
 	quest.4299B226322341FC.quest_desc: [
 		"&lWhy:&r A pattern is a recipe you write once; then the network knows how to make the item."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Patterns icon: crafting_pattern position: 410 categories: - tools item_ids: - ae2:blank_pattern - ae2:crafting_pattern - ae2:processing_pattern - ae2:smithing_table_pattern - ae2:stonecutting_pattern ---"
 		"Patterns are made in a pattern encoding terminal out of blank patterns, and inserted in pattern providers or molecular assemblers."
 		"There are several different types of pattern for different things:"
-		"* crafting patterns encode recipes made by a crafting table. They can be put directly in a molecular assembler to make it craft the result whenever given the ingredients, but their main use is in a pattern provider next to a molecular assembler. Pattern providers have special behavior in this case, and will send the relevant pattern along with the ingredients to adjacent assemblers."
 	]
 	quest.2DA35D6CA4347FBE.title: "Molecular Assembler"
 	quest.2DA35D6CA4347FBE.quest_desc: [
 		"&lWhy:&r The molecular assembler performs crafting-table patterns next to a pattern provider."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Molecular Assembler icon: molecular_assembler position: 310 categories: - machines item_ids: - ae2:molecular_assembler ---"
 		"The molecular assembler takes items input into it and carries out the operation defined by an adjacent pattern provider, or the inserted crafting pattern, smithing table pattern, or stonecutting pattern, then pushes the result to adjacent inventories."
-		"This assembler has a crafting pattern that specifies the 1 oak log = 4 oak planks recipe. When oak logs are fed into the upper hopper, the assembler crafts and spits oak planks into the lower hopper."
-		"However, their main use is next to a pattern provider."
+		"This assembler has a crafting pattern that specifies the 1 oak log = 4 oak planks recipe."
 	]
 	quest.0FF5477F502C15E4.title: "Crafting Unit"
 	quest.0FF5477F502C15E4.quest_desc: [
 		"&lWhy:&r The crafting CPU is a multiblock that plans the chain."
-		"Crafting CPUs manage crafting requests/jobs. They store the intermediate ingredients while crafting jobs with multiple steps are being carried out, and affect how big jobs can be, and to some degree how fast they are completed. See autocrafting for more details."
-		"Each crafting CPU handles 1 request or job, so if you want to request both a calculation processor and 256 smooth stone at once, you need 2 CPU multiblocks."
-		"They can be set to handle requests from players, automation (export busses and interfaces), or both."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Crafting CPU Multiblock (Storage, Coprocessor, Monitor, Unit) icon: 1k_crafting_storage position: 210 categories: - devices item_ids: - ae2:1k_crafting_storage - ae2:4k_crafting_storage - ae2:16k_crafting_storage - ae2:64k_crafting_storage - ae2:256k_crafting_storage - ae2:crafting_accelerator - ae2:crafting_monitor - ae2:crafting_unit ---"
+		"Crafting CPUs manage crafting requests/jobs."
 	]
 	quest.040984A2E748EB52.title: "ME Interface"
 	quest.040984A2E748EB52.quest_desc: [
 		"&lWhy:&r The interface keeps a set stock from the network and accepts anything inserted."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Interface icon: interface position: 210 categories: - devices item_ids: - ae2:interface - ae2:cable_interface ---"
 		"Interfaces act like a small chest and fluid tank that fills itself from and empties to network storage depending on what you set it to keep a stock of in its slots. It tries to complete this in a single gametick, so it can fill itself with or empty itself from up to 9 stacks per gametick, making it a fast method of import or export if you have fast item pipes."
-		"Another useful trait is that while most fluid tanks can only store 1 type of fluid, interfaces can store up to 9, as well as items."
 	]
 	quest.41F7E6DD3272D341.title: "ME Storage Bus"
 	quest.41F7E6DD3272D341.quest_desc: [
 		"&lWhy:&r The storage bus connects any chest, barrel or Create vault to the network."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: ME Storage Bus icon: storage_bus position: 220 categories: - devices item_ids: - ae2:storage_bus ---"
 		"Ever wanted to &okeep&r your chest monster instead of replacing it with something sensible? We present the Storage Bus!"
 		"The storage bus turns the inventory it's touching into network storage. It does this by allowing the network to see the contents of that inventory, and by pushing to and pulling from that inventory in order to fulfill devices pushing to and pulling from network storage."
-		"Due to AE2's philosophy of emergent mechanics through interaction of the functions of the devices, you don't necessarily &ohave&r to use a storage bus for &ostorage&r."
 	]
 	quest.0B198C324326DE2E.title: "ME Import Bus"
 	quest.0B198C324326DE2E.quest_desc: [
 		"&lWhy:&r Import pulls from machines, export pushes into them: processing lines."
+		"--- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Import, Export, and Storage ---"
 		"&lyour ME system and the world&r"
 		"An important concept in AE2 is the idea of Network Storage. It is the place in which the contents of a network are stored, usually storage cells or whatever inventory a storage bus is connected to. Most AE2 devices interact with it in one way or another."
-		"For example,"
 	]
 	quest.5E6C92E8BB0B638C.title: "ME Formation Plane"
 	quest.5E6C92E8BB0B638C.quest_desc: [
 		"&lWhy:&r The annihilation plane breaks blocks into the network; the formation plane places them."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Annihilation Plane icon: annihilation_plane position: 210 categories: - devices item_ids: - ae2:annihilation_plane ---"
 		"The Annihilation Plane breaks blocks and picks up items. It works similarly to an import bus, pushing things into network storage. For items to be picked up, they must collide with the face of the plane, it does not pick up in an area."
-		"Annihilation planes can be enchanted with any pickaxe enchantment, so yes, you can put crazy levels of fortune on a few and automate ore processing if your modpack allows it. In addition, silk touch does what you'd expect it to, efficiency reduces the energy cost of breaking a block, and unbreaking gives a chance of not using any energy."
-		"They are cable subparts."
+		"Annihilation planes can be enchanted with any pickaxe enchantment, so yes, you can put crazy levels of fortune on a few and automate ore processing if your modpack allows it."
 	]
 	quest.3EA0814B8D511AFD.title: "ME IO Port"
 	quest.3EA0814B8D511AFD.quest_desc: [
 		"&lWhy:&r Moves cell contents into the network and back."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: ME IO Port icon: io_port position: 210 categories: - devices item_ids: - ae2:io_port ---"
 		"The IO Port allows you to rapidly fill or empty storage cells to or from network storage."
 		"It can be rotated with a certus quartz wrench."
-		"* The IO Port can be set to move the cell to the output slots when the cell is empty, full, or when the work is done. * If a redstone card is inserted, there will be options for various redstone conditions * In the center of the GUI, there is an arrow to set which direction to transfer items, from the cell to network storage, or from storage to the cell."
 	]
 	quest.3BAF7ADE145A5297.title: "Channels"
 	quest.3BAF7ADE145A5297.quest_desc: [
 		"&lWhy:&r Channels are unlimited in Arkhaven, but it's worth knowing how they normally work."
-		"Applied Energistics 2's ME Networks require Channels to support devices which use networked storage, or other network services. Think of channels like USB cables to all your devices. A computer only has so many USB ports and can only support so many devices connected to it. Most machines, full-block devices, and standard cables can only pass through up to 8 channels. You can think of full-block devices and standard cables as a bundle of 8 \"channel wires\". However, dense cables can support up to 32 channels. The only other devices capable of transmitting 32 are me p2p tunnel and the Quantum Network Bridge."
+		"--- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Channels icon: controller ---"
+		"Applied Energistics 2's ME Networks require Channels to support devices which use networked storage, or other network services. Think of channels like USB cables to all your devices. A computer only has so many USB ports and can only support so many devices connected to it. Most machines, full-block devices, and standard cables can only pass through up to 8 channels. You can think of full-block devices and standard cables as a bundle of 8 \"channel wires\". However, dense cables can support up to 32 channels."
 	]
 	quest.724D2A0EF7D18896.title: "Quartz Fiber"
 	quest.724D2A0EF7D18896.quest_desc: [
 		"&lWhy:&r A subnetwork keeps farms separate from the main network."
+		"--- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Subnetworks ---"
 		"Item Pipe Subnet"
 		"Fluid Pipe Subnet"
-		"Filtered Annihilation Plane"
 	]
 	quest.0288370B301E6D74.title: "Energy Acceptor"
 	quest.0288370B301E6D74.quest_desc: [
 		"&lWhy:&r The energy acceptor takes FE; energy cells smooth out peaks."
-		"Your network will require energy to run. Networks have a pool of energy that devices directly pull from, and vibration chambers, energy acceptors (and controllers) add to. You can see the energy statistics for a network by right-clicking anywhere on it with a network tool or by right-clicking the network's controller, if it has one. This network-wide storage and distribution means that there are no energy transfer rate limits, so devices can pull arbitrarily high amounts of energy and energy acceptors can intake at functionally unlimited speed, only limited by your energy storage."
+		"--- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Energy icon: energy_cell ---"
+		"Your network will require energy to run. Networks have a pool of energy that devices directly pull from, and vibration chambers, energy acceptors (and controllers) add to. You can see the energy statistics for a network by right-clicking anywhere on it with a network tool or by right-clicking the network's controller, if it has one."
 	]
 	quest.7813E866A41FE514.title: "Vibration Chamber"
 	quest.7813E866A41FE514.quest_desc: [
 		"&lWhy:&r Burns fuel to power the network before you have generators."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Vibration Chamber icon: vibration_chamber position: 110 categories: - network infrastructure item_ids: - ae2:vibration_chamber ---"
 		"While the primary intended method of providing energy to your network is an energy acceptor, the vibration chamber can directly generate small to middling amounts of AE."
 		"By default (no upgrades and default configs) it makes 40 AE/t."
-		"When the network's energy storage is full, the vibration chamber throttles down to conserve fuel, but cannot fully shut off."
 	]
 	quest.374F3B1674E00EBA.title: "ME Wireless Access Point"
 	quest.374F3B1674E00EBA.quest_desc: [
 		"&lWhy:&r The access point is the router for wireless terminals."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Wireless Access Point icon: wireless_access_point position: 210 categories: - devices item_ids: - ae2:wireless_booster - ae2:wireless_access_point ---"
 		"Allows wireless access via a wireless terminal. Range and power usage is determined based on the number of wireless booster installed."
 		"A network can have any number of wireless access points with any number of wireless booster in each one, allowing you to optimize power usage and range by altering your setup."
-		"Requires a channel."
 	]
 	quest.268FCB5DE77484F6.title: "ME Quantum Ring"
 	quest.268FCB5DE77484F6.quest_desc: [
 		"&lWhy:&r The quantum bridge links two networks at any distance, even across dimensions."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Quantum Bridge icon: quantum_ring position: 110 categories: - network infrastructure item_ids: - ae2:quantum_link - ae2:quantum_ring ---"
 		"Quantum Network Bridges can extend a network over infinite distances and even between dimensions. They can carry 32 channels in total (regardless of how cables are connected to each face), essentially acting like a wireless dense cable."
 		"An imaginary cable between the two endpoints"
-		"Of note, &lboth sides must be chunkloaded&r so a spatial anchor or other chunkloader must be used if the 2 sides are far apart."
 	]
 	quest.5D20B3A04975D7B8.title: "Spatial IO Port"
 	quest.5D20B3A04975D7B8.quest_desc: [
 		"&lWhy:&r Spatial IO cuts a piece of the world into a cell and puts it back elsewhere: move a whole base."
+		"--- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Spatial IO icon: spatial_storage_cell_2 ---"
 		"The volume to be moved"
 		"Spatial IO is a way to cut-and-paste physical volumes of space in your world. It can be used to move flawless budding quartz, have a room in your base where you can swap out various interiors to use it for different purposes, or even move the end portal!"
-		"It works by &oswapping&r the defined volume with an identically-sized volume in the spatial storage dimension, sending whatever's in the pylon array to the spatial storage dimension, and whatever's in the dimension to the pylon array."
 	]
 	quest.0E385B3940A59AA8.title: "Matter Condenser"
 	quest.0E385B3940A59AA8.quest_desc: [
 		"&lWhy:&r The condenser destroys junk into matter balls and singularities."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Matter Condenser icon: condenser position: 310 categories: - machines item_ids: - ae2:condenser ---"
 		"The matter condenser can be used as either a trash can or to create matter balls and singularities. It can take any item or fluid or etc. a storage cell can store."
-		"* In trash can mode, the matter condenser just voids everything that enters it * In matter ball mode the condenser makes matter balls out of whatever you put in it. This mode requires that you put a storage component in the top slot of the condenser. Matter balls take 256 items or buckets each, so a cell component 1k (which provides 8192 bits of capacity) is more than enough. * In matter singularity mode the condenser makes singularities out of whatever you put in it."
+		"* In trash can mode, the matter condenser just voids everything that enters it * In matter ball mode the condenser makes matter balls out of whatever you put in it. This mode requires that you put a storage component in the top slot of the condenser."
 	]
 	quest.1A3571D8433E2691.title: "Singularity"
 	quest.1A3571D8433E2691.quest_desc: [
 		"&lWhy:&r A singularity + ender dust makes the entangled singularities for the quantum bridge."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Singularities icon: singularity position: 010 categories: - misc ingredients blocks item_ids: - ae2:singularity - ae2:quantum_entangled_singularity ---"
 		"A very compact ball of matter."
 		"Made with 256,000 items or buckets in a condenser in singularity mode."
-		"Required to create a connection between two Quantum Network Bridges, they are always produced in matching pairs. To create a connection place 1 of the pair of quantum entangled singularities into the quantum link of the bridge on each side."
 	]
 	quest.49C287CE796A9FB6.title: "Fluix Pickaxe"
 	quest.49C287CE796A9FB6.quest_desc: [
 		"&lWhy:&r Fluix tools are a bit better than iron."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Fluix Tools icon: fluix_pickaxe position: 410 categories: - tools item_ids: - ae2:fluix_axe - ae2:fluix_hoe - ae2:fluix_shovel - ae2:fluix_pickaxe - ae2:fluix_sword ---"
 		"Fluix tools are similar to iron tools, having 3x the durability and a slightly higher attack damage and mining speed."
 		"All fluix tools act as if they have at least fortune/looting 1, which is useful before getting access to an enchanting table."
-		"You will need to make a fluix upgrade smithing template"
 	]
 	quest.269590655BC4AC7F.title: "Entropy Manipulator"
 	quest.269590655BC4AC7F.quest_desc: [
 		"&lWhy:&r Heats or cools blocks: smelts ore in place, freezes water."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Entropy Manipulator icon: entropy_manipulator position: 410 categories: - tools item_ids: - ae2:entropy_manipulator ---"
 		"The Entropy Manipulator allows you to heat and cool things by right-clicking and shift-right-clicking respectively. It can't do much, just things like evaporating or freezing water, solidifying lava to obsidian, smelting logs to charcoal, and smelting cobble to stone in-world."
 		"If there is not a specific thing it can do to a block, it will act as a flint-and-steel."
-		"Its energy can be recharged in a charger."
 	]
 	quest.045D42BC6E8FA95A.title: "Matter Cannon"
 	quest.045D42BC6E8FA95A.quest_desc: [
 		"&lWhy:&r A gun that fires matter balls or metal nuggets."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Matter Cannon icon: matter_cannon position: 410 categories: - tools item_ids: - ae2:matter_cannon ---"
 		"The matter cannon is a portable railgun that can fire small items as projectiles, like matter balls and metal nuggets. The damage depends on the item being fired, with \"heavier\" items like gold nuggets (10 damage) doing more damage than light items like matter balls (2 damage). It consumes a base energy of 1600 AE per shot."
-		"When the config option \"matterCannonBlockDamage\" is true, the cannon will break blocks depending on their hardness and the damage of the ammunition."
-		"Its energy can be recharged in a charger."
 	]
 	quest.70280A04D1F446B1.title: "Network Tool"
 	quest.70280A04D1F446B1.quest_desc: [
 		"&lWhy:&r The network tool diagnoses; the memory card copies settings between devices."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Network Tool icon: network_tool position: 410 categories: - tools item_ids: - ae2:network_tool ---"
 		"The Network Tool is a modified wrench that also shows network diagnostic information and can store upgrade cards. While it retains the wrench's ability to quickly disassemble things and pull subparts off of a cable, it cannot rotate things."
 		"It has 9 slots in which to store upgrade cards, and they will be available in any AE2 device UI if the tool is anywhere in your inventory."
-		"Right-clicking any part of a network will show a diagnostic info window, similar to right-clicking a controller. This window shows"
 	]
 	quest.1B1D42A792FEEC99.title: "ME Toggle Bus"
 	quest.1B1D42A792FEEC99.quest_desc: [
 		"&lWhy:&r Switches part of the network with redstone, e.g. a farm when stock is full."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Toggle Bus icon: toggle_bus position: 110 categories: - network infrastructure item_ids: - ae2:toggle_bus - ae2:inverted_toggle_bus ---"
 		"A bus which functions similarly to fluix glass cable or other cables, but it allows its connection state to be toggled via redstone. This allows you to cut off a section of a ME Network."
 		"When redstone signal supplied the part enables the connection, inverted toggle bus provides the reverse behavior by disabling the connection instead."
-		"Of note, toggling these may cause the network to reboot and recalculate the connected devices."
 	]
 	quest.128F2E6930ACBDB3.title: "View Cell"
 	quest.128F2E6930ACBDB3.quest_desc: [
 		"&lWhy:&r A terminal filter: show only ore, only food."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: View Cell icon: view_cell position: 410 categories: - tools item_ids: - ae2:view_cell ---"
 		"View Cells are used to filter the display of terminals. You partition them in a cell workbench."
 		"For example, say you want a terminal to only display a selection of stone building materials. Partition the view cell to those materials and place it in a terminal, and only those items will be shown."
-		"View cells are additive, if you have a view cell for oak planks and a view cell for cobblestone, putting both in will show both planks and cobblestone."
 	]
 	quest.4432EC872881230D.title: "Facades"
 	quest.4432EC872881230D.quest_desc: [
 		"&lWhy:&r A facade hides a cable as any block."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Facades icon: facade icon_components: \"ae2:facade_item\": \"minecraft:stone\" position: 110 categories: - network infrastructure item_ids: - ae2:facade ---"
 		"Facades can be used to make your base appear more clean. They can cover up both sizes of cable, and be made out of many kinds of blocks."
 		"They can cover all sides of a cable, but will let subparts and cable connections protrude though."
-		"Be clever with them to improve your base aesthetic or make blocks with different textures on each side."
 	]
 	quest.73458882DFB6CE71.title: "ME Storage Monitor"
 	quest.73458882DFB6CE71.quest_desc: [
 		"&lWhy:&r A storage monitor shows a chosen item's count; the conversion monitor also hands it out."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Monitors icon: storage_monitor position: 210 categories: - devices item_ids: - ae2:storage_monitor - ae2:conversion_monitor ---"
 		"Monitors allow visualization and interaction with a single item or fluid type, without opening a GUI."
 		"Monitors will inherit the color of the cable they are mounted on."
-		"If the monitor is on the floor or ceiling, you can rotate it with a certus quartz wrench."
 	]
 	quest.313F20F0F2B83E4B.title: "ME Chest"
 	quest.313F20F0F2B83E4B.quest_desc: [
 		"&lWhy:&r The ME chest: one cell in a block, a small storage without a network."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: ME Chest icon: chest position: 210 categories: - devices item_ids: - ae2:chest ---"
 		"The ME Chest acts like a miniature network with a terminal, drive, and energy acceptor. While it can be used as a tiny storage network, its capacity for just one single storage cell means it has limited utility as such."
-		"Instead, it is useful for interacting with specifically the storage cell mounted inside it. Its integrated terminal can only see and access the items in the mounted drive, while devices on the general network can access items in any network storage, including ME chests."
-		"It has 2 different GUIs and is sided for item transport. Interacting with the top terminal opens the integrated terminal."
+		"Instead, it is useful for interacting with specifically the storage cell mounted inside it."
 	]
 	quest.3B8BB67D88DE00FE.title: "Network Engineer"
 	quest.3B8BB67D88DE00FE.quest_desc: [

@@ -19,12 +19,12 @@ quests:
     subtitle: ''
     text: '**Why:** Certus doesn''t have to be mined forever: budding quartz grows crystals on its own.
 
+      --- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Certus Growth icon: quartz_cluster ---
+
       Certus quartz buds will sprout from budding certus blocks, similar to amethyst. If you break a bud that is not finished growing, it will drop one certus quartz dust, unchanged by fortune. If you break
       a fully grown cluster, it will drop four certus quartz crystals, and fortune will increase this number.
 
-      There are 4 tiers of budding certus blocks: Flawless, Flawed, Chipped, and Damaged, and you initially find them in meteorites.
-
-      Every time a bud grows by another stage, the budding block has a chance to degrade by one tier, eventually turning into a plain certus quartz block.'
+      There are 4 tiers of budding certus blocks: Flawless, Flawed, Chipped, and Damaged, and you initially find them in meteorites.'
 - id: ae2g_presses
   tasks:
   - type: item
@@ -49,12 +49,13 @@ quests:
     subtitle: ''
     text: '**Why:** The four presses unlock every processor.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Presses icon: silicon_press position: 010 categories: - misc ingredients blocks item_ids: - ae2:silicon_press -
+      ae2:logic_processor_press - ae2:calculation_processor_press - ae2:engineering_processor_press - ae2:name_press ---
+
       There are 5 different presses used in the inscriber.
 
       The Silicon, Logic, Calculation, and Engineering presses are used in the production of processors. These 4 presses are obtained by breaking a mysterious cube in a meteorite. They can also be duplicated
-      in an inscriber.
-
-      The Name Press can be used in an inscriber to name items, similar to an anvil.'
+      in an inscriber.'
 - id: ae2g_processors
   tasks:
   - type: item
@@ -81,12 +82,11 @@ quests:
     subtitle: ''
     text: '**Why:** Logic, calculation and engineering processors: automate them early, you''ll need hundreds.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Processors icon: logic_processor position: 010 categories: - misc ingredients blocks item_ids: - ae2:logic_processor
+      - ae2:calculation_processor - ae2:engineering_processor - ae2:printed_silicon - ae2:printed_logic_processor - ae2:printed_calculation_processor - ae2:printed_engineering_processor - ae2:silicon ---
+
       Processors are one of the primary ingredients in AE2 devices and machines. They are also one of your first big automation challenges. There are three types of processor, made with gold, certus quartz
-      crystal, and diamond respectively. They are made using presses in an inscriber, in a multi-step process (usually achieved via a series of inscribers and filtered piping).
-
-      1. Gather/make the required ingredients: silicon, redstone, gold, certus quartz crystal, diamond.
-
-      2. Press the prerequisite printed circuit components'
+      crystal, and diamond respectively.'
 - id: ae2g_drive
   tasks:
   - type: item
@@ -105,11 +105,11 @@ quests:
     subtitle: ''
     text: '**Why:** The drive holds 10 storage cells: the network''s hard disk.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: ME Drive icon: drive position: 210 categories: - devices item_ids: - ae2:drive ---
+
       The Drive is the device you plug your storage cells into in order to use them for network storage. It has 10 slots which each accept a cell.
 
-      If for some reason you want to, you can push and pull the cells from its inventory with any item logistics like hoppers or ae2 busses.
-
-      It can be rotated with a certus quartz wrench.'
+      If for some reason you want to, you can push and pull the cells from its inventory with any item logistics like hoppers or ae2 busses.'
 - id: ae2g_cells
   tasks:
   - type: item
@@ -130,11 +130,10 @@ quests:
     subtitle: ''
     text: '**Why:** A cell holds a limited number of item types (63) and bytes.
 
-      Storage Cells are one of the primary methods of storage in Applied Energistics. They go in drives or chests.
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Storage Cells icon: item_storage_cell_1k position: 410 categories: - tools item_ids: - ae2:item_cell_housing - ae2:fluid_cell_housing
+      - ae2:cell_component_1k - ae2:cell_component_4k - ae2:cell_component_16k - ae2:cell_component_64k - ae2:cell
 
-      See Bytes and Types for an explanation of their capacities in bytes and types.
-
-      Storage components can be removed from the housing if the cell is empty by shift-right clicking with the cell in your hand.
+      --- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Bytes and Types icon: creative_storage_cell ---
 
       Storage Cells are defined by both *bytes* and *types*. Bytes, like in your actual computer, are a measure of the total amount of "stuff" in a storage cell. Types are a measure of how many different,
       well, *types* of things are stored in a cell. Each type represents a unique item, so 4,096 cobblestone is 1 type but 16 different swords with different enchantments are 16 types.
@@ -158,11 +157,11 @@ quests:
     subtitle: ''
     text: '**Why:** Set a cell''s filter and add upgrade cards here.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Cell Workbench icon: cell_workbench position: 310 categories: - machines item_ids: - ae2:cell_workbench ---
+
       The Cell Workbench allows you to configure storage cells and view cells.
 
-      You can add upgrade cards and configure "partitions" to filter what the cell will store.
-
-      Items and fluids can be dragged into the slots from JEI/REI even if you don''t actually have any of that item.'
+      You can add upgrade cards and configure "partitions" to filter what the cell will store.'
 - id: ae2g_cards
   tasks:
   - type: item
@@ -187,11 +186,12 @@ quests:
     subtitle: ''
     text: '**Why:** Upgrade cards: speed, capacity, fuzzy, inverter.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Upgrade Cards icon: speed_card position: 410 categories: - tools item_ids: - ae2:basic_card - ae2:advanced_card
+      - ae2:redstone_card - ae2:capacity_card - ae2:void_card - ae2:fuzzy_card - ae2:speed_card - ae2:inverter_card - ae2:crafting_card - ae2:equal_distribution_card - ae2:energy_card ---
+
       Upgrade cards change the behavior of AE2 devices and machines, increasing their speed, improving their filter capacity, enabling redstone control, etc.
 
-      Cards are crafted with either basic or advanced card bases
-
-      Redstone cards add redstone control, adding a toggle button in the device''s GUI to swap between various redstone conditions.'
+      Cards are crafted with either basic or advanced card bases'
 - id: ae2g_terminal
   tasks:
   - type: item
@@ -210,12 +210,13 @@ quests:
     subtitle: ''
     text: '**Why:** The crafting terminal searches the whole base and crafts straight from the network.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Terminals icon: crafting_terminal position: 210 categories: - devices item_ids: - ae2:terminal - ae2:crafting_terminal
+      - ae2:pattern_encoding_terminal - ae2:pattern_access_terminal ---
+
       While pattern providers, import busses, storage busses, and the et cetera are the primary method by which an AE2 network interacts with the world, Terminals are the primary method by which an AE2
       network interacts with *you*. There are several variants with differing functions.
 
-      Terminals will inherit the color of the cable they are mounted on.
-
-      They are cable subparts.'
+      Terminals will inherit the color of the cable they are mounted on.'
 - id: ae2g_patterns
   tasks:
   - type: item
@@ -238,12 +239,12 @@ quests:
     subtitle: ''
     text: '**Why:** A pattern is a recipe you write once; then the network knows how to make the item.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Patterns icon: crafting_pattern position: 410 categories: - tools item_ids: - ae2:blank_pattern - ae2:crafting_pattern
+      - ae2:processing_pattern - ae2:smithing_table_pattern - ae2:stonecutting_pattern ---
+
       Patterns are made in a pattern encoding terminal out of blank patterns, and inserted in pattern providers or molecular assemblers.
 
-      There are several different types of pattern for different things:
-
-      * crafting patterns encode recipes made by a crafting table. They can be put directly in a molecular assembler to make it craft the result whenever given the ingredients, but their main use is in
-      a pattern provider next to a molecular assembler. Pattern providers have special behavior in this case, and will send the relevant pattern along with the ingredients to adjacent assemblers.'
+      There are several different types of pattern for different things:'
 - id: ae2g_assembler
   tasks:
   - type: item
@@ -262,12 +263,13 @@ quests:
     subtitle: ''
     text: '**Why:** The molecular assembler performs crafting-table patterns next to a pattern provider.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Molecular Assembler icon: molecular_assembler position: 310 categories: - machines item_ids: - ae2:molecular_assembler
+      ---
+
       The molecular assembler takes items input into it and carries out the operation defined by an adjacent pattern provider, or the inserted crafting pattern, smithing table pattern, or stonecutting pattern,
       then pushes the result to adjacent inventories.
 
-      This assembler has a crafting pattern that specifies the 1 oak log = 4 oak planks recipe. When oak logs are fed into the upper hopper, the assembler crafts and spits oak planks into the lower hopper.
-
-      However, their main use is next to a pattern provider.'
+      This assembler has a crafting pattern that specifies the 1 oak log = 4 oak planks recipe.'
 - id: ae2g_cpu
   tasks:
   - type: item
@@ -288,12 +290,11 @@ quests:
     subtitle: ''
     text: '**Why:** The crafting CPU is a multiblock that plans the chain.
 
-      Crafting CPUs manage crafting requests/jobs. They store the intermediate ingredients while crafting jobs with multiple steps are being carried out, and affect how big jobs can be, and to some degree
-      how fast they are completed. See autocrafting for more details.
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Crafting CPU Multiblock (Storage, Coprocessor, Monitor, Unit) icon: 1k_crafting_storage position: 210 categories:
+      - devices item_ids: - ae2:1k_crafting_storage - ae2:4k_crafting_storage - ae2:16k_crafting_storage - ae2:64k_crafting_storage - ae2:256k_crafting_storage - ae2:crafting_accelerator - ae2:crafting_monitor
+      - ae2:crafting_unit ---
 
-      Each crafting CPU handles 1 request or job, so if you want to request both a calculation processor and 256 smooth stone at once, you need 2 CPU multiblocks.
-
-      They can be set to handle requests from players, automation (export busses and interfaces), or both.'
+      Crafting CPUs manage crafting requests/jobs.'
 - id: ae2g_interface
   tasks:
   - type: item
@@ -312,10 +313,10 @@ quests:
     subtitle: ''
     text: '**Why:** The interface keeps a set stock from the network and accepts anything inserted.
 
-      Interfaces act like a small chest and fluid tank that fills itself from and empties to network storage depending on what you set it to keep a stock of in its slots. It tries to complete this in a
-      single gametick, so it can fill itself with or empty itself from up to 9 stacks per gametick, making it a fast method of import or export if you have fast item pipes.
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Interface icon: interface position: 210 categories: - devices item_ids: - ae2:interface - ae2:cable_interface ---
 
-      Another useful trait is that while most fluid tanks can only store 1 type of fluid, interfaces can store up to 9, as well as items.'
+      Interfaces act like a small chest and fluid tank that fills itself from and empties to network storage depending on what you set it to keep a stock of in its slots. It tries to complete this in a
+      single gametick, so it can fill itself with or empty itself from up to 9 stacks per gametick, making it a fast method of import or export if you have fast item pipes.'
 - id: ae2g_storage_bus
   tasks:
   - type: item
@@ -334,12 +335,12 @@ quests:
     subtitle: ''
     text: '**Why:** The storage bus connects any chest, barrel or Create vault to the network.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: ME Storage Bus icon: storage_bus position: 220 categories: - devices item_ids: - ae2:storage_bus ---
+
       Ever wanted to *keep* your chest monster instead of replacing it with something sensible? We present the Storage Bus!
 
       The storage bus turns the inventory it''s touching into network storage. It does this by allowing the network to see the contents of that inventory, and by pushing to and pulling from that inventory
-      in order to fulfill devices pushing to and pulling from network storage.
-
-      Due to AE2''s philosophy of emergent mechanics through interaction of the functions of the devices, you don''t necessarily *have* to use a storage bus for *storage*.'
+      in order to fulfill devices pushing to and pulling from network storage.'
 - id: ae2g_import_export
   tasks:
   - type: item
@@ -360,12 +361,12 @@ quests:
     subtitle: ''
     text: '**Why:** Import pulls from machines, export pushes into them: processing lines.
 
+      --- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Import, Export, and Storage ---
+
       **your ME system and the world**
 
       An important concept in AE2 is the idea of Network Storage. It is the place in which the contents of a network are stored, usually storage cells or whatever inventory a storage bus is connected to.
-      Most AE2 devices interact with it in one way or another.
-
-      For example,'
+      Most AE2 devices interact with it in one way or another.'
 - id: ae2g_planes
   tasks:
   - type: item
@@ -386,13 +387,13 @@ quests:
     subtitle: ''
     text: '**Why:** The annihilation plane breaks blocks into the network; the formation plane places them.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Annihilation Plane icon: annihilation_plane position: 210 categories: - devices item_ids: - ae2:annihilation_plane
+      ---
+
       The Annihilation Plane breaks blocks and picks up items. It works similarly to an import bus, pushing things into network storage. For items to be picked up, they must collide with the face of the
       plane, it does not pick up in an area.
 
-      Annihilation planes can be enchanted with any pickaxe enchantment, so yes, you can put crazy levels of fortune on a few and automate ore processing if your modpack allows it. In addition, silk touch
-      does what you''d expect it to, efficiency reduces the energy cost of breaking a block, and unbreaking gives a chance of not using any energy.
-
-      They are cable subparts.'
+      Annihilation planes can be enchanted with any pickaxe enchantment, so yes, you can put crazy levels of fortune on a few and automate ore processing if your modpack allows it.'
 - id: ae2g_io_port
   tasks:
   - type: item
@@ -411,12 +412,11 @@ quests:
     subtitle: ''
     text: '**Why:** Moves cell contents into the network and back.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: ME IO Port icon: io_port position: 210 categories: - devices item_ids: - ae2:io_port ---
+
       The IO Port allows you to rapidly fill or empty storage cells to or from network storage.
 
-      It can be rotated with a certus quartz wrench.
-
-      * The IO Port can be set to move the cell to the output slots when the cell is empty, full, or when the work is done. * If a redstone card is inserted, there will be options for various redstone conditions
-      * In the center of the GUI, there is an arrow to set which direction to transfer items, from the cell to network storage, or from storage to the cell.'
+      It can be rotated with a certus quartz wrench.'
 - id: ae2g_channels
   tasks:
   - type: checkmark
@@ -434,10 +434,11 @@ quests:
     subtitle: ''
     text: '**Why:** Channels are unlimited in Arkhaven, but it''s worth knowing how they normally work.
 
+      --- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Channels icon: controller ---
+
       Applied Energistics 2''s ME Networks require Channels to support devices which use networked storage, or other network services. Think of channels like USB cables to all your devices. A computer only
       has so many USB ports and can only support so many devices connected to it. Most machines, full-block devices, and standard cables can only pass through up to 8 channels. You can think of full-block
-      devices and standard cables as a bundle of 8 "channel wires". However, dense cables can support up to 32 channels. The only other devices capable of transmitting 32 are me p2p tunnel and the Quantum
-      Network Bridge.'
+      devices and standard cables as a bundle of 8 "channel wires". However, dense cables can support up to 32 channels.'
 - id: ae2g_subnet
   tasks:
   - type: item
@@ -456,11 +457,11 @@ quests:
     subtitle: ''
     text: '**Why:** A subnetwork keeps farms separate from the main network.
 
+      --- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Subnetworks ---
+
       Item Pipe Subnet
 
-      Fluid Pipe Subnet
-
-      Filtered Annihilation Plane'
+      Fluid Pipe Subnet'
 - id: ae2g_energy
   tasks:
   - type: item
@@ -481,9 +482,10 @@ quests:
     subtitle: ''
     text: '**Why:** The energy acceptor takes FE; energy cells smooth out peaks.
 
+      --- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Energy icon: energy_cell ---
+
       Your network will require energy to run. Networks have a pool of energy that devices directly pull from, and vibration chambers, energy acceptors (and controllers) add to. You can see the energy statistics
-      for a network by right-clicking anywhere on it with a network tool or by right-clicking the network''s controller, if it has one. This network-wide storage and distribution means that there are no
-      energy transfer rate limits, so devices can pull arbitrarily high amounts of energy and energy acceptors can intake at functionally unlimited speed, only limited by your energy storage.'
+      for a network by right-clicking anywhere on it with a network tool or by right-clicking the network''s controller, if it has one.'
 - id: ae2g_vibration
   tasks:
   - type: item
@@ -502,11 +504,12 @@ quests:
     subtitle: ''
     text: '**Why:** Burns fuel to power the network before you have generators.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Vibration Chamber icon: vibration_chamber position: 110 categories: - network infrastructure item_ids: - ae2:vibration_chamber
+      ---
+
       While the primary intended method of providing energy to your network is an energy acceptor, the vibration chamber can directly generate small to middling amounts of AE.
 
-      By default (no upgrades and default configs) it makes 40 AE/t.
-
-      When the network''s energy storage is full, the vibration chamber throttles down to conserve fuel, but cannot fully shut off.'
+      By default (no upgrades and default configs) it makes 40 AE/t.'
 - id: ae2g_wireless_ap
   tasks:
   - type: item
@@ -525,11 +528,12 @@ quests:
     subtitle: ''
     text: '**Why:** The access point is the router for wireless terminals.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Wireless Access Point icon: wireless_access_point position: 210 categories: - devices item_ids: - ae2:wireless_booster
+      - ae2:wireless_access_point ---
+
       Allows wireless access via a wireless terminal. Range and power usage is determined based on the number of wireless booster installed.
 
-      A network can have any number of wireless access points with any number of wireless booster in each one, allowing you to optimize power usage and range by altering your setup.
-
-      Requires a channel.'
+      A network can have any number of wireless access points with any number of wireless booster in each one, allowing you to optimize power usage and range by altering your setup.'
 - id: ae2g_quantum
   tasks:
   - type: item
@@ -551,12 +555,13 @@ quests:
     subtitle: ''
     text: '**Why:** The quantum bridge links two networks at any distance, even across dimensions.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Quantum Bridge icon: quantum_ring position: 110 categories: - network infrastructure item_ids: - ae2:quantum_link
+      - ae2:quantum_ring ---
+
       Quantum Network Bridges can extend a network over infinite distances and even between dimensions. They can carry 32 channels in total (regardless of how cables are connected to each face), essentially
       acting like a wireless dense cable.
 
-      An imaginary cable between the two endpoints
-
-      Of note, **both sides must be chunkloaded** so a spatial anchor or other chunkloader must be used if the 2 sides are far apart.'
+      An imaginary cable between the two endpoints'
 - id: ae2g_spatial
   tasks:
   - type: item
@@ -581,13 +586,12 @@ quests:
     subtitle: ''
     text: '**Why:** Spatial IO cuts a piece of the world into a cell and puts it back elsewhere: move a whole base.
 
+      --- navigation: parent: ae2-mechanics/ae2-mechanics-index.md title: Spatial IO icon: spatial_storage_cell_2 ---
+
       The volume to be moved
 
       Spatial IO is a way to cut-and-paste physical volumes of space in your world. It can be used to move flawless budding quartz, have a room in your base where you can swap out various interiors to use
-      it for different purposes, or even move the end portal!
-
-      It works by *swapping* the defined volume with an identically-sized volume in the spatial storage dimension, sending whatever''s in the pylon array to the spatial storage dimension, and whatever''s
-      in the dimension to the pylon array.'
+      it for different purposes, or even move the end portal!'
 - id: ae2g_condenser
   tasks:
   - type: item
@@ -609,11 +613,12 @@ quests:
     subtitle: ''
     text: '**Why:** The condenser destroys junk into matter balls and singularities.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Matter Condenser icon: condenser position: 310 categories: - machines item_ids: - ae2:condenser ---
+
       The matter condenser can be used as either a trash can or to create matter balls and singularities. It can take any item or fluid or etc. a storage cell can store.
 
       * In trash can mode, the matter condenser just voids everything that enters it * In matter ball mode the condenser makes matter balls out of whatever you put in it. This mode requires that you put
-      a storage component in the top slot of the condenser. Matter balls take 256 items or buckets each, so a cell component 1k (which provides 8192 bits of capacity) is more than enough. * In matter singularity
-      mode the condenser makes singularities out of whatever you put in it.'
+      a storage component in the top slot of the condenser.'
 - id: ae2g_singularity
   tasks:
   - type: item
@@ -632,12 +637,12 @@ quests:
     subtitle: ''
     text: '**Why:** A singularity + ender dust makes the entangled singularities for the quantum bridge.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Singularities icon: singularity position: 010 categories: - misc ingredients blocks item_ids: - ae2:singularity
+      - ae2:quantum_entangled_singularity ---
+
       A very compact ball of matter.
 
-      Made with 256,000 items or buckets in a condenser in singularity mode.
-
-      Required to create a connection between two Quantum Network Bridges, they are always produced in matching pairs. To create a connection place 1 of the pair of quantum entangled singularities into
-      the quantum link of the bridge on each side.'
+      Made with 256,000 items or buckets in a condenser in singularity mode.'
 - id: ae2g_tools
   tasks:
   - type: item
@@ -656,11 +661,12 @@ quests:
     subtitle: ''
     text: '**Why:** Fluix tools are a bit better than iron.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Fluix Tools icon: fluix_pickaxe position: 410 categories: - tools item_ids: - ae2:fluix_axe - ae2:fluix_hoe - ae2:fluix_shovel
+      - ae2:fluix_pickaxe - ae2:fluix_sword ---
+
       Fluix tools are similar to iron tools, having 3x the durability and a slightly higher attack damage and mining speed.
 
-      All fluix tools act as if they have at least fortune/looting 1, which is useful before getting access to an enchanting table.
-
-      You will need to make a fluix upgrade smithing template'
+      All fluix tools act as if they have at least fortune/looting 1, which is useful before getting access to an enchanting table.'
 - id: ae2g_entropy
   tasks:
   - type: item
@@ -679,12 +685,13 @@ quests:
     subtitle: ''
     text: '**Why:** Heats or cools blocks: smelts ore in place, freezes water.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Entropy Manipulator icon: entropy_manipulator position: 410 categories: - tools item_ids: - ae2:entropy_manipulator
+      ---
+
       The Entropy Manipulator allows you to heat and cool things by right-clicking and shift-right-clicking respectively. It can''t do much, just things like evaporating or freezing water, solidifying lava
       to obsidian, smelting logs to charcoal, and smelting cobble to stone in-world.
 
-      If there is not a specific thing it can do to a block, it will act as a flint-and-steel.
-
-      Its energy can be recharged in a charger.'
+      If there is not a specific thing it can do to a block, it will act as a flint-and-steel.'
 - id: ae2g_matter_cannon
   tasks:
   - type: item
@@ -704,12 +711,10 @@ quests:
     subtitle: ''
     text: '**Why:** A gun that fires matter balls or metal nuggets.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Matter Cannon icon: matter_cannon position: 410 categories: - tools item_ids: - ae2:matter_cannon ---
+
       The matter cannon is a portable railgun that can fire small items as projectiles, like matter balls and metal nuggets. The damage depends on the item being fired, with "heavier" items like gold nuggets
-      (10 damage) doing more damage than light items like matter balls (2 damage). It consumes a base energy of 1600 AE per shot.
-
-      When the config option "matterCannonBlockDamage" is true, the cannon will break blocks depending on their hardness and the damage of the ammunition.
-
-      Its energy can be recharged in a charger.'
+      (10 damage) doing more damage than light items like matter balls (2 damage). It consumes a base energy of 1600 AE per shot.'
 - id: ae2g_tools_net
   tasks:
   - type: item
@@ -730,12 +735,12 @@ quests:
     subtitle: ''
     text: '**Why:** The network tool diagnoses; the memory card copies settings between devices.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Network Tool icon: network_tool position: 410 categories: - tools item_ids: - ae2:network_tool ---
+
       The Network Tool is a modified wrench that also shows network diagnostic information and can store upgrade cards. While it retains the wrench''s ability to quickly disassemble things and pull subparts
       off of a cable, it cannot rotate things.
 
-      It has 9 slots in which to store upgrade cards, and they will be available in any AE2 device UI if the tool is anywhere in your inventory.
-
-      Right-clicking any part of a network will show a diagnostic info window, similar to right-clicking a controller. This window shows'
+      It has 9 slots in which to store upgrade cards, and they will be available in any AE2 device UI if the tool is anywhere in your inventory.'
 - id: ae2g_level_toggle
   tasks:
   - type: item
@@ -754,11 +759,12 @@ quests:
     subtitle: ''
     text: '**Why:** Switches part of the network with redstone, e.g. a farm when stock is full.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Toggle Bus icon: toggle_bus position: 110 categories: - network infrastructure item_ids: - ae2:toggle_bus - ae2:inverted_toggle_bus
+      ---
+
       A bus which functions similarly to fluix glass cable or other cables, but it allows its connection state to be toggled via redstone. This allows you to cut off a section of a ME Network.
 
-      When redstone signal supplied the part enables the connection, inverted toggle bus provides the reverse behavior by disabling the connection instead.
-
-      Of note, toggling these may cause the network to reboot and recalculate the connected devices.'
+      When redstone signal supplied the part enables the connection, inverted toggle bus provides the reverse behavior by disabling the connection instead.'
 - id: ae2g_view_cell
   tasks:
   - type: item
@@ -777,11 +783,11 @@ quests:
     subtitle: ''
     text: '**Why:** A terminal filter: show only ore, only food.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: View Cell icon: view_cell position: 410 categories: - tools item_ids: - ae2:view_cell ---
+
       View Cells are used to filter the display of terminals. You partition them in a cell workbench.
 
-      For example, say you want a terminal to only display a selection of stone building materials. Partition the view cell to those materials and place it in a terminal, and only those items will be shown.
-
-      View cells are additive, if you have a view cell for oak planks and a view cell for cobblestone, putting both in will show both planks and cobblestone.'
+      For example, say you want a terminal to only display a selection of stone building materials. Partition the view cell to those materials and place it in a terminal, and only those items will be shown.'
 - id: ae2g_facades
   tasks:
   - type: item
@@ -802,11 +808,12 @@ quests:
     subtitle: ''
     text: '**Why:** A facade hides a cable as any block.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Facades icon: facade icon_components: "ae2:facade_item": "minecraft:stone" position: 110 categories: - network infrastructure
+      item_ids: - ae2:facade ---
+
       Facades can be used to make your base appear more clean. They can cover up both sizes of cable, and be made out of many kinds of blocks.
 
-      They can cover all sides of a cable, but will let subparts and cable connections protrude though.
-
-      Be clever with them to improve your base aesthetic or make blocks with different textures on each side.'
+      They can cover all sides of a cable, but will let subparts and cable connections protrude though.'
 - id: ae2g_monitors
   tasks:
   - type: item
@@ -825,11 +832,12 @@ quests:
     subtitle: ''
     text: '**Why:** A storage monitor shows a chosen item''s count; the conversion monitor also hands it out.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Monitors icon: storage_monitor position: 210 categories: - devices item_ids: - ae2:storage_monitor - ae2:conversion_monitor
+      ---
+
       Monitors allow visualization and interaction with a single item or fluid type, without opening a GUI.
 
-      Monitors will inherit the color of the cable they are mounted on.
-
-      If the monitor is on the floor or ceiling, you can rotate it with a certus quartz wrench.'
+      Monitors will inherit the color of the cable they are mounted on.'
 - id: ae2g_me_chest
   tasks:
   - type: item
@@ -848,13 +856,12 @@ quests:
     subtitle: ''
     text: '**Why:** The ME chest: one cell in a block, a small storage without a network.
 
+      --- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: ME Chest icon: chest position: 210 categories: - devices item_ids: - ae2:chest ---
+
       The ME Chest acts like a miniature network with a terminal, drive, and energy acceptor. While it can be used as a tiny storage network, its capacity for just one single storage cell means it has limited
       utility as such.
 
-      Instead, it is useful for interacting with specifically the storage cell mounted inside it. Its integrated terminal can only see and access the items in the mounted drive, while devices on the general
-      network can access items in any network storage, including ME chests.
-
-      It has 2 different GUIs and is sided for item transport. Interacting with the top terminal opens the integrated terminal.'
+      Instead, it is useful for interacting with specifically the storage cell mounted inside it.'
 - id: ae2g_master
   tasks:
   - type: checkmark

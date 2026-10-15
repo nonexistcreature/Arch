@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Shared loader for quests_src: chapter files (*.yaml) + extensions (more/*.yaml with `extends: <chapter id>`)."""
+"""Shared loader for quests_src: chapter files (*.yaml) + extensions (more/*.yaml with `extends: <chapter id>`, or a generated `chapter:` of their own)."""
 from pathlib import Path
 import yaml
 
@@ -12,9 +12,15 @@ def load_chapters():
         d = yaml.safe_load(f.read_text("utf8"))
         d["_file"] = f.name
         chapters.append(d)
+    more = [(f, yaml.safe_load(f.read_text("utf8"))) for f in sorted((SRC / "more").glob("*.yaml"))]
+    for f, d in more:  # generated files may define a whole chapter of their own
+        if "chapter" in d:
+            d["_file"] = "more/" + f.name
+            chapters.append(d)
     by_id = {c["chapter"]["id"]: c for c in chapters}
-    for f in sorted((SRC / "more").glob("*.yaml")):
-        d = yaml.safe_load(f.read_text("utf8"))
+    for f, d in more:
+        if "chapter" in d:
+            continue
         target = by_id[d["extends"]]
         for q in d["quests"]:
             q["_file"] = "more/" + f.name

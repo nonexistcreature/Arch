@@ -1,0 +1,463 @@
+# Immersive Engineering: the Engineer's Manual is English-only (manual/en_us/*.txt) -> EN body from it, RU from our «why» lines.
+chapter:
+  id: immersive
+  order: 10.5
+  icon: immersiveengineering:hammer
+  ru: {title: "Immersive Engineering", subtitle: "Провода, многоблочные машины, револьвер и рельсотрон"}
+  en: {title: "Immersive Engineering", subtitle: "Wires, multiblock machines, revolver and railgun"}
+lang: [immersiveengineering]
+out: immersive_gen
+quests:
+  # --- start
+  - id: ieg_manual
+    deps: [ie_hammer]
+    roles: [engineer]
+    shape: gear
+    items: [immersiveengineering:manual]
+    title: {ru: "Справочник инженера", en: "Engineer's Manual"}
+    doc: md:assets/immersiveengineering/manual/en_us/introduction.txt
+    why: {ru: "Вся IE строится молотом инженера: собираешь блоки по схеме из справочника и бьёшь молотом по нужному блоку — машина «собирается». Схемы в справочнике можно листать слоями.", en: "Everything in IE is built with the hammer from layouts in this manual."}
+  - id: ieg_workbench
+    deps: [ieg_manual]
+    roles: [engineer]
+    items: [immersiveengineering:craftingtable, immersiveengineering:workbench]
+    title: {ru: "Верстаки инженера", en: "Engineer's Workbenches"}
+    doc: md:assets/immersiveengineering/manual/en_us/engineers_workbench.txt
+    why: {ru: "Верстак инженера собирает чертежи: формы для пресса, пули, детали оружия. Крафтовый стол хранит предметы внутри.", en: "The workbench makes blueprints: press molds, bullets, gun parts."}
+  - id: ieg_kiln
+    deps: [ieg_manual]
+    roles: [engineer]
+    items: [immersiveengineering:alloybrick*10]
+    title: {ru: "Плавильная печь", en: "Alloy Kiln"}
+    doc: md:assets/immersiveengineering/manual/en_us/alloy_kiln.txt
+    why: {ru: "Первая машина IE — без энергии: бронза, электрум, константан. 2×2×2 кирпича, ударь молотом.", en: "The first IE machine, no power: bronze, electrum, constantan."}
+  - id: ieg_alloys
+    deps: [ieg_kiln]
+    roles: [engineer]
+    items: [immersiveengineering:ingot_constantan*4, immersiveengineering:ingot_electrum*4]
+    title: {ru: "Константан и электрум", en: "Constantan and Electrum"}
+    why: {ru: "Константан нужен для катушек и термогенератора, электрум — для проводов среднего напряжения.", en: "Constantan for coils, electrum for MV wires."}
+  - id: ieg_coke_oven
+    deps: [ieg_manual]
+    roles: [engineer]
+    items: [immersiveengineering:cokebrick*27]
+    title: {ru: "Коксовая печь", en: "Coke Oven"}
+    doc: md:assets/immersiveengineering/manual/en_us/coke_oven.txt
+    why: {ru: "Куб 3×3×3: уголь → кокс и креозот. Креозот пропитывает доски — из них половина декора и опор IE.", en: "3x3x3 cube: coal to coke plus creosote."}
+  - id: ieg_blast_furnace
+    deps: [ieg_coke_oven]
+    roles: [engineer]
+    items: [immersiveengineering:blastbrick*27]
+    title: {ru: "Доменная печь", en: "Blast Furnace"}
+    doc: md:assets/immersiveengineering/manual/en_us/crude_blast_furnace.txt
+    why: {ru: "Железо + кокс → сталь. Медленно, но без энергии. Шлак отсюда тоже пригодится.", en: "Iron + coke → steel, no power needed."}
+  - id: ieg_improved_bf
+    deps: [ieg_blast_furnace, ie_steel]
+    roles: [engineer]
+    items: [immersiveengineering:blastbrick_reinforced*27, immersiveengineering:blastfurnace_preheater*2]
+    title: {ru: "Продвинутая доменная печь", en: "Improved Blast Furnace"}
+    doc: md:assets/immersiveengineering/manual/en_us/improved_blast_furnace.txt
+    why: {ru: "Усиленные кирпичи + подогреватели (на энергии) — сталь в разы быстрее, вход и выход для конвейеров.", en: "Reinforced bricks and preheaters: much faster steel."}
+  - id: ieg_creosote
+    deps: [ieg_coke_oven]
+    roles: [engineer, builder]
+    items: [immersiveengineering:treated_post*4, immersiveengineering:treated_scaffold*8]
+    title: {ru: "Пропитанное дерево", en: "Treated Wood"}
+    doc: md:assets/immersiveengineering/manual/en_us/treated_wood.txt
+    why: {ru: "Столбы держат провода, леса помогают строить высокие машины.", en: "Posts carry wires, scaffolding helps build tall machines."}
+  # --- power
+  - id: ieg_waterwheel
+    deps: [ie_windmill]
+    roles: [engineer]
+    items: [immersiveengineering:watermill]
+    doc: md:assets/immersiveengineering/manual/en_us/kinetic_generators.txt
+    why: {ru: "Водяное колесо на реке даёт энергию день и ночь. Ветряк — выше над землёй.", en: "A waterwheel on a river powers you day and night."}
+  - id: ieg_thermo
+    deps: [ieg_alloys]
+    roles: [engineer]
+    items: [immersiveengineering:thermoelectric_generator]
+    doc: md:assets/immersiveengineering/manual/en_us/thermoelectric_generator.txt
+    why: {ru: "Ставь между горячим (лава, магма) и холодным (лёд, вода) — и он даёт ток без топлива.", en: "Between hot and cold blocks it makes power with no fuel."}
+  - id: ieg_wire_mv
+    deps: [ie_wires, ieg_alloys]
+    roles: [engineer]
+    items: [immersiveengineering:wirecoil_electrum*4, immersiveengineering:connector_mv*4, immersiveengineering:transformer]
+    title: {ru: "Среднее напряжение", en: "Medium Voltage"}
+    doc: md:assets/immersiveengineering/manual/en_us/transformers.txt
+    why: {ru: "Медь держит мало. Электрум и трансформатор передают больше энергии на большие расстояния.", en: "Electrum and a transformer move more power farther."}
+  - id: ieg_wire_hv
+    deps: [ieg_wire_mv, ie_steel]
+    roles: [engineer]
+    items: [immersiveengineering:wirecoil_steel*4, immersiveengineering:connector_hv*4, immersiveengineering:transformer_hv]
+    title: {ru: "Высокое напряжение", en: "High Voltage"}
+    why: {ru: "Стальные провода — магистраль между базами. Неизолированные провода бьют током — не касайся их и строй высоко.", en: "Steel wires are the trunk line between bases. They shock — build them high."}
+  - id: ieg_insulated
+    deps: [ie_wires]
+    roles: [engineer]
+    items: [immersiveengineering:wirecoil_copper_ins*4]
+    title: {ru: "Изолированные провода", en: "Insulated Wires"}
+    doc: md:assets/immersiveengineering/manual/en_us/basic_wiring.txt
+    why: {ru: "Внутри дома и рядом с людьми — только изолированные: голые медные провода бьют током.", en: "Indoors use insulated wires; bare ones shock."}
+  - id: ieg_capacitor_mv
+    deps: [ie_capacitor, ieg_wire_mv]
+    roles: [engineer]
+    items: [immersiveengineering:capacitor_mv]
+    doc: md:assets/immersiveengineering/manual/en_us/accumulators.txt
+  - id: ieg_capacitor_hv
+    deps: [ieg_capacitor_mv, ieg_wire_hv]
+    roles: [engineer]
+    items: [immersiveengineering:capacitor_hv]
+    why: {ru: "Высоковольтный накопитель — буфер для рельсотрона, Теслы и громоотвода.", en: "HV buffer for the railgun, tesla coil and lightning rod."}
+  - id: ieg_breaker
+    deps: [ieg_insulated]
+    roles: [engineer]
+    items: [immersiveengineering:breaker_switch, immersiveengineering:current_transformer]
+    title: {ru: "Рубильник и амперметр", en: "Breaker Switch and Current Transformer"}
+    doc: md:assets/immersiveengineering/manual/en_us/circuit_breakers.txt
+  - id: ieg_lightning
+    deps: [ieg_capacitor_hv]
+    roles: [engineer]
+    tasks: [{type: checkmark}]
+    icon: immersiveengineering:lightning_rod
+    title: {ru: "Громоотвод", en: "Lightning Rod"}
+    doc: md:assets/immersiveengineering/manual/en_us/lightning_rod.txt
+    why: {ru: "Многоблок ловит молнии в грозу и сразу заряжает накопители. И заодно защищает стройку от удара.", en: "Catches lightning and stores the energy."}
+  - id: ieg_diesel
+    deps: [ip_distill]
+    roles: [engineer]
+    icon: immersiveengineering:diesel_generator
+    tasks: [{type: checkmark}]
+    title: {ru: "Дизельный генератор", en: "Diesel Generator"}
+    doc: md:assets/immersiveengineering/manual/en_us/diesel_generator.txt
+    why: {ru: "Огромная мощность на дизеле или биодизеле. Нужен для экскаватора, дуговой печи и рельсотрона.", en: "Huge power from diesel or biodiesel."}
+  # --- multiblock machines
+  - id: ieg_metal_press
+    deps: [ie_engineering_blocks]
+    roles: [engineer]
+    items: [immersiveengineering:mold_plate, immersiveengineering:mold_rod, immersiveengineering:mold_gear, immersiveengineering:mold_wire]
+    title: {ru: "Металлический пресс", en: "Metal Press"}
+    doc: md:assets/immersiveengineering/manual/en_us/metal_press.txt
+    why: {ru: "Пресс с формами: пластины, стержни, шестерни и провода — по 1 слитку вместо 2 при ручном крафте.", en: "Plates, rods, gears and wires from one ingot each."}
+  - id: ieg_squeezer
+    deps: [ie_engineering_blocks]
+    roles: [engineer, gardener]
+    icon: immersiveengineering:squeezer
+    tasks: [{type: checkmark}]
+    title: {ru: "Выжиматель и ферментёр", en: "Squeezer and Fermenter"}
+    doc: md:assets/immersiveengineering/manual/en_us/squeezer.txt
+    doc2: md:assets/immersiveengineering/manual/en_us/fermenter.txt
+    why: {ru: "Семена → растительное масло, сахар и картошка → этанол. Вместе на нефтеперегонке получается биодизель — нефть с фермы.", en: "Seeds → plant oil, sugar → ethanol; together → biodiesel."}
+  - id: ieg_refinery
+    deps: [ieg_squeezer]
+    roles: [engineer]
+    icon: immersiveengineering:refinery
+    tasks: [{type: checkmark}]
+    title: {ru: "Нефтеперегонная установка", en: "Refinery"}
+    doc: md:assets/immersiveengineering/manual/en_us/refinery.txt
+  - id: ieg_hemp
+    deps: [ieg_manual]
+    roles: [gardener, engineer]
+    items: [immersiveengineering:seed*4, immersiveengineering:hemp_fiber*16]
+    title: {ru: "Технический лён", en: "Industrial Hemp"}
+    doc: md:assets/immersiveengineering/manual/en_us/industrial_hemp.txt
+    why: {ru: "Растёт в два блока высотой. Волокно — на ткань, верёвку, ветряные паруса и хемпкрит.", en: "Fibre for fabric, rope, sails and hempcrete."}
+  - id: ieg_cloche
+    deps: [ieg_hemp, ie_capacitor]
+    roles: [gardener, engineer]
+    items: [immersiveengineering:cloche]
+    title: {ru: "Садовый колпак", en: "Garden Cloche"}
+    doc: md:assets/immersiveengineering/manual/en_us/garden_cloche.txt
+    why: {ru: "Автоферма в одном блоке: растит любое растение под стеклом на энергии, удобрение ускоряет.", en: "A one-block auto-farm for any crop."}
+  - id: ieg_mixer
+    deps: [ie_engineering_blocks]
+    roles: [engineer, builder]
+    icon: immersiveengineering:mixer
+    tasks: [{type: checkmark}]
+    title: {ru: "Смеситель и бетон", en: "Mixer and Concrete"}
+    doc: md:assets/immersiveengineering/manual/en_us/mixer.txt
+    why: {ru: "Смеситель готовит жидкий бетон. Бетон — взрывоустойчивый строительный блок, а свинцовый бетон держит радиацию.", en: "Liquid concrete: blast-resistant building blocks."}
+  - id: ieg_concrete
+    deps: [ieg_mixer]
+    roles: [builder]
+    items: [immersiveengineering:concrete*32, immersiveengineering:concrete_leaded*8]
+    title: {ru: "Бункер из бетона", en: "Concrete Bunker"}
+    doc: md:assets/immersiveengineering/manual/en_us/concrete.txt
+    why: {ru: "Укрытие от метеоритов и взрывов. Свинцовый бетон — стенки для реактора.", en: "Shelter from meteors and blasts; leaded concrete for reactors."}
+  - id: ieg_bottling
+    deps: [ie_engineering_blocks]
+    roles: [engineer]
+    icon: immersiveengineering:bottling_machine
+    tasks: [{type: checkmark}]
+    title: {ru: "Разливочная машина", en: "Bottling Machine"}
+    doc: md:assets/immersiveengineering/manual/en_us/bottling_machine.txt
+  - id: ieg_sawmill
+    deps: [ie_engineering_blocks]
+    roles: [engineer, builder]
+    icon: immersiveengineering:sawblade
+    items: [immersiveengineering:sawblade]
+    title: {ru: "Лесопилка", en: "Sawmill"}
+    doc: md:assets/immersiveengineering/manual/en_us/sawmill.txt
+    why: {ru: "Ленточная пила снимает кору и пилит брёвна в доски с опилками — плотник доволен.", en: "Strips and saws logs into planks and sawdust."}
+  - id: ieg_silo_tank
+    deps: [ie_engineering_blocks]
+    roles: [engineer]
+    icon: immersiveengineering:sheetmetal_iron
+    items: [immersiveengineering:sheetmetal_iron*32]
+    title: {ru: "Силос и цистерна", en: "Silo and Tank"}
+    doc: md:assets/immersiveengineering/manual/en_us/silo.txt
+    doc2: md:assets/immersiveengineering/manual/en_us/tank.txt
+    why: {ru: "Огромные хранилища из листового металла: силос держит 40 000 одного предмета, цистерна — 512 вёдер жидкости.", en: "Silo: 40k of one item; tank: 512 buckets."}
+  - id: ieg_assembler
+    deps: [ieg_circuits]
+    roles: [engineer]
+    icon: immersiveengineering:assembler
+    tasks: [{type: checkmark}]
+    title: {ru: "Сборочный цех", en: "Assembler"}
+    doc: md:assets/immersiveengineering/manual/en_us/assembler.txt
+  - id: ieg_auto_workbench
+    deps: [ieg_workbench, ieg_conveyors]
+    roles: [engineer]
+    icon: immersiveengineering:auto_workbench
+    tasks: [{type: checkmark}]
+    title: {ru: "Автоматический верстак", en: "Automated Workbench"}
+    doc: md:assets/immersiveengineering/manual/en_us/automated_engineers_workbench.txt
+  - id: ieg_arc_electrode
+    deps: [ie_arc]
+    roles: [engineer]
+    items: [immersiveengineering:graphite_electrode*3]
+    doc: md:assets/immersiveengineering/manual/en_us/coke_and_graphite.txt
+    why: {ru: "Дуговой печи нужны три графитовых электрода — они изнашиваются, держи запас.", en: "The arc furnace needs three graphite electrodes."}
+  - id: ieg_slag
+    deps: [ieg_blast_furnace]
+    roles: [builder]
+    items: [immersiveengineering:slag*8, immersiveengineering:slag_glass*8]
+    title: {ru: "Шлак в дело", en: "Slag Products"}
+    doc: md:assets/immersiveengineering/manual/en_us/slag_products.txt
+    why: {ru: "Шлак от домны — не мусор: шлаковое стекло, кирпич и щебень для дорог.", en: "Slag glass, bricks and gravel."}
+  - id: ieg_minerals
+    deps: [ie_excavator]
+    roles: [engineer]
+    items: [immersiveengineering:coresample]
+    title: {ru: "Месторождения", en: "Mineral Deposits"}
+    doc: md:assets/immersiveengineering/manual/en_us/mineral_deposits.txt
+    why: {ru: "Пробный бур показывает, какая жила под этим местом. Экскаватор потом выкапывает её почти бесконечно.", en: "The core sample shows the deposit under you."}
+  # --- logistics
+  - id: ieg_conveyors
+    deps: [ie_components]
+    roles: [engineer]
+    items: [immersiveengineering:conveyor_basic*16, immersiveengineering:conveyor_splitter, immersiveengineering:conveyor_extract]
+    title: {ru: "Конвейеры", en: "Conveyor Belts"}
+    doc: md:assets/immersiveengineering/manual/en_us/conveyor_belts.txt
+    why: {ru: "Многоблочные машины IE берут и отдают предметы конвейерами. Сплиттер делит поток, вытягивающий забирает из сундуков.", en: "IE multiblocks are fed by conveyors."}
+  - id: ieg_chutes
+    deps: [ieg_conveyors]
+    roles: [engineer]
+    items: [immersiveengineering:chute_iron*4]
+    doc: md:assets/immersiveengineering/manual/en_us/chutes.txt
+  - id: ieg_sorter
+    deps: [ieg_conveyors]
+    roles: [engineer]
+    items: [immersiveengineering:sorter, immersiveengineering:fluid_sorter]
+    title: {ru: "Сортировщики", en: "Item and Fluid Routers"}
+    doc: md:assets/immersiveengineering/manual/en_us/item_router.txt
+  - id: ieg_pipes
+    deps: [ie_components]
+    roles: [engineer]
+    items: [immersiveengineering:fluid_pipe*16, immersiveengineering:fluid_pump, immersiveengineering:pipe_valve]
+    title: {ru: "Трубы и насос", en: "Pipes and Pump"}
+    doc: md:assets/immersiveengineering/manual/en_us/fluid_pipes.txt
+  - id: ieg_jerrycan
+    deps: [ieg_pipes]
+    roles: [engineer]
+    items: [immersiveengineering:jerrycan]
+    doc: md:assets/immersiveengineering/manual/en_us/jerrycan.txt
+    why: {ru: "Канистра на 10 вёдер: заправь катер, дрон или генератор в поле.", en: "A 10-bucket can to refuel vehicles and generators."}
+  - id: ieg_storage
+    deps: [ie_treated]
+    roles: [engineer, builder]
+    items: [immersiveengineering:crate, immersiveengineering:wooden_barrel, immersiveengineering:metal_barrel]
+    title: {ru: "Ящики и бочки", en: "Crates and Barrels"}
+    doc: md:assets/immersiveengineering/manual/en_us/storage_crates.txt
+    why: {ru: "Ящик сохраняет содержимое, если его сломать, — переезжай с вещами. Бочки держат жидкость.", en: "Crates keep contents when broken; barrels hold fluids."}
+  - id: ieg_minecarts
+    deps: [ieg_storage]
+    roles: [engineer]
+    items: [immersiveengineering:minecart_woodencrate]
+    doc: md:assets/immersiveengineering/manual/en_us/storage_minecarts.txt
+  # --- electronics and redstone
+  - id: ieg_circuits
+    deps: [ie_components]
+    roles: [engineer]
+    items: [immersiveengineering:electron_tube*4, immersiveengineering:circuit_board*2, immersiveengineering:component_electronic*2]
+    title: {ru: "Электроника", en: "Electronics"}
+    doc: md:assets/immersiveengineering/manual/en_us/crafting_components.txt
+    why: {ru: "Лампы и платы — для продвинутых машин, турелей и рельсотрона.", en: "Tubes and boards for advanced machines, turrets and the railgun."}
+  - id: ieg_logic
+    deps: [ieg_circuits]
+    roles: [engineer]
+    items: [immersiveengineering:circuit_table, immersiveengineering:logic_unit]
+    title: {ru: "Логический блок", en: "Logic Unit"}
+    doc: md:assets/immersiveengineering/manual/en_us/logic_unit.txt
+    why: {ru: "Программируемая схема: И/ИЛИ/НЕ и таймеры в одном блоке вместо простыни редстоуна.", en: "A programmable logic block."}
+  - id: ieg_redstone_wire
+    deps: [ie_wires]
+    roles: [engineer]
+    items: [immersiveengineering:wirecoil_redstone*4, immersiveengineering:redstone_timer]
+    title: {ru: "Редстоун по проводам", en: "Redstone Wiring"}
+    doc: md:assets/immersiveengineering/manual/en_us/redstone_wiring.txt
+  - id: ieg_lights
+    deps: [ie_wires]
+    roles: [builder]
+    items: [immersiveengineering:electric_lantern*4, immersiveengineering:floodlight]
+    title: {ru: "Освещение", en: "Engineered Lighting"}
+    doc: md:assets/immersiveengineering/manual/en_us/engineered_lighting.txt
+    why: {ru: "Прожектор освещает далёкую стену — мобы не спавнятся вокруг базы.", en: "Floodlights keep mobs from spawning."}
+  - id: ieg_tesla
+    deps: [ieg_capacitor_hv, ieg_circuits]
+    roles: [engineer, warrior]
+    items: [immersiveengineering:tesla_coil]
+    doc: md:assets/immersiveengineering/manual/en_us/tesla_coil.txt
+    why: {ru: "Катушка Теслы бьёт током всех врагов вокруг. Жрёт энергию и бьёт и своих без Фарадеевской брони.", en: "Shocks enemies around; wear Faraday armor yourself."}
+  - id: ieg_faraday
+    deps: [ieg_alloys]
+    roles: [engineer]
+    items: [immersiveengineering:armor_faraday_helmet, immersiveengineering:armor_faraday_chestplate, immersiveengineering:armor_faraday_leggings, immersiveengineering:armor_faraday_boots]
+    title: {ru: "Костюм Фарадея", en: "Faraday Suit"}
+    why: {ru: "Защищает от удара током проводов и катушек Теслы. Обязателен электрику на высоковольтной линии.", en: "Protects from wire and tesla shocks."}
+  # --- tools and weapons
+  - id: ieg_steel_tools
+    deps: [ie_steel]
+    roles: [warrior, engineer]
+    items: [immersiveengineering:pickaxe_steel, immersiveengineering:axe_steel, immersiveengineering:shovel_steel, immersiveengineering:sword_steel]
+    title: {ru: "Стальные инструменты", en: "Steel Tools"}
+    doc: md:assets/immersiveengineering/manual/en_us/basic_tools.txt
+    why: {ru: "Прочнее железных, по цене почти те же.", en: "Tougher than iron for about the same cost."}
+  - id: ieg_steel_armor
+    deps: [ie_steel]
+    roles: [warrior]
+    items: [immersiveengineering:armor_steel_helmet, immersiveengineering:armor_steel_chestplate, immersiveengineering:armor_steel_leggings, immersiveengineering:armor_steel_boots]
+    title: {ru: "Стальная броня IE", en: "IE Steel Armor"}
+    why: {ru: "Защита почти как у алмазной; в шлем можно встроить наушники от шума.", en: "Close to diamond; the helmet takes ear defenders."}
+  - id: ieg_earmuffs
+    deps: [ieg_steel_armor]
+    roles: [engineer]
+    items: [immersiveengineering:earmuffs]
+    doc: md:assets/immersiveengineering/manual/en_us/ear_defenders.txt
+  - id: ieg_shield
+    deps: [ie_steel]
+    roles: [warrior]
+    items: [immersiveengineering:shield]
+    doc: md:assets/immersiveengineering/manual/en_us/heavy_plated_shield.txt
+    why: {ru: "Тяжёлый щит с улучшениями: магнит возвращает его в руку, вспышка ослепляет, разряд бьёт атакующего.", en: "A heavy shield with flash, shock and magnet upgrades."}
+  - id: ieg_drill
+    deps: [ie_components]
+    roles: [engineer]
+    items: [immersiveengineering:drill, immersiveengineering:drillhead_steel]
+    title: {ru: "Горный бур", en: "Mining Drill"}
+    doc: md:assets/immersiveengineering/manual/en_us/mining_drill.txt
+    why: {ru: "Бур на дизеле копает 3×3. Улучшения: удача, ёмкость бака, смазка, работа под водой.", en: "A diesel drill that digs 3x3."}
+  - id: ieg_drill_upgrades
+    deps: [ieg_drill]
+    roles: [engineer]
+    items: [immersiveengineering:toolupgrade_drill_damage, immersiveengineering:toolupgrade_drill_capacity]
+    title: {ru: "Улучшения бура", en: "Drill Upgrades"}
+    why: {ru: "Усиленное сверло копает быстрее, увеличенный бак — дольше без дозаправки.", en: "Faster digging and a bigger fuel tank."}
+  - id: ieg_buzzsaw
+    deps: [ieg_drill]
+    roles: [engineer]
+    items: [immersiveengineering:buzzsaw, immersiveengineering:sawblade]
+    doc: md:assets/immersiveengineering/manual/en_us/buzzsaw.txt
+    why: {ru: "Циркулярная пила валит дерево целиком.", en: "Fells whole trees."}
+  - id: ieg_revolver_parts
+    deps: [ie_revolver]
+    roles: [warrior]
+    items: [immersiveengineering:speedloader, immersiveengineering:toolupgrade_revolver_magazine]
+    title: {ru: "Револьвер: апгрейды", en: "Revolver Upgrades"}
+    doc: md:assets/immersiveengineering/manual/en_us/revolver.txt
+    why: {ru: "Скорозарядник перезаряжает все 8 патронов разом, увеличенный барабан — больше выстрелов. Ещё есть штык и электро-апгрейд.", en: "Speedloader and extended magazine."}
+  - id: ieg_cartridges
+    deps: [ie_revolver]
+    roles: [warrior]
+    items: [immersiveengineering:bullet_casull*8, immersiveengineering:bullet_armor_piercing*8, immersiveengineering:bullet_buckshot*8]
+    title: {ru: "Патроны", en: "Cartridges"}
+    doc: md:assets/immersiveengineering/manual/en_us/revolver_cartridges.txt
+    why: {ru: "Гильзы печёт пресс (форма гильзы), пули — верстак. Бронебойные для бронированных, картечь — для толпы.", en: "Casings from the press; AP for armored foes, buckshot for crowds."}
+  - id: ieg_special_ammo
+    deps: [ieg_cartridges]
+    roles: [warrior]
+    items: [immersiveengineering:bullet_silver*4, immersiveengineering:bullet_dragons_breath*4, immersiveengineering:bullet_wolfpack*2]
+    title: {ru: "Особые патроны", en: "Special Cartridges"}
+    why: {ru: "Серебро — против нежити, «дыхание дракона» поджигает, «волчья стая» выпускает самонаводящиеся пули.", en: "Silver vs undead, dragon's breath burns, wolfpack homes."}
+  - id: ieg_chemthrower
+    deps: [ieg_pipes]
+    roles: [warrior]
+    items: [immersiveengineering:chemthrower]
+    doc: md:assets/immersiveengineering/manual/en_us/chemical_thrower.txt
+    why: {ru: "Распыляет любую жидкость: креозот горит, вода тушит пожар — пригодится при грозе с поджогами.", en: "Sprays any fluid: creosote burns, water puts out fires."}
+  - id: ieg_railgun
+    deps: [ieg_capacitor_hv, ieg_circuits]
+    roles: [warrior]
+    items: [immersiveengineering:railgun]
+    doc: md:assets/immersiveengineering/manual/en_us/railgun.txt
+    why: {ru: "Рельсотрон стреляет стальными стержнями насквозь. Самое мощное ручное оружие IE — против боссов.", en: "Fires steel rods; IE's strongest handheld weapon."}
+  - id: ieg_powerpack
+    deps: [ieg_capacitor_mv]
+    roles: [engineer, warrior]
+    items: [immersiveengineering:powerpack]
+    title: {ru: "Энергоранец", en: "Powerpack"}
+    doc: md:assets/immersiveengineering/manual/en_us/accumulator_backpack.txt
+    why: {ru: "Носи накопитель на спине — он заряжает рельсотрон, бур и щит прямо в бою.", en: "Charges your railgun, drill and shield on the go."}
+  - id: ieg_turrets
+    deps: [ieg_circuits, ie_revolver]
+    roles: [warrior, engineer]
+    items: [immersiveengineering:turret_gun]
+    title: {ru: "Турели", en: "Turrets"}
+    doc: md:assets/immersiveengineering/manual/en_us/turrets.txt
+    why: {ru: "Пулемётная турель стреляет патронами из револьвера по мобам — охрана периметра базы. Настрой белый список друзей!", en: "A gun turret for base defence. Whitelist your friends!"}
+  - id: ieg_razor
+    deps: [ie_steel]
+    roles: [warrior, builder]
+    items: [immersiveengineering:razor_wire*8]
+    doc: md:assets/immersiveengineering/manual/en_us/razor_wire.txt
+  - id: ieg_glider
+    deps: [ieg_hemp]
+    roles: [engineer]
+    items: [immersiveengineering:glider]
+    doc: md:assets/immersiveengineering/manual/en_us/collapsible_glider.txt
+    why: {ru: "Складной планер — элитры для тех, кто ещё не был в Энде.", en: "Elytra before the End."}
+  - id: ieg_skyhook_rope
+    deps: [ie_skyhook]
+    roles: [engineer]
+    items: [immersiveengineering:wirecoil_structure_steel*8]
+    doc: md:assets/immersiveengineering/manual/en_us/engineers_skyhook.txt
+    why: {ru: "Натяни стальные тросы между столбами — и катайся по ним на скайхуке между базами.", en: "Ride steel cables between bases."}
+  - id: ieg_wolf
+    deps: [ieg_circuits]
+    roles: [engineer, warrior]
+    items: [immersiveengineering:robot_wolf]
+    title: {ru: "Механический волк", en: "Automaton Wolf"}
+    doc: md:assets/immersiveengineering/manual/en_us/automaton_wolves.txt
+  - id: ieg_shaders
+    deps: [ie_revolver]
+    roles: [warrior]
+    icon: immersiveengineering:shader_bag_common
+    tasks: [{type: checkmark}]
+    title: {ru: "Шейдеры оружия", en: "Shaders"}
+    doc: md:assets/immersiveengineering/manual/en_us/shaders.txt
+    why: {ru: "Скины для револьвера, щита и машин. Выпадают из мешков, которые падают с боссов и продаются у инженеров-жителей.", en: "Skins for guns and machines, from bags dropped by bosses."}
+  - id: ieg_other_engineers
+    deps: [ieg_manual]
+    roles: [mayor]
+    icon: immersiveengineering:blueprint
+    tasks: [{type: checkmark}]
+    title: {ru: "Другие инженеры", en: "Other Engineers"}
+    doc: md:assets/immersiveengineering/manual/en_us/other_engineers.txt
+    why: {ru: "В деревнях живут жители-инженеры: продают чертежи, патроны и шейдеры. В диких землях встречаются вражеские иллагеры с оружием IE.", en: "Engineer villagers trade blueprints, ammo and shaders."}
+  - id: ieg_master
+    deps: [ieg_railgun, ieg_improved_bf, ieg_lightning, ieg_refinery, ieg_assembler, ieg_turrets, ieg_tesla, ieg_concrete]
+    roles: [engineer]
+    shape: hexagon
+    icon: immersiveengineering:railgun
+    title: {ru: "Главный инженер", en: "Chief Engineer"}
+    text: {ru: "Высоковольтные магистрали, громоотвод, биодизель с фермы, турели по периметру и рельсотрон за спиной. Справочник инженера тебе больше не нужен — теперь ты пишешь его сам.", en: "HV lines, lightning, biodiesel, turrets and a railgun."}
+    rewards: [{type: xp_levels, count: 15}]

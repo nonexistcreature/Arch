@@ -1,0 +1,351 @@
+# Create: texts from Ponder scenes (all 167 translated to Russian) and item tooltip summaries.
+extends: create
+lang: [create]
+autodoc: ["item.{ns}.{path}.tooltip.summary", "block.{ns}.{path}.tooltip.summary"]
+out: create_gen
+quests:
+  # --- rotation basics
+  - id: cg_hand_crank
+    deps: [c_alloy]
+    roles: [engineer]
+    items: [create:hand_crank]
+    doc: ponder:hand_crank
+  - id: cg_cogs
+    deps: [c_wheel]
+    roles: [engineer]
+    items: [create:large_cogwheel*2, create:cogwheel*4]
+    title: {ru: "Передаточное число", en: "Gear Ratios"}
+    doc: ponder:cog_speedup
+    why: {ru: "Большая шестерня к малой — вдвое быстрее, но и нагрузка вдвое выше. Скорость не бесплатна.", en: "Large to small doubles speed but also stress."}
+  - id: cg_gearbox
+    deps: [c_wheel]
+    roles: [engineer]
+    items: [create:gearbox, create:encased_chain_drive*2]
+    doc: ponder:gearbox
+    doc2: ponder:chain_drive
+  - id: cg_large_wheel
+    deps: [c_wheel]
+    roles: [engineer]
+    items: [create:large_water_wheel]
+    doc: ponder:large_water_wheel
+  - id: cg_windmill
+    deps: [c_wheel]
+    roles: [engineer]
+    items: [create:windmill_bearing, create:white_sail*16]
+    title: {ru: "Ветряная мельница", en: "Windmill"}
+    doc: ponder:windmill_structure
+    why: {ru: "Чем больше парусов, тем сильнее мельница. Работает везде, даже без реки.", en: "More sails, more power — works anywhere."}
+  - id: cg_stress
+    deps: [c_goggles]
+    roles: [engineer]
+    items: [create:speedometer, create:stressometer]
+    title: {ru: "Скорость и нагрузка", en: "Speed and Stress"}
+    doc: ponder:stressometer
+    why: {ru: "Если сеть встала — посмотри стрессометр. Каждая машина ест «нагрузку», генераторы её дают.", en: "If the network stops, check the stressometer."}
+  - id: cg_gearshift_seq
+    deps: [c_gearshift]
+    roles: [engineer]
+    items: [create:sequenced_gearshift, create:rotation_speed_controller]
+    doc: ponder:sequenced_gearshift
+    doc2: ponder:rotation_speed_controller
+  - id: cg_steam_boiler
+    deps: [c_steam]
+    roles: [engineer]
+    items: [create:blaze_burner*4, create:fluid_tank*9]
+    title: {ru: "Паровой котёл", en: "Steam Boiler"}
+    doc: ponder:steam_engine
+    doc2: ponder:blaze_burner
+    why: {ru: "Котёл 3×3 из баков с горелками всполохов даёт столько силы, сколько не дадут сто колёс. Корми горелки — или дай им торт всполоха.", en: "A 3x3 tank boiler with blaze burners powers a factory."}
+  - id: cg_blaze_cake
+    deps: [cg_steam_boiler]
+    roles: [engineer, cook]
+    items: [create:blaze_cake]
+    why: {ru: "Торт всполоха перегревает горелку: нужно для перегретых рецептов в смесителе и котла высокого уровня.", en: "Superheats a burner for superheated recipes."}
+  - id: cg_whistle
+    deps: [c_steam]
+    roles: [engineer]
+    items: [create:steam_whistle]
+    doc: ponder:steam_whistle
+  # --- movement
+  - id: cg_piston
+    deps: [c_contraption]
+    roles: [engineer, builder]
+    items: [create:mechanical_piston, create:piston_extension_pole*8]
+    doc: ponder:mechanical_piston
+  - id: cg_gantry
+    deps: [cg_piston]
+    roles: [engineer]
+    items: [create:gantry_carriage, create:gantry_shaft*8]
+    doc: ponder:gantry_shaft
+  - id: cg_rope_pulley
+    deps: [cg_piston]
+    roles: [engineer, builder]
+    items: [create:rope_pulley]
+    doc: ponder:rope_pulley
+  - id: cg_chassis
+    deps: [c_contraption]
+    roles: [engineer]
+    items: [create:linear_chassis*4, create:radial_chassis*2]
+    title: {ru: "Шасси", en: "Chassis"}
+    doc: ponder:linear_chassis_group
+    doc2: ponder:radial_chassis
+  - id: cg_sticker
+    deps: [c_contraption]
+    roles: [engineer]
+    items: [create:sticker]
+    doc: ponder:sticker
+  - id: cg_clockwork
+    deps: [c_contraption, c_brass]
+    roles: [engineer, builder]
+    items: [create:clockwork_bearing]
+    doc: ponder:clockwork_bearing
+    why: {ru: "Механические часы: стрелки на башне ратуши показывают время мира.", en: "Clock hands for your town hall tower."}
+  - id: cg_cart_assembler
+    deps: [c_contraption]
+    roles: [engineer]
+    items: [create:cart_assembler]
+    doc: ponder:cart_assembler
+  - id: cg_controls
+    deps: [c_drill]
+    roles: [engineer]
+    items: [create:contraption_controls]
+    doc: ponder:contraption_controls
+  - id: cg_plough
+    deps: [c_harvester]
+    roles: [gardener, engineer]
+    items: [create:mechanical_plough]
+    doc: ponder:mechanical_plough
+  - id: cg_roller
+    deps: [c_contraption]
+    roles: [builder]
+    items: [create:mechanical_roller]
+    doc: ponder:mechanical_roller_pave
+    why: {ru: "Каток на поезде или подшипнике сам мостит дороги и засыпает ямы.", en: "Paves roads and fills holes as it moves."}
+  - id: cg_psi
+    deps: [c_drill]
+    roles: [engineer]
+    items: [create:portable_storage_interface*2]
+    doc: ponder:portable_storage_interface
+    why: {ru: "Разгружает бур или поезд в сундуки на станции — без этого добыча копится внутри.", en: "Unloads a moving drill or train at a station."}
+  # --- item logistics
+  - id: cg_arm
+    deps: [c_brass]
+    roles: [engineer]
+    items: [create:mechanical_arm]
+    doc: ponder:mechanical_arm
+    doc2: ponder:mechanical_arm_modes
+  - id: cg_ejector
+    deps: [c_depot]
+    roles: [engineer]
+    items: [create:weighted_ejector]
+    doc: ponder:weighted_ejector
+  - id: cg_brass_funnel
+    deps: [c_funnels_chutes, c_brass]
+    roles: [engineer]
+    items: [create:brass_funnel*2, create:brass_tunnel*2]
+    doc: ponder:brass_funnel
+    doc2: ponder:brass_tunnel_modes
+  - id: cg_smart_chute
+    deps: [c_funnels_chutes, c_brass]
+    roles: [engineer]
+    items: [create:smart_chute]
+    doc: ponder:smart_chute
+  - id: cg_filters
+    deps: [c_funnels_chutes]
+    roles: [engineer]
+    items: [create:filter, create:attribute_filter]
+    title: {ru: "Фильтры", en: "Filters"}
+    why: {ru: "Фильтр в воронке или туннеле пропускает только нужное. Фильтр атрибутов — по свойствам: «всё, что плавится», «вся еда».", en: "Filters let only matching items through."}
+  - id: cg_crafting_blueprint
+    deps: [c_deployer]
+    roles: [engineer]
+    items: [create:crafting_blueprint]
+  - id: cg_chain_conveyor
+    deps: [c_logistics]
+    roles: [engineer]
+    items: [create:chain_conveyor*2, create:package_frogport]
+    doc: ponder:chain_conveyor
+    doc2: ponder:package_frogport
+  - id: cg_postbox
+    deps: [c_logistics]
+    roles: [engineer, mayor]
+    items: [create:white_postbox]
+    doc: ponder:postbox
+    why: {ru: "Почтовый ящик у станции: поезда сами забирают и доставляют посылки между городами.", en: "Trains carry packages between postboxes."}
+  - id: cg_requester
+    deps: [c_logistics]
+    roles: [engineer]
+    items: [create:redstone_requester, create:stock_link]
+    doc: ponder:redstone_requester
+  - id: cg_factory_gauge
+    deps: [c_logistics]
+    roles: [engineer]
+    items: [create:factory_gauge*2]
+    doc: ponder:factory_gauge_recipe
+    doc2: ponder:factory_gauge_restocker
+    why: {ru: "Табло фабрики само заказывает ингредиенты со склада и держит запас готовой продукции. Сердце автоматизации Create 6.", en: "Orders ingredients and keeps stock. The heart of Create 6 automation."}
+  - id: cg_table_cloth
+    deps: [c_logistics]
+    roles: [mayor, cook]
+    items: [create:white_table_cloth*2]
+    doc: ponder:table_cloth
+    why: {ru: "Прилавок магазина: игроки покупают товары со склада без твоего участия.", en: "A shop counter that sells from your stock."}
+  # --- fluids
+  - id: cg_hose
+    deps: [c_pipes]
+    roles: [engineer]
+    items: [create:hose_pulley]
+    doc: ponder:hose_pulley
+    doc2: ponder:hose_pulley_infinite
+  - id: cg_smart_pipe
+    deps: [c_pipes]
+    roles: [engineer]
+    items: [create:smart_fluid_pipe, create:fluid_valve]
+    doc: ponder:smart_pipe
+  - id: cg_pfi
+    deps: [c_pipes, c_contraption]
+    roles: [engineer]
+    items: [create:portable_fluid_interface*2]
+    doc: ponder:portable_fluid_interface
+  # --- redstone
+  - id: cg_link
+    deps: [c_brass]
+    roles: [engineer]
+    items: [create:redstone_link*2]
+    doc: ponder:redstone_link
+    why: {ru: "Беспроводной редстоун: две ссылки с одинаковыми предметами-частотами связаны на расстоянии.", en: "Wireless redstone."}
+  - id: cg_redstone_kit
+    deps: [cg_link]
+    roles: [engineer]
+    items: [create:pulse_repeater, create:pulse_extender, create:powered_latch, create:analog_lever]
+    title: {ru: "Набор логики Create", en: "Create Logic Kit"}
+    doc: ponder:pulse_extender
+  - id: cg_observers
+    deps: [c_brass]
+    roles: [engineer]
+    items: [create:content_observer, create:stockpile_switch]
+    title: {ru: "Умные наблюдатели", en: "Smart Observers"}
+    doc: ponder:smart_observer
+    doc2: ponder:threshold_switch
+  - id: cg_nixie
+    deps: [c_display]
+    roles: [builder]
+    items: [create:nixie_tube*4]
+    doc: ponder:nixie_tube
+  - id: cg_linked_controller
+    deps: [cg_link]
+    roles: [engineer]
+    items: [create:linked_controller]
+    why: {ru: "Пульт управления: кнопки шлют сигналы в redstone-ссылки — рули машинами издали.", en: "A remote that drives redstone links."}
+  # --- materials and gear
+  - id: cg_zinc
+    deps: [c_alloy]
+    roles: [engineer]
+    items: [create:raw_zinc*8]
+    title: {ru: "Цинк", en: "Zinc"}
+    why: {ru: "Цинк + медь = латунь. Цинк в горах и глубоко под землёй, дробилка удвоит его.", en: "Zinc + copper = brass."}
+  - id: cg_rose_quartz
+    deps: [c_brass]
+    roles: [engineer]
+    items: [create:polished_rose_quartz*4, create:sand_paper]
+    title: {ru: "Розовый кварц", en: "Rose Quartz"}
+    why: {ru: "Кварц + редстоун, отполированный наждачкой. Из него электронные лампы — для умных машин.", en: "Polished rose quartz makes electron tubes."}
+  - id: cg_sturdy
+    deps: [c_press]
+    roles: [engineer]
+    items: [create:sturdy_sheet*2]
+    why: {ru: "Прочный лист из обсидиановой пыли — для ног поезда и пушек.", en: "Obsidian sheets for train parts and cannons."}
+  - id: cg_haunting
+    deps: [c_fan]
+    roles: [engineer, mage]
+    icon: minecraft:soul_campfire
+    tasks: [{type: checkmark}]
+    title: {ru: "Призрачная обработка", en: "Haunting"}
+    doc: ponder:fan_processing
+    why: {ru: "Вентилятор через огонь душ «зачаровывает» предметы: светящиеся чернила, кварц, душевой песок и камни незера.", en: "A fan through soul fire haunts items."}
+  - id: cg_netherite_diving
+    deps: [c_backtank]
+    roles: [engineer, warrior]
+    items: [create:netherite_backtank, create:netherite_diving_helmet, create:netherite_diving_boots]
+    title: {ru: "Незеритовое снаряжение", en: "Netherite Diving Gear"}
+    why: {ru: "Защищает от лавы: плавай в ней, пока в баллоне есть воздух. Для экспедиций в Незер.", en: "Swim in lava while the tank has air."}
+  - id: cg_cardboard
+    deps: [c_logistics]
+    roles: [warrior]
+    items: [create:cardboard_helmet, create:cardboard_chestplate, create:cardboard_leggings, create:cardboard_boots]
+    title: {ru: "Картонные доспехи", en: "Cardboard Armor"}
+    why: {ru: "Защиты почти нет, но в полном комплекте ты — коробка, и мобы тебя не замечают, если стоишь на месте.", en: "Barely protects, but mobs ignore a crouching box."}
+  - id: cg_symmetry
+    deps: [c_brass]
+    roles: [builder]
+    items: [create:wand_of_symmetry]
+    why: {ru: "Строишь одну половину — вторая появляется зеркально. Для замков и храмов.", en: "Build one half, the other mirrors."}
+  - id: cg_tree_fert
+    deps: [c_mixer]
+    roles: [gardener]
+    items: [create:tree_fertilizer*4]
+  - id: cg_builders_tea
+    deps: [c_mixer]
+    roles: [cook, builder]
+    items: [create:builders_tea*2]
+  - id: cg_schematic_quill
+    deps: [c_schematic]
+    roles: [builder]
+    items: [create:schematic_and_quill, create:schematic_table]
+    why: {ru: "Пером сохраняешь своё здание в схему, пушка схем строит его заново где угодно. Поделись домом с соседом!", en: "Save a build to a schematic and rebuild it anywhere."}
+  - id: cg_copycat
+    deps: [c_brass]
+    roles: [builder]
+    items: [create:copycat_panel*8, create:copycat_step*8]
+  - id: cg_seats
+    deps: [c_contraption]
+    roles: [builder]
+    items: [create:white_seat*4]
+    why: {ru: "Сиденья ездят вместе с механизмами: посади друзей в свой поезд или карусель. Моб на сиденье никуда не уйдёт.", en: "Seats ride along on contraptions; a mob on a seat stays put."}
+  - id: cg_clock
+    deps: [c_brass]
+    roles: [builder]
+    items: [create:cuckoo_clock]
+  - id: cg_bells
+    deps: [cg_haunting]
+    roles: [mage]
+    items: [create:peculiar_bell, create:haunted_bell]
+    why: {ru: "Проклятый колокол подсвечивает места, где могут появиться мобы, — проверь, безопасна ли база.", en: "The haunted bell shows where mobs can spawn."}
+  - id: cg_clipboard
+    deps: [c_goggles]
+    roles: [engineer, mayor]
+    items: [create:clipboard]
+  # --- trains
+  - id: cg_train_assembly
+    deps: [c_train_track]
+    roles: [engineer]
+    tasks: [{type: checkmark}]
+    icon: create:railway_casing
+    title: {ru: "Сборка поезда", en: "Train Assembly"}
+    doc: ponder:train_assembly
+  - id: cg_train_schedule
+    deps: [c_train_run]
+    roles: [engineer]
+    items: [create:schedule]
+    doc: ponder:train_schedule
+    doc2: ponder:auto_schedule
+  - id: cg_train_portal
+    deps: [c_train_run]
+    roles: [engineer]
+    icon: minecraft:obsidian
+    tasks: [{type: dimension, dimension: minecraft:the_nether}]
+    title: {ru: "Поезд в Незер", en: "Train to the Nether"}
+    doc: ponder:track_portal
+  - id: cg_track_observer
+    deps: [c_signals]
+    roles: [engineer]
+    items: [create:track_observer]
+    doc: ponder:track_observer
+  - id: cg_master
+    deps: [cg_factory_gauge, cg_steam_boiler, cg_train_portal, cg_chain_conveyor, cg_arm, cg_gantry, cg_netherite_diving, cg_postbox]
+    roles: [engineer]
+    shape: hexagon
+    icon: create:precision_mechanism
+    title: {ru: "Инженер Create", en: "Create Engineer"}
+    text: {ru: "Котёл на всполохах, фабрика с табло, поезда сквозь Незер и почта между городами. Шестерёнки крутятся — мир двигается.", en: "Boilers, factory gauges, trains through the Nether and mail between towns."}
+    rewards: [{type: xp_levels, count: 15}]

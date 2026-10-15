@@ -8,7 +8,8 @@ markdown pages for English-only guides such as AE2), so quests cover what the mo
 Spec format:
   extends: ars                      # chapter to add to (or `chapter: {...}` like quests_src files)
   lang: [ars_nouveau]               # namespaces whose lang files are read (jar assets)
-  autodoc: description              # optional: quests without doc use <autodoc>.<ns>.<first item path>
+  autodoc: description              # optional: quests without doc use <autodoc>.<ns>.<first item path>;
+                                    # or a list of templates like "item.{ns}.{path}.tooltip.summary"
   out: ars_gen                      # output file name (quests_src/more/<out>.yaml)
   quests:
     - id: ars_turret                # unique
@@ -16,7 +17,7 @@ Spec format:
       items: [ars_nouveau:basic_spell_turret, "minecraft:redstone*4"]   # item tasks (id*count); none -> checkmark
       tasks: [...]                  # extra raw tasks (kill, structure, ...)
       icon: ...                     # default: first item
-      doc: page1.basic_spell_turret # lang key (relative to the first lang namespace) or md:<path inside a jar>
+      doc: page1.basic_spell_turret # lang key (relative to the first lang namespace), md:<path inside a jar> or ponder:<scene>
       doc2: ...                     # optional second paragraph
       why: {ru: "...", en: "..."}   # optional first line (written by us)
       text: {ru: "...", en: "..."}  # optional closing paragraph (written by us)
@@ -58,6 +59,7 @@ def lang_for(namespaces):
 def clean(t, limit=700):
     t = FMT.sub("", t or "").replace("\\n", NL).replace('\\"', '"').strip()
     t = re.sub(r"\n{3,}", NL + NL, t)
+    t = re.sub(r"(?<!\w)_([^_\n]+)_(?!\w)", r"\1", t)  # Create tooltip highlight markup
     if len(t) > limit:
         cut = t[:limit]
         t = cut[:max(cut.rfind(". "), cut.rfind("." + NL), limit // 2) + 1].strip()
@@ -75,7 +77,9 @@ def md_doc(path, limit=650):
                     s = z.read(path).decode("utf8", "replace").replace("\r", "")
             except zipfile.BadZipFile:
                 continue
-            s = re.sub(r"^---.*?---", "", s, flags=re.S)
+            if path.endswith(".txt"):  # Immersive Engineering manual: title, subtitle, then text with <br> and <&anchors>
+                s = (NL + NL).join(s.split(NL)[2:]).replace("<br>", NL + NL)
+            s = re.sub(r"<link;[^;>]*;([^>]*)>", lambda m: m.group(1), s).replace("<np>", NL + NL)
             s = re.sub(r'<ItemLink id="([^"]+)"[^>]*>', lambda m: m.group(1).split(":")[-1].replace("_", " "), s)
             s = re.sub(r"<[^>]+>", "", s)
             s = re.sub(r"\[([^\]]+)\]\([^)]*\)", lambda m: m.group(1), s)
@@ -115,6 +119,10 @@ def main():
                     return ""
                 if key.startswith("md:"):  # guide markdown is English-only
                     return md_doc(key[3:]) if lang is en else ""
+                if key.startswith("ponder:"):  # Create-style ponder scene: its lines text_1..text_N, joined
+                    scene = f"{ns[0]}.ponder.{key[7:]}"
+                    lines = [clean(lang[f"{scene}.text_{i}"], 300) for i in range(1, 9) if f"{scene}.text_{i}" in lang]
+                    return clean(" ".join(x if x.endswith((".", "!", "?")) else x + "." for x in lines), 600)
                 full = key if (key.split(".")[0] in ns or key.startswith(("book.", "item.", "block.", "entity.", "tooltip.", "description.", "advancements.", "info.", "guide."))) else f"{ns[0]}.{key}"
                 alts = [full, full.replace(".page1.", ".page."), full.replace(".page.", ".page1.")]
                 return next((clean(lang[a]) for a in alts if len(lang.get(a, "")) > 12), "")
@@ -139,10 +147,10 @@ def main():
                     missing.append(f"{q['id']}({loc}): {q['doc']}")
                 if not q.get("doc") and spec.get("autodoc") and first:  # e.g. autodoc: description -> description.<ns>.<path>
                     fns, fp = first.split(":", 1)
-                    for v in (fp, re.sub(r"^(module_|basic_|advanced_|elite_|ultimate_)", "", fp)):
-                        d1 = doc(f"{spec['autodoc']}.{fns}.{v}", lang) or (doc(f"{spec['autodoc']}.{fns}.{v}", fb) if fb else "")
-                        if d1:
-                            break
+                    ad = spec["autodoc"] if isinstance(spec["autodoc"], list) else [spec["autodoc"]]
+                    keys = [(t if "{" in t else t + ".{ns}.{path}").format(ns=fns, path=v) for t in ad
+                            for v in (fp, re.sub(r"^(module_|basic_|advanced_|elite_|ultimate_)", "", fp))]
+                    d1 = next((x for x in (doc(k, lang) or (doc(k, fb) if fb else "") for k in keys) if x), "")
                 body += [x for x in (d1, d2) if x]
                 extra = (q.get("text") or {}).get(loc)
                 if extra:
