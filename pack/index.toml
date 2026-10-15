@@ -326,7 +326,7 @@ hash = "d12b9e8a638faa5c4159eb4a7d1837e8e4d3afd6247fa8b524f120fb590da73b"
 
 [[files]]
 file = "kubejs/server_scripts/06_pregen.js"
-hash = "0e8b5756e76f36f20f974fd194f350adec99da38f2062e6c3aeb43064ffc56cb"
+hash = "75baea902bce70ff1f2989b7882fc43f393a9e8c79a7e1c40bd203d3db6f103e"
 
 [[files]]
 file = "kubejs/server_scripts/10_welcome.js"
