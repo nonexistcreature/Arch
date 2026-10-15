@@ -8,3 +8,4 @@ tests/client_run/
 PrismLauncher-11.0.3/
 PrismLauncher-Windows-MSVC-Setup-*.exe
 *.jar.log
+__pycache__/

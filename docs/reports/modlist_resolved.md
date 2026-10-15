@@ -1,6 +1,6 @@
 # modlist_resolved (авто, tools/resolve_pack.py)
 
-Всего: **254** (явных: 203, зависимостей: 51)
+Всего: **261** (явных: 208, зависимостей: 53)
 
 | slug | название | версия | тип | сторона | волна | роль | обновлён |
 |---|---|---|---|---|---|---|---|
@@ -33,6 +33,7 @@
 | botany-pots | Botany Pots | 21.1.44 | release | both | 2 | садоводство | 2026-06-13 |
 | brewin-and-chewin | Brewin' And Chewin' | 4.5.0+1.21.1-neoforge | release | both | 2 | напитки | 2026-06-24 |
 | c2me-neoforge | Concurrent Chunk Management Engine (NeoForge) | 0.4.0-alpha.0.123+1.21.1 | alpha | both | 1 | многопоточные чанки | 2026-10-11 |
+| carbon-config | Carbon Config | 2.0.2.1 | release | both | 11 | зависимость create-droneworks-simulated | 2026-05-20 |
 | carry-on | Carry On | 2.2.6 | release | both | 2 | QoL | 2026-07-26 |
 | chat-heads | Chat Heads | 0.15.7 | release | client | 8 | UI | 2026-08-13 |
 | citadel-1.21.1-port | Citadel (Unofficial Port) | 2.7.6 | release | both | 3 | зависимость alexs-mobs-1.21.1 | 2026-04-25 |
@@ -47,13 +48,14 @@
 | coroutil | CoroUtil | 1.21.0-1.3.8 | release | both | 9 | либа Weather2 | 2024-09-14 |
 | crash-assistant | Crash Assistant | 1.11.12 | release | client | 1 | краши | 2026-08-13 |
 | create-aeronautics | Create Aeronautics | 1.3.2+mc1.21.1 | release | both | 4 | самолёты | 2026-08-29 |
-| create-aeronautics-automated-logistics | Create Aeronautics: Automated Logistics | 0.6.2 | release | both | 4 | логистика | 2026-08-18 |
+| create-aeronautics-automated-logistics | Create Aeronautics: Automated Logistics | 0.7.0 | release | both | 4 | логистика | 2026-10-14 |
 | create-big-cannons | Create Big Cannons | 5.11.7 | release | both | 4 | пушки | 2026-06-22 |
 | create-central-kitchen | Create: Central Kitchen | 2.6.2b | release | both | 4 | кухня+Create | 2026-10-09 |
 | create-confectionery | Create Confectionery | 1.1.3.b | release | both | 4 | сладости | 2026-08-15 |
 | create-connected | Create: Connected | 1.3.3-mc1.21.1 | release | both | 4 | Create | 2026-08-31 |
 | create-deco | Create Deco | 2.1.3 | release | both | 4 | декор | 2026-04-18 |
 | create-dragons-plus | Create: Dragons Plus | 1.11.9 | release | both | 4 | зависимость create-enchantment-industry | 2026-09-17 |
+| create-droneworks-simulated | Create: Droneworks Simulated | 0.1.1 | alpha | both | 11 | FPV-дроны на физике Aeronautics [beta] | 2026-07-09 |
 | create-enchantment-industry | Create: Enchantment Industry | 2.5.4b | beta | both | 4 | зачарование | 2026-10-09 |
 | create-grappling-hooks | Create Grappling Hooks | 1.2.0 | beta | both | 7 | крюки | 2026-06-15 |
 | create-jetpack | Create Jetpack | 5.2.1 | release | both | 4 | полёт | 2026-07-31 |
@@ -94,6 +96,7 @@
 | euphoria-patches | Euphoria Patches | 1.10.5-r5.9.3-neoforge | release | client | 10 | шейдеры | 2026-09-15 |
 | explorify | Explorify | v1.6.5 | release | both | 2 | структуры | 2026-05-13 |
 | extended-ae | Extended AE | 1.21-2.2.35-neoforge | release | both | 5 | AE2 | 2026-08-08 |
+| extreme-reactors | Extreme Reactors | 1.21.1-2.4.9 | release | both | 11 | реакторы (Big Reactors) без загрязнения | 2024-09-18 |
 | falling-leaves | Falling Leaves | 1.0 | release | client | 10 | листья | 2025-10-05 |
 | fancymenu | FancyMenu | 3.9.14-1.21.1-neoforge | release | both | 4 | меню | 2026-09-28 |
 | farmers-delight | Farmer's Delight | 1.21.1-1.3.4 | release | both | 2 | еда | 2026-08-29 |
@@ -163,7 +166,7 @@
 | mekanism-tools | Mekanism Tools | 10.7.19.85 | release | both | 5 | инструменты | 2026-04-10 |
 | melody | Melody | 1.0.10-1.21-neoforge | release | both | 4 | зависимость fancymenu | 2024-06-21 |
 | mezzconfig | MezzConfig | 0.6.8 | beta | both | 1 | зависимость jei | 2026-10-03 |
-| midnightlib | MidnightLib | 1.9.3+1.21.1-neoforge | release | both | 1 | зависимость cull-leaves | 2026-05-02 |
+| midnightlib | MidnightLib | 1.10.0+1.21.1-neoforge | release | both | 1 | зависимость cull-leaves | 2026-10-14 |
 | modelfix | Model Gap Fix | 1.21-1.10 | release | client | 1 | визуал | 2024-08-03 |
 | modernfix | ModernFix | 5.27.26+mc1.21.1 | release | both | 1 | загрузка/ОЗУ | 2026-10-08 |
 | modonomicon | Modonomicon | 1.21.1-1.120.7 | release | both | 6 | зависимость occultism | 2026-09-25 |
@@ -212,6 +215,7 @@
 | simply-tooltips | Simply Tooltips | 0.1.5 | release | both | 7 | зависимость simply-swords | 2026-08-23 |
 | skills | Pufferfish's Skills | 0.19.2 | beta | both | 7a | зависимость irons-spells-n-spellbooks-dynamic-skill-trees | 2026-10-08 |
 | slice-and-dice | Create Slice & Dice | 4.3.4 | release | both | 2 | автоматизация еды | 2026-09-20 |
+| small-ships | Small Ships | 2.0.1-NeoForge | release | both | 11 | парусные корабли с пушками | 2026-10-12 |
 | smartbrainlib | SmartBrainLib | 1.16.11 | release | both | 6 | зависимость occultism | 2025-10-01 |
 | sodium | Sodium | mc1.21.1-0.8.13-neoforge | release | client | 1 | FPS | 2026-08-28 |
 | sodium-extra | Sodium Extra | mc1.21.1-0.9.4+neoforge | release | client | 1 | FPS | 2026-09-16 |
@@ -226,6 +230,8 @@
 | subtle-effects | Subtle Effects | 1.15.1 | release | both | 10 | частицы | 2026-10-12 |
 | supplementaries | Supplementaries | 1.21.1-4.0.1 | release | both | 2 | декор | 2026-10-11 |
 | supplementaries-squared | Supplementaries Squared | 1.21-1.2.18 | release | both | 2 | декор | 2026-06-17 |
+| tacz-1.21.1 | [UNOFFICIAL] TaCZ 1.21.1 NeoForge Port | 1.1.8-hotfix-r7 | release | both | 11 | огнестрел (перенесён с CurseForge на Modrinth) | 2026-10-01 |
+| tacz-npcs | [TACZ] NPCs | 2.1.0 | release | both | 11 | стрелки-NPC: враги в опасных зонах, лут | 2026-07-12 |
 | tectonic | Tectonic | 3.0.28-neoforge-21.1 | release | both | 2 | рельеф | 2026-09-11 |
 | terrablender | TerraBlender | 4.1.0.8 | beta | both | 2 | зависимость deep-aether | 2025-01-05 |
 | terralith | Terralith | 2.6.2 | release | both | 2 | биомы | 2026-06-09 |
@@ -258,3 +264,4 @@
 | yungs-better-witch-huts | YUNG's Better Witch Huts | 1.21.1-NeoForge-4.1.1 | release | server | 2 | хижины | 2024-10-14 |
 | yungs-bridges | YUNG's Bridges | 1.21.1-NeoForge-5.1.1 | release | server | 2 | мосты | 2024-10-14 |
 | yungs-extras | YUNG's Extras | 1.21.1-NeoForge-5.1.1 | release | server | 2 | структуры | 2024-10-14 |
+| zerocore | ZeroCore | 1.21.1-2.4.9 | release | both | 11 | зависимость extreme-reactors | 2024-09-18 |
