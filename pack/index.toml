@@ -421,6 +421,10 @@ file = "kubejs/server_scripts/66_progression_gates.js"
 hash = "c11f7b38713be52de96e3c304a7750b5ff5bd441410dde2958022de95930d212"
 
 [[files]]
+file = "kubejs/server_scripts/67_ars_light_fix.js"
+hash = "7d061eb60c5379196188ad2728108ff58c9385fdb3f360721c4824a8f5276ebc"
+
+[[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
 hash = "8dc1402880ae63a6efd6e17c9fca5c239e85399278c370720a4ace503bb6d938"
 
