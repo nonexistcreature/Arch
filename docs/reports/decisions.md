@@ -101,3 +101,8 @@ JRE (в установщике и у игроков) не может запус�
 - Chunky (только сервер). `kubejs/server_scripts/06_pregen.js`: верхний мир, квадрат радиусом 2000 блоков вокруг спавна, генерация идёт только когда на сервере никого нет (кто-то зашёл — пауза). Прогресс сохраняется между перезапусками. `/arkpregen done` выключает автоматику.
 - Почему 2000, а не больше: на диске владельца ~32 ГБ свободно, а бэкап делается каждый час. Альтернатива — радиус 4000–5000 (несколько ГБ мира) при переносе бэкапов на другой диск.
 - `backup.ps1`: если свободно меньше 15 ГБ, удаляются самые старые бэкапы (три последних не трогаются никогда).
+
+## 2026-10-16 — Волна 12: алкоголь, аддоны Create, видеоэкраны
+- Алкоголь (по просьбе владельца — «разных самых»): к Brewin' and Chewin', Vinery, HerbalBrews добавлены Kaleidoscope Tavern + World Liquor (таверна с системой пивоварения), Create: Alcohol Industry (крепкий алкоголь машинами Create), Drink Beer Refill (бар и бартер). Правило «один мод на категорию» здесь сознательно нарушено: моды дают разные цепочки (кег, бочки таверны, машины Create, бар), без пересечения рецептов.
+- Аддоны Create: Garnished, Mechanical Extruder, Tweaked Controllers, Structures Arise, Enchantable Machinery, Integrated Farming, Design n' Decor, Radars, Mobile Packages, Trading Floor, Pattern Schematics. Не взяты (дубли): New Age (ток уже в Crafts & Additions), Diesel Generators (TFMG), Stuff Additions (джетпак есть), Ore Excavation/Ironworks (жилы и сталь в IE/Mekanism).
+- Видео: WaterFrames 2.1.23 + WATERMeDIA 2.1.37 + YouTube Extension 2.1.2, обе библиотеки закреплены (`pin`): 3.0 — бета с изменённым API. WATERViSION (альфа, необязательна с WaterFrames 2.1.21) не ставится. Create переведён с CurseForge на Modrinth (тот же 6.0.10).

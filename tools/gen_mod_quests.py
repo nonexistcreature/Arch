@@ -126,7 +126,8 @@ def main():
                 if key.startswith("md:"):  # guide pages: English, or a ru_ru copy of the page when the mod ships one
                     return md_doc(key[3:]) if lang is en else md_doc(key[3:].replace("/en_us/", "/ru_ru/")) if "/en_us/" in key else ""
                 if key.startswith("ponder:"):  # Create-style ponder scene: its lines text_1..text_N, joined
-                    scene = f"{ns[0]}.ponder.{key[7:]}"
+                    sns, _, sname = key[7:].rpartition(":")  # ponder:<scene> or ponder:<namespace>:<scene>
+                    scene = f"{sns or ns[0]}.ponder.{sname}"
                     lines = [clean(lang[f"{scene}.text_{i}"], 300) for i in range(1, 9) if f"{scene}.text_{i}" in lang]
                     return clean(" ".join(x if x.endswith((".", "!", "?")) else x + "." for x in lines), 600)
                 full = key if (key.split(".")[0] in ns or key.startswith(("book.", "item.", "block.", "entity.", "tooltip.", "description.", "advancements.", "advancement.", "info.", "guide.", "spell.", "effect.", "com."))) else f"{ns[0]}.{key}"

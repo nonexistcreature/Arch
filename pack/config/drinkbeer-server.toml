@@ -1,0 +1,13 @@
+#Saturation modifier used by ordinary and mixed beer.
+#The improved default is 0.1. Set to 0.0 for exact upstream 4.0 no-saturation behavior.
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+beerSaturationModifier = 0.1
+#Allow Stormy and Drying mixed-beer flavors to modify blocks in the world.
+#Disable this on protected or adventure-focused servers to prevent flavor-based griefing.
+enableWorldChangingFlavorEffects = false
+#Maximum blocks that one mixed beer may destroy or remove.
+#Unloaded chunks are never loaded by a flavor effect. Set to 0 to suppress block changes.
+# Default: 4096
+# Range: 0 ~ 32768
+maxWorldChangesPerDrink = 4096

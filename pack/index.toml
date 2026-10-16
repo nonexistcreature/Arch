@@ -17,6 +17,10 @@ file = "config/dmr-server.toml"
 hash = "a576c72d85ee359051c122d77ab58801163091642cc0d93262ca3e23987078b7"
 
 [[files]]
+file = "config/drinkbeer-server.toml"
+hash = "f9b5f51ce7236452e09f9f01bedddedfc4b6f1edac192a41a93c4012bece13f4"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
@@ -54,7 +58,7 @@ hash = "3ca83a0c4450ab55f74a9f97d473fbecae7c4019f64028f1e2c1bf9787fb5a75"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brewery.snbt"
-hash = "6f7018f8812f03b6573ee70bcb317a7128a3b48388b9c210a01cefccab5e2019"
+hash = "9dd751ca1d4ffc6af1ffe40a86fe07bfca9c0b6254a4926515c16d39b503165e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
@@ -78,7 +82,7 @@ hash = "e774390be9116b8159a2d676e079cc12130d3545299ef98e1c9756fc7609752c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_addons.snbt"
-hash = "4c4ac5ec9c7d631d42efb847e3a2285e1690d93271b71376f9045b3221201fbb"
+hash = "7154b5e38c733ec86962bbd50e42013d0eb10aaee6d0e74a3b079bbf146c8157"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dungeons.snbt"
@@ -114,7 +118,7 @@ hash = "a0c27b878997dcfc9015a47ade9dabc04d20ff7bbd636930f5aba8638cb6be4a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/home.snbt"
-hash = "9688261134fc90aee193cc40f4b026deb24009ed34e8cfac2a6086f39eb385bb"
+hash = "2ad56cad2fdf2c196b331b363c2fab9cdbc2bbe45cebe09bff1ab2bfbd39ce6e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive.snbt"
@@ -190,11 +194,11 @@ hash = "462be260324d4e1288a1a4476d4de0ec35126e18a4ce443be04df10d784560c5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "2260a3e95ee60b3157ee8e95b2fb17d1cb9b9ae738e76d32dc6a9f47ff1c97e8"
+hash = "3dfdbf6164fe0d35a112dc52e22b67b5574cad31df1bb2cfbc67d776b35181b6"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "4be5f58c2af89281a65d4aa60d6b5e7c2426d5752fcd8d7db5e11be687b0bf5e"
+hash = "f1572cd75ccb5d4db004937ad389c2ab8f3cb93ff7ec7304b5f500bb76e19a62"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -207,6 +211,10 @@ hash = "39431cba7bf295b12321fad595defa36e532fe79ebc689e57f7c7fc45f9758a9"
 [[files]]
 file = "config/iris.properties"
 hash = "f97c06d3901e4a8959977cb83dbac06f0b395ec01f0b7c6b1d34be06393c4ead"
+
+[[files]]
+file = "config/kaleidoscope_tavern-common.toml"
+hash = "92f67788e138bfaf399d103dd6f1c88ecbec667d6988589a6cef331b08bec2e0"
 
 [[files]]
 file = "config/mca.json"
@@ -317,6 +325,18 @@ file = "kubejs/client_scripts/tooltips.js"
 hash = "d0f21ebfaba2aa8cd957fb1c0991418f73afb10d544abd3ad91b6e9d559fb028"
 
 [[files]]
+file = "kubejs/data/kaleidoscope_tavern/datamap/drink_effect/rum.json"
+hash = "60d629b1afa722fec9ffe2dc0a12ca1fe99b31b682eb6fff7c92129a7343afee"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_world_liquor/datamap/drink_effect/highball.json"
+hash = "3090a1e2fecb38bcc4770ea90279add54e72f9086dc4da0fc3496f7668cc8d87"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_world_liquor/datamap/drink_effect/jerk.json"
+hash = "c169b588fc8d569628a0a19b0935972c09958e96f4117cfa43e4993db96bf246"
+
+[[files]]
 file = "kubejs/server_scripts/00_world_rules.js"
 hash = "9e013638ffb907d143006ebf8d57f0f8803e70bd93b2265a670258ce932b8773"
 
@@ -374,7 +394,7 @@ hash = "c11f7b38713be52de96e3c304a7750b5ff5bd441410dde2958022de95930d212"
 
 [[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
-hash = "a4f902839f5646ddbe0eec750d52bbed761eecec3f98e2d54dd7098eb35c436e"
+hash = "d0d3c1d985ff960fecfe4dbd0f85b5cdaf256c823aafbca4705cc78eebf06e7d"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"
@@ -674,6 +694,11 @@ hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
 metafile = true
 
 [[files]]
+file = "mods/create-alcohol-industry.pw.toml"
+hash = "8daa85c9aa52f9c2708219363dd1d9953bf0bcbf066386292e8bb0b2cc5d07f7"
+metafile = true
+
+[[files]]
 file = "mods/create-big-cannons.pw.toml"
 hash = "a0e9ff95570cd9af3374ca8b44aa095447baf94e565f46ae99819d52a9b48dc1"
 metafile = true
@@ -699,6 +724,11 @@ hash = "67a405e6307f900d168deaa954a4309c3b44a6025e4efd7b8e774b6f9d3a69cd"
 metafile = true
 
 [[files]]
+file = "mods/create-design-n-decor.pw.toml"
+hash = "e05bc0c3ee97da0dfcf9dabd3c3eaee0e90819091ead3f500ddc3b1caf77fe54"
+metafile = true
+
+[[files]]
 file = "mods/create-dragons-plus.pw.toml"
 hash = "dcbb37e828a2f915e64a2ef839a742761a553a2e3b923b000ffba95db7503ac3"
 metafile = true
@@ -709,8 +739,18 @@ hash = "f8af9277f307db54a20d1eb432e5a29aa39cf7acaf0d2e051644743de22b74d8"
 metafile = true
 
 [[files]]
+file = "mods/create-enchantable-machinery.pw.toml"
+hash = "ff95732644994b3b955de5b0c927b3caccce9d22c19e53b95da96b887cff2525"
+metafile = true
+
+[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "5f76bdf0fe120e62cc3ae298e911727fa45c70dd191fd9c2b213029c7601576c"
+metafile = true
+
+[[files]]
+file = "mods/create-garnished.pw.toml"
+hash = "7c5ba6334cf31d9d5259c1ccec3e0d02b7351cfdb8f4c4f87ff788711051c3bd"
 metafile = true
 
 [[files]]
@@ -719,8 +759,28 @@ hash = "7a8ea6547288b4f4b1affc1c5017b292edf22f4793bce7c47d8e7510edfff6db"
 metafile = true
 
 [[files]]
+file = "mods/create-integrated-farming.pw.toml"
+hash = "205ac4987dcaf6aa6a099c9dbcb97f9aea85b2f9b2f5953fc88c83d92afd90b5"
+metafile = true
+
+[[files]]
 file = "mods/create-jetpack.pw.toml"
 hash = "157b009cd9b2a7f55f2b7d0abdc2f9f7d49eade208a786c71cc6d2f8430bba4a"
+metafile = true
+
+[[files]]
+file = "mods/create-mechanical-extruder.pw.toml"
+hash = "6e064a3988937e06dfa307c8c395c73461819f9135197bc30563c6f13d1f1da4"
+metafile = true
+
+[[files]]
+file = "mods/create-mobile-packages.pw.toml"
+hash = "f341b8307a3a9efd08d777fb4e572351ca0dac96a280efbd6ecb0e838420f905"
+metafile = true
+
+[[files]]
+file = "mods/create-pattern-schematics.pw.toml"
+hash = "faddfa6807d11014c93bbfd8e543e8843e6d44e53f70d54e0b7e3e95766d2021"
 metafile = true
 
 [[files]]
@@ -729,8 +789,18 @@ hash = "d1a7402cc94a8a857d380f68bb9a19d8981a2b3223068a53d9054e97232f4167"
 metafile = true
 
 [[files]]
+file = "mods/create-radars.pw.toml"
+hash = "c24712eb82bb29d7ed210d7bc175baeb3b022c3b365b2dd0275c25f690e98f52"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails-1.21.1.pw.toml"
 hash = "84cff9a09538552608e32a14b4f7f37d5ac0f4cface3953e68c3af5104217554"
+metafile = true
+
+[[files]]
+file = "mods/create-structures-arise.pw.toml"
+hash = "d07e87a42a1f882ee71b9f68fc531b1b9dcf4637f69fcf0c80322e488cf79171"
 metafile = true
 
 [[files]]
@@ -739,8 +809,18 @@ hash = "dfbb2a077b144492f48af0255906b146d56011ccb6c6f6e343bab703e8cc0f79"
 metafile = true
 
 [[files]]
+file = "mods/create-trading-floor.pw.toml"
+hash = "dd46758c8eb82deb6dcd56a9879dc5e583ff812245ebb357fd79053a60c58871"
+metafile = true
+
+[[files]]
+file = "mods/create-tweaked-controllers.pw.toml"
+hash = "2c72104b4cf249d4f096f673293a41c199d611dc9b99a9055d463fa5cd90c7cd"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
-hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
+hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
@@ -816,6 +896,11 @@ metafile = true
 [[files]]
 file = "mods/domum-ornamentum.pw.toml"
 hash = "d46331e2fffde2c3c2a952575e61827fb67ecbc200a030649bf3e08ad637c049"
+metafile = true
+
+[[files]]
+file = "mods/drink-beer-refill.pw.toml"
+hash = "e48c58c6c2c660f7c45e7cfad3339317fee2edef0207a069b361134282f50cfa"
 metafile = true
 
 [[files]]
@@ -1149,6 +1234,16 @@ hash = "7358789081b9ff127b20b86bee860392e60587fa90c3e61a3a05c8983f06013d"
 metafile = true
 
 [[files]]
+file = "mods/kaleidoscope-world-liquor.pw.toml"
+hash = "493ed76bf7f84916b4e7f66011ca3c276e53ffbded28538c7c95ef55a6686ef6"
+metafile = true
+
+[[files]]
+file = "mods/kaleidoscopetavern.pw.toml"
+hash = "64b32907185ca1477a4f1335af4cc3068c4ea9e5ea537ce408b360d595609acc"
+metafile = true
+
+[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "054a1887da4f14b791910660a2a7a2035ac1382461b881a65fe07b224c03735f"
 metafile = true
@@ -1276,6 +1371,11 @@ metafile = true
 [[files]]
 file = "mods/marstons-fallen-stars.pw.toml"
 hash = "27f0757966286fac883046d26609d809cd5efc20d255c40da3a890901afe40a1"
+metafile = true
+
+[[files]]
+file = "mods/mechanicals-lib.pw.toml"
+hash = "c9e181185e3177d43fc9bd8d919288ac1bc0ce6b85e7049890f3eb231f5be10d"
 metafile = true
 
 [[files]]
@@ -1751,6 +1851,21 @@ metafile = true
 [[files]]
 file = "mods/visuality-forge.pw.toml"
 hash = "3d907a6ec6e27ba52d9f8f062216b56aef39e586a4e673cfbb70dbe12671ec61"
+metafile = true
+
+[[files]]
+file = "mods/waterframes.pw.toml"
+hash = "59e15d108b41b10145596a3ef899ad20ef8c8885504eef10cd89225aef87daef"
+metafile = true
+
+[[files]]
+file = "mods/watermedia-yt-plugin.pw.toml"
+hash = "79e2fcf85fb4e4e4248844f4ec18daaedcd5a45157222e26383eabb29c99d60e"
+metafile = true
+
+[[files]]
+file = "mods/watermedia.pw.toml"
+hash = "976854e8cb0473236ae4ce6b5b29bb901dc46b20d072bfed79e1f07c64b37095"
 metafile = true
 
 [[files]]

@@ -1,0 +1,25 @@
+{
+  "item": "kaleidoscope_world_liquor:highball",
+  "effects": [
+    [
+      {
+        "effect": "minecraft:speed",
+        "duration": 600,
+        "amplifier": 0,
+        "probability": 1.0
+      },
+      {
+        "effect": "minecraft:jump_boost",
+        "duration": 600,
+        "amplifier": 0,
+        "probability": 1.0
+      },
+      {
+        "effect": "minecraft:slow_falling",
+        "duration": 200,
+        "amplifier": 0,
+        "probability": 1.0
+      }
+    ]
+  ]
+}

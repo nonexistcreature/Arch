@@ -227,3 +227,23 @@ tacz-npcs | 11 | стрелки-NPC: враги в опасных зонах, л
 create-droneworks-simulated | 11 | FPV-дроны на физике Aeronautics [beta]
 extreme-reactors | 11 | реакторы (Big Reactors) без загрязнения
 small-ships | 11 | парусные корабли с пушками
+# --- wave 12 (2026-10-16, owner: "больше алкоголя, аддонов Create, колонку/ТВ с YouTube")
+# Added with packwiz directly (resolve_pack.py would re-resolve every mod); listed here for the record.
+chunky | 12 | прогрузка мира (только сервер)
+kaleidoscopetavern | 12 | таверна: пивоварение, бочки, декор бара
+kaleidoscope-world-liquor | 12 | напитки мира для Kaleidoscope Tavern
+create-alcohol-industry | 12 | алкоголь на машинах Create (пиво, водка, виски, ром, текила, сидр, вино)
+drink-beer-refill | 12 | пивоварня, бармен, бартер
+create-garnished | 12 | Create: орехи, новые культуры и блюда (повар/садовод)
+create-mechanical-extruder | 12 | Create: генераторы блоков (булыжник, базальт...) машинами
+create-tweaked-controllers | 12 | Create: удобный пульт для машин, дронов, самолётов
+create-structures-arise | 12 | Create: постройки в мире с лутом инженера
+create-enchantable-machinery | 12 | Create: зачарование буров, пил, развёртывателей
+create-integrated-farming | 12 | Create: автофермы (садовод+инженер)
+create-design-n-decor | 12 | Create: декор для строителя
+create-radars | 12 | Create: радары и наведение пушек (защита базы)
+create-mobile-packages | 12 | Create: доставка посылок прямо игроку
+create-trading-floor | 12 | Create: автоматическая торговля с жителями (мэр)
+create-pattern-schematics | 12 | Create: схемы-узоры для строителя
+waterframes | 12 | экраны/ТВ/проекторы: видео и звук по ссылке (YouTube)
+watermedia | 12 | движок видео для WaterFrames (закреплён 2.1.37: WaterFrames 2.1.23 не совместим с бетой 3.0)

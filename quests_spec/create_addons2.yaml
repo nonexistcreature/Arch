@@ -1,0 +1,257 @@
+# Create add-ons, wave 12. Texts: Ponder scenes and advancements of each add-on (ponder:<namespace>:<scene>),
+# RU «why» lines where the add-on has no Russian text.
+extends: create_addons
+lang: [create, garnished, create_mechanical_extruder, create_tweaked_controllers, create_integrated_farming, dndecor, create_radar, create_mobile_packages, trading_floor, create_pattern_schematics]
+autodoc: ["item.{ns}.{path}.tooltip.summary", "block.{ns}.{path}.tooltip.summary"]
+out: create_addons_gen
+quests:
+  # --- Garnished: nuts for cooks, with miner/warrior buffs
+  - id: cag_nuts
+    deps: [ca_intro]
+    roles: [gardener, cook]
+    shape: gear
+    items: [garnished:walnut*4]
+    title: {ru: "Орехи Garnished", en: "Garnished Nuts"}
+    doc: advancement.garnished.nut_tree.description
+    why: {ru: "Орехи растут на деревьях в мире — ищи их, исследуя леса. Это сырьё для десятков блюд Create: колоть, глазировать, жарить в незерском огне.", en: "Nuts grow on trees in the world: the base for dozens of Create dishes."}
+  - id: cag_cracked
+    deps: [cag_nuts, c_crushing]
+    roles: [cook, engineer]
+    items: [garnished:cracked_almond*8]
+    doc: advancement.garnished.cracked_nuts.description
+    why: {ru: "Дробильные колёса или жернова колют орехи сразу пачками — автоматизация вместо ручной работы.", en: "Crushing wheels crack nuts in bulk."}
+  - id: cag_garnish
+    deps: [cag_cracked, c_mixer]
+    roles: [cook]
+    items: [garnished:garnish_compound*4]
+    doc: advancement.garnished.garnish_compound.description
+  - id: cag_honeyed
+    deps: [cag_garnish, c_spout]
+    roles: [cook]
+    items: [garnished:honeyed_nut_mix, garnished:chocolate_glazed_nut_mix]
+    title: {ru: "Глазированные орехи", en: "Glazed Nuts"}
+    doc: advancement.garnished.honeyed_nuts.description
+    doc2: advancement.garnished.chocolate_glazed_nuts.description
+  - id: cag_cinder
+    deps: [cag_garnish]
+    roles: [cook, engineer, warrior]
+    items: [garnished:cinder_almond_haste]
+    title: {ru: "Орехи в незерской глазури", en: "Cinder-Glazed Nuts"}
+    doc: advancement.garnished.melted_cinder_effect_nuts.description
+    why: {ru: "Орехи в незерской глазури дают эффект: миндаль — ускоренное копание, грецкий — силу, фисташки — ночное зрение, макадамия — огнестойкость, пекан — сопротивление. Карманный перекус для шахтёра и бойца.", en: "Cinder nuts give effects: haste, strength, night vision, fire resistance, resistance."}
+  - id: cag_cider
+    deps: [cag_garnish]
+    roles: [cook]
+    items: [garnished:apple_cider]
+    doc: advancement.garnished.apple_cider.description
+  - id: cag_hatchet
+    deps: [cag_nuts]
+    roles: [warrior, gardener]
+    items: [garnished:brass_hatchet]
+    title: {ru: "Тесак", en: "Hatchet"}
+    why: {ru: "Тесак — топорик-оружие: рубит и дерево, и мобов. Есть версии от деревянной до незеритовой и даже из розового кварца.", en: "A hatchet for wood and mobs, from wood to netherite."}
+  - id: cag_mastic
+    deps: [cag_garnish]
+    roles: [cook, builder]
+    items: [garnished:mastic_resin*4]
+    doc: advancement.garnished.liquid_mastic_resin.description
+  - id: cag_meal
+    deps: [cag_honeyed, cag_cinder]
+    roles: [cook]
+    items: [garnished:garnished_meal, garnished:salad]
+    title: {ru: "Обед из Garnished", en: "A Garnished Lunch"}
+  # --- Mechanical Extruder
+    why: {en: A filling meal for the whole crew., ru: 'Сытный обед из орехов, глазури и салата — повар кормит всю бригаду.'}
+  - id: cag_extruder
+    deps: [c_press]
+    roles: [engineer, builder]
+    items: [create_mechanical_extruder:mechanical_extruder]
+    doc: ponder:create_mechanical_extruder:extruder
+    why: {ru: "Экструдер на вращении делает блоки — булыжник, базальт и другие, смотря какие блоки стоят сбоку и снизу (например, вода и лава). Бесконечный камень для строителя без шахты.", en: "Generates blocks such as cobblestone and basalt depending on the blocks beside and below it."}
+  - id: cag_brass_extruder
+    deps: [cag_extruder, c_brass]
+    roles: [engineer]
+    items: [create_mechanical_extruder:mechanical_brass_extruder]
+    why: {ru: "Латунный экструдер работает быстрее и умеет более сложные сочетания.", en: "Faster, with more combinations."}
+  # --- Tweaked Controllers
+  - id: cag_controller
+    deps: [c_contraption]
+    roles: [engineer]
+    items: [create_tweaked_controllers:tweaked_linked_controller]
+    title: {ru: "Пульт с геймпадом", en: "Tweaked Controller"}
+    why: {ru: "Пульт, привязанный к частотам редстоун-связи и к кнопкам и стикам геймпада. Управляй самолётом, дроном или краном с геймпада или клавиатуры. Можно поставить на кафедру — получится пульт в кабине.", en: "A gamepad-style remote for planes, drones and cranes; place it on a lectern for a cockpit."}
+  # --- Integrated Farming
+  - id: cag_roost
+    deps: [c_harvester]
+    roles: [breeder, engineer]
+    items: [create_integrated_farming:roost]
+    title: {ru: "Насест", en: "Roost"}
+    doc: ponder:create_integrated_farming:roost.catch
+    doc2: ponder:create_integrated_farming:roost.raise
+  - id: cag_chicken_roost
+    deps: [cag_roost]
+    roles: [breeder]
+    items: [create_integrated_farming:chicken_roost]
+    why: {ru: "Курица в насесте несёт яйца и роняет перья без загона. Кормление через конвейер или механическую руку ускоряет.", en: "Eggs and feathers without a pen; feed by belt or arm."}
+  - id: cag_fishing_net
+    deps: [c_contraption]
+    roles: [cook, engineer]
+    items: [create_integrated_farming:fishing_net]
+    doc: ponder:create_integrated_farming:fishing_net
+    why: {ru: "Сеть на лодке или поезде ловит рыбу на ходу — рыбалка без удочки.", en: "Catches fish while moving on a contraption."}
+  - id: cag_lava_net
+    deps: [cag_fishing_net]
+    roles: [engineer]
+    items: [create_integrated_farming:lava_fishing_net]
+    doc: ponder:create_integrated_farming:lava_fishing_net
+  - id: cag_vacuum
+    deps: [c_harvester]
+    roles: [gardener, engineer]
+    items: [create_integrated_farming:vacuum_harvester]
+    doc: ponder:create_integrated_farming:vacuum_harvester.contraption
+    why: {ru: "Вакуумный сборщик собирает урожай вокруг импульсами — поле убирается само, пока ты занят другим.", en: "Harvests the area around it in pulses."}
+  # --- Design n' Decor
+  - id: cag_decor
+    deps: [c_brass]
+    roles: [builder]
+    shape: gear
+    items: [dndecor:breaker_switch]
+    title: {ru: "Design n' Decor", en: "Design n' Decor"}
+    why: {ru: "Сотни декоративных блоков в стиле Create: мостки, лампы, болты, листовой металл, рубильники, бочки-котлы. Делай заводы красивыми, а не коробками.", en: "Hundreds of Create-style decor blocks: catwalks, lamps, bolts, sheet metal."}
+  - id: cag_decor_stones
+    deps: [cag_decor, c_millstone]
+    roles: [builder]
+    items: [dndecor:stone_millstone, dndecor:granite_crushing_wheel]
+    title: {ru: "Каменные жернова и колёса", en: "Stone Millstones and Wheels"}
+    why: {ru: "Жернова и дробильные колёса из разных камней — работают как обычные, но подходят к стилю здания.", en: "Work like normal ones but match your build's stone."}
+  # --- Radars
+  - id: cag_radar
+    deps: [c_brass]
+    roles: [engineer, warrior]
+    shape: gear
+    items: [create_radar:radar_bearing, create_radar:radar_plate_block*4, create_radar:radar_receiver_block]
+    title: {ru: "Радар", en: "Radar"}
+    doc: ponder:create_radar:radar_contraption
+    why: {ru: "Вращающаяся антенна видит мобов, игроков и летающие машины вокруг базы. Больше рефлекторов — дальше обзор.", en: "A spinning antenna that sees mobs, players and aircraft; more plates, more range."}
+  - id: cag_radar_monitor
+    deps: [cag_radar]
+    roles: [engineer]
+    items: [create_radar:monitor*4, create_radar:data_link]
+    title: {ru: "Экран радара", en: "Radar Monitor"}
+    doc: ponder:create_radar:radar_linking
+  - id: cag_radar_guns
+    deps: [cag_radar_monitor]
+    roles: [warrior, engineer]
+    items: [create_radar:auto_yaw_controller, create_radar:auto_pitch_controller]
+    title: {ru: "Наведение пушек", en: "Cannon Targeting"}
+    doc: ponder:create_radar:controller_linking
+    why: {ru: "Контроллеры сами наводят пушку Create Big Cannons на цель с монитора — ПВО для базы от летающих мобов и чужих самолётов.", en: "Controllers aim a Big Cannons mount at the monitor's target: base air defence."}
+  - id: cag_radar_safe
+    deps: [cag_radar_guns]
+    roles: [mayor]
+    items: [create_radar:radar_safe_zone_designator]
+    title: {ru: "Безопасная зона", en: "Safe Zone"}
+    why: {ru: "Обозначь зону, по которой пушки не стреляют, — свои дома, поля и соседей. Обязательно настрой до первого выстрела.", en: "Mark where cannons never fire. Set it before the first shot."}
+  - id: cag_radar_plane
+    deps: [cag_radar, s_biplane]
+    roles: [engineer]
+    items: [create_radar:plane_radar]
+    why: {ru: "Радар для самолёта: видишь других пилотов и мобов в небе.", en: "A radar for your aircraft."}
+  # --- Mobile Packages
+  - id: cag_robo_bee
+    deps: [c_logistics]
+    roles: [engineer, mayor]
+    items: [create_mobile_packages:bee_port, create_mobile_packages:robo_bee]
+    title: {ru: "Пчелодрон-курьер", en: "Robo Bee Courier"}
+    doc: ponder:create_mobile_packages:robo_bee_port
+    why: {ru: "Робопчела доставляет посылку прямо игроку по его нику — где бы он ни был. Склад соседа присылает тебе заказ по воздуху.", en: "Delivers a package straight to a player by name."}
+  - id: cag_port_to_port
+    deps: [cag_robo_bee]
+    roles: [engineer]
+    tasks: [{type: checkmark}]
+    icon: create_mobile_packages:bee_port
+    title: {ru: "Почта между базами", en: "Base-to-Base Mail"}
+    doc: ponder:create_mobile_packages:port_to_port
+  - id: cag_portable_ticker
+    deps: [cag_robo_bee]
+    roles: [engineer]
+    items: [create_mobile_packages:portable_stock_ticker]
+    why: {ru: "Карманный складской тикер: заказывай со своего склада из любой точки мира, пчела привезёт.", en: "Order from your stock anywhere; a bee brings it."}
+  - id: cag_mobile_packager
+    deps: [cag_robo_bee]
+    roles: [engineer]
+    items: [create_mobile_packages:mobile_packager]
+  # --- Trading Floor
+  - id: cag_trading_depot
+    deps: [c_depot]
+    roles: [mayor, engineer]
+    items: [trading_floor:trading_depot*2]
+    doc: ponder:trading_floor:trading_depot_trading
+    why: {ru: "Депо у рабочего места жителя торгует за тебя: подаёшь товар конвейером — получаешь изумруды. Мэру и торговцу.", en: "Trades with villagers for you, fed by belts."}
+  - id: cag_trading_double
+    deps: [cag_trading_depot]
+    roles: [mayor]
+    tasks: [{type: checkmark}]
+    icon: trading_floor:trading_depot
+    title: {ru: "Сделки на два товара", en: "Two-Item Trades"}
+    doc: ponder:trading_floor:trading_depot_double_trading
+  # --- Pattern Schematics
+  - id: cag_pattern
+    deps: [c_schematic]
+    roles: [builder]
+    items: [create_pattern_schematics:pattern_schematic_and_quill, create_pattern_schematics:empty_pattern_schematic]
+    title: {ru: "Шаблонные схемы", en: "Pattern Schematics"}
+    doc: ponder:create_pattern_schematics:schematic_printing
+    why: {ru: "Сохрани кусок стены, моста или дороги — и пушка схем повторит его на любую длину. Строители длинных мостов и стен оценят.", en: "Save a wall segment and repeat it at any length."}
+  - id: cag_pattern_train
+    deps: [cag_pattern, c_train_run]
+    roles: [builder, engineer]
+    tasks: [{type: checkmark}]
+    icon: create_pattern_schematics:pattern_schematic
+    title: {ru: "Дорога за поездом", en: "Road Behind a Train"}
+    doc: ponder:create_pattern_schematics:train_schematic_printing
+  # --- Enchantable Machinery and Structures Arise
+  - id: cag_enchant_machines
+    deps: [c_drill, ca_blaze_enchanter]
+    roles: [engineer, mage]
+    tasks: [{type: checkmark}]
+    icon: minecraft:enchanted_book
+    title: {ru: "Зачарованные машины", en: "Enchanted Machinery"}
+    why: {ru: "Механические буры, пилы и развёртыватели можно зачаровать как инструменты: эффективность — быстрее, удача — больше руды, шёлковое касание — блоки целиком. Маг и инженер работают вместе.", en: "Enchant drills, saws and deployers: efficiency, fortune, silk touch."}
+  - id: cag_structures
+    deps: [ca_intro]
+    roles: [warrior, engineer]
+    shape: gear
+    icon: create:brass_casing
+    tasks: [{type: structure, structure: create_structures_arise:createlosttrainstation}]
+    title: {ru: "Заброшенная станция", en: "Lost Train Station"}
+    why: {ru: "Create: Structures Arise добавляет в мир постройки в стиле Create: станции, ветряки, башни, воздушные корабли пиратов. Внутри — механизмы и лут инженера.", en: "Create-style structures across the world with engineer loot."}
+  - id: cag_airship
+    deps: [cag_structures]
+    roles: [warrior]
+    icon: create:propeller
+    tasks: [{type: structure, structure: create_structures_arise:pillagersteampunkairship}]
+    title: {ru: "Пиратский дирижабль", en: "Pillager Airship"}
+    why: {ru: "Летающий корабль иллагеров с паровыми механизмами. Добираться — на своём самолёте или по высоким столбам.", en: "A steampunk pillager airship."}
+  - id: cag_dark_castle
+    deps: [cag_structures]
+    roles: [warrior]
+    icon: minecraft:iron_bars
+    tasks: [{type: structure, structure: create_structures_arise:darkcastle}]
+    title: {ru: "Тёмный замок", en: "Dark Castle"}
+    why: {en: 'A guarded castle: go as a team.', ru: 'Мрачный замок с охраной — лут для воина, ходи командой.'}
+  - id: cag_minetrain
+    deps: [cag_structures]
+    roles: [engineer]
+    icon: create:track
+    tasks: [{type: structure, structure: create_structures_arise:minetrain}]
+    title: {ru: "Шахтёрский поезд", en: "Mine Train"}
+    why: {en: An abandoned mine train with ore inside., ru: 'Заброшенный шахтёрский поезд — рельсы, вагоны и руда внутри.'}
+  - id: cag_master
+    deps: [cag_meal, cag_radar_safe, cag_portable_ticker, cag_trading_double, cag_pattern_train, cag_enchant_machines, cag_airship, cag_vacuum]
+    roles: [engineer]
+    shape: hexagon
+    icon: create_mobile_packages:robo_bee
+    title: {ru: "Мастер дополнений Create", en: "Create Add-on Master"}
+    text: {ru: "Пчёлы-курьеры, радары с ПВО, торговые депо, автофермы и орехи в глазури. Create у тебя — не только шестерёнки, а целая экономика.", en: "Couriers, radars, trading depots, auto-farms: Create as an economy."}
+    rewards: [{type: xp_levels, count: 15}]

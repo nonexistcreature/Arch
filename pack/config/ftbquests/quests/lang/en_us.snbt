@@ -854,6 +854,225 @@
 	quest.0E78C4B235C0F0A3.quest_desc: [
 		"Beer, wine, spirits, tea and chocolate. Open a tavern (Minecolonies or your own build) so players come to you after an expedition."
 	]
+	quest.33C527440D61397D.title: "The Tavern: Why Bother"
+	quest.33C527440D61397D.quest_desc: [
+		"&lWhy:&r Every tavern drink gives a real buff; longer aging means stronger effects. Strong drinks also bring nausea."
+	]
+	quest.45548A947032DBEC.title: "Grapevine"
+	quest.45548A947032DBEC.quest_desc: [
+		"Explore around, and you can find these Grapevines on trees in the wild."
+		"Similar to bee nests, using Bone Meal on a tree sapling near flowers also has a chance to generate Grapevines. No tools are needed, break them with an empty hand to obtain Grapevines. Grapevines can be planted under full blocks and leave blocks. Grapevines planted this way will grow downwards but will not bear grapes. Use Shears to prune a Grapevine, stopping its downward growth."
+	]
+	quest.41116FEFA2CA9CCE.title: "Vineyard"
+	quest.41116FEFA2CA9CCE.quest_desc: [
+		"Plant a Grapevine on a Trellis placed one block above the soil. The Grapevine will prioritize growing onto the Trellis above it. Then, it will spread horizontally to surrounding Trellises. When a Trellis with a Grapevine has an empty space below it, it will begin to bear grapes. Once the grapes are ripe, harvesting them with an empty hand yields 1-2 grapes. Harvesting with Shears yields 2-3 grapes."
+	]
+	quest.33A389F65A334635.title: "Grape Varieties"
+	quest.33A389F65A334635.quest_desc: [
+		"&lWhy:&r Green for whites, ice grapes for ice wine, gold for rare drinks."
+	]
+	quest.624FF9515456A540.title: "Pressing Tub"
+	quest.624FF9515456A540.quest_desc: [
+		"&lWhy:&r Yes, you stomp grapes: jump on the tub."
+		"Place pressable ingredients into the Pressing Tub. Jump and jump on the Pressing Tub to gradually press the ingredients into juice. However, if the item inside the Pressing Tub cannot be pressed, it will be scattered by the jumping."
+	]
+	quest.2B7FE837714A4B6E.title: "Barrel and Tap"
+	quest.2B7FE837714A4B6E.quest_desc: [
+		"First, open the lid. Then, add the fluid and any required ingredients. Once everything is ready, close the lid. Now, simply wait patiently for the wine to brew."
+		"The longer it brews, the higher the quality of the wine. Right-click the barrel to check the brewing progress. Place a Glass Bottle under the tap and right-click it to bottle the finished wine."
+	]
+	quest.177352A8D84B84DF.title: "Wine"
+	quest.177352A8D84B84DF.quest_desc: [
+		"&lWhy:&r Red wine gives regeneration."
+	]
+	quest.542C0BD6BFE45F58.title: "Dry Whites"
+	quest.542C0BD6BFE45F58.quest_desc: [
+		"&lWhy:&r Grass stealth: mobs notice you less in tall grass."
+	]
+	quest.5CBBE76EDF47F8F0.title: "Ice Wine"
+	quest.5CBBE76EDF47F8F0.quest_desc: [
+		"&lWhy:&r Fire resistance before the Nether."
+	]
+	quest.0C756FD9E8AF346E.title: "Plum Wine"
+	quest.0C756FD9E8AF346E.quest_desc: [
+		"&lWhy:&r Water breathing for divers."
+	]
+	quest.6D9A95B28D2C4F74.title: "Sakura Wine"
+	quest.6D9A95B28D2C4F74.quest_desc: [
+		"&lWhy:&r Gives regeneration."
+	]
+	quest.3A72E1A50291F70D.title: "Honey Wine"
+	quest.3A72E1A50291F70D.quest_desc: [
+		"&lWhy:&r Resistance; honey from your own bees."
+	]
+	quest.5B33424B0ECD4CFA.title: "Champagne"
+	quest.5B33424B0ECD4CFA.quest_desc: [
+		"&lWhy:&r For festivals and weddings."
+	]
+	quest.5743809CF716D8C4.title: "Spirits"
+	quest.5743809CF716D8C4.quest_desc: [
+		"&lWhy:&r Whiskey and vodka give strength; drink before, not during, a fight."
+	]
+	quest.492D20A9C0ACDAFB.title: "Miner's Star"
+	quest.492D20A9C0ACDAFB.quest_desc: [
+		"&lWhy:&r Haste for miners."
+	]
+	quest.2E8408FE150D07B3.title: "Rum"
+	quest.2E8408FE150D07B3.quest_desc: [
+		"&lWhy:&r Sailor's rum: dolphin's grace and water breathing (the original bad omen is removed)."
+	]
+	quest.6DFC3370388D49AD.title: "Glowflower Brew"
+	quest.6DFC3370388D49AD.quest_desc: [
+		"&lWhy:&r Vision in dark caves."
+	]
+	quest.440F116D9D76E418.title: "Bartender's Shaker"
+	quest.440F116D9D76E418.quest_desc: [
+		"&lWhy:&r Cocktails are mixed in the shaker."
+	]
+	quest.674AADD480BA15B7.title: "First Cocktails"
+	quest.674AADD480BA15B7.quest_desc: [
+		"&lWhy:&r Mojito: vision, Grasshopper: grass stealth, Emerald: long reach."
+	]
+	quest.7E6C9509DC80AD05.title: "For the Brave"
+	quest.7E6C9509DC80AD05.quest_desc: [
+		"&lWhy:&r Cocktails for expeditions."
+	]
+	quest.1E90951D9EB2F090.title: "Molotov Cocktail"
+	quest.1E90951D9EB2F090.quest_desc: [
+		"&lWhy:&r Thrown fire. Wilds only."
+	]
+	quest.094B1E7E5B50DF5F.title: "Your Own Tavern"
+	quest.094B1E7E5B50DF5F.quest_desc: [
+		"&lWhy:&r Build a place neighbours want to visit."
+	]
+	quest.42DF1C390579EC4F.title: "Bar Atmosphere"
+	quest.42DF1C390579EC4F.quest_desc: [
+		"&lWhy:&r A menu board and lights make it a bar."
+	]
+	quest.7C381E2BB42EE967.title: "Liquors of the World"
+	quest.7C381E2BB42EE967.quest_desc: [
+		"&lWhy:&r Real-world liquors with unique effects: double drops, chest and mob highlighting, water walking, multi-jump."
+	]
+	quest.2EA5A645C407811C.title: "Freezer"
+	quest.2EA5A645C407811C.quest_desc: [
+		"&lWhy:&r Makes ice for cocktails."
+		"Sneak-right-click the freezer to open its lid"
+	]
+	quest.73553D1D8AA3D3C5.title: "Johnnie Walker"
+	quest.73553D1D8AA3D3C5.quest_desc: [
+		"&lWhy:&r Treasure guide: double drops from ore, crops and mobs."
+		"Chance for double drops from mob kills, crop harvests and ore mining"
+	]
+	quest.7838748B6AAAAB82.title: "White Rum"
+	quest.7838748B6AAAAB82.quest_desc: [
+		"&lWhy:&r Highlights nearby chests."
+		"Highlights all chests near the player"
+	]
+	quest.31FA3D3C6810EC16.title: "SKYY Vodka"
+	quest.31FA3D3C6810EC16.quest_desc: [
+		"&lWhy:&r Highlights hostile mobs."
+		"Highlights all hostile mobs around the player"
+	]
+	quest.171BD5D1C818D3A0.title: "Spirytus"
+	quest.171BD5D1C818D3A0.quest_desc: [
+		"&lWhy:&r Walk on water."
+		"Grants the ability to walk on water"
+	]
+	quest.2EE9EE792C4B3F3D.title: "Gin"
+	quest.2EE9EE792C4B3F3D.quest_desc: [
+		"&lWhy:&r Extra mid-air jumps."
+		"Allows additional jumps while airborne"
+	]
+	quest.55A3DDFBA82995D2.title: "Jack Daniel's"
+	quest.55A3DDFBA82995D2.quest_desc: [
+		"&lWhy:&r Chance to one-shot normal mobs and get their head."
+		"Chance for one-shotting non-boss mobs with a guaranteed a mob head"
+	]
+	quest.35947C68BBFD5286.title: "Sour Plum Drink"
+	quest.35947C68BBFD5286.quest_desc: [
+		"&lWhy:&r Caps damage from a single hit — a boss can't one-shot you."
+		"Limits maximum damage taken from a single hit to a percentage of your max health"
+	]
+	quest.18190B0286A8866C.title: "Château Lafite 1982"
+	quest.18190B0286A8866C.quest_desc: [
+		"&lWhy:&r Health boost; for big occasions."
+	]
+	quest.4E40D32C54F5F31D.title: "Highball"
+	quest.4E40D32C54F5F31D.quest_desc: [
+		"&lWhy:&r Speed, jump and slow falling (creative flight removed)."
+	]
+	quest.36BBA4C8DB43EF36.title: "Long Island Iced Tea"
+	quest.36BBA4C8DB43EF36.quest_desc: [
+		"&lWhy:&r A 'respawn' effect — keep one for boss fights."
+	]
+	quest.1FA9B3F5B7EFC721.title: "Distillery"
+	quest.1FA9B3F5B7EFC721.quest_desc: [
+		"&lWhy:&r Create machines make spirits in bulk: press, ferment, distil."
+	]
+	quest.080C5934726E33DE.title: "Juice Press"
+	quest.080C5934726E33DE.quest_desc: [
+		"&lWhy:&r Presses fruit into juice using rotation."
+	]
+	quest.0FF53F9A2D6D89EF.title: "Fermentation Barrel"
+	quest.0FF53F9A2D6D89EF.quest_desc: [
+		"&lWhy:&r Juice ferments into cider and apple wine."
+	]
+	quest.2CD7BF1036AB75F1.title: "Cider and Apple Wine"
+	quest.2CD7BF1036AB75F1.quest_desc: [
+		"&lWhy:&r Mild drinks from apples."
+	]
+	quest.717633CCB2F04AEA.title: "Alcohol Boiler"
+	quest.717633CCB2F04AEA.quest_desc: [
+		"&lWhy:&r Turns alcohol base into a specific drink; the controller picks which."
+	]
+	quest.3E45B4C5A3DB0BCD.title: "Alcohol Base"
+	quest.3E45B4C5A3DB0BCD.quest_desc: [
+		"&lWhy:&r The shared base for all spirits."
+	]
+	quest.683D4677BD374F72.title: "Five Distillery Drinks"
+	quest.683D4677BD374F72.quest_desc: [
+		"&lWhy:&r Vodka, whiskey, rum, tequila and beer, bottled by Create."
+	]
+	quest.7D3BE76293CB5F68.title: "Beer Keg"
+	quest.7D3BE76293CB5F68.quest_desc: [
+		"&lWhy:&r Beer in mugs and a bartering bar; recipes are on recipe boards."
+	]
+	quest.3C5735C91E5C922E.title: "Recipe Board Package"
+	quest.3C5735C91E5C922E.quest_desc: [
+		"&lWhy:&r Recipe boards to hang above kegs."
+	]
+	quest.5C833AD2CE23AAEF.title: "Miner Pale Ale"
+	quest.5C833AD2CE23AAEF.quest_desc: [
+		"&lWhy:&r The bar classic."
+	]
+	quest.48202788344C6D9C.title: "Blaze Stout"
+	quest.48202788344C6D9C.quest_desc: [
+		"&lWhy:&r The bar's dark beer; recipe on the board or in JEI."
+	]
+	quest.2598E46271DCA7EA.title: "Haar's Icey Pale Lager"
+	quest.2598E46271DCA7EA.quest_desc: [
+		"&lWhy:&r Brewed with ice."
+	]
+	quest.1D0D7C343781219B.title: "Kvass"
+	quest.1D0D7C343781219B.quest_desc: [
+		"&lWhy:&r Mild and filling."
+	]
+	quest.0722F7CEA7AA0EEE.title: "Bartending Table"
+	quest.0722F7CEA7AA0EEE.quest_desc: [
+		"&lWhy:&r Mixes beer with spices for new flavours."
+	]
+	quest.0B1EA8426566F433.title: "Spices"
+	quest.0B1EA8426566F433.quest_desc: [
+		"&lWhy:&r Spices change a beer's flavour and effect. They are not crafted: check JEI (U on the spice) for where to get each."
+	]
+	quest.0C368A61B6CE3E5E.title: "Bartering"
+	quest.0C368A61B6CE3E5E.quest_desc: [
+		"&lWhy:&r Trade drinks for goods; ring the bell for service."
+	]
+	quest.2EB31913B21AE3CD.title: "Keeper of the Finest Tavern"
+	quest.2EB31913B21AE3CD.quest_desc: [
+		"Vineyard, cellar, distillery and a bar people visit for buffs, not hangovers."
+	]
 	chapter.62164B6D488C1BD6.title: "Garden, Seasons, Harvest"
 	chapter.62164B6D488C1BD6.chapter_subtitle: [
 		"From a seed to resources for everyone"
@@ -2229,6 +2448,173 @@
 	quest.08B90679F2712DC1.quest_subtitle: "Create to the full"
 	quest.08B90679F2712DC1.quest_desc: [
 		"Rotation is stored, turned into power, enchants books and hides behind pretty walls. Show the factory to your neighbours so they can learn."
+	]
+	quest.2E1D4A82FBF008EC.title: "Garnished Nuts"
+	quest.2E1D4A82FBF008EC.quest_desc: [
+		"&lWhy:&r Nuts grow on trees in the world: the base for dozens of Create dishes."
+		"Obtain Ungarnished Nuts by exploring the world"
+	]
+	quest.6E565F31BED25562.title: "Cracked Almond"
+	quest.6E565F31BED25562.quest_desc: [
+		"&lWhy:&r Crushing wheels crack nuts in bulk."
+		"Crack your nuts open and make way for automation"
+	]
+	quest.363AD1A19A39EC75.title: "Garnish Compound"
+	quest.363AD1A19A39EC75.quest_desc: [
+		"Obtain Garnish Compound to more effectively use materials"
+	]
+	quest.5F0BD5476E488E28.title: "Glazed Nuts"
+	quest.5F0BD5476E488E28.quest_desc: [
+		"Apply Honey onto your nuts"
+		"Apply Chocolate onto your nuts"
+	]
+	quest.1D4D90D240385949.title: "Cinder-Glazed Nuts"
+	quest.1D4D90D240385949.quest_desc: [
+		"&lWhy:&r Cinder nuts give effects: haste, strength, night vision, fire resistance, resistance."
+		"Obtain Melted Cinder Nuts that have an effect attached"
+	]
+	quest.48D5BE5B36E81D27.title: "Bottled Apple Cider"
+	quest.48D5BE5B36E81D27.quest_desc: [
+		"Mix Apples, Water, a Cracked Nut, and Garnish Compound to make Apple Cider"
+	]
+	quest.7497366427DFB520.title: "Hatchet"
+	quest.7497366427DFB520.quest_desc: [
+		"&lWhy:&r A hatchet for wood and mobs, from wood to netherite."
+	]
+	quest.73BB2A9C9D739FBF.title: "Mastic Resin"
+	quest.73BB2A9C9D739FBF.quest_desc: [
+		"Obtain any Bucket of Mastic Resin"
+	]
+	quest.52E7D27BABE8FE00.title: "A Garnished Lunch"
+	quest.52E7D27BABE8FE00.quest_desc: [
+		"&lWhy:&r A filling meal for the whole crew."
+	]
+	quest.17F2F75EEE651DF8.title: "Mechanical Extruder"
+	quest.17F2F75EEE651DF8.quest_desc: [
+		"&lWhy:&r Generates blocks such as cobblestone and basalt depending on the blocks beside and below it."
+		"The Extruder uses rotational force to generate blocks. Generation depends on side & below blocks. When the process is done, the result can be obtained via Right-click. The outputs can also be extracted by automation. When a conbination of ingredient has multiple possible outcomes, the filter slot can specify it."
+	]
+	quest.31FED91BE2FA99D7.title: "Mechanical Brass Extruder"
+	quest.31FED91BE2FA99D7.quest_desc: [
+		"&lWhy:&r Faster, with more combinations."
+	]
+	quest.375464323C72B058.title: "Tweaked Controller"
+	quest.375464323C72B058.quest_desc: [
+		"&lWhy:&r A gamepad-style remote for planes, drones and cranes; place it on a lectern for a cockpit."
+		"Grants handheld control over Redstone Link frequencies assigned to your Game Controller inputs."
+	]
+	quest.3D7C8BB18F5AD75D.title: "Roost"
+	quest.3D7C8BB18F5AD75D.quest_desc: [
+		"Right-click a bird with the empty roost to catch it. Generally, baby birds cannot be caught. Alternatively, bird can be collected from their Spawners directly. Roost with bird."
+		"Poultry produces naturally over time; feeding speeds up the next output. Conveyor belt allows feeding from the front of the Roost. Mechanical Arm can also feed. Feed again after each cooldown to keep production moving faster."
+	]
+	quest.284E242025288A69.title: "Chicken Roost"
+	quest.284E242025288A69.quest_desc: [
+		"&lWhy:&r Eggs and feathers without a pen; feed by belt or arm."
+	]
+	quest.125AC2A53E74A1AF.title: "Fishing Net"
+	quest.125AC2A53E74A1AF.quest_desc: [
+		"&lWhy:&r Catches fish while moving on a contraption."
+		"Whenever Fishing Nets are moved as part of an animated Contraption... They will fish in open water, like a player fishing with a Fishing Rod. Fishing Net will catch small animal in water."
+	]
+	quest.533605B6ADA04081.title: "Lava Fishing Net"
+	quest.533605B6ADA04081.quest_desc: [
+		"Whenever Lava Fishing Nets are moved as part of an animated Contraption... They fish in lava just as a player would with a fishing rod. They can catch both fish and other items found while lava fishing."
+	]
+	quest.20D001131DCC4299.title: "Vacuum Harvester"
+	quest.20D001131DCC4299.quest_desc: [
+		"&lWhy:&r Harvests the area around it in pulses."
+		"When assembled, the chamber charges on its own fixed timer. The timer continues even while the assembled Contraption is standing still. Each pulse harvests the complete area around its current position, not only newly entered blocks. Contraption Controls pause charging until the actor is enabled again."
+	]
+	quest.7100B809D3A25E19.title: "Design n' Decor"
+	quest.7100B809D3A25E19.quest_desc: [
+		"&lWhy:&r Hundreds of Create-style decor blocks: catwalks, lamps, bolts, sheet metal."
+	]
+	quest.3A2BCF3C3C45C4B0.title: "Stone Millstones and Wheels"
+	quest.3A2BCF3C3C45C4B0.quest_desc: [
+		"&lWhy:&r Work like normal ones but match your build's stone."
+	]
+	quest.5EE6081240BB4FBF.title: "Radar"
+	quest.5EE6081240BB4FBF.quest_desc: [
+		"&lWhy:&r A spinning antenna that sees mobs, players and aircraft; more plates, more range."
+		"Place Radar Bearing. Place Radar Receiver. Add Radar Dishes. Radar Dishes can be used interchangeably with Radar Plates. Additional dishes/plates extend range. Power Radar Bearing."
+	]
+	quest.4504278B5F9E9973.title: "Radar Monitor"
+	quest.4504278B5F9E9973.quest_desc: [
+		"Place Monitor. Build Radar Contraption. Link using Data Link. Right click Radar Link to configure."
+	]
+	quest.33E888C06D8E442E.title: "Cannon Targeting"
+	quest.33E888C06D8E442E.quest_desc: [
+		"&lWhy:&r Controllers aim a Big Cannons mount at the monitor's target: base air defence."
+		"Place Yaw Controller under turret mount. Link using Data Links. Repeat for pitch Controller. Select Target on monitor for turret to aim/fire at."
+	]
+	quest.1FEC80FCF1341C0A.title: "Safe Zone"
+	quest.1FEC80FCF1341C0A.quest_desc: [
+		"&lWhy:&r Mark where cannons never fire. Set it before the first shot."
+	]
+	quest.11B1D5EAEED79BD3.title: "Plane Radar"
+	quest.11B1D5EAEED79BD3.quest_desc: [
+		"&lWhy:&r A radar for your aircraft."
+	]
+	quest.422392E503EC1B44.title: "Robo Bee Courier"
+	quest.422392E503EC1B44.quest_desc: [
+		"&lWhy:&r Delivers a package straight to a player by name."
+		"The Robo Bee Port can send a Package to a Player. Place a package with an address matching the Player's name in the Robo Bee Port. Place a Robo Bee in the Robo Bee Slot in the Robo Bee Port. The Port will now send the Robo Bee to the Player who's name matches the address in the package."
+	]
+	quest.7A3CD6CF4963979D.title: "Base-to-Base Mail"
+	quest.7A3CD6CF4963979D.quest_desc: [
+		"The Robo Bee Port can also send packages to another Port. Set an address in the destination Port. Set the same address as the package address and place the package in the first Port. The package will be sent from one Port to the other. This feature can be disabled in the configuration files."
+	]
+	quest.44C13720E7360069.title: "Portable Stock Ticker"
+	quest.44C13720E7360069.quest_desc: [
+		"&lWhy:&r Order from your stock anywhere; a bee brings it."
+		"A Mobile Stock Keeper"
+	]
+	quest.096B9CD4FB594303.title: "Mobile Packager"
+	quest.096B9CD4FB594303.quest_desc: [
+		"Package items on the go"
+	]
+	quest.28A50F9DFB6CE3FB.title: "Trading Depot"
+	quest.28A50F9DFB6CE3FB.quest_desc: [
+		"&lWhy:&r Trades with villagers for you, fed by belts."
+		"To use a trading depot, attach it to a villager workstation. When a villager next works at their workstation they will trade with the attached depot."
+	]
+	quest.780535BF23DAB816.title: "Two-Item Trades"
+	quest.780535BF23DAB816.quest_desc: [
+		"To complete trades with multiple inputs, 2 depots can be used together. While not required, you should set the filter on the first input to avoid other trades. Note that trading depots will only share contents if they have matching filters, or the other is empty. The output then goes to whichever depot has the first item of the trade."
+	]
+	quest.19C69DF9D5443955.title: "Pattern Schematics"
+	quest.19C69DF9D5443955.quest_desc: [
+		"&lWhy:&r Save a wall segment and repeat it at any length."
+		"To use pattern schematics, you must first save a schematic to use as a source. Then, use a schematic table with an empty pattern schematic. Use the table to upload the schematic. Then, using the clone tool in the options, the structure can be repeated. Clones get placed next to each other. Additionally, the schematic can be rotated. This rotation will then apply to all clones."
+	]
+	quest.239277452238F361.title: "Road Behind a Train"
+	quest.239277452238F361.quest_desc: [
+		"A single pattern schematic can be applied to a group of assembled deployers with Shift + Right Click. Here, the schematic has been placed as usual. But moving the train further will result in the schematic repeating."
+	]
+	quest.26E8B66F7FA0439E.title: "Enchanted Machinery"
+	quest.26E8B66F7FA0439E.quest_desc: [
+		"&lWhy:&r Enchant drills, saws and deployers: efficiency, fortune, silk touch."
+	]
+	quest.7847F23B0F2B259E.title: "Lost Train Station"
+	quest.7847F23B0F2B259E.quest_desc: [
+		"&lWhy:&r Create-style structures across the world with engineer loot."
+	]
+	quest.3AB03905AB6EF5E3.title: "Pillager Airship"
+	quest.3AB03905AB6EF5E3.quest_desc: [
+		"&lWhy:&r A steampunk pillager airship."
+	]
+	quest.687C88408C4703B1.title: "Dark Castle"
+	quest.687C88408C4703B1.quest_desc: [
+		"&lWhy:&r A guarded castle: go as a team."
+	]
+	quest.50C1E3A606F03421.title: "Mine Train"
+	quest.50C1E3A606F03421.quest_desc: [
+		"&lWhy:&r An abandoned mine train with ore inside."
+	]
+	quest.31B1E1774E2F4168.title: "Create Add-on Master"
+	quest.31B1E1774E2F4168.quest_desc: [
+		"Couriers, radars, trading depots, auto-farms: Create as an economy."
 	]
 	chapter.75D3C2A26C328D05.title: "Sky & Roads"
 	chapter.75D3C2A26C328D05.chapter_subtitle: [
@@ -7542,6 +7928,34 @@
 	quest.2B022A0B2B672C60.quest_subtitle: "A home worth coming back to"
 	quest.2B022A0B2B672C60.quest_desc: [
 		"Lights, roof, furniture, trophies and a stash. Invite friends to a housewarming, and take a screenshot with shaders on."
+	]
+	quest.66A4B109B01E0B97.title: "Television"
+	quest.66A4B109B01E0B97.quest_desc: [
+		"&lWhy:&r Place it, right-click, paste a YouTube/Twitch/image link and save. Sound is heard by everyone nearby."
+	]
+	quest.3B0F08BC06DFFD92.title: "Remote Control"
+	quest.3B0F08BC06DFFD92.quest_desc: [
+		"&lWhy:&r Pause, seek and change volume from the couch."
+	]
+	quest.4FE54FF9416637B6.title: "Big Television"
+	quest.4FE54FF9416637B6.quest_desc: [
+		"&lWhy:&r For the living room or tavern."
+	]
+	quest.0901C606656A7AFD.title: "Box Television"
+	quest.0901C606656A7AFD.quest_desc: [
+		"&lWhy:&r A retro box TV."
+	]
+	quest.504166DDE5FB1543.title: "Picture Frame"
+	quest.504166DDE5FB1543.quest_desc: [
+		"&lWhy:&r Shows an image or GIF from a link: shop signs, town maps, posters."
+	]
+	quest.65610F8A5128AEF3.title: "Projector"
+	quest.65610F8A5128AEF3.quest_desc: [
+		"&lWhy:&r Projects onto a wall up to 64 blocks: an open-air cinema."
+	]
+	quest.0BC31AB531C540B8.title: "Cinema"
+	quest.0BC31AB531C540B8.quest_desc: [
+		"&lWhy:&r Build a hall with seats and a projector; sound carries 64 blocks, so keep it away from neighbours."
 	]
 	chapter.34F136AADF95EE95.title: "Great Works"
 	chapter.34F136AADF95EE95.chapter_subtitle: [

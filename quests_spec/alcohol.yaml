@@ -1,0 +1,335 @@
+# Alcohol, wave 12: Kaleidoscope Tavern (+ World Liquor), Create: Alcohol Industry, Drink Beer Refill.
+# Effects named in «why» lines are taken from the mods' own drink_effect data (checked 2026-10-16), not invented.
+# Highball, Jerk and the tavern's Rum were re-balanced in kubejs/data (no creative flight, no explosion, no bad omen).
+# Dassai and Maotai are left out: their barrel recipes need Kaleidoscope Cookery rice, which the pack does not include.
+extends: brewery
+lang: [kaleidoscope_tavern, kaleidoscope_world_liquor, alcohol_industry, drinkbeer]
+out: alcohol_gen
+quests:
+  # --- Kaleidoscope Tavern: vineyard -> press -> barrel
+  - id: alc_tavern
+    deps: [br_intro]
+    roles: [cook, gardener]
+    shape: gear
+    icon: kaleidoscope_tavern:barrel
+    tasks: [{type: checkmark}]
+    title: {ru: "Таверна: зачем всё это", en: "The Tavern: Why Bother"}
+    why: {ru: "Каждый напиток таверны даёт настоящий бафф, а не просто «пьяный» экран: виски и водка — силу, «Звезда шахтёра» — ускоренное копание, сливовое вино — дыхание под водой, ледяное вино — огнестойкость, джин — двойной прыжок. Чем дольше выдержка в бочке, тем сильнее эффект. Но у крепкого всегда есть тошнота — пей перед делом, а не посреди боя.", en: "Every tavern drink gives a real buff; longer aging means stronger effects. Strong drinks also bring nausea."}
+  - id: alc_grapevine
+    deps: [alc_tavern]
+    roles: [gardener]
+    items: [kaleidoscope_tavern:grapevine*4]
+    title: {ru: "Виноградная лоза", en: "Grapevine"}
+    doc: ponder:grapevine_wild_generation
+  - id: alc_vineyard
+    deps: [alc_grapevine]
+    roles: [gardener]
+    items: [kaleidoscope_tavern:grape*16]
+    title: {ru: "Виноградник", en: "Vineyard"}
+    doc: ponder:grapevine_planting
+  - id: alc_grape_kinds
+    deps: [alc_vineyard]
+    roles: [gardener]
+    items: [kaleidoscope_tavern:green_grape*8, kaleidoscope_tavern:ice_grape*4, kaleidoscope_tavern:gold_grape*2]
+    title: {ru: "Сорта винограда", en: "Grape Varieties"}
+    why: {ru: "Зелёный — для белых вин, ледяной — для ледяного вина (огнестойкость), золотой — для редких напитков.", en: "Green for whites, ice grapes for ice wine, gold for rare drinks."}
+  - id: alc_pressing_tub
+    deps: [alc_vineyard]
+    roles: [cook]
+    items: [kaleidoscope_tavern:pressing_tub]
+    doc: ponder:pressing_tub_pressing
+    why: {ru: "Да, виноград давят ногами: прыгай на чан. Сок — основа любого вина.", en: "Yes, you stomp grapes: jump on the tub."}
+  - id: alc_barrel
+    deps: [alc_pressing_tub]
+    roles: [cook]
+    items: [kaleidoscope_tavern:barrel, kaleidoscope_tavern:tap]
+    title: {ru: "Бочка и кран", en: "Barrel and Tap"}
+    doc: ponder:barrel_introduction
+  - id: alc_wine
+    deps: [alc_barrel]
+    roles: [cook]
+    items: [kaleidoscope_tavern:wine]
+    why: {ru: "Красное вино даёт регенерацию. Выдержанное дольше — лечит дольше.", en: "Red wine gives regeneration."}
+  - id: alc_white_wines
+    deps: [alc_wine, alc_grape_kinds]
+    roles: [cook]
+    items: [kaleidoscope_tavern:riesling_dry_white, kaleidoscope_tavern:sauvignon_blanc_dry_white]
+    title: {ru: "Сухие белые", en: "Dry Whites"}
+    why: {ru: "Белые вина дают «скрытность в траве»: мобы хуже замечают тебя в зарослях — охотникам и разведчикам.", en: "Grass stealth: mobs notice you less in tall grass."}
+  - id: alc_ice_wine
+    deps: [alc_wine, alc_grape_kinds]
+    roles: [cook, warrior]
+    items: [kaleidoscope_tavern:ice_wine]
+    why: {ru: "Огнестойкость в бутылке — перед походом в Незер.", en: "Fire resistance before the Nether."}
+  - id: alc_plum_wine
+    deps: [alc_wine]
+    roles: [cook]
+    items: [kaleidoscope_tavern:plum_wine]
+    title: {ru: "Сливовое вино", en: "Plum Wine"}
+    why: {ru: "Дыхание под водой — для ныряльщиков за сокровищами затонувших кораблей.", en: "Water breathing for divers."}
+  - id: alc_sakura_wine
+    title: {ru: "Вино из сакуры", en: "Sakura Wine"}
+    deps: [alc_wine]
+    roles: [cook]
+    items: [kaleidoscope_tavern:sakura_wine]
+    why: {en: Gives regeneration., ru: Вино из сакуры даёт регенерацию — мягкий напиток к ужину.}
+  - id: alc_honey_wine
+    deps: [alc_wine]
+    roles: [cook, breeder]
+    items: [kaleidoscope_tavern:honey_wine]
+    title: {ru: "Медовуха", en: "Honey Wine"}
+    why: {ru: "Сопротивление урону. Мёд от своих пчёл — пчеловод и винодел работают вместе.", en: "Resistance; honey from your own bees."}
+  - id: alc_champagne
+    deps: [alc_white_wines]
+    roles: [cook, mayor]
+    items: [kaleidoscope_tavern:champagne]
+    why: {ru: "Шампанское — для праздников и свадеб жителей.", en: "For festivals and weddings."}
+  - id: alc_strong
+    deps: [alc_barrel]
+    roles: [cook, warrior]
+    items: [kaleidoscope_tavern:whiskey, kaleidoscope_tavern:vodka]
+    title: {ru: "Крепкое", en: "Spirits"}
+    why: {ru: "Виски и водка дают силу — бойцу перед вылазкой. Тошнота короткая, но в бою мешает: пей заранее.", en: "Whiskey and vodka give strength; drink before, not during, a fight."}
+  - id: alc_miners_star
+    deps: [alc_strong]
+    roles: [cook, engineer]
+    items: [kaleidoscope_tavern:miners_star]
+    title: {ru: "Звезда шахтёра", en: "Miner's Star"}
+    why: {ru: "Ускоренное копание. Лучший подарок шахтёру после смены (а лучше — до неё).", en: "Haste for miners."}
+  - id: alc_rum
+    title: {ru: "Ром", en: "Rum"}
+    deps: [alc_strong]
+    roles: [cook]
+    items: [kaleidoscope_tavern:rum]
+    why: {ru: "Ром моряка: грация дельфина и дыхание под водой. (В оригинале ром давал «Дурное знамение» и вызывал рейды на деревни — в Arkhaven это убрано.)", en: "Sailor's rum: dolphin's grace and water breathing (the original bad omen is removed)."}
+  - id: alc_glowflower
+    title: {ru: "Брага светоцвета", en: "Glowflower Brew"}
+    deps: [alc_barrel]
+    roles: [cook]
+    items: [kaleidoscope_tavern:glowflower_brew]
+    why: {ru: "«Видение»: подсвечивает окружение — пригодится в тёмных пещерах.", en: "Vision in dark caves."}
+  - id: alc_shaker
+    deps: [alc_strong]
+    roles: [cook]
+    items: [kaleidoscope_tavern:shaker]
+    title: {ru: "Шейкер бармена", en: "Bartender's Shaker"}
+    why: {ru: "Коктейли смешивают в шейкере. Они сильнее вина, но действуют коротко.", en: "Cocktails are mixed in the shaker."}
+  - id: alc_cocktails
+    deps: [alc_shaker]
+    roles: [cook]
+    items: [kaleidoscope_tavern:mojito, kaleidoscope_tavern:grasshopper, kaleidoscope_tavern:emerald]
+    title: {ru: "Первые коктейли", en: "First Cocktails"}
+    why: {ru: "Мохито — «видение», «Кузнечик» — скрытность в траве, «Изумруд» — длинные руки (дальше достаёшь блоки).", en: "Mojito: vision, Grasshopper: grass stealth, Emerald: long reach."}
+  - id: alc_godfather
+    deps: [alc_cocktails]
+    roles: [cook, warrior]
+    items: [kaleidoscope_tavern:godfather, kaleidoscope_tavern:nether_special]
+    title: {ru: "Для смелых", en: "For the Brave"}
+    why: {ru: "«Крёстный отец» и «Незерский особый» — коктейли для вылазок. Попробуй и посмотри эффекты в инвентаре.", en: "Cocktails for expeditions."}
+  - id: alc_molotov
+    deps: [alc_strong]
+    roles: [warrior]
+    items: [kaleidoscope_tavern:molotov]
+    why: {ru: "Коктейль Молотова — метательный огонь. Только в диких землях: поджечь лес у чужой базы — плохая идея.", en: "Thrown fire. Wilds only."}
+  - id: alc_bar
+    deps: [alc_tavern]
+    roles: [builder, mayor]
+    items: [kaleidoscope_tavern:bar_counter*4, kaleidoscope_tavern:bar_cabinet, kaleidoscope_tavern:red_bar_stool*4]
+    title: {ru: "Своя таверна", en: "Your Own Tavern"}
+    why: {ru: "Стойка, шкаф, стулья, гирлянды и грифельная доска для меню — построй место, куда соседи захотят прийти после работы.", en: "Build a place neighbours want to visit."}
+  - id: alc_bar_decor
+    deps: [alc_bar]
+    roles: [builder]
+    items: [kaleidoscope_tavern:chalkboard, kaleidoscope_tavern:string_lights_yellow*4]
+    title: {ru: "Уют в баре", en: "Bar Atmosphere"}
+  # --- World Liquor
+    why: {en: A menu board and lights make it a bar., ru: Доска для меню и гирлянды — без них бар похож на склад.}
+  - id: alc_world_liquor
+    deps: [alc_strong]
+    roles: [cook]
+    shape: gear
+    icon: kaleidoscope_world_liquor:johnnie_walker
+    tasks: [{type: checkmark}]
+    title: {ru: "Напитки мира", en: "Liquors of the World"}
+    why: {ru: "Дополнение таверны: настоящие напитки мира с уникальными эффектами, которых больше нигде нет — двойная добыча, подсветка сундуков и врагов, ходьба по воде, двойной прыжок. Ради них и стоит держать бар.", en: "Real-world liquors with unique effects: double drops, chest and mob highlighting, water walking, multi-jump."}
+  - id: alc_freezer
+    title: {ru: "Морозилка", en: "Freezer"}
+    deps: [alc_world_liquor]
+    roles: [cook]
+    items: [kaleidoscope_world_liquor:freezer]
+    doc: kaleidoscope_world_liquor.ponder.freezer.text_1
+    why: {ru: "Морозилка делает лёд для коктейлей: залей воду, закрой крышку, подожди.", en: "Makes ice for cocktails."}
+  - id: alc_johnnie
+    deps: [alc_world_liquor]
+    roles: [engineer, gardener]
+    items: [kaleidoscope_world_liquor:johnnie_walker]
+    title: {ru: "Джонни Уокер", en: "Johnnie Walker"}
+    doc: effect.kaleidoscope_world_liquor.treasure_guide.description
+    why: {ru: "«Путеводитель к сокровищам»: шанс двойной добычи с руды, урожая и мобов. Выпей перед шахтой или уборкой поля.", en: "Treasure guide: double drops from ore, crops and mobs."}
+  - id: alc_bacardi
+    deps: [alc_world_liquor]
+    roles: [warrior]
+    items: [kaleidoscope_world_liquor:bacardi_carta_blanca]
+    title: {ru: "Белый ром", en: "White Rum"}
+    doc: effect.kaleidoscope_world_liquor.treasure_sense.description
+    why: {ru: "Подсвечивает сундуки вокруг — для данжей и затонувших кораблей.", en: "Highlights nearby chests."}
+  - id: alc_skyy
+    deps: [alc_world_liquor]
+    roles: [warrior]
+    items: [kaleidoscope_world_liquor:skyy_vodka]
+    title: {ru: "Водка SKYY", en: "SKYY Vodka"}
+    doc: effect.kaleidoscope_world_liquor.hostile_detection.description
+    why: {ru: "Подсвечивает всех враждебных мобов рядом — никто не подкрадётся в данже.", en: "Highlights hostile mobs."}
+  - id: alc_spirytus
+    deps: [alc_world_liquor]
+    roles: [warrior]
+    items: [kaleidoscope_world_liquor:spiryt_vodka]
+    title: {ru: "Спирт 96%", en: "Spirytus"}
+    doc: effect.kaleidoscope_world_liquor.captain_gift.description
+    why: {ru: "«Дар капитана»: ходьба по воде. Самый крепкий — и самый странный эффект.", en: "Walk on water."}
+  - id: alc_gin
+    deps: [alc_world_liquor]
+    roles: [warrior]
+    items: [kaleidoscope_world_liquor:bombay_sapphire_gin]
+    title: {ru: "Джин", en: "Gin"}
+    doc: effect.kaleidoscope_world_liquor.multi_jump.description
+    why: {ru: "Дополнительные прыжки в воздухе — в горах и на крышах.", en: "Extra mid-air jumps."}
+  - id: alc_jack
+    deps: [alc_world_liquor]
+    roles: [warrior]
+    items: [kaleidoscope_world_liquor:jack_daniel]
+    title: {ru: "Джек Дэниелс", en: "Jack Daniel's"}
+    doc: effect.kaleidoscope_world_liquor.beheading.description
+    why: {ru: "Шанс убить обычного моба с одного удара и гарантированно получить его голову — для коллекции трофеев.", en: "Chance to one-shot normal mobs and get their head."}
+  - id: alc_sour_plum
+    deps: [alc_world_liquor]
+    roles: [warrior]
+    items: [kaleidoscope_world_liquor:sour_plum]
+    title: {ru: "Кислый сливовый напиток", en: "Sour Plum Drink"}
+    doc: effect.kaleidoscope_world_liquor.tequila.description
+    why: {ru: "Ограничивает урон от одного удара долей твоего здоровья — один удар босса тебя не убьёт.", en: "Caps damage from a single hit — a boss can't one-shot you."}
+  - id: alc_lafite
+    deps: [alc_world_liquor]
+    roles: [cook, mayor]
+    items: [kaleidoscope_world_liquor:lafite_1982]
+    title: {ru: "Шато Лафит 1982", en: "Château Lafite 1982"}
+    why: {ru: "Дополнительное здоровье. Бутылка, которую открывают по большому поводу.", en: "Health boost; for big occasions."}
+  - id: alc_highball
+    deps: [alc_world_liquor]
+    roles: [warrior]
+    items: [kaleidoscope_world_liquor:highball]
+    title: {ru: "Хайбол", en: "Highball"}
+    why: {ru: "Лёгкость: скорость, высокий прыжок и мягкое падение на несколько минут. (В оригинале давал полёт как в творческом режиме — в Arkhaven заменено, чтобы не ломать игру.)", en: "Speed, jump and slow falling (creative flight removed)."}
+  - id: alc_long_island
+    deps: [alc_world_liquor]
+    roles: [warrior]
+    items: [kaleidoscope_world_liquor:long_island_iced_tea]
+    title: {ru: "Лонг-Айленд", en: "Long Island Iced Tea"}
+    why: {ru: "Даёт эффект «возрождения» — посмотри описание в инвентаре и держи этот коктейль перед боссом.", en: "A 'respawn' effect — keep one for boss fights."}
+  # --- Create: Alcohol Industry
+  - id: alc_ai
+    deps: [br_intro, c_mixer]
+    roles: [engineer, cook]
+    shape: gear
+    icon: alcohol_industry:alcohol_boiler
+    tasks: [{type: checkmark}]
+    title: {ru: "Ликёро-водочный завод", en: "Distillery"}
+    why: {ru: "Create: Alcohol Industry варит крепкое машинами: пресс давит сок, бочка его сбраживает, котёл перегоняет спиртовую основу в пиво, водку, виски, ром или текилу. Один завод поит весь сервер — бармену таверны и повару остаётся только разливать.", en: "Create machines make spirits in bulk: press, ferment, distil."}
+  - id: alc_ai_press
+    deps: [alc_ai]
+    roles: [engineer]
+    items: [alcohol_industry:juice_press]
+    title: {ru: "Сокопресс", en: "Juice Press"}
+    why: {ru: "Давит яблоки и виноград в сок на вращении Create.", en: "Presses fruit into juice using rotation."}
+  - id: alc_ai_barrel
+    deps: [alc_ai_press]
+    roles: [engineer, cook]
+    items: [alcohol_industry:fermentation_barrel]
+    title: {ru: "Бродильная бочка", en: "Fermentation Barrel"}
+    why: {ru: "Сок бродит в бочке — так получаются сидр и яблочное вино.", en: "Juice ferments into cider and apple wine."}
+  - id: alc_ai_cider
+    deps: [alc_ai_barrel]
+    roles: [cook]
+    items: [alcohol_industry:cider, alcohol_industry:apple_wine]
+    title: {ru: "Сидр и яблочное вино", en: "Cider and Apple Wine"}
+    why: {en: Mild drinks from apples., ru: Мягкие напитки завода — из обычных яблок.}
+  - id: alc_ai_boiler
+    deps: [alc_ai]
+    roles: [engineer]
+    items: [alcohol_industry:alcohol_boiler, alcohol_industry:temperature_controller]
+    title: {ru: "Перегонный котёл", en: "Alcohol Boiler"}
+    why: {ru: "Котёл превращает спиртовую основу в конкретный напиток. Регулятор температуры задаёт, какой именно.", en: "Turns alcohol base into a specific drink; the controller picks which."}
+  - id: alc_ai_base
+    deps: [alc_ai_boiler]
+    roles: [engineer]
+    items: [alcohol_industry:alcohol_base*4]
+    title: {ru: "Спиртовая основа", en: "Alcohol Base"}
+    why: {en: The shared base for all spirits., ru: Спиртовая основа — общее сырьё для всех крепких напитков завода.}
+  - id: alc_ai_spirits
+    deps: [alc_ai_base]
+    roles: [cook]
+    items: [alcohol_industry:vodka, alcohol_industry:whiskey, alcohol_industry:rum, alcohol_industry:tequila, alcohol_industry:beer]
+    title: {ru: "Пять напитков завода", en: "Five Distillery Drinks"}
+    why: {ru: "Водка, виски, ром, текила и пиво — всё с эффектами. Разливай вёдрами и бутылками через Create.", en: "Vodka, whiskey, rum, tequila and beer, bottled by Create."}
+  # --- Drink Beer Refill
+  - id: alc_db
+    deps: [br_tankard]
+    roles: [cook, mayor]
+    shape: gear
+    icon: drinkbeer:beer_barrel
+    items: [drinkbeer:beer_barrel, drinkbeer:empty_beer_mug*4]
+    title: {ru: "Пивной бочонок", en: "Beer Keg"}
+    why: {ru: "Drink Beer Refill — пиво в кружках и бар с бартером. Рецепты висят на вывесках — купи коробку вывесок, чтобы знать, что варить.", en: "Beer in mugs and a bartering bar; recipes are on recipe boards."}
+  - id: alc_db_recipes
+    deps: [alc_db]
+    roles: [cook]
+    items: [drinkbeer:recipe_board_package]
+    why: {en: Recipe boards to hang above kegs., ru: 'Коробка вывесок с рецептами — повесь их над бочонками, чтобы все видели, что как варится.'}
+  - id: alc_db_pale_ale
+    deps: [alc_db]
+    roles: [cook, engineer]
+    items: [drinkbeer:beer_mug]
+    title: {ru: "Шахтёрский пейл-эль", en: "Miner Pale Ale"}
+    why: {en: The bar classic., ru: Классика бара. Эффект и рецепт — в подсказке к кружке.}
+  - id: alc_db_stout
+    deps: [alc_db]
+    roles: [cook, warrior]
+    items: [drinkbeer:beer_mug_blaze_stout]
+    why: {en: The bar's dark beer; recipe on the board or in JEI., ru: 'Пламенный стаут — тёмное пиво бара. Рецепт смотри на вывеске или в JEI.'}
+  - id: alc_db_lager
+    deps: [alc_db]
+    roles: [cook]
+    items: [drinkbeer:beer_mug_haars_icey_pale_lager]
+    why: {en: Brewed with ice., ru: Ледяной светлый лагер. Рецепт — на вывеске или в JEI.}
+  - id: alc_db_kvass
+    deps: [alc_db]
+    roles: [cook]
+    items: [drinkbeer:beer_mug_night_howl_kvass, drinkbeer:beer_mug_pumpkin_kvass]
+    title: {ru: "Квас", en: "Kvass"}
+    why: {en: Mild and filling., ru: 'Квас — слабый и сытный. Тыквенный хорош осенью, когда урожай тыкв.'}
+  - id: alc_db_bartending
+    deps: [alc_db_pale_ale]
+    roles: [cook]
+    items: [drinkbeer:bartending_table_normal]
+    why: {ru: "Стол бармена смешивает пиво со специями (паприка, мята, корица) — у смесей свои вкусы и эффекты.", en: "Mixes beer with spices for new flavours."}
+  - id: alc_db_spices
+    deps: [alc_db_bartending]
+    roles: [cook]
+    icon: drinkbeer:spice_blaze_paprika
+    tasks: [{type: checkmark}]
+    title: {ru: "Специи", en: "Spices"}
+    why: {ru: "Специи (паприка, мята, корица, орехи и другие) меняют вкус и эффект пива на столе бармена. Их не крафтят — где взять каждую, смотри в JEI (клавиша U по специи).", en: "Spices change a beer's flavour and effect. They are not crafted: check JEI (U on the spice) for where to get each."}
+  - id: alc_db_trade
+    deps: [alc_db]
+    roles: [mayor]
+    items: [drinkbeer:trade_box_normal, drinkbeer:iron_call_bell]
+    title: {ru: "Бартер", en: "Bartering"}
+    why: {ru: "Ящик бартера: меняй пиво и еду на нужные вещи. Колокольчик на стойке — чтобы звать бармена.", en: "Trade drinks for goods; ring the bell for service."}
+  - id: alc_master
+    deps: [alc_long_island, alc_johnnie, alc_ai_spirits, alc_db_trade, alc_champagne, alc_godfather, alc_bar_decor]
+    roles: [cook, mayor]
+    shape: hexagon
+    icon: kaleidoscope_world_liquor:lafite_1982
+    title: {ru: "Хозяин лучшей таверны", en: "Keeper of the Finest Tavern"}
+    text: {ru: "Свой виноградник, винный погреб, завод крепкого и бар, куда приходят за двойной добычей и смелостью перед боссом. Помни про меру: хорошая таверна славится не похмельем, а баффами.", en: "Vineyard, cellar, distillery and a bar people visit for buffs, not hangovers."}
+    rewards: [{type: xp_levels, count: 15}]

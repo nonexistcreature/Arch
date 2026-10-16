@@ -1,0 +1,19 @@
+{
+  "item": "kaleidoscope_world_liquor:jerk",
+  "effects": [
+    [
+      {
+        "effect": "minecraft:strength",
+        "duration": 120,
+        "amplifier": 1,
+        "probability": 1.0
+      },
+      {
+        "effect": "minecraft:nausea",
+        "duration": 60,
+        "amplifier": 0,
+        "probability": 1.0
+      }
+    ]
+  ]
+}
