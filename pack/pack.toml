@@ -1,12 +1,12 @@
 name = "Arkhaven"
 author = "Arkhaven"
-version = "0.1.6"
+version = "0.1.7"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "af271dfd7a4243f9ba5afcdd1c4d51ae6a4f2a9d2513927033c149a7f758dc67"
+hash = "ed58d38691dc95834fae82bebc6f8d2f4ea4bd68db5b530ee8464bc6f7d5c456"
 
 [versions]
 minecraft = "1.21.1"

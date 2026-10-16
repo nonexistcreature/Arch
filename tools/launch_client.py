@@ -143,6 +143,11 @@ def main():
                     result = "BENCH"
                     print(f"FPS samples={warm}")
                     print(f"FPS median={s[len(s) // 2]} min={s[0]} max={s[-1]} avg={sum(s) / len(s):.0f}")
+                    ft = re.findall(r"ARK_FT fps=(\d+) p99=([\d.]+) max=([\d.]+) s33=(\d+) s50=(\d+)", txt)[int(opt("--warmup", "4")):]
+                    if ft:
+                        p99 = sorted(float(f[1]) for f in ft)
+                        print(f"FT p99med={p99[len(p99) // 2]:.1f} worst={max(float(f[2]) for f in ft):.0f} "
+                              f"s33={sum(int(f[3]) for f in ft)} s50={sum(int(f[4]) for f in ft)}")
                     break
             elif join:
                 if re.search(r"Disconnected|Lost connection|Failed to connect|disconnect\.", txt):

@@ -46,6 +46,7 @@ white-list=false
 difficulty=normal
 view-distance=10
 simulation-distance=6
+sync-chunk-writes=false
 spawn-protection=0
 allow-flight=true
 max-tick-time=-1

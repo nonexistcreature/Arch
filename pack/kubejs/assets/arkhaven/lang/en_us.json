@@ -104,5 +104,7 @@
   "arkhaven.guide.dan.name": "Dan the Guard Captain",
   "arkhaven.guide.dan.line": "It is quiet near the Haven. Want a fight? Head to the wilds or dungeons. But eat first and bring a shield.",
   "arkhaven.guide.ada.name": "Mayor Ada",
-  "arkhaven.guide.ada.line": "Dreaming of your own town? Set up a settlers camp and citizens will come."
+  "arkhaven.guide.ada.line": "Dreaming of your own town? Set up a settlers camp and citizens will come.",
+  "arkhaven.memory.low": "[Arkhaven] The game only has %s MB of memory - expect freezes every few seconds with this pack. Give it 8 GB (8192 MB), at least 6 GB on a weak PC.",
+  "arkhaven.memory.how": "How to fix: Prism - right-click the instance > Edit > Settings > Memory, set max to 8192. Modrinth App - instance settings > Java and memory. TLauncher - memory slider in settings. Then restart the game."
 }

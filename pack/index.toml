@@ -225,6 +225,10 @@ file = "config/neoorigins/gameplay.toml"
 hash = "3a6777c916c6ae098c69e7676690a78740bc4db9d23aafe763d490f1c6bf2f3e"
 
 [[files]]
+file = "config/smallships-client.toml"
+hash = "0ea2d6b958528a2a97317f47d75ab5239113ec815f9cd463c911df855846fabf"
+
+[[files]]
 file = "config/tacznpc_structures.json"
 hash = "0dc2a255a1f6da8ad7c52ca454d5d1b0be4f95a8bdd205eea9abe8ad40b73239"
 
@@ -246,11 +250,11 @@ hash = "2e2540b385fc03a28fe7b6aa64135cd949694dab7a2fccbe6051aee601caf6b4"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/en_us.json"
-hash = "d55ec814fc589b92d5f4dc541340c41c47edce79064c31f86d41cfc96f70eacf"
+hash = "470b1d0e035684a171528db21edbc084323cbc92add73698d49581fc36225c0e"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/ru_ru.json"
-hash = "5cf73fc5160c53f84245b691322a52e452d532cf591fc181377847ab19f9ff1c"
+hash = "6eb3e65c55113a83a58156adadd287926d768060d001028b7b48619fc3897bf9"
 
 [[files]]
 file = "kubejs/assets/arkhaven/textures/item/aero_lubricant.png"
@@ -315,6 +319,14 @@ hash = "1f0d9942b197496ad93cfe45e5db4298a3af9510420ca5706adca5c3fb5e17b9"
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/title/minecraft.png"
 hash = "919e6db1ab5d807ac4c87b32f790cf366da1b7904236bbebc9cf4eedd853555b"
+
+[[files]]
+file = "kubejs/client_scripts/05_no_popups.js"
+hash = "5a9d646f806f5d45663e1fa52b64cce710357e2267e1fcdb1200703ca6ee6855"
+
+[[files]]
+file = "kubejs/client_scripts/06_memory_hint.js"
+hash = "21f49280c8849d134ccf1f87ef4350e47bf391d520a16e0b606ab85a4436378e"
 
 [[files]]
 file = "kubejs/client_scripts/set_tooltips.js"
@@ -1961,6 +1973,11 @@ metafile = true
 [[files]]
 file = "servers.dat"
 hash = "ce61cf548213520d133e4c74a106cc1d4dc866267c278b6a99d08e6f89a4e7c1"
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt"
+hash = "63213d3bb201fceed37e4f3bd478e56fe01c855967ef3d3d3d4d130f8d8a89ec"
+preserve = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

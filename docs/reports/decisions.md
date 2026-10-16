@@ -107,3 +107,11 @@ JRE (в установщике и у игроков) не может запус�
 - Аддоны Create: Garnished, Mechanical Extruder, Tweaked Controllers, Structures Arise, Enchantable Machinery, Integrated Farming, Design n' Decor, Radars, Mobile Packages, Trading Floor, Pattern Schematics. Не взяты (дубли): New Age (ток уже в Crafts & Additions), Diesel Generators (TFMG), Stuff Additions (джетпак есть), Ore Excavation/Ironworks (жилы и сталь в IE/Mekanism).
 - Видео: WaterFrames 2.1.23 + WATERMeDIA 2.1.37 + YouTube Extension 2.1.2, обе библиотеки закреплены (`pin`): 3.0 — бета с изменённым API. WATERViSION (альфа, необязательна с WaterFrames 2.1.21) не ставится. Create переведён с CurseForge на Modrinth (тот же 6.0.10).
 - 2026-10-16, поправка: WaterFrames убран. Он требует WATERMeDIA [2.1.34, 2.2), а FancyMenu 3.9.9+ (обязательна для Drippy Loading Screen 3.1.5) объявляет WATERMeDIA [3.0.0.22, ). Вместе они не грузятся (у игроков клиент падал: «fancymenu only supports watermedia 3.0.0.22 or above»). Альтернатива — откат FancyMenu до 3.9.1 и Drippy до старой версии — отвергнута как хрупкая. Вернуть ТВ можно, когда выйдет WaterFrames под WATERMeDIA 3.
+
+## 2026-10-16 — Профиль шейдера по умолчанию «lite» вместо HIGH
+Complementary Reimagined остаётся (владелец доволен видом). Профиль по умолчанию — свой «lite»
+(`pack/shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt`, preserve = true — правки игрока не затираются):
+тени низкого разрешения на 80 блоков, без объёмных лучей/SSAO/отражений блоков/теней мобов. 135 → 192 FPS при почти
+том же виде. Альтернатива: MEDIUM (151 FPS) или вернуть HIGH в настройках шейдера (профиль HIGH). Смена шейдерпака
+(MakeUp Ultra Fast) рассматривалась — владелец отказался.
+Сервер: `sync-chunk-writes=false` (без синхронной записи чанков на Windows — нет подвисаний при автосохранении).

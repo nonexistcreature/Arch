@@ -23,6 +23,7 @@
 - Команды на тестовом сервере: `python tools/server_boot_test.py --cmds "arkhaven status;arkhaven forecast"`.
 
 ## Последние тесты
+- 2026-10-16 — оптимизация 0.1.7: бенч в движении на копии реального мира (`tools/bench_client.py --real <вариант>`), шейдер-профиль «lite» 135→192 FPS, подсказка про память (<6 ГБ = фризы), закрыта реклама EC2. Подробно — docs/reports/performance.md.
 - 2026-10-14 — уровень 1 (check_pack) зелёный; уровень 2 (загрузка сервера ~70 c, 0 ошибок KubeJS); GameTests arkhaven-core 4/4; валидатор квестов 251/0 ошибок.
 
 ## Открытые проблемы
