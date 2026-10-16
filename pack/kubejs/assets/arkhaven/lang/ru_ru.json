@@ -106,5 +106,18 @@
   "arkhaven.guide.ada.name": "Мэр Ада",
   "arkhaven.guide.ada.line": "Мечтаешь о своём городе? Поставь лагерь поселенцев — и жители придут сами.",
   "arkhaven.memory.low": "[Arkhaven] Игре выделено всего %s МБ памяти — на этой сборке будут фризы каждые несколько секунд. Нужно 8 ГБ (8192 МБ), на слабом ПК минимум 6 ГБ.",
-  "arkhaven.memory.how": "Как исправить: Prism — правый клик по сборке → Изменить → Настройки → Память, поставь максимум 8192. Modrinth App — настройки сборки → Java и память. TLauncher — ползунок памяти в настройках. Потом перезапусти игру."
+  "arkhaven.memory.how": "Как исправить: Prism — правый клик по сборке → Изменить → Настройки → Память, поставь максимум 8192. Modrinth App — настройки сборки → Java и память. TLauncher — ползунок памяти в настройках. Потом перезапусти игру.",
+  "arkhaven.keybook.title": "Клавиши Arkhaven",
+  "arkhaven.keybook.given": "[Arkhaven] В инвентаре книга «Клавиши Arkhaven» — все важные кнопки сборки.",
+  "arkhaven.keybook.p1": "§lКлавиши Arkhaven§r\nКнопки модов мешали друг другу. Мы развели их по слоям:\n§lбез модификатора§r — то, что жмёшь всё время;\n§lAlt +§r — раса, голос, сумки;\n§lCtrl +§r — режимы брони;\n§lShift +§r — инструмент в руке.",
+  "arkhaven.keybook.p2": "§lКаждый день§r\nB — рюкзак\nG, H — аксессуары\nI — аксессуары Эфира\nL — квесты\nM — карта\nU — метки, Alt+U — новая",
+  "arkhaven.keybook.p3": "§lКаждый день§r §7(…)§r\nP — дерево умений\nO — раса и класс\nZ — перекат\n` — жадная добыча (держать)\nK — шейдеры вкл/выкл",
+  "arkhaven.keybook.p4": "§lРаса и класс§r\nAlt+1…Alt+4 — умения расы\nAlt+5 — умение класса\nAlt+K — ночное зрение\nO — что умеет раса\n\n§lГолосовой чат§r\nCaps Lock — говорить (держать)\nAlt+V — меню чата",
+  "arkhaven.keybook.p5": "§lГолосовой чат§r §7(…)§r\nAlt+M — выключить микрофон\n\n§lIron's Spells§r\nV — сотворить\nR — колесо заклинаний\n\n§lArs Nouveau§r\nC — выбор заклинания\nX — следующее",
+  "arkhaven.keybook.p6": "§lArs Nouveau§r §7(…)§r\nShift+X — прошлое\nAlt+C — книга\nAlt+Y — шлем\nAlt+P — сумка Ars Elemental\n\n§lMekanism§r\nCtrl+H — режим шлема\nCtrl+G — нагрудник\nCtrl+J — поножи\nCtrl+B — ботинки",
+  "arkhaven.keybook.p7": "§lMekanism§r §7(…)§r\nN — режим инструмента\n\n§lРанец и броня§r\nJ — ранец вкл/выкл\nAlt+J — зависание\nCtrl+C/Y/V — шлем, грудь, ботинки Cataclysm\nCtrl+F — оружие Cataclysm",
+  "arkhaven.keybook.p8": "§lРанец и броня§r §7(…)§r\nCtrl+R — рывок Deep Aether\n\n§lОружие TACZ§r\n(с пушкой в руке)\nЛКМ — выстрел\nПКМ — прицел\nR — перезарядка\nAlt+G — режим огня\nAlt+H — осмотр\nAlt+R — модификация\nAlt+F — штык",
+  "arkhaven.keybook.p9": "§lОружие TACZ§r §7(…)§r\nCtrl+Z — зум\nShift+C — ползти\n\n§lСумки и мелочи§r\nAlt+B, Alt+N, Alt+E — сумки Occultism\nCtrl+X — колчан\nCtrl+K — склад Create\nCtrl+L — сети Create\n. — эмоции",
+  "arkhaven.keybook.p10": "§lСумки и мелочи§r §7(…)§r\n, — позвать дракона\n; — взять жителя\n\n§lBuilding Gadgets§r\n(с гаджетом в руке)\nShift+G — меню\nShift+H — якорь\nShift+R — радиус\nShift+U — отмена",
+  "arkhaven.keybook.p11": "§lКак поменять§r\nНастройки → Управление → Привязки клавиш.\nСверху поиск и фильтр конфликтов.\nКрасная кнопка — на ней два действия. Это нормально, если одно работает только в меню или на транспорте."
 }

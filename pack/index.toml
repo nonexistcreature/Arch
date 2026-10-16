@@ -250,11 +250,11 @@ hash = "2e2540b385fc03a28fe7b6aa64135cd949694dab7a2fccbe6051aee601caf6b4"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/en_us.json"
-hash = "470b1d0e035684a171528db21edbc084323cbc92add73698d49581fc36225c0e"
+hash = "767a726d9736be32a8eeb5cf1b472f815cd59486a247c5c894db5e81683f4582"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/ru_ru.json"
-hash = "6eb3e65c55113a83a58156adadd287926d768060d001028b7b48619fc3897bf9"
+hash = "3dc34ae586fbac59f9893309c429c23c7523676cb31e364910b47fdd3e62bb6e"
 
 [[files]]
 file = "kubejs/assets/arkhaven/textures/item/aero_lubricant.png"
@@ -329,6 +329,10 @@ file = "kubejs/client_scripts/06_memory_hint.js"
 hash = "21f49280c8849d134ccf1f87ef4350e47bf391d520a16e0b606ab85a4436378e"
 
 [[files]]
+file = "kubejs/client_scripts/07_keybinds.js"
+hash = "b959f86cea1004ffed03b9685b2e4131973887258a267781437eb0def1972181"
+
+[[files]]
 file = "kubejs/client_scripts/set_tooltips.js"
 hash = "f7795796a1af9003973d1c3550fcc913019960fdff3ba3b16520018b724a4b13"
 
@@ -363,6 +367,10 @@ hash = "75baea902bce70ff1f2989b7882fc43f393a9e8c79a7e1c40bd203d3db6f103e"
 [[files]]
 file = "kubejs/server_scripts/10_welcome.js"
 hash = "df85f847cfb09a5ad29a894de471284502e274f60195d1396f1e35a3ce3cfd25"
+
+[[files]]
+file = "kubejs/server_scripts/11_keybook.js"
+hash = "9f0c6f64e9f9f13a41b1506090de9f98a20b1afe3af132604177d41cc996b313"
 
 [[files]]
 file = "kubejs/server_scripts/20_alchemy_logic.js"

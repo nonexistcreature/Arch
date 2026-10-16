@@ -106,5 +106,18 @@
   "arkhaven.guide.ada.name": "Mayor Ada",
   "arkhaven.guide.ada.line": "Dreaming of your own town? Set up a settlers camp and citizens will come.",
   "arkhaven.memory.low": "[Arkhaven] The game only has %s MB of memory - expect freezes every few seconds with this pack. Give it 8 GB (8192 MB), at least 6 GB on a weak PC.",
-  "arkhaven.memory.how": "How to fix: Prism - right-click the instance > Edit > Settings > Memory, set max to 8192. Modrinth App - instance settings > Java and memory. TLauncher - memory slider in settings. Then restart the game."
+  "arkhaven.memory.how": "How to fix: Prism - right-click the instance > Edit > Settings > Memory, set max to 8192. Modrinth App - instance settings > Java and memory. TLauncher - memory slider in settings. Then restart the game.",
+  "arkhaven.keybook.title": "Arkhaven Keys",
+  "arkhaven.keybook.given": "[Arkhaven] Check your inventory: the book \"Arkhaven Keys\" lists every important key of the pack.",
+  "arkhaven.keybook.p1": "§lArkhaven Keys§r\nMod keys clashed, so we split them into layers:\n§lplain§r - things you press all the time;\n§lAlt +§r - origin, voice, bags;\n§lCtrl +§r - armor modes;\n§lShift +§r - tool in hand.",
+  "arkhaven.keybook.p2": "§lEvery day§r\nB - backpack\nG, H - accessories\nI - Aether accessories\nL - quests\nM - map\nU - waypoints, Alt+U - new\nP - skill tree\nO - origin and class\nZ - combat roll",
+  "arkhaven.keybook.p3": "§lEvery day§r §7(…)§r\n` - vein mining (hold)\nK - shaders on/off\n\n§lOrigin and class§r\nAlt+1...Alt+4 - origin powers\nAlt+5 - class power\nAlt+K - night vision\nO - what your origin can do",
+  "arkhaven.keybook.p4": "§lVoice chat§r\nCaps Lock - talk (hold)\nAlt+V - chat menu\nAlt+M - mute microphone\n\n§lIron's Spells§r\nV - cast\nR - spell wheel\n\n§lArs Nouveau§r\nC - spell selection\nX - next",
+  "arkhaven.keybook.p5": "§lArs Nouveau§r §7(…)§r\nShift+X - previous\nAlt+C - spell book\nAlt+Y - helmet\nAlt+P - Ars Elemental pouch\n\n§lMekanism§r\nCtrl+H - helmet mode\nCtrl+G - chestplate\nCtrl+J - leggings\nCtrl+B - boots",
+  "arkhaven.keybook.p6": "§lMekanism§r §7(…)§r\nN - held tool mode\n\n§lJetpack and armor§r\nJ - jetpack on/off\nAlt+J - hover\nCtrl+C/Y/V - Cataclysm helmet, chest, boots\nCtrl+F - Cataclysm weapon\nCtrl+R - Deep Aether dash",
+  "arkhaven.keybook.p7": "§lTACZ guns§r\n(gun in hand)\nLMB - shoot\nRMB - aim\nR - reload\nAlt+G - fire mode\nAlt+H - inspect\nAlt+R - refit\nAlt+F - bayonet\nCtrl+Z - zoom\nShift+C - crawl",
+  "arkhaven.keybook.p8": "§lBags and misc§r\nAlt+B, Alt+N, Alt+E - Occultism bags\nCtrl+X - quiver\nCtrl+K - Create stock\nCtrl+L - Create networks\n. - emotes\n, - call your dragon\n; - pick up villager",
+  "arkhaven.keybook.p9": "§lBuilding Gadgets§r\n(gadget in hand)\nShift+G - menu\nShift+H - anchor\nShift+R - range\nShift+U - undo\n\n§lChanging keys§r\nOptions > Controls > Key Binds.\nSearch box and a conflicts filter on top.",
+  "arkhaven.keybook.p10": "§lChanging keys§r §7(…)§r\nA red key has two actions. That is fine if one only works in a menu or a vehicle.",
+  "arkhaven.keybook.p11": "§lHave fun!§r\n\nLost this book? Ask an operator, or check the \"Player Memo\" quest chapter."
 }
