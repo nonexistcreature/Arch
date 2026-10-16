@@ -1,0 +1,39 @@
+# Key items per mod: what actually matters in play (owner, 2026-10-16). Quests must cover >= 80% of each list.
+# In: machines and multiblocks with their own mechanics, one item per tool/weapon/armor tier, materials that
+# progression hangs on, boss drops, consumables with a unique effect. Out: decor and building blocks, colour/wood
+# variants, redundant "same effect, harder recipe" items. Nothing is removed from existing quests because of this list.
+# tools/quest_coverage.py --key measures coverage against it.
+createaddition: [alternator, electric_motor, rolling_mill, tesla_coil, modular_accumulator, copper_spool, connector,
+  portable_energy_interface, redstone_relay, digital_adapter, barbed_wire, electrum_ingot, diamond_grit_sandpaper,
+  biomass_pellet, electrum_amulet]
+create_connected: [kinetic_battery, item_silo, six_way_gearbox, overstress_clutch, shear_pin, centrifugal_clutch,
+  freewheel_clutch, brake, crank_wheel, inventory_bridge, inventory_access_port, fluid_vessel, kinetic_bridge,
+  sequenced_pulse_generator, linked_transmitter, empty_fan_catalyst, fan_sanding_catalyst, fan_freezing_catalyst,
+  fan_seething_catalyst, fan_withering_catalyst, control_chip, dashboard]
+create_enchantment_industry: [blaze_enchanter, printer, mechanical_grindstone, grindstone_drain, experience_hatch,
+  blaze_forger, super_experience_nugget, experience_lantern, enchanting_template, super_enchanting_template, experience_cake]
+create_dragons_plus: [fragile_fluid_tank, blaze_upgrade_smithing_template]
+immersivepetroleum: [seismic_survey, pumpjack, distillation_tower, gas_generator, coker_unit, hydrotreater, derrick,
+  auto_lubricator, flarestack, oiltank, speedboat, upgrade_tank, petcoke, paraffin_wax, asphalt, gasoline_bottle, molotov]
+extendedae: [ex_pattern_provider_part, ex_interface, ex_molecular_assembler, assembler_matrix_frame, crystal_assembler,
+  ex_drive, entro_crystal, entro_ingot, infinity_water_cell, infinity_cobblestone_cell, void_cell, wireless_connect,
+  ex_io_port, ex_charger, concurrent_processor, precise_storage_bus, pattern_modifier, threshold_level_emitter]
+appmek: [chemical_storage_cell_1k, portable_chemical_cell_1k, chemical_p2p_tunnel]
+bigreactors: [yellorite_ore, yellorium_ingot, graphite_ingot, basic_reactorcasing, basic_reactorcontroller, basic_reactorfuelrod,
+  basic_reactorcontrolrod, basic_reactorglass, basic_reactorpowertapfe_passive, reinforced_reactorcontroller,
+  basic_turbinecontroller, basic_turbinerotorblade, basic_turbinerotorbearing, basic_turbinefluidport_forge_passive,
+  reprocessorcontroller, fluidizercontroller, energizercontroller, cyanite_ingot, blutonium_ingot, ludicrite_ingot,
+  anglesite_crystal, benitoite_crystal, wrench]
+immersive_aircraft: [biplane, gyrodyne, quadrocopter, airship, cargo_airship, warship, engine, nether_engine, eco_engine,
+  steel_boiler, rotary_cannon, heavy_crossbow, bomb_bay, telescope, gyroscope_hud, enhanced_propeller, hull_reinforcement,
+  improved_landing_gear]
+simulated: [physics_assembler, engine_assembly, navigation_table, altitude_sensor, steering_wheel, rope_winch, docking_connector,
+  white_portable_engine, swivel_bearing, gimbal_sensor, velocity_sensor, laser_sensor, optical_sensor, linked_typewriter,
+  plunger_launcher, gyroscopic_mechanism, honey_glue]
+tacz: [gun_smith_table, workbench_a, workbench_b, workbench_c, ammo_box]
+grappling_hook_neo: [grapplinghook, longfallboots, launcheritem, repeller, doubleupgradeitem, rocketupgradeitem,
+  motorupgradeitem, magnetupgradeitem, forcefieldupgradeitem, swingupgradeitem, ropeupgradeitem, throwupgradeitem]
+waystones: [waystone, warp_stone, warp_scroll, return_scroll, bound_scroll, white_portstone, warp_dust, attuned_shard, portal_scroll]
+aeronautics: [propeller_bearing, adjustable_burner, aviators_goggles, levitite, smart_propeller, gyroscopic_propeller_bearing,
+  mounted_potato_cannon, white_envelope]
+offroad: [wheel_mount, tire, large_tire, monstrous_tire, borehead_bearing]

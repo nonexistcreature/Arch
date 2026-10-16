@@ -1,0 +1,155 @@
+# Key-item gaps (quests_spec/key_items.yaml) in the Create add-ons chapter: Crafts & Additions, Create Connected,
+# Enchantment Industry, Dragons Plus. Texts: item tooltips + our «why».
+extends: create_addons
+lang: [createaddition, create_connected, create_enchantment_industry, create_dragons_plus]
+autodoc: ["item.{ns}.{path}.tooltip.summary", "block.{ns}.{path}.tooltip.summary", "item.{ns}.{path}.tooltip", "block.{ns}.{path}.tooltip"]
+out: gaps_create_addons_gen
+quests:
+  # --- Crafts & Additions
+  - id: gca_electrum
+    deps: [ca_alternator]
+    roles: [engineer]
+    items: [createaddition:electrum_ingot*4]
+    why: {ru: "Электрум — сплав золота и серебра. Из него тянут провода для дальних линий и делают амулет.", en: "Gold-silver alloy for long-range wires and the amulet."}
+  - id: gca_rolling_mill
+    deps: [ca_alternator]
+    roles: [engineer]
+    items: [createaddition:rolling_mill]
+    why: {ru: "Прокатный стан на вращении превращает слитки в стержни и провода — без него не собрать катушки.", en: "Rolls ingots into rods and wires; needed for spools."}
+  - id: gca_motor
+    deps: [ca_accumulator]
+    roles: [engineer]
+    items: [createaddition:electric_motor]
+    why: {ru: "Электромотор — обратная сторона генератора: крутит Create-сеть от электричества. Ставь мотор там, где нет воды и ветра, а ток приходит по проводу.", en: "Turns electricity back into rotation, wherever wires reach."}
+  - id: gca_pei
+    deps: [ca_accumulator]
+    roles: [engineer]
+    items: [createaddition:portable_energy_interface]
+    why: {ru: "Заряжает движущиеся механизмы (поезд, бур) энергией прямо на станции.", en: "Charges moving contraptions at a station."}
+  - id: gca_relay
+    deps: [ca_wires]
+    roles: [engineer]
+    items: [createaddition:redstone_relay]
+    why: {ru: "Реле включает и выключает электрическую линию редстоуном — рубильник для своей сети.", en: "A redstone switch for your power line."}
+  - id: gca_digital_adapter
+    deps: [ca_accumulator]
+    roles: [engineer]
+    items: [createaddition:digital_adapter]
+  - id: gca_barbed_wire
+    deps: [gca_rolling_mill]
+    roles: [warrior, builder]
+    items: [createaddition:barbed_wire*8]
+    why: {ru: "Колючая проволока ранит и замедляет тех, кто через неё лезет, — забор периметра от мобов.", en: "Hurts and slows whatever pushes through: a perimeter fence."}
+  - id: gca_sandpaper
+    deps: [ca_alternator]
+    roles: [engineer]
+    items: [createaddition:diamond_grit_sandpaper]
+    why: {ru: "Алмазная наждачка не стирается так быстро, как обычная, — полировка розового кварца без перерывов.", en: "Lasts far longer than normal sandpaper."}
+  - id: gca_biomass
+    deps: [ca_alternator]
+    roles: [gardener, engineer]
+    items: [createaddition:biomass_pellet*8]
+    why: {ru: "Гранулы биомассы из отходов фермы — топливо для горелок всполоха и печей. Садовод кормит котёл инженера.", en: "Farm waste pellets: fuel for blaze burners."}
+  - id: gca_amulet
+    deps: [gca_electrum]
+    roles: [mage, engineer]
+    items: [createaddition:electrum_amulet]
+  # --- Create Connected
+  - id: gcc_clutches
+    deps: [ca_clutches]
+    roles: [engineer]
+    items: [create_connected:centrifugal_clutch, create_connected:freewheel_clutch, create_connected:brake]
+    title: {ru: "Умные муфты и тормоз", en: "Smart Clutches and Brake"}
+    why: {ru: "Центробежная муфта включается только на нужной скорости, обгонная крутит в одну сторону, тормоз останавливает сеть. Защита дорогих машин от перегрузки.", en: "Speed-triggered, one-way and braking couplings to protect machines."}
+  - id: gcc_crank
+    deps: [ca_gearbox]
+    roles: [engineer]
+    items: [create_connected:crank_wheel]
+    why: {en: A big hand crank for when there's no generator yet., ru: 'Ручное колесо — большая рукоятка: крути сам, когда генератор ещё не построен.'}
+  - id: gcc_inventory_bridge
+    deps: [ca_item_silo]
+    roles: [engineer]
+    items: [create_connected:inventory_bridge, create_connected:inventory_access_port]
+    title: {ru: "Мосты инвентаря", en: "Inventory Bridges"}
+    why: {ru: "Мост делает соседний сундук доступным с другой стороны, порт — даёт воронкам доступ к инвентарю сквозь блок. Меньше конвейеров на складе.", en: "Reach inventories through blocks: fewer belts in the warehouse."}
+  - id: gcc_fluid_vessel
+    deps: [ca_item_silo]
+    roles: [engineer]
+    items: [create_connected:fluid_vessel]
+    why: {ru: "Горизонтальный бак для жидкостей — помещается там, где высокий бак не встаёт.", en: "A horizontal fluid tank."}
+  - id: gcc_kinetic_bridge
+    deps: [ca_gearbox]
+    roles: [engineer]
+    items: [create_connected:kinetic_bridge]
+    why: {ru: "Передаёт вращение через промежуток без валов — удобно сквозь стены.", en: "Passes rotation across a gap without shafts."}
+  - id: gcc_pulse
+    deps: [ca_clutches]
+    roles: [engineer]
+    items: [create_connected:sequenced_pulse_generator, create_connected:linked_transmitter]
+    title: {ru: "Импульсы и беспроводной пульт", en: "Pulses and Wireless Transmitter"}
+    why: {en: Programmed pulse sequences sent wirelessly to Redstone Link frequencies., ru: 'Генератор последовательных импульсов выдаёт серию сигналов по программе, беспроводной передатчик шлёт их на частоту редстоун-связи. Логика без проводов редстоуна.'}
+  - id: gcc_catalysts
+    deps: [ca_catalysts]
+    roles: [engineer, mage]
+    items: [create_connected:empty_fan_catalyst, create_connected:fan_freezing_catalyst]
+    title: {ru: "Новые обработки вентилятором", en: "New Fan Processes"}
+    why: {ru: "Пустой катализатор заправляется и ставится перед вентилятором: замораживание, «кипение», иссушение и другие процессы, которых нет в обычном Create.", en: "Fill a catalyst to add freezing, seething, withering and more to fans."}
+  - id: gcc_catalysts2
+    deps: [gcc_catalysts]
+    roles: [engineer]
+    items: [create_connected:fan_seething_catalyst, create_connected:fan_withering_catalyst]
+    title: {ru: "Кипение и иссушение", en: "Seething and Withering"}
+  - id: gcc_dashboard
+    deps: [gcc_pulse]
+    roles: [engineer]
+    items: [create_connected:dashboard, create_connected:control_chip]
+    title: {ru: "Приборная панель", en: "Dashboard"}
+    why: {ru: "Панель управления для поезда или машины: кнопки и приборы в кабине.", en: "Controls and gauges in your cab."}
+  # --- Create: Enchantment Industry
+  - id: gcei_grindstone
+    deps: [ca_xp]
+    roles: [engineer, mage]
+    items: [create_enchantment_industry:mechanical_grindstone, create_enchantment_industry:grindstone_drain]
+    title: {ru: "Механическое точило", en: "Mechanical Grindstone"}
+    why: {ru: "Снимает чары с ненужного лута и превращает их в жидкий опыт. Выбрасывать зачарованный хлам больше не надо.", en: "Strips enchantments from loot into liquid experience."}
+  - id: gcei_hatch
+    deps: [ca_xp]
+    roles: [mage]
+    items: [create_enchantment_industry:experience_hatch]
+    why: {ru: "Люк сливает твой опыт в баки и выдаёт обратно. Копи опыт в баке, а не на себе, — при смерти он останется дома.", en: "Pour your XP into tanks and take it back later; stored XP survives your death."}
+  - id: gcei_lantern
+    deps: [gcei_hatch]
+    roles: [mage]
+    items: [create_enchantment_industry:experience_lantern]
+    why: {ru: "Фонарь на жидком опыте. Как он работает в связке с баками, покажет Ponder (наведи на предмет и зажми W).", en: "See Ponder (hold W) for how it works with tanks."}
+  - id: gcei_super_xp
+    deps: [gcei_hatch]
+    roles: [mage]
+    items: [create_enchantment_industry:super_experience_nugget]
+    why: {en: Condensed experience for the strongest enchanting recipes., ru: Суперопыт — сгущённый опыт для самых сильных рецептов зачарования.}
+  - id: gcei_forger
+    deps: [ca_blaze_enchanter]
+    roles: [mage, engineer]
+    items: [create_enchantment_industry:blaze_forger]
+    why: {ru: "Продвинутый станок зачарования на опыте и шаблонах. Что именно он кует и из чего — в Ponder (W) и JEI.", en: "An advanced XP-and-template enchanting machine; see Ponder and JEI."}
+  - id: gcei_super_template
+    deps: [gcei_forger]
+    roles: [mage]
+    items: [create_enchantment_industry:super_enchanting_template]
+    why: {en: A template for strong forged enchantments; recipe in JEI., ru: Шаблон для кузни всполоха под мощные чары. Рецепт — в JEI.}
+  - id: gcei_cake
+    deps: [ca_xp]
+    roles: [cook, mage]
+    items: [create_enchantment_industry:experience_cake]
+    why: {ru: "Торт опыта: съешь кусок — получи уровни. Подарок новичку от мага.", en: "Eat it for levels."}
+  # --- Create: Dragons Plus
+  - id: gcd_fragile_tank
+    deps: [ca_dragon_breath]
+    roles: [engineer]
+    items: [create_dragons_plus:fragile_fluid_tank]
+    why: {ru: "Особый бак для жидкостей Dragons Plus (в том числе драконьего дыхания). Свойства — в подсказке и Ponder.", en: "A special tank for Dragons Plus fluids; see its tooltip and Ponder."}
+  - id: gcd_blaze_upgrade
+    deps: [ca_dragon_breath]
+    roles: [engineer]
+    items: [create_dragons_plus:blaze_upgrade_smithing_template]
+    why: {en: A smithing upgrade template; check JEI for what it upgrades., ru: Шаблон кузнечного улучшения Dragons Plus. На что он улучшает — смотри в JEI (U по шаблону).}

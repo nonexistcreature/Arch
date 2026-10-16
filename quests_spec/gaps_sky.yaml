@@ -1,0 +1,108 @@
+# Key-item gaps: Immersive Aircraft, Create Simulated, Aeronautics, Offroad.
+extends: sky
+lang: [immersive_aircraft, simulated, aeronautics, offroad]
+autodoc: ["item.{ns}.{path}.tooltip", "item.{ns}.{path}.description", "block.{ns}.{path}.tooltip.summary", "item.{ns}.{path}.tooltip.summary"]
+out: gaps_sky_gen
+quests:
+  # --- Immersive Aircraft: more aircraft and upgrades
+  - id: gia_cargo
+    deps: [s_ia_airship]
+    roles: [engineer, mayor]
+    items: [immersive_aircraft:cargo_airship]
+    title: {ru: "Грузовой дирижабль", en: "Cargo Airship"}
+    why: {ru: "Медленный, но с большим трюмом — возить урожай, руду и стройматериалы между базами.", en: "Slow but with a big hold for hauling between bases."}
+  - id: gia_warship
+    deps: [gia_cargo]
+    roles: [warrior, engineer]
+    items: [immersive_aircraft:warship]
+    title: {ru: "Боевой дирижабль", en: "Warship"}
+    why: {ru: "Летающая крепость с местами под оружие. Для походов на боссов и защиты неба над городом.", en: "A flying fortress with weapon slots."}
+  - id: gia_engines
+    deps: [s_biplane]
+    roles: [engineer]
+    items: [immersive_aircraft:engine]
+    title: {ru: "Двигатели", en: "Engines"}
+    why: {ru: "Двигатель — основная деталь самолётов. Улучшения ставятся в слоты машины: экономичный двигатель тратит меньше топлива, незерский работает и в Незере.", en: "The core part; eco engines save fuel, nether engines work in the Nether."}
+  - id: gia_engine_upgrades
+    deps: [gia_engines]
+    roles: [engineer]
+    items: [immersive_aircraft:eco_engine, immersive_aircraft:nether_engine, immersive_aircraft:steel_boiler]
+    title: {ru: "Улучшения двигателя", en: "Engine Upgrades"}
+    why: {en: 'Eco saves fuel, nether works in the Nether, steel boiler for steam craft.', ru: 'Экономичный двигатель тратит меньше топлива, незерский работает в Незере, стальной котёл — для паровых машин. Ставятся в слоты улучшений самолёта.'}
+  - id: gia_hull
+    deps: [s_biplane]
+    roles: [engineer]
+    items: [immersive_aircraft:hull_reinforcement, immersive_aircraft:improved_landing_gear, immersive_aircraft:enhanced_propeller]
+    title: {ru: "Корпус, шасси и винт", en: "Hull, Landing Gear, Propeller"}
+    why: {ru: "Укреплённый корпус держит больше попаданий, улучшенное шасси — жёсткие посадки, винт даёт скорость.", en: "Tougher hull, safer landings, more speed."}
+  - id: gia_weapons
+    deps: [s_biplane]
+    roles: [warrior]
+    items: [immersive_aircraft:heavy_crossbow, immersive_aircraft:bomb_bay]
+    title: {ru: "Авиаоружие", en: "Aircraft Weapons"}
+    why: {ru: "Тяжёлый арбалет и бомбовый отсек ставятся на самолёт. Бомбы — только по мобам в диких землях: над городом это гриф.", en: "Weapons for aircraft. Bombs only in the wilds, never over towns."}
+  - id: gia_instruments
+    deps: [s_biplane]
+    roles: [engineer]
+    items: [immersive_aircraft:telescope, immersive_aircraft:gyroscope_hud]
+    title: {ru: "Приборы пилота", en: "Pilot Instruments"}
+    why: {ru: "Подзорная труба — разведка с воздуха, гироскоп на экране — высота и крен без гадания.", en: "Telescope for scouting, HUD gyroscope for altitude and roll."}
+  # --- Create Simulated
+  - id: gsm_portable_engine
+    deps: [s_engine]
+    roles: [engineer]
+    items: [simulated:white_portable_engine]
+    title: {ru: "Переносной двигатель", en: "Portable Engine"}
+    why: {ru: "Компактный двигатель прямо на физической конструкции — лодка или машина едут сами.", en: "A compact engine right on a physics contraption."}
+  - id: gsm_swivel
+    deps: [s_physics]
+    roles: [engineer]
+    items: [simulated:swivel_bearing]
+    why: {ru: "Поворотный подшипник — башня крана или пушки, которая вращается на корпусе машины.", en: "A turret or crane base that turns on a moving vehicle."}
+  - id: gsm_sensors
+    deps: [s_altitude]
+    roles: [engineer]
+    items: [simulated:gimbal_sensor, simulated:velocity_sensor]
+    title: {ru: "Датчики полёта", en: "Flight Sensors"}
+    why: {ru: "Датчики наклона и скорости выдают редстоун — автопилот, который держит машину ровно.", en: "Tilt and speed sensors for an autopilot."}
+  - id: gsm_vision
+    deps: [gsm_sensors]
+    roles: [engineer]
+    items: [simulated:laser_sensor, simulated:optical_sensor]
+    title: {ru: "Лазер и оптика", en: "Laser and Optical Sensors"}
+    why: {en: 'Detect obstacles ahead: the base of automatic vehicles.', ru: Лазерный и оптический датчики видят препятствия и блоки впереди — основа для автоматических машин.}
+  - id: gsm_typewriter
+    deps: [s_navigation]
+    roles: [engineer]
+    items: [simulated:linked_typewriter]
+    why: {ru: "Клавиатура, кнопки которой шлют сигналы редстоун-связи: управляй конструкцией прямо с клавиш.", en: "Keys send Redstone Link signals: drive with your keyboard."}
+  - id: gsm_plunger
+    title: {ru: "Поршневая пусковая установка", en: "Plunger Launcher"}
+    deps: [s_physics]
+    roles: [engineer, warrior]
+    items: [simulated:plunger_launcher]
+    why: {en: Launches items or blocks from a contraption; see Ponder., ru: Поршневая пусковая установка выстреливает предметами или блоками с конструкции. Подробности — в Ponder (W).}
+  - id: gsm_gyro
+    deps: [s_physics]
+    roles: [engineer]
+    items: [simulated:gyroscopic_mechanism, simulated:honey_glue]
+    title: {ru: "Гироскоп и медовый клей", en: "Gyroscope and Honey Glue"}
+  # --- Aeronautics / Offroad
+    why: {en: 'The gyroscope stabilises, honey glue binds blocks into one physical body.', ru: 'Гироскоп выравнивает конструкцию, медовый клей скрепляет блоки в одну физическую машину.'}
+  - id: gae_gyro_prop
+    deps: [s_smart_prop]
+    roles: [engineer]
+    items: [aeronautics:gyroscopic_propeller_bearing]
+    why: {ru: "Гироскопический подшипник сам держит винт ровно — дирижабль не кренится на поворотах.", en: "Keeps the propeller level by itself."}
+  - id: gae_cannon
+    title: {ru: "Пушка на дирижабле", en: "Mounted Potato Cannon"}
+    deps: [s_airship]
+    roles: [warrior]
+    items: [aeronautics:mounted_potato_cannon]
+    why: {en: A mounted potato cannon for airship defence., ru: Картофельная пушка на подвесе стреляет с дирижабля — оборона от фантомов и летающих мобов.}
+  - id: gor_monstrous
+    deps: [s_wheels_big]
+    roles: [engineer]
+    items: [offroad:monstrous_tire]
+    title: {ru: "Огромные колёса", en: "Monstrous Tires"}
+    why: {ru: "Колёса для монстр-трака: переезжают почти что угодно.", en: "Monster-truck wheels."}

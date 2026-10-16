@@ -1,0 +1,54 @@
+# Key-item gaps: Extreme Reactors.
+extends: atom
+lang: [bigreactors]
+autodoc: ["item.{ns}.{path}.tooltip", "block.{ns}.{path}.tooltip"]
+out: gaps_atom_gen
+quests:
+  - id: gat_glass
+    deps: [at_casing]
+    roles: [engineer]
+    items: [bigreactors:basic_reactorglass*4]
+    title: {ru: "Стекло реактора", en: "Reactor Glass"}
+    why: {ru: "Стенки из стекла — видно, что творится внутри: топливо, отходы, охлаждение.", en: "See fuel, waste and coolant inside."}
+  - id: gat_wrench
+    deps: [at_intro]
+    roles: [engineer]
+    items: [bigreactors:wrench]
+    why: {ru: "Ключ — чтобы поворачивать и аккуратно снимать детали реактора.", en: "Rotate and remove reactor parts."}
+  - id: gat_turbine_parts
+    deps: [at_turbine]
+    roles: [engineer]
+    items: [bigreactors:basic_turbinerotorbearing, bigreactors:basic_turbinefluidport_forge_passive]
+    title: {ru: "Подшипник и порт турбины", en: "Turbine Bearing and Port"}
+    why: {ru: "Ротор турбины держится на подшипнике, пар заходит через жидкостный порт. Реактор с активным охлаждением отдаёт пар в турбину — так энергии в разы больше.", en: "An actively cooled reactor feeds steam to the turbine: far more power."}
+  - id: gat_cyanite
+    deps: [at_reprocessor]
+    roles: [engineer]
+    items: [bigreactors:cyanite_ingot*4]
+    why: {ru: "Цианит — отработанное топливо. Не выбрасывай: из него делают блутоний.", en: "Spent fuel; reprocess it."}
+  - id: gat_blutonium
+    deps: [gat_cyanite]
+    roles: [engineer]
+    items: [bigreactors:blutonium_ingot*2]
+    why: {ru: "Блутоний — тоже топливо. Почти замкнутый топливный цикл.", en: "Another fuel: a nearly closed cycle."}
+  - id: gat_ludicrite
+    deps: [gat_blutonium]
+    roles: [engineer]
+    items: [bigreactors:ludicrite_ingot]
+    why: {ru: "Людикрит — редкий материал для лучших деталей. Рецепт — в JEI.", en: "A rare top-tier material; recipe in JEI."}
+  - id: gat_crystals
+    deps: [at_reinforced]
+    roles: [engineer]
+    items: [bigreactors:anglesite_crystal, bigreactors:benitoite_crystal]
+    title: {ru: "Англезит и бенитоит", en: "Anglesite and Benitoite"}
+    why: {ru: "Редкие кристаллы для усиленных реакторов. Где искать и куда ставить — в JEI.", en: "Crystals for reinforced reactors; see JEI."}
+  - id: gat_fluidizer
+    deps: [at_reprocessor]
+    roles: [engineer]
+    items: [bigreactors:fluidizercontroller]
+    why: {ru: "Флюидайзер переводит топливо в жидкую форму — для реакторов на жидком топливе. Схема сборки — в JEI.", en: "Makes liquid fuel; see JEI."}
+  - id: gat_energizer
+    deps: [at_reactor]
+    roles: [engineer]
+    items: [bigreactors:energizercontroller]
+    why: {ru: "Энерджайзер — многоблочный накопитель энергии Extreme Reactors: копит энергию реактора на ночь и на пики нагрузки.", en: "A multiblock energy store for reactor power."}

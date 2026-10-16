@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "2840277D460DBE04"
-			x: -3.18d
+			x: -7.1d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -35,7 +35,7 @@
 		}
 		{
 			id: "124CE8EC4DA83696"
-			x: -7.91d
+			x: -11.93d
 			y: 2.0d
 			icon: {
 				id: "simplyswords:iron_greathammer"
@@ -58,7 +58,7 @@
 		}
 		{
 			id: "2EFA1764B6C5AA28"
-			x: 0.41d
+			x: -3.44d
 			y: 2.0d
 			shape: "hexagon"
 			icon: {
@@ -82,7 +82,7 @@
 		}
 		{
 			id: "00E19FD18B738F02"
-			x: -1.28d
+			x: -5.8d
 			y: 4.0d
 			icon: {
 				id: "tacz:ammo_box"
@@ -105,7 +105,7 @@
 		}
 		{
 			id: "0CFB5AA571596797"
-			x: 3.32d
+			x: 0.07d
 			y: 0.0d
 			icon: {
 				id: "createbigcannons:cannon_mount"
@@ -135,7 +135,7 @@
 		}
 		{
 			id: "1E2EBF13C6F879A0"
-			x: 5.61d
+			x: 5.96d
 			y: 0.0d
 			shape: "hexagon"
 			icon: {
@@ -168,7 +168,7 @@
 		}
 		{
 			id: "4744E2D0A9C2BFAD"
-			x: 4.91d
+			x: 1.43d
 			y: 2.0d
 			icon: {
 				id: "grappling_hook_neo:doubleupgradeitem"
@@ -191,7 +191,7 @@
 		}
 		{
 			id: "325CD1C1DC34FC14"
-			x: 6.41d
+			x: 2.93d
 			y: 2.0d
 			icon: {
 				id: "simulated:rope_connector"
@@ -211,7 +211,7 @@
 		}
 		{
 			id: "547E7AB1EA5FB62E"
-			x: -6.41d
+			x: -10.43d
 			y: 2.0d
 			icon: {
 				id: "minecraft:diamond_chestplate"
@@ -230,7 +230,7 @@
 		}
 		{
 			id: "56E88A8B20052C07"
-			x: 3.22d
+			x: 0.2d
 			y: 4.0d
 			shape: "gear"
 			icon: {
@@ -257,8 +257,200 @@
 			]
 		}
 		{
+			id: "2697B082A65472D4"
+			x: 4.43d
+			y: 2.0d
+			icon: {
+				id: "grappling_hook_neo:motorupgradeitem"
+				count: 1
+			}
+			dependencies: [
+				"1E2EBF13C6F879A0"
+			]
+			tasks: [
+				{
+					id: "72D4828F9FFABB1B"
+					type: "item"
+					item: {
+						count: 1
+						id: "grappling_hook_neo:motorupgradeitem"
+					}
+				}
+			]
+		}
+		{
+			id: "60D1BBBBD66782D9"
+			x: 5.93d
+			y: 2.0d
+			icon: {
+				id: "grappling_hook_neo:ropeupgradeitem"
+				count: 1
+			}
+			dependencies: [
+				"1E2EBF13C6F879A0"
+			]
+			tasks: [
+				{
+					id: "0CB4521E555666EF"
+					type: "item"
+					item: {
+						count: 1
+						id: "grappling_hook_neo:ropeupgradeitem"
+					}
+				}
+				{
+					id: "7C5EE2281BF39D5C"
+					type: "item"
+					item: {
+						count: 1
+						id: "grappling_hook_neo:throwupgradeitem"
+					}
+				}
+			]
+		}
+		{
+			id: "485CCD98E6873029"
+			x: 7.43d
+			y: 2.0d
+			icon: {
+				id: "grappling_hook_neo:swingupgradeitem"
+				count: 1
+			}
+			dependencies: [
+				"1E2EBF13C6F879A0"
+			]
+			tasks: [
+				{
+					id: "7167DB7F45C18267"
+					type: "item"
+					item: {
+						count: 1
+						id: "grappling_hook_neo:swingupgradeitem"
+					}
+				}
+			]
+		}
+		{
+			id: "787D838ACD09EE12"
+			x: 3.2d
+			y: 4.0d
+			icon: {
+				id: "grappling_hook_neo:magnetupgradeitem"
+				count: 1
+			}
+			dependencies: [
+				"2697B082A65472D4"
+			]
+			tasks: [
+				{
+					id: "0EE6DC72D763EB63"
+					type: "item"
+					item: {
+						count: 1
+						id: "grappling_hook_neo:magnetupgradeitem"
+					}
+				}
+			]
+		}
+		{
+			id: "2A39C03BA937F45E"
+			x: 4.7d
+			y: 4.0d
+			icon: {
+				id: "grappling_hook_neo:forcefieldupgradeitem"
+				count: 1
+			}
+			dependencies: [
+				"2697B082A65472D4"
+			]
+			tasks: [
+				{
+					id: "18E7DC5F41C9BF2E"
+					type: "item"
+					item: {
+						count: 1
+						id: "grappling_hook_neo:forcefieldupgradeitem"
+					}
+				}
+			]
+		}
+		{
+			id: "6E58308F422DE53A"
+			x: 8.93d
+			y: 2.0d
+			icon: {
+				id: "grappling_hook_neo:launcheritem"
+				count: 1
+			}
+			dependencies: [
+				"1E2EBF13C6F879A0"
+			]
+			tasks: [
+				{
+					id: "1070A667A089F803"
+					type: "item"
+					item: {
+						count: 1
+						id: "grappling_hook_neo:launcheritem"
+					}
+				}
+			]
+		}
+		{
+			id: "2BC631DB5C6B8055"
+			x: 10.43d
+			y: 2.0d
+			icon: {
+				id: "grappling_hook_neo:repeller"
+				count: 1
+			}
+			dependencies: [
+				"1E2EBF13C6F879A0"
+			]
+			tasks: [
+				{
+					id: "76B618070658BDDF"
+					type: "item"
+					item: {
+						count: 1
+						id: "grappling_hook_neo:repeller"
+					}
+				}
+			]
+		}
+		{
+			id: "40BD82DEE157EF8C"
+			x: -4.3d
+			y: 4.0d
+			icon: {
+				id: "tacz:workbench_a"
+				count: 1
+			}
+			dependencies: [
+				"2EFA1764B6C5AA28"
+			]
+			tasks: [
+				{
+					id: "0A41AB06D8C8061D"
+					type: "item"
+					item: {
+						count: 1
+						id: "tacz:workbench_a"
+					}
+				}
+				{
+					id: "60CCC23AD4626ACE"
+					type: "item"
+					item: {
+						count: 1
+						id: "tacz:workbench_c"
+					}
+				}
+			]
+		}
+		{
 			id: "2B3DDC04AF68D471"
-			x: -4.91d
+			x: -8.93d
 			y: 2.0d
 			icon: {
 				id: "simplyswords:iron_katana"
@@ -281,7 +473,7 @@
 		}
 		{
 			id: "50FA3AD9E3473F0B"
-			x: -3.41d
+			x: -7.43d
 			y: 2.0d
 			icon: {
 				id: "simplyswords:iron_glaive"
@@ -304,7 +496,7 @@
 		}
 		{
 			id: "43419A8748AA7E13"
-			x: -1.91d
+			x: -5.93d
 			y: 2.0d
 			icon: {
 				id: "simplyswords:iron_twinblade"
@@ -327,7 +519,7 @@
 		}
 		{
 			id: "4E186D831A313D5E"
-			x: 1.91d
+			x: -1.57d
 			y: 2.0d
 			icon: {
 				id: "simplyswords:diamond_longsword"
@@ -349,7 +541,7 @@
 		}
 		{
 			id: "45F020A202618B2C"
-			x: 1.72d
+			x: -1.3d
 			y: 4.0d
 			icon: {
 				id: "simplyswords:netherite_longsword"
@@ -373,7 +565,7 @@
 		}
 		{
 			id: "508564D2E50AB706"
-			x: 0.22d
+			x: -2.8d
 			y: 4.0d
 			icon: {
 				id: "minecraft:gunpowder"
@@ -391,7 +583,7 @@
 		}
 		{
 			id: "1428749F03E36AA4"
-			x: 3.41d
+			x: -0.07d
 			y: 2.0d
 			icon: {
 				id: "createbigcannons:solid_shot"
@@ -423,7 +615,7 @@
 		}
 		{
 			id: "18BE845C1AC2CF5A"
-			x: 4.72d
+			x: 1.7d
 			y: 4.0d
 			icon: {
 				id: "grappling_hook_neo:rocketupgradeitem"
@@ -446,7 +638,7 @@
 		}
 		{
 			id: "35DC60B73DD268F7"
-			x: 7.91d
+			x: 11.93d
 			y: 2.0d
 			icon: {
 				id: "grappling_hook_neo:longfallboots"

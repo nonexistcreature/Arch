@@ -50,7 +50,12 @@ def lang_for(namespaces):
                         for loc, tgt in (("en_us", en), ("ru_ru", ru)):
                             n = f"assets/{ns}/lang/{loc}.json"
                             if n in z.namelist():
-                                tgt.update(json.loads(z.read(n).decode("utf8", "replace")))
+                                raw = z.read(n).decode("utf8", "replace")
+                                try:
+                                    tgt.update(json.loads(raw))
+                                except json.JSONDecodeError:  # some mods ship broken lang json: read "key": "value" lines
+                                    tgt.update({m.group(1): json.loads('"' + m.group(2) + '"')
+                                                for m in re.finditer(r'^\s*"([^"]+)"\s*:\s*"((?:[^"\\]|\\.)*)"', raw, re.M)})
                 except zipfile.BadZipFile:
                     pass
     return ru, en

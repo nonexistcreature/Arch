@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "6984D699D2660B8F"
-			x: -1.34d
+			x: -4.66d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -31,7 +31,7 @@
 		}
 		{
 			id: "4DC0F06F77F4E8D0"
-			x: -0.69d
+			x: -4.66d
 			y: 2.0d
 			icon: {
 				id: "smallships:cotton_sails"
@@ -54,7 +54,7 @@
 		}
 		{
 			id: "5088E3C71CA9EAB9"
-			x: -0.69d
+			x: -4.61d
 			y: 4.0d
 			icon: {
 				id: "smallships:oak_cog"
@@ -86,7 +86,7 @@
 		}
 		{
 			id: "4A924D0C915569ED"
-			x: -0.09d
+			x: -3.39d
 			y: 6.0d
 			icon: {
 				id: "smallships:oak_brigg"
@@ -108,7 +108,7 @@
 		}
 		{
 			id: "3B06282EB819370D"
-			x: 1.03d
+			x: -2.26d
 			y: 8.0d
 			shape: "hexagon"
 			icon: {
@@ -142,7 +142,7 @@
 		}
 		{
 			id: "1F8568D64C4D85D9"
-			x: 1.41d
+			x: -1.89d
 			y: 6.0d
 			icon: {
 				id: "smallships:oak_drakkar"
@@ -164,7 +164,7 @@
 		}
 		{
 			id: "36AF2E60F7B656EB"
-			x: -3.37d
+			x: -8.57d
 			y: 6.0d
 			icon: {
 				id: "immersivepetroleum:speedboat"
@@ -183,7 +183,7 @@
 		}
 		{
 			id: "17DADFF13634DB04"
-			x: 3.37d
+			x: -0.44d
 			y: 0.0d
 			icon: {
 				id: "railways:handcar"
@@ -205,7 +205,7 @@
 		}
 		{
 			id: "7CFEDCB56F3C85D9"
-			x: 2.91d
+			x: -0.44d
 			y: 2.0d
 			icon: {
 				id: "railways:smokestack_coalburner"
@@ -237,7 +237,7 @@
 		}
 		{
 			id: "6D7CC78BAD7C139E"
-			x: 2.91d
+			x: -0.39d
 			y: 4.0d
 			icon: {
 				id: "railways:track_coupler"
@@ -268,7 +268,7 @@
 		}
 		{
 			id: "631B95D917C4FF14"
-			x: 2.91d
+			x: -0.39d
 			y: 6.0d
 			icon: {
 				id: "railways:track_monorail"
@@ -291,7 +291,7 @@
 		}
 		{
 			id: "466444CD9C2D77D4"
-			x: 1.87d
+			x: 5.87d
 			y: 0.0d
 			icon: {
 				id: "waystones:warp_scroll"
@@ -313,7 +313,7 @@
 		}
 		{
 			id: "59FE438CCB6B63CB"
-			x: 1.03d
+			x: 2.25d
 			y: 2.0d
 			icon: {
 				id: "waystones:warp_stone"
@@ -335,7 +335,7 @@
 		}
 		{
 			id: "79CAC370B6DC53A9"
-			x: 0.37d
+			x: -2.26d
 			y: 0.0d
 			icon: {
 				id: "immersive_aircraft:quadrocopter"
@@ -357,7 +357,7 @@
 		}
 		{
 			id: "69A1D02B4D7A4EFC"
-			x: 1.03d
+			x: -2.26d
 			y: 10.0d
 			shape: "hexagon"
 			icon: {
@@ -382,6 +382,139 @@
 					id: "61543EE4B1595149"
 					type: "xp_levels"
 					xp_levels: 8
+				}
+			]
+		}
+		{
+			id: "42FD6CAB5134DAA2"
+			x: 5.57d
+			y: 2.0d
+			icon: {
+				id: "waystones:warp_dust"
+				count: 1
+			}
+			dependencies: [
+				"466444CD9C2D77D4"
+			]
+			tasks: [
+				{
+					id: "10A4FA9940A10005"
+					type: "item"
+					item: {
+						count: 1
+						id: "waystones:warp_dust"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "02E20A34F8D6C548"
+			x: 7.07d
+			y: 2.0d
+			icon: {
+				id: "waystones:return_scroll"
+				count: 1
+			}
+			dependencies: [
+				"466444CD9C2D77D4"
+			]
+			tasks: [
+				{
+					id: "66DF35061E2DC7D0"
+					type: "item"
+					item: {
+						count: 1
+						id: "waystones:return_scroll"
+					}
+				}
+			]
+		}
+		{
+			id: "43C381B528DE6591"
+			x: 8.57d
+			y: 2.0d
+			icon: {
+				id: "waystones:bound_scroll"
+				count: 1
+			}
+			dependencies: [
+				"466444CD9C2D77D4"
+			]
+			tasks: [
+				{
+					id: "1853F9FDF6999046"
+					type: "item"
+					item: {
+						count: 1
+						id: "waystones:bound_scroll"
+					}
+				}
+			]
+		}
+		{
+			id: "6E580B0E0DB376FF"
+			x: 8.32d
+			y: 4.0d
+			icon: {
+				id: "waystones:portal_scroll"
+				count: 1
+			}
+			dependencies: [
+				"43C381B528DE6591"
+			]
+			tasks: [
+				{
+					id: "13757394FC79B393"
+					type: "item"
+					item: {
+						count: 1
+						id: "waystones:portal_scroll"
+					}
+				}
+			]
+		}
+		{
+			id: "1EAF77894525E086"
+			x: 3.82d
+			y: 4.0d
+			icon: {
+				id: "waystones:white_portstone"
+				count: 1
+			}
+			dependencies: [
+				"59FE438CCB6B63CB"
+			]
+			tasks: [
+				{
+					id: "2AA992131189FCB9"
+					type: "item"
+					item: {
+						count: 1
+						id: "waystones:white_portstone"
+					}
+				}
+			]
+		}
+		{
+			id: "1A444ECB29407E92"
+			x: 5.32d
+			y: 4.0d
+			icon: {
+				id: "waystones:attuned_shard"
+				count: 1
+			}
+			dependencies: [
+				"59FE438CCB6B63CB"
+			]
+			tasks: [
+				{
+					id: "02D504B7B490EBB6"
+					type: "item"
+					item: {
+						count: 1
+						id: "waystones:attuned_shard"
+					}
 				}
 			]
 		}

@@ -1,0 +1,53 @@
+# Key-item gaps: Grappling Hook (NeoForge) upgrades, TaCZ workbenches.
+extends: weapons
+lang: [grappling_hook_neo, tacz]
+autodoc: ["item.{ns}.{path}.tooltip", "item.{ns}.{path}.desc"]
+out: gaps_weapons_gen
+quests:
+  - id: ggh_motor
+    deps: [w_hook]
+    roles: [warrior, engineer]
+    items: [grappling_hook_neo:motorupgradeitem]
+    title: {ru: "Мотор для крюка", en: "Hook Motor"}
+    why: {ru: "Мотор сам подтягивает тебя к точке крепления — не надо карабкаться по верёвке.", en: "Reels you in automatically."}
+  - id: ggh_rope
+    deps: [w_hook]
+    roles: [warrior]
+    items: [grappling_hook_neo:ropeupgradeitem, grappling_hook_neo:throwupgradeitem]
+    title: {ru: "Длинная верёвка и сильный бросок", en: "Longer Rope, Stronger Throw"}
+    why: {en: Longer reach and a faster throw., ru: 'Длинная верёвка — цепляйся дальше, сильный бросок — крюк летит быстрее.'}
+  - id: ggh_swing
+    deps: [w_hook]
+    roles: [warrior]
+    items: [grappling_hook_neo:swingupgradeitem]
+    title: {ru: "Раскачка", en: "Swing Upgrade"}
+    why: {ru: "Раскачивайся на крюке как маятник — быстрый проход по ущельям и между деревьями.", en: "Swing like a pendulum."}
+  - id: ggh_magnet
+    title: {ru: "Магнит для крюка", en: "Hook Magnet"}
+    deps: [ggh_motor]
+    roles: [warrior]
+    items: [grappling_hook_neo:magnetupgradeitem]
+    why: {en: Helps the hook catch near your aim., ru: Магнит помогает крюку зацепиться за блок рядом с прицелом — меньше промахов.}
+  - id: ggh_forcefield
+    deps: [ggh_motor]
+    roles: [warrior]
+    items: [grappling_hook_neo:forcefieldupgradeitem]
+    title: {ru: "Силовое поле", en: "Forcefield Upgrade"}
+    why: {ru: "Пока висишь на крюке, поле отталкивает мобов — никто не собьёт с верёвки.", en: "Keeps mobs away while you hang."}
+  - id: ggh_launcher
+    deps: [w_hook]
+    roles: [warrior]
+    items: [grappling_hook_neo:launcheritem]
+    title: {ru: "Катапульта", en: "Launcher"}
+    why: {ru: "Подбрасывает тебя вперёд по взгляду — рывок без верёвки.", en: "Launches you where you look."}
+  - id: ggh_repeller
+    deps: [w_hook]
+    roles: [warrior]
+    items: [grappling_hook_neo:repeller]
+    why: {ru: "Отталкивает мобов вокруг — передышка в драке.", en: "Pushes nearby mobs away."}
+  - id: gtz_workbenches
+    deps: [w_gunsmith]
+    roles: [warrior, engineer]
+    items: [tacz:workbench_a, tacz:workbench_c]
+    title: {ru: "Другие верстаки оружейника", en: "Other Gunsmith Workbenches"}
+    why: {ru: "У каждого верстака свой набор рецептов. Что на каком делается, видно в его интерфейсе и в JEI.", en: "Each workbench has its own recipe set; check its UI or JEI."}

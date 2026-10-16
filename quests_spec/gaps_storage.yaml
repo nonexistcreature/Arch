@@ -1,0 +1,68 @@
+# Key-item gaps: ExtendedAE, Applied Mekanistics. Texts: tooltips + our «why».
+extends: storage
+lang: [extendedae, appmek, ae2]
+autodoc: ["item.{ns}.{path}.tooltip", "block.{ns}.{path}.tooltip", "item.{ns}.{path}.tooltip.summary", "block.{ns}.{path}.tooltip.summary"]
+out: gaps_storage_gen
+quests:
+  - id: gex_entro
+    deps: [ae_extended]
+    roles: [engineer]
+    items: [extendedae:entro_crystal*4, extendedae:entro_ingot*2]
+    title: {ru: "Энтро-материалы", en: "Entro Materials"}
+    why: {ru: "Энтро-кристаллы растут из энтро-семян, энтро-слиток — материал для расширенных деталей ExtendedAE.", en: "The base material of ExtendedAE parts."}
+  - id: gex_provider
+    deps: [ae_extended]
+    roles: [engineer]
+    items: [extendedae:ex_pattern_provider_part, extendedae:ex_interface]
+    title: {ru: "Расширенные поставщик и интерфейс", en: "Extended Provider and Interface"}
+    why: {ru: "Больше ячеек под шаблоны и предметы в одном блоке — меньше блоков на автокрафт.", en: "More pattern and item slots per block."}
+  - id: gex_assembler
+    deps: [gex_provider]
+    roles: [engineer]
+    items: [extendedae:ex_molecular_assembler]
+    why: {ru: "Расширенный молекулярный сборщик крафтит несколько вещей параллельно.", en: "Crafts several items in parallel."}
+  - id: gex_crystal_assembler
+    deps: [gex_entro]
+    roles: [engineer]
+    items: [extendedae:crystal_assembler]
+    why: {ru: "Сборщик кристаллов автоматизирует рецепты с кристаллами. Что именно он делает — в JEI.", en: "Automates crystal recipes; see JEI."}
+  - id: gex_cells
+    deps: [ae_infinity_water]
+    roles: [engineer]
+    items: [extendedae:infinity_cobblestone_cell, extendedae:void_cell]
+    title: {ru: "Бесконечная и пустая ячейки", en: "Infinity and Void Cells"}
+    why: {ru: "Бесконечный булыжник прямо в сети и ячейка-«чёрная дыра», которая уничтожает лишнее (например, булыжник от бура). Пустой ячейке ставь фильтр, иначе она съест всё.", en: "Infinite cobble, and a void cell that deletes surplus (filter it!)."}
+  - id: gex_wireless
+    deps: [ae_extended]
+    roles: [engineer]
+    items: [extendedae:wireless_connect]
+    title: {ru: "Беспроводное соединение сетей", en: "Wireless Connector"}
+    why: {ru: "Соединяет две части ME-сети без кабеля — через реку или до второй базы.", en: "Links ME network parts without cables."}
+  - id: gex_io
+    deps: [ae_ex_drive]
+    roles: [engineer]
+    items: [extendedae:ex_io_port, extendedae:ex_charger]
+    title: {ru: "Расширенные порт и зарядник", en: "Extended IO Port and Charger"}
+    why: {ru: "Быстрее переносят ячейки и заряжают сразу несколько предметов.", en: "Faster cell transfer and multi-item charging."}
+  - id: gex_cpu
+    deps: [ae_assembler_matrix]
+    roles: [engineer]
+    items: [extendedae:concurrent_processor]
+    why: {ru: "Параллельный процессор — для крафтовых процессоров: больше заказов одновременно.", en: "Lets crafting CPUs handle more jobs."}
+  - id: gex_bus
+    deps: [ae_extended]
+    roles: [engineer]
+    items: [extendedae:precise_storage_bus, extendedae:threshold_level_emitter, extendedae:pattern_modifier]
+    title: {ru: "Тонкая настройка", en: "Fine Tuning"}
+    why: {ru: "Точная шина хранения, пороговый излучатель и модификатор шаблонов — инструменты, когда склад уже большой и нужна точность.", en: "Precision tools for a large network."}
+  - id: gam_cells
+    deps: [ae_chem_cell]
+    roles: [engineer]
+    items: [appmek:chemical_storage_cell_1k, appmek:portable_chemical_cell_1k]
+    title: {ru: "Ячейки химикатов", en: "Chemical Cells"}
+    why: {ru: "Газы и химикаты Mekanism хранятся в ME-сети, как предметы. Переносная ячейка — бак в кармане.", en: "Store Mekanism chemicals in ME; the portable cell is a pocket tank."}
+  - id: gam_p2p
+    deps: [gam_cells]
+    roles: [engineer]
+    items: [appmek:chemical_p2p_tunnel]
+    why: {ru: "P2P-туннель гонит химикаты через ME-кабель на другой конец базы — вместо длинных трубок.", en: "Sends chemicals through ME cable instead of tubes."}

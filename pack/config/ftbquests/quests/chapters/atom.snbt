@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "385179001FCC35DD"
-			x: 0.0d
+			x: 1.99d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -45,7 +45,7 @@
 		}
 		{
 			id: "00B5A7E9699DCF0C"
-			x: 0.0d
+			x: 1.24d
 			y: 2.0d
 			icon: {
 				id: "bigreactors:graphite_ingot"
@@ -68,7 +68,7 @@
 		}
 		{
 			id: "42035AA943CCC666"
-			x: 0.0d
+			x: 1.28d
 			y: 4.0d
 			icon: {
 				id: "bigreactors:basic_reactorcasing"
@@ -92,7 +92,7 @@
 		}
 		{
 			id: "6016A6F923D9EEAD"
-			x: 0.0d
+			x: 0.53d
 			y: 6.0d
 			icon: {
 				id: "bigreactors:basic_reactorfuelrod"
@@ -123,7 +123,7 @@
 		}
 		{
 			id: "1773A8F8F5018FEC"
-			x: 0.0d
+			x: 0.6d
 			y: 8.0d
 			shape: "hexagon"
 			icon: {
@@ -164,7 +164,7 @@
 		}
 		{
 			id: "03A29457CE8D2345"
-			x: -1.5d
+			x: -3.15d
 			y: 10.0d
 			icon: {
 				id: "bigreactors:basic_turbinerotorblade"
@@ -195,7 +195,7 @@
 		}
 		{
 			id: "0AECD052E87EA63D"
-			x: 0.0d
+			x: -0.15d
 			y: 10.0d
 			icon: {
 				id: "bigreactors:reprocessorcontroller"
@@ -217,7 +217,7 @@
 		}
 		{
 			id: "0C2DA46EC2979143"
-			x: -1.5d
+			x: -3.6d
 			y: 12.0d
 			icon: {
 				id: "bigreactors:reinforced_reactorcasing"
@@ -239,7 +239,7 @@
 		}
 		{
 			id: "7352B03F0E567940"
-			x: 1.5d
+			x: 2.1d
 			y: 10.0d
 			icon: {
 				id: "mekanismgenerators:fission_reactor_casing"
@@ -258,7 +258,7 @@
 		}
 		{
 			id: "0679515BD8C61681"
-			x: 1.5d
+			x: 2.4d
 			y: 12.0d
 			shape: "hexagon"
 			icon: {
@@ -284,6 +284,223 @@
 					id: "740EF59D6169BBA4"
 					type: "xp_levels"
 					xp_levels: 10
+				}
+			]
+		}
+		{
+			id: "67B6EF18926DAC5E"
+			x: 2.02d
+			y: 6.0d
+			icon: {
+				id: "bigreactors:basic_reactorglass"
+				count: 1
+			}
+			dependencies: [
+				"42035AA943CCC666"
+			]
+			tasks: [
+				{
+					id: "6DE3C6BD2C94E657"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:basic_reactorglass"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "0F18209E91F16834"
+			x: 2.74d
+			y: 2.0d
+			icon: {
+				id: "bigreactors:wrench"
+				count: 1
+			}
+			dependencies: [
+				"385179001FCC35DD"
+			]
+			tasks: [
+				{
+					id: "241FF3D38F435845"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:wrench"
+					}
+				}
+			]
+		}
+		{
+			id: "7C7131D82A0B1F18"
+			x: -2.1d
+			y: 12.0d
+			icon: {
+				id: "bigreactors:basic_turbinerotorbearing"
+				count: 1
+			}
+			dependencies: [
+				"03A29457CE8D2345"
+			]
+			tasks: [
+				{
+					id: "7EE94CDA5A515E11"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:basic_turbinerotorbearing"
+					}
+				}
+				{
+					id: "6754A3CD65751264"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:basic_turbinefluidport_forge_passive"
+					}
+				}
+			]
+		}
+		{
+			id: "748BBAAE5E7EE203"
+			x: -0.6d
+			y: 12.0d
+			icon: {
+				id: "bigreactors:cyanite_ingot"
+				count: 1
+			}
+			dependencies: [
+				"0AECD052E87EA63D"
+			]
+			tasks: [
+				{
+					id: "17C84A8B2C7B7303"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:cyanite_ingot"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "0A6C8B1ECFF296FB"
+			x: -0.6d
+			y: 14.0d
+			icon: {
+				id: "bigreactors:blutonium_ingot"
+				count: 1
+			}
+			dependencies: [
+				"748BBAAE5E7EE203"
+			]
+			tasks: [
+				{
+					id: "5F120EA87B200611"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:blutonium_ingot"
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "001C170FD6E5FE78"
+			x: -0.6d
+			y: 16.0d
+			icon: {
+				id: "bigreactors:ludicrite_ingot"
+				count: 1
+			}
+			dependencies: [
+				"0A6C8B1ECFF296FB"
+			]
+			tasks: [
+				{
+					id: "24A9FCF71140F4AC"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:ludicrite_ingot"
+					}
+				}
+			]
+		}
+		{
+			id: "2E9D3E5C156CBF8B"
+			x: -3.6d
+			y: 14.0d
+			icon: {
+				id: "bigreactors:anglesite_crystal"
+				count: 1
+			}
+			dependencies: [
+				"0C2DA46EC2979143"
+			]
+			tasks: [
+				{
+					id: "51FA00244268DF5B"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:anglesite_crystal"
+					}
+				}
+				{
+					id: "10256E098DBCB3BC"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:benitoite_crystal"
+					}
+				}
+			]
+		}
+		{
+			id: "0C084B007135EF70"
+			x: 0.9d
+			y: 12.0d
+			icon: {
+				id: "bigreactors:fluidizercontroller"
+				count: 1
+			}
+			dependencies: [
+				"0AECD052E87EA63D"
+			]
+			tasks: [
+				{
+					id: "319FB56112D6D57D"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:fluidizercontroller"
+					}
+				}
+			]
+		}
+		{
+			id: "23935CE9425E6AC2"
+			x: 3.6d
+			y: 10.0d
+			icon: {
+				id: "bigreactors:energizercontroller"
+				count: 1
+			}
+			dependencies: [
+				"1773A8F8F5018FEC"
+			]
+			tasks: [
+				{
+					id: "4E4D79996E5BB2C1"
+					type: "item"
+					item: {
+						count: 1
+						id: "bigreactors:energizercontroller"
+					}
 				}
 			]
 		}

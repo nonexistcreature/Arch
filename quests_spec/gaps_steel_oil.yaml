@@ -1,0 +1,72 @@
+# Key-item gaps: Immersive Petroleum. EN from IP's pages in the Engineer's Manual, RU from our «why».
+extends: steel_oil
+lang: [immersivepetroleum]
+out: gaps_steel_oil_gen
+quests:
+  - id: gip_derrick
+    deps: [ip_survey]
+    roles: [engineer]
+    items: [immersivepetroleum:derrick]
+    title: {ru: "Буровая вышка", en: "Derrick"}
+    doc: md:assets/immersivepetroleum/manual/en_us/derrick.txt
+    why: {ru: "Вышка бурит скважину до нефтяного пласта, который нашла сейсморазведка. Только потом качалка начинает качать.", en: "Drills the well the survey found; then the pumpjack can pump."}
+  - id: gip_oiltank
+    deps: [ip_pumpjack]
+    roles: [engineer]
+    items: [immersivepetroleum:oiltank]
+    title: {ru: "Нефтяной резервуар", en: "Oil Tank"}
+    doc: md:assets/immersivepetroleum/manual/en_us/oiltank.txt
+    why: {ru: "Большой многоблочный резервуар — буфер между качалкой и колонной.", en: "A big buffer tank between pumpjack and tower."}
+  - id: gip_coker
+    deps: [ip_distill]
+    roles: [engineer]
+    items: [immersivepetroleum:coker_unit]
+    title: {ru: "Коксовая установка", en: "Coker Unit"}
+    doc: md:assets/immersivepetroleum/manual/en_us/cokerunit.txt
+    why: {ru: "Перерабатывает тяжёлые остатки нефти в нефтяной кокс — ничего не пропадает.", en: "Turns heavy residue into petroleum coke."}
+  - id: gip_petcoke
+    deps: [gip_coker]
+    roles: [engineer]
+    items: [immersivepetroleum:petcoke*8]
+    title: {ru: "Нефтяной кокс", en: "Petroleum Coke"}
+    why: {ru: "Кокс из нефти — топливо и сырьё вместо угольного кокса.", en: "Fuel and a substitute for coal coke."}
+  - id: gip_hydrotreater
+    deps: [ip_distill]
+    roles: [engineer]
+    items: [immersivepetroleum:hydrotreater]
+    title: {ru: "Гидроочистка", en: "Hydrotreater"}
+    doc: md:assets/immersivepetroleum/manual/en_us/hydrotreater.txt
+    why: {ru: "Очищает топливо от серы — меньше грязи в воздухе от твоих двигателей.", en: "Removes sulfur from fuel: less air pollution."}
+  - id: gip_flarestack
+    deps: [ip_distill]
+    roles: [engineer]
+    items: [immersivepetroleum:flarestack]
+    doc: md:assets/immersivepetroleum/manual/en_us/flarestack.txt
+    why: {ru: "Сжигает лишние газы, чтобы установка не вставала. Ставь подальше от жилья.", en: "Burns off excess gas; keep it away from homes."}
+  - id: gip_lubricator
+    deps: [ip_distill]
+    roles: [engineer]
+    items: [immersivepetroleum:auto_lubricator]
+    title: {ru: "Автосмазчик", en: "Automatic Lubricator"}
+    doc: md:assets/immersivepetroleum/manual/en_us/lubricant.txt
+    why: {ru: "Смазка ускоряет многоблочные машины IE — качалку, дробилку, экскаватор.", en: "Lubricant speeds up IE multiblocks."}
+  - id: gip_generator
+    deps: [ip_distill]
+    roles: [engineer]
+    items: [immersivepetroleum:gas_generator, immersivepetroleum:gasoline_bottle*4]
+    title: {ru: "Бензогенератор", en: "Portable Generator"}
+    doc: md:assets/immersivepetroleum/manual/en_us/portable_generator.txt
+    why: {ru: "Маленький генератор на бензине — энергия в походе или на стройке далеко от базы.", en: "Gasoline power for remote builds."}
+  - id: gip_paraffin
+    deps: [ip_distill]
+    roles: [engineer, builder]
+    items: [immersivepetroleum:paraffin_wax*4]
+    doc: md:assets/immersivepetroleum/manual/en_us/plastics.txt
+    why: {ru: "Парафин из нефти — для свечей и пластика.", en: "Wax from oil, for candles and plastics."}
+  - id: gip_boat_tank
+    deps: [ip_speedboat]
+    roles: [engineer]
+    items: [immersivepetroleum:upgrade_tank]
+    title: {ru: "Улучшения катера", en: "Speedboat Upgrades"}
+    doc: md:assets/immersivepetroleum/manual/en_us/speedboat.txt
+    why: {ru: "Больший бак — дальше без дозаправки. Есть ещё ледокол, рули, лопасти и усиленный корпус.", en: "Bigger tank; also icebreaker, rudders, paddles, reinforced hull."}

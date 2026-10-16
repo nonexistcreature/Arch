@@ -2616,6 +2616,125 @@
 	quest.31B1E1774E2F4168.quest_desc: [
 		"Couriers, radars, trading depots, auto-farms: Create as an economy."
 	]
+	quest.6B17938906CCF019.title: "Electrum Ingot"
+	quest.6B17938906CCF019.quest_desc: [
+		"&lWhy:&r Gold-silver alloy for long-range wires and the amulet."
+	]
+	quest.4BD7C459255DC2B0.title: "Rolling Mill"
+	quest.4BD7C459255DC2B0.quest_desc: [
+		"&lWhy:&r Rolls ingots into rods and wires; needed for spools."
+	]
+	quest.3BFB38A3A30B3DF7.title: "Electric Motor"
+	quest.3BFB38A3A30B3DF7.quest_desc: [
+		"&lWhy:&r Turns electricity back into rotation, wherever wires reach."
+	]
+	quest.6E48223DCA8AEDD3.title: "Portable Energy Interface"
+	quest.6E48223DCA8AEDD3.quest_desc: [
+		"&lWhy:&r Charges moving contraptions at a station."
+	]
+	quest.6C3DC1C78CE668EC.title: "Redstone Relay"
+	quest.6C3DC1C78CE668EC.quest_desc: [
+		"&lWhy:&r A redstone switch for your power line."
+		"Allows ⚡ to pass from the input connector to the output connector when receiving a redstone signal."
+	]
+	quest.0BE3E45CC3B9EEF5.title: "Digital Adapter"
+	quest.0BE3E45CC3B9EEF5.quest_desc: [
+		"A Computercraft Peripheral which allows computers to interface with Display Boards, Speedometers, Stressometers, Rope Pulley, Hose Pulley, Elevator Pulley, Mechanical Piston, Mechanical Bearing, and Rotational Speed Controllers."
+	]
+	quest.26E0381BB4B73A24.title: "Barbed Wire"
+	quest.26E0381BB4B73A24.quest_desc: [
+		"&lWhy:&r Hurts and slows whatever pushes through: a perimeter fence."
+		"Inflicts damage when walked through."
+	]
+	quest.019CCF00E09E3980.title: "Diamond Grit Sand Paper"
+	quest.019CCF00E09E3980.quest_desc: [
+		"&lWhy:&r Lasts far longer than normal sandpaper."
+		"Can be used to refine materials. The process can be automated with a Deployer."
+	]
+	quest.42CDA2E419B5AD26.title: "Biomass Pellet"
+	quest.42CDA2E419B5AD26.quest_desc: [
+		"&lWhy:&r Farm waste pellets: fuel for blaze burners."
+		"A powerful solid fuel."
+	]
+	quest.56D646498AF1B6E9.title: "Pale Gold Amulet"
+	quest.56D646498AF1B6E9.quest_desc: [
+		"This Amulet has a SHOCKING⚡ effect on your re-chargable items! Hold this in your hand and it will occasionally charge items in your other hand."
+	]
+	quest.3C76820E60840E9A.title: "Smart Clutches and Brake"
+	quest.3C76820E60840E9A.quest_desc: [
+		"&lWhy:&r Speed-triggered, one-way and braking couplings to protect machines."
+		"A clutch that is only coupled if the input RPM meets a configurable threshold."
+	]
+	quest.114DC3DDF8B41156.title: "Crank Wheel"
+	quest.114DC3DDF8B41156.quest_desc: [
+		"&lWhy:&r A big hand crank for when there's no generator yet."
+	]
+	quest.10B78BA56FC2FA7C.title: "Inventory Bridges"
+	quest.10B78BA56FC2FA7C.quest_desc: [
+		"&lWhy:&r Reach inventories through blocks: fewer belts in the warehouse."
+	]
+	quest.1F16ABE21E3DA16D.title: "Fluid Vessel"
+	quest.1F16ABE21E3DA16D.quest_desc: [
+		"&lWhy:&r A horizontal fluid tank."
+		"A horizontal fluid tank. Less efficient when used as a boiler."
+	]
+	quest.1BA658A9DC2F3E3C.title: "Kinetic Bridge"
+	quest.1BA658A9DC2F3E3C.quest_desc: [
+		"&lWhy:&r Passes rotation across a gap without shafts."
+	]
+	quest.0844A2C25B16455E.title: "Pulses and Wireless Transmitter"
+	quest.0844A2C25B16455E.quest_desc: [
+		"&lWhy:&r Programmed pulse sequences sent wirelessly to Redstone Link frequencies."
+	]
+	quest.096A6FA70E2A37D5.title: "New Fan Processes"
+	quest.096A6FA70E2A37D5.quest_desc: [
+		"&lWhy:&r Fill a catalyst to add freezing, seething, withering and more to fans."
+		"Insert material to catalyze fan processing."
+	]
+	quest.759F981B5C931206.title: "Seething and Withering"
+	quest.759F981B5C931206.quest_desc: [
+		"Dedicated bulk superheating device for compatible mods. Content of the catalyst does not interact with the environment."
+	]
+	quest.43172E0A1BED3165.title: "Dashboard"
+	quest.43172E0A1BED3165.quest_desc: [
+		"&lWhy:&r Controls and gauges in your cab."
+	]
+	quest.2A5DF3A600F6215E.title: "Mechanical Grindstone"
+	quest.2A5DF3A600F6215E.quest_desc: [
+		"&lWhy:&r Strips enchantments from loot into liquid experience."
+	]
+	quest.4B95D20BCC86757E.title: "Experience Hatch"
+	quest.4B95D20BCC86757E.quest_desc: [
+		"&lWhy:&r Pour your XP into tanks and take it back later; stored XP survives your death."
+	]
+	quest.043037881CCABC6F.title: "Experience Lantern"
+	quest.043037881CCABC6F.quest_desc: [
+		"&lWhy:&r See Ponder (hold W) for how it works with tanks."
+	]
+	quest.30340F5C29931F10.title: "Nugget of Super Experience"
+	quest.30340F5C29931F10.quest_desc: [
+		"&lWhy:&r Condensed experience for the strongest enchanting recipes."
+	]
+	quest.05062EFA1A9B0EC6.title: "Blaze Forger"
+	quest.05062EFA1A9B0EC6.quest_desc: [
+		"&lWhy:&r An advanced XP-and-template enchanting machine; see Ponder and JEI."
+	]
+	quest.6961E96A112017E9.title: "Super Enchanting Template"
+	quest.6961E96A112017E9.quest_desc: [
+		"&lWhy:&r A template for strong forged enchantments; recipe in JEI."
+	]
+	quest.379B8182284871BE.title: "Cake o' Enchanting"
+	quest.379B8182284871BE.quest_desc: [
+		"&lWhy:&r Eat it for levels."
+	]
+	quest.05BC96A7803D8FB7.title: "Fragile Fluid Tank"
+	quest.05BC96A7803D8FB7.quest_desc: [
+		"&lWhy:&r A special tank for Dragons Plus fluids; see its tooltip and Ponder."
+	]
+	quest.00873309DE18E102.title: "Smithing Template"
+	quest.00873309DE18E102.quest_desc: [
+		"&lWhy:&r A smithing upgrade template; check JEI for what it upgrades."
+	]
 	chapter.75D3C2A26C328D05.title: "Sky & Roads"
 	chapter.75D3C2A26C328D05.chapter_subtitle: [
 		"Cars, planes, airships, citadels"
@@ -2685,6 +2804,78 @@
 	quest.288B24A597910CC4.quest_desc: [
 		"A winch with a rope pulls one build toward another: tows a car, lowers cargo from an airship, holds a bridge."
 		"Boarding and cable-car quests are in the \"Weapons & Gear\" chapter."
+	]
+	quest.2E0F3352194E62A3.title: "Cargo Airship"
+	quest.2E0F3352194E62A3.quest_desc: [
+		"&lWhy:&r Slow but with a big hold for hauling between bases."
+		"Slow and fuel hungry but carries an entire storage."
+	]
+	quest.2372FF088A0DF279.title: "Warship"
+	quest.2372FF088A0DF279.quest_desc: [
+		"&lWhy:&r A flying fortress with weapon slots."
+		"A flying fortress, slow but heavily armed."
+	]
+	quest.69EE79A537FB80C0.title: "Engines"
+	quest.69EE79A537FB80C0.quest_desc: [
+		"&lWhy:&r The core part; eco engines save fuel, nether engines work in the Nether."
+	]
+	quest.13578FDD4973FEFE.title: "Engine Upgrades"
+	quest.13578FDD4973FEFE.quest_desc: [
+		"&lWhy:&r Eco saves fuel, nether works in the Nether, steel boiler for steam craft."
+	]
+	quest.5BD2443FE2D9A79A.title: "Hull, Landing Gear, Propeller"
+	quest.5BD2443FE2D9A79A.quest_desc: [
+		"&lWhy:&r Tougher hull, safer landings, more speed."
+	]
+	quest.61500A1E44578C71.title: "Aircraft Weapons"
+	quest.61500A1E44578C71.quest_desc: [
+		"&lWhy:&r Weapons for aircraft. Bombs only in the wilds, never over towns."
+		"A heavy crossbow with a powerful punch, requires arrows."
+	]
+	quest.3A5901F2A5EE8266.title: "Pilot Instruments"
+	quest.3A5901F2A5EE8266.quest_desc: [
+		"&lWhy:&r Telescope for scouting, HUD gyroscope for altitude and roll."
+		"A bulkier version of the spyglass."
+	]
+	quest.3D9F3DCD6B188CE9.title: "Portable Engine"
+	quest.3D9F3DCD6B188CE9.quest_desc: [
+		"&lWhy:&r A compact engine right on a physics contraption."
+	]
+	quest.675F1FB3114EF2F8.title: "gsm_swivel"
+	quest.675F1FB3114EF2F8.quest_desc: [
+		"&lWhy:&r A turret or crane base that turns on a moving vehicle."
+	]
+	quest.1C66BAF91CB52919.title: "Flight Sensors"
+	quest.1C66BAF91CB52919.quest_desc: [
+		"&lWhy:&r Tilt and speed sensors for an autopilot."
+	]
+	quest.6483413492479813.title: "Laser and Optical Sensors"
+	quest.6483413492479813.quest_desc: [
+		"&lWhy:&r Detect obstacles ahead: the base of automatic vehicles."
+	]
+	quest.3D4F6714397415C1.title: "gsm_typewriter"
+	quest.3D4F6714397415C1.quest_desc: [
+		"&lWhy:&r Keys send Redstone Link signals: drive with your keyboard."
+	]
+	quest.749C4A1323037C0F.title: "Plunger Launcher"
+	quest.749C4A1323037C0F.quest_desc: [
+		"&lWhy:&r Launches items or blocks from a contraption; see Ponder."
+	]
+	quest.45F0330BBB8E4233.title: "Gyroscope and Honey Glue"
+	quest.45F0330BBB8E4233.quest_desc: [
+		"&lWhy:&r The gyroscope stabilises, honey glue binds blocks into one physical body."
+	]
+	quest.11A8176F4E1EDA43.title: "gae_gyro_prop"
+	quest.11A8176F4E1EDA43.quest_desc: [
+		"&lWhy:&r Keeps the propeller level by itself."
+	]
+	quest.4A575B486E440552.title: "Mounted Potato Cannon"
+	quest.4A575B486E440552.quest_desc: [
+		"&lWhy:&r A mounted potato cannon for airship defence."
+	]
+	quest.079C5C8366084ACE.title: "Monstrous Tires"
+	quest.079C5C8366084ACE.quest_desc: [
+		"&lWhy:&r Monster-truck wheels."
 	]
 	quest.4B89702C281986E7.title: "Big Wheels"
 	quest.4B89702C281986E7.quest_desc: [
@@ -2815,6 +3006,30 @@
 	quest.69A1D02B4D7A4EFC.quest_subtitle: "Sea, rails, sky"
 	quest.69A1D02B4D7A4EFC.quest_desc: [
 		"You've tied the world together. Suggest a shared station at spawn so every line meets in one place."
+	]
+	quest.42FD6CAB5134DAA2.title: "Warp Dust"
+	quest.42FD6CAB5134DAA2.quest_desc: [
+		"&lWhy:&r The base of teleport scrolls and stones."
+	]
+	quest.02E20A34F8D6C548.title: "Return Scroll"
+	quest.02E20A34F8D6C548.quest_desc: [
+		"&lWhy:&r A one-use scroll to get back. Keep one in your pack."
+	]
+	quest.43C381B528DE6591.title: "Bound Scroll"
+	quest.43C381B528DE6591.quest_desc: [
+		"&lWhy:&r Bound to one waystone: a 'come visit' gift."
+	]
+	quest.6E580B0E0DB376FF.title: "Portal Scroll"
+	quest.6E580B0E0DB376FF.quest_desc: [
+		"&lWhy:&r Another fast-travel scroll; see its tooltip."
+	]
+	quest.1EAF77894525E086.title: "Portstone"
+	quest.1EAF77894525E086.quest_desc: [
+		"&lWhy:&r Another kind of waystone; see its tooltip and JEI."
+	]
+	quest.1A444ECB29407E92.title: "Attuned Shard"
+	quest.1A444ECB29407E92.quest_desc: [
+		"&lWhy:&r Used in warp plates; see JEI."
 	]
 	chapter.78D5E7433029BED0.title: "Mekanism & the Atom"
 	chapter.78D5E7433029BED0.chapter_subtitle: [
@@ -3491,6 +3706,42 @@
 		"The Mekanism fusion reactor is the peak of power: deuterium + tritium, ignited by laser. Safe, but it needs everything you've built before."
 		"&lGreat work:&r «Fusion Plant» in the Great Works chapter."
 	]
+	quest.67B6EF18926DAC5E.title: "Reactor Glass"
+	quest.67B6EF18926DAC5E.quest_desc: [
+		"&lWhy:&r See fuel, waste and coolant inside."
+	]
+	quest.0F18209E91F16834.title: "Extreme Wrench"
+	quest.0F18209E91F16834.quest_desc: [
+		"&lWhy:&r Rotate and remove reactor parts."
+	]
+	quest.7C7131D82A0B1F18.title: "Turbine Bearing and Port"
+	quest.7C7131D82A0B1F18.quest_desc: [
+		"&lWhy:&r An actively cooled reactor feeds steam to the turbine: far more power."
+	]
+	quest.748BBAAE5E7EE203.title: "Cyanite Ingot"
+	quest.748BBAAE5E7EE203.quest_desc: [
+		"&lWhy:&r Spent fuel; reprocess it."
+	]
+	quest.0A6C8B1ECFF296FB.title: "Blutonium Ingot"
+	quest.0A6C8B1ECFF296FB.quest_desc: [
+		"&lWhy:&r Another fuel: a nearly closed cycle."
+	]
+	quest.001C170FD6E5FE78.title: "Ludicrite Ingot"
+	quest.001C170FD6E5FE78.quest_desc: [
+		"&lWhy:&r A rare top-tier material; recipe in JEI."
+	]
+	quest.2E9D3E5C156CBF8B.title: "Anglesite and Benitoite"
+	quest.2E9D3E5C156CBF8B.quest_desc: [
+		"&lWhy:&r Crystals for reinforced reactors; see JEI."
+	]
+	quest.0C084B007135EF70.title: "Fluidizer Controller"
+	quest.0C084B007135EF70.quest_desc: [
+		"&lWhy:&r Makes liquid fuel; see JEI."
+	]
+	quest.23935CE9425E6AC2.title: "Energizer Controller"
+	quest.23935CE9425E6AC2.quest_desc: [
+		"&lWhy:&r A multiblock energy store for reactor power."
+	]
 	chapter.3609E2F89D752FA6.title: "Steel & Oil"
 	chapter.3609E2F89D752FA6.chapter_subtitle: [
 		"Immersive Engineering, Petroleum, TFMG — and the air we breathe"
@@ -3557,6 +3808,73 @@
 		"&lWhat:&r factories, diesel and steam engines emit &lsmog&r. Wind spreads it; it harms crops and animals."
 		"&lHow to fight it:&r forests and flowers absorb pollution; filters and tall stacks disperse it; electricity is cleaner than diesel."
 		"&lTip:&r keep heavy industry far from the gardener's farm — and the friendship survives."
+	]
+	quest.2D96DA6CA12C02D3.title: "Derrick"
+	quest.2D96DA6CA12C02D3.quest_desc: [
+		"&lWhy:&r Drills the well the survey found; then the pumpjack can pump."
+		"The Derrick creates wellheads by drilling reinforced pipes into porous strata containing fluid reservoirs beneath the bedrock."
+		"The structure is built as shown and formed by using the Engineer's Hammer on the single light engineering block."
+		"Fluids are input through the blue fluid port, and fluid is output from the singular orange fluid output port. Drilling pipes must be input by hand."
+	]
+	quest.6F4ECD4D71A83842.title: "Oil Tank"
+	quest.6F4ECD4D71A83842.quest_desc: [
+		"&lWhy:&r A big buffer tank between pumpjack and tower."
+		"The Oil Tank is a self-levelling liquid tank bigger than the normal Fluid Tank, with both side, top, and bottom fluid ports. It can store 1024B of any non-gaseous fluid."
+		"The Oil Tank will self-level with any non-configured Oil Tanks next to it within a line, bringing each connected tank to an approximately equal liquid level any time fluids are input."
+		"The side fluid ports can be configured with the hammer to either input and output, while the top and bottom ports cannot be configured. Both the top and bottom port can input, but only the bottom fluid port can output."
+	]
+	quest.2E064E4BFAF6CFD5.title: "Coker Unit"
+	quest.2E064E4BFAF6CFD5.quest_desc: [
+		"&lWhy:&r Turns heavy residue into petroleum coke."
+		"The Coker is a massive machine that cracks and carbonizes residual bitumen;bitumen from distillation into petroleum coke;petroleum_coke and sulfurized diesel;diesel."
+		"Energy is input through the two high-amperage connectors on the front of the machine, and bitumen and water to the two labeled input ports on the front of the machine. Sulfurized diesel is output from the orange port on the front, and petroleum coke from the two hoppers below the coking drums."
+		"Supplying a redstone signal to the control panel will halt the coking process, which can be inverted with the use of the Engineer's Screwdriver."
+	]
+	quest.11BFC8B78F83342B.title: "Petroleum Coke"
+	quest.11BFC8B78F83342B.quest_desc: [
+		"&lWhy:&r Fuel and a substitute for coal coke."
+	]
+	quest.2051CFF82A4E0755.title: "Hydrotreater"
+	quest.2051CFF82A4E0755.quest_desc: [
+		"&lWhy:&r Removes sulfur from fuel: less air pollution."
+		"The High-Pressure Refinery Unit heats and combines fluids within its main reaction drum. It is integral to secondary process chains in modern petroleum refining, including cracking and desulfurization."
+		"Fluctuating power demands from the place the High-Pressure Refinery Unit between LV and MV, with more intensive recipes unable to use LV wiring. Power is input through the port on top of the heating unit."
+		"Fluids are input through the port on the front of the machine, water into the top port beside the control panel. Items are output from the side port beneath the water input, and the reaction product from the port atop the reaction drum."
+	]
+	quest.44F59DBF9EDB4AC9.title: "Flarestack"
+	quest.44F59DBF9EDB4AC9.quest_desc: [
+		"&lWhy:&r Burns off excess gas; keep it away from homes."
+		"The flarestack disposes of any combustible fluid pumped into the input port on the bottom by burning it in a flare jet."
+		"The pilot light of the flarestack is permanently on, and standing on top of it will cause burn damage."
+		"The flare rate is proportional to the applied redstone signal strength, with a maximum rate of 250mB/t. This behavior can be inverted with the Engineer's Screwdriver."
+	]
+	quest.02CFD520B83F1AB2.title: "Automatic Lubricator"
+	quest.02CFD520B83F1AB2.quest_desc: [
+		"&lWhy:&r Lubricant speeds up IE multiblocks."
+		"Lubricated bearings and gearboxes are present in almost every machine, but heavy-duty gearboxes and bearings benefit from their lubricant being regularly flushed and replaced."
+		"Machines with high mechanical loads — such as the Pumpjack, Excavator, and Crusher — can be actively lubricated to increase their speed by 25%."
+		"Iron Golems can be lubricated, temporarily increasing their speed and strength."
+	]
+	quest.3073E86FE695AB7F.title: "Portable Generator"
+	quest.3073E86FE695AB7F.quest_desc: [
+		"&lWhy:&r Gasoline power for remote builds."
+		"The Portable Generator is an easily-movable, light fuel alternative to the heavy, immobile Diesel Generator."
+		"The generator connects to LV and MV power grids directly, and can be picked up with it contents by crouching."
+		"The Portable Generator produces up to IF/t while burning fuels such as gasoline;gasoline, Naphtha;naphtha, or benzol;gasoline, and has an energy buffer of 100,000IF."
+	]
+	quest.3498F701EDB553AA.title: "Paraffin Wax"
+	quest.3498F701EDB553AA.quest_desc: [
+		"&lWhy:&r Wax from oil, for candles and plastics."
+		"Phenolic Resin;resin_acetaldehyde is a chemical marvel for the modern age, but it was missing a petroleum derived process for its production."
+		"Using newly developed thermal cracking systems, this is no longer the case: phenolic resin can be produced from Naphtha;naphtha feedstock using a high temperature processing to crack it into petroleum gas;petroleum_gas."
+		"The High-Pressure Refinery Unit is used to crack naphtha, converting 1500mB naphtha and 500mB of water to 2000mB of petroleum gas."
+	]
+	quest.00CB3716193112F3.title: "Speedboat Upgrades"
+	quest.00CB3716193112F3.quest_desc: [
+		"&lWhy:&r Bigger tank; also icebreaker, rudders, paddles, reinforced hull."
+		"The Motorboat is a direct upgrade to the standard wooden boat. The engine in the motorboat runs off the same fuels as the Portable Generator, and gives the Motorboat a significant speed boost compared to paddling. Fuel can be added to the tank with any portable fluid canister, such as a bucket or Jerrycan."
+		"Fuel is consumed while the engine is active at a constant rate whether the Motorboat is moving backwards or forwards. Holding the jump key will increase the speed of the Motorboat, albeit at the cost of higher fuel consumption and increased turn radius."
+		"Like other devices, the Motorboat can be modified in the Engineer's Workbench."
 	]
 	quest.2AD96C483D33D856.title: "Treated Wood"
 	quest.2AD96C483D33D856.quest_desc: [
@@ -4567,6 +4885,50 @@
 	quest.3B8BB67D88DE00FE.title: "Network Engineer"
 	quest.3B8BB67D88DE00FE.quest_desc: [
 		"You've mastered AE2 from quartz farms to moving bases."
+	]
+	quest.3EAA09CA9AF1C413.title: "Entro Materials"
+	quest.3EAA09CA9AF1C413.quest_desc: [
+		"&lWhy:&r The base material of ExtendedAE parts."
+	]
+	quest.29DCEBB7DAF3A186.title: "Extended Provider and Interface"
+	quest.29DCEBB7DAF3A186.quest_desc: [
+		"&lWhy:&r More pattern and item slots per block."
+	]
+	quest.7A072F7CC844BB58.title: "Extended Molecular Assembler"
+	quest.7A072F7CC844BB58.quest_desc: [
+		"&lWhy:&r Crafts several items in parallel."
+	]
+	quest.6E7A364EA1D27A43.title: "Crystal Assembler"
+	quest.6E7A364EA1D27A43.quest_desc: [
+		"&lWhy:&r Automates crystal recipes; see JEI."
+	]
+	quest.2F985A7AE0687171.title: "Infinity and Void Cells"
+	quest.2F985A7AE0687171.quest_desc: [
+		"&lWhy:&r Infinite cobble, and a void cell that deletes surplus (filter it!)."
+	]
+	quest.4FE4C7A6C3C8F217.title: "Wireless Connector"
+	quest.4FE4C7A6C3C8F217.quest_desc: [
+		"&lWhy:&r Links ME network parts without cables."
+	]
+	quest.01377988D4B50BB7.title: "Extended IO Port and Charger"
+	quest.01377988D4B50BB7.quest_desc: [
+		"&lWhy:&r Faster cell transfer and multi-item charging."
+	]
+	quest.4895D7988309BEEA.title: "Concurrent Processor"
+	quest.4895D7988309BEEA.quest_desc: [
+		"&lWhy:&r Lets crafting CPUs handle more jobs."
+	]
+	quest.1D06A7ACE22D856C.title: "Fine Tuning"
+	quest.1D06A7ACE22D856C.quest_desc: [
+		"&lWhy:&r Precision tools for a large network."
+	]
+	quest.013B50EFC9F9C3EB.title: "Chemical Cells"
+	quest.013B50EFC9F9C3EB.quest_desc: [
+		"&lWhy:&r Store Mekanism chemicals in ME; the portable cell is a pocket tank."
+	]
+	quest.1C4F6202AE2FC746.title: "Chemical P2P Tunnel"
+	quest.1C4F6202AE2FC746.quest_desc: [
+		"&lWhy:&r Sends chemicals through ME cable instead of tubes."
 	]
 	quest.36C60720F4EA9E96.title: "The Meteorite Compass"
 	quest.36C60720F4EA9E96.quest_desc: [
@@ -7282,6 +7644,38 @@
 	quest.56E88A8B20052C07.quest_subtitle: "Sword, gun, cannon, hook"
 	quest.56E88A8B20052C07.quest_desc: [
 		"You're ready for anything. Remember the calm zones: home is peaceful; adventure is where you go looking for it."
+	]
+	quest.2697B082A65472D4.title: "Hook Motor"
+	quest.2697B082A65472D4.quest_desc: [
+		"&lWhy:&r Reels you in automatically."
+	]
+	quest.60D1BBBBD66782D9.title: "Longer Rope, Stronger Throw"
+	quest.60D1BBBBD66782D9.quest_desc: [
+		"&lWhy:&r Longer reach and a faster throw."
+	]
+	quest.485CCD98E6873029.title: "Swing Upgrade"
+	quest.485CCD98E6873029.quest_desc: [
+		"&lWhy:&r Swing like a pendulum."
+	]
+	quest.787D838ACD09EE12.title: "Hook Magnet"
+	quest.787D838ACD09EE12.quest_desc: [
+		"&lWhy:&r Helps the hook catch near your aim."
+	]
+	quest.2A39C03BA937F45E.title: "Forcefield Upgrade"
+	quest.2A39C03BA937F45E.quest_desc: [
+		"&lWhy:&r Keeps mobs away while you hang."
+	]
+	quest.6E58308F422DE53A.title: "Launcher"
+	quest.6E58308F422DE53A.quest_desc: [
+		"&lWhy:&r Launches you where you look."
+	]
+	quest.2BC631DB5C6B8055.title: "Magnetic Forcefield"
+	quest.2BC631DB5C6B8055.quest_desc: [
+		"&lWhy:&r Pushes nearby mobs away."
+	]
+	quest.40BD82DEE157EF8C.title: "Other Gunsmith Workbenches"
+	quest.40BD82DEE157EF8C.quest_desc: [
+		"&lWhy:&r Each workbench has its own recipe set; check its UI or JEI."
 	]
 	quest.2B3DDC04AF68D471.title: "The Katana"
 	quest.2B3DDC04AF68D471.quest_desc: [

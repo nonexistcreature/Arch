@@ -1,0 +1,41 @@
+# Key-item gaps: Waystones.
+extends: transport
+lang: [waystones]
+autodoc: ["tooltip.{ns}.{path}", "item.{ns}.{path}.tooltip"]
+out: gaps_transport_gen
+quests:
+  - id: gws_dust
+    deps: [tr_warp_scroll]
+    roles: [mage]
+    items: [waystones:warp_dust*4]
+    title: {ru: "Варп-пыль", en: "Warp Dust"}
+    why: {ru: "Варп-пыль — основа свитков и камней телепорта.", en: "The base of teleport scrolls and stones."}
+  - id: gws_return
+    deps: [tr_warp_scroll]
+    roles: [mage]
+    items: [waystones:return_scroll]
+    title: {ru: "Свиток возврата", en: "Return Scroll"}
+    why: {ru: "Одноразовый свиток, чтобы вернуться назад. Держи один в рюкзаке на случай, если заблудился.", en: "A one-use scroll to get back. Keep one in your pack."}
+  - id: gws_bound
+    deps: [tr_warp_scroll]
+    roles: [mage]
+    items: [waystones:bound_scroll]
+    title: {ru: "Привязанный свиток", en: "Bound Scroll"}
+    why: {ru: "Свиток, привязанный к конкретному путевому камню, — подарок другу: «приходи ко мне в гости».", en: "Bound to one waystone: a 'come visit' gift."}
+  - id: gws_portal
+    title: {ru: "Свиток портала", en: "Portal Scroll"}
+    deps: [gws_bound]
+    roles: [mage]
+    items: [waystones:portal_scroll]
+    why: {en: Another fast-travel scroll; see its tooltip., ru: Свиток портала — ещё один способ быстро переместиться. Как работает — в подсказке предмета.}
+  - id: gws_portstone
+    deps: [tr_warp_stone]
+    roles: [mage, builder]
+    items: [waystones:white_portstone]
+    why: {ru: "Ещё один вид путевого камня. Чем он отличается от обычного — в подсказке и в JEI.", en: "Another kind of waystone; see its tooltip and JEI."}
+  - id: gws_attuned
+    deps: [tr_warp_stone]
+    roles: [mage]
+    items: [waystones:attuned_shard]
+    title: {ru: "Настроенный осколок", en: "Attuned Shard"}
+    why: {ru: "Осколок, настроенный на путевой камень, используется в варп-плитах. Как именно — смотри в JEI.", en: "Used in warp plates; see JEI."}
