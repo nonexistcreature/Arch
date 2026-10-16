@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "2D77445198E97346"
-			x: 0.3d
+			x: 1.03d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -31,7 +31,7 @@
 		}
 		{
 			id: "330A2A98C519162A"
-			x: -2.25d
+			x: -13.35d
 			y: 2.0d
 			icon: {
 				id: "deep_aether:skyjade"
@@ -55,7 +55,7 @@
 		}
 		{
 			id: "266F8321887A4C29"
-			x: -3.0d
+			x: -8.36d
 			y: 4.0d
 			icon: {
 				id: "deep_aether:stratus_chestplate"
@@ -77,7 +77,7 @@
 		}
 		{
 			id: "2F5CB4C9BE71E92E"
-			x: -1.5d
+			x: -6.86d
 			y: 4.0d
 			icon: {
 				id: "deep_aether:aerwhale_saddle"
@@ -99,7 +99,7 @@
 		}
 		{
 			id: "41B2832A942564A8"
-			x: 0.75d
+			x: -0.61d
 			y: 2.0d
 			icon: {
 				id: "undergarden:cloggrum_ingot"
@@ -123,7 +123,7 @@
 		}
 		{
 			id: "4A7C65037569EC58"
-			x: 0.0d
+			x: -5.36d
 			y: 4.0d
 			icon: {
 				id: "undergarden:utherium_crystal"
@@ -146,7 +146,7 @@
 		}
 		{
 			id: "557D7ED45056F22C"
-			x: 1.5d
+			x: -0.86d
 			y: 4.0d
 			icon: {
 				id: "undergarden:gloomgourd"
@@ -168,7 +168,7 @@
 		}
 		{
 			id: "1AD3AAF02A0AEC65"
-			x: -4.5d
+			x: 8.74d
 			y: 2.0d
 			icon: {
 				id: "the_bumblezone:royal_jelly_bottle"
@@ -191,7 +191,7 @@
 		}
 		{
 			id: "538CE3778B5E486F"
-			x: -4.5d
+			x: 5.14d
 			y: 4.0d
 			icon: {
 				id: "the_bumblezone:bumble_bee_chestplate_1"
@@ -213,7 +213,7 @@
 		}
 		{
 			id: "327022E9A286F5E3"
-			x: -0.75d
+			x: 1.6d
 			y: 6.0d
 			icon: {
 				id: "the_bumblezone:essence_of_the_bees"
@@ -235,7 +235,7 @@
 		}
 		{
 			id: "774EC0F3488A630B"
-			x: 4.5d
+			x: 15.04d
 			y: 2.0d
 			icon: {
 				id: "deeperdarker:reinforced_echo_shard"
@@ -258,7 +258,7 @@
 		}
 		{
 			id: "07ACEBF0D34DBEB0"
-			x: 4.5d
+			x: 9.64d
 			y: 4.0d
 			icon: {
 				id: "deeperdarker:resonarium"
@@ -281,7 +281,7 @@
 		}
 		{
 			id: "7C11137082F10408"
-			x: 0.75d
+			x: 4.6d
 			y: 6.0d
 			shape: "hexagon"
 			icon: {
@@ -305,7 +305,7 @@
 		}
 		{
 			id: "3CC5C3F80E21EBE7"
-			x: 3.0d
+			x: -2.36d
 			y: 2.0d
 			icon: {
 				id: "minecraft:shulker_shell"
@@ -329,7 +329,7 @@
 		}
 		{
 			id: "1CC4A7924CB673E5"
-			x: 3.0d
+			x: -2.36d
 			y: 4.0d
 			icon: {
 				id: "minecraft:elytra"
@@ -351,7 +351,7 @@
 		}
 		{
 			id: "2B5661B8607D6510"
-			x: 0.0d
+			x: -2.39d
 			y: 8.0d
 			shape: "hexagon"
 			icon: {
@@ -378,6 +378,1102 @@
 					id: "0B9917596CF14A81"
 					type: "xp_levels"
 					xp_levels: 10
+				}
+			]
+		}
+		{
+			id: "7D271C2FF4C867C2"
+			x: 11.85d
+			y: 6.0d
+			icon: {
+				id: "deeperdarker:resonarium_pickaxe"
+				count: 1
+			}
+			dependencies: [
+				"07ACEBF0D34DBEB0"
+			]
+			tasks: [
+				{
+					id: "4A85BC8CC790D78C"
+					type: "item"
+					item: {
+						count: 1
+						id: "deeperdarker:resonarium_pickaxe"
+					}
+				}
+				{
+					id: "534DC78573117DEC"
+					type: "item"
+					item: {
+						count: 1
+						id: "deeperdarker:resonarium_chestplate"
+					}
+				}
+			]
+		}
+		{
+			id: "0D4208DC68530A5A"
+			x: 12.2d
+			y: 8.0d
+			icon: {
+				id: "deeperdarker:resonarium_upgrade_smithing_template"
+				count: 1
+			}
+			dependencies: [
+				"7D271C2FF4C867C2"
+			]
+			tasks: [
+				{
+					id: "7097389F68AB4A0C"
+					type: "item"
+					item: {
+						count: 1
+						id: "deeperdarker:resonarium_upgrade_smithing_template"
+					}
+				}
+			]
+		}
+		{
+			id: "500D4950043C4586"
+			x: 10.2d
+			y: 8.0d
+			icon: {
+				id: "deeperdarker:warden_sword"
+				count: 1
+			}
+			dependencies: [
+				"7C11137082F10408"
+			]
+			tasks: [
+				{
+					id: "17079E088B5D8520"
+					type: "item"
+					item: {
+						count: 1
+						id: "deeperdarker:warden_sword"
+					}
+				}
+				{
+					id: "771A06D2207F95BB"
+					type: "item"
+					item: {
+						count: 1
+						id: "deeperdarker:warden_upgrade_smithing_template"
+					}
+				}
+			]
+		}
+		{
+			id: "67021C135A59EC73"
+			x: 10.2d
+			y: 10.0d
+			icon: {
+				id: "deeperdarker:sonorous_staff"
+				count: 1
+			}
+			dependencies: [
+				"500D4950043C4586"
+			]
+			tasks: [
+				{
+					id: "415F8BF45B39A7F5"
+					type: "item"
+					item: {
+						count: 1
+						id: "deeperdarker:sonorous_staff"
+					}
+				}
+			]
+		}
+		{
+			id: "312CFD36E76EC989"
+			x: 14.14d
+			y: 4.0d
+			icon: {
+				id: "deeperdarker:sculk_transmitter"
+				count: 1
+			}
+			dependencies: [
+				"774EC0F3488A630B"
+			]
+			tasks: [
+				{
+					id: "0A96A128B2D563D0"
+					type: "item"
+					item: {
+						count: 1
+						id: "deeperdarker:sculk_transmitter"
+					}
+				}
+			]
+		}
+		{
+			id: "5C141B55725CB178"
+			x: 15.64d
+			y: 4.0d
+			icon: {
+				id: "deeperdarker:ancient_compass"
+				count: 1
+			}
+			dependencies: [
+				"774EC0F3488A630B"
+			]
+			tasks: [
+				{
+					id: "0413B69E2C865662"
+					type: "item"
+					item: {
+						count: 1
+						id: "deeperdarker:ancient_compass"
+					}
+				}
+			]
+		}
+		{
+			id: "0B48A46C1E7A32FA"
+			x: 17.14d
+			y: 4.0d
+			icon: {
+				id: "deeperdarker:soul_crystal"
+				count: 1
+			}
+			dependencies: [
+				"774EC0F3488A630B"
+			]
+			tasks: [
+				{
+					id: "1CAC9F56BB2F93BD"
+					type: "item"
+					item: {
+						count: 1
+						id: "deeperdarker:soul_crystal"
+					}
+				}
+				{
+					id: "4D98B1D8727845D9"
+					type: "item"
+					item: {
+						count: 1
+						id: "deeperdarker:soul_dust"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "580E29919278F743"
+			x: 18.64d
+			y: 4.0d
+			icon: {
+				id: "deeperdarker:bloom_berries"
+				count: 1
+			}
+			dependencies: [
+				"774EC0F3488A630B"
+			]
+			tasks: [
+				{
+					id: "6FE0039146384F21"
+					type: "item"
+					item: {
+						count: 1
+						id: "deeperdarker:bloom_berries"
+					}
+					count: 4L
+				}
+				{
+					id: "5BD7AFA0B7DF89A8"
+					type: "item"
+					item: {
+						count: 1
+						id: "deeperdarker:angler_fish"
+					}
+				}
+			]
+		}
+		{
+			id: "31E81219F633425A"
+			x: -3.86d
+			y: 4.0d
+			icon: {
+				id: "undergarden:catalyst"
+				count: 1
+			}
+			dependencies: [
+				"41B2832A942564A8"
+			]
+			tasks: [
+				{
+					id: "750B04817CC9CACB"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:catalyst"
+					}
+				}
+			]
+		}
+		{
+			id: "583EE100ADC8B393"
+			x: 0.64d
+			y: 4.0d
+			icon: {
+				id: "undergarden:froststeel_ingot"
+				count: 1
+			}
+			dependencies: [
+				"41B2832A942564A8"
+			]
+			tasks: [
+				{
+					id: "64E3D0E2B131BE4E"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:froststeel_ingot"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "316C37054789703A"
+			x: -5.9d
+			y: 6.0d
+			icon: {
+				id: "undergarden:regalium_crystal"
+				count: 1
+			}
+			dependencies: [
+				"4A7C65037569EC58"
+			]
+			tasks: [
+				{
+					id: "6F4223C8B5D4C407"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:regalium_crystal"
+					}
+				}
+			]
+		}
+		{
+			id: "26334D45F454D09D"
+			x: 3.64d
+			y: 4.0d
+			icon: {
+				id: "undergarden:cloggrum_sword"
+				count: 1
+			}
+			dependencies: [
+				"41B2832A942564A8"
+			]
+			tasks: [
+				{
+					id: "2EC583483901AEE1"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:cloggrum_sword"
+					}
+				}
+				{
+					id: "718B7184A63CB770"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:cloggrum_chestplate"
+					}
+				}
+				{
+					id: "69423960A5EE38AE"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:cloggrum_shield"
+					}
+				}
+			]
+		}
+		{
+			id: "478698D5DF8C101C"
+			x: 0.1d
+			y: 6.0d
+			icon: {
+				id: "undergarden:froststeel_sword"
+				count: 1
+			}
+			dependencies: [
+				"583EE100ADC8B393"
+			]
+			tasks: [
+				{
+					id: "242B52319D6A18AF"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:froststeel_sword"
+					}
+				}
+				{
+					id: "692C94A7567F9EAE"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:froststeel_chestplate"
+					}
+				}
+			]
+		}
+		{
+			id: "7D905A495BB2D01D"
+			x: -4.4d
+			y: 6.0d
+			icon: {
+				id: "undergarden:utherium_sword"
+				count: 1
+			}
+			dependencies: [
+				"4A7C65037569EC58"
+			]
+			tasks: [
+				{
+					id: "747CDEBC14AFB4CA"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:utherium_sword"
+					}
+				}
+				{
+					id: "076565017B48BE94"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:utherium_chestplate"
+					}
+				}
+			]
+		}
+		{
+			id: "3AF841AAF10571AA"
+			x: 3.1d
+			y: 6.0d
+			icon: {
+				id: "undergarden:cloggrum_battleaxe"
+				count: 1
+			}
+			dependencies: [
+				"26334D45F454D09D"
+			]
+			tasks: [
+				{
+					id: "66C9A769500FCB21"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:cloggrum_battleaxe"
+					}
+				}
+				{
+					id: "554DF781A3DCC93A"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:slingshot"
+					}
+				}
+				{
+					id: "793170B60135FEEF"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:spear"
+					}
+				}
+			]
+		}
+		{
+			id: "1FC0FE8964E3E849"
+			x: 4.62d
+			y: 0.0d
+			icon: {
+				id: "undergarden:forgotten_ingot"
+				count: 1
+			}
+			dependencies: [
+				"2255F1DB63D8BF05"
+			]
+			tasks: [
+				{
+					id: "2C36C97ED4D685BE"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:forgotten_ingot"
+					}
+					count: 2L
+				}
+				{
+					id: "777B20A84C6D9B57"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:forgotten_battleaxe"
+					}
+				}
+			]
+		}
+		{
+			id: "69C70031BD0D60A2"
+			x: 5.08d
+			y: 2.0d
+			icon: {
+				id: "undergarden:forgotten_upgrade_smithing_template"
+				count: 1
+			}
+			dependencies: [
+				"1FC0FE8964E3E849"
+			]
+			tasks: [
+				{
+					id: "159CEA5718715870"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:forgotten_upgrade_smithing_template"
+					}
+				}
+			]
+		}
+		{
+			id: "13B2350CBCBE6529"
+			x: 2.14d
+			y: 4.0d
+			icon: {
+				id: "undergarden:denizen_mask"
+				count: 1
+			}
+			dependencies: [
+				"41B2832A942564A8"
+			]
+			tasks: [
+				{
+					id: "76A2DCCBF5DAE9CC"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:denizen_mask"
+					}
+				}
+			]
+		}
+		{
+			id: "735B95E26DB6F8D7"
+			x: -2.9d
+			y: 6.0d
+			icon: {
+				id: "undergarden:infuser"
+				count: 1
+			}
+			dependencies: [
+				"4A7C65037569EC58"
+			]
+			tasks: [
+				{
+					id: "6B9303FE8E3E75D6"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:infuser"
+					}
+				}
+			]
+		}
+		{
+			id: "7B02047E027D81C4"
+			x: -1.4d
+			y: 6.0d
+			icon: {
+				id: "undergarden:underbeans"
+				count: 1
+			}
+			dependencies: [
+				"557D7ED45056F22C"
+			]
+			tasks: [
+				{
+					id: "25962D48BCC829EF"
+					type: "item"
+					item: {
+						count: 1
+						id: "undergarden:underbeans"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "1F04B128DF9BFD60"
+			x: -18.64d
+			y: 4.0d
+			icon: {
+				id: "deep_aether:skyjade_pickaxe"
+				count: 1
+			}
+			dependencies: [
+				"330A2A98C519162A"
+			]
+			tasks: [
+				{
+					id: "4F01B1E62605A433"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:skyjade_pickaxe"
+					}
+				}
+				{
+					id: "072CC246AC368D29"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:skyjade_chestplate"
+					}
+				}
+			]
+		}
+		{
+			id: "4B8E0F8296730F29"
+			x: -10.4d
+			y: 6.0d
+			icon: {
+				id: "deep_aether:stratus_ingot"
+				count: 1
+			}
+			dependencies: [
+				"266F8321887A4C29"
+			]
+			tasks: [
+				{
+					id: "470078654EE5E657"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:stratus_ingot"
+					}
+					count: 4L
+				}
+				{
+					id: "7894B2A0CAE8BCCC"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:stratus_smithing_template"
+					}
+				}
+			]
+		}
+		{
+			id: "054569452A60213A"
+			x: -10.05d
+			y: 8.0d
+			icon: {
+				id: "deep_aether:stormforged_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"4B8E0F8296730F29"
+			]
+			tasks: [
+				{
+					id: "2EEE7D7281AF3363"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:stormforged_chestplate"
+					}
+				}
+				{
+					id: "3DAD752BA1A6E06B"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:stormforged_smithing_template"
+					}
+				}
+			]
+		}
+		{
+			id: "255E7D28172A3B3D"
+			x: -10.8d
+			y: 10.0d
+			icon: {
+				id: "deep_aether:storm_sword"
+				count: 1
+			}
+			dependencies: [
+				"054569452A60213A"
+			]
+			tasks: [
+				{
+					id: "6BD4ADF59394A2A0"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:storm_sword"
+					}
+				}
+				{
+					id: "140A1680B9A53AD2"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:storm_bow"
+					}
+				}
+			]
+		}
+		{
+			id: "396F66F4C84108A1"
+			x: -9.3d
+			y: 10.0d
+			icon: {
+				id: "deep_aether:wind_shield"
+				count: 1
+			}
+			dependencies: [
+				"054569452A60213A"
+			]
+			tasks: [
+				{
+					id: "48256D5C8ED3F886"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:wind_shield"
+					}
+				}
+			]
+		}
+		{
+			id: "0866681386CFDC88"
+			x: -17.14d
+			y: 4.0d
+			icon: {
+				id: "deep_aether:combiner"
+				count: 1
+			}
+			dependencies: [
+				"330A2A98C519162A"
+			]
+			tasks: [
+				{
+					id: "636D52ADEA30FCC9"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:combiner"
+					}
+				}
+			]
+		}
+		{
+			id: "4F39CC310DEC6D76"
+			x: -8.9d
+			y: 6.0d
+			icon: {
+				id: "deep_aether:moa_fodder"
+				count: 1
+			}
+			dependencies: [
+				"2F5CB4C9BE71E92E"
+			]
+			tasks: [
+				{
+					id: "521AED848920BE6B"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:moa_fodder"
+					}
+					count: 4L
+				}
+				{
+					id: "276FC1BD0F38DBC5"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:skyjade_moa_armor"
+					}
+				}
+			]
+		}
+		{
+			id: "76370D7F2DE5F8B9"
+			x: -15.64d
+			y: 4.0d
+			icon: {
+				id: "deep_aether:golden_swet_ball"
+				count: 1
+			}
+			dependencies: [
+				"330A2A98C519162A"
+			]
+			tasks: [
+				{
+					id: "1C59D40CB2195147"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:golden_swet_ball"
+					}
+				}
+			]
+		}
+		{
+			id: "4E826B896E597637"
+			x: 2.53d
+			y: 0.0d
+			icon: {
+				id: "deep_aether:sun_core"
+				count: 1
+			}
+			dependencies: [
+				"6493D15E22B26AAA"
+			]
+			tasks: [
+				{
+					id: "4A835BF985F5002C"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:sun_core"
+					}
+				}
+			]
+		}
+		{
+			id: "18471BEBE704341F"
+			x: -14.14d
+			y: 4.0d
+			icon: {
+				id: "deep_aether:cloud_cape"
+				count: 1
+			}
+			dependencies: [
+				"330A2A98C519162A"
+			]
+			tasks: [
+				{
+					id: "08E12C489E6137D1"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:cloud_cape"
+					}
+				}
+				{
+					id: "4ED4FC1D52220E0A"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:floaty_scarf"
+					}
+				}
+				{
+					id: "340BED05831A98B9"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:aercloud_necklace"
+					}
+				}
+			]
+		}
+		{
+			id: "0DA7EC2C6DE3901B"
+			x: -12.64d
+			y: 4.0d
+			icon: {
+				id: "deep_aether:antidote"
+				count: 1
+			}
+			dependencies: [
+				"330A2A98C519162A"
+			]
+			tasks: [
+				{
+					id: "407406BB6D972D16"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:antidote"
+					}
+				}
+			]
+		}
+		{
+			id: "2A1596E7F3D5A15B"
+			x: 6.12d
+			y: 0.0d
+			icon: {
+				id: "deep_aether:magnetic_staff"
+				count: 1
+			}
+			dependencies: [
+				"6493D15E22B26AAA"
+			]
+			tasks: [
+				{
+					id: "46BFDC4394F521A2"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:magnetic_staff"
+					}
+				}
+				{
+					id: "626E212974F6A5E5"
+					type: "item"
+					item: {
+						count: 1
+						id: "deep_aether:blade_of_luck"
+					}
+				}
+			]
+		}
+		{
+			id: "36A8BF54B00928D9"
+			x: 6.1d
+			y: 6.0d
+			icon: {
+				id: "the_bumblezone:honey_bee_leggings_1"
+				count: 1
+			}
+			dependencies: [
+				"538CE3778B5E486F"
+			]
+			tasks: [
+				{
+					id: "3571D97DB97AA287"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:honey_bee_leggings_1"
+					}
+				}
+				{
+					id: "5108B8E0E72D0D13"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:stingless_bee_helmet_1"
+					}
+				}
+				{
+					id: "3200B8CBAC9E9620"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:carpenter_bee_boots_1"
+					}
+				}
+			]
+		}
+		{
+			id: "6679D5C5E39BB680"
+			x: 6.64d
+			y: 4.0d
+			icon: {
+				id: "the_bumblezone:bee_stinger"
+				count: 1
+			}
+			dependencies: [
+				"1AD3AAF02A0AEC65"
+			]
+			tasks: [
+				{
+					id: "4D416E213B22E9C5"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:bee_stinger"
+					}
+					count: 4L
+				}
+				{
+					id: "47F0A1D40C8F9964"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:stinger_spear"
+					}
+				}
+			]
+		}
+		{
+			id: "6873EAD378560DB9"
+			x: 3.2d
+			y: 8.0d
+			icon: {
+				id: "the_bumblezone:bee_cannon"
+				count: 1
+			}
+			dependencies: [
+				"327022E9A286F5E3"
+			]
+			tasks: [
+				{
+					id: "03229B6B79DCA813"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:bee_cannon"
+					}
+				}
+				{
+					id: "7908B80643382670"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:crystal_cannon"
+					}
+				}
+			]
+		}
+		{
+			id: "7DAE94084160C8C9"
+			x: 7.62d
+			y: 0.0d
+			icon: {
+				id: "the_bumblezone:honey_crystal_shield"
+				count: 1
+			}
+			dependencies: [
+				"1079865D0DAE982A"
+			]
+			tasks: [
+				{
+					id: "0CAC8E130EBD002A"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:honey_crystal_shield"
+					}
+				}
+			]
+		}
+		{
+			id: "4F70D4837F63BA90"
+			x: 8.14d
+			y: 4.0d
+			icon: {
+				id: "the_bumblezone:honey_compass"
+				count: 1
+			}
+			dependencies: [
+				"1AD3AAF02A0AEC65"
+			]
+			tasks: [
+				{
+					id: "0CA798DE68E4BC88"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:honey_compass"
+					}
+				}
+				{
+					id: "513F42A7AA21B8CC"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:buzzing_briefcase"
+					}
+				}
+			]
+		}
+		{
+			id: "6768FC336986568C"
+			x: 4.7d
+			y: 8.0d
+			icon: {
+				id: "the_bumblezone:essence_raging"
+				count: 1
+			}
+			dependencies: [
+				"327022E9A286F5E3"
+			]
+			tasks: [
+				{
+					id: "1EEF8F1C67F2C96B"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:essence_raging"
+					}
+				}
+			]
+		}
+		{
+			id: "1909EDCA8193ADBF"
+			x: 11.14d
+			y: 4.0d
+			icon: {
+				id: "the_bumblezone:bee_bread"
+				count: 1
+			}
+			dependencies: [
+				"1AD3AAF02A0AEC65"
+			]
+			tasks: [
+				{
+					id: "6F52E3FD812F44C3"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:bee_bread"
+					}
+				}
+				{
+					id: "5DC2A85E1239687E"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:pollen_puff"
+					}
+				}
+			]
+		}
+		{
+			id: "6F0AF5E5E2D6BA06"
+			x: 12.64d
+			y: 4.0d
+			icon: {
+				id: "the_bumblezone:super_candle"
+				count: 1
+			}
+			dependencies: [
+				"1AD3AAF02A0AEC65"
+			]
+			tasks: [
+				{
+					id: "399810FE8F687CA7"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:super_candle"
+					}
+				}
+				{
+					id: "46A101FBEBEAA174"
+					type: "item"
+					item: {
+						count: 1
+						id: "the_bumblezone:potion_candle"
+					}
 				}
 			]
 		}

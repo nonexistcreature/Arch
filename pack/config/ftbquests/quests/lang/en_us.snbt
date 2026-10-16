@@ -1564,6 +1564,89 @@
 	quest.035FE318376C81BB.quest_desc: [
 		"Friends & Foes: the copper golem presses copper buttons — a little helper for contraptions. Build it from a copper block and a pumpkin."
 	]
+	quest.0D6D8AAEE74E71B7.title: "Gear from the Wild"
+	quest.0D6D8AAEE74E71B7.quest_desc: [
+		"&lWhy:&r Alex's Mobs drops make armor with special traits and odd tools. Read the Animal Dictionary."
+	]
+	quest.55BEE762CF07FF78.title: "Special Boots"
+	quest.55BEE762CF07FF78.quest_desc: [
+		"+0.1 Speed on Sand"
+	]
+	quest.28C67348A25364B1.title: "Special Leggings"
+	quest.28C67348A25364B1.quest_desc: [
+		"Enables Wall Climbing"
+	]
+	quest.653C1DCB064C345B.title: "Special Chestplates"
+	quest.653C1DCB064C345B.quest_desc: [
+		"Craft a crocodile chestplate from many crocodile scutes"
+		"Enables rolling by sprinting"
+	]
+	quest.171C56F4FBBE92B2.title: "Special Helmets"
+	quest.171C56F4FBBE92B2.quest_desc: [
+		"Froststalkers follow the horn"
+	]
+	quest.6861894CB75A8031.title: "Tarantula Hawk Elytra"
+	quest.6861894CB75A8031.quest_desc: [
+		"&lWhy:&r Elytra before the End."
+		"Tame a Tarantula Hawk by feeding it Spider Eyes."
+	]
+	quest.4AECFAFC9B1148D5.title: "Falconry Glove"
+	quest.4AECFAFC9B1148D5.quest_desc: [
+		"&lWhy:&r A tamed bird perches on your arm."
+	]
+	quest.797E5B0A60C15E0F.title: "Vine Lasso and Squid Grapple"
+	quest.797E5B0A60C15E0F.quest_desc: [
+		"&lWhy:&r The lasso leads mobs; the squid grapple pulls you along."
+		"Detach tentacles by Sneaking"
+		"Craft a Grappling Squok from Lost Tentacles, a crossbow and copper ingots."
+	]
+	quest.7D40DFC646276413.title: "Shield Of The Deep"
+	quest.7D40DFC646276413.quest_desc: [
+		"&lWhy:&r A special shield from sea drops; see its tooltip."
+	]
+	quest.1F0A7B6B21996139.title: "Strange Weapons"
+	quest.1F0A7B6B21996139.quest_desc: [
+		"Craft a Blood Sprayer from the drops of a Crimson Mosquito"
+		"Craft a Hemolyph Blaster, the ultimate upgrade to the Blood Sprayer."
+	]
+	quest.7AFEEA0067DC68F8.title: "Dimensional Carver"
+	quest.7AFEEA0067DC68F8.quest_desc: [
+		"Using the drops of the Void Worm, create the Dimensional Carver, which allows you to dig through the fabric of reality to return home at any given point."
+	]
+	quest.6855C00183605AAD.title: "Ghostly Pickaxe"
+	quest.6855C00183605AAD.quest_desc: [
+		"Obtain a Ghostly Pickaxe from an Underminer."
+	]
+	quest.75DEB8C8C9337329.title: "Locators"
+	quest.75DEB8C8C9337329.quest_desc: [
+		"Craft an Echolocator, which can reveal nearby caves"
+		"Craft an Endolocator, which can reveal nearby End Portal Frames"
+	]
+	quest.089383F2A7BCF640.title: "Straddleboard"
+	quest.089383F2A7BCF640.quest_desc: [
+		"&lWhy:&r Ride across Nether lava seas."
+		"Craft a Straddleboard from some Netherite and Straddlerite."
+	]
+	quest.6489A6FFEB4DDD2C.title: "Tendon Whip and Pocket Sand"
+	quest.6489A6FFEB4DDD2C.quest_desc: [
+		"Craft a Pocket Of Sand. Sha-sha!"
+	]
+	quest.3F40D547EE813565.title: "Mosquito Repellent Stew"
+	quest.3F40D547EE813565.quest_desc: [
+		"&lWhy:&r Protects from mosquitoes; see the Animal Dictionary."
+	]
+	quest.0D9D38C426CBC93E.title: "Transmutation Table"
+	quest.0D9D38C426CBC93E.quest_desc: [
+		"Craft a Transmutation Table to convert materials into almost anything."
+	]
+	quest.4CBDCCA78A1D3A48.title: "Skelewag Skull"
+	quest.4CBDCCA78A1D3A48.quest_desc: [
+		"Take a sword-like skull from a Skelewag."
+	]
+	quest.0DAC3AF64FFE2CD1.title: "Rocket and Arrows"
+	quest.0DAC3AF64FFE2CD1.quest_desc: [
+		"Craft an Enderiophage Rocket, which can be used in place of Firework Rockets when in the End."
+	]
 	quest.3CB255952686B6BA.title: "Productive Bees"
 	quest.3CB255952686B6BA.quest_desc: [
 		"Productive Bees builds on top of vanilla bees. Some understanding of the vanilla system is assumed in this guide."
@@ -1785,6 +1868,18 @@
 	quest.6AC6020BC3187145.quest_subtitle: "A living world"
 	quest.6AC6020BC3187145.quest_desc: [
 		"You know who lives around you and what they're good for. Suggest a nature reserve: it's one of the Great Works."
+	]
+	quest.2C8DAF8FC6E1462D.title: "Totem of Freezing"
+	quest.2C8DAF8FC6E1462D.quest_desc: [
+		"&lWhy:&r Another Friends & Foes totem; see its tooltip. Dropped by the Iceologer."
+	]
+	quest.7E7E097C5D8D814B.title: "Wildfire Crown Fragments"
+	quest.7E7E097C5D8D814B.quest_desc: [
+		"&lWhy:&r Dropped by the Wildfire; craft the crown from them."
+	]
+	quest.139C2AEA0AE4A415.title: "Barnacle Tooth"
+	quest.139C2AEA0AE4A415.quest_desc: [
+		"&lWhy:&r A drop from Friends & Foes sea creatures; see JEI."
 	]
 	chapter.57DD3485DB076FB1.title: "Fishing"
 	chapter.57DD3485DB076FB1.chapter_subtitle: [
@@ -6555,6 +6650,171 @@
 	quest.1079865D0DAE982A.quest_desc: [
 		"Honey crystals grow in the Bumblezone — for decor and potions."
 	]
+	quest.6B6774EA3A5B6C23.title: "Dark Metal"
+	quest.6B6774EA3A5B6C23.quest_desc: [
+		"&lWhy:&r The base of Born in Chaos gear; see JEI for where it comes from."
+	]
+	quest.745CFE194591D2A6.title: "Dark Metal Armor"
+	quest.745CFE194591D2A6.quest_desc: [
+		"&lWhy:&r Full set bonus:"
+		"-You go into a rampage when your health is low"
+		"-Wither resistance"
+	]
+	quest.13845EACBA0F610E.title: "Nightmare Mantle"
+	quest.13845EACBA0F610E.quest_desc: [
+		"-You move faster in the dark"
+		"-Increases the effectiveness of dark magic weapons and items"
+	]
+	quest.057FC3818139D36A.title: "Spiny Shell Armor"
+	quest.057FC3818139D36A.quest_desc: [
+		"Can be obtained with a certain chance if you give a Thornshell Crab rotten flesh or rotten fish"
+	]
+	quest.460F56DC14D245C6.title: "Weapons of Darkness"
+	quest.460F56DC14D245C6.quest_desc: [
+		"-The attacks have a devastating effect"
+	]
+	quest.354E68E7CEAD4E9A.title: "Nightmare Scythe"
+	quest.354E68E7CEAD4E9A.quest_desc: [
+		"-Attacks heal you, wither the attacked target and prevent them from using some magical abilities"
+	]
+	quest.1937A626C543B72C.title: "Skullbreaker Hammer"
+	quest.1937A626C543B72C.quest_desc: [
+		"-Jumping attacks stun the enemy"
+	]
+	quest.173CDD2941A60776.title: "Intoxicating Dagger"
+	quest.173CDD2941A60776.quest_desc: [
+		"-Attacks inflict intoxication on the enemy"
+	]
+	quest.30A6A39195DC8EAE.title: "Staves of Chaos"
+	quest.30A6A39195DC8EAE.quest_desc: [
+		"&lWhy:&r Magic arrows and bone servants; see the tooltips."
+	]
+	quest.1F7DD0577AD53CF1.title: "Pumpkin Pistol"
+	quest.1F7DD0577AD53CF1.quest_desc: [
+		"&lWhy:&r Fires pumpkin bullets; a Pumpkinhead trophy."
+	]
+	quest.58E8382834AF7058.title: "Death Totem"
+	quest.58E8382834AF7058.quest_desc: [
+		"While in hand:"
+	]
+	quest.795DAE0D5518C965.title: "Charms"
+	quest.795DAE0D5518C965.quest_desc: [
+		"Requires Ethereal Spirit to use"
+	]
+	quest.73B6E49C2F05CFCE.title: "Dark Elixirs"
+	quest.73B6E49C2F05CFCE.quest_desc: [
+		"Vampiric Touch (6:00)"
+	]
+	quest.25981DF9F801F60A.title: "Evilometer"
+	quest.25981DF9F801F60A.quest_desc: [
+		"-When used, displays your number of naughtiness points"
+	]
+	quest.6CDA3DE56D6D22C0.title: "Phantom Bomb"
+	quest.6CDA3DE56D6D22C0.quest_desc: [
+		"&lWhy:&r A thrown bomb. Wilds only."
+	]
+	quest.03CFA9F7E4C26104.title: "Seed of Chaos"
+	quest.03CFA9F7E4C26104.quest_desc: [
+		"&lWhy:&r What it grows into: see JEI."
+	]
+	quest.634AC2B841A0E5DC.title: "Lifestealer Bone"
+	quest.634AC2B841A0E5DC.quest_desc: [
+		"&lWhy:&r A trophy from the Lifestealer, used in dark gear."
+	]
+	quest.23FC88A0464D47D3.title: "Krampus Horn"
+	quest.23FC88A0464D47D3.quest_desc: [
+		"&lWhy:&r A trophy from the winter monster Krampus."
+	]
+	quest.0628C3C4A04E0CB5.title: "Wrought Axe"
+	quest.0628C3C4A04E0CB5.quest_desc: [
+		"&lWhy:&r The Ferrous Wroughtnaut's huge axe, a trophy from the boss."
+	]
+	quest.499B8F02B54FA90A.title: "Earthrend Gauntlet"
+	quest.499B8F02B54FA90A.quest_desc: [
+		"Boulder Lift"
+		"Right-click earthen ground to lift a boulder"
+		"Punch boulder to fire it as projectile"
+		"Charge right-click to lift bigger boulders"
+		"Tunnel"
+		"Right-click the air to start tunneling through the ground"
+		"Hold right-click and look in the direction you'd like to dig"
+		"Release right-click to surface and stop tunneling"
+	]
+	quest.636BC78B1F29B3EC.title: "Naga Fang Dagger"
+	quest.636BC78B1F29B3EC.quest_desc: [
+		"Poisons targets"
+		"Deals double damage from behind"
+	]
+	quest.5DDE2E07CC2B36E5.title: "Umvuthana Trophies"
+	quest.5DDE2E07CC2B36E5.quest_desc: [
+		"&lWhy:&r Masks, blowgun and spear from the Umvuthana village."
+		"Grants strength"
+	]
+	quest.1604AE16017B6E95.title: "Sculptor's Staff and Robes"
+	quest.1604AE16017B6E95.quest_desc: [
+		"Spawns three small rocks that fire as projectiles after a delay"
+		"Chance to spawn a geomancy boulder nearby when you deal or take damage"
+	]
+	quest.6A2E8C4B53C52018.title: "Captured Grottol"
+	quest.6A2E8C4B53C52018.quest_desc: [
+		"&lWhy:&r Catch the ore beetle instead of killing it; see JEI."
+	]
+	quest.41B27297A3E9E06C.title: "Luminous Jelly"
+	quest.41B27297A3E9E06C.quest_desc: [
+		"Eat to briefly gain night vision"
+	]
+	quest.05CD7B4D915CF3B8.title: "Bluff Rod and Sand Rake"
+	quest.05CD7B4D915CF3B8.quest_desc: [
+		"Use to repair Geomancy items, or give to the Sculptor to begin his challenge"
+	]
+	quest.31DB326FB427EAC2.title: "Frozen Key"
+	quest.31DB326FB427EAC2.quest_desc: [
+		"Opens a chest hidden in the depths of the Ice Maze."
+	]
+	quest.7F389C05E148AF54.title: "Salvager Suit"
+	quest.7F389C05E148AF54.quest_desc: [
+		"Get a full suit of Salvager Armor"
+	]
+	quest.761D9255657A8819.title: "Abyssal Armor"
+	quest.761D9255657A8819.quest_desc: [
+		"Get a full suit of Abyssal Armor"
+	]
+	quest.7F1D7047630585BB.title: "Terrible Armor"
+	quest.7F1D7047630585BB.quest_desc: [
+		"Get a full suit of Terrible Armor"
+	]
+	quest.352B94244DD5F92F.title: "Upgrade Templates"
+	quest.352B94244DD5F92F.quest_desc: [
+		"Obtain an Abyssal Upgrade Smithing Template"
+	]
+	quest.03D48AC51B2F8940.title: "Blades of the Frozen Sea"
+	quest.03D48AC51B2F8940.quest_desc: [
+		"&lWhy:&r Blades of the frozen sea, each with its own trait."
+	]
+	quest.192CECE48B30554A.title: "Tempest Trident"
+	quest.192CECE48B30554A.quest_desc: [
+		"&lWhy:&r A storm-powered trident."
+	]
+	quest.78233C6FC9D930DF.title: "Storm Relics"
+	quest.78233C6FC9D930DF.quest_desc: [
+		"A fragment of a place that was never meant to be found."
+	]
+	quest.6F96074A6B6DD6A1.title: "Shell Horn and Echo Compass"
+	quest.6F96074A6B6DD6A1.quest_desc: [
+		"[color=light_purple]Summons Captain Cornelia.[/color] [/br][/br] Can be used near water in the Ice Maze."
+	]
+	quest.2382F1C343806966.title: "Gifts of the Deep"
+	quest.2382F1C343806966.quest_desc: [
+		"&lWhy:&r Drops from frozen-sea creatures for food and gear."
+	]
+	quest.2962811C82E4BCA7.title: "Poseidon Breakfast"
+	quest.2962811C82E4BCA7.quest_desc: [
+		"&lWhy:&r A hearty seafood dish."
+	]
+	quest.0BFD3D0FCA556730.title: "Golden Moth Jar"
+	quest.0BFD3D0FCA556730.quest_desc: [
+		"Some treasures can have their own souls, not only devour others..."
+	]
 	chapter.6C18F64911A2B1CF.title: "Bosses"
 	chapter.6C18F64911A2B1CF.chapter_subtitle: [
 		"Every boss in the pack by difficulty: where, how, and what they drop"
@@ -7156,6 +7416,179 @@
 	quest.2B5661B8607D6510.quest_desc: [
 		"Sky, abyss, hive, silence and void. Put a waystone at every portal: the next traveller will thank you."
 	]
+	quest.7D271C2FF4C867C2.title: "Resonarium Gear"
+	quest.7D271C2FF4C867C2.quest_desc: [
+		"&lWhy:&r A step between diamond and netherite."
+	]
+	quest.0D4208DC68530A5A.title: "Smithing Template"
+	quest.0D4208DC68530A5A.quest_desc: [
+		"&lWhy:&r The smithing template for resonarium gear."
+	]
+	quest.500D4950043C4586.title: "Warden Weapons"
+	quest.500D4950043C4586.quest_desc: [
+		"&lWhy:&r Warden gear: the top of Deeper Darker."
+	]
+	quest.67021C135A59EC73.title: "Sonorous Staff"
+	quest.67021C135A59EC73.quest_desc: [
+		"Acquire a Sonorous Staff"
+	]
+	quest.312CFD36E76EC989.title: "Sculk Transmitter"
+	quest.312CFD36E76EC989.quest_desc: [
+		"Acquire a Sculk Transmitter"
+	]
+	quest.5C141B55725CB178.title: "Ancient Compass"
+	quest.5C141B55725CB178.quest_desc: [
+		"&lWhy:&r Points toward ancient structures."
+	]
+	quest.0B48A46C1E7A32FA.title: "Soul Crystals"
+	quest.0B48A46C1E7A32FA.quest_desc: [
+		"&lWhy:&r Otherside materials; see JEI for uses."
+	]
+	quest.580E29919278F743.title: "Food of the Otherside"
+	quest.580E29919278F743.quest_desc: [
+		"&lWhy:&r Food found in the Otherside."
+	]
+	quest.31E81219F633425A.title: "Catalyst"
+	quest.31E81219F633425A.quest_desc: [
+		"&lWhy:&r Opens the Undergarden portal."
+		"Create the Catalyst."
+	]
+	quest.583EE100ADC8B393.title: "Froststeel Ingot"
+	quest.583EE100ADC8B393.quest_desc: [
+		"&lWhy:&r The Undergarden's second metal."
+	]
+	quest.316C37054789703A.title: "Regalium Crystal"
+	quest.316C37054789703A.quest_desc: [
+		"&lWhy:&r A rare Undergarden crystal; see JEI."
+	]
+	quest.26334D45F454D09D.title: "Cloggrum Gear"
+	quest.26334D45F454D09D.quest_desc: [
+		"&lWhy:&r Undergarden's first tier, tougher than iron."
+	]
+	quest.478698D5DF8C101C.title: "Froststeel Gear"
+	quest.478698D5DF8C101C.quest_desc: [
+		"&lWhy:&r Froststeel slows enemies; see the tooltip."
+	]
+	quest.7D905A495BB2D01D.title: "Utherium Gear"
+	quest.7D905A495BB2D01D.quest_desc: [
+		"&lWhy:&r Utherium is strong against Undergarden creatures; see the tooltip."
+	]
+	quest.3AF841AAF10571AA.title: "Battleaxe, Slingshot and Spear"
+	quest.3AF841AAF10571AA.quest_desc: [
+		"Obtain a Cloggrum Battleaxe from a Forgotten carrying one."
+	]
+	quest.1FC0FE8964E3E849.title: "Forgotten Metal"
+	quest.1FC0FE8964E3E849.quest_desc: [
+		"&lWhy:&r Drops from the Forgotten Guardian: the best Undergarden weapons."
+		"Forge a Forgotten Ingot from a Forgotten Guardian's nuggets."
+	]
+	quest.69C70031BD0D60A2.title: "Smithing Template"
+	quest.69C70031BD0D60A2.quest_desc: [
+		"&lWhy:&r The smithing template for forgotten gear."
+	]
+	quest.13B2350CBCBE6529.title: "Mysterious Mask"
+	quest.13B2350CBCBE6529.quest_desc: [
+		"Obtain a Mysterious Mask from a Denizen."
+	]
+	quest.735B95E26DB6F8D7.title: "Infuser"
+	quest.735B95E26DB6F8D7.quest_desc: [
+		"Create the Infuser."
+	]
+	quest.7B02047E027D81C4.title: "Underbeans"
+	quest.7B02047E027D81C4.quest_desc: [
+		"Find and pick an Underbean Bush."
+	]
+	quest.1F04B128DF9BFD60.title: "Skyjade Gear"
+	quest.1F04B128DF9BFD60.quest_desc: [
+		"&lWhy:&r Early Deep Aether tier before stratus."
+		"One of Aether's mid-tier tools, you can mine stone faster than diamond, but the tool mines slower as the tool is worn down."
+	]
+	quest.4B8E0F8296730F29.title: "Stratus"
+	quest.4B8E0F8296730F29.quest_desc: [
+		"&lWhy:&r Upgrades gravitite gear."
+		"Crafted from Stratus Scrap and Gravitite, giving the ingot a pink color. Can be used to upgrade Gravitite Weapons and Armors."
+	]
+	quest.054569452A60213A.title: "Stormforged"
+	quest.054569452A60213A.quest_desc: [
+		"&lWhy:&r Heavy armor: no knockback, knocks attackers back."
+		"A part of the Stormforged armor set. This heavy armor set negates most of incoming knockback, as well as dealing knockback to the attacker."
+	]
+	quest.255E7D28172A3B3D.title: "Storm Weapons"
+	quest.255E7D28172A3B3D.quest_desc: [
+		"&lWhy:&r Fully charged hits knock enemies far back."
+		"A weapon with a blade made of pure clouds. Deals extra knockback to enemies when attacked with a fully charged attack."
+	]
+	quest.396F66F4C84108A1.title: "Wind Shield"
+	quest.396F66F4C84108A1.quest_desc: [
+		"&lWhy:&r Blocks one hit completely, then needs a minute to recover."
+		"A shield made of pure air, that can entirely block one instance of damage. However be careful, since this shield is very fragile and will need a minute to recover after use."
+	]
+	quest.0866681386CFDC88.title: "Combiner"
+	quest.0866681386CFDC88.quest_desc: [
+		"&lWhy:&r A Deep Aether crafting station; see JEI."
+		"Used to create an assortment of items by combining Golden Amber, Frozen Goldenleaf Berries, and a third item of choice. Can be found in Brass Dungeons, or made for yourself!"
+	]
+	quest.4F39CC310DEC6D76.title: "Moa Fodder and Armor"
+	quest.4F39CC310DEC6D76.quest_desc: [
+		"&lWhy:&r Feed gives moas effects; armor protects them."
+		"A quick feed for Moas! Can provide a Moa with a variety of effects."
+	]
+	quest.76370D7F2DE5F8B9.title: "Golden Swet Ball"
+	quest.76370D7F2DE5F8B9.quest_desc: [
+		"&lWhy:&r Turns Aether Dirt into Golden Grass."
+		"A gooey orb that is combined from Swet Balls and Golden Grass Seeds. Can be used to turn Aether Dirt into Golden Grass."
+	]
+	quest.4E826B896E597637.title: "Sun Core"
+	quest.4E826B896E597637.quest_desc: [
+		"&lWhy:&r Drops only if you beat the Sun Spirit without being hit."
+		"A powerful core of the Sun Spirit dropped when defeating a Sun Spirit without taking a single hit. Maybe you can harness some of its power."
+	]
+	quest.18471BEBE704341F.title: "Cloud Accessories"
+	quest.18471BEBE704341F.quest_desc: [
+		"&lWhy:&r The cloud cape grants a double jump; check the others' tooltips."
+		"A soft cape that allows the wearer to double jump."
+	]
+	quest.0DA7EC2C6DE3901B.title: "Antidote"
+	quest.0DA7EC2C6DE3901B.quest_desc: [
+		"&lWhy:&r 15 s of Remedy; enchant it on an altar for longer."
+		"A useful item that will provide 15 seconds of Remedy upon consumption. They can also enchant these in an altar for a longer lasting effect."
+	]
+	quest.2A1596E7F3D5A15B.title: "Brass Dungeon Trophies"
+	quest.2A1596E7F3D5A15B.quest_desc: [
+		"&lWhy:&r Brass dungeon trophies; see tooltips."
+	]
+	quest.36A8BF54B00928D9.title: "Bee Armor Set"
+	quest.36A8BF54B00928D9.quest_desc: [
+		"Collect pollen on your Honey Bee Leggings by walking or running through flowers!"
+	]
+	quest.6679D5C5E39BB680.title: "Stinger and Spear"
+	quest.6679D5C5E39BB680.quest_desc: [
+		"Paralyze a mob by shooting them non-stop with Bee Stingers from Bows/Crossbows"
+	]
+	quest.6873EAD378560DB9.title: "Bee and Crystal Cannons"
+	quest.6873EAD378560DB9.quest_desc: [
+		"Load and fire a full cannon of bees!"
+	]
+	quest.7DAE94084160C8C9.title: "Honey Crystal Shield"
+	quest.7DAE94084160C8C9.quest_desc: [
+		"Find one of the weaknesses of Honey Crystal Shields other than Axes"
+	]
+	quest.4F70D4837F63BA90.title: "Honey Compass and Buzzing Briefcase"
+	quest.4F70D4837F63BA90.quest_desc: [
+		"Craft or find a tantalizing Honey Compass!"
+	]
+	quest.6768FC336986568C.title: "Hive Essences"
+	quest.6768FC336986568C.quest_desc: [
+		"Defeat the Red Sempiternal Sanctum special event!"
+	]
+	quest.1909EDCA8193ADBF.title: "Bee Bread and Pollen"
+	quest.1909EDCA8193ADBF.quest_desc: [
+		"&lWhy:&r Hive food and materials."
+	]
+	quest.6F0AF5E5E2D6BA06.title: "Hive Candles"
+	quest.6F0AF5E5E2D6BA06.quest_desc: [
+		"Make a Super Candle or Potion Candle have a blue flame! Might have something to do with souls..."
+	]
 	chapter.1D555EC874F7223F.title: "The Aether"
 	chapter.1D555EC874F7223F.chapter_subtitle: [
 		"Sky islands, three dungeons, Valkyries and the Sun Spirit"
@@ -7644,6 +8077,34 @@
 	quest.56E88A8B20052C07.quest_subtitle: "Sword, gun, cannon, hook"
 	quest.56E88A8B20052C07.quest_desc: [
 		"You're ready for anything. Remember the calm zones: home is peaceful; adventure is where you go looking for it."
+	]
+	quest.0DFD11427ADB3043.title: "The Simply Swords Arsenal"
+	quest.0DFD11427ADB3043.quest_desc: [
+		"&lWhy:&r 15 weapon types with their own speed, reach and damage. Materials raise damage; the type sets your style."
+	]
+	quest.2CD0F70084FAD061.title: "Light Blades"
+	quest.2CD0F70084FAD061.quest_desc: [
+		"&lWhy:&r Fast strikes: good against swarms."
+	]
+	quest.640D6BBFC30A0C58.title: "Heavy Weapons"
+	quest.640D6BBFC30A0C58.quest_desc: [
+		"&lWhy:&r Slow, heavy sweeping blows for big foes."
+	]
+	quest.2CA7EAF26E8A609A.title: "Long Reach"
+	quest.2CA7EAF26E8A609A.quest_desc: [
+		"&lWhy:&r Hit from a step further away."
+	]
+	quest.5D113F932AE72CE7.title: "Exotic Weapons"
+	quest.5D113F932AE72CE7.quest_desc: [
+		"&lWhy:&r An unusual fighting style — try it."
+	]
+	quest.36FE350F7435AE3B.title: "Runic Weapons"
+	quest.36FE350F7435AE3B.quest_desc: [
+		"&lWhy:&r Runic weapons carry a random rune power; see JEI."
+	]
+	quest.6559C760FD28D667.title: "Power Gems"
+	quest.6559C760FD28D667.quest_desc: [
+		"&lWhy:&r Socket gems into weapons for extra power; see the tooltip."
 	]
 	quest.2697B082A65472D4.title: "Hook Motor"
 	quest.2697B082A65472D4.quest_desc: [

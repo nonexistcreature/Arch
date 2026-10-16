@@ -37,3 +37,38 @@ waystones: [waystone, warp_stone, warp_scroll, return_scroll, bound_scroll, whit
 aeronautics: [propeller_bearing, adjustable_burner, aviators_goggles, levitite, smart_propeller, gyroscopic_propeller_bearing,
   mounted_potato_cannon, white_envelope]
 offroad: [wheel_mount, tire, large_tire, monstrous_tire, borehead_bearing]
+# --- combat and adventure
+simplyswords: [iron_longsword, iron_katana, iron_twinblade, iron_greathammer, iron_glaive, iron_scythe, iron_spear,
+  iron_rapier, iron_cutlass, iron_claymore, iron_chakram, iron_halberd, iron_warglaive, iron_sai, iron_greataxe,
+  diamond_longsword, netherite_longsword, runic_longsword, runefused_gem, netherfused_gem]
+born_in_chaos_v1: [dark_metal_ingot, dark_metal_armor_chestplate, nightmare_mantleofthe_night_chestplate,
+  spiny_shell_armor_chestplate, soulbane, darkwarblade, great_reaper_axe, nightmare_scythe, skullbreaker_hammer,
+  staff_of_magic_arrows, bonescaller_staff, pumpkinhandgun, death_totem, charmof_power, elixir_of_vampirism,
+  potion_of_rampage, intoxicating_dagger, evilometer, phantom_bomb, seedof_chaos, lifestealer_bone, krampus_horn]
+alexsmobs: [animal_dictionary, crocodile_chestplate, rocky_chestplate, froststalker_helmet, tarantula_hawk_elytra,
+  roadrunner_boots, centipede_leggings, emu_leggings, moose_headgear, flying_fish_boots, falconry_glove, vine_lasso,
+  squid_grapple, shield_of_the_deep, blood_sprayer, hemolymph_blaster, stink_ray, dimensional_carver, ghostly_pickaxe,
+  echolocator, endolocator, straddleboard, tendon_whip, pocket_sand, mosquito_repellent_stew, transmutation_table,
+  skelewag_sword, enderiophage_rocket, shark_tooth_arrow]
+mowziesmobs: [wrought_axe, wrought_helmet, sol_visage, earthrend_gauntlet, naga_fang_dagger, ice_crystal, blowgun, spear,
+  sculptor_staff, geomancer_robe, umvuthana_mask_fury, captured_grottol, glowing_jelly, bluff_rod, sand_rake]
+aquamirae: [abyssal_brigandine, terrible_chestplate, salvager_suit, terrible_blade, remnant_saber, dagger_of_greed,
+  frozen_key, maelstrom_vestige, abyssal_amethyst, dead_sea_scroll, shell_horn, poseidon_breakfast, angler_fang, esca,
+  fin, rune_of_the_storm, golden_moth_jar, abyssal_upgrade_smithing_template, terrible_upgrade_smithing_template,
+  tempest_trident, echo_compass]
+deeperdarker: [reinforced_echo_shard, resonarium, warden_carapace, heart_of_the_deep, soul_elytra, resonarium_pickaxe,
+  resonarium_chestplate, warden_sword, warden_chestplate, warden_upgrade_smithing_template,
+  resonarium_upgrade_smithing_template, sonorous_staff, sculk_transmitter, ancient_compass, soul_crystal, soul_dust,
+  bloom_berries, angler_fish]
+undergarden: [catalyst, cloggrum_ingot, froststeel_ingot, utherium_crystal, regalium_crystal, forgotten_ingot,
+  cloggrum_sword, cloggrum_chestplate, froststeel_sword, froststeel_chestplate, utherium_sword, utherium_chestplate,
+  forgotten_sword, cloggrum_battleaxe, forgotten_battleaxe, cloggrum_shield, slingshot, spear, denizen_mask, gloomgourd,
+  underbeans, infuser, forgotten_upgrade_smithing_template]
+deep_aether: [skyjade, skyjade_chestplate, skyjade_pickaxe, stratus_ingot, stratus_chestplate, stormforged_chestplate,
+  storm_sword, storm_bow, wind_shield, combiner, aerwhale_saddle, moa_fodder, skyjade_moa_armor, golden_swet_ball,
+  sun_core, cloud_cape, floaty_scarf, aercloud_necklace, antidote, stratus_smithing_template,
+  stormforged_smithing_template, brass_dungeon_key, magnetic_staff, blade_of_luck]
+the_bumblezone: [essence_of_the_bees, honey_crystal_shards, royal_jelly_bottle, bumble_bee_chestplate_1, honey_bee_leggings_1,
+  stingless_bee_helmet_1, carpenter_bee_boots_1, stinger_spear, bee_cannon, crystal_cannon, honey_crystal_shield,
+  honey_compass, buzzing_briefcase, pollen_puff, bee_stinger, essence_raging, bee_bread, super_candle, potion_candle]
+friendsandfoes: [totem_of_illusion, totem_of_freezing, crab_claw, penguin_feather, wildfire_crown, wildfire_crown_fragment, barnacle_tooth]

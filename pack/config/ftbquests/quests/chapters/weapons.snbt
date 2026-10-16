@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "2840277D460DBE04"
-			x: -7.1d
+			x: -6.28d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -35,7 +35,7 @@
 		}
 		{
 			id: "124CE8EC4DA83696"
-			x: -11.93d
+			x: -12.62d
 			y: 2.0d
 			icon: {
 				id: "simplyswords:iron_greathammer"
@@ -58,7 +58,7 @@
 		}
 		{
 			id: "2EFA1764B6C5AA28"
-			x: -3.44d
+			x: -9.88d
 			y: 2.0d
 			shape: "hexagon"
 			icon: {
@@ -82,7 +82,7 @@
 		}
 		{
 			id: "00E19FD18B738F02"
-			x: -5.8d
+			x: -12.56d
 			y: 4.0d
 			icon: {
 				id: "tacz:ammo_box"
@@ -105,7 +105,7 @@
 		}
 		{
 			id: "0CFB5AA571596797"
-			x: 0.07d
+			x: -0.72d
 			y: 0.0d
 			icon: {
 				id: "createbigcannons:cannon_mount"
@@ -135,7 +135,7 @@
 		}
 		{
 			id: "1E2EBF13C6F879A0"
-			x: 5.96d
+			x: 6.32d
 			y: 0.0d
 			shape: "hexagon"
 			icon: {
@@ -168,7 +168,7 @@
 		}
 		{
 			id: "4744E2D0A9C2BFAD"
-			x: 1.43d
+			x: 2.12d
 			y: 2.0d
 			icon: {
 				id: "grappling_hook_neo:doubleupgradeitem"
@@ -191,7 +191,7 @@
 		}
 		{
 			id: "325CD1C1DC34FC14"
-			x: 2.93d
+			x: 5.12d
 			y: 2.0d
 			icon: {
 				id: "simulated:rope_connector"
@@ -211,7 +211,7 @@
 		}
 		{
 			id: "547E7AB1EA5FB62E"
-			x: -10.43d
+			x: -8.38d
 			y: 2.0d
 			icon: {
 				id: "minecraft:diamond_chestplate"
@@ -230,7 +230,7 @@
 		}
 		{
 			id: "56E88A8B20052C07"
-			x: 0.2d
+			x: -2.06d
 			y: 4.0d
 			shape: "gear"
 			icon: {
@@ -257,8 +257,215 @@
 			]
 		}
 		{
+			id: "0DFD11427ADB3043"
+			x: -6.88d
+			y: 2.0d
+			shape: "gear"
+			icon: {
+				id: "simplyswords:iron_halberd"
+				count: 1
+			}
+			dependencies: [
+				"2840277D460DBE04"
+			]
+			tasks: [
+				{
+					id: "2822E72003010FD2"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "2CD0F70084FAD061"
+			x: -8.06d
+			y: 4.0d
+			icon: {
+				id: "simplyswords:iron_rapier"
+				count: 1
+			}
+			dependencies: [
+				"0DFD11427ADB3043"
+			]
+			tasks: [
+				{
+					id: "180F9DD01991EB03"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_rapier"
+					}
+				}
+				{
+					id: "52807E41BA980E77"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_sai"
+					}
+				}
+				{
+					id: "597034C028664067"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_cutlass"
+					}
+				}
+			]
+		}
+		{
+			id: "640D6BBFC30A0C58"
+			x: -6.56d
+			y: 4.0d
+			icon: {
+				id: "simplyswords:iron_claymore"
+				count: 1
+			}
+			dependencies: [
+				"0DFD11427ADB3043"
+			]
+			tasks: [
+				{
+					id: "4FCF21D98D6DFD68"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_claymore"
+					}
+				}
+				{
+					id: "04600C2153071A38"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_greataxe"
+					}
+				}
+			]
+		}
+		{
+			id: "2CA7EAF26E8A609A"
+			x: -5.06d
+			y: 4.0d
+			icon: {
+				id: "simplyswords:iron_spear"
+				count: 1
+			}
+			dependencies: [
+				"0DFD11427ADB3043"
+			]
+			tasks: [
+				{
+					id: "20137AEE2C7CF867"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_spear"
+					}
+				}
+				{
+					id: "3D2C73113B69B9AE"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_halberd"
+					}
+				}
+				{
+					id: "197A74FFF027C13C"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_scythe"
+					}
+				}
+			]
+		}
+		{
+			id: "5D113F932AE72CE7"
+			x: -3.56d
+			y: 4.0d
+			icon: {
+				id: "simplyswords:iron_chakram"
+				count: 1
+			}
+			dependencies: [
+				"0DFD11427ADB3043"
+			]
+			tasks: [
+				{
+					id: "7DC4DE52E51B7A58"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_chakram"
+					}
+				}
+				{
+					id: "74F72AA2D066C4B4"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:iron_warglaive"
+					}
+				}
+			]
+		}
+		{
+			id: "36FE350F7435AE3B"
+			x: -0.56d
+			y: 6.0d
+			icon: {
+				id: "simplyswords:runic_longsword"
+				count: 1
+			}
+			dependencies: [
+				"45F020A202618B2C"
+			]
+			tasks: [
+				{
+					id: "225B5837631620BE"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:runic_longsword"
+					}
+				}
+			]
+		}
+		{
+			id: "6559C760FD28D667"
+			x: -0.56d
+			y: 8.0d
+			icon: {
+				id: "simplyswords:runefused_gem"
+				count: 1
+			}
+			dependencies: [
+				"36FE350F7435AE3B"
+			]
+			tasks: [
+				{
+					id: "790DD78251738F3F"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:runefused_gem"
+					}
+				}
+				{
+					id: "4878620E677ECF3C"
+					type: "item"
+					item: {
+						count: 1
+						id: "simplyswords:netherfused_gem"
+					}
+				}
+			]
+		}
+		{
 			id: "2697B082A65472D4"
-			x: 4.43d
+			x: 3.62d
 			y: 2.0d
 			icon: {
 				id: "grappling_hook_neo:motorupgradeitem"
@@ -280,7 +487,7 @@
 		}
 		{
 			id: "60D1BBBBD66782D9"
-			x: 5.93d
+			x: 6.62d
 			y: 2.0d
 			icon: {
 				id: "grappling_hook_neo:ropeupgradeitem"
@@ -310,7 +517,7 @@
 		}
 		{
 			id: "485CCD98E6873029"
-			x: 7.43d
+			x: 8.12d
 			y: 2.0d
 			icon: {
 				id: "grappling_hook_neo:swingupgradeitem"
@@ -332,7 +539,7 @@
 		}
 		{
 			id: "787D838ACD09EE12"
-			x: 3.2d
+			x: 2.44d
 			y: 4.0d
 			icon: {
 				id: "grappling_hook_neo:magnetupgradeitem"
@@ -354,7 +561,7 @@
 		}
 		{
 			id: "2A39C03BA937F45E"
-			x: 4.7d
+			x: 3.94d
 			y: 4.0d
 			icon: {
 				id: "grappling_hook_neo:forcefieldupgradeitem"
@@ -376,7 +583,7 @@
 		}
 		{
 			id: "6E58308F422DE53A"
-			x: 8.93d
+			x: 9.62d
 			y: 2.0d
 			icon: {
 				id: "grappling_hook_neo:launcheritem"
@@ -398,7 +605,7 @@
 		}
 		{
 			id: "2BC631DB5C6B8055"
-			x: 10.43d
+			x: 11.12d
 			y: 2.0d
 			icon: {
 				id: "grappling_hook_neo:repeller"
@@ -420,7 +627,7 @@
 		}
 		{
 			id: "40BD82DEE157EF8C"
-			x: -4.3d
+			x: -11.06d
 			y: 4.0d
 			icon: {
 				id: "tacz:workbench_a"
@@ -450,7 +657,7 @@
 		}
 		{
 			id: "2B3DDC04AF68D471"
-			x: -8.93d
+			x: -5.38d
 			y: 2.0d
 			icon: {
 				id: "simplyswords:iron_katana"
@@ -473,7 +680,7 @@
 		}
 		{
 			id: "50FA3AD9E3473F0B"
-			x: -7.43d
+			x: -3.88d
 			y: 2.0d
 			icon: {
 				id: "simplyswords:iron_glaive"
@@ -496,7 +703,7 @@
 		}
 		{
 			id: "43419A8748AA7E13"
-			x: -5.93d
+			x: -2.38d
 			y: 2.0d
 			icon: {
 				id: "simplyswords:iron_twinblade"
@@ -519,7 +726,7 @@
 		}
 		{
 			id: "4E186D831A313D5E"
-			x: -1.57d
+			x: -0.88d
 			y: 2.0d
 			icon: {
 				id: "simplyswords:diamond_longsword"
@@ -541,7 +748,7 @@
 		}
 		{
 			id: "45F020A202618B2C"
-			x: -1.3d
+			x: -0.56d
 			y: 4.0d
 			icon: {
 				id: "simplyswords:netherite_longsword"
@@ -565,7 +772,7 @@
 		}
 		{
 			id: "508564D2E50AB706"
-			x: -2.8d
+			x: -9.56d
 			y: 4.0d
 			icon: {
 				id: "minecraft:gunpowder"
@@ -583,7 +790,7 @@
 		}
 		{
 			id: "1428749F03E36AA4"
-			x: -0.07d
+			x: 0.62d
 			y: 2.0d
 			icon: {
 				id: "createbigcannons:solid_shot"
@@ -615,7 +822,7 @@
 		}
 		{
 			id: "18BE845C1AC2CF5A"
-			x: 1.7d
+			x: 0.94d
 			y: 4.0d
 			icon: {
 				id: "grappling_hook_neo:rocketupgradeitem"
@@ -638,7 +845,7 @@
 		}
 		{
 			id: "35DC60B73DD268F7"
-			x: 11.93d
+			x: 12.62d
 			y: 2.0d
 			icon: {
 				id: "grappling_hook_neo:longfallboots"

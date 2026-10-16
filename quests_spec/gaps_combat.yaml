@@ -1,0 +1,50 @@
+# Key-item gaps: Simply Swords weapon types (weapons chapter).
+extends: weapons
+lang: [simplyswords]
+autodoc: ["item.{ns}.{path}.tooltip1", "item.{ns}.{path}.tooltip2"]
+out: gaps_combat_gen
+quests:
+  - id: gss_types
+    deps: [w_combat]
+    roles: [warrior]
+    shape: gear
+    icon: simplyswords:iron_halberd
+    tasks: [{type: checkmark}]
+    title: {ru: "Арсенал Simply Swords", en: "The Simply Swords Arsenal"}
+    why: {ru: "В Simply Swords 15 типов оружия. У каждого своя скорость, дальность и урон: рапира бьёт часто, но слабо, молот — редко, но тяжело, копьё и алебарда достают дальше. Сделай железную версию каждого типа и найди свой стиль. Материалы (железо → алмаз → незерит → руны) повышают урон, а тип оружия задаёт манеру боя.", en: "15 weapon types with their own speed, reach and damage. Materials raise damage; the type sets your style."}
+  - id: gss_light
+    deps: [gss_types]
+    roles: [warrior]
+    items: [simplyswords:iron_rapier, simplyswords:iron_sai, simplyswords:iron_cutlass]
+    title: {ru: "Лёгкие клинки", en: "Light Blades"}
+    why: {ru: "Рапира, сай и абордажная сабля — быстрые удары. Хороши против мелких стай и с баффами на урон за удар.", en: "Fast strikes: good against swarms."}
+  - id: gss_heavy
+    deps: [gss_types]
+    roles: [warrior]
+    items: [simplyswords:iron_claymore, simplyswords:iron_greataxe]
+    title: {ru: "Тяжёлое оружие", en: "Heavy Weapons"}
+    why: {ru: "Клеймор и секира — медленные мощные удары по площади. Против крупных врагов и боссов.", en: "Slow, heavy sweeping blows for big foes."}
+  - id: gss_reach
+    deps: [gss_types]
+    roles: [warrior]
+    items: [simplyswords:iron_spear, simplyswords:iron_halberd, simplyswords:iron_scythe]
+    title: {ru: "Длинное древко", en: "Long Reach"}
+    why: {ru: "Копьё, алебарда и коса бьют на шаг дальше — держи врага на расстоянии.", en: "Hit from a step further away."}
+  - id: gss_exotic
+    deps: [gss_types]
+    roles: [warrior]
+    items: [simplyswords:iron_chakram, simplyswords:iron_warglaive]
+    title: {ru: "Экзотика", en: "Exotic Weapons"}
+    why: {ru: "Чакрам и боевой глефа-клинок — необычная манера боя. Попробуй, вдруг твоё.", en: "An unusual fighting style — try it."}
+  - id: gss_runic
+    deps: [w_netherite_weapon]
+    roles: [warrior, mage]
+    items: [simplyswords:runic_longsword]
+    title: {ru: "Руническое оружие", en: "Runic Weapons"}
+    why: {ru: "Руническое оружие несёт случайную руну-силу. Рецепт и способ получения — в JEI.", en: "Runic weapons carry a random rune power; see JEI."}
+  - id: gss_gems
+    deps: [gss_runic]
+    roles: [warrior]
+    items: [simplyswords:runefused_gem, simplyswords:netherfused_gem]
+    title: {ru: "Самоцветы силы", en: "Power Gems"}
+    why: {ru: "Самоцветы вставляют в оружие для дополнительной силы. Что даёт каждый — в подсказке.", en: "Socket gems into weapons for extra power; see the tooltip."}

@@ -26,7 +26,7 @@ hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure.snbt"
-hash = "5cf96f01677804888811838e63dd54185fec6f3d097b1cb8eef19b1012bfe8ba"
+hash = "14a0d64e9c0f9a5cdd4b2aa121dfc3c5f8e0fe8ddedc960f9623ae3c7aa5fcd7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/aether_sky.snbt"
@@ -38,7 +38,7 @@ hash = "9e82d832063149ed12d1751becd8f5fc3542d1b90ceb79022f6639dbf8e3be20"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/animals.snbt"
-hash = "c7585bc4e82cea71e99cc699f7c8bc1760d79855b337f70d7bd1328ddff6fe0f"
+hash = "eacebfd32c527457b03eca78b54528076d09dae54994cf185730fd5c17194f73"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars.snbt"
@@ -50,7 +50,7 @@ hash = "b95bcb3b7a67871d7484bfee930d1ff72d067b2147df721ed73b0af979d58b01"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bestiary.snbt"
-hash = "d92f624b65c40ff6c760508edb0262a9387a61a7ca29a4e15625f4ca31e44963"
+hash = "d15e6830f8de9a392fd31e35c445850dd7f07471dd54a9cedd8feeee85ef812a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bosses.snbt"
@@ -174,7 +174,7 @@ hash = "30cc8642876513bea93a737f77fcb6919f0a6e8f1bdd9d9fa2bd4fb7865aa75e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/weapons.snbt"
-hash = "10f0b8dcb4a59d4e82378307202e87ea0e62248ea8bf1e9733685037f0c0e42e"
+hash = "a397b854c2c4d1d4e8dfcfe907777b29344c8a80b8ace4cfcb559994ce6d9596"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
@@ -186,7 +186,7 @@ hash = "2d3cd611b44d446ba044bd194f1303cecb543abcf1049fa8d801169e60ac7708"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/worlds.snbt"
-hash = "5561fae3744f25d9e3c9791f4804a0cc7f0a910cd3455575dbc5de3a57751348"
+hash = "1d6d2a4344033642d4e304eff500ae50bcb412116bee4d5995d9f48c8b991f4a"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -194,11 +194,11 @@ hash = "462be260324d4e1288a1a4476d4de0ec35126e18a4ce443be04df10d784560c5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "db5be3a1c86920837e164bd70597b415ed6d46a1209fe1e73f6389a101b84aa4"
+hash = "9bc4aa17072d83567b76c658ce84be5c3619c21d3deee934430ed721389ac85c"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "41124df625f9cec3d6401904ba76210b54a002473bd2f6a7b87f7bfe7542344b"
+hash = "f74717329bfcf0014195a45a7137c9618923a8ee7d1f480c103d1c7c27691f3e"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -394,7 +394,7 @@ hash = "c11f7b38713be52de96e3c304a7750b5ff5bd441410dde2958022de95930d212"
 
 [[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
-hash = "f4e50fa25723412d994add608401c9f13e6f6115e2c646907fd8be4d74e832e9"
+hash = "247bea52eecdba7ab66b0ec1dbdb4d785b1743b738b68a35cb1d14c582d3acd2"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"

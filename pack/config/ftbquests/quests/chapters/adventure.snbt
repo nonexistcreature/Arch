@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "483595C3466D106D"
-			x: 1.89d
+			x: 4.38d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -61,7 +61,7 @@
 		}
 		{
 			id: "11213DE6310C1D6A"
-			x: -5.07d
+			x: -3.24d
 			y: 2.0d
 			icon: {
 				id: "lootr:lootr_chest"
@@ -79,7 +79,7 @@
 		}
 		{
 			id: "16E1CA1EF5B21B46"
-			x: -1.62d
+			x: 1.21d
 			y: 2.0d
 			icon: {
 				id: "minecraft:obsidian"
@@ -98,7 +98,7 @@
 		}
 		{
 			id: "739285040B5B0234"
-			x: -0.12d
+			x: 16.81d
 			y: 2.0d
 			shape: "hexagon"
 			icon: {
@@ -118,7 +118,7 @@
 		}
 		{
 			id: "5435E49C41CDE3FF"
-			x: 0.1d
+			x: 16.95d
 			y: 4.0d
 			icon: {
 				id: "twilightforest:naga_trophy"
@@ -148,7 +148,7 @@
 		}
 		{
 			id: "4B8828721D42DE2A"
-			x: -1.26d
+			x: 16.09d
 			y: 6.0d
 			icon: {
 				id: "twilightforest:lich_trophy"
@@ -168,7 +168,7 @@
 		}
 		{
 			id: "3407660309397086"
-			x: -2.74d
+			x: 22.55d
 			y: 8.0d
 			icon: {
 				id: "twilightforest:hydra_trophy"
@@ -189,7 +189,7 @@
 		}
 		{
 			id: "29EFEF68F03D66A9"
-			x: 1.38d
+			x: 9.52d
 			y: 2.0d
 			icon: {
 				id: "aether:aether_portal_frame"
@@ -208,7 +208,7 @@
 		}
 		{
 			id: "3020E46100BB3368"
-			x: 1.6d
+			x: 20.0d
 			y: 4.0d
 			icon: {
 				id: "aether:bronze_dungeon_key"
@@ -229,7 +229,7 @@
 		}
 		{
 			id: "22E49A43159B2841"
-			x: 4.38d
+			x: 3.11d
 			y: 2.0d
 			icon: {
 				id: "minecraft:stone_bricks"
@@ -249,7 +249,7 @@
 		}
 		{
 			id: "241D0F92C3E12524"
-			x: 5.88d
+			x: 4.61d
 			y: 2.0d
 			icon: {
 				id: "minecraft:sculk"
@@ -269,7 +269,7 @@
 		}
 		{
 			id: "5191867CC65E64EB"
-			x: 8.88d
+			x: 10.67d
 			y: 0.0d
 			icon: {
 				id: "minecraft:honeycomb"
@@ -289,7 +289,7 @@
 		}
 		{
 			id: "256C62572DAB7621"
-			x: -7.4d
+			x: -13.64d
 			y: 4.0d
 			shape: "hexagon"
 			icon: {
@@ -311,7 +311,7 @@
 		}
 		{
 			id: "662910273F2B230B"
-			x: -5.9d
+			x: -12.13d
 			y: 4.0d
 			icon: {
 				id: "mowziesmobs:wrought_helmet"
@@ -332,7 +332,7 @@
 		}
 		{
 			id: "38AEAB79267D768C"
-			x: -4.4d
+			x: 1.36d
 			y: 4.0d
 			icon: {
 				id: "aquamirae:dead_sea_scroll"
@@ -353,7 +353,7 @@
 		}
 		{
 			id: "5814EB842FA7B370"
-			x: -2.9d
+			x: -0.14d
 			y: 4.0d
 			icon: {
 				id: "minecraft:ender_eye"
@@ -373,7 +373,7 @@
 		}
 		{
 			id: "20B6AA7E95CCB7D5"
-			x: 0.26d
+			x: 2.74d
 			y: 8.0d
 			shape: "gear"
 			icon: {
@@ -409,7 +409,7 @@
 		}
 		{
 			id: "1957C1B40843F000"
-			x: 2.88d
+			x: -0.29d
 			y: 2.0d
 			icon: {
 				id: "minecraft:barrel"
@@ -428,7 +428,7 @@
 		}
 		{
 			id: "5A77759DFBE67C95"
-			x: 7.38d
+			x: 6.11d
 			y: 2.0d
 			icon: {
 				id: "minecraft:bell"
@@ -447,7 +447,7 @@
 		}
 		{
 			id: "1259337CB58F1C9E"
-			x: 0.24d
+			x: 17.92d
 			y: 6.0d
 			icon: {
 				id: "twilightforest:ironwood_ingot"
@@ -470,7 +470,7 @@
 		}
 		{
 			id: "2E1D43BB1E766B59"
-			x: -1.24d
+			x: 24.05d
 			y: 8.0d
 			icon: {
 				id: "twilightforest:minoshroom_trophy"
@@ -491,7 +491,7 @@
 		}
 		{
 			id: "3900D125095728FD"
-			x: -1.24d
+			x: 22.93d
 			y: 10.0d
 			icon: {
 				id: "twilightforest:knightmetal_ingot"
@@ -512,7 +512,7 @@
 		}
 		{
 			id: "5AA2916146AB0FE5"
-			x: -1.24d
+			x: 22.93d
 			y: 12.0d
 			icon: {
 				id: "twilightforest:fiery_ingot"
@@ -533,7 +533,7 @@
 		}
 		{
 			id: "78AFBA41AFAA0319"
-			x: -1.24d
+			x: 22.93d
 			y: 14.0d
 			icon: {
 				id: "twilightforest:alpha_yeti_fur"
@@ -560,7 +560,7 @@
 		}
 		{
 			id: "73113DD67E148277"
-			x: 3.1d
+			x: 6.25d
 			y: 4.0d
 			icon: {
 				id: "aether:zanite_gemstone"
@@ -583,7 +583,7 @@
 		}
 		{
 			id: "0B1C9822CA3D917F"
-			x: 1.74d
+			x: 20.05d
 			y: 6.0d
 			icon: {
 				id: "aether:valkyrie_lance"
@@ -604,7 +604,7 @@
 		}
 		{
 			id: "13F13D09D97F5AFC"
-			x: 1.76d
+			x: 21.05d
 			y: 8.0d
 			icon: {
 				id: "aether:gravitite_pickaxe"
@@ -625,7 +625,7 @@
 		}
 		{
 			id: "7D35BB7FBDAEF93B"
-			x: 4.6d
+			x: 3.25d
 			y: 4.0d
 			icon: {
 				id: "undergarden:cloggrum_ingot"
@@ -649,7 +649,7 @@
 		}
 		{
 			id: "3D37C20ACFC1671F"
-			x: 6.1d
+			x: 4.75d
 			y: 4.0d
 			icon: {
 				id: "deeperdarker:reinforced_echo_shard"
@@ -672,7 +672,7 @@
 		}
 		{
 			id: "20D49507FD947801"
-			x: -8.88d
+			x: -21.08d
 			y: 6.0d
 			icon: {
 				id: "cataclysm:ignitium_ingot"
@@ -693,7 +693,7 @@
 		}
 		{
 			id: "665F15D3591B91CB"
-			x: -2.88d
+			x: -0.08d
 			y: 6.0d
 			icon: {
 				id: "cataclysm:void_eye"
@@ -715,7 +715,7 @@
 		}
 		{
 			id: "591B863A25456EA2"
-			x: -7.38d
+			x: -19.58d
 			y: 6.0d
 			icon: {
 				id: "cataclysm:abyss_eye"
@@ -736,7 +736,7 @@
 		}
 		{
 			id: "5CDB9F3F46E94031"
-			x: -5.88d
+			x: -16.58d
 			y: 6.0d
 			icon: {
 				id: "mowziesmobs:ice_crystal"
@@ -757,7 +757,7 @@
 		}
 		{
 			id: "34C186A7C66EB616"
-			x: -4.38d
+			x: -24.05d
 			y: 6.0d
 			icon: {
 				id: "mowziesmobs:sol_visage"
@@ -778,7 +778,7 @@
 		}
 		{
 			id: "2D00EB21A23B01B1"
-			x: -1.4d
+			x: 11.99d
 			y: 4.0d
 			icon: {
 				id: "minecraft:carved_pumpkin"
@@ -799,7 +799,7 @@
 		}
 		{
 			id: "1079865D0DAE982A"
-			x: 8.88d
+			x: 11.02d
 			y: 2.0d
 			icon: {
 				id: "the_bumblezone:honey_crystal_shards"
@@ -818,6 +818,956 @@
 						id: "the_bumblezone:honey_crystal_shards"
 					}
 					count: 8L
+				}
+			]
+		}
+		{
+			id: "6B6774EA3A5B6C23"
+			x: 11.59d
+			y: 6.0d
+			icon: {
+				id: "born_in_chaos_v1:dark_metal_ingot"
+				count: 1
+			}
+			dependencies: [
+				"2D00EB21A23B01B1"
+			]
+			tasks: [
+				{
+					id: "3F8800EAFA76CF51"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_ingot"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "745CFE194591D2A6"
+			x: 4.55d
+			y: 8.0d
+			icon: {
+				id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"6B6774EA3A5B6C23"
+			]
+			tasks: [
+				{
+					id: "309390B84508B0F0"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:dark_metal_armor_chestplate"
+					}
+				}
+			]
+		}
+		{
+			id: "13845EACBA0F610E"
+			x: 4.93d
+			y: 10.0d
+			icon: {
+				id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"745CFE194591D2A6"
+			]
+			tasks: [
+				{
+					id: "0E065F6BE15BADC4"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
+					}
+				}
+			]
+		}
+		{
+			id: "057FC3818139D36A"
+			x: 6.95d
+			y: 8.0d
+			icon: {
+				id: "born_in_chaos_v1:spiny_shell_armor_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"6B6774EA3A5B6C23"
+			]
+			tasks: [
+				{
+					id: "0C2267B025C8821D"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:spiny_shell_armor_chestplate"
+					}
+				}
+			]
+		}
+		{
+			id: "460F56DC14D245C6"
+			x: 9.05d
+			y: 8.0d
+			icon: {
+				id: "born_in_chaos_v1:darkwarblade"
+				count: 1
+			}
+			dependencies: [
+				"6B6774EA3A5B6C23"
+			]
+			tasks: [
+				{
+					id: "52B70396636C1FB2"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:darkwarblade"
+					}
+				}
+				{
+					id: "1C58AC266A2488A8"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:great_reaper_axe"
+					}
+				}
+			]
+		}
+		{
+			id: "354E68E7CEAD4E9A"
+			x: 7.93d
+			y: 10.0d
+			icon: {
+				id: "born_in_chaos_v1:nightmare_scythe"
+				count: 1
+			}
+			dependencies: [
+				"460F56DC14D245C6"
+			]
+			tasks: [
+				{
+					id: "6E2DB37B27FE92A3"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:nightmare_scythe"
+					}
+				}
+			]
+		}
+		{
+			id: "1937A626C543B72C"
+			x: 9.43d
+			y: 10.0d
+			icon: {
+				id: "born_in_chaos_v1:skullbreaker_hammer"
+				count: 1
+			}
+			dependencies: [
+				"460F56DC14D245C6"
+			]
+			tasks: [
+				{
+					id: "799C23572153BFA3"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+					}
+				}
+			]
+		}
+		{
+			id: "173CDD2941A60776"
+			x: 10.93d
+			y: 10.0d
+			icon: {
+				id: "born_in_chaos_v1:intoxicating_dagger"
+				count: 1
+			}
+			dependencies: [
+				"460F56DC14D245C6"
+			]
+			tasks: [
+				{
+					id: "10A5D6C850B3FB77"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:intoxicating_dagger"
+					}
+				}
+			]
+		}
+		{
+			id: "30A6A39195DC8EAE"
+			x: 10.55d
+			y: 8.0d
+			icon: {
+				id: "born_in_chaos_v1:staff_of_magic_arrows"
+				count: 1
+			}
+			dependencies: [
+				"6B6774EA3A5B6C23"
+			]
+			tasks: [
+				{
+					id: "586336DB925D2142"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:staff_of_magic_arrows"
+					}
+				}
+				{
+					id: "6C123DD1D5F52860"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:bonescaller_staff"
+					}
+				}
+			]
+		}
+		{
+			id: "1F7DD0577AD53CF1"
+			x: 8.92d
+			y: 6.0d
+			icon: {
+				id: "born_in_chaos_v1:pumpkinhandgun"
+				count: 1
+			}
+			dependencies: [
+				"2D00EB21A23B01B1"
+			]
+			tasks: [
+				{
+					id: "7865ABBFFBE43658"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:pumpkinhandgun"
+					}
+				}
+			]
+		}
+		{
+			id: "58E8382834AF7058"
+			x: 12.05d
+			y: 8.0d
+			icon: {
+				id: "born_in_chaos_v1:death_totem"
+				count: 1
+			}
+			dependencies: [
+				"6B6774EA3A5B6C23"
+			]
+			tasks: [
+				{
+					id: "5E341BAD82D8EBFE"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:death_totem"
+					}
+				}
+			]
+		}
+		{
+			id: "795DAE0D5518C965"
+			x: 13.55d
+			y: 8.0d
+			icon: {
+				id: "born_in_chaos_v1:charmof_power"
+				count: 1
+			}
+			dependencies: [
+				"6B6774EA3A5B6C23"
+			]
+			tasks: [
+				{
+					id: "6CAB93AFA02CFC78"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:charmof_power"
+					}
+				}
+			]
+		}
+		{
+			id: "73B6E49C2F05CFCE"
+			x: 15.05d
+			y: 8.0d
+			icon: {
+				id: "born_in_chaos_v1:elixir_of_vampirism"
+				count: 1
+			}
+			dependencies: [
+				"6B6774EA3A5B6C23"
+			]
+			tasks: [
+				{
+					id: "51781FECF7C9C620"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:elixir_of_vampirism"
+					}
+				}
+				{
+					id: "5593F5D81EC50961"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:potion_of_rampage"
+					}
+				}
+			]
+		}
+		{
+			id: "25981DF9F801F60A"
+			x: 13.09d
+			y: 6.0d
+			icon: {
+				id: "born_in_chaos_v1:evilometer"
+				count: 1
+			}
+			dependencies: [
+				"2D00EB21A23B01B1"
+			]
+			tasks: [
+				{
+					id: "3082A15BD1D5F44E"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:evilometer"
+					}
+				}
+			]
+		}
+		{
+			id: "6CDA3DE56D6D22C0"
+			x: 16.55d
+			y: 8.0d
+			icon: {
+				id: "born_in_chaos_v1:phantom_bomb"
+				count: 1
+			}
+			dependencies: [
+				"6B6774EA3A5B6C23"
+			]
+			tasks: [
+				{
+					id: "51FA0AC876542153"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:phantom_bomb"
+					}
+				}
+			]
+		}
+		{
+			id: "03CFA9F7E4C26104"
+			x: 18.05d
+			y: 8.0d
+			icon: {
+				id: "born_in_chaos_v1:seedof_chaos"
+				count: 1
+			}
+			dependencies: [
+				"6B6774EA3A5B6C23"
+			]
+			tasks: [
+				{
+					id: "67B013DD239C4828"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:seedof_chaos"
+					}
+				}
+			]
+		}
+		{
+			id: "634AC2B841A0E5DC"
+			x: 19.55d
+			y: 8.0d
+			icon: {
+				id: "born_in_chaos_v1:lifestealer_bone"
+				count: 1
+			}
+			dependencies: [
+				"6B6774EA3A5B6C23"
+			]
+			tasks: [
+				{
+					id: "5449E196C876FF74"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:lifestealer_bone"
+					}
+				}
+			]
+		}
+		{
+			id: "23FC88A0464D47D3"
+			x: 14.59d
+			y: 6.0d
+			icon: {
+				id: "born_in_chaos_v1:krampus_horn"
+				count: 1
+			}
+			dependencies: [
+				"2D00EB21A23B01B1"
+			]
+			tasks: [
+				{
+					id: "2D12FAAFA9121803"
+					type: "item"
+					item: {
+						count: 1
+						id: "born_in_chaos_v1:krampus_horn"
+					}
+				}
+			]
+		}
+		{
+			id: "0628C3C4A04E0CB5"
+			x: -15.08d
+			y: 6.0d
+			icon: {
+				id: "mowziesmobs:wrought_axe"
+				count: 1
+			}
+			dependencies: [
+				"662910273F2B230B"
+			]
+			tasks: [
+				{
+					id: "43840AE105B54CA2"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:wrought_axe"
+					}
+				}
+			]
+		}
+		{
+			id: "499B8F02B54FA90A"
+			x: -13.58d
+			y: 6.0d
+			icon: {
+				id: "mowziesmobs:earthrend_gauntlet"
+				count: 1
+			}
+			dependencies: [
+				"662910273F2B230B"
+			]
+			tasks: [
+				{
+					id: "7720803E11503EEE"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:earthrend_gauntlet"
+					}
+				}
+			]
+		}
+		{
+			id: "636BC78B1F29B3EC"
+			x: -12.08d
+			y: 6.0d
+			icon: {
+				id: "mowziesmobs:naga_fang_dagger"
+				count: 1
+			}
+			dependencies: [
+				"662910273F2B230B"
+			]
+			tasks: [
+				{
+					id: "1301A94D36030F4B"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:naga_fang_dagger"
+					}
+				}
+			]
+		}
+		{
+			id: "5DDE2E07CC2B36E5"
+			x: -23.05d
+			y: 8.0d
+			icon: {
+				id: "mowziesmobs:umvuthana_mask_fury"
+				count: 1
+			}
+			dependencies: [
+				"34C186A7C66EB616"
+			]
+			tasks: [
+				{
+					id: "51B79809EBC95609"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:umvuthana_mask_fury"
+					}
+				}
+				{
+					id: "36586218A5E21BDB"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:blowgun"
+					}
+				}
+				{
+					id: "2490784FAD51EB40"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:spear"
+					}
+				}
+			]
+		}
+		{
+			id: "1604AE16017B6E95"
+			x: -10.58d
+			y: 6.0d
+			icon: {
+				id: "mowziesmobs:sculptor_staff"
+				count: 1
+			}
+			dependencies: [
+				"662910273F2B230B"
+			]
+			tasks: [
+				{
+					id: "53B3831C8003BC94"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:sculptor_staff"
+					}
+				}
+				{
+					id: "19B44E776470B6B4"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:geomancer_robe"
+					}
+				}
+			]
+		}
+		{
+			id: "6A2E8C4B53C52018"
+			x: -9.08d
+			y: 6.0d
+			icon: {
+				id: "mowziesmobs:captured_grottol"
+				count: 1
+			}
+			dependencies: [
+				"662910273F2B230B"
+			]
+			tasks: [
+				{
+					id: "56579F2BB20FEB1E"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:captured_grottol"
+					}
+				}
+			]
+		}
+		{
+			id: "41B27297A3E9E06C"
+			x: -4.58d
+			y: 6.0d
+			icon: {
+				id: "mowziesmobs:glowing_jelly"
+				count: 1
+			}
+			dependencies: [
+				"662910273F2B230B"
+			]
+			tasks: [
+				{
+					id: "24ECC97ECE1BA5E1"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:glowing_jelly"
+					}
+				}
+			]
+		}
+		{
+			id: "05CD7B4D915CF3B8"
+			x: -3.08d
+			y: 6.0d
+			icon: {
+				id: "mowziesmobs:bluff_rod"
+				count: 1
+			}
+			dependencies: [
+				"662910273F2B230B"
+			]
+			tasks: [
+				{
+					id: "1987DA9F61D5C100"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:bluff_rod"
+					}
+				}
+				{
+					id: "76D1419E4B4FD61E"
+					type: "item"
+					item: {
+						count: 1
+						id: "mowziesmobs:sand_rake"
+					}
+				}
+			]
+		}
+		{
+			id: "31DB326FB427EAC2"
+			x: 2.92d
+			y: 6.0d
+			icon: {
+				id: "aquamirae:frozen_key"
+				count: 1
+			}
+			dependencies: [
+				"38AEAB79267D768C"
+			]
+			tasks: [
+				{
+					id: "03B9AADD1DCBF864"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:frozen_key"
+					}
+				}
+			]
+		}
+		{
+			id: "7F389C05E148AF54"
+			x: 4.42d
+			y: 6.0d
+			icon: {
+				id: "aquamirae:salvager_suit"
+				count: 1
+			}
+			dependencies: [
+				"38AEAB79267D768C"
+			]
+			tasks: [
+				{
+					id: "0AE3FF3348625F3D"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:salvager_suit"
+					}
+				}
+			]
+		}
+		{
+			id: "761D9255657A8819"
+			x: -7.58d
+			y: 6.0d
+			icon: {
+				id: "aquamirae:abyssal_brigandine"
+				count: 1
+			}
+			dependencies: [
+				"38AEAB79267D768C"
+			]
+			tasks: [
+				{
+					id: "6D3B5E66CF598390"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:abyssal_brigandine"
+					}
+				}
+			]
+		}
+		{
+			id: "7F1D7047630585BB"
+			x: -6.08d
+			y: 6.0d
+			icon: {
+				id: "aquamirae:terrible_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"38AEAB79267D768C"
+			]
+			tasks: [
+				{
+					id: "6EBB740070415F1D"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_chestplate"
+					}
+				}
+			]
+		}
+		{
+			id: "352B94244DD5F92F"
+			x: -7.3d
+			y: 8.0d
+			icon: {
+				id: "aquamirae:abyssal_upgrade_smithing_template"
+				count: 1
+			}
+			dependencies: [
+				"761D9255657A8819"
+				"7F1D7047630585BB"
+			]
+			tasks: [
+				{
+					id: "202E54D94FA1A181"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:abyssal_upgrade_smithing_template"
+					}
+				}
+				{
+					id: "09458EAB702E1BA6"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_upgrade_smithing_template"
+					}
+				}
+			]
+		}
+		{
+			id: "03D48AC51B2F8940"
+			x: -1.58d
+			y: 6.0d
+			icon: {
+				id: "aquamirae:terrible_blade"
+				count: 1
+			}
+			dependencies: [
+				"38AEAB79267D768C"
+			]
+			tasks: [
+				{
+					id: "217A6F74EC53A7A0"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:terrible_blade"
+					}
+				}
+				{
+					id: "73295434167DBFC0"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:remnant_saber"
+					}
+				}
+				{
+					id: "3626D93D6C1FD587"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:dagger_of_greed"
+					}
+				}
+			]
+		}
+		{
+			id: "192CECE48B30554A"
+			x: -5.05d
+			y: 8.0d
+			icon: {
+				id: "aquamirae:tempest_trident"
+				count: 1
+			}
+			dependencies: [
+				"03D48AC51B2F8940"
+			]
+			tasks: [
+				{
+					id: "4BDAB2EE38BAE0DC"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:tempest_trident"
+					}
+				}
+			]
+		}
+		{
+			id: "78233C6FC9D930DF"
+			x: 5.88d
+			y: 0.0d
+			icon: {
+				id: "aquamirae:maelstrom_vestige"
+				count: 1
+			}
+			dependencies: [
+				"176452C5B53F2D70"
+			]
+			tasks: [
+				{
+					id: "64FEC4A0E06E49E0"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:maelstrom_vestige"
+					}
+				}
+				{
+					id: "2438496DDA964A05"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:rune_of_the_storm"
+					}
+				}
+			]
+		}
+		{
+			id: "6F96074A6B6DD6A1"
+			x: 5.92d
+			y: 6.0d
+			icon: {
+				id: "aquamirae:shell_horn"
+				count: 1
+			}
+			dependencies: [
+				"38AEAB79267D768C"
+			]
+			tasks: [
+				{
+					id: "74D08CA4E323CC92"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:shell_horn"
+					}
+				}
+				{
+					id: "13C7FD5F5B8445FD"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:echo_compass"
+					}
+				}
+			]
+		}
+		{
+			id: "2382F1C343806966"
+			x: 1.42d
+			y: 6.0d
+			icon: {
+				id: "aquamirae:angler_fang"
+				count: 1
+			}
+			dependencies: [
+				"38AEAB79267D768C"
+			]
+			tasks: [
+				{
+					id: "61BF4DC49EC885BE"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:angler_fang"
+					}
+				}
+				{
+					id: "20B796A2E5590920"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:esca"
+					}
+				}
+				{
+					id: "33199BB18369B8CD"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:fin"
+					}
+				}
+			]
+		}
+		{
+			id: "2962811C82E4BCA7"
+			x: -3.55d
+			y: 8.0d
+			icon: {
+				id: "aquamirae:poseidon_breakfast"
+				count: 1
+			}
+			dependencies: [
+				"2382F1C343806966"
+			]
+			tasks: [
+				{
+					id: "6F816B765838217A"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:poseidon_breakfast"
+					}
+				}
+			]
+		}
+		{
+			id: "0BFD3D0FCA556730"
+			x: 7.42d
+			y: 6.0d
+			icon: {
+				id: "aquamirae:golden_moth_jar"
+				count: 1
+			}
+			dependencies: [
+				"38AEAB79267D768C"
+			]
+			tasks: [
+				{
+					id: "77AB5680201D799A"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquamirae:golden_moth_jar"
+					}
 				}
 			]
 		}

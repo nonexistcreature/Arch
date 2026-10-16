@@ -1,0 +1,24 @@
+# Key-item gaps: Friends & Foes (bestiary chapter).
+extends: bestiary
+lang: [friendsandfoes]
+autodoc: ["item.{ns}.{path}.desc", "item.{ns}.{path}.tooltip"]
+out: gaps_bestiary_gen
+quests:
+  - id: gff_freezing
+    deps: [be_totem_illusion]
+    roles: [warrior, mage]
+    items: [friendsandfoes:totem_of_freezing]
+    title: {ru: "Тотем заморозки", en: "Totem of Freezing"}
+    why: {ru: "Ещё один тотем Friends & Foes — как и тотем иллюзий, работает, когда держишь его в руке. Что именно он делает, смотри в подсказке. Добыча с Ледяного заклинателя.", en: "Another Friends & Foes totem; see its tooltip. Dropped by the Iceologer."}
+  - id: gff_crown_fragment
+    deps: [be_wildfire]
+    roles: [warrior]
+    items: [friendsandfoes:wildfire_crown_fragment*4]
+    title: {ru: "Осколки короны Пламени", en: "Wildfire Crown Fragments"}
+    why: {en: Dropped by the Wildfire; craft the crown from them., ru: Осколки короны падают с Пламени (Wildfire) — из них собирают корону.}
+  - id: gff_barnacle
+    title: {ru: "Зуб усоногого рака", en: "Barnacle Tooth"}
+    deps: [be_crab]
+    roles: [warrior]
+    items: [friendsandfoes:barnacle_tooth]
+    why: {en: A drop from Friends & Foes sea creatures; see JEI., ru: Зуб усоногого рака — добыча с морских тварей Friends & Foes. Применение — в JEI.}

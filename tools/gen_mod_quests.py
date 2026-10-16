@@ -135,7 +135,7 @@ def main():
                     scene = f"{sns or ns[0]}.ponder.{sname}"
                     lines = [clean(lang[f"{scene}.text_{i}"], 300) for i in range(1, 9) if f"{scene}.text_{i}" in lang]
                     return clean(" ".join(x if x.endswith((".", "!", "?")) else x + "." for x in lines), 600)
-                full = key if (key.split(".")[0] in ns or key.startswith(("book.", "item.", "block.", "entity.", "tooltip.", "description.", "advancements.", "advancement.", "info.", "guide.", "spell.", "effect.", "com."))) else f"{ns[0]}.{key}"
+                full = key if (key.split(".")[0] in ns or key.startswith(("book.", "item.", "block.", "entity.", "tooltip.", "description.", "advancements.", "advancement.", "info.", "guide.", "spell.", "effect.", "com.", "jei.", "ability.", "lore."))) else f"{ns[0]}.{key}"
                 alts = [full, full.replace(".page1.", ".page."), full.replace(".page.", ".page1.")]
                 ok = [a for a in alts if len(lang.get(a, "")) > 12 and not re.search(r"%(\d\$)?[sd]", lang[a])]  # skip texts with %s slots
                 return clean(lang[ok[0]]) if ok else ""
@@ -164,6 +164,13 @@ def main():
                     keys = [(t if "{" in t else t + ".{ns}.{path}").format(ns=fns, path=v) for t in ad
                             for v in (fp, re.sub(r"^(module_|basic_|advanced_|elite_|ultimate_)", "", fp))]
                     d1 = next((x for x in (doc(k, lang) or (doc(k, fb) if fb else "") for k in keys) if x), "")
+                    if not d1:  # last resort: the mod's advancement about this item ("craft/obtain the X")
+                        stem = re.sub(r"_(\d+|helmet|chestplate|leggings|boots)$", "", fp)
+                        adv = re.compile(rf"advancements?\.{re.escape(fns)}\.[a-z0-9_.]*{re.escape(stem)}[a-z0-9_]*\.desc(ription)?$")
+                        for src in (lang, fb) if fb else (lang,):
+                            hit = next((k for k in sorted(src) if adv.match(k)), None)
+                            if hit and not d1:
+                                d1 = doc(hit, src)
                 body += [x for x in (d1, d2) if x]
                 extra = (q.get("text") or {}).get(loc)
                 if extra:

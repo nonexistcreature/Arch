@@ -1,0 +1,226 @@
+# Key-item gaps: Deeper Darker, Undergarden, Deep Aether, The Bumblezone (worlds chapter).
+extends: worlds
+lang: [deeperdarker, undergarden, deep_aether, the_bumblezone]
+autodoc: ["item.{ns}.{path}.desc", "item.{ns}.{path}.description", "tooltip.{ns}.{path}", "lore.item.{ns}.{path}", "lore.block.{ns}.{path}"]
+out: gaps_worlds_gen
+quests:
+  # --- Deeper Darker (the Otherside)
+  - id: gdd_resonarium_tools
+    deps: [wo_resonarium]
+    roles: [warrior, engineer]
+    items: [deeperdarker:resonarium_pickaxe, deeperdarker:resonarium_chestplate]
+    title: {ru: "Резонариевое снаряжение", en: "Resonarium Gear"}
+    why: {ru: "Резонарий — ступень между алмазом и незеритом из Иного мира. Улучшается шаблоном на кузнечном столе.", en: "A step between diamond and netherite."}
+  - id: gdd_resonarium_template
+    deps: [gdd_resonarium_tools]
+    roles: [warrior]
+    items: [deeperdarker:resonarium_upgrade_smithing_template]
+    why: {en: The smithing template for resonarium gear., ru: Шаблон улучшения резонариевого снаряжения на кузнечном столе.}
+  - id: gdd_warden_gear
+    deps: [wo_warden_armor]
+    roles: [warrior]
+    items: [deeperdarker:warden_sword, deeperdarker:warden_upgrade_smithing_template]
+    title: {ru: "Оружие Хранителя", en: "Warden Weapons"}
+    why: {ru: "Снаряжение из панциря Хранителя — вершина Deeper Darker, сильнее незерита.", en: "Warden gear: the top of Deeper Darker."}
+  - id: gdd_staff
+    deps: [gdd_warden_gear]
+    roles: [mage, warrior]
+    items: [deeperdarker:sonorous_staff]
+  - id: gdd_transmitter
+    deps: [wo_echo]
+    roles: [engineer]
+    items: [deeperdarker:sculk_transmitter]
+  - id: gdd_compass
+    title: {ru: "Древний компас", en: "Ancient Compass"}
+    deps: [wo_echo]
+    roles: [warrior]
+    items: [deeperdarker:ancient_compass]
+    why: {en: Points toward ancient structures., ru: Древний компас указывает путь к древним постройкам. Полезен в Ином мире.}
+  - id: gdd_soul
+    deps: [wo_echo]
+    roles: [mage]
+    items: [deeperdarker:soul_crystal, deeperdarker:soul_dust*4]
+    title: {ru: "Кристаллы душ", en: "Soul Crystals"}
+    why: {en: Otherside materials; see JEI for uses., ru: Кристаллы и пыль душ — материалы Иного мира для снаряжения и магии. Применение — в JEI.}
+  - id: gdd_food
+    deps: [wo_echo]
+    roles: [cook]
+    items: [deeperdarker:bloom_berries*4, deeperdarker:angler_fish]
+    title: {ru: "Еда Иного мира", en: "Food of the Otherside"}
+  # --- Undergarden
+    why: {en: Food found in the Otherside., ru: 'Ягоды цветения и рыба-удильщик — еда, которую находят в Ином мире.'}
+  - id: gug_catalyst
+    deps: [wo_cloggrum]
+    roles: [warrior, mage]
+    items: [undergarden:catalyst]
+    title: {ru: "Катализатор", en: "Catalyst"}
+    why: {ru: "Катализатор открывает портал в Подземный сад. Рамка — из каменных кирпичей.", en: "Opens the Undergarden portal."}
+  - id: gug_froststeel
+    deps: [wo_cloggrum]
+    roles: [warrior, engineer]
+    items: [undergarden:froststeel_ingot*4]
+    why: {en: The Undergarden's second metal., ru: 'Морозная сталь — второй металл Подземного сада, её добывают в холодных пещерах.'}
+  - id: gug_regalium
+    deps: [wo_utherium]
+    roles: [mage]
+    items: [undergarden:regalium_crystal]
+    why: {en: A rare Undergarden crystal; see JEI., ru: Регалиевый кристалл — редкий кристалл Подземного сада. Применение — в JEI.}
+  - id: gug_cloggrum_gear
+    deps: [wo_cloggrum]
+    roles: [warrior]
+    items: [undergarden:cloggrum_sword, undergarden:cloggrum_chestplate, undergarden:cloggrum_shield]
+    title: {ru: "Снаряжение из клоггрума", en: "Cloggrum Gear"}
+    why: {ru: "Клоггрум — первая ступень Подземного сада, примерно как железо, но прочнее.", en: "Undergarden's first tier, tougher than iron."}
+  - id: gug_froststeel_gear
+    deps: [gug_froststeel]
+    roles: [warrior]
+    items: [undergarden:froststeel_sword, undergarden:froststeel_chestplate]
+    title: {ru: "Снаряжение из морозной стали", en: "Froststeel Gear"}
+    why: {en: Froststeel slows enemies; see the tooltip., ru: Морозная сталь замедляет врагов при ударе. Подробно — в подсказке оружия.}
+  - id: gug_utherium_gear
+    deps: [wo_utherium]
+    roles: [warrior]
+    items: [undergarden:utherium_sword, undergarden:utherium_chestplate]
+    title: {ru: "Снаряжение из утерия", en: "Utherium Gear"}
+    why: {en: Utherium is strong against Undergarden creatures; see the tooltip., ru: Утерий особенно силён против существ Подземного сада. Подробно — в подсказке.}
+  - id: gug_battleaxe
+    deps: [gug_cloggrum_gear]
+    roles: [warrior]
+    items: [undergarden:cloggrum_battleaxe, undergarden:slingshot, undergarden:spear]
+    title: {ru: "Боевой топор, рогатка и копьё", en: "Battleaxe, Slingshot and Spear"}
+  - id: gug_forgotten
+    deps: [boss_forgotten_guardian]
+    roles: [warrior]
+    items: [undergarden:forgotten_ingot*2, undergarden:forgotten_battleaxe]
+    title: {ru: "Забытый металл", en: "Forgotten Metal"}
+    why: {ru: "Забытый металл — добыча со Стража Забытых. Лучшее оружие Подземного сада.", en: "Drops from the Forgotten Guardian: the best Undergarden weapons."}
+  - id: gug_forgotten_template
+    deps: [gug_forgotten]
+    roles: [warrior]
+    items: [undergarden:forgotten_upgrade_smithing_template]
+    why: {en: The smithing template for forgotten gear., ru: Шаблон улучшения до снаряжения из забытого металла.}
+  - id: gug_mask
+    deps: [wo_cloggrum]
+    roles: [warrior]
+    items: [undergarden:denizen_mask]
+  - id: gug_infuser
+    deps: [wo_utherium]
+    roles: [mage, engineer]
+    items: [undergarden:infuser]
+  - id: gug_underbeans
+    deps: [wo_gloomgourd]
+    roles: [gardener, cook]
+    items: [undergarden:underbeans*8]
+  # --- Deep Aether
+  - id: gda_skyjade_gear
+    deps: [wo_skyjade]
+    roles: [warrior, engineer]
+    items: [deep_aether:skyjade_pickaxe, deep_aether:skyjade_chestplate]
+    title: {ru: "Небесный нефрит", en: "Skyjade Gear"}
+    why: {ru: "Скайджейд — ранняя ступень Глубокого Эфира: инструменты и броня до стратуса.", en: "Early Deep Aether tier before stratus."}
+  - id: gda_stratus_ingot
+    deps: [wo_stratus]
+    roles: [engineer]
+    items: [deep_aether:stratus_ingot*4, deep_aether:stratus_smithing_template]
+    title: {ru: "Стратус", en: "Stratus"}
+    why: {en: Upgrades gravitite gear., ru: Стратус плавят из обломков стратуса и гравитита — отсюда розовый цвет. Им улучшают гравититовое оружие и броню.}
+  - id: gda_stormforged
+    deps: [gda_stratus_ingot]
+    roles: [warrior]
+    items: [deep_aether:stormforged_chestplate, deep_aether:stormforged_smithing_template]
+    title: {ru: "Грозовая ковка", en: "Stormforged"}
+    why: {en: 'Heavy armor: no knockback, knocks attackers back.', ru: 'Тяжёлая грозовая броня: почти не даёт тебя отбросить и сама отбрасывает того, кто бьёт.'}
+  - id: gda_storm_weapons
+    deps: [gda_stormforged]
+    roles: [warrior]
+    items: [deep_aether:storm_sword, deep_aether:storm_bow]
+    title: {ru: "Грозовое оружие", en: "Storm Weapons"}
+    why: {en: Fully charged hits knock enemies far back., ru: 'Клинок из чистых облаков: полностью заряженный удар сильно отбрасывает врагов.'}
+  - id: gda_wind_shield
+    title: {ru: "Щит ветра", en: "Wind Shield"}
+    deps: [gda_stormforged]
+    roles: [warrior]
+    items: [deep_aether:wind_shield]
+    why: {en: 'Blocks one hit completely, then needs a minute to recover.', ru: 'Щит из чистого воздуха полностью блокирует один удар, но хрупкий: после этого ему нужна минута на восстановление.'}
+  - id: gda_combiner
+    deps: [wo_skyjade]
+    roles: [engineer]
+    items: [deep_aether:combiner]
+    why: {ru: "Объединитель — станок Глубокого Эфира, соединяет предметы по особым рецептам (смотри JEI).", en: "A Deep Aether crafting station; see JEI."}
+  - id: gda_moa
+    deps: [wo_aerwhale]
+    roles: [breeder]
+    items: [deep_aether:moa_fodder*4, deep_aether:skyjade_moa_armor]
+    title: {ru: "Корм и броня для моа", en: "Moa Fodder and Armor"}
+    why: {en: Feed gives moas effects; armor protects them., ru: 'Быстрый корм для моа даёт им разные эффекты, а нефритовая броня защищает птицу в бою.'}
+  - id: gda_swet
+    title: {ru: "Золотой шарик свита", en: "Golden Swet Ball"}
+    deps: [wo_skyjade]
+    roles: [warrior]
+    items: [deep_aether:golden_swet_ball]
+    why: {en: Turns Aether Dirt into Golden Grass., ru: Золотой шарик свита из слизи и семян золотой травы превращает землю Эфира в золотую траву.}
+  - id: gda_sun_core
+    title: {ru: "Ядро Солнца", en: "Sun Core"}
+    deps: [dg_deep_aether_brass]
+    roles: [warrior]
+    items: [deep_aether:sun_core]
+    why: {en: Drops only if you beat the Sun Spirit without being hit., ru: 'Ядро Духа Солнца выпадает, только если победить его, не получив ни одного удара. Мощный и редкий трофей.'}
+  - id: gda_accessories
+    deps: [wo_skyjade]
+    roles: [warrior]
+    items: [deep_aether:cloud_cape, deep_aether:floaty_scarf, deep_aether:aercloud_necklace]
+    title: {ru: "Аксессуары облаков", en: "Cloud Accessories"}
+    why: {en: The cloud cape grants a double jump; check the others' tooltips., ru: 'Мягкий облачный плащ даёт двойной прыжок. Шарф и ожерелье из облаков — тоже аксессуары, их свойства в подсказках.'}
+  - id: gda_antidote
+    title: {ru: "Антидот", en: "Antidote"}
+    deps: [wo_skyjade]
+    roles: [alchemist]
+    items: [deep_aether:antidote]
+    why: {en: 15 s of Remedy; enchant it on an altar for longer., ru: Антидот на 15 секунд даёт «Лечение» от отравлений Эфира. На алтаре его можно зачаровать — эффект станет дольше.}
+  - id: gda_magnetic
+    deps: [dg_deep_aether_brass]
+    roles: [warrior]
+    items: [deep_aether:magnetic_staff, deep_aether:blade_of_luck]
+    title: {ru: "Трофеи латунного подземелья", en: "Brass Dungeon Trophies"}
+  # --- The Bumblezone
+    why: {en: Brass dungeon trophies; see tooltips., ru: Магнитный посох и Клинок удачи — трофеи латунного подземелья Глубокого Эфира. Свойства — в подсказках.}
+  - id: gbz_bee_armor
+    deps: [wo_bee_armor]
+    roles: [warrior, breeder]
+    items: [the_bumblezone:honey_bee_leggings_1, the_bumblezone:stingless_bee_helmet_1, the_bumblezone:carpenter_bee_boots_1]
+    title: {ru: "Пчелиный комплект", en: "Bee Armor Set"}
+  - id: gbz_spear
+    deps: [wo_royal_jelly]
+    roles: [warrior]
+    items: [the_bumblezone:bee_stinger*4, the_bumblezone:stinger_spear]
+    title: {ru: "Жало и копьё", en: "Stinger and Spear"}
+  - id: gbz_cannons
+    deps: [wo_essence]
+    roles: [warrior, breeder]
+    items: [the_bumblezone:bee_cannon, the_bumblezone:crystal_cannon]
+    title: {ru: "Пчелиная и кристальная пушки", en: "Bee and Crystal Cannons"}
+  - id: gbz_shield
+    deps: [adv_bumble_crystal]
+    roles: [warrior]
+    items: [the_bumblezone:honey_crystal_shield]
+  - id: gbz_compass
+    deps: [wo_royal_jelly]
+    roles: [warrior]
+    items: [the_bumblezone:honey_compass, the_bumblezone:buzzing_briefcase]
+    title: {ru: "Медовый компас и жужжащий портфель", en: "Honey Compass and Buzzing Briefcase"}
+  - id: gbz_essences
+    deps: [wo_essence]
+    roles: [mage]
+    items: [the_bumblezone:essence_raging]
+    title: {ru: "Эссенции улья", en: "Hive Essences"}
+  - id: gbz_food
+    deps: [wo_royal_jelly]
+    roles: [cook]
+    items: [the_bumblezone:bee_bread, the_bumblezone:pollen_puff]
+    title: {ru: "Пчелиный хлеб и пыльца", en: "Bee Bread and Pollen"}
+    why: {en: Hive food and materials., ru: Пчелиный хлеб и пыльца — еда и материалы улья. Свойства — в подсказке.}
+  - id: gbz_candles
+    deps: [wo_royal_jelly]
+    roles: [alchemist]
+    items: [the_bumblezone:super_candle, the_bumblezone:potion_candle]
+    title: {ru: "Свечи улья", en: "Hive Candles"}

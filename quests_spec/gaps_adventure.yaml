@@ -1,0 +1,216 @@
+# Key-item gaps: Born in Chaos, Mowzie's Mobs, Aquamirae (adventure chapter).
+extends: adventure
+lang: [born_in_chaos_v1, mowziesmobs, aquamirae]
+autodoc: ["item.{ns}.{path}.description_0", "block.{ns}.{path}.description_0", "tooltip.{ns}.{path}", "item.{ns}.{path}.desc", "item.{ns}.{path}.text.0"]
+out: gaps_adventure_gen
+quests:
+  # --- Born in Chaos: the dark metal line
+  - id: gbc_dark_metal
+    deps: [adv_pumpkinhead]
+    roles: [warrior]
+    items: [born_in_chaos_v1:dark_metal_ingot*4]
+    title: {ru: "Тёмный металл", en: "Dark Metal"}
+    why: {ru: "Тёмный металл — основа оружия и брони Born in Chaos. Откуда он берётся — смотри в JEI (U по слитку).", en: "The base of Born in Chaos gear; see JEI for where it comes from."}
+  - id: gbc_dark_armor
+    why: {ru: "Бонус за полный комплект из четырёх частей:", en: "Full set bonus:"}
+    doc: item.born_in_chaos_v1.dark_metal_armor_helmet.description_1
+    doc2: item.born_in_chaos_v1.dark_metal_armor_helmet.description_2
+    deps: [gbc_dark_metal]
+    roles: [warrior]
+    items: [born_in_chaos_v1:dark_metal_armor_chestplate]
+    title: {ru: "Доспехи из тёмного металла", en: "Dark Metal Armor"}
+  - id: gbc_nightmare
+    doc: item.born_in_chaos_v1.nightmare_mantleofthe_night_helmet.description_0
+    doc2: item.born_in_chaos_v1.nightmare_mantleofthe_night_helmet.description_1
+    deps: [gbc_dark_armor]
+    roles: [warrior]
+    items: [born_in_chaos_v1:nightmare_mantleofthe_night_chestplate]
+    title: {ru: "Мантия ночного кошмара", en: "Nightmare Mantle"}
+  - id: gbc_spiny
+    doc: jei.born_in_chaos_v1.spiny_shell_info
+    deps: [gbc_dark_metal]
+    roles: [warrior]
+    items: [born_in_chaos_v1:spiny_shell_armor_chestplate]
+    title: {ru: "Шипастый панцирь", en: "Spiny Shell Armor"}
+  - id: gbc_weapons
+    deps: [gbc_dark_metal]
+    roles: [warrior]
+    items: [born_in_chaos_v1:darkwarblade, born_in_chaos_v1:great_reaper_axe]
+    title: {ru: "Оружие тьмы", en: "Weapons of Darkness"}
+  - id: gbc_scythe
+    deps: [gbc_weapons]
+    roles: [warrior]
+    items: [born_in_chaos_v1:nightmare_scythe]
+  - id: gbc_hammer
+    deps: [gbc_weapons]
+    roles: [warrior]
+    items: [born_in_chaos_v1:skullbreaker_hammer]
+  - id: gbc_dagger
+    deps: [gbc_weapons]
+    roles: [warrior, alchemist]
+    items: [born_in_chaos_v1:intoxicating_dagger]
+  - id: gbc_staffs
+    deps: [gbc_dark_metal]
+    roles: [mage]
+    items: [born_in_chaos_v1:staff_of_magic_arrows, born_in_chaos_v1:bonescaller_staff]
+    title: {ru: "Посохи хаоса", en: "Staves of Chaos"}
+    why: {en: Magic arrows and bone servants; see the tooltips., ru: 'Посохи хаоса — оружие мага-некроманта: магические стрелы и призыв костяных слуг. Как ими пользоваться — в подсказке.'}
+  - id: gbc_pumpkin_gun
+    deps: [adv_pumpkinhead]
+    roles: [warrior]
+    items: [born_in_chaos_v1:pumpkinhandgun]
+    why: {en: Fires pumpkin bullets; a Pumpkinhead trophy., ru: Тыквенный пистолет стреляет тыквенными пулями — трофей ночи Тыквоголового.}
+  - id: gbc_totem
+    deps: [gbc_dark_metal]
+    roles: [warrior]
+    items: [born_in_chaos_v1:death_totem]
+  - id: gbc_charm
+    deps: [gbc_dark_metal]
+    roles: [warrior]
+    items: [born_in_chaos_v1:charmof_power]
+    title: {ru: "Амулеты", en: "Charms"}
+  - id: gbc_elixirs
+    deps: [gbc_dark_metal]
+    roles: [alchemist]
+    items: [born_in_chaos_v1:elixir_of_vampirism, born_in_chaos_v1:potion_of_rampage]
+    title: {ru: "Тёмные эликсиры", en: "Dark Elixirs"}
+  - id: gbc_evilometer
+    deps: [adv_pumpkinhead]
+    roles: [warrior]
+    items: [born_in_chaos_v1:evilometer]
+  - id: gbc_bomb
+    deps: [gbc_dark_metal]
+    roles: [warrior]
+    items: [born_in_chaos_v1:phantom_bomb]
+    why: {en: A thrown bomb. Wilds only., ru: 'Фантомная бомба — метательная. Только в диких землях, не у чужих построек.'}
+  - id: gbc_seed
+    deps: [gbc_dark_metal]
+    roles: [gardener, mage]
+    items: [born_in_chaos_v1:seedof_chaos]
+    why: {en: 'What it grows into: see JEI.', ru: Семя хаоса. Что из него вырастает и зачем — в JEI.}
+  - id: gbc_bone
+    deps: [gbc_dark_metal]
+    roles: [warrior]
+    items: [born_in_chaos_v1:lifestealer_bone]
+    why: {en: 'A trophy from the Lifestealer, used in dark gear.', ru: Кости Похитителя жизни — трофей с опасной нежити. Идут на тёмное снаряжение.}
+  - id: gbc_krampus
+    deps: [adv_pumpkinhead]
+    roles: [warrior]
+    items: [born_in_chaos_v1:krampus_horn]
+    title: {ru: "Рог Крампуса", en: "Krampus Horn"}
+  # --- Mowzie's Mobs: boss trophies
+    why: {en: A trophy from the winter monster Krampus., ru: 'Рог Крампуса — трофей с зимнего чудовища Крампуса.'}
+  - id: gmz_wrought_axe
+    deps: [adv_mowzie]
+    roles: [warrior]
+    items: [mowziesmobs:wrought_axe]
+    title: {ru: "Топор Кованого", en: "Wrought Axe"}
+    why: {ru: "Огромный топор Железного Кованого (Ferrous Wroughtnaut) — трофей с этого босса.", en: "The Ferrous Wroughtnaut's huge axe, a trophy from the boss."}
+  - id: gmz_gauntlet
+    doc: item.mowziesmobs.earthrend_gauntlet.text.0
+    doc2: item.mowziesmobs.earthrend_gauntlet.text.1
+    deps: [adv_mowzie]
+    roles: [warrior]
+    items: [mowziesmobs:earthrend_gauntlet]
+    title: {ru: "Перчатка землеломов", en: "Earthrend Gauntlet"}
+  - id: gmz_naga_dagger
+    doc: item.mowziesmobs.naga_fang_dagger.text.0
+    doc2: item.mowziesmobs.naga_fang_dagger.text.1
+    deps: [adv_mowzie]
+    roles: [warrior]
+    items: [mowziesmobs:naga_fang_dagger]
+  - id: gmz_umvuthana
+    deps: [adv_umvuthi]
+    roles: [warrior, mage]
+    items: [mowziesmobs:umvuthana_mask_fury, mowziesmobs:blowgun, mowziesmobs:spear]
+    title: {ru: "Трофеи умвутан", en: "Umvuthana Trophies"}
+    why: {en: 'Masks, blowgun and spear from the Umvuthana village.', ru: 'Маски умвутан дают силу своему владельцу, духовая трубка и копьё — их оружие. Трофеи деревни умвутан.'}
+  - id: gmz_sculptor
+    doc: item.mowziesmobs.sculptor_staff.text.0
+    doc2: item.mowziesmobs.geomancer_robe.text.0
+    deps: [adv_mowzie]
+    roles: [mage]
+    items: [mowziesmobs:sculptor_staff, mowziesmobs:geomancer_robe]
+    title: {ru: "Посох и одежды скульптора", en: "Sculptor's Staff and Robes"}
+  - id: gmz_grottol
+    deps: [adv_mowzie]
+    roles: [breeder]
+    items: [mowziesmobs:captured_grottol]
+    title: {ru: "Пойманный гроттол", en: "Captured Grottol"}
+    why: {en: Catch the ore beetle instead of killing it; see JEI., ru: 'Гроттол — пугливый рудный жук из пещер. Поймай его, а не убивай: с ним можно кое-что интересное (смотри JEI).'}
+  - id: gmz_jelly
+    doc: item.mowziesmobs.glowing_jelly.text.0
+    deps: [adv_mowzie]
+    roles: [cook]
+    items: [mowziesmobs:glowing_jelly]
+  - id: gmz_bluff
+    doc: item.mowziesmobs.bluff_rod.text.0
+    deps: [adv_mowzie]
+    roles: [mage]
+    items: [mowziesmobs:bluff_rod, mowziesmobs:sand_rake]
+    title: {ru: "Жезл и грабли пустыни", en: "Bluff Rod and Sand Rake"}
+  # --- Aquamirae: the frozen sea
+  - id: gaq_frozen_key
+    deps: [adv_cornelia]
+    roles: [warrior]
+    items: [aquamirae:frozen_key]
+  - id: gaq_salvager
+    doc: advancements.aquamirae.obtain_all_salvager_armor.description
+    deps: [adv_cornelia]
+    roles: [warrior]
+    items: [aquamirae:salvager_suit]
+    title: {ru: "Костюм спасателя", en: "Salvager Suit"}
+  - id: gaq_abyssal
+    doc: advancements.aquamirae.obtain_all_abyssal_armor.description
+    deps: [adv_cornelia]
+    roles: [warrior, mage]
+    items: [aquamirae:abyssal_brigandine]
+    title: {ru: "Бездонная броня", en: "Abyssal Armor"}
+  - id: gaq_terrible
+    doc: advancements.aquamirae.obtain_all_terrible_armor.description
+    deps: [adv_cornelia]
+    roles: [warrior]
+    items: [aquamirae:terrible_chestplate]
+    title: {ru: "Ужасная броня", en: "Terrible Armor"}
+  - id: gaq_templates
+    doc: advancements.aquamirae.obtain_abyssal_upgrade_smithing_template.description
+    deps: [gaq_abyssal, gaq_terrible]
+    roles: [warrior]
+    items: [aquamirae:abyssal_upgrade_smithing_template, aquamirae:terrible_upgrade_smithing_template]
+    title: {ru: "Шаблоны улучшения", en: "Upgrade Templates"}
+  - id: gaq_blades
+    deps: [adv_cornelia]
+    roles: [warrior]
+    items: [aquamirae:terrible_blade, aquamirae:remnant_saber, aquamirae:dagger_of_greed]
+    title: {ru: "Клинки ледяного моря", en: "Blades of the Frozen Sea"}
+    why: {en: 'Blades of the frozen sea, each with its own trait.', ru: Клинки из ледяного моря Aquamirae — каждый со своей особенностью. Смотри подсказки.}
+  - id: gaq_trident
+    deps: [gaq_blades]
+    roles: [warrior]
+    items: [aquamirae:tempest_trident]
+    why: {en: A storm-powered trident., ru: Трезубец бури — оружие для морского похода. Его особая сила описана в подсказке.}
+  - id: gaq_maelstrom
+    deps: [boss_maw]
+    roles: [warrior, mage]
+    items: [aquamirae:maelstrom_vestige, aquamirae:rune_of_the_storm]
+    title: {ru: "Трофеи бури", en: "Storm Relics"}
+  - id: gaq_horn
+    deps: [adv_cornelia]
+    roles: [warrior]
+    items: [aquamirae:shell_horn, aquamirae:echo_compass]
+    title: {ru: "Рог и эхо-компас", en: "Shell Horn and Echo Compass"}
+  - id: gaq_fish
+    deps: [adv_cornelia]
+    roles: [cook]
+    items: [aquamirae:angler_fang, aquamirae:esca, aquamirae:fin]
+    title: {ru: "Дары глубин", en: "Gifts of the Deep"}
+    why: {en: Drops from frozen-sea creatures for food and gear., ru: Добыча с чудищ ледяного моря — материалы для еды и снаряжения Aquamirae.}
+  - id: gaq_food
+    deps: [gaq_fish]
+    roles: [cook]
+    items: [aquamirae:poseidon_breakfast]
+    why: {en: A hearty seafood dish., ru: Завтрак Посейдона — сытное блюдо из даров моря.}
+  - id: gaq_moth
+    deps: [adv_cornelia]
+    roles: [mage]
+    items: [aquamirae:golden_moth_jar]
