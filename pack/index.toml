@@ -406,7 +406,7 @@ hash = "1609102ddd7683c7f070ec4f29ee24a94d92f11d53c05627f63e8d2e02fbc41f"
 
 [[files]]
 file = "kubejs/server_scripts/65_elites.js"
-hash = "194c4846fce8804360753634f3546958a9c0ba5c9866940c8015294b0a9c9426"
+hash = "e7c57774db98ebf22f2515ee0cea99eba2d3d977f8432f187819acb22ce2f938"
 
 [[files]]
 file = "kubejs/server_scripts/66_progression_gates.js"

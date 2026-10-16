@@ -1,7 +1,7 @@
 // Arkhaven elites (docs/10_RPG_DANGER.md §6): difficulty grows with the place you choose, not with a world level.
 // Zone 0-1 (overworld within 1000 blocks of spawn): nothing changes, the world stays calm.
-// Beyond 1000 blocks EVERY natural monster is "wild": +100 % health / +50 % damage at 1000 blocks, growing linearly
-// to +300 % / +150 % at 4000 blocks (owner: "сильно бафни мобов после 1к блоков"). Danger dimensions count as 2500.
+// Beyond 1000 blocks EVERY natural monster is "wild": x3 health / +50 % damage at 1000 blocks, growing linearly
+// to x6 health / +150 % damage at 4000 blocks (owner: "сильно бафни мобов после 1к блоков"). Danger dimensions count as 2500.
 // On top of that, elites: tier 1 (1000-2500 blocks, the Aether), tier 2 (beyond 2500, danger dimensions).
 // Elites wear armour (visible on humanoids, never dropped), hit harder, have far more health, and drop extra loot.
 // Spawners, eggs, breeding and /summon never make elites (tests call arkMakeElite directly).
@@ -10,7 +10,7 @@ const ARK_ELITE = {
   nearRadius: 1000, farRadius: 2500,
   chance: { 1: 0.2, 2: 0.33 },
   // wild buff for every monster past nearRadius: value at nearRadius -> value at wildMaxDist (linear, then flat)
-  wild: { health: [1.0, 3.0], damage: [0.5, 1.5], speed: [0.05, 0.15], armor: [2, 8], maxDist: 4000, dimDist: 2500 },
+  wild: { health: [2.0, 5.0], damage: [0.5, 1.5], speed: [0.05, 0.15], armor: [2, 8], maxDist: 4000, dimDist: 2500 },
   health: { 1: 1.5, 2: 2.5 },     // +150 % / +250 % max health
   damage: { 1: 0.5, 2: 1.0 },     // +50 % / +100 % attack damage
   speed: { 1: 0.1, 2: 0.15 },
