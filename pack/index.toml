@@ -206,7 +206,7 @@ hash = "d0a160d8623b9542f85faa1e8198074f4e9e4d22961fb7c53aa2909182723d75"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "39431cba7bf295b12321fad595defa36e532fe79ebc689e57f7c7fc45f9758a9"
+hash = "40a1dff1823d3906cfd9e1dfb940afd7efbeaaeb6c8b5890342734e7a4a51df9"
 
 [[files]]
 file = "config/iris.properties"
@@ -250,11 +250,11 @@ hash = "2e2540b385fc03a28fe7b6aa64135cd949694dab7a2fccbe6051aee601caf6b4"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/en_us.json"
-hash = "767a726d9736be32a8eeb5cf1b472f815cd59486a247c5c894db5e81683f4582"
+hash = "eba71b897477f9d99f48986f3b1f1dd7856b8458cc5a8801f9cdc844460f4e56"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/ru_ru.json"
-hash = "3dc34ae586fbac59f9893309c429c23c7523676cb31e364910b47fdd3e62bb6e"
+hash = "120aa57e382dd989f9e448ae86ababcd537dd7ab66b1000609428e512adbaa51"
 
 [[files]]
 file = "kubejs/assets/arkhaven/textures/item/aero_lubricant.png"
@@ -330,7 +330,7 @@ hash = "21f49280c8849d134ccf1f87ef4350e47bf391d520a16e0b606ab85a4436378e"
 
 [[files]]
 file = "kubejs/client_scripts/07_keybinds.js"
-hash = "b959f86cea1004ffed03b9685b2e4131973887258a267781437eb0def1972181"
+hash = "b4a5905c28f0b125f1a108f8929a53ff1a313e239d87a00b01db058f8884cd7f"
 
 [[files]]
 file = "kubejs/client_scripts/set_tooltips.js"
@@ -370,7 +370,7 @@ hash = "df85f847cfb09a5ad29a894de471284502e274f60195d1396f1e35a3ce3cfd25"
 
 [[files]]
 file = "kubejs/server_scripts/11_keybook.js"
-hash = "9f0c6f64e9f9f13a41b1506090de9f98a20b1afe3af132604177d41cc996b313"
+hash = "48d5d5601b88bb0e6bbde81a03995b5d1998b62dadda0176575df80607a2c61b"
 
 [[files]]
 file = "kubejs/server_scripts/20_alchemy_logic.js"
@@ -406,7 +406,7 @@ hash = "1609102ddd7683c7f070ec4f29ee24a94d92f11d53c05627f63e8d2e02fbc41f"
 
 [[files]]
 file = "kubejs/server_scripts/65_elites.js"
-hash = "cc7e00d4a6f87fbcff63b82be0973a44835e7c3fc68fbba8cbf2312415ff3b08"
+hash = "194c4846fce8804360753634f3546958a9c0ba5c9866940c8015294b0a9c9426"
 
 [[files]]
 file = "kubejs/server_scripts/66_progression_gates.js"

@@ -1,6 +1,6 @@
 // Arkhaven: a written book with the key layout from client_scripts/07_keybinds.js, given once per layout version.
 // Pages are translate components, so each player reads it in their own language (lang: arkhaven.keybook.*).
-let ARK_KEYBOOK_VERSION = 1
+let ARK_KEYBOOK_VERSION = 2
 let ARK_KEYBOOK_PAGES = 11
 PlayerEvents.loggedIn(event => {
   let player = event.player

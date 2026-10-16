@@ -17,13 +17,13 @@
   ],
   "dimension": "minecraft:overworld",
   "hostile": true,
-  "maxspawndist": 1500,
+  "maxspawndist": 1000,
   "result": "deny"
  },
  {
   "hostile": true,
   "dimension": "minecraft:overworld",
-  "maxspawndist": 1500,
+  "maxspawndist": 1000,
   "random": 0.5,
   "result": "deny"
  },

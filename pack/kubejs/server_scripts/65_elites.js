@@ -1,13 +1,16 @@
 // Arkhaven elites (docs/10_RPG_DANGER.md §6): difficulty grows with the place you choose, not with a world level.
-// Zone 0-1 (overworld within 1500 blocks of spawn): nothing changes, the world stays calm.
-// Zone 2 (1500-3000 blocks, the Aether): some natural monsters spawn as tier-1 elites.
-// Zone 3 (beyond 3000 blocks, the Nether, Twilight Forest, Undergarden, Otherside, End): more, tougher tier-2 elites.
+// Zone 0-1 (overworld within 1000 blocks of spawn): nothing changes, the world stays calm.
+// Beyond 1000 blocks EVERY natural monster is "wild": +100 % health / +50 % damage at 1000 blocks, growing linearly
+// to +300 % / +150 % at 4000 blocks (owner: "сильно бафни мобов после 1к блоков"). Danger dimensions count as 2500.
+// On top of that, elites: tier 1 (1000-2500 blocks, the Aether), tier 2 (beyond 2500, danger dimensions).
 // Elites wear armour (visible on humanoids, never dropped), hit harder, have far more health, and drop extra loot.
 // Spawners, eggs, breeding and /summon never make elites (tests call arkMakeElite directly).
 
 const ARK_ELITE = {
-  nearRadius: 1500, farRadius: 3000,
-  chance: { 1: 0.12, 2: 0.22 },
+  nearRadius: 1000, farRadius: 2500,
+  chance: { 1: 0.2, 2: 0.33 },
+  // wild buff for every monster past nearRadius: value at nearRadius -> value at wildMaxDist (linear, then flat)
+  wild: { health: [1.0, 3.0], damage: [0.5, 1.5], speed: [0.05, 0.15], armor: [2, 8], maxDist: 4000, dimDist: 2500 },
   health: { 1: 1.5, 2: 2.5 },     // +150 % / +250 % max health
   damage: { 1: 0.5, 2: 1.0 },     // +50 % / +100 % attack damage
   speed: { 1: 0.1, 2: 0.15 },
@@ -16,6 +19,38 @@ const ARK_ELITE = {
   // big bosses and mini-bosses already have their own fights
   skipNamespaces: ['cataclysm', 'mowziesmobs', 'irons_spellbooks', 'aquamirae'],
   maxBaseHealth: 80
+}
+
+/** Distance from world spawn that counts for difficulty: real distance in the overworld, a fixed value in danger
+ *  dimensions, 0 elsewhere (the Aether stays light). */
+function arkWildDist(level, x, z) {
+  const lvl = level.getLevel()
+  const dim = String(lvl.dimension)
+  if (ARK_ELITE.dangerDims.indexOf(dim) >= 0) return ARK_ELITE.wild.dimDist
+  if (dim !== 'minecraft:overworld') return 0
+  const s = lvl.getSharedSpawnPos()
+  return Math.sqrt((x - s.getX()) * (x - s.getX()) + (z - s.getZ()) * (z - s.getZ()))
+}
+
+/** Wild buff for any natural monster past nearRadius; stronger the farther it is. */
+function arkMakeWild(mob, dist) {
+  const w = ARK_ELITE.wild
+  const k = Math.min(1, Math.max(0, (dist - ARK_ELITE.nearRadius) / (w.maxDist - ARK_ELITE.nearRadius)))
+  const lerp = r => r[0] + (r[1] - r[0]) * k
+  const Attributes = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes')
+  const AttributeModifier = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier')
+  const Op = Java.loadClass('net.minecraft.world.entity.ai.attributes.AttributeModifier$Operation')
+  const RL = Java.loadClass('net.minecraft.resources.ResourceLocation')
+  const add = (attr, amount, name, op) => {
+    const inst = mob.getAttribute(attr)
+    if (inst && amount > 0) inst.addPermanentModifier(new AttributeModifier(RL.fromNamespaceAndPath('arkhaven', 'wild_' + name), amount, op))
+  }
+  add(Attributes.MAX_HEALTH, lerp(w.health), 'health', Op.ADD_MULTIPLIED_BASE)
+  add(Attributes.ATTACK_DAMAGE, lerp(w.damage), 'damage', Op.ADD_MULTIPLIED_BASE)
+  add(Attributes.MOVEMENT_SPEED, lerp(w.speed), 'speed', Op.ADD_MULTIPLIED_BASE)
+  add(Attributes.ARMOR, lerp(w.armor), 'armor', Op.ADD_VALUE)
+  mob.setHealth(mob.getMaxHealth())
+  mob.getPersistentData().putBoolean('ark_wild', true)
 }
 
 function arkEliteTier(level, x, z) {
@@ -75,6 +110,8 @@ function arkOnFinalizeSpawn(e) {
   if (ARK_ELITE.skipNamespaces.indexOf(id.split(':')[0]) >= 0) return
   const Attr = Java.loadClass('net.minecraft.world.entity.ai.attributes.Attributes')
   if (mob.getAttributeBaseValue(Attr.MAX_HEALTH) > ARK_ELITE.maxBaseHealth) return
+  const dist = arkWildDist(e.getLevel(), e.getX(), e.getZ())
+  if (dist >= ARK_ELITE.nearRadius) arkMakeWild(mob, dist)
   const tier = arkEliteTier(e.getLevel(), e.getX(), e.getZ())
   if (tier === 0) return
   if (Math.random() >= ARK_ELITE.chance[tier]) return
