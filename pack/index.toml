@@ -225,6 +225,14 @@ file = "config/neoorigins/gameplay.toml"
 hash = "3a6777c916c6ae098c69e7676690a78740bc4db9d23aafe763d490f1c6bf2f3e"
 
 [[files]]
+file = "config/particle_core_config.toml"
+hash = "a12a91bce2492e08a9131cd8cf980f74c551f3bc2d8e7cf9d470f93b5864cb3c"
+
+[[files]]
+file = "config/particle_core_disabled_optimizations_v2.json"
+hash = "55e7bba15bb99b6d6149a3430392fadbb3d4fe198e2ae6a879ea9789910334c0"
+
+[[files]]
 file = "config/smallships-client.toml"
 hash = "0ea2d6b958528a2a97317f47d75ab5239113ec815f9cd463c911df855846fabf"
 
