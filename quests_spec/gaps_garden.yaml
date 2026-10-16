@@ -1,0 +1,68 @@
+# Key-item gaps in the garden: Farm & Charm tools and crops, Vinery seeds and gear.
+extends: garden
+lang: [farm_and_charm, vinery]
+out: gaps_garden_gen
+quests:
+  - id: ggd_fac_crops
+    deps: [g_farm_charm_crops]
+    roles: [gardener]
+    items: [farm_and_charm:barley_seeds*4, farm_and_charm:oat_seeds*4, farm_and_charm:lettuce_seeds*4, farm_and_charm:strawberry_seeds*4]
+    title: {ru: "Семена Farm & Charm", en: "Farm & Charm Seeds"}
+    why: {ru: "Ячмень, овёс, салат и клубника — основа хлеба, корма для скота и завтраков.", en: "Barley, oats, lettuce and strawberries."}
+  - id: ggd_fac_tools
+    deps: [g_plow]
+    roles: [gardener, engineer]
+    items: [farm_and_charm:seeder, farm_and_charm:pitchfork]
+    title: {ru: "Сеялка и вилы", en: "Seeder and Pitchfork"}
+    why: {ru: "Сеялка засевает поле рядами, вилы помогают управляться с сеном. Как ими пользоваться — в подсказках.", en: "The seeder plants rows; see tooltips for both."}
+  - id: ggd_fac_cart
+    deps: [ggd_fac_tools]
+    roles: [gardener, mayor]
+    items: [farm_and_charm:supply_cart]
+    why: {ru: "Повозка с припасами — возить урожай и инструменты по полям.", en: "A supply cart for your fields."}
+  - id: ggd_fac_soil
+    deps: [g_fertilizer]
+    roles: [gardener]
+    items: [farm_and_charm:fertilized_soil*4]
+    why: {ru: "Удобренная почва ускоряет рост культур Farm & Charm.", en: "Speeds up crop growth."}
+  - id: ggd_fac_silo
+    deps: [ggd_fac_crops]
+    roles: [gardener, engineer]
+    items: [farm_and_charm:silo_wood]
+    why: {ru: "Силос сушит и хранит зерно — сырьё для муки и корма.", en: "Dries and stores grain."}
+  - id: ggd_fac_flour
+    deps: [ggd_fac_silo]
+    roles: [cook]
+    items: [farm_and_charm:flour*4, farm_and_charm:yeast]
+    title: {ru: "Мука и дрожжи", en: "Flour and Yeast"}
+    why: {ru: "Из муки и дрожжей — хлеб и выпечка Farm & Charm.", en: "For bread and baking."}
+  - id: ggd_fac_feed
+    deps: [a_trough]
+    roles: [breeder]
+    items: [farm_and_charm:horse_fodder, farm_and_charm:chicken_feed]
+    title: {ru: "Корма", en: "Animal Feed"}
+    why: {ru: "Корм в кормушке — животные сами едят и плодятся быстрее.", en: "Feed in troughs keeps animals breeding."}
+  - id: ggd_fac_cleaver
+    title: {en: Iron Cleaver, ru: Железный тесак}
+    deps: [g_farm_charm_crops]
+    roles: [cook]
+    items: [farm_and_charm:iron_cleaver]
+    why: {en: A butcher's cleaver; upgradable to diamond and netherite., ru: Тесак Farm & Charm — кухонный инструмент для разделки. Его улучшают до алмазного и незеритового.}
+  - id: ggd_fac_dungarees
+    deps: [g_farm_charm_crops]
+    roles: [gardener]
+    items: [farm_and_charm:dungarees]
+    title: {ru: "Рабочий комбинезон", en: "Dungarees"}
+    why: {en: Farmer's work clothes., ru: Рабочий комбинезон фермера — одежда для работы в поле.}
+  - id: ggd_vinery_seeds
+    deps: [g_grapes]
+    roles: [gardener]
+    items: [vinery:red_grape_seeds*4, vinery:white_grape_seeds*4, vinery:apple_tree_sapling]
+    title: {ru: "Лозы и яблони", en: "Vines and Apple Trees"}
+    why: {ru: "Красный и белый виноград для разных вин, яблоня — для сидра и яблочного вина.", en: "Red and white grapes; apples for cider."}
+  - id: ggd_vinery_gear
+    deps: [k_vinery_barrel]
+    roles: [cook]
+    items: [vinery:grapevine_pot, vinery:storage_pot, vinery:winemaker_apron]
+    title: {ru: "Снаряжение винодела", en: "Winemaker's Gear"}
+    why: {ru: "Горшок для лозы, горшок-хранилище и фартук винодела — снаряжение для виноградника.", en: "Vineyard gear."}

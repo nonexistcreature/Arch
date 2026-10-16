@@ -675,6 +675,146 @@
 		"With a mechanical mixer and a Farmer's Delight pot, the kitchen runs itself."
 		"&lWho helps:&r the engineer handles shafts, the cook handles recipes. A two-person job!"
 	]
+	quest.135795A71D81D694.title: "The Cook as Support"
+	quest.135795A71D81D694.quest_desc: [
+		"&lWhy:&r Some dishes give effects on top of food: the cook supports miners, warriors and mages. Eating the same dish again only refreshes it."
+	]
+	quest.6E1778D8A44CE160.title: "Miner's Food"
+	quest.6E1778D8A44CE160.quest_desc: [
+		"&lWhy:&r Shepherd's pie: Haste II 5 min. Farmer's breakfast: Speed + Haste 5 min."
+	]
+	quest.6A11C193E0D12892.title: "Warrior's Food"
+	quest.6A11C193E0D12892.quest_desc: [
+		"&lWhy:&r Steak: Strength 5 min. Beef stew: Resistance + Fire Res 5 min. Meatball pasta: Health Boost 10 min."
+	]
+	quest.4072A99029024262.title: "Quiche"
+	quest.4072A99029024262.quest_desc: [
+		"&lWhy:&r Absorption II for 3 min."
+	]
+	quest.1A9E93EF942600C7.title: "Diver's Food"
+	quest.1A9E93EF942600C7.quest_desc: [
+		"&lWhy:&r Fish stew: Water Breathing 8 min. Baked cod stew: Dolphin's Grace 3 min. Squid ink pasta: Night Vision 8 + Water Breathing 4."
+	]
+	quest.702ECDF435736516.title: "Mushroom Rice"
+	quest.702ECDF435736516.quest_desc: [
+		"&lWhy:&r Night Vision for 8 min."
+	]
+	quest.2036C997646A03E4.title: "Spicy Curry"
+	quest.2036C997646A03E4.quest_desc: [
+		"&lWhy:&r Fire Resistance 10 min + Speed 3 min. Fiery fondue: Fire Resistance 8 min."
+	]
+	quest.2DEAB12C3830F530.title: "Dragon Meat Stew"
+	quest.2DEAB12C3830F530.quest_desc: [
+		"&lWhy:&r Resistance II 8 min + Regeneration II 1 min: the best pre-boss meal."
+	]
+	quest.03465E44836640EE.title: "Fugu Roll and Cheese Tart"
+	quest.03465E44836640EE.quest_desc: [
+		"&lWhy:&r Fugu roll: Luck 10 min. Cheese tart slice: Regeneration 1 min."
+	]
+	quest.38784B0D5D34EF76.title: "Mage's Green Tea"
+	quest.38784B0D5D34EF76.quest_desc: [
+		"&lWhy:&r Instantly restores Iron's Spells mana."
+	]
+	quest.7ECEF7F58A9B3CDA.title: "Better Knives"
+	quest.7ECEF7F58A9B3CDA.quest_desc: [
+		"&lWhy:&r The cook's main tool; better knives last longer."
+	]
+	quest.4FF788CF5D10A66E.title: "Compost and Rich Soil"
+	quest.4FF788CF5D10A66E.quest_desc: [
+		"&lWhy:&r Compost turns into rich soil: faster crops, mushroom colonies."
+	]
+	quest.193760530AC35886.title: "Canvas and Rope"
+	quest.193760530AC35886.quest_desc: [
+		"&lWhy:&r Straw makes canvas and rope."
+	]
+	quest.6E84C97E464724B7.title: "Feasts"
+	quest.6E84C97E464724B7.quest_desc: [
+		"&lWhy:&r A feast on the table feeds the whole team."
+	]
+	quest.799DA8835323A01B.title: "Pet Food"
+	quest.799DA8835323A01B.quest_desc: [
+		"&lWhy:&r Heals and buffs your wolf or horse."
+	]
+	quest.1544CEE0C9E5F1B8.title: "Hot Cocoa"
+	quest.1544CEE0C9E5F1B8.quest_desc: [
+		"&lWhy:&r Removes a harmful effect."
+	]
+	quest.102AF469BEA729E0.title: "Pot of Fiery Fondue"
+	quest.102AF469BEA729E0.quest_desc: [
+		"&lWhy:&r Serve fiery fondue (Fire Resistance 8 min) from the pot."
+	]
+	quest.7898C57305FF3E66.title: "Kimchi"
+	quest.7898C57305FF3E66.quest_desc: [
+		"&lWhy:&r The keg also ferments kimchi and pickles."
+	]
+	quest.1686D76162BF6064.title: "Special Keg Drinks"
+	quest.1686D76162BF6064.quest_desc: [
+		"&lWhy:&r Each drink has its own effect (see tooltip). Mind the tipsiness."
+	]
+	quest.5419775EAE5A317A.title: "The Whole Drinks Menu"
+	quest.5419775EAE5A317A.quest_desc: [
+		"&lWhy:&r The full keg menu for taverns and festivals."
+	]
+	quest.049645B632B54C1A.title: "Tea Maker's Kit"
+	quest.049645B632B54C1A.quest_desc: [
+		"&lWhy:&r Kettle for tea, cauldron for herbal brews, a flask for the road."
+	]
+	quest.02BD781BD2F7F20D.title: "Tea Collection"
+	quest.02BD781BD2F7F20D.quest_desc: [
+		"&lWhy:&r Each tea has its effect; tea never makes you tipsy."
+	]
+	quest.3A2744F34E9EDAA3.title: "Coffee and Herbal Infusion"
+	quest.3A2744F34E9EDAA3.quest_desc: [
+		"&lWhy:&r Energising drinks; see tooltips."
+	]
+	quest.737033D197169390.title: "Nether Stove and Soil"
+	quest.737033D197169390.quest_desc: [
+		"&lWhy:&r A nether stove and a soil that grows nether crops."
+	]
+	quest.6C1F0FA02E7CDC9C.title: "Nether Dishes"
+	quest.6C1F0FA02E7CDC9C.quest_desc: [
+		"&lWhy:&r Hearty dishes from Nether drops."
+	]
+	quest.5498224640D2A479.title: "Powder Cannon"
+	quest.5498224640D2A479.quest_desc: [
+		"&lWhy:&r A nether-kitchen weapon; see its tooltip."
+	]
+	quest.73CE854051068704.title: "End Kitchen"
+	quest.73CE854051068704.quest_desc: [
+		"&lWhy:&r Stove, dragon-tooth knife and chorus grain for End dishes."
+	]
+	quest.5B2F5404A4DE5956.title: "End Dishes"
+	quest.5B2F5404A4DE5956.quest_desc: [
+		"&lWhy:&r Exotic End cooking."
+	]
+	quest.7DAD0ACA7DDA94E8.title: "Ocean Dishes"
+	quest.7DAD0ACA7DDA94E8.quest_desc: [
+		"&lWhy:&r Trophy cooking after ocean monuments."
+	]
+	quest.278D0C6526F847C5.title: "Alpine Kitchen"
+	quest.278D0C6526F847C5.quest_desc: [
+		"&lWhy:&r Rennet turns milk into cheese."
+	]
+	quest.21F1D9C15008A584.title: "Fur Clothing and Climbing Rope"
+	quest.21F1D9C15008A584.quest_desc: [
+		"&lWhy:&r Felting, warm fur clothes and a climbing rope."
+	]
+	quest.76E39E58181ABD20.title: "Cooked Buffalo Meat"
+	quest.76E39E58181ABD20.quest_desc: [
+		"&lWhy:&r Hearty meat from alpine meadows."
+	]
+	quest.6EE0AC2BE6C1C409.title: "Chocolate Factory"
+	quest.6EE0AC2BE6C1C409.quest_desc: [
+		"&lWhy:&r Dark, white, ruby chocolate and caramel from Create machines."
+	]
+	quest.0B44A43C062E52F9.title: "Sweets"
+	quest.0B44A43C062E52F9.quest_desc: [
+		"&lWhy:&r Sweets for festivals."
+	]
+	quest.37D9FDF708BD78FB.title: "Candy Cane Pickaxe"
+	quest.37D9FDF708BD78FB.quest_desc: [
+		"&lWhy:&r A festive, working candy-cane pickaxe."
+	]
 	quest.4F947AD7FACA9BC3.title: "A Better Knife"
 	quest.4F947AD7FACA9BC3.quest_desc: [
 		"An iron knife lasts longer and cuts faster. Later come diamond and netherite."
@@ -1178,6 +1318,50 @@
 	quest.72B5ECDBCD5107D7.quest_desc: [
 		"You feed the group and supply its metal. Next up: bees (chapter \"Animals\") and"
 		"the Terraformer in \"Great Works\": it changes the biome of whole districts."
+	]
+	quest.6E3F9A20B6CDF29B.title: "Farm & Charm Seeds"
+	quest.6E3F9A20B6CDF29B.quest_desc: [
+		"&lWhy:&r Barley, oats, lettuce and strawberries."
+	]
+	quest.2CC66B18E7640E02.title: "Seeder and Pitchfork"
+	quest.2CC66B18E7640E02.quest_desc: [
+		"&lWhy:&r The seeder plants rows; see tooltips for both."
+	]
+	quest.44E407B406222767.title: "Supply Cart"
+	quest.44E407B406222767.quest_desc: [
+		"&lWhy:&r A supply cart for your fields."
+	]
+	quest.0B4D9E6A93657CCC.title: "Fertilized Soil"
+	quest.0B4D9E6A93657CCC.quest_desc: [
+		"&lWhy:&r Speeds up crop growth."
+	]
+	quest.3E6039B2E1EC5D4D.title: "Wooden Silo"
+	quest.3E6039B2E1EC5D4D.quest_desc: [
+		"&lWhy:&r Dries and stores grain."
+	]
+	quest.7042D31478E42778.title: "Flour and Yeast"
+	quest.7042D31478E42778.quest_desc: [
+		"&lWhy:&r For bread and baking."
+	]
+	quest.5003EC30F1343420.title: "Animal Feed"
+	quest.5003EC30F1343420.quest_desc: [
+		"&lWhy:&r Feed in troughs keeps animals breeding."
+	]
+	quest.43002421A4BC11D5.title: "Iron Cleaver"
+	quest.43002421A4BC11D5.quest_desc: [
+		"&lWhy:&r A butcher's cleaver; upgradable to diamond and netherite."
+	]
+	quest.1AA8B6050514A94B.title: "Dungarees"
+	quest.1AA8B6050514A94B.quest_desc: [
+		"&lWhy:&r Farmer's work clothes."
+	]
+	quest.2BDF29D32725CD05.title: "Vines and Apple Trees"
+	quest.2BDF29D32725CD05.quest_desc: [
+		"&lWhy:&r Red and white grapes; apples for cider."
+	]
+	quest.55F8D9A062829883.title: "Winemaker's Gear"
+	quest.55F8D9A062829883.quest_desc: [
+		"&lWhy:&r Vineyard gear."
 	]
 	quest.7CB48C4FD3A9F3DF.title: "The Season Sensor"
 	quest.7CB48C4FD3A9F3DF.quest_desc: [

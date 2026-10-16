@@ -110,7 +110,7 @@ hash = "cf5a3763524f715a46e7834ad5b10aa0d4f67d68084433bb961bfa29a9692dd7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/garden.snbt"
-hash = "e092ddabd01acca6231c4a8ccfb4c9dde3b63e01b01d6da8897a01130f157435"
+hash = "0a362de08700e9e6fc5c0eea2d2ebae2522bebcd684317b4ce84aade37ce3fe8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/great_works.snbt"
@@ -130,7 +130,7 @@ hash = "7a7df72097eca0f011e92f7ddadfaf2ce49ccc3b5e36b94443a389cd29f9b216"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kitchen.snbt"
-hash = "a73a5679ddd6869e5fb74b8940a7cca59638c9b61055ddf7cfc3eddc1874e03a"
+hash = "03c455e629a18ca658953323092790534cbdb23edf958b6ed8c03aa8cc821dbb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
@@ -194,11 +194,11 @@ hash = "462be260324d4e1288a1a4476d4de0ec35126e18a4ce443be04df10d784560c5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "b8128ccd780ab4f2d50faee48e9963155aa0370b97463f80aa380120a30830a3"
+hash = "7a5db90942d68de16c42b1f3c52c3c055d952ade4e0538c4848088c496773a46"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "9e11a45beeefbd5dd21013ef2481c3a923d8d191ac8780748641e1090b697ff4"
+hash = "c575e52cef57e25843c5140c2a6acb47390ea055d75405240e7d36d98aecd31d"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -394,7 +394,7 @@ hash = "c11f7b38713be52de96e3c304a7750b5ff5bd441410dde2958022de95930d212"
 
 [[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
-hash = "fa868474913c4bf150dcf5e028ef5061bc6c5b51a4c7336f0521746d2de0b568"
+hash = "c242400e16d1ad5a219dbbce26ed4034a7496615735c695bacef7b5a6cf7c7f0"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"

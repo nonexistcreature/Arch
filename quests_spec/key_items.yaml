@@ -115,3 +115,23 @@ immersiveengineering: {quested: true, add: [maintenance_kit, gunpowder_barrel, b
   redstone_state_cell, empty_casing, fluorescent_tube, reinforced_crate, toolupgrade_revolver_bayonet,
   toolupgrade_railgun_scope, toolupgrade_shield_flash]}
 occultism: {quested: true, add: [storage_stabilizer_tier2, storage_stabilizer_tier3, chalk_red, raw_iesnium, silver_ore, tallow]}
+# --- food and farming: stations, crops, tools, and dishes/drinks that DO something (buffs in 40_food_buffs.js, unique effects)
+farmersdelight: {quested: true, add: [diamond_knife, netherite_knife, rich_soil, organic_compost, rope, tomato_seeds,
+  cabbage_seeds, beef_stew, fish_stew, baked_cod_stew, pasta_with_meatballs, mushroom_rice, squid_ink_pasta,
+  steak_and_potatoes, shepherds_pie_block, roast_chicken_block, honey_glazed_ham_block, dog_food, horse_feed, hot_cocoa, canvas]}
+farm_and_charm: {quested: true, add: [seeder, silo_wood, supply_cart, pitchfork, iron_cleaver, fertilized_soil, dungarees,
+  farmers_breakfast, horse_fodder, chicken_feed, yeast, flour, barley_seeds, oat_seeds, lettuce_seeds, strawberry_seeds]}
+brewinandchewin: {quested: true, add: [fiery_fondue_pot, quiche_slice, kimchi, red_rum, withering_dross, dread_nog,
+  glittering_grenadine, pale_jane, egg_grog, salty_folly]}
+vinery: {quested: true, add: [winemaker_apron, grapevine_pot, apple_tree_sapling, red_grape_seeds, white_grape_seeds, storage_pot]}
+herbalbrews: {quested: true, add: [green_tea, black_tea, oolong_tea, rooibos_tea, hibiscus_tea, yerba_mate_tea, coffee,
+  milk_coffee, herbal_infusion, tea_kettle, cauldron, flask]}
+mynethersdelight: {quested: true, add: [nether_bricks_stove, resurgent_soil, powder_cannon, spicy_curry, letios_compost,
+  spicy_hoglin_stew, strider_stew, hot_cream, ghasta]}
+ends_delight: {quested: true, add: [end_stove, dragon_tooth_knife, dragon_meat_stew, chorus_fruit_grain, shulker_soup,
+  ender_noodle, dragon_breath_soda]}
+meadow: {quested: true, add: [cheese_tart_slice, fondue_pot, cookpot, wooden_cauldron, felting_needle, fur_chestplate,
+  climbing_rope, rennet, cooked_buffalo_meat]}
+oceansdelight: {quested: true, add: [fugu_roll, bowl_of_guardian_soup, elder_guardian_roll, stuffed_squid, braised_sea_pickle]}
+create_confectionery: {quested: true, add: [bar_of_black_chocolate, bar_of_white_chocolate, bar_of_ruby_chocolate,
+  bar_of_caramel, marshmallow_on_a_stick, gingerbread_man, candy_cane_pickaxe, soothing_hot_chocolate]}
