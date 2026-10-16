@@ -14,7 +14,7 @@ quests:
   shape: gear
   icon: garnished:walnut
   ru:
-    title: Орехи Garnished
+    title: Орехи
     subtitle: ''
     text: '**Зачем:** Орехи растут на деревьях в мире — ищи их, исследуя леса. Это сырьё для десятков блюд Create: колоть, глазировать, жарить в незерском огне.
 
@@ -183,13 +183,17 @@ quests:
   - cook
   icon: garnished:garnished_meal
   ru:
-    title: Обед из Garnished
+    title: Обед из орехов
     subtitle: ''
-    text: '**Зачем:** Сытный обед из орехов, глазури и салата — повар кормит всю бригаду.'
+    text: '**Зачем:** Сытный обед из орехов, глазури и салата — повар кормит всю бригаду.
+
+      Создайте приправленную еду'
   en:
     title: A Garnished Lunch
     subtitle: ''
-    text: '**Why:** A filling meal for the whole crew.'
+    text: '**Why:** A filling meal for the whole crew.
+
+      Obtain Garnished Meal'
 - id: cag_extruder
   tasks:
   - type: item
@@ -369,7 +373,7 @@ quests:
   shape: gear
   icon: dndecor:breaker_switch
   ru:
-    title: Design n' Decor
+    title: Декор в стиле Create
     subtitle: ''
     text: '**Зачем:** Сотни декоративных блоков в стиле Create: мостки, лампы, болты, листовой металл, рубильники, бочки-котлы. Делай заводы красивыми, а не коробками.'
   en:

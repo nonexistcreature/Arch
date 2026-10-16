@@ -125,12 +125,14 @@ quests:
     items: [ars_nouveau:spell_crossbow]
     doc: page1.spell_crossbow
   - id: arsg_gauntlet
+    title: {en: Enchanter's Gauntlet, ru: Перчатка зачарователя}
     deps: [arsg_sword]
     roles: [mage, engineer]
     items: [ars_nouveau:enchanters_gauntlet]
     doc: page1.enchanters_gauntlet
     why: {ru: "Перчатка-мультиинструмент: копает как алмаз и творит вписанное заклинание.", en: "A multi-tool gauntlet: digs at diamond hardness and casts its inscribed spell."}
   - id: arsg_fishing
+    title: {en: Enchanter's Fishing Rod, ru: Удочка зачарователя}
     deps: [arsg_spellcraft]
     roles: [mage]
     items: [ars_nouveau:enchanters_fishing_rod]
@@ -207,6 +209,7 @@ quests:
     items: [ars_nouveau:bookwyrm_charm]
     doc: page1.bookwyrm_charm
   - id: arsg_catalog
+    title: {en: Repository Catalog, ru: Каталог хранилища}
     deps: [arsg_lectern]
     roles: [mage]
     items: [ars_nouveau:repository_controller]
@@ -372,6 +375,7 @@ quests:
     title: {ru: "Заросший ходок", en: "Weald Walker"}
     doc: page1.weald_walker
   - id: arsg_alakarkinos
+    title: {en: Alakarkinos Charm, ru: Талисман Алакаркиноса}
     deps: [ars_drygmy]
     roles: [mage]
     items: [ars_nouveau:alakarkinos_charm]
@@ -403,6 +407,7 @@ quests:
     doc: page1.warp_portal
     why: {ru: "Постоянный портал в любую точку измерения — общая транспортная сеть для сервера.", en: "A permanent portal to any spot in the dimension: a shared transport network for the server."}
   - id: arsg_planarium
+    title: {en: Planarium, ru: Планариум}
     deps: [arsg_portal]
     roles: [mage, builder]
     items: [ars_nouveau:planarium]
@@ -415,10 +420,10 @@ quests:
     title: {ru: "Око провидца", en: "Scryer's Oculus"}
     why: {ru: "Смотри глазами кристалла, поставленного далеко — видеонаблюдение за фермой или входом в базу.", en: "Watch through a crystal placed far away: a camera for your farm or base entrance."}
   - id: arsg_master
+    title: {en: Ars Nouveau Master, ru: Магистр Ars Nouveau}
     deps: [arsg_creative_flow, arsg_battlemage, arsg_thread, arsg_lectern, arsg_planarium, arsg_rit_disintegration, arsg_familiar, arsg_golem, arsg_turret_rotating]
     roles: [mage]
     shape: hexagon
     icon: ars_nouveau:archmage_spell_book
-    title: {ru: "Магистр Ars Nouveau", en: "Master of Ars Nouveau"}
     text: {ru: "Исток течёт сам, помощники работают, броня и оружие напитаны магией. Остальное — твоя фантазия в книге заклинаний.", en: "Source flows by itself, helpers work, armour and weapons are steeped in magic. The rest is your imagination in the spell book."}
     rewards: [{type: xp_levels, count: 15}]

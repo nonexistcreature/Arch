@@ -1,0 +1,132 @@
+# Key-item gaps: AE2 (from its guidebook), MEGA Cells, AE2 Wireless Terminals.
+extends: storage
+lang: [ae2, megacells, ae2wtlib]
+autodoc: ["item.{ns}.{path}.tooltip", "gui.tooltips.{ns}.{path}"]
+out: gaps_storage2_gen
+quests:
+  # --- AE2
+  - id: gae_patterns
+    deps: [ae2g_patterns]
+    roles: [engineer]
+    items: [ae2:processing_pattern]
+    title: {ru: "Шаблоны обработки", en: "Processing Patterns"}
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/patterns.md
+    why: {ru: "Шаблон крафта — для верстака, шаблон обработки — для любых машин: печь, дробилка, пресс Create. Так AE2 сам гонит руду через твой завод.", en: "Processing patterns drive any machine: furnaces, crushers, Create presses."}
+  - id: gae_pattern_access
+    deps: [gae_patterns]
+    roles: [engineer]
+    items: [ae2:pattern_access_terminal]
+    why: {ru: "Терминал доступа к шаблонам — правишь все шаблоны сети из одного места, не бегая по поставщикам.", en: "Edit every pattern in the network from one place."}
+  - id: gae_wireless_crafting
+    deps: [ae_wireless]
+    roles: [engineer]
+    items: [ae2:wireless_crafting_terminal]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/wireless_terminals.md
+    why: {ru: "Беспроводной терминал с сеткой крафта — заказывай и крафти из любой точки в зоне точки доступа.", en: "Order and craft from anywhere in range."}
+  - id: gae_cards
+    deps: [ae2g_cards]
+    roles: [engineer]
+    items: [ae2:crafting_card, ae2:redstone_card, ae2:void_card]
+    title: {ru: "Карты улучшений", en: "Upgrade Cards"}
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/upgrade_cards.md
+    why: {ru: "Карта крафта — шина экспорта сама заказывает недостающее, карта редстоуна — работа по сигналу, карта пустоты — ячейка уничтожает излишки.", en: "Crafting, redstone and void cards change how buses and cells behave."}
+  - id: gae_p2p_more
+    deps: [ae_p2p]
+    roles: [engineer]
+    items: [ae2:item_p2p_tunnel, ae2:fe_p2p_tunnel, ae2:fluid_p2p_tunnel]
+    title: {ru: "P2P для предметов, энергии и жидкостей", en: "Item, Energy and Fluid P2P"}
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/p2p_tunnels.md
+    why: {ru: "P2P-туннели передают предметы, энергию и жидкости через ME-кабель вместо отдельных труб и проводов.", en: "Carry items, power and fluids over ME cable."}
+  - id: gae_quantum_singularity
+    deps: [ae2g_quantum]
+    roles: [engineer]
+    items: [ae2:quantum_entangled_singularity*2]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/quantum_bridge.md
+    why: {ru: "Пара запутанных сингулярностей связывает два квантовых кольца — сеть работает между измерениями.", en: "A linked pair joins two quantum rings across dimensions."}
+  - id: gae_spatial_cell
+    deps: [ae2g_spatial]
+    roles: [engineer]
+    items: [ae2:spatial_cell_component_2]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/spatial_cells.md
+    why: {en: Stores a 2x2x2 chunk of the world for moving builds., ru: 'Компонент пространственной ячейки — сердце ячейки, которая хранит кусок мира 2×2×2 и переносит его через пространственный порт. Переезд построек и фермы в кармане.'}
+  - id: gae_annihilation
+    deps: [ae2g_planes]
+    roles: [engineer]
+    items: [ae2:annihilation_core]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/formation_annihilation_core.md
+    why: {en: Part of annihilation planes and buses., ru: 'Ядро аннигиляции — деталь плоскостей разрушения и шин: всё, что сеть ломает или забирает, начинается с него.'}
+  - id: gae_portable_cell
+    deps: [ae2g_cells]
+    roles: [engineer]
+    items: [ae2:portable_item_cell_1k, ae2:fluid_storage_cell_16k]
+    title: {ru: "Переносная и жидкостная ячейки", en: "Portable and Fluid Cells"}
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/storage_cells.md
+    why: {en: A pocket storage cell; fluid cells hold buckets in ME., ru: 'Переносная ячейка — маленький склад в кармане без сети. Жидкостная ячейка хранит вёдра в ME, как предметы.'}
+  - id: gae_energy_acceptor_cable
+    deps: [ae2g_energy]
+    roles: [engineer]
+    items: [ae2:cable_energy_acceptor]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/energy_acceptor.md
+    why: {en: Feeds any mod's power into ME without a full block., ru: 'Тонкий приёмник энергии на кабеле: подключает к ME-сети энергию любого мода, не занимая целый блок.'}
+  - id: gae_fluix_template
+    deps: [ae2g_tools]
+    roles: [engineer]
+    items: [ae2:fluix_upgrade_smithing_template]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/fluix_tools.md
+    why: {en: Upgrades quartz tools to fluix., ru: Шаблон улучшает кварцевые инструменты до флюиксовых — прочнее и быстрее.}
+  - id: gae_name_press
+    deps: [ae2g_presses]
+    roles: [engineer]
+    items: [ae2:name_press]
+    doc: md:assets/ae2/ae2guide/items-blocks-machines/inscriber.md
+    why: {ru: "Пресс имени в высекателе подписывает предметы — удобно метить ячейки и терминалы.", en: "Names items in the inscriber."}
+  # --- MEGA Cells
+  - id: gmg_sky_steel
+    deps: [ae_mega]
+    roles: [engineer]
+    items: [megacells:sky_steel_ingot*4, megacells:accumulation_processor]
+    title: {ru: "Небесная сталь и процессор накопления", en: "Sky Steel and Accumulation Processor"}
+    why: {ru: "Небесная сталь и процессор накопления — основа деталей MEGA Cells.", en: "The base of MEGA Cells parts."}
+  - id: gmg_1m_cell
+    deps: [gmg_sky_steel]
+    roles: [engineer]
+    items: [megacells:cell_component_1m, megacells:item_storage_cell_1m]
+    title: {ru: "Ячейка на миллион", en: "1M Cell"}
+    why: {ru: "Ячейки MEGA начинаются с 1M — в 16 раз больше лучшей ячейки AE2.", en: "MEGA cells start at 1M."}
+  - id: gmg_other_cells
+    deps: [gmg_1m_cell]
+    roles: [engineer]
+    items: [megacells:fluid_storage_cell_1m, megacells:chemical_storage_cell_1m]
+    title: {ru: "Жидкости и химикаты на миллион", en: "1M Fluid and Chemical Cells"}
+    why: {en: Millions of buckets and chemicals in one drive., ru: Жидкости и химикаты Mekanism тоже хранятся миллионами — один диск вместо стены баков.}
+  - id: gmg_bulk
+    deps: [ae_bulk_cell]
+    roles: [engineer]
+    items: [megacells:bulk_cell_component, megacells:compression_card]
+    title: {ru: "Сжатие в навальной ячейке", en: "Bulk Compression"}
+    why: {ru: "Навальная ячейка хранит один предмет почти бесконечно, а карта сжатия сама переводит слитки в блоки и обратно.", en: "Bulk cells hold one item endlessly; the compression card converts ingots and blocks."}
+  - id: gmg_interface
+    deps: [ae2g_interface]
+    roles: [engineer]
+    items: [megacells:mega_interface, megacells:cable_mega_pattern_provider]
+    title: {ru: "MEGA-интерфейс и поставщик", en: "MEGA Interface and Provider"}
+    why: {ru: "Больше слотов и быстрее — для огромных фабрик автокрафта.", en: "More slots and speed for huge autocrafting."}
+  - id: gmg_workbench
+    deps: [gmg_1m_cell]
+    roles: [engineer]
+    items: [megacells:portable_cell_workbench, megacells:cell_dock]
+    title: {ru: "Переносной верстак ячеек и док", en: "Portable Cell Workbench and Dock"}
+    why: {en: Configure cells on the go; the dock holds a cell on a cable., ru: 'Переносной верстак ячеек настраивает ячейки на ходу, док держит ячейку прямо на кабеле без привода.'}
+  - id: gmg_energy
+    deps: [ae_mega]
+    roles: [engineer]
+    items: [megacells:mega_energy_cell, megacells:greater_energy_card]
+    title: {ru: "MEGA-энергия", en: "MEGA Energy"}
+  # --- AE2 Wireless Terminals
+    why: {en: Huge network energy buffer and more charge for portable tools., ru: 'MEGA-ячейка энергии держит огромный запас для сети, большая карта энергии даёт больше заряда переносным инструментам.'}
+  - id: gwt_pattern_terminals
+    deps: [ae_wut]
+    roles: [engineer]
+    items: [ae2wtlib:wireless_pattern_access_terminal, ae2wtlib:wireless_pattern_encoding_terminal]
+    title: {ru: "Беспроводные терминалы шаблонов", en: "Wireless Pattern Terminals"}
+    why: {ru: "Пиши и правь шаблоны на ходу. Их можно встроить в универсальный беспроводной терминал.", en: "Encode and edit patterns on the go; fold them into the universal terminal."}

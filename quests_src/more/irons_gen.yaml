@@ -348,11 +348,13 @@ quests:
   ru:
     title: Настойки
     subtitle: ''
-    text: Dropped from Ominous Bosses
+    text: '**Зачем:** Настойки выпадают со зловещих боссов: «забвения» сбрасывает выученное, «защиты от Незера» спасает от зомбификации.'
   en:
     title: Tinctures
     subtitle: ''
-    text: Dropped from Ominous Bosses
+    text: '**Why:** Dropped by ominous bosses.
+
+      Dropped from Ominous Bosses'
 - id: isg_casters_tea
   tasks:
   - type: item

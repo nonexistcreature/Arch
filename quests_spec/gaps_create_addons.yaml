@@ -144,6 +144,7 @@ quests:
     why: {ru: "Торт опыта: съешь кусок — получи уровни. Подарок новичку от мага.", en: "Eat it for levels."}
   # --- Create: Dragons Plus
   - id: gcd_fragile_tank
+    title: {en: Fragile Fluid Tank, ru: Хрупкий бак}
     deps: [ca_dragon_breath]
     roles: [engineer]
     items: [create_dragons_plus:fragile_fluid_tank]

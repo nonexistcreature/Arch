@@ -40,24 +40,36 @@ FMT = re.compile(r"\$\([^)]*\)|§.|\{\{[^}]*\}\}")
 NL = "\n"
 
 
-def lang_for(namespaces):
-    ru, en = {}, {}
-    for ns in namespaces:
+_LANG_FILES = None  # (path inside jar) -> list of raw texts, read once per run from every jar
+
+
+def _lang_files():
+    global _LANG_FILES
+    if _LANG_FILES is None:
+        _LANG_FILES = {}
         for d in JAR_DIRS:
             for j in d.glob("*.jar"):
                 try:
                     with zipfile.ZipFile(j) as z:
-                        for loc, tgt in (("en_us", en), ("ru_ru", ru)):
-                            n = f"assets/{ns}/lang/{loc}.json"
-                            if n in z.namelist():
-                                raw = z.read(n).decode("utf8", "replace")
-                                try:
-                                    tgt.update(json.loads(raw))
-                                except json.JSONDecodeError:  # some mods ship broken lang json: read "key": "value" lines
-                                    tgt.update({m.group(1): json.loads('"' + m.group(2) + '"')
-                                                for m in re.finditer(r'^\s*"([^"]+)"\s*:\s*"((?:[^"\\]|\\.)*)"', raw, re.M)})
+                        for n in z.namelist():
+                            if n.startswith("assets/") and n.endswith(("/lang/en_us.json", "/lang/ru_ru.json")):
+                                _LANG_FILES.setdefault(n, []).append(z.read(n).decode("utf8", "replace"))
                 except zipfile.BadZipFile:
                     pass
+    return _LANG_FILES
+
+
+def lang_for(namespaces):
+    ru, en = {}, {}
+    files = _lang_files()
+    for ns in namespaces:
+        for loc, tgt in (("en_us", en), ("ru_ru", ru)):
+            for raw in files.get(f"assets/{ns}/lang/{loc}.json", []):
+                try:
+                    tgt.update(json.loads(raw))
+                except json.JSONDecodeError:  # some mods ship broken lang json: read "key": "value" lines
+                    tgt.update({m.group(1): json.loads('"' + m.group(2) + '"')
+                                for m in re.finditer(r'^\s*"([^"]+)"\s*:\s*"((?:[^"\\]|\\.)*)"', raw, re.M)})
     return ru, en
 
 
@@ -171,6 +183,8 @@ def main():
                             hit = next((k for k in sorted(src) if adv.match(k)), None)
                             if hit and not d1:
                                 d1 = doc(hit, src)
+                if loc == "ru":  # many ru_ru files keep untranslated English lines (and English-only guides): never show them in RU
+                    d1, d2 = [x if len(re.findall("[А-Яа-яЁё]", x)) >= len(re.findall("[A-Za-z]", x)) else "" for x in (d1, d2)]
                 body += [x for x in (d1, d2) if x]
                 extra = (q.get("text") or {}).get(loc)
                 if extra:

@@ -5,12 +5,12 @@ autodoc: ["item.{ns}.{path}.tooltip1", "item.{ns}.{path}.tooltip2"]
 out: gaps_combat_gen
 quests:
   - id: gss_types
+    title: {en: The Simply Swords Arsenal, ru: Арсенал мечей}
     deps: [w_combat]
     roles: [warrior]
     shape: gear
     icon: simplyswords:iron_halberd
     tasks: [{type: checkmark}]
-    title: {ru: "Арсенал Simply Swords", en: "The Simply Swords Arsenal"}
     why: {ru: "В Simply Swords 15 типов оружия. У каждого своя скорость, дальность и урон: рапира бьёт часто, но слабо, молот — редко, но тяжело, копьё и алебарда достают дальше. Сделай железную версию каждого типа и найди свой стиль. Материалы (железо → алмаз → незерит → руны) повышают урон, а тип оружия задаёт манеру боя.", en: "15 weapon types with their own speed, reach and damage. Materials raise damage; the type sets your style."}
   - id: gss_light
     deps: [gss_types]

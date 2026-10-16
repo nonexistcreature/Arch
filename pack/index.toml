@@ -42,7 +42,7 @@ hash = "eacebfd32c527457b03eca78b54528076d09dae54994cf185730fd5c17194f73"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars.snbt"
-hash = "39b17a188320ba64a35d0af4104b5903fa9f70e94af7a2a9764d5f2198b4d5d4"
+hash = "5d122cbd6eefb6591d47758c8d00ec9cfa972a8f252e5739cb4f9894e6f3d50d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/atom.snbt"
@@ -162,7 +162,7 @@ hash = "7327b44594ed67b224b86f831ef77dc81f5a8e2daab228c284c26ace4145b851"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
-hash = "20b09d168a36dacecc2f33ffacf63ea75b39d5e0c4885dce59b6860816b38d19"
+hash = "6f8148699098386736a220e5444e22dd7804c39f50a702952e70ded0e13cfa51"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/transport.snbt"
@@ -194,11 +194,11 @@ hash = "462be260324d4e1288a1a4476d4de0ec35126e18a4ce443be04df10d784560c5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "9bc4aa17072d83567b76c658ce84be5c3619c21d3deee934430ed721389ac85c"
+hash = "8bd39626e1e9b31912b61099d5ca6774db1c22610ae2b71d4f087139f7cc4829"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "f74717329bfcf0014195a45a7137c9618923a8ee7d1f480c103d1c7c27691f3e"
+hash = "db21f3c10a1d5f241d6a9d85aa437f55ed364f027769e16cb7f513b1498dfed5"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -394,7 +394,7 @@ hash = "c11f7b38713be52de96e3c304a7750b5ff5bd441410dde2958022de95930d212"
 
 [[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
-hash = "247bea52eecdba7ab66b0ec1dbdb4d785b1743b738b68a35cb1d14c582d3acd2"
+hash = "09f1a9f063d9f28c27cb5ed986b03e2c4bf593c2e461be7af7d4621758dd24f8"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"

@@ -85,7 +85,7 @@ quests:
   - engineer
   icon: tfmg:blast_stove
   ru:
-    title: Blast Stove
+    title: Воздухонагреватель
     subtitle: ''
     text: '**Зачем:** Воздухонагреватель дует в домну горячим воздухом — плавка быстрее.'
   en:
@@ -221,7 +221,7 @@ quests:
   - engineer
   icon: tfmg:galena
   ru:
-    title: Galena
+    title: Галенит
     subtitle: ''
     text: '**Зачем:** Галенит — свинцовая и серебряная руда. Свинец — аккумуляторы и защита от радиации.'
   en:
@@ -240,11 +240,11 @@ quests:
   - engineer
   icon: tfmg:lead_pickaxe
   ru:
-    title: Lead Pickaxe
+    title: Свинцовые инструменты
     subtitle: ''
     text: '**Зачем:** Свинцовые инструменты тяжёлые и медленные, зато долговечные.'
   en:
-    title: Lead Pickaxe
+    title: Lead Tools
     subtitle: ''
     text: '**Why:** Slow but durable.'
 - id: tfg2_surface_scanner
@@ -346,7 +346,7 @@ quests:
   - engineer
   icon: tfmg:metal_smokestack
   ru:
-    title: Metal Smokestack
+    title: Дымовая труба
     subtitle: ''
     text: '**Зачем:** Трубы уводят дым от печей вверх — заводской вид и меньше смога у земли.'
   en:
@@ -405,7 +405,7 @@ quests:
   - engineer
   icon: tfmg:regular_engine
   ru:
-    title: Regular Engine
+    title: Бензиновый двигатель
     subtitle: ''
     text: '**Зачем:** Двигатель на бензине крутит Create-сеть с огромной силой. Нужны свечи, топливо и выхлоп.'
   en:
@@ -429,7 +429,7 @@ quests:
   - engineer
   icon: tfmg:large_engine
   ru:
-    title: Large Engine
+    title: Большой двигатель
     subtitle: ''
     text: '**Зачем:** Большой двигатель собирается из цилиндров на коленвале — чем больше цилиндров, тем мощнее.'
   en:
@@ -448,7 +448,7 @@ quests:
   - engineer
   icon: tfmg:radial_engine
   ru:
-    title: Radial Engine
+    title: Звездообразный двигатель
     subtitle: ''
     text: '**Зачем:** Звездообразный двигатель — компактный и мощный, для самолётов и кораблей.'
   en:
@@ -530,7 +530,7 @@ quests:
   - engineer
   icon: tfmg:multimeter
   ru:
-    title: Multimeter
+    title: Мультиметр
     subtitle: ''
     text: '**Зачем:** Мультиметр показывает напряжение и ток — без него сложно найти, где сеть «просела».'
   en:
@@ -550,7 +550,7 @@ quests:
   - engineer
   icon: tfmg:accumulator
   ru:
-    title: Accumulator
+    title: Аккумулятор
     subtitle: ''
     text: '**Зачем:** Литиевый аккумулятор запасает ток на ночь и пики нагрузки.'
   en:
@@ -571,7 +571,7 @@ quests:
   - engineer
   icon: tfmg:transformer
   ru:
-    title: Transformer
+    title: Трансформатор
     subtitle: ''
     text: '**Зачем:** Трансформатор повышает напряжение для дальних линий и понижает у потребителей.'
   en:
@@ -618,7 +618,7 @@ quests:
   - engineer
   icon: tfmg:winding_machine
   ru:
-    title: Winding Machine
+    title: Намоточный станок
     subtitle: ''
     text: '**Зачем:** Намоточный станок делает катушки и обмотки для моторов и генераторов.'
   en:
@@ -637,13 +637,13 @@ quests:
   - engineer
   icon: tfmg:converter
   ru:
-    title: Converter
+    title: Преобразователь энергии
     subtitle: ''
-    text: '**Зачем:** Преобразователь переводит ток TFMG в FE — питай машины Mekanism и IE от своего завода.'
+    text: '**Зачем:** Переводит энергию TFMG в FE и обратно — питай машины Mekanism и IE от своего завода или наоборот.'
   en:
     title: Converter
     subtitle: ''
-    text: '**Why:** Converts TFMG power to FE for other mods.
+    text: '**Why:** Converts between TFMG power and FE.
 
       Converts FE to TFMG energy and vice versa'
 - id: tfg2_lights
@@ -679,7 +679,7 @@ quests:
   - engineer
   icon: tfmg:electric_pump
   ru:
-    title: Electric Pump
+    title: Электронасос
     subtitle: ''
     text: '**Зачем:** Электрический насос качает жидкости без вращения — только ток.'
   en:
@@ -735,7 +735,7 @@ quests:
   - builder
   icon: tfmg:fire_extinguisher
   ru:
-    title: Fire Extinguisher
+    title: Огнетушитель
     subtitle: ''
     text: '**Зачем:** Огнетушитель гасит пожар от молнии или огнемёта соседа. Держи у каждой деревянной постройки!'
   en:
@@ -752,7 +752,7 @@ quests:
   - warrior
   icon: tfmg:flamethrower
   ru:
-    title: Flamethrower
+    title: Огнемёт
     subtitle: ''
     text: '**Зачем:** Огнемёт на топливе из колонны. Сжигает толпы мобов — и леса, так что аккуратно.'
   en:
@@ -771,13 +771,13 @@ quests:
   - warrior
   icon: tfmg:advanced_potato_cannon
   ru:
-    title: Advanced Potato Cannon
+    title: Улучшенная картофельная пушка
     subtitle: ''
-    text: '**Зачем:** Улучшенная картофельная пушка: дальше, быстрее, сильнее.'
+    text: '**Зачем:** Стреляет напалмовой картошкой и может работать от воздуха баллона Create. Только в диких землях — поджигает всё вокруг.'
   en:
     title: Advanced Potato Cannon
     subtitle: ''
-    text: '**Why:** Farther, faster, stronger.
+    text: '**Why:** Fires napalm potatoes; wilds only.
 
       Launches Napalm Potatoes at Enemies. Can be powered with Air Pressure from a Backtank'
 - id: tfg2_grenades

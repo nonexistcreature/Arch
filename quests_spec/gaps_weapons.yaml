@@ -41,6 +41,7 @@ quests:
     title: {ru: "Катапульта", en: "Launcher"}
     why: {ru: "Подбрасывает тебя вперёд по взгляду — рывок без верёвки.", en: "Launches you where you look."}
   - id: ggh_repeller
+    title: {en: Repeller, ru: Отталкиватель}
     deps: [w_hook]
     roles: [warrior]
     items: [grappling_hook_neo:repeller]

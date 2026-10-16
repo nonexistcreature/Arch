@@ -428,10 +428,10 @@ quests:
     roles: [engineer]
     items: [mekanism:modification_station]
   - id: mg_mekasuit_full
+    title: {en: Full MekaSuit, ru: Полный костюм MekaSuit}
     deps: [m_mekasuit]
     roles: [engineer, warrior]
     items: [mekanism:mekasuit_pants, mekanism:mekasuit_boots]
-    title: {ru: "Полный MekaSuit", en: "Full MekaSuit"}
     doc: advancements.mekanism.mekasuit.description
   - id: mg_meka_tool
     deps: [m_mekasuit, m_atomic_disassembler]
@@ -439,38 +439,47 @@ quests:
     items: [mekanism:meka_tool]
     why: {ru: "Всё-в-одном: кирка, топор, лопата, меч и, с модулями, телепорт, вейнмайнинг и шёлковое касание.", en: "Pickaxe, axe, shovel, sword — and teleport, vein mining, silk touch with modules."}
   - id: mg_module_jet
+    title: {en: Jetpack Unit, ru: 'Модуль: реактивный ранец'}
     deps: [mg_modification]
     roles: [engineer]
     items: [mekanism:module_jetpack_unit]
   - id: mg_module_radiation
+    title: {en: Radiation Shielding Unit, ru: 'Модуль: защита от радиации'}
     deps: [mg_modification]
     roles: [engineer]
     items: [mekanism:module_radiation_shielding_unit]
   - id: mg_module_breathing
+    title: {en: Inhalation Purification Unit, ru: 'Модуль: очистка дыхания'}
     deps: [mg_modification]
     roles: [engineer]
     items: [mekanism:module_inhalation_purification_unit]
   - id: mg_module_vision
+    title: {en: Vision Enhancement Unit, ru: 'Модуль: ночное зрение'}
     deps: [mg_modification]
     roles: [engineer]
     items: [mekanism:module_vision_enhancement_unit]
   - id: mg_module_magnet
+    title: {en: Magnetic Attraction Unit, ru: 'Модуль: магнит'}
     deps: [mg_modification]
     roles: [engineer]
     items: [mekanism:module_magnetic_attraction_unit]
   - id: mg_module_vein
+    title: {en: Vein Mining Unit, ru: 'Модуль: жилы руды'}
     deps: [mg_modification, mg_meka_tool]
     roles: [engineer]
     items: [mekanism:module_vein_mining_unit]
   - id: mg_module_elytra
+    title: {en: Elytra Unit, ru: 'Модуль: элитры'}
     deps: [mg_modification, mg_hdpe]
     roles: [engineer]
     items: [mekanism:module_elytra_unit]
   - id: mg_module_gravity
+    title: {en: Gravitational Modulating Unit, ru: 'Модуль: антигравитация'}
     deps: [mg_module_jet, mg_antimatter]
     roles: [engineer]
     items: [mekanism:module_gravitational_modulating_unit]
   - id: mg_module_attack
+    title: {en: Attack Amplification Unit, ru: 'Модуль: усиление атаки'}
     deps: [mg_modification]
     roles: [warrior]
     items: [mekanism:module_attack_amplification_unit]
@@ -517,10 +526,10 @@ quests:
     items: [mekanismtools:steel_shield]
     why: {ru: "Металлические щиты держат больше ударов, чем деревянный.", en: "Metal shields last longer."}
   - id: mg_master
+    title: {en: Mekanism Master, ru: Мастер Mekanism}
     deps: [mg_fusion_parts, mg_nucleo, mg_mekasuit_full, mg_module_gravity, mg_five_x, mg_qio_portable, mg_factory_elite, mg_obsidian_set]
     roles: [engineer]
     shape: hexagon
     icon: mekanism:ultimate_control_circuit
-    title: {ru: "Мастер Mekanism", en: "Mekanism Master"}
     text: {ru: "Пятикратная переработка, термояд, антиматерия и полный MekaSuit. Дальше — только помогать соседям строить их реакторы.", en: "5x processing, fusion, antimatter and a full MekaSuit."}
     rewards: [{type: xp_levels, count: 20}]

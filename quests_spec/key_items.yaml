@@ -72,3 +72,27 @@ the_bumblezone: [essence_of_the_bees, honey_crystal_shards, royal_jelly_bottle, 
   stingless_bee_helmet_1, carpenter_bee_boots_1, stinger_spear, bee_cannon, crystal_cannon, honey_crystal_shield,
   honey_compass, buzzing_briefcase, pollen_puff, bee_stinger, essence_raging, bee_bread, super_candle, potion_candle]
 friendsandfoes: [totem_of_illusion, totem_of_freezing, crab_claw, penguin_feather, wildfire_crown, wildfire_crown_fragment, barnacle_tooth]
+# --- big mods with hand-written quest chapters: {quested: true} = everything already in quests counts as key,
+# `add` = important things those chapters still missed.
+ae2: {quested: true, add: [wireless_crafting_terminal, pattern_access_terminal, processing_pattern, crafting_card,
+  redstone_card, void_card, item_p2p_tunnel, fe_p2p_tunnel, fluid_p2p_tunnel, quantum_entangled_singularity,
+  spatial_cell_component_2, annihilation_core, portable_item_cell_1k, fluid_storage_cell_16k, cable_energy_acceptor,
+  fluix_upgrade_smithing_template, name_press]}
+megacells: {quested: true, add: [cell_component_1m, item_storage_cell_1m, bulk_cell_component, mega_interface,
+  cable_mega_pattern_provider, sky_steel_ingot, accumulation_processor, compression_card, portable_cell_workbench,
+  cell_dock, mega_energy_cell, greater_energy_card, chemical_storage_cell_1m, fluid_storage_cell_1m]}
+ae2wtlib: {quested: true, add: [wireless_pattern_access_terminal, wireless_pattern_encoding_terminal]}
+ars_nouveau: {quested: true, add: [glyph_projectile, glyph_touch, glyph_self, glyph_break, glyph_harm, glyph_heal,
+  glyph_ignite, glyph_freeze, glyph_lightning, glyph_explosion, glyph_blink, glyph_leap, glyph_glide, glyph_amplify,
+  glyph_aoe, glyph_pierce, glyph_extend_time, glyph_summon_wolves, glyph_harvest, thread_spellpower,
+  thread_magic_capacity, spell_turret, timer_spell_turret, potion_diffuser, wixie_cauldron, void_jar, relay_collector,
+  relay_deposit, enchanters_eye, alchemists_crown, ring_of_greater_discount, caster_tome, summon_focus, shapers_focus,
+  wand, jar_of_light, scryer_scroll, ritual_flowering, ritual_animal_summon, annotated_codex, experience_gem]}
+ars_elemental: {quested: true, add: [lesser_fire_focus, earth_focus, water_focus, air_focus, necrotic_focus,
+  fire_caster_tome, fire_chestplate, aqua_chestplate, earth_chestplate, air_chestplate, fire_turret, base_bangle,
+  fire_bangle, siren_charm, firenando_charm, flashjack_charm, spell_horn, mark_of_mastery, caster_bag,
+  homing_prism_lens, fire_relay, glyph_spark, glyph_water_jet, glyph_spike, glyph_life_link]}
+ars_additions: {quested: true, add: [undying_charm, fall_prevention_charm, water_breathing_charm, fire_resistance_charm,
+  night_vision_charm, warp_index, stabilized_warp_index, wayfinder, handy_haversack, xp_jar, ender_source_jar,
+  source_spawner, unstable_reliquary, advanced_dominion_wand, ritual_chunk_loading, ritual_locate_structure,
+  memory_crystal, glyph_recall]}

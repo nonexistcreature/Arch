@@ -210,13 +210,17 @@ quests:
   - gardener
   icon: mysticalagriculture:seed_reprocessor
   ru:
-    title: Seed Reprocessor
+    title: Переработчик семян
     subtitle: ''
-    text: Переработчики семян используются для преобразования ваших лишних семян в их соответствующие эссенции. Они работают на твёрдом топливе и имеют внутренний буфер для хранения энергии.
+    text: '**Зачем:** Переработчик превращает лишние семена обратно в эссенцию. Работает на твёрдом топливе и копит заряд.
+
+      Переработчики семян используются для преобразования ваших лишних семян в их соответствующие эссенции. Они работают на твёрдом топливе и имеют внутренний буфер для хранения энергии.'
   en:
     title: Seed Reprocessor
     subtitle: ''
-    text: Seed Reprocessors are used to convert your excess seeds into their respective essences. They run off of solid fuels and have an internal power storage buffer.
+    text: '**Why:** Turns surplus seeds back into essence.
+
+      Seed Reprocessors are used to convert your excess seeds into their respective essences. They run off of solid fuels and have an internal power storage buffer.'
 - id: mag_upgrades
   tasks:
   - type: item
@@ -265,7 +269,7 @@ quests:
   - warrior
   icon: mysticalagriculture:soulium_spawner
   ru:
-    title: Soulium Spawner
+    title: Душевый спавнер
     subtitle: ''
     text: '**Зачем:** Спавнер на душах: свои мобы для фермы опыта, только тех, чьи души собрал.'
   en:
@@ -365,7 +369,7 @@ quests:
   - mage
   icon: mysticalagriculture:enchanter
   ru:
-    title: Enchanter
+    title: Зачарователь
     subtitle: ''
     text: '**Зачем:** Зачаровыватель накладывает выбранные чары за опыт и материалы — без лотереи стола.'
   en:
@@ -684,13 +688,17 @@ quests:
   - warrior
   icon: mysticalagriculture:flight_augment
   ru:
-    title: mag_aug_flight
+    title: Аугмент полёта
     subtitle: ''
-    text: Полёт (Расширение) - это расширение для нагрудника, которое даёт владельцу творческий полёт, пока у него есть броня.
+    text: '**Зачем:** Аугмент нагрудника: свободный полёт, пока надета броня. Это поздняя награда — на супремиумовую броню.
+
+      Полёт (Расширение) - это расширение для нагрудника, которое даёт владельцу творческий полёт, пока у него есть броня.'
   en:
-    title: mag_aug_flight
+    title: Flight Augment
     subtitle: ''
-    text: The Flight Augment is a chestplate augment that gives the wearer creative flight while they have the armor equipped.
+    text: '**Why:** Chestplate augment: free flight while worn (late game).
+
+      The Flight Augment is a chestplate augment that gives the wearer creative flight while they have the armor equipped.'
 - id: mag_aug_mining
   tasks:
   - type: item
@@ -701,14 +709,18 @@ quests:
   - engineer
   icon: mysticalagriculture:mining_aoe_i_augment
   ru:
-    title: mag_aug_mining
+    title: Аугмент копания площадью
     subtitle: ''
-    text: Область копания (Расширение) - это расширение для инструментов, увеличивающее область разрушения блоков до 9x9. Эту способность можно временно ослабить, зажимая SHIFT.
+    text: '**Зачем:** Инструмент ломает блоки площадью до 9×9. Присядь — и копаешь по одному блоку.
+
+      Область копания (Расширение) - это расширение для инструментов, увеличивающее область разрушения блоков до 9x9. Эту способность можно временно ослабить, зажимая SHIFT.'
   en:
-    title: mag_aug_mining
+    title: Mining AOE Augment
     subtitle: ''
-    text: The Mining AOE Augment is a tool augment that increases the are that the tool breaks blocks, up to 9x9. This effect can be negated by sneaking. The center of the AOE can be changed by pressing
-      CTRL + Arrow Keys.
+    text: '**Why:** Tool breaks up to 9x9; sneak to dig single blocks.
+
+      The Mining AOE Augment is a tool augment that increases the are that the tool breaks blocks, up to 9x9. This effect can be negated by sneaking. The center of the AOE can be changed by pressing CTRL
+      + Arrow Keys.'
 - id: mag_aug_speed
   tasks:
   - type: item
@@ -738,13 +750,17 @@ quests:
   - warrior
   icon: mysticalagriculture:health_boost_i_augment
   ru:
-    title: mag_aug_health
+    title: Аугмент здоровья
     subtitle: ''
-    text: Увеличение здоровья (Расширение) - это расширениее для брони, которое добавляет 2-10 сердец носящему, пока надета броня.
+    text: '**Зачем:** Добавляет от 2 до 10 сердец, пока надета броня.
+
+      Увеличение здоровья (Расширение) - это расширениее для брони, которое добавляет 2-10 сердец носящему, пока надета броня.'
   en:
-    title: mag_aug_health
+    title: Health Boost Augment
     subtitle: ''
-    text: The Health Boost Augment is an armor augment that adds 2-10 hearts to the wearer while they have the armor equipped.
+    text: '**Why:** Adds 2-10 hearts while worn.
+
+      The Health Boost Augment is an armor augment that adds 2-10 hearts to the wearer while they have the armor equipped.'
 - id: mag_aug_resist
   tasks:
   - type: item

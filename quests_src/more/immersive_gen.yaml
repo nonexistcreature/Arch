@@ -348,15 +348,13 @@ quests:
   ru:
     title: Средневольтный конденсатор
     subtitle: ''
-    text: 'Accumulators serve as energy storage units. Input and output power is limited to one connector of the voltage of the accumulator per side.
-
-      Side configuration can be adjusted with the hammer: Blue corresponds to input, orange corresponds to output, and no colour marking preventing any connection at all.
-
-      Sneaking while configuring a side will configure the side opposite to the one that was clicked.'
+    text: '**Зачем:** Накопители хранят энергию. Вход и выход ограничены одним разъёмом своего напряжения на сторону; молотом настраиваешь стороны: синяя — вход, оранжевая — выход.'
   en:
     title: MV Accumulator
     subtitle: ''
-    text: 'Accumulators serve as energy storage units. Input and output power is limited to one connector of the voltage of the accumulator per side.
+    text: '**Why:** Stores power; set sides with the hammer.
+
+      Accumulators serve as energy storage units. Input and output power is limited to one connector of the voltage of the accumulator per side.
 
       Side configuration can be adjusted with the hammer: Blue corresponds to input, orange corresponds to output, and no colour marking preventing any connection at all.
 
@@ -393,15 +391,13 @@ quests:
   ru:
     title: Рубильник и амперметр
     subtitle: ''
-    text: 'Breaker Switches are simple switches that can stop the flow of power through wires.
-
-      They connect two wires of the same type and will only allow power to pass when activated. Due to the high risk, these switches cannot be connected to HV wiring.
-
-      This can be used to separate power-hungry machinery from the network or hook up an additional set of generators when needed.'
+    text: '**Зачем:** Рубильник разрывает поток энергии по проводам, когда выключен, — удобно отключать участок сети на ремонт. Амперметр показывает, сколько энергии идёт по проводу.'
   en:
     title: Breaker Switch and Current Transformer
     subtitle: ''
-    text: 'Breaker Switches are simple switches that can stop the flow of power through wires.
+    text: '**Why:** A breaker cuts power on a line; the current transformer shows the flow.
+
+      Breaker Switches are simple switches that can stop the flow of power through wires.
 
       They connect two wires of the same type and will only allow power to pass when activated. Due to the high risk, these switches cannot be connected to HV wiring.
 
@@ -523,15 +519,13 @@ quests:
   ru:
     title: Нефтеперегонная установка
     subtitle: ''
-    text: 'Many processes necessitate the addition of a catalyst. The refinery passes its input fluids through a mixer and a catalyst at the same time, producing novel outputs from one or two inputs.
-
-      To form the machine, construct it as shown and rightclick the Heavy Engineering Block on the middle layer.
-
-      Fluids are input through the two ports on either side of the block and output through the orange marked port at the front. Using buckets to interact with the refinery''s tanks is also possible.'
+    text: '**Зачем:** Нефтеперегонная установка смешивает одну-две жидкости через катализатор и выдаёт новую — например, биодизель из масла и этанола.'
   en:
     title: Refinery
     subtitle: ''
-    text: 'Many processes necessitate the addition of a catalyst. The refinery passes its input fluids through a mixer and a catalyst at the same time, producing novel outputs from one or two inputs.
+    text: '**Why:** Mixes one or two fluids through a catalyst into a new one, e.g. biodiesel.
+
+      Many processes necessitate the addition of a catalyst. The refinery passes its input fluids through a mixer and a catalyst at the same time, producing novel outputs from one or two inputs.
 
       To form the machine, construct it as shown and rightclick the Heavy Engineering Block on the middle layer.
 
@@ -652,15 +646,13 @@ quests:
   ru:
     title: Разливочная машина
     subtitle: ''
-    text: 'The Bottling Machine fills fluids into containers or molds.
-
-      The structure is created as shown above, but can be mirrored. To form it, rightclick the central conveyor with an Engineer''s Hammer. The direction of the conveyors is important.
-
-      The machine can store 8 buckets of fluid, which is input through the ports on the metal tank. Energy is input through the connection at the top of the opposing side.'
+    text: '**Зачем:** Разливочная машина наполняет ёмкости и формы жидкостью прямо на конвейере.'
   en:
     title: Bottling Machine
     subtitle: ''
-    text: 'The Bottling Machine fills fluids into containers or molds.
+    text: '**Why:** Fills containers and molds with fluid on a belt.
+
+      The Bottling Machine fills fluids into containers or molds.
 
       The structure is created as shown above, but can be mirrored. To form it, rightclick the central conveyor with an Engineer''s Hammer. The direction of the conveyors is important.
 
@@ -730,15 +722,13 @@ quests:
   ru:
     title: Сборочный цех
     subtitle: ''
-    text: 'The Assembler is a complex machine capable of crafting items, similar to a player.
-
-      To form the structure, build it like demonstrated above and use the Engineer''s Hammer on the inwards facing conveyor.
-
-      The Assembler allows for up to 3 recipes to be stored inside it that will be performed in order. The outputs of previous recipes can be used as inputs for following recipes.'
+    text: '**Зачем:** Сборочный цех крафтит предметы как игрок — по трём рецептам одновременно, беря ингредиенты из соседних сундуков.'
   en:
     title: Assembler
     subtitle: ''
-    text: 'The Assembler is a complex machine capable of crafting items, similar to a player.
+    text: '**Why:** Crafts like a player, three recipes at once.
+
+      The Assembler is a complex machine capable of crafting items, similar to a player.
 
       To form the structure, build it like demonstrated above and use the Engineer''s Hammer on the inwards facing conveyor.
 
@@ -755,16 +745,13 @@ quests:
   ru:
     title: Автоматический верстак
     subtitle: ''
-    text: 'The Automated Workbench is one of the first major successes of small-scale engineering.
-
-      The machine is able to follow a set of instructions described by a Blueprint;start to assemble the items detailed by it.
-
-      Upon assembling the multiblock, a Blueprint can be placed on its drawing table. After selecting the item that should be created, it will begin the assembly process. In order for the machine to work,
-      it will need to be supplied with materials and power.'
+    text: '**Зачем:** Автоматический верстак работает по чертежу: сам делает формы, патроны и детали на конвейере.'
   en:
     title: Automated Workbench
     subtitle: ''
-    text: 'The Automated Workbench is one of the first major successes of small-scale engineering.
+    text: '**Why:** Follows a blueprint to craft parts on a belt.
+
+      The Automated Workbench is one of the first major successes of small-scale engineering.
 
       The machine is able to follow a set of instructions described by a Blueprint;start to assemble the items detailed by it.
 
@@ -886,15 +873,13 @@ quests:
   ru:
     title: Желоб из листового металла
     subtitle: ''
-    text: 'Chutes are simple constructions made from sheetmetal that allow creatures and items that fit inside to drop straight down.
-
-      Chutes also insert into inventories below them and can be inserted into by conveyors or similar devices.
-
-      Items within them won''t be picked up by players and should be immune to most forms of attraction, magnetic or otherwise.'
+    text: '**Зачем:** Желоба из листового металла роняют предметы и существ прямо вниз и складывают их в инвентарь под собой.'
   en:
     title: Iron Sheetmetal Chute
     subtitle: ''
-    text: 'Chutes are simple constructions made from sheetmetal that allow creatures and items that fit inside to drop straight down.
+    text: '**Why:** Drop items straight down into inventories below.
+
+      Chutes are simple constructions made from sheetmetal that allow creatures and items that fit inside to drop straight down.
 
       Chutes also insert into inventories below them and can be inserted into by conveyors or similar devices.
 
@@ -913,15 +898,13 @@ quests:
   ru:
     title: Сортировщики
     subtitle: ''
-    text: 'The Item Router is designed to parcel and sort items into inventories such as chests, machines, and conveyors.
-
-      Items inserted into the router will be output from matching configured sides or open sides in that order.
-
-      Items can be inserted from any side, and will be output from one of the other five sides, or will disallow input if they cannot be sorted.'
+    text: '**Зачем:** Сортировщик раскладывает предметы по сторонам по фильтрам, жидкостный — то же для жидкостей.'
   en:
     title: Item and Fluid Routers
     subtitle: ''
-    text: 'The Item Router is designed to parcel and sort items into inventories such as chests, machines, and conveyors.
+    text: '**Why:** Sorts items (and fluids) by filters per side.
+
+      The Item Router is designed to parcel and sort items into inventories such as chests, machines, and conveyors.
 
       Items inserted into the router will be output from matching configured sides or open sides in that order.
 
@@ -943,15 +926,13 @@ quests:
   ru:
     title: Трубы и насос
     subtitle: ''
-    text: 'Fluid Pipes are a versatile and efficient method of transporting fluids, unlike moving tanks ore buckets around en masse.
-
-      Pipe systems will output any fluid input to them across the available ouputs, split evenly.
-
-      At low pressure, pipe systems will transport fluid slowly. Pressurized fluids output from a Fluid Pump or certain large machines can move much faster.'
+    text: '**Зачем:** Трубы гонят жидкости в любые подключённые баки и машины, насос качает их из резервуаров и источников, вентиль перекрывает поток.'
   en:
     title: Pipes and Pump
     subtitle: ''
-    text: 'Fluid Pipes are a versatile and efficient method of transporting fluids, unlike moving tanks ore buckets around en masse.
+    text: '**Why:** Pipes carry fluids; the pump extracts; the valve shuts flow.
+
+      Fluid Pipes are a versatile and efficient method of transporting fluids, unlike moving tanks ore buckets around en masse.
 
       Pipe systems will output any fluid input to them across the available ouputs, split evenly.
 
@@ -1019,15 +1000,13 @@ quests:
   ru:
     title: Вагонетка с деревянным ящиком
     subtitle: ''
-    text: 'Storage Crates can be placed into Minecarts, as with chests and hoppers.
-
-      When placed into Minecarts, crates will act as they do outside, and store their items inside when they are broken, unlike chests.
-
-      Storage Barrels can be placed into Minecarts, as with chests and hoppers.'
+    text: '**Зачем:** Ящик в вагонетке хранит вещи так же, как на земле, — перевозка грузов по рельсам.'
   en:
     title: Minecart with Wooden Storage Crate
     subtitle: ''
-    text: 'Storage Crates can be placed into Minecarts, as with chests and hoppers.
+    text: '**Why:** Crates in minecarts keep their contents: rail cargo.
+
+      Storage Crates can be placed into Minecarts, as with chests and hoppers.
 
       When placed into Minecarts, crates will act as they do outside, and store their items inside when they are broken, unlike chests.
 
@@ -1103,15 +1082,13 @@ quests:
   ru:
     title: Редстоун по проводам
     subtitle: ''
-    text: 'Redstone Wires are aluminium coated in redstone dust. The resulting cables provide an easy way to transfer redstone signals over long distance without losing signal strength.
-
-      Redstone Wire Connectors work as both relays and connectors: input and output connectors can have multiple wires connected.
-
-      With the Engineer''s Screwdriver, the connectors can be configured between in- and output mode and set to one of 16 coloured frequencies.'
+    text: '**Зачем:** Редстоун-провода — алюминий в редстоуне: передают сигнал далеко без потери силы. Таймер даёт сигнал по расписанию.'
   en:
     title: Redstone Wiring
     subtitle: ''
-    text: 'Redstone Wires are aluminium coated in redstone dust. The resulting cables provide an easy way to transfer redstone signals over long distance without losing signal strength.
+    text: '**Why:** Long-range redstone without signal loss; the timer pulses on schedule.
+
+      Redstone Wires are aluminium coated in redstone dust. The resulting cables provide an easy way to transfer redstone signals over long distance without losing signal strength.
 
       Redstone Wire Connectors work as both relays and connectors: input and output connectors can have multiple wires connected.
 
@@ -1257,15 +1234,13 @@ quests:
   ru:
     title: Защитные наушники
     subtitle: ''
-    text: 'Ear Defenders are devices for protecting your hearing. They are quite important for engineers that work in close proximity to Diesel Generators; or other loud machinery.
-
-      While wearing Ear Defenders, all noises are reduced by 90% and they make your ears considerably more warm and fuzzy! :D
-
-      Placing the Ear Defenders in the Engineer''s Workbench; allows you to specify which types of noises you want cancelled and by how much their volume should be reduced.'
+    text: '**Зачем:** Защитные наушники берегут слух рядом с дизельными генераторами и другими шумными машинами. Их можно встроить в шлем.'
   en:
     title: Ear Defenders
     subtitle: ''
-    text: 'Ear Defenders are devices for protecting your hearing. They are quite important for engineers that work in close proximity to Diesel Generators; or other loud machinery.
+    text: '**Why:** Protect your hearing near loud machines.
+
+      Ear Defenders are devices for protecting your hearing. They are quite important for engineers that work in close proximity to Diesel Generators; or other loud machinery.
 
       While wearing Ear Defenders, all noises are reduced by 90% and they make your ears considerably more warm and fuzzy! :D
 
@@ -1557,13 +1532,13 @@ quests:
   ru:
     title: Колючая проволока
     subtitle: ''
-    text: 'Razorwire is a wire with sharpened pieces of metal attached. It will slow and cut any entity that tries to move through it.
-
-      Razorwire can only be removed with Wirecutters, any other attempts will damage the player. Additionally, LV wires can be connected to electrify the razorwire for extra damage.'
+    text: '**Зачем:** Колючая проволока режет и замедляет всех, кто через неё лезет. Снять её можно только кусачками.'
   en:
     title: Razor Wire
     subtitle: ''
-    text: 'Razorwire is a wire with sharpened pieces of metal attached. It will slow and cut any entity that tries to move through it.
+    text: '**Why:** Cuts and slows anything passing; remove with wirecutters.
+
+      Razorwire is a wire with sharpened pieces of metal attached. It will slow and cut any entity that tries to move through it.
 
       Razorwire can only be removed with Wirecutters, any other attempts will damage the player. Additionally, LV wires can be connected to electrify the razorwire for extra damage.'
 - id: ieg_glider
@@ -1576,7 +1551,7 @@ quests:
   - engineer
   icon: immersiveengineering:glider
   ru:
-    title: Collapsible Glider
+    title: Складной планер
     subtitle: ''
     text: '**Зачем:** Складной планер — элитры для тех, кто ещё не был в Энде.'
   en:
@@ -1626,15 +1601,13 @@ quests:
   ru:
     title: Механический волк
     subtitle: ''
-    text: 'Within the Trial Chambers, you have found a slightly faded but still legible blueprint. It seems to contain instructions on how to construct a synthetic creature akin to the common wolf!
-
-      This construct is loyal to the person that deploys it.
-
-      Being powered by a thermoelectric generator, it should never run out of energy to move itself.'
+    text: '**Зачем:** Чертёж механического волка находят в испытательных залах. По нему собирают синтетического спутника, похожего на волка.'
   en:
     title: Automaton Wolf
     subtitle: ''
-    text: 'Within the Trial Chambers, you have found a slightly faded but still legible blueprint. It seems to contain instructions on how to construct a synthetic creature akin to the common wolf!
+    text: '**Why:** A blueprint found in Trial Chambers for a synthetic wolf-like companion.
+
+      Within the Trial Chambers, you have found a slightly faded but still legible blueprint. It seems to contain instructions on how to construct a synthetic creature akin to the common wolf!
 
       This construct is loyal to the person that deploys it.
 

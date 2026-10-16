@@ -154,10 +154,10 @@ quests:
   - engineer
   icon: bigreactors:energizercontroller
   ru:
-    title: Energizer Controller
+    title: Энерджайзер
     subtitle: ''
     text: '**Зачем:** Энерджайзер — многоблочный накопитель энергии Extreme Reactors: копит энергию реактора на ночь и на пики нагрузки.'
   en:
-    title: Energizer Controller
+    title: Energizer
     subtitle: ''
     text: '**Why:** A multiblock energy store for reactor power.'

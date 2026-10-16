@@ -308,11 +308,15 @@ quests:
   ru:
     title: Импульсы и беспроводной пульт
     subtitle: ''
-    text: '**Зачем:** Генератор последовательных импульсов выдаёт серию сигналов по программе, беспроводной передатчик шлёт их на частоту редстоун-связи. Логика без проводов редстоуна.'
+    text: '**Зачем:** Генератор последовательных импульсов выдаёт серию сигналов по программе, беспроводной передатчик шлёт их на частоту редстоун-связи. Логика без проводов редстоуна.
+
+      Разместите последовательный генератор импульса'
   en:
     title: Pulses and Wireless Transmitter
     subtitle: ''
-    text: '**Why:** Programmed pulse sequences sent wirelessly to Redstone Link frequencies.'
+    text: '**Why:** Programmed pulse sequences sent wirelessly to Redstone Link frequencies.
+
+      Place down a Sequenced Pulse Generator'
 - id: gcc_catalysts
   tasks:
   - type: item
@@ -509,7 +513,7 @@ quests:
   - engineer
   icon: create_dragons_plus:fragile_fluid_tank
   ru:
-    title: Fragile Fluid Tank
+    title: Хрупкий бак
     subtitle: ''
     text: '**Зачем:** Особый бак для жидкостей Dragons Plus (в том числе драконьего дыхания). Свойства — в подсказке и Ponder.'
   en:

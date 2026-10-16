@@ -127,6 +127,7 @@ quests:
     roles: [alchemist, mage]
     items: [irons_spellbooks:tincture_of_forgetfulness, irons_spellbooks:netherward_tincture]
     title: {ru: "Настойки", en: "Tinctures"}
+    why: {en: Dropped by ominous bosses., ru: 'Настойки выпадают со зловещих боссов: «забвения» сбрасывает выученное, «защиты от Незера» спасает от зомбификации.'}
   - id: isg_casters_tea
     deps: [isg_cauldron]
     roles: [cook, mage]

@@ -177,11 +177,11 @@ quests:
   - engineer
   icon: simulated:swivel_bearing
   ru:
-    title: gsm_swivel
+    title: Поворотный подшипник
     subtitle: ''
     text: '**Зачем:** Поворотный подшипник — башня крана или пушки, которая вращается на корпусе машины.'
   en:
-    title: gsm_swivel
+    title: Swivel Bearing
     subtitle: ''
     text: '**Why:** A turret or crane base that turns on a moving vehicle.'
 - id: gsm_sensors
@@ -232,11 +232,11 @@ quests:
   - engineer
   icon: simulated:linked_typewriter
   ru:
-    title: gsm_typewriter
+    title: Связанная печатная машинка
     subtitle: ''
     text: '**Зачем:** Клавиатура, кнопки которой шлют сигналы редстоун-связи: управляй конструкцией прямо с клавиш.'
   en:
-    title: gsm_typewriter
+    title: Linked Typewriter
     subtitle: ''
     text: '**Why:** Keys send Redstone Link signals: drive with your keyboard.'
 - id: gsm_plunger
@@ -286,11 +286,11 @@ quests:
   - engineer
   icon: aeronautics:gyroscopic_propeller_bearing
   ru:
-    title: gae_gyro_prop
+    title: Гироскопический подшипник винта
     subtitle: ''
     text: '**Зачем:** Гироскопический подшипник сам держит винт ровно — дирижабль не кренится на поворотах.'
   en:
-    title: gae_gyro_prop
+    title: Gyroscopic Propeller Bearing
     subtitle: ''
     text: '**Why:** Keeps the propeller level by itself.'
 - id: gae_cannon

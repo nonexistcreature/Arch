@@ -27,6 +27,7 @@ quests:
     doc: ponder:blast_furnace
     why: {ru: "Многоблочная домна: руда + кокс + известняк → жидкий чугун и шлак. Чем выше печь, тем больше за раз.", en: "Ore + coke + flux → molten iron and slag. Taller = more."}
   - id: tfg2_blast_stove
+    title: {en: Blast Stove, ru: Воздухонагреватель}
     deps: [tfg2_blast_furnace]
     roles: [engineer]
     items: [tfmg:blast_stove]
@@ -65,11 +66,13 @@ quests:
     title: {ru: "Инструменты TFMG", en: "TFMG Tools"}
     why: {en: Tougher than iron tools., ru: Стальные и алюминиевые инструменты — прочнее железных.}
   - id: tfg2_galena
+    title: {en: Galena, ru: Галенит}
     deps: [tfmg_intro]
     roles: [engineer]
     items: [tfmg:galena*8]
     why: {ru: "Галенит — свинцовая и серебряная руда. Свинец — аккумуляторы и защита от радиации.", en: "Lead and silver ore."}
   - id: tfg2_lead_tools
+    title: {en: Lead Tools, ru: Свинцовые инструменты}
     deps: [tfg2_galena]
     roles: [engineer]
     items: [tfmg:lead_pickaxe, tfmg:lead_sword]
@@ -100,6 +103,7 @@ quests:
     items: [tfmg:flarestack]
     why: {ru: "Факел сжигает лишний газ, чтобы колонна не встала. Дымит — ставь подальше от дома и следи за загрязнением.", en: "Burns excess gas. Watch pollution."}
   - id: tfg2_smokestack
+    title: {en: Metal Smokestack, ru: Дымовая труба}
     deps: [tfg2_blast_furnace]
     roles: [engineer]
     items: [tfmg:metal_smokestack*4]
@@ -117,17 +121,20 @@ quests:
     why: {ru: "Кожа и нитки без коров и пауков.", en: "Leather and string without animals."}
   # --- engines
   - id: tfg2_simple_engine
+    title: {en: Regular Engine, ru: Бензиновый двигатель}
     deps: [tfmg_engine]
     roles: [engineer]
     items: [tfmg:regular_engine, tfmg:spark_plug*2]
     doc: ponder:engines
     why: {ru: "Двигатель на бензине крутит Create-сеть с огромной силой. Нужны свечи, топливо и выхлоп.", en: "A gasoline engine for huge rotational power."}
   - id: tfg2_large_engine
+    title: {en: Large Engine, ru: Большой двигатель}
     deps: [tfg2_simple_engine, tfg2_steel_mechanism]
     roles: [engineer]
     items: [tfmg:large_engine, tfmg:crankshaft]
     why: {ru: "Большой двигатель собирается из цилиндров на коленвале — чем больше цилиндров, тем мощнее.", en: "More cylinders, more power."}
   - id: tfg2_radial
+    title: {en: Radial Engine, ru: Звездообразный двигатель}
     deps: [tfg2_simple_engine]
     roles: [engineer]
     items: [tfmg:radial_engine]
@@ -152,16 +159,19 @@ quests:
     doc: ponder:electricity
     why: {ru: "Генератор превращает вращение в ток, провода несут его к моторам и лампам. Напряжение и сопротивление считаются по-настоящему.", en: "Generators turn rotation into current; voltage and resistance are simulated."}
   - id: tfg2_multimeter
+    title: {en: Multimeter, ru: Мультиметр}
     deps: [tfg2_electricity]
     roles: [engineer]
     items: [tfmg:multimeter, tfmg:electricians_wrench]
     why: {ru: "Мультиметр показывает напряжение и ток — без него сложно найти, где сеть «просела».", en: "Shows voltage and current."}
   - id: tfg2_accumulator
+    title: {en: Accumulator, ru: Аккумулятор}
     deps: [tfg2_electricity, tfmg_lithium]
     roles: [engineer]
     items: [tfmg:accumulator]
     why: {en: Stores power for night and load spikes., ru: Литиевый аккумулятор запасает ток на ночь и пики нагрузки.}
   - id: tfg2_transformer
+    title: {en: Transformer, ru: Трансформатор}
     deps: [tfg2_electricity]
     roles: [engineer]
     items: [tfmg:transformer, tfmg:large_coil]
@@ -174,15 +184,17 @@ quests:
     title: {ru: "Электронные компоненты", en: "Electronic Components"}
     why: {ru: "Резисторы, транзисторы, конденсаторы — собираются на конвейере Create (последовательная сборка).", en: "Made by sequenced assembly."}
   - id: tfg2_winding
+    title: {en: Winding Machine, ru: Намоточный станок}
     deps: [tfg2_electricity]
     roles: [engineer]
     items: [tfmg:winding_machine]
     why: {en: Winds coils for motors and generators., ru: Намоточный станок делает катушки и обмотки для моторов и генераторов.}
   - id: tfg2_converter
+    title: {en: Converter, ru: Преобразователь энергии}
     deps: [tfg2_electricity]
     roles: [engineer]
     items: [tfmg:converter]
-    why: {ru: "Преобразователь переводит ток TFMG в FE — питай машины Mekanism и IE от своего завода.", en: "Converts TFMG power to FE for other mods."}
+    why: {en: Converts between TFMG power and FE., ru: Переводит энергию TFMG в FE и обратно — питай машины Mekanism и IE от своего завода или наоборот.}
   - id: tfg2_lights
     deps: [tfg2_electricity]
     roles: [builder]
@@ -190,6 +202,7 @@ quests:
     title: {ru: "Свет города", en: "City Lights"}
     why: {ru: "Лампы, неон и светофоры для улиц твоего города.", en: "Lamps, neon and traffic lights."}
   - id: tfg2_electric_pump
+    title: {en: Electric Pump, ru: Электронасос}
     deps: [tfg2_electricity]
     roles: [engineer]
     items: [tfmg:electric_pump]
@@ -208,20 +221,23 @@ quests:
   # --- weapons (moderate)
     why: {en: A proper factory floor., ru: Заводской пол — красивое основание цеха.}
   - id: tfg2_extinguisher
+    title: {en: Fire Extinguisher, ru: Огнетушитель}
     deps: [tfmg_intro]
     roles: [engineer, builder]
     items: [tfmg:fire_extinguisher]
     why: {ru: "Огнетушитель гасит пожар от молнии или огнемёта соседа. Держи у каждой деревянной постройки!", en: "Puts out fires. Keep one near wooden builds!"}
   - id: tfg2_flamethrower
+    title: {en: Flamethrower, ru: Огнемёт}
     deps: [tfg2_distillation]
     roles: [warrior]
     items: [tfmg:flamethrower]
     why: {ru: "Огнемёт на топливе из колонны. Сжигает толпы мобов — и леса, так что аккуратно.", en: "Burns mob crowds — and forests, so be careful."}
   - id: tfg2_potato_cannon
+    title: {en: Advanced Potato Cannon, ru: Улучшенная картофельная пушка}
     deps: [tfg2_steel_mechanism]
     roles: [warrior]
     items: [tfmg:advanced_potato_cannon]
-    why: {en: 'Farther, faster, stronger.', ru: 'Улучшенная картофельная пушка: дальше, быстрее, сильнее.'}
+    why: {en: Fires napalm potatoes; wilds only., ru: Стреляет напалмовой картошкой и может работать от воздуха баллона Create. Только в диких землях — поджигает всё вокруг.}
   - id: tfg2_grenades
     deps: [tfg2_vat]
     roles: [warrior]

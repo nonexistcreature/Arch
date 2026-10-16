@@ -1286,6 +1286,7 @@
 	]
 	quest.67588871FAB2E694.title: "Seed Reprocessor"
 	quest.67588871FAB2E694.quest_desc: [
+		"&lWhy:&r Turns surplus seeds back into essence."
 		"Seed Reprocessors are used to convert your excess seeds into their respective essences. They run off of solid fuels and have an internal power storage buffer."
 	]
 	quest.3963DCF2AE9BD6F8.title: "Prudentium Machine Upgrade"
@@ -1377,20 +1378,23 @@
 	quest.416120935F72BC07.quest_desc: [
 		"Upgrading your Diamond* tools with essence improves their durability and mining speed. This also allows them to be equipped with Augments. Essence Tools can be repaired in an Anvil with their corresponding Essence Ingot. These tools each have 1 augment slot."
 	]
-	quest.2E2B8D9DB116AB7C.title: "mag_aug_flight"
+	quest.2E2B8D9DB116AB7C.title: "Flight Augment"
 	quest.2E2B8D9DB116AB7C.quest_desc: [
+		"&lWhy:&r Chestplate augment: free flight while worn (late game)."
 		"The Flight Augment is a chestplate augment that gives the wearer creative flight while they have the armor equipped."
 	]
-	quest.1A004E1673575AD2.title: "mag_aug_mining"
+	quest.1A004E1673575AD2.title: "Mining AOE Augment"
 	quest.1A004E1673575AD2.quest_desc: [
+		"&lWhy:&r Tool breaks up to 9x9; sneak to dig single blocks."
 		"The Mining AOE Augment is a tool augment that increases the are that the tool breaks blocks, up to 9x9. This effect can be negated by sneaking. The center of the AOE can be changed by pressing CTRL + Arrow Keys."
 	]
 	quest.7817B0CBE6726065.title: "Speed and Jump"
 	quest.7817B0CBE6726065.quest_desc: [
 		"The Speed Augment is a leggings augment that increases the wearers movement speed while they have the armor equipped. This effect is also applied to flight speed."
 	]
-	quest.7E14F261B672A8E0.title: "mag_aug_health"
+	quest.7E14F261B672A8E0.title: "Health Boost Augment"
 	quest.7E14F261B672A8E0.quest_desc: [
+		"&lWhy:&r Adds 2-10 hearts while worn."
 		"The Health Boost Augment is an armor augment that adds 2-10 hearts to the wearer while they have the armor equipped."
 	]
 	quest.732BE297F60E85C9.title: "Resistances"
@@ -1593,6 +1597,7 @@
 	quest.4AECFAFC9B1148D5.title: "Falconry Glove"
 	quest.4AECFAFC9B1148D5.quest_desc: [
 		"&lWhy:&r A tamed bird perches on your arm."
+		"Craft a Falconry Glove from Leather and Hair of Bear. Use it to pick up and launch tamed eagles!"
 	]
 	quest.797E5B0A60C15E0F.title: "Vine Lasso and Squid Grapple"
 	quest.797E5B0A60C15E0F.quest_desc: [
@@ -2377,6 +2382,7 @@
 	quest.63CED89D89010B73.title: "Sturdy Sheet"
 	quest.63CED89D89010B73.quest_desc: [
 		"&lWhy:&r Obsidian sheets for train parts and cannons."
+		"Assemble a Sturdy Sheet by refining Powdered Obsidian"
 	]
 	quest.0B453B0B6FE80020.title: "Haunting"
 	quest.0B453B0B6FE80020.quest_desc: [
@@ -2391,6 +2397,7 @@
 	quest.5886D1EDDA939D43.title: "Cardboard Armor"
 	quest.5886D1EDDA939D43.quest_desc: [
 		"&lWhy:&r Barely protects, but mobs ignore a crouching box."
+		"Produce or obtain your first Cardboard"
 	]
 	quest.7469E9A830ECCF65.title: "Wand Of Symmetry"
 	quest.7469E9A830ECCF65.quest_desc: [
@@ -2583,6 +2590,7 @@
 	quest.52E7D27BABE8FE00.title: "A Garnished Lunch"
 	quest.52E7D27BABE8FE00.quest_desc: [
 		"&lWhy:&r A filling meal for the whole crew."
+		"Obtain Garnished Meal"
 	]
 	quest.17F2F75EEE651DF8.title: "Mechanical Extruder"
 	quest.17F2F75EEE651DF8.quest_desc: [
@@ -2780,6 +2788,7 @@
 	quest.0844A2C25B16455E.title: "Pulses and Wireless Transmitter"
 	quest.0844A2C25B16455E.quest_desc: [
 		"&lWhy:&r Programmed pulse sequences sent wirelessly to Redstone Link frequencies."
+		"Place down a Sequenced Pulse Generator"
 	]
 	quest.096A6FA70E2A37D5.title: "New Fan Processes"
 	quest.096A6FA70E2A37D5.quest_desc: [
@@ -2936,7 +2945,7 @@
 	quest.3D9F3DCD6B188CE9.quest_desc: [
 		"&lWhy:&r A compact engine right on a physics contraption."
 	]
-	quest.675F1FB3114EF2F8.title: "gsm_swivel"
+	quest.675F1FB3114EF2F8.title: "Swivel Bearing"
 	quest.675F1FB3114EF2F8.quest_desc: [
 		"&lWhy:&r A turret or crane base that turns on a moving vehicle."
 	]
@@ -2948,7 +2957,7 @@
 	quest.6483413492479813.quest_desc: [
 		"&lWhy:&r Detect obstacles ahead: the base of automatic vehicles."
 	]
-	quest.3D4F6714397415C1.title: "gsm_typewriter"
+	quest.3D4F6714397415C1.title: "Linked Typewriter"
 	quest.3D4F6714397415C1.quest_desc: [
 		"&lWhy:&r Keys send Redstone Link signals: drive with your keyboard."
 	]
@@ -2960,7 +2969,7 @@
 	quest.45F0330BBB8E4233.quest_desc: [
 		"&lWhy:&r The gyroscope stabilises, honey glue binds blocks into one physical body."
 	]
-	quest.11A8176F4E1EDA43.title: "gae_gyro_prop"
+	quest.11A8176F4E1EDA43.title: "Gyroscopic Propeller Bearing"
 	quest.11A8176F4E1EDA43.quest_desc: [
 		"&lWhy:&r Keeps the propeller level by itself."
 	]
@@ -3668,39 +3677,39 @@
 	quest.7A13054B48B60CD3.quest_desc: [
 		"&lWhy:&r Pickaxe, axe, shovel, sword — and teleport, vein mining, silk touch with modules."
 	]
-	quest.51211D3EA449AAB1.title: "mg_module_jet"
+	quest.51211D3EA449AAB1.title: "Jetpack Unit"
 	quest.51211D3EA449AAB1.quest_desc: [
 		"Applies a hydrogen-fueled jetpack to the MekaSuit."
 	]
-	quest.77965E98C0CC2E14.title: "mg_module_radiation"
+	quest.77965E98C0CC2E14.title: "Radiation Shielding Unit"
 	quest.77965E98C0CC2E14.quest_desc: [
 		"Provides thick, radiation-proof metal plating to any MekaSuit armor piece."
 	]
-	quest.7E8B7F88FD7E6325.title: "mg_module_breathing"
+	quest.7E8B7F88FD7E6325.title: "Inhalation Purification Unit"
 	quest.7E8B7F88FD7E6325.quest_desc: [
 		"Applies a miniature electromagnetic field around the breathing apparatus, preventing selected potion effect types."
 	]
-	quest.2701EE491464FD16.title: "mg_module_vision"
+	quest.2701EE491464FD16.title: "Vision Enhancement Unit"
 	quest.2701EE491464FD16.quest_desc: [
 		"Brightens the surrounding environment, allowing the user to see through darkness. Install multiple for more effective night vision."
 	]
-	quest.1B8B8ACB1D5CDE7C.title: "mg_module_magnet"
+	quest.1B8B8ACB1D5CDE7C.title: "Magnetic Attraction Unit"
 	quest.1B8B8ACB1D5CDE7C.quest_desc: [
 		"Uses powerful magnets to draw distant items towards the player. Install multiple for a greater range."
 	]
-	quest.20B5038DA250FE4E.title: "mg_module_vein"
+	quest.20B5038DA250FE4E.title: "Vein Mining Unit"
 	quest.20B5038DA250FE4E.quest_desc: [
 		"Allows for quick mining of ore deposits and rapid felling of trees."
 	]
-	quest.411F81EF8B370C25.title: "mg_module_elytra"
+	quest.411F81EF8B370C25.title: "Elytra Unit"
 	quest.411F81EF8B370C25.quest_desc: [
 		"Applies an HDPE Reinforced Elytra to the MekaSuit."
 	]
-	quest.2F8204523469DF85.title: "mg_module_gravity"
+	quest.2F8204523469DF85.title: "Gravitational Modulating Unit"
 	quest.2F8204523469DF85.quest_desc: [
 		"Using experimental technologies and the tremendous energy of antimatter, allows the user to defy gravity."
 	]
-	quest.6CB2C1719214613C.title: "mg_module_attack"
+	quest.6CB2C1719214613C.title: "Attack Amplification Unit"
 	quest.6CB2C1719214613C.quest_desc: [
 		"Amplifies melee attacks on players or mobs."
 	]
@@ -3833,7 +3842,7 @@
 	quest.0C084B007135EF70.quest_desc: [
 		"&lWhy:&r Makes liquid fuel; see JEI."
 	]
-	quest.23935CE9425E6AC2.title: "Energizer Controller"
+	quest.23935CE9425E6AC2.title: "Energizer"
 	quest.23935CE9425E6AC2.quest_desc: [
 		"&lWhy:&r A multiblock energy store for reactor power."
 	]
@@ -4117,7 +4126,7 @@
 	quest.122A23D50B4234A1.quest_desc: [
 		"&lWhy:&r Lead and silver ore."
 	]
-	quest.2A2098A285C33969.title: "Lead Pickaxe"
+	quest.2A2098A285C33969.title: "Lead Tools"
 	quest.2A2098A285C33969.quest_desc: [
 		"&lWhy:&r Slow but durable."
 	]
@@ -4214,7 +4223,7 @@
 	]
 	quest.3B1A72A757EE9C13.title: "Converter"
 	quest.3B1A72A757EE9C13.quest_desc: [
-		"&lWhy:&r Converts TFMG power to FE for other mods."
+		"&lWhy:&r Converts between TFMG power and FE."
 		"Converts FE to TFMG energy and vice versa"
 	]
 	quest.5D7228E0468C2ECE.title: "City Lights"
@@ -4244,7 +4253,7 @@
 	]
 	quest.0C7D5B49867AB317.title: "Advanced Potato Cannon"
 	quest.0C7D5B49867AB317.quest_desc: [
-		"&lWhy:&r Farther, faster, stronger."
+		"&lWhy:&r Fires napalm potatoes; wilds only."
 		"Launches Napalm Potatoes at Enemies. Can be powered with Air Pressure from a Backtank"
 	]
 	quest.728CE71459E1D7A7.title: "Grenades"
@@ -4346,6 +4355,7 @@
 	]
 	quest.462AFB78E531FC9C.title: "MV Accumulator"
 	quest.462AFB78E531FC9C.quest_desc: [
+		"&lWhy:&r Stores power; set sides with the hammer."
 		"Accumulators serve as energy storage units. Input and output power is limited to one connector of the voltage of the accumulator per side."
 		"Side configuration can be adjusted with the hammer: Blue corresponds to input, orange corresponds to output, and no colour marking preventing any connection at all."
 		"Sneaking while configuring a side will configure the side opposite to the one that was clicked."
@@ -4356,6 +4366,7 @@
 	]
 	quest.346F3397EDB5B2A8.title: "Breaker Switch and Current Transformer"
 	quest.346F3397EDB5B2A8.quest_desc: [
+		"&lWhy:&r A breaker cuts power on a line; the current transformer shows the flow."
 		"Breaker Switches are simple switches that can stop the flow of power through wires."
 		"They connect two wires of the same type and will only allow power to pass when activated. Due to the high risk, these switches cannot be connected to HV wiring."
 		"This can be used to separate power-hungry machinery from the network or hook up an additional set of generators when needed."
@@ -4393,6 +4404,7 @@
 	]
 	quest.0CCCE1041BFDD4F4.title: "Refinery"
 	quest.0CCCE1041BFDD4F4.quest_desc: [
+		"&lWhy:&r Mixes one or two fluids through a catalyst into a new one, e.g. biodiesel."
 		"Many processes necessitate the addition of a catalyst. The refinery passes its input fluids through a mixer and a catalyst at the same time, producing novel outputs from one or two inputs."
 		"To form the machine, construct it as shown and rightclick the Heavy Engineering Block on the middle layer."
 		"Fluids are input through the two ports on either side of the block and output through the orange marked port at the front. Using buckets to interact with the refinery's tanks is also possible."
@@ -4427,6 +4439,7 @@
 	]
 	quest.3BC5DF8F9349944B.title: "Bottling Machine"
 	quest.3BC5DF8F9349944B.quest_desc: [
+		"&lWhy:&r Fills containers and molds with fluid on a belt."
 		"The Bottling Machine fills fluids into containers or molds."
 		"The structure is created as shown above, but can be mirrored. To form it, rightclick the central conveyor with an Engineer's Hammer. The direction of the conveyors is important."
 		"The machine can store 8 buckets of fluid, which is input through the ports on the metal tank. Energy is input through the connection at the top of the opposing side."
@@ -4450,12 +4463,14 @@
 	]
 	quest.34463437BBA6632E.title: "Assembler"
 	quest.34463437BBA6632E.quest_desc: [
+		"&lWhy:&r Crafts like a player, three recipes at once."
 		"The Assembler is a complex machine capable of crafting items, similar to a player."
 		"To form the structure, build it like demonstrated above and use the Engineer's Hammer on the inwards facing conveyor."
 		"The Assembler allows for up to 3 recipes to be stored inside it that will be performed in order. The outputs of previous recipes can be used as inputs for following recipes."
 	]
 	quest.796AFA592184D450.title: "Automated Workbench"
 	quest.796AFA592184D450.quest_desc: [
+		"&lWhy:&r Follows a blueprint to craft parts on a belt."
 		"The Automated Workbench is one of the first major successes of small-scale engineering."
 		"The machine is able to follow a set of instructions described by a Blueprint;start to assemble the items detailed by it."
 		"Upon assembling the multiblock, a Blueprint can be placed on its drawing table. After selecting the item that should be created, it will begin the assembly process. In order for the machine to work, it will need to be supplied with materials and power."
@@ -4490,18 +4505,21 @@
 	]
 	quest.42BBEC80D2207D5E.title: "Iron Sheetmetal Chute"
 	quest.42BBEC80D2207D5E.quest_desc: [
+		"&lWhy:&r Drop items straight down into inventories below."
 		"Chutes are simple constructions made from sheetmetal that allow creatures and items that fit inside to drop straight down."
 		"Chutes also insert into inventories below them and can be inserted into by conveyors or similar devices."
 		"Items within them won't be picked up by players and should be immune to most forms of attraction, magnetic or otherwise."
 	]
 	quest.3E0DD81BB79338A8.title: "Item and Fluid Routers"
 	quest.3E0DD81BB79338A8.quest_desc: [
+		"&lWhy:&r Sorts items (and fluids) by filters per side."
 		"The Item Router is designed to parcel and sort items into inventories such as chests, machines, and conveyors."
 		"Items inserted into the router will be output from matching configured sides or open sides in that order."
 		"Items can be inserted from any side, and will be output from one of the other five sides, or will disallow input if they cannot be sorted."
 	]
 	quest.1CBBA1A0F316EFF2.title: "Pipes and Pump"
 	quest.1CBBA1A0F316EFF2.quest_desc: [
+		"&lWhy:&r Pipes carry fluids; the pump extracts; the valve shuts flow."
 		"Fluid Pipes are a versatile and efficient method of transporting fluids, unlike moving tanks ore buckets around en masse."
 		"Pipe systems will output any fluid input to them across the available ouputs, split evenly."
 		"At low pressure, pipe systems will transport fluid slowly. Pressurized fluids output from a Fluid Pump or certain large machines can move much faster."
@@ -4522,6 +4540,7 @@
 	]
 	quest.60033203B5A72663.title: "Minecart with Wooden Storage Crate"
 	quest.60033203B5A72663.quest_desc: [
+		"&lWhy:&r Crates in minecarts keep their contents: rail cargo."
 		"Storage Crates can be placed into Minecarts, as with chests and hoppers."
 		"When placed into Minecarts, crates will act as they do outside, and store their items inside when they are broken, unlike chests."
 		"Storage Barrels can be placed into Minecarts, as with chests and hoppers."
@@ -4542,6 +4561,7 @@
 	]
 	quest.357238A037B74D9D.title: "Redstone Wiring"
 	quest.357238A037B74D9D.quest_desc: [
+		"&lWhy:&r Long-range redstone without signal loss; the timer pulses on schedule."
 		"Redstone Wires are aluminium coated in redstone dust. The resulting cables provide an easy way to transfer redstone signals over long distance without losing signal strength."
 		"Redstone Wire Connectors work as both relays and connectors: input and output connectors can have multiple wires connected."
 		"With the Engineer's Screwdriver, the connectors can be configured between in- and output mode and set to one of 16 coloured frequencies."
@@ -4577,6 +4597,7 @@
 	]
 	quest.0EA0F172A29FF98F.title: "Ear Defenders"
 	quest.0EA0F172A29FF98F.quest_desc: [
+		"&lWhy:&r Protect your hearing near loud machines."
 		"Ear Defenders are devices for protecting your hearing. They are quite important for engineers that work in close proximity to Diesel Generators; or other loud machinery."
 		"While wearing Ear Defenders, all noises are reduced by 90% and they make your ears considerably more warm and fuzzy! :D"
 		"Placing the Ear Defenders in the Engineer's Workbench; allows you to specify which types of noises you want cancelled and by how much their volume should be reduced."
@@ -4654,6 +4675,7 @@
 	]
 	quest.6575193BF5DBA93C.title: "Razor Wire"
 	quest.6575193BF5DBA93C.quest_desc: [
+		"&lWhy:&r Cuts and slows anything passing; remove with wirecutters."
 		"Razorwire is a wire with sharpened pieces of metal attached. It will slow and cut any entity that tries to move through it."
 		"Razorwire can only be removed with Wirecutters, any other attempts will damage the player. Additionally, LV wires can be connected to electrify the razorwire for extra damage."
 	]
@@ -4673,6 +4695,7 @@
 	]
 	quest.5618E337E950989F.title: "Automaton Wolf"
 	quest.5618E337E950989F.quest_desc: [
+		"&lWhy:&r A blueprint found in Trial Chambers for a synthetic wolf-like companion."
 		"Within the Trial Chambers, you have found a slightly faded but still legible blueprint. It seems to contain instructions on how to construct a synthetic creature akin to the common wolf!"
 		"This construct is loyal to the person that deploys it."
 		"Being powered by a thermoelectric generator, it should never run out of energy to move itself."
@@ -4980,6 +5003,114 @@
 	quest.3B8BB67D88DE00FE.title: "Network Engineer"
 	quest.3B8BB67D88DE00FE.quest_desc: [
 		"You've mastered AE2 from quartz farms to moving bases."
+	]
+	quest.4C80E997620D8507.title: "Processing Patterns"
+	quest.4C80E997620D8507.quest_desc: [
+		"&lWhy:&r Processing patterns drive any machine: furnaces, crushers, Create presses."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Patterns icon: crafting_pattern position: 410 categories: - tools item_ids: - ae2:blank_pattern - ae2:crafting_pattern - ae2:processing_pattern - ae2:smithing_table_pattern - ae2:stonecutting_pattern ---"
+		"Patterns are made in a pattern encoding terminal out of blank patterns, and inserted in pattern providers or molecular assemblers."
+		"There are several different types of pattern for different things:"
+	]
+	quest.26C283F6D1F09975.title: "ME Pattern Access Terminal"
+	quest.26C283F6D1F09975.quest_desc: [
+		"&lWhy:&r Edit every pattern in the network from one place."
+	]
+	quest.2F6632A01828F08A.title: "Wireless Crafting Terminal"
+	quest.2F6632A01828F08A.quest_desc: [
+		"&lWhy:&r Order and craft from anywhere in range."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Wireless Terminals icon: wireless_crafting_terminal position: 410 categories: - tools item_ids: - ae2:wireless_terminal ---"
+		"Wireless terminals are portable versions of the regular wired terminals. They have the exact same UIs as their wired counterparts, except instead of slots for view cells, they have slots for upgrade cards"
+		"In order to pair them with a network, insert the terminal in the top-right slot of a wireless access point connected to that network. (The slot with a picture of a wireless terminal on it and an arrow below it)"
+	]
+	quest.664F93A574122935.title: "Upgrade Cards"
+	quest.664F93A574122935.quest_desc: [
+		"&lWhy:&r Crafting, redstone and void cards change how buses and cells behave."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Upgrade Cards icon: speed_card position: 410 categories: - tools item_ids: - ae2:basic_card - ae2:advanced_card - ae2:redstone_card - ae2:capacity_card - ae2:void_card - ae2:fuzzy_card - ae2:speed_card - ae2:inverter_card - ae2:crafting_card - ae2:equal_distribution_card - ae2:energy_card ---"
+		"Upgrade cards change the behavior of AE2 devices and machines, increasing their speed, improving their filter capacity, enabling redstone control, etc."
+		"Cards are crafted with either basic or advanced card bases"
+	]
+	quest.1FDE649DDEF189BA.title: "Item, Energy and Fluid P2P"
+	quest.1FDE649DDEF189BA.quest_desc: [
+		"&lWhy:&r Carry items, power and fluids over ME cable."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: P2P Tunnels icon: me_p2p_tunnel position: 210 categories: - devices item_ids: - ae2:me_p2p_tunnel - ae2:redstone_p2p_tunnel - ae2:item_p2p_tunnel - ae2:fluid_p2p_tunnel - ae2:fe_p2p_tunnel - ae2:light_p2p_tunnel ---"
+		"P2P tunnels are a way to move things like items, fluids, redstone signals, power, light, and channels around a network without them directly interacting with the network. There are many variants of P2P tunnel but each only transports its specific type of thing. They essentially act like portals that directly connect two block faces at range."
+	]
+	quest.326C7274DB452A11.title: "Quantum Entangled Singularity"
+	quest.326C7274DB452A11.quest_desc: [
+		"&lWhy:&r A linked pair joins two quantum rings across dimensions."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Quantum Bridge icon: quantum_ring position: 110 categories: - network infrastructure item_ids: - ae2:quantum_link - ae2:quantum_ring ---"
+		"Quantum Network Bridges can extend a network over infinite distances and even between dimensions. They can carry 32 channels in total (regardless of how cables are connected to each face), essentially acting like a wireless dense cable."
+		"An imaginary cable between the two endpoints"
+	]
+	quest.6DA7C0D8D1C33E52.title: "2³ Spatial Component"
+	quest.6DA7C0D8D1C33E52.quest_desc: [
+		"&lWhy:&r Stores a 2x2x2 chunk of the world for moving builds."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Spatial Cells icon: spatial_storage_cell_128 position: 410 categories: - tools item_ids: - ae2:spatial_storage_cell_2 - ae2:spatial_storage_cell_16 - ae2:spatial_storage_cell_128 - ae2:spatial_cell_component_2 - ae2:spatial_cell_component_16 - ae2:spatial_cell_component_128 ---"
+		"Spatial Storage Cells are used to store physical volumes of space. They are used in a spatial io port."
+		"Unlike Storage Cells, spatial cells cannot be reformatted."
+	]
+	quest.6B2A79C81C8F4ECD.title: "Annihilation Core"
+	quest.6B2A79C81C8F4ECD.quest_desc: [
+		"&lWhy:&r Part of annihilation planes and buses."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Formation and Annihilation Cores icon: formation_core position: 010 categories: - misc ingredients blocks item_ids: - ae2:formation_core - ae2:annihilation_core ---"
+		"These are the primary components of AE2 input and output devices. Using the power of fluix crystal and a logic processor it allows devices to input and output items, blocks, fluids, etc. (No actual function, just a crafting intermediate)"
+	]
+	quest.45CFDCF7803BFE5A.title: "Portable and Fluid Cells"
+	quest.45CFDCF7803BFE5A.quest_desc: [
+		"&lWhy:&r A pocket storage cell; fluid cells hold buckets in ME."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Storage Cells icon: item_storage_cell_1k position: 410 categories: - tools item_ids: - ae2:item_cell_housing - ae2:fluid_cell_housing - ae2:cell_component_1k - ae2:cell_component_4k - ae2:cell_component_16k - ae2:cell_component_64k - ae2:cell"
+	]
+	quest.452BBD64E2A59D14.title: "Energy Acceptor"
+	quest.452BBD64E2A59D14.quest_desc: [
+		"&lWhy:&r Feeds any mod's power into ME without a full block."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Energy Acceptor icon: energy_acceptor position: 110 categories: - network infrastructure item_ids: - ae2:energy_acceptor ---"
+		"The energy acceptor converts common forms of energy from other tech mods into AE2's internal form of energy, AE. While the controller can also do this, controller faces are valuable so it's often better to use an energy acceptor instead."
+		"The ratios for conversion of Forge Energy and Techreborn Energy are"
+	]
+	quest.2772CE9509CDC3D0.title: "Fluix Upgrade"
+	quest.2772CE9509CDC3D0.quest_desc: [
+		"&lWhy:&r Upgrades quartz tools to fluix."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Fluix Tools icon: fluix_pickaxe position: 410 categories: - tools item_ids: - ae2:fluix_axe - ae2:fluix_hoe - ae2:fluix_shovel - ae2:fluix_pickaxe - ae2:fluix_sword ---"
+		"Fluix tools are similar to iron tools, having 3x the durability and a slightly higher attack damage and mining speed."
+		"All fluix tools act as if they have at least fortune/looting 1, which is useful before getting access to an enchanting table."
+	]
+	quest.1F53C44E843BC6CF.title: "Inscriber Name Press"
+	quest.1F53C44E843BC6CF.quest_desc: [
+		"&lWhy:&r Names items in the inscriber."
+		"--- navigation: parent: items-blocks-machines/items-blocks-machines-index.md title: Inscriber icon: inscriber position: 310 categories: - machines item_ids: - ae2:inscriber ---"
+		"The inscriber is used to inscribe circuits and processors using presses, and to crush various items into dust. It can accept either AE2's power (AE) or Fabric/Forge Energy (E/FE). It can be sided, such that inserting items from different sides inserts them into different slots in its inventory. To facilitate this, it can be rotated with a certus quartz wrench. It can also be set to push the results of crafts to adjacent inventories."
+	]
+	quest.596F329176C73067.title: "Sky Steel and Accumulation Processor"
+	quest.596F329176C73067.quest_desc: [
+		"&lWhy:&r The base of MEGA Cells parts."
+	]
+	quest.1C3C652D480D7960.title: "1M Cell"
+	quest.1C3C652D480D7960.quest_desc: [
+		"&lWhy:&r MEGA cells start at 1M."
+	]
+	quest.660F1272E0C7B851.title: "1M Fluid and Chemical Cells"
+	quest.660F1272E0C7B851.quest_desc: [
+		"&lWhy:&r Millions of buckets and chemicals in one drive."
+	]
+	quest.273E370D0B3A47B5.title: "Bulk Compression"
+	quest.273E370D0B3A47B5.quest_desc: [
+		"&lWhy:&r Bulk cells hold one item endlessly; the compression card converts ingots and blocks."
+	]
+	quest.7B716DC5A2432867.title: "MEGA Interface and Provider"
+	quest.7B716DC5A2432867.quest_desc: [
+		"&lWhy:&r More slots and speed for huge autocrafting."
+	]
+	quest.2786363D8AAEBF28.title: "Portable Cell Workbench and Dock"
+	quest.2786363D8AAEBF28.quest_desc: [
+		"&lWhy:&r Configure cells on the go; the dock holds a cell on a cable."
+	]
+	quest.1BCE628C5F7B4DA9.title: "MEGA Energy"
+	quest.1BCE628C5F7B4DA9.quest_desc: [
+		"&lWhy:&r Huge network energy buffer and more charge for portable tools."
+	]
+	quest.2903D6020CF5A1DD.title: "Wireless Pattern Terminals"
+	quest.2903D6020CF5A1DD.quest_desc: [
+		"&lWhy:&r Encode and edit patterns on the go; fold them into the universal terminal."
 	]
 	quest.3EAA09CA9AF1C413.title: "Entro Materials"
 	quest.3EAA09CA9AF1C413.quest_desc: [
@@ -5580,9 +5711,227 @@
 	quest.2A4234012CF07503.quest_desc: [
 		"&lWhy:&r Watch through a crystal placed far away: a camera for your farm or base entrance."
 	]
-	quest.3A0AA55BF72A51A3.title: "Master of Ars Nouveau"
+	quest.3A0AA55BF72A51A3.title: "Ars Nouveau Master"
 	quest.3A0AA55BF72A51A3.quest_desc: [
 		"Source flows by itself, helpers work, armour and weapons are steeped in magic. The rest is your imagination in the spell book."
+	]
+	quest.78BDF73412328DE7.title: "The Three Spell Forms"
+	quest.78BDF73412328DE7.quest_desc: [
+		"&lWhy:&r Every spell starts with a form: projectile, touch or self."
+		"Summons a projectile that applies spell effects when this projectile hits a target or block. Sensitive will allow Projectiles to break plants or other materials that do not block motion."
+	]
+	quest.24D0209C3889558D.title: "Break Glyph"
+	quest.24D0209C3889558D.quest_desc: [
+		"&lWhy:&r Breaks blocks; Amplify raises harvest level, Sensitive acts like shears."
+		"Breaks blocks of an average hardness. Can be amplified to increase the harvest level. Sensitive will simulate breaking blocks with Shears instead of a pickaxe."
+	]
+	quest.2540AEFB991B8860.title: "Harm and Heal"
+	quest.2540AEFB991B8860.quest_desc: [
+		"Damages a target. May be increased by Amplify, or applies the Poison debuff when using a Time augment. Note, multiple Harms without a delay will not apply due to invincibility on hit."
+	]
+	quest.6D83861EB1C2C0DE.title: "Fire, Ice and Lightning"
+	quest.6D83861EB1C2C0DE.quest_desc: [
+		"Sets blocks and mobs on fire for a short time. Sensitive will summon Mage Fire, a shorter lived fire that will not spread or destroy blocks."
+	]
+	quest.3CC0C102FF6C2B49.title: "Explosion Glyph"
+	quest.3CC0C102FF6C2B49.quest_desc: [
+		"&lWhy:&r It breaks blocks: wilds only."
+		"Causes an explosion at the location. Amplify increases the damage and size by a small amount, while AOE will increase the size of the explosion by a large amount, but not damage."
+	]
+	quest.160F8912F1DEB75E.title: "Movement Glyphs"
+	quest.160F8912F1DEB75E.quest_desc: [
+		"Teleports the caster to a location. If an entity is hit and the caster is holding a Warp Scroll in the offhand, the entity will be warped to the location on the Warp Scroll. When used on Self, the caster blinks forward. Spell Turrets and Runes can warp entities using Warp Scrolls from adjacent inventories without consuming the scroll."
+	]
+	quest.57F419C894D0DECF.title: "Augments"
+	quest.57F419C894D0DECF.quest_desc: [
+		"&lWhy:&r Augments make the previous effect stronger, wider, piercing or longer — for more mana."
+		"Additively increases the power of most spell effects. Can increase the harvest level of Break and increases the damage of spells."
+	]
+	quest.22F729FD1B39A859.title: "Summon Wolves Glyph"
+	quest.22F729FD1B39A859.quest_desc: [
+		"&lWhy:&r Two wolves fight for you; Summoning Sickness follows."
+		"Summons two wolves that will fight with you. Extend Time will increase the amount of time on the summons. Applies Summoning Sickness to the caster, preventing other summoning magic."
+	]
+	quest.15A355AA90D78334.title: "Harvest Glyph"
+	quest.15A355AA90D78334.quest_desc: [
+		"&lWhy:&r Harvests grown crops without breaking the plant."
+		"When used on grown crops, this spell will obtain the fully grown product without destroying the plant."
+	]
+	quest.1238C80D9EC2A5D3.title: "Spell Turrets"
+	quest.1238C80D9EC2A5D3.quest_desc: [
+		"&lWhy:&r Redstone-triggered and timed spell turrets."
+	]
+	quest.7CCE4C089A5ABF74.title: "Potion Diffuser"
+	quest.7CCE4C089A5ABF74.quest_desc: [
+		"Consumes a potion and applies it to nearby entities, greatly extending the use of the potion. To use, bind a Potion Jar to the diffuser using the Dominion Wand. Every 10 minutes the diffuser will consume a single potion and apply it every few seconds."
+	]
+	quest.5A4EE7B1B71B9F8D.title: "Alchemist's Crown"
+	quest.5A4EE7B1B71B9F8D.quest_desc: [
+		"Allows the wearer to consume potions and flasks instantly from their inventory."
+	]
+	quest.1C230EF38756757A.title: "Wixie Cauldron"
+	quest.1C230EF38756757A.quest_desc: [
+		"&lWhy:&r A wixie crafts recipes for you: a magic autocrafter."
+	]
+	quest.1ABCE6C2DF8B63F4.title: "Jar of Voiding"
+	quest.1ABCE6C2DF8B63F4.quest_desc: [
+		"A jar that can destroy items on pickup and grants a small amount of mana in return. To turn the jar on and off, use the jar while sneaking. To add or remove an item to be destroyed by the jar, use the jar with an item in the off hand, or use an item on the Scribes Table with the jar placed on it. The jar must be in your hotbar to function."
+	]
+	quest.6DF2C63B3937AA32.title: "Collector and Deposit Relays"
+	quest.6DF2C63B3937AA32.quest_desc: [
+		"Operates similar to the Source Relay, but will automatically take from jars it is not linked to within 5 blocks. See the instructions on the Source Relay for use."
+	]
+	quest.6073DD8DA99D4B2C.title: "Enchanter's Eye"
+	quest.6073DD8DA99D4B2C.quest_desc: [
+		"A caster tool that can cast inscribed spells remotely through a Scry Crystal. Use the eye on a Scry Crystal to bind the location, or hold a bound Scry Parchment in the offhand. Spells will be cast through the eye similar to a Spell Turret, but you are considered the caster for all effects. Useful for remote teleportation or item movement."
+	]
+	quest.41A90AAC146322F0.title: "Ring of Greater Discount"
+	quest.41A90AAC146322F0.quest_desc: [
+		"Provides a slightly larger discount over the Lesser Ring of Discount."
+	]
+	quest.558805074661EC74.title: "Caster Tome"
+	quest.558805074661EC74.quest_desc: [
+		"Casts a spell at half the cost or the users entire mana bar, whichever is smaller."
+	]
+	quest.7C59D9611D40FC57.title: "Summoning and Shaper's Focus"
+	quest.7C59D9611D40FC57.quest_desc: [
+		"A special casting focus. Grants summons from spells additional duration, strength, speed, and deals damage to enemies that kill them. Additionally, casting spells that target you like Self and Orbit will cast a copy of the spell on your nearby summons."
+	]
+	quest.2EC8A3954F9FC6E0.title: "Enchanter's Wand"
+	quest.2EC8A3954F9FC6E0.quest_desc: [
+		"Wands accept only a single spell, and are inscribed using the Scribes Table. A Wand always starts with Projectile -> Accelerate, and MUST be inscribed with a spell that does not have another form. This allows you to cast spells beyond the 10 spell cap. If you want a wand that casts Break, inscribe the wand with JUST break, and your result will be a wand with Projectile -> Acclerate -> Break."
+	]
+	quest.31569837C9CFDD87.title: "Jar of Light"
+	quest.31569837C9CFDD87.quest_desc: [
+		"Summons a light that will follow the user as they move. Can be summoned and dismissed at any time."
+	]
+	quest.3E82992E5804F7A8.title: "Scryer's Scroll"
+	quest.3E82992E5804F7A8.quest_desc: [
+		"Stores the location of a Scryer's Crystal. To create one, use a Blank Parchment on a Scry Crystal. You can remotely access the stored position by placing this item on a pedestal near a Scryer's Oculus. Naming this item will allow you to easily recognize it in the Scryer's Oculus interface."
+	]
+	quest.4613034D1CED05E8.title: "Threads of Power and Capacity"
+	quest.4613034D1CED05E8.quest_desc: [
+		"Grants an increasing amount of Spell Damage each level."
+	]
+	quest.36959042C74C2998.title: "Flowering and Animal Rituals"
+	quest.36959042C74C2998.quest_desc: [
+		"Populates the nearby area with flowers and grass. Augmenting with a source gem will increase the radius by 1 for each gem. Augmenting with sand will replace flowers with Cactus and Dead Bushes."
+	]
+	quest.28E0B185EB26A742.title: "Annotated Codex"
+	quest.28E0B185EB26A742.quest_desc: [
+		"The Annoted Codex allows players to share their knowledge of glyphs with other players. To record your known glyphs, simply use the codex. Recording glyphs requires EXP for each glyph known, and the EXP will be consumed upon using the item. Using the item again will update the list of known glyphs. Other players may use the book to learn the glyphs, consuming the codex in the process."
+	]
+	quest.62C5D2015F490B69.title: "Experience Gem"
+	quest.62C5D2015F490B69.quest_desc: [
+		"&lWhy:&r Experience in a gem for enchanting and rituals."
+	]
+	quest.347F018C6B91F9BC.title: "Elemental Foci"
+	quest.347F018C6B91F9BC.quest_desc: [
+		"This spell focus is attuned to the school of Earth. While equipped, the glyphs of this school will be amplified and discounted. The lesser focus, as a drawback, will weaken glyphs of the other elemental schools. The major focus also grants Mana Regen I while the wearer stand under Y 0."
+	]
+	quest.03F9260A3FA3CB96.title: "Lesser Focus of Fire"
+	quest.03F9260A3FA3CB96.quest_desc: [
+		"Acquire a lesser focus of Fire"
+	]
+	quest.7D1F095AD4ABA1DF.title: "Elemental Armor"
+	quest.7D1F095AD4ABA1DF.quest_desc: [
+		"&lWhy:&r Each set boosts and cheapens its school's glyphs and reduces its element's damage."
+	]
+	quest.5D6F9FA45F7FED07.title: "Mark of Mastery"
+	quest.5D6F9FA45F7FED07.quest_desc: [
+		"&lWhy:&r Needed for top elemental gear; full sets convert part of reduced damage."
+		"Elemental Armor Sets are attuned to the four elemental schools of magic. Each piece of armor will amplify glyphs of its school, make them cheaper, and reduce damage related to its element. When all pieces are equipped, the chunk of damage reduced is converted into mana and a special effect may trigger."
+	]
+	quest.29098A9D3DEF7117.title: "Caster Tome of Fire"
+	quest.29098A9D3DEF7117.quest_desc: [
+		"&lWhy:&r A ready-made fire spell at reduced cost."
+	]
+	quest.1F70B8398072528F.title: "Fire Infused Turret"
+	quest.1F70B8398072528F.quest_desc: [
+		"&lWhy:&r Boosts fire spells cast through it."
+	]
+	quest.0CD713B012CA7C05.title: "Bangles"
+	quest.0CD713B012CA7C05.quest_desc: [
+		"This magic accessory has a chance to boost the damage of your spells. Its magic is unstable but perhaps attuning it to a school can stabilize its abilities."
+	]
+	quest.4C88B5097924F8FC.title: "Elemental Spirit Charms"
+	quest.4C88B5097924F8FC.quest_desc: [
+		"&lWhy:&r Summon elemental spirits; befriend a siren with a sea pickle."
+		"Sirens are usually found near coral formations, jumping out of the water or following boats. You can befriend a wild mermaid by giving them a sea pickle, they will jump and leave behind few tokens. The siren charm can be used to summon a Siren and if used on Prismarine it will transform in a Siren Shrine. Tamed sirens can change colors if you give them kelp or corals."
+	]
+	quest.4DA14F02A0A0674D.title: "Enchanter's Horn"
+	quest.4DA14F02A0A0674D.quest_desc: [
+		"&lWhy:&r Casts its spell on you and those around; hold longer for range."
+		"The Enchanter's Horn can be used to cast spells on you and nearby entities. Hold the Horn to increase the range, at max charge it will also give a Spell Damage effect to the player. It MUST be inscribed with a spell that does NOT have another method, using a Scribing Table."
+	]
+	quest.4D6E63F0811169A9.title: "Spellcaster Bag"
+	quest.4D6E63F0811169A9.quest_desc: [
+		"Acquire a Spellcaster Bag"
+	]
+	quest.706F4F1C750EA3CA.title: "Prism Lenses"
+	quest.706F4F1C750EA3CA.quest_desc: [
+		"&lWhy:&r Lenses on a prism: homing and piercing."
+	]
+	quest.14443E04F2A6B4D0.title: "Fiery Collector Relay"
+	quest.14443E04F2A6B4D0.quest_desc: [
+		"&lWhy:&r An elemental source relay."
+	]
+	quest.258CC9B74CCF9708.title: "Elemental Glyphs"
+	quest.258CC9B74CCF9708.quest_desc: [
+		"You create a link between your life force and the target's. Any damage dealt to you will be shared with the target and any healing of the target will be shared with you equally. Using sensitive reverses the direction of the link. Cut can sever the life link, ending the effect on both sides."
+	]
+	quest.1D06571D72F4825A.title: "Protective Charms"
+	quest.1D06571D72F4825A.quest_desc: [
+		"&lWhy:&r Undying, fall prevention and water breathing charms."
+		"Prevents you from dying"
+	]
+	quest.1E356454A2DDCB4D.title: "More Charms"
+	quest.1E356454A2DDCB4D.quest_desc: [
+		"&lWhy:&r Fire resistance and night vision charms."
+		"Nullifies Fire Damage"
+	]
+	quest.24F607E78EFCAB56.title: "Warp Index"
+	quest.24F607E78EFCAB56.quest_desc: [
+		"&lWhy:&r Holds several warp points; see the notebook."
+	]
+	quest.62271614A8A5B8C8.title: "Wayfinder"
+	quest.62271614A8A5B8C8.quest_desc: [
+		"&lWhy:&r Points to a bound location with distance."
+	]
+	quest.476D450609D18739.title: "Handy Haversack"
+	quest.476D450609D18739.quest_desc: [
+		"&lWhy:&r Deposit into a bound container from anywhere."
+		"After binding the Handy Haversack to a container, you can right-click items onto the haversack to deposit them into that container from anywhere. When the container is unloaded the haversack will close and not accept any items. You can automate the depositing of items by adding items to its filters. Use the haversack with an item in your off hand, or scribe the haversack using a Scribe's table with the item you wish to add."
+	]
+	quest.753E0CB331EFBAE3.title: "XP and Ender Source Jars"
+	quest.753E0CB331EFBAE3.quest_desc: [
+		"&lWhy:&r Destroys chosen junk on pickup for a bit of XP."
+		"A jar that can destroy items on pickup and grants a small amount of XP in return. To turn the jar on and off, use the jar while sneaking. To add or remove an item to be destroyed by the jar, use the jar with an item in the off hand, or use an item on the Scribes Table with the jar placed on it. The jar must be in your hotbar to function."
+	]
+	quest.6C977C2FD51BD227.title: "Source Spawner"
+	quest.6C977C2FD51BD227.quest_desc: [
+		"&lWhy:&r A source-powered spawner reading nearby mob jars."
+		"The Source Spawner is a source-powered mob spawner that reads nearby Mob Jars to determine what to spawn. Each mob spawned consumes source from nearby Source Jars, with the cost varying based on the mob type. The spawner can be disabled with a redstone signal and outputs a comparator signal proportional to the current spawn delay."
+	]
+	quest.405000651C767FEE.title: "Unstable Reliquary"
+	quest.405000651C767FEE.quest_desc: [
+		"&lWhy:&r Stores targets for the Recall glyph."
+		"Reliquaries are able to store references to entities and locations to be targeted using the Recall glyph. To store a reference in a Reliquary, hold it in your off-hand and cast a spell with the Mark glyph."
+	]
+	quest.3746C02161AE6FB0.title: "Advanced Dominion Wand"
+	quest.3746C02161AE6FB0.quest_desc: [
+		"&lWhy:&r Links several blocks at once and sets link order."
+		"The Advanced Dominion Wand is an upgraded Dominion Wand with the ability to control link order and link multiple blocks at once. Use the radial menu to toggle between First/Second link order and Single/Multi link count. In Multi mode, Shift + Right-clicking a block will find all connected blocks of the same type and link them all at once."
+	]
+	quest.140369FB899A7FE5.title: "Chunk Loading and Locate Rituals"
+	quest.140369FB899A7FE5.quest_desc: [
+		"&lWhy:&r Chunk loading on a source stream; a structure-locating ritual."
+		"The Ritual of Arcane Permanence force-loads surrounding chunks when provided with a constant stream of source."
+	]
+	quest.4597D4398D1C2E76.title: "Memory Crystal and Recall Glyph"
+	quest.4597D4398D1C2E76.quest_desc: [
+		"&lWhy:&r Copies block/entity configuration; Recall teleports to a stored mark."
+		"The Memory Crystal can save and load configuration data from supported blocks and entities. Shift + Right-click a supported block or entity to save its configuration to the selected slot. Shift + Right-click again to load the saved data back. Use the radial menu to select between 10 memory slots. Shift + radial menu allows you to clear or lock slots to prevent accidental overwrites."
 	]
 	chapter.543CD5142769B82D.title: "Iron's Spells"
 	chapter.543CD5142769B82D.chapter_subtitle: [
@@ -5718,6 +6067,7 @@
 	]
 	quest.69EC7A617666F350.title: "Tinctures"
 	quest.69EC7A617666F350.quest_desc: [
+		"&lWhy:&r Dropped by ominous bosses."
 		"Dropped from Ominous Bosses"
 	]
 	quest.7FF93BEFC552763F.title: "Fire Ale"
@@ -6089,6 +6439,7 @@
 	]
 	quest.36A810031247CDD3.title: "Large Candle"
 	quest.36A810031247CDD3.quest_desc: [
+		"&lWhy:&r Candles stabilise rituals and count as bookshelves for enchanting."
 		"Candles provide stability to rituals and are an important part of almost all pentacles."
 		"&lLarge Candles also act like bookshelves for enchantment purposes.&r"
 		"\\"
@@ -6127,6 +6478,7 @@
 	]
 	quest.16CEB8D707FC6B0F.title: "Empty Magic Lamp"
 	quest.16CEB8D707FC6B0F.quest_desc: [
+		"&lWhy:&r Keeps a spirit safe from essence decay."
 		"Magic Lamps can be used to keep spirits safe from [#](ad03fc)Essence Decay[#]() (if the spirit has decay), while still having access to some of their powers. Right-Click on one of your workers to store and transport it as desired."
 	]
 	quest.22CAE8CB27182222.title: "Miner Foliot"
@@ -6137,21 +6489,25 @@
 	]
 	quest.47BFFD5BDFFC48EA.title: "Dimensional Mineshaft"
 	quest.47BFFD5BDFFC48EA.quest_desc: [
+		"&lWhy:&r Home for a miner spirit that digs in its own dimension."
 		"See [Dimensional Mineshaft](entry://crafting_rituals/craft_dimensional_mineshaft) in the [Binding Rituals](category://crafting_rituals) Category."
 	]
 	quest.785111D423C73BF4.title: "Ore Miner Djinni"
 	quest.785111D423C73BF4.quest_desc: [
+		"&lWhy:&r Mines only ores, faster than the foliot."
 		"The [#](AA00AA)Djinni[#]() miner harvests ores specifically. By discarding other blocks it is able to mine faster and"
 		" more efficiently. The greater power of the djinni it damages the magic lamp relatively quickly."
 	]
 	quest.1F304D85DB83850F.title: "Deep Ore Miner Afrit"
 	quest.1F304D85DB83850F.quest_desc: [
+		"&lWhy:&r Also mines some deepslate ores; faster than the djinni."
 		"The [#](AA00AA)Afrit[#]() miner harvests ores, like djinni miners, and additionally"
 		" mines some deepslate ores. This miner is faster and more efficient"
 		" than the djinnis, thus damaging the magic lamp even more slowly."
 	]
 	quest.60BFA4BAD2244519.title: "Master Miner Marid"
 	quest.60BFA4BAD2244519.quest_desc: [
+		"&lWhy:&r The fastest miner with the best lamp preservation."
 		"The [#](AA00AA)Marid[#]() miner is the most powerful miner spirit, it has the fasted mining speed and best magic lamp"
 		" preservation. Unlike other miner spirits they also can mine the rarest ores, such as [](item://minecraft:ancient_debris) and [](item://occultism:iesnium_ore)."
 	]
@@ -6164,23 +6520,27 @@
 	]
 	quest.33F1EAB5F17B4004.title: "Spirit Smelter"
 	quest.33F1EAB5F17B4004.quest_desc: [
+		"&lWhy:&r Smelts, blasts, smokes and cooks without fuel."
 		"Smelter spirits are summoned to do furnace, blast furnace, smoker and campfire process,"
 		"without using fuel. They will pick up appropriate items and drop the resulting into the world."
 		"A fire particle effect and a flame sound indicate the smelter is at work."
 	]
 	quest.05C7EA617D95F814.title: "Spirit Crystallizer"
 	quest.05C7EA617D95F814.quest_desc: [
+		"&lWhy:&r Regrows gems from dust and multiplies gem ore output."
 		"Crystallizer spirits are summoned to regenerate gem from their dusts and directly multiply"
 		"the output of breaking gem ores. They will pick up appropriate items and drop the resulting into"
 		"the world. A magical particle effect and a amethyst sound indicate the crystallizer is at work."
 	]
 	quest.1D0B04D9A9947955.title: "Foliot Farmer"
 	quest.1D0B04D9A9947955.quest_desc: [
+		"&lWhy:&r Harvests and replants; set a chest to collect."
 		"The farmer will harvest and re-plant crops in it's working area."
 		" If a deposit location is set it will collect the dropped items into the specified chest."
 	]
 	quest.2E048D09F8C3DC88.title: "Spirit Traders"
 	quest.2E048D09F8C3DC88.quest_desc: [
+		"&lWhy:&r Trade spirits exchange items while purple particles show."
 		"Trade spirits pick up appropriate items and throw trade results on the ground."
 		"The spirit is only actively exchanging items if purple particles spawn around it."
 		"\\"
@@ -6189,6 +6549,7 @@
 	]
 	quest.768BC79277A283F6.title: "Weather and Time Magic"
 	quest.768BC79277A283F6.quest_desc: [
+		"&lWhy:&r Spirits change the weather; time magic shifts day and night."
 		"Weather magic is especially useful for farmers and others depending"
 		"on specific weather. Summons spirits to modify the weather."
 		"Different types of weather modification require different spirits."
@@ -6215,6 +6576,7 @@
 	]
 	quest.5BA258F7F0DD5F3E.title: "Possessed Warden"
 	quest.5BA258F7F0DD5F3E.quest_desc: [
+		"&lWhy:&r A Warden is made and possessed at once, dropping loot without a fight."
 		"In this ritual a [#](ad03fc)Warden[#]() is spawned using the life energy of a [#](ad03fc)Axolotl[#]() and immediately possessed by the summoned [#](ad03fc)Afrit[#](). The [#](ad03fc)Possessed Warden[#]() will always drop at least six [](item://minecraft:echo_shard) when killed and as a chance to drop [](item://minecraft:disc_fragment_5), [](item://minecraft:music_disc_otherside), [](item://minecraft:silence_armor_trim_smithing_template), [](item://minecraft:ward_armor_trim_smithing_template). If you try to escape, this possessed Warden will go to the floor like a normal warden."
 	]
 	quest.16B9D3C04837AABD.title: "Summoning a Horde"
@@ -6252,6 +6614,7 @@
 	]
 	quest.64F4FE179136705A.title: "Iesnium Golem"
 	quest.64F4FE179136705A.quest_desc: [
+		"&lWhy:&r A far stronger, invulnerable iron golem."
 		"An Iesnium Golem is a direct upgrade from a regular Iron Golem, this new version is much stronger and invulnerable. \\"
 		"Only a player can dismiss them, by hitting while crouched, returning as a [](item://occultism:fragile_soul_gem)."
 	]
@@ -6284,6 +6647,7 @@
 	]
 	quest.7B3F08C22542815B.title: "Iesnium Anvil"
 	quest.7B3F08C22542815B.quest_desc: [
+		"&lWhy:&r Unbreakable, and can exceed max enchantment levels."
 		"The [](item://occultism:iesnium_anvil) is a [#](AA00AA)Marid[#]() infusion."
 		"This anvil has some improvements:"
 		"1. Is unbreakable;"
@@ -6302,6 +6666,7 @@
 	]
 	quest.7005DBFFDE4D8507.title: "Tier 4 Dimensional Storage Stabilizer"
 	quest.7005DBFFDE4D8507.quest_desc: [
+		"&lWhy:&r A marid stabilizer that greatly raises storage capacity."
 		"This highly advanced storage stabilizer is inhabited by a [#](AA00AA)Marid[#]() that supports the dimensional matrix"
 		" in keeping the storage dimension stable, thus allowing to store more items."
 		"\\"
@@ -6310,12 +6675,14 @@
 	]
 	quest.777B0130DE546921.title: "Storage Accessor"
 	quest.777B0130DE546921.quest_desc: [
+		"&lWhy:&r Opens your storage from anywhere."
 		"The [](item://occultism:storage_remote) can be linked to a [](item://occultism:storage_controller) by shift-clicking."
 		" The [#](AA00AA)Djinni[#]() bound to the accessor will then be able to"
 		" access items from the actuator even from across dimensions."
 	]
 	quest.281C924603403A40.title: "Stable Wormhole"
 	quest.281C924603403A40.quest_desc: [
+		"&lWhy:&r Hoppers and pipes work with the storage like a chest."
 		"The Storage Actuator behaves much like a big chest or shulker box."
 		" That means, hoppers and pipes can insert and extract items."
 	]
@@ -6332,18 +6699,21 @@
 	]
 	quest.1BAEF5BAEF1A9803.title: "Entity Wormhole"
 	quest.1BAEF5BAEF1A9803.quest_desc: [
+		"&lWhy:&r Moves creatures; a compass sets the destination."
 		"To set the destination, you''ll need a compass. Right-click to place it and shift+right-click to remove it."
 		"+ A standard compass takes you to the world spawn;"
 		"+ A compass attached to a lodestone takes you to the top of it. (After placing it in the wormhole, the lodestone can be broken);"
 	]
 	quest.77EC4B9921BBA1C4.title: "True Sight Staff"
 	quest.77EC4B9921BBA1C4.quest_desc: [
+		"&lWhy:&r A marid helps you see and use the otherworld."
 		"The [](item://occultism:true_sight_staff) employs an [#](AA00AA)Marid[#]() to assist the summoner in tasks of finding and interacting with the otherworld."
 		" Unlike [#](AA00AA)Foliot[#]() in the otherworld goggles, which can only provide vision, with this staff in the off-hand or curio slot, the occultist can collect otherworld materials."
 		" The divining rods search abilities receive an upgrade, now is possible locate any block."
 	]
 	quest.1EE09B08F3B6567C.title: "Vitality Compass"
 	quest.1EE09B08F3B6567C.quest_desc: [
+		"&lWhy:&r Attunes to a creature and points to its kind."
 		"The [](item://occultism:vitality_compass) is a mystical tool infused with a [#](AA00AA)Foliot[#]()"
 		" that allows it to be attuned to the essence of living beings."
 		" By right-clicking on a creature, you bind its life force to the compass,"
@@ -6351,6 +6721,7 @@
 	]
 	quest.7526D01774227A65.title: "Knowledge Tablet"
 	quest.7526D01774227A65.quest_desc: [
+		"&lWhy:&r Stores all your XP; Shift-click to take it back."
 		"This item use is very simple: \\"
 		"[#](55FF55)Right-Click[#]() will storage all of your experience points. \\"
 		"[#](55FF55)Shift-Right-Click[#]() receive all stored points. \\"
@@ -6363,6 +6734,7 @@
 	]
 	quest.2DD49A38DAC38A8E.title: "Marid Essence"
 	quest.2DD49A38DAC38A8E.quest_desc: [
+		"&lWhy:&r Needed to control the strongest spirits; makes blue chalk."
 		"[](item://occultism:marid_essence)  is required to safely control the most powerful spirits, commonly used"
 		" in the form of blue chalk. To obtain the essence, an [#](AA00AA)Marid[#]() needs to be summoned"
 		" unbound into this plane, and killed. Be warned that this is no simple endeavour,"
@@ -6370,6 +6742,7 @@
 	]
 	quest.32764B23238080CF.title: "Dimensional Battlefield"
 	quest.32764B23238080CF.quest_desc: [
+		"&lWhy:&r Brings mob loot from another dimension; empty it regularly."
 		"The dimensional battlefield will discard any items it cannot store, so it is important"
 		"  to regularly empty the output, either manually, with hoppers or using a transporter spirit.\\"
 		"  Interactions per side:"
@@ -7600,98 +7973,122 @@
 	quest.26BEBF6342A10D42.title: "Book of Lore"
 	quest.26BEBF6342A10D42.quest_desc: [
 		"&lWhy:&r Put any Aether item in to learn about it."
+		"A large book containing many lore entries. It describes every object in detail."
 	]
 	quest.1F092A54F8037433.title: "Skyroot"
 	quest.1F092A54F8037433.quest_desc: [
 		"&lWhy:&r Skyroot tools double drops from Aether blocks."
+		"These spawn with Skyroot Trees. They can be double-dropped with Skyroot Axes. When put in a Crafting Table, they will provide 4 Skyroot Planks."
 	]
 	quest.60F580AC00BE4892.title: "Holystone"
 	quest.60F580AC00BE4892.quest_desc: [
 		"&lWhy:&r Holystone tools sometimes drop ambrosium."
+		"One of the Aether's stone tools. It can mine Zanite Ore and will randomly drop Ambrosium Shards while mining."
 	]
 	quest.654D5A55BB42444A.title: "Ambrosium Shard"
 	quest.654D5A55BB42444A.quest_desc: [
 		"&lWhy:&r The Aether's fuel; also heals."
+		"The Aether's Coal equivalent. These have the healing property of restoring a small amount of health when eaten."
 	]
 	quest.53D2345AC89B0835.title: "Altar"
 	quest.53D2345AC89B0835.quest_desc: [
 		"&lWhy:&r Enchants and repairs Aether items."
+		"Used to enchant items and repair armor. They are powered by Ambrosium Shards."
 	]
 	quest.1B815D468F9CCF79.title: "Freezer"
 	quest.1B815D468F9CCF79.quest_desc: [
 		"&lWhy:&r Freezes Aether items into ice gear."
+		"You can freeze various items using this, such as aerclouds or Water Buckets. Its source of power is Icestone."
 	]
 	quest.18AA7F9B9C17BCE1.title: "Incubator"
 	quest.18AA7F9B9C17BCE1.quest_desc: [
 		"&lWhy:&r Hatches moa eggs on ambrosium."
+		"Used to incubate Moas. You use Ambrosium Torches for the fuel. The process can take quite some time, but it is worth the wait once your Moa of choice hatches!"
 	]
 	quest.5DBD02C687182C9D.title: "Moa Egg"
 	quest.5DBD02C687182C9D.quest_desc: [
 		"&lWhy:&r Hatch a moa: a mount with double jump."
+		"An egg laid by a Blue Moa. Hatching this provides a Blue Moa with 3 mid-air jumps. The most common Moa."
 	]
 	quest.13BDFCE86BC9783F.title: "Zanite Pickaxe"
 	quest.13BDFCE86BC9783F.quest_desc: [
 		"&lWhy:&r Zanite gets stronger as it wears."
+		"One of the Aether's mid-tier tools, it mines what iron can, except as its durability decreases, it gets faster. Be careful though, as when it's repaired it will be as slow as before!"
 	]
 	quest.44624303E124B5EA.title: "Zanite Armor"
 	quest.44624303E124B5EA.quest_desc: [
 		"&lWhy:&r Zanite armor improves as it wears."
+		"Part of the Zanite armor set, equivalent in protection to iron."
 	]
 	quest.6194BCE15C5C9CDF.title: "Zanite Gloves"
 	quest.6194BCE15C5C9CDF.quest_desc: [
 		"&lWhy:&r An extra glove slot for armor."
+		"A pair of gloves, needed to complete the Zanite armor set."
 	]
 	quest.664A653B9D0CF6A3.title: "Rings and Pendants"
 	quest.664A653B9D0CF6A3.quest_desc: [
 		"&lWhy:&r Zanite accessories speed up mining."
+		"A ring which allows you to mine faster. It doesn't last for long, so use it wisely!"
 	]
 	quest.40971DC17C102818.title: "Ice Ring"
 	quest.40971DC17C102818.quest_desc: [
 		"&lWhy:&r Freezes water and lava underfoot."
+		"A ring which allows you to freeze water and lava when walked on."
 	]
 	quest.61C6A0E5798C1DB8.title: "Cold Parachute"
 	quest.61C6A0E5798C1DB8.quest_desc: [
 		"&lWhy:&r Open it when falling off an island."
+		"A quickly made Parachute. It's fluffy to the touch and is made from Cold Aerclouds. It has one use."
 	]
 	quest.1539B08B133CF2D3.title: "Golden Parachute"
 	quest.1539B08B133CF2D3.quest_desc: [
 		"&lWhy:&r Lasts longer than the cold one."
+		"The best Parachute in the Aether. It has 20 uses and is made with Golden Aerclouds."
 	]
 	quest.6E4AF6B8A4CB34FC.title: "Dart Shooters"
 	quest.6E4AF6B8A4CB34FC.quest_desc: [
 		"&lWhy:&r Ranged option against zephyrs."
+		"A Dart Shooter that shoots Golden Darts; enchanting it on an Altar improves its attack power!"
 	]
 	quest.3CABA48D07FA839C.title: "Poison Dart Shooter"
 	quest.3CABA48D07FA839C.quest_desc: [
 		"&lWhy:&r Poison paralyses the target."
+		"A Dart Shooter that shoots Poison Darts. Shooting this at something infects them with a deadly poison!"
 	]
 	quest.108F62A4DB1634B5.title: "Swet Ball"
 	quest.108F62A4DB1634B5.quest_desc: [
 		"&lWhy:&r Swets grab you; their goo is Aether glue."
+		"A gooey orb that is dropped from Blue Swets. It can be used to fertilize soil. Another use is to put it alongside String to make a Lead."
 	]
 	quest.4C37B1D77C5A365C.title: "Blue Berry"
 	quest.4C37B1D77C5A365C.quest_desc: [
 		"&lWhy:&r The white apple cures Aether poison."
+		"Harvested from Berry Bushes, this is the most common food source in the Aether. It has very weak hunger restoration. You can enchant these in an Altar for much better hunger restoration."
 	]
 	quest.0DC27AF0BD968B69.title: "Enchanted Berry"
 	quest.0DC27AF0BD968B69.quest_desc: [
 		"&lWhy:&r Best food and fuel; made at the altar."
+		"An excellent food source, it tastes quite good and restores a massive amount of hunger."
 	]
 	quest.42179C47C3563FA4.title: "Blue Gummy Swet"
 	quest.42179C47C3563FA4.quest_desc: [
 		"&lWhy:&r Restores health."
+		"A sweet-smelling gummy that can be found in chests in Bronze and Silver dungeons. It fully restores the Player's hunger when eaten. Very useful for boss fights."
 	]
 	quest.665F084C83DDEBDD.title: "Quicksoil"
 	quest.665F084C83DDEBDD.quest_desc: [
 		"&lWhy:&r Slippery soil and seamless glass."
+		"A silky sand with extremely slippery properties. It can be seen floating on the side of the Aether's islands. Be careful around it, or you'll fall off."
 	]
 	quest.33A6E21A49B8E8B1.title: "Aerclouds"
 	quest.33A6E21A49B8E8B1.quest_desc: [
 		"&lWhy:&r Cold clouds stop falls, blue ones bounce."
+		"A cold cloud found in the skies of the Aether. It can be used to make Cold Parachutes, and break drops that would otherwise be very dangerous."
 	]
 	quest.30BC81A05184506E.title: "Golden Oak"
 	quest.30BC81A05184506E.quest_desc: [
 		"&lWhy:&r Golden oaks give amber."
+		"These round golden orbs can be obtained by mining Golden Oak Logs with a Zanite or Gravitite Axe. Their main purpose is to craft Golden Darts and Dart Shooters."
 	]
 	quest.3D36C44D5BEEED71.title: "Sky Storms"
 	quest.3D36C44D5BEEED71.quest_desc: [
@@ -7704,18 +8101,22 @@
 	quest.08086AD3C37DBF74.title: "Bronze Key"
 	quest.08086AD3C37DBF74.quest_desc: [
 		"&lWhy:&r Opens the bronze dungeon's treasure room."
+		"A dull key that is dropped from the Slider after being defeated. You can use it to claim the treasure you earned!"
 	]
 	quest.6214182AE1EB9618.title: "Gravitite"
 	quest.6214182AE1EB9618.quest_desc: [
 		"&lWhy:&r Floating ore; enchant it on the altar."
+		"After putting Gravitite Ore into an Altar and enchanting it, you get Enchanted Gravitite. This can be made into Gravitite tools and armor. When powered with a redstone signal, Enchanted Gravitite blocks will float into the air, similarly to Gravitite Ore."
 	]
 	quest.228AA03EF355CEA5.title: "Gravitite Armor"
 	quest.228AA03EF355CEA5.quest_desc: [
 		"&lWhy:&r Full set: high jump and no fall damage."
+		"Part of the Aether's best armor set. When the full set is worn, you get an extra high jump!"
 	]
 	quest.35C60B398E091F84.title: "Gravitite Pickaxe"
 	quest.35C60B398E091F84.quest_desc: [
 		"&lWhy:&r Right-click to lift blocks."
+		"Part of the Aether's best tool tier. When mining with this powerful tool, you can right-click on any stone block, and it will levitate into the air! You can mine any ore with this pickaxe."
 	]
 	quest.4972C6A445A2CAEE.title: "Silver Dungeon"
 	quest.4972C6A445A2CAEE.quest_desc: [
@@ -7724,14 +8125,17 @@
 	quest.5FB905FDDDDB793E.title: "Valkyrie Armor"
 	quest.5FB905FDDDDB793E.quest_desc: [
 		"&lWhy:&r With the Valkyrie cape: flight."
+		"An armor unique to the Silver Dungeon. When fully worn, you are granted temporary flight. Quite useful for getting to high places."
 	]
 	quest.4A7E9FD340472574.title: "Valkyrie Lance"
 	quest.4A7E9FD340472574.quest_desc: [
 		"&lWhy:&r Long reach, strong when falling."
+		"A tool unique to the Bronze Dungeon. This long-range weapon is very good for defeating Zephyrs and Valkyrie Queens."
 	]
 	quest.4A5EB7F6A0A09202.title: "Neptune Armor"
 	quest.4A5EB7F6A0A09202.quest_desc: [
 		"&lWhy:&r Fast swimming, water breathing."
+		"Found in Bronze Dungeons, this armor allows faster swimming in water. Combined with an Iron Bubble, this armor set is super useful for defeating underwater temples."
 	]
 	quest.177262B1FF8AD54B.title: "Gold Dungeon"
 	quest.177262B1FF8AD54B.quest_desc: [
@@ -7740,50 +8144,62 @@
 	quest.163831DD11F3A1A3.title: "Phoenix Armor"
 	quest.163831DD11F3A1A3.quest_desc: [
 		"&lWhy:&r Fire and lava immunity."
+		"Found in Gold Dungeons, when fully worn, this armor set grants fire resistance; you can swim in lava as well. Be careful when standing in water, as it will turn into obsidian armor."
 	]
 	quest.7450698EFDB0FBE4.title: "Phoenix Bow"
 	quest.7450698EFDB0FBE4.quest_desc: [
 		"&lWhy:&r Ignites arrows."
+		"Found as dungeon loot, this bow is very heated and can shoot flaming Arrows! It's warm to the touch."
 	]
 	quest.6031406EF6D183DA.title: "Obsidian Chestplate"
 	quest.6031406EF6D183DA.quest_desc: [
 		"&lWhy:&r Cooled phoenix armor: very tough."
+		"A super powerful piece of armor, more powerful than diamond. This armor is only obtainable by standing in water while wearing Phoenix armor, converting it to obsidian."
 	]
 	quest.745340AAF59D8E96.title: "Legendary Swords"
 	quest.745340AAF59D8E96.quest_desc: [
 		"&lWhy:&r Fire, lightning and holy swords."
+		"An ancient sword which burns its foes to a crisp. It almost hurts to touch! Using this on animals can make them drop cooked meat!"
 	]
 	quest.57E53AF056CC6DBF.title: "Vampire Blade"
 	quest.57E53AF056CC6DBF.quest_desc: [
 		"&lWhy:&r Heals you with a part of damage dealt."
+		"A mysterious sword that has life-stealing abilities. Holding it just makes you feel creepily empty..."
 	]
 	quest.7DFA457CE94E0AA2.title: "Hammer of Kingbdogz"
 	quest.7DFA457CE94E0AA2.quest_desc: [
 		"&lWhy:&r Knocks enemies far away."
+		"A mighty hammer that shoots heavy projectiles at mobs. It's said that Kingbdogz actually held this hammer."
 	]
 	quest.5FC480D7CEC234B7.title: "Aether Staves"
 	quest.5FC480D7CEC234B7.quest_desc: [
 		"&lWhy:&r Cloud and nature staves."
+		"A staff with a light and fluffy top. It summons small Cloud Minions to fight next to the user for a short period of time by shooting large Cloud Crystals."
 	]
 	quest.10F015CF2C87093B.title: "Capes"
 	quest.10F015CF2C87093B.quest_desc: [
 		"&lWhy:&r Step-up and invisibility capes."
+		"An uncommon cape found in Bronze and Silver Dungeons. It makes the wearer's legs stronger, therefore they can walk up blocks instantly."
 	]
 	quest.6DAC0BEF66AC01E2.title: "Shield of Repulsion"
 	quest.6DAC0BEF66AC01E2.quest_desc: [
 		"&lWhy:&r Reflects projectiles while you stand still."
+		"A shield that protects the user from most projectiles. It will reflect the projectile back at the thrower and cause damage to them. Each time a projectile is reflected, the shield will be damaged."
 	]
 	quest.003213FD869C4D94.title: "Regeneration Stone"
 	quest.003213FD869C4D94.quest_desc: [
 		"&lWhy:&r Slow healing as an accessory."
+		"A treasure found in Silver Dungeons. This stone makes the wearer feel healthy and heals their wounds. The effects can stack with other Regeneration Stones."
 	]
 	quest.2E3DBCFA30BA66B0.title: "Life Shard"
 	quest.2E3DBCFA30BA66B0.quest_desc: [
 		"&lWhy:&r Adds a permanent heart."
+		"A very rare item found in Gold Dungeons. Using this will give you an extra permanent heart! The feeling of using it is very strange and hard to describe."
 	]
 	quest.767EE34F585E0751.title: "Victory Medal"
 	quest.767EE34F585E0751.quest_desc: [
 		"&lWhy:&r Ten medals let you challenge the Queen."
+		"Proof of defeating a lesser Valkyrie. Use these to prove to the Valkyrie Queen you are worthy enough to fight her!"
 	]
 	quest.3864AD324F7C2EAD.title: "Keeper of the Skies"
 	quest.3864AD324F7C2EAD.quest_desc: [
@@ -8130,7 +8546,7 @@
 	quest.6E58308F422DE53A.quest_desc: [
 		"&lWhy:&r Launches you where you look."
 	]
-	quest.2BC631DB5C6B8055.title: "Magnetic Forcefield"
+	quest.2BC631DB5C6B8055.title: "Repeller"
 	quest.2BC631DB5C6B8055.quest_desc: [
 		"&lWhy:&r Pushes nearby mobs away."
 	]

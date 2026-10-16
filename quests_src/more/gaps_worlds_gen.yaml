@@ -497,7 +497,7 @@ quests:
   - engineer
   icon: deep_aether:combiner
   ru:
-    title: Combiner
+    title: Объединитель
     subtitle: ''
     text: '**Зачем:** Объединитель — станок Глубокого Эфира, соединяет предметы по особым рецептам (смотри JEI).'
   en:

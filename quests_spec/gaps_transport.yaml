@@ -29,6 +29,7 @@ quests:
     items: [waystones:portal_scroll]
     why: {en: Another fast-travel scroll; see its tooltip., ru: Свиток портала — ещё один способ быстро переместиться. Как работает — в подсказке предмета.}
   - id: gws_portstone
+    title: {en: Portstone, ru: Портовый камень}
     deps: [tr_warp_stone]
     roles: [mage, builder]
     items: [waystones:white_portstone]

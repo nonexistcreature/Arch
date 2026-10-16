@@ -7,11 +7,11 @@ out: create_addons_gen
 quests:
   # --- Garnished: nuts for cooks, with miner/warrior buffs
   - id: cag_nuts
+    title: {en: Garnished Nuts, ru: Орехи}
     deps: [ca_intro]
     roles: [gardener, cook]
     shape: gear
     items: [garnished:walnut*4]
-    title: {ru: "Орехи Garnished", en: "Garnished Nuts"}
     doc: advancement.garnished.nut_tree.description
     why: {ru: "Орехи растут на деревьях в мире — ищи их, исследуя леса. Это сырьё для десятков блюд Create: колоть, глазировать, жарить в незерском огне.", en: "Nuts grow on trees in the world: the base for dozens of Create dishes."}
   - id: cag_cracked
@@ -56,10 +56,10 @@ quests:
     items: [garnished:mastic_resin*4]
     doc: advancement.garnished.liquid_mastic_resin.description
   - id: cag_meal
+    title: {en: A Garnished Lunch, ru: Обед из орехов}
     deps: [cag_honeyed, cag_cinder]
     roles: [cook]
     items: [garnished:garnished_meal, garnished:salad]
-    title: {ru: "Обед из Garnished", en: "A Garnished Lunch"}
   # --- Mechanical Extruder
     why: {en: A filling meal for the whole crew., ru: 'Сытный обед из орехов, глазури и салата — повар кормит всю бригаду.'}
   - id: cag_extruder
@@ -112,11 +112,11 @@ quests:
     why: {ru: "Вакуумный сборщик собирает урожай вокруг импульсами — поле убирается само, пока ты занят другим.", en: "Harvests the area around it in pulses."}
   # --- Design n' Decor
   - id: cag_decor
+    title: {en: Design n' Decor, ru: Декор в стиле Create}
     deps: [c_brass]
     roles: [builder]
     shape: gear
     items: [dndecor:breaker_switch]
-    title: {ru: "Design n' Decor", en: "Design n' Decor"}
     why: {ru: "Сотни декоративных блоков в стиле Create: мостки, лампы, болты, листовой металл, рубильники, бочки-котлы. Делай заводы красивыми, а не коробками.", en: "Hundreds of Create-style decor blocks: catwalks, lamps, bolts, sheet metal."}
   - id: cag_decor_stones
     deps: [cag_decor, c_millstone]

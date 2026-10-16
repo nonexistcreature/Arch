@@ -103,6 +103,7 @@ quests:
     roles: [engineer]
     items: [immersiveengineering:capacitor_mv]
     doc: md:assets/immersiveengineering/manual/en_us/accumulators.txt
+    why: {en: Stores power; set sides with the hammer., ru: 'Накопители хранят энергию. Вход и выход ограничены одним разъёмом своего напряжения на сторону; молотом настраиваешь стороны: синяя — вход, оранжевая — выход.'}
   - id: ieg_capacitor_hv
     deps: [ieg_capacitor_mv, ieg_wire_hv]
     roles: [engineer]
@@ -114,6 +115,7 @@ quests:
     items: [immersiveengineering:breaker_switch, immersiveengineering:current_transformer]
     title: {ru: "Рубильник и амперметр", en: "Breaker Switch and Current Transformer"}
     doc: md:assets/immersiveengineering/manual/en_us/circuit_breakers.txt
+    why: {en: A breaker cuts power on a line; the current transformer shows the flow., ru: 'Рубильник разрывает поток энергии по проводам, когда выключен, — удобно отключать участок сети на ремонт. Амперметр показывает, сколько энергии идёт по проводу.'}
   - id: ieg_lightning
     deps: [ieg_capacitor_hv]
     roles: [engineer]
@@ -154,6 +156,7 @@ quests:
     tasks: [{type: checkmark}]
     title: {ru: "Нефтеперегонная установка", en: "Refinery"}
     doc: md:assets/immersiveengineering/manual/en_us/refinery.txt
+    why: {en: 'Mixes one or two fluids through a catalyst into a new one, e.g. biodiesel.', ru: 'Нефтеперегонная установка смешивает одну-две жидкости через катализатор и выдаёт новую — например, биодизель из масла и этанола.'}
   - id: ieg_hemp
     deps: [ieg_manual]
     roles: [gardener, engineer]
@@ -190,6 +193,7 @@ quests:
     tasks: [{type: checkmark}]
     title: {ru: "Разливочная машина", en: "Bottling Machine"}
     doc: md:assets/immersiveengineering/manual/en_us/bottling_machine.txt
+    why: {en: Fills containers and molds with fluid on a belt., ru: Разливочная машина наполняет ёмкости и формы жидкостью прямо на конвейере.}
   - id: ieg_sawmill
     deps: [ie_engineering_blocks]
     roles: [engineer, builder]
@@ -214,6 +218,7 @@ quests:
     tasks: [{type: checkmark}]
     title: {ru: "Сборочный цех", en: "Assembler"}
     doc: md:assets/immersiveengineering/manual/en_us/assembler.txt
+    why: {en: 'Crafts like a player, three recipes at once.', ru: 'Сборочный цех крафтит предметы как игрок — по трём рецептам одновременно, беря ингредиенты из соседних сундуков.'}
   - id: ieg_auto_workbench
     deps: [ieg_workbench, ieg_conveyors]
     roles: [engineer]
@@ -221,6 +226,7 @@ quests:
     tasks: [{type: checkmark}]
     title: {ru: "Автоматический верстак", en: "Automated Workbench"}
     doc: md:assets/immersiveengineering/manual/en_us/automated_engineers_workbench.txt
+    why: {en: Follows a blueprint to craft parts on a belt., ru: 'Автоматический верстак работает по чертежу: сам делает формы, патроны и детали на конвейере.'}
   - id: ieg_arc_electrode
     deps: [ie_arc]
     roles: [engineer]
@@ -254,18 +260,21 @@ quests:
     roles: [engineer]
     items: [immersiveengineering:chute_iron*4]
     doc: md:assets/immersiveengineering/manual/en_us/chutes.txt
+    why: {en: Drop items straight down into inventories below., ru: Желоба из листового металла роняют предметы и существ прямо вниз и складывают их в инвентарь под собой.}
   - id: ieg_sorter
     deps: [ieg_conveyors]
     roles: [engineer]
     items: [immersiveengineering:sorter, immersiveengineering:fluid_sorter]
     title: {ru: "Сортировщики", en: "Item and Fluid Routers"}
     doc: md:assets/immersiveengineering/manual/en_us/item_router.txt
+    why: {en: Sorts items (and fluids) by filters per side., ru: 'Сортировщик раскладывает предметы по сторонам по фильтрам, жидкостный — то же для жидкостей.'}
   - id: ieg_pipes
     deps: [ie_components]
     roles: [engineer]
     items: [immersiveengineering:fluid_pipe*16, immersiveengineering:fluid_pump, immersiveengineering:pipe_valve]
     title: {ru: "Трубы и насос", en: "Pipes and Pump"}
     doc: md:assets/immersiveengineering/manual/en_us/fluid_pipes.txt
+    why: {en: Pipes carry fluids; the pump extracts; the valve shuts flow., ru: 'Трубы гонят жидкости в любые подключённые баки и машины, насос качает их из резервуаров и источников, вентиль перекрывает поток.'}
   - id: ieg_jerrycan
     deps: [ieg_pipes]
     roles: [engineer]
@@ -285,6 +294,7 @@ quests:
     items: [immersiveengineering:minecart_woodencrate]
     doc: md:assets/immersiveengineering/manual/en_us/storage_minecarts.txt
   # --- electronics and redstone
+    why: {en: 'Crates in minecarts keep their contents: rail cargo.', ru: 'Ящик в вагонетке хранит вещи так же, как на земле, — перевозка грузов по рельсам.'}
   - id: ieg_circuits
     deps: [ie_components]
     roles: [engineer]
@@ -305,6 +315,7 @@ quests:
     items: [immersiveengineering:wirecoil_redstone*4, immersiveengineering:redstone_timer]
     title: {ru: "Редстоун по проводам", en: "Redstone Wiring"}
     doc: md:assets/immersiveengineering/manual/en_us/redstone_wiring.txt
+    why: {en: Long-range redstone without signal loss; the timer pulses on schedule., ru: 'Редстоун-провода — алюминий в редстоуне: передают сигнал далеко без потери силы. Таймер даёт сигнал по расписанию.'}
   - id: ieg_lights
     deps: [ie_wires]
     roles: [builder]
@@ -343,6 +354,7 @@ quests:
     roles: [engineer]
     items: [immersiveengineering:earmuffs]
     doc: md:assets/immersiveengineering/manual/en_us/ear_defenders.txt
+    why: {en: Protect your hearing near loud machines., ru: Защитные наушники берегут слух рядом с дизельными генераторами и другими шумными машинами. Их можно встроить в шлем.}
   - id: ieg_shield
     deps: [ie_steel]
     roles: [warrior]
@@ -419,7 +431,9 @@ quests:
     roles: [warrior, builder]
     items: [immersiveengineering:razor_wire*8]
     doc: md:assets/immersiveengineering/manual/en_us/razor_wire.txt
+    why: {en: Cuts and slows anything passing; remove with wirecutters., ru: 'Колючая проволока режет и замедляет всех, кто через неё лезет. Снять её можно только кусачками.'}
   - id: ieg_glider
+    title: {en: Collapsible Glider, ru: Складной планер}
     deps: [ieg_hemp]
     roles: [engineer]
     items: [immersiveengineering:glider]
@@ -437,6 +451,7 @@ quests:
     items: [immersiveengineering:robot_wolf]
     title: {ru: "Механический волк", en: "Automaton Wolf"}
     doc: md:assets/immersiveengineering/manual/en_us/automaton_wolves.txt
+    why: {en: A blueprint found in Trial Chambers for a synthetic wolf-like companion., ru: 'Чертёж механического волка находят в испытательных залах. По нему собирают синтетического спутника, похожего на волка.'}
   - id: ieg_shaders
     deps: [ie_revolver]
     roles: [warrior]

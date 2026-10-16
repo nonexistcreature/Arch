@@ -437,7 +437,7 @@ quests:
   - engineer
   icon: ars_nouveau:enchanters_gauntlet
   ru:
-    title: Enchanter's Gauntlet
+    title: Перчатка зачарователя
     subtitle: ''
     text: '**Зачем:** Перчатка-мультиинструмент: копает как алмаз и творит вписанное заклинание.'
   en:
@@ -457,7 +457,7 @@ quests:
   - mage
   icon: ars_nouveau:enchanters_fishing_rod
   ru:
-    title: Enchanter's Fishing Rod
+    title: Удочка зачарователя
     subtitle: ''
     text: '**Зачем:** Удочка, в которую вписано заклинание: при подсечке оно срабатывает на добыче — например, сразу жарит рыбу или притягивает её к тебе.'
   en:
@@ -737,7 +737,7 @@ quests:
   - mage
   icon: ars_nouveau:repository_controller
   ru:
-    title: Repository Catalog
+    title: Каталог хранилища
     subtitle: ''
     text: '**Зачем:** Каталог кладёт и забирает предметы из всех соседних репозиториев сразу — воронка в твоё магическое хранилище.'
   en:
@@ -1331,7 +1331,7 @@ quests:
   - mage
   icon: ars_nouveau:alakarkinos_charm
   ru:
-    title: Alakarkinos Charm
+    title: Талисман Алакаркиноса
     subtitle: ''
     text: '**Зачем:** Краб Алакаркинос просеивает песок и гравий и находит то, что обычно добывают археологией: черепки, сокровища.'
   en:
@@ -1439,7 +1439,7 @@ quests:
   - builder
   icon: ars_nouveau:planarium
   ru:
-    title: Planarium
+    title: Планариум
     subtitle: ''
     text: '**Зачем:** Карманное измерение в банке: своя маленькая база, куда можно войти.'
   en:
@@ -1496,6 +1496,6 @@ quests:
     subtitle: ''
     text: Исток течёт сам, помощники работают, броня и оружие напитаны магией. Остальное — твоя фантазия в книге заклинаний.
   en:
-    title: Master of Ars Nouveau
+    title: Ars Nouveau Master
     subtitle: ''
     text: Source flows by itself, helpers work, armour and weapons are steeped in magic. The rest is your imagination in the spell book.

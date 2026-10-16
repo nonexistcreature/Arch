@@ -60,10 +60,12 @@ quests:
     doc: book.mysticalagriculture.entry.essence_furnace.page.1
     why: {en: 'A faster, more efficient furnace.', ru: Печь на эссенции плавит быстрее и экономит топливо; улучшается модулями.}
   - id: mag_reprocessor
+    title: {en: Seed Reprocessor, ru: Переработчик семян}
     deps: [mag_machine_frame]
     roles: [gardener]
     items: [mysticalagriculture:seed_reprocessor]
     doc: book.mysticalagriculture.entry.seed_reprocessors.page.1
+    why: {en: Turns surplus seeds back into essence., ru: Переработчик превращает лишние семена обратно в эссенцию. Работает на твёрдом топливе и копит заряд.}
   - id: mag_upgrades
     deps: [mag_machine_frame]
     roles: [engineer]
@@ -75,6 +77,7 @@ quests:
     items: [mysticalagriculture:soul_extractor]
     doc: book.mysticalagriculture.entry.soul_extractor.page.1
   - id: mag_soulium_spawner
+    title: {en: Soulium Spawner, ru: Душевый спавнер}
     deps: [mag_soul_extractor]
     roles: [warrior]
     items: [mysticalagriculture:soulium_spawner]
@@ -104,6 +107,7 @@ quests:
     items: [mysticalagriculture:experience_capsule]
     doc: book.mysticalagriculture.entry.experience_capsule.page.1
   - id: mag_enchanter
+    title: {en: Enchanter, ru: Зачарователь}
     deps: [mag_xp_capsule]
     roles: [mage]
     items: [mysticalagriculture:enchanter]
@@ -186,15 +190,19 @@ quests:
     title: {ru: "Инструменты из эссенции", en: "Essence Tools"}
     doc: book.mysticalagriculture.entry.essence_tools.page.1
   - id: mag_aug_flight
+    title: {en: Flight Augment, ru: Аугмент полёта}
     deps: [mag_supremium_set]
     roles: [warrior]
     items: [mysticalagriculture:flight_augment]
     doc: book.mysticalagriculture.entry.flight_augment.page.1
+    why: {en: 'Chestplate augment: free flight while worn (late game).', ru: 'Аугмент нагрудника: свободный полёт, пока надета броня. Это поздняя награда — на супремиумовую броню.'}
   - id: mag_aug_mining
+    title: {en: Mining AOE Augment, ru: Аугмент копания площадью}
     deps: [mag_tools]
     roles: [engineer]
     items: [mysticalagriculture:mining_aoe_i_augment]
     doc: book.mysticalagriculture.entry.mining_aoe_augment.page.1
+    why: {en: Tool breaks up to 9x9; sneak to dig single blocks., ru: Инструмент ломает блоки площадью до 9×9. Присядь — и копаешь по одному блоку.}
   - id: mag_aug_speed
     deps: [mag_tertium_set]
     roles: [warrior]
@@ -202,10 +210,12 @@ quests:
     title: {ru: "Скорость и прыжок", en: "Speed and Jump"}
     doc: book.mysticalagriculture.entry.speed_augment.page.1
   - id: mag_aug_health
+    title: {en: Health Boost Augment, ru: Аугмент здоровья}
     deps: [mag_tertium_set]
     roles: [warrior]
     items: [mysticalagriculture:health_boost_i_augment]
     doc: book.mysticalagriculture.entry.health_boost_augment.page.1
+    why: {en: Adds 2-10 hearts while worn., ru: 'Добавляет от 2 до 10 сердец, пока надета броня.'}
   - id: mag_aug_resist
     deps: [mag_tertium_set]
     roles: [warrior]

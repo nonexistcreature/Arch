@@ -55,6 +55,7 @@ quests:
     title: {ru: "Переносной двигатель", en: "Portable Engine"}
     why: {ru: "Компактный двигатель прямо на физической конструкции — лодка или машина едут сами.", en: "A compact engine right on a physics contraption."}
   - id: gsm_swivel
+    title: {en: Swivel Bearing, ru: Поворотный подшипник}
     deps: [s_physics]
     roles: [engineer]
     items: [simulated:swivel_bearing]
@@ -72,6 +73,7 @@ quests:
     title: {ru: "Лазер и оптика", en: "Laser and Optical Sensors"}
     why: {en: 'Detect obstacles ahead: the base of automatic vehicles.', ru: Лазерный и оптический датчики видят препятствия и блоки впереди — основа для автоматических машин.}
   - id: gsm_typewriter
+    title: {en: Linked Typewriter, ru: Связанная печатная машинка}
     deps: [s_navigation]
     roles: [engineer]
     items: [simulated:linked_typewriter]
@@ -90,6 +92,7 @@ quests:
   # --- Aeronautics / Offroad
     why: {en: 'The gyroscope stabilises, honey glue binds blocks into one physical body.', ru: 'Гироскоп выравнивает конструкцию, медовый клей скрепляет блоки в одну физическую машину.'}
   - id: gae_gyro_prop
+    title: {en: Gyroscopic Propeller Bearing, ru: Гироскопический подшипник винта}
     deps: [s_smart_prop]
     roles: [engineer]
     items: [aeronautics:gyroscopic_propeller_bearing]

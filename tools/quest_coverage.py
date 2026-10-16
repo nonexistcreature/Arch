@@ -82,6 +82,8 @@ def main():
         keys = yaml.safe_load(open(ROOT / "quests_spec/key_items.yaml", encoding="utf8"))
         ok = bad = 0
         for ns, items in keys.items():
+            if isinstance(items, dict):  # {quested: true, add: [...]}: every item already in quests + the listed extras
+                items = sorted({i.split(":", 1)[1] for i in used if i.startswith(ns + ":")} | set(items.get("add", [])))
             ids = [f"{ns}:{i}" for i in items]
             unknown = [i for i in ids if i not in reg]
             got = [i for i in ids if i in used]

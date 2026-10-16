@@ -54,6 +54,7 @@ quests:
     items: [productivebees:powered_centrifuge]
     doc: md:assets/productivebees/patchouli_books/guide/en_us/entries/blocks/centrifuge.json
   - id: pbg_heated
+    title: {en: Heated Centrifuge, ru: Нагретая центрифуга}
     deps: [pbg_centrifuge_power]
     roles: [breeder, engineer]
     items: [productivebees:heated_centrifuge]

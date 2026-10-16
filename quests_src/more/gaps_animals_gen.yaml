@@ -133,11 +133,15 @@ quests:
   ru:
     title: Сокольничья перчатка
     subtitle: ''
-    text: '**Зачем:** Перчатка сокольничего: приручённая птица садится на руку и улетает по команде.'
+    text: '**Зачем:** Перчатка сокольничего: приручённая птица садится на руку и улетает по команде.
+
+      Создайте сокольничью перчатку из кожи и медвежьего меха. Используйте её чтобы подбирать и выпускать орлов!'
   en:
     title: Falconry Glove
     subtitle: ''
-    text: '**Why:** A tamed bird perches on your arm.'
+    text: '**Why:** A tamed bird perches on your arm.
+
+      Craft a Falconry Glove from Leather and Hair of Bear. Use it to pick up and launch tamed eagles!'
 - id: gam_lasso
   tasks:
   - type: item

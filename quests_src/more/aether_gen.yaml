@@ -41,11 +41,15 @@ quests:
   ru:
     title: Книга преданий
     subtitle: ''
-    text: '**Зачем:** Книга знаний: положи в неё любой предмет Эфира — и узнаешь, что это и зачем.'
+    text: '**Зачем:** Книга знаний: положи в неё любой предмет Эфира — и узнаешь, что это и зачем.
+
+      Объёмная книга, где собраны многие предания. Здесь подробно описывается всё.'
   en:
     title: Book of Lore
     subtitle: ''
-    text: '**Why:** Put any Aether item in to learn about it.'
+    text: '**Why:** Put any Aether item in to learn about it.
+
+      A large book containing many lore entries. It describes every object in detail.'
 - id: aeg_skyroot
   tasks:
   - type: item
@@ -62,11 +66,15 @@ quests:
   ru:
     title: Небесный корень
     subtitle: ''
-    text: '**Зачем:** Местное дерево. Инструменты из него удваивают добычу с блоков Эфира. Ведро из небесного корня — для молока и зелий.'
+    text: '**Зачем:** Местное дерево. Инструменты из него удваивают добычу с блоков Эфира. Ведро из небесного корня — для молока и зелий.
+
+      Они появляются вместе с Небесными деревьями. Их можно получить дважды с помощью Небесных топоров. Если положить их на верстак, они дадут 4 штук небесных досок.'
   en:
     title: Skyroot
     subtitle: ''
-    text: '**Why:** Skyroot tools double drops from Aether blocks.'
+    text: '**Why:** Skyroot tools double drops from Aether blocks.
+
+      These spawn with Skyroot Trees. They can be double-dropped with Skyroot Axes. When put in a Crafting Table, they will provide 4 Skyroot Planks.'
 - id: aeg_holystone
   tasks:
   - type: item
@@ -82,11 +90,15 @@ quests:
   ru:
     title: Святой камень
     subtitle: ''
-    text: '**Зачем:** Инструменты из святого камня иногда роняют амброзиевые осколки.'
+    text: '**Зачем:** Инструменты из святого камня иногда роняют амброзиевые осколки.
+
+      Один из каменных инструментов Эфира. Он может добывать Занитную руду и во время добычи случайным образом выбрасывать Осколки Амброзиума.'
   en:
     title: Holystone
     subtitle: ''
-    text: '**Why:** Holystone tools sometimes drop ambrosium.'
+    text: '**Why:** Holystone tools sometimes drop ambrosium.
+
+      One of the Aether''s stone tools. It can mine Zanite Ore and will randomly drop Ambrosium Shards while mining.'
 - id: aeg_ambrosium
   tasks:
   - type: item
@@ -103,11 +115,15 @@ quests:
   ru:
     title: Осколок Амброзиума
     subtitle: ''
-    text: '**Зачем:** Топливо Эфира: в обычной печи тут ничего не горит. Ещё лечит, если съесть.'
+    text: '**Зачем:** Топливо Эфира: в обычной печи тут ничего не горит. Ещё лечит, если съесть.
+
+      Эфирный эквивалент Угля. Они обладают целебным свойством восстанавливать небольшое количество здоровья при употреблении в пищу.'
   en:
     title: Ambrosium Shard
     subtitle: ''
-    text: '**Why:** The Aether''s fuel; also heals.'
+    text: '**Why:** The Aether''s fuel; also heals.
+
+      The Aether''s Coal equivalent. These have the healing property of restoring a small amount of health when eaten.'
 - id: aeg_altar
   tasks:
   - type: item
@@ -121,11 +137,15 @@ quests:
   ru:
     title: Алтарь
     subtitle: ''
-    text: '**Зачем:** Алтарь зачаровывает и чинит предметы Эфира на амброзии.'
+    text: '**Зачем:** Алтарь зачаровывает и чинит предметы Эфира на амброзии.
+
+      Используется для зачарования предметов и ремонта брони. Питается от Осколков Амброзиума.'
   en:
     title: Altar
     subtitle: ''
-    text: '**Why:** Enchants and repairs Aether items.'
+    text: '**Why:** Enchants and repairs Aether items.
+
+      Used to enchant items and repair armor. They are powered by Ambrosium Shards.'
 - id: aeg_freezer
   tasks:
   - type: item
@@ -138,11 +158,15 @@ quests:
   ru:
     title: Морозильник
     subtitle: ''
-    text: '**Зачем:** Морозильник замораживает предметы Эфира: лёд из воды, ледяные кольца, подвески.'
+    text: '**Зачем:** Морозильник замораживает предметы Эфира: лёд из воды, ледяные кольца, подвески.
+
+      С его помощью вы можете заморозить различные предметы, например, Облака или Ведра с водой. Его источником силы является Ледокамень.'
   en:
     title: Freezer
     subtitle: ''
-    text: '**Why:** Freezes Aether items into ice gear.'
+    text: '**Why:** Freezes Aether items into ice gear.
+
+      You can freeze various items using this, such as aerclouds or Water Buckets. Its source of power is Icestone.'
 - id: aeg_incubator
   tasks:
   - type: item
@@ -156,11 +180,15 @@ quests:
   ru:
     title: Инкубатор
     subtitle: ''
-    text: '**Зачем:** Инкубатор на амброзии высиживает яйца моа — свой ездовой питомец.'
+    text: '**Зачем:** Инкубатор на амброзии высиживает яйца моа — свой ездовой питомец.
+
+      Используется для инкубации Моа. В качестве топлива вы используете Факелы Амброзиума. Этот процесс может занять довольно много времени, но ожидание того стоит, как только вылупится выбранный вами Моа!'
   en:
     title: Incubator
     subtitle: ''
-    text: '**Why:** Hatches moa eggs on ambrosium.'
+    text: '**Why:** Hatches moa eggs on ambrosium.
+
+      Used to incubate Moas. You use Ambrosium Torches for the fuel. The process can take quite some time, but it is worth the wait once your Moa of choice hatches!'
 - id: aeg_moa
   tasks:
   - type: item
@@ -173,11 +201,15 @@ quests:
   ru:
     title: Яйцо моа
     subtitle: ''
-    text: '**Зачем:** Вылупи моа в инкубаторе — ездовая птица с двойным прыжком и плавным падением. Чёрные моа прыгают трижды.'
+    text: '**Зачем:** Вылупи моа в инкубаторе — ездовая птица с двойным прыжком и плавным падением. Чёрные моа прыгают трижды.
+
+      Яйцо, снесённое Синим Моа. При его вылуплении, Синий Моа сможет совершить 3 прыжка в воздухе. Самый распространенный Моа.'
   en:
     title: Moa Egg
     subtitle: ''
-    text: '**Why:** Hatch a moa: a mount with double jump.'
+    text: '**Why:** Hatch a moa: a mount with double jump.
+
+      An egg laid by a Blue Moa. Hatching this provides a Blue Moa with 3 mid-air jumps. The most common Moa.'
 - id: aeg_zanite_tools
   tasks:
   - type: item
@@ -193,11 +225,16 @@ quests:
   ru:
     title: Занитная кирка
     subtitle: ''
-    text: '**Зачем:** Цанит становится тем сильнее, чем больше износ — интересный выбор вместо железа.'
+    text: '**Зачем:** Цанит становится тем сильнее, чем больше износ — интересный выбор вместо железа.
+
+      Один из инструментов Эфира среднего уровня, он добывает все что может железо, за исключением того, что по мере уменьшения его прочности, он становится быстрее. Однако будьте осторожны: после ремонта
+      он будет работать так же медленно, как и раньше!'
   en:
     title: Zanite Pickaxe
     subtitle: ''
-    text: '**Why:** Zanite gets stronger as it wears.'
+    text: '**Why:** Zanite gets stronger as it wears.
+
+      One of the Aether''s mid-tier tools, it mines what iron can, except as its durability decreases, it gets faster. Be careful though, as when it''s repaired it will be as slow as before!'
 - id: aeg_zanite_armor
   tasks:
   - type: item
@@ -216,11 +253,15 @@ quests:
   ru:
     title: Цанитовая броня
     subtitle: ''
-    text: '**Зачем:** Чем больше износ, тем лучше защита цанита — броня «разгоняется» в бою.'
+    text: '**Зачем:** Чем больше износ, тем лучше защита цанита — броня «разгоняется» в бою.
+
+      Получите Занитный Камень'
   en:
     title: Zanite Armor
     subtitle: ''
-    text: '**Why:** Zanite armor improves as it wears.'
+    text: '**Why:** Zanite armor improves as it wears.
+
+      Part of the Zanite armor set, equivalent in protection to iron.'
 - id: aeg_gloves
   tasks:
   - type: item
@@ -237,7 +278,9 @@ quests:
   en:
     title: Zanite Gloves
     subtitle: ''
-    text: '**Why:** An extra glove slot for armor.'
+    text: '**Why:** An extra glove slot for armor.
+
+      A pair of gloves, needed to complete the Zanite armor set.'
 - id: aeg_rings
   tasks:
   - type: item
@@ -257,7 +300,9 @@ quests:
   en:
     title: Rings and Pendants
     subtitle: ''
-    text: '**Why:** Zanite accessories speed up mining.'
+    text: '**Why:** Zanite accessories speed up mining.
+
+      A ring which allows you to mine faster. It doesn''t last for long, so use it wisely!'
 - id: aeg_ice_ring
   tasks:
   - type: item
@@ -274,7 +319,9 @@ quests:
   en:
     title: Ice Ring
     subtitle: ''
-    text: '**Why:** Freezes water and lava underfoot.'
+    text: '**Why:** Freezes water and lava underfoot.
+
+      A ring which allows you to freeze water and lava when walked on.'
 - id: aeg_parachute
   tasks:
   - type: item
@@ -288,11 +335,15 @@ quests:
   ru:
     title: Холодный Парашют
     subtitle: ''
-    text: '**Зачем:** Парашют из холодного облака. Открой, если падаешь с острова, — спасёт жизнь.'
+    text: '**Зачем:** Парашют из холодного облака. Открой, если падаешь с острова, — спасёт жизнь.
+
+      Быстро сделанный парашют. Он пушистый на ощупь и сделан из Холодных облаков. У него одно применение.'
   en:
     title: Cold Parachute
     subtitle: ''
-    text: '**Why:** Open it when falling off an island.'
+    text: '**Why:** Open it when falling off an island.
+
+      A quickly made Parachute. It''s fluffy to the touch and is made from Cold Aerclouds. It has one use.'
 - id: aeg_golden_parachute
   tasks:
   - type: item
@@ -305,11 +356,15 @@ quests:
   ru:
     title: Золотой Парашют
     subtitle: ''
-    text: '**Зачем:** Золотой парашют держится дольше и не тает, как холодный.'
+    text: '**Зачем:** Золотой парашют держится дольше и не тает, как холодный.
+
+      Лучший парашют в Эфире. Он имеет 20 применений и сделан из Золотых облаков.'
   en:
     title: Golden Parachute
     subtitle: ''
-    text: '**Why:** Lasts longer than the cold one.'
+    text: '**Why:** Lasts longer than the cold one.
+
+      The best Parachute in the Aether. It has 20 uses and is made with Golden Aerclouds.'
 - id: aeg_darts
   tasks:
   - type: item
@@ -325,11 +380,15 @@ quests:
   ru:
     title: Духовые трубки
     subtitle: ''
-    text: '**Зачем:** Золотые дротики бьют издали и не требуют стрел. Хороши против зефиров.'
+    text: '**Зачем:** Золотые дротики бьют издали и не требуют стрел. Хороши против зефиров.
+
+      Духовая трубка, стреляющая Золотыми дротиками; зачарование его на Алтаре увеличивает его силу атаки!'
   en:
     title: Dart Shooters
     subtitle: ''
-    text: '**Why:** Ranged option against zephyrs.'
+    text: '**Why:** Ranged option against zephyrs.
+
+      A Dart Shooter that shoots Golden Darts; enchanting it on an Altar improves its attack power!'
 - id: aeg_poison_darts
   tasks:
   - type: item
@@ -346,11 +405,15 @@ quests:
   ru:
     title: Ядовитая Духовая Трубка
     subtitle: ''
-    text: '**Зачем:** Ядовитые дротики парализуют цель — для охоты и защиты базы.'
+    text: '**Зачем:** Ядовитые дротики парализуют цель — для охоты и защиты базы.
+
+      Духовая трубка, стреляющая Ядовитыми дротиками. Выстрел во что-то, заразит того смертельным ядом!'
   en:
     title: Poison Dart Shooter
     subtitle: ''
-    text: '**Why:** Poison paralyses the target.'
+    text: '**Why:** Poison paralyses the target.
+
+      A Dart Shooter that shoots Poison Darts. Shooting this at something infects them with a deadly poison!'
 - id: aeg_swet
   tasks:
   - type: item
@@ -368,7 +431,9 @@ quests:
   en:
     title: Swet Ball
     subtitle: ''
-    text: '**Why:** Swets grab you; their goo is Aether glue.'
+    text: '**Why:** Swets grab you; their goo is Aether glue.
+
+      A gooey orb that is dropped from Blue Swets. It can be used to fertilize soil. Another use is to put it alongside String to make a Lead.'
 - id: aeg_berries
   tasks:
   - type: item
@@ -385,11 +450,15 @@ quests:
   ru:
     title: Синяя Ягода
     subtitle: ''
-    text: '**Зачем:** Белое яблоко снимает отравление от воды Эфира и яда эхоров.'
+    text: '**Зачем:** Белое яблоко снимает отравление от воды Эфира и яда эхоров.
+
+      Собираемые с ягодных кустов, самый распространённый источник пищи в Эфире. Слабо насыщает. Можно зачаровать на Алтаре для лучшего насыщения.'
   en:
     title: Blue Berry
     subtitle: ''
-    text: '**Why:** The white apple cures Aether poison.'
+    text: '**Why:** The white apple cures Aether poison.
+
+      Harvested from Berry Bushes, this is the most common food source in the Aether. It has very weak hunger restoration. You can enchant these in an Altar for much better hunger restoration.'
 - id: aeg_enchanted_berry
   tasks:
   - type: item
@@ -404,11 +473,15 @@ quests:
   ru:
     title: Зачарованная Ягода
     subtitle: ''
-    text: '**Зачем:** Зачарованная ягода — лучшее топливо и лучшая еда Эфира. Делается на алтаре.'
+    text: '**Зачем:** Зачарованная ягода — лучшее топливо и лучшая еда Эфира. Делается на алтаре.
+
+      Отличный источник пищи. Довольно приятный на вкус, восстанавливает огромное количество насыщения.'
   en:
     title: Enchanted Berry
     subtitle: ''
-    text: '**Why:** Best food and fuel; made at the altar.'
+    text: '**Why:** Best food and fuel; made at the altar.
+
+      An excellent food source, it tastes quite good and restores a massive amount of hunger.'
 - id: aeg_gummy
   tasks:
   - type: item
@@ -426,7 +499,9 @@ quests:
   en:
     title: Blue Gummy Swet
     subtitle: ''
-    text: '**Why:** Restores health.'
+    text: '**Why:** Restores health.
+
+      A sweet-smelling gummy that can be found in chests in Bronze and Silver dungeons. It fully restores the Player''s hunger when eaten. Very useful for boss fights.'
 - id: aeg_quicksoil
   tasks:
   - type: item
@@ -443,11 +518,15 @@ quests:
   ru:
     title: Быстропесок
     subtitle: ''
-    text: '**Зачем:** Зыбкая почва скользит и держит инерцию; стекло из неё — прозрачные стены без швов.'
+    text: '**Зачем:** Зыбкая почва скользит и держит инерцию; стекло из неё — прозрачные стены без швов.
+
+      Шелковистый песок с чрезвычайно скользкими свойствами. Его можно увидеть плавающим на краю эфирных островов. Будьте осторожны, иначе вы упадете.'
   en:
     title: Quicksoil
     subtitle: ''
-    text: '**Why:** Slippery soil and seamless glass.'
+    text: '**Why:** Slippery soil and seamless glass.
+
+      A silky sand with extremely slippery properties. It can be seen floating on the side of the Aether''s islands. Be careful around it, or you''ll fall off.'
 - id: aeg_aerclouds
   tasks:
   - type: item
@@ -464,11 +543,15 @@ quests:
   ru:
     title: Облака
     subtitle: ''
-    text: '**Зачем:** Холодное облако смягчает падение, синее подбрасывает вверх — батут и спасение одновременно.'
+    text: '**Зачем:** Холодное облако смягчает падение, синее подбрасывает вверх — батут и спасение одновременно.
+
+      Холодное облако, обнаруженное в небесах Эфира. Его можно использовать для изготовления Холодных парашютов и смягчения падений, которые в противном случае были бы очень опасны.'
   en:
     title: Aerclouds
     subtitle: ''
-    text: '**Why:** Cold clouds stop falls, blue ones bounce.'
+    text: '**Why:** Cold clouds stop falls, blue ones bounce.
+
+      A cold cloud found in the skies of the Aether. It can be used to make Cold Parachutes, and break drops that would otherwise be very dangerous.'
 - id: aeg_golden_oak
   tasks:
   - type: item
@@ -482,11 +565,15 @@ quests:
   ru:
     title: Золотой дуб
     subtitle: ''
-    text: '**Зачем:** Золотые дубы дают янтарь — материал для золотых дротиков и шапок.'
+    text: '**Зачем:** Золотые дубы дают янтарь — материал для золотых дротиков и шапок.
+
+      Эти круглые золотые сферы можно получить, добывая бревна золотого дуба с помощью Занитного или Гравититового топора. Их основная цель — изготовление Золотых дротиков и Духовых трубок.'
   en:
     title: Golden Oak
     subtitle: ''
-    text: '**Why:** Golden oaks give amber.'
+    text: '**Why:** Golden oaks give amber.
+
+      These round golden orbs can be obtained by mining Golden Oak Logs with a Zanite or Gravitite Axe. Their main purpose is to craft Golden Darts and Dart Shooters.'
 - id: aeg_aerwhale
   tasks:
   - type: kill
@@ -533,11 +620,15 @@ quests:
   ru:
     title: Бронзовый Ключ
     subtitle: ''
-    text: '**Зачем:** Ключ из бронзового подземелья открывает его сокровищницу.'
+    text: '**Зачем:** Ключ из бронзового подземелья открывает его сокровищницу.
+
+      Тусклый ключ, выпадающий из Слайдера. Используйте его, чтобы получить заслуженное сокровище!'
   en:
     title: Bronze Key
     subtitle: ''
-    text: '**Why:** Opens the bronze dungeon''s treasure room.'
+    text: '**Why:** Opens the bronze dungeon''s treasure room.
+
+      A dull key that is dropped from the Slider after being defeated. You can use it to claim the treasure you earned!'
 - id: aeg_gravitite
   tasks:
   - type: item
@@ -551,11 +642,17 @@ quests:
   ru:
     title: Гравитит
     subtitle: ''
-    text: '**Зачем:** Руда, которая взлетает, если её не поймать. Зачаруй на алтаре — материал для лучшей брони Эфира.'
+    text: '**Зачем:** Руда, которая взлетает, если её не поймать. Зачаруй на алтаре — материал для лучшей брони Эфира.
+
+      После помещения гравититовой руды в зачарователь и её зачарования вы получите зачарованный гравитит. Из него можно сделать инструменты и броню. При подаче сигнала редстоуна зачарованные гравититовые
+      блоки поднимаются в воздух, как и гравититовая руда.'
   en:
     title: Gravitite
     subtitle: ''
-    text: '**Why:** Floating ore; enchant it on the altar.'
+    text: '**Why:** Floating ore; enchant it on the altar.
+
+      After putting Gravitite Ore into an Altar and enchanting it, you get Enchanted Gravitite. This can be made into Gravitite tools and armor. When powered with a redstone signal, Enchanted Gravitite
+      blocks will float into the air, similarly to Gravitite Ore.'
 - id: aeg_gravitite_set
   tasks:
   - type: item
@@ -574,11 +671,15 @@ quests:
   ru:
     title: Гравититовая броня
     subtitle: ''
-    text: '**Зачем:** Полный комплект даёт высокий прыжок и защиту от падения.'
+    text: '**Зачем:** Полный комплект даёт высокий прыжок и защиту от падения.
+
+      Часть лучшего набора брони Эфира. Надев полный комплект, вы получите сверхвысокий прыжок!'
   en:
     title: Gravitite Armor
     subtitle: ''
-    text: '**Why:** Full set: high jump and no fall damage.'
+    text: '**Why:** Full set: high jump and no fall damage.
+
+      Part of the Aether''s best armor set. When the full set is worn, you get an extra high jump!'
 - id: aeg_gravitite_tools
   tasks:
   - type: item
@@ -595,7 +696,9 @@ quests:
   en:
     title: Gravitite Pickaxe
     subtitle: ''
-    text: '**Why:** Right-click to lift blocks.'
+    text: '**Why:** Right-click to lift blocks.
+
+      Part of the Aether''s best tool tier. When mining with this powerful tool, you can right-click on any stone block, and it will levitate into the air! You can mine any ore with this pickaxe.'
 - id: aeg_silver
   tasks:
   - type: structure
@@ -631,11 +734,15 @@ quests:
   ru:
     title: Доспехи валькирии
     subtitle: ''
-    text: '**Зачем:** Полный комплект с плащом валькирии дарит полёт.'
+    text: '**Зачем:** Полный комплект с плащом валькирии дарит полёт.
+
+      Доспехи, уникальные для Серебряного Подземелья. При полном ношении вам предоставляется временный полет. Очень полезно для попадания на высокие места.'
   en:
     title: Valkyrie Armor
     subtitle: ''
-    text: '**Why:** With the Valkyrie cape: flight.'
+    text: '**Why:** With the Valkyrie cape: flight.
+
+      An armor unique to the Silver Dungeon. When fully worn, you are granted temporary flight. Quite useful for getting to high places.'
 - id: aeg_valkyrie_lance
   tasks:
   - type: item
@@ -648,11 +755,15 @@ quests:
   ru:
     title: Копье Валькирии
     subtitle: ''
-    text: '**Зачем:** Копьё валькирии бьёт далеко и сильнее при ударе сверху вниз.'
+    text: '**Зачем:** Копьё валькирии бьёт далеко и сильнее при ударе сверху вниз.
+
+      Инструмент, уникальный для Бронзового Подземелья. Это дальнобойное оружие очень хорошо для победы над Зефирами и Королевами Валькирий.'
   en:
     title: Valkyrie Lance
     subtitle: ''
-    text: '**Why:** Long reach, strong when falling.'
+    text: '**Why:** Long reach, strong when falling.
+
+      A tool unique to the Bronze Dungeon. This long-range weapon is very good for defeating Zephyrs and Valkyrie Queens.'
 - id: aeg_neptune
   tasks:
   - type: item
@@ -671,11 +782,15 @@ quests:
   ru:
     title: Доспехи Нептуна
     subtitle: ''
-    text: '**Зачем:** Быстрое плавание и дыхание под водой.'
+    text: '**Зачем:** Быстрое плавание и дыхание под водой.
+
+      Эта броня, найденная в бронзовых подземельях, позволяет быстрее плавать в воде. В сочетании с железным пузырем этот комплект брони очень полезен для победы над подводными храмами.'
   en:
     title: Neptune Armor
     subtitle: ''
-    text: '**Why:** Fast swimming, water breathing.'
+    text: '**Why:** Fast swimming, water breathing.
+
+      Found in Bronze Dungeons, this armor allows faster swimming in water. Combined with an Iron Bubble, this armor set is super useful for defeating underwater temples.'
 - id: aeg_gold
   tasks:
   - type: structure
@@ -711,11 +826,15 @@ quests:
   ru:
     title: Доспехи феникса
     subtitle: ''
-    text: '**Зачем:** Иммунитет к огню и лаве. В воде остывают в обсидиановые.'
+    text: '**Зачем:** Иммунитет к огню и лаве. В воде остывают в обсидиановые.
+
+      Получить фрагмент брони Феникса из Золотого подземелья'
   en:
     title: Phoenix Armor
     subtitle: ''
-    text: '**Why:** Fire and lava immunity.'
+    text: '**Why:** Fire and lava immunity.
+
+      Found in Gold Dungeons, when fully worn, this armor set grants fire resistance; you can swim in lava as well. Be careful when standing in water, as it will turn into obsidian armor.'
 - id: aeg_phoenix_bow
   tasks:
   - type: item
@@ -728,11 +847,15 @@ quests:
   ru:
     title: Лук Феникса
     subtitle: ''
-    text: '**Зачем:** Лук феникса поджигает стрелы и тратит их меньше, пока он нагрет.'
+    text: '**Зачем:** Лук феникса поджигает стрелы и тратит их меньше, пока он нагрет.
+
+      Этот лук, найденный в подземельях, очень нагревается и может стрелять огненными стрелами! Он теплый на ощупь.'
   en:
     title: Phoenix Bow
     subtitle: ''
-    text: '**Why:** Ignites arrows.'
+    text: '**Why:** Ignites arrows.
+
+      Found as dungeon loot, this bow is very heated and can shoot flaming Arrows! It''s warm to the touch.'
 - id: aeg_obsidian
   tasks:
   - type: item
@@ -745,11 +868,15 @@ quests:
   ru:
     title: Обсидиановый Нагрудник
     subtitle: ''
-    text: '**Зачем:** Феникс, остывший в воде, становится обсидиановым — одна из самых прочных броней.'
+    text: '**Зачем:** Феникс, остывший в воде, становится обсидиановым — одна из самых прочных броней.
+
+      Сверхмощная броня, более мощная, чем алмаз. Эту броню можно получить, только стоя в воде в доспехах Феникса и превращая ее в обсидиан.'
   en:
     title: Obsidian Chestplate
     subtitle: ''
-    text: '**Why:** Cooled phoenix armor: very tough.'
+    text: '**Why:** Cooled phoenix armor: very tough.
+
+      A super powerful piece of armor, more powerful than diamond. This armor is only obtainable by standing in water while wearing Phoenix armor, converting it to obsidian.'
 - id: aeg_weapons
   tasks:
   - type: item
@@ -770,7 +897,9 @@ quests:
   en:
     title: Legendary Swords
     subtitle: ''
-    text: '**Why:** Fire, lightning and holy swords.'
+    text: '**Why:** Fire, lightning and holy swords.
+
+      An ancient sword which burns its foes to a crisp. It almost hurts to touch! Using this on animals can make them drop cooked meat!'
 - id: aeg_vampire
   tasks:
   - type: item
@@ -787,7 +916,9 @@ quests:
   en:
     title: Vampire Blade
     subtitle: ''
-    text: '**Why:** Heals you with a part of damage dealt.'
+    text: '**Why:** Heals you with a part of damage dealt.
+
+      A mysterious sword that has life-stealing abilities. Holding it just makes you feel creepily empty...'
 - id: aeg_hammer
   tasks:
   - type: item
@@ -800,11 +931,15 @@ quests:
   ru:
     title: Молот Кингбдогза
     subtitle: ''
-    text: '**Зачем:** Молот отбрасывает врагов далеко — выбивай мобов с острова, а не себя.'
+    text: '**Зачем:** Молот отбрасывает врагов далеко — выбивай мобов с острова, а не себя.
+
+      Могучий молот, стреляющий тяжелыми снарядами по мобам. Говорят, что Кингбдогз действительно держал этот молот.'
   en:
     title: Hammer of Kingbdogz
     subtitle: ''
-    text: '**Why:** Knocks enemies far away.'
+    text: '**Why:** Knocks enemies far away.
+
+      A mighty hammer that shoots heavy projectiles at mobs. It''s said that Kingbdogz actually held this hammer.'
 - id: aeg_staves
   tasks:
   - type: item
@@ -819,11 +954,15 @@ quests:
   ru:
     title: Посохи Эфира
     subtitle: ''
-    text: '**Зачем:** Посох облаков призывает защитные облака, посох природы — управляет моа и зверями.'
+    text: '**Зачем:** Посох облаков призывает защитные облака, посох природы — управляет моа и зверями.
+
+      Посох с легким и пушистым верхом. Он призывает маленьких облачных миньонов, которые на короткое время сражаются рядом с хозяином, стреляя большими Облачными кристаллами.'
   en:
     title: Aether Staves
     subtitle: ''
-    text: '**Why:** Cloud and nature staves.'
+    text: '**Why:** Cloud and nature staves.
+
+      A staff with a light and fluffy top. It summons small Cloud Minions to fight next to the user for a short period of time by shooting large Cloud Crystals.'
 - id: aeg_capes
   tasks:
   - type: item
@@ -842,7 +981,9 @@ quests:
   en:
     title: Capes
     subtitle: ''
-    text: '**Why:** Step-up and invisibility capes.'
+    text: '**Why:** Step-up and invisibility capes.
+
+      An uncommon cape found in Bronze and Silver Dungeons. It makes the wearer''s legs stronger, therefore they can walk up blocks instantly.'
 - id: aeg_shield
   tasks:
   - type: item
@@ -855,11 +996,15 @@ quests:
   ru:
     title: Щит Отражения
     subtitle: ''
-    text: '**Зачем:** Щит отражает снаряды, пока ты не двигаешься.'
+    text: '**Зачем:** Щит отражает снаряды, пока ты не двигаешься.
+
+      Щит, защищающий пользователя от большинства снарядов. Он отразит снаряд обратно в отправителя и нанесет ему урон. Каждый раз, когда снаряд отражается, щит повреждается.'
   en:
     title: Shield of Repulsion
     subtitle: ''
-    text: '**Why:** Reflects projectiles while you stand still.'
+    text: '**Why:** Reflects projectiles while you stand still.
+
+      A shield that protects the user from most projectiles. It will reflect the projectile back at the thrower and cause damage to them. Each time a projectile is reflected, the shield will be damaged.'
 - id: aeg_regeneration
   tasks:
   - type: item
@@ -872,11 +1017,15 @@ quests:
   ru:
     title: Камень Регенерации
     subtitle: ''
-    text: '**Зачем:** Камень регенерации в слоте аксессуаров медленно лечит.'
+    text: '**Зачем:** Камень регенерации в слоте аксессуаров медленно лечит.
+
+      Сокровище, найденное в Серебряных Подземельях. Этот камень заставляет владельца чувствовать себя здоровым и залечивает раны. Эффекты могут суммироваться с другими камнями регенерации.'
   en:
     title: Regeneration Stone
     subtitle: ''
-    text: '**Why:** Slow healing as an accessory.'
+    text: '**Why:** Slow healing as an accessory.
+
+      A treasure found in Silver Dungeons. This stone makes the wearer feel healthy and heals their wounds. The effects can stack with other Regeneration Stones.'
 - id: aeg_life_shard
   tasks:
   - type: item
@@ -889,11 +1038,15 @@ quests:
   ru:
     title: Осколок Жизни
     subtitle: ''
-    text: '**Зачем:** Осколок жизни навсегда добавляет сердце здоровья.'
+    text: '**Зачем:** Осколок жизни навсегда добавляет сердце здоровья.
+
+      Очень редкий предмет, который можно найти в Золотых Подземельях. Используя это, вы получите дополнительное постоянное сердце! Ощущения от его использования очень странные и их трудно описать.'
   en:
     title: Life Shard
     subtitle: ''
-    text: '**Why:** Adds a permanent heart.'
+    text: '**Why:** Adds a permanent heart.
+
+      A very rare item found in Gold Dungeons. Using this will give you an extra permanent heart! The feeling of using it is very strange and hard to describe.'
 - id: aeg_medal
   tasks:
   - type: item
@@ -907,11 +1060,15 @@ quests:
   ru:
     title: Медаль Победы
     subtitle: ''
-    text: '**Зачем:** Медали за побитых валькирий. Десять медалей — право сразиться с королевой.'
+    text: '**Зачем:** Медали за побитых валькирий. Десять медалей — право сразиться с королевой.
+
+      Доказательство победы над меньшей Валькирией. Используйте их, чтобы доказать Королеве Валькирий, что вы достойны сразиться с ней!'
   en:
     title: Victory Medal
     subtitle: ''
-    text: '**Why:** Ten medals let you challenge the Queen.'
+    text: '**Why:** Ten medals let you challenge the Queen.
+
+      Proof of defeating a lesser Valkyrie. Use these to prove to the Valkyrie Queen you are worthy enough to fight her!'
 - id: aeg_master
   tasks:
   - type: checkmark

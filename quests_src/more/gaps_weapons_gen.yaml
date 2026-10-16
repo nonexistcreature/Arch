@@ -116,11 +116,11 @@ quests:
   - warrior
   icon: grappling_hook_neo:repeller
   ru:
-    title: Magnetic Forcefield
+    title: Отталкиватель
     subtitle: ''
     text: '**Зачем:** Отталкивает мобов вокруг — передышка в драке.'
   en:
-    title: Magnetic Forcefield
+    title: Repeller
     subtitle: ''
     text: '**Why:** Pushes nearby mobs away.'
 - id: gtz_workbenches

@@ -13,13 +13,7 @@ quests:
   ru:
     title: Огонь духов
     subtitle: ''
-    text: '**Зачем:** Огонь духов (подожги видение демона на земле) превращает обычные вещи в оккультные: алмаз — в камень, настроенный на духов, золото — в...
-
-      Основное применение [](item://occultism:spirit_fire) — превращение [](item://minecraft:diamond) в [](item://occultism:spirit_attuned_gem)
-
-      с целью получения базовых ингредиентов, таких как [](item://occultism:otherstone) и [Потусторонние саженцы](item://occultism:otherworld_sapling_natural),
-
-      а также очищения осквернённых мелков.'
+    text: '**Зачем:** Огонь духов (подожги видение демона на земле) превращает обычные вещи в оккультные: алмаз — в камень, настроенный на духов, золото — в...'
   en:
     title: Spiritfire
     subtitle: ''
@@ -72,11 +66,7 @@ quests:
     subtitle: ''
     text: 'Эти миски используются для размещения предметов, в которых будет что-то жертвоваться при осуществлении ритуала. Вам понадобится всего лишь несколько из них.
 
-      Примечание: Их точное расположение в ритуале не имеет значения. Держите их в пределах 8 блоков по горизонтали от центра пентакля!
-
-      Once everything has been set up and you are ready to start, this special ritual bowl is used to activate the ritual by [#](ad03fc)right-clicking[#]() it with the activation item,
-
-      usually a [Book of Binding](entry://getting_started/books_of_binding).'
+      Примечание: Их точное расположение в ритуале не имеет значения. Держите их в пределах 8 блоков по горизонтали от центра пентакля!'
   en:
     title: Sacrificial Bowl
     subtitle: ''
@@ -98,21 +88,15 @@ quests:
   - mage
   icon: occultism:large_candle
   ru:
-    title: Large Candle
+    title: Большая свеча
     subtitle: ''
-    text: 'Candles provide stability to rituals and are an important part of almost all pentacles.
-
-      **Large Candles also act like bookshelves for enchantment purposes.**
-
-      \
-
-      \
-
-      Candles from Minecraft and other Mods may be used in place of Occultism candles.'
+    text: '**Зачем:** Свечи придают ритуалам устойчивость и входят почти во все пентакли. Большие свечи ещё и работают как книжные полки для зачарования. Подходят и свечи из других модов.'
   en:
     title: Large Candle
     subtitle: ''
-    text: 'Candles provide stability to rituals and are an important part of almost all pentacles.
+    text: '**Why:** Candles stabilise rituals and count as bookshelves for enchanting.
+
+      Candles provide stability to rituals and are an important part of almost all pentacles.
 
       **Large Candles also act like bookshelves for enchantment purposes.**
 
@@ -265,13 +249,14 @@ quests:
   ru:
     title: Пустая волшебная лампа
     subtitle: ''
-    text: Magic Lamps can be used to keep spirits safe from [#](ad03fc)Essence Decay[#]() (if the spirit has decay), while still having access to some of their powers. Right-Click on one of your workers
-      to store and transport it as desired.
+    text: '**Зачем:** Волшебная лампа хранит духа и защищает его от распада эссенции, сохраняя часть его силы.'
   en:
     title: Empty Magic Lamp
     subtitle: ''
-    text: Magic Lamps can be used to keep spirits safe from [#](ad03fc)Essence Decay[#]() (if the spirit has decay), while still having access to some of their powers. Right-Click on one of your workers
-      to store and transport it as desired.
+    text: '**Why:** Keeps a spirit safe from essence decay.
+
+      Magic Lamps can be used to keep spirits safe from [#](ad03fc)Essence Decay[#]() (if the spirit has decay), while still having access to some of their powers. Right-Click on one of your workers to
+      store and transport it as desired.'
 - id: occg_miner_foliot
   tasks:
   - type: item
@@ -285,11 +270,7 @@ quests:
   ru:
     title: Фолиот-рудокоп
     subtitle: ''
-    text: '**Зачем:** Дух-шахтёр копает в своём измерении и приносит руду — без единого удара киркой.
-
-      By summoning a spirit into a Magic Lamp and placing it in a [Dimensional Mineshaft (see next step)](entry://getting_started/mineshaft) it can be made to mine for you in a [#](ad03fc)Mining Dimension[#]().
-
-      See [Foliot Miner](entry://crafting_rituals/craft_foliot_miner) and the subsequent entries for information on how to craft spirit miners.'
+    text: '**Зачем:** Дух-шахтёр копает в своём измерении и приносит руду — без единого удара киркой.'
   en:
     title: Miner Foliot
     subtitle: ''
@@ -311,11 +292,13 @@ quests:
   ru:
     title: Пространственная шахта
     subtitle: ''
-    text: Обратитесь к категории [Пространственная шахта](entry://crafting_rituals/craft_dimensional_mineshaft) и [Ритуалы привязки](category://crafting_rituals).
+    text: '**Зачем:** Пространственная шахта — дом для духа-рудокопа: поставь, посади духа — он копает в своём измерении и складывает добычу.'
   en:
     title: Dimensional Mineshaft
     subtitle: ''
-    text: See [Dimensional Mineshaft](entry://crafting_rituals/craft_dimensional_mineshaft) in the [Binding Rituals](category://crafting_rituals) Category.
+    text: '**Why:** Home for a miner spirit that digs in its own dimension.
+
+      See [Dimensional Mineshaft](entry://crafting_rituals/craft_dimensional_mineshaft) in the [Binding Rituals](category://crafting_rituals) Category.'
 - id: occg_miner_djinni
   tasks:
   - type: item
@@ -330,13 +313,12 @@ quests:
   ru:
     title: Рудный Джинн-рудокоп
     subtitle: ''
-    text: "The [#](AA00AA)Djinni[#]() miner harvests ores specifically. By discarding other blocks it is able to mine faster and\n more efficiently. The greater power of the djinni it damages the magic\
-      \ lamp relatively quickly."
+    text: '**Зачем:** Джинн-рудокоп добывает только руды: отбрасывает лишнее и работает быстрее и экономнее фолиота.'
   en:
     title: Ore Miner Djinni
     subtitle: ''
-    text: "The [#](AA00AA)Djinni[#]() miner harvests ores specifically. By discarding other blocks it is able to mine faster and\n more efficiently. The greater power of the djinni it damages the magic\
-      \ lamp relatively quickly."
+    text: "**Why:** Mines only ores, faster than the foliot.\nThe [#](AA00AA)Djinni[#]() miner harvests ores specifically. By discarding other blocks it is able to mine faster and\n more efficiently. The\
+      \ greater power of the djinni it damages the magic lamp relatively quickly."
 - id: occg_miner_afrit
   tasks:
   - type: item
@@ -351,13 +333,12 @@ quests:
   ru:
     title: Африт-рудокоп для глубинносланцевой руды
     subtitle: ''
-    text: "The [#](AA00AA)Afrit[#]() miner harvests ores, like djinni miners, and additionally\n mines some deepslate ores. This miner is faster and more efficient\n than the djinnis, thus damaging the\
-      \ magic lamp even more slowly."
+    text: '**Зачем:** Африт копает руды как джинн и вдобавок часть глубинносланцевых. Быстрее и экономнее джинна.'
   en:
     title: Deep Ore Miner Afrit
     subtitle: ''
-    text: "The [#](AA00AA)Afrit[#]() miner harvests ores, like djinni miners, and additionally\n mines some deepslate ores. This miner is faster and more efficient\n than the djinnis, thus damaging the\
-      \ magic lamp even more slowly."
+    text: "**Why:** Also mines some deepslate ores; faster than the djinni.\nThe [#](AA00AA)Afrit[#]() miner harvests ores, like djinni miners, and additionally\n mines some deepslate ores. This miner is\
+      \ faster and more efficient\n than the djinnis, thus damaging the magic lamp even more slowly."
 - id: occg_miner_marid
   tasks:
   - type: item
@@ -371,13 +352,12 @@ quests:
   ru:
     title: Мастер Марид-рудокоп
     subtitle: ''
-    text: "The [#](AA00AA)Marid[#]() miner is the most powerful miner spirit, it has the fasted mining speed and best magic lamp\n preservation. Unlike other miner spirits they also can mine the rarest\
-      \ ores, such as [](item://minecraft:ancient_debris) and [](item://occultism:iesnium_ore)."
+    text: '**Зачем:** Марид — сильнейший рудокоп: самая быстрая добыча и лучшая сохранность лампы.'
   en:
     title: Master Miner Marid
     subtitle: ''
-    text: "The [#](AA00AA)Marid[#]() miner is the most powerful miner spirit, it has the fasted mining speed and best magic lamp\n preservation. Unlike other miner spirits they also can mine the rarest\
-      \ ores, such as [](item://minecraft:ancient_debris) and [](item://occultism:iesnium_ore)."
+    text: "**Why:** The fastest miner with the best lamp preservation.\nThe [#](AA00AA)Marid[#]() miner is the most powerful miner spirit, it has the fasted mining speed and best magic lamp\n preservation.\
+      \ Unlike other miner spirits they also can mine the rarest ores, such as [](item://minecraft:ancient_debris) and [](item://occultism:iesnium_ore)."
 - id: occg_crusher
   tasks:
   - type: item
@@ -392,8 +372,7 @@ quests:
   ru:
     title: Дух-дробильщик
     subtitle: ''
-    text: "**Зачем:** Дробит руду в пыль — две пыли с руды вместо одного слитка. Удвоение без машин.\nCrusher spirits are summoned to crush ores into dusts, effectively multiplying the metal output.\n \
-      \  They will pick up appropriate ores and drop the resulting dusts into the world.\n   A spark particle effect and a crushing sound indicate the crusher is at work."
+    text: '**Зачем:** Дробит руду в пыль — две пыли с руды вместо одного слитка. Удвоение без машин.'
   en:
     title: Spirit Crusher
     subtitle: ''
@@ -411,15 +390,13 @@ quests:
   ru:
     title: Дух-плавильщик
     subtitle: ''
-    text: 'Smelter spirits are summoned to do furnace, blast furnace, smoker and campfire process,
-
-      without using fuel. They will pick up appropriate items and drop the resulting into the world.
-
-      A fire particle effect and a flame sound indicate the smelter is at work.'
+    text: '**Зачем:** Дух-плавильщик выполняет работу печи, плавильни, коптильни и костра без топлива: подбирает подходящие предметы и бросает результат рядом.'
   en:
     title: Spirit Smelter
     subtitle: ''
-    text: 'Smelter spirits are summoned to do furnace, blast furnace, smoker and campfire process,
+    text: '**Why:** Smelts, blasts, smokes and cooks without fuel.
+
+      Smelter spirits are summoned to do furnace, blast furnace, smoker and campfire process,
 
       without using fuel. They will pick up appropriate items and drop the resulting into the world.
 
@@ -435,15 +412,13 @@ quests:
   ru:
     title: Дух-кристаллизатор
     subtitle: ''
-    text: 'Crystallizer spirits are summoned to regenerate gem from their dusts and directly multiply
-
-      the output of breaking gem ores. They will pick up appropriate items and drop the resulting into
-
-      the world. A magical particle effect and a amethyst sound indicate the crystallizer is at work.'
+    text: '**Зачем:** Дух-кристаллизатор восстанавливает самоцветы из их пыли и умножает выход с самоцветных руд.'
   en:
     title: Spirit Crystallizer
     subtitle: ''
-    text: 'Crystallizer spirits are summoned to regenerate gem from their dusts and directly multiply
+    text: '**Why:** Regrows gems from dust and multiplies gem ore output.
+
+      Crystallizer spirits are summoned to regenerate gem from their dusts and directly multiply
 
       the output of breaking gem ores. They will pick up appropriate items and drop the resulting into
 
@@ -461,11 +436,12 @@ quests:
   ru:
     title: Фолиот-фермер
     subtitle: ''
-    text: "The farmer will harvest and re-plant crops in it's working area.\n If a deposit location is set it will collect the dropped items into the specified chest."
+    text: '**Зачем:** Фермер собирает и пересаживает урожай в своей зоне. Укажи сундук — и он будет складывать урожай туда.'
   en:
     title: Foliot Farmer
     subtitle: ''
-    text: "The farmer will harvest and re-plant crops in it's working area.\n If a deposit location is set it will collect the dropped items into the specified chest."
+    text: "**Why:** Harvests and replants; set a chest to collect.\nThe farmer will harvest and re-plant crops in it's working area.\n If a deposit location is set it will collect the dropped items into\
+      \ the specified chest."
 - id: occg_traders
   tasks:
   - type: checkmark
@@ -477,19 +453,13 @@ quests:
   ru:
     title: Духи-торговцы
     subtitle: ''
-    text: 'Trade spirits pick up appropriate items and throw trade results on the ground.
-
-      The spirit is only actively exchanging items if purple particles spawn around it.
-
-      \
-
-      \
-
-      **If you do not see any particles**, ensure that you gave the proper item and amount.'
+    text: '**Зачем:** Духи-торговцы берут подходящие предметы и бросают на землю результат обмена — например, превращают один камень в другой. Работает, пока вокруг духа фиолетовые частицы.'
   en:
     title: Spirit Traders
     subtitle: ''
-    text: 'Trade spirits pick up appropriate items and throw trade results on the ground.
+    text: '**Why:** Trade spirits exchange items while purple particles show.
+
+      Trade spirits pick up appropriate items and throw trade results on the ground.
 
       The spirit is only actively exchanging items if purple particles spawn around it.
 
@@ -509,21 +479,13 @@ quests:
   ru:
     title: Магия погоды и времени
     subtitle: ''
-    text: 'Weather magic is especially useful for farmers and others depending
-
-      on specific weather. Summons spirits to modify the weather.
-
-      Different types of weather modification require different spirits.
-
-      \
-
-      \
-
-      Weather spirits will only modify the weather once and then vanish.'
+    text: '**Зачем:** Магия погоды вызывает духов, которые меняют погоду, — полезно фермерам. Магия времени переводит день и ночь.'
   en:
     title: Weather and Time Magic
     subtitle: ''
-    text: 'Weather magic is especially useful for farmers and others depending
+    text: '**Why:** Spirits change the weather; time magic shifts day and night.
+
+      Weather magic is especially useful for farmers and others depending
 
       on specific weather. Summons spirits to modify the weather.
 
@@ -624,15 +586,15 @@ quests:
   ru:
     title: Одержимый Хранитель
     subtitle: ''
-    text: In this ritual a [#](ad03fc)Warden[#]() is spawned using the life energy of a [#](ad03fc)Axolotl[#]() and immediately possessed by the summoned [#](ad03fc)Afrit[#](). The [#](ad03fc)Possessed
-      Warden[#]() will always drop at least six [](item://minecraft:echo_shard) when killed and as a chance to drop [](item://minecraft:disc_fragment_5), [](item://minecraft:music_disc_otherside), [](item://minecraft:silence_armor_trim_smithing_template),
-      [](item://minecraft:ward_armor_trim_smithing_template). If you try to escape, this possessed Warden will go to the floor like a normal warden.
+    text: '**Зачем:** Ритуал создаёт Хранителя из жизненной силы аксолотля, и африт сразу вселяется в него. Хранитель погибает и оставляет добычу — без опасного боя.'
   en:
     title: Possessed Warden
     subtitle: ''
-    text: In this ritual a [#](ad03fc)Warden[#]() is spawned using the life energy of a [#](ad03fc)Axolotl[#]() and immediately possessed by the summoned [#](ad03fc)Afrit[#](). The [#](ad03fc)Possessed
-      Warden[#]() will always drop at least six [](item://minecraft:echo_shard) when killed and as a chance to drop [](item://minecraft:disc_fragment_5), [](item://minecraft:music_disc_otherside), [](item://minecraft:silence_armor_trim_smithing_template),
-      [](item://minecraft:ward_armor_trim_smithing_template). If you try to escape, this possessed Warden will go to the floor like a normal warden.
+    text: '**Why:** A Warden is made and possessed at once, dropping loot without a fight.
+
+      In this ritual a [#](ad03fc)Warden[#]() is spawned using the life energy of a [#](ad03fc)Axolotl[#]() and immediately possessed by the summoned [#](ad03fc)Afrit[#](). The [#](ad03fc)Possessed Warden[#]()
+      will always drop at least six [](item://minecraft:echo_shard) when killed and as a chance to drop [](item://minecraft:disc_fragment_5), [](item://minecraft:music_disc_otherside), [](item://minecraft:silence_armor_trim_smithing_template),
+      [](item://minecraft:ward_armor_trim_smithing_template). If you try to escape, this possessed Warden will go to the floor like a normal warden.'
 - id: occg_hordes
   tasks:
   - type: checkmark
@@ -645,9 +607,7 @@ quests:
   ru:
     title: Призыв орды
     subtitle: ''
-    text: '**Зачем:** Ритуал вызывает волну врагов — тренировка для команды и быстрый лут. Проводи вдали от чужих домов.
-
-      Summon a Wild Evoker and his henchmen to get [](item://minecraft:totem_of_undying), [](item://minecraft:vex_armor_trim_smithing_template) and [](item://minecraft:sentry_armor_trim_smithing_template).'
+    text: '**Зачем:** Ритуал вызывает волну врагов — тренировка для команды и быстрый лут. Проводи вдали от чужих домов.'
   en:
     title: Summoning a Horde
     subtitle: ''
@@ -782,13 +742,13 @@ quests:
   ru:
     title: Айзниевый голем
     subtitle: ''
-    text: 'An Iesnium Golem is a direct upgrade from a regular Iron Golem, this new version is much stronger and invulnerable. \
-
-      Only a player can dismiss them, by hitting while crouched, returning as a [](item://occultism:fragile_soul_gem).'
+    text: '**Зачем:** Айзниевый голем — улучшенный железный голем: намного сильнее и неуязвим. Отпустить его может только игрок, ударив сидя.'
   en:
     title: Iesnium Golem
     subtitle: ''
-    text: 'An Iesnium Golem is a direct upgrade from a regular Iron Golem, this new version is much stronger and invulnerable. \
+    text: '**Why:** A far stronger, invulnerable iron golem.
+
+      An Iesnium Golem is a direct upgrade from a regular Iron Golem, this new version is much stronger and invulnerable. \
 
       Only a player can dismiss them, by hitting while crouched, returning as a [](item://occultism:fragile_soul_gem).'
 - id: occg_resurrection
@@ -834,17 +794,7 @@ quests:
   ru:
     title: Камень души
     subtitle: ''
-    text: '**Зачем:** Камень души ловит моба и переносит его куда угодно — перевезти жителя, лошадь или питомца.
-
-      To capture an entity, [#](AA00AA)right-click[#]() it with the soul gem. \
-
-      [#](AA00AA)right-click[#]() again to release the entity.
-
-      \
-
-      \
-
-      Bosses cannot be captured.'
+    text: '**Зачем:** Камень души ловит моба и переносит его куда угодно — перевезти жителя, лошадь или питомца.'
   en:
     title: Soul Gem
     subtitle: ''
@@ -920,25 +870,15 @@ quests:
   - mage
   icon: occultism:iesnium_anvil
   ru:
-    title: Iesnium Anvil
+    title: Айзниевая наковальня
     subtitle: ''
-    text: 'The [](item://occultism:iesnium_anvil) is a [#](AA00AA)Marid[#]() infusion.
-
-      This anvil has some improvements:
-
-      1. Is unbreakable;
-
-      2. Can exceed the maximum level of enchantments by 1;
-
-      3. Marid will pay half of the showed level cost (round up);
-
-      4. The cost increase of working with the same item is reduced;
-
-      5. The maximum cost limit is increased;'
+    text: '**Зачем:** Наковальня с маридом: не ломается и позволяет превысить максимальный уровень зачарований при объединении.'
   en:
     title: Iesnium Anvil
     subtitle: ''
-    text: 'The [](item://occultism:iesnium_anvil) is a [#](AA00AA)Marid[#]() infusion.
+    text: '**Why:** Unbreakable, and can exceed max enchantment levels.
+
+      The [](item://occultism:iesnium_anvil) is a [#](AA00AA)Marid[#]() infusion.
 
       This anvil has some improvements:
 
@@ -964,15 +904,7 @@ quests:
   ru:
     title: Стабилизатор пространственного хранилища 1-го уровня
     subtitle: ''
-    text: '**Зачем:** Стабилизаторы вокруг актуатора увеличивают ёмкость пространственного хранилища — от тысяч до миллионов предметов.
-
-      The stabilizer system works by tier, starting from 0 (which does not add space) up to 5.
-
-      \
-
-      \
-
-      To get started, see the recipes and instructions on the following pages.'
+    text: '**Зачем:** Стабилизаторы вокруг актуатора увеличивают ёмкость пространственного хранилища — от тысяч до миллионов предметов.'
   en:
     title: Tier 1 Dimensional Storage Stabilizer
     subtitle: ''
@@ -998,13 +930,12 @@ quests:
   ru:
     title: Стабилизатор пространственного хранилища 4-го уровня
     subtitle: ''
-    text: "This highly advanced storage stabilizer is inhabited by a [#](AA00AA)Marid[#]() that supports the dimensional matrix\n in keeping the storage dimension stable, thus allowing to store more items.\n\
-      \\\n\\\nBy default each Tier 4 Stabilizer adds **512** item types and 4098000 items storage capacity."
+    text: '**Зачем:** Стабилизатор 4-го уровня с маридом удерживает измерение хранилища и сильно увеличивает его ёмкость.'
   en:
     title: Tier 4 Dimensional Storage Stabilizer
     subtitle: ''
-    text: "This highly advanced storage stabilizer is inhabited by a [#](AA00AA)Marid[#]() that supports the dimensional matrix\n in keeping the storage dimension stable, thus allowing to store more items.\n\
-      \\\n\\\nBy default each Tier 4 Stabilizer adds **512** item types and 4098000 items storage capacity."
+    text: "**Why:** A marid stabilizer that greatly raises storage capacity.\nThis highly advanced storage stabilizer is inhabited by a [#](AA00AA)Marid[#]() that supports the dimensional matrix\n in keeping\
+      \ the storage dimension stable, thus allowing to store more items.\n\\\n\\\nBy default each Tier 4 Stabilizer adds **512** item types and 4098000 items storage capacity."
 - id: occg_storage_remote
   tasks:
   - type: item
@@ -1017,13 +948,12 @@ quests:
   ru:
     title: Средство доступа к хранилищу
     subtitle: ''
-    text: "The [](item://occultism:storage_remote) can be linked to a [](item://occultism:storage_controller) by shift-clicking.\n The [#](AA00AA)Djinni[#]() bound to the accessor will then be able to\n\
-      \ access items from the actuator even from across dimensions."
+    text: '**Зачем:** Средство доступа привязывается к актуатору хранилища: джинн внутри открывает твой склад из любой точки мира.'
   en:
     title: Storage Accessor
     subtitle: ''
-    text: "The [](item://occultism:storage_remote) can be linked to a [](item://occultism:storage_controller) by shift-clicking.\n The [#](AA00AA)Djinni[#]() bound to the accessor will then be able to\n\
-      \ access items from the actuator even from across dimensions."
+    text: "**Why:** Opens your storage from anywhere.\nThe [](item://occultism:storage_remote) can be linked to a [](item://occultism:storage_controller) by shift-clicking.\n The [#](AA00AA)Djinni[#]()\
+      \ bound to the accessor will then be able to\n access items from the actuator even from across dimensions."
 - id: occg_storage_automation
   tasks:
   - type: item
@@ -1037,11 +967,11 @@ quests:
   ru:
     title: Стабильная червоточина
     subtitle: ''
-    text: "The Storage Actuator behaves much like a big chest or shulker box.\n That means, hoppers and pipes can insert and extract items."
+    text: '**Зачем:** Актуатор хранилища работает как большой сундук: воронки и трубы могут класть и забирать предметы. Стабильная червоточина подключает его к машинам на расстоянии.'
   en:
     title: Stable Wormhole
     subtitle: ''
-    text: "The Storage Actuator behaves much like a big chest or shulker box.\n That means, hoppers and pipes can insert and extract items."
+    text: "**Why:** Hoppers and pipes work with the storage like a chest.\nThe Storage Actuator behaves much like a big chest or shulker box.\n That means, hoppers and pipes can insert and extract items."
 - id: occg_satchel
   tasks:
   - type: item
@@ -1054,8 +984,7 @@ quests:
   ru:
     title: Необычайно большая наплечная сумка
     subtitle: ''
-    text: "**Зачем:** Сумка-измерение: в ней больше места, чем снаружи.\nA [#](AA00AA)Foliot[#]() is bound to the satchel, tasked with **slightly** warping reality. This allows to store more\n items in\
-      \ the satchel than its size would indicate, making it a practical travellers companion."
+    text: '**Зачем:** Сумка-измерение: в ней больше места, чем снаружи.'
   en:
     title: Surprisingly Substantial Satchel
     subtitle: ''
@@ -1071,12 +1000,9 @@ quests:
   - mage
   icon: occultism:ritual_satchel_t1
   ru:
-    title: Apprentice Ritual Satchel
+    title: Ритуальная сумка ученика
     subtitle: ''
-    text: '**Зачем:** Ставит весь ритуальный круг из сумки за пару кликов — не нужно таскать мелки и чаши по одной.
-
-      Visit the entry about the [Apprentice Satchel](entry://crafting_rituals/apprentice_ritual_satchel) or the [Artisanal Satchel](entry://crafting_rituals/apprentice_ritual_satchel) in the [Binding Rituals
-      Category](category://crafting_rituals) to learn how to enchant a satchel and use it for rituals.'
+    text: '**Зачем:** Ставит весь ритуальный круг из сумки за пару кликов — не нужно таскать мелки и чаши по одной.'
   en:
     title: Apprentice Ritual Satchel
     subtitle: ''
@@ -1094,17 +1020,15 @@ quests:
   - mage
   icon: occultism:entity_wormhole
   ru:
-    title: Entity Wormhole
+    title: Червоточина существ
     subtitle: ''
-    text: 'To set the destination, you''''ll need a compass. Right-click to place it and shift+right-click to remove it.
-
-      + A standard compass takes you to the world spawn;
-
-      + A compass attached to a lodestone takes you to the top of it. (After placing it in the wormhole, the lodestone can be broken);'
+    text: '**Зачем:** Червоточина переносит существ. Пункт назначения задаёт компас: обычный ведёт к точке спавна мира, привязанный — к своей точке.'
   en:
     title: Entity Wormhole
     subtitle: ''
-    text: 'To set the destination, you''''ll need a compass. Right-click to place it and shift+right-click to remove it.
+    text: '**Why:** Moves creatures; a compass sets the destination.
+
+      To set the destination, you''''ll need a compass. Right-click to place it and shift+right-click to remove it.
 
       + A standard compass takes you to the world spawn;
 
@@ -1119,17 +1043,15 @@ quests:
   - mage
   icon: occultism:true_sight_staff
   ru:
-    title: True Sight Staff
+    title: Посох истинного зрения
     subtitle: ''
-    text: "The [](item://occultism:true_sight_staff) employs an [#](AA00AA)Marid[#]() to assist the summoner in tasks of finding and interacting with the otherworld.\n Unlike [#](AA00AA)Foliot[#]() in the\
-      \ otherworld goggles, which can only provide vision, with this staff in the off-hand or curio slot, the occultist can collect otherworld materials.\n The divining rods search abilities receive an\
-      \ upgrade, now is possible locate any block."
+    text: '**Зачем:** Марид в посохе помогает видеть потусторонний мир и взаимодействовать с ним без очков.'
   en:
     title: True Sight Staff
     subtitle: ''
-    text: "The [](item://occultism:true_sight_staff) employs an [#](AA00AA)Marid[#]() to assist the summoner in tasks of finding and interacting with the otherworld.\n Unlike [#](AA00AA)Foliot[#]() in the\
-      \ otherworld goggles, which can only provide vision, with this staff in the off-hand or curio slot, the occultist can collect otherworld materials.\n The divining rods search abilities receive an\
-      \ upgrade, now is possible locate any block."
+    text: "**Why:** A marid helps you see and use the otherworld.\nThe [](item://occultism:true_sight_staff) employs an [#](AA00AA)Marid[#]() to assist the summoner in tasks of finding and interacting with\
+      \ the otherworld.\n Unlike [#](AA00AA)Foliot[#]() in the otherworld goggles, which can only provide vision, with this staff in the off-hand or curio slot, the occultist can collect otherworld materials.\n\
+      \ The divining rods search abilities receive an upgrade, now is possible locate any block."
 - id: occg_vitality
   tasks:
   - type: item
@@ -1140,15 +1062,14 @@ quests:
   - mage
   icon: occultism:vitality_compass
   ru:
-    title: Vitality Compass
+    title: Компас жизненной силы
     subtitle: ''
-    text: "The [](item://occultism:vitality_compass) is a mystical tool infused with a [#](AA00AA)Foliot[#]()\n that allows it to be attuned to the essence of living beings.\n By right-clicking on a creature,\
-      \ you bind its life force to the compass,\n allowing the needle to always point toward its location no matter the distance (while loaded)."
+    text: '**Зачем:** Фолиот в компасе настраивается на сущность живого создания и указывает на таких же поблизости.'
   en:
     title: Vitality Compass
     subtitle: ''
-    text: "The [](item://occultism:vitality_compass) is a mystical tool infused with a [#](AA00AA)Foliot[#]()\n that allows it to be attuned to the essence of living beings.\n By right-clicking on a creature,\
-      \ you bind its life force to the compass,\n allowing the needle to always point toward its location no matter the distance (while loaded)."
+    text: "**Why:** Attunes to a creature and points to its kind.\nThe [](item://occultism:vitality_compass) is a mystical tool infused with a [#](AA00AA)Foliot[#]()\n that allows it to be attuned to the\
+      \ essence of living beings.\n By right-clicking on a creature, you bind its life force to the compass,\n allowing the needle to always point toward its location no matter the distance (while loaded)."
 - id: occg_knowledge
   tasks:
   - type: item
@@ -1159,21 +1080,15 @@ quests:
   - mage
   icon: occultism:knowledge_tablet
   ru:
-    title: Knowledge Tablet
+    title: Табличка знаний
     subtitle: ''
-    text: 'This item use is very simple: \
-
-      [#](55FF55)Right-Click[#]() will storage all of your experience points. \
-
-      [#](55FF55)Shift-Right-Click[#]() receive all stored points. \
-
-      \
-
-      NOTE: Sometimes, with big values, you can lost a small quantity of point due numerical approximations.'
+    text: '**Зачем:** ПКМ — сохраняет весь твой опыт в табличку, Shift+ПКМ — возвращает. Опыт не пропадёт при смерти.'
   en:
     title: Knowledge Tablet
     subtitle: ''
-    text: 'This item use is very simple: \
+    text: '**Why:** Stores all your XP; Shift-click to take it back.
+
+      This item use is very simple: \
 
       [#](55FF55)Right-Click[#]() will storage all of your experience points. \
 
@@ -1212,15 +1127,15 @@ quests:
   - mage
   icon: occultism:marid_essence
   ru:
-    title: Marid Essence
+    title: Эссенция марида
     subtitle: ''
-    text: "[](item://occultism:marid_essence)  is required to safely control the most powerful spirits, commonly used\n in the form of blue chalk. To obtain the essence, an [#](AA00AA)Marid[#]() needs to\
-      \ be summoned\n unbound into this plane, and killed. Be warned that this is no simple endeavour,\n and unbound spirit presents great danger to all nearby."
+    text: '**Зачем:** Эссенция марида нужна, чтобы безопасно управлять сильнейшими духами, — из неё делают синий мел.'
   en:
     title: Marid Essence
     subtitle: ''
-    text: "[](item://occultism:marid_essence)  is required to safely control the most powerful spirits, commonly used\n in the form of blue chalk. To obtain the essence, an [#](AA00AA)Marid[#]() needs to\
-      \ be summoned\n unbound into this plane, and killed. Be warned that this is no simple endeavour,\n and unbound spirit presents great danger to all nearby."
+    text: "**Why:** Needed to control the strongest spirits; makes blue chalk.\n[](item://occultism:marid_essence)  is required to safely control the most powerful spirits, commonly used\n in the form of\
+      \ blue chalk. To obtain the essence, an [#](AA00AA)Marid[#]() needs to be summoned\n unbound into this plane, and killed. Be warned that this is no simple endeavour,\n and unbound spirit presents\
+      \ great danger to all nearby."
 - id: occg_battlefield
   tasks:
   - type: item
@@ -1232,15 +1147,14 @@ quests:
   - warrior
   icon: occultism:dimensional_battlefield
   ru:
-    title: Dimensional Battlefield
+    title: Пространственное поле битвы
     subtitle: ''
-    text: "The dimensional battlefield will discard any items it cannot store, so it is important\n  to regularly empty the output, either manually, with hoppers or using a transporter spirit.\\\n  Interactions\
-      \ per side:\n  + Top -> input slots (gem, weapon, fuel);\n  + Bottom -> loot slots;\n  + Other -> all slots;"
+    text: '**Зачем:** Поле битвы приносит добычу с мобов из другого измерения. Лишнее, что не помещается, выбрасывает — опустошай его воронками.'
   en:
     title: Dimensional Battlefield
     subtitle: ''
-    text: "The dimensional battlefield will discard any items it cannot store, so it is important\n  to regularly empty the output, either manually, with hoppers or using a transporter spirit.\\\n  Interactions\
-      \ per side:\n  + Top -> input slots (gem, weapon, fuel);\n  + Bottom -> loot slots;\n  + Other -> all slots;"
+    text: "**Why:** Brings mob loot from another dimension; empty it regularly.\nThe dimensional battlefield will discard any items it cannot store, so it is important\n  to regularly empty the output,\
+      \ either manually, with hoppers or using a transporter spirit.\\\n  Interactions per side:\n  + Top -> input slots (gem, weapon, fuel);\n  + Bottom -> loot slots;\n  + Other -> all slots;"
 - id: occg_master
   tasks:
   - type: checkmark

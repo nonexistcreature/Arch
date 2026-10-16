@@ -1594,7 +1594,7 @@ quests:
   - warrior
   icon: mekanism:mekasuit_pants
   ru:
-    title: Полный MekaSuit
+    title: Полный костюм MekaSuit
     subtitle: ''
     text: Защитите себя с полным MekaSuit и Meka-Tool
   en:
@@ -1629,11 +1629,11 @@ quests:
   - engineer
   icon: mekanism:module_jetpack_unit
   ru:
-    title: mg_module_jet
+    title: 'Модуль: реактивный ранец'
     subtitle: ''
     text: Применяет ранец, работающий на водороде к MekaSuit.
   en:
-    title: mg_module_jet
+    title: Jetpack Unit
     subtitle: ''
     text: Applies a hydrogen-fueled jetpack to the MekaSuit.
 - id: mg_module_radiation
@@ -1646,11 +1646,11 @@ quests:
   - engineer
   icon: mekanism:module_radiation_shielding_unit
   ru:
-    title: mg_module_radiation
+    title: 'Модуль: защита от радиации'
     subtitle: ''
     text: Обеспечивает радиационную защиту любой части MekaSuit за счёт толстого металлического слоя.
   en:
-    title: mg_module_radiation
+    title: Radiation Shielding Unit
     subtitle: ''
     text: Provides thick, radiation-proof metal plating to any MekaSuit armor piece.
 - id: mg_module_breathing
@@ -1663,11 +1663,11 @@ quests:
   - engineer
   icon: mekanism:module_inhalation_purification_unit
   ru:
-    title: mg_module_breathing
+    title: 'Модуль: очистка дыхания'
     subtitle: ''
     text: Формирует миниатюрное электромагнитное поле вокруг аппарата дыхания, предотвращая выбранные эффекты зелий.
   en:
-    title: mg_module_breathing
+    title: Inhalation Purification Unit
     subtitle: ''
     text: Applies a miniature electromagnetic field around the breathing apparatus, preventing selected potion effect types.
 - id: mg_module_vision
@@ -1680,11 +1680,11 @@ quests:
   - engineer
   icon: mekanism:module_vision_enhancement_unit
   ru:
-    title: mg_module_vision
+    title: 'Модуль: ночное зрение'
     subtitle: ''
     text: Осветляет окружающий мир и позволяет пользователю видеть в полной темноте. Установите несколько модулей для улучшения ночного зрения.
   en:
-    title: mg_module_vision
+    title: Vision Enhancement Unit
     subtitle: ''
     text: Brightens the surrounding environment, allowing the user to see through darkness. Install multiple for more effective night vision.
 - id: mg_module_magnet
@@ -1697,11 +1697,11 @@ quests:
   - engineer
   icon: mekanism:module_magnetic_attraction_unit
   ru:
-    title: mg_module_magnet
+    title: 'Модуль: магнит'
     subtitle: ''
     text: Использует мощные магниты для притягивания предметов вокруг игрока. Установка нескольких, приведёт к увеличению диапазона.
   en:
-    title: mg_module_magnet
+    title: Magnetic Attraction Unit
     subtitle: ''
     text: Uses powerful magnets to draw distant items towards the player. Install multiple for a greater range.
 - id: mg_module_vein
@@ -1715,11 +1715,11 @@ quests:
   - engineer
   icon: mekanism:module_vein_mining_unit
   ru:
-    title: mg_module_vein
+    title: 'Модуль: жилы руды'
     subtitle: ''
     text: Позволяет выкапывать сразу всю рудную жилу и быстро срубать стволы деревьев.
   en:
-    title: mg_module_vein
+    title: Vein Mining Unit
     subtitle: ''
     text: Allows for quick mining of ore deposits and rapid felling of trees.
 - id: mg_module_elytra
@@ -1733,11 +1733,11 @@ quests:
   - engineer
   icon: mekanism:module_elytra_unit
   ru:
-    title: mg_module_elytra
+    title: 'Модуль: элитры'
     subtitle: ''
     text: Применяет полиэтиленовые укреплённые элитры на бронежилет MekaSuit.
   en:
-    title: mg_module_elytra
+    title: Elytra Unit
     subtitle: ''
     text: Applies an HDPE Reinforced Elytra to the MekaSuit.
 - id: mg_module_gravity
@@ -1751,11 +1751,11 @@ quests:
   - engineer
   icon: mekanism:module_gravitational_modulating_unit
   ru:
-    title: mg_module_gravity
+    title: 'Модуль: антигравитация'
     subtitle: ''
     text: Используя экспериментальные технологии и огромную энергию антиматерии, позволяет пользователю бросить вызов гравитации.
   en:
-    title: mg_module_gravity
+    title: Gravitational Modulating Unit
     subtitle: ''
     text: Using experimental technologies and the tremendous energy of antimatter, allows the user to defy gravity.
 - id: mg_module_attack
@@ -1768,11 +1768,11 @@ quests:
   - warrior
   icon: mekanism:module_attack_amplification_unit
   ru:
-    title: mg_module_attack
+    title: 'Модуль: усиление атаки'
     subtitle: ''
     text: Увеличивает урон по мобам и игрокам в ближнем бою.
   en:
-    title: mg_module_attack
+    title: Attack Amplification Unit
     subtitle: ''
     text: Amplifies melee attacks on players or mobs.
 - id: mg_bronze_set

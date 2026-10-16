@@ -1275,8 +1275,9 @@
 	quest.6E709D01CBFFF07C.quest_desc: [
 		"&lЗачем:&r Печь на эссенции плавит быстрее и экономит топливо; улучшается модулями."
 	]
-	quest.67588871FAB2E694.title: "Seed Reprocessor"
+	quest.67588871FAB2E694.title: "Переработчик семян"
 	quest.67588871FAB2E694.quest_desc: [
+		"&lЗачем:&r Переработчик превращает лишние семена обратно в эссенцию. Работает на твёрдом топливе и копит заряд."
 		"Переработчики семян используются для преобразования ваших лишних семян в их соответствующие эссенции. Они работают на твёрдом топливе и имеют внутренний буфер для хранения энергии."
 	]
 	quest.3963DCF2AE9BD6F8.title: "Прудентиевое улучшение"
@@ -1287,7 +1288,7 @@
 	quest.73E49FD79ED17912.quest_desc: [
 		"Извлекатели душ используются для преобразования дропа мобов в души мобов. Они работают на твёрдом топливе и имеют внутренний буфер для хранения энергии. Извлекатель душ позволяет использовать дополнительный дроп с мобов, который у вас может быть, но обычно не так эффективен, в сравнении с Соулиевым Кинжалом."
 	]
-	quest.6BB435B2F8FBED2F.title: "Soulium Spawner"
+	quest.6BB435B2F8FBED2F.title: "Душевый спавнер"
 	quest.6BB435B2F8FBED2F.quest_desc: [
 		"&lЗачем:&r Спавнер на душах: свои мобы для фермы опыта, только тех, чьи души собрал."
 	]
@@ -1308,7 +1309,7 @@
 	quest.790CA639125851D2.quest_desc: [
 		"Капсулы для опыта используются для хранения опыта и требуются для крафта семян опыта. Чтобы набрать опыта, просто держите в инвентаре несколько капсул и собирайте сферы опыта."
 	]
-	quest.6872F301CB6B6989.title: "Enchanter"
+	quest.6872F301CB6B6989.title: "Зачарователь"
 	quest.6872F301CB6B6989.quest_desc: [
 		"&lЗачем:&r Зачаровыватель накладывает выбранные чары за опыт и материалы — без лотереи стола."
 	]
@@ -1366,20 +1367,23 @@
 	quest.416120935F72BC07.quest_desc: [
 		"Улучшение алмазных инструментов с помощью эссенции повышает их прочность и скорость добычи. Это также позволит надевать на них Расширения. Инструменты из эссенции можно починить на наковальне с помощью соответствующего слитка эссенции. Каждый из этих инструментов имеет 1 слот для расширений."
 	]
-	quest.2E2B8D9DB116AB7C.title: "mag_aug_flight"
+	quest.2E2B8D9DB116AB7C.title: "Аугмент полёта"
 	quest.2E2B8D9DB116AB7C.quest_desc: [
+		"&lЗачем:&r Аугмент нагрудника: свободный полёт, пока надета броня. Это поздняя награда — на супремиумовую броню."
 		"Полёт (Расширение) - это расширение для нагрудника, которое даёт владельцу творческий полёт, пока у него есть броня."
 	]
-	quest.1A004E1673575AD2.title: "mag_aug_mining"
+	quest.1A004E1673575AD2.title: "Аугмент копания площадью"
 	quest.1A004E1673575AD2.quest_desc: [
+		"&lЗачем:&r Инструмент ломает блоки площадью до 9×9. Присядь — и копаешь по одному блоку."
 		"Область копания (Расширение) - это расширение для инструментов, увеличивающее область разрушения блоков до 9x9. Эту способность можно временно ослабить, зажимая SHIFT."
 	]
 	quest.7817B0CBE6726065.title: "Скорость и прыжок"
 	quest.7817B0CBE6726065.quest_desc: [
 		"Скорость (Расширение) - это расширение для понож, которое увеличивает скорость передвижения носящего, пока надета броня. Этот эффект также применяется к скорости полета."
 	]
-	quest.7E14F261B672A8E0.title: "mag_aug_health"
+	quest.7E14F261B672A8E0.title: "Аугмент здоровья"
 	quest.7E14F261B672A8E0.quest_desc: [
+		"&lЗачем:&r Добавляет от 2 до 10 сердец, пока надета броня."
 		"Увеличение здоровья (Расширение) - это расширениее для брони, которое добавляет 2-10 сердец носящему, пока надета броня."
 	]
 	quest.732BE297F60E85C9.title: "Сопротивления"
@@ -1582,6 +1586,7 @@
 	quest.4AECFAFC9B1148D5.title: "Сокольничья перчатка"
 	quest.4AECFAFC9B1148D5.quest_desc: [
 		"&lЗачем:&r Перчатка сокольничего: приручённая птица садится на руку и улетает по команде."
+		"Создайте сокольничью перчатку из кожи и медвежьего меха. Используйте её чтобы подбирать и выпускать орлов!"
 	]
 	quest.797E5B0A60C15E0F.title: "Лассо и кальмарий крюк"
 	quest.797E5B0A60C15E0F.quest_desc: [
@@ -1674,7 +1679,7 @@
 	quest.0A27D533A7220AFE.quest_desc: [
 		"Обрабатывает медовые соты в «Ресурсы» и «Мёд». Хранит 10 вёдер, жидкости, которых можно выкачать. Центрифуга также будет автоматически выводить жидкость в любой размещённый рядом «Контейнер для жидкостей». При работе на высокой скорости обработки «Центрифуга запитаная энергией» принимает «FE». Также центрифуга использует отдельный «Генетический материал из бутылочек» с «Пчелиным материалом» «Генах»."
 	]
-	quest.5B70D7CD0A166F37.title: "Heated Centrifuge"
+	quest.5B70D7CD0A166F37.title: "Нагретая центрифуга"
 	quest.5B70D7CD0A166F37.quest_desc: [
 		"&lЗачем:&r Нагретая центрифуга сразу выдаёт расплав и блоки вместо сот — для больших пасек."
 	]
@@ -1750,7 +1755,6 @@
 	quest.26769BB150AA553C.title: "Пчёлы-отшельники"
 	quest.26769BB150AA553C.quest_desc: [
 		"&lЗачем:&r Пчёлы-отшельники живут в гнёздах в песке, снегу, тростнике. Они не носят мёд, но их гены нужны для выведения новых видов."
-		"[Osmia lignaria]"
 	]
 	quest.195351E9BD0F28A5.title: "Пчёлы-работники"
 	quest.195351E9BD0F28A5.quest_desc: [
@@ -2366,6 +2370,7 @@
 	quest.63CED89D89010B73.title: "Прочный лист"
 	quest.63CED89D89010B73.quest_desc: [
 		"&lЗачем:&r Прочный лист из обсидиановой пыли — для ног поезда и пушек."
+		"Соберите прочный лист из обсидианового порошка и лавы"
 	]
 	quest.0B453B0B6FE80020.title: "Призрачная обработка"
 	quest.0B453B0B6FE80020.quest_desc: [
@@ -2380,6 +2385,7 @@
 	quest.5886D1EDDA939D43.title: "Картонные доспехи"
 	quest.5886D1EDDA939D43.quest_desc: [
 		"&lЗачем:&r Защиты почти нет, но в полном комплекте ты — коробка, и мобы тебя не замечают, если стоишь на месте."
+		"Произведите или получите ваш первый картон"
 	]
 	quest.7469E9A830ECCF65.title: "Жезл симметрии"
 	quest.7469E9A830ECCF65.quest_desc: [
@@ -2533,7 +2539,7 @@
 	quest.08B90679F2712DC1.quest_desc: [
 		"Вращение хранится, превращается в ток, чарует книги и прячется за красивыми стенами. Покажи завод соседям — пусть учатся."
 	]
-	quest.2E1D4A82FBF008EC.title: "Орехи Garnished"
+	quest.2E1D4A82FBF008EC.title: "Орехи"
 	quest.2E1D4A82FBF008EC.quest_desc: [
 		"&lЗачем:&r Орехи растут на деревьях в мире — ищи их, исследуя леса. Это сырьё для десятков блюд Create: колоть, глазировать, жарить в незерском огне."
 		"Найтите сырые орехи во время исследования мира"
@@ -2569,9 +2575,10 @@
 	quest.73BB2A9C9D739FBF.quest_desc: [
 		"Получите любое ведро с мастичной смолой"
 	]
-	quest.52E7D27BABE8FE00.title: "Обед из Garnished"
+	quest.52E7D27BABE8FE00.title: "Обед из орехов"
 	quest.52E7D27BABE8FE00.quest_desc: [
 		"&lЗачем:&r Сытный обед из орехов, глазури и салата — повар кормит всю бригаду."
+		"Создайте приправленную еду"
 	]
 	quest.17F2F75EEE651DF8.title: "Механический экструдер"
 	quest.17F2F75EEE651DF8.quest_desc: [
@@ -2609,7 +2616,7 @@
 		"&lЗачем:&r Вакуумный сборщик собирает урожай вокруг импульсами — поле убирается само, пока ты занят другим."
 		"После сборки камера заряжается по собственному фиксированному таймеру. Таймер продолжает идти, даже когда собранная конструкция неподвижна. Каждый импульс собирает урожай во всей области вокруг текущей позиции, а не только в новых блоках. Контроллер конструкции приостанавливает зарядку, пока исполнитель снова не будет включён."
 	]
-	quest.7100B809D3A25E19.title: "Design n' Decor"
+	quest.7100B809D3A25E19.title: "Декор в стиле Create"
 	quest.7100B809D3A25E19.quest_desc: [
 		"&lЗачем:&r Сотни декоративных блоков в стиле Create: мостки, лампы, болты, листовой металл, рубильники, бочки-котлы. Делай заводы красивыми, а не коробками."
 	]
@@ -2768,6 +2775,7 @@
 	quest.0844A2C25B16455E.title: "Импульсы и беспроводной пульт"
 	quest.0844A2C25B16455E.quest_desc: [
 		"&lЗачем:&r Генератор последовательных импульсов выдаёт серию сигналов по программе, беспроводной передатчик шлёт их на частоту редстоун-связи. Логика без проводов редстоуна."
+		"Разместите последовательный генератор импульса"
 	]
 	quest.096A6FA70E2A37D5.title: "Новые обработки вентилятором"
 	quest.096A6FA70E2A37D5.quest_desc: [
@@ -2810,7 +2818,7 @@
 	quest.379B8182284871BE.quest_desc: [
 		"&lЗачем:&r Торт опыта: съешь кусок — получи уровни. Подарок новичку от мага."
 	]
-	quest.05BC96A7803D8FB7.title: "Fragile Fluid Tank"
+	quest.05BC96A7803D8FB7.title: "Хрупкий бак"
 	quest.05BC96A7803D8FB7.quest_desc: [
 		"&lЗачем:&r Особый бак для жидкостей Dragons Plus (в том числе драконьего дыхания). Свойства — в подсказке и Ponder."
 	]
@@ -2924,7 +2932,7 @@
 	quest.3D9F3DCD6B188CE9.quest_desc: [
 		"&lЗачем:&r Компактный двигатель прямо на физической конструкции — лодка или машина едут сами."
 	]
-	quest.675F1FB3114EF2F8.title: "gsm_swivel"
+	quest.675F1FB3114EF2F8.title: "Поворотный подшипник"
 	quest.675F1FB3114EF2F8.quest_desc: [
 		"&lЗачем:&r Поворотный подшипник — башня крана или пушки, которая вращается на корпусе машины."
 	]
@@ -2936,7 +2944,7 @@
 	quest.6483413492479813.quest_desc: [
 		"&lЗачем:&r Лазерный и оптический датчики видят препятствия и блоки впереди — основа для автоматических машин."
 	]
-	quest.3D4F6714397415C1.title: "gsm_typewriter"
+	quest.3D4F6714397415C1.title: "Связанная печатная машинка"
 	quest.3D4F6714397415C1.quest_desc: [
 		"&lЗачем:&r Клавиатура, кнопки которой шлют сигналы редстоун-связи: управляй конструкцией прямо с клавиш."
 	]
@@ -2948,7 +2956,7 @@
 	quest.45F0330BBB8E4233.quest_desc: [
 		"&lЗачем:&r Гироскоп выравнивает конструкцию, медовый клей скрепляет блоки в одну физическую машину."
 	]
-	quest.11A8176F4E1EDA43.title: "gae_gyro_prop"
+	quest.11A8176F4E1EDA43.title: "Гироскопический подшипник винта"
 	quest.11A8176F4E1EDA43.quest_desc: [
 		"&lЗачем:&r Гироскопический подшипник сам держит винт ровно — дирижабль не кренится на поворотах."
 	]
@@ -3106,7 +3114,7 @@
 	quest.6E580B0E0DB376FF.quest_desc: [
 		"&lЗачем:&r Свиток портала — ещё один способ быстро переместиться. Как работает — в подсказке предмета."
 	]
-	quest.1EAF77894525E086.title: "Portstone"
+	quest.1EAF77894525E086.title: "Портовый камень"
 	quest.1EAF77894525E086.quest_desc: [
 		"&lЗачем:&r Ещё один вид путевого камня. Чем он отличается от обычного — в подсказке и в JEI."
 	]
@@ -3644,7 +3652,7 @@
 	quest.33EE9D2288D0A1A3.quest_desc: [
 		"Продвинутый верстак, способный устанавливать и удалять модули из модульного снаряжения (т.е. MekaSuit!)"
 	]
-	quest.67CB221E25650927.title: "Полный MekaSuit"
+	quest.67CB221E25650927.title: "Полный костюм MekaSuit"
 	quest.67CB221E25650927.quest_desc: [
 		"Защитите себя с полным MekaSuit и Meka-Tool"
 	]
@@ -3652,39 +3660,39 @@
 	quest.7A13054B48B60CD3.quest_desc: [
 		"&lЗачем:&r Всё-в-одном: кирка, топор, лопата, меч и, с модулями, телепорт, вейнмайнинг и шёлковое касание."
 	]
-	quest.51211D3EA449AAB1.title: "mg_module_jet"
+	quest.51211D3EA449AAB1.title: "Модуль: реактивный ранец"
 	quest.51211D3EA449AAB1.quest_desc: [
 		"Применяет ранец, работающий на водороде к MekaSuit."
 	]
-	quest.77965E98C0CC2E14.title: "mg_module_radiation"
+	quest.77965E98C0CC2E14.title: "Модуль: защита от радиации"
 	quest.77965E98C0CC2E14.quest_desc: [
 		"Обеспечивает радиационную защиту любой части MekaSuit за счёт толстого металлического слоя."
 	]
-	quest.7E8B7F88FD7E6325.title: "mg_module_breathing"
+	quest.7E8B7F88FD7E6325.title: "Модуль: очистка дыхания"
 	quest.7E8B7F88FD7E6325.quest_desc: [
 		"Формирует миниатюрное электромагнитное поле вокруг аппарата дыхания, предотвращая выбранные эффекты зелий."
 	]
-	quest.2701EE491464FD16.title: "mg_module_vision"
+	quest.2701EE491464FD16.title: "Модуль: ночное зрение"
 	quest.2701EE491464FD16.quest_desc: [
 		"Осветляет окружающий мир и позволяет пользователю видеть в полной темноте. Установите несколько модулей для улучшения ночного зрения."
 	]
-	quest.1B8B8ACB1D5CDE7C.title: "mg_module_magnet"
+	quest.1B8B8ACB1D5CDE7C.title: "Модуль: магнит"
 	quest.1B8B8ACB1D5CDE7C.quest_desc: [
 		"Использует мощные магниты для притягивания предметов вокруг игрока. Установка нескольких, приведёт к увеличению диапазона."
 	]
-	quest.20B5038DA250FE4E.title: "mg_module_vein"
+	quest.20B5038DA250FE4E.title: "Модуль: жилы руды"
 	quest.20B5038DA250FE4E.quest_desc: [
 		"Позволяет выкапывать сразу всю рудную жилу и быстро срубать стволы деревьев."
 	]
-	quest.411F81EF8B370C25.title: "mg_module_elytra"
+	quest.411F81EF8B370C25.title: "Модуль: элитры"
 	quest.411F81EF8B370C25.quest_desc: [
 		"Применяет полиэтиленовые укреплённые элитры на бронежилет MekaSuit."
 	]
-	quest.2F8204523469DF85.title: "mg_module_gravity"
+	quest.2F8204523469DF85.title: "Модуль: антигравитация"
 	quest.2F8204523469DF85.quest_desc: [
 		"Используя экспериментальные технологии и огромную энергию антиматерии, позволяет пользователю бросить вызов гравитации."
 	]
-	quest.6CB2C1719214613C.title: "mg_module_attack"
+	quest.6CB2C1719214613C.title: "Модуль: усиление атаки"
 	quest.6CB2C1719214613C.quest_desc: [
 		"Увеличивает урон по мобам и игрокам в ближнем бою."
 	]
@@ -3817,7 +3825,7 @@
 	quest.0C084B007135EF70.quest_desc: [
 		"&lЗачем:&r Флюидайзер переводит топливо в жидкую форму — для реакторов на жидком топливе. Схема сборки — в JEI."
 	]
-	quest.23935CE9425E6AC2.title: "Energizer Controller"
+	quest.23935CE9425E6AC2.title: "Энерджайзер"
 	quest.23935CE9425E6AC2.quest_desc: [
 		"&lЗачем:&r Энерджайзер — многоблочный накопитель энергии Extreme Reactors: копит энергию реактора на ночь и на пики нагрузки."
 	]
@@ -4064,7 +4072,7 @@
 		"&lЗачем:&r Многоблочная домна: руда + кокс + известняк → жидкий чугун и шлак. Чем выше печь, тем больше за раз."
 		"Основой Доменной печи является блок Вывода доменной печи. Чтобы собрать Доменную печь, постройте дымоход из Огнеупорных кирпичей, как показано на экране. Нижнюю половину дымохода необходимо укрепить. Топливо и другие предметы вводятся через отверстие вверху."
 	]
-	quest.44074560068461DF.title: "Blast Stove"
+	quest.44074560068461DF.title: "Воздухонагреватель"
 	quest.44074560068461DF.quest_desc: [
 		"&lЗачем:&r Воздухонагреватель дует в домну горячим воздухом — плавка быстрее."
 	]
@@ -4092,11 +4100,11 @@
 	quest.4A375F21AC4978AB.quest_desc: [
 		"&lЗачем:&r Стальные и алюминиевые инструменты — прочнее железных."
 	]
-	quest.122A23D50B4234A1.title: "Galena"
+	quest.122A23D50B4234A1.title: "Галенит"
 	quest.122A23D50B4234A1.quest_desc: [
 		"&lЗачем:&r Галенит — свинцовая и серебряная руда. Свинец — аккумуляторы и защита от радиации."
 	]
-	quest.2A2098A285C33969.title: "Lead Pickaxe"
+	quest.2A2098A285C33969.title: "Свинцовые инструменты"
 	quest.2A2098A285C33969.quest_desc: [
 		"&lЗачем:&r Свинцовые инструменты тяжёлые и медленные, зато долговечные."
 	]
@@ -4117,7 +4125,7 @@
 	quest.601C98B2B0AE949E.quest_desc: [
 		"&lЗачем:&r Факел сжигает лишний газ, чтобы колонна не встала. Дымит — ставь подальше от дома и следи за загрязнением."
 	]
-	quest.31C3166E6150C725.title: "Metal Smokestack"
+	quest.31C3166E6150C725.title: "Дымовая труба"
 	quest.31C3166E6150C725.quest_desc: [
 		"&lЗачем:&r Трубы уводят дым от печей вверх — заводской вид и меньше смога у земли."
 	]
@@ -4129,15 +4137,15 @@
 	quest.3D740BDDBBB1DC75.quest_desc: [
 		"&lЗачем:&r Кожа и нитки без коров и пауков."
 	]
-	quest.2E806EC193D6C56D.title: "Regular Engine"
+	quest.2E806EC193D6C56D.title: "Бензиновый двигатель"
 	quest.2E806EC193D6C56D.quest_desc: [
 		"&lЗачем:&r Двигатель на бензине крутит Create-сеть с огромной силой. Нужны свечи, топливо и выхлоп."
 	]
-	quest.488BC9D213903789.title: "Large Engine"
+	quest.488BC9D213903789.title: "Большой двигатель"
 	quest.488BC9D213903789.quest_desc: [
 		"&lЗачем:&r Большой двигатель собирается из цилиндров на коленвале — чем больше цилиндров, тем мощнее."
 	]
-	quest.7E0F2CDFD6BDC524.title: "Radial Engine"
+	quest.7E0F2CDFD6BDC524.title: "Звездообразный двигатель"
 	quest.7E0F2CDFD6BDC524.quest_desc: [
 		"&lЗачем:&r Звездообразный двигатель — компактный и мощный, для самолётов и кораблей."
 	]
@@ -4153,15 +4161,15 @@
 	quest.615B3B0DA6998ACF.quest_desc: [
 		"&lЗачем:&r Генератор превращает вращение в ток, провода несут его к моторам и лампам. Напряжение и сопротивление считаются по-настоящему."
 	]
-	quest.4DBA62B14DC9CD80.title: "Multimeter"
+	quest.4DBA62B14DC9CD80.title: "Мультиметр"
 	quest.4DBA62B14DC9CD80.quest_desc: [
 		"&lЗачем:&r Мультиметр показывает напряжение и ток — без него сложно найти, где сеть «просела»."
 	]
-	quest.175FB7FD839C4A47.title: "Accumulator"
+	quest.175FB7FD839C4A47.title: "Аккумулятор"
 	quest.175FB7FD839C4A47.quest_desc: [
 		"&lЗачем:&r Литиевый аккумулятор запасает ток на ночь и пики нагрузки."
 	]
-	quest.4DE23E23F98F80A2.title: "Transformer"
+	quest.4DE23E23F98F80A2.title: "Трансформатор"
 	quest.4DE23E23F98F80A2.quest_desc: [
 		"&lЗачем:&r Трансформатор повышает напряжение для дальних линий и понижает у потребителей."
 	]
@@ -4169,19 +4177,19 @@
 	quest.10FF7C32138FD2DB.quest_desc: [
 		"&lЗачем:&r Резисторы, транзисторы, конденсаторы — собираются на конвейере Create (последовательная сборка)."
 	]
-	quest.29DC664BF5E3BB07.title: "Winding Machine"
+	quest.29DC664BF5E3BB07.title: "Намоточный станок"
 	quest.29DC664BF5E3BB07.quest_desc: [
 		"&lЗачем:&r Намоточный станок делает катушки и обмотки для моторов и генераторов."
 	]
-	quest.3B1A72A757EE9C13.title: "Converter"
+	quest.3B1A72A757EE9C13.title: "Преобразователь энергии"
 	quest.3B1A72A757EE9C13.quest_desc: [
-		"&lЗачем:&r Преобразователь переводит ток TFMG в FE — питай машины Mekanism и IE от своего завода."
+		"&lЗачем:&r Переводит энергию TFMG в FE и обратно — питай машины Mekanism и IE от своего завода или наоборот."
 	]
 	quest.5D7228E0468C2ECE.title: "Свет города"
 	quest.5D7228E0468C2ECE.quest_desc: [
 		"&lЗачем:&r Лампы, неон и светофоры для улиц твоего города."
 	]
-	quest.5885F30E7CF3C4F9.title: "Electric Pump"
+	quest.5885F30E7CF3C4F9.title: "Электронасос"
 	quest.5885F30E7CF3C4F9.quest_desc: [
 		"&lЗачем:&r Электрический насос качает жидкости без вращения — только ток."
 	]
@@ -4193,17 +4201,17 @@
 	quest.7332C6399AE90323.quest_desc: [
 		"&lЗачем:&r Заводской пол — красивое основание цеха."
 	]
-	quest.270D09DCA18C2A9F.title: "Fire Extinguisher"
+	quest.270D09DCA18C2A9F.title: "Огнетушитель"
 	quest.270D09DCA18C2A9F.quest_desc: [
 		"&lЗачем:&r Огнетушитель гасит пожар от молнии или огнемёта соседа. Держи у каждой деревянной постройки!"
 	]
-	quest.1BED2E449CF8B36B.title: "Flamethrower"
+	quest.1BED2E449CF8B36B.title: "Огнемёт"
 	quest.1BED2E449CF8B36B.quest_desc: [
 		"&lЗачем:&r Огнемёт на топливе из колонны. Сжигает толпы мобов — и леса, так что аккуратно."
 	]
-	quest.0C7D5B49867AB317.title: "Advanced Potato Cannon"
+	quest.0C7D5B49867AB317.title: "Улучшенная картофельная пушка"
 	quest.0C7D5B49867AB317.quest_desc: [
-		"&lЗачем:&r Улучшенная картофельная пушка: дальше, быстрее, сильнее."
+		"&lЗачем:&r Стреляет напалмовой картошкой и может работать от воздуха баллона Create. Только в диких землях — поджигает всё вокруг."
 	]
 	quest.728CE71459E1D7A7.title: "Гранаты"
 	quest.728CE71459E1D7A7.quest_desc: [
@@ -4271,9 +4279,7 @@
 	]
 	quest.462AFB78E531FC9C.title: "Средневольтный конденсатор"
 	quest.462AFB78E531FC9C.quest_desc: [
-		"Accumulators serve as energy storage units. Input and output power is limited to one connector of the voltage of the accumulator per side."
-		"Side configuration can be adjusted with the hammer: Blue corresponds to input, orange corresponds to output, and no colour marking preventing any connection at all."
-		"Sneaking while configuring a side will configure the side opposite to the one that was clicked."
+		"&lЗачем:&r Накопители хранят энергию. Вход и выход ограничены одним разъёмом своего напряжения на сторону; молотом настраиваешь стороны: синяя — вход, оранжевая — выход."
 	]
 	quest.4C6CE2A973BF5263.title: "Высоковольтный конденсатор"
 	quest.4C6CE2A973BF5263.quest_desc: [
@@ -4281,9 +4287,7 @@
 	]
 	quest.346F3397EDB5B2A8.title: "Рубильник и амперметр"
 	quest.346F3397EDB5B2A8.quest_desc: [
-		"Breaker Switches are simple switches that can stop the flow of power through wires."
-		"They connect two wires of the same type and will only allow power to pass when activated. Due to the high risk, these switches cannot be connected to HV wiring."
-		"This can be used to separate power-hungry machinery from the network or hook up an additional set of generators when needed."
+		"&lЗачем:&r Рубильник разрывает поток энергии по проводам, когда выключен, — удобно отключать участок сети на ремонт. Амперметр показывает, сколько энергии идёт по проводу."
 	]
 	quest.6272FE2ABE4520CB.title: "Громоотвод"
 	quest.6272FE2ABE4520CB.quest_desc: [
@@ -4303,9 +4307,7 @@
 	]
 	quest.0CCCE1041BFDD4F4.title: "Нефтеперегонная установка"
 	quest.0CCCE1041BFDD4F4.quest_desc: [
-		"Many processes necessitate the addition of a catalyst. The refinery passes its input fluids through a mixer and a catalyst at the same time, producing novel outputs from one or two inputs."
-		"To form the machine, construct it as shown and rightclick the Heavy Engineering Block on the middle layer."
-		"Fluids are input through the two ports on either side of the block and output through the orange marked port at the front. Using buckets to interact with the refinery's tanks is also possible."
+		"&lЗачем:&r Нефтеперегонная установка смешивает одну-две жидкости через катализатор и выдаёт новую — например, биодизель из масла и этанола."
 	]
 	quest.010DB7A46B603A9A.title: "Технический лён"
 	quest.010DB7A46B603A9A.quest_desc: [
@@ -4325,9 +4327,7 @@
 	]
 	quest.3BC5DF8F9349944B.title: "Разливочная машина"
 	quest.3BC5DF8F9349944B.quest_desc: [
-		"The Bottling Machine fills fluids into containers or molds."
-		"The structure is created as shown above, but can be mirrored. To form it, rightclick the central conveyor with an Engineer's Hammer. The direction of the conveyors is important."
-		"The machine can store 8 buckets of fluid, which is input through the ports on the metal tank. Energy is input through the connection at the top of the opposing side."
+		"&lЗачем:&r Разливочная машина наполняет ёмкости и формы жидкостью прямо на конвейере."
 	]
 	quest.5EEEEB3E32962819.title: "Лесопилка"
 	quest.5EEEEB3E32962819.quest_desc: [
@@ -4339,15 +4339,11 @@
 	]
 	quest.34463437BBA6632E.title: "Сборочный цех"
 	quest.34463437BBA6632E.quest_desc: [
-		"The Assembler is a complex machine capable of crafting items, similar to a player."
-		"To form the structure, build it like demonstrated above and use the Engineer's Hammer on the inwards facing conveyor."
-		"The Assembler allows for up to 3 recipes to be stored inside it that will be performed in order. The outputs of previous recipes can be used as inputs for following recipes."
+		"&lЗачем:&r Сборочный цех крафтит предметы как игрок — по трём рецептам одновременно, беря ингредиенты из соседних сундуков."
 	]
 	quest.796AFA592184D450.title: "Автоматический верстак"
 	quest.796AFA592184D450.quest_desc: [
-		"The Automated Workbench is one of the first major successes of small-scale engineering."
-		"The machine is able to follow a set of instructions described by a Blueprint;start to assemble the items detailed by it."
-		"Upon assembling the multiblock, a Blueprint can be placed on its drawing table. After selecting the item that should be created, it will begin the assembly process. In order for the machine to work, it will need to be supplied with materials and power."
+		"&lЗачем:&r Автоматический верстак работает по чертежу: сам делает формы, патроны и детали на конвейере."
 	]
 	quest.334F4513E6CBA912.title: "Графитовый электрод"
 	quest.334F4513E6CBA912.quest_desc: [
@@ -4367,21 +4363,15 @@
 	]
 	quest.42BBEC80D2207D5E.title: "Желоб из листового металла"
 	quest.42BBEC80D2207D5E.quest_desc: [
-		"Chutes are simple constructions made from sheetmetal that allow creatures and items that fit inside to drop straight down."
-		"Chutes also insert into inventories below them and can be inserted into by conveyors or similar devices."
-		"Items within them won't be picked up by players and should be immune to most forms of attraction, magnetic or otherwise."
+		"&lЗачем:&r Желоба из листового металла роняют предметы и существ прямо вниз и складывают их в инвентарь под собой."
 	]
 	quest.3E0DD81BB79338A8.title: "Сортировщики"
 	quest.3E0DD81BB79338A8.quest_desc: [
-		"The Item Router is designed to parcel and sort items into inventories such as chests, machines, and conveyors."
-		"Items inserted into the router will be output from matching configured sides or open sides in that order."
-		"Items can be inserted from any side, and will be output from one of the other five sides, or will disallow input if they cannot be sorted."
+		"&lЗачем:&r Сортировщик раскладывает предметы по сторонам по фильтрам, жидкостный — то же для жидкостей."
 	]
 	quest.1CBBA1A0F316EFF2.title: "Трубы и насос"
 	quest.1CBBA1A0F316EFF2.quest_desc: [
-		"Fluid Pipes are a versatile and efficient method of transporting fluids, unlike moving tanks ore buckets around en masse."
-		"Pipe systems will output any fluid input to them across the available ouputs, split evenly."
-		"At low pressure, pipe systems will transport fluid slowly. Pressurized fluids output from a Fluid Pump or certain large machines can move much faster."
+		"&lЗачем:&r Трубы гонят жидкости в любые подключённые баки и машины, насос качает их из резервуаров и источников, вентиль перекрывает поток."
 	]
 	quest.6F7BB611E8D98EC4.title: "Канистра"
 	quest.6F7BB611E8D98EC4.quest_desc: [
@@ -4393,9 +4383,7 @@
 	]
 	quest.60033203B5A72663.title: "Вагонетка с деревянным ящиком"
 	quest.60033203B5A72663.quest_desc: [
-		"Storage Crates can be placed into Minecarts, as with chests and hoppers."
-		"When placed into Minecarts, crates will act as they do outside, and store their items inside when they are broken, unlike chests."
-		"Storage Barrels can be placed into Minecarts, as with chests and hoppers."
+		"&lЗачем:&r Ящик в вагонетке хранит вещи так же, как на земле, — перевозка грузов по рельсам."
 	]
 	quest.27A49C65BF1E6E60.title: "Электроника"
 	quest.27A49C65BF1E6E60.quest_desc: [
@@ -4407,9 +4395,7 @@
 	]
 	quest.357238A037B74D9D.title: "Редстоун по проводам"
 	quest.357238A037B74D9D.quest_desc: [
-		"Redstone Wires are aluminium coated in redstone dust. The resulting cables provide an easy way to transfer redstone signals over long distance without losing signal strength."
-		"Redstone Wire Connectors work as both relays and connectors: input and output connectors can have multiple wires connected."
-		"With the Engineer's Screwdriver, the connectors can be configured between in- and output mode and set to one of 16 coloured frequencies."
+		"&lЗачем:&r Редстоун-провода — алюминий в редстоуне: передают сигнал далеко без потери силы. Таймер даёт сигнал по расписанию."
 	]
 	quest.27FC410F2C73B81F.title: "Освещение"
 	quest.27FC410F2C73B81F.quest_desc: [
@@ -4433,9 +4419,7 @@
 	]
 	quest.0EA0F172A29FF98F.title: "Защитные наушники"
 	quest.0EA0F172A29FF98F.quest_desc: [
-		"Ear Defenders are devices for protecting your hearing. They are quite important for engineers that work in close proximity to Diesel Generators; or other loud machinery."
-		"While wearing Ear Defenders, all noises are reduced by 90% and they make your ears considerably more warm and fuzzy! :D"
-		"Placing the Ear Defenders in the Engineer's Workbench; allows you to specify which types of noises you want cancelled and by how much their volume should be reduced."
+		"&lЗачем:&r Защитные наушники берегут слух рядом с дизельными генераторами и другими шумными машинами. Их можно встроить в шлем."
 	]
 	quest.42EFDBCD46D2B14E.title: "Тяжёлый покрытый металлом щит"
 	quest.42EFDBCD46D2B14E.quest_desc: [
@@ -4483,10 +4467,9 @@
 	]
 	quest.6575193BF5DBA93C.title: "Колючая проволока"
 	quest.6575193BF5DBA93C.quest_desc: [
-		"Razorwire is a wire with sharpened pieces of metal attached. It will slow and cut any entity that tries to move through it."
-		"Razorwire can only be removed with Wirecutters, any other attempts will damage the player. Additionally, LV wires can be connected to electrify the razorwire for extra damage."
+		"&lЗачем:&r Колючая проволока режет и замедляет всех, кто через неё лезет. Снять её можно только кусачками."
 	]
-	quest.66781CD614789BE2.title: "Collapsible Glider"
+	quest.66781CD614789BE2.title: "Складной планер"
 	quest.66781CD614789BE2.quest_desc: [
 		"&lЗачем:&r Складной планер — элитры для тех, кто ещё не был в Энде."
 	]
@@ -4496,9 +4479,7 @@
 	]
 	quest.5618E337E950989F.title: "Механический волк"
 	quest.5618E337E950989F.quest_desc: [
-		"Within the Trial Chambers, you have found a slightly faded but still legible blueprint. It seems to contain instructions on how to construct a synthetic creature akin to the common wolf!"
-		"This construct is loyal to the person that deploys it."
-		"Being powered by a thermoelectric generator, it should never run out of energy to move itself."
+		"&lЗачем:&r Чертёж механического волка находят в испытательных залах. По нему собирают синтетического спутника, похожего на волка."
 	]
 	quest.2275E9EDA5A1A5B7.title: "Шейдеры оружия"
 	quest.2275E9EDA5A1A5B7.quest_desc: [
@@ -4700,6 +4681,86 @@
 	quest.3B8BB67D88DE00FE.title: "Инженер сети"
 	quest.3B8BB67D88DE00FE.quest_desc: [
 		"Ты освоил AE2 целиком: от кварцевой фермы до переноса баз. Дальше — MEGA, ExtendedAE и мега-автокрафт в этой же главе."
+	]
+	quest.4C80E997620D8507.title: "Шаблоны обработки"
+	quest.4C80E997620D8507.quest_desc: [
+		"&lЗачем:&r Шаблон крафта — для верстака, шаблон обработки — для любых машин: печь, дробилка, пресс Create. Так AE2 сам гонит руду через твой завод."
+	]
+	quest.26C283F6D1F09975.title: "МЭ терминал доступа к шаблонам"
+	quest.26C283F6D1F09975.quest_desc: [
+		"&lЗачем:&r Терминал доступа к шаблонам — правишь все шаблоны сети из одного места, не бегая по поставщикам."
+	]
+	quest.2F6632A01828F08A.title: "Беспроводной терминал изготовления"
+	quest.2F6632A01828F08A.quest_desc: [
+		"&lЗачем:&r Беспроводной терминал с сеткой крафта — заказывай и крафти из любой точки в зоне точки доступа."
+	]
+	quest.664F93A574122935.title: "Карты улучшений"
+	quest.664F93A574122935.quest_desc: [
+		"&lЗачем:&r Карта крафта — шина экспорта сама заказывает недостающее, карта редстоуна — работа по сигналу, карта пустоты — ячейка уничтожает излишки."
+	]
+	quest.1FDE649DDEF189BA.title: "P2P для предметов, энергии и жидкостей"
+	quest.1FDE649DDEF189BA.quest_desc: [
+		"&lЗачем:&r P2P-туннели передают предметы, энергию и жидкости через ME-кабель вместо отдельных труб и проводов."
+	]
+	quest.326C7274DB452A11.title: "Сингулярность квантовой запутанности"
+	quest.326C7274DB452A11.quest_desc: [
+		"&lЗачем:&r Пара запутанных сингулярностей связывает два квантовых кольца — сеть работает между измерениями."
+	]
+	quest.6DA7C0D8D1C33E52.title: "2³ пространственный компонент"
+	quest.6DA7C0D8D1C33E52.quest_desc: [
+		"&lЗачем:&r Компонент пространственной ячейки — сердце ячейки, которая хранит кусок мира 2×2×2 и переносит его через пространственный порт. Переезд построек и фермы в кармане."
+	]
+	quest.6B2A79C81C8F4ECD.title: "Ядро уничтожения"
+	quest.6B2A79C81C8F4ECD.quest_desc: [
+		"&lЗачем:&r Ядро аннигиляции — деталь плоскостей разрушения и шин: всё, что сеть ломает или забирает, начинается с него."
+	]
+	quest.45CFDCF7803BFE5A.title: "Переносная и жидкостная ячейки"
+	quest.45CFDCF7803BFE5A.quest_desc: [
+		"&lЗачем:&r Переносная ячейка — маленький склад в кармане без сети. Жидкостная ячейка хранит вёдра в ME, как предметы."
+	]
+	quest.452BBD64E2A59D14.title: "Приёмщик энергии"
+	quest.452BBD64E2A59D14.quest_desc: [
+		"&lЗачем:&r Тонкий приёмник энергии на кабеле: подключает к ME-сети энергию любого мода, не занимая целый блок."
+	]
+	quest.2772CE9509CDC3D0.title: "Токовое улучшение"
+	quest.2772CE9509CDC3D0.quest_desc: [
+		"&lЗачем:&r Шаблон улучшает кварцевые инструменты до флюиксовых — прочнее и быстрее."
+	]
+	quest.1F53C44E843BC6CF.title: "Именующий пресс для высекателя"
+	quest.1F53C44E843BC6CF.quest_desc: [
+		"&lЗачем:&r Пресс имени в высекателе подписывает предметы — удобно метить ячейки и терминалы."
+	]
+	quest.596F329176C73067.title: "Небесная сталь и процессор накопления"
+	quest.596F329176C73067.quest_desc: [
+		"&lЗачем:&r Небесная сталь и процессор накопления — основа деталей MEGA Cells."
+	]
+	quest.1C3C652D480D7960.title: "Ячейка на миллион"
+	quest.1C3C652D480D7960.quest_desc: [
+		"&lЗачем:&r Ячейки MEGA начинаются с 1M — в 16 раз больше лучшей ячейки AE2."
+	]
+	quest.660F1272E0C7B851.title: "Жидкости и химикаты на миллион"
+	quest.660F1272E0C7B851.quest_desc: [
+		"&lЗачем:&r Жидкости и химикаты Mekanism тоже хранятся миллионами — один диск вместо стены баков."
+	]
+	quest.273E370D0B3A47B5.title: "Сжатие в навальной ячейке"
+	quest.273E370D0B3A47B5.quest_desc: [
+		"&lЗачем:&r Навальная ячейка хранит один предмет почти бесконечно, а карта сжатия сама переводит слитки в блоки и обратно."
+	]
+	quest.7B716DC5A2432867.title: "MEGA-интерфейс и поставщик"
+	quest.7B716DC5A2432867.quest_desc: [
+		"&lЗачем:&r Больше слотов и быстрее — для огромных фабрик автокрафта."
+	]
+	quest.2786363D8AAEBF28.title: "Переносной верстак ячеек и док"
+	quest.2786363D8AAEBF28.quest_desc: [
+		"&lЗачем:&r Переносной верстак ячеек настраивает ячейки на ходу, док держит ячейку прямо на кабеле без привода."
+	]
+	quest.1BCE628C5F7B4DA9.title: "MEGA-энергия"
+	quest.1BCE628C5F7B4DA9.quest_desc: [
+		"&lЗачем:&r MEGA-ячейка энергии держит огромный запас для сети, большая карта энергии даёт больше заряда переносным инструментам."
+	]
+	quest.2903D6020CF5A1DD.title: "Беспроводные терминалы шаблонов"
+	quest.2903D6020CF5A1DD.quest_desc: [
+		"&lЗачем:&r Пиши и правь шаблоны на ходу. Их можно встроить в универсальный беспроводной терминал."
 	]
 	quest.3EAA09CA9AF1C413.title: "Энтро-материалы"
 	quest.3EAA09CA9AF1C413.quest_desc: [
@@ -5068,11 +5129,11 @@
 	quest.037246CB240983F6.quest_desc: [
 		"Арбалет, на который можно нанести заклинание. Стоимость заклинания в мане будет вычтена при зарядке лука, если присутствует мана. Арбалеты чародея могут использовать специальные стрелы-аугменты для усиления своих заклинаний."
 	]
-	quest.172486C0A007A2F5.title: "Enchanter's Gauntlet"
+	quest.172486C0A007A2F5.title: "Перчатка зачарователя"
 	quest.172486C0A007A2F5.quest_desc: [
 		"&lЗачем:&r Перчатка-мультиинструмент: копает как алмаз и творит вписанное заклинание."
 	]
-	quest.21A3B8E069D5C396.title: "Enchanter's Fishing Rod"
+	quest.21A3B8E069D5C396.title: "Удочка зачарователя"
 	quest.21A3B8E069D5C396.quest_desc: [
 		"&lЗачем:&r Удочка, в которую вписано заклинание: при подсечке оно срабатывает на добыче — например, сразу жарит рыбу или притягивает её к тебе."
 	]
@@ -5131,7 +5192,7 @@
 	quest.23BFF9C277F8C594.quest_desc: [
 		"Амулеты Книгочея можно использовать на кафедре хранения, чтобы увеличить количество доступных инвентарей. Дополните ритуал пробуждения Книгами и Перьями, чтобы получить амулеты. Книгочея можно покрасить белой, черной, синей, зеленой, красной или фиолетовой краской."
 	]
-	quest.3839B36CEF452636.title: "Repository Catalog"
+	quest.3839B36CEF452636.title: "Каталог хранилища"
 	quest.3839B36CEF452636.quest_desc: [
 		"&lЗачем:&r Каталог кладёт и забирает предметы из всех соседних репозиториев сразу — воронка в твоё магическое хранилище."
 	]
@@ -5254,7 +5315,7 @@
 	quest.077E63FB066093F8.quest_desc: [
 		"Заросшие Ходоки - это живые арчвудские деревья, которые охраняют свои дома от враждебных монстров. Заросший Ходок может быть создан в Ритуале Пробуждения. После пробуждения, Заросший Ходок будет бродить там, где ему вздумается, если не назначена конкретная позиция. Чтобы задать Заросшему Ходоку позицию, используйте Жезл Владычества на нём, а затем на блоке, который вы хотите, чтобы он охранял."
 	]
-	quest.53B1B43E512492DB.title: "Alakarkinos Charm"
+	quest.53B1B43E512492DB.title: "Талисман Алакаркиноса"
 	quest.53B1B43E512492DB.quest_desc: [
 		"&lЗачем:&r Краб Алакаркинос просеивает песок и гравий и находит то, что обычно добывают археологией: черепки, сокровища."
 	]
@@ -5276,7 +5337,7 @@
 		"&lЗачем:&r Постоянный портал в любую точку измерения — общая транспортная сеть для сервера."
 		"Варп-порталы, как и варп-свитки, обеспечивают одностороннюю телепортацию в любое место, при условии, что оно находится в том же измерении. Чтобы построить Варп-портал, соорудите каркас из Исходного камня или его разновидностей в форме прямоугольника, и обеспечьте поблизости полный кувшин Источника. Затем бросьте во фрейм варп-свиток с записанным местоположением. Если поблизости будет достаточно Истока, то портал будет создан."
 	]
-	quest.06B2954D508D8530.title: "Planarium"
+	quest.06B2954D508D8530.title: "Планариум"
 	quest.06B2954D508D8530.quest_desc: [
 		"&lЗачем:&r Карманное измерение в банке: своя маленькая база, куда можно войти."
 	]
@@ -5287,6 +5348,212 @@
 	quest.3A0AA55BF72A51A3.title: "Магистр Ars Nouveau"
 	quest.3A0AA55BF72A51A3.quest_desc: [
 		"Исток течёт сам, помощники работают, броня и оружие напитаны магией. Остальное — твоя фантазия в книге заклинаний."
+	]
+	quest.78BDF73412328DE7.title: "Три формы заклинания"
+	quest.78BDF73412328DE7.quest_desc: [
+		"&lЗачем:&r Каждое заклинание начинается с формы: снаряд летит во врага, касание действует на блок или существо перед тобой, «на себя» — на тебя. Дальше идут эффекты и усилители."
+		"Заклинание, с которого вы начинаете. Вызывает снаряд, который применяет эффекты заклинаний, когда этот снаряд попадает в цель или блок. Чувствительность позволит снарядам ломать растения или другие материалы, которые не блокируют движение."
+	]
+	quest.24D0209C3889558D.title: "Глиф «Разрушение»"
+	quest.24D0209C3889558D.quest_desc: [
+		"&lЗачем:&r Ломает блоки средней твёрдости. «Усиление» повышает уровень добычи (сломает и твёрдое), «Чувствительность» ломает как ножницами."
+		"Заклинание, с которого вы начинаете. Разбивает блоки средней твердости. Может быть усилен для повышения уровня сбора. Чувствительность имитирует Разрушение блоков ножницами вместо кирки."
+	]
+	quest.2540AEFB991B8860.title: "Вред и исцеление"
+	quest.2540AEFB991B8860.quest_desc: [
+		"Заклинание, с которого вы начинаете. Наносит урон по цели. Может быть усилено Усилением или накладывает дебафф Отравление при использовании Продления Времени. Заметьте, что многократное применение Вреда без задержки не будет применяться из-за неуязвимости при попадании."
+	]
+	quest.6D83861EB1C2C0DE.title: "Огонь, лёд и молния"
+	quest.6D83861EB1C2C0DE.quest_desc: [
+		"Поджигает блоки и мобов на короткое время. Чувствительность не позволит этому заклинанию поджечь блоки."
+	]
+	quest.3CC0C102FF6C2B49.title: "Глиф «Взрыв»"
+	quest.3CC0C102FF6C2B49.quest_desc: [
+		"&lЗачем:&r Взрыв ломает блоки! Только в диких землях и не рядом с чужими постройками."
+		"Вызывает взрыв на локации. Усиление увеличивает урон и размер на небольшую величину, в то время как Урон по Площади увеличивает размер взрыва на большую величину, но не урон."
+	]
+	quest.160F8912F1DEB75E.title: "Глифы движения"
+	quest.160F8912F1DEB75E.quest_desc: [
+		"Телепортирует заклинателя в определенное место. Если объекту наносится урон, а заклинатель держит в вытянутой руке Варп-свиток, объект будет телепортирован в то место, которое указано на Свитке. При использовании Самости, заклинатель телепортируется вперед. Заклинательные туррели и руны могут телепортировать существа, используя Варп-свитки из соседних инвентарей, не потребляя сами свитки."
+	]
+	quest.57F419C894D0DECF.title: "Усилители"
+	quest.57F419C894D0DECF.quest_desc: [
+		"&lЗачем:&r Усилители меняют эффект перед ними: «Усиление» — сильнее, «Площадь» — шире, «Пронзание» — сквозь цели, «Продление» — дольше. Каждый поднимает цену маны."
+		"Суммарно увеличивает силу большинства эффектов заклинаний. Может увеличить уровень сбора с Разрушением и увеличит урон от заклинаний."
+	]
+	quest.22F729FD1B39A859.title: "Глиф «Призыв волков»"
+	quest.22F729FD1B39A859.quest_desc: [
+		"&lЗачем:&r Призывает двух волков, которые дерутся за тебя. «Продление» держит их дольше. После призыва — «Слабость призывателя»: другое призывающее колдовство на время недоступно."
+		"Вызывает двух волков, которые будут сражаться с вами. Продление времени увеличит время действия призыва. Применяет Немочь Вызова на заклинателя, препятствуя другим магиям вызова."
+	]
+	quest.15A355AA90D78334.title: "Глиф «Жатва»"
+	quest.15A355AA90D78334.quest_desc: [
+		"&lЗачем:&r Собирает созревший урожай, не ломая само растение, — поле убирается заклинанием."
+		"При использовании на выращенных культурах это заклинание позволяет получить полностью выращенный продукт, не уничтожая растение."
+	]
+	quest.1238C80D9EC2A5D3.title: "Заклинательные турели"
+	quest.1238C80D9EC2A5D3.quest_desc: [
+		"&lЗачем:&r Обычная турель стреляет заклинанием по сигналу редстоуна, турель с таймером — сама, через заданный промежуток. Автоматическая магия для фермы и обороны."
+	]
+	quest.7CCE4C089A5ABF74.title: "Распылитель зелий"
+	quest.7CCE4C089A5ABF74.quest_desc: [
+		"Потребляет зелье и применяет его к близлежащим существам, значительно продлевая срок действия зелья. Для использования, привяжите Кувшин для зелий к Распылителю с помощью Жезла Владычества. Каждые 10 минут Распылитель будет потреблять одно зелье и применять его каждые несколько секунд."
+	]
+	quest.5A4EE7B1B71B9F8D.title: "Корона алхимика"
+	quest.5A4EE7B1B71B9F8D.quest_desc: [
+		"Позволяет владельцу мгновенно потреблять зелья и фляги из своего инвентаря."
+	]
+	quest.1C230EF38756757A.title: "Котёл Викси"
+	quest.1C230EF38756757A.quest_desc: [
+		"&lЗачем:&r Котёл виксы: призванная викса сама крафтит предметы по рецепту — автоверстак на магии."
+	]
+	quest.1ABCE6C2DF8B63F4.title: "Кувшин пустоты"
+	quest.1ABCE6C2DF8B63F4.quest_desc: [
+		"Кувшин, который может уничтожать предметы при подборе и дает взамен небольшое количество маны. Чтобы включить или выключить кувшин, используйте его с зажатым shift. Чтобы добавить или убрать предмет, уничтожаемый кувшином, используйте кувшин с предметом в свободной руке или используйте предмет на писчем столе, положив на него кувшин. Для работы кувшина он должен находиться в вашем хотбаре."
+	]
+	quest.6DF2C63B3937AA32.title: "Реле сбора и сдачи"
+	quest.6DF2C63B3937AA32.quest_desc: [
+		"Работает аналогично Реле Источника, но будет автоматически извлекать из кувшинов, с которыми он не связан, в пределах 5 блоков. Смотри инструкции по использованию Реле Источника."
+	]
+	quest.6073DD8DA99D4B2C.title: "Глаз чародея"
+	quest.6073DD8DA99D4B2C.quest_desc: [
+		"Инструмент заклинателя, который может удаленно читать написанные заклинания с помощью кристалла предсказания. Используйте глаз на гадальном кристалле, чтобы привязать место, или держите связанный гадальный пергамент в левой руке. Заклинания будут твориться через глаз, как турель заклинаний, но вы считаетесь заклинателем всех эффектов. Полезно для удаленной телепортации или перемещения предметов."
+	]
+	quest.41A90AAC146322F0.title: "Кольцо Чёрной Пятницы"
+	quest.41A90AAC146322F0.quest_desc: [
+		"Предоставляет немного большую скидку по сравнению с малым кольцом скидок."
+	]
+	quest.558805074661EC74.title: "Книга Заклинателя"
+	quest.558805074661EC74.quest_desc: [
+		"Произносит заклинание за половину стоимости или за весь запас маны пользователя, в зависимости от того, что меньше."
+	]
+	quest.7C59D9611D40FC57.title: "Фокусы призыва и формирования"
+	quest.7C59D9611D40FC57.quest_desc: [
+		"Особый фокус заклинатель. Дает призванным через заклинания дополнительную продолжительность, силу, скорость и наносит урон врагам, которые их убивают. Кроме того, заклинания, направленные на вас, такие как Самость и Орбита, накладывают копию заклинания на ваших ближайших миньонов."
+	]
+	quest.2EC8A3954F9FC6E0.title: "Чародейский жезл"
+	quest.2EC8A3954F9FC6E0.quest_desc: [
+		"Жезлы принимают только одно заклинание, начертаное с помощью писчего стола. Жезл всегда начинается со Снаряд -> Укорение, и ДОЛЖЕН быть начертан заклинанием, у которого нет другого метода. Это позволяет вам творить заклинания сверх предела в 10 шт. Если вы хотите получить жезл, который творит Разрушение, начертите на нём ТОЛЬКО Разрушение, и в результате вы получите жезл со Снаряд -> Укорение -> Разрушение."
+	]
+	quest.31569837C9CFDD87.title: "Кувшин света"
+	quest.31569837C9CFDD87.quest_desc: [
+		"Призывает свет, который будет следовать за пользователем во время его движения. Может быть вызван и отклонён в любое время."
+	]
+	quest.3E82992E5804F7A8.title: "Свиток Провидца"
+	quest.3E82992E5804F7A8.quest_desc: [
+		"Хранит местоположение Кристалла Провидца. Чтобы создать, используйте Пустой Пергамент на Кристалле Провидца. Вы можете удаленно получить доступ к сохраненной позиции, поместив этот предмет на пъедестал рядом с Оком Провидца. Наименование этого предмета позволит вам легко распознать его в интерфейсе Ока Провидца."
+	]
+	quest.4613034D1CED05E8.title: "Нити силы и ёмкости"
+	quest.4613034D1CED05E8.quest_desc: [
+		"Наносит все больший урон от заклинаний с каждым уровнем."
+	]
+	quest.36959042C74C2998.title: "Ритуалы цветения и призыва зверей"
+	quest.36959042C74C2998.quest_desc: [
+		"Заселяет близлежащую территорию цветами и травой. Аугментация исходным камнем увеличит радиус на 1 для каждого камня. Аугментация песком заменит цветы на Кактусы и Мертвые кусты."
+	]
+	quest.28E0B185EB26A742.title: "Пояснительный Кодекс"
+	quest.28E0B185EB26A742.quest_desc: [
+		"Пояснительный Кодекс позволяет игрокам делиться своими знаниями о глифах с другими игроками. Чтобы записать известные вам глифы, просто используйте кодекс. Запись глифов требует опыта для каждого известного глифа, и опыт будет потребляться при использовании предмета. При повторном использовании предмета список известных глифов будет обновлен. Другие игроки могут использовать книгу для изучения глифов, потребляя кодекс в процессе."
+	]
+	quest.62C5D2015F490B69.title: "Самоцвет опыта"
+	quest.62C5D2015F490B69.quest_desc: [
+		"&lЗачем:&r Самоцвет опыта — опыт в кармане. Его тратят на зачарования и ритуалы."
+	]
+	quest.347F018C6B91F9BC.title: "Фокусы стихий"
+	quest.347F018C6B91F9BC.quest_desc: [
+		"Этот фокус заклинания настроен на школу Земли. При экипировке глифы этой школы будут усиливаться и обесцениваться. Меньший фокус, как недостаток, ослабит глифы других школ элементалей. Основной фокус также дает регенерацию маны I, пока владелец стоит под Y 0."
+	]
+	quest.03F9260A3FA3CB96.title: "Малый фокус огня"
+	quest.03F9260A3FA3CB96.quest_desc: [
+		"Приобрести меньший фокус Огня"
+	]
+	quest.7D1F095AD4ABA1DF.title: "Стихийные доспехи"
+	quest.7D1F095AD4ABA1DF.quest_desc: [
+		"&lЗачем:&r Доспехи четырёх стихий усиливают глифы своей школы, удешевляют их и снижают урон своей стихией. Полный комплект даёт ещё больший бонус."
+	]
+	quest.5D6F9FA45F7FED07.title: "Знак мастерства"
+	quest.5D6F9FA45F7FED07.quest_desc: [
+		"&lЗачем:&r Знак мастерства нужен для лучших стихийных вещей: его собирают из эссенций и дани. Полный стихийный комплект брони превращает часть погашенного урона в пользу для тебя."
+	]
+	quest.29098A9D3DEF7117.title: "Огненный том"
+	quest.29098A9D3DEF7117.quest_desc: [
+		"&lЗачем:&r Том заклинателя огня — готовое мощное огненное заклинание без книги и с меньшей ценой маны."
+	]
+	quest.1F70B8398072528F.title: "Турель с огненным зарядом"
+	quest.1F70B8398072528F.quest_desc: [
+		"&lЗачем:&r Турель, напитанная огнём, усиливает огненные заклинания, которые через неё проходят."
+	]
+	quest.0CD713B012CA7C05.title: "Браслеты"
+	quest.0CD713B012CA7C05.quest_desc: [
+		"У этого волшебного аксессуара есть шанс увеличить урон ваших заклинаний. Его магия нестабильна, но, возможно, настройка его на школу может стабилизировать его способности."
+	]
+	quest.4C88B5097924F8FC.title: "Талисманы стихийных духов"
+	quest.4C88B5097924F8FC.quest_desc: [
+		"&lЗачем:&r Талисманы призывают стихийных духов. Сирену приручают морским огурцом — она скачет из воды у кораллов и оставляет жетоны. Её святилище понемногу даёт улов рыбы."
+	]
+	quest.4DA14F02A0A0674D.title: "Рог чародея"
+	quest.4DA14F02A0A0674D.quest_desc: [
+		"&lЗачем:&r Рог заклинателя накладывает заклинание на тебя и существ вокруг. Чем дольше держишь, тем больше радиус, а на полном заряде он ещё и усиливает урон заклинаний."
+	]
+	quest.4D6E63F0811169A9.title: "Сумка заклинателя"
+	quest.4D6E63F0811169A9.quest_desc: [
+		"Приобрести сумку заклинателя"
+	]
+	quest.706F4F1C750EA3CA.title: "Линзы призмы"
+	quest.706F4F1C750EA3CA.quest_desc: [
+		"&lЗачем:&r Линзы ставят на призму: самонаводящаяся ведёт снаряд к цели, пронзающая пускает его сквозь врагов."
+	]
+	quest.14443E04F2A6B4D0.title: "Огненное реле сбора"
+	quest.14443E04F2A6B4D0.quest_desc: [
+		"&lЗачем:&r Огненное реле сбора собирает источник из огненных процессов вокруг. Стихийные реле — продвинутые реле Ars Elemental."
+	]
+	quest.258CC9B74CCF9708.title: "Стихийные глифы"
+	quest.258CC9B74CCF9708.quest_desc: [
+		"Вы создаете связь между своей жизненной силой и жизненной силой цели. Любой урон, нанесенный вам, будет передан цели, а любое исцеление цели будет передано вам. Вы можете разорвать жизненную связь, прекратив действие эффекта для обеих сторон."
+	]
+	quest.1D06571D72F4825A.title: "Защитные талисманы"
+	quest.1D06571D72F4825A.quest_desc: [
+		"&lЗачем:&r Талисман бессмертия спасает от смерти, талисман от падения отменяет урон от падения, талисман дыхания позволяет дышать под водой. У каждого ограниченный заряд — подзаряжай."
+	]
+	quest.1E356454A2DDCB4D.title: "Ещё талисманы"
+	quest.1E356454A2DDCB4D.quest_desc: [
+		"&lЗачем:&r Талисман огнестойкости гасит урон от огня, ночного зрения — даёт видеть в темноте."
+	]
+	quest.24F607E78EFCAB56.title: "Указатель варпа"
+	quest.24F607E78EFCAB56.quest_desc: [
+		"&lЗачем:&r Указатель варпа хранит несколько точек телепорта сразу, стабилизированный — работает надёжнее и дальше. Подробно — в книге Ars."
+	]
+	quest.62271614A8A5B8C8.title: "Путеводитель"
+	quest.62271614A8A5B8C8.quest_desc: [
+		"&lЗачем:&r Путеводитель показывает направление и расстояние до привязанной точки."
+	]
+	quest.476D450609D18739.title: "Удобная сумка"
+	quest.476D450609D18739.quest_desc: [
+		"&lЗачем:&r Привяжи сумку к сундуку — и складывай в него вещи откуда угодно, просто кликая предметом по сумке. Пока сундук не прогружен, сумка закрыта."
+	]
+	quest.753E0CB331EFBAE3.title: "Банки опыта и эндер-источника"
+	quest.753E0CB331EFBAE3.quest_desc: [
+		"&lЗачем:&r Банка опыта уничтожает выбранный мусор при подборе и даёт за него немного опыта. Включается и выключается кликом с Shift."
+	]
+	quest.6C977C2FD51BD227.title: "Спавнер на источнике"
+	quest.6C977C2FD51BD227.quest_desc: [
+		"&lЗачем:&r Спавнер на источнике призывает мобов из банок с мобами рядом и тратит за каждого источник из банок. Выключается редстоуном."
+	]
+	quest.405000651C767FEE.title: "Нестабильный реликварий"
+	quest.405000651C767FEE.quest_desc: [
+		"&lЗачем:&r Реликварий хранит ссылки на существ и места — к ним потом можно вернуться глифом «Возврат». Запоминают глифом «Метка», держа реликварий во второй руке."
+	]
+	quest.3746C02161AE6FB0.title: "Улучшенный жезл господства"
+	quest.3746C02161AE6FB0.quest_desc: [
+		"&lЗачем:&r Улучшенный жезл господства связывает сразу несколько блоков и задаёт порядок связей — быстрее настраивать магические фабрики."
+	]
+	quest.140369FB899A7FE5.title: "Ритуалы якоря и поиска построек"
+	quest.140369FB899A7FE5.quest_desc: [
+		"&lЗачем:&r Ритуал вечности держит чанки загруженными, пока в него идёт поток источника. Ритуал поиска показывает путь к постройке. Не загружай чанки без нужды — это нагрузка на сервер."
+	]
+	quest.4597D4398D1C2E76.title: "Кристалл памяти и глиф возврата"
+	quest.4597D4398D1C2E76.quest_desc: [
+		"&lЗачем:&r Кристалл памяти сохраняет настройки блока или существа и переносит их на другие. Глиф «Возврат» переносит к точке, сохранённой в реликварии."
 	]
 	chapter.543CD5142769B82D.title: "Iron's Spells"
 	chapter.543CD5142769B82D.chapter_subtitle: [
@@ -5412,7 +5679,7 @@
 	]
 	quest.69EC7A617666F350.title: "Настойки"
 	quest.69EC7A617666F350.quest_desc: [
-		"Dropped from Ominous Bosses"
+		"&lЗачем:&r Настойки выпадают со зловещих боссов: «забвения» сбрасывает выученное, «защиты от Незера» спасает от зомбификации."
 	]
 	quest.7FF93BEFC552763F.title: "Жгучий эль"
 	quest.7FF93BEFC552763F.quest_desc: [
@@ -5764,9 +6031,6 @@
 	quest.6BE1348766348F20.title: "Огонь духов"
 	quest.6BE1348766348F20.quest_desc: [
 		"&lЗачем:&r Огонь духов (подожги видение демона на земле) превращает обычные вещи в оккультные: алмаз — в камень, настроенный на духов, золото — в..."
-		"Основное применение [](item://occultism:spirit_fire) — превращение [](item://minecraft:diamond) в [](item://occultism:spirit_attuned_gem)"
-		"с целью получения базовых ингредиентов, таких как [](item://occultism:otherstone) и [Потусторонние саженцы](item://occultism:otherworld_sapling_natural),"
-		"а также очищения осквернённых мелков."
 	]
 	quest.157AAA8C21BFE0F9.title: "Третий глаз"
 	quest.157AAA8C21BFE0F9.quest_desc: [
@@ -5778,16 +6042,10 @@
 	quest.13DE2F84620EE0AF.quest_desc: [
 		"Эти миски используются для размещения предметов, в которых будет что-то жертвоваться при осуществлении ритуала. Вам понадобится всего лишь несколько из них."
 		"Примечание: Их точное расположение в ритуале не имеет значения. Держите их в пределах 8 блоков по горизонтали от центра пентакля!"
-		"Once everything has been set up and you are ready to start, this special ritual bowl is used to activate the ritual by [#](ad03fc)right-clicking[#]() it with the activation item,"
-		"usually a [Book of Binding](entry://getting_started/books_of_binding)."
 	]
-	quest.36A810031247CDD3.title: "Large Candle"
+	quest.36A810031247CDD3.title: "Большая свеча"
 	quest.36A810031247CDD3.quest_desc: [
-		"Candles provide stability to rituals and are an important part of almost all pentacles."
-		"&lLarge Candles also act like bookshelves for enchantment purposes.&r"
-		"\\"
-		"\\"
-		"Candles from Minecraft and other Mods may be used in place of Occultism candles."
+		"&lЗачем:&r Свечи придают ритуалам устойчивость и входят почти во все пентакли. Большие свечи ещё и работают как книжные полки для зачарования. Подходят и свечи из других модов."
 	]
 	quest.5711E9243534BDAE.title: "Щётка для мела"
 	quest.5711E9243534BDAE.quest_desc: [
@@ -5821,74 +6079,51 @@
 	]
 	quest.16CEB8D707FC6B0F.title: "Пустая волшебная лампа"
 	quest.16CEB8D707FC6B0F.quest_desc: [
-		"Magic Lamps can be used to keep spirits safe from [#](ad03fc)Essence Decay[#]() (if the spirit has decay), while still having access to some of their powers. Right-Click on one of your workers to store and transport it as desired."
+		"&lЗачем:&r Волшебная лампа хранит духа и защищает его от распада эссенции, сохраняя часть его силы."
 	]
 	quest.22CAE8CB27182222.title: "Фолиот-рудокоп"
 	quest.22CAE8CB27182222.quest_desc: [
 		"&lЗачем:&r Дух-шахтёр копает в своём измерении и приносит руду — без единого удара киркой."
-		"By summoning a spirit into a Magic Lamp and placing it in a [Dimensional Mineshaft (see next step)](entry://getting_started/mineshaft) it can be made to mine for you in a [#](ad03fc)Mining Dimension[#]()."
-		"See [Foliot Miner](entry://crafting_rituals/craft_foliot_miner) and the subsequent entries for information on how to craft spirit miners."
 	]
 	quest.47BFFD5BDFFC48EA.title: "Пространственная шахта"
 	quest.47BFFD5BDFFC48EA.quest_desc: [
-		"Обратитесь к категории [Пространственная шахта](entry://crafting_rituals/craft_dimensional_mineshaft) и [Ритуалы привязки](category://crafting_rituals)."
+		"&lЗачем:&r Пространственная шахта — дом для духа-рудокопа: поставь, посади духа — он копает в своём измерении и складывает добычу."
 	]
 	quest.785111D423C73BF4.title: "Рудный Джинн-рудокоп"
 	quest.785111D423C73BF4.quest_desc: [
-		"The [#](AA00AA)Djinni[#]() miner harvests ores specifically. By discarding other blocks it is able to mine faster and"
-		" more efficiently. The greater power of the djinni it damages the magic lamp relatively quickly."
+		"&lЗачем:&r Джинн-рудокоп добывает только руды: отбрасывает лишнее и работает быстрее и экономнее фолиота."
 	]
 	quest.1F304D85DB83850F.title: "Африт-рудокоп для глубинносланцевой руды"
 	quest.1F304D85DB83850F.quest_desc: [
-		"The [#](AA00AA)Afrit[#]() miner harvests ores, like djinni miners, and additionally"
-		" mines some deepslate ores. This miner is faster and more efficient"
-		" than the djinnis, thus damaging the magic lamp even more slowly."
+		"&lЗачем:&r Африт копает руды как джинн и вдобавок часть глубинносланцевых. Быстрее и экономнее джинна."
 	]
 	quest.60BFA4BAD2244519.title: "Мастер Марид-рудокоп"
 	quest.60BFA4BAD2244519.quest_desc: [
-		"The [#](AA00AA)Marid[#]() miner is the most powerful miner spirit, it has the fasted mining speed and best magic lamp"
-		" preservation. Unlike other miner spirits they also can mine the rarest ores, such as [](item://minecraft:ancient_debris) and [](item://occultism:iesnium_ore)."
+		"&lЗачем:&r Марид — сильнейший рудокоп: самая быстрая добыча и лучшая сохранность лампы."
 	]
 	quest.62898C38547CB748.title: "Дух-дробильщик"
 	quest.62898C38547CB748.quest_desc: [
 		"&lЗачем:&r Дробит руду в пыль — две пыли с руды вместо одного слитка. Удвоение без машин."
-		"Crusher spirits are summoned to crush ores into dusts, effectively multiplying the metal output."
-		"   They will pick up appropriate ores and drop the resulting dusts into the world."
-		"   A spark particle effect and a crushing sound indicate the crusher is at work."
 	]
 	quest.33F1EAB5F17B4004.title: "Дух-плавильщик"
 	quest.33F1EAB5F17B4004.quest_desc: [
-		"Smelter spirits are summoned to do furnace, blast furnace, smoker and campfire process,"
-		"without using fuel. They will pick up appropriate items and drop the resulting into the world."
-		"A fire particle effect and a flame sound indicate the smelter is at work."
+		"&lЗачем:&r Дух-плавильщик выполняет работу печи, плавильни, коптильни и костра без топлива: подбирает подходящие предметы и бросает результат рядом."
 	]
 	quest.05C7EA617D95F814.title: "Дух-кристаллизатор"
 	quest.05C7EA617D95F814.quest_desc: [
-		"Crystallizer spirits are summoned to regenerate gem from their dusts and directly multiply"
-		"the output of breaking gem ores. They will pick up appropriate items and drop the resulting into"
-		"the world. A magical particle effect and a amethyst sound indicate the crystallizer is at work."
+		"&lЗачем:&r Дух-кристаллизатор восстанавливает самоцветы из их пыли и умножает выход с самоцветных руд."
 	]
 	quest.1D0B04D9A9947955.title: "Фолиот-фермер"
 	quest.1D0B04D9A9947955.quest_desc: [
-		"The farmer will harvest and re-plant crops in it's working area."
-		" If a deposit location is set it will collect the dropped items into the specified chest."
+		"&lЗачем:&r Фермер собирает и пересаживает урожай в своей зоне. Укажи сундук — и он будет складывать урожай туда."
 	]
 	quest.2E048D09F8C3DC88.title: "Духи-торговцы"
 	quest.2E048D09F8C3DC88.quest_desc: [
-		"Trade spirits pick up appropriate items and throw trade results on the ground."
-		"The spirit is only actively exchanging items if purple particles spawn around it."
-		"\\"
-		"\\"
-		"&lIf you do not see any particles&r, ensure that you gave the proper item and amount."
+		"&lЗачем:&r Духи-торговцы берут подходящие предметы и бросают на землю результат обмена — например, превращают один камень в другой. Работает, пока вокруг духа фиолетовые частицы."
 	]
 	quest.768BC79277A283F6.title: "Магия погоды и времени"
 	quest.768BC79277A283F6.quest_desc: [
-		"Weather magic is especially useful for farmers and others depending"
-		"on specific weather. Summons spirits to modify the weather."
-		"Different types of weather modification require different spirits."
-		"\\"
-		"\\"
-		"Weather spirits will only modify the weather once and then vanish."
+		"&lЗачем:&r Магия погоды вызывает духов, которые меняют погоду, — полезно фермерам. Магия времени переводит день и ночь."
 	]
 	quest.2FB0C781AACEF443.title: "Дикая охота"
 	quest.2FB0C781AACEF443.quest_desc: [
@@ -5909,12 +6144,11 @@
 	]
 	quest.5BA258F7F0DD5F3E.title: "Одержимый Хранитель"
 	quest.5BA258F7F0DD5F3E.quest_desc: [
-		"In this ritual a [#](ad03fc)Warden[#]() is spawned using the life energy of a [#](ad03fc)Axolotl[#]() and immediately possessed by the summoned [#](ad03fc)Afrit[#](). The [#](ad03fc)Possessed Warden[#]() will always drop at least six [](item://minecraft:echo_shard) when killed and as a chance to drop [](item://minecraft:disc_fragment_5), [](item://minecraft:music_disc_otherside), [](item://minecraft:silence_armor_trim_smithing_template), [](item://minecraft:ward_armor_trim_smithing_template). If you try to escape, this possessed Warden will go to the floor like a normal warden."
+		"&lЗачем:&r Ритуал создаёт Хранителя из жизненной силы аксолотля, и африт сразу вселяется в него. Хранитель погибает и оставляет добычу — без опасного боя."
 	]
 	quest.16B9D3C04837AABD.title: "Призыв орды"
 	quest.16B9D3C04837AABD.quest_desc: [
 		"&lЗачем:&r Ритуал вызывает волну врагов — тренировка для команды и быстрый лут. Проводи вдали от чужих домов."
-		"Summon a Wild Evoker and his henchmen to get [](item://minecraft:totem_of_undying), [](item://minecraft:vex_armor_trim_smithing_template) and [](item://minecraft:sentry_armor_trim_smithing_template)."
 	]
 	quest.5734A13F8CF72FE5.title: "Перстень для фамильяра"
 	quest.5734A13F8CF72FE5.quest_desc: [
@@ -5947,8 +6181,7 @@
 	]
 	quest.64F4FE179136705A.title: "Айзниевый голем"
 	quest.64F4FE179136705A.quest_desc: [
-		"An Iesnium Golem is a direct upgrade from a regular Iron Golem, this new version is much stronger and invulnerable. \\"
-		"Only a player can dismiss them, by hitting while crouched, returning as a [](item://occultism:fragile_soul_gem)."
+		"&lЗачем:&r Айзниевый голем — улучшенный железный голем: намного сильнее и неуязвим. Отпустить его может только игрок, ударив сидя."
 	]
 	quest.21E8DA2E786B5EBF.title: "Воскрешение фамильяра"
 	quest.21E8DA2E786B5EBF.quest_desc: [
@@ -5960,11 +6193,6 @@
 	quest.05BF4C9E9D36E77F.title: "Камень души"
 	quest.05BF4C9E9D36E77F.quest_desc: [
 		"&lЗачем:&r Камень души ловит моба и переносит его куда угодно — перевезти жителя, лошадь или питомца."
-		"To capture an entity, [#](AA00AA)right-click[#]() it with the soul gem. \\"
-		"[#](AA00AA)right-click[#]() again to release the entity."
-		"\\"
-		"\\"
-		"Bosses cannot be captured."
 	]
 	quest.78E9154728593312.title: "Наполненная кирка"
 	quest.78E9154728593312.quest_desc: [
@@ -5977,100 +6205,61 @@
 	quest.266E74BDF17EB46A.quest_desc: [
 		"Как и [Наполненная кирка](entry://getting_started/infused_pickaxe), эта кирка может использоваться для добычи Потусторонних материалов 2-го уровня, таких как [](item://occultism:iesnium_ore). Поскольку она сделана из металла, а не хрупкого [](item://occultism:spirit_attuned_gem), она очень прочная и послужит долгое время."
 	]
-	quest.7B3F08C22542815B.title: "Iesnium Anvil"
+	quest.7B3F08C22542815B.title: "Айзниевая наковальня"
 	quest.7B3F08C22542815B.quest_desc: [
-		"The [](item://occultism:iesnium_anvil) is a [#](AA00AA)Marid[#]() infusion."
-		"This anvil has some improvements:"
-		"1. Is unbreakable;"
-		"2. Can exceed the maximum level of enchantments by 1;"
-		"3. Marid will pay half of the showed level cost (round up);"
-		"4. The cost increase of working with the same item is reduced;"
-		"5. The maximum cost limit is increased;"
+		"&lЗачем:&r Наковальня с маридом: не ломается и позволяет превысить максимальный уровень зачарований при объединении."
 	]
 	quest.7E30173AF0DAA1A7.title: "Стабилизатор пространственного хранилища 1-го уровня"
 	quest.7E30173AF0DAA1A7.quest_desc: [
 		"&lЗачем:&r Стабилизаторы вокруг актуатора увеличивают ёмкость пространственного хранилища — от тысяч до миллионов предметов."
-		"The stabilizer system works by tier, starting from 0 (which does not add space) up to 5."
-		"\\"
-		"\\"
-		"To get started, see the recipes and instructions on the following pages."
 	]
 	quest.7005DBFFDE4D8507.title: "Стабилизатор пространственного хранилища 4-го уровня"
 	quest.7005DBFFDE4D8507.quest_desc: [
-		"This highly advanced storage stabilizer is inhabited by a [#](AA00AA)Marid[#]() that supports the dimensional matrix"
-		" in keeping the storage dimension stable, thus allowing to store more items."
-		"\\"
-		"\\"
-		"By default each Tier 4 Stabilizer adds &l512&r item types and 4098000 items storage capacity."
+		"&lЗачем:&r Стабилизатор 4-го уровня с маридом удерживает измерение хранилища и сильно увеличивает его ёмкость."
 	]
 	quest.777B0130DE546921.title: "Средство доступа к хранилищу"
 	quest.777B0130DE546921.quest_desc: [
-		"The [](item://occultism:storage_remote) can be linked to a [](item://occultism:storage_controller) by shift-clicking."
-		" The [#](AA00AA)Djinni[#]() bound to the accessor will then be able to"
-		" access items from the actuator even from across dimensions."
+		"&lЗачем:&r Средство доступа привязывается к актуатору хранилища: джинн внутри открывает твой склад из любой точки мира."
 	]
 	quest.281C924603403A40.title: "Стабильная червоточина"
 	quest.281C924603403A40.quest_desc: [
-		"The Storage Actuator behaves much like a big chest or shulker box."
-		" That means, hoppers and pipes can insert and extract items."
+		"&lЗачем:&r Актуатор хранилища работает как большой сундук: воронки и трубы могут класть и забирать предметы. Стабильная червоточина подключает его к машинам на расстоянии."
 	]
 	quest.1B5A0ED0BD2CD9FC.title: "Необычайно большая наплечная сумка"
 	quest.1B5A0ED0BD2CD9FC.quest_desc: [
 		"&lЗачем:&r Сумка-измерение: в ней больше места, чем снаружи."
-		"A [#](AA00AA)Foliot[#]() is bound to the satchel, tasked with &lslightly&r warping reality. This allows to store more"
-		" items in the satchel than its size would indicate, making it a practical travellers companion."
 	]
-	quest.0B2A09B8ED730BCA.title: "Apprentice Ritual Satchel"
+	quest.0B2A09B8ED730BCA.title: "Ритуальная сумка ученика"
 	quest.0B2A09B8ED730BCA.quest_desc: [
 		"&lЗачем:&r Ставит весь ритуальный круг из сумки за пару кликов — не нужно таскать мелки и чаши по одной."
-		"Visit the entry about the [Apprentice Satchel](entry://crafting_rituals/apprentice_ritual_satchel) or the [Artisanal Satchel](entry://crafting_rituals/apprentice_ritual_satchel) in the [Binding Rituals Category](category://crafting_rituals) to learn how to enchant a satchel and use it for rituals."
 	]
-	quest.1BAEF5BAEF1A9803.title: "Entity Wormhole"
+	quest.1BAEF5BAEF1A9803.title: "Червоточина существ"
 	quest.1BAEF5BAEF1A9803.quest_desc: [
-		"To set the destination, you''ll need a compass. Right-click to place it and shift+right-click to remove it."
-		"+ A standard compass takes you to the world spawn;"
-		"+ A compass attached to a lodestone takes you to the top of it. (After placing it in the wormhole, the lodestone can be broken);"
+		"&lЗачем:&r Червоточина переносит существ. Пункт назначения задаёт компас: обычный ведёт к точке спавна мира, привязанный — к своей точке."
 	]
-	quest.77EC4B9921BBA1C4.title: "True Sight Staff"
+	quest.77EC4B9921BBA1C4.title: "Посох истинного зрения"
 	quest.77EC4B9921BBA1C4.quest_desc: [
-		"The [](item://occultism:true_sight_staff) employs an [#](AA00AA)Marid[#]() to assist the summoner in tasks of finding and interacting with the otherworld."
-		" Unlike [#](AA00AA)Foliot[#]() in the otherworld goggles, which can only provide vision, with this staff in the off-hand or curio slot, the occultist can collect otherworld materials."
-		" The divining rods search abilities receive an upgrade, now is possible locate any block."
+		"&lЗачем:&r Марид в посохе помогает видеть потусторонний мир и взаимодействовать с ним без очков."
 	]
-	quest.1EE09B08F3B6567C.title: "Vitality Compass"
+	quest.1EE09B08F3B6567C.title: "Компас жизненной силы"
 	quest.1EE09B08F3B6567C.quest_desc: [
-		"The [](item://occultism:vitality_compass) is a mystical tool infused with a [#](AA00AA)Foliot[#]()"
-		" that allows it to be attuned to the essence of living beings."
-		" By right-clicking on a creature, you bind its life force to the compass,"
-		" allowing the needle to always point toward its location no matter the distance (while loaded)."
+		"&lЗачем:&r Фолиот в компасе настраивается на сущность живого создания и указывает на таких же поблизости."
 	]
-	quest.7526D01774227A65.title: "Knowledge Tablet"
+	quest.7526D01774227A65.title: "Табличка знаний"
 	quest.7526D01774227A65.quest_desc: [
-		"This item use is very simple: \\"
-		"[#](55FF55)Right-Click[#]() will storage all of your experience points. \\"
-		"[#](55FF55)Shift-Right-Click[#]() receive all stored points. \\"
-		"\\"
-		"NOTE: Sometimes, with big values, you can lost a small quantity of point due numerical approximations."
+		"&lЗачем:&r ПКМ — сохраняет весь твой опыт в табличку, Shift+ПКМ — возвращает. Опыт не пропадёт при смерти."
 	]
 	quest.529F0FBF184DE56C.title: "Несвязанные духи"
 	quest.529F0FBF184DE56C.quest_desc: [
 		"Духи обычно вызываются [#](ad03fc)связанными[#](), что подразумевает наличие условий, удерживающих их под контролем вызывателя. Побочным эффектом связывающих заклинаний является то, что часть души остаётся в [#](ad03fc)Ином Месте[#](), лишая его большей части силы. Однако в это же время это также защищает его сущность от чужеродного воздействия в этом мире."
 	]
-	quest.2DD49A38DAC38A8E.title: "Marid Essence"
+	quest.2DD49A38DAC38A8E.title: "Эссенция марида"
 	quest.2DD49A38DAC38A8E.quest_desc: [
-		"[](item://occultism:marid_essence)  is required to safely control the most powerful spirits, commonly used"
-		" in the form of blue chalk. To obtain the essence, an [#](AA00AA)Marid[#]() needs to be summoned"
-		" unbound into this plane, and killed. Be warned that this is no simple endeavour,"
-		" and unbound spirit presents great danger to all nearby."
+		"&lЗачем:&r Эссенция марида нужна, чтобы безопасно управлять сильнейшими духами, — из неё делают синий мел."
 	]
-	quest.32764B23238080CF.title: "Dimensional Battlefield"
+	quest.32764B23238080CF.title: "Пространственное поле битвы"
 	quest.32764B23238080CF.quest_desc: [
-		"The dimensional battlefield will discard any items it cannot store, so it is important"
-		"  to regularly empty the output, either manually, with hoppers or using a transporter spirit.\\"
-		"  Interactions per side:"
-		"  + Top -> input slots (gem, weapon, fuel);"
-		"  + Bottom -> loot slots;"
-		"  + Other -> all slots;"
+		"&lЗачем:&r Поле битвы приносит добычу с мобов из другого измерения. Лишнее, что не помещается, выбрасывает — опустошай его воронками."
 	]
 	quest.4CE75A9F1AC7342B.title: "Повелитель духов"
 	quest.4CE75A9F1AC7342B.quest_desc: [
@@ -7210,7 +7399,7 @@
 	quest.396F66F4C84108A1.quest_desc: [
 		"&lЗачем:&r Щит из чистого воздуха полностью блокирует один удар, но хрупкий: после этого ему нужна минута на восстановление."
 	]
-	quest.0866681386CFDC88.title: "Combiner"
+	quest.0866681386CFDC88.title: "Объединитель"
 	quest.0866681386CFDC88.quest_desc: [
 		"&lЗачем:&r Объединитель — станок Глубокого Эфира, соединяет предметы по особым рецептам (смотри JEI)."
 	]
@@ -7281,42 +7470,52 @@
 	quest.26BEBF6342A10D42.title: "Книга преданий"
 	quest.26BEBF6342A10D42.quest_desc: [
 		"&lЗачем:&r Книга знаний: положи в неё любой предмет Эфира — и узнаешь, что это и зачем."
+		"Объёмная книга, где собраны многие предания. Здесь подробно описывается всё."
 	]
 	quest.1F092A54F8037433.title: "Небесный корень"
 	quest.1F092A54F8037433.quest_desc: [
 		"&lЗачем:&r Местное дерево. Инструменты из него удваивают добычу с блоков Эфира. Ведро из небесного корня — для молока и зелий."
+		"Они появляются вместе с Небесными деревьями. Их можно получить дважды с помощью Небесных топоров. Если положить их на верстак, они дадут 4 штук небесных досок."
 	]
 	quest.60F580AC00BE4892.title: "Святой камень"
 	quest.60F580AC00BE4892.quest_desc: [
 		"&lЗачем:&r Инструменты из святого камня иногда роняют амброзиевые осколки."
+		"Один из каменных инструментов Эфира. Он может добывать Занитную руду и во время добычи случайным образом выбрасывать Осколки Амброзиума."
 	]
 	quest.654D5A55BB42444A.title: "Осколок Амброзиума"
 	quest.654D5A55BB42444A.quest_desc: [
 		"&lЗачем:&r Топливо Эфира: в обычной печи тут ничего не горит. Ещё лечит, если съесть."
+		"Эфирный эквивалент Угля. Они обладают целебным свойством восстанавливать небольшое количество здоровья при употреблении в пищу."
 	]
 	quest.53D2345AC89B0835.title: "Алтарь"
 	quest.53D2345AC89B0835.quest_desc: [
 		"&lЗачем:&r Алтарь зачаровывает и чинит предметы Эфира на амброзии."
+		"Используется для зачарования предметов и ремонта брони. Питается от Осколков Амброзиума."
 	]
 	quest.1B815D468F9CCF79.title: "Морозильник"
 	quest.1B815D468F9CCF79.quest_desc: [
 		"&lЗачем:&r Морозильник замораживает предметы Эфира: лёд из воды, ледяные кольца, подвески."
+		"С его помощью вы можете заморозить различные предметы, например, Облака или Ведра с водой. Его источником силы является Ледокамень."
 	]
 	quest.18AA7F9B9C17BCE1.title: "Инкубатор"
 	quest.18AA7F9B9C17BCE1.quest_desc: [
 		"&lЗачем:&r Инкубатор на амброзии высиживает яйца моа — свой ездовой питомец."
+		"Используется для инкубации Моа. В качестве топлива вы используете Факелы Амброзиума. Этот процесс может занять довольно много времени, но ожидание того стоит, как только вылупится выбранный вами Моа!"
 	]
 	quest.5DBD02C687182C9D.title: "Яйцо моа"
 	quest.5DBD02C687182C9D.quest_desc: [
 		"&lЗачем:&r Вылупи моа в инкубаторе — ездовая птица с двойным прыжком и плавным падением. Чёрные моа прыгают трижды."
+		"Яйцо, снесённое Синим Моа. При его вылуплении, Синий Моа сможет совершить 3 прыжка в воздухе. Самый распространенный Моа."
 	]
 	quest.13BDFCE86BC9783F.title: "Занитная кирка"
 	quest.13BDFCE86BC9783F.quest_desc: [
 		"&lЗачем:&r Цанит становится тем сильнее, чем больше износ — интересный выбор вместо железа."
+		"Один из инструментов Эфира среднего уровня, он добывает все что может железо, за исключением того, что по мере уменьшения его прочности, он становится быстрее. Однако будьте осторожны: после ремонта он будет работать так же медленно, как и раньше!"
 	]
 	quest.44624303E124B5EA.title: "Цанитовая броня"
 	quest.44624303E124B5EA.quest_desc: [
 		"&lЗачем:&r Чем больше износ, тем лучше защита цанита — броня «разгоняется» в бою."
+		"Получите Занитный Камень"
 	]
 	quest.6194BCE15C5C9CDF.title: "Занитные перчатки"
 	quest.6194BCE15C5C9CDF.quest_desc: [
@@ -7333,18 +7532,22 @@
 	quest.61C6A0E5798C1DB8.title: "Холодный Парашют"
 	quest.61C6A0E5798C1DB8.quest_desc: [
 		"&lЗачем:&r Парашют из холодного облака. Открой, если падаешь с острова, — спасёт жизнь."
+		"Быстро сделанный парашют. Он пушистый на ощупь и сделан из Холодных облаков. У него одно применение."
 	]
 	quest.1539B08B133CF2D3.title: "Золотой Парашют"
 	quest.1539B08B133CF2D3.quest_desc: [
 		"&lЗачем:&r Золотой парашют держится дольше и не тает, как холодный."
+		"Лучший парашют в Эфире. Он имеет 20 применений и сделан из Золотых облаков."
 	]
 	quest.6E4AF6B8A4CB34FC.title: "Духовые трубки"
 	quest.6E4AF6B8A4CB34FC.quest_desc: [
 		"&lЗачем:&r Золотые дротики бьют издали и не требуют стрел. Хороши против зефиров."
+		"Духовая трубка, стреляющая Золотыми дротиками; зачарование его на Алтаре увеличивает его силу атаки!"
 	]
 	quest.3CABA48D07FA839C.title: "Ядовитая Духовая Трубка"
 	quest.3CABA48D07FA839C.quest_desc: [
 		"&lЗачем:&r Ядовитые дротики парализуют цель — для охоты и защиты базы."
+		"Духовая трубка, стреляющая Ядовитыми дротиками. Выстрел во что-то, заразит того смертельным ядом!"
 	]
 	quest.108F62A4DB1634B5.title: "Сгусток Слизуна"
 	quest.108F62A4DB1634B5.quest_desc: [
@@ -7353,10 +7556,12 @@
 	quest.4C37B1D77C5A365C.title: "Синяя Ягода"
 	quest.4C37B1D77C5A365C.quest_desc: [
 		"&lЗачем:&r Белое яблоко снимает отравление от воды Эфира и яда эхоров."
+		"Собираемые с ягодных кустов, самый распространённый источник пищи в Эфире. Слабо насыщает. Можно зачаровать на Алтаре для лучшего насыщения."
 	]
 	quest.0DC27AF0BD968B69.title: "Зачарованная Ягода"
 	quest.0DC27AF0BD968B69.quest_desc: [
 		"&lЗачем:&r Зачарованная ягода — лучшее топливо и лучшая еда Эфира. Делается на алтаре."
+		"Отличный источник пищи. Довольно приятный на вкус, восстанавливает огромное количество насыщения."
 	]
 	quest.42179C47C3563FA4.title: "Синяя Мармеладная конфета"
 	quest.42179C47C3563FA4.quest_desc: [
@@ -7365,14 +7570,17 @@
 	quest.665F084C83DDEBDD.title: "Быстропесок"
 	quest.665F084C83DDEBDD.quest_desc: [
 		"&lЗачем:&r Зыбкая почва скользит и держит инерцию; стекло из неё — прозрачные стены без швов."
+		"Шелковистый песок с чрезвычайно скользкими свойствами. Его можно увидеть плавающим на краю эфирных островов. Будьте осторожны, иначе вы упадете."
 	]
 	quest.33A6E21A49B8E8B1.title: "Облака"
 	quest.33A6E21A49B8E8B1.quest_desc: [
 		"&lЗачем:&r Холодное облако смягчает падение, синее подбрасывает вверх — батут и спасение одновременно."
+		"Холодное облако, обнаруженное в небесах Эфира. Его можно использовать для изготовления Холодных парашютов и смягчения падений, которые в противном случае были бы очень опасны."
 	]
 	quest.30BC81A05184506E.title: "Золотой дуб"
 	quest.30BC81A05184506E.quest_desc: [
 		"&lЗачем:&r Золотые дубы дают янтарь — материал для золотых дротиков и шапок."
+		"Эти круглые золотые сферы можно получить, добывая бревна золотого дуба с помощью Занитного или Гравититового топора. Их основная цель — изготовление Золотых дротиков и Духовых трубок."
 	]
 	quest.3D36C44D5BEEED71.title: "Небесные бури"
 	quest.3D36C44D5BEEED71.quest_desc: [
@@ -7385,14 +7593,17 @@
 	quest.08086AD3C37DBF74.title: "Бронзовый Ключ"
 	quest.08086AD3C37DBF74.quest_desc: [
 		"&lЗачем:&r Ключ из бронзового подземелья открывает его сокровищницу."
+		"Тусклый ключ, выпадающий из Слайдера. Используйте его, чтобы получить заслуженное сокровище!"
 	]
 	quest.6214182AE1EB9618.title: "Гравитит"
 	quest.6214182AE1EB9618.quest_desc: [
 		"&lЗачем:&r Руда, которая взлетает, если её не поймать. Зачаруй на алтаре — материал для лучшей брони Эфира."
+		"После помещения гравититовой руды в зачарователь и её зачарования вы получите зачарованный гравитит. Из него можно сделать инструменты и броню. При подаче сигнала редстоуна зачарованные гравититовые блоки поднимаются в воздух, как и гравититовая руда."
 	]
 	quest.228AA03EF355CEA5.title: "Гравититовая броня"
 	quest.228AA03EF355CEA5.quest_desc: [
 		"&lЗачем:&r Полный комплект даёт высокий прыжок и защиту от падения."
+		"Часть лучшего набора брони Эфира. Надев полный комплект, вы получите сверхвысокий прыжок!"
 	]
 	quest.35C60B398E091F84.title: "Гравититовая Кирка"
 	quest.35C60B398E091F84.quest_desc: [
@@ -7405,14 +7616,17 @@
 	quest.5FB905FDDDDB793E.title: "Доспехи валькирии"
 	quest.5FB905FDDDDB793E.quest_desc: [
 		"&lЗачем:&r Полный комплект с плащом валькирии дарит полёт."
+		"Доспехи, уникальные для Серебряного Подземелья. При полном ношении вам предоставляется временный полет. Очень полезно для попадания на высокие места."
 	]
 	quest.4A7E9FD340472574.title: "Копье Валькирии"
 	quest.4A7E9FD340472574.quest_desc: [
 		"&lЗачем:&r Копьё валькирии бьёт далеко и сильнее при ударе сверху вниз."
+		"Инструмент, уникальный для Бронзового Подземелья. Это дальнобойное оружие очень хорошо для победы над Зефирами и Королевами Валькирий."
 	]
 	quest.4A5EB7F6A0A09202.title: "Доспехи Нептуна"
 	quest.4A5EB7F6A0A09202.quest_desc: [
 		"&lЗачем:&r Быстрое плавание и дыхание под водой."
+		"Эта броня, найденная в бронзовых подземельях, позволяет быстрее плавать в воде. В сочетании с железным пузырем этот комплект брони очень полезен для победы над подводными храмами."
 	]
 	quest.177262B1FF8AD54B.title: "Золотой остров"
 	quest.177262B1FF8AD54B.quest_desc: [
@@ -7421,14 +7635,17 @@
 	quest.163831DD11F3A1A3.title: "Доспехи феникса"
 	quest.163831DD11F3A1A3.quest_desc: [
 		"&lЗачем:&r Иммунитет к огню и лаве. В воде остывают в обсидиановые."
+		"Получить фрагмент брони Феникса из Золотого подземелья"
 	]
 	quest.7450698EFDB0FBE4.title: "Лук Феникса"
 	quest.7450698EFDB0FBE4.quest_desc: [
 		"&lЗачем:&r Лук феникса поджигает стрелы и тратит их меньше, пока он нагрет."
+		"Этот лук, найденный в подземельях, очень нагревается и может стрелять огненными стрелами! Он теплый на ощупь."
 	]
 	quest.6031406EF6D183DA.title: "Обсидиановый Нагрудник"
 	quest.6031406EF6D183DA.quest_desc: [
 		"&lЗачем:&r Феникс, остывший в воде, становится обсидиановым — одна из самых прочных броней."
+		"Сверхмощная броня, более мощная, чем алмаз. Эту броню можно получить, только стоя в воде в доспехах Феникса и превращая ее в обсидиан."
 	]
 	quest.745340AAF59D8E96.title: "Легендарные мечи"
 	quest.745340AAF59D8E96.quest_desc: [
@@ -7441,10 +7658,12 @@
 	quest.7DFA457CE94E0AA2.title: "Молот Кингбдогза"
 	quest.7DFA457CE94E0AA2.quest_desc: [
 		"&lЗачем:&r Молот отбрасывает врагов далеко — выбивай мобов с острова, а не себя."
+		"Могучий молот, стреляющий тяжелыми снарядами по мобам. Говорят, что Кингбдогз действительно держал этот молот."
 	]
 	quest.5FC480D7CEC234B7.title: "Посохи Эфира"
 	quest.5FC480D7CEC234B7.quest_desc: [
 		"&lЗачем:&r Посох облаков призывает защитные облака, посох природы — управляет моа и зверями."
+		"Посох с легким и пушистым верхом. Он призывает маленьких облачных миньонов, которые на короткое время сражаются рядом с хозяином, стреляя большими Облачными кристаллами."
 	]
 	quest.10F015CF2C87093B.title: "Плащи"
 	quest.10F015CF2C87093B.quest_desc: [
@@ -7453,18 +7672,22 @@
 	quest.6DAC0BEF66AC01E2.title: "Щит Отражения"
 	quest.6DAC0BEF66AC01E2.quest_desc: [
 		"&lЗачем:&r Щит отражает снаряды, пока ты не двигаешься."
+		"Щит, защищающий пользователя от большинства снарядов. Он отразит снаряд обратно в отправителя и нанесет ему урон. Каждый раз, когда снаряд отражается, щит повреждается."
 	]
 	quest.003213FD869C4D94.title: "Камень Регенерации"
 	quest.003213FD869C4D94.quest_desc: [
 		"&lЗачем:&r Камень регенерации в слоте аксессуаров медленно лечит."
+		"Сокровище, найденное в Серебряных Подземельях. Этот камень заставляет владельца чувствовать себя здоровым и залечивает раны. Эффекты могут суммироваться с другими камнями регенерации."
 	]
 	quest.2E3DBCFA30BA66B0.title: "Осколок Жизни"
 	quest.2E3DBCFA30BA66B0.quest_desc: [
 		"&lЗачем:&r Осколок жизни навсегда добавляет сердце здоровья."
+		"Очень редкий предмет, который можно найти в Золотых Подземельях. Используя это, вы получите дополнительное постоянное сердце! Ощущения от его использования очень странные и их трудно описать."
 	]
 	quest.767EE34F585E0751.title: "Медаль Победы"
 	quest.767EE34F585E0751.quest_desc: [
 		"&lЗачем:&r Медали за побитых валькирий. Десять медалей — право сразиться с королевой."
+		"Доказательство победы над меньшей Валькирией. Используйте их, чтобы доказать Королеве Валькирий, что вы достойны сразиться с ней!"
 	]
 	quest.3864AD324F7C2EAD.title: "Хранитель небес"
 	quest.3864AD324F7C2EAD.quest_desc: [
@@ -7761,7 +7984,7 @@
 	quest.56E88A8B20052C07.quest_desc: [
 		"Ты готов к чему угодно. Помни про спокойные зоны: дома — мир, а приключения — там, где ты сам их ищешь."
 	]
-	quest.0DFD11427ADB3043.title: "Арсенал Simply Swords"
+	quest.0DFD11427ADB3043.title: "Арсенал мечей"
 	quest.0DFD11427ADB3043.quest_desc: [
 		"&lЗачем:&r В Simply Swords 15 типов оружия. У каждого своя скорость, дальность и урон: рапира бьёт часто, но слабо, молот — редко, но тяжело, копьё и алебарда достают дальше. Сделай железную версию каждого типа и найди свой стиль. Материалы (железо → алмаз → незерит → руны) повышают урон, а тип оружия задаёт манеру боя."
 	]
@@ -7813,7 +8036,7 @@
 	quest.6E58308F422DE53A.quest_desc: [
 		"&lЗачем:&r Подбрасывает тебя вперёд по взгляду — рывок без верёвки."
 	]
-	quest.2BC631DB5C6B8055.title: "Magnetic Forcefield"
+	quest.2BC631DB5C6B8055.title: "Отталкиватель"
 	quest.2BC631DB5C6B8055.quest_desc: [
 		"&lЗачем:&r Отталкивает мобов вокруг — передышка в драке."
 	]

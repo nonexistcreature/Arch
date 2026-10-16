@@ -143,6 +143,7 @@ quests:
     items: [deep_aether:wind_shield]
     why: {en: 'Blocks one hit completely, then needs a minute to recover.', ru: 'Щит из чистого воздуха полностью блокирует один удар, но хрупкий: после этого ему нужна минута на восстановление.'}
   - id: gda_combiner
+    title: {en: Combiner, ru: Объединитель}
     deps: [wo_skyjade]
     roles: [engineer]
     items: [deep_aether:combiner]

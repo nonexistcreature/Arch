@@ -25,10 +25,12 @@ quests:
     doc: book.occultism.dictionary_of_spirits.getting_started.ritual_prep_bowl.sacrificial_bowl.text
     doc2: book.occultism.dictionary_of_spirits.getting_started.ritual_prep_bowl.golden_sacrificial_bowl.text
   - id: occg_candles
+    title: {en: Large Candle, ru: Большая свеча}
     deps: [occg_bowls]
     roles: [mage]
     items: [occultism:large_candle*4]
     doc: book.occultism.dictionary_of_spirits.getting_started.candle.intro.text
+    why: {en: Candles stabilise rituals and count as bookshelves for enchanting., ru: Свечи придают ритуалам устойчивость и входят почти во все пентакли. Большие свечи ещё и работают как книжные полки для зачарования. Подходят и свечи из других модов.}
   - id: occg_brush
     deps: [occ_chalk]
     roles: [mage]
@@ -66,6 +68,7 @@ quests:
     roles: [mage]
     items: [occultism:magic_lamp_empty]
     doc: book.occultism.dictionary_of_spirits.getting_started.magic_lamps.spotlight.text
+    why: {en: Keeps a spirit safe from essence decay., ru: 'Волшебная лампа хранит духа и защищает его от распада эссенции, сохраняя часть его силы.'}
   - id: occg_miner_foliot
     deps: [occg_lamp]
     roles: [mage, engineer]
@@ -77,21 +80,25 @@ quests:
     roles: [mage, engineer]
     items: [occultism:dimensional_mineshaft]
     doc: book.occultism.dictionary_of_spirits.getting_started.mineshaft.crafting.text
+    why: {en: Home for a miner spirit that digs in its own dimension., ru: 'Пространственная шахта — дом для духа-рудокопа: поставь, посади духа — он копает в своём измерении и складывает добычу.'}
   - id: occg_miner_djinni
     deps: [occg_mineshaft, occ_djinni]
     roles: [mage, engineer]
     items: [occultism:miner_djinni_ores]
     doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_djinni_miner.spotlight.text
+    why: {en: 'Mines only ores, faster than the foliot.', ru: 'Джинн-рудокоп добывает только руды: отбрасывает лишнее и работает быстрее и экономнее фолиота.'}
   - id: occg_miner_afrit
     deps: [occg_miner_djinni, occ_afrit]
     roles: [mage, engineer]
     items: [occultism:miner_afrit_deeps]
     doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_afrit_miner.spotlight.text
+    why: {en: Also mines some deepslate ores; faster than the djinni., ru: Африт копает руды как джинн и вдобавок часть глубинносланцевых. Быстрее и экономнее джинна.}
   - id: occg_miner_marid
     deps: [occg_miner_afrit]
     roles: [mage, engineer]
     items: [occultism:miner_marid_master]
     doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_marid_miner.spotlight.text
+    why: {en: The fastest miner with the best lamp preservation., ru: 'Марид — сильнейший рудокоп: самая быстрая добыча и лучшая сохранность лампы.'}
   - id: occg_crusher
     deps: [occ_foliot]
     roles: [mage, engineer]
@@ -107,6 +114,7 @@ quests:
     tasks: [{type: checkmark}]
     title: {ru: "Дух-плавильщик", en: "Spirit Smelter"}
     doc: book.occultism.dictionary_of_spirits.summoning_rituals.summon_smelter_t1.about_smelters.text
+    why: {en: 'Smelts, blasts, smokes and cooks without fuel.', ru: 'Дух-плавильщик выполняет работу печи, плавильни, коптильни и костра без топлива: подбирает подходящие предметы и бросает результат рядом.'}
   - id: occg_crystallizer
     deps: [occg_crusher]
     roles: [mage]
@@ -114,12 +122,14 @@ quests:
     tasks: [{type: checkmark}]
     title: {ru: "Дух-кристаллизатор", en: "Spirit Crystallizer"}
     doc: book.occultism.dictionary_of_spirits.summoning_rituals.summon_crystallizer_t1.about_crystallizers.text
+    why: {en: Regrows gems from dust and multiplies gem ore output., ru: Дух-кристаллизатор восстанавливает самоцветы из их пыли и умножает выход с самоцветных руд.}
   - id: occg_farmer
     deps: [occ_lumberjack]
     roles: [mage, gardener]
     items: [occultism:book_of_calling_foliot_farmer]
     title: {ru: "Фолиот-фермер", en: "Foliot Farmer"}
     doc: book.occultism.dictionary_of_spirits.summoning_rituals.summon_farmer.intro.text
+    why: {en: Harvests and replants; set a chest to collect., ru: Фермер собирает и пересаживает урожай в своей зоне. Укажи сундук — и он будет складывать урожай туда.}
   - id: occg_traders
     deps: [occ_otherworld_tree]
     roles: [mage]
@@ -127,6 +137,7 @@ quests:
     tasks: [{type: checkmark}]
     title: {ru: "Духи-торговцы", en: "Spirit Traders"}
     doc: book.occultism.dictionary_of_spirits.summoning_rituals.trade_spirits.intro.text
+    why: {en: Trade spirits exchange items while purple particles show., ru: 'Духи-торговцы берут подходящие предметы и бросают на землю результат обмена — например, превращают один камень в другой. Работает, пока вокруг духа фиолетовые частицы.'}
   - id: occg_weather
     deps: [occ_djinni]
     roles: [mage]
@@ -134,6 +145,7 @@ quests:
     tasks: [{type: checkmark}]
     title: {ru: "Магия погоды и времени", en: "Weather and Time Magic"}
     doc: book.occultism.dictionary_of_spirits.summoning_rituals.weather_magic.intro.text
+    why: {en: Spirits change the weather; time magic shifts day and night., ru: 'Магия погоды вызывает духов, которые меняют погоду, — полезно фермерам. Магия времени переводит день и ночь.'}
   - id: occg_wild_hunt
     deps: [occ_afrit]
     roles: [mage, warrior]
@@ -163,6 +175,7 @@ quests:
     tasks: [{type: checkmark}]
     title: {ru: "Одержимый Хранитель", en: "Possessed Warden"}
     doc: book.occultism.dictionary_of_spirits.possession_rituals.possess_warden.description.text
+    why: {en: 'A Warden is made and possessed at once, dropping loot without a fight.', ru: 'Ритуал создаёт Хранителя из жизненной силы аксолотля, и африт сразу вселяется в него. Хранитель погибает и оставляет добычу — без опасного боя.'}
   - id: occg_hordes
     deps: [occg_possession]
     roles: [mage, warrior]
@@ -204,6 +217,7 @@ quests:
     tasks: [{type: checkmark}]
     title: {ru: "Айзниевый голем", en: "Iesnium Golem"}
     doc: book.occultism.dictionary_of_spirits.familiar_rituals.iesnium_golem.description.text
+    why: {en: 'A far stronger, invulnerable iron golem.', ru: 'Айзниевый голем — улучшенный железный голем: намного сильнее и неуязвим. Отпустить его может только игрок, ударив сидя.'}
   - id: occg_resurrection
     deps: [occg_familiar_ring]
     roles: [mage]
@@ -227,10 +241,12 @@ quests:
     items: [occultism:iesnium_pickaxe]
     doc: book.occultism.dictionary_of_spirits.getting_started.iesnium_pickaxe.spotlight.text
   - id: occg_iesnium_anvil
+    title: {en: Iesnium Anvil, ru: Айзниевая наковальня}
     deps: [occ_iesnium]
     roles: [mage]
     items: [occultism:iesnium_anvil]
     doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_iesnium_anvil.spotlight.text
+    why: {en: 'Unbreakable, and can exceed max enchantment levels.', ru: 'Наковальня с маридом: не ломается и позволяет превысить максимальный уровень зачарований при объединении.'}
   - id: occg_storage_stabilizer
     deps: [occ_storage]
     roles: [mage, engineer]
@@ -242,17 +258,20 @@ quests:
     roles: [mage, engineer]
     items: [occultism:storage_stabilizer_tier4]
     doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_stabilizer_tier4.spotlight.text
+    why: {en: A marid stabilizer that greatly raises storage capacity., ru: Стабилизатор 4-го уровня с маридом удерживает измерение хранилища и сильно увеличивает его ёмкость.}
   - id: occg_storage_remote
     deps: [occ_storage]
     roles: [mage]
     items: [occultism:storage_remote]
     doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_storage_remote.spotlight.text
+    why: {en: Opens your storage from anywhere., ru: 'Средство доступа привязывается к актуатору хранилища: джинн внутри открывает твой склад из любой точки мира.'}
   - id: occg_storage_automation
     deps: [occ_machine]
     roles: [mage, engineer]
     icon: occultism:stable_wormhole
     items: [occultism:stable_wormhole]
     doc: book.occultism.dictionary_of_spirits.storage.storage_system_automation.intro.text
+    why: {en: Hoppers and pipes work with the storage like a chest., ru: 'Актуатор хранилища работает как большой сундук: воронки и трубы могут класть и забирать предметы. Стабильная червоточина подключает его к машинам на расстоянии.'}
   - id: occg_satchel
     deps: [occg_first_ritual]
     roles: [mage]
@@ -260,31 +279,40 @@ quests:
     doc: book.occultism.dictionary_of_spirits.crafting_rituals.craft_satchel.spotlight.text
     why: {ru: "Сумка-измерение: в ней больше места, чем снаружи.", en: "A dimensional satchel: bigger inside than outside."}
   - id: occg_ritual_satchel
+    title: {en: Apprentice Ritual Satchel, ru: Ритуальная сумка ученика}
     deps: [occg_satchel]
     roles: [mage]
     items: [occultism:ritual_satchel_t1]
     doc: book.occultism.dictionary_of_spirits.getting_started.ritual_satchels.more.text
     why: {ru: "Ставит весь ритуальный круг из сумки за пару кликов — не нужно таскать мелки и чаши по одной.", en: "Places a whole ritual circle from the satchel in a few clicks."}
   - id: occg_wormhole
+    title: {en: Entity Wormhole, ru: Червоточина существ}
     deps: [occ_afrit]
     roles: [mage]
     items: [occultism:entity_wormhole]
     doc: book.occultism.dictionary_of_spirits.crafting_rituals.entity_wormhole.destination.text
+    why: {en: Moves creatures; a compass sets the destination., ru: 'Червоточина переносит существ. Пункт назначения задаёт компас: обычный ведёт к точке спавна мира, привязанный — к своей точке.'}
   - id: occg_true_sight
+    title: {en: True Sight Staff, ru: Посох истинного зрения}
     deps: [occ_goggles]
     roles: [mage]
     items: [occultism:true_sight_staff]
     doc: book.occultism.dictionary_of_spirits.crafting_rituals.true_sight_staff.spotlight.text
+    why: {en: A marid helps you see and use the otherworld., ru: Марид в посохе помогает видеть потусторонний мир и взаимодействовать с ним без очков.}
   - id: occg_vitality
+    title: {en: Vitality Compass, ru: Компас жизненной силы}
     deps: [occ_afrit]
     roles: [mage]
     items: [occultism:vitality_compass]
     doc: book.occultism.dictionary_of_spirits.crafting_rituals.vitality_compass.spotlight.text
+    why: {en: Attunes to a creature and points to its kind., ru: Фолиот в компасе настраивается на сущность живого создания и указывает на таких же поблизости.}
   - id: occg_knowledge
+    title: {en: Knowledge Tablet, ru: Табличка знаний}
     deps: [occ_djinni]
     roles: [mage]
     items: [occultism:knowledge_tablet]
     doc: book.occultism.dictionary_of_spirits.crafting_rituals.knowledge_tablet.use.text
+    why: {en: Stores all your XP; Shift-click to take it back., ru: 'ПКМ — сохраняет весь твой опыт в табличку, Shift+ПКМ — возвращает. Опыт не пропадёт при смерти.'}
   - id: occg_unbound
     deps: [occ_afrit]
     roles: [mage, warrior]
@@ -292,15 +320,19 @@ quests:
     title: {ru: "Несвязанные духи", en: "Unbound Spirits"}
     doc: book.occultism.dictionary_of_spirits.spirits.unbound_spirits.intro.text
   - id: occg_marid
+    title: {en: Marid Essence, ru: Эссенция марида}
     deps: [occg_unbound]
     roles: [mage]
     items: [occultism:marid_essence]
     doc: book.occultism.dictionary_of_spirits.summoning_rituals.marid_essence.intro.text
+    why: {en: Needed to control the strongest spirits; makes blue chalk., ru: 'Эссенция марида нужна, чтобы безопасно управлять сильнейшими духами, — из неё делают синий мел.'}
   - id: occg_battlefield
+    title: {en: Dimensional Battlefield, ru: Пространственное поле битвы}
     deps: [occg_marid]
     roles: [mage, warrior]
     items: [occultism:dimensional_battlefield]
     doc: book.occultism.dictionary_of_spirits.crafting_rituals.dimensional_battlefield.capabilities.text
+    why: {en: Brings mob loot from another dimension; empty it regularly., ru: 'Поле битвы приносит добычу с мобов из другого измерения. Лишнее, что не помещается, выбрасывает — опустошай его воронками.'}
   - id: occg_master
     deps: [occg_miner_marid, occg_storage_stabilizer4, occg_battlefield, occg_iesnium_golem, occg_possess_warden, occg_wormhole, occg_ritual_satchel]
     roles: [mage]

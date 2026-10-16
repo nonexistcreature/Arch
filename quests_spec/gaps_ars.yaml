@@ -1,0 +1,275 @@
+# Key-item gaps: Ars Nouveau (glyphs, devices), Ars Elemental, Ars Additions. Texts from the Worn Notebook pages,
+# glyph and perk descriptions of each mod.
+extends: ars
+lang: [ars_nouveau, ars_elemental, ars_additions]
+autodoc: ["{ns}.glyph_desc.{path}", "{ns}.page.{path}", "{ns}.page1.{path}", "{ns}.perk_desc.{path}",
+  "{ns}.ritual_desc.{path}", "tooltip.{ns}.{path}", "page.{ns}.{path}.desc", "{ns}.adv.desc.{path}"]
+out: gaps_ars_gen
+quests:
+  # --- core glyphs: forms, effects, augments
+  - id: gag_forms
+    deps: [arsg_glyph]
+    roles: [mage]
+    shape: gear
+    items: [ars_nouveau:glyph_projectile, ars_nouveau:glyph_touch, ars_nouveau:glyph_self]
+    title: {ru: "Три формы заклинания", en: "The Three Spell Forms"}
+    why: {ru: "Каждое заклинание начинается с формы: снаряд летит во врага, касание действует на блок или существо перед тобой, «на себя» — на тебя. Дальше идут эффекты и усилители.", en: "Every spell starts with a form: projectile, touch or self."}
+  - id: gag_break
+    title: {en: Break Glyph, ru: Глиф «Разрушение»}
+    deps: [gag_forms]
+    roles: [mage, engineer]
+    items: [ars_nouveau:glyph_break]
+    why: {en: 'Breaks blocks; Amplify raises harvest level, Sensitive acts like shears.', ru: 'Ломает блоки средней твёрдости. «Усиление» повышает уровень добычи (сломает и твёрдое), «Чувствительность» ломает как ножницами.'}
+  - id: gag_harm_heal
+    deps: [gag_forms]
+    roles: [mage]
+    items: [ars_nouveau:glyph_harm, ars_nouveau:glyph_heal]
+    title: {ru: "Вред и исцеление", en: "Harm and Heal"}
+  - id: gag_elements
+    deps: [gag_harm_heal]
+    roles: [mage]
+    items: [ars_nouveau:glyph_ignite, ars_nouveau:glyph_freeze, ars_nouveau:glyph_lightning]
+    title: {ru: "Огонь, лёд и молния", en: "Fire, Ice and Lightning"}
+  - id: gag_explosion
+    title: {en: Explosion Glyph, ru: Глиф «Взрыв»}
+    deps: [gag_elements]
+    roles: [mage]
+    items: [ars_nouveau:glyph_explosion]
+    why: {ru: "Взрыв ломает блоки! Только в диких землях и не рядом с чужими постройками.", en: "It breaks blocks: wilds only."}
+  - id: gag_movement
+    deps: [gag_forms]
+    roles: [mage]
+    items: [ars_nouveau:glyph_blink, ars_nouveau:glyph_leap, ars_nouveau:glyph_glide]
+    title: {ru: "Глифы движения", en: "Movement Glyphs"}
+  - id: gag_augments
+    deps: [gag_forms]
+    roles: [mage]
+    items: [ars_nouveau:glyph_amplify, ars_nouveau:glyph_aoe, ars_nouveau:glyph_pierce, ars_nouveau:glyph_extend_time]
+    title: {ru: "Усилители", en: "Augments"}
+    why: {ru: "Усилители меняют эффект перед ними: «Усиление» — сильнее, «Площадь» — шире, «Пронзание» — сквозь цели, «Продление» — дольше. Каждый поднимает цену маны.", en: "Augments make the previous effect stronger, wider, piercing or longer — for more mana."}
+  - id: gag_summon_wolves
+    title: {en: Summon Wolves Glyph, ru: Глиф «Призыв волков»}
+    deps: [gag_harm_heal]
+    roles: [mage, warrior]
+    items: [ars_nouveau:glyph_summon_wolves]
+    why: {en: Two wolves fight for you; Summoning Sickness follows., ru: 'Призывает двух волков, которые дерутся за тебя. «Продление» держит их дольше. После призыва — «Слабость призывателя»: другое призывающее колдовство на время недоступно.'}
+  - id: gag_harvest
+    title: {en: Harvest Glyph, ru: Глиф «Жатва»}
+    deps: [gag_break]
+    roles: [mage, gardener]
+    items: [ars_nouveau:glyph_harvest]
+  # --- devices and gear
+    why: {en: Harvests grown crops without breaking the plant., ru: 'Собирает созревший урожай, не ломая само растение, — поле убирается заклинанием.'}
+  - id: gag_turrets
+    deps: [arsg_turret]
+    roles: [mage, engineer]
+    items: [ars_nouveau:spell_turret, ars_nouveau:timer_spell_turret]
+    title: {ru: "Заклинательные турели", en: "Spell Turrets"}
+    why: {en: Redstone-triggered and timed spell turrets., ru: 'Обычная турель стреляет заклинанием по сигналу редстоуна, турель с таймером — сама, через заданный промежуток. Автоматическая магия для фермы и обороны.'}
+  - id: gag_diffuser
+    deps: [arsg_flask]
+    roles: [alchemist, mage]
+    items: [ars_nouveau:potion_diffuser]
+  - id: gag_crown
+    deps: [arsg_flask]
+    roles: [alchemist]
+    items: [ars_nouveau:alchemists_crown]
+  - id: gag_wixie_cauldron
+    deps: [ars_wixie]
+    roles: [mage, engineer]
+    items: [ars_nouveau:wixie_cauldron]
+    why: {ru: "Котёл виксы: призванная викса сама крафтит предметы по рецепту — автоверстак на магии.", en: "A wixie crafts recipes for you: a magic autocrafter."}
+  - id: gag_void_jar
+    deps: [ars_jar]
+    roles: [mage]
+    items: [ars_nouveau:void_jar]
+  - id: gag_relays
+    deps: [ars_relay]
+    roles: [mage, engineer]
+    items: [ars_nouveau:relay_collector, ars_nouveau:relay_deposit]
+    title: {ru: "Реле сбора и сдачи", en: "Collector and Deposit Relays"}
+  - id: gag_eye
+    deps: [arsg_spellcraft]
+    roles: [mage]
+    items: [ars_nouveau:enchanters_eye]
+  - id: gag_discount
+    deps: [arsg_discount]
+    roles: [mage]
+    items: [ars_nouveau:ring_of_greater_discount]
+  - id: gag_caster_tome
+    deps: [arsg_spellcraft]
+    roles: [mage]
+    items: [ars_nouveau:caster_tome]
+  - id: gag_focus
+    deps: [ars_elemental]
+    roles: [mage]
+    items: [ars_nouveau:summon_focus, ars_nouveau:shapers_focus]
+    title: {ru: "Фокусы призыва и формирования", en: "Summoning and Shaper's Focus"}
+  - id: gag_wand
+    deps: [arsg_spellcraft]
+    roles: [mage]
+    items: [ars_nouveau:wand]
+  - id: gag_light
+    deps: [arsg_magelight]
+    roles: [mage, builder]
+    items: [ars_nouveau:jar_of_light]
+  - id: gag_scryer
+    deps: [arsg_scry_crystal]
+    roles: [mage]
+    items: [ars_nouveau:scryer_scroll]
+  - id: gag_threads
+    deps: [arsg_thread]
+    roles: [mage]
+    items: [ars_nouveau:thread_spellpower, ars_nouveau:thread_magic_capacity]
+    title: {ru: "Нити силы и ёмкости", en: "Threads of Power and Capacity"}
+  - id: gag_rituals
+    deps: [arsg_rit_awakening]
+    roles: [mage, gardener]
+    items: [ars_nouveau:ritual_flowering, ars_nouveau:ritual_animal_summon]
+    title: {ru: "Ритуалы цветения и призыва зверей", en: "Flowering and Animal Rituals"}
+  - id: gag_codex
+    deps: [arsg_spellcraft]
+    roles: [mage]
+    items: [ars_nouveau:annotated_codex]
+  - id: gag_xp_gem
+    deps: [ars_apparatus]
+    roles: [mage]
+    items: [ars_nouveau:experience_gem]
+    why: {ru: "Самоцвет опыта — опыт в кармане. Его тратят на зачарования и ритуалы.", en: "Experience in a gem for enchanting and rituals."}
+  # --- Ars Elemental
+  - id: gae2_foci
+    deps: [ars_elemental]
+    roles: [mage]
+    items: [ars_elemental:earth_focus, ars_elemental:water_focus, ars_elemental:air_focus, ars_elemental:necrotic_focus]
+    title: {ru: "Фокусы стихий", en: "Elemental Foci"}
+    doc: ars_elemental.page1.earth_focus
+  - id: gae2_lesser_focus
+    deps: [ars_elemental]
+    roles: [mage]
+    items: [ars_elemental:lesser_fire_focus]
+  - id: gae2_armor
+    deps: [gae2_foci]
+    roles: [mage, warrior]
+    items: [ars_elemental:fire_chestplate, ars_elemental:aqua_chestplate, ars_elemental:earth_chestplate, ars_elemental:air_chestplate]
+    title: {ru: "Стихийные доспехи", en: "Elemental Armor"}
+    why: {en: Each set boosts and cheapens its school's glyphs and reduces its element's damage., ru: 'Доспехи четырёх стихий усиливают глифы своей школы, удешевляют их и снижают урон своей стихией. Полный комплект даёт ещё больший бонус.'}
+  - id: gae2_mastery
+    deps: [gae2_armor]
+    roles: [mage]
+    items: [ars_elemental:mark_of_mastery]
+    why: {en: Needed for top elemental gear; full sets convert part of reduced damage., ru: 'Знак мастерства нужен для лучших стихийных вещей: его собирают из эссенций и дани. Полный стихийный комплект брони превращает часть погашенного урона в пользу для тебя.'}
+  - id: gae2_tome
+    deps: [gae2_foci]
+    roles: [mage]
+    items: [ars_elemental:fire_caster_tome]
+    why: {en: A ready-made fire spell at reduced cost., ru: Том заклинателя огня — готовое мощное огненное заклинание без книги и с меньшей ценой маны.}
+  - id: gae2_turret
+    deps: [gae2_foci, gag_turrets]
+    roles: [mage, engineer]
+    items: [ars_elemental:fire_turret]
+    why: {en: Boosts fire spells cast through it., ru: 'Турель, напитанная огнём, усиливает огненные заклинания, которые через неё проходят.'}
+  - id: gae2_bangles
+    deps: [gae2_foci]
+    roles: [mage]
+    items: [ars_elemental:base_bangle, ars_elemental:fire_bangle]
+    title: {ru: "Браслеты", en: "Bangles"}
+  - id: gae2_charms
+    deps: [ars_elemental]
+    roles: [mage, breeder]
+    items: [ars_elemental:siren_charm, ars_elemental:firenando_charm, ars_elemental:flashjack_charm]
+    title: {ru: "Талисманы стихийных духов", en: "Elemental Spirit Charms"}
+    why: {en: Summon elemental spirits; befriend a siren with a sea pickle., ru: Талисманы призывают стихийных духов. Сирену приручают морским огурцом — она скачет из воды у кораллов и оставляет жетоны. Её святилище понемногу даёт улов рыбы.}
+  - id: gae2_horn
+    deps: [gae2_foci]
+    roles: [mage]
+    items: [ars_elemental:spell_horn]
+    why: {en: Casts its spell on you and those around; hold longer for range., ru: 'Рог заклинателя накладывает заклинание на тебя и существ вокруг. Чем дольше держишь, тем больше радиус, а на полном заряде он ещё и усиливает урон заклинаний.'}
+  - id: gae2_bag
+    deps: [ars_elemental]
+    roles: [mage]
+    items: [ars_elemental:caster_bag]
+  - id: gae2_lens
+    deps: [arsg_spell_prism]
+    roles: [mage, engineer]
+    items: [ars_elemental:homing_prism_lens, ars_elemental:piercing_prism_lens]
+    title: {ru: "Линзы призмы", en: "Prism Lenses"}
+    why: {en: 'Lenses on a prism: homing and piercing.', ru: 'Линзы ставят на призму: самонаводящаяся ведёт снаряд к цели, пронзающая пускает его сквозь врагов.'}
+  - id: gae2_relay
+    title: {en: Fiery Collector Relay, ru: Огненное реле сбора}
+    deps: [ars_relay]
+    roles: [mage]
+    items: [ars_elemental:fire_relay]
+    why: {en: An elemental source relay., ru: Огненное реле сбора собирает источник из огненных процессов вокруг. Стихийные реле — продвинутые реле Ars Elemental.}
+  - id: gae2_glyphs
+    deps: [gae2_foci]
+    roles: [mage]
+    items: [ars_elemental:glyph_spark, ars_elemental:glyph_water_jet, ars_elemental:glyph_spike, ars_elemental:glyph_life_link]
+    title: {ru: "Стихийные глифы", en: "Elemental Glyphs"}
+    doc: ars_elemental.glyph_desc.glyph_life_link
+  # --- Ars Additions
+  - id: gad_charms
+    deps: [arsg_jump_ring]
+    roles: [mage, warrior]
+    items: [ars_additions:undying_charm, ars_additions:fall_prevention_charm, ars_additions:water_breathing_charm]
+    title: {ru: "Защитные талисманы", en: "Protective Charms"}
+    why: {en: 'Undying, fall prevention and water breathing charms.', ru: 'Талисман бессмертия спасает от смерти, талисман от падения отменяет урон от падения, талисман дыхания позволяет дышать под водой. У каждого ограниченный заряд — подзаряжай.'}
+  - id: gad_charms2
+    deps: [gad_charms]
+    roles: [mage]
+    items: [ars_additions:fire_resistance_charm, ars_additions:night_vision_charm]
+    title: {ru: "Ещё талисманы", en: "More Charms"}
+    why: {en: Fire resistance and night vision charms., ru: 'Талисман огнестойкости гасит урон от огня, ночного зрения — даёт видеть в темноте.'}
+  - id: gad_warp_index
+    deps: [ars_warp]
+    roles: [mage]
+    items: [ars_additions:warp_index, ars_additions:stabilized_warp_index]
+    title: {ru: "Указатель варпа", en: "Warp Index"}
+    why: {en: Holds several warp points; see the notebook., ru: 'Указатель варпа хранит несколько точек телепорта сразу, стабилизированный — работает надёжнее и дальше. Подробно — в книге Ars.'}
+  - id: gad_wayfinder
+    title: {en: Wayfinder, ru: Путеводитель}
+    deps: [ars_warp]
+    roles: [mage]
+    items: [ars_additions:wayfinder]
+    why: {en: Points to a bound location with distance., ru: Путеводитель показывает направление и расстояние до привязанной точки.}
+  - id: gad_haversack
+    title: {en: Handy Haversack, ru: Удобная сумка}
+    deps: [arsg_spellcraft]
+    roles: [mage]
+    items: [ars_additions:handy_haversack]
+    why: {en: Deposit into a bound container from anywhere., ru: 'Привяжи сумку к сундуку — и складывай в него вещи откуда угодно, просто кликая предметом по сумке. Пока сундук не прогружен, сумка закрыта.'}
+  - id: gad_xp_jar
+    deps: [gag_xp_gem]
+    roles: [mage]
+    items: [ars_additions:xp_jar, ars_additions:ender_source_jar]
+    title: {ru: "Банки опыта и эндер-источника", en: "XP and Ender Source Jars"}
+    why: {en: Destroys chosen junk on pickup for a bit of XP., ru: Банка опыта уничтожает выбранный мусор при подборе и даёт за него немного опыта. Включается и выключается кликом с Shift.}
+  - id: gad_spawner
+    title: {en: Source Spawner, ru: Спавнер на источнике}
+    deps: [ars_jar]
+    roles: [mage]
+    items: [ars_additions:source_spawner]
+    why: {en: A source-powered spawner reading nearby mob jars., ru: Спавнер на источнике призывает мобов из банок с мобами рядом и тратит за каждого источник из банок. Выключается редстоуном.}
+  - id: gad_reliquary
+    title: {en: Unstable Reliquary, ru: Нестабильный реликварий}
+    deps: [arsg_spellcraft]
+    roles: [mage]
+    items: [ars_additions:unstable_reliquary]
+    why: {en: Stores targets for the Recall glyph., ru: 'Реликварий хранит ссылки на существ и места — к ним потом можно вернуться глифом «Возврат». Запоминают глифом «Метка», держа реликварий во второй руке.'}
+  - id: gad_dominion
+    title: {en: Advanced Dominion Wand, ru: Улучшенный жезл господства}
+    deps: [arsg_dominion]
+    roles: [mage]
+    items: [ars_additions:advanced_dominion_wand]
+    why: {en: Links several blocks at once and sets link order., ru: Улучшенный жезл господства связывает сразу несколько блоков и задаёт порядок связей — быстрее настраивать магические фабрики.}
+  - id: gad_rituals
+    deps: [arsg_rit_awakening]
+    roles: [mage]
+    items: [ars_additions:ritual_chunk_loading, ars_additions:ritual_locate_structure]
+    title: {ru: "Ритуалы якоря и поиска построек", en: "Chunk Loading and Locate Rituals"}
+    why: {en: Chunk loading on a source stream; a structure-locating ritual., ru: 'Ритуал вечности держит чанки загруженными, пока в него идёт поток источника. Ритуал поиска показывает путь к постройке. Не загружай чанки без нужды — это нагрузка на сервер.'}
+  - id: gad_memory
+    deps: [arsg_spellcraft]
+    roles: [mage]
+    items: [ars_additions:memory_crystal, ars_additions:glyph_recall]
+    title: {ru: "Кристалл памяти и глиф возврата", en: "Memory Crystal and Recall Glyph"}
+    why: {en: Copies block/entity configuration; Recall teleports to a stored mark., ru: 'Кристалл памяти сохраняет настройки блока или существа и переносит их на другие. Глиф «Возврат» переносит к точке, сохранённой в реликварии.'}

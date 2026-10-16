@@ -998,11 +998,15 @@ quests:
   ru:
     title: Прочный лист
     subtitle: ''
-    text: '**Зачем:** Прочный лист из обсидиановой пыли — для ног поезда и пушек.'
+    text: '**Зачем:** Прочный лист из обсидиановой пыли — для ног поезда и пушек.
+
+      Соберите прочный лист из обсидианового порошка и лавы'
   en:
     title: Sturdy Sheet
     subtitle: ''
-    text: '**Why:** Obsidian sheets for train parts and cannons.'
+    text: '**Why:** Obsidian sheets for train parts and cannons.
+
+      Assemble a Sturdy Sheet by refining Powdered Obsidian'
 - id: cg_haunting
   tasks:
   - type: checkmark
@@ -1072,11 +1076,15 @@ quests:
   ru:
     title: Картонные доспехи
     subtitle: ''
-    text: '**Зачем:** Защиты почти нет, но в полном комплекте ты — коробка, и мобы тебя не замечают, если стоишь на месте.'
+    text: '**Зачем:** Защиты почти нет, но в полном комплекте ты — коробка, и мобы тебя не замечают, если стоишь на месте.
+
+      Произведите или получите ваш первый картон'
   en:
     title: Cardboard Armor
     subtitle: ''
-    text: '**Why:** Barely protects, but mobs ignore a crouching box.'
+    text: '**Why:** Barely protects, but mobs ignore a crouching box.
+
+      Produce or obtain your first Cardboard'
 - id: cg_symmetry
   tasks:
   - type: item

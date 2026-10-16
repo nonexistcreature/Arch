@@ -48,6 +48,7 @@ quests:
     items: [bigreactors:fluidizercontroller]
     why: {ru: "Флюидайзер переводит топливо в жидкую форму — для реакторов на жидком топливе. Схема сборки — в JEI.", en: "Makes liquid fuel; see JEI."}
   - id: gat_energizer
+    title: {en: Energizer, ru: Энерджайзер}
     deps: [at_reactor]
     roles: [engineer]
     items: [bigreactors:energizercontroller]
