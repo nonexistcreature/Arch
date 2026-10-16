@@ -7929,34 +7929,6 @@
 	quest.2B022A0B2B672C60.quest_desc: [
 		"Lights, roof, furniture, trophies and a stash. Invite friends to a housewarming, and take a screenshot with shaders on."
 	]
-	quest.66A4B109B01E0B97.title: "Television"
-	quest.66A4B109B01E0B97.quest_desc: [
-		"&lWhy:&r Place it, right-click, paste a YouTube/Twitch/image link and save. Sound is heard by everyone nearby."
-	]
-	quest.3B0F08BC06DFFD92.title: "Remote Control"
-	quest.3B0F08BC06DFFD92.quest_desc: [
-		"&lWhy:&r Pause, seek and change volume from the couch."
-	]
-	quest.4FE54FF9416637B6.title: "Big Television"
-	quest.4FE54FF9416637B6.quest_desc: [
-		"&lWhy:&r For the living room or tavern."
-	]
-	quest.0901C606656A7AFD.title: "Box Television"
-	quest.0901C606656A7AFD.quest_desc: [
-		"&lWhy:&r A retro box TV."
-	]
-	quest.504166DDE5FB1543.title: "Picture Frame"
-	quest.504166DDE5FB1543.quest_desc: [
-		"&lWhy:&r Shows an image or GIF from a link: shop signs, town maps, posters."
-	]
-	quest.65610F8A5128AEF3.title: "Projector"
-	quest.65610F8A5128AEF3.quest_desc: [
-		"&lWhy:&r Projects onto a wall up to 64 blocks: an open-air cinema."
-	]
-	quest.0BC31AB531C540B8.title: "Cinema"
-	quest.0BC31AB531C540B8.quest_desc: [
-		"&lWhy:&r Build a hall with seats and a projector; sound carries 64 blocks, so keep it away from neighbours."
-	]
 	chapter.34F136AADF95EE95.title: "Great Works"
 	chapter.34F136AADF95EE95.chapter_subtitle: [
 		"Megaprojects for the whole group"

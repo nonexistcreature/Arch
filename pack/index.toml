@@ -118,7 +118,7 @@ hash = "a0c27b878997dcfc9015a47ade9dabc04d20ff7bbd636930f5aba8638cb6be4a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/home.snbt"
-hash = "2ad56cad2fdf2c196b331b363c2fab9cdbc2bbe45cebe09bff1ab2bfbd39ce6e"
+hash = "9688261134fc90aee193cc40f4b026deb24009ed34e8cfac2a6086f39eb385bb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive.snbt"
@@ -194,11 +194,11 @@ hash = "462be260324d4e1288a1a4476d4de0ec35126e18a4ce443be04df10d784560c5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "3dfdbf6164fe0d35a112dc52e22b67b5574cad31df1bb2cfbc67d776b35181b6"
+hash = "97d43fb64e486dbc6484d1e83d3ff269d931119b5a50c85fe3060d0b7fad730e"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "f1572cd75ccb5d4db004937ad389c2ab8f3cb93ff7ec7304b5f500bb76e19a62"
+hash = "81a2cddadf5c91041b67103c4075ec4c6fd16990a71c11991ef23e27862767e2"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -394,7 +394,7 @@ hash = "c11f7b38713be52de96e3c304a7750b5ff5bd441410dde2958022de95930d212"
 
 [[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
-hash = "d0d3c1d985ff960fecfe4dbd0f85b5cdaf256c823aafbca4705cc78eebf06e7d"
+hash = "71bf79199919a97094e53c4b74956690f8f963bd9b6777a0264f31bde66a6c61"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"
@@ -1851,21 +1851,6 @@ metafile = true
 [[files]]
 file = "mods/visuality-forge.pw.toml"
 hash = "3d907a6ec6e27ba52d9f8f062216b56aef39e586a4e673cfbb70dbe12671ec61"
-metafile = true
-
-[[files]]
-file = "mods/waterframes.pw.toml"
-hash = "59e15d108b41b10145596a3ef899ad20ef8c8885504eef10cd89225aef87daef"
-metafile = true
-
-[[files]]
-file = "mods/watermedia-yt-plugin.pw.toml"
-hash = "79e2fcf85fb4e4e4248844f4ec18daaedcd5a45157222e26383eabb29c99d60e"
-metafile = true
-
-[[files]]
-file = "mods/watermedia.pw.toml"
-hash = "976854e8cb0473236ae4ce6b5b29bb901dc46b20d072bfed79e1f07c64b37095"
 metafile = true
 
 [[files]]
