@@ -1,0 +1,22 @@
+# Key-item gaps: Productive Bees extras (animals chapter).
+extends: animals
+lang: [productivebees]
+out: gaps_misc3_gen
+quests:
+  - id: gpb_helmet
+    deps: [pbg_nests]
+    roles: [breeder]
+    items: [productivebees:bee_nest_diamond_helmet]
+    title: {ru: "Шлем-гнездо", en: "Bee Nest Helmet"}
+    why: {ru: "Алмазный шлем с гнездом — пчёлы живут прямо на тебе и сопровождают в походе.", en: "A helmet that houses bees."}
+  - id: gpb_treat_stick
+    deps: [pbg_treat]
+    roles: [breeder]
+    items: [productivebees:treat_on_a_stick]
+    why: {ru: "Лакомство на палочке ведёт пчёл за тобой — перевести рой к новому улью.", en: "Lead bees to a new hive."}
+  - id: gpb_angry_bomb
+    deps: [pbg_bee_bomb]
+    roles: [warrior]
+    items: [productivebees:bee_bomb_angry]
+    title: {ru: "Злая пчелиная бомба", en: "Angry Bee Bomb"}
+    why: {ru: "Бомба со злыми пчёлами — выпускает рой на врагов. Не бросай у чужих ульев и домов.", en: "Releases angry bees at enemies."}

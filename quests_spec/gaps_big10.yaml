@@ -1,0 +1,72 @@
+# Key-item gaps: TFMG materials, electronics and weapons.
+extends: steel_oil
+lang: [tfmg]
+autodoc: ["item.{ns}.{path}.tooltip.summary", "block.{ns}.{path}.tooltip.summary"]
+out: gaps_big10_gen
+quests:
+  - id: gtf_metals
+    deps: [tfmg_steel]
+    roles: [engineer]
+    items: [tfmg:lead_ingot*4, tfmg:nickel_ingot*4, tfmg:constantan_ingot*4]
+    title: {ru: "Свинец, никель и константан", en: "Lead, Nickel and Constantan"}
+    why: {ru: "Металлы TFMG для проводов, резисторов и аккумуляторов. Константан — сплав меди и никеля.", en: "Metals for wires, resistors and batteries."}
+  - id: gtf_magnet
+    deps: [tfg2_electricity]
+    roles: [engineer]
+    items: [tfmg:magnetic_alloy_ingot*2, tfmg:magnet]
+    title: {ru: "Магнитный сплав и магнит", en: "Magnetic Alloy and Magnet"}
+    why: {ru: "Магниты нужны для генераторов и моторов TFMG.", en: "Needed for generators and motors."}
+  - id: gtf_coil
+    title: {en: Electromagnetic Coil, ru: Электромагнитная катушка}
+    deps: [gtf_magnet]
+    roles: [engineer]
+    items: [tfmg:electromagnetic_coil]
+    why: {en: The heart of TFMG generators and motors., ru: Катушка — сердце генератора и мотора TFMG.}
+  - id: gtf_silicon
+    deps: [tfmg_circuit]
+    roles: [engineer]
+    items: [tfmg:silicon_ingot*2, tfmg:n_semiconductor, tfmg:p_semiconductor]
+    title: {ru: "Кремний и полупроводники", en: "Silicon and Semiconductors"}
+    why: {ru: "Кремний и полупроводники n- и p-типа — из них собирают транзисторы и диоды.", en: "For transistors and diodes."}
+  - id: gtf_controls
+    deps: [tfg2_electronics]
+    roles: [engineer]
+    items: [tfmg:potentiometer, tfmg:voltage_observer]
+    title: {ru: "Потенциометр и наблюдатель напряжения", en: "Potentiometer and Voltage Observer"}
+    why: {ru: "Потенциометр регулирует ток, наблюдатель напряжения даёт редстоун-сигнал по напряжению сети — автоматика электросети.", en: "Regulate current; output redstone by voltage."}
+  - id: gtf_engine_gearbox
+    title: {en: Engine Gearbox, ru: Коробка передач двигателя}
+    deps: [tfg2_simple_engine]
+    roles: [engineer]
+    items: [tfmg:engine_gearbox]
+    why: {en: Changes the engine's speed and torque., ru: Коробка передач меняет скорость и силу вращения от двигателя.}
+  - id: gtf_electrode
+    title: {en: Graphite Electrode, ru: Графитовый электрод}
+    deps: [tfg2_vat]
+    roles: [engineer]
+    items: [tfmg:graphite_electrode]
+    why: {ru: "Графитовый электрод — для электролиза в химическом чане.", en: "For electrolysis in the chemical vat."}
+  - id: gtf_lithium_blade
+    title: {en: Lithium Blade, ru: Литиевый клинок}
+    deps: [tfmg_lithium]
+    roles: [warrior]
+    items: [tfmg:lithium_blade]
+    why: {en: A TFMG weapon; see the tooltip., ru: Клинок из лития — оружие TFMG. Его особенность — в подсказке.}
+  - id: gtf_weapons
+    deps: [tfg2_potato_cannon]
+    roles: [warrior]
+    items: [tfmg:quad_potato_cannon, tfmg:napalm_potato*8]
+    title: {ru: "Четырёхствольная пушка и напалм", en: "Quad Cannon and Napalm"}
+    why: {ru: "Четырёхствольная картофельная пушка с напалмовыми снарядами поджигает всё вокруг. Только в диких землях.", en: "Sets everything on fire; wilds only."}
+  - id: gtf_bombs
+    deps: [tfg2_grenades]
+    roles: [warrior]
+    items: [tfmg:pipe_bomb, tfmg:zinc_grenade]
+    title: {ru: "Самодельная взрывчатка", en: "Improvised Explosives"}
+    why: {ru: "Самодельная бомба и цинковая граната. Только в диких землях — у чужих домов это гриф.", en: "Wilds only."}
+  - id: gtf_aluminum_sword
+    title: {en: Aluminum Sword, ru: Алюминиевый меч}
+    deps: [tfg2_tools]
+    roles: [warrior]
+    items: [tfmg:aluminum_sword]
+    why: {en: An aluminium sword; see its stats., ru: Меч из алюминия — оружие TFMG. Характеристики — в подсказке.}

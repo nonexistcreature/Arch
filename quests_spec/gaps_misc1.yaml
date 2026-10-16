@@ -1,0 +1,29 @@
+# Key-item gaps: Create Radars (radar network parts).
+extends: create_addons
+lang: [create_radar]
+autodoc: ["block.{ns}.{path}.tooltip.summary", "item.{ns}.{path}.tooltip.summary"]
+out: gaps_misc1_gen
+quests:
+  - id: grd_filters
+    deps: [cag_radar_monitor]
+    roles: [engineer, warrior]
+    items: [create_radar:radar_filter_item, create_radar:target_filter_item, create_radar:ident_filter_item]
+    title: {ru: "Фильтры радара", en: "Radar Filters"}
+    why: {ru: "Фильтры решают, что радар видит, по чему стреляют пушки и кого считать своим. Без них ПВО может открыть огонь по другу.", en: "Filters set what the radar sees and what the guns may shoot."}
+  - id: grd_fire_controller
+    title: {en: Fire Controller, ru: Контроллер огня}
+    deps: [cag_radar_guns]
+    roles: [warrior, engineer]
+    items: [create_radar:fire_controller]
+    why: {en: Signals to fire when the cannon is on target., ru: 'Подаёт сигнал на выстрел, когда пушка наведена на цель, — автоматическая стрельба.'}
+  - id: grd_fuze
+    deps: [cag_radar_guns]
+    roles: [warrior]
+    items: [create_radar:guided_fuze]
+    why: {ru: "Наводящийся взрыватель для снарядов Create Big Cannons — снаряд ведёт цель с радара.", en: "A guided fuze for Big Cannons shells."}
+  - id: grd_transponder
+    deps: [cag_radar_plane]
+    roles: [engineer]
+    items: [create_radar:radar_warning_receiver, create_radar:binoculars]
+    title: {ru: "Приёмник предупреждений и бинокль", en: "Radar Warning Receiver and Binoculars"}
+    why: {en: Warns when a radar locks on you; binoculars for scouting., ru: 'Приёмник предупреждений пищит, когда тебя ловит чужой радар, бинокль — разведка издалека.'}

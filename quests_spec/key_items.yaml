@@ -135,3 +135,24 @@ meadow: {quested: true, add: [cheese_tart_slice, fondue_pot, cookpot, wooden_cau
 oceansdelight: {quested: true, add: [fugu_roll, bowl_of_guardian_soup, elder_guardian_roll, stuffed_squid, braised_sea_pickle]}
 create_confectionery: {quested: true, add: [bar_of_black_chocolate, bar_of_white_chocolate, bar_of_ruby_chocolate,
   bar_of_caramel, marshmallow_on_a_stick, gingerbread_man, candy_cane_pickaxe, soothing_hot_chocolate]}
+# --- the rest of the hand-written chapters
+mekanism: {quested: true, add: [module_excavation_escalation_unit, module_farming_unit, module_hydraulic_propulsion_unit,
+  module_locomotive_boosting_unit, module_frost_walker_unit, module_nutritional_injection_unit, upgrade_chemical,
+  upgrade_filter, ultimate_tier_installer, ultimate_induction_cell, qio_drive_supermassive, ultimate_bin,
+  pressure_disperser, clump_iron, shard_iron]}
+mekanismtools: {quested: true, add: [bronze_paxel, osmium_paxel, lapis_lazuli_paxel, refined_glowstone_paxel,
+  refined_obsidian_paxel, diamond_paxel, netherite_paxel, osmium_shield, refined_obsidian_shield]}
+tfmg: {quested: true, add: [magnetic_alloy_ingot, magnet, constantan_ingot, nickel_ingot, lead_ingot, silicon_ingot,
+  n_semiconductor, p_semiconductor, potentiometer, voltage_observer, engine_gearbox, electromagnetic_coil,
+  graphite_electrode, lithium_blade, quad_potato_cannon, napalm_potato, pipe_bomb, zinc_grenade, aluminum_sword]}
+productivebees: {quested: true, add: [bee_nest_diamond_helmet, treat_on_a_stick, bee_bomb_angry]}
+minecolonies: {quested: true, add: [supplychestdeployer, scepterguard, scepterpermission, scepterlumberjack,
+  scepterbeekeeper, clipboard, questlog, resourcescroll, scroll_tp, scroll_area_tp, scroll_guard_help, scroll_buff,
+  assistanthammer_diamond, sifter_mesh_diamond, plate_armor_chest, pirate_top, chiefsword, iron_scimitar,
+  adventure_token, banner_rally_guards, ancienttome]}
+alcohol_industry: {quested: true, add: [glass_tube]}
+kaleidoscope_tavern: {quested: true, add: [vinegar, screwdriver, cellar_cabinet]}
+kaleidoscope_world_liquor: {quested: true}
+drinkbeer: {quested: true}
+create_radar: {quested: true, add: [binoculars, fire_controller, target_filter_item, radar_filter_item, ident_filter_item,
+  guided_fuze, radar_warning_receiver]}

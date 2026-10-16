@@ -1,0 +1,29 @@
+# Key-item gaps: Kaleidoscope Tavern, Create: Alcohol Industry (brewery chapter).
+extends: brewery
+lang: [kaleidoscope_tavern, alcohol_industry]
+out: gaps_misc2_gen
+quests:
+  - id: gbr_screwdriver
+    deps: [alc_shaker]
+    roles: [cook]
+    items: [kaleidoscope_tavern:screwdriver]
+    title: {ru: "Коктейль «Отвёртка»", en: "Screwdriver Cocktail"}
+    why: {ru: "«Отвёртка» — коктейль с особым эффектом (смотри подсказку). Пей с осторожностью: он переворачивает мир.", en: "A cocktail with a special effect; see the tooltip."}
+  - id: gbr_vinegar
+    deps: [alc_wine]
+    roles: [cook]
+    items: [kaleidoscope_tavern:vinegar]
+    title: {ru: "Уксус", en: "Vinegar"}
+    why: {ru: "Уксус — напиток таверны со смешанными эффектами: и полезными, и вредными. Как его получить — в JEI.", en: "A tavern drink with mixed effects; see JEI."}
+  - id: gbr_cellar
+    deps: [alc_bar]
+    roles: [builder]
+    items: [kaleidoscope_tavern:cellar_cabinet]
+    title: {ru: "Погребной шкаф", en: "Cellar Cabinet"}
+    why: {en: Tavern-style bottle storage., ru: Погребной шкаф — хранение бутылок в стиле таверны.}
+  - id: gbr_glass_tube
+    deps: [alc_ai_boiler]
+    roles: [engineer]
+    items: [alcohol_industry:glass_tube*4]
+    title: {ru: "Стеклянные трубки", en: "Glass Tubes"}
+    why: {ru: "Стеклянные трубки — деталь машин ликёро-водочного завода. Куда именно идут — в JEI.", en: "Distillery machine parts; see JEI."}

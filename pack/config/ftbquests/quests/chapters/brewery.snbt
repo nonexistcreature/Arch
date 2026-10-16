@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "5486FB52402473EA"
-			x: -1.52d
+			x: -1.38d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -31,7 +31,7 @@
 		}
 		{
 			id: "7DD48C8425292F88"
-			x: -7.15d
+			x: -6.54d
 			y: 2.0d
 			icon: {
 				id: "brewinandchewin:tankard"
@@ -54,7 +54,7 @@
 		}
 		{
 			id: "50F75DDCB799AF7E"
-			x: -3.67d
+			x: -3.14d
 			y: 4.0d
 			icon: {
 				id: "brewinandchewin:steel_toe_stout"
@@ -76,7 +76,7 @@
 		}
 		{
 			id: "32CE37C4439EBF06"
-			x: -2.17d
+			x: -1.64d
 			y: 4.0d
 			icon: {
 				id: "brewinandchewin:strongroot_ale"
@@ -98,7 +98,7 @@
 		}
 		{
 			id: "62B9319C01B84D25"
-			x: -6.67d
+			x: -4.64d
 			y: 4.0d
 			icon: {
 				id: "brewinandchewin:saccharine_rum"
@@ -120,7 +120,7 @@
 		}
 		{
 			id: "091CA59FFEDBA284"
-			x: -4.78d
+			x: -3.54d
 			y: 6.0d
 			icon: {
 				id: "brewinandchewin:vodka"
@@ -142,7 +142,7 @@
 		}
 		{
 			id: "6910FEE1E367ED56"
-			x: -3.37d
+			x: -3.29d
 			y: 8.0d
 			icon: {
 				id: "brewinandchewin:bloody_mary"
@@ -164,7 +164,7 @@
 		}
 		{
 			id: "07CB93262CD3754E"
-			x: -0.67d
+			x: -0.14d
 			y: 4.0d
 			icon: {
 				id: "brewinandchewin:rice_wine"
@@ -187,7 +187,7 @@
 		}
 		{
 			id: "65E7D3DC2B1E7814"
-			x: -5.18d
+			x: -5.04d
 			y: 2.0d
 			icon: {
 				id: "brewinandchewin:heating_cask"
@@ -209,7 +209,7 @@
 		}
 		{
 			id: "61EBEE973BA8D5C1"
-			x: -3.68d
+			x: -3.54d
 			y: 2.0d
 			icon: {
 				id: "brewinandchewin:flaxen_cheese_wheel"
@@ -231,7 +231,7 @@
 		}
 		{
 			id: "191DFF76FFDB55DB"
-			x: -0.02d
+			x: 0.12d
 			y: 0.0d
 			icon: {
 				id: "vinery:wine_box"
@@ -253,7 +253,7 @@
 		}
 		{
 			id: "5EEBE11F73184DB4"
-			x: -4.52d
+			x: -4.38d
 			y: 0.0d
 			icon: {
 				id: "vinery:apple_cider"
@@ -275,7 +275,7 @@
 		}
 		{
 			id: "7DECAA9F406D6656"
-			x: -0.68d
+			x: -0.54d
 			y: 2.0d
 			icon: {
 				id: "vinery:eiswein"
@@ -297,7 +297,7 @@
 		}
 		{
 			id: "6FE0B5D606E2BDD2"
-			x: -2.18d
+			x: -2.04d
 			y: 2.0d
 			icon: {
 				id: "herbalbrews:copper_tea_kettle"
@@ -319,7 +319,7 @@
 		}
 		{
 			id: "427DBC1360C65E19"
-			x: -3.02d
+			x: -2.88d
 			y: 0.0d
 			icon: {
 				id: "create_confectionery:hot_chocolate_bottle"
@@ -341,7 +341,7 @@
 		}
 		{
 			id: "0E78C4B235C0F0A3"
-			x: -2.94d
+			x: -2.84d
 			y: 10.0d
 			shape: "hexagon"
 			icon: {
@@ -376,7 +376,7 @@
 		}
 		{
 			id: "33C527440D61397D"
-			x: 0.82d
+			x: 0.96d
 			y: 2.0d
 			shape: "gear"
 			icon: {
@@ -395,7 +395,7 @@
 		}
 		{
 			id: "45548A947032DBEC"
-			x: -5.17d
+			x: -6.14d
 			y: 4.0d
 			icon: {
 				id: "kaleidoscope_tavern:grapevine"
@@ -418,7 +418,7 @@
 		}
 		{
 			id: "41116FEFA2CA9CCE"
-			x: -3.28d
+			x: -5.04d
 			y: 6.0d
 			icon: {
 				id: "kaleidoscope_tavern:grape"
@@ -441,7 +441,7 @@
 		}
 		{
 			id: "33A389F65A334635"
-			x: -6.11d
+			x: -6.67d
 			y: 8.0d
 			icon: {
 				id: "kaleidoscope_tavern:green_grape"
@@ -482,7 +482,7 @@
 		}
 		{
 			id: "624FF9515456A540"
-			x: -0.37d
+			x: -0.29d
 			y: 8.0d
 			icon: {
 				id: "kaleidoscope_tavern:pressing_tub"
@@ -504,7 +504,7 @@
 		}
 		{
 			id: "2B7FE837714A4B6E"
-			x: -1.03d
+			x: -1.3d
 			y: 10.0d
 			icon: {
 				id: "kaleidoscope_tavern:barrel"
@@ -534,7 +534,7 @@
 		}
 		{
 			id: "177352A8D84B84DF"
-			x: -4.63d
+			x: -4.73d
 			y: 12.0d
 			icon: {
 				id: "kaleidoscope_tavern:wine"
@@ -556,7 +556,7 @@
 		}
 		{
 			id: "542C0BD6BFE45F58"
-			x: -3.43d
+			x: -3.2d
 			y: 14.0d
 			icon: {
 				id: "kaleidoscope_tavern:riesling_dry_white"
@@ -587,7 +587,7 @@
 		}
 		{
 			id: "5CBBE76EDF47F8F0"
-			x: -7.93d
+			x: -9.25d
 			y: 14.0d
 			icon: {
 				id: "kaleidoscope_tavern:ice_wine"
@@ -610,7 +610,7 @@
 		}
 		{
 			id: "0C756FD9E8AF346E"
-			x: -6.43d
+			x: -7.75d
 			y: 14.0d
 			icon: {
 				id: "kaleidoscope_tavern:plum_wine"
@@ -632,7 +632,7 @@
 		}
 		{
 			id: "6D9A95B28D2C4F74"
-			x: -4.93d
+			x: -6.25d
 			y: 14.0d
 			icon: {
 				id: "kaleidoscope_tavern:sakura_wine"
@@ -654,7 +654,7 @@
 		}
 		{
 			id: "3A72E1A50291F70D"
-			x: -0.43d
+			x: -1.7d
 			y: 14.0d
 			icon: {
 				id: "kaleidoscope_tavern:honey_wine"
@@ -676,7 +676,7 @@
 		}
 		{
 			id: "5B33424B0ECD4CFA"
-			x: -3.98d
+			x: -3.42d
 			y: 16.0d
 			icon: {
 				id: "kaleidoscope_tavern:champagne"
@@ -698,7 +698,7 @@
 		}
 		{
 			id: "5743809CF716D8C4"
-			x: 2.39d
+			x: 2.09d
 			y: 12.0d
 			icon: {
 				id: "kaleidoscope_tavern:whiskey"
@@ -728,7 +728,7 @@
 		}
 		{
 			id: "492D20A9C0ACDAFB"
-			x: 1.07d
+			x: 1.3d
 			y: 14.0d
 			icon: {
 				id: "kaleidoscope_tavern:miners_star"
@@ -750,7 +750,7 @@
 		}
 		{
 			id: "2E8408FE150D07B3"
-			x: 2.57d
+			x: 2.8d
 			y: 14.0d
 			icon: {
 				id: "kaleidoscope_tavern:rum"
@@ -772,7 +772,7 @@
 		}
 		{
 			id: "6DFC3370388D49AD"
-			x: -0.86d
+			x: -1.27d
 			y: 12.0d
 			icon: {
 				id: "kaleidoscope_tavern:glowflower_brew"
@@ -794,7 +794,7 @@
 		}
 		{
 			id: "440F116D9D76E418"
-			x: -1.93d
+			x: -4.7d
 			y: 14.0d
 			icon: {
 				id: "kaleidoscope_tavern:shaker"
@@ -816,7 +816,7 @@
 		}
 		{
 			id: "674AADD480BA15B7"
-			x: -2.48d
+			x: -1.92d
 			y: 16.0d
 			icon: {
 				id: "kaleidoscope_tavern:mojito"
@@ -854,7 +854,7 @@
 		}
 		{
 			id: "7E6C9509DC80AD05"
-			x: -2.91d
+			x: -2.56d
 			y: 18.0d
 			icon: {
 				id: "kaleidoscope_tavern:godfather"
@@ -884,7 +884,7 @@
 		}
 		{
 			id: "1E90951D9EB2F090"
-			x: 4.07d
+			x: 4.3d
 			y: 14.0d
 			icon: {
 				id: "kaleidoscope_tavern:molotov"
@@ -906,7 +906,7 @@
 		}
 		{
 			id: "094B1E7E5B50DF5F"
-			x: 0.83d
+			x: 1.36d
 			y: 4.0d
 			icon: {
 				id: "kaleidoscope_tavern:bar_counter"
@@ -946,7 +946,7 @@
 		}
 		{
 			id: "42DF1C390579EC4F"
-			x: -0.28d
+			x: -0.54d
 			y: 6.0d
 			icon: {
 				id: "kaleidoscope_tavern:chalkboard"
@@ -977,7 +977,7 @@
 		}
 		{
 			id: "7C381E2BB42EE967"
-			x: 6.2d
+			x: 6.73d
 			y: 14.0d
 			shape: "gear"
 			icon: {
@@ -996,7 +996,7 @@
 		}
 		{
 			id: "2EA5A645C407811C"
-			x: 2.02d
+			x: 2.58d
 			y: 16.0d
 			icon: {
 				id: "kaleidoscope_world_liquor:freezer"
@@ -1018,7 +1018,7 @@
 		}
 		{
 			id: "73553D1D8AA3D3C5"
-			x: -0.98d
+			x: -0.42d
 			y: 16.0d
 			icon: {
 				id: "kaleidoscope_world_liquor:johnnie_walker"
@@ -1040,7 +1040,7 @@
 		}
 		{
 			id: "7838748B6AAAAB82"
-			x: 3.52d
+			x: 4.08d
 			y: 16.0d
 			icon: {
 				id: "kaleidoscope_world_liquor:bacardi_carta_blanca"
@@ -1062,7 +1062,7 @@
 		}
 		{
 			id: "31FA3D3C6810EC16"
-			x: 5.02d
+			x: 5.58d
 			y: 16.0d
 			icon: {
 				id: "kaleidoscope_world_liquor:skyy_vodka"
@@ -1084,7 +1084,7 @@
 		}
 		{
 			id: "171BD5D1C818D3A0"
-			x: 6.52d
+			x: 7.08d
 			y: 16.0d
 			icon: {
 				id: "kaleidoscope_world_liquor:spiryt_vodka"
@@ -1106,7 +1106,7 @@
 		}
 		{
 			id: "2EE9EE792C4B3F3D"
-			x: 8.02d
+			x: 8.58d
 			y: 16.0d
 			icon: {
 				id: "kaleidoscope_world_liquor:bombay_sapphire_gin"
@@ -1128,7 +1128,7 @@
 		}
 		{
 			id: "55A3DDFBA82995D2"
-			x: 9.52d
+			x: 10.08d
 			y: 16.0d
 			icon: {
 				id: "kaleidoscope_world_liquor:jack_daniel"
@@ -1150,7 +1150,7 @@
 		}
 		{
 			id: "35947C68BBFD5286"
-			x: 11.02d
+			x: 11.58d
 			y: 16.0d
 			icon: {
 				id: "kaleidoscope_world_liquor:sour_plum"
@@ -1172,7 +1172,7 @@
 		}
 		{
 			id: "18190B0286A8866C"
-			x: 12.52d
+			x: 13.08d
 			y: 16.0d
 			icon: {
 				id: "kaleidoscope_world_liquor:lafite_1982"
@@ -1194,7 +1194,7 @@
 		}
 		{
 			id: "4E40D32C54F5F31D"
-			x: 14.02d
+			x: 14.58d
 			y: 16.0d
 			icon: {
 				id: "kaleidoscope_world_liquor:highball"
@@ -1216,7 +1216,7 @@
 		}
 		{
 			id: "36BBA4C8DB43EF36"
-			x: 0.52d
+			x: 1.08d
 			y: 16.0d
 			icon: {
 				id: "kaleidoscope_world_liquor:long_island_iced_tea"
@@ -1238,7 +1238,7 @@
 		}
 		{
 			id: "1FA9B3F5B7EFC721"
-			x: 2.32d
+			x: 2.46d
 			y: 2.0d
 			shape: "gear"
 			icon: {
@@ -1258,7 +1258,7 @@
 		}
 		{
 			id: "080C5934726E33DE"
-			x: 3.83d
+			x: 4.36d
 			y: 4.0d
 			icon: {
 				id: "alcohol_industry:juice_press"
@@ -1280,7 +1280,7 @@
 		}
 		{
 			id: "0FF53F9A2D6D89EF"
-			x: 2.72d
+			x: 5.46d
 			y: 6.0d
 			icon: {
 				id: "alcohol_industry:fermentation_barrel"
@@ -1302,7 +1302,7 @@
 		}
 		{
 			id: "2CD7BF1036AB75F1"
-			x: 1.72d
+			x: 4.29d
 			y: 8.0d
 			icon: {
 				id: "alcohol_industry:cider"
@@ -1332,7 +1332,7 @@
 		}
 		{
 			id: "717633CCB2F04AEA"
-			x: 2.33d
+			x: 2.86d
 			y: 4.0d
 			icon: {
 				id: "alcohol_industry:alcohol_boiler"
@@ -1362,7 +1362,7 @@
 		}
 		{
 			id: "3E45B4C5A3DB0BCD"
-			x: 1.22d
+			x: 0.96d
 			y: 6.0d
 			icon: {
 				id: "alcohol_industry:alcohol_base"
@@ -1385,7 +1385,7 @@
 		}
 		{
 			id: "683D4677BD374F72"
-			x: -1.87d
+			x: -1.79d
 			y: 8.0d
 			icon: {
 				id: "alcohol_industry:vodka"
@@ -1439,7 +1439,7 @@
 		}
 		{
 			id: "7D3BE76293CB5F68"
-			x: -11.37d
+			x: -11.09d
 			y: 4.0d
 			shape: "gear"
 			icon: {
@@ -1471,7 +1471,7 @@
 		}
 		{
 			id: "3C5735C91E5C922E"
-			x: -14.02d
+			x: -14.58d
 			y: 6.0d
 			icon: {
 				id: "drinkbeer:recipe_board_package"
@@ -1493,7 +1493,7 @@
 		}
 		{
 			id: "5C833AD2CE23AAEF"
-			x: -12.52d
+			x: -13.08d
 			y: 6.0d
 			icon: {
 				id: "drinkbeer:beer_mug"
@@ -1515,7 +1515,7 @@
 		}
 		{
 			id: "48202788344C6D9C"
-			x: -11.02d
+			x: -11.58d
 			y: 6.0d
 			icon: {
 				id: "drinkbeer:beer_mug_blaze_stout"
@@ -1537,7 +1537,7 @@
 		}
 		{
 			id: "2598E46271DCA7EA"
-			x: -9.52d
+			x: -10.08d
 			y: 6.0d
 			icon: {
 				id: "drinkbeer:beer_mug_haars_icey_pale_lager"
@@ -1559,7 +1559,7 @@
 		}
 		{
 			id: "1D0D7C343781219B"
-			x: -8.02d
+			x: -8.58d
 			y: 6.0d
 			icon: {
 				id: "drinkbeer:beer_mug_night_howl_kvass"
@@ -1589,7 +1589,7 @@
 		}
 		{
 			id: "0722F7CEA7AA0EEE"
-			x: -11.78d
+			x: -12.21d
 			y: 8.0d
 			icon: {
 				id: "drinkbeer:bartending_table_normal"
@@ -1611,7 +1611,7 @@
 		}
 		{
 			id: "0B1EA8426566F433"
-			x: -11.36d
+			x: -11.77d
 			y: 10.0d
 			icon: {
 				id: "drinkbeer:spice_blaze_paprika"
@@ -1629,7 +1629,7 @@
 		}
 		{
 			id: "0C368A61B6CE3E5E"
-			x: -1.78d
+			x: -2.04d
 			y: 6.0d
 			icon: {
 				id: "drinkbeer:trade_box_normal"
@@ -1659,7 +1659,7 @@
 		}
 		{
 			id: "2EB31913B21AE3CD"
-			x: -2.91d
+			x: -2.56d
 			y: 20.0d
 			shape: "hexagon"
 			icon: {
@@ -1686,6 +1686,95 @@
 					id: "57AF9F6B60E77B13"
 					type: "xp_levels"
 					xp_levels: 15
+				}
+			]
+		}
+		{
+			id: "7E510BF78D55B904"
+			x: -6.77d
+			y: 16.0d
+			icon: {
+				id: "kaleidoscope_tavern:screwdriver"
+				count: 1
+			}
+			dependencies: [
+				"440F116D9D76E418"
+			]
+			tasks: [
+				{
+					id: "783993F93D121BF9"
+					type: "item"
+					item: {
+						count: 1
+						id: "kaleidoscope_tavern:screwdriver"
+					}
+				}
+			]
+		}
+		{
+			id: "4207770D4B3014EA"
+			x: -0.2d
+			y: 14.0d
+			icon: {
+				id: "kaleidoscope_tavern:vinegar"
+				count: 1
+			}
+			dependencies: [
+				"177352A8D84B84DF"
+			]
+			tasks: [
+				{
+					id: "13AA459328A959C6"
+					type: "item"
+					item: {
+						count: 1
+						id: "kaleidoscope_tavern:vinegar"
+					}
+				}
+			]
+		}
+		{
+			id: "6B2DE2614AA5C166"
+			x: 2.46d
+			y: 6.0d
+			icon: {
+				id: "kaleidoscope_tavern:cellar_cabinet"
+				count: 1
+			}
+			dependencies: [
+				"094B1E7E5B50DF5F"
+			]
+			tasks: [
+				{
+					id: "6FA22B441091D9C8"
+					type: "item"
+					item: {
+						count: 1
+						id: "kaleidoscope_tavern:cellar_cabinet"
+					}
+				}
+			]
+		}
+		{
+			id: "2DFB6FB24A7AA2CF"
+			x: 3.96d
+			y: 6.0d
+			icon: {
+				id: "alcohol_industry:glass_tube"
+				count: 1
+			}
+			dependencies: [
+				"717633CCB2F04AEA"
+			]
+			tasks: [
+				{
+					id: "43D075D74B780101"
+					type: "item"
+					item: {
+						count: 1
+						id: "alcohol_industry:glass_tube"
+					}
+					count: 4L
 				}
 			]
 		}

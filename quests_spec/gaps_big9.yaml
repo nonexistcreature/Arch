@@ -1,0 +1,69 @@
+# Key-item gaps: Mekanism, Mekanism Tools.
+extends: mekanism
+lang: [mekanism, mekanismtools]
+autodoc: description
+out: gaps_big9_gen
+quests:
+  - id: gmk_clumps
+    deps: [m_purify]
+    roles: [engineer]
+    items: [mekanism:clump_iron*4, mekanism:shard_iron*4]
+    title: {ru: "Ступени переработки руды", en: "Ore Processing Steps"}
+    why: {ru: "Очиститель даёт комки (×3 с руды), инжектор — осколки (×4), кристаллизатор — кристаллы (×5). Каждая ступень — новая машина и больше металла с той же руды.", en: "Clumps x3, shards x4, crystals x5: each step adds a machine and more metal."}
+  - id: gmk_modules_move
+    deps: [mg_modification]
+    roles: [engineer, warrior]
+    items: [mekanism:module_hydraulic_propulsion_unit, mekanism:module_locomotive_boosting_unit, mekanism:module_frost_walker_unit]
+    title: {ru: "Модули движения", en: "Movement Modules"}
+    why: {ru: "Гидравлика — высокий прыжок и защита от падения, ускоритель — быстрый бег, ледоход — замораживает воду под ногами.", en: "Jump, speed and frost-walking modules."}
+  - id: gmk_modules_tool
+    deps: [mg_meka_tool]
+    roles: [engineer]
+    items: [mekanism:module_excavation_escalation_unit, mekanism:module_farming_unit]
+    title: {ru: "Модули Мека-инструмента", en: "Meka-Tool Modules"}
+    why: {ru: "Ускорение копания и фермерский модуль (вспашка, снятие коры, тропинки) для Мека-инструмента.", en: "Faster digging and farming modes for the Meka-Tool."}
+  - id: gmk_module_food
+    title: {en: Nutritional Injection Unit, ru: 'Модуль: питательные инъекции'}
+    deps: [mg_modification]
+    roles: [engineer, cook]
+    items: [mekanism:module_nutritional_injection_unit]
+    why: {ru: "Модуль сам кормит тебя питательной пастой из шлема — голод больше не отвлекает.", en: "Feeds you nutritional paste automatically."}
+  - id: gmk_upgrades2
+    deps: [m_upgrades]
+    roles: [engineer]
+    items: [mekanism:upgrade_chemical, mekanism:upgrade_filter]
+    title: {ru: "Химическое и фильтрующее улучшения", en: "Chemical and Filter Upgrades"}
+    why: {en: Saves chemicals; the filter lets the pump separate heavy water., ru: 'Химическое улучшение экономит химикаты в машинах, фильтрующее — нужно электрическому насосу, чтобы отделять тяжёлую воду.'}
+  - id: gmk_ultimate
+    deps: [mg_factory_elite, mg_circuit_ultimate]
+    roles: [engineer]
+    items: [mekanism:ultimate_tier_installer, mekanism:ultimate_bin, mekanism:ultimate_induction_cell]
+    title: {ru: "Ультимативный уровень", en: "Ultimate Tier"}
+    why: {ru: "Ультимативные фабрики, хранилища и ячейки индукции — максимум Mekanism.", en: "The highest Mekanism tier."}
+  - id: gmk_qio_super
+    deps: [mg_qio_drives]
+    roles: [engineer]
+    items: [mekanism:qio_drive_supermassive]
+    why: {en: The largest QIO drive., ru: Сверхмассивный диск QIO хранит больше всех — для огромной базы.}
+  - id: gmk_disperser
+    deps: [m_boiler]
+    roles: [engineer]
+    items: [mekanism:pressure_disperser*4]
+  - id: gmk_paxels
+    deps: [m_paxel]
+    roles: [engineer]
+    items: [mekanismtools:bronze_paxel, mekanismtools:osmium_paxel, mekanismtools:lapis_lazuli_paxel]
+    title: {ru: "Паксели из разных металлов", en: "Paxels of Every Metal"}
+    why: {ru: "Паксель — кирка, топор и лопата в одном. Сделай его из того металла, который у тебя в избытке.", en: "Pickaxe, axe and shovel in one."}
+  - id: gmk_paxels_top
+    deps: [gmk_paxels]
+    roles: [engineer]
+    items: [mekanismtools:diamond_paxel, mekanismtools:netherite_paxel, mekanismtools:refined_glowstone_paxel, mekanismtools:refined_obsidian_paxel]
+    title: {ru: "Лучшие паксели", en: "Top Paxels"}
+    why: {en: 'Stronger, faster paxels.', ru: 'Алмазный, незеритовый, светокаменный и обсидиановый паксели — прочнее и быстрее.'}
+  - id: gmk_shields
+    deps: [mg_shields]
+    roles: [warrior]
+    items: [mekanismtools:osmium_shield, mekanismtools:refined_obsidian_shield]
+    title: {ru: "Осмиевый и обсидиановый щиты", en: "Osmium and Obsidian Shields"}
+    why: {en: Much tougher shields., ru: 'Щиты из осмия и очищенного обсидиана выдерживают намного больше ударов, чем деревянный.'}

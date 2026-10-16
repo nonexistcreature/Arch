@@ -38,7 +38,7 @@ hash = "9e82d832063149ed12d1751becd8f5fc3542d1b90ceb79022f6639dbf8e3be20"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/animals.snbt"
-hash = "eacebfd32c527457b03eca78b54528076d09dae54994cf185730fd5c17194f73"
+hash = "ae72d51d35d8556a11f077114bb10f08c0011ba4ff095183d457271eec14ded8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars.snbt"
@@ -58,7 +58,7 @@ hash = "3ca83a0c4450ab55f74a9f97d473fbecae7c4019f64028f1e2c1bf9787fb5a75"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brewery.snbt"
-hash = "9dd751ca1d4ffc6af1ffe40a86fe07bfca9c0b6254a4926515c16d39b503165e"
+hash = "cf9e66d258f2519d16f034be245feb595fe62b22a31427ab1e1f5080f55a58dc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
@@ -70,7 +70,7 @@ hash = "51c402bc0a17ad359e2cb89cbbd7a993d55d41c5481491dce841cbda44eb61d3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/city.snbt"
-hash = "354a37fca0909738241f3a446a12db71fdcb187aafa80fb7700260fae051cc48"
+hash = "9a6281f5d7e961ee4b42d3480ee70a77dd2a318f290a3e003b64ac691a697545"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/collections.snbt"
@@ -82,7 +82,7 @@ hash = "860d62a4aed136b821abf1c5d98a33efbf0434116f2f5e5384c35c30fe1a48c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_addons.snbt"
-hash = "9ff70bca34ce5a366a8dfe2c6fb13c33f66fd1fd9246cf1e4b2838cc7bc0cb66"
+hash = "cac243f3a55bb08ce50912d972d94e9ea86f345c08e8ae24ce1afc3d4f7a1cb5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dungeons.snbt"
@@ -134,7 +134,7 @@ hash = "03c455e629a18ca658953323092790534cbdb23edf958b6ed8c03aa8cc821dbb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "dc5c55862338e6d60dd40594902eb30ae8a26662c269e56824c8507e4592f383"
+hash = "64d7f0e0072ad290a4997f7807a3525b39b353977926771dbc8016aec9d3301f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/memo.snbt"
@@ -158,7 +158,7 @@ hash = "7f213e34d3b1318ceabc8cf7f95a9d972ae25a712fe08818a3b228b3144213db"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steel_oil.snbt"
-hash = "7327b44594ed67b224b86f831ef77dc81f5a8e2daab228c284c26ace4145b851"
+hash = "8e72999b49f5e1744eb7b01955b73c2c4032a1d3919c99443cc713e949f2f6cf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
@@ -194,11 +194,11 @@ hash = "462be260324d4e1288a1a4476d4de0ec35126e18a4ce443be04df10d784560c5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "7a5db90942d68de16c42b1f3c52c3c055d952ade4e0538c4848088c496773a46"
+hash = "b2ca20299cfe3e2b46c8281ac33bfa38999f76e87e7d9379d9c200b357d729c3"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "c575e52cef57e25843c5140c2a6acb47390ea055d75405240e7d36d98aecd31d"
+hash = "be6beb1b3e8f724b2d017ba5b101742b8fb2151e49358d7a4eb104c8ab715019"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -394,7 +394,7 @@ hash = "c11f7b38713be52de96e3c304a7750b5ff5bd441410dde2958022de95930d212"
 
 [[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
-hash = "c242400e16d1ad5a219dbbce26ed4034a7496615735c695bacef7b5a6cf7c7f0"
+hash = "b886927ee4c70d11e1cc4aa3e10d14a8168fa1ba3d3198bd6b7bf6b611ce08e3"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"

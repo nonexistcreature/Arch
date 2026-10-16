@@ -1,0 +1,81 @@
+# Key-item gaps: MineColonies tools, scrolls, guard gear and raid trophies (texts from the colony's own lang where present).
+extends: city
+lang: [minecolonies]
+autodoc: ["item.{ns}.{path}.tooltip", "com.minecolonies.coremod.item.{path}.tooltip"]
+out: gaps_city_gen
+quests:
+  - id: gcy_supply_chest
+    deps: [city_supply]
+    roles: [mayor]
+    items: [minecolonies:supplychestdeployer]
+    title: {ru: "Сундук с припасами", en: "Supply Chest"}
+    why: {ru: "Сундук с припасами — колонию можно начать на земле, а не на корабле. Внутри всё нужное для ратуши.", en: "Start a colony on land; holds what the town hall needs."}
+  - id: gcy_scepters
+    deps: [city_guard]
+    roles: [mayor, warrior]
+    items: [minecolonies:scepterguard, minecolonies:banner_rally_guards]
+    title: {ru: "Скипетр стражи и знамя сбора", en: "Guard Scepter and Rally Banner"}
+    why: {ru: "Скипетр указывает стражникам, где патрулировать и что охранять. Знамя сбора зовёт всю стражу к тебе — например, на рейд.", en: "Direct guard patrols; the banner rallies all guards to you."}
+  - id: gcy_work_scepters
+    deps: [city_lumber]
+    roles: [mayor]
+    items: [minecolonies:scepterlumberjack, minecolonies:scepterbeekeeper]
+    title: {ru: "Скипетры работников", en: "Worker Scepters"}
+    why: {ru: "Скипетром задаёшь лесорубу участок вырубки, пчеловоду — его ульи.", en: "Set the lumberjack's area and the beekeeper's hives."}
+  - id: gcy_permissions
+    deps: [city_townhall]
+    roles: [mayor]
+    items: [minecolonies:scepterpermission]
+    why: {ru: "Скипетр прав отмечает блоки, которые чужие игроки могут или не могут трогать в колонии.", en: "Mark blocks others may or may not touch."}
+  - id: gcy_clipboard
+    deps: [city_builder]
+    roles: [mayor]
+    items: [minecolonies:clipboard, minecolonies:resourcescroll]
+    title: {ru: "Планшет и свиток ресурсов", en: "Clipboard and Resource Scroll"}
+    why: {ru: "Планшет показывает все запросы жителей, свиток ресурсов — что нужно строителю для текущей стройки.", en: "See citizens' requests and what the builder needs."}
+  - id: gcy_questlog
+    deps: [city_townhall]
+    roles: [mayor]
+    items: [minecolonies:questlog]
+    why: {ru: "Журнал заданий от жителей колонии: помоги им — получишь награды и рост колонии.", en: "Citizens' quests for rewards."}
+  - id: gcy_scrolls
+    deps: [city_university]
+    roles: [mayor, mage]
+    items: [minecolonies:scroll_tp, minecolonies:scroll_area_tp]
+    title: {ru: "Свитки телепорта колонии", en: "Colony Teleport Scrolls"}
+    why: {ru: "Свиток телепорта возвращает тебя в колонию, свиток площадного телепорта — тебя и спутников рядом.", en: "Teleport back to your colony, alone or with friends."}
+  - id: gcy_scrolls_guard
+    deps: [gcy_scrolls]
+    roles: [mayor, warrior]
+    items: [minecolonies:scroll_guard_help, minecolonies:scroll_buff]
+    title: {ru: "Свитки помощи стражи и баффа", en: "Guard Help and Buff Scrolls"}
+    why: {en: Summon colony guards or get a buff., ru: 'Свиток помощи стражи призывает стражников колонии к тебе, свиток баффа даёт усиление. Свойства — в подсказках.'}
+  - id: gcy_hammer
+    deps: [city_builder]
+    roles: [builder]
+    items: [minecolonies:assistanthammer_diamond]
+    title: {ru: "Молот помощника", en: "Assistant's Hammer"}
+    why: {en: A builder's helper tool., ru: Молот помощника строителя — инструмент для ремонта и стройки в колонии.}
+  - id: gcy_sifter
+    deps: [cyg_sifter]
+    roles: [engineer]
+    items: [minecolonies:sifter_mesh_diamond]
+    why: {ru: "Алмазное сито у просеивателя даёт самый ценный улов из гравия и песка.", en: "The diamond mesh gives the sifter's best results."}
+  - id: gcy_guard_armor
+    deps: [city_guard]
+    roles: [warrior]
+    items: [minecolonies:plate_armor_chest]
+    title: {ru: "Латные доспехи", en: "Plate Armor"}
+    why: {en: Heavy colony armor made by the blacksmith., ru: 'Латные доспехи — тяжёлая броня колонии, её куёт кузнец для стражников и для тебя.'}
+  - id: gcy_raids
+    deps: [el_raid]
+    roles: [warrior]
+    items: [minecolonies:pirate_top, minecolonies:chiefsword, minecolonies:iron_scimitar]
+    title: {ru: "Трофеи рейдов", en: "Raid Trophies"}
+    why: {ru: "Пираты, варвары и другие налётчики нападают на колонию. С их вожаков падают сабли, мечи вождей и пиратская одежда.", en: "Raiders drop scimitars, chief swords and pirate clothes."}
+  - id: gcy_adventure
+    deps: [city_tavern]
+    roles: [warrior, mayor]
+    items: [minecolonies:adventure_token, minecolonies:ancienttome]
+    title: {ru: "Жетон приключений и древний фолиант", en: "Adventure Token and Ancient Tome"}
+    why: {en: Special colony items; see tooltips., ru: 'Жетон приключений и древний фолиант — особые предметы колонии. Для чего они, смотри в подсказке.'}

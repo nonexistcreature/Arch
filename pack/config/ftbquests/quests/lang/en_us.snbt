@@ -1213,6 +1213,22 @@
 	quest.2EB31913B21AE3CD.quest_desc: [
 		"Vineyard, cellar, distillery and a bar people visit for buffs, not hangovers."
 	]
+	quest.7E510BF78D55B904.title: "Screwdriver Cocktail"
+	quest.7E510BF78D55B904.quest_desc: [
+		"&lWhy:&r A cocktail with a special effect; see the tooltip."
+	]
+	quest.4207770D4B3014EA.title: "Vinegar"
+	quest.4207770D4B3014EA.quest_desc: [
+		"&lWhy:&r A tavern drink with mixed effects; see JEI."
+	]
+	quest.6B2DE2614AA5C166.title: "Cellar Cabinet"
+	quest.6B2DE2614AA5C166.quest_desc: [
+		"&lWhy:&r Tavern-style bottle storage."
+	]
+	quest.2DFB6FB24A7AA2CF.title: "Glass Tubes"
+	quest.2DFB6FB24A7AA2CF.quest_desc: [
+		"&lWhy:&r Distillery machine parts; see JEI."
+	]
 	chapter.62164B6D488C1BD6.title: "Garden, Seasons, Harvest"
 	chapter.62164B6D488C1BD6.chapter_subtitle: [
 		"From a seed to resources for everyone"
@@ -1835,6 +1851,18 @@
 	quest.0DAC3AF64FFE2CD1.title: "Rocket and Arrows"
 	quest.0DAC3AF64FFE2CD1.quest_desc: [
 		"Craft an Enderiophage Rocket, which can be used in place of Firework Rockets when in the End."
+	]
+	quest.582C26B2EB01DD48.title: "Bee Nest Helmet"
+	quest.582C26B2EB01DD48.quest_desc: [
+		"&lWhy:&r A helmet that houses bees."
+	]
+	quest.60C6CD2E3D6F56D8.title: "Treat on a Stick"
+	quest.60C6CD2E3D6F56D8.quest_desc: [
+		"&lWhy:&r Lead bees to a new hive."
+	]
+	quest.4CC5ECBCE03B9F9D.title: "Angry Bee Bomb"
+	quest.4CC5ECBCE03B9F9D.quest_desc: [
+		"&lWhy:&r Releases angry bees at enemies."
 	]
 	quest.3CB255952686B6BA.title: "Productive Bees"
 	quest.3CB255952686B6BA.quest_desc: [
@@ -3060,6 +3088,24 @@
 	quest.00873309DE18E102.quest_desc: [
 		"&lWhy:&r A smithing upgrade template; check JEI for what it upgrades."
 	]
+	quest.5FA6B30550B2572F.title: "Radar Filters"
+	quest.5FA6B30550B2572F.quest_desc: [
+		"&lWhy:&r Filters set what the radar sees and what the guns may shoot."
+		"Allows you to exclude certain categories of Mobs and other Entities from appearing on the Monitor. Filtered Entities will also be excluded from autotargeting. Can be placed in the Network Controller"
+	]
+	quest.1D57B247EE85D8DE.title: "Fire Controller"
+	quest.1D57B247EE85D8DE.quest_desc: [
+		"&lWhy:&r Signals to fire when the cannon is on target."
+		"Emits a Redstone Signal when the linked Cannon Mount aligned"
+	]
+	quest.6F85F4F33C2ACFC7.title: "Guided Fuze"
+	quest.6F85F4F33C2ACFC7.quest_desc: [
+		"&lWhy:&r A guided fuze for Big Cannons shells."
+	]
+	quest.06A3EB4FBC11E637.title: "Radar Warning Receiver and Binoculars"
+	quest.06A3EB4FBC11E637.quest_desc: [
+		"&lWhy:&r Warns when a radar locks on you; binoculars for scouting."
+	]
 	chapter.75D3C2A26C328D05.title: "Sky & Roads"
 	chapter.75D3C2A26C328D05.chapter_subtitle: [
 		"Cars, planes, airships, citadels"
@@ -3463,6 +3509,53 @@
 	quest.2F41F701DA7CC5C7.title: "MekaSuit Generator Modules"
 	quest.2F41F701DA7CC5C7.quest_desc: [
 		"Harnesses geothermal energy from the surrounding environment, and improves protection against damage from heat sources. Install multiple for faster charging and greater protection."
+	]
+	quest.7814FE8A1FF3E4D1.title: "Ore Processing Steps"
+	quest.7814FE8A1FF3E4D1.quest_desc: [
+		"&lWhy:&r Clumps x3, shards x4, crystals x5: each step adds a machine and more metal."
+	]
+	quest.47E9C9D271A076CD.title: "Movement Modules"
+	quest.47E9C9D271A076CD.quest_desc: [
+		"&lWhy:&r Jump, speed and frost-walking modules."
+		"Allows the user to both step and jump higher."
+	]
+	quest.611DC964C3D8F6D3.title: "Meka-Tool Modules"
+	quest.611DC964C3D8F6D3.quest_desc: [
+		"&lWhy:&r Faster digging and farming modes for the Meka-Tool."
+		"Increases digging speed on any block."
+	]
+	quest.15B3583D0C6CB9B2.title: "Nutritional Injection Unit"
+	quest.15B3583D0C6CB9B2.quest_desc: [
+		"&lWhy:&r Feeds you nutritional paste automatically."
+		"Automatically feeds the player Nutritional Paste when hungry."
+	]
+	quest.20A46F952CDAC476.title: "Chemical and Filter Upgrades"
+	quest.20A46F952CDAC476.quest_desc: [
+		"&lWhy:&r Saves chemicals; the filter lets the pump separate heavy water."
+	]
+	quest.043B2823A11D9FD5.title: "Ultimate Tier"
+	quest.043B2823A11D9FD5.quest_desc: [
+		"&lWhy:&r The highest Mekanism tier."
+	]
+	quest.533064096A370900.title: "Supermassive QIO Drive"
+	quest.533064096A370900.quest_desc: [
+		"&lWhy:&r The largest QIO drive."
+	]
+	quest.199A6102437B1524.title: "Pressure Disperser"
+	quest.199A6102437B1524.quest_desc: [
+		"A block used to disperse steam throughout a multiblock structure. These should form a gapless, horizontal plane in order to properly control steam flow."
+	]
+	quest.2302683E0AF58920.title: "Paxels of Every Metal"
+	quest.2302683E0AF58920.quest_desc: [
+		"&lWhy:&r Pickaxe, axe and shovel in one."
+	]
+	quest.7E6A60436C19DD1E.title: "Top Paxels"
+	quest.7E6A60436C19DD1E.quest_desc: [
+		"&lWhy:&r Stronger, faster paxels."
+	]
+	quest.080B07D462567AE2.title: "Osmium and Obsidian Shields"
+	quest.080B07D462567AE2.quest_desc: [
+		"&lWhy:&r Much tougher shields."
 	]
 	quest.202B14FABDF1BEBE.title: "The Crusher"
 	quest.202B14FABDF1BEBE.quest_desc: [
@@ -4149,6 +4242,54 @@
 		"&lWhat:&r factories, diesel and steam engines emit &lsmog&r. Wind spreads it; it harms crops and animals."
 		"&lHow to fight it:&r forests and flowers absorb pollution; filters and tall stacks disperse it; electricity is cleaner than diesel."
 		"&lTip:&r keep heavy industry far from the gardener's farm — and the friendship survives."
+	]
+	quest.08D1F8C3268E820C.title: "Lead, Nickel and Constantan"
+	quest.08D1F8C3268E820C.quest_desc: [
+		"&lWhy:&r Metals for wires, resistors and batteries."
+	]
+	quest.79C37A1E956EFC38.title: "Magnetic Alloy and Magnet"
+	quest.79C37A1E956EFC38.quest_desc: [
+		"&lWhy:&r Needed for generators and motors."
+		"Striking this with a lightning might do something..."
+	]
+	quest.21AC08644F7AA882.title: "Electromagnetic Coil"
+	quest.21AC08644F7AA882.quest_desc: [
+		"&lWhy:&r The heart of TFMG generators and motors."
+	]
+	quest.1118E3AA8AD3AE2C.title: "Silicon and Semiconductors"
+	quest.1118E3AA8AD3AE2C.quest_desc: [
+		"&lWhy:&r For transistors and diodes."
+	]
+	quest.23A0E6259CDB0A85.title: "Potentiometer and Voltage Observer"
+	quest.23A0E6259CDB0A85.quest_desc: [
+		"&lWhy:&r Regulate current; output redstone by voltage."
+		"Lets through a only a set amount of voltage"
+	]
+	quest.00D95E7C6EC86641.title: "Engine Gearbox"
+	quest.00D95E7C6EC86641.quest_desc: [
+		"&lWhy:&r Changes the engine's speed and torque."
+	]
+	quest.024166A4231DAB37.title: "Graphite Electrode"
+	quest.024166A4231DAB37.quest_desc: [
+		"&lWhy:&r For electrolysis in the chemical vat."
+	]
+	quest.2EA10E82432BB4A4.title: "Lithium Blade"
+	quest.2EA10E82432BB4A4.quest_desc: [
+		"&lWhy:&r A TFMG weapon; see the tooltip."
+		"Using _Steel Ingot_Lithium Charges_, this Blade is set aflame burning enemies and shooting out Bolts of Hellfire"
+	]
+	quest.213FC5B2043457C4.title: "Quad Cannon and Napalm"
+	quest.213FC5B2043457C4.quest_desc: [
+		"&lWhy:&r Sets everything on fire; wilds only."
+		"Launches 4 of your home-grown vegetables at Enemies. Can be powered with Air Pressure from a Backtank"
+	]
+	quest.235905FBA210D954.title: "Improvised Explosives"
+	quest.235905FBA210D954.quest_desc: [
+		"&lWhy:&r Wilds only."
+	]
+	quest.179E11B92AD3A1E5.title: "Aluminum Sword"
+	quest.179E11B92AD3A1E5.quest_desc: [
+		"&lWhy:&r An aluminium sword; see its stats."
 	]
 	quest.2D96DA6CA12C02D3.title: "Derrick"
 	quest.2D96DA6CA12C02D3.quest_desc: [
@@ -9373,6 +9514,58 @@
 	quest.076FE4C58EDAB8E3.title: "Villagers in Your Pocket"
 	quest.076FE4C58EDAB8E3.quest_desc: [
 		"Easy Villagers: pick up a villager as an item and place it in a trader block. A compact market without huge pens."
+	]
+	quest.04CE5479A8E63247.title: "Supply Chest"
+	quest.04CE5479A8E63247.quest_desc: [
+		"&lWhy:&r Start a colony on land; holds what the town hall needs."
+	]
+	quest.11312A89EB76EF36.title: "Guard Scepter and Rally Banner"
+	quest.11312A89EB76EF36.quest_desc: [
+		"&lWhy:&r Direct guard patrols; the banner rallies all guards to you."
+	]
+	quest.176F04FFF58F345A.title: "Worker Scepters"
+	quest.176F04FFF58F345A.quest_desc: [
+		"&lWhy:&r Set the lumberjack's area and the beekeeper's hives."
+	]
+	quest.3D1C08116326A910.title: "Permission Scepter"
+	quest.3D1C08116326A910.quest_desc: [
+		"&lWhy:&r Mark blocks others may or may not touch."
+	]
+	quest.15EBA2F3758CE2F6.title: "Clipboard and Resource Scroll"
+	quest.15EBA2F3758CE2F6.quest_desc: [
+		"&lWhy:&r See citizens' requests and what the builder needs."
+	]
+	quest.3176B6000E761BD0.title: "Quest Log"
+	quest.3176B6000E761BD0.quest_desc: [
+		"&lWhy:&r Citizens' quests for rewards."
+	]
+	quest.4B94834644E17A9E.title: "Colony Teleport Scrolls"
+	quest.4B94834644E17A9E.quest_desc: [
+		"&lWhy:&r Teleport back to your colony, alone or with friends."
+	]
+	quest.25C51B370830FCDD.title: "Guard Help and Buff Scrolls"
+	quest.25C51B370830FCDD.quest_desc: [
+		"&lWhy:&r Summon colony guards or get a buff."
+	]
+	quest.562706F3544EBF16.title: "Assistant's Hammer"
+	quest.562706F3544EBF16.quest_desc: [
+		"&lWhy:&r A builder's helper tool."
+	]
+	quest.0D40122E46E5623F.title: "Diamond Mesh"
+	quest.0D40122E46E5623F.quest_desc: [
+		"&lWhy:&r The diamond mesh gives the sifter's best results."
+	]
+	quest.18893567C92FA5B5.title: "Plate Armor"
+	quest.18893567C92FA5B5.quest_desc: [
+		"&lWhy:&r Heavy colony armor made by the blacksmith."
+	]
+	quest.784451E42213A344.title: "Raid Trophies"
+	quest.784451E42213A344.quest_desc: [
+		"&lWhy:&r Raiders drop scimitars, chief swords and pirate clothes."
+	]
+	quest.2500319E6F072B5B.title: "Adventure Token and Ancient Tome"
+	quest.2500319E6F072B5B.quest_desc: [
+		"&lWhy:&r Special colony items; see tooltips."
 	]
 	quest.0FD8FAF0813FFD2A.title: "Residence"
 	quest.0FD8FAF0813FFD2A.quest_desc: [
