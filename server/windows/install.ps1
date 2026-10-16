@@ -53,7 +53,7 @@ max-tick-time=-1
 enable-rcon=false
 "@ | Write-Utf8 "$Dir\server\server.properties"
 }
-"-Xms4G -Xmx$Memory -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:InitiatingHeapOccupancyPercent=15" | Set-Content user_jvm_args.txt -Encoding ascii
+"-Xms4G -Xmx$Memory -Dneoforge.readTimeout=120 -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:InitiatingHeapOccupancyPercent=15" | Set-Content user_jvm_args.txt -Encoding ascii
 $PackUrl | Set-Content "$Dir\pack_url.txt" -Encoding ascii
 Copy-Item "$PSScriptRoot\start.cmd", "$PSScriptRoot\backup.ps1", "$PSScriptRoot\LanAnnounce.java", "$PSScriptRoot\zerotier-host.ps1" $Dir -Force
 
