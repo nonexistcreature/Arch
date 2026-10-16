@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "1FC1E9E294DB3C6B"
-			x: -3.75d
+			x: -3.79d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -35,7 +35,7 @@
 		}
 		{
 			id: "08468A16A473B47D"
-			x: -6.75d
+			x: -6.94d
 			y: 2.0d
 			icon: {
 				id: "buildinggadgets2:gadget_exchanging"
@@ -58,7 +58,7 @@
 		}
 		{
 			id: "7402AF2B28E1AB7A"
-			x: -5.25d
+			x: -5.44d
 			y: 2.0d
 			icon: {
 				id: "framedblocks:framed_hammer"
@@ -81,7 +81,7 @@
 		}
 		{
 			id: "40339AC01B286C60"
-			x: 3.75d
+			x: 3.94d
 			y: 0.0d
 			icon: {
 				id: "handcrafted:oak_table"
@@ -111,7 +111,7 @@
 		}
 		{
 			id: "1FBC13A5E0BD957F"
-			x: -3.75d
+			x: -3.94d
 			y: 2.0d
 			icon: {
 				id: "create:schematicannon"
@@ -131,7 +131,7 @@
 		}
 		{
 			id: "3E5505B24DA3089B"
-			x: 0.75d
+			x: 0.94d
 			y: 2.0d
 			shape: "gear"
 			icon: {
@@ -157,7 +157,7 @@
 		}
 		{
 			id: "7B52108951988BE5"
-			x: -2.25d
+			x: -2.06d
 			y: 2.0d
 			icon: {
 				id: "buildinggadgets2:gadget_copy_paste"
@@ -180,7 +180,7 @@
 		}
 		{
 			id: "0681C2FB1DAC97D3"
-			x: -0.75d
+			x: -0.56d
 			y: 2.0d
 			icon: {
 				id: "buildinggadgets2:gadget_destruction"
@@ -203,7 +203,7 @@
 		}
 		{
 			id: "2FEDA2D18C4D62F6"
-			x: 2.25d
+			x: 2.44d
 			y: 2.0d
 			icon: {
 				id: "mcwroofs:oak_roof"
@@ -243,7 +243,7 @@
 		}
 		{
 			id: "15BAB63916C275B3"
-			x: 2.25d
+			x: 2.1d
 			y: 4.0d
 			icon: {
 				id: "mcwbridges:oak_log_bridge_middle"
@@ -267,7 +267,7 @@
 		}
 		{
 			id: "3D8B8BAB6142D975"
-			x: 3.75d
+			x: 3.94d
 			y: 2.0d
 			icon: {
 				id: "supplementaries:sack"
@@ -306,7 +306,7 @@
 		}
 		{
 			id: "3603241567DE82A5"
-			x: 5.25d
+			x: 5.44d
 			y: 2.0d
 			icon: {
 				id: "createdeco:andesite_catwalk"
@@ -331,7 +331,7 @@
 		}
 		{
 			id: "5AC27D5E66DB6566"
-			x: -5.25d
+			x: -5.62d
 			y: 4.0d
 			icon: {
 				id: "copycats:copycat_block"
@@ -355,7 +355,7 @@
 		}
 		{
 			id: "121BFA9789E6622A"
-			x: 6.75d
+			x: 6.94d
 			y: 2.0d
 			icon: {
 				id: "interiors:red_chair"
@@ -369,6 +369,58 @@
 				{
 					id: "6C11A4273A1AE764"
 					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "2922A56E8299FD34"
+			x: -2.62d
+			y: 4.0d
+			icon: {
+				id: "buildinggadgets2:gadget_cut_paste"
+				count: 1
+			}
+			dependencies: [
+				"7B52108951988BE5"
+			]
+			tasks: [
+				{
+					id: "23C158DA54EF37A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+					}
+				}
+			]
+		}
+		{
+			id: "468E511E23796D9D"
+			x: -1.12d
+			y: 4.0d
+			icon: {
+				id: "buildinggadgets2:template"
+				count: 1
+			}
+			dependencies: [
+				"7B52108951988BE5"
+			]
+			tasks: [
+				{
+					id: "31C593236CA264DC"
+					type: "item"
+					item: {
+						count: 1
+						id: "buildinggadgets2:template"
+					}
+				}
+				{
+					id: "3021EF0653D7E356"
+					type: "item"
+					item: {
+						count: 1
+						id: "buildinggadgets2:redprint"
+					}
 				}
 			]
 		}

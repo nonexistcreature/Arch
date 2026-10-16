@@ -1,0 +1,30 @@
+# Key-item gaps: dragon plating (our handshake), Critters and Companions (animals chapter).
+extends: animals
+lang: [arkhaven, crittersandcompanions]
+autodoc: ["item.{ns}.{path}.tooltip", "item.{ns}.{path}.desc"]
+out: gaps_final3_gen
+quests:
+  - id: gak_dragon_plating
+    deps: [a_dragon_armor]
+    roles: [warrior, engineer]
+    items: [arkhaven:dragon_plating*7]
+    title: {ru: "Драконья обшивка", en: "Dragon Plating"}
+    why: {ru: "Сталь + крокодилья чешуя (Alex's Mobs) или сталь + усиленный сплав (Mekanism). Семь пластин — и броня для твоего дракона без поиска редкой брони. Охотник и инженер одевают дракона вместе.", en: "Steel + crocodile scutes or reinforced alloy; seven plates make dragon armor."}
+  - id: gcc2_dragonfly_armor
+    deps: [a_dragonfly]
+    roles: [breeder]
+    items: [crittersandcompanions:iron_dragonfly_armor]
+    title: {ru: "Броня для стрекозы", en: "Dragonfly Armor"}
+    why: {ru: "Броня для приручённой стрекозы — она становится крепче и дольше живёт рядом с тобой.", en: "Armor makes your tamed dragonfly tougher."}
+  - id: gcc2_grapple
+    deps: [a_pets]
+    roles: [warrior]
+    items: [crittersandcompanions:grappling_hook]
+    title: {ru: "Абордажный крюк", en: "Grappling Hook"}
+    why: {en: Hook onto blocks and pull yourself over., ru: Абордажный крюк Critters and Companions — цепляйся и подтягивайся к блокам.}
+  - id: gcc2_pearls
+    deps: [be_koi]
+    roles: [breeder, mage]
+    items: [crittersandcompanions:clam, crittersandcompanions:pearl_necklace_1]
+    title: {ru: "Ракушки и жемчужное ожерелье", en: "Clams and Pearl Necklace"}
+    why: {ru: "Ракушки дают жемчуг, ожерелье из жемчуга — аксессуар с эффектом (смотри подсказку).", en: "Clams give pearls; the necklace is an accessory."}

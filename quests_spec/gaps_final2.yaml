@@ -1,0 +1,17 @@
+# Key-item gaps: our own sky handshake items (recipes from kubejs/server_scripts/30_handshakes.js).
+extends: sky
+lang: [arkhaven]
+out: gaps_final2_gen
+quests:
+  - id: gak_waxed_canvas
+    deps: [s_envelopes]
+    roles: [breeder, builder, engineer]
+    items: [arkhaven:waxed_canvas*4]
+    title: {ru: "Пропитанная ткань", en: "Waxed Canvas"}
+    why: {ru: "Две шерсти + два воска пчёл (или лён Meadow + воск, или шерсть + пластик Mekanism). Из 2 тканей и 2 палок выходит 12 оболочек дирижабля — намного дешевле обычного рецепта. Пастух и пчеловод снабжают авиаконструктора.", en: "Wool + bee wax (or linen, or plastic): 12 airship envelopes from 2 canvas."}
+  - id: gak_aero_lubricant
+    deps: [s_biplane]
+    roles: [engineer]
+    items: [arkhaven:aero_lubricant*2]
+    title: {ru: "Лётная смазка", en: "Aero Lubricant"}
+    why: {ru: "Без лётной смазки не собрать двигатель самолёта Immersive Aircraft. Делают её в смесителе Create из сырой рыбы, или разливают в бутылки смазку TFMG либо Immersive Petroleum. Рыбак или нефтяник снабжает пилота.", en: "Needed for aircraft engines: mixed from raw fish, or bottled from TFMG/IP lubricant."}

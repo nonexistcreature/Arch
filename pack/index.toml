@@ -38,7 +38,7 @@ hash = "9e82d832063149ed12d1751becd8f5fc3542d1b90ceb79022f6639dbf8e3be20"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/animals.snbt"
-hash = "ae72d51d35d8556a11f077114bb10f08c0011ba4ff095183d457271eec14ded8"
+hash = "cbff76147b5bd7ba80ede84b1573a6a6a7f177796744402439b51a7091559283"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars.snbt"
@@ -62,7 +62,7 @@ hash = "cf9e66d258f2519d16f034be245feb595fe62b22a31427ab1e1f5080f55a58dc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
-hash = "6f55e2f724ce2845cba351443e474b3e176d05748568b51e164243b452e28a32"
+hash = "c1d6160d4317bc4c0e49811064d2d9aa1c433281fc543d3f71dc980b811c5855"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
@@ -70,7 +70,7 @@ hash = "51c402bc0a17ad359e2cb89cbbd7a993d55d41c5481491dce841cbda44eb61d3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/city.snbt"
-hash = "9a6281f5d7e961ee4b42d3480ee70a77dd2a318f290a3e003b64ac691a697545"
+hash = "a89c7b37f9689e5d932aa6782292dad04544101e07dd6e8705020339bad2417d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/collections.snbt"
@@ -90,7 +90,7 @@ hash = "c5e653c4ee977d12e30a71913fe358af86fe637a6dbe9d7bd4ab823025cf50c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/elements.snbt"
-hash = "d251c41d9abbcc55daff8f305c94b0ed5270542d568097eb4addaafd5a6aa8f5"
+hash = "69b83c3b8471cb53998a710d42d89362d3b2848d607c1241f29a9f64b22e05dc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/festivals.snbt"
@@ -110,7 +110,7 @@ hash = "17a8bce6622dae47bef916433a7a8afe156bad3f306cabf3644b9a9228075ddd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/garden.snbt"
-hash = "0a362de08700e9e6fc5c0eea2d2ebae2522bebcd684317b4ce84aade37ce3fe8"
+hash = "d74f9b0cd700922aa2496afb9f441d6a15d3fd7eab8796750734b4df7c848610"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/great_works.snbt"
@@ -126,11 +126,11 @@ hash = "055cac1dafe347f9b8dcceffc1e8bff901c88398e72887ff7ad8806b50bc742d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons.snbt"
-hash = "7a7df72097eca0f011e92f7ddadfaf2ce49ccc3b5e36b94443a389cd29f9b216"
+hash = "c810617b4506dd11176bc4b6c0dff9f82309c37e9530bf4b530110cb6135980e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kitchen.snbt"
-hash = "03c455e629a18ca658953323092790534cbdb23edf958b6ed8c03aa8cc821dbb"
+hash = "366d61c4c7b835ca154d2fe3bad521213f02f093d3f47811d1ab31aba5b9f435"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
@@ -146,7 +146,7 @@ hash = "0aa6b2d923374839773c070a3d60ad186b8e513f65e00dff80c81c785808bcf9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/origins.snbt"
-hash = "7b6543b42e331d359205a3a17d89b0aedd3531cd45b9005e59aa03999fb3b330"
+hash = "17e7f054763593a1c982a4fe99287e60857a78ed5899e8bdc521d50ae7a2f896"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/path.snbt"
@@ -154,7 +154,7 @@ hash = "573fcaf07a717e32e6c92ba2811583c697b43345fb254b9f771e173013e09715"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sky.snbt"
-hash = "7f213e34d3b1318ceabc8cf7f95a9d972ae25a712fe08818a3b228b3144213db"
+hash = "dc918d799333e0aa215edaf45c2f6d9207f746d6220664a70f66534ee763105e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steel_oil.snbt"
@@ -194,11 +194,11 @@ hash = "462be260324d4e1288a1a4476d4de0ec35126e18a4ce443be04df10d784560c5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "43a2bf1016cfc423ff7be19449872278ae913308d39ef7051566c9fec03fe2b3"
+hash = "625faf6377b27c0918b9173377d477dd4043263a0e7ea9fc3c39202283e6f455"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "02bdcd328c8d53cda09c293ef985ee7d4278835a0efa07a73fa3fad9a4908f30"
+hash = "341126798564e7f85ad6e15a7422ca2e5027038cdac3ab050f80efed8cb4c046"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -394,7 +394,7 @@ hash = "c11f7b38713be52de96e3c304a7750b5ff5bd441410dde2958022de95930d212"
 
 [[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
-hash = "c9fa1ce811480a63efd21cb54d97b0e4750351cd669c793ee90744e41251ade0"
+hash = "8dc1402880ae63a6efd6e17c9fca5c239e85399278c370720a4ace503bb6d938"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"

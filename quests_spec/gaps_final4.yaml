@@ -1,0 +1,42 @@
+# Key-item gaps: Farmer's Respite, Cooking for Blockheads (kitchen chapter).
+extends: kitchen
+lang: [farmersrespite, cookingforblockheads]
+autodoc: ["tooltip.{ns}.{path}", "item.{ns}.{path}.tooltip", "{ns}.tooltip.{path}"]
+out: gaps_final4_gen
+quests:
+  - id: gfr_tea_crops
+    deps: [g_tea_coffee]
+    roles: [gardener]
+    items: [farmersrespite:tea_seeds*4, farmersrespite:coffee_berries*4]
+    title: {ru: "Чай и кофе на грядке", en: "Tea and Coffee Crops"}
+    why: {ru: "Чайный куст и кофейные ягоды растут у садовода — сырьё для бодрящих напитков.", en: "Tea bushes and coffee berries."}
+  - id: gfr_tea_leaves
+    deps: [gfr_tea_crops]
+    roles: [cook]
+    items: [farmersrespite:green_tea_leaves*4, farmersrespite:yellow_tea_leaves*4, farmersrespite:black_tea_leaves*4]
+    title: {ru: "Три вида чайного листа", en: "Three Tea Leaves"}
+    why: {ru: "Зелёный лист сохнет в жёлтый, жёлтый — в чёрный. Каждый лист — свой чай со своим эффектом.", en: "Green dries to yellow, yellow to black: each is a different tea."}
+  - id: gfr_dishes
+    deps: [k_tea]
+    roles: [cook]
+    items: [farmersrespite:blazing_chili, farmersrespite:tea_curry]
+    title: {ru: "Острый перец и чайное карри", en: "Blazing Chili and Tea Curry"}
+    why: {en: Spicy Farmer's Respite dishes; see tooltips., ru: Пылающий перец и карри с чаем — острые блюда Farmer's Respite. Эффекты — в подсказках.}
+  - id: gcfb_appliances
+    deps: [k_cfb_oven]
+    roles: [cook]
+    items: [cookingforblockheads:heating_unit, cookingforblockheads:ice_unit, cookingforblockheads:preservation_chamber]
+    title: {ru: "Блоки кухни", en: "Kitchen Units"}
+    why: {ru: "Нагреватель даёт кухне огонь, холодильная установка — лёд, камера хранения не даёт еде портиться. Всё подключается к кухонному столу как одна система.", en: "Heating, ice and preservation units join the kitchen network."}
+  - id: gcfb_jars
+    deps: [k_cfb_fridge]
+    roles: [cook, breeder]
+    items: [cookingforblockheads:cow_jar, cookingforblockheads:milk_jar]
+    title: {ru: "Корова в банке", en: "Cow in a Jar"}
+    why: {ru: "Посади корову в банку — она даёт кухне бесконечное молоко.", en: "A jarred cow gives the kitchen endless milk."}
+  - id: gcfb_books
+    deps: [k_cfb_table]
+    roles: [cook]
+    items: [cookingforblockheads:recipe_book, cookingforblockheads:crafting_book]
+    title: {ru: "Кулинарные книги", en: "Cookbooks"}
+    why: {ru: "Книга рецептов показывает блюда, которые можно сделать из того, что есть, книга крафта — сразу готовит.", en: "Shows what you can cook from what you have; the crafting book cooks it."}

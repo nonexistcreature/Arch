@@ -1,0 +1,23 @@
+# Key-item gaps: Iron's Jewelry, Building Gadgets, NeoOrigins.
+extends: irons
+lang: [irons_jewelry]
+out: gaps_final7_gen
+quests:
+  - id: gij_gems
+    deps: [irons_jewelcraft]
+    roles: [mage]
+    items: [irons_jewelry:ruby, irons_jewelry:sapphire]
+    title: {ru: "Самоцветы", en: "Gems"}
+    why: {ru: "Рубин, сапфир и другие камни вставляют в кольца и ожерелья — каждый камень даёт свой бонус.", en: "Gems give jewelry its bonus."}
+  - id: gij_jewelry
+    deps: [gij_gems]
+    roles: [mage, warrior]
+    items: [irons_jewelry:ring, irons_jewelry:necklace]
+    title: {ru: "Кольцо и ожерелье", en: "Ring and Necklace"}
+    why: {ru: "Украшения собирают на ювелирном станке из металла и камня. Сочетания — в справочнике ювелира.", en: "Made at the jewelcrafting station; see the guide."}
+  - id: gij_guide
+    title: {en: Jewelcrafting Guide, ru: Справочник ювелира}
+    deps: [irons_jewelcraft]
+    roles: [mage]
+    items: [irons_jewelry:jewelcrafting_guide]
+    why: {en: Shows which metals and gems give which bonuses., ru: 'Справочник ювелира показывает, какие металлы и камни дают какие бонусы украшениям.'}

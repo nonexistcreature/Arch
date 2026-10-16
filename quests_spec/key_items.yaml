@@ -183,3 +183,22 @@ sophisticatedbackpacks: {quested: true, add: [pickup_upgrade, magnet_upgrade, fi
   auto_smelting_upgrade, tool_swapper_upgrade, tank_upgrade, battery_upgrade, stack_upgrade_tier_1, everlasting_upgrade,
   inception_upgrade, xp_pump_upgrade, anvil_upgrade, smithing_upgrade, stonecutter_upgrade, jukebox_upgrade]}
 railways: {quested: true, add: [benchcart, screwlink_coupler, knuckle_coupler]}
+# --- small mods and our own items
+arkhaven: {quested: true, add: [meteoric_iron_ingot, ward_crystal_t2, ward_crystal_t3, waxed_canvas, aero_lubricant, dragon_plating]}
+mysticalagriculture: {quested: true, add: [experience_droplet, attack_aoe_i_augment, tilling_aoe_i_augment, water_breathing_augment, upgrade_base]}
+garnished: {quested: true}
+naturalist: {quested: true}
+dmr: {quested: true}
+farmersrespite: {quested: true, add: [tea_seeds, coffee_berries, green_tea_leaves, black_tea_leaves, yellow_tea_leaves, blazing_chili, tea_curry]}
+botanypots: {quested: true, add: [terracotta_hopper_botany_pot]}
+mca: {quested: true, add: [wedding_ring, bouquet, villager_tracker, whistle, rose_gold_ingot]}
+crittersandcompanions: {quested: true, add: [iron_dragonfly_armor, grappling_hook, pearl_necklace_1, clam]}
+irons_jewelry: {quested: true, add: [ruby, sapphire, ring, necklace, jewelcrafting_guide]}
+cookingforblockheads: {quested: true, add: [preservation_chamber, heating_unit, ice_unit, cow_jar, milk_jar, crafting_book, recipe_book]}
+buildinggadgets2: {quested: true, add: [gadget_cut_paste, template, redprint]}
+neoorigins: {quested: true, add: [orb_of_class]}
+structurize: {quested: true, add: [shapetool, caliper, sceptersteel]}
+# Not counted on purpose (owner, 2026-10-16: decor and building blocks that do nothing, libraries, tools):
+# framedblocks, mcwfences, mcwwindows, mcwdoors, mcwtrpdoors, mcwfurnitures, createdeco, handcrafted, dndecor (its
+# useful blocks are quested), copycats, domum_ornamentum, decorative_blocks, another_furniture, tflostblocks,
+# suppsquared, productivelib, easy_npc, modular_machinery_reborn, custommachinery, ftbquests, modonomicon, sauce.

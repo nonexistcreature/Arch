@@ -357,6 +357,10 @@
 		"hostile mobs won't spawn in a big radius around it."
 		"Your claims and the Haven are already protected — this is for new places."
 	]
+	quest.2F8DFFEAC54BA960.title: "Orb of Class"
+	quest.2F8DFFEAC54BA960.quest_desc: [
+		"&lWhy:&r Lets you pick your class again; your origin stays."
+	]
 	quest.0EECEE5A77DBE4F4.title: "The Miner's Path"
 	quest.0EECEE5A77DBE4F4.quest_desc: [
 		"The mining tree: dig faster, more ore, night vision underground. Grows by mining ore."
@@ -744,6 +748,30 @@
 		"The &lslicer&r is a mechanical cutting board: a knife on a Create shaft slices whatever passes by."
 		"With a mechanical mixer and a Farmer's Delight pot, the kitchen runs itself."
 		"&lWho helps:&r the engineer handles shafts, the cook handles recipes. A two-person job!"
+	]
+	quest.4EAC13D48AC0930F.title: "Tea and Coffee Crops"
+	quest.4EAC13D48AC0930F.quest_desc: [
+		"&lWhy:&r Tea bushes and coffee berries."
+	]
+	quest.449CEF785C628503.title: "Three Tea Leaves"
+	quest.449CEF785C628503.quest_desc: [
+		"&lWhy:&r Green dries to yellow, yellow to black: each is a different tea."
+	]
+	quest.5562ED2EFB09E004.title: "Blazing Chili and Tea Curry"
+	quest.5562ED2EFB09E004.quest_desc: [
+		"&lWhy:&r Spicy Farmer's Respite dishes; see tooltips."
+	]
+	quest.4EA9DC8EBDFE013E.title: "Kitchen Units"
+	quest.4EA9DC8EBDFE013E.quest_desc: [
+		"&lWhy:&r Heating, ice and preservation units join the kitchen network."
+	]
+	quest.14EAD16D3CFDBEA6.title: "Cow in a Jar"
+	quest.14EAD16D3CFDBEA6.quest_desc: [
+		"&lWhy:&r A jarred cow gives the kitchen endless milk."
+	]
+	quest.5B74ABF12EEF6694.title: "Cookbooks"
+	quest.5B74ABF12EEF6694.quest_desc: [
+		"&lWhy:&r Shows what you can cook from what you have; the crafting book cooks it."
 	]
 	quest.135795A71D81D694.title: "The Cook as Support"
 	quest.135795A71D81D694.quest_desc: [
@@ -1405,6 +1433,22 @@
 		"You feed the group and supply its metal. Next up: bees (chapter \"Animals\") and"
 		"the Terraformer in \"Great Works\": it changes the biome of whole districts."
 	]
+	quest.12BAFA9711F390F6.title: "Hopper Botany Pot"
+	quest.12BAFA9711F390F6.quest_desc: [
+		"&lWhy:&r Harvests by itself into the chest below."
+	]
+	quest.35389FAD52702A4B.title: "Machine Upgrade Base"
+	quest.35389FAD52702A4B.quest_desc: [
+		"&lWhy:&r The base for MA machine upgrades."
+	]
+	quest.5592B244E33CD95D.title: "Experience Droplets"
+	quest.5592B244E33CD95D.quest_desc: [
+		"&lWhy:&r Experience as an item, from experience seeds."
+	]
+	quest.5745CA5FEDEF80BD.title: "More Augments"
+	quest.5745CA5FEDEF80BD.quest_desc: [
+		"&lWhy:&r Area attack, area tilling, water breathing."
+	]
 	quest.6E3F9A20B6CDF29B.title: "Farm & Charm Seeds"
 	quest.6E3F9A20B6CDF29B.quest_desc: [
 		"&lWhy:&r Barley, oats, lettuce and strawberries."
@@ -1921,6 +1965,22 @@
 	quest.0DAC3AF64FFE2CD1.title: "Rocket and Arrows"
 	quest.0DAC3AF64FFE2CD1.quest_desc: [
 		"Craft an Enderiophage Rocket, which can be used in place of Firework Rockets when in the End."
+	]
+	quest.60C2BDC6A0CBDFB1.title: "Dragon Plating"
+	quest.60C2BDC6A0CBDFB1.quest_desc: [
+		"&lWhy:&r Steel + crocodile scutes or reinforced alloy; seven plates make dragon armor."
+	]
+	quest.00EF1DE6A16F20FD.title: "Dragonfly Armor"
+	quest.00EF1DE6A16F20FD.quest_desc: [
+		"&lWhy:&r Armor makes your tamed dragonfly tougher."
+	]
+	quest.01A9409FC5DBDCC7.title: "Grappling Hook"
+	quest.01A9409FC5DBDCC7.quest_desc: [
+		"&lWhy:&r Hook onto blocks and pull yourself over."
+	]
+	quest.4CDD129C28C2107C.title: "Clams and Pearl Necklace"
+	quest.4CDD129C28C2107C.quest_desc: [
+		"&lWhy:&r Clams give pearls; the necklace is an accessory."
 	]
 	quest.582C26B2EB01DD48.title: "Bee Nest Helmet"
 	quest.582C26B2EB01DD48.quest_desc: [
@@ -3319,6 +3379,14 @@
 	quest.288B24A597910CC4.quest_desc: [
 		"A winch with a rope pulls one build toward another: tows a car, lowers cargo from an airship, holds a bridge."
 		"Boarding and cable-car quests are in the \"Weapons & Gear\" chapter."
+	]
+	quest.5473D0CFB15BB167.title: "Waxed Canvas"
+	quest.5473D0CFB15BB167.quest_desc: [
+		"&lWhy:&r Wool + bee wax (or linen, or plastic): 12 airship envelopes from 2 canvas."
+	]
+	quest.400A3B5308F98523.title: "Aero Lubricant"
+	quest.400A3B5308F98523.quest_desc: [
+		"&lWhy:&r Needed for aircraft engines: mixed from raw fish, or bottled from TFMG/IP lubricant."
 	]
 	quest.2E0F3352194E62A3.title: "Cargo Airship"
 	quest.2E0F3352194E62A3.quest_desc: [
@@ -6617,6 +6685,18 @@
 	quest.09D23084295FCA39.quest_desc: [
 		"&lWhy:&r A mage accessory; see its tooltip."
 	]
+	quest.0036CBC69FDC470C.title: "Gems"
+	quest.0036CBC69FDC470C.quest_desc: [
+		"&lWhy:&r Gems give jewelry its bonus."
+	]
+	quest.2049AC62CCDF1355.title: "Ring and Necklace"
+	quest.2049AC62CCDF1355.quest_desc: [
+		"&lWhy:&r Made at the jewelcrafting station; see the guide."
+	]
+	quest.1171CD6FBE14B3F2.title: "Jewelcrafting Guide"
+	quest.1171CD6FBE14B3F2.quest_desc: [
+		"&lWhy:&r Shows which metals and gems give which bonuses."
+	]
 	quest.37CE8B7ABAD95E28.title: "Magic Structures"
 	quest.37CE8B7ABAD95E28.quest_desc: [
 		"&lWhy:&r Early magic is exploring: towers, huts and forts. Each has a strong mage."
@@ -9609,6 +9689,18 @@
 	quest.4C62FFBDC832EB2C.quest_desc: [
 		"A tier III ward protects 128 blocks — a whole town. Fuel: crystals made with exotic matter from the collider."
 	]
+	quest.5A0E77285676AE45.title: "Meteoric Iron"
+	quest.5A0E77285676AE45.quest_desc: [
+		"&lWhy:&r Meteoric dust plus iron; the scout brings dust, everyone uses it."
+	]
+	quest.49E63805A59C5C27.title: "Ward Crystal II"
+	quest.49E63805A59C5C27.quest_desc: [
+		"&lWhy:&r Three recipes: mage + engineer together, tech only, or magic only."
+	]
+	quest.767F2FE1EFFC01D4.title: "Ward Crystal III"
+	quest.767F2FE1EFFC01D4.quest_desc: [
+		"&lWhy:&r Two Ward Crystal II plus exotic matter: fuel for the strongest generator."
+	]
 	chapter.6FA4DB5D74373B8B.title: "The Town"
 	chapter.6FA4DB5D74373B8B.chapter_subtitle: [
 		"A colony, villagers and a village of your own"
@@ -9778,6 +9870,22 @@
 	quest.2500319E6F072B5B.title: "Adventure Token and Ancient Tome"
 	quest.2500319E6F072B5B.quest_desc: [
 		"&lWhy:&r Special colony items; see tooltips."
+	]
+	quest.36C5916C0774F212.title: "The Wedding"
+	quest.36C5916C0774F212.quest_desc: [
+		"&lWhy:&r Court with a bouquet, marry with a ring."
+	]
+	quest.211B12BCEF87018A.title: "Villager Tracker and Whistle"
+	quest.211B12BCEF87018A.quest_desc: [
+		"&lWhy:&r Find a villager; whistle your family over."
+	]
+	quest.17DABBB2F55C70F9.title: "Rose Gold Ingot"
+	quest.17DABBB2F55C70F9.quest_desc: [
+		"&lWhy:&r For MCA rings."
+	]
+	quest.6769511A6F314997.title: "Structurize Tools"
+	quest.6769511A6F314997.quest_desc: [
+		"&lWhy:&r Shapes, measuring and saving builds for the colony."
 	]
 	quest.0FD8FAF0813FFD2A.title: "Residence"
 	quest.0FD8FAF0813FFD2A.quest_desc: [
@@ -9981,6 +10089,14 @@
 	quest.121BFA9789E6622A.title: "Seats on Trains"
 	quest.121BFA9789E6622A.quest_desc: [
 		"Create: Interiors adds chairs and sofas you can sit on even aboard a moving train or airship."
+	]
+	quest.2922A56E8299FD34.title: "Cut and Paste Gadget"
+	quest.2922A56E8299FD34.quest_desc: [
+		"&lWhy:&r Move a whole building."
+	]
+	quest.468E511E23796D9D.title: "Templates"
+	quest.468E511E23796D9D.quest_desc: [
+		"&lWhy:&r Store and share copied builds."
 	]
 	chapter.05D02B5570337DC5.title: "Home and Comfort"
 	chapter.05D02B5570337DC5.chapter_subtitle: [

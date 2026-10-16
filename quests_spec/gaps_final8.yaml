@@ -1,0 +1,17 @@
+# Key-item gaps: Building Gadgets 2 (building chapter).
+extends: building
+lang: [buildinggadgets2]
+out: gaps_final8_gen
+quests:
+  - id: gbg_cut_paste
+    deps: [b_copy_paste]
+    roles: [builder]
+    items: [buildinggadgets2:gadget_cut_paste]
+    title: {ru: "Гаджет вырезания", en: "Cut and Paste Gadget"}
+    why: {ru: "Вырезает часть постройки и вставляет в другом месте — перенести дом целиком.", en: "Move a whole building."}
+  - id: gbg_templates
+    deps: [b_copy_paste]
+    roles: [builder]
+    items: [buildinggadgets2:template, buildinggadgets2:redprint]
+    title: {ru: "Шаблоны построек", en: "Templates"}
+    why: {ru: "Шаблон хранит скопированную постройку — можно поделиться ею с другом.", en: "Store and share copied builds."}

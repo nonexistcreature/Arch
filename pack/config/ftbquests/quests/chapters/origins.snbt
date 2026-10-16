@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "778DA091C9349444"
-			x: -0.75d
+			x: -1.08d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -41,7 +41,7 @@
 		}
 		{
 			id: "6914A21F92128873"
-			x: -2.25d
+			x: -3.0d
 			y: 2.0d
 			icon: {
 				id: "neoorigins:purple_orb"
@@ -60,7 +60,7 @@
 		}
 		{
 			id: "73257FF3447BD0B1"
-			x: -0.75d
+			x: -1.0d
 			y: 2.0d
 			icon: {
 				id: "minecraft:spyglass"
@@ -97,7 +97,7 @@
 		}
 		{
 			id: "1899A2B09262FA6D"
-			x: 0.0d
+			x: -0.0d
 			y: 4.0d
 			icon: {
 				id: "minecraft:iron_pickaxe"
@@ -168,6 +168,28 @@
 			]
 		}
 		{
+			id: "2F8DFFEAC54BA960"
+			x: -3.0d
+			y: 4.0d
+			icon: {
+				id: "neoorigins:orb_of_class"
+				count: 1
+			}
+			dependencies: [
+				"6914A21F92128873"
+			]
+			tasks: [
+				{
+					id: "1AA0D468451BCE3C"
+					type: "item"
+					item: {
+						count: 1
+						id: "neoorigins:orb_of_class"
+					}
+				}
+			]
+		}
+		{
 			id: "0EECEE5A77DBE4F4"
 			x: -1.5d
 			y: 6.0d
@@ -188,7 +210,7 @@
 		}
 		{
 			id: "49A24043E10608D2"
-			x: 0.0d
+			x: -0.0d
 			y: 6.0d
 			icon: {
 				id: "farmersdelight:cooking_pot"

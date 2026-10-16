@@ -1,0 +1,23 @@
+# Key-item gaps: our own items (recipes from kubejs/server_scripts/30_handshakes.js) — elements chapter.
+extends: elements
+lang: [arkhaven]
+out: gaps_final_gen
+quests:
+  - id: gak_meteoric_iron
+    deps: [el_meteor_ore]
+    roles: [engineer, warrior]
+    items: [arkhaven:meteoric_iron_ingot*2]
+    title: {ru: "Метеоритное железо", en: "Meteoric Iron"}
+    why: {ru: "Метеоритная пыль + железо = метеоритное железо (вручную 4 пыли и слиток, в смесителе Create — вдвое выгоднее). Разведчик приносит пыль с места падения — пользуются все.", en: "Meteoric dust plus iron; the scout brings dust, everyone uses it."}
+  - id: gak_ward_t2
+    deps: [el_ward_crystal]
+    roles: [mage, engineer]
+    items: [arkhaven:ward_crystal_t2]
+    title: {ru: "Кристалл оберега II", en: "Ward Crystal II"}
+    why: {ru: "Топливо генератора оберега 2-го уровня. Три пути: кристалл I + камень источника (Ars) + наполненный сплав (Mekanism) — маг и инженер вместе; или только техникой (сплавы Mekanism); или только магией (камни источника).", en: "Three recipes: mage + engineer together, tech only, or magic only."}
+  - id: gak_ward_t3
+    deps: [gak_ward_t2]
+    roles: [mage, engineer]
+    items: [arkhaven:ward_crystal_t3]
+    title: {ru: "Кристалл оберега III", en: "Ward Crystal III"}
+    why: {ru: "Два кристалла II + экзотическая материя. Питает самый сильный генератор оберега, который защищает базу от метеоритов и разломов.", en: "Two Ward Crystal II plus exotic matter: fuel for the strongest generator."}

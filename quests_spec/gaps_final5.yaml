@@ -1,0 +1,28 @@
+# Key-item gaps: Botany Pots, Mystical Agriculture extras (garden chapter).
+extends: garden
+lang: [botanypots, mysticalagriculture]
+out: gaps_final5_gen
+quests:
+  - id: gbp_hopper_pot
+    deps: [g_pots]
+    roles: [gardener, engineer]
+    items: [botanypots:terracotta_hopper_botany_pot]
+    title: {ru: "Горшок с воронкой", en: "Hopper Botany Pot"}
+    why: {ru: "Горшок с воронкой сам собирает урожай и отдаёт его в сундук под ним — грядка, которая работает без тебя.", en: "Harvests by itself into the chest below."}
+  - id: gma2_upgrade_base
+    deps: [mag_upgrades]
+    roles: [engineer]
+    items: [mysticalagriculture:upgrade_base]
+    why: {en: The base for MA machine upgrades., ru: Основа улучшения — заготовка для улучшений машин Mystical Agriculture по уровням эссенции.}
+  - id: gma2_xp
+    deps: [mag_xp_capsule]
+    roles: [mage]
+    items: [mysticalagriculture:experience_droplet*8]
+    title: {ru: "Капли опыта", en: "Experience Droplets"}
+    why: {ru: "Капли опыта — опыт в предметной форме из семян опыта. Их удобно хранить и тратить на зачарования.", en: "Experience as an item, from experience seeds."}
+  - id: gma2_more_augments
+    deps: [mag_aug_mining]
+    roles: [warrior, gardener]
+    items: [mysticalagriculture:attack_aoe_i_augment, mysticalagriculture:tilling_aoe_i_augment, mysticalagriculture:water_breathing_augment]
+    title: {ru: "Ещё аугменты", en: "More Augments"}
+    why: {ru: "Удар по площади для меча, вспашка площадью для мотыги, дыхание под водой для шлема.", en: "Area attack, area tilling, water breathing."}

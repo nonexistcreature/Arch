@@ -1,0 +1,11 @@
+# Key-item gaps: NeoOrigins orb of class (origins chapter).
+extends: origins
+lang: [neoorigins]
+out: gaps_final9_gen
+quests:
+  - id: gno_class_orb
+    deps: [origins_change]
+    roles: [mage, warrior]
+    items: [neoorigins:orb_of_class]
+    title: {ru: "Сфера класса", en: "Orb of Class"}
+    why: {ru: "Сфера класса позволяет заново выбрать класс, если прежний не подошёл. Раса при этом не меняется.", en: "Lets you pick your class again; your origin stays."}

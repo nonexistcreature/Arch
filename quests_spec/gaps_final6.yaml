@@ -1,0 +1,28 @@
+# Key-item gaps: MCA Reborn, Structurize (city chapter).
+extends: city
+lang: [mca, structurize]
+out: gaps_final6_gen
+quests:
+  - id: gmca_wedding
+    deps: [city_mca_marry]
+    roles: [mayor]
+    items: [mca:bouquet, mca:wedding_ring]
+    title: {ru: "Свадьба", en: "The Wedding"}
+    why: {ru: "Букет — чтобы ухаживать, обручальное кольцо — чтобы сыграть свадьбу с жителем MCA. Супруг живёт с тобой и помогает по дому.", en: "Court with a bouquet, marry with a ring."}
+  - id: gmca_tools
+    deps: [city_mca]
+    roles: [mayor]
+    items: [mca:villager_tracker, mca:whistle]
+    title: {ru: "Следящий компас и свисток", en: "Villager Tracker and Whistle"}
+    why: {ru: "Компас показывает, где сейчас житель, свисток зовёт твою семью к тебе.", en: "Find a villager; whistle your family over."}
+  - id: gmca_rose_gold
+    deps: [city_mca]
+    roles: [mayor]
+    items: [mca:rose_gold_ingot*2]
+    why: {ru: "Розовое золото — для колец MCA.", en: "For MCA rings."}
+  - id: gstr_tools
+    deps: [city_scan]
+    roles: [builder, mayor]
+    items: [structurize:shapetool, structurize:caliper, structurize:sceptersteel]
+    title: {ru: "Инструменты Structurize", en: "Structurize Tools"}
+    why: {ru: "Инструмент фигур строит шары, цилиндры и пирамиды по размерам, штангенциркуль мерит расстояния, стальной скипетр сохраняет постройки для колонии.", en: "Shapes, measuring and saving builds for the colony."}

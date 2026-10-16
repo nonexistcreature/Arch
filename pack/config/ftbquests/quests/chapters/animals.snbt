@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "58A5F95E7247AE74"
-			x: 3.39d
+			x: 3.03d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -46,7 +46,7 @@
 		}
 		{
 			id: "4990A38E7AFA20D8"
-			x: 1.53d
+			x: 1.44d
 			y: 2.0d
 			icon: {
 				id: "farm_and_charm:feeding_trough"
@@ -69,7 +69,7 @@
 		}
 		{
 			id: "2AADB93EE520A6DB"
-			x: 3.03d
+			x: 2.94d
 			y: 2.0d
 			icon: {
 				id: "meadow:cheese_wheel"
@@ -92,7 +92,7 @@
 		}
 		{
 			id: "398471DFFDDBAAF0"
-			x: -6.26d
+			x: -6.52d
 			y: 2.0d
 			shape: "hexagon"
 			icon: {
@@ -115,7 +115,7 @@
 		}
 		{
 			id: "1473A8EBD1BA9240"
-			x: -13.55d
+			x: -14.26d
 			y: 4.0d
 			icon: {
 				id: "productivebees:advanced_oak_beehive"
@@ -137,7 +137,7 @@
 		}
 		{
 			id: "1171779A20E89BC0"
-			x: -12.62d
+			x: -13.13d
 			y: 6.0d
 			icon: {
 				id: "productivebees:centrifuge"
@@ -169,7 +169,7 @@
 		}
 		{
 			id: "0367AB6113664DF8"
-			x: -18.82d
+			x: -19.39d
 			y: 8.0d
 			icon: {
 				id: "productivebees:breeding_chamber"
@@ -192,7 +192,7 @@
 		}
 		{
 			id: "74361E94132C2418"
-			x: -20.71d
+			x: -20.73d
 			y: 10.0d
 			icon: {
 				id: "productivebees:gene_bottle"
@@ -215,7 +215,7 @@
 		}
 		{
 			id: "0E9DB92921EFC049"
-			x: 4.53d
+			x: 4.44d
 			y: 2.0d
 			icon: {
 				id: "alexsmobs:animal_dictionary"
@@ -247,7 +247,7 @@
 		}
 		{
 			id: "0064456F4405DB56"
-			x: -6.77d
+			x: -1.27d
 			y: 4.0d
 			icon: {
 				id: "crittersandcompanions:silk_lead"
@@ -266,7 +266,7 @@
 		}
 		{
 			id: "6ACD4387091E4FF3"
-			x: -2.17d
+			x: -4.27d
 			y: 4.0d
 			shape: "hexagon"
 			icon: {
@@ -289,7 +289,7 @@
 		}
 		{
 			id: "57ADB4BD729FE83D"
-			x: -3.33d
+			x: -7.13d
 			y: 6.0d
 			icon: {
 				id: "dmr:dragon_whistle.red"
@@ -312,7 +312,7 @@
 		}
 		{
 			id: "37E6738A6C282F33"
-			x: -3.48d
+			x: -7.05d
 			y: 8.0d
 			icon: {
 				id: "dmr:dragon_armor"
@@ -335,7 +335,7 @@
 		}
 		{
 			id: "08258F26A6CD43D5"
-			x: -1.98d
+			x: -2.55d
 			y: 8.0d
 			shape: "gear"
 			icon: {
@@ -371,7 +371,7 @@
 		}
 		{
 			id: "01F1978AF428CF7A"
-			x: 14.12d
+			x: 12.87d
 			y: 2.0d
 			icon: {
 				id: "minecraft:wheat"
@@ -399,7 +399,7 @@
 		}
 		{
 			id: "64D3410CC19B67C9"
-			x: 12.83d
+			x: 12.23d
 			y: 4.0d
 			icon: {
 				id: "farm_and_charm:chicken_coop"
@@ -422,7 +422,7 @@
 		}
 		{
 			id: "476E92FC8FA01BD2"
-			x: 15.83d
+			x: 13.73d
 			y: 4.0d
 			icon: {
 				id: "minecraft:red_wool"
@@ -445,7 +445,7 @@
 		}
 		{
 			id: "62A1724CA0AF2D93"
-			x: -16.83d
+			x: -16.8d
 			y: 6.0d
 			icon: {
 				id: "minecraft:honey_bottle"
@@ -468,7 +468,7 @@
 		}
 		{
 			id: "2EB248A3855853E5"
-			x: -17.32d
+			x: -17.89d
 			y: 8.0d
 			icon: {
 				id: "productivebees:wax"
@@ -491,7 +491,7 @@
 		}
 		{
 			id: "5B230BCEB3D60F81"
-			x: -3.67d
+			x: -5.77d
 			y: 4.0d
 			icon: {
 				id: "productivebees:nest_locator"
@@ -514,7 +514,7 @@
 		}
 		{
 			id: "5D23827FB88F8BB2"
-			x: -15.33d
+			x: -15.3d
 			y: 6.0d
 			icon: {
 				id: "productivebees:catcher"
@@ -537,7 +537,7 @@
 		}
 		{
 			id: "7AEC96EC3DFA61E1"
-			x: -9.48d
+			x: -10.05d
 			y: 8.0d
 			icon: {
 				id: "productivebees:honey_generator"
@@ -560,7 +560,7 @@
 		}
 		{
 			id: "260142089968250C"
-			x: -15.07d
+			x: -15.1d
 			y: 10.0d
 			icon: {
 				id: "productivebees:incubator"
@@ -583,7 +583,7 @@
 		}
 		{
 			id: "31A649466EC5B0A1"
-			x: -0.67d
+			x: 1.73d
 			y: 4.0d
 			icon: {
 				id: "alexsmobs:crocodile_scute"
@@ -606,7 +606,7 @@
 		}
 		{
 			id: "1F6B650E813930CE"
-			x: 3.83d
+			x: 3.23d
 			y: 4.0d
 			icon: {
 				id: "alexsmobs:bear_fur"
@@ -629,7 +629,7 @@
 		}
 		{
 			id: "660352F7C57C7229"
-			x: 5.33d
+			x: 4.73d
 			y: 4.0d
 			icon: {
 				id: "alexsmobs:fish_oil"
@@ -654,7 +654,7 @@
 		}
 		{
 			id: "2CB166812FBDDB4A"
-			x: 6.83d
+			x: 6.23d
 			y: 4.0d
 			icon: {
 				id: "naturalist:antler"
@@ -677,7 +677,7 @@
 		}
 		{
 			id: "7B663457FD4E47AC"
-			x: 8.33d
+			x: 7.73d
 			y: 4.0d
 			icon: {
 				id: "naturalist:butterfly"
@@ -700,7 +700,7 @@
 		}
 		{
 			id: "1958E45AF97140BD"
-			x: -6.33d
+			x: -0.3d
 			y: 6.0d
 			icon: {
 				id: "crittersandcompanions:dragonfly_wing"
@@ -723,7 +723,7 @@
 		}
 		{
 			id: "035FE318376C81BB"
-			x: 9.83d
+			x: 9.23d
 			y: 4.0d
 			icon: {
 				id: "minecraft:copper_block"
@@ -742,7 +742,7 @@
 		}
 		{
 			id: "0D6D8AAEE74E71B7"
-			x: 14.33d
+			x: 15.23d
 			y: 4.0d
 			shape: "gear"
 			icon: {
@@ -761,7 +761,7 @@
 		}
 		{
 			id: "55BEE762CF07FF78"
-			x: 2.67d
+			x: 2.7d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:roadrunner_boots"
@@ -791,7 +791,7 @@
 		}
 		{
 			id: "28C67348A25364B1"
-			x: 4.17d
+			x: 4.2d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:centipede_leggings"
@@ -821,7 +821,7 @@
 		}
 		{
 			id: "653C1DCB064C345B"
-			x: -1.83d
+			x: -1.8d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:crocodile_chestplate"
@@ -851,7 +851,7 @@
 		}
 		{
 			id: "171C56F4FBBE92B2"
-			x: 5.67d
+			x: 5.7d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:froststalker_helmet"
@@ -881,7 +881,7 @@
 		}
 		{
 			id: "6861894CB75A8031"
-			x: 7.17d
+			x: 7.2d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:tarantula_hawk_elytra"
@@ -903,7 +903,7 @@
 		}
 		{
 			id: "4AECFAFC9B1148D5"
-			x: 8.67d
+			x: 8.7d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:falconry_glove"
@@ -925,7 +925,7 @@
 		}
 		{
 			id: "797E5B0A60C15E0F"
-			x: 10.17d
+			x: 10.2d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:vine_lasso"
@@ -955,7 +955,7 @@
 		}
 		{
 			id: "7D40DFC646276413"
-			x: 11.67d
+			x: 11.7d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:shield_of_the_deep"
@@ -977,7 +977,7 @@
 		}
 		{
 			id: "1F0A7B6B21996139"
-			x: 13.17d
+			x: 13.2d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:blood_sprayer"
@@ -1015,7 +1015,7 @@
 		}
 		{
 			id: "7AFEEA0067DC68F8"
-			x: 14.67d
+			x: 14.7d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:dimensional_carver"
@@ -1037,7 +1037,7 @@
 		}
 		{
 			id: "6855C00183605AAD"
-			x: 16.17d
+			x: 16.2d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:ghostly_pickaxe"
@@ -1059,7 +1059,7 @@
 		}
 		{
 			id: "75DEB8C8C9337329"
-			x: 17.67d
+			x: 17.7d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:echolocator"
@@ -1089,7 +1089,7 @@
 		}
 		{
 			id: "089383F2A7BCF640"
-			x: 19.17d
+			x: 19.2d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:straddleboard"
@@ -1111,7 +1111,7 @@
 		}
 		{
 			id: "6489A6FFEB4DDD2C"
-			x: 20.67d
+			x: 20.7d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:tendon_whip"
@@ -1141,7 +1141,7 @@
 		}
 		{
 			id: "3F40D547EE813565"
-			x: 22.17d
+			x: 22.2d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:mosquito_repellent_stew"
@@ -1163,7 +1163,7 @@
 		}
 		{
 			id: "0D9D38C426CBC93E"
-			x: 23.67d
+			x: 23.7d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:transmutation_table"
@@ -1185,7 +1185,7 @@
 		}
 		{
 			id: "4CBDCCA78A1D3A48"
-			x: 25.17d
+			x: 25.2d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:skelewag_sword"
@@ -1207,7 +1207,7 @@
 		}
 		{
 			id: "0DAC3AF64FFE2CD1"
-			x: 26.67d
+			x: 26.7d
 			y: 6.0d
 			icon: {
 				id: "alexsmobs:enderiophage_rocket"
@@ -1237,8 +1237,105 @@
 			]
 		}
 		{
+			id: "60C2BDC6A0CBDFB1"
+			x: -7.6d
+			y: 10.0d
+			icon: {
+				id: "arkhaven:dragon_plating"
+				count: 1
+			}
+			dependencies: [
+				"37E6738A6C282F33"
+			]
+			tasks: [
+				{
+					id: "4CD9B761E6377E1F"
+					type: "item"
+					item: {
+						count: 1
+						id: "arkhaven:dragon_plating"
+					}
+					count: 7L
+				}
+			]
+		}
+		{
+			id: "00EF1DE6A16F20FD"
+			x: -1.05d
+			y: 8.0d
+			icon: {
+				id: "crittersandcompanions:iron_dragonfly_armor"
+				count: 1
+			}
+			dependencies: [
+				"1958E45AF97140BD"
+			]
+			tasks: [
+				{
+					id: "4605D43355BE92B5"
+					type: "item"
+					item: {
+						count: 1
+						id: "crittersandcompanions:iron_dragonfly_armor"
+					}
+				}
+			]
+		}
+		{
+			id: "01A9409FC5DBDCC7"
+			x: -4.8d
+			y: 6.0d
+			icon: {
+				id: "crittersandcompanions:grappling_hook"
+				count: 1
+			}
+			dependencies: [
+				"0064456F4405DB56"
+			]
+			tasks: [
+				{
+					id: "1DBC38601634307B"
+					type: "item"
+					item: {
+						count: 1
+						id: "crittersandcompanions:grappling_hook"
+					}
+				}
+			]
+		}
+		{
+			id: "4CDD129C28C2107C"
+			x: 4.7d
+			y: 0.0d
+			icon: {
+				id: "crittersandcompanions:clam"
+				count: 1
+			}
+			dependencies: [
+				"329BCF45C9315052"
+			]
+			tasks: [
+				{
+					id: "23C1D18D59A10275"
+					type: "item"
+					item: {
+						count: 1
+						id: "crittersandcompanions:clam"
+					}
+				}
+				{
+					id: "6506602C0C84F937"
+					type: "item"
+					item: {
+						count: 1
+						id: "crittersandcompanions:pearl_necklace_1"
+					}
+				}
+			]
+		}
+		{
 			id: "582C26B2EB01DD48"
-			x: -7.98d
+			x: -8.55d
 			y: 8.0d
 			icon: {
 				id: "productivebees:bee_nest_diamond_helmet"
@@ -1260,7 +1357,7 @@
 		}
 		{
 			id: "60C6CD2E3D6F56D8"
-			x: -25.34d
+			x: -25.3d
 			y: 12.0d
 			icon: {
 				id: "productivebees:treat_on_a_stick"
@@ -1282,7 +1379,7 @@
 		}
 		{
 			id: "4CC5ECBCE03B9F9D"
-			x: -4.98d
+			x: -4.05d
 			y: 8.0d
 			icon: {
 				id: "productivebees:bee_bomb_angry"
@@ -1304,7 +1401,7 @@
 		}
 		{
 			id: "3CB255952686B6BA"
-			x: -8.56d
+			x: -9.49d
 			y: 4.0d
 			icon: {
 				id: "productivebees:bee_cage"
@@ -1322,7 +1419,7 @@
 		}
 		{
 			id: "56F290846FF16675"
-			x: -8.12d
+			x: -8.63d
 			y: 6.0d
 			icon: {
 				id: "productivebees:stone_nest"
@@ -1344,7 +1441,7 @@
 		}
 		{
 			id: "2AE6D774B280A0D0"
-			x: -5.27d
+			x: -2.77d
 			y: 4.0d
 			icon: {
 				id: "productivebees:sturdy_bee_cage"
@@ -1366,7 +1463,7 @@
 		}
 		{
 			id: "220EA98BE03CA4F0"
-			x: -9.62d
+			x: -10.13d
 			y: 6.0d
 			icon: {
 				id: "productivebees:expansion_box_oak"
@@ -1388,7 +1485,7 @@
 		}
 		{
 			id: "4E6710C7FD33F88B"
-			x: -11.12d
+			x: -11.63d
 			y: 6.0d
 			icon: {
 				id: "productivebees:advanced_oak_beehive"
@@ -1406,7 +1503,7 @@
 		}
 		{
 			id: "2E18EE6AA3B2093A"
-			x: -10.98d
+			x: -11.55d
 			y: 8.0d
 			icon: {
 				id: "minecraft:honeycomb"
@@ -1424,7 +1521,7 @@
 		}
 		{
 			id: "06EB4255BC9F9739"
-			x: -14.32d
+			x: -14.89d
 			y: 8.0d
 			icon: {
 				id: "productivebees:configurable_honeycomb"
@@ -1442,7 +1539,7 @@
 		}
 		{
 			id: "0A27D533A7220AFE"
-			x: -12.48d
+			x: -13.05d
 			y: 8.0d
 			icon: {
 				id: "productivebees:powered_centrifuge"
@@ -1464,7 +1561,7 @@
 		}
 		{
 			id: "5B70D7CD0A166F37"
-			x: -12.07d
+			x: -12.1d
 			y: 10.0d
 			icon: {
 				id: "productivebees:heated_centrifuge"
@@ -1486,7 +1583,7 @@
 		}
 		{
 			id: "4E3F0C89E45CDDD3"
-			x: -9.07d
+			x: -9.1d
 			y: 10.0d
 			icon: {
 				id: "productivebees:bottler"
@@ -1508,7 +1605,7 @@
 		}
 		{
 			id: "3EA5B2CF6DD5234F"
-			x: -23.08d
+			x: -23.1d
 			y: 10.0d
 			icon: {
 				id: "productivebees:feeder"
@@ -1530,7 +1627,7 @@
 		}
 		{
 			id: "05952DA9EE708E87"
-			x: 0.83d
+			x: 0.23d
 			y: 4.0d
 			icon: {
 				id: "productivebees:jar_oak"
@@ -1552,7 +1649,7 @@
 		}
 		{
 			id: "064151FF9B1D13D3"
-			x: -26.67d
+			x: -26.7d
 			y: 10.0d
 			icon: {
 				id: "productivebees:honey_treat"
@@ -1575,7 +1672,7 @@
 		}
 		{
 			id: "6BA7B408FE4DE512"
-			x: -19.37d
+			x: -19.33d
 			y: 12.0d
 			icon: {
 				id: "productivebees:gene"
@@ -1593,7 +1690,7 @@
 		}
 		{
 			id: "2FDE9F3B14390EA6"
-			x: -18.35d
+			x: -18.31d
 			y: 14.0d
 			icon: {
 				id: "productivebees:gene_bottle"
@@ -1611,7 +1708,7 @@
 		}
 		{
 			id: "1FF16E02F15EE5B0"
-			x: -14.55d
+			x: -14.51d
 			y: 16.0d
 			icon: {
 				id: "productivebees:incubator"
@@ -1630,7 +1727,7 @@
 		}
 		{
 			id: "31F82DA4DE475578"
-			x: -21.81d
+			x: -21.78d
 			y: 16.0d
 			icon: {
 				id: "productivebees:gene_indexer"
@@ -1652,7 +1749,7 @@
 		}
 		{
 			id: "5A8DBAFCE07FEC6D"
-			x: -13.57d
+			x: -13.6d
 			y: 10.0d
 			icon: {
 				id: "minecraft:iron_ingot"
@@ -1670,7 +1767,7 @@
 		}
 		{
 			id: "3116C39F136644F4"
-			x: -10.74d
+			x: -10.7d
 			y: 12.0d
 			icon: {
 				id: "minecraft:gold_ingot"
@@ -1688,7 +1785,7 @@
 		}
 		{
 			id: "79056AF6054FA4DE"
-			x: -17.84d
+			x: -17.8d
 			y: 12.0d
 			icon: {
 				id: "minecraft:redstone"
@@ -1706,7 +1803,7 @@
 		}
 		{
 			id: "07D43E8DD7AAACA7"
-			x: -12.71d
+			x: -12.68d
 			y: 14.0d
 			icon: {
 				id: "minecraft:diamond"
@@ -1724,7 +1821,7 @@
 		}
 		{
 			id: "010A7E9DACD52FE7"
-			x: -13.05d
+			x: -13.01d
 			y: 16.0d
 			icon: {
 				id: "minecraft:netherite_scrap"
@@ -1742,7 +1839,7 @@
 		}
 		{
 			id: "26954D05B4DFE593"
-			x: -13.74d
+			x: -13.7d
 			y: 12.0d
 			icon: {
 				id: "minecraft:experience_bottle"
@@ -1760,7 +1857,7 @@
 		}
 		{
 			id: "2A2DC3504398F76E"
-			x: -19.21d
+			x: -19.23d
 			y: 10.0d
 			icon: {
 				id: "minecraft:bone"
@@ -1778,7 +1875,7 @@
 		}
 		{
 			id: "500D77F0F617709F"
-			x: -15.82d
+			x: -16.39d
 			y: 8.0d
 			icon: {
 				id: "productivebees:slimy_nest"
@@ -1796,7 +1893,7 @@
 		}
 		{
 			id: "26769BB150AA553C"
-			x: -6.48d
+			x: -5.55d
 			y: 8.0d
 			icon: {
 				id: "productivebees:sand_nest"
@@ -1814,7 +1911,7 @@
 		}
 		{
 			id: "195351E9BD0F28A5"
-			x: -10.57d
+			x: -10.6d
 			y: 10.0d
 			icon: {
 				id: "minecraft:wheat"
@@ -1832,7 +1929,7 @@
 		}
 		{
 			id: "699B8DBC76FBABEC"
-			x: -12.24d
+			x: -12.2d
 			y: 12.0d
 			icon: {
 				id: "minecraft:cobblestone"
@@ -1850,7 +1947,7 @@
 		}
 		{
 			id: "0A7C8017D75EBE02"
-			x: -16.57d
+			x: -16.6d
 			y: 10.0d
 			icon: {
 				id: "minecraft:ender_pearl"
@@ -1868,7 +1965,7 @@
 		}
 		{
 			id: "3396C14F451D4771"
-			x: -15.24d
+			x: -15.2d
 			y: 12.0d
 			icon: {
 				id: "productivebees:draconic_dust"
@@ -1890,7 +1987,7 @@
 		}
 		{
 			id: "282E53F350A4ABD6"
-			x: -14.21d
+			x: -14.18d
 			y: 14.0d
 			icon: {
 				id: "productivebees:inactive_dragon_egg"
@@ -1912,7 +2009,7 @@
 		}
 		{
 			id: "14163802F9EDFD87"
-			x: -4.83d
+			x: -3.3d
 			y: 6.0d
 			icon: {
 				id: "productivebees:bee_bomb"
@@ -1934,7 +2031,7 @@
 		}
 		{
 			id: "0887CD77DDF199C1"
-			x: -14.05d
+			x: -14.01d
 			y: 18.0d
 			shape: "hexagon"
 			icon: {
