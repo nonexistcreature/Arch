@@ -1,0 +1,34 @@
+# Key-item gaps: Small Ships and Steam 'n' Rails (transport chapter).
+extends: transport
+lang: [smallships, railways]
+autodoc: ["item.{ns}.{path}.tooltip", "item.{ns}.{path}.description", "block.{ns}.{path}.tooltip.summary", "item.{ns}.{path}.tooltip.summary"]
+out: gaps_transport2_gen
+quests:
+  - id: gsh_light_ships
+    deps: [tr_cog]
+    roles: [mayor]
+    items: [smallships:oak_dhow, smallships:oak_caravel]
+    title: {ru: "Доу и каравелла", en: "Dhow and Caravel"}
+    why: {ru: "Доу — быстрое лёгкое судно, каравелла — для дальних плаваний с трюмом. Корабли Small Ships разных размеров: чем больше, тем больше груза и пушек.", en: "Fast dhow, long-range caravel."}
+  - id: gsh_galley
+    deps: [tr_brigg]
+    roles: [warrior]
+    items: [smallships:oak_galley]
+    why: {ru: "Галера идёт на вёслах даже без ветра — для штиля и рек.", en: "Rows even without wind."}
+  - id: gsh_ammo
+    deps: [fa_ship_guns]
+    roles: [warrior]
+    items: [smallships:cannon_ball*8, smallships:grape_shot*4, smallships:chained_shot*4, smallships:fine_grain_powder*8]
+    title: {ru: "Ядра и порох", en: "Shot and Powder"}
+    why: {ru: "Ядро — против кораблей, картечь — против команды, цепные ядра рвут паруса. Мелкий порох — заряд для корабельной пушки.", en: "Cannonballs for hulls, grapeshot for crews, chain shot for sails."}
+  - id: grw_benchcart
+    deps: [tr_handcar]
+    roles: [engineer]
+    items: [railways:benchcart]
+    why: {ru: "Вагонетка-верстак — верстак, который едет с тобой по рельсам.", en: "A crafting table on rails."}
+  - id: grw_couplers
+    deps: [tr_coupling]
+    roles: [engineer]
+    items: [railways:screwlink_coupler, railways:knuckle_coupler]
+    title: {ru: "Сцепки вагонов", en: "Couplers"}
+    why: {ru: "Винтовая и автосцепка — красивые сцепки между вагонами поезда Create.", en: "Decorative couplers between carriages."}

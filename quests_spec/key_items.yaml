@@ -156,3 +156,30 @@ kaleidoscope_world_liquor: {quested: true}
 drinkbeer: {quested: true}
 create_radar: {quested: true, add: [binoculars, fire_controller, target_filter_item, radar_filter_item, ident_filter_item,
   guided_fuze, radar_warning_receiver]}
+# --- fishing, cannons, ships, storage, trains, supplementaries
+tide: {quested: true, add: [stone_fishing_rod, netherite_fishing_rod, blazing_fishing_rod, echo_fishing_rod, crystal_fishing_rod,
+  midas_fishing_rod, prismarine_fishing_rod, lavaproof_hook, void_hook, fiery_hook, permafrost_hook, twilight_hook,
+  iron_line, golden_line, diamond_line, lucky_bait, magnetic_bait, abyss_bait, incandescent_bait, fish_satchel,
+  obsidian_crate, purpur_crate]}
+createbigcannons: {quested: true, add: [cannon_mount, cannon_carriage, cannon_builder, cannon_drill, cannon_loader,
+  cast_iron_cannon_barrel, cast_iron_cannon_chamber, cast_iron_sliding_breech, bronze_cannon_barrel,
+  built_up_steel_cannon_barrel, nethersteel_cannon_barrel, ap_shot, he_shell, ap_shell, fluid_shell, drop_mortar_shell,
+  bag_of_grapeshot, impact_fuze, big_cartridge, guncotton, nitropowder, cast_iron_autocannon_barrel,
+  cast_iron_autocannon_breech, autocannon_cartridge, flak_autocannon_round, ap_autocannon_round, autocannon_ammo_container]}
+sophisticatedstorage: {quested: true, add: [barrel, chest, iron_to_gold_tier_upgrade, gold_to_netherite_tier_upgrade,
+  controller, storage_link, storage_output, stack_upgrade_tier_1, crafting_upgrade, smelting_upgrade, advanced_pump_upgrade,
+  packing_tape, limited_barrel_1]}
+aquaculture: {quested: true, add: [neptunium_chestplate, neptunium_sword, neptunium_pickaxe, neptunium_bow, iron_fillet_knife,
+  iron_fishing_rod, gold_fishing_rod, diamond_fishing_rod, neptunium_fishing_rod, gold_hook, diamond_hook, nether_star_hook,
+  heavy_hook, double_hook, redstone_hook, fishing_line, bobber, worm_farm, treasure_chest, lockbox, message_in_a_bottle]}
+smallships: {quested: true, add: [oak_cog, oak_brigg, oak_galley, oak_drakkar, oak_dhow, oak_caravel, oak_galleon,
+  cannon_ball, grape_shot, chained_shot, fine_grain_powder]}
+supplementaries: {quested: true, add: [bellows, faucet, jar, cage, safe, key, lock_block, pulley_block, crank, rope,
+  rope_arrow, slingshot, bomb, cannon, cannonball, quiver, flute, wrench, altimeter, globe, hourglass, spring_launcher,
+  relayer, speaker_block, notice_board, sack, turn_table, wind_vane, crystal_display, soap, bubble_blower,
+  confetti_popper, lumisene_bottle, flax_seeds]}
+sophisticatedbackpacks: {quested: true, add: [pickup_upgrade, magnet_upgrade, filter_upgrade, refill_upgrade,
+  restock_upgrade, deposit_upgrade, compacting_upgrade, void_upgrade, crafting_upgrade, smelting_upgrade,
+  auto_smelting_upgrade, tool_swapper_upgrade, tank_upgrade, battery_upgrade, stack_upgrade_tier_1, everlasting_upgrade,
+  inception_upgrade, xp_pump_upgrade, anvil_upgrade, smithing_upgrade, stonecutter_upgrade, jukebox_upgrade]}
+railways: {quested: true, add: [benchcart, screwlink_coupler, knuckle_coupler]}

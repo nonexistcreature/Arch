@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "0CC807686064633F"
-			x: 0.64d
+			x: -3.18d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -31,7 +31,7 @@
 		}
 		{
 			id: "68CF4A141555C824"
-			x: -4.5d
+			x: -7.89d
 			y: 2.0d
 			icon: {
 				id: "mcwfurnitures:birch_desk"
@@ -53,7 +53,7 @@
 		}
 		{
 			id: "6C85FF8C153880DC"
-			x: -3.0d
+			x: -6.39d
 			y: 2.0d
 			icon: {
 				id: "mcwlights:golden_chandelier"
@@ -75,7 +75,7 @@
 		}
 		{
 			id: "06224B94B88795AF"
-			x: -1.5d
+			x: -4.89d
 			y: 2.0d
 			icon: {
 				id: "mcwroofs:thatch_roof"
@@ -98,7 +98,7 @@
 		}
 		{
 			id: "04FE1259A9EC7260"
-			x: 4.5d
+			x: -0.39d
 			y: 2.0d
 			icon: {
 				id: "mcwpaths:cobblestone_dumble_paving"
@@ -121,7 +121,7 @@
 		}
 		{
 			id: "5AD48020E2594F58"
-			x: 0.0d
+			x: -3.39d
 			y: 2.0d
 			icon: {
 				id: "mcwdoors:birch_cottage_door"
@@ -152,7 +152,7 @@
 		}
 		{
 			id: "277BEE78FED39A51"
-			x: 2.04d
+			x: -2.61d
 			y: 4.0d
 			icon: {
 				id: "mcwbridges:dark_oak_rail_bridge"
@@ -175,7 +175,7 @@
 		}
 		{
 			id: "484124C4B32D2CAB"
-			x: -2.46d
+			x: -7.11d
 			y: 4.0d
 			icon: {
 				id: "another_furniture:white_sofa"
@@ -198,7 +198,7 @@
 		}
 		{
 			id: "2D523083489AE02E"
-			x: -0.96d
+			x: -5.61d
 			y: 4.0d
 			icon: {
 				id: "handcrafted:bear_trophy"
@@ -221,7 +221,7 @@
 		}
 		{
 			id: "7FB9BA113738A36B"
-			x: 0.54d
+			x: -4.11d
 			y: 4.0d
 			icon: {
 				id: "handcrafted:kitchen_hood"
@@ -252,7 +252,7 @@
 		}
 		{
 			id: "01E55988ADE92D20"
-			x: -0.86d
+			x: -4.68d
 			y: 0.0d
 			icon: {
 				id: "framedblocks:framed_secret_storage"
@@ -274,7 +274,7 @@
 		}
 		{
 			id: "1D0381CAEC065F43"
-			x: 1.5d
+			x: -1.89d
 			y: 2.0d
 			icon: {
 				id: "domum_ornamentum:architectscutter"
@@ -296,7 +296,7 @@
 		}
 		{
 			id: "20879EC69322B31B"
-			x: 3.0d
+			x: 1.11d
 			y: 2.0d
 			icon: {
 				id: "supplementaries:notice_board"
@@ -327,7 +327,7 @@
 		}
 		{
 			id: "2B022A0B2B672C60"
-			x: -0.21d
+			x: -4.47d
 			y: 6.0d
 			shape: "hexagon"
 			icon: {
@@ -357,6 +357,428 @@
 					id: "76B07B0C355AD421"
 					type: "xp_levels"
 					xp_levels: 6
+				}
+			]
+		}
+		{
+			id: "4D657851A18AB53E"
+			x: -1.11d
+			y: 4.0d
+			icon: {
+				id: "supplementaries:bellows"
+				count: 1
+			}
+			dependencies: [
+				"20879EC69322B31B"
+			]
+			tasks: [
+				{
+					id: "386D196E519EF497"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:bellows"
+					}
+				}
+				{
+					id: "141E67491D52A717"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:faucet"
+					}
+				}
+				{
+					id: "22C2C201A7D69358"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:pulley_block"
+					}
+				}
+				{
+					id: "4E483769A0A0C210"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:crank"
+					}
+				}
+			]
+		}
+		{
+			id: "112CE88AC3C96A5F"
+			x: -1.34d
+			y: 6.0d
+			icon: {
+				id: "supplementaries:relayer"
+				count: 1
+			}
+			dependencies: [
+				"4D657851A18AB53E"
+			]
+			tasks: [
+				{
+					id: "179B5E1543DDC48B"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:relayer"
+					}
+				}
+				{
+					id: "56DA87C72D45789C"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:spring_launcher"
+					}
+				}
+				{
+					id: "2FE1BC3FE384CE46"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:turn_table"
+					}
+				}
+				{
+					id: "2554CCDBEE343B05"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:speaker_block"
+					}
+				}
+			]
+		}
+		{
+			id: "6D75FD2B05F31819"
+			x: 0.39d
+			y: 4.0d
+			icon: {
+				id: "supplementaries:jar"
+				count: 1
+			}
+			dependencies: [
+				"20879EC69322B31B"
+			]
+			tasks: [
+				{
+					id: "0DC75B1F25EFCB6C"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:jar"
+					}
+				}
+				{
+					id: "29C0718615DC3568"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:sack"
+					}
+				}
+				{
+					id: "6DC461EE30E7A0BC"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:cage"
+					}
+				}
+				{
+					id: "48694E019D9B1777"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:safe"
+					}
+				}
+			]
+		}
+		{
+			id: "2CEE3F299734A263"
+			x: 0.16d
+			y: 6.0d
+			icon: {
+				id: "supplementaries:key"
+				count: 1
+			}
+			dependencies: [
+				"6D75FD2B05F31819"
+			]
+			tasks: [
+				{
+					id: "0DCEDE867DAD284B"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:key"
+					}
+				}
+				{
+					id: "1718D1EA49485BDC"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:lock_block"
+					}
+				}
+			]
+		}
+		{
+			id: "36911DCAFD40BFB2"
+			x: 1.89d
+			y: 4.0d
+			icon: {
+				id: "supplementaries:rope"
+				count: 1
+			}
+			dependencies: [
+				"20879EC69322B31B"
+			]
+			tasks: [
+				{
+					id: "7AB5D084670B245B"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:rope"
+					}
+					count: 16L
+				}
+				{
+					id: "2BC22135B5E70CBE"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:rope_arrow"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "0E301728636C1A5A"
+			x: 1.66d
+			y: 6.0d
+			icon: {
+				id: "supplementaries:slingshot"
+				count: 1
+			}
+			dependencies: [
+				"36911DCAFD40BFB2"
+			]
+			tasks: [
+				{
+					id: "12B0BDF2934E3407"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:slingshot"
+					}
+				}
+				{
+					id: "464234EFB14BFA45"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:bomb"
+					}
+				}
+				{
+					id: "2136DC6D118FD078"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:quiver"
+					}
+				}
+			]
+		}
+		{
+			id: "77F45C72D2AFB544"
+			x: 1.66d
+			y: 8.0d
+			icon: {
+				id: "supplementaries:cannon"
+				count: 1
+			}
+			dependencies: [
+				"0E301728636C1A5A"
+			]
+			tasks: [
+				{
+					id: "0CF75A784C0F045E"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:cannon"
+					}
+				}
+				{
+					id: "7FF3AFBB523AD9A6"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:cannonball"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "516AA3FC805748FE"
+			x: 3.39d
+			y: 4.0d
+			icon: {
+				id: "supplementaries:altimeter"
+				count: 1
+			}
+			dependencies: [
+				"20879EC69322B31B"
+			]
+			tasks: [
+				{
+					id: "28AF633F77A1E343"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:altimeter"
+					}
+				}
+				{
+					id: "5DE86662D049B8F0"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:globe"
+					}
+				}
+				{
+					id: "7FEB44DC1FCB5E67"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:hourglass"
+					}
+				}
+				{
+					id: "5F2DA0BE06D3605A"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:wind_vane"
+					}
+				}
+			]
+		}
+		{
+			id: "217D5F21B1E63769"
+			x: 4.89d
+			y: 4.0d
+			icon: {
+				id: "supplementaries:notice_board"
+				count: 1
+			}
+			dependencies: [
+				"20879EC69322B31B"
+			]
+			tasks: [
+				{
+					id: "558F20F305834427"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:notice_board"
+					}
+				}
+				{
+					id: "3F0142FCE02E35FB"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:crystal_display"
+					}
+				}
+			]
+		}
+		{
+			id: "588E161B7D6BCBB4"
+			x: 6.39d
+			y: 4.0d
+			icon: {
+				id: "supplementaries:flute"
+				count: 1
+			}
+			dependencies: [
+				"20879EC69322B31B"
+			]
+			tasks: [
+				{
+					id: "32D66FBDFE412884"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:flute"
+					}
+				}
+				{
+					id: "43FAD3C42FC513A5"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:confetti_popper"
+					}
+				}
+				{
+					id: "76982EE12938650F"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:bubble_blower"
+					}
+				}
+				{
+					id: "747D5BD7293CAFB1"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:soap"
+					}
+				}
+			]
+		}
+		{
+			id: "418E84EE79D7100D"
+			x: 7.89d
+			y: 4.0d
+			icon: {
+				id: "supplementaries:flax_seeds"
+				count: 1
+			}
+			dependencies: [
+				"20879EC69322B31B"
+			]
+			tasks: [
+				{
+					id: "78FCCEE248C08DD4"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:flax_seeds"
+					}
+					count: 4L
+				}
+				{
+					id: "6A472BB01B6C5EC5"
+					type: "item"
+					item: {
+						count: 1
+						id: "supplementaries:lumisene_bottle"
+					}
 				}
 			]
 		}

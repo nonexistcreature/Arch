@@ -1,0 +1,109 @@
+# Key-item gaps: Tide and Aquaculture (fishing chapter).
+extends: fishing
+lang: [tide, aquaculture]
+autodoc: ["item.{ns}.{path}.desc", "item.{ns}.{path}.tooltip", "item.{ns}.{path}.description", "tooltip.{ns}.{path}"]
+out: gaps_fishing_gen
+quests:
+  # --- Tide
+  - id: gfs_rods
+    deps: [f_diamond_rod]
+    roles: [gardener, warrior]
+    items: [tide:netherite_fishing_rod]
+    why: {ru: "Незеритовая удочка — самая прочная и быстрая из обычных. Дальше идут особые удочки для разных миров.", en: "The toughest standard rod; special rods come next."}
+  - id: gfs_stone_rod
+    deps: [f_rod]
+    roles: [gardener]
+    items: [tide:stone_fishing_rod]
+    why: {en: 'The simplest Tide rod, better than wood.', ru: 'Каменная удочка — простейшая из удочек Tide, лучше деревянной.'}
+  - id: gfs_lava_rod
+    deps: [f_lava]
+    roles: [warrior]
+    items: [tide:blazing_fishing_rod, tide:lavaproof_hook]
+    title: {ru: "Рыбалка в лаве", en: "Lava Fishing"}
+    why: {ru: "В лаве ловят только огнеупорной снастью: пылающая удочка и жаростойкий крючок. В Незере водится своя рыба.", en: "Fish in lava with a blazing rod and lavaproof hook."}
+  - id: gfs_special_rods
+    deps: [gfs_rods]
+    roles: [gardener]
+    items: [tide:echo_fishing_rod, tide:crystal_fishing_rod, tide:prismarine_fishing_rod, tide:midas_fishing_rod]
+    title: {ru: "Особые удочки", en: "Special Rods"}
+    why: {ru: "Эхо, кристальная, призмариновая и удочка Мидаса — особые удочки Tide. У каждой своё свойство и свой материал: читай подсказку и журнал рыбака.", en: "Special rods, each with its own trait; read the tooltip and the journal."}
+  - id: gfs_hooks
+    deps: [f_void]
+    roles: [gardener]
+    items: [tide:void_hook, tide:fiery_hook, tide:permafrost_hook, tide:twilight_hook]
+    title: {ru: "Крючки для миров", en: "Hooks for Every World"}
+    why: {ru: "Крючок решает, где можно ловить: в бездне Края, в огне, во льду, в Сумеречном лесу.", en: "The hook decides where you can fish."}
+  - id: gfs_lines
+    deps: [f_iron_rod]
+    roles: [gardener]
+    items: [tide:iron_line, tide:golden_line, tide:diamond_line]
+    title: {ru: "Лески", en: "Fishing Lines"}
+    why: {ru: "Леска меняет силу и скорость подсечки — крупная рыба не сорвётся.", en: "Lines change how fish bite and escape."}
+  - id: gfs_baits
+    deps: [f_bait]
+    roles: [gardener]
+    items: [tide:lucky_bait, tide:magnetic_bait, tide:abyss_bait, tide:incandescent_bait]
+    title: {ru: "Особые наживки", en: "Special Baits"}
+    why: {ru: "Наживка меняет, что и как клюёт: у каждой свой эффект — он написан в подсказке.", en: "Each bait changes the catch; see tooltips."}
+  - id: gfs_satchel
+    deps: [f_journal]
+    roles: [gardener]
+    items: [tide:fish_satchel]
+    why: {ru: "Сумка для рыбы — весь улов в одном слоте.", en: "Keeps your catch in one slot."}
+  - id: gfs_crates
+    deps: [f_crate]
+    roles: [gardener, warrior]
+    items: [tide:obsidian_crate, tide:purpur_crate]
+    title: {ru: "Ящики Незера и Края", en: "Nether and End Crates"}
+    why: {ru: "Ящики с сокровищами вылавливают в Незере и Крае — внутри редкая добыча.", en: "Treasure crates fished up in the Nether and End."}
+  # --- Aquaculture
+  - id: gaq2_rods
+    deps: [f_aquaculture]
+    roles: [gardener]
+    items: [aquaculture:iron_fishing_rod, aquaculture:gold_fishing_rod, aquaculture:diamond_fishing_rod]
+    title: {ru: "Удочки Aquaculture", en: "Aquaculture Rods"}
+    why: {ru: "Удочки Aquaculture принимают крючок, леску и поплавок — собирай снасть под задачу в интерфейсе удочки.", en: "Rods that take a hook, line and bobber."}
+  - id: gaq2_tackle
+    deps: [gaq2_rods]
+    roles: [gardener]
+    items: [aquaculture:fishing_line, aquaculture:bobber, aquaculture:gold_hook]
+    title: {ru: "Леска, поплавок и крючок", en: "Line, Bobber and Hook"}
+    why: {en: Tackle slots into an Aquaculture rod., ru: 'Леска, поплавок и крючок вставляются в удочку Aquaculture и меняют её свойства.'}
+  - id: gaq2_hooks
+    deps: [gaq2_tackle]
+    roles: [gardener]
+    items: [aquaculture:heavy_hook, aquaculture:double_hook, aquaculture:redstone_hook, aquaculture:diamond_hook]
+    title: {ru: "Особые крючки", en: "Special Hooks"}
+    why: {ru: "У каждого крючка своё свойство — смотри подсказку. Двойной, например, может принести сразу две рыбы.", en: "Each hook has its own trait; see tooltips."}
+  - id: gaq2_nether_star_hook
+    deps: [gaq2_hooks]
+    roles: [gardener]
+    items: [aquaculture:nether_star_hook]
+    why: {en: The rarest hook; see its tooltip., ru: Крючок из звезды Незера — самый редкий крючок Aquaculture. Его свойство — в подсказке.}
+  - id: gaq2_neptunium_rod
+    deps: [f_neptunium]
+    roles: [gardener, warrior]
+    items: [aquaculture:neptunium_fishing_rod]
+    why: {en: The best Aquaculture rod., ru: Нептуниевая удочка — лучшая удочка Aquaculture.}
+  - id: gaq2_neptunium_gear
+    deps: [f_neptunium]
+    roles: [warrior]
+    items: [aquaculture:neptunium_chestplate, aquaculture:neptunium_sword, aquaculture:neptunium_pickaxe, aquaculture:neptunium_bow]
+    title: {ru: "Нептуниевое снаряжение", en: "Neptunium Gear"}
+    why: {ru: "Нептуний из морских сокровищ — броня, лук и инструменты Aquaculture. Их особенности — в подсказках.", en: "Neptunium gear, strongest in water."}
+  - id: gaq2_fillet
+    deps: [f_aquaculture]
+    roles: [cook]
+    items: [aquaculture:iron_fillet_knife]
+    why: {ru: "Филейный нож разделывает рыбу на филе — больше еды с той же рыбы.", en: "Fillets fish for more food."}
+  - id: gaq2_worms
+    deps: [f_aquaculture]
+    roles: [gardener]
+    items: [aquaculture:worm_farm]
+    why: {ru: "Червячная ферма из компоста даёт червей — наживку для лучшего клёва.", en: "Turns compost into worms for bait."}
+  - id: gaq2_treasure
+    deps: [f_tackle]
+    roles: [gardener, warrior]
+    items: [aquaculture:treasure_chest, aquaculture:lockbox, aquaculture:message_in_a_bottle]
+    title: {ru: "Сокровища со дна", en: "Treasures from the Deep"}
+    why: {ru: "Сундук с сокровищами, запертая шкатулка и послание в бутылке — случайная добыча с рыбалки. В шкатулке бывают ценности.", en: "Random treasure from fishing."}

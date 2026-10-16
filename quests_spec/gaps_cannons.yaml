@@ -1,0 +1,70 @@
+# Key-item gaps: Create Big Cannons (firearms chapter). Texts: Create-style tooltips.
+extends: firearms
+lang: [createbigcannons]
+autodoc: ["block.{ns}.{path}.tooltip.summary", "item.{ns}.{path}.tooltip.summary"]
+out: gaps_cannons_gen
+quests:
+  - id: gcb_mount
+    deps: [fa_artillery]
+    roles: [warrior, engineer]
+    items: [createbigcannons:cannon_mount, createbigcannons:cannon_carriage]
+    title: {ru: "Лафет и станок", en: "Cannon Mount and Carriage"}
+    why: {ru: "Пушка Create Big Cannons собирается из частей на лафете: ствол, зарядная камора, затвор. Лафет крутит и наклоняет орудие от вращения.", en: "A cannon is assembled on a mount from barrel, chamber and breech."}
+  - id: gcb_cast_iron
+    deps: [gcb_mount]
+    roles: [warrior, engineer]
+    items: [createbigcannons:cast_iron_cannon_barrel, createbigcannons:cast_iron_cannon_chamber, createbigcannons:cast_iron_sliding_breech]
+    title: {ru: "Чугунная пушка", en: "Cast Iron Cannon"}
+    why: {ru: "Чугун — первая ступень: дешёвый, но держит мало пороха. Перезаряд — через скользящий затвор.", en: "The first tier: cheap, but holds little powder."}
+  - id: gcb_bronze_steel
+    deps: [gcb_cast_iron]
+    roles: [warrior, engineer]
+    items: [createbigcannons:bronze_cannon_barrel, createbigcannons:built_up_steel_cannon_barrel]
+    title: {ru: "Бронза и сталь", en: "Bronze and Steel"}
+    why: {ru: "Бронзовые и стальные стволы выдерживают больше зарядов — снаряд летит дальше.", en: "Stronger barrels take more charges: longer range."}
+  - id: gcb_nethersteel
+    deps: [gcb_bronze_steel]
+    roles: [warrior, engineer]
+    items: [createbigcannons:nethersteel_cannon_barrel]
+    why: {en: 'The strongest barrel: the most charges and range.', ru: 'Ствол из незерской стали — самый прочный: держит больше всего зарядов, снаряд летит дальше всех.'}
+  - id: gcb_tools
+    deps: [gcb_mount]
+    roles: [engineer]
+    items: [createbigcannons:cannon_builder, createbigcannons:cannon_drill, createbigcannons:cannon_loader]
+    title: {ru: "Станки пушкаря", en: "Cannon Workshop"}
+    why: {ru: "Сборщик пушек собирает ствол из литых частей, сверло рассверливает отливки, заряжатель досылает снаряд и заряд автоматически.", en: "Builder, drill and loader for making and loading cannons."}
+  - id: gcb_powder
+    deps: [gcb_mount]
+    roles: [warrior, alchemist]
+    items: [createbigcannons:big_cartridge, createbigcannons:guncotton, createbigcannons:nitropowder]
+    title: {ru: "Порох и заряды", en: "Powder and Charges"}
+    why: {ru: "Пироксилин и нитропорох сильнее чёрного пороха, большой картридж — готовый заряд для ствола.", en: "Stronger powders and ready cartridges."}
+  - id: gcb_shells
+    deps: [gcb_powder]
+    roles: [warrior]
+    items: [createbigcannons:ap_shot, createbigcannons:he_shell, createbigcannons:ap_shell]
+    title: {ru: "Снаряды", en: "Shells"}
+    why: {ru: "Бронебойная болванка пробивает блоки, фугасный снаряд взрывается, бронебойный снаряд — и то, и другое. Стреляй только по диким землям и мобам.", en: "Armor-piercing, HE and AP shells. Fire only at the wilds."}
+  - id: gcb_special_shells
+    deps: [gcb_shells]
+    roles: [warrior]
+    items: [createbigcannons:fluid_shell, createbigcannons:drop_mortar_shell, createbigcannons:bag_of_grapeshot]
+    title: {ru: "Особые снаряды", en: "Special Shells"}
+    why: {ru: "Жидкостный снаряд разливает жидкость (например, воду на пожар), миномётный падает сверху, картечь бьёт по толпе.", en: "Fluid, mortar and grapeshot rounds."}
+  - id: gcb_fuze
+    deps: [gcb_shells]
+    roles: [warrior]
+    items: [createbigcannons:impact_fuze]
+    why: {ru: "Взрыватель ставится на снаряд и решает, когда он взорвётся: от удара, по таймеру или рядом с целью.", en: "Sets when the shell explodes."}
+  - id: gcb_autocannon
+    deps: [fa_autocannon]
+    roles: [warrior, engineer]
+    items: [createbigcannons:cast_iron_autocannon_barrel, createbigcannons:cast_iron_autocannon_breech]
+    title: {ru: "Автопушка", en: "Autocannon"}
+    why: {ru: "Автопушка стреляет очередями маленьких снарядов — ПВО для базы и оружие для дирижабля.", en: "Rapid fire: base air defence and airship gun."}
+  - id: gcb_autocannon_ammo
+    deps: [gcb_autocannon]
+    roles: [warrior]
+    items: [createbigcannons:autocannon_cartridge, createbigcannons:flak_autocannon_round, createbigcannons:ap_autocannon_round, createbigcannons:autocannon_ammo_container]
+    title: {ru: "Боеприпасы автопушки", en: "Autocannon Ammo"}
+    why: {ru: "Зенитные снаряды рвутся рядом с летящей целью, бронебойные пробивают. Ящик с боеприпасами кормит пушку лентой.", en: "Flak bursts near flying targets; AP pierces; the box feeds the gun."}

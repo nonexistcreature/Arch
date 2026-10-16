@@ -98,15 +98,15 @@ hash = "05bb55e254a84ae07f4a2446b9f56b0326342ba0b7903aa47d8e7a9d7ce994c6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/firearms.snbt"
-hash = "9c3678a2d332d2fb51529a499fbbc2e1fef6f49194e16b4df27a46a15eac6c8a"
+hash = "36d80e078c405e88d55a25729db5f3794e101695eabcb6437df867e5fe64474b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/first_steps.snbt"
-hash = "dbf8cf3b08a67e45cef670869f82e1d2445aa447470b4545939fb69786231909"
+hash = "72864ce82c3a4ac04dee3b6d98c85e4b8108eabe77d068e257bdd4fad4dd903d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fishing.snbt"
-hash = "cf5a3763524f715a46e7834ad5b10aa0d4f67d68084433bb961bfa29a9692dd7"
+hash = "17a8bce6622dae47bef916433a7a8afe156bad3f306cabf3644b9a9228075ddd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/garden.snbt"
@@ -118,7 +118,7 @@ hash = "a0c27b878997dcfc9015a47ade9dabc04d20ff7bbd636930f5aba8638cb6be4a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/home.snbt"
-hash = "9688261134fc90aee193cc40f4b026deb24009ed34e8cfac2a6086f39eb385bb"
+hash = "920239ecd437b9177940fcbff6ed0686f4460be502d9a1094579cbc82a3788b4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive.snbt"
@@ -166,7 +166,7 @@ hash = "6f8148699098386736a220e5444e22dd7804c39f50a702952e70ded0e13cfa51"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/transport.snbt"
-hash = "fdb03c63d3bcd21b7a335cf630841c4f2fd6e68a495114b5be02401fbc28eed8"
+hash = "310610a961307eab805649436051db8796151fce0611fdb4f082048cc052331f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/twilight.snbt"
@@ -194,11 +194,11 @@ hash = "462be260324d4e1288a1a4476d4de0ec35126e18a4ce443be04df10d784560c5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "b2ca20299cfe3e2b46c8281ac33bfa38999f76e87e7d9379d9c200b357d729c3"
+hash = "43a2bf1016cfc423ff7be19449872278ae913308d39ef7051566c9fec03fe2b3"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "be6beb1b3e8f724b2d017ba5b101742b8fb2151e49358d7a4eb104c8ab715019"
+hash = "02bdcd328c8d53cda09c293ef985ee7d4278835a0efa07a73fa3fad9a4908f30"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -394,7 +394,7 @@ hash = "c11f7b38713be52de96e3c304a7750b5ff5bd441410dde2958022de95930d212"
 
 [[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
-hash = "b886927ee4c70d11e1cc4aa3e10d14a8168fa1ba3d3198bd6b7bf6b611ce08e3"
+hash = "c9fa1ce811480a63efd21cb54d97b0e4750351cd669c793ee90744e41251ade0"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"

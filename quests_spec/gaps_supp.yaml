@@ -1,0 +1,72 @@
+# Key-item gaps: Supplementaries — the functional blocks and tools (home chapter).
+extends: home
+lang: [supplementaries]
+autodoc: ["block.{ns}.{path}.tooltip", "item.{ns}.{path}.tooltip", "item.{ns}.{path}.description", "message.{ns}.{path}"]
+out: gaps_supp_gen
+quests:
+  - id: gsp_mechanisms
+    deps: [ho_supplementaries]
+    roles: [engineer]
+    items: [supplementaries:bellows, supplementaries:faucet, supplementaries:pulley_block, supplementaries:crank]
+    title: {ru: "Механизмы Supplementaries", en: "Supplementaries Mechanisms"}
+    why: {ru: "Меха раздувают огонь и сдувают предметы, кран наливает жидкость в бутылки и из бочек, ворот с верёвкой поднимает грузы, рукоятка крутит механизмы.", en: "Bellows, faucet, pulley and crank."}
+  - id: gsp_redstone
+    deps: [gsp_mechanisms]
+    roles: [engineer]
+    items: [supplementaries:relayer, supplementaries:spring_launcher, supplementaries:turn_table, supplementaries:speaker_block]
+    title: {ru: "Редстоун-устройства", en: "Redstone Devices"}
+    why: {ru: "Передатчик, пружинная катапульта, поворотный стол и динамик — для ловушек, лифтов и объявлений в городе.", en: "For traps, lifts and town announcements."}
+  - id: gsp_storage
+    deps: [ho_supplementaries]
+    roles: [builder]
+    items: [supplementaries:jar, supplementaries:sack, supplementaries:cage, supplementaries:safe]
+    title: {ru: "Банка, мешок, клетка и сейф", en: "Jar, Sack, Cage and Safe"}
+    why: {ru: "В банке держат жидкость, светлячков или печенье, в клетке — маленького моба, мешок — переносное хранилище, сейф открывает только хозяин.", en: "Jar, sack, cage for small mobs, owner-only safe."}
+  - id: gsp_lock
+    deps: [gsp_storage]
+    roles: [mayor]
+    items: [supplementaries:key, supplementaries:lock_block]
+    title: {ru: "Ключ и замок", en: "Key and Lock"}
+    why: {ru: "Блок-замок открывается только с ключом нужного имени — двери и сундуки под замком.", en: "Opens only with the right key."}
+  - id: gsp_rope
+    deps: [ho_supplementaries]
+    roles: [builder, warrior]
+    items: [supplementaries:rope*16, supplementaries:rope_arrow*4]
+    title: {ru: "Верёвка и верёвочная стрела", en: "Rope and Rope Arrow"}
+    why: {ru: "Верёвкой спускаются в шахты, верёвочная стрела вешает верёвку там, куда попала.", en: "Climb ropes; a rope arrow hangs rope where it hits."}
+  - id: gsp_weapons
+    deps: [gsp_rope]
+    roles: [warrior]
+    items: [supplementaries:slingshot, supplementaries:bomb, supplementaries:quiver]
+    title: {ru: "Рогатка, бомба и колчан", en: "Slingshot, Bomb and Quiver"}
+    why: {ru: "Рогатка метает любые блоки, бомба взрывается (только в диких землях!), колчан хранит много стрел в одном слоте.", en: "Slingshot, bomb (wilds only) and quiver."}
+  - id: gsp_cannon
+    deps: [gsp_weapons]
+    roles: [warrior]
+    items: [supplementaries:cannon, supplementaries:cannonball*4]
+    title: {ru: "Пушка Supplementaries", en: "Supplementaries Cannon"}
+    why: {en: A simple cannon without Create; wilds only., ru: Пушка Supplementaries стреляет ядрами и другими предметами — простая артиллерия без Create. Только в диких землях.}
+  - id: gsp_instruments
+    deps: [ho_supplementaries]
+    roles: [mayor]
+    items: [supplementaries:altimeter, supplementaries:globe, supplementaries:hourglass, supplementaries:wind_vane]
+    title: {ru: "Приборы", en: "Instruments"}
+    why: {ru: "Высотомер показывает высоту, глобус — карту мира, песочные часы отмеряют время, флюгер — силу ветра и грозу.", en: "Altimeter, globe, hourglass, wind vane."}
+  - id: gsp_display
+    deps: [ho_supplementaries]
+    roles: [mayor, builder]
+    items: [supplementaries:notice_board, supplementaries:crystal_display]
+    title: {ru: "Доска объявлений и табло", en: "Notice Board and Display"}
+    why: {en: Post notes and books; the display shows a redstone number., ru: Доска объявлений показывает книгу или записку на стене — расписание и новости города. Кристальное табло показывает число от редстоун-сигнала.}
+  - id: gsp_fun
+    deps: [ho_supplementaries]
+    roles: [mayor]
+    items: [supplementaries:flute, supplementaries:confetti_popper, supplementaries:bubble_blower, supplementaries:soap]
+    title: {ru: "Для праздника", en: "Party Things"}
+    why: {ru: "Флейта зовёт питомцев, хлопушка сыплет конфетти, пузыри и мыло — праздник в городе. Мылом ещё отмывают краску с блоков.", en: "Flute calls pets; confetti, bubbles, soap."}
+  - id: gsp_flax
+    deps: [ho_supplementaries]
+    roles: [gardener]
+    items: [supplementaries:flax_seeds*4, supplementaries:lumisene_bottle]
+    title: {ru: "Лён и люмизен", en: "Flax and Lumisene"}
+    why: {ru: "Лён растёт в два блока — из него верёвки и ткани. Люмизен — светящаяся жидкость.", en: "Flax for rope and cloth; lumisene glows."}

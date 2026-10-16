@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "6984D699D2660B8F"
-			x: -4.66d
+			x: -6.68d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -31,7 +31,7 @@
 		}
 		{
 			id: "4DC0F06F77F4E8D0"
-			x: -4.66d
+			x: -6.56d
 			y: 2.0d
 			icon: {
 				id: "smallships:cotton_sails"
@@ -54,7 +54,7 @@
 		}
 		{
 			id: "5088E3C71CA9EAB9"
-			x: -4.61d
+			x: -6.5d
 			y: 4.0d
 			icon: {
 				id: "smallships:oak_cog"
@@ -86,7 +86,7 @@
 		}
 		{
 			id: "4A924D0C915569ED"
-			x: -3.39d
+			x: -5.04d
 			y: 6.0d
 			icon: {
 				id: "smallships:oak_brigg"
@@ -108,7 +108,7 @@
 		}
 		{
 			id: "3B06282EB819370D"
-			x: -2.26d
+			x: -1.69d
 			y: 8.0d
 			shape: "hexagon"
 			icon: {
@@ -142,7 +142,7 @@
 		}
 		{
 			id: "1F8568D64C4D85D9"
-			x: -1.89d
+			x: -2.22d
 			y: 6.0d
 			icon: {
 				id: "smallships:oak_drakkar"
@@ -164,7 +164,7 @@
 		}
 		{
 			id: "36AF2E60F7B656EB"
-			x: -8.57d
+			x: -10.11d
 			y: 6.0d
 			icon: {
 				id: "immersivepetroleum:speedboat"
@@ -183,7 +183,7 @@
 		}
 		{
 			id: "17DADFF13634DB04"
-			x: -0.44d
+			x: -0.31d
 			y: 0.0d
 			icon: {
 				id: "railways:handcar"
@@ -205,7 +205,7 @@
 		}
 		{
 			id: "7CFEDCB56F3C85D9"
-			x: -0.44d
+			x: 0.1d
 			y: 2.0d
 			icon: {
 				id: "railways:smokestack_coalburner"
@@ -237,7 +237,7 @@
 		}
 		{
 			id: "6D7CC78BAD7C139E"
-			x: -0.39d
+			x: 0.03d
 			y: 4.0d
 			icon: {
 				id: "railways:track_coupler"
@@ -268,7 +268,7 @@
 		}
 		{
 			id: "631B95D917C4FF14"
-			x: -0.39d
+			x: -0.72d
 			y: 6.0d
 			icon: {
 				id: "railways:track_monorail"
@@ -291,7 +291,7 @@
 		}
 		{
 			id: "466444CD9C2D77D4"
-			x: 5.87d
+			x: 7.2d
 			y: 0.0d
 			icon: {
 				id: "waystones:warp_scroll"
@@ -313,7 +313,7 @@
 		}
 		{
 			id: "59FE438CCB6B63CB"
-			x: 2.25d
+			x: 3.45d
 			y: 2.0d
 			icon: {
 				id: "waystones:warp_stone"
@@ -335,7 +335,7 @@
 		}
 		{
 			id: "79CAC370B6DC53A9"
-			x: -2.26d
+			x: -1.81d
 			y: 0.0d
 			icon: {
 				id: "immersive_aircraft:quadrocopter"
@@ -357,7 +357,7 @@
 		}
 		{
 			id: "69A1D02B4D7A4EFC"
-			x: -2.26d
+			x: -1.69d
 			y: 10.0d
 			shape: "hexagon"
 			icon: {
@@ -386,8 +386,162 @@
 			]
 		}
 		{
+			id: "59B86826917D0BE7"
+			x: -8.61d
+			y: 6.0d
+			icon: {
+				id: "smallships:oak_dhow"
+				count: 1
+			}
+			dependencies: [
+				"5088E3C71CA9EAB9"
+			]
+			tasks: [
+				{
+					id: "240931B8BB71CC10"
+					type: "item"
+					item: {
+						count: 1
+						id: "smallships:oak_dhow"
+					}
+				}
+				{
+					id: "765B70622067B1AD"
+					type: "item"
+					item: {
+						count: 1
+						id: "smallships:oak_caravel"
+					}
+				}
+			]
+		}
+		{
+			id: "7A163EF1CC4D8DA9"
+			x: -7.33d
+			y: 8.0d
+			icon: {
+				id: "smallships:oak_galley"
+				count: 1
+			}
+			dependencies: [
+				"4A924D0C915569ED"
+			]
+			tasks: [
+				{
+					id: "0567292AF8E4F4CC"
+					type: "item"
+					item: {
+						count: 1
+						id: "smallships:oak_galley"
+					}
+				}
+			]
+		}
+		{
+			id: "29C935C0E6060820"
+			x: 8.7d
+			y: 0.0d
+			icon: {
+				id: "smallships:cannon_ball"
+				count: 1
+			}
+			dependencies: [
+				"0261EF9E1DEBACDE"
+			]
+			tasks: [
+				{
+					id: "58D2A677A48657A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "smallships:cannon_ball"
+					}
+					count: 8L
+				}
+				{
+					id: "304A2CE0EA139482"
+					type: "item"
+					item: {
+						count: 1
+						id: "smallships:grape_shot"
+					}
+					count: 4L
+				}
+				{
+					id: "3CDE949FD5FFF059"
+					type: "item"
+					item: {
+						count: 1
+						id: "smallships:chained_shot"
+					}
+					count: 4L
+				}
+				{
+					id: "2327C4236AFE5163"
+					type: "item"
+					item: {
+						count: 1
+						id: "smallships:fine_grain_powder"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "2C01F47F39151228"
+			x: -1.4d
+			y: 2.0d
+			icon: {
+				id: "railways:benchcart"
+				count: 1
+			}
+			dependencies: [
+				"17DADFF13634DB04"
+			]
+			tasks: [
+				{
+					id: "1C741AD19C519321"
+					type: "item"
+					item: {
+						count: 1
+						id: "railways:benchcart"
+					}
+				}
+			]
+		}
+		{
+			id: "5A5DCD2E916C900F"
+			x: 0.78d
+			y: 6.0d
+			icon: {
+				id: "railways:screwlink_coupler"
+				count: 1
+			}
+			dependencies: [
+				"6D7CC78BAD7C139E"
+			]
+			tasks: [
+				{
+					id: "53FA9BCDDE9734F8"
+					type: "item"
+					item: {
+						count: 1
+						id: "railways:screwlink_coupler"
+					}
+				}
+				{
+					id: "7D0B85C1A4A92ECD"
+					type: "item"
+					item: {
+						count: 1
+						id: "railways:knuckle_coupler"
+					}
+				}
+			]
+		}
+		{
 			id: "42FD6CAB5134DAA2"
-			x: 5.57d
+			x: 7.11d
 			y: 2.0d
 			icon: {
 				id: "waystones:warp_dust"
@@ -410,7 +564,7 @@
 		}
 		{
 			id: "02E20A34F8D6C548"
-			x: 7.07d
+			x: 8.61d
 			y: 2.0d
 			icon: {
 				id: "waystones:return_scroll"
@@ -432,7 +586,7 @@
 		}
 		{
 			id: "43C381B528DE6591"
-			x: 8.57d
+			x: 10.11d
 			y: 2.0d
 			icon: {
 				id: "waystones:bound_scroll"
@@ -454,7 +608,7 @@
 		}
 		{
 			id: "6E580B0E0DB376FF"
-			x: 8.32d
+			x: 9.87d
 			y: 4.0d
 			icon: {
 				id: "waystones:portal_scroll"
@@ -476,7 +630,7 @@
 		}
 		{
 			id: "1EAF77894525E086"
-			x: 3.82d
+			x: 5.37d
 			y: 4.0d
 			icon: {
 				id: "waystones:white_portstone"
@@ -498,7 +652,7 @@
 		}
 		{
 			id: "1A444ECB29407E92"
-			x: 5.32d
+			x: 6.87d
 			y: 4.0d
 			icon: {
 				id: "waystones:attuned_shard"

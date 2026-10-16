@@ -510,6 +510,76 @@
 	quest.1D2C45BEDF6DAD9C.quest_desc: [
 		"Nap through the day until evening. For night-walk lovers."
 	]
+	quest.5471D0E92D77B54A.title: "Pickup, Magnet and Filter"
+	quest.5471D0E92D77B54A.quest_desc: [
+		"&lWhy:&r The pack picks up, attracts and filters items."
+		"Makes backpack pickup items"
+	]
+	quest.4A94059D1074687E.title: "Refill, Restock, Deposit"
+	quest.4A94059D1074687E.quest_desc: [
+		"&lWhy:&r Refill your hotbar while building; restock/deposit with chests in one click."
+		"Keeps refilling stack of selected items in player's inventory"
+	]
+	quest.7250A9062E14FEF2.title: "Compacting and Void"
+	quest.7250A9062E14FEF2.quest_desc: [
+		"&lWhy:&r Compact ingots into blocks; void junk (set the filter!)."
+		"Compacts items into their compressed variants"
+		"Only 2x2 recipes"
+	]
+	quest.471629B338818407.title: "Workshop in a Backpack"
+	quest.471629B338818407.quest_desc: [
+		"&lWhy:&r Crafting, stonecutting, smithing and anvil on the go."
+		"Crafting table in an upgrade tab"
+	]
+	quest.6B2D4462920CF0A3.title: "Furnace in a Backpack"
+	quest.6B2D4462920CF0A3.quest_desc: [
+		"Smelting in an upgrade tab"
+	]
+	quest.0DBD80A1D0661B47.title: "Tool Swapper Upgrade"
+	quest.0DBD80A1D0661B47.quest_desc: [
+		"&lWhy:&r Swaps in the right tool automatically."
+		"Automatically swaps item in player's hand for the one effective on the block/entity when these are left clicked."
+	]
+	quest.6A1DEB68E3447524.title: "Tank and Battery"
+	quest.6A1DEB68E3447524.quest_desc: [
+		"Replaces part of backpack's inventory with fluid storage"
+	]
+	quest.0856D774D209D864.title: "Stack Upgrade Tier 1"
+	quest.0856D774D209D864.quest_desc: [
+		"&lWhy:&r More items per slot."
+		"Multiplies the number of stacks that can fit in a slot by 2"
+	]
+	quest.1F2354AAC4CBBFCD.title: "Special Upgrades"
+	quest.1F2354AAC4CBBFCD.quest_desc: [
+		"&lWhy:&r Everlasting, inception and XP pump."
+		"Backpack becomes indestructible"
+		"Can't despawn or fall into void"
+	]
+	quest.56AAD2EE94BA1A9D.title: "Jukebox Upgrade"
+	quest.56AAD2EE94BA1A9D.quest_desc: [
+		"Portable Jukebox"
+	]
+	quest.13E0AA7016EC8BE4.title: "Sophisticated Barrels and Chests"
+	quest.13E0AA7016EC8BE4.quest_desc: [
+		"&lWhy:&r Upgradable storage; the limited barrel holds one item in bulk."
+	]
+	quest.584B0F73A04C6551.title: "Tier Upgrades"
+	quest.584B0F73A04C6551.quest_desc: [
+		"&lWhy:&r Upgrade in place without emptying."
+	]
+	quest.27D39A64E902D6E8.title: "Storage Upgrades"
+	quest.27D39A64E902D6E8.quest_desc: [
+		"Multiplies the number of stacks that can fit in a slot by 2"
+	]
+	quest.02512590CEFE6B26.title: "Storage Controller"
+	quest.02512590CEFE6B26.quest_desc: [
+		"&lWhy:&r Joins nearby storage into one."
+		"Allows to deposit and pipe items to and from a connected multiblock of storages"
+	]
+	quest.2C77E31EFE239498.title: "Packing Tape"
+	quest.2C77E31EFE239498.quest_desc: [
+		"&lWhy:&r Tape a chest shut to move it with contents."
+	]
 	chapter.62C3EC2B524D9932.title: "Kitchen & Tavern"
 	chapter.62C3EC2B524D9932.chapter_subtitle: [
 		"Food that heals, energises and grants hearts"
@@ -2183,6 +2253,80 @@
 	quest.18B2199085A4FF74.quest_desc: [
 		"Holds hooks, bait and line. An angler's order."
 	]
+	quest.68FDA333431AB4F6.title: "Netherite Fishing Rod"
+	quest.68FDA333431AB4F6.quest_desc: [
+		"&lWhy:&r The toughest standard rod; special rods come next."
+	]
+	quest.5E9673209AF4E23F.title: "Stone Fishing Rod"
+	quest.5E9673209AF4E23F.quest_desc: [
+		"&lWhy:&r The simplest Tide rod, better than wood."
+	]
+	quest.3F7AE9B61FB0307D.title: "Lava Fishing"
+	quest.3F7AE9B61FB0307D.quest_desc: [
+		"&lWhy:&r Fish in lava with a blazing rod and lavaproof hook."
+	]
+	quest.45DF88F6AA8EBBD5.title: "Special Rods"
+	quest.45DF88F6AA8EBBD5.quest_desc: [
+		"&lWhy:&r Special rods, each with its own trait; read the tooltip and the journal."
+	]
+	quest.64027408FAFC380F.title: "Hooks for Every World"
+	quest.64027408FAFC380F.quest_desc: [
+		"&lWhy:&r The hook decides where you can fish."
+		"Allows fishing in the void"
+	]
+	quest.77BF7E0CD73EF23F.title: "Fishing Lines"
+	quest.77BF7E0CD73EF23F.quest_desc: [
+		"&lWhy:&r Lines change how fish bite and escape."
+		"-15% catch difficulty"
+	]
+	quest.53F4D59727E94708.title: "Special Baits"
+	quest.53F4D59727E94708.quest_desc: [
+		"&lWhy:&r Each bait changes the catch; see tooltips."
+	]
+	quest.53C4D6CBC32C1341.title: "Fish Satchel"
+	quest.53C4D6CBC32C1341.quest_desc: [
+		"&lWhy:&r Keeps your catch in one slot."
+	]
+	quest.3EE47231A777F87F.title: "Nether and End Crates"
+	quest.3EE47231A777F87F.quest_desc: [
+		"&lWhy:&r Treasure crates fished up in the Nether and End."
+	]
+	quest.1194EC20263C2CF6.title: "Aquaculture Rods"
+	quest.1194EC20263C2CF6.quest_desc: [
+		"&lWhy:&r Rods that take a hook, line and bobber."
+	]
+	quest.4561CB4B99402B56.title: "Line, Bobber and Hook"
+	quest.4561CB4B99402B56.quest_desc: [
+		"&lWhy:&r Tackle slots into an Aquaculture rod."
+	]
+	quest.0D95249F5E3B783E.title: "Special Hooks"
+	quest.0D95249F5E3B783E.quest_desc: [
+		"&lWhy:&r Each hook has its own trait; see tooltips."
+	]
+	quest.72845111F5A3DB25.title: "Nether Star Hook"
+	quest.72845111F5A3DB25.quest_desc: [
+		"&lWhy:&r The rarest hook; see its tooltip."
+	]
+	quest.7E1F3EDE152379BF.title: "Neptunium Fishing Rod"
+	quest.7E1F3EDE152379BF.quest_desc: [
+		"&lWhy:&r The best Aquaculture rod."
+	]
+	quest.56A6B40D76ED5A77.title: "Neptunium Gear"
+	quest.56A6B40D76ED5A77.quest_desc: [
+		"&lWhy:&r Neptunium gear, strongest in water."
+	]
+	quest.234381C995B52C63.title: "Iron Fillet Knife"
+	quest.234381C995B52C63.quest_desc: [
+		"&lWhy:&r Fillets fish for more food."
+	]
+	quest.05C4940E7709234F.title: "Worm Farm"
+	quest.05C4940E7709234F.quest_desc: [
+		"&lWhy:&r Turns compost into worms for bait."
+	]
+	quest.055B3F7AFE34F404.title: "Treasures from the Deep"
+	quest.055B3F7AFE34F404.quest_desc: [
+		"&lWhy:&r Random treasure from fishing."
+	]
 	chapter.42BEE9E4256E795A.title: "Create: Mechanics"
 	chapter.42BEE9E4256E795A.chapter_subtitle: [
 		"Rotation that does everything"
@@ -3377,6 +3521,26 @@
 	quest.69A1D02B4D7A4EFC.quest_subtitle: "Sea, rails, sky"
 	quest.69A1D02B4D7A4EFC.quest_desc: [
 		"You've tied the world together. Suggest a shared station at spawn so every line meets in one place."
+	]
+	quest.59B86826917D0BE7.title: "Dhow and Caravel"
+	quest.59B86826917D0BE7.quest_desc: [
+		"&lWhy:&r Fast dhow, long-range caravel."
+	]
+	quest.7A163EF1CC4D8DA9.title: "Oak Galley"
+	quest.7A163EF1CC4D8DA9.quest_desc: [
+		"&lWhy:&r Rows even without wind."
+	]
+	quest.29C935C0E6060820.title: "Shot and Powder"
+	quest.29C935C0E6060820.quest_desc: [
+		"&lWhy:&r Cannonballs for hulls, grapeshot for crews, chain shot for sails."
+	]
+	quest.2C01F47F39151228.title: "Minecart with Workbench"
+	quest.2C01F47F39151228.quest_desc: [
+		"&lWhy:&r A crafting table on rails."
+	]
+	quest.5A5DCD2E916C900F.title: "Couplers"
+	quest.5A5DCD2E916C900F.quest_desc: [
+		"&lWhy:&r Decorative couplers between carriages."
 	]
 	quest.42FD6CAB5134DAA2.title: "Warp Dust"
 	quest.42FD6CAB5134DAA2.quest_desc: [
@@ -9276,6 +9440,54 @@
 	quest.533A846AC076473A.quest_desc: [
 		"Infantry, navy, air force and drones. Time to build barracks (Minecolonies) and train guards: nobody takes your colony now."
 	]
+	quest.07DB0886BCE962E0.title: "Cannon Mount and Carriage"
+	quest.07DB0886BCE962E0.quest_desc: [
+		"&lWhy:&r A cannon is assembled on a mount from barrel, chamber and breech."
+	]
+	quest.5DA5DE716E505CCF.title: "Cast Iron Cannon"
+	quest.5DA5DE716E505CCF.quest_desc: [
+		"&lWhy:&r The first tier: cheap, but holds little powder."
+	]
+	quest.1626C56E5EDF40A0.title: "Bronze and Steel"
+	quest.1626C56E5EDF40A0.quest_desc: [
+		"&lWhy:&r Stronger barrels take more charges: longer range."
+	]
+	quest.4883E164FEF8BAAE.title: "Nethersteel Cannon Barrel"
+	quest.4883E164FEF8BAAE.quest_desc: [
+		"&lWhy:&r The strongest barrel: the most charges and range."
+	]
+	quest.613A59F86E1B84FB.title: "Cannon Workshop"
+	quest.613A59F86E1B84FB.quest_desc: [
+		"&lWhy:&r Builder, drill and loader for making and loading cannons."
+	]
+	quest.19E1D1932BA1C170.title: "Powder and Charges"
+	quest.19E1D1932BA1C170.quest_desc: [
+		"&lWhy:&r Stronger powders and ready cartridges."
+		"Compact big cannon propellant that can be filled with various levels of more powerful propellant. Can only be used once in a shot, but can be refilled afterwards."
+	]
+	quest.4F46B16412B88D21.title: "Shells"
+	quest.4F46B16412B88D21.quest_desc: [
+		"&lWhy:&r Armor-piercing, HE and AP shells. Fire only at the wilds."
+		"Can effectively pierce through blocks. Good against armored targets. Cannot be fuzed and detonated."
+	]
+	quest.774A485CD393547C.title: "Special Shells"
+	quest.774A485CD393547C.quest_desc: [
+		"&lWhy:&r Fluid, mortar and grapeshot rounds."
+		"Spreads the contained fluid all over the targeted area, with different effects depending on the fluid."
+	]
+	quest.3618916F1A63AB2B.title: "Impact Fuze"
+	quest.3618916F1A63AB2B.quest_desc: [
+		"&lWhy:&r Sets when the shell explodes."
+		"Detonates when the projectile hits something. Due to its simplicity, it does not always detonate on impact, and does not detonate on bounces and grazes. This must be mounted on the front of a shell; it will not work as a base fuze."
+	]
+	quest.3040E50396DBCCDC.title: "Autocannon"
+	quest.3040E50396DBCCDC.quest_desc: [
+		"&lWhy:&r Rapid fire: base air defence and airship gun."
+	]
+	quest.7769A7BA860BB73E.title: "Autocannon Ammo"
+	quest.7769A7BA860BB73E.quest_desc: [
+		"&lWhy:&r Flak bursts near flying targets; AP pierces; the box feeds the gun."
+	]
 	chapter.6B5C9EE747778BF3.title: "Elements & Defence"
 	chapter.6B5C9EE747778BF3.chapter_subtitle: [
 		"A living world — and shelter from all of it"
@@ -9846,6 +10058,50 @@
 	quest.2B022A0B2B672C60.quest_subtitle: "A home worth coming back to"
 	quest.2B022A0B2B672C60.quest_desc: [
 		"Lights, roof, furniture, trophies and a stash. Invite friends to a housewarming, and take a screenshot with shaders on."
+	]
+	quest.4D657851A18AB53E.title: "Supplementaries Mechanisms"
+	quest.4D657851A18AB53E.quest_desc: [
+		"&lWhy:&r Bellows, faucet, pulley and crank."
+	]
+	quest.112CE88AC3C96A5F.title: "Redstone Devices"
+	quest.112CE88AC3C96A5F.quest_desc: [
+		"&lWhy:&r For traps, lifts and town announcements."
+	]
+	quest.6D75FD2B05F31819.title: "Jar, Sack, Cage and Safe"
+	quest.6D75FD2B05F31819.quest_desc: [
+		"&lWhy:&r Jar, sack, cage for small mobs, owner-only safe."
+	]
+	quest.2CEE3F299734A263.title: "Key and Lock"
+	quest.2CEE3F299734A263.quest_desc: [
+		"&lWhy:&r Opens only with the right key."
+	]
+	quest.36911DCAFD40BFB2.title: "Rope and Rope Arrow"
+	quest.36911DCAFD40BFB2.quest_desc: [
+		"&lWhy:&r Climb ropes; a rope arrow hangs rope where it hits."
+	]
+	quest.0E301728636C1A5A.title: "Slingshot, Bomb and Quiver"
+	quest.0E301728636C1A5A.quest_desc: [
+		"&lWhy:&r Slingshot, bomb (wilds only) and quiver."
+	]
+	quest.77F45C72D2AFB544.title: "Supplementaries Cannon"
+	quest.77F45C72D2AFB544.quest_desc: [
+		"&lWhy:&r A simple cannon without Create; wilds only."
+	]
+	quest.516AA3FC805748FE.title: "Instruments"
+	quest.516AA3FC805748FE.quest_desc: [
+		"&lWhy:&r Altimeter, globe, hourglass, wind vane."
+	]
+	quest.217D5F21B1E63769.title: "Notice Board and Display"
+	quest.217D5F21B1E63769.quest_desc: [
+		"&lWhy:&r Post notes and books; the display shows a redstone number."
+	]
+	quest.588E161B7D6BCBB4.title: "Party Things"
+	quest.588E161B7D6BCBB4.quest_desc: [
+		"&lWhy:&r Flute calls pets; confetti, bubbles, soap."
+	]
+	quest.418E84EE79D7100D.title: "Flax and Lumisene"
+	quest.418E84EE79D7100D.quest_desc: [
+		"&lWhy:&r Flax for rope and cloth; lumisene glows."
 	]
 	chapter.34F136AADF95EE95.title: "Great Works"
 	chapter.34F136AADF95EE95.chapter_subtitle: [

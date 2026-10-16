@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "3A9539897B1176C1"
-			x: -0.44d
+			x: 0.5d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -45,7 +45,7 @@
 		}
 		{
 			id: "21F0682242876677"
-			x: -2.09d
+			x: -1.0d
 			y: 2.0d
 			icon: {
 				id: "tide:fishing_journal"
@@ -67,7 +67,7 @@
 		}
 		{
 			id: "1D087548C817D51D"
-			x: 1.22d
+			x: 0.5d
 			y: 2.0d
 			icon: {
 				id: "minecraft:cod"
@@ -90,7 +90,7 @@
 		}
 		{
 			id: "27EA82321637535F"
-			x: 0.34d
+			x: -3.27d
 			y: 4.0d
 			icon: {
 				id: "tide:lucky_bait"
@@ -112,7 +112,7 @@
 		}
 		{
 			id: "78B9356D937BFE4F"
-			x: -0.02d
+			x: -3.56d
 			y: 6.0d
 			icon: {
 				id: "tide:iron_fishing_rod"
@@ -134,7 +134,7 @@
 		}
 		{
 			id: "4E0C0B6EE4FBB412"
-			x: -1.52d
+			x: -6.94d
 			y: 8.0d
 			icon: {
 				id: "tide:lavaproof_hook"
@@ -157,7 +157,7 @@
 		}
 		{
 			id: "7852E1FD4535E319"
-			x: -0.02d
+			x: -5.44d
 			y: 8.0d
 			icon: {
 				id: "tide:wooden_crate"
@@ -180,7 +180,7 @@
 		}
 		{
 			id: "36CEBA9F196FF2E6"
-			x: 2.09d
+			x: 3.07d
 			y: 4.0d
 			icon: {
 				id: "aquaculture:iron_fillet_knife"
@@ -203,7 +203,7 @@
 		}
 		{
 			id: "2C267C60B4B16E10"
-			x: -3.02d
+			x: 0.56d
 			y: 8.0d
 			shape: "gear"
 			icon: {
@@ -238,7 +238,7 @@
 		}
 		{
 			id: "5F473F9F3E8F5EF4"
-			x: -1.16d
+			x: -1.77d
 			y: 4.0d
 			icon: {
 				id: "tide:angling_table"
@@ -260,7 +260,7 @@
 		}
 		{
 			id: "45CF406C62919035"
-			x: 1.48d
+			x: -3.94d
 			y: 8.0d
 			icon: {
 				id: "tide:golden_fishing_rod"
@@ -283,7 +283,7 @@
 		}
 		{
 			id: "47531F258913D839"
-			x: 1.48d
+			x: -3.94d
 			y: 10.0d
 			icon: {
 				id: "tide:diamond_fishing_rod"
@@ -306,7 +306,7 @@
 		}
 		{
 			id: "2CAAF7B984EE8DCE"
-			x: 2.98d
+			x: -2.44d
 			y: 8.0d
 			icon: {
 				id: "tide:permafrost_hook"
@@ -329,7 +329,7 @@
 		}
 		{
 			id: "1A48F0C1E0815E52"
-			x: 2.98d
+			x: -2.44d
 			y: 10.0d
 			icon: {
 				id: "tide:void_hook"
@@ -353,7 +353,7 @@
 		}
 		{
 			id: "1FB9BA2B85926335"
-			x: 1.52d
+			x: 2.44d
 			y: 6.0d
 			icon: {
 				id: "aquaculture:neptunium_ingot"
@@ -376,7 +376,7 @@
 		}
 		{
 			id: "18B2199085A4FF74"
-			x: 3.02d
+			x: 5.44d
 			y: 6.0d
 			icon: {
 				id: "aquaculture:tackle_box"
@@ -393,6 +393,602 @@
 					item: {
 						count: 1
 						id: "aquaculture:tackle_box"
+					}
+				}
+			]
+		}
+		{
+			id: "68FDA333431AB4F6"
+			x: -3.94d
+			y: 12.0d
+			icon: {
+				id: "tide:netherite_fishing_rod"
+				count: 1
+			}
+			dependencies: [
+				"47531F258913D839"
+			]
+			tasks: [
+				{
+					id: "19E06C83454ED62E"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:netherite_fishing_rod"
+					}
+				}
+			]
+		}
+		{
+			id: "5E9673209AF4E23F"
+			x: 2.0d
+			y: 2.0d
+			icon: {
+				id: "tide:stone_fishing_rod"
+				count: 1
+			}
+			dependencies: [
+				"3A9539897B1176C1"
+			]
+			tasks: [
+				{
+					id: "6634FF7577FBEB14"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:stone_fishing_rod"
+					}
+				}
+			]
+		}
+		{
+			id: "3F7AE9B61FB0307D"
+			x: -6.94d
+			y: 10.0d
+			icon: {
+				id: "tide:blazing_fishing_rod"
+				count: 1
+			}
+			dependencies: [
+				"4E0C0B6EE4FBB412"
+			]
+			tasks: [
+				{
+					id: "5B2CF20B714C1059"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:blazing_fishing_rod"
+					}
+				}
+				{
+					id: "6720787CD9745D9E"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:lavaproof_hook"
+					}
+				}
+			]
+		}
+		{
+			id: "45DF88F6AA8EBBD5"
+			x: -3.94d
+			y: 14.0d
+			icon: {
+				id: "tide:echo_fishing_rod"
+				count: 1
+			}
+			dependencies: [
+				"68FDA333431AB4F6"
+			]
+			tasks: [
+				{
+					id: "4C07669A0515F5F6"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:echo_fishing_rod"
+					}
+				}
+				{
+					id: "49943D94BE2F0C63"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:crystal_fishing_rod"
+					}
+				}
+				{
+					id: "0E5A2576745AFB8D"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:prismarine_fishing_rod"
+					}
+				}
+				{
+					id: "502A3AD5C923C5B7"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:midas_fishing_rod"
+					}
+				}
+			]
+		}
+		{
+			id: "64027408FAFC380F"
+			x: -2.44d
+			y: 12.0d
+			icon: {
+				id: "tide:void_hook"
+				count: 1
+			}
+			dependencies: [
+				"1A48F0C1E0815E52"
+			]
+			tasks: [
+				{
+					id: "2DCE7249F6A5132F"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:void_hook"
+					}
+				}
+				{
+					id: "18474DEDF901702C"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:fiery_hook"
+					}
+				}
+				{
+					id: "715D7C19D06BA08F"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:permafrost_hook"
+					}
+				}
+				{
+					id: "6B12D1D8E890E730"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:twilight_hook"
+					}
+				}
+			]
+		}
+		{
+			id: "77BF7E0CD73EF23F"
+			x: -0.94d
+			y: 8.0d
+			icon: {
+				id: "tide:iron_line"
+				count: 1
+			}
+			dependencies: [
+				"78B9356D937BFE4F"
+			]
+			tasks: [
+				{
+					id: "103FB6C09F843A61"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:iron_line"
+					}
+				}
+				{
+					id: "76AD81F38798760F"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:golden_line"
+					}
+				}
+				{
+					id: "396AD3632B0A8775"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:diamond_line"
+					}
+				}
+			]
+		}
+		{
+			id: "53F4D59727E94708"
+			x: -1.71d
+			y: 6.0d
+			icon: {
+				id: "tide:lucky_bait"
+				count: 1
+			}
+			dependencies: [
+				"27EA82321637535F"
+			]
+			tasks: [
+				{
+					id: "2ED274F0B9151D6A"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:lucky_bait"
+					}
+				}
+				{
+					id: "13B64D13B3F342B1"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:magnetic_bait"
+					}
+				}
+				{
+					id: "691220CD90DD98AF"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:abyss_bait"
+					}
+				}
+				{
+					id: "284249150154AAE8"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:incandescent_bait"
+					}
+				}
+			]
+		}
+		{
+			id: "53C4D6CBC32C1341"
+			x: -0.27d
+			y: 4.0d
+			icon: {
+				id: "tide:fish_satchel"
+				count: 1
+			}
+			dependencies: [
+				"21F0682242876677"
+			]
+			tasks: [
+				{
+					id: "5441F70E8FDADC7E"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:fish_satchel"
+					}
+				}
+			]
+		}
+		{
+			id: "3EE47231A777F87F"
+			x: -5.44d
+			y: 10.0d
+			icon: {
+				id: "tide:obsidian_crate"
+				count: 1
+			}
+			dependencies: [
+				"7852E1FD4535E319"
+			]
+			tasks: [
+				{
+					id: "2AADAD65F2E4B800"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:obsidian_crate"
+					}
+				}
+				{
+					id: "77CFD070FE0F92DA"
+					type: "item"
+					item: {
+						count: 1
+						id: "tide:purpur_crate"
+					}
+				}
+			]
+		}
+		{
+			id: "1194EC20263C2CF6"
+			x: 6.94d
+			y: 6.0d
+			icon: {
+				id: "aquaculture:iron_fishing_rod"
+				count: 1
+			}
+			dependencies: [
+				"36CEBA9F196FF2E6"
+			]
+			tasks: [
+				{
+					id: "20903B6FF51618D2"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:iron_fishing_rod"
+					}
+				}
+				{
+					id: "5DA9E93D365E6186"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:gold_fishing_rod"
+					}
+				}
+				{
+					id: "512223ACCEB00938"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:diamond_fishing_rod"
+					}
+				}
+			]
+		}
+		{
+			id: "4561CB4B99402B56"
+			x: 6.56d
+			y: 8.0d
+			icon: {
+				id: "aquaculture:fishing_line"
+				count: 1
+			}
+			dependencies: [
+				"1194EC20263C2CF6"
+			]
+			tasks: [
+				{
+					id: "6BC6F3BEEA192260"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:fishing_line"
+					}
+				}
+				{
+					id: "4311270F8F83E478"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:bobber"
+					}
+				}
+				{
+					id: "3CF14309F7818A5B"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:gold_hook"
+					}
+				}
+			]
+		}
+		{
+			id: "0D95249F5E3B783E"
+			x: 6.56d
+			y: 10.0d
+			icon: {
+				id: "aquaculture:heavy_hook"
+				count: 1
+			}
+			dependencies: [
+				"4561CB4B99402B56"
+			]
+			tasks: [
+				{
+					id: "5D9A34D0C5D0DD0A"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:heavy_hook"
+					}
+				}
+				{
+					id: "7DAE97AA5FC9AB23"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:double_hook"
+					}
+				}
+				{
+					id: "0006C8FC06F824D3"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:redstone_hook"
+					}
+				}
+				{
+					id: "039A821C7B5F8097"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:diamond_hook"
+					}
+				}
+			]
+		}
+		{
+			id: "72845111F5A3DB25"
+			x: 6.56d
+			y: 12.0d
+			icon: {
+				id: "aquaculture:nether_star_hook"
+				count: 1
+			}
+			dependencies: [
+				"0D95249F5E3B783E"
+			]
+			tasks: [
+				{
+					id: "30DE5A47C253CBEA"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:nether_star_hook"
+					}
+				}
+			]
+		}
+		{
+			id: "7E1F3EDE152379BF"
+			x: 2.06d
+			y: 8.0d
+			icon: {
+				id: "aquaculture:neptunium_fishing_rod"
+				count: 1
+			}
+			dependencies: [
+				"1FB9BA2B85926335"
+			]
+			tasks: [
+				{
+					id: "4924AB97392D9343"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_fishing_rod"
+					}
+				}
+			]
+		}
+		{
+			id: "56A6B40D76ED5A77"
+			x: 3.56d
+			y: 8.0d
+			icon: {
+				id: "aquaculture:neptunium_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"1FB9BA2B85926335"
+			]
+			tasks: [
+				{
+					id: "496B701F428094B5"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_chestplate"
+					}
+				}
+				{
+					id: "30A0E0A018A37C8B"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_sword"
+					}
+				}
+				{
+					id: "790B0259842854C6"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_pickaxe"
+					}
+				}
+				{
+					id: "76E444133BFFA05A"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:neptunium_bow"
+					}
+				}
+			]
+		}
+		{
+			id: "234381C995B52C63"
+			x: -0.21d
+			y: 6.0d
+			icon: {
+				id: "aquaculture:iron_fillet_knife"
+				count: 1
+			}
+			dependencies: [
+				"36CEBA9F196FF2E6"
+			]
+			tasks: [
+				{
+					id: "315536218DDF6807"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:iron_fillet_knife"
+					}
+				}
+			]
+		}
+		{
+			id: "05C4940E7709234F"
+			x: 3.94d
+			y: 6.0d
+			icon: {
+				id: "aquaculture:worm_farm"
+				count: 1
+			}
+			dependencies: [
+				"36CEBA9F196FF2E6"
+			]
+			tasks: [
+				{
+					id: "49D35679047560E9"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:worm_farm"
+					}
+				}
+			]
+		}
+		{
+			id: "055B3F7AFE34F404"
+			x: 5.06d
+			y: 8.0d
+			icon: {
+				id: "aquaculture:treasure_chest"
+				count: 1
+			}
+			dependencies: [
+				"18B2199085A4FF74"
+			]
+			tasks: [
+				{
+					id: "560A18519FB40D5C"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:treasure_chest"
+					}
+				}
+				{
+					id: "68F82F2A906E5951"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:lockbox"
+					}
+				}
+				{
+					id: "6B3A31DB5D2E3167"
+					type: "item"
+					item: {
+						count: 1
+						id: "aquaculture:message_in_a_bottle"
 					}
 				}
 			]
