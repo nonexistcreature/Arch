@@ -1,0 +1,27 @@
+# Key-item gaps: Mekanism Generators, Immersive Engineering, Occultism.
+extends: mekanism
+lang: [mekanismgenerators, mekanism]
+autodoc: description
+out: gaps_big6_gen
+quests:
+  - id: gmk_turbine_parts
+    deps: [m_turbine]
+    roles: [engineer]
+    items: [mekanismgenerators:turbine_blade*4, mekanismgenerators:turbine_vent*4]
+    title: {ru: "Лопасти и вентили турбины", en: "Turbine Blades and Vents"}
+    why: {ru: "Лопасти крутят ротор, вентили выпускают отработанный пар. Больше лопастей — больше энергии, но нужен и пар.", en: "More blades, more power — if there is steam."}
+  - id: gmk_reactor_glass
+    deps: [m_fusion]
+    roles: [engineer]
+    items: [mekanismgenerators:reactor_glass*4, mekanismgenerators:fusion_reactor_frame*8]
+    title: {ru: "Корпус термоядерного реактора", en: "Fusion Reactor Shell"}
+  - id: gmk_solar_panel
+    deps: [m_solar]
+    roles: [engineer]
+    items: [mekanismgenerators:solar_panel*4]
+    why: {en: A part for Mekanism solar generators., ru: Элемент солнечной панели — деталь солнечных генераторов Mekanism.}
+  - id: gmk_modules
+    deps: [mg_modification]
+    roles: [engineer]
+    items: [mekanismgenerators:module_geothermal_generator_unit, mekanismgenerators:module_solar_recharging_unit]
+    title: {ru: "Модули-генераторы MekaSuit", en: "MekaSuit Generator Modules"}

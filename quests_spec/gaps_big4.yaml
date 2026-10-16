@@ -1,0 +1,43 @@
+# Key-item gaps in the Aether chapter (Book of Lore texts).
+extends: aether_sky
+lang: [aether]
+autodoc: ["lore.item.{ns}.{path}", "lore.block.{ns}.{path}"]
+out: gaps_big4_gen
+quests:
+  - id: gaet_gravitite_sword
+    deps: [aeg_gravitite_tools]
+    roles: [warrior]
+    items: [aether:gravitite_sword]
+  - id: gaet_obsidian_set
+    deps: [aeg_obsidian]
+    roles: [warrior]
+    items: [aether:obsidian_helmet]
+  - id: gaet_knife
+    deps: [aeg_weapons]
+    roles: [warrior]
+    items: [aether:lightning_knife, aether:pig_slayer]
+    title: {ru: "Молниевые ножи и Свинобой", en: "Lightning Knives and Pig Slayer"}
+  - id: gaet_stones
+    deps: [aeg_regeneration]
+    roles: [warrior]
+    items: [aether:healing_stone, aether:iron_bubble]
+    title: {ru: "Камень исцеления и железный пузырь", en: "Healing Stone and Iron Bubble"}
+  - id: gaet_feather
+    deps: [adv_valkyrie]
+    roles: [warrior]
+    items: [aether:golden_feather, aether:valkyrie_cape]
+    title: {ru: "Золотое перо и плащ валькирии", en: "Golden Feather and Valkyrie Cape"}
+  - id: gaet_pendants
+    deps: [aeg_rings]
+    roles: [warrior]
+    items: [aether:ice_pendant, aether:golden_ring]
+    title: {ru: "Ледяная подвеска и золотое кольцо", en: "Ice Pendant and Golden Ring"}
+    why: {en: The ice pendant freezes water and lava you walk on., ru: Ледяная подвеска замораживает воду и лаву у тебя под ногами — ходи по лаве. Золотое кольцо — простой аксессуар Эфира.}
+  - id: gaet_sun_altar
+    deps: [adv_sun_spirit]
+    roles: [mage]
+    items: [aether:sun_altar]
+  - id: gaet_dart_shooter
+    deps: [aeg_darts]
+    roles: [warrior]
+    items: [aether:enchanted_dart_shooter]

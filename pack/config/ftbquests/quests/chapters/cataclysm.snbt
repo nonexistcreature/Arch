@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "6B0239F4A91328CE"
-			x: -12.91d
+			x: -15.32d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -31,7 +31,7 @@
 		}
 		{
 			id: "72271F44CF818EB3"
-			x: -6.82d
+			x: -9.53d
 			y: 2.0d
 			icon: {
 				id: "cataclysm:monstrous_eye"
@@ -53,7 +53,7 @@
 		}
 		{
 			id: "2702FC0751B9D94C"
-			x: -7.62d
+			x: -10.01d
 			y: 4.0d
 			icon: {
 				id: "cataclysm:netherite_effigy"
@@ -72,7 +72,7 @@
 		}
 		{
 			id: "0D409B1B1A356229"
-			x: -7.02d
+			x: -9.93d
 			y: 6.0d
 			shape: "hexagon"
 			icon: {
@@ -93,7 +93,7 @@
 		}
 		{
 			id: "37EB413D543566D3"
-			x: -12.78d
+			x: -14.12d
 			y: 8.0d
 			icon: {
 				id: "cataclysm:monstrous_helm"
@@ -115,7 +115,7 @@
 		}
 		{
 			id: "358CC6629333345D"
-			x: -3.65d
+			x: -7.71d
 			y: 8.0d
 			icon: {
 				id: "cataclysm:infernal_forge"
@@ -137,7 +137,7 @@
 		}
 		{
 			id: "78D65F1F74044D75"
-			x: -2.15d
+			x: -6.21d
 			y: 8.0d
 			icon: {
 				id: "cataclysm:mechanical_fusion_anvil"
@@ -159,7 +159,7 @@
 		}
 		{
 			id: "7FE08E26172BFAF6"
-			x: -11.28d
+			x: -12.62d
 			y: 8.0d
 			icon: {
 				id: "cataclysm:netherite_effigy"
@@ -181,7 +181,7 @@
 		}
 		{
 			id: "4AF2C26F2B218882"
-			x: -8.81d
+			x: -10.85d
 			y: 8.0d
 			icon: {
 				id: "cataclysm:flame_eye"
@@ -203,7 +203,7 @@
 		}
 		{
 			id: "4E4236D28AFB6F57"
-			x: -8.56d
+			x: -10.78d
 			y: 10.0d
 			icon: {
 				id: "cataclysm:altar_of_fire"
@@ -222,7 +222,7 @@
 		}
 		{
 			id: "2F1F7F34A0DEFF5C"
-			x: -8.56d
+			x: -10.78d
 			y: 12.0d
 			shape: "hexagon"
 			icon: {
@@ -243,7 +243,7 @@
 		}
 		{
 			id: "707A85C111EC71EB"
-			x: -3.4d
+			x: -6.71d
 			y: 14.0d
 			icon: {
 				id: "cataclysm:ignitium_ingot"
@@ -274,7 +274,7 @@
 		}
 		{
 			id: "7060B6E399DF7354"
-			x: -3.4d
+			x: -6.71d
 			y: 16.0d
 			icon: {
 				id: "cataclysm:ignitium_helmet"
@@ -320,7 +320,7 @@
 		}
 		{
 			id: "566410A2772CF7C9"
-			x: -3.4d
+			x: -6.71d
 			y: 18.0d
 			icon: {
 				id: "cataclysm:ignitium_elytra_chestplate"
@@ -343,7 +343,7 @@
 		}
 		{
 			id: "5509C355B2E51C5B"
-			x: -11.78d
+			x: -14.05d
 			y: 14.0d
 			icon: {
 				id: "cataclysm:bulwark_of_the_flame"
@@ -365,7 +365,7 @@
 		}
 		{
 			id: "3282A9FFAF120EDC"
-			x: -10.28d
+			x: -12.55d
 			y: 14.0d
 			icon: {
 				id: "cataclysm:the_incinerator"
@@ -387,7 +387,7 @@
 		}
 		{
 			id: "501F5D9A88B3077C"
-			x: -8.78d
+			x: -11.05d
 			y: 14.0d
 			icon: {
 				id: "cataclysm:blazing_grips"
@@ -409,7 +409,7 @@
 		}
 		{
 			id: "7CF748B04341886A"
-			x: -2.22d
+			x: -8.15d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:void_core"
@@ -431,7 +431,7 @@
 		}
 		{
 			id: "170AB93D557D27B5"
-			x: -11.41d
+			x: -9.65d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:gauntlet_of_guard"
@@ -453,7 +453,7 @@
 		}
 		{
 			id: "2C17B18E5893B7D2"
-			x: -3.4d
+			x: -7.63d
 			y: 10.0d
 			icon: {
 				id: "cataclysm:void_forge"
@@ -476,7 +476,7 @@
 		}
 		{
 			id: "19870AAD7C79C411"
-			x: -9.72d
+			x: -0.65d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:void_stone"
@@ -496,7 +496,7 @@
 		}
 		{
 			id: "076817D007F75FDD"
-			x: -8.32d
+			x: -1.78d
 			y: 2.0d
 			icon: {
 				id: "cataclysm:enderite_ingot"
@@ -519,7 +519,7 @@
 		}
 		{
 			id: "5347C81AEB9C341D"
-			x: -8.22d
+			x: -13.82d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:abyss_eye"
@@ -541,7 +541,7 @@
 		}
 		{
 			id: "63FE96C2B6606DA9"
-			x: -6.72d
+			x: 2.35d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:tidal_claws"
@@ -563,7 +563,7 @@
 		}
 		{
 			id: "7A3FEBF83761CC7A"
-			x: -5.22d
+			x: 3.85d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:abyssal_egg"
@@ -585,7 +585,7 @@
 		}
 		{
 			id: "14111229BDEAED1D"
-			x: -3.72d
+			x: -3.65d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:crystallized_coral"
@@ -605,7 +605,7 @@
 		}
 		{
 			id: "35B16BE62398D658"
-			x: -3.79d
+			x: -6.53d
 			y: 2.0d
 			icon: {
 				id: "cataclysm:coral_spear"
@@ -635,7 +635,7 @@
 		}
 		{
 			id: "3ECC2C58C7C1444E"
-			x: 3.78d
+			x: 5.35d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:azure_sea_shield"
@@ -657,7 +657,7 @@
 		}
 		{
 			id: "19559516FB1134F0"
-			x: 5.28d
+			x: 6.85d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:ceraunus"
@@ -679,7 +679,7 @@
 		}
 		{
 			id: "5070203F7A73344C"
-			x: 6.78d
+			x: 8.35d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:astrape"
@@ -701,7 +701,7 @@
 		}
 		{
 			id: "65641002583081AD"
-			x: 8.28d
+			x: 9.85d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:mech_eye"
@@ -723,7 +723,7 @@
 		}
 		{
 			id: "72A78A25DF757261"
-			x: 9.78d
+			x: 0.85d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:lava_power_cell"
@@ -743,7 +743,7 @@
 		}
 		{
 			id: "5D9ECE38934C5D09"
-			x: 11.28d
+			x: 11.35d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:wither_assault_shoulder_weapon"
@@ -765,7 +765,7 @@
 		}
 		{
 			id: "294B560EDD7DA424"
-			x: -0.72d
+			x: -6.65d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:laser_gatling"
@@ -787,7 +787,7 @@
 		}
 		{
 			id: "2BDDCFE4B8CD8AFB"
-			x: 12.78d
+			x: 12.85d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:witherite_ingot"
@@ -810,7 +810,7 @@
 		}
 		{
 			id: "4AD5119537D623EF"
-			x: -16.43d
+			x: -18.79d
 			y: 2.0d
 			icon: {
 				id: "cataclysm:desert_eye"
@@ -832,7 +832,7 @@
 		}
 		{
 			id: "36BCC059E4D54458"
-			x: -16.05d
+			x: -18.08d
 			y: 4.0d
 			icon: {
 				id: "cataclysm:cursed_tombstone"
@@ -851,7 +851,7 @@
 		}
 		{
 			id: "48DBA50CE351F9F1"
-			x: -14.53d
+			x: -21.85d
 			y: 6.0d
 			icon: {
 				id: "cataclysm:necklace_of_the_desert"
@@ -873,7 +873,7 @@
 		}
 		{
 			id: "30E1574759A1ED41"
-			x: 0.78d
+			x: -5.15d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:wrath_of_the_desert"
@@ -903,7 +903,7 @@
 		}
 		{
 			id: "249DF8692D6AF727"
-			x: 14.28d
+			x: 14.35d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:khopesh"
@@ -925,7 +925,7 @@
 		}
 		{
 			id: "640839E0F72CBF82"
-			x: -18.78d
+			x: -16.72d
 			y: 6.0d
 			icon: {
 				id: "cataclysm:kobolediator_skull"
@@ -945,7 +945,7 @@
 		}
 		{
 			id: "53870F00F00B36B8"
-			x: -18.78d
+			x: -18.62d
 			y: 8.0d
 			icon: {
 				id: "cataclysm:sticky_gloves"
@@ -967,7 +967,7 @@
 		}
 		{
 			id: "6FA277D6E33EEF1D"
-			x: -13.03d
+			x: -18.22d
 			y: 6.0d
 			icon: {
 				id: "cataclysm:lionfish_spike"
@@ -987,7 +987,7 @@
 		}
 		{
 			id: "51E02638B5244131"
-			x: -12.52d
+			x: -14.03d
 			y: 2.0d
 			icon: {
 				id: "cataclysm:cursed_eye"
@@ -1009,7 +1009,7 @@
 		}
 		{
 			id: "6E68BAC601531C7F"
-			x: -12.13d
+			x: -13.32d
 			y: 4.0d
 			icon: {
 				id: "cataclysm:pointed_icicle"
@@ -1028,7 +1028,7 @@
 		}
 		{
 			id: "1CE2BA9020BFB2BE"
-			x: -11.53d
+			x: -13.72d
 			y: 6.0d
 			icon: {
 				id: "cataclysm:aptrgangr_head"
@@ -1048,7 +1048,7 @@
 		}
 		{
 			id: "294AF5BCD22280CE"
-			x: 2.28d
+			x: -2.15d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:cursium_ingot"
@@ -1079,7 +1079,7 @@
 		}
 		{
 			id: "756DA255BF7A86EB"
-			x: -2.29d
+			x: -5.03d
 			y: 2.0d
 			icon: {
 				id: "cataclysm:cursium_helmet"
@@ -1125,7 +1125,7 @@
 		}
 		{
 			id: "0D8A50688B12EBBC"
-			x: 15.78d
+			x: 15.85d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:soul_render"
@@ -1147,7 +1147,7 @@
 		}
 		{
 			id: "3CE0C222EE372367"
-			x: 17.28d
+			x: 17.35d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:cursed_bow"
@@ -1169,7 +1169,7 @@
 		}
 		{
 			id: "73C5B755D851E8D3"
-			x: 18.78d
+			x: 18.85d
 			y: 0.0d
 			icon: {
 				id: "cataclysm:the_annihilator"
@@ -1191,7 +1191,7 @@
 		}
 		{
 			id: "1AE098A84FEE3785"
-			x: -10.27d
+			x: -16.28d
 			y: 2.0d
 			icon: {
 				id: "cataclysm:amethyst_crab_shell"
@@ -1211,7 +1211,7 @@
 		}
 		{
 			id: "3C370B783F2158A4"
-			x: -10.63d
+			x: -16.32d
 			y: 4.0d
 			icon: {
 				id: "cataclysm:blessed_amethyst_crab_meat"
@@ -1233,7 +1233,7 @@
 		}
 		{
 			id: "29F7DF699536A40D"
-			x: -9.13d
+			x: -14.82d
 			y: 4.0d
 			icon: {
 				id: "cataclysm:bloom_stone_pauldrons"
@@ -1255,7 +1255,7 @@
 		}
 		{
 			id: "0C911114C0E16E1C"
-			x: -3.4d
+			x: -6.71d
 			y: 20.0d
 			shape: "hexagon"
 			icon: {
@@ -1282,6 +1282,320 @@
 					id: "59F8BF1D6178B148"
 					type: "xp_levels"
 					xp_levels: 25
+				}
+			]
+		}
+		{
+			id: "5F51F31324BC3350"
+			x: -11.03d
+			y: 2.0d
+			icon: {
+				id: "cataclysm:black_steel_ingot"
+				count: 1
+			}
+			dependencies: [
+				"6B0239F4A91328CE"
+			]
+			tasks: [
+				{
+					id: "288F6C7DAAAF8F59"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:black_steel_ingot"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "0B036558A7B7F571"
+			x: -11.82d
+			y: 4.0d
+			icon: {
+				id: "cataclysm:black_steel_sword"
+				count: 1
+			}
+			dependencies: [
+				"5F51F31324BC3350"
+			]
+			tasks: [
+				{
+					id: "734A430166A3168A"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:black_steel_sword"
+					}
+				}
+				{
+					id: "41EB2C7F6C0C6251"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:black_steel_targe"
+					}
+				}
+			]
+		}
+		{
+			id: "2EA02EBD24446099"
+			x: 20.35d
+			y: 0.0d
+			icon: {
+				id: "cataclysm:ancient_metal_ingot"
+				count: 1
+			}
+			dependencies: [
+				"1FE4D8FDD4016F78"
+			]
+			tasks: [
+				{
+					id: "2DD0993092CEDBF2"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_metal_ingot"
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "5DFC6828A39C491F"
+			x: -8.03d
+			y: 2.0d
+			icon: {
+				id: "cataclysm:gauntlet_of_maelstrom"
+				count: 1
+			}
+			dependencies: [
+				"170AB93D557D27B5"
+			]
+			tasks: [
+				{
+					id: "66AFB3CA2E9B01CB"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:gauntlet_of_maelstrom"
+					}
+				}
+				{
+					id: "3F5C04AA000884BD"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:gauntlet_of_bulwark"
+					}
+				}
+			]
+		}
+		{
+			id: "508030036E96DBE5"
+			x: -8.55d
+			y: 12.0d
+			icon: {
+				id: "cataclysm:void_assault_shoulder_weapon"
+				count: 1
+			}
+			dependencies: [
+				"2C17B18E5893B7D2"
+			]
+			tasks: [
+				{
+					id: "4BB7304EBCF3FD9D"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:void_assault_shoulder_weapon"
+					}
+				}
+			]
+		}
+		{
+			id: "7D2208C2C37CC1EE"
+			x: -0.28d
+			y: 2.0d
+			icon: {
+				id: "cataclysm:meat_shredder"
+				count: 1
+			}
+			dependencies: [
+				"72A78A25DF757261"
+			]
+			tasks: [
+				{
+					id: "7F466E066831924A"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:meat_shredder"
+					}
+				}
+			]
+		}
+		{
+			id: "382D36B077521592"
+			x: -9.55d
+			y: 14.0d
+			icon: {
+				id: "cataclysm:the_immolator"
+				count: 1
+			}
+			dependencies: [
+				"2F1F7F34A0DEFF5C"
+			]
+			tasks: [
+				{
+					id: "78B46D1A9843ECDA"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:the_immolator"
+					}
+				}
+			]
+		}
+		{
+			id: "55287EFA557DAFCF"
+			x: -15.22d
+			y: 6.0d
+			icon: {
+				id: "cataclysm:athame"
+				count: 1
+			}
+			dependencies: [
+				"36BCC059E4D54458"
+			]
+			tasks: [
+				{
+					id: "4594CCA27D859B93"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:athame"
+					}
+				}
+				{
+					id: "29BB1BBB5C34C26A"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_spear"
+					}
+				}
+			]
+		}
+		{
+			id: "50F7C16C67466A00"
+			x: -12.53d
+			y: 2.0d
+			icon: {
+				id: "cataclysm:vitality_ankh"
+				count: 1
+			}
+			dependencies: [
+				"6B0239F4A91328CE"
+			]
+			tasks: [
+				{
+					id: "0DC3116CC26B4788"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:vitality_ankh"
+					}
+				}
+				{
+					id: "2C4A6B1FE8E3397C"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:berserker_soul_amulet"
+					}
+				}
+				{
+					id: "3F2C6F4FBD04C9E9"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:belt_of_monstrosity"
+					}
+				}
+			]
+		}
+		{
+			id: "66688753A4E43F84"
+			x: -17.12d
+			y: 8.0d
+			icon: {
+				id: "cataclysm:bone_reptile_chestplate"
+				count: 1
+			}
+			dependencies: [
+				"640839E0F72CBF82"
+			]
+			tasks: [
+				{
+					id: "6FC1AEC6F582AD03"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:bone_reptile_chestplate"
+					}
+				}
+			]
+		}
+		{
+			id: "328165A564A17B46"
+			x: 21.85d
+			y: 0.0d
+			icon: {
+				id: "cataclysm:storm_eye"
+				count: 1
+			}
+			dependencies: [
+				"3EB7C64998CAB5DA"
+			]
+			tasks: [
+				{
+					id: "2DF063F6FC1CEF35"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:storm_eye"
+					}
+				}
+				{
+					id: "07BF0842E89898C1"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:essence_of_the_storm"
+					}
+				}
+			]
+		}
+		{
+			id: "47F452AD0D8ED797"
+			x: -21.62d
+			y: 8.0d
+			icon: {
+				id: "cataclysm:strange_key"
+				count: 1
+			}
+			dependencies: [
+				"48DBA50CE351F9F1"
+			]
+			tasks: [
+				{
+					id: "14BE3F6E382B7362"
+					type: "item"
+					item: {
+						count: 1
+						id: "cataclysm:strange_key"
+					}
 				}
 			]
 		}

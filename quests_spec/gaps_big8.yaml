@@ -1,0 +1,28 @@
+# Key-item gaps: Occultism.
+extends: occultism
+lang: [occultism]
+out: gaps_big8_gen
+quests:
+  - id: goc_silver
+    deps: [occ_dictionary]
+    roles: [engineer, mage]
+    items: [occultism:silver_ore, occultism:raw_iesnium]
+    title: {ru: "Серебро и айзний", en: "Silver and Iesnium"}
+    why: {ru: "Серебро идёт на ритуальные чаши и мелки, айзний добывают в Ином мире кирками духов — металл сильнейших инструментов Occultism.", en: "Silver for bowls and chalk; iesnium for the strongest tools."}
+  - id: goc_red_chalk
+    deps: [occ_afrit]
+    roles: [mage]
+    items: [occultism:chalk_red]
+    title: {ru: "Красный мел", en: "Red Chalk"}
+    why: {ru: "Красный мел нужен для ритуалов с афритами — без него пентакль не удержит духа.", en: "Needed for afrit rituals."}
+  - id: goc_tallow
+    deps: [occ_chalk]
+    roles: [mage]
+    items: [occultism:tallow*4]
+    why: {ru: "Сало из мяса — сырьё для свечей ритуалов.", en: "Tallow for ritual candles."}
+  - id: goc_stabilizers
+    deps: [occg_storage_stabilizer]
+    roles: [mage, engineer]
+    items: [occultism:storage_stabilizer_tier2, occultism:storage_stabilizer_tier3]
+    title: {ru: "Стабилизаторы 2-го и 3-го уровней", en: "Tier 2 and 3 Stabilizers"}
+    why: {ru: "Каждый уровень стабилизатора держит больше предметов в хранилище духов.", en: "Each tier holds more items."}

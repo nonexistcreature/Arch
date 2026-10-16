@@ -1,0 +1,50 @@
+# Key-item gaps in the Twilight Forest chapter.
+extends: twilight
+lang: [twilightforest]
+autodoc: ["item.{ns}.{path}.desc", "item.{ns}.{path}.tooltip"]
+out: gaps_big2_gen
+quests:
+  - id: gtw_naga_scale
+    deps: [adv_naga]
+    roles: [warrior]
+    items: [twilightforest:naga_scale*6]
+    title: {ru: "Чешуя наги", en: "Naga Scales"}
+    why: {ru: "Чешуя с Наги — из неё куют нагрудник и поножи. Сохрани всю, что выпала.", en: "Scales for the naga chestplate and leggings."}
+  - id: gtw_pickaxes
+    deps: [tfg_knightmetal_set]
+    roles: [engineer]
+    items: [twilightforest:ironwood_pickaxe, twilightforest:knightmetal_pickaxe]
+    title: {ru: "Кирки из железного дерева и рыцарского металла", en: "Ironwood and Knightmetal Pickaxes"}
+    why: {ru: "Кирка из железного дерева зачарована на эффективность, кирка из рыцарского металла сильнее бьёт по броне и конструкциям.", en: "Pickaxes for the forest's metals."}
+  - id: gtw_giant_sword
+    deps: [tfg_giants]
+    roles: [warrior]
+    items: [twilightforest:giant_sword]
+    why: {en: A huge sword with long reach from the giants' castle., ru: Меч великана — огромное оружие с большой дальностью удара. Добыча из облачного замка.}
+  - id: gtw_belt
+    title: {en: Traveller's Belt, ru: Пояс путника}
+    deps: [tfg_travellers]
+    roles: [warrior]
+    items: [twilightforest:travellers_belt]
+    why: {en: Part of the traveller's gear; takes modifiers., ru: 'Пояс из снаряжения путника — улучшается модификаторами, как ботинки и жилет.'}
+  - id: gtw_transformation
+    deps: [tfg_portal]
+    roles: [mage]
+    items: [twilightforest:transformation_powder*4]
+    title: {ru: "Порошок превращения", en: "Transformation Powder"}
+    why: {ru: "Порошок превращает существ Сумеречного леса в обычных и обратно — например, превратить лесного кабана в свинью.", en: "Transforms forest creatures into ordinary ones and back."}
+  - id: gtw_cube
+    deps: [tfg_dark_tower]
+    roles: [warrior]
+    items: [twilightforest:cube_of_annihilation]
+    why: {en: A Dark Tower weapon that erases blocks in its path; wilds only., ru: 'Куб аннигиляции — оружие из Тёмной башни: метаешь — он стирает блоки на пути. Только в диких землях.'}
+  - id: gtw_ore_meter
+    deps: [tfg_ore_magnet]
+    roles: [engineer]
+    items: [twilightforest:ore_meter]
+    why: {ru: "Рудомер показывает, сколько и какой руды в чанке вокруг, — понятно, где копать.", en: "Shows how much ore is in the chunk around you."}
+  - id: gtw_cinder_furnace
+    deps: [tfg_lamp]
+    roles: [engineer]
+    items: [twilightforest:cinder_furnace]
+    why: {en: Smelts and transforms forest wood; see JEI., ru: Пепельная печь плавит руду и может превращать дерево леса в особые блоки. Подробности — в JEI.}

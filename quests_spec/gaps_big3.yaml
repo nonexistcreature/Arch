@@ -1,0 +1,52 @@
+# Key-item gaps in the Create chapter.
+extends: create
+lang: [create]
+autodoc: ["item.{ns}.{path}.tooltip.summary", "block.{ns}.{path}.tooltip.summary"]
+out: gaps_big3_gen
+quests:
+  - id: gcr_electron_tube
+    deps: [cg_rose_quartz]
+    roles: [engineer]
+    items: [create:electron_tube*4]
+    title: {ru: "Электронные лампы", en: "Electron Tubes"}
+    why: {ru: "Лампы из полированного розового кварца — деталь умных машин: механической руки, умного жёлоба, наблюдателей.", en: "Parts for smart machines: arms, smart chutes, observers."}
+  - id: gcr_brass_sheet
+    deps: [c_brass]
+    roles: [engineer]
+    items: [create:brass_sheet*4]
+    why: {en: A part of brass machines., ru: Латунный лист из пресса — деталь латунных машин Create.}
+  - id: gcr_chromatic
+    deps: [c_precision]
+    roles: [engineer, mage]
+    items: [create:chromatic_compound]
+    title: {ru: "Хроматический состав", en: "Chromatic Compound"}
+    why: {ru: "Хроматический состав — вершина Create: из него получают теневую сталь (в бездне Края) или сияние (под светом маяка).", en: "Turns into shadow steel in the void or refined radiance under light."}
+  - id: gcr_shadow_radiance
+    deps: [gcr_chromatic]
+    roles: [engineer]
+    items: [create:shadow_steel, create:refined_radiance]
+    title: {ru: "Теневая сталь и сияние", en: "Shadow Steel and Refined Radiance"}
+    why: {en: Materials for Create's rarest blocks., ru: 'Теневая сталь и очищенное сияние — материалы для самых редких блоков Create: декоративных и устройств.'}
+  - id: gcr_coupling
+    deps: [c_train_track]
+    roles: [engineer]
+    items: [create:minecart_coupling, create:controller_rail]
+    title: {ru: "Сцепка и рельс-регулятор", en: "Minecart Coupling and Controller Rail"}
+  - id: gcr_schematic
+    deps: [c_schematic]
+    roles: [builder]
+    items: [create:empty_schematic*2]
+  - id: gcr_turntable
+    deps: [c_wheel]
+    roles: [engineer]
+    items: [create:turntable]
+  - id: gcr_chain_gearshift
+    deps: [c_gearshift]
+    roles: [engineer]
+    items: [create:adjustable_chain_gearshift]
+    why: {en: Changes speed by redstone strength., ru: Регулируемая цепная коробка меняет скорость по силе редстоун-сигнала — плавное управление машиной.}
+  - id: gcr_xp_nugget
+    deps: [c_crushing]
+    roles: [mage]
+    items: [create:experience_nugget*4]
+    why: {ru: "Самородки опыта выпадают при дроблении — съешь или переработай. Опыт с завода.", en: "Experience from your factory."}

@@ -1,0 +1,68 @@
+# Key-item gaps in the Cataclysm chapter.
+extends: cataclysm
+lang: [cataclysm]
+autodoc: ["item.{ns}.{path}.desc", "item.{ns}.{path}.desc2"]
+out: gaps_big5_gen
+quests:
+  - id: gct_black_steel
+    deps: [ctg_intro]
+    roles: [warrior, engineer]
+    items: [cataclysm:black_steel_ingot*4]
+    title: {ru: "Чёрная сталь", en: "Black Steel"}
+    why: {ru: "Чёрная сталь — ступень снаряжения Катаклизма до боссовых металлов: оружие, инструменты и щит-тарч.", en: "Cataclysm's gear tier before boss metals."}
+  - id: gct_black_steel_gear
+    deps: [gct_black_steel]
+    roles: [warrior]
+    items: [cataclysm:black_steel_sword, cataclysm:black_steel_targe]
+    title: {ru: "Меч и тарч из чёрной стали", en: "Black Steel Sword and Targe"}
+    why: {en: Solid gear before boss metals., ru: Меч и щит-тарч из чёрной стали — надёжное снаряжение до боссовых металлов.}
+  - id: gct_ancient_metal
+    deps: [boss_ancient_remnant]
+    roles: [engineer]
+    items: [cataclysm:ancient_metal_ingot*2]
+    why: {en: A drop from the Ancient Remnant for desert weapons., ru: 'Древний металл — добыча с Древнего Остатка, материал оружия пустыни.'}
+  - id: gct_gauntlets
+    deps: [ctg_gauntlet_guard]
+    roles: [warrior]
+    items: [cataclysm:gauntlet_of_maelstrom, cataclysm:gauntlet_of_bulwark]
+    title: {ru: "Боевые перчатки", en: "Battle Gauntlets"}
+  - id: gct_void_launcher
+    deps: [ctg_void_forge]
+    roles: [warrior]
+    items: [cataclysm:void_assault_shoulder_weapon]
+  - id: gct_shredder
+    deps: [ctg_prowler]
+    roles: [warrior]
+    items: [cataclysm:meat_shredder]
+  - id: gct_immolator
+    deps: [ctg_ignis]
+    roles: [warrior]
+    items: [cataclysm:the_immolator]
+    why: {en: Ignis's fiery weapon; see its tooltip., ru: 'Жертвенник — огненное оружие Игниса. Смотри подсказку: он поджигает и наказывает клеймёных врагов.'}
+  - id: gct_athame
+    deps: [ctg_cursed_pyramid]
+    roles: [mage, warrior]
+    items: [cataclysm:athame, cataclysm:ancient_spear]
+    title: {ru: "Атам и древнее копьё", en: "Athame and Ancient Spear"}
+    why: {en: A ritual dagger and a sandstorm spear., ru: 'Атам — ритуальный кинжал пирамиды, древнее копьё выпускает песчаную бурю при ударе.'}
+  - id: gct_amulets
+    deps: [ctg_intro]
+    roles: [warrior]
+    items: [cataclysm:vitality_ankh, cataclysm:berserker_soul_amulet, cataclysm:belt_of_monstrosity]
+    title: {ru: "Анкх, амулет берсерка и пояс чудища", en: "Ankh, Berserker Amulet and Monstrosity Belt"}
+    why: {en: Fighter accessories; see tooltips., ru: 'Анкх жизни, амулет берсерка и пояс чудища — аксессуары Катаклизма для бойца. Эффекты — в подсказках.'}
+  - id: gct_bone_reptile
+    deps: [ctg_kobolediator]
+    roles: [warrior]
+    items: [cataclysm:bone_reptile_chestplate]
+    why: {en: Armor from the desert pyramid., ru: Нагрудник из костей рептилии — броня из пирамиды пустыни.}
+  - id: gct_storm
+    deps: [boss_scylla]
+    roles: [mage]
+    items: [cataclysm:storm_eye, cataclysm:essence_of_the_storm]
+    title: {ru: "Око и эссенция бури", en: "Storm Eye and Essence"}
+    why: {en: The storm eye leads to Scylla; her essence makes lightning weapons., ru: 'Око бури ведёт к логову Сциллы, эссенция бури — её добыча для оружия молний.'}
+  - id: gct_strange_key
+    deps: [ctg_necklace]
+    roles: [warrior]
+    items: [cataclysm:strange_key]

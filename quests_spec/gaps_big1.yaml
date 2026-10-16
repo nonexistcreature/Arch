@@ -1,0 +1,59 @@
+# Key-item gaps in Iron's Spells.
+extends: irons
+lang: [irons_spellbooks]
+autodoc: ["item.{ns}.{path}.desc", "item.{ns}.{path}.guide"]
+out: gaps_big1_gen
+quests:
+  - id: gis_runes
+    deps: [irons_runes]
+    roles: [mage]
+    items: [irons_spellbooks:blank_rune*2, irons_spellbooks:arcane_rune]
+    title: {ru: "Чистая и арканная руны", en: "Blank and Arcane Runes"}
+    why: {ru: "Чистая руна — заготовка для рун всех школ, арканная — для улучшений маны и общей силы.", en: "Blank runes become school runes; the arcane rune powers general upgrades."}
+  - id: gis_weave
+    deps: [irons_mithril]
+    roles: [mage, alchemist]
+    items: [irons_spellbooks:mithril_weave*2]
+    title: {ru: "Мифриловое плетение", en: "Mithril Weave"}
+    why: {ru: "Ткань из мифрила — материал для лучшей магической брони.", en: "Cloth for the best mage armor."}
+  - id: gis_core
+    deps: [isg_school_lightning]
+    roles: [mage]
+    items: [irons_spellbooks:energized_core]
+    why: {en: A lightning-school material; recipe in JEI., ru: Энергетическое ядро — материал школы молнии для сильных предметов. Рецепт — в JEI.}
+  - id: gis_phylactery
+    deps: [irons_dead_king]
+    roles: [mage, warrior]
+    items: [irons_spellbooks:dead_king_phylactery]
+    title: {ru: "Филактерия Мёртвого короля", en: "Dead King Phylactery"}
+    why: {ru: "Филактерия позволяет снова призвать Мёртвого короля на его душе — повторный бой за добычей.", en: "Summons the Dead King again for another fight."}
+  - id: gis_doll_book
+    deps: [isg_uncraftable_books]
+    roles: [mage]
+    items: [irons_spellbooks:cursed_doll_spell_book]
+  - id: gis_blades
+    deps: [isg_casting_implements]
+    roles: [warrior, mage]
+    items: [irons_spellbooks:legionnaire_flamberge, irons_spellbooks:hellrazor, irons_spellbooks:boreal_blade]
+    title: {ru: "Клинки со встроенной магией", en: "Spell Blades"}
+    why: {ru: "Фламберг легионера, Адская бритва и Северный клинок — оружие со своими заклинаниями внутри. Добыча из башен и сокровищниц.", en: "Weapons with built-in spells, found in towers and vaults."}
+  - id: gis_scythe_cane
+    deps: [isg_casting_implements]
+    roles: [mage]
+    items: [irons_spellbooks:decrepit_scythe, irons_spellbooks:artificer_cane]
+    title: {ru: "Дряхлая коса и трость мастера", en: "Decrepit Scythe and Artificer's Cane"}
+    why: {en: A necromancer's scythe and an artificer's staff; see tooltips., ru: 'Дряхлая коса — оружие некроманта, трость мастера — посох для изобретателя-мага. Свойства — в подсказках.'}
+  - id: gis_greater_talisman
+    deps: [isg_conjurer]
+    roles: [mage]
+    items: [irons_spellbooks:greater_conjurers_talisman]
+  - id: gis_rings
+    deps: [isg_rings]
+    roles: [mage, warrior]
+    items: [irons_spellbooks:invisibility_ring, irons_spellbooks:expulsion_ring, irons_spellbooks:betrayer_signet, irons_spellbooks:lurker_ring]
+    title: {ru: "Особые кольца", en: "Special Rings"}
+  - id: gis_resonance
+    deps: [isg_rings]
+    roles: [mage]
+    items: [irons_spellbooks:amethyst_resonance_charm]
+    why: {en: A mage accessory; see its tooltip., ru: 'Амулет аметистового резонанса — аксессуар мага. Что он даёт, смотри в подсказке.'}

@@ -2459,6 +2459,43 @@
 	quest.7F16EF7DB7292898.quest_desc: [
 		"Boilers, factory gauges, trains through the Nether and mail between towns."
 	]
+	quest.64D9D386AC3AA91B.title: "Electron Tubes"
+	quest.64D9D386AC3AA91B.quest_desc: [
+		"&lWhy:&r Parts for smart machines: arms, smart chutes, observers."
+	]
+	quest.0C2442B9F7964295.title: "Brass Sheet"
+	quest.0C2442B9F7964295.quest_desc: [
+		"&lWhy:&r A part of brass machines."
+	]
+	quest.3731DC38EC154D36.title: "Chromatic Compound"
+	quest.3731DC38EC154D36.quest_desc: [
+		"&lWhy:&r Turns into shadow steel in the void or refined radiance under light."
+	]
+	quest.58A715EB006C6618.title: "Shadow Steel and Refined Radiance"
+	quest.58A715EB006C6618.quest_desc: [
+		"&lWhy:&r Materials for Create's rarest blocks."
+	]
+	quest.05C0E1D6A2CBDD12.title: "Minecart Coupling and Controller Rail"
+	quest.05C0E1D6A2CBDD12.quest_desc: [
+		"Chains together individual Minecarts, causing them to move as a group."
+	]
+	quest.1E8E81BD5A511365.title: "Empty Schematic"
+	quest.1E8E81BD5A511365.quest_desc: [
+		"Used as a recipe ingredient and for writing at the Schematic Table."
+	]
+	quest.6029017BE96CE304.title: "Turntable"
+	quest.6029017BE96CE304.quest_desc: [
+		"Uses Rotational Force to create Motion Sickness."
+	]
+	quest.1CAA972875E6C85B.title: "Adjustable Chain Gearshift"
+	quest.1CAA972875E6C85B.quest_desc: [
+		"&lWhy:&r Changes speed by redstone strength."
+	]
+	quest.48F7AEF830A54B68.title: "Nugget of Experience"
+	quest.48F7AEF830A54B68.quest_desc: [
+		"&lWhy:&r Experience from your factory."
+		"A speck of inspiration from your fantastic inventions."
+	]
 	chapter.771C1FF49C38AFE7.title: "Create: Add-ons"
 	chapter.771C1FF49C38AFE7.chapter_subtitle: [
 		"Batteries, power, experience enchanting, smart gearing"
@@ -3226,6 +3263,22 @@
 	quest.547A2E63CB89901D.quest_desc: [
 		"Modular armour: flight, night vision, radiation shielding, auto-feeding. Modules go in at the modification station."
 		"The peak of the engineering branch — and a great gift for your group's warrior."
+	]
+	quest.6D696F69CDCBF1B7.title: "Turbine Blades and Vents"
+	quest.6D696F69CDCBF1B7.quest_desc: [
+		"&lWhy:&r More blades, more power — if there is steam."
+	]
+	quest.70C69C2384ACEDE4.title: "Fusion Reactor Shell"
+	quest.70C69C2384ACEDE4.quest_desc: [
+		"Reinforced glass that can be used in the Fission Reactor and Fusion Reactor multiblocks (as well as any others!)."
+	]
+	quest.090E02E0CA8361D1.title: "Solar Panel"
+	quest.090E02E0CA8361D1.quest_desc: [
+		"&lWhy:&r A part for Mekanism solar generators."
+	]
+	quest.2F41F701DA7CC5C7.title: "MekaSuit Generator Modules"
+	quest.2F41F701DA7CC5C7.quest_desc: [
+		"Harnesses geothermal energy from the surrounding environment, and improves protection against damage from heat sources. Install multiple for faster charging and greater protection."
 	]
 	quest.202B14FABDF1BEBE.title: "The Crusher"
 	quest.202B14FABDF1BEBE.quest_desc: [
@@ -4718,6 +4771,54 @@
 	quest.219A855AC1E03F0A.quest_desc: [
 		"HV lines, lightning, biodiesel, turrets and a railgun."
 	]
+	quest.0AF142C7AD7AF21C.title: "Maintenance Kit"
+	quest.0AF142C7AD7AF21C.quest_desc: [
+		"&lWhy:&r Repair and upgrade IE tools anywhere."
+		"Among those Engineers that travel the world or spend much of their time in mines, one problem crystalizes itself."
+		"Their tools require constant maintenance and carrying an entire workbench isn't viable."
+		"Fortunately, a maintenance kit can perform most minor repairs and re-configurations."
+	]
+	quest.013E9B9D6B8D39D9.title: "Gunpowder Barrel"
+	quest.013E9B9D6B8D39D9.quest_desc: [
+		"&lWhy:&r An explosive; wilds only."
+		"Gunpowder can be made into TNT and other explosives, but these are hard to control and impractical for mining."
+		"By containing black powder in a Wooden Barrel, powder barrels allow for a much more effective explosion than a lose collection of explosive and sand."
+		"Gunpowder Barrels are most effective as mining explosives, as they do not destroy items and can cut a regular tunnel through stone with ease via their predictable explosions."
+	]
+	quest.48A0CE45B275F390.title: "HE and Homing Rounds"
+	quest.48A0CE45B275F390.quest_desc: [
+		"&lWhy:&r HE rounds explode; homing rounds seek targets."
+	]
+	quest.0A6B656B2058B009.title: "Empty Casings"
+	quest.0A6B656B2058B009.quest_desc: [
+		"&lWhy:&r Pressed in the metal press: the base of all cartridges."
+	]
+	quest.4C8238552E46D436.title: "Rockcutter Blade"
+	quest.4C8238552E46D436.quest_desc: [
+		"&lWhy:&r A spare excavator wheel part."
+	]
+	quest.0AB9A40723AD3D63.title: "Redstone State Cell"
+	quest.0AB9A40723AD3D63.quest_desc: [
+		"&lWhy:&r Stores a signal until reset: memory without comparator towers."
+		"A state cell is a component for use with Redstone Wires. They store an input value and will then output that same value until they are reset."
+		"Where previously, such setups required multiple comparator blocks or even pistons, it's now possible to store the value in a single electron tube;tubes."
+		"Using the Engineer's Screwdriver on the state cell opens the screen to configure its Set, Reset and Output signal colours."
+	]
+	quest.5515AF62E656D16C.title: "Fluorescent Tube"
+	quest.5515AF62E656D16C.quest_desc: [
+		"&lWhy:&r Bright light for workshops."
+	]
+	quest.044FF3ED07DE1D35.title: "Reinforced Storage Crate"
+	quest.044FF3ED07DE1D35.quest_desc: [
+		"&lWhy:&r A crate that survives explosions."
+		"Wooden Storage Crates are similar to a chest in function, storing up to 27 stacks of material and providing a comparator signal based on their fill."
+		"Unlike chests, they can be sealed up to keep all the material stored within a crate when picking it up."
+		"Using an Engineer's Hammer;engineers_hammer on a crate for an extended duration will seal it up, after which it can be broken to pick it up."
+	]
+	quest.0FC6D50B9A39E3D2.title: "More Weapon Upgrades"
+	quest.0FC6D50B9A39E3D2.quest_desc: [
+		"&lWhy:&r Bayonet, railgun scope, shield flash."
+	]
 	chapter.1CB608F08E9C4FA8.title: "Storage"
 	chapter.1CB608F08E9C4FA8.chapter_subtitle: [
 		"AE2: from a chest to autocrafting"
@@ -5987,6 +6088,46 @@
 		"Towers and camps of hostile mages dot the world — necromancers, pyromancers, cultists. This is &lzone 3&r."
 		"Beating them yields rare books, inks and school trophies. Go as a group and bring food."
 	]
+	quest.747EBA05B84FEA8F.title: "Blank and Arcane Runes"
+	quest.747EBA05B84FEA8F.quest_desc: [
+		"&lWhy:&r Blank runes become school runes; the arcane rune powers general upgrades."
+	]
+	quest.4E6105EAE381E32C.title: "Mithril Weave"
+	quest.4E6105EAE381E32C.quest_desc: [
+		"&lWhy:&r Cloth for the best mage armor."
+	]
+	quest.4372A1006F8489FD.title: "Energized Core"
+	quest.4372A1006F8489FD.quest_desc: [
+		"&lWhy:&r A lightning-school material; recipe in JEI."
+	]
+	quest.65DC9EF7F6097DA9.title: "Dead King Phylactery"
+	quest.65DC9EF7F6097DA9.quest_desc: [
+		"&lWhy:&r Summons the Dead King again for another fight."
+	]
+	quest.62A3E5D539F85D15.title: "Vampiric Spell Book"
+	quest.62A3E5D539F85D15.quest_desc: [
+		"A hexed Spell Book created by the Ancient Magician known as Apshock."
+	]
+	quest.224FDDECBF0EEC01.title: "Spell Blades"
+	quest.224FDDECBF0EEC01.quest_desc: [
+		"&lWhy:&r Weapons with built-in spells, found in towers and vaults."
+	]
+	quest.0A48F20FDCF6482E.title: "Decrepit Scythe and Artificer's Cane"
+	quest.0A48F20FDCF6482E.quest_desc: [
+		"&lWhy:&r A necromancer's scythe and an artificer's staff; see tooltips."
+	]
+	quest.211B2AFB49B3A361.title: "Greater Conjurer's Talisman"
+	quest.211B2AFB49B3A361.quest_desc: [
+		"Summon spells that time-out do not go on cooldown"
+	]
+	quest.724D8DBBF002A626.title: "Special Rings"
+	quest.724D8DBBF002A626.quest_desc: [
+		"I would say read the fine print, but I can't see it"
+	]
+	quest.09D23084295FCA39.title: "Amethyst Resonance Charm"
+	quest.09D23084295FCA39.quest_desc: [
+		"&lWhy:&r A mage accessory; see its tooltip."
+	]
 	quest.37CE8B7ABAD95E28.title: "Magic Structures"
 	quest.37CE8B7ABAD95E28.quest_desc: [
 		"&lWhy:&r Early magic is exploring: towers, huts and forts. Each has a strong mage."
@@ -6380,6 +6521,22 @@
 	quest.33B194723B40588C.quest_subtitle: "A spirit of fire"
 	quest.33B194723B40588C.quest_desc: [
 		"The afrit is a dangerous, powerful spirit. Summoning it is a trial; the reward is access to the strongest rituals."
+	]
+	quest.390E4AF570FDB208.title: "Silver and Iesnium"
+	quest.390E4AF570FDB208.quest_desc: [
+		"&lWhy:&r Silver for bowls and chalk; iesnium for the strongest tools."
+	]
+	quest.68D6C74793406F5F.title: "Red Chalk"
+	quest.68D6C74793406F5F.quest_desc: [
+		"&lWhy:&r Needed for afrit rituals."
+	]
+	quest.725D44B8A1601F7E.title: "Tallow"
+	quest.725D44B8A1601F7E.quest_desc: [
+		"&lWhy:&r Tallow for ritual candles."
+	]
+	quest.615D13CE6C0EC13B.title: "Tier 2 and 3 Stabilizers"
+	quest.615D13CE6C0EC13B.quest_desc: [
+		"&lWhy:&r Each tier holds more items."
 	]
 	quest.4F522F244FA7F524.title: "Demon's Dream"
 	quest.4F522F244FA7F524.quest_desc: [
@@ -7701,6 +7858,38 @@
 	quest.0E3645CB18E6DF1E.quest_desc: [
 		"All barriers lifted, all bosses down."
 	]
+	quest.4A653E3660AEF6DB.title: "Naga Scales"
+	quest.4A653E3660AEF6DB.quest_desc: [
+		"&lWhy:&r Scales for the naga chestplate and leggings."
+	]
+	quest.025BCFC254B384FC.title: "Ironwood and Knightmetal Pickaxes"
+	quest.025BCFC254B384FC.quest_desc: [
+		"&lWhy:&r Pickaxes for the forest's metals."
+	]
+	quest.5FDACFE4D342D048.title: "Giant's Sword"
+	quest.5FDACFE4D342D048.quest_desc: [
+		"&lWhy:&r A huge sword with long reach from the giants' castle."
+	]
+	quest.3068779765C9FED0.title: "Traveller's Belt"
+	quest.3068779765C9FED0.quest_desc: [
+		"&lWhy:&r Part of the traveller's gear; takes modifiers."
+	]
+	quest.3920452F800D1776.title: "Transformation Powder"
+	quest.3920452F800D1776.quest_desc: [
+		"&lWhy:&r Transforms forest creatures into ordinary ones and back."
+	]
+	quest.13EDF6E0709459B4.title: "Cube of Annihilation"
+	quest.13EDF6E0709459B4.quest_desc: [
+		"&lWhy:&r A Dark Tower weapon that erases blocks in its path; wilds only."
+	]
+	quest.00A41CC1AF741812.title: "Ore Meter"
+	quest.00A41CC1AF741812.quest_desc: [
+		"&lWhy:&r Shows how much ore is in the chunk around you."
+	]
+	quest.28AB8326FD0C6662.title: "Cinder Furnace"
+	quest.28AB8326FD0C6662.quest_desc: [
+		"&lWhy:&r Smelts and transforms forest wood; see JEI."
+	]
 	chapter.3E92433C873CD4AC.title: "Other Worlds"
 	chapter.3E92433C873CD4AC.chapter_subtitle: [
 		"What to gather in each dimension, and why to come back"
@@ -8205,6 +8394,39 @@
 	quest.3864AD324F7C2EAD.quest_desc: [
 		"Three dungeons cleared, the Sun Spirit defeated."
 	]
+	quest.212EF41A6CC459E6.title: "Gravitite Sword"
+	quest.212EF41A6CC459E6.quest_desc: [
+		"Part of the Aether's best tool tier. When attacking with this powerful weapon, anything you hit will be flung into the air, causing lots of damage!"
+	]
+	quest.3C2BC192B1148B91.title: "Obsidian Helmet"
+	quest.3C2BC192B1148B91.quest_desc: [
+		"A super powerful piece of armor, more powerful than diamond. This armor is only obtainable by standing in water while wearing Phoenix armor, converting it to obsidian."
+	]
+	quest.253AE9FC9902CF9B.title: "Lightning Knives and Pig Slayer"
+	quest.253AE9FC9902CF9B.quest_desc: [
+		"Small knives that, when thrown, summon lightning bolts where they land."
+	]
+	quest.43DF471491A2FFE4.title: "Healing Stone and Iron Bubble"
+	quest.43DF471491A2FFE4.quest_desc: [
+		"Obtained from enchanting Holystone, it can be used as a reliable healing source, providing Regeneration. It has a surprisingly juicy flavor."
+	]
+	quest.3024C93E678584F8.title: "Golden Feather and Valkyrie Cape"
+	quest.3024C93E678584F8.quest_desc: [
+		"A fluffy feather found in Silver Dungeons. When worn, the wearer becomes lighter than air and can descend slowly."
+	]
+	quest.40DAA38B41204836.title: "Ice Pendant and Golden Ring"
+	quest.40DAA38B41204836.quest_desc: [
+		"&lWhy:&r The ice pendant freezes water and lava you walk on."
+		"A pendant which allows you to freeze water and lava when walked on."
+	]
+	quest.6ED37165F886F517.title: "Sun Altar"
+	quest.6ED37165F886F517.quest_desc: [
+		"An altar containing the power to control the sun itself! It is dropped by the Sun Spirit after you defeat him. Use it to control the time of day."
+	]
+	quest.3C927306F0E7E623.title: "Enchanted Dart Shooter"
+	quest.3C927306F0E7E623.quest_desc: [
+		"A Dart Shooter that shoots Enchanted Darts; the strongest one!"
+	]
 	chapter.5C3C5449885B5EAF.title: "Cataclysm"
 	chapter.5C3C5449885B5EAF.chapter_subtitle: [
 		"Ignis, the Monstrosity, the Leviathan and weapons forged from their hearts"
@@ -8431,6 +8653,54 @@
 	quest.0C911114C0E16E1C.title: "Cataclysm Survivor"
 	quest.0C911114C0E16E1C.quest_desc: [
 		"Every Cataclysm boss has fallen; their hearts are in your armor."
+	]
+	quest.5F51F31324BC3350.title: "Black Steel"
+	quest.5F51F31324BC3350.quest_desc: [
+		"&lWhy:&r Cataclysm's gear tier before boss metals."
+	]
+	quest.0B036558A7B7F571.title: "Black Steel Sword and Targe"
+	quest.0B036558A7B7F571.quest_desc: [
+		"&lWhy:&r Solid gear before boss metals."
+	]
+	quest.2EA02EBD24446099.title: "Ancient Metal Ingot"
+	quest.2EA02EBD24446099.quest_desc: [
+		"&lWhy:&r A drop from the Ancient Remnant for desert weapons."
+	]
+	quest.5DFC6828A39C491F.title: "Battle Gauntlets"
+	quest.5DFC6828A39C491F.quest_desc: [
+		"Right click to summon a Void Vortex"
+	]
+	quest.508030036E96DBE5.title: "Void Assault Shoulder Weapon"
+	quest.508030036E96DBE5.quest_desc: [
+		"Right click to shoot Void Howitzers."
+	]
+	quest.7D2208C2C37CC1EE.title: "Meat Shredder"
+	quest.7D2208C2C37CC1EE.quest_desc: [
+		"Right-click damages entities in front (i-frame ignore)"
+	]
+	quest.382D36B077521592.title: "The Immolator"
+	quest.382D36B077521592.quest_desc: [
+		"&lWhy:&r Ignis's fiery weapon; see its tooltip."
+	]
+	quest.55287EFA557DAFCF.title: "Athame and Ancient Spear"
+	quest.55287EFA557DAFCF.quest_desc: [
+		"&lWhy:&r A ritual dagger and a sandstorm spear."
+	]
+	quest.50F7C16C67466A00.title: "Ankh, Berserker Amulet and Monstrosity Belt"
+	quest.50F7C16C67466A00.quest_desc: [
+		"&lWhy:&r Fighter accessories; see tooltips."
+	]
+	quest.66688753A4E43F84.title: "Bone Reptile Chestplate"
+	quest.66688753A4E43F84.quest_desc: [
+		"&lWhy:&r Armor from the desert pyramid."
+	]
+	quest.328165A564A17B46.title: "Storm Eye and Essence"
+	quest.328165A564A17B46.quest_desc: [
+		"&lWhy:&r The storm eye leads to Scylla; her essence makes lightning weapons."
+	]
+	quest.47F452AD0D8ED797.title: "Strange Key"
+	quest.47F452AD0D8ED797.quest_desc: [
+		"Can open the Door of Seal"
 	]
 	chapter.4499A461977E88CA.title: "Weapons & Gear"
 	chapter.4499A461977E88CA.chapter_subtitle: [

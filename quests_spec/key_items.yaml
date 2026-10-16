@@ -96,3 +96,22 @@ ars_additions: {quested: true, add: [undying_charm, fall_prevention_charm, water
   night_vision_charm, warp_index, stabilized_warp_index, wayfinder, handy_haversack, xp_jar, ender_source_jar,
   source_spawner, unstable_reliquary, advanced_dominion_wand, ritual_chunk_loading, ritual_locate_structure,
   memory_crystal, glyph_recall]}
+irons_spellbooks: {quested: true, add: [mithril_weave, arcane_rune, blank_rune, energized_core, dead_king_phylactery,
+  cursed_doll_spell_book, legionnaire_flamberge, hellrazor, boreal_blade, decrepit_scythe, artificer_cane,
+  greater_conjurers_talisman, invisibility_ring, expulsion_ring, betrayer_signet, lurker_ring, amethyst_resonance_charm]}
+twilightforest: {quested: true, add: [naga_scale, knightmetal_pickaxe, ironwood_pickaxe, giant_sword, travellers_belt,
+  transformation_powder, cube_of_annihilation, ore_meter, cinder_furnace]}
+create: {quested: true, add: [electron_tube, brass_sheet, chromatic_compound, shadow_steel, refined_radiance,
+  minecart_coupling, controller_rail, empty_schematic, turntable, adjustable_chain_gearshift, experience_nugget]}
+aether: {quested: true, add: [gravitite_sword, obsidian_helmet, lightning_knife, pig_slayer, healing_stone, iron_bubble,
+  golden_feather, ice_pendant, sun_altar, enchanted_dart_shooter, golden_ring, valkyrie_cape]}
+cataclysm: {quested: true, add: [black_steel_ingot, black_steel_sword, black_steel_targe, ancient_metal_ingot,
+  gauntlet_of_maelstrom, gauntlet_of_bulwark, void_assault_shoulder_weapon, meat_shredder, the_immolator, athame,
+  ancient_spear, vitality_ankh, berserker_soul_amulet, belt_of_monstrosity, bone_reptile_chestplate, storm_eye,
+  strange_key, essence_of_the_storm]}
+mekanismgenerators: {quested: true, add: [reactor_glass, turbine_vent, turbine_blade, fusion_reactor_frame, solar_panel,
+  module_geothermal_generator_unit, module_solar_recharging_unit]}
+immersiveengineering: {quested: true, add: [maintenance_kit, gunpowder_barrel, bullet_he, bullet_homing, rockcutter,
+  redstone_state_cell, empty_casing, fluorescent_tube, reinforced_crate, toolupgrade_revolver_bayonet,
+  toolupgrade_railgun_scope, toolupgrade_shield_flash]}
+occultism: {quested: true, add: [storage_stabilizer_tier2, storage_stabilizer_tier3, chalk_red, raw_iesnium, silver_ore, tallow]}

@@ -1,0 +1,58 @@
+# Key-item gaps: Immersive Engineering (EN from the Engineer's Manual, RU ours).
+extends: immersive
+lang: [immersiveengineering]
+out: gaps_big7_gen
+quests:
+  - id: gie_maintenance
+    deps: [ieg_steel_tools]
+    roles: [engineer]
+    items: [immersiveengineering:maintenance_kit]
+    doc: md:assets/immersiveengineering/manual/en_us/maintenance_kit.txt
+    why: {ru: "Ремонтный набор чинит и улучшает инструменты и оружие IE без верстака — прямо в поле.", en: "Repair and upgrade IE tools anywhere."}
+  - id: gie_gunpowder_barrel
+    deps: [ieg_cartridges]
+    roles: [warrior]
+    items: [immersiveengineering:gunpowder_barrel]
+    doc: md:assets/immersiveengineering/manual/en_us/gunpowder_barrels.txt
+    why: {ru: "Бочка с порохом — взрывчатка. Только в диких землях.", en: "An explosive; wilds only."}
+  - id: gie_ammo_special
+    deps: [ieg_special_ammo]
+    roles: [warrior]
+    items: [immersiveengineering:bullet_he*4, immersiveengineering:bullet_homing*4]
+    title: {ru: "Фугасные и самонаводящиеся", en: "HE and Homing Rounds"}
+    why: {ru: "Фугасные пули взрываются при попадании, самонаводящиеся сами ищут цель.", en: "HE rounds explode; homing rounds seek targets."}
+  - id: gie_casing
+    deps: [ieg_cartridges]
+    roles: [warrior, engineer]
+    items: [immersiveengineering:empty_casing*16]
+    title: {ru: "Пустые гильзы", en: "Empty Casings"}
+    why: {ru: "Пустые гильзы делает металлический пресс по форме гильзы — основа всех патронов IE.", en: "Pressed in the metal press: the base of all cartridges."}
+  - id: gie_rockcutter
+    deps: [ie_excavator_build]
+    roles: [engineer]
+    items: [immersiveengineering:rockcutter]
+    why: {ru: "Камнерез — запасная часть ковшового колеса экскаватора, когда старое изнашивается.", en: "A spare excavator wheel part."}
+  - id: gie_state_cell
+    title: {en: Redstone State Cell, ru: Ячейка состояния}
+    deps: [ieg_logic]
+    roles: [engineer]
+    items: [immersiveengineering:redstone_state_cell]
+    doc: md:assets/immersiveengineering/manual/en_us/redstone_state_cells.txt
+    why: {en: 'Stores a signal until reset: memory without comparator towers.', ru: 'Ячейка состояния запоминает входной сигнал и держит его, пока её не сбросят, — память для редстоун-схем без кучи компараторов.'}
+  - id: gie_fluorescent
+    deps: [ieg_lights]
+    roles: [builder]
+    items: [immersiveengineering:fluorescent_tube*2]
+    why: {en: Bright light for workshops., ru: 'Люминесцентная лампа — яркий свет для цеха, ставится в прожектор и светильники IE.'}
+  - id: gie_reinforced_crate
+    deps: [ieg_storage]
+    roles: [engineer]
+    items: [immersiveengineering:reinforced_crate]
+    doc: md:assets/immersiveengineering/manual/en_us/storage_crates.txt
+    why: {ru: "Укреплённый ящик выдерживает взрывы — храни ценное в нём.", en: "A crate that survives explosions."}
+  - id: gie_tool_upgrades
+    deps: [ieg_revolver_parts]
+    roles: [warrior]
+    items: [immersiveengineering:toolupgrade_revolver_bayonet, immersiveengineering:toolupgrade_railgun_scope, immersiveengineering:toolupgrade_shield_flash]
+    title: {ru: "Ещё улучшения оружия", en: "More Weapon Upgrades"}
+    why: {ru: "Штык на револьвер, прицел на рельсотрон, вспышка на щит — ставятся в ремонтном наборе или на верстаке.", en: "Bayonet, railgun scope, shield flash."}
