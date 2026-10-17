@@ -115,11 +115,3 @@ quests:
     ru: {title: "Свадьба в деревне", text: "В MCA можно жениться на жителе и завести семью. Детей можно научить работать на ферме."}
     en: {title: "A Village Wedding", text: "In MCA you can marry a villager and raise a family. Children can learn to work the farm."}
 
-  - id: city_easy_villagers
-    deps: [city_mca]
-    roles: [mayor]
-    icon: easy_villagers:villager
-    tasks: [{type: checkmark}]
-    optional: true
-    ru: {title: "Жители в кармане", text: "Easy Villagers: жителя можно взять как предмет и поставить в торговый блок. Удобный рынок без огромных загонов."}
-    en: {title: "Villagers in Your Pocket", text: "Easy Villagers: pick up a villager as an item and place it in a trader block. A compact market without huge pens."}

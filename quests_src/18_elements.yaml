@@ -56,14 +56,14 @@ quests:
       text: |
         **Что это:** ночью небо иногда расчерчивают метеоры. Почти все сгорают в воздухе, а мелкие падают в **диких землях**.
         **Что делать:** любоваться и искать упавшие камни — в них **метеоритная руда**. Если метеор упал в воду — там может оказаться **звёздный карп**.
-        Это событие — подарок, бояться нечего.
+        Это событие — подарок, бояться нечего. Метеоритную пыль также роняют **элитные мобы** диких земель (дальше 1000 блоков от спавна).
     en:
       title: "The Meteor Shower"
       subtitle: "Meet the event"
       text: |
         **What:** some nights the sky is streaked with meteors. Most burn up; small ones land in **the wilds**.
         **What to do:** enjoy the view and look for fallen stones — they hold **meteorite ore**. If one lands in water, a **star carp** may be there.
-        This event is a gift — nothing to fear.
+        This event is a gift — nothing to fear. **Elite mobs** of the wilds (beyond 1000 blocks from spawn) also drop meteoric dust.
 
   - id: el_meteor_ore
     deps: [el_shower_meet]

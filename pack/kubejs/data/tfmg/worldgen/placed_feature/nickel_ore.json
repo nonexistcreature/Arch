@@ -1,0 +1,30 @@
+{
+ "feature": "tfmg:nickel_ore",
+ "placement": [
+  {
+   "type": "minecraft:count",
+   "count": 10
+  },
+  {
+   "type": "minecraft:in_square"
+  },
+  {
+   "type": "minecraft:height_range",
+   "height": {
+    "type": "minecraft:uniform",
+    "max_inclusive": {
+     "absolute": 20
+    },
+    "min_inclusive": {
+     "absolute": -63
+    }
+   }
+  },
+  {
+   "type": "tfmg:config_boolean",
+   "enabled_when": true,
+   "option": "tfmg:nickel_ore"
+  }
+ ],
+ "_arkhaven_ore_boost": 2.0
+}

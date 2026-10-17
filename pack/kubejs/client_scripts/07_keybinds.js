@@ -28,7 +28,6 @@ let ARK_KEYS = {
   'key.jetpack.toggle_active.description': 'j',
   'key.emotecraft.fastchoose': 'period',
   'dmr.keybind.summon_dragon': 'comma',
-  'key.easy_villagers.pick_up': 'semicolon',
   // ALT: social, map, origin powers, curio bags
   'key.neoorigins.skill_1': '1:ALT',
   'key.neoorigins.skill_2': '2:ALT',

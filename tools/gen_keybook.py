@@ -16,7 +16,7 @@ S = {
  ("Оружие TACZ", ["(с пушкой в руке)", "ЛКМ — выстрел", "ПКМ — прицел", "R — перезарядка", "Y — модификация", "N — режим огня", "X — зум прицела", "C — ползти", "боковая кнопка мыши — штык"]),
  ("Mekanism", ["Ctrl+H — режим шлема", "Ctrl+G — нагрудник", "Ctrl+J — поножи", "Ctrl+B — ботинки", "N — режим инструмента"]),
  ("Ранец и броня", ["J — ранец вкл/выкл", "Alt+J — зависание", "Ctrl+C/Y/V — шлем, грудь, ботинки Cataclysm", "Ctrl+F — оружие Cataclysm", "Ctrl+R — рывок Deep Aether"]),
- ("Сумки и мелочи", ["Alt+B, Alt+N, Alt+E — сумки Occultism", "X — колчан (с луком)", "Ctrl+K — склад Create", "Ctrl+L — сети Create", ". — эмоции", ", — позвать дракона", "; — взять жителя"]),
+ ("Сумки и мелочи", ["Alt+B, Alt+N, Alt+E — сумки Occultism", "X — колчан (с луком)", "Ctrl+K — склад Create", "Ctrl+L — сети Create", ". — эмоции", ", — позвать дракона"]),
  ("Building Gadgets", ["(с гаджетом в руке)", "Shift+G — меню", "Shift+H — якорь", "Shift+R — радиус", "Shift+U — отмена"]),
  ("Как поменять", ["Настройки → Управление → Привязки клавиш.", "Сверху поиск и фильтр конфликтов.", "Красная кнопка — на ней два действия. Это нормально, если они работают с разными предметами в руке, в меню или на транспорте."]),
 ],
@@ -30,7 +30,7 @@ S = {
  ("TACZ guns", ["(gun in hand)", "LMB - shoot", "RMB - aim", "R - reload", "Y - refit", "N - fire mode", "X - scope zoom", "C - crawl", "mouse side button - bayonet"]),
  ("Mekanism", ["Ctrl+H - helmet mode", "Ctrl+G - chestplate", "Ctrl+J - leggings", "Ctrl+B - boots", "N - held tool mode"]),
  ("Jetpack and armor", ["J - jetpack on/off", "Alt+J - hover", "Ctrl+C/Y/V - Cataclysm helmet, chest, boots", "Ctrl+F - Cataclysm weapon", "Ctrl+R - Deep Aether dash"]),
- ("Bags and misc", ["Alt+B, Alt+N, Alt+E - Occultism bags", "X - quiver (with a bow)", "Ctrl+K - Create stock", "Ctrl+L - Create networks", ". - emotes", ", - call your dragon", "; - pick up villager"]),
+ ("Bags and misc", ["Alt+B, Alt+N, Alt+E - Occultism bags", "X - quiver (with a bow)", "Ctrl+K - Create stock", "Ctrl+L - Create networks", ". - emotes", ", - call your dragon"]),
  ("Building Gadgets", ["(gadget in hand)", "Shift+G - menu", "Shift+H - anchor", "Shift+R - range", "Shift+U - undo"]),
  ("Changing keys", ["Options > Controls > Key Binds.", "Search box and a conflicts filter on top.", "A red key has two actions. That is fine if they work with different items in hand, in a menu or in a vehicle."]),
 ]}

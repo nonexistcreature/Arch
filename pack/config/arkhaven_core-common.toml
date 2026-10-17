@@ -1,0 +1,67 @@
+[events]
+	#Disaster intensity: 0 = off, 1 = gentle (default), 2 = serious, 3 = harsh
+	# Default: 1
+	# Range: 0 ~ 3
+	intensity = 1
+	#Real-world hours that must pass between two disasters (meteor strike, rift night, meteor-shower impacts).
+	#Owner's rule: at most once every 3 real days, so players always have time to prepare.
+	# Default: 72
+	# Range: 1 ~ 1440
+	minRealHoursBetweenDisasters = 72
+	#In-game days after the world starts during which no events run
+	# Default: 7
+	# Range: 0 ~ 365
+	graceDays = 7
+	#Minimum accumulated player-online minutes between two meteor strikes (intensity 1). Halved at 2, quartered at 3.
+	# Default: 360
+	# Range: 10 ~ 100000
+	strikeMinOnlineMinutes = 100000
+	#Real seconds of warning before a meteor strike
+	# Default: 600
+	# Range: 30 ~ 3600
+	strikeWarningSeconds = 600
+	#Chance that a night becomes a rift night (intensity 1). x1.6 at 2, x2.5 at 3.
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	riftNightChance = 0.1
+	#Chance that a clear night gets a meteor shower (mostly a reward)
+	# Default: 0.33
+	# Range: 0.0 ~ 1.0
+	showerNightChance = 0.0
+
+[zones]
+	#Radius (blocks) around world spawn where hostile mobs never spawn naturally (zone 0)
+	# Default: 256
+	# Range: 0 ~ 10000
+	havenRadius = 256
+	#Radius around world spawn of the calm lands (zone 1); beyond is the wild (zone 2)
+	# Default: 1500
+	# Range: 0 ~ 100000
+	calmRadius = 1000
+	#Extra safe margin (blocks) around Open Parties and Claims claims and hearth stones
+	# Default: 48
+	# Range: 0 ~ 256
+	claimMargin = 48
+	#Safe radius of a hearth stone
+	# Default: 48
+	# Range: 8 ~ 256
+	hearthRadius = 48
+	#Show an actionbar hint when crossing between danger zones
+	actionbarHints = true
+	#Creeper explosions damage entities but never break blocks
+	creepersKeepBlocks = true
+
+[wards]
+	# Default: 32
+	# Range: 4 ~ 512
+	radiusT1 = 32
+	# Default: 64
+	# Range: 4 ~ 512
+	radiusT2 = 64
+	# Default: 128
+	# Range: 4 ~ 512
+	radiusT3 = 128
+	#Real minutes of protection one crystal gives (only consumed while a player is near or an event runs)
+	# Default: 60
+	# Range: 1 ~ 10000
+	minutesPerCrystal = 60

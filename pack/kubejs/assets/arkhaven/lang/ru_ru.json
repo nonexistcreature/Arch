@@ -117,7 +117,7 @@
   "arkhaven.keybook.p6": "§lОружие TACZ§r\n(с пушкой в руке)\nЛКМ — выстрел\nПКМ — прицел\nR — перезарядка\nY — модификация\nN — режим огня\nX — зум прицела\nC — ползти\nбоковая кнопка мыши — штык",
   "arkhaven.keybook.p7": "§lMekanism§r\nCtrl+H — режим шлема\nCtrl+G — нагрудник\nCtrl+J — поножи\nCtrl+B — ботинки\nN — режим инструмента",
   "arkhaven.keybook.p8": "§lРанец и броня§r\nJ — ранец вкл/выкл\nAlt+J — зависание\nCtrl+C/Y/V — шлем, грудь, ботинки Cataclysm\nCtrl+F — оружие Cataclysm\nCtrl+R — рывок Deep Aether",
-  "arkhaven.keybook.p9": "§lСумки и мелочи§r\nAlt+B, Alt+N, Alt+E — сумки Occultism\nX — колчан (с луком)\nCtrl+K — склад Create\nCtrl+L — сети Create\n. — эмоции\n, — позвать дракона\n; — взять жителя",
+  "arkhaven.keybook.p9": "§lСумки и мелочи§r\nAlt+B, Alt+N, Alt+E — сумки Occultism\nX — колчан (с луком)\nCtrl+K — склад Create\nCtrl+L — сети Create\n. — эмоции\n, — позвать дракона",
   "arkhaven.keybook.p10": "§lBuilding Gadgets§r\n(с гаджетом в руке)\nShift+G — меню\nShift+H — якорь\nShift+R — радиус\nShift+U — отмена",
   "arkhaven.keybook.p11": "§lКак поменять§r\nНастройки → Управление → Привязки клавиш.\nСверху поиск и фильтр конфликтов.\nКрасная кнопка — на ней два действия. Это нормально, если они работают с разными предметами в руке, в меню или на транспорте."
 }

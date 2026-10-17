@@ -1,0 +1,28 @@
+{
+ "feature": "undergarden:gold_ore",
+ "placement": [
+  {
+   "type": "minecraft:count",
+   "count": 4
+  },
+  {
+   "type": "minecraft:in_square"
+  },
+  {
+   "type": "minecraft:height_range",
+   "height": {
+    "type": "minecraft:trapezoid",
+    "max_inclusive": {
+     "below_top": -32
+    },
+    "min_inclusive": {
+     "below_top": 32
+    }
+   }
+  },
+  {
+   "type": "minecraft:biome"
+  }
+ ],
+ "_arkhaven_ore_boost": 2.0
+}

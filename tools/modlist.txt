@@ -207,7 +207,7 @@ no-chat-reports | 1 | чат
 item-borders | 1 | UI
 searchables | 1 | UI
 supplementaries-squared | 2 | декор
-easy-villagers | 8 | жители
+# easy-villagers — убран 2026-10-17: MCA заменяет ванильных жителей, Easy Villagers с ними не работает
 deep-aether | 2 | Aether
 twilight-forest-the-lost-blocks | 2 | TF
 atlas-api | 6 | либа Iron's Jewelry

@@ -67,11 +67,13 @@ quests:
       subtitle: "Легенда звездопада"
       text: |
         Говорят, если метеорит упадёт в воду, там можно найти звёздного карпа. Ужин из него приносит удачу.
+        Не ждёшь звездопада? Сырая рыба + 2 метеоритной пыли на верстаке — тоже звёздный карп.
     en:
       title: "The Star Carp"
       subtitle: "A legend of the meteor shower"
       text: |
         They say when a meteor falls into water, a star carp can be found there. A dinner of it brings luck.
+        Not waiting for a shower? Raw fish + 2 meteoric dust on a crafting table makes one too.
 
   - id: col_bees_10
     deps: [a_breeding]

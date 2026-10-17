@@ -52,6 +52,9 @@ ServerEvents.recipes(event => {
   event.shapeless('arkhaven:meteoric_iron_ingot', ['arkhaven:meteoric_dust', 'arkhaven:meteoric_dust', 'arkhaven:meteoric_dust', 'arkhaven:meteoric_dust', 'minecraft:iron_ingot']).id('arkhaven:handshake/meteoric_iron')
   mixing({ id: 'arkhaven:meteoric_iron_ingot', count: 2 }, [{ item: 'arkhaven:meteoric_dust' }, { item: 'arkhaven:meteoric_dust' }, { item: 'arkhaven:meteoric_dust' }, { item: 'minecraft:iron_ingot' }, { item: 'minecraft:iron_ingot' }], 'superheated', 'arkhaven:handshake/meteoric_iron_create')
 
+  // --- Star carp: was only found where a meteor fell into water; with meteors switched off it is crafted (any raw fish + meteoric dust)
+  event.shapeless('arkhaven:star_carp', ['#c:foods/raw_fish', 'arkhaven:meteoric_dust', 'arkhaven:meteoric_dust']).id('arkhaven:handshake/star_carp')
+
   // --- Exotic matter. Final route is the Ring Collider (MMR); this interim recipe keeps the chain completable.
   event.shaped('arkhaven:exotic_matter', ['AWA', 'NSN', 'AWA'], {
     A: 'mekanism:pellet_antimatter', W: 'arkhaven:ward_crystal_t2', N: 'minecraft:nether_star', S: 'ars_nouveau:source_gem_block'

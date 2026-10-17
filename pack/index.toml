@@ -1,12 +1,20 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Mekanism/world.toml"
+hash = "b26b1f64388bd6a72d9b49627662a2cedab79ce3ea100f8fc5ad01c17fff42cc"
+
+[[files]]
 file = "config/ae2-common.toml"
 hash = "f7f961878f3627c237b089cc50a9aaebc66d3ea8af6687e352f8701b03eb6bec"
 
 [[files]]
 file = "config/almostunified/unification/materials.json"
 hash = "0780097c0dea4a5a000600c63976af60f3fa50f0e719e59431e4e536f8bcd64d"
+
+[[files]]
+file = "config/arkhaven_core-common.toml"
+hash = "fea1051927d338f62403ad5bab89b10d324a9800ccc139ede2307a8e6ad7acde"
 
 [[files]]
 file = "config/c2me.toml"
@@ -205,6 +213,10 @@ file = "config/ftbultimine-server.snbt"
 hash = "d0a160d8623b9542f85faa1e8198074f4e9e4d22961fb7c53aa2909182723d75"
 
 [[files]]
+file = "config/immersiveengineering-server.toml"
+hash = "244078c3faa5f7d58463ced106dc9668e8c63e6a1b4c0eb292281b7576641e7a"
+
+[[files]]
 file = "config/incontrol/spawn.json"
 hash = "40a1dff1823d3906cfd9e1dfb940afd7efbeaaeb6c8b5890342734e7a4a51df9"
 
@@ -258,11 +270,11 @@ hash = "2e2540b385fc03a28fe7b6aa64135cd949694dab7a2fccbe6051aee601caf6b4"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/en_us.json"
-hash = "eba71b897477f9d99f48986f3b1f1dd7856b8458cc5a8801f9cdc844460f4e56"
+hash = "b84b6a250a1c391fe71c59e8fc4ec069ae83418b852f9b2dd23e98927676d0e3"
 
 [[files]]
 file = "kubejs/assets/arkhaven/lang/ru_ru.json"
-hash = "120aa57e382dd989f9e448ae86ababcd537dd7ab66b1000609428e512adbaa51"
+hash = "1bf2721f00d13d4f5c289c9602b39074a5f9c73fe9df3dd56f350b84eea25405"
 
 [[files]]
 file = "kubejs/assets/arkhaven/textures/item/aero_lubricant.png"
@@ -338,7 +350,7 @@ hash = "21f49280c8849d134ccf1f87ef4350e47bf391d520a16e0b606ab85a4436378e"
 
 [[files]]
 file = "kubejs/client_scripts/07_keybinds.js"
-hash = "b4a5905c28f0b125f1a108f8929a53ff1a313e239d87a00b01db058f8884cd7f"
+hash = "2f53b484d7849794c1e3e2a55555713502ce7b6f8aacd15576b0b4f0762b701a"
 
 [[files]]
 file = "kubejs/client_scripts/set_tooltips.js"
@@ -347,6 +359,82 @@ hash = "f7795796a1af9003973d1c3550fcc913019960fdff3ba3b16520018b724a4b13"
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
 hash = "d0f21ebfaba2aa8cd957fb1c0991418f73afb10d544abd3ad91b6e9d559fb028"
+
+[[files]]
+file = "kubejs/data/aether/worldgen/placed_feature/gravitite_ore.json"
+hash = "fb346840b8b044f112b177e527c87cefd20e9641a18fe4a426ee9cc2c8ca51d0"
+
+[[files]]
+file = "kubejs/data/aether/worldgen/placed_feature/gravitite_ore_buried.json"
+hash = "696ed7cd0348f39e58bcd2b5dd4bf685f5dd787124fa7c35b92580f8656e888f"
+
+[[files]]
+file = "kubejs/data/aether/worldgen/placed_feature/zanite_ore.json"
+hash = "a23e2c6a0c2a2e7882c3faa4c44b4c727da7fd12f8efb9fdd1580f838604b232"
+
+[[files]]
+file = "kubejs/data/arkhaven/loot_modifiers/chest_bonus.json"
+hash = "1f500dd48f7f3a76d9612e08b302ddab14c118f584ee0f4a9617cc6d4d13a17a"
+
+[[files]]
+file = "kubejs/data/arkhaven/loot_table/chests/bonus.json"
+hash = "824d9f14db9bb389b9316620ea6435b720c98718e646a63dd84a7048709d774b"
+
+[[files]]
+file = "kubejs/data/bigreactors/worldgen/placed_feature/anglesite_ore.json"
+hash = "af555ffd5465caea85da12ebb2ace7dde26d4fd6faf91c3125a57635ec9f1116"
+
+[[files]]
+file = "kubejs/data/bigreactors/worldgen/placed_feature/benitoite_ore.json"
+hash = "960d2c399a51ce5c5fc61abfe45310ebc9a11e340d830b3ae625a9790a71eb22"
+
+[[files]]
+file = "kubejs/data/bigreactors/worldgen/placed_feature/yellorite_deepslate_ore.json"
+hash = "d8a72fb634ed10ee241f8b501c177f265fd63547a4a0f39172db4ae4b45c8c72"
+
+[[files]]
+file = "kubejs/data/bigreactors/worldgen/placed_feature/yellorite_ore.json"
+hash = "0743273bc47f9693930068884bd9650eb72d04bf7de6738da3a6686530fb117c"
+
+[[files]]
+file = "kubejs/data/create/worldgen/placed_feature/zinc_ore.json"
+hash = "78f075976173abc6648b23fb3a4d470d70d03e9309f617e10aaf64c52e690ad3"
+
+[[files]]
+file = "kubejs/data/create_new_age/worldgen/placed_feature/thorium_ore.json"
+hash = "9afaa62792b5a9740b0752ad3190c5793706193be6c74e4bff8e4ce5e2ad29da"
+
+[[files]]
+file = "kubejs/data/createmetallurgy/worldgen/placed_feature/wolframite_ore.json"
+hash = "9ad647db32196429c6cdd7fb1f55d2dfda2a9db80897a580b9a7d091b2a3079d"
+
+[[files]]
+file = "kubejs/data/createnuclear/worldgen/placed_feature/lead_ore.json"
+hash = "9b2306a2bdd8fece31e2f087d876c72cb791f44bb8f141451dda02b6ad969893"
+
+[[files]]
+file = "kubejs/data/createnuclear/worldgen/placed_feature/nitrate_ore.json"
+hash = "cf3928e4282010470bf95ae89091b28780b2672f249e2e3e1f08d7226f60a754"
+
+[[files]]
+file = "kubejs/data/createnuclear/worldgen/placed_feature/thorium_ore.json"
+hash = "731bbc468ed29f718d2a2b448408634e00fb0070bed52486582972ff3d805819"
+
+[[files]]
+file = "kubejs/data/createnuclear/worldgen/placed_feature/uranium_ore.json"
+hash = "cd8b6bb39594d35def1f5a270d79cc6e5a33091b5b31a80ee341927b3ef39c6c"
+
+[[files]]
+file = "kubejs/data/deep_aether/worldgen/placed_feature/more_skyjade_ore.json"
+hash = "45493811e9703f09689458dcd2c390ede62c3afaaf76657550339d822c2b81e7"
+
+[[files]]
+file = "kubejs/data/deep_aether/worldgen/placed_feature/skyjade_ore.json"
+hash = "ba7ca0c3085ff0e0e889fa3b42411d8347474531c1fd93db0d97defe10e6efb5"
+
+[[files]]
+file = "kubejs/data/irons_spellbooks/worldgen/placed_feature/ore_mithril_placement.json"
+hash = "9aedc94e2d98ee7b97de52949f199fb388300dd0f8d95773bc62235e15186823"
 
 [[files]]
 file = "kubejs/data/kaleidoscope_tavern/datamap/drink_effect/rum.json"
@@ -359,6 +447,162 @@ hash = "3090a1e2fecb38bcc4770ea90279add54e72f9086dc4da0fc3496f7668cc8d87"
 [[files]]
 file = "kubejs/data/kaleidoscope_world_liquor/datamap/drink_effect/jerk.json"
 hash = "c169b588fc8d569628a0a19b0935972c09958e96f4117cfa43e4993db96bf246"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_ancient_debris_large.json"
+hash = "bddda499397d93c92b5e0a326dbd52a5fd9759216bdf0ddb10e61b7b80d8d36d"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_copper.json"
+hash = "3fdffd3f4531ba5779b20c86d000c6b97cc059a1f8118ab0068001b6ace6aaa8"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_copper_large.json"
+hash = "f76c24f80547d17f728b4be452ceef15882e150e02fd72358912b59344e59d48"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_debris_small.json"
+hash = "d1ca55c7fd27797d3b89f180c2d3fb425e3efbb2c6661564c1337d4fbb331e44"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_diamond.json"
+hash = "35a975dc6263816cbfcae604e92c2be188eb9bbba03b131010e89ae511bca835"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_diamond_buried.json"
+hash = "65f7ec629c694df441c52d3048125f23b2b9405d40c964ef401885cc08d9f25e"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_diamond_large.json"
+hash = "d9555105643a92e2a3b014dca3962cc190f0d31f910cc0f0161eff7a10d50aa8"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_diamond_medium.json"
+hash = "f058683a8850a37798a19921c41dc481186a44ebdc888af20e68177ae223b36b"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_emerald.json"
+hash = "03daef4df55a33a676fd212ce96cadd5da061fb88c2a0cf128e77ea7d4ba963f"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_gold.json"
+hash = "b1cb218d9239b30f536b547f84f7393e8f843c72ee5dea061f0d7de1862c05b3"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_gold_deltas.json"
+hash = "cc1db15953d73d3c4fd0dc5b8a83f3e3ad4af1b924231104f23e9fba3446a050"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_gold_extra.json"
+hash = "6d96ef89d97fd56bed5aa7360c9a39264ce997d196f6d7f44dbf696e2590794b"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_gold_lower.json"
+hash = "da96304bca331903a60284742f2a64e26a67e4d4ca1af1607999c780b0d9fefa"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_gold_nether.json"
+hash = "1c787670f2e9ee7065be7e67c91ca1a8540c1f2b7fe56c5765c12112c52baa77"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_iron_middle.json"
+hash = "0a22050ad280f3be901703090967f94c131b4c24d9ce6c57a1da014bd668b5ef"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_iron_small.json"
+hash = "5a0534ff5386cbb601ffe683e88a7e780f59160fae2dab08e40a25228f3db04a"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_iron_upper.json"
+hash = "b2bd51e4e5513e59f111a89c559ed87ff7dc0f1cc19aa31c4da46f71a99585f0"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_lapis.json"
+hash = "840b4965d00b31b57459fe02c7c4523dc90202354c1a4bd96deaaf62c41a8cd1"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_lapis_buried.json"
+hash = "2af105db3310db66da0b088d5f6be75b215836bc210333dc6a6d6029be6b79d7"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_quartz_deltas.json"
+hash = "2530debfb55551585dfd27b62bd85fd54dc100fd2a8b40187fea43c1bc4aee7a"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_quartz_nether.json"
+hash = "71d6dd51748dea4fff46b353cd11dfcb5109576774600b327da0d62919006430"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_redstone.json"
+hash = "cfa72edfdb6d5c84d31dd41f52dfd47ca77b0afd2a2eed66a6c6e4bad804c5f1"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_redstone_lower.json"
+hash = "6d115a31e309d2b475d859c7bdb57a2b39228eedb6bde987d96320087ac19ffb"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/worldgen/placed_feature/inferium_ore.json"
+hash = "ae440d2e47ebcd267a356967f0543dd6a0340beea70d30d6abf01a000b9381cd"
+
+[[files]]
+file = "kubejs/data/mysticalagriculture/worldgen/placed_feature/prosperity_ore.json"
+hash = "92b8579004c40bdee56e21753ee6ffc18b1de2ff0d03eac663784ef0a33e9a82"
+
+[[files]]
+file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"
+hash = "37f4b0daddb6d500830225e35b95c9e499dd5e7a32f4fa1934d535f2dc3ba7e9"
+
+[[files]]
+file = "kubejs/data/occultism/worldgen/placed_feature/ore_iesnium.json"
+hash = "3e8341be2671e888c02c6dd837691fe06a6abd5130155066137767688a6c4fe1"
+
+[[files]]
+file = "kubejs/data/occultism/worldgen/placed_feature/ore_silver.json"
+hash = "af4a7e2fd7cc3f5471f30c52354937bb95ba271e8c3d8ccc06e1d4714ea3f123"
+
+[[files]]
+file = "kubejs/data/occultism/worldgen/placed_feature/ore_silver_deepslate.json"
+hash = "a2824b2e893251876f1dc4652f54e981eb7fd2e5e7965f7deb6e6820e5bbacf4"
+
+[[files]]
+file = "kubejs/data/tfmg/worldgen/placed_feature/lead_ore.json"
+hash = "268d422bf7dcee5b93bf0e068d16b06424c9d8d0f04d6e77f2e1092e0ffdd71e"
+
+[[files]]
+file = "kubejs/data/tfmg/worldgen/placed_feature/lithium_ore.json"
+hash = "6eba8a76fbbd4f535e553b2c5f3769d486c40c1a4f58981f7eedc30f8bb2f943"
+
+[[files]]
+file = "kubejs/data/tfmg/worldgen/placed_feature/nickel_ore.json"
+hash = "045506f3de01b473e550bed06dd11ea2c504fb1fcd5663b1efa7878eb509d407"
+
+[[files]]
+file = "kubejs/data/undergarden/worldgen/placed_feature/cloggrum_ore.json"
+hash = "e8589909ddcb3062e09564e799aecdcd88c4a6f02f16d536ac05e24076764354"
+
+[[files]]
+file = "kubejs/data/undergarden/worldgen/placed_feature/diamond_ore.json"
+hash = "f691964848afffc41ea0f4322d33f9374cf79085f57b63348b4be8325967b914"
+
+[[files]]
+file = "kubejs/data/undergarden/worldgen/placed_feature/froststeel_ore.json"
+hash = "ef782c20f3bd0ac4be211a2942dd80e5de638a3ab3694535643587d97cb681ac"
+
+[[files]]
+file = "kubejs/data/undergarden/worldgen/placed_feature/gold_ore.json"
+hash = "85272fca16691aca5e027428cf96b2615139d6c77507fa8c71e3e0d77092149f"
+
+[[files]]
+file = "kubejs/data/undergarden/worldgen/placed_feature/iron_ore.json"
+hash = "b4954d79249e3eabe57ab099f1927a86a1e6af7ee4a27cf07f1f4c7811a195ea"
+
+[[files]]
+file = "kubejs/data/undergarden/worldgen/placed_feature/regalium_ore.json"
+hash = "d2065d8debb8fd5c43acb3190ed4651410483d306b33281f7a2c9290a8adf6e6"
+
+[[files]]
+file = "kubejs/data/undergarden/worldgen/placed_feature/utherium_ore.json"
+hash = "2aaebfd73c5252509fb6d5a4880b4555a496538ff1bad92feb4c1ecd3cdc3e05"
 
 [[files]]
 file = "kubejs/server_scripts/00_world_rules.js"
@@ -390,7 +634,11 @@ hash = "988dbadfe751150a7e5670eb39dc09197ecdc733c28f0fe4f5b2ab71c598b3d0"
 
 [[files]]
 file = "kubejs/server_scripts/30_handshakes.js"
-hash = "b98966dacf6cbe9d45f7613296f00517aef4af496889824e16b8e9a4ec1a0105"
+hash = "5e7342f6678e9bcc09a94af01add893d40f2ecbbcc8b5838f5ea20b4ea949d3e"
+
+[[files]]
+file = "kubejs/server_scripts/36_botany_pots_compat.js"
+hash = "02e68a00ff3cb6fa364467632daa36466f7c582bbbb981115277448376b06ab3"
 
 [[files]]
 file = "kubejs/server_scripts/40_food_buffs.js"
@@ -518,7 +766,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
 metafile = true
 
 [[files]]
@@ -563,6 +811,11 @@ metafile = true
 [[files]]
 file = "mods/attributes.pw.toml"
 hash = "11ab8a365c5bed4941664f25b31f51ee4db08885c49a0fce64cba5aa5555e2cc"
+metafile = true
+
+[[files]]
+file = "mods/azimuth-api.pw.toml"
+hash = "a14aa30b199bcc4fb3b382327be7cabb22ce03d8e780f68c3b8307136f0589d7"
 metafile = true
 
 [[files]]
@@ -731,8 +984,23 @@ hash = "8daa85c9aa52f9c2708219363dd1d9953bf0bcbf066386292e8bb0b2cc5d07f7"
 metafile = true
 
 [[files]]
+file = "mods/create-aquatic-ambitions.pw.toml"
+hash = "ad732ada7e42c44f0d5eaf45f5edfb7e90bc615ba6e50a3bb974250dfb36e83f"
+metafile = true
+
+[[files]]
 file = "mods/create-big-cannons.pw.toml"
 hash = "a0e9ff95570cd9af3374ca8b44aa095447baf94e565f46ae99819d52a9b48dc1"
+metafile = true
+
+[[files]]
+file = "mods/create-bits-n-bobs.pw.toml"
+hash = "2aa588c0760e81c40fae4df29e14643ddb19d40474bf177206a8f687e70b953e"
+metafile = true
+
+[[files]]
+file = "mods/create-ca.pw.toml"
+hash = "64542ec61578b8e89ddc3724d9f7e5c0d8fa45a044472a7892463bb965fb9b69"
 metafile = true
 
 [[files]]
@@ -761,8 +1029,18 @@ hash = "e05bc0c3ee97da0dfcf9dabd3c3eaee0e90819091ead3f500ddc3b1caf77fe54"
 metafile = true
 
 [[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "456f66abd180b3f5765473cda5e8acb1a6ea8b15b7ee34442be9a7af414cfc63"
+metafile = true
+
+[[files]]
 file = "mods/create-dragons-plus.pw.toml"
 hash = "dcbb37e828a2f915e64a2ef839a742761a553a2e3b923b000ffba95db7503ac3"
+metafile = true
+
+[[files]]
+file = "mods/create-dreams-and-desires.pw.toml"
+hash = "c308b557b01b6e6cc25ee8d6a1a7c78bca2b71be3ae645e40d10cf25259fabcd"
 metafile = true
 
 [[files]]
@@ -781,13 +1059,33 @@ hash = "5f76bdf0fe120e62cc3ae298e911727fa45c70dd191fd9c2b213029c7601576c"
 metafile = true
 
 [[files]]
+file = "mods/create-ender-transmission.pw.toml"
+hash = "dba1cec5505db9aa2a65d9cc14f017a956a6e2044c006db1d48ff92c59871992"
+metafile = true
+
+[[files]]
 file = "mods/create-garnished.pw.toml"
 hash = "7c5ba6334cf31d9d5259c1ccec3e0d02b7351cfdb8f4c4f87ff788711051c3bd"
 metafile = true
 
 [[files]]
+file = "mods/create-gears-and-tavern.pw.toml"
+hash = "179a00ba16aea15ab9fedc723241a4604a07f605f77dac95a3f668ac29bfd0c5"
+metafile = true
+
+[[files]]
+file = "mods/create-goggles.pw.toml"
+hash = "5de2bbab0826b5241e16746b0b739ca5169b0a9df38181d58e8519e6ea7f535f"
+metafile = true
+
+[[files]]
 file = "mods/create-grappling-hooks.pw.toml"
 hash = "7a8ea6547288b4f4b1affc1c5017b292edf22f4793bce7c47d8e7510edfff6db"
+metafile = true
+
+[[files]]
+file = "mods/create-immersive-tacz-integration.pw.toml"
+hash = "7910a6d60620acce95fcce5d071d382b4b4fe5c1e2183f962620228771e378bc"
 metafile = true
 
 [[files]]
@@ -806,8 +1104,43 @@ hash = "6e064a3988937e06dfa307c8c395c73461819f9135197bc30563c6f13d1f1da4"
 metafile = true
 
 [[files]]
+file = "mods/create-mechanical-spawner.pw.toml"
+hash = "8d9f6438c0e03857f55b3b6fe2383fb8393c01c8d41012cf5032fdedd184575a"
+metafile = true
+
+[[files]]
+file = "mods/create-metallurgy.pw.toml"
+hash = "12a90beeb5a46b46dfdc7ba2a5510107fbc60915e6cf1af129d365e20b99ce2d"
+metafile = true
+
+[[files]]
+file = "mods/create-misc-and-things.pw.toml"
+hash = "055a23471c72576d1f79e2edcd6a20bcaa59ac70c84480fc10069c6469b3f528"
+metafile = true
+
+[[files]]
 file = "mods/create-mobile-packages.pw.toml"
 hash = "f341b8307a3a9efd08d777fb4e572351ca0dac96a280efbd6ecb0e838420f905"
+metafile = true
+
+[[files]]
+file = "mods/create-more-drill-heads.pw.toml"
+hash = "a522f41e504e542f39df2950d516b630912ad9e7b9d1025586f564365ecd6a4a"
+metafile = true
+
+[[files]]
+file = "mods/create-netherless.pw.toml"
+hash = "cb99d74c49c8e48d520a6eba2b33d0b3ddee3d3ca1fd30e4fb05f039b03f16e8"
+metafile = true
+
+[[files]]
+file = "mods/create-new-age.pw.toml"
+hash = "39499039e11a6e0f50542d80af94c172342fdb686f3a59d5ee4457d978a54e75"
+metafile = true
+
+[[files]]
+file = "mods/create-ore-excavation.pw.toml"
+hash = "10d3389f72e8e8f78518f5b6786ccec4e62dbad117491d2970e8e1f75e390251"
 metafile = true
 
 [[files]]
@@ -826,8 +1159,18 @@ hash = "c24712eb82bb29d7ed210d7bc175baeb3b022c3b365b2dd0275c25f690e98f52"
 metafile = true
 
 [[files]]
+file = "mods/create-sifting.pw.toml"
+hash = "464baff9adb918c7eb8fbfdb2efedeba5f1d3f6eebe87fc3fad5649e8e4ee18e"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails-1.21.1.pw.toml"
 hash = "84cff9a09538552608e32a14b4f7f37d5ac0f4cface3953e68c3af5104217554"
+metafile = true
+
+[[files]]
+file = "mods/create-stock-bridge.pw.toml"
+hash = "e04ae91b53c33f6a4dea9ebc82be4255a56460a9e095a3a1fd748434e5dfb3bb"
 metafile = true
 
 [[files]]
@@ -836,8 +1179,13 @@ hash = "d07e87a42a1f882ee71b9f68fc531b1b9dcf4637f69fcf0c80322e488cf79171"
 metafile = true
 
 [[files]]
-file = "mods/create-tfmg.pw.toml"
-hash = "dfbb2a077b144492f48af0255906b146d56011ccb6c6f6e343bab703e8cc0f79"
+file = "mods/create-stuff-additions.pw.toml"
+hash = "2244c6c580c41f432e02bc82a6f78af0b1777de42400d1e5b702208376c56c6f"
+metafile = true
+
+[[files]]
+file = "mods/create-teleporters.pw.toml"
+hash = "3937f3e93d3117d33bc5d5144d5a983f5336100e6dc1b64dca338e2e725ea3ce"
 metafile = true
 
 [[files]]
@@ -851,13 +1199,38 @@ hash = "2c72104b4cf249d4f096f673293a41c199d611dc9b99a9055d463fa5cd90c7cd"
 metafile = true
 
 [[files]]
+file = "mods/create-ultimate-factory.pw.toml"
+hash = "34d808989e71221b8e01a44bc8031f20af1c94981acb0cba4669e0e58be69629"
+metafile = true
+
+[[files]]
+file = "mods/create-vintage-unofficial-port.pw.toml"
+hash = "fdaf0d7263b0f6cc54d18849bc37f42b50b211097ca25c69807e7e0f9ad8cd66"
+metafile = true
+
+[[files]]
+file = "mods/create-wizardry.pw.toml"
+hash = "0066bc1ea4d1d479319614685f6ee93f227a985183e067264272762bd90a8a7b"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
+file = "mods/create_factory_logistics.pw.toml"
+hash = "5992df64e27a5dd20a386c32e7c2c8018e0c31ac9a25ee655bc375ef648e3590"
+metafile = true
+
+[[files]]
 file = "mods/createaddition.pw.toml"
 hash = "e5052e0fcba9af1e3c6c0734829b441bc5a23012108bf203ca01825ca12ff6b1"
+metafile = true
+
+[[files]]
+file = "mods/createnuclear.pw.toml"
+hash = "65aabaa29d30b7bf5dfb2485f1ed918fe925c10662686d9047e1d3f654f28058"
 metafile = true
 
 [[files]]
@@ -963,11 +1336,6 @@ metafile = true
 [[files]]
 file = "mods/easy-npc.pw.toml"
 hash = "b83c611b1787a2c9341046f97f0d29c609873c65addda83e7eaf74728cd748b3"
-metafile = true
-
-[[files]]
-file = "mods/easy-villagers.pw.toml"
-hash = "518331758be3b6bfac68239cfc26cdfbabd230cf068c241b745ee6ec08a67275"
 metafile = true
 
 [[files]]
@@ -1171,6 +1539,11 @@ hash = "0004feab868f7b873c12db05aae0d0dac6c87b497490b48bb66480e7c8d0f340"
 metafile = true
 
 [[files]]
+file = "mods/hypertube.pw.toml"
+hash = "672fe2518a1795814efc943c3e3cf8dc1b993bc7d838cc62950acfaba348c2c7"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "a2fbecad69fcbff54919864ea8b95e54d140a1a2c637d73307fb366e76066fe6"
 metafile = true
@@ -1288,6 +1661,11 @@ metafile = true
 [[files]]
 file = "mods/krypton-fnp.pw.toml"
 hash = "5a96006110f4cdd98460a994373153909a5f0bf6cb68c5ac3a64adbda86eb302"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "531aa276b74eabc24566c57412527767238c74ee16b9c646dff511f56dba990c"
 metafile = true
 
 [[files]]
@@ -1631,6 +2009,11 @@ hash = "8690379014fbba53059759936c7deb4d62aabc7a2006da3d45929dc582b119b7"
 metafile = true
 
 [[files]]
+file = "mods/relics-mod.pw.toml"
+hash = "5d2ebe2ac7d9436d1c5df0fbb2a1b975196d41a3090065b3c569aaac4fc11430"
+metafile = true
+
+[[files]]
 file = "mods/repurposed-structures-forge.pw.toml"
 hash = "7bcec8357f1400fa9d637f74c669b3b41968be436a8649203908e09137bd0fde"
 metafile = true
@@ -1673,6 +2056,11 @@ metafile = true
 [[files]]
 file = "mods/serene-seasons.pw.toml"
 hash = "bcaac076ac981463ee57b7469430e5fb7ff99f8e2387681e7ac737ca5d22596b"
+metafile = true
+
+[[files]]
+file = "mods/shatterbyte-lib.pw.toml"
+hash = "3f552bbdc42f07fd7d5695ced1d27d774af63cff5460be45817939e5f8e4f9de"
 metafile = true
 
 [[files]]
@@ -1776,6 +2164,11 @@ hash = "de6a284d3055d9d00a16be172b254a6fe74d1e181ed34cee1332054c0c8f860f"
 metafile = true
 
 [[files]]
+file = "mods/strut-your-stuff.pw.toml"
+hash = "aa89e067824ca42d818a81a6d02ce5296ce662d834c35dd2ff0d81189d3bc3f9"
+metafile = true
+
+[[files]]
 file = "mods/subtle-effects.pw.toml"
 hash = "8fa75a87e3b90e25fb8a298c2250144607ff3b2d2052d0246f660719ea709195"
 metafile = true
@@ -1813,6 +2206,11 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "81c5c05f9ed4c07b9f027ff6c421939bb04e476075091f135d34aaa05af1f950"
+metafile = true
+
+[[files]]
+file = "mods/tfmg-community-edition.pw.toml"
+hash = "8f0cba8a87fd4fd749a95a02e41a4754f6db3d3c96da921f4c1cbaa8a191b293"
 metafile = true
 
 [[files]]

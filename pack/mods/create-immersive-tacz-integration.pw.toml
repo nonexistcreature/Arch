@@ -1,0 +1,13 @@
+name = "Create: Immersive TaCZ Integration"
+filename = "createimmersivetacz-1.6-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/X2ZdQA3m/versions/7qIlMJja/createimmersivetacz-1.6-neoforge.jar"
+hash-format = "sha512"
+hash = "4e86ba8f172262c24e206a6c7d9217c547eaa117ab113aec472335af9ad25165d377ee705e58659653ec6852530a095938a9dfa38e3f9e9d5db96ecfa03bfde7"
+
+[update]
+[update.modrinth]
+mod-id = "X2ZdQA3m"
+version = "7qIlMJja"

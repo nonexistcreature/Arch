@@ -117,7 +117,7 @@
   "arkhaven.keybook.p6": "§lTACZ guns§r §7(…)§r\nR - reload\nY - refit\nN - fire mode\nX - scope zoom\nC - crawl\nmouse side button - bayonet",
   "arkhaven.keybook.p7": "§lMekanism§r\nCtrl+H - helmet mode\nCtrl+G - chestplate\nCtrl+J - leggings\nCtrl+B - boots\nN - held tool mode\n\n§lJetpack and armor§r\nJ - jetpack on/off\nAlt+J - hover\nCtrl+C/Y/V - Cataclysm helmet, chest, boots",
   "arkhaven.keybook.p8": "§lJetpack and armor§r §7(…)§r\nCtrl+F - Cataclysm weapon\nCtrl+R - Deep Aether dash\n\n§lBags and misc§r\nAlt+B, Alt+N, Alt+E - Occultism bags\nX - quiver (with a bow)\nCtrl+K - Create stock",
-  "arkhaven.keybook.p9": "§lBags and misc§r §7(…)§r\nCtrl+L - Create networks\n. - emotes\n, - call your dragon\n; - pick up villager\n\n§lBuilding Gadgets§r\n(gadget in hand)\nShift+G - menu\nShift+H - anchor",
-  "arkhaven.keybook.p10": "§lBuilding Gadgets§r §7(…)§r\nShift+R - range\nShift+U - undo",
-  "arkhaven.keybook.p11": "§lChanging keys§r\nOptions > Controls > Key Binds.\nSearch box and a conflicts filter on top.\nA red key has two actions. That is fine if they work with different items in hand, in a menu or in a vehicle."
+  "arkhaven.keybook.p9": "§lBags and misc§r §7(…)§r\nCtrl+L - Create networks\n. - emotes\n, - call your dragon\n\n§lBuilding Gadgets§r\n(gadget in hand)\nShift+G - menu\nShift+H - anchor\nShift+R - range\nShift+U - undo",
+  "arkhaven.keybook.p10": "§lChanging keys§r\nOptions > Controls > Key Binds.\nSearch box and a conflicts filter on top.\nA red key has two actions. That is fine if they work with different items in hand, in a menu or in a vehicle.",
+  "arkhaven.keybook.p11": "§lHave fun!§r"
 }
