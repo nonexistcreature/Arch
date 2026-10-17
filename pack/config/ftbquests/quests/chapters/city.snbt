@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "601F1AB7F25BCE3E"
-			x: 3.8d
+			x: 3.7d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -35,7 +35,7 @@
 		}
 		{
 			id: "0961E98A888A1F6F"
-			x: 3.05d
+			x: 2.95d
 			y: 2.0d
 			icon: {
 				id: "minecolonies:blockhuttownhall"
@@ -57,7 +57,7 @@
 		}
 		{
 			id: "68A40D4402EEB3F1"
-			x: 0.92d
+			x: 0.78d
 			y: 4.0d
 			icon: {
 				id: "minecolonies:blockhutbuilder"
@@ -193,7 +193,7 @@
 		}
 		{
 			id: "5E28B4759F897AD5"
-			x: 11.01d
+			x: 8.82d
 			y: 0.0d
 			icon: {
 				id: "mca:book_family"
@@ -536,7 +536,7 @@
 		}
 		{
 			id: "7DF2E728DC9D5076"
-			x: 7.1d
+			x: 6.7d
 			y: 2.0d
 			icon: {
 				id: "mca:engagement_ring"
@@ -558,27 +558,8 @@
 			]
 		}
 		{
-			id: "076FE4C58EDAB8E3"
-			x: 10.81d
-			y: 2.0d
-			icon: {
-				id: "easy_villagers:villager"
-				count: 1
-			}
-			dependencies: [
-				"5E28B4759F897AD5"
-			]
-			optional: true
-			tasks: [
-				{
-					id: "679395086A8EE838"
-					type: "checkmark"
-				}
-			]
-		}
-		{
 			id: "04CE5479A8E63247"
-			x: 4.55d
+			x: 4.45d
 			y: 2.0d
 			icon: {
 				id: "minecolonies:supplychestdeployer"
@@ -660,7 +641,7 @@
 		}
 		{
 			id: "3D1C08116326A910"
-			x: 2.42d
+			x: 2.28d
 			y: 4.0d
 			icon: {
 				id: "minecolonies:scepterpermission"
@@ -712,7 +693,7 @@
 		}
 		{
 			id: "3176B6000E761BD0"
-			x: 3.92d
+			x: 3.78d
 			y: 4.0d
 			icon: {
 				id: "minecolonies:questlog"
@@ -860,7 +841,7 @@
 		}
 		{
 			id: "784451E42213A344"
-			x: 12.98d
+			x: 10.53d
 			y: 0.0d
 			icon: {
 				id: "minecolonies:pirate_top"
@@ -928,7 +909,7 @@
 		}
 		{
 			id: "36C5916C0774F212"
-			x: 7.22d
+			x: 6.78d
 			y: 4.0d
 			icon: {
 				id: "mca:bouquet"
@@ -958,7 +939,7 @@
 		}
 		{
 			id: "211B12BCEF87018A"
-			x: 12.31d
+			x: 9.13d
 			y: 2.0d
 			icon: {
 				id: "mca:villager_tracker"
@@ -988,7 +969,7 @@
 		}
 		{
 			id: "17DABBB2F55C70F9"
-			x: 13.81d
+			x: 10.63d
 			y: 2.0d
 			icon: {
 				id: "mca:rose_gold_ingot"
@@ -1049,7 +1030,7 @@
 		}
 		{
 			id: "0FD8FAF0813FFD2A"
-			x: 5.42d
+			x: 5.28d
 			y: 4.0d
 			icon: {
 				id: "minecolonies:blockhutcitizen"

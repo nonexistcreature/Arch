@@ -1,0 +1,41 @@
+# Relics (SSKirillSS), wave 13: unique accessories found in structure chests; they level up as you use their abilities.
+# Texts: the mod's own descriptions (relics.description.<item>.description, translated to Russian).
+extends: adventure
+lang: [relics]
+autodoc: ["relics.description.{path}.description"]
+out: relics_gen
+quests:
+  - id: rel_intro
+    deps: [adv_dungeon]
+    roles: [explorer, warrior]
+    shape: gear
+    icon: relics:springy_boot
+    title: {ru: "Реликвии", en: "Relics"}
+    why: {ru: "Реликвии лежат в сундуках данжей и построек. У каждой свои способности, которые растут с опытом использования: чем чаще пользуешься, тем сильнее. Наведи на реликвию и зажми Shift, чтобы увидеть уровни.", en: "Relics are found in structure chests; their abilities level up as you use them. Hold Shift on one to see."}
+  - {id: rel_springy_boot, deps: [rel_intro], roles: [explorer], items: [relics:springy_boot], optional: true}
+  - {id: rel_roller_skate, deps: [rel_intro], roles: [explorer], items: [relics:roller_skate], optional: true}
+  - {id: rel_cut_glass_boot, deps: [rel_intro], roles: [explorer], items: [relics:cut_glass_boot], optional: true}
+  - {id: rel_kinetic_belt, deps: [rel_intro], roles: [warrior], items: [relics:kinetic_belt], optional: true}
+  - {id: rel_hunting_belt, deps: [rel_intro], roles: [warrior, breeder], items: [relics:hunting_belt], optional: true}
+  - {id: rel_reflective_necklace, deps: [rel_intro], roles: [warrior], items: [relics:reflective_necklace], optional: true}
+  - {id: rel_jellyfish_necklace, deps: [rel_intro], roles: [explorer], items: [relics:jellyfish_necklace], optional: true}
+  - {id: rel_leafy_mantle, deps: [rel_intro], roles: [gardener], items: [relics:leafy_mantle], optional: true}
+  - {id: rel_midnight_mantle, deps: [rel_intro], roles: [warrior], items: [relics:midnight_mantle], optional: true}
+  - {id: rel_glitchy_mantle, deps: [rel_intro], roles: [explorer], items: [relics:glitchy_mantle], optional: true}
+  - {id: rel_ghostly_mantle, deps: [rel_intro], roles: [explorer], items: [relics:ghostly_mantle], optional: true}
+  - {id: rel_chorus_staff, deps: [rel_intro], roles: [explorer, mage], items: [relics:chorus_staff], optional: true}
+  - {id: rel_piglin_mask, deps: [rel_intro], roles: [explorer], items: [relics:piglin_mask], optional: true}
+  - {id: rel_seven_sins, deps: [rel_intro], roles: [warrior], items: [relics:ring_of_the_seven_deadly_sins], optional: true}
+  - {id: rel_sacrifice, deps: [rel_intro], roles: [warrior], items: [relics:sphere_of_self_sacrifice], optional: true}
+  - {id: rel_rider_flute, deps: [rel_intro], roles: [breeder], items: [relics:rider_flute], optional: true}
+  - {id: rel_clot_of_time, deps: [rel_intro], roles: [mage], items: [relics:clot_of_time], optional: true}
+  - {id: rel_chef_hat, deps: [rel_intro], roles: [cook], items: [relics:chef_hat], optional: true}
+  - {id: rel_xp_disperser, deps: [rel_intro], roles: [mage], items: [relics:experience_disperser], optional: true}
+  - {id: rel_retaliation, deps: [rel_intro], roles: [warrior], items: [relics:shield_of_retaliation], optional: true}
+  - {id: rel_golden_tooth, deps: [rel_intro], roles: [explorer], items: [relics:golden_tooth], optional: true, why: {ru: "Золотой зуб — реликвия-талисман исследователя. Что она умеет, смотри в подсказке с Shift.", en: "An explorer's charm; hold Shift for its abilities."}}
+  - {id: rel_pet_bone, deps: [rel_intro], roles: [breeder], items: [relics:pet_bone], optional: true, why: {ru: "Косточка питомца — реликвия для тех, у кого есть прирученные звери. Способности — в подсказке с Shift.", en: "A relic for tamed pets; hold Shift for its abilities."}}
+  - id: rel_xp_bottle
+    deps: [rel_intro]
+    roles: [explorer]
+    items: [relics:relic_experience_bottle]
+    why: {ru: "Бутылочка опыта реликвии сразу прокачивает реликвию, без долгого использования.", en: "Relic experience bottles level a relic instantly."}

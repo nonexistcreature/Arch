@@ -236,7 +236,7 @@
 			x: 30.03d
 			y: 2.0d
 			icon: {
-				id: "tfmg:engine_controller"
+				id: "tfmg:regular_engine"
 				count: 1
 			}
 			dependencies: [
@@ -249,7 +249,7 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "tfmg:engine_controller"
+						id: "tfmg:regular_engine"
 					}
 				}
 			]
@@ -2230,7 +2230,7 @@
 			x: 37.17d
 			y: 12.0d
 			icon: {
-				id: "tfmg:converter"
+				id: "tfmg:voltmeter"
 				count: 1
 			}
 			dependencies: [
@@ -2242,7 +2242,15 @@
 					type: "item"
 					item: {
 						count: 1
-						id: "tfmg:converter"
+						id: "tfmg:voltmeter"
+					}
+				}
+				{
+					id: "27D4A1C8C07F58C6"
+					type: "item"
+					item: {
+						count: 1
+						id: "tfmg:resistor"
 					}
 				}
 			]

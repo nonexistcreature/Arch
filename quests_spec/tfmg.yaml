@@ -190,11 +190,11 @@ quests:
     items: [tfmg:winding_machine]
     why: {en: Winds coils for motors and generators., ru: Намоточный станок делает катушки и обмотки для моторов и генераторов.}
   - id: tfg2_converter
-    title: {en: Converter, ru: Преобразователь энергии}
+    title: {en: Voltmeter and Resistor, ru: Вольтметр и резистор}
     deps: [tfg2_electricity]
     roles: [engineer]
-    items: [tfmg:converter]
-    why: {en: Converts between TFMG power and FE., ru: Переводит энергию TFMG в FE и обратно — питай машины Mekanism и IE от своего завода или наоборот.}
+    items: [tfmg:voltmeter, tfmg:resistor]
+    why: {en: The voltmeter reads your grid; the resistor limits current., ru: "Вольтметр показывает напряжение и ток в сети TFMG, резистор ограничивает ток, чтобы не сгорели машины."}
   - id: tfg2_lights
     deps: [tfg2_electricity]
     roles: [builder]

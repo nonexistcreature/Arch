@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "483595C3466D106D"
-			x: 4.38d
+			x: 9.75d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -61,7 +61,7 @@
 		}
 		{
 			id: "11213DE6310C1D6A"
-			x: -3.24d
+			x: -8.35d
 			y: 2.0d
 			icon: {
 				id: "lootr:lootr_chest"
@@ -79,7 +79,7 @@
 		}
 		{
 			id: "16E1CA1EF5B21B46"
-			x: 1.21d
+			x: 3.01d
 			y: 2.0d
 			icon: {
 				id: "minecraft:obsidian"
@@ -98,7 +98,7 @@
 		}
 		{
 			id: "739285040B5B0234"
-			x: 16.81d
+			x: 34.05d
 			y: 2.0d
 			shape: "hexagon"
 			icon: {
@@ -118,7 +118,7 @@
 		}
 		{
 			id: "5435E49C41CDE3FF"
-			x: 16.95d
+			x: 34.1d
 			y: 4.0d
 			icon: {
 				id: "twilightforest:naga_trophy"
@@ -148,7 +148,7 @@
 		}
 		{
 			id: "4B8828721D42DE2A"
-			x: 16.09d
+			x: 29.06d
 			y: 6.0d
 			icon: {
 				id: "twilightforest:lich_trophy"
@@ -168,7 +168,7 @@
 		}
 		{
 			id: "3407660309397086"
-			x: 22.55d
+			x: 33.81d
 			y: 8.0d
 			icon: {
 				id: "twilightforest:hydra_trophy"
@@ -189,7 +189,7 @@
 		}
 		{
 			id: "29EFEF68F03D66A9"
-			x: 9.52d
+			x: 19.53d
 			y: 2.0d
 			icon: {
 				id: "aether:aether_portal_frame"
@@ -208,7 +208,7 @@
 		}
 		{
 			id: "3020E46100BB3368"
-			x: 20.0d
+			x: 35.6d
 			y: 4.0d
 			icon: {
 				id: "aether:bronze_dungeon_key"
@@ -229,7 +229,7 @@
 		}
 		{
 			id: "22E49A43159B2841"
-			x: 3.11d
+			x: 6.8d
 			y: 2.0d
 			icon: {
 				id: "minecraft:stone_bricks"
@@ -249,7 +249,7 @@
 		}
 		{
 			id: "241D0F92C3E12524"
-			x: 4.61d
+			x: 8.3d
 			y: 2.0d
 			icon: {
 				id: "minecraft:sculk"
@@ -269,7 +269,7 @@
 		}
 		{
 			id: "5191867CC65E64EB"
-			x: 10.67d
+			x: 13.82d
 			y: 0.0d
 			icon: {
 				id: "minecraft:honeycomb"
@@ -289,7 +289,7 @@
 		}
 		{
 			id: "256C62572DAB7621"
-			x: -13.64d
+			x: -14.65d
 			y: 4.0d
 			shape: "hexagon"
 			icon: {
@@ -311,7 +311,7 @@
 		}
 		{
 			id: "662910273F2B230B"
-			x: -12.13d
+			x: -30.1d
 			y: 4.0d
 			icon: {
 				id: "mowziesmobs:wrought_helmet"
@@ -332,7 +332,7 @@
 		}
 		{
 			id: "38AEAB79267D768C"
-			x: 1.36d
+			x: -13.15d
 			y: 4.0d
 			icon: {
 				id: "aquamirae:dead_sea_scroll"
@@ -353,7 +353,7 @@
 		}
 		{
 			id: "5814EB842FA7B370"
-			x: -0.14d
+			x: -7.15d
 			y: 4.0d
 			icon: {
 				id: "minecraft:ender_eye"
@@ -373,7 +373,7 @@
 		}
 		{
 			id: "20B6AA7E95CCB7D5"
-			x: 2.74d
+			x: 13.28d
 			y: 8.0d
 			shape: "gear"
 			icon: {
@@ -409,7 +409,7 @@
 		}
 		{
 			id: "1957C1B40843F000"
-			x: -0.29d
+			x: 4.82d
 			y: 2.0d
 			icon: {
 				id: "minecraft:barrel"
@@ -428,7 +428,7 @@
 		}
 		{
 			id: "5A77759DFBE67C95"
-			x: 6.11d
+			x: 9.8d
 			y: 2.0d
 			icon: {
 				id: "minecraft:bell"
@@ -447,7 +447,7 @@
 		}
 		{
 			id: "1259337CB58F1C9E"
-			x: 17.92d
+			x: 39.56d
 			y: 6.0d
 			icon: {
 				id: "twilightforest:ironwood_ingot"
@@ -470,7 +470,7 @@
 		}
 		{
 			id: "2E1D43BB1E766B59"
-			x: 24.05d
+			x: 35.31d
 			y: 8.0d
 			icon: {
 				id: "twilightforest:minoshroom_trophy"
@@ -491,7 +491,7 @@
 		}
 		{
 			id: "3900D125095728FD"
-			x: 22.93d
+			x: 34.7d
 			y: 10.0d
 			icon: {
 				id: "twilightforest:knightmetal_ingot"
@@ -512,7 +512,7 @@
 		}
 		{
 			id: "5AA2916146AB0FE5"
-			x: 22.93d
+			x: 34.7d
 			y: 12.0d
 			icon: {
 				id: "twilightforest:fiery_ingot"
@@ -533,7 +533,7 @@
 		}
 		{
 			id: "78AFBA41AFAA0319"
-			x: 22.93d
+			x: 34.7d
 			y: 14.0d
 			icon: {
 				id: "twilightforest:alpha_yeti_fur"
@@ -560,7 +560,7 @@
 		}
 		{
 			id: "73113DD67E148277"
-			x: 6.25d
+			x: 9.85d
 			y: 4.0d
 			icon: {
 				id: "aether:zanite_gemstone"
@@ -583,7 +583,7 @@
 		}
 		{
 			id: "0B1C9822CA3D917F"
-			x: 20.05d
+			x: 35.06d
 			y: 6.0d
 			icon: {
 				id: "aether:valkyrie_lance"
@@ -604,7 +604,7 @@
 		}
 		{
 			id: "13F13D09D97F5AFC"
-			x: 21.05d
+			x: 32.31d
 			y: 8.0d
 			icon: {
 				id: "aether:gravitite_pickaxe"
@@ -625,7 +625,7 @@
 		}
 		{
 			id: "7D35BB7FBDAEF93B"
-			x: 3.25d
+			x: 6.85d
 			y: 4.0d
 			icon: {
 				id: "undergarden:cloggrum_ingot"
@@ -649,7 +649,7 @@
 		}
 		{
 			id: "3D37C20ACFC1671F"
-			x: 4.75d
+			x: 8.35d
 			y: 4.0d
 			icon: {
 				id: "deeperdarker:reinforced_echo_shard"
@@ -672,7 +672,7 @@
 		}
 		{
 			id: "20D49507FD947801"
-			x: -21.08d
+			x: -18.94d
 			y: 6.0d
 			icon: {
 				id: "cataclysm:ignitium_ingot"
@@ -693,7 +693,7 @@
 		}
 		{
 			id: "665F15D3591B91CB"
-			x: -0.08d
+			x: -6.94d
 			y: 6.0d
 			icon: {
 				id: "cataclysm:void_eye"
@@ -715,7 +715,7 @@
 		}
 		{
 			id: "591B863A25456EA2"
-			x: -19.58d
+			x: -17.44d
 			y: 6.0d
 			icon: {
 				id: "cataclysm:abyss_eye"
@@ -736,7 +736,7 @@
 		}
 		{
 			id: "5CDB9F3F46E94031"
-			x: -16.58d
+			x: -33.94d
 			y: 6.0d
 			icon: {
 				id: "mowziesmobs:ice_crystal"
@@ -757,7 +757,7 @@
 		}
 		{
 			id: "34C186A7C66EB616"
-			x: -24.05d
+			x: -39.56d
 			y: 6.0d
 			icon: {
 				id: "mowziesmobs:sol_visage"
@@ -778,7 +778,7 @@
 		}
 		{
 			id: "2D00EB21A23B01B1"
-			x: 11.99d
+			x: -2.27d
 			y: 4.0d
 			icon: {
 				id: "minecraft:carved_pumpkin"
@@ -799,7 +799,7 @@
 		}
 		{
 			id: "1079865D0DAE982A"
-			x: 11.02d
+			x: 13.82d
 			y: 2.0d
 			icon: {
 				id: "the_bumblezone:honey_crystal_shards"
@@ -823,7 +823,7 @@
 		}
 		{
 			id: "6B6774EA3A5B6C23"
-			x: 11.59d
+			x: 3.56d
 			y: 6.0d
 			icon: {
 				id: "born_in_chaos_v1:dark_metal_ingot"
@@ -846,7 +846,7 @@
 		}
 		{
 			id: "745CFE194591D2A6"
-			x: 4.55d
+			x: -4.59d
 			y: 8.0d
 			icon: {
 				id: "born_in_chaos_v1:dark_metal_armor_chestplate"
@@ -868,7 +868,7 @@
 		}
 		{
 			id: "13845EACBA0F610E"
-			x: 4.93d
+			x: -4.3d
 			y: 10.0d
 			icon: {
 				id: "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate"
@@ -890,7 +890,7 @@
 		}
 		{
 			id: "057FC3818139D36A"
-			x: 6.95d
+			x: -2.19d
 			y: 8.0d
 			icon: {
 				id: "born_in_chaos_v1:spiny_shell_armor_chestplate"
@@ -912,7 +912,7 @@
 		}
 		{
 			id: "460F56DC14D245C6"
-			x: 9.05d
+			x: -0.09d
 			y: 8.0d
 			icon: {
 				id: "born_in_chaos_v1:darkwarblade"
@@ -942,7 +942,7 @@
 		}
 		{
 			id: "354E68E7CEAD4E9A"
-			x: 7.93d
+			x: -1.3d
 			y: 10.0d
 			icon: {
 				id: "born_in_chaos_v1:nightmare_scythe"
@@ -964,7 +964,7 @@
 		}
 		{
 			id: "1937A626C543B72C"
-			x: 9.43d
+			x: 0.2d
 			y: 10.0d
 			icon: {
 				id: "born_in_chaos_v1:skullbreaker_hammer"
@@ -986,7 +986,7 @@
 		}
 		{
 			id: "173CDD2941A60776"
-			x: 10.93d
+			x: 1.7d
 			y: 10.0d
 			icon: {
 				id: "born_in_chaos_v1:intoxicating_dagger"
@@ -1008,7 +1008,7 @@
 		}
 		{
 			id: "30A6A39195DC8EAE"
-			x: 10.55d
+			x: 1.41d
 			y: 8.0d
 			icon: {
 				id: "born_in_chaos_v1:staff_of_magic_arrows"
@@ -1038,7 +1038,7 @@
 		}
 		{
 			id: "1F7DD0577AD53CF1"
-			x: 8.92d
+			x: -5.44d
 			y: 6.0d
 			icon: {
 				id: "born_in_chaos_v1:pumpkinhandgun"
@@ -1060,7 +1060,7 @@
 		}
 		{
 			id: "58E8382834AF7058"
-			x: 12.05d
+			x: 2.91d
 			y: 8.0d
 			icon: {
 				id: "born_in_chaos_v1:death_totem"
@@ -1082,7 +1082,7 @@
 		}
 		{
 			id: "795DAE0D5518C965"
-			x: 13.55d
+			x: 4.41d
 			y: 8.0d
 			icon: {
 				id: "born_in_chaos_v1:charmof_power"
@@ -1104,7 +1104,7 @@
 		}
 		{
 			id: "73B6E49C2F05CFCE"
-			x: 15.05d
+			x: 5.91d
 			y: 8.0d
 			icon: {
 				id: "born_in_chaos_v1:elixir_of_vampirism"
@@ -1134,7 +1134,7 @@
 		}
 		{
 			id: "25981DF9F801F60A"
-			x: 13.09d
+			x: -3.94d
 			y: 6.0d
 			icon: {
 				id: "born_in_chaos_v1:evilometer"
@@ -1156,7 +1156,7 @@
 		}
 		{
 			id: "6CDA3DE56D6D22C0"
-			x: 16.55d
+			x: 7.41d
 			y: 8.0d
 			icon: {
 				id: "born_in_chaos_v1:phantom_bomb"
@@ -1178,7 +1178,7 @@
 		}
 		{
 			id: "03CFA9F7E4C26104"
-			x: 18.05d
+			x: 8.91d
 			y: 8.0d
 			icon: {
 				id: "born_in_chaos_v1:seedof_chaos"
@@ -1200,7 +1200,7 @@
 		}
 		{
 			id: "634AC2B841A0E5DC"
-			x: 19.55d
+			x: 10.41d
 			y: 8.0d
 			icon: {
 				id: "born_in_chaos_v1:lifestealer_bone"
@@ -1222,7 +1222,7 @@
 		}
 		{
 			id: "23FC88A0464D47D3"
-			x: 14.59d
+			x: -2.44d
 			y: 6.0d
 			icon: {
 				id: "born_in_chaos_v1:krampus_horn"
@@ -1244,7 +1244,7 @@
 		}
 		{
 			id: "0628C3C4A04E0CB5"
-			x: -15.08d
+			x: -32.44d
 			y: 6.0d
 			icon: {
 				id: "mowziesmobs:wrought_axe"
@@ -1266,7 +1266,7 @@
 		}
 		{
 			id: "499B8F02B54FA90A"
-			x: -13.58d
+			x: -30.94d
 			y: 6.0d
 			icon: {
 				id: "mowziesmobs:earthrend_gauntlet"
@@ -1288,7 +1288,7 @@
 		}
 		{
 			id: "636BC78B1F29B3EC"
-			x: -12.08d
+			x: -29.44d
 			y: 6.0d
 			icon: {
 				id: "mowziesmobs:naga_fang_dagger"
@@ -1310,7 +1310,7 @@
 		}
 		{
 			id: "5DDE2E07CC2B36E5"
-			x: -23.05d
+			x: -38.19d
 			y: 8.0d
 			icon: {
 				id: "mowziesmobs:umvuthana_mask_fury"
@@ -1348,7 +1348,7 @@
 		}
 		{
 			id: "1604AE16017B6E95"
-			x: -10.58d
+			x: -27.94d
 			y: 6.0d
 			icon: {
 				id: "mowziesmobs:sculptor_staff"
@@ -1378,7 +1378,7 @@
 		}
 		{
 			id: "6A2E8C4B53C52018"
-			x: -9.08d
+			x: -26.44d
 			y: 6.0d
 			icon: {
 				id: "mowziesmobs:captured_grottol"
@@ -1400,7 +1400,7 @@
 		}
 		{
 			id: "41B27297A3E9E06C"
-			x: -4.58d
+			x: -24.94d
 			y: 6.0d
 			icon: {
 				id: "mowziesmobs:glowing_jelly"
@@ -1422,7 +1422,7 @@
 		}
 		{
 			id: "05CD7B4D915CF3B8"
-			x: -3.08d
+			x: -23.44d
 			y: 6.0d
 			icon: {
 				id: "mowziesmobs:bluff_rod"
@@ -1452,7 +1452,7 @@
 		}
 		{
 			id: "31DB326FB427EAC2"
-			x: 2.92d
+			x: -12.94d
 			y: 6.0d
 			icon: {
 				id: "aquamirae:frozen_key"
@@ -1474,7 +1474,7 @@
 		}
 		{
 			id: "7F389C05E148AF54"
-			x: 4.42d
+			x: -11.44d
 			y: 6.0d
 			icon: {
 				id: "aquamirae:salvager_suit"
@@ -1496,7 +1496,7 @@
 		}
 		{
 			id: "761D9255657A8819"
-			x: -7.58d
+			x: -21.94d
 			y: 6.0d
 			icon: {
 				id: "aquamirae:abyssal_brigandine"
@@ -1518,7 +1518,7 @@
 		}
 		{
 			id: "7F1D7047630585BB"
-			x: -6.08d
+			x: -20.44d
 			y: 6.0d
 			icon: {
 				id: "aquamirae:terrible_chestplate"
@@ -1540,7 +1540,7 @@
 		}
 		{
 			id: "352B94244DD5F92F"
-			x: -7.3d
+			x: -20.94d
 			y: 8.0d
 			icon: {
 				id: "aquamirae:abyssal_upgrade_smithing_template"
@@ -1571,7 +1571,7 @@
 		}
 		{
 			id: "03D48AC51B2F8940"
-			x: -1.58d
+			x: -15.94d
 			y: 6.0d
 			icon: {
 				id: "aquamirae:terrible_blade"
@@ -1609,7 +1609,7 @@
 		}
 		{
 			id: "192CECE48B30554A"
-			x: -5.05d
+			x: -18.69d
 			y: 8.0d
 			icon: {
 				id: "aquamirae:tempest_trident"
@@ -1631,7 +1631,7 @@
 		}
 		{
 			id: "78233C6FC9D930DF"
-			x: 5.88d
+			x: -0.94d
 			y: 0.0d
 			icon: {
 				id: "aquamirae:maelstrom_vestige"
@@ -1661,7 +1661,7 @@
 		}
 		{
 			id: "6F96074A6B6DD6A1"
-			x: 5.92d
+			x: -9.94d
 			y: 6.0d
 			icon: {
 				id: "aquamirae:shell_horn"
@@ -1691,7 +1691,7 @@
 		}
 		{
 			id: "2382F1C343806966"
-			x: 1.42d
+			x: -14.44d
 			y: 6.0d
 			icon: {
 				id: "aquamirae:angler_fang"
@@ -1729,7 +1729,7 @@
 		}
 		{
 			id: "2962811C82E4BCA7"
-			x: -3.55d
+			x: -17.19d
 			y: 8.0d
 			icon: {
 				id: "aquamirae:poseidon_breakfast"
@@ -1751,7 +1751,7 @@
 		}
 		{
 			id: "0BFD3D0FCA556730"
-			x: 7.42d
+			x: -8.44d
 			y: 6.0d
 			icon: {
 				id: "aquamirae:golden_moth_jar"
@@ -1767,6 +1767,553 @@
 					item: {
 						count: 1
 						id: "aquamirae:golden_moth_jar"
+					}
+				}
+			]
+		}
+		{
+			id: "0FABC2FDF958727F"
+			x: 18.68d
+			y: 4.0d
+			shape: "gear"
+			icon: {
+				id: "relics:springy_boot"
+				count: 1
+			}
+			dependencies: [
+				"11213DE6310C1D6A"
+			]
+			tasks: [
+				{
+					id: "2DEFDD0E5E33A960"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "4CD744CC5F14F99F"
+			x: 0.56d
+			y: 6.0d
+			icon: {
+				id: "relics:springy_boot"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "7ADD904CCA81ABAA"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:springy_boot"
+					}
+				}
+			]
+		}
+		{
+			id: "239A82CAA459D514"
+			x: 2.06d
+			y: 6.0d
+			icon: {
+				id: "relics:roller_skate"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "657139E9B6015FD8"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:roller_skate"
+					}
+				}
+			]
+		}
+		{
+			id: "1CA39B98944249C1"
+			x: 5.06d
+			y: 6.0d
+			icon: {
+				id: "relics:cut_glass_boot"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "28F303B2BE08DEA3"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:cut_glass_boot"
+					}
+				}
+			]
+		}
+		{
+			id: "19E93944CC87ACD8"
+			x: 6.56d
+			y: 6.0d
+			icon: {
+				id: "relics:kinetic_belt"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "5FD88A3DC6EDC3F9"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:kinetic_belt"
+					}
+				}
+			]
+		}
+		{
+			id: "1541B8B6F658001F"
+			x: 8.06d
+			y: 6.0d
+			icon: {
+				id: "relics:hunting_belt"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "501D40EA1E4FA45E"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:hunting_belt"
+					}
+				}
+			]
+		}
+		{
+			id: "03F3BDCC5D29E443"
+			x: 9.56d
+			y: 6.0d
+			icon: {
+				id: "relics:reflective_necklace"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "291123EA9C939FBE"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:reflective_necklace"
+					}
+				}
+			]
+		}
+		{
+			id: "2070071D8E31E601"
+			x: 11.06d
+			y: 6.0d
+			icon: {
+				id: "relics:jellyfish_necklace"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "0A44E9D4DDF2E4B8"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:jellyfish_necklace"
+					}
+				}
+			]
+		}
+		{
+			id: "7E23F14335E7211F"
+			x: 12.56d
+			y: 6.0d
+			icon: {
+				id: "relics:leafy_mantle"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "43BC4D0D31F58460"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:leafy_mantle"
+					}
+				}
+			]
+		}
+		{
+			id: "3C0473C2F2D00A88"
+			x: 14.06d
+			y: 6.0d
+			icon: {
+				id: "relics:midnight_mantle"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "184080040A14738B"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:midnight_mantle"
+					}
+				}
+			]
+		}
+		{
+			id: "6CC0FA478E279B3E"
+			x: 15.56d
+			y: 6.0d
+			icon: {
+				id: "relics:glitchy_mantle"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "0393162096D1CBB4"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:glitchy_mantle"
+					}
+				}
+			]
+		}
+		{
+			id: "4D8DD31C9A68423C"
+			x: 17.06d
+			y: 6.0d
+			icon: {
+				id: "relics:ghostly_mantle"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "351671465E171906"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:ghostly_mantle"
+					}
+				}
+			]
+		}
+		{
+			id: "1118A93087BCBF34"
+			x: 18.56d
+			y: 6.0d
+			icon: {
+				id: "relics:chorus_staff"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "53B089538B9AE6D4"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:chorus_staff"
+					}
+				}
+			]
+		}
+		{
+			id: "71E0BECFD32CC77E"
+			x: 20.06d
+			y: 6.0d
+			icon: {
+				id: "relics:piglin_mask"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "057C947A63B5BA21"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:piglin_mask"
+					}
+				}
+			]
+		}
+		{
+			id: "221F97BB14B342DF"
+			x: 21.56d
+			y: 6.0d
+			icon: {
+				id: "relics:ring_of_the_seven_deadly_sins"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "59C4D4CBDFBBE8E8"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:ring_of_the_seven_deadly_sins"
+					}
+				}
+			]
+		}
+		{
+			id: "3BC8811B4B10DA8A"
+			x: 23.06d
+			y: 6.0d
+			icon: {
+				id: "relics:sphere_of_self_sacrifice"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "0583B703836FE5B3"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:sphere_of_self_sacrifice"
+					}
+				}
+			]
+		}
+		{
+			id: "0616F8C89D8CEDD0"
+			x: 24.56d
+			y: 6.0d
+			icon: {
+				id: "relics:rider_flute"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "28646BEC0BB242A7"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:rider_flute"
+					}
+				}
+			]
+		}
+		{
+			id: "52BD7873D1774C18"
+			x: 26.06d
+			y: 6.0d
+			icon: {
+				id: "relics:clot_of_time"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "68761D017F3293F0"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:clot_of_time"
+					}
+				}
+			]
+		}
+		{
+			id: "2CEC49185A6D77C8"
+			x: 27.56d
+			y: 6.0d
+			icon: {
+				id: "relics:chef_hat"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "38A875B9888F64D2"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:chef_hat"
+					}
+				}
+			]
+		}
+		{
+			id: "1698AE08C4D1D69E"
+			x: 30.56d
+			y: 6.0d
+			icon: {
+				id: "relics:experience_disperser"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "0649ABA58504F2DD"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:experience_disperser"
+					}
+				}
+			]
+		}
+		{
+			id: "184BA0CE3421A828"
+			x: 32.06d
+			y: 6.0d
+			icon: {
+				id: "relics:shield_of_retaliation"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "5F04B7D9BF78BFC9"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:shield_of_retaliation"
+					}
+				}
+			]
+		}
+		{
+			id: "45AC18273D2C3164"
+			x: 33.56d
+			y: 6.0d
+			icon: {
+				id: "relics:golden_tooth"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "187A75DD8169793A"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:golden_tooth"
+					}
+				}
+			]
+		}
+		{
+			id: "19059A871436D6CC"
+			x: 36.56d
+			y: 6.0d
+			icon: {
+				id: "relics:pet_bone"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			optional: true
+			tasks: [
+				{
+					id: "573791EB50A62556"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:pet_bone"
+					}
+				}
+			]
+		}
+		{
+			id: "3DC66B602850A21D"
+			x: 38.06d
+			y: 6.0d
+			icon: {
+				id: "relics:relic_experience_bottle"
+				count: 1
+			}
+			dependencies: [
+				"0FABC2FDF958727F"
+			]
+			tasks: [
+				{
+					id: "7509497339DC6000"
+					type: "item"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
 					}
 				}
 			]

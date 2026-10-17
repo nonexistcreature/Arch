@@ -168,19 +168,19 @@ quests:
   - id: tfmg_engine
     deps: [tfmg_intro]
     roles: [engineer]
-    icon: tfmg:engine_controller
-    tasks: [{type: item, item: tfmg:engine_controller}]
+    icon: tfmg:regular_engine
+    tasks: [{type: item, item: tfmg:regular_engine}]
     optional: true
     ru:
       title: "Дизельный двигатель"
       subtitle: "Мощь для огромных машин"
       text: |
-        Цилиндры, коробка передач и контроллер — и мотор крутит целый завод или тяжёлую машину Aeronautics.
+        Двигатель, цилиндры и коробка передач двигателя — и мотор крутит целый завод или тяжёлую машину Aeronautics. Есть большой, радиальный и турбинный варианты.
     en:
       title: "The Diesel Engine"
       subtitle: "Power for huge machines"
       text: |
-        Cylinders, a gearbox and a controller — and the engine drives a whole factory or a heavy Aeronautics vehicle.
+        An engine, cylinders and an engine gearbox — and it drives a whole factory or a heavy Aeronautics vehicle. Large, radial and turbine versions exist.
 
   - id: air_pollution
     deps: [ip_pumpjack]

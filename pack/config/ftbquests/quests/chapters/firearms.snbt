@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "3A4404A355E47B8F"
-			x: -3.18d
+			x: -3.04d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -41,7 +41,7 @@
 		}
 		{
 			id: "68228C2E9955C382"
-			x: -7.64d
+			x: -7.92d
 			y: 2.0d
 			icon: {
 				id: "tacz:target"
@@ -63,7 +63,7 @@
 		}
 		{
 			id: "0C06F2D583FF781C"
-			x: -1.03d
+			x: -2.41d
 			y: 2.0d
 			icon: {
 				id: "tacz:workbench_b"
@@ -81,7 +81,7 @@
 		}
 		{
 			id: "4D1B1A33E90955B0"
-			x: -6.14d
+			x: -6.42d
 			y: 2.0d
 			icon: {
 				id: "tacz:ammo_box"
@@ -103,7 +103,7 @@
 		}
 		{
 			id: "1F01CF3B5A2B8693"
-			x: -2.53d
+			x: -3.91d
 			y: 2.0d
 			icon: {
 				id: "minecraft:crossbow"
@@ -133,7 +133,7 @@
 		}
 		{
 			id: "6DD0F70D9DDC8C7B"
-			x: -1.01d
+			x: -2.69d
 			y: 4.0d
 			icon: {
 				id: "minecraft:iron_chestplate"
@@ -153,7 +153,7 @@
 		}
 		{
 			id: "4DDC25AF5DB52DB2"
-			x: -1.68d
+			x: 0.13d
 			y: 0.0d
 			icon: {
 				id: "immersivepetroleum:molotov"
@@ -176,7 +176,7 @@
 		}
 		{
 			id: "4740D6790661887D"
-			x: 1.32d
+			x: 1.63d
 			y: 0.0d
 			icon: {
 				id: "tfmg:flamethrower"
@@ -198,7 +198,7 @@
 		}
 		{
 			id: "72E937A5DCECDADE"
-			x: 2.86d
+			x: 3.13d
 			y: 0.0d
 			icon: {
 				id: "createbigcannons:cannon_builder"
@@ -220,7 +220,7 @@
 		}
 		{
 			id: "78978271E0B00221"
-			x: 3.47d
+			x: 2.09d
 			y: 2.0d
 			icon: {
 				id: "createbigcannons:steel_autocannon_barrel"
@@ -250,7 +250,7 @@
 		}
 		{
 			id: "0261EF9E1DEBACDE"
-			x: 0.47d
+			x: -0.91d
 			y: 2.0d
 			icon: {
 				id: "smallships:cannon"
@@ -273,7 +273,7 @@
 		}
 		{
 			id: "4334303B4E6E48AE"
-			x: -0.18d
+			x: -1.54d
 			y: 0.0d
 			icon: {
 				id: "immersive_aircraft:rotary_cannon"
@@ -295,7 +295,7 @@
 		}
 		{
 			id: "2BE9CE783253AEBB"
-			x: 1.97d
+			x: 0.59d
 			y: 2.0d
 			icon: {
 				id: "droneworks:drone_core"
@@ -336,7 +336,7 @@
 		}
 		{
 			id: "3569848A2294DF70"
-			x: 0.49d
+			x: -1.19d
 			y: 4.0d
 			icon: {
 				id: "droneworks:drone_hub"
@@ -366,7 +366,7 @@
 		}
 		{
 			id: "533A846AC076473A"
-			x: -0.49d
+			x: -1.38d
 			y: 6.0d
 			shape: "hexagon"
 			icon: {
@@ -396,8 +396,181 @@
 			]
 		}
 		{
+			id: "592FE0CF19A8541E"
+			x: 3.59d
+			y: 2.0d
+			icon: {
+				id: "createimmersivetacz:gunpowder_bucket"
+				count: 1
+			}
+			dependencies: [
+				"3A4404A355E47B8F"
+				"3F74EE2573975D1F"
+			]
+			tasks: [
+				{
+					id: "414442840CCE0BB1"
+					type: "item"
+					item: {
+						count: 1
+						id: "createimmersivetacz:gunpowder_bucket"
+					}
+				}
+			]
+		}
+		{
+			id: "5669672775B13DE6"
+			x: 0.31d
+			y: 4.0d
+			icon: {
+				id: "createimmersivetacz:nitropowder_bucket"
+				count: 1
+			}
+			dependencies: [
+				"592FE0CF19A8541E"
+			]
+			tasks: [
+				{
+					id: "2137DA0D1374D679"
+					type: "item"
+					item: {
+						count: 1
+						id: "createimmersivetacz:nitropowder_bucket"
+					}
+				}
+			]
+		}
+		{
+			id: "0471D362985C929D"
+			x: 1.81d
+			y: 4.0d
+			icon: {
+				id: "createimmersivetacz:primer"
+				count: 1
+			}
+			dependencies: [
+				"592FE0CF19A8541E"
+				"20FAD4E8DA79E2D4"
+			]
+			tasks: [
+				{
+					id: "50D61A15C62557A5"
+					type: "item"
+					item: {
+						count: 1
+						id: "createimmersivetacz:primer"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "14A2D1AF4250BB3C"
+			x: 0.12d
+			y: 6.0d
+			icon: {
+				id: "createimmersivetacz:twelve_gauge_shell"
+				count: 1
+			}
+			dependencies: [
+				"0471D362985C929D"
+			]
+			tasks: [
+				{
+					id: "4DD9DAE0FD25DAEB"
+					type: "item"
+					item: {
+						count: 1
+						id: "createimmersivetacz:twelve_gauge_shell"
+					}
+					count: 8L
+				}
+				{
+					id: "03F293A55EF5FAF8"
+					type: "item"
+					item: {
+						count: 1
+						id: "createimmersivetacz:pneumatic_pistol_casing"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "01ADA56DB737FE9A"
+			x: 2.21d
+			y: 6.0d
+			icon: {
+				id: "createimmersivetacz:gun_barrel"
+				count: 1
+			}
+			dependencies: [
+				"0471D362985C929D"
+				"40070ED0DEB601C3"
+			]
+			tasks: [
+				{
+					id: "2064783641ED1DBD"
+					type: "item"
+					item: {
+						count: 1
+						id: "createimmersivetacz:gun_barrel"
+					}
+				}
+				{
+					id: "61083C8BDB87FFC6"
+					type: "item"
+					item: {
+						count: 1
+						id: "createimmersivetacz:gun_trigger"
+					}
+				}
+				{
+					id: "365BF62D1A2125B7"
+					type: "item"
+					item: {
+						count: 1
+						id: "createimmersivetacz:firing_mechanism"
+					}
+				}
+			]
+		}
+		{
+			id: "290882FD588ADAF8"
+			x: 0.05d
+			y: 8.0d
+			icon: {
+				id: "createimmersivetacz:40mmhe_casing"
+				count: 1
+			}
+			dependencies: [
+				"14A2D1AF4250BB3C"
+				"5669672775B13DE6"
+			]
+			tasks: [
+				{
+					id: "4B6EA1EA27113C3D"
+					type: "item"
+					item: {
+						count: 1
+						id: "createimmersivetacz:40mmhe_casing"
+					}
+					count: 4L
+				}
+				{
+					id: "22F27A3B56525B52"
+					type: "item"
+					item: {
+						count: 1
+						id: "createimmersivetacz:grenade_casing"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
 			id: "07DB0886BCE962E0"
-			x: 4.97d
+			x: 5.09d
 			y: 2.0d
 			icon: {
 				id: "createbigcannons:cannon_mount"
@@ -427,7 +600,7 @@
 		}
 		{
 			id: "5DA5DE716E505CCF"
-			x: 3.49d
+			x: 4.81d
 			y: 4.0d
 			icon: {
 				id: "createbigcannons:cast_iron_cannon_barrel"
@@ -465,7 +638,7 @@
 		}
 		{
 			id: "1626C56E5EDF40A0"
-			x: 3.51d
+			x: 5.21d
 			y: 6.0d
 			icon: {
 				id: "createbigcannons:bronze_cannon_barrel"
@@ -495,7 +668,7 @@
 		}
 		{
 			id: "4883E164FEF8BAAE"
-			x: 3.14d
+			x: 4.92d
 			y: 8.0d
 			icon: {
 				id: "createbigcannons:nethersteel_cannon_barrel"
@@ -517,7 +690,7 @@
 		}
 		{
 			id: "613A59F86E1B84FB"
-			x: 4.99d
+			x: 6.31d
 			y: 4.0d
 			icon: {
 				id: "createbigcannons:cannon_builder"
@@ -555,7 +728,7 @@
 		}
 		{
 			id: "19E1D1932BA1C170"
-			x: 6.49d
+			x: 7.81d
 			y: 4.0d
 			icon: {
 				id: "createbigcannons:big_cartridge"
@@ -593,7 +766,7 @@
 		}
 		{
 			id: "4F46B16412B88D21"
-			x: 6.76d
+			x: 7.08d
 			y: 6.0d
 			icon: {
 				id: "createbigcannons:ap_shot"
@@ -631,7 +804,7 @@
 		}
 		{
 			id: "774A485CD393547C"
-			x: 6.14d
+			x: 6.42d
 			y: 8.0d
 			icon: {
 				id: "createbigcannons:fluid_shell"
@@ -669,7 +842,7 @@
 		}
 		{
 			id: "3618916F1A63AB2B"
-			x: 7.64d
+			x: 7.92d
 			y: 8.0d
 			icon: {
 				id: "createbigcannons:impact_fuze"
@@ -691,7 +864,7 @@
 		}
 		{
 			id: "3040E50396DBCCDC"
-			x: 1.99d
+			x: 3.31d
 			y: 4.0d
 			icon: {
 				id: "createbigcannons:cast_iron_autocannon_barrel"
@@ -721,7 +894,7 @@
 		}
 		{
 			id: "7769A7BA860BB73E"
-			x: 2.01d
+			x: 3.71d
 			y: 6.0d
 			icon: {
 				id: "createbigcannons:autocannon_cartridge"

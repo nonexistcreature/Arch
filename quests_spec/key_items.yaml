@@ -198,6 +198,32 @@ cookingforblockheads: {quested: true, add: [preservation_chamber, heating_unit, 
 buildinggadgets2: {quested: true, add: [gadget_cut_paste, template, redprint]}
 neoorigins: {quested: true, add: [orb_of_class]}
 structurize: {quested: true, add: [shapetool, caliper, sceptersteel]}
+# wave 13 (2026-10-17): Create add-ons and Relics — quested items + important ones added on top
+createoreexcavation: {quested: true, add: [raw_redstone]}
+vintage: {quested: true, add: [sulfur]}
+createsifter: {quested: true, add: [sturdy_mesh]}
+createmetallurgy: {quested: true, add: [graphite, labeling_station]}
+create_netherless: {quested: true}
+create_aquatic_ambitions: {quested: true, add: [spiky_shell]}
+create_mechanical_spawner: {quested: true, add: [reinforced_brass_casing]}
+create_factory_logistics: {quested: true}
+createstockbridge: {quested: true}
+createendertransmission: {quested: true}
+create_hypertube: {quested: true, add: [redstone_detector_tube_attachment]}
+create_ca: {quested: true}
+bits_n_bobs: {quested: true}
+dndesires: {quested: true, add: [stirling_engine, roll_table, freezing_sail]}
+create_things_and_misc: {quested: true, add: [train_stop, vibration_mechanism]}
+createteleporters: {quested: true, add: [adv_tplink]}
+creategoggles: {quested: true, add: [goggle_netherite_helmet]}
+create_sa: {quested: true, add: [blazing_pickaxe]}
+createmoredrillheads: {quested: true}
+create_new_age: {quested: true, add: [advanced_energiser, overcharged_diamond, heat_pump]}
+createdieselgenerators: {quested: true, add: [lighter, engine_piston]}
+createnuclear: {quested: true, add: [biome_irradiation_extractor, thorium_ingot]}
+create_wizardry: {quested: true, add: [casters_scone]}
+createimmersivetacz: {quested: true}
+relics: {quested: true}
 # Not counted on purpose (owner, 2026-10-16: decor and building blocks that do nothing, libraries, tools):
 # framedblocks, mcwfences, mcwwindows, mcwdoors, mcwtrpdoors, mcwfurnitures, createdeco, handcrafted, dndecor (its
 # useful blocks are quested), copycats, domum_ornamentum, decorative_blocks, another_furniture, tflostblocks,

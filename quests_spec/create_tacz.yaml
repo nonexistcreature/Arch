@@ -1,0 +1,41 @@
+# Create: Immersive TaCZ Integration, wave 13 — gun parts and ammo made with Create machines, in the firearms chapter.
+extends: firearms
+lang: [createimmersivetacz]
+out: create_tacz_gen
+quests:
+  - id: ctz_powder
+    deps: [fa_intro, c_mixer]
+    roles: [engineer, warrior]
+    items: [createimmersivetacz:gunpowder_bucket]
+    title: {ru: "Порох на фабрике", en: "Factory Gunpowder"}
+    why: {ru: "Create: Immersive TaCZ позволяет делать оружие и патроны машинами Create. Жидкий порох смешивают в миксере.", en: "Make guns and ammo with Create; liquid gunpowder from a mixer."}
+  - id: ctz_nitro
+    title: {ru: "Нитропорох", en: "Nitropowder"}
+    deps: [ctz_powder]
+    roles: [engineer]
+    items: [createimmersivetacz:nitropowder_bucket]
+    why: {ru: "Нитропорох — более сильный заряд для мощных патронов.", en: "Nitropowder for strong rounds."}
+  - id: ctz_primer
+    title: {ru: "Капсюли", en: "Primers"}
+    deps: [ctz_powder, c_press]
+    roles: [engineer, warrior]
+    items: [createimmersivetacz:primer*8]
+    why: {ru: "Капсюль поджигает заряд. Без него патрон не собрать.", en: "Primers ignite the charge."}
+  - id: ctz_casings
+    deps: [ctz_primer]
+    roles: [engineer, warrior]
+    items: [createimmersivetacz:twelve_gauge_shell*8, createimmersivetacz:pneumatic_pistol_casing*8]
+    title: {ru: "Гильзы", en: "Casings"}
+    why: {ru: "Гильзы штампуют прессом из металла, потом заправляют порохом и капсюлем в последовательной сборке.", en: "Press casings, then fill them in sequenced assembly."}
+  - id: ctz_parts
+    deps: [ctz_primer, c_deployer]
+    roles: [engineer]
+    items: [createimmersivetacz:gun_barrel, createimmersivetacz:gun_trigger, createimmersivetacz:firing_mechanism]
+    title: {ru: "Детали оружия", en: "Gun Parts"}
+    why: {ru: "Ствол, спусковой крючок и ударный механизм делают на фабрике — из них собирают оружие на верстаке оружейника.", en: "Barrels, triggers and firing mechanisms from the factory."}
+  - id: ctz_heavy
+    deps: [ctz_casings, ctz_nitro]
+    roles: [warrior]
+    items: [createimmersivetacz:40mmhe_casing*4, createimmersivetacz:grenade_casing*4]
+    title: {ru: "Тяжёлые боеприпасы", en: "Heavy Rounds"}
+    why: {ru: "Корпуса гранат и 40-мм фугасов — для гранатомётов.", en: "Grenade and 40mm HE casings for launchers."}

@@ -1,0 +1,635 @@
+# Create, wave 13: production, automation, logistics, transport and gear add-ons. Many duplicate other mods on purpose
+# (owner: players choose their own route). Texts: Ponder scenes, the add-ons' tooltips and our «why» lines.
+chapter:
+  id: create_paths
+  order: 7.6
+  icon: createoreexcavation:drilling_machine
+  ru: {title: "Create: пути развития", subtitle: "Добыча, переработка, логистика, транспорт и снаряжение — выбирай свой путь"}
+  en: {title: "Create: Paths", subtitle: "Mining, processing, logistics, transport and gear — pick your own route"}
+lang: [createoreexcavation, vintage, createsifter, createmetallurgy, create_netherless, create_aquatic_ambitions, create_mechanical_spawner, create_factory_logistics, createstockbridge, createendertransmission, create_hypertube, create_ca, bits_n_bobs, dndesires, create_things_and_misc, createteleporters, creategoggles, create_sa, createmoredrillheads]
+autodoc: ["item.{ns}.{path}.tooltip.summary", "block.{ns}.{path}.tooltip.summary", "item.{ns}.{path}.tooltip", "block.{ns}.{path}.tooltip", "item.{ns}.{path}.desc"]
+out: create_paths_gen
+quests:
+  - id: cp_intro
+    deps: [c_alloy]
+    roles: [engineer]
+    shape: gear
+    icon: create:wrench
+    title: {ru: "Пути развития Create", en: "Create Paths"}
+    why: {ru: "В этой главе — дополнения Create. Многие делают одно и то же разными способами: руду можно бурить, просеивать или плавить; энергию — получать от дизеля, магнитов или реактора. Выбирай ветку, которая тебе нравится, — квесты не запирают остальные.", en: "Create add-ons. Many do the same job differently: drill, sift or smelt ore; pick the branch you like."}
+
+  # ===== Ore Excavation: endless ore veins
+  - id: cp_oe_finder
+    deps: [cp_intro, c_precision]
+    roles: [explorer, engineer]
+    items: [createoreexcavation:vein_finder]
+    doc: ponder:createoreexcavation:find_ores
+    why: {ru: "Под землёй в каждом чанке может лежать бесконечная рудная жила. Искатель жил показывает, есть ли она рядом и что в ней.", en: "Every chunk may hide an endless ore vein; the Vein Finder shows it."}
+  - id: cp_oe_sample
+    deps: [cp_oe_finder]
+    roles: [explorer, engineer]
+    items: [createoreexcavation:sample_drill]
+    doc: ponder:createoreexcavation:sample_drill
+    why: {ru: "Пробный бур уточняет, какая именно жила в чанке, прежде чем строить большую установку.", en: "The Sample Drill confirms the vein before you build."}
+  - id: cp_oe_atlas
+    deps: [cp_oe_finder]
+    roles: [explorer]
+    items: [createoreexcavation:vein_atlas]
+    why: {ru: "Атлас жил запоминает найденные жилы, чтобы не искать их заново.", en: "The Vein Atlas remembers found veins."}
+  - id: cp_oe_drill
+    deps: [cp_oe_sample, c_drill]
+    roles: [engineer]
+    items: [createoreexcavation:drilling_machine, createoreexcavation:drill]
+    doc: ponder:createoreexcavation:drilling
+    why: {ru: "Буровая установка с вращением добывает руду из жилы бесконечно — главный поздний источник железа, меди и редких руд.", en: "The drilling machine mines a vein forever: the late-game ore source."}
+  - id: cp_oe_heads
+    deps: [cp_oe_drill]
+    roles: [engineer]
+    items: [createoreexcavation:diamond_drill, createoreexcavation:netherite_drill]
+    title: {ru: "Алмазный и незеритовый буры", en: "Diamond and Netherite Drills"}
+    why: {ru: "Буры получше копают быстрее и берут жилы, которые обычному буру не по зубам.", en: "Better drill heads mine faster and reach tougher veins."}
+  - id: cp_oe_extractor
+    deps: [cp_oe_drill]
+    roles: [engineer]
+    items: [createoreexcavation:extractor]
+    why: {ru: "Экстрактор качает из жил жидкости — например, нефть или воду глубоко под землёй.", en: "The Extractor pumps fluids out of fluid veins."}
+  - id: cp_oe_raw
+    deps: [cp_oe_drill]
+    roles: [engineer, explorer]
+    items: [createoreexcavation:raw_diamond, createoreexcavation:raw_emerald]
+    title: {ru: "Сырые алмазы и изумруды", en: "Raw Diamonds and Emeralds"}
+    why: {ru: "Из редких жил идут сырые камни — их дробят и промывают в Create, как обычную руду.", en: "Rare veins give raw gems: crush and wash them."}
+
+  # ===== More Drill Heads
+  - id: cp_mdh_tiers
+    deps: [c_drill]
+    roles: [engineer]
+    items: [createmoredrillheads:iron_drill, createmoredrillheads:diamond_drill, createmoredrillheads:netherite_drill]
+    title: {ru: "Буры по тирам", en: "Drill Tiers"}
+    why: {ru: "Механический бур бывает каменным, железным, алмазным и незеритовым. Чем лучше материал, тем быстрее копает контрапция.", en: "Mechanical drills in stone, iron, diamond and netherite: faster mining contraptions."}
+  - id: cp_mdh_tipped
+    deps: [cp_mdh_tiers]
+    roles: [engineer]
+    items: [createmoredrillheads:redstone_dusts_tipped_iron_drill, createmoredrillheads:quartz_dusts_tipped_iron_drill]
+    title: {ru: "Напылённые буры", en: "Tipped Drills"}
+    why: {ru: "Напыление из редстоуна, кварца, аметиста или изумруда даёт буру особые свойства — подробности в подсказке предмета.", en: "Dust tipping gives drills special traits; see the tooltip."}
+
+  # ===== Sifting: early ore from gravel
+  - id: cp_sift
+    deps: [cp_intro, c_wheel]
+    roles: [engineer, explorer]
+    items: [createsifter:sifter, createsifter:string_mesh]
+    doc: ponder:createsifter:sifter
+    why: {ru: "Сито на вращении просеивает гравий, песок и пыль — оттуда выпадают кусочки руды. Ранний способ получать металлы без шахты.", en: "The sifter turns gravel, sand and dust into ore pieces: early metal without mining."}
+  - id: cp_sift_meshes
+    deps: [cp_sift]
+    roles: [engineer]
+    items: [createsifter:andesite_mesh, createsifter:zinc_mesh, createsifter:brass_mesh]
+    title: {ru: "Сетки получше", en: "Better Meshes"}
+    why: {ru: "Сетка определяет, что выпадает и как часто. Андезитовая, цинковая, латунная — у каждой свой набор руд.", en: "The mesh decides the drops: each tier has its own ores."}
+  - id: cp_sift_brass
+    deps: [cp_sift_meshes, c_brass]
+    roles: [engineer]
+    items: [createsifter:brass_sifter, createsifter:advanced_brass_mesh]
+    why: {ru: "Латунное сито быстрее и работает с продвинутыми сетками — уже настоящая фабрика руды.", en: "The brass sifter is faster and takes advanced meshes."}
+  - id: cp_sift_pieces
+    deps: [cp_sift]
+    roles: [engineer]
+    items: [createsifter:raw_iron_piece*9, createsifter:dust*4]
+    title: {ru: "Кусочки руды и пыль", en: "Ore Pieces and Dust"}
+    why: {ru: "Девять кусочков складываются в сырую руду. Пыль получают дроблением песка — её тоже можно просеивать.", en: "Nine pieces make raw ore; dust comes from crushed sand."}
+
+  # ===== Vintage: processing machines
+  - id: cp_vin_grinder
+    title: {ru: "Ленточный шлифовальщик", en: "Belt Grinder"}
+    deps: [cp_intro, c_belt]
+    roles: [engineer]
+    items: [vintage:belt_grinder, vintage:grinder_belt]
+    doc: ponder:vintage:belt_grinder_processing
+    why: {ru: "Ленточный шлифовальщик обрабатывает детали и полирует камни. Ленту можно менять наждачкой.", en: "The belt grinder processes parts; swap the belt with sandpaper."}
+  - id: cp_vin_spring
+    title: {ru: "Пружины", en: "Springs"}
+    deps: [cp_vin_grinder, c_press]
+    roles: [engineer]
+    items: [vintage:spring_coiling_machine, vintage:iron_spring]
+    doc: ponder:vintage:spring_coiling_processing
+    why: {ru: "Пружинонавивочная машина делает пружины — главный ресурс Vintage для механизмов посложнее.", en: "The coiling machine makes springs, Vintage's key resource."}
+  - id: cp_vin_compressor
+    title: {ru: "Компрессор", en: "Compressor"}
+    deps: [cp_vin_spring, c_pipes]
+    roles: [engineer]
+    items: [vintage:vacuum_chamber]
+    doc: ponder:vintage:vacuum_chamber
+    why: {ru: "Компрессор (вакуумная камера) сжимает или разрежает — режим переключается ключом. В нём делают сульфаты и особые сплавы.", en: "The compressor has two modes (wrench): sulfates and special alloys."}
+  - id: cp_vin_centrifuge
+    title: {ru: "Центрифуга", en: "Centrifuge"}
+    deps: [cp_vin_compressor]
+    roles: [engineer]
+    items: [vintage:centrifuge]
+    doc: ponder:vintage:centrifuge
+    why: {ru: "Центрифуга разделяет смеси и жидкости на составляющие — например, руду на основной металл и примеси.", en: "The centrifuge splits mixes and fluids into parts."}
+  - id: cp_vin_hammer
+    title: {ru: "Кузнечный молот", en: "Helve Hammer"}
+    deps: [cp_vin_spring]
+    roles: [engineer]
+    items: [vintage:helve_hammer]
+    doc: ponder:vintage:helve_hammer
+    why: {ru: "Кузнечный молот куёт заготовки. У него два режима, а лишние слоты можно закрыть крышкой.", en: "The helve hammer forges parts; two modes, slots can be covered."}
+  - id: cp_vin_lathe
+    title: {ru: "Токарный станок", en: "Lathe"}
+    deps: [cp_vin_spring]
+    roles: [engineer]
+    items: [vintage:lathe, vintage:recipe_card]
+    doc: ponder:vintage:lathe
+    why: {ru: "Токарный станок вытачивает стержни и детали. Карта рецепта позволяет автоматизировать его.", en: "The lathe turns rods and parts; a recipe card automates it."}
+  - id: cp_vin_curving
+    title: {ru: "Гибочный пресс", en: "Curving Press"}
+    deps: [cp_vin_spring]
+    roles: [engineer]
+    items: [vintage:curving_press, vintage:convex_curving_head]
+    doc: ponder:vintage:curving_press
+    why: {ru: "Гибочный пресс с разными насадками сгибает листы в вёдра, конусы и уголки.", en: "The curving press bends sheets with different heads."}
+  - id: cp_vin_vibro
+    title: {ru: "Вибростол", en: "Vibrating Table"}
+    deps: [cp_vin_spring]
+    roles: [engineer]
+    items: [vintage:vibrating_table]
+    doc: ponder:vintage:vibrating_table
+    why: {ru: "Вибростол сортирует сыпучие материалы — отделяет ценное от пустой породы.", en: "The vibrating table sorts loose materials."}
+  - id: cp_vin_laser
+    title: {ru: "Лазер", en: "Laser"}
+    deps: [cp_vin_lathe, ca_wires]
+    roles: [engineer]
+    items: [vintage:laser]
+    doc: ponder:vintage:laser
+    why: {ru: "Лазер работает на электричестве и делает самые точные рецепты Vintage.", en: "The laser runs on electricity for the finest Vintage recipes."}
+  - id: cp_vin_materials
+    deps: [cp_vin_compressor]
+    roles: [engineer, gardener]
+    items: [vintage:copper_sulfate, vintage:vanadium_ingot, vintage:redstone_module]
+    title: {ru: "Сульфат, ванадий и редстоун-модуль", en: "Sulfate, Vanadium and Redstone Module"}
+    why: {ru: "Медный купорос — удобрение вместо костной муки. Ванадий — прочный металл. Редстоун-модуль — деталь для сложных механизмов.", en: "Copper sulfate is fertiliser, vanadium a strong metal, the redstone module a complex part."}
+
+  # ===== Metallurgy: melting and casting
+  - id: cp_met_mortar
+    deps: [cp_intro, c_mixer]
+    roles: [engineer]
+    items: [createmetallurgy:refractory_mortar*8]
+    doc: ponder:createmetallurgy:foundry
+    why: {ru: "Огнеупорный раствор — основа литейной: из него строят то, что выдерживает расплавленный металл.", en: "Refractory mortar builds what holds molten metal."}
+  - id: cp_met_foundry
+    deps: [cp_met_mortar]
+    roles: [engineer]
+    items: [createmetallurgy:foundry_basin, createmetallurgy:foundry_lid, createmetallurgy:foundry_mixer]
+    doc: ponder:createmetallurgy:foundry_basin
+    why: {ru: "Литейный котёл с крышкой и мешалкой плавит руду и пыль в жидкий металл. Выход больше, чем у обычной плавки.", en: "The foundry melts ore and dust into molten metal for higher yield."}
+  - id: cp_met_crucible
+    deps: [cp_met_foundry]
+    roles: [engineer]
+    items: [createmetallurgy:industrial_crucible]
+    doc: ponder:createmetallurgy:industrial_crucible
+    why: {ru: "Промышленный тигель — большая печь для плавки целыми партиями.", en: "The industrial crucible melts in bulk."}
+  - id: cp_met_casting
+    deps: [cp_met_foundry]
+    roles: [engineer]
+    items: [createmetallurgy:faucet, createmetallurgy:casting_table, createmetallurgy:graphite_ingot_mold]
+    doc: ponder:createmetallurgy:casting_blocks
+    why: {ru: "Кран сливает металл на литейный стол, форма задаёт, что получится: слиток, пластина, шестерня.", en: "Faucet + casting table + mold: ingots, plates, gears."}
+  - id: cp_met_basin
+    deps: [cp_met_casting]
+    roles: [engineer]
+    items: [createmetallurgy:casting_basin]
+    why: {ru: "Литейная чаша отливает сразу целые блоки металла.", en: "The casting basin casts whole blocks."}
+  - id: cp_met_tungsten
+    deps: [cp_met_foundry]
+    roles: [engineer, explorer]
+    items: [createmetallurgy:raw_tungsten*4, createmetallurgy:tungsten_ingot]
+    title: {ru: "Вольфрам", en: "Tungsten"}
+    why: {ru: "Вольфрамит добывают под землёй. Вольфрам плавится только в литейной — это материал для самых прочных деталей Metallurgy.", en: "Wolframite ore becomes tungsten, only in the foundry."}
+  - id: cp_met_steel
+    deps: [cp_met_foundry]
+    roles: [engineer]
+    items: [createmetallurgy:steel_ingot*4, createmetallurgy:coke]
+    title: {ru: "Сталь из литейной", en: "Foundry Steel"}
+    why: {ru: "Ещё один путь к стали: железо + кокс в литейной. Можно выбрать его вместо домны TFMG или IE.", en: "Another way to steel: iron + coke in the foundry."}
+  - id: cp_met_grinder
+    deps: [cp_met_foundry]
+    roles: [engineer]
+    items: [createmetallurgy:mechanical_belt_grinder]
+    why: {ru: "Механический шлифовальщик чистит грязную пыль перед плавкой — так выход ещё выше.", en: "The belt grinder cleans dirty dust before melting."}
+
+  # ===== Netherless, Aquatic Ambitions, Ultimate Factory
+  - id: cp_nl_ecto
+    title: {ru: "Эктоплазма", en: "Ectoplasm"}
+    deps: [cp_intro, c_fan]
+    roles: [engineer]
+    items: [create_netherless:ectoplasm]
+    why: {ru: "Create: Netherless даёт ресурсы Незера без похода в Незер. Эктоплазма — первый шаг цепочки, смотри рецепты в JEI.", en: "Netherless gives Nether resources without the Nether; ectoplasm starts it."}
+  - id: cp_nl_blaze
+    deps: [cp_nl_ecto, c_deployer]
+    roles: [engineer]
+    items: [create_netherless:coal_rod]
+    title: {ru: "Огненный стержень без Незера", en: "Blaze Rods Without the Nether"}
+    why: {ru: "Угольный стержень в последовательной сборке становится стержнем ифрита — топливо для горелок Create.", en: "Coal rods become blaze rods in sequenced assembly."}
+  - id: cp_nl_netherite
+    title: {ru: "Незерит без Незера", en: "Netherite Without the Nether"}
+    deps: [cp_nl_blaze]
+    roles: [engineer]
+    items: [create_netherless:netherite_fragment]
+    why: {ru: "Обломки незерита и шаблон улучшения тоже можно сделать на фабрике.", en: "Netherite fragments and the upgrade template from the factory."}
+  - id: cp_aq_conduit
+    deps: [cp_intro, c_fan]
+    roles: [engineer, breeder]
+    items: [create_aquatic_ambitions:mechanical_conduit]
+    doc: ponder:create_aquatic_ambitions:mechanical_conduit_awaken
+    why: {ru: "Механический проводник даёт эффекты источника и обрабатывает предметы — новый вид массовой переработки.", en: "The mechanical conduit gives conduit effects and processes items."}
+  - id: cp_aq_alloy
+    deps: [cp_aq_conduit]
+    roles: [engineer]
+    items: [create_aquatic_ambitions:prismarine_alloy, create_aquatic_ambitions:calcium_rich_powder]
+    title: {ru: "Призмариновый сплав", en: "Prismarine Alloy"}
+    doc: ponder:create_aquatic_ambitions:conduit_processing
+    why: {ru: "Через проводник фабрика делает призмарин, кораллы и раковины наутилуса — без походов к храмам.", en: "Prismarine, coral and nautilus shells from the factory."}
+  - id: cp_uf
+    deps: [cp_intro, c_mixer]
+    roles: [engineer]
+    icon: create:mechanical_mixer
+    title: {ru: "Ультимативная фабрика", en: "Ultimate Factory"}
+    why: {ru: "Create: Ultimate Factory добавляет рецепты Create для вещей, которые обычно добывают руками: ресурсы мобов, редкие блоки. Ищи в JEI машины Create как способ получения.", en: "Ultimate Factory adds Create recipes for things usually gathered by hand; check JEI."}
+
+  # ===== Mechanical Spawner
+  - id: cp_spawner
+    deps: [cp_intro, c_brass, c_pipes]
+    roles: [engineer, warrior]
+    items: [create_mechanical_spawner:mechanical_spawner]
+    doc: ponder:create_mechanical_spawner:spawner
+    why: {ru: "Механический спаунер на вращении создаёт мобов из спаун-жидкости. Жидкость для каждого моба своя — смешивай её из его дропа.", en: "The mechanical spawner makes mobs from spawn fluid made of their drops."}
+  - id: cp_spawner_loot
+    deps: [cp_spawner]
+    roles: [engineer]
+    items: [create_mechanical_spawner:loot_collector]
+    why: {ru: "Сборщик добычи забирает дроп сразу, без убийства моба. Ферма ресурсов без лишних хлопот.", en: "The loot collector takes the drops directly."}
+
+  # ===== Logistics: Factory Logistics, Stock Bridge, Ender Transmission
+  - id: cp_fl_jar
+    deps: [c_logistics]
+    roles: [engineer]
+    items: [create_factory_logistics:jar_packager, create_factory_logistics:copper_jar_package_8x8]
+    why: {ru: "Банки — посылки для жидкостей. Упаковщик банок отправляет воду, лаву и топливо по сети посылок Create, как обычные предметы.", en: "Jars are packages for fluids, sent through Create's package network."}
+  - id: cp_fl_gauge
+    deps: [cp_fl_jar]
+    roles: [engineer]
+    items: [create_factory_logistics:factory_fluid_gauge, create_factory_logistics:network_link]
+    doc: ponder:create_factory_logistics:mixer_upkeep
+    why: {ru: "Датчик жидкостей заказывает жидкость, когда её мало, — миксеры и котлы пополняются сами.", en: "The fluid gauge orders fluid when it runs low."}
+  - id: cp_fl_composite
+    title: {ru: "Составная посылка", en: "Composite Package"}
+    deps: [cp_fl_jar]
+    roles: [engineer]
+    items: [create_factory_logistics:composite_package]
+    why: {ru: "Составная посылка везёт предметы и жидкости вместе — один заказ на всё.", en: "Composite packages carry items and fluids together."}
+  - id: cp_stockbridge
+    title: {ru: "Мост склада и AE2", en: "AE Stock Bridge"}
+    deps: [c_logistics, ae_network]
+    roles: [engineer]
+    items: [createstockbridge:ae_bridge]
+    doc: ponder:createstockbridge:ae_stockbridge
+    why: {ru: "Мост связывает склад Create с сетью AE2: заказы из стоковой системы забирают предметы из МЭ-хранилища.", en: "Links Create's stock system with an AE2 network."}
+  - id: cp_stockbridge_pattern
+    title: {ru: "Шаблон запроса", en: "Request Pattern"}
+    deps: [cp_stockbridge]
+    roles: [engineer]
+    items: [createstockbridge:request_pattern]
+    why: {ru: "Шаблон запроса позволяет заказывать у AE2 автокрафт прямо из системы Create.", en: "Request patterns order AE2 autocrafting from Create."}
+  - id: cp_et_items
+    deps: [c_brass]
+    roles: [engineer]
+    items: [createendertransmission:item_transmitter, createendertransmission:fluid_transmitter]
+    title: {ru: "Эндер-передатчики", en: "Ender Transmitters"}
+    why: {ru: "Передатчики отправляют предметы и жидкости на любое расстояние и даже между мирами — без труб и поездов.", en: "Transmitters move items and fluids across any distance, even dimensions."}
+  - id: cp_et_energy
+    title: {ru: "Энергопередатчик", en: "Energy Transmitter"}
+    deps: [cp_et_items]
+    roles: [engineer]
+    items: [createendertransmission:energy_transmitter]
+    why: {ru: "Энергопередатчик пересылает энергию по воздуху — генератор может стоять далеко от фабрики.", en: "Send energy wirelessly."}
+  - id: cp_et_chunk
+    title: {ru: "Загрузчик чанков", en: "Chunk Loader"}
+    deps: [cp_et_items]
+    roles: [engineer]
+    items: [createendertransmission:chunk_loader]
+    why: {ru: "Загрузчик чанков держит фабрику работающей, пока ты далеко.", en: "Keeps your factory loaded while you are away."}
+
+  # ===== Transport: Hypertubes, Teleporters
+  - id: cp_tube
+    deps: [cp_intro, c_brass]
+    roles: [explorer, engineer]
+    items: [create_hypertube:hypertube*16, create_hypertube:hypertube_entrance]
+    doc: ponder:create_hypertube:entrance
+    why: {ru: "Гипертрубы — пневмопочта для людей. Входишь в трубу и летишь по ней к другому концу базы.", en: "Hypertubes carry players through tubes."}
+  - id: cp_tube_acc
+    deps: [cp_tube]
+    roles: [engineer]
+    items: [create_hypertube:hypertube_accelerator, create_hypertube:hypertube_junction]
+    doc: ponder:create_hypertube:accelerator
+    why: {ru: "Ускоритель разгоняет в трубе, развилка позволяет строить целую сеть с выбором направления.", en: "Accelerators speed you up, junctions build networks."}
+  - id: cp_tube_attach
+    title: {ru: "Воронка и сканер труб", en: "Tube Funnel and Scanner"}
+    deps: [cp_tube_acc]
+    roles: [engineer]
+    items: [create_hypertube:hypertube_funnel, create_hypertube:tube_scanner_attachment]
+    doc: ponder:create_hypertube:attachments
+    why: {ru: "Воронка гонит по трубам предметы, сканер и детектор управляют сетью сигналами редстоуна.", en: "Funnels move items; scanners and detectors control the network."}
+  - id: cp_tp_pearl
+    deps: [cp_intro, c_precision]
+    roles: [explorer, engineer]
+    items: [createteleporters:redstone_pearl, createteleporters:quantum_mechanism]
+    title: {ru: "Квантовый механизм", en: "Quantum Mechanism"}
+    why: {ru: "Редстоун-жемчуг и квантовый механизм — основа телепортеров Create. Квантовую жидкость делают в миксере.", en: "Redstone pearls and the quantum mechanism start Create teleporters."}
+  - id: cp_tp_teleporter
+    title: {ru: "Телепортер", en: "Teleporter"}
+    deps: [cp_tp_pearl]
+    roles: [explorer, engineer]
+    items: [createteleporters:teleporter, createteleporters:tp_link]
+    doc: ponder:createteleporters:entity_teleporter_setup
+    why: {ru: "Телепортер с привязкой переносит игроков между двумя точками. Настрой связь ссылкой — сцена Ponder покажет как.", en: "Linked teleporters move players between two points."}
+  - id: cp_tp_items
+    title: {ru: "Телепорт предметов и блоков", en: "Item and Block Teleporters"}
+    deps: [cp_tp_teleporter]
+    roles: [engineer]
+    items: [createteleporters:item_tp, createteleporters:block_teleporter]
+    doc: ponder:createteleporters:item_teleporter_setup
+    why: {ru: "Телепортеры предметов и блоков — логистика без конвейеров между далёкими базами.", en: "Item and block teleporters: logistics between far bases."}
+  - id: cp_tp_portal
+    title: {ru: "Свой портал", en: "Custom Portal"}
+    deps: [cp_tp_teleporter]
+    roles: [explorer]
+    items: [createteleporters:custom_portal_base]
+    doc: ponder:createteleporters:c_portal_1
+    why: {ru: "Свой портал можно настроить на координаты — строй личные врата между городами.", en: "Custom portals go to set coordinates."}
+  - id: cp_tp_pocket
+    title: {ru: "Карманное измерение", en: "Pocket Dimension"}
+    deps: [cp_tp_teleporter]
+    roles: [explorer, builder]
+    items: [createteleporters:pocket_dimension_remote]
+    why: {ru: "Пульт карманного измерения переносит в личную комнату — отличное место для склада или мастерской.", en: "The pocket dimension remote opens a private room."}
+
+  # ===== Kinetics: Components & Additions, Bits 'n' Bobs, Dreams & Desires
+  - id: cp_ca_gearbox
+    title: {ru: "Латунная коробка передач", en: "Brass Gearbox"}
+    deps: [c_brass]
+    roles: [engineer]
+    items: [create_ca:brass_gearbox, create_ca:vertical_brass_gearbox]
+    doc: ponder:create_ca:brass_gearbox
+    why: {ru: "Латунная коробка передач передаёт вращение во все шесть сторон и настраивается — меньше лишних валов.", en: "The brass gearbox outputs to all six sides."}
+  - id: cp_ca_chain
+    title: {ru: "Латунный цепной привод", en: "Brass Chain Drive"}
+    deps: [cp_ca_gearbox]
+    roles: [engineer]
+    items: [create_ca:brass_chain_drive, create_ca:adjustable_brass_chain_gearshift]
+    doc: ponder:create_ca:chain_drive
+    why: {ru: "Латунный цепной привод и регулируемый переключатель тонко меняют скорость вдоль линии.", en: "Brass chain drives fine-tune speed along a line."}
+  - id: cp_ca_inverted
+    deps: [cp_ca_gearbox]
+    roles: [engineer]
+    items: [create_ca:inverted_clutch, create_ca:inverted_gearshift, create_ca:brass_basin]
+    title: {ru: "Обратные муфты и латунная чаша", en: "Inverted Clutch and Brass Basin"}
+    doc: ponder:create_ca:inverted_clutch
+    why: {ru: "Обратная муфта работает наоборот: вращение идёт, пока нет сигнала. Латунная чаша — улучшенная чаша для миксера и пресса.", en: "Inverted clutches pass rotation without a signal; the brass basin upgrades the basin."}
+  - id: cp_bnb_chain
+    deps: [c_contraption]
+    roles: [engineer]
+    items: [bits_n_bobs:chain_pulley, bits_n_bobs:cogwheel_chain_carriage]
+    doc: ponder:bits_n_bobs:chain_cog_flat
+    why: {ru: "Цепной подъёмник и тележка на цепи двигают контрапции по сложным путям — лифты и подъёмники без верёвок.", en: "Chain pulleys and chain carriages move contraptions along chains."}
+  - id: cp_bnb_nixie
+    deps: [c_logistics]
+    roles: [engineer, builder]
+    items: [bits_n_bobs:nixie_board, bits_n_bobs:large_nixie_tube]
+    doc: ponder:bits_n_bobs:nixie_board
+    why: {ru: "Газоразрядные табло показывают числа и текст со ссылок дисплея — склад, счётчики, табло станций.", en: "Nixie boards show numbers and text from display links."}
+  - id: cp_bnb_strut
+    deps: [cp_intro]
+    roles: [builder, engineer]
+    items: [bits_n_bobs:girder_strut, bits_n_bobs:headlamp, bits_n_bobs:brass_lamp]
+    title: {ru: "Распорки и фонари", en: "Struts and Lamps"}
+    doc: ponder:bits_n_bobs:girder_strut
+    why: {ru: "Балки-распорки соединяют опоры под любым углом, налобный фонарь светит в шахте, латунная лампа — на базе.", en: "Girder struts at any angle, a headlamp and brass lamps."}
+  - id: cp_dd_press
+    deps: [c_press]
+    roles: [engineer]
+    items: [dndesires:hydraulic_press, dndesires:industrial_fan]
+    title: {ru: "Гидравлический пресс и промышленный вентилятор", en: "Hydraulic Press and Industrial Fan"}
+    why: {ru: "Create: Dreams & Desires даёт более мощные версии машин: гидропресс и промышленный вентилятор для больших партий.", en: "Stronger machines for big batches."}
+  - id: cp_dd_sails
+    deps: [cp_dd_press, c_fan]
+    roles: [engineer]
+    items: [dndesires:splashing_sail, dndesires:blasting_sail, dndesires:smoking_sail, dndesires:haunting_sail]
+    title: {ru: "Обрабатывающие паруса", en: "Processing Sails"}
+    why: {ru: "Паруса-обработчики на вращающейся мельнице промывают, плавят, коптят и «призрачат» предметы, как вентилятор, — только на ходу.", en: "Processing sails wash, smelt, smoke and haunt like a fan."}
+  - id: cp_dd_gears
+    deps: [c_brass]
+    roles: [engineer]
+    items: [dndesires:omni_gearbox, dndesires:omni_speed_controller, dndesires:cog_crank]
+    title: {ru: "Омни-коробка и регулятор", en: "Omni Gearbox and Controller"}
+    why: {ru: "Омни-коробка и омни-регулятор скорости упрощают сложные трансмиссии, рукоять-шестерня даёт ручной привод.", en: "Omni gearbox and speed controller simplify transmissions."}
+  - id: cp_dd_mixer
+    deps: [c_mixer]
+    roles: [engineer, cook]
+    items: [dndesires:gold_mixer, dndesires:fluid_hatch, dndesires:smart_hopper]
+    title: {ru: "Золотой миксер и люки", en: "Golden Mixer and Hatches"}
+    why: {ru: "Золотой миксер работает быстрее, жидкостной люк и умная воронка упрощают загрузку.", en: "Faster golden mixer, fluid hatch and smart hopper."}
+  - id: cp_dd_tools
+    deps: [cp_dd_press]
+    roles: [engineer, warrior]
+    items: [dndesires:handheld_drill, dndesires:handheld_saw, dndesires:multimeter]
+    title: {ru: "Ручные инструменты", en: "Handheld Tools"}
+    why: {ru: "Ручная дрель и пила копают и рубят на силе Create, мультиметр показывает напряжения и скорости.", en: "Handheld drill and saw; the multimeter reads values."}
+  - id: cp_dd_defense
+    deps: [cp_dd_tools]
+    roles: [warrior, engineer]
+    items: [dndesires:spud_sentry, dndesires:gatling_breaker]
+    title: {ru: "Турели", en: "Turrets"}
+    why: {ru: "Картофельная турель и гатлинг-разрушитель защищают базу — заряжай их и ставь у входа.", en: "Turrets defend the base."}
+
+  # ===== Create: Misc and Things
+  - id: cp_mt_spout
+    deps: [c_spout]
+    roles: [engineer, gardener]
+    items: [create_things_and_misc:spout_gun, create_things_and_misc:sprinkler]
+    title: {ru: "Брызгомёт и разбрызгиватель", en: "Spout Gun and Sprinkler"}
+    why: {ru: "Брызгомёт стреляет жидкостью (вода тушит, лава поджигает), разбрызгиватель поливает грядки вокруг.", en: "The spout gun shoots fluids; the sprinkler waters crops."}
+  - id: cp_mt_launcher
+    deps: [c_contraption]
+    roles: [explorer, engineer]
+    items: [create_things_and_misc:sticky_launcher, create_things_and_misc:sticky_boots_boots]
+    title: {ru: "Липкая катапульта", en: "Sticky Launcher"}
+    why: {ru: "Липкая катапульта подбрасывает игроков и предметы, липкие ботинки помогают удержаться.", en: "The sticky launcher throws players and items."}
+  - id: cp_mt_cards
+    deps: [c_train_run]
+    roles: [engineer, mayor]
+    items: [create_things_and_misc:card_press, create_things_and_misc:card_reader, create_things_and_misc:ticket]
+    title: {ru: "Карты и билеты", en: "Cards and Tickets"}
+    why: {ru: "Пресс карт, считыватель и билеты — пропуск на станцию или в цех по карте.", en: "Card press, reader and tickets: access control."}
+  - id: cp_mt_misc
+    deps: [cp_intro]
+    roles: [explorer, warrior]
+    items: [create_things_and_misc:portable_whistle, create_things_and_misc:magnifying_glass, create_things_and_misc:brass_knife]
+    title: {ru: "Свисток, лупа и нож", en: "Whistle, Lens and Knife"}
+    why: {ru: "Портативный свисток зовёт поезд, лупа показывает подробности механизмов, латунный нож — быстрый клинок.", en: "Whistle calls a train, the lens shows details, a brass knife."}
+  - id: cp_mt_rune
+    title: {ru: "Руна починки", en: "Mending Rune"}
+    deps: [cp_mt_misc, c_deployer]
+    roles: [mage, engineer]
+    items: [create_things_and_misc:mending_rune]
+    why: {ru: "Руна починки собирается последовательной сборкой и чинит снаряжение — заменитель зачарования «Починка».", en: "The mending rune repairs gear."}
+
+  # ===== Gear: Goggles, Stuff 'N Additions
+  - id: cp_gog_helmet
+    title: {ru: "Шлем с очками", en: "Goggle Helmet"}
+    deps: [c_goggles]
+    roles: [engineer]
+    items: [creategoggles:goggle_iron_helmet]
+    why: {ru: "Шлем с очками инженера: защита и подсказки Create в одном слоте.", en: "A helmet with engineer's goggles built in."}
+  - id: cp_gog_top
+    deps: [cp_gog_helmet]
+    roles: [engineer, warrior]
+    items: [creategoggles:goggle_diamond_helmet, creategoggles:diamond_backtank]
+    title: {ru: "Алмазный шлем-очки и бак", en: "Diamond Goggle Helmet and Backtank"}
+    why: {ru: "Алмазный шлем с очками и бронированный бак с воздухом — инженер готов к бою.", en: "Diamond goggle helmet and armored backtank."}
+  - id: cp_sa_jetpack
+    deps: [ca_jetpack]
+    roles: [explorer, engineer]
+    items: [create_sa:copper_jetpack_chestplate, create_sa:brass_jetpack_chestplate]
+    title: {ru: "Ранцы Stuff 'N Additions", en: "Stuff 'N Additions Jetpacks"}
+    why: {ru: "Ещё одна линия реактивных ранцев: медный, латунный, потом незеритовый. Заправляются на станции наполнения.", en: "Another jetpack line: copper, brass, netherite."}
+  - id: cp_sa_netherite
+    deps: [cp_sa_jetpack]
+    roles: [explorer]
+    items: [create_sa:netherite_jetpack_chestplate]
+    why: {ru: "Незеритовый ранец летает дольше всех и не горит в лаве.", en: "The netherite jetpack flies longest."}
+  - id: cp_sa_exo
+    deps: [cp_intro]
+    roles: [engineer, builder]
+    items: [create_sa:andesite_exoskeleton_chestplate, create_sa:brass_exoskeleton_chestplate]
+    title: {ru: "Экзоскелет", en: "Exoskeleton"}
+    why: {ru: "Экзоскелет ускоряет шаг и помогает переносить тяжести.", en: "The exoskeleton boosts movement."}
+  - id: cp_sa_tanks
+    deps: [cp_sa_jetpack]
+    roles: [engineer]
+    items: [create_sa:small_filling_tank, create_sa:small_fueling_tank]
+    title: {ru: "Баки наполнения", en: "Filling Tanks"}
+    why: {ru: "Баки заправляют ранцы и инструменты Stuff 'N Additions прямо в инвентаре.", en: "Tanks refuel jetpacks and tools."}
+  - id: cp_sa_tools
+    deps: [cp_intro, c_brass]
+    roles: [engineer, explorer]
+    items: [create_sa:portable_drill, create_sa:block_picker, create_sa:copper_magnet]
+    title: {ru: "Ручной бур, сборщик блоков и магнит", en: "Portable Drill, Block Picker and Magnet"}
+    why: {ru: "Портативный бур копает туннели, сборщик переносит блоки, медный магнит притягивает предметы.", en: "Portable drill, block picker and magnet."}
+  - id: cp_sa_grapple
+    deps: [cp_sa_tools]
+    roles: [explorer]
+    items: [create_sa:grapplin_whisk]
+    why: {ru: "Крюк-венчик цепляется за блоки и подтягивает тебя — быстрый подъём на скалы.", en: "A grappling whisk pulls you to blocks."}
+  - id: cp_sa_flame
+    deps: [cp_sa_tanks]
+    roles: [warrior]
+    items: [create_sa:flamethrower]
+    why: {ru: "Огнемёт на топливе выжигает толпы мобов перед собой.", en: "The flamethrower burns crowds."}
+  - id: cp_sa_drone
+    deps: [cp_sa_tools, c_precision]
+    roles: [engineer, explorer]
+    items: [create_sa:brass_drone_item, create_sa:drone_controller]
+    title: {ru: "Латунный дрон", en: "Brass Drone"}
+    why: {ru: "Латунный дрон управляется с пульта — разведка с воздуха.", en: "A remote brass drone scouts from the air."}
+  - id: cp_sa_xp
+    deps: [cp_sa_tools]
+    roles: [mage, engineer]
+    items: [create_sa:heap_of_experience, create_sa:experience_pickaxe]
+    title: {ru: "Инструменты опыта", en: "Experience Tools"}
+    why: {ru: "Сгусток опыта превращается в инструменты, которые со временем растут вместе с тобой.", en: "Experience heaps make tools that grow with you."}
+  - id: cp_tavern
+    deps: [c_mixer, cp_intro]
+    roles: [cook, engineer]
+    icon: create:basin
+    title: {ru: "Механическая таверна", en: "Mechanical Tavern"}
+    why: {ru: "Create: Gears and Tavern учит машины Create работать с таверной Kaleidoscope: смешивать и разливать напитки автоматически. Смотри рецепты в JEI у миксера и дозатора.", en: "Gears and Tavern lets Create machines brew and pour Kaleidoscope tavern drinks."}
+
+  - id: cp_oe_redstone
+    deps: [cp_oe_raw]
+    roles: [engineer]
+    items: [createoreexcavation:raw_redstone]
+    title: {ru: "Сырой редстоун", en: "Raw Redstone"}
+    why: {ru: "Редстоуновые жилы дают сырой редстоун — дроби его, чтобы получить пыль пачками.", en: "Redstone veins give raw redstone to crush."}
+  - id: cp_vin_sulfur
+    deps: [cp_vin_centrifuge]
+    roles: [engineer]
+    items: [vintage:sulfur*4]
+    title: {ru: "Сера", en: "Sulfur"}
+    why: {ru: "Сера — побочный продукт переработки. Нужна для купороса, пороха и химии других модов.", en: "Sulfur: for sulfate, gunpowder and chemistry."}
+  - id: cp_sift_sturdy
+    deps: [cp_sift_meshes]
+    roles: [engineer]
+    items: [createsifter:sturdy_mesh]
+    title: {ru: "Прочная сетка", en: "Sturdy Mesh"}
+    why: {ru: "Прочная сетка из закалённого листа Create даёт редкие руды и не изнашивается так быстро.", en: "A sturdy mesh gives rarer ores."}
+  - id: cp_met_graphite
+    deps: [cp_met_casting]
+    roles: [engineer]
+    items: [createmetallurgy:graphite*4]
+    title: {ru: "Графит для форм", en: "Graphite for Molds"}
+    why: {ru: "Из графита вырезают литейные формы: слиток, пластина, стержень, шестерня, самородок.", en: "Graphite becomes casting molds."}
+  - id: cp_met_label
+    deps: [cp_met_casting]
+    roles: [engineer]
+    items: [createmetallurgy:labeling_station]
+    title: {ru: "Станция маркировки", en: "Labeling Station"}
+    why: {ru: "Станция маркировки помечает формы и ковши, чтобы фабрика лила нужный металл в нужное место.", en: "Labels molds and ladles for automation."}
+  - id: cp_aq_shard
+    deps: [cp_aq_alloy]
+    roles: [explorer, engineer]
+    items: [create_aquatic_ambitions:spiky_shell, create_aquatic_ambitions:suspicious_rock]
+    title: {ru: "Колючая раковина и подозрительный камень", en: "Spiky Shell and Suspicious Rock"}
+    why: {ru: "Колючая раковина и подозрительный камень — сырьё морской переработки: из них через проводник получают раковины наутилуса и кораллы без охоты на утопленников.", en: "Raw materials for nautilus shells and coral via the conduit."}
+  - id: cp_spawner_casing
+    deps: [cp_spawner]
+    roles: [engineer]
+    items: [create_mechanical_spawner:reinforced_brass_casing*4]
+    title: {ru: "Усиленный латунный корпус", en: "Reinforced Brass Casing"}
+    why: {ru: "Усиленный корпус — материал для механического спаунера и его камеры.", en: "Casing for the spawner and its chamber."}
+  - id: cp_tube_detector
+    deps: [cp_tube_attach]
+    roles: [engineer]
+    items: [create_hypertube:redstone_detector_tube_attachment]
+    title: {ru: "Детектор в трубе", en: "Tube Detector"}
+    why: {ru: "Детектор подаёт сигнал редстоуна, когда по трубе кто-то пролетает: двери, свет, счётчики.", en: "Signals when something passes."}
+  - id: cp_dd_engine
+    deps: [cp_dd_gears]
+    roles: [engineer]
+    items: [dndesires:stirling_engine, dndesires:freezing_sail, dndesires:roll_table]
+    title: {ru: "Стирлинг, замораживающий парус и стол-каток", en: "Stirling, Freezing Sail and Roll Table"}
+    why: {ru: "Двигатель Стирлинга D&D крутит от тепла, замораживающий парус охлаждает предметы на ходу, стол-каток раскатывает листы.", en: "Heat engine, freezing sail and a rolling table."}
+  - id: cp_mt_train
+    deps: [cp_mt_cards]
+    roles: [engineer]
+    items: [create_things_and_misc:train_stop, create_things_and_misc:vibration_mechanism]
+    title: {ru: "Упор и вибромеханизм", en: "Train Stop and Vibration Mechanism"}
+    why: {ru: "Упор останавливает поезд в конце пути, вибромеханизм — деталь для приборов Misc and Things.", en: "A buffer stop and a crafting mechanism."}
+  - id: cp_tp_adv
+    deps: [cp_tp_items]
+    roles: [engineer]
+    items: [createteleporters:adv_tplink]
+    title: {ru: "Продвинутая привязка", en: "Advanced Link"}
+    why: {ru: "Продвинутая привязка хранит несколько точек и работает дальше обычной.", en: "Stores more points and reaches farther."}
+  - id: cp_gog_netherite
+    deps: [cp_gog_top]
+    roles: [engineer, warrior]
+    items: [creategoggles:goggle_netherite_helmet]
+    title: {ru: "Незеритовый шлем с очками", en: "Netherite Goggle Helmet"}
+    why: {ru: "Лучшая защита головы с подсказками Create.", en: "Best helmet with goggles."}
+  - id: cp_sa_blazing
+    deps: [cp_sa_tools, c_steam]
+    roles: [engineer, warrior]
+    items: [create_sa:blazing_pickaxe]
+    title: {ru: "Пылающие инструменты", en: "Blazing Tools"}
+    why: {ru: "Пылающие инструменты сразу переплавляют добытое и поджигают врагов.", en: "Blazing tools auto-smelt and ignite."}

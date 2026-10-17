@@ -3310,6 +3310,621 @@
 	quest.06A3EB4FBC11E637.quest_desc: [
 		"&lWhy:&r Warns when a radar locks on you; binoculars for scouting."
 	]
+	chapter.4ACF9F0C69F1473E.title: "Create: Paths"
+	chapter.4ACF9F0C69F1473E.chapter_subtitle: [
+		"Mining, processing, logistics, transport and gear — pick your own route"
+	]
+	quest.030556566DA4BA75.title: "Create Paths"
+	quest.030556566DA4BA75.quest_desc: [
+		"&lWhy:&r Create add-ons. Many do the same job differently: drill, sift or smelt ore; pick the branch you like."
+	]
+	quest.55D6A9B015945ED5.title: "Ore Vein Finder"
+	quest.55D6A9B015945ED5.quest_desc: [
+		"&lWhy:&r Every chunk may hide an endless ore vein; the Vein Finder shows it."
+		"Use an Ore Vein Finder to locate ores. Found: Nothing. Found: Copper Ore."
+	]
+	quest.230FCD3495DBC6F8.title: "Sample Drill"
+	quest.230FCD3495DBC6F8.quest_desc: [
+		"&lWhy:&r The Sample Drill confirms the vein before you build."
+		"Found: Copper Ore. Place the Sample Drill. Place a Coppper Backtank on top. Activate the drill. Wait for the drilling. Then click it again with the atlas, once it's finished. Your Ore Vein Atlas now has all of the vein details, allowing you to filter with this vein. Or click an already running drilling machine, to collect a sample."
+	]
+	quest.556FDAC13DD3878C.title: "Ore Vein Atlas"
+	quest.556FDAC13DD3878C.quest_desc: [
+		"&lWhy:&r The Vein Atlas remembers found veins."
+	]
+	quest.096B049860B7A132.title: "Drilling Machine"
+	quest.096B049860B7A132.quest_desc: [
+		"&lWhy:&r The drilling machine mines a vein forever: the late-game ore source."
+		"Place a Drilling Machine or a Fluid Extractor to harvest the resources. Put in a Drill. The machines require Rotational Force to operate. Extract the results. Some ore veins require drilling fluid."
+	]
+	quest.398631CD1FC4AF7E.title: "Diamond and Netherite Drills"
+	quest.398631CD1FC4AF7E.quest_desc: [
+		"&lWhy:&r Better drill heads mine faster and reach tougher veins."
+	]
+	quest.5FA8CFF694A5E9DC.title: "Fluid Well Extractor"
+	quest.5FA8CFF694A5E9DC.quest_desc: [
+		"&lWhy:&r The Extractor pumps fluids out of fluid veins."
+	]
+	quest.7A71C1D27C03C13F.title: "Raw Diamonds and Emeralds"
+	quest.7A71C1D27C03C13F.quest_desc: [
+		"&lWhy:&r Rare veins give raw gems: crush and wash them."
+	]
+	quest.582AF65250398B1B.title: "Drill Tiers"
+	quest.582AF65250398B1B.quest_desc: [
+		"&lWhy:&r Mechanical drills in stone, iron, diamond and netherite: faster mining contraptions."
+	]
+	quest.3E7FD2C9B82116C5.title: "Tipped Drills"
+	quest.3E7FD2C9B82116C5.quest_desc: [
+		"&lWhy:&r Dust tipping gives drills special traits; see the tooltip."
+	]
+	quest.6EA80EAFECA301C3.title: "Sifter"
+	quest.6EA80EAFECA301C3.quest_desc: [
+		"&lWhy:&r The sifter turns gravel, sand and dust into ore pieces: early metal without mining."
+		"Sifter process items by sifting them. They can be powered from the side using cogwheels. Throw or Insert items at the top. After some time, the result can be obtained via Right-click. The outputs can also be extracted by automation."
+	]
+	quest.53EBA1AD51954137.title: "Better Meshes"
+	quest.53EBA1AD51954137.quest_desc: [
+		"&lWhy:&r The mesh decides the drops: each tier has its own ores."
+	]
+	quest.03423C62E626C02E.title: "Brass Sifter"
+	quest.03423C62E626C02E.quest_desc: [
+		"&lWhy:&r The brass sifter is faster and takes advanced meshes."
+	]
+	quest.62F23C011958E5ED.title: "Ore Pieces and Dust"
+	quest.62F23C011958E5ED.quest_desc: [
+		"&lWhy:&r Nine pieces make raw ore; dust comes from crushed sand."
+	]
+	quest.5ED5F173643BF950.title: "Belt Grinder"
+	quest.5ED5F173643BF950.quest_desc: [
+		"&lWhy:&r The belt grinder processes parts; swap the belt with sandpaper."
+		"Belt Grinders can process a variety of items. The processed item always moves against the rotational input to the grinder. Some recipes requires a specific RPM. There are three speeds: Low (16 RPM or less), Medium (between 16 and 64 RPM) and High (over 64 RPM)."
+	]
+	quest.737E53A43EFEBE27.title: "Springs"
+	quest.737E53A43EFEBE27.quest_desc: [
+		"&lWhy:&r The coiling machine makes springs, Vintage's key resource."
+		"Spring Coiling Machines can process a variety of items. The processed item is always ejected out the front of the machine."
+	]
+	quest.71E4A79B89CB1A06.title: "Compressor"
+	quest.71E4A79B89CB1A06.quest_desc: [
+		"&lWhy:&r The compressor has two modes (wrench): sulfates and special alloys."
+		"The Compressor has two operating modes that can be changed by right clicking it with a Wrench. Some recipes may require the heat of a Blaze Burner."
+	]
+	quest.5946943E71B710EE.title: "Centrifuge"
+	quest.5946943E71B710EE.quest_desc: [
+		"&lWhy:&r The centrifuge splits mixes and fluids into parts."
+		"The Centrifuge can process a variety of items and fluids. Before use you must install 4 Basins on the Centrifuge. It can be powered from the top or bottom using shafts. Items and Fluids can only be inserted when the Centrifuge is stopped. The result can be extracted via right-click or automatic extraction... ...but only when the Centrifuge is stopped."
+	]
+	quest.56AE9C21E3CC874F.title: "Helve Hammer"
+	quest.56AE9C21E3CC874F.quest_desc: [
+		"&lWhy:&r The helve hammer forges parts; two modes, slots can be covered."
+		"The Helve Hammer has two operating modes. The mode depends on block under Hammer. The two blocks are: Anvil and Smithing Table. With a Smithing Table, the Helve Hammer will process any Smithing recipes. With an Anvil, the Helve Hammer will process special Hammering recipes. It can be powered from the side using shafts. Throw or Insert items on top of the Anvil or Smithing Table. After a set amount of hammer blows, the result can be obtained by right-clicking."
+	]
+	quest.25060D90CDE19F37.title: "Lathe"
+	quest.25060D90CDE19F37.quest_desc: [
+		"&lWhy:&r The lathe turns rods and parts; a recipe card automates it."
+		"Lathe can process a variety of items. They must be powered from the side... ...and front using shafts. Ingredients can be inserted to front block via Right-click. To select a recipe, click on the back block. You need to do this every time. The result can be obtained via Right-click. The items can also be extracted/inserted by automation."
+	]
+	quest.495BAD69D9F124C6.title: "Curving Press"
+	quest.495BAD69D9F124C6.quest_desc: [
+		"&lWhy:&r The curving press bends sheets with different heads."
+		"Before work you must install any Curving Head to Curving Press. Different heads provides different recipes. To remove head, you must right-click with a Wrench. The Curving Press can process items provided beneath it. The Input items can be dropped or placed on a Depot under the Press. When items are provided by a belt... The Press will hold and process them automatically."
+	]
+	quest.28C9B129F5AA587A.title: "Vibrating Table"
+	quest.28C9B129F5AA587A.quest_desc: [
+		"&lWhy:&r The vibrating table sorts loose materials."
+		"The Vibrating Table can process a variety of items. It can also unpack storage blocks. Or vibrate leaves to get matched drops, drop rates being the same as using Hoe with Fortune III. It can be powered from the side using shafts. Throw or Insert items on the top. After some time, the result can be obtained by right-clicking. The outputs can also be extracted via automation."
+	]
+	quest.08ADA85407101BB4.title: "Laser"
+	quest.08ADA85407101BB4.quest_desc: [
+		"&lWhy:&r The laser runs on electricity for the finest Vintage recipes."
+		"The Laser consumes energy during works (only if another mod that provides energy is installed). Any sources of Forge Energy are supported. The Laser can process items provided beneath it. The Input items can be dropped or placed on a Depot under the Laser. When items are provided by a belt... The Laser will hold and process them automatically."
+	]
+	quest.3FA7C3AC854C304C.title: "Sulfate, Vanadium and Redstone Module"
+	quest.3FA7C3AC854C304C.quest_desc: [
+		"&lWhy:&r Copper sulfate is fertiliser, vanadium a strong metal, the redstone module a complex part."
+		"Can be used as Bone Meal"
+	]
+	quest.0A2B49D0A9C3DD47.title: "Refractory Mortar"
+	quest.0A2B49D0A9C3DD47.quest_desc: [
+		"&lWhy:&r Refractory mortar builds what holds molten metal."
+		"Industrial Crucibles can also be used as bigger Foundry Basin. You can add or remove attachments like Gauges any time and anywhere using a Wrench. To melt metals, you will need to heat up the Foundry... ...Crucibles must have a base size of 5x5 blocks to reach the maximum temperature. However, each base block without a burner below it will cool down the Crucible. Higher heat means faster melting! Unlike Foundry Basins, Crucibles are large enough to melt down bigger items and several at once."
+	]
+	quest.0AAFCF14364D49A6.title: "Foundry Basin"
+	quest.0AAFCF14364D49A6.quest_desc: [
+		"&lWhy:&r The foundry melts ore and dust into molten metal for higher yield."
+		"The Foundry Basin is comparable to a classic Basin... ...However, it can only hold 9 Items of the same type. Put a Foundry Lid on top, and your Foundry is now ready! Like the Basin, a Faucet can extract recipes Items... ...and Fluids with a Item Drain. Make sure to close the Foundry Top else the recipe won't start."
+	]
+	quest.6A0D6E3802B472B3.title: "Industrial Crucible"
+	quest.6A0D6E3802B472B3.quest_desc: [
+		"&lWhy:&r The industrial crucible melts in bulk."
+		"Industrial Crucibles can be used to store molten metals. You can add windows with a Wrench! Crucibles can also store multiple fluids at the same time!"
+	]
+	quest.37BAF9B15FBC3629.title: "Faucet"
+	quest.37BAF9B15FBC3629.quest_desc: [
+		"&lWhy:&r Faucet + casting table + mold: ingots, plates, gears."
+		"Casting Blocks can be used to cool down Molten Metals into a specific shape. The Casting Basin is used to cast up to a entire block. While the Casting Table is used to cast Items using Graphite Molds. Molds can be locked in place using the lock mode selection slot. If you are using Funnels while keeping the mold unlocked... ...you might need a Brass Funnel to not extract Molds."
+	]
+	quest.2774CB0E6A39FF4A.title: "Casting Basin"
+	quest.2774CB0E6A39FF4A.quest_desc: [
+		"&lWhy:&r The casting basin casts whole blocks."
+	]
+	quest.44FDBBF2DA92B6BD.title: "Tungsten"
+	quest.44FDBBF2DA92B6BD.quest_desc: [
+		"&lWhy:&r Wolframite ore becomes tungsten, only in the foundry."
+	]
+	quest.3717D4EEE3BDD656.title: "Foundry Steel"
+	quest.3717D4EEE3BDD656.quest_desc: [
+		"&lWhy:&r Another way to steel: iron + coke in the foundry."
+	]
+	quest.7AE82523856A18D1.title: "Mechanical Belt Grinder"
+	quest.7AE82523856A18D1.quest_desc: [
+		"&lWhy:&r The belt grinder cleans dirty dust before melting."
+	]
+	quest.4ADF1FDFF4C5D5D3.title: "Ectoplasm"
+	quest.4ADF1FDFF4C5D5D3.quest_desc: [
+		"&lWhy:&r Netherless gives Nether resources without the Nether; ectoplasm starts it."
+	]
+	quest.3E9E53C1446BB8D3.title: "Blaze Rods Without the Nether"
+	quest.3E9E53C1446BB8D3.quest_desc: [
+		"&lWhy:&r Coal rods become blaze rods in sequenced assembly."
+	]
+	quest.358BE9B90CF29003.title: "Netherite Without the Nether"
+	quest.358BE9B90CF29003.quest_desc: [
+		"&lWhy:&r Netherite fragments and the upgrade template from the factory."
+	]
+	quest.1A9D91891FFD5ABB.title: "Conduit Cage"
+	quest.1A9D91891FFD5ABB.quest_desc: [
+		"&lWhy:&r The mechanical conduit gives conduit effects and processes items."
+		"Conduit Cages can be used as more compact version of the conduit's prismarine ring. Fluids can be pumped into the conduit cage through its bottom face. Pumping a fluid into a conduit cage will awaken it."
+	]
+	quest.177F931047E18C4A.title: "Prismarine Alloy"
+	quest.177F931047E18C4A.quest_desc: [
+		"&lWhy:&r Prismarine, coral and nautilus shells from the factory."
+		"Awakened Conduits can be used for fan processing. Air Passing through an Conduit's waters will create a Channeling Setup. Extra layers of water will dillute the Conduit's Power, thus creating a Washing Setup instead. Items caught in the Channeling stream will be processed."
+	]
+	quest.5B1E32A73CB17400.title: "Ultimate Factory"
+	quest.5B1E32A73CB17400.quest_desc: [
+		"&lWhy:&r Ultimate Factory adds Create recipes for things usually gathered by hand; check JEI."
+	]
+	quest.7CFD8264AD6D8FB5.title: "Mechanical Spawner"
+	quest.7CFD8264AD6D8FB5.quest_desc: [
+		"&lWhy:&r The mechanical spawner makes mobs from spawn fluid made of their drops."
+		"The Spawner uses rotational force and special fluids to spawn entities. Its powered from the bottom. Fluid input can go in from any horizontal side. Spawn point can be configured. A loot collector can be placed in the spawn point to automatically collect loot without spawning the entity."
+	]
+	quest.6EF70F3BEAFFAA9F.title: "Loot Collector"
+	quest.6EF70F3BEAFFAA9F.quest_desc: [
+		"&lWhy:&r The loot collector takes the drops directly."
+	]
+	quest.7179FEB153585C30.title: "Bottler"
+	quest.7179FEB153585C30.quest_desc: [
+		"&lWhy:&r Jars are packages for fluids, sent through Create's package network."
+	]
+	quest.4C2E543F56AFF403.title: "Factory Fluid Gauge"
+	quest.4C2E543F56AFF403.quest_desc: [
+		"&lWhy:&r The fluid gauge orders fluid when it runs low."
+		"Network Links could be attached to a inventory reading device like Threshold Switch. So that blaze burner would be fed only when necessary. When order has arrived, the switch will read new state and react."
+	]
+	quest.3979AC3E9E8920FF.title: "Composite Package"
+	quest.3979AC3E9E8920FF.quest_desc: [
+		"&lWhy:&r Composite packages carry items and fluids together."
+	]
+	quest.5D146AD8FB437D47.title: "AE Stock Bridge"
+	quest.5D146AD8FB437D47.quest_desc: [
+		"&lWhy:&r Links Create's stock system with an AE2 network."
+		"AE Stock Bridge links the Create Stock system with AE. Right-Click to bind to the stock network before placing. Set the AE Stock Bridge address to match the Frogport address. AE. AE. AE can request items by 'crafting'. Create can request stored items from AE."
+	]
+	quest.729E5F91AE5352A6.title: "Request Pattern"
+	quest.729E5F91AE5352A6.quest_desc: [
+		"&lWhy:&r Request patterns order AE2 autocrafting from Create."
+	]
+	quest.068ADB7FA9426BA9.title: "Ender Transmitters"
+	quest.068ADB7FA9426BA9.quest_desc: [
+		"&lWhy:&r Transmitters move items and fluids across any distance, even dimensions."
+	]
+	quest.5EA225E3003F4022.title: "Energy Transmitter"
+	quest.5EA225E3003F4022.quest_desc: [
+		"&lWhy:&r Send energy wirelessly."
+	]
+	quest.3AC50D538370171F.title: "Chunk Loader"
+	quest.3AC50D538370171F.quest_desc: [
+		"&lWhy:&r Keeps your factory loaded while you are away."
+	]
+	quest.20CFC17618D6F8DD.title: "Hypertube Block"
+	quest.20CFC17618D6F8DD.quest_desc: [
+		"&lWhy:&r Hypertubes carry players through tubes."
+		"Hypertube Entrances connect to the Hypertube network, allowing high-speed travel. To be able to enter the Hypertube, you need to power with at least 16 RPM. The faster it spins, the faster you can travel. You can change the entrance mode by Right Clicking it with a Wrench."
+	]
+	quest.18751315AA5040E2.title: "Hypertube Accelerator Block"
+	quest.18751315AA5040E2.quest_desc: [
+		"&lWhy:&r Accelerators speed you up, junctions build networks."
+		"Hypertube Accelerators increase the speed of entities traveling the Hypertube. You can change to BRAKE mode by Right Clicking the Accelerator."
+	]
+	quest.01899E6BE6EB2EFA.title: "Tube Funnel and Scanner"
+	quest.01899E6BE6EB2EFA.quest_desc: [
+		"&lWhy:&r Funnels move items; scanners and detectors control the network."
+		"The Scanner Attachment allows you to detect entities traveling the Hypertube. (8 power for babies and 15 for adults). You can also place attachments in accelerators, in any side at the same time. The Redstone Detector Attachment allows you to change the Accelerator/Entrance mode with a Redstone signal."
+	]
+	quest.0ED642B04111050E.title: "Quantum Mechanism"
+	quest.0ED642B04111050E.quest_desc: [
+		"&lWhy:&r Redstone pearls and the quantum mechanism start Create teleporters."
+	]
+	quest.1247EC1A063ADD7D.title: "Teleporter"
+	quest.1247EC1A063ADD7D.quest_desc: [
+		"&lWhy:&r Linked teleporters move players between two points."
+		"Entity Teleporters send players and mobs to a saved location. The full, slab and quarter-height versions use the same setup. Aim at a loaded block at your destination and right-click with a regular TP Link to save the arrival position. Leave room above it for safe arrival. Open the teleporter and insert the saved TP Link into its slot. No receiving teleporter is required. Keep the destination in the same dimension and within the configured Entity Teleporter range. Check the distance status in the teleporter screen."
+	]
+	quest.2C15D6DD9621C247.title: "Item and Block Teleporters"
+	quest.2C15D6DD9621C247.quest_desc: [
+		"&lWhy:&r Item and block teleporters: logistics between far bases."
+		"Aim at a loaded destination block and right-click with a TP Link to save its position. Keep the destination in the same dimension and within the configured Item Teleporter range. Open the Item Teleporter. Put the saved TP Link in the link slot and the items to send in the other slot. Take a stack from storage and put it in the item slot. Items arrive above the saved block: a hopper can collect them into a chest."
+	]
+	quest.60147F3C1F3253D7.title: "Custom Portal"
+	quest.60147F3C1F3253D7.quest_desc: [
+		"&lWhy:&r Custom portals go to set coordinates."
+		"The Custom Portal Controller is the heart of your teleportation system."
+		"Place it in the bottom row, leaving one free block on each side."
+		"Placing it automatically adds the two side blocks. Set both controllers to Portal to Portal mode."
+		"Right-click each controller with the same Advanced TP Link"
+		"to pair them."
+	]
+	quest.0B2554E3F2870276.title: "Pocket Dimension"
+	quest.0B2554E3F2870276.quest_desc: [
+		"&lWhy:&r The pocket dimension remote opens a private room."
+	]
+	quest.4069010A49BC0489.title: "Brass Gearbox"
+	quest.4069010A49BC0489.quest_desc: [
+		"&lWhy:&r The brass gearbox outputs to all six sides."
+		"The brass gearbox behaves exactly like an andesite gearbox by default. However, it does have some additional functionality available: side blocking! By right clicking the side of a brass gearbox with brass casing... ...that side will be blocked. Blocking one of the sides of a brass gearbox will stop rotation from transferring to... ...and from a brass gearbox. In order to unblock the side of a brass gearbox, just click the side you no longer want to be blocked with brass casing again."
+	]
+	quest.672DA14580EF097F.title: "Brass Chain Drive"
+	quest.672DA14580EF097F.quest_desc: [
+		"&lWhy:&r Brass chain drives fine-tune speed along a line."
+		"Chain Drives relay rotation to each other in a row. All shafts connected like this will rotate in the same direction. Any part of the row can be rotated by 90 degrees."
+	]
+	quest.0B0A81D9A71B7588.title: "Inverted Clutch and Brass Basin"
+	quest.0B0A81D9A71B7588.quest_desc: [
+		"&lWhy:&r Inverted clutches pass rotation without a signal; the brass basin upgrades the basin."
+		"While the clutch is useful, it doesn't fit all use cases. Often, you might wish for a clutch that blocks rotation when not powered, and acts like a shaft when it is powered, since it works better for your application. Or in other words, you wish for an inverted form of a clutch. You could use a redstone torch to do just that... However, this can easily be considered bulky depending on what you are making. This is where the inverted clutch comes into play. By right clicking a clutch with a redstone torch... ...it will be converted into an inverted clutch."
+	]
+	quest.59F09F1365506F32.title: "Chain Pulley"
+	quest.59F09F1365506F32.quest_desc: [
+		"&lWhy:&r Chain pulleys and chain carriages move contraptions along chains."
+		"Chains can be used to connect 2 or more cogwheels. Gear ratios will be preserved across the chain. 2x RPM. 1x RPM."
+	]
+	quest.5FB2359A857E8B0C.title: "Nixie Board"
+	quest.5FB2359A857E8B0C.quest_desc: [
+		"&lWhy:&r Nixie boards show numbers and text from display links."
+		"This is a Nixie Board. It can be used to display text. The Nixie Board extends when connected to other neighbours. Boards placed above or below will connect to form larger displays. Clipboards, Display Links, or Name Tags can be used to change the displayed text. A Wrench can be used to cycle the display mode. Different display modes support more characters and multiple lines. Dye can be used to change the color of all connected boards at once."
+	]
+	quest.0379739FCF880417.title: "Struts and Lamps"
+	quest.0379739FCF880417.quest_desc: [
+		"&lWhy:&r Girder struts at any angle, a headlamp and brass lamps."
+		"Struts can be used to span a gap between two blocks. Struts can be placed at different angles. However, Struts can only move in 2 axes at the same time, meaning they cannot bend."
+	]
+	quest.558B3D88386EBD1A.title: "Hydraulic Press and Industrial Fan"
+	quest.558B3D88386EBD1A.quest_desc: [
+		"&lWhy:&r Stronger machines for big batches."
+	]
+	quest.45D9851097C76BCF.title: "Processing Sails"
+	quest.45D9851097C76BCF.quest_desc: [
+		"&lWhy:&r Processing sails wash, smelt, smoke and haunt like a fan."
+	]
+	quest.7ED3D14F5FC417C5.title: "Omni Gearbox and Controller"
+	quest.7ED3D14F5FC417C5.quest_desc: [
+		"&lWhy:&r Omni gearbox and speed controller simplify transmissions."
+	]
+	quest.3A810F7EA450AF48.title: "Golden Mixer and Hatches"
+	quest.3A810F7EA450AF48.quest_desc: [
+		"&lWhy:&r Faster golden mixer, fluid hatch and smart hopper."
+	]
+	quest.517F5876DC9E090B.title: "Handheld Tools"
+	quest.517F5876DC9E090B.quest_desc: [
+		"&lWhy:&r Handheld drill and saw; the multimeter reads values."
+	]
+	quest.6A544021D073D3E5.title: "Turrets"
+	quest.6A544021D073D3E5.quest_desc: [
+		"&lWhy:&r Turrets defend the base."
+	]
+	quest.7A84327A98942413.title: "Spout Gun and Sprinkler"
+	quest.7A84327A98942413.quest_desc: [
+		"&lWhy:&r The spout gun shoots fluids; the sprinkler waters crops."
+	]
+	quest.4345A7DC89C26764.title: "Sticky Launcher"
+	quest.4345A7DC89C26764.quest_desc: [
+		"&lWhy:&r The sticky launcher throws players and items."
+	]
+	quest.21BF3EBD4FD75D4B.title: "Cards and Tickets"
+	quest.21BF3EBD4FD75D4B.quest_desc: [
+		"&lWhy:&r Card press, reader and tickets: access control."
+	]
+	quest.73B89E6BB4E6A662.title: "Whistle, Lens and Knife"
+	quest.73B89E6BB4E6A662.quest_desc: [
+		"&lWhy:&r Whistle calls a train, the lens shows details, a brass knife."
+	]
+	quest.427B775B648DC435.title: "Mending Rune"
+	quest.427B775B648DC435.quest_desc: [
+		"&lWhy:&r The mending rune repairs gear."
+	]
+	quest.191CB8532F5E9FCA.title: "Goggle Helmet"
+	quest.191CB8532F5E9FCA.quest_desc: [
+		"&lWhy:&r A helmet with engineer's goggles built in."
+		"Augments your HUD with miscellaneous information about placed components and provides armor."
+	]
+	quest.0FC08A4C1933EA81.title: "Diamond Goggle Helmet and Backtank"
+	quest.0FC08A4C1933EA81.quest_desc: [
+		"&lWhy:&r Diamond goggle helmet and armored backtank."
+		"Augments your HUD with miscellaneous information about placed components and provides armor."
+	]
+	quest.519CA74FE6DB2E6D.title: "Stuff 'N Additions Jetpacks"
+	quest.519CA74FE6DB2E6D.quest_desc: [
+		"&lWhy:&r Another jetpack line: copper, brass, netherite."
+	]
+	quest.4F6E93E07FBAA197.title: "Netherite Jetpack"
+	quest.4F6E93E07FBAA197.quest_desc: [
+		"&lWhy:&r The netherite jetpack flies longest."
+	]
+	quest.74D0C111C7F79299.title: "Exoskeleton"
+	quest.74D0C111C7F79299.quest_desc: [
+		"&lWhy:&r The exoskeleton boosts movement."
+	]
+	quest.7323EC2A86C05092.title: "Filling Tanks"
+	quest.7323EC2A86C05092.quest_desc: [
+		"&lWhy:&r Tanks refuel jetpacks and tools."
+	]
+	quest.71F8E4E45CE1C1EA.title: "Portable Drill, Block Picker and Magnet"
+	quest.71F8E4E45CE1C1EA.quest_desc: [
+		"&lWhy:&r Portable drill, block picker and magnet."
+	]
+	quest.04CA238B4120DF9E.title: "Grapplin Whisk"
+	quest.04CA238B4120DF9E.quest_desc: [
+		"&lWhy:&r A grappling whisk pulls you to blocks."
+	]
+	quest.02FFA6BB344AE866.title: "Flamethrower"
+	quest.02FFA6BB344AE866.quest_desc: [
+		"&lWhy:&r The flamethrower burns crowds."
+	]
+	quest.47A9FE89F58CE23F.title: "Brass Drone"
+	quest.47A9FE89F58CE23F.quest_desc: [
+		"&lWhy:&r A remote brass drone scouts from the air."
+	]
+	quest.4B0905081BE4B6E5.title: "Experience Tools"
+	quest.4B0905081BE4B6E5.quest_desc: [
+		"&lWhy:&r Experience heaps make tools that grow with you."
+	]
+	quest.4EA72EBDB3FD46FB.title: "Mechanical Tavern"
+	quest.4EA72EBDB3FD46FB.quest_desc: [
+		"&lWhy:&r Gears and Tavern lets Create machines brew and pour Kaleidoscope tavern drinks."
+	]
+	quest.57259DBED982C734.title: "Raw Redstone"
+	quest.57259DBED982C734.quest_desc: [
+		"&lWhy:&r Redstone veins give raw redstone to crush."
+	]
+	quest.022CD9C4B28A295A.title: "Sulfur"
+	quest.022CD9C4B28A295A.quest_desc: [
+		"&lWhy:&r Sulfur: for sulfate, gunpowder and chemistry."
+	]
+	quest.392E80F6B2404249.title: "Sturdy Mesh"
+	quest.392E80F6B2404249.quest_desc: [
+		"&lWhy:&r A sturdy mesh gives rarer ores."
+	]
+	quest.54258662A23C73F5.title: "Graphite for Molds"
+	quest.54258662A23C73F5.quest_desc: [
+		"&lWhy:&r Graphite becomes casting molds."
+		"Craft a Graphite"
+	]
+	quest.516973F22DECBFDC.title: "Labeling Station"
+	quest.516973F22DECBFDC.quest_desc: [
+		"&lWhy:&r Labels molds and ladles for automation."
+		"WIP feature. Keep loosing track of your logistics? Beloved by engineers, it is used to label incoming ladles."
+	]
+	quest.1995F128EDFE4EAF.title: "Spiky Shell and Suspicious Rock"
+	quest.1995F128EDFE4EAF.quest_desc: [
+		"&lWhy:&r Raw materials for nautilus shells and coral via the conduit."
+	]
+	quest.158AF776CEA94B1D.title: "Reinforced Brass Casing"
+	quest.158AF776CEA94B1D.quest_desc: [
+		"&lWhy:&r Casing for the spawner and its chamber."
+	]
+	quest.50EA95AECD1212E6.title: "Tube Detector"
+	quest.50EA95AECD1212E6.quest_desc: [
+		"&lWhy:&r Signals when something passes."
+	]
+	quest.5E43D26DED438C0A.title: "Stirling, Freezing Sail and Roll Table"
+	quest.5E43D26DED438C0A.quest_desc: [
+		"&lWhy:&r Heat engine, freezing sail and a rolling table."
+	]
+	quest.006962C2DA8E4629.title: "Train Stop and Vibration Mechanism"
+	quest.006962C2DA8E4629.quest_desc: [
+		"&lWhy:&r A buffer stop and a crafting mechanism."
+	]
+	quest.03F8AC5EB4C08FB5.title: "Advanced Link"
+	quest.03F8AC5EB4C08FB5.quest_desc: [
+		"&lWhy:&r Stores more points and reaches farther."
+	]
+	quest.6E88ECBAD9282B00.title: "Netherite Goggle Helmet"
+	quest.6E88ECBAD9282B00.quest_desc: [
+		"&lWhy:&r Best helmet with goggles."
+		"Augments your HUD with miscellaneous information about placed components and provides armor."
+	]
+	quest.1460D359388A9C00.title: "Blazing Tools"
+	quest.1460D359388A9C00.quest_desc: [
+		"&lWhy:&r Blazing tools auto-smelt and ignite."
+	]
+	chapter.52730C101397E84C.title: "Create: Power"
+	chapter.52730C101397E84C.chapter_subtitle: [
+		"Magnets, diesel and reactors — three roads to big power"
+	]
+	quest.7CE06CBFFC56FC66.title: "More Power"
+	quest.7CE06CBFFC56FC66.quest_desc: [
+		"&lWhy:&r Three roads past steam: magnet electricity, diesel engines and reactors."
+	]
+	quest.61B0CB4F4BB1914E.title: "Redstone Magnet"
+	quest.61B0CB4F4BB1914E.quest_desc: [
+		"&lWhy:&r New Age turns rotation into power with magnets around a coil."
+		"When rotated Generator Coils will generate electricity as long as they are surrounded by magnets. The electricity generated by coils can be collected using the Carbon Brushes block. As the magnetic force of magnets around the Generator Coils increases, the percentage of SU being turned into electricity increases. Efficiency: 33.3%%. Efficiency: 50.0%%. However, as the efficiency increases, the amount of SU used by the Generator Coils increases. Note: GENERATOR COILS DO NOT GENERATE ROTATION, ONLY ELECTRICITY."
+	]
+	quest.20028F4A73C143AA.title: "Generator Coil"
+	quest.20028F4A73C143AA.quest_desc: [
+		"&lWhy:&r The generator coil with carbon brushes; stronger magnets, more power."
+	]
+	quest.4DD3D010A7A82C06.title: "Copper Wire"
+	quest.4DD3D010A7A82C06.quest_desc: [
+		"&lWhy:&r Wires and connectors carry power; overcharged wires carry more."
+		"Wires are used to transfer energy from one place to another. This block automatically pushes its energy to neighboring blocks. But what if it didn't do that? Connector can pull energy from the block it stands on when 'Pull' mode is enabled. Modes are switched with a wrench. Note that 'Pull' mode is only for compatibility with other mods and can't be used to extract energy from energizer/motor internal storage."
+	]
+	quest.06ADCACF28DEF424.title: "Basic Motor"
+	quest.06ADCACF28DEF424.quest_desc: [
+		"&lWhy:&r Motors turn power back into rotation anywhere."
+		"Motors allow you to generate rotation using electricity. You can configure its speed using a wrench, however the amount of SU it outputs will stay the same. By powering it with redstone you can disable it. You can also invert that mechanic by right-clicking on it."
+	]
+	quest.3B3BC84B04654FDA.title: "Basic Energiser"
+	quest.3B3BC84B04654FDA.quest_desc: [
+		"&lWhy:&r The energiser overcharges iron, gold and diamond."
+		"When provided with electricity and rotation, the Energizer will energize items in depots and on belts under it."
+	]
+	quest.5F47721BAC2805A1.title: "Strong Magnets"
+	quest.5F47721BAC2805A1.quest_desc: [
+		"&lWhy:&r Stronger magnets for a much stronger generator."
+	]
+	quest.3CF0C34380ECF05E.title: "Advanced Motors"
+	quest.3CF0C34380ECF05E.quest_desc: [
+		"&lWhy:&r Advanced and reinforced motors; extensions add power."
+	]
+	quest.61B61BDED36E2B9D.title: "Heater"
+	quest.61B61BDED36E2B9D.quest_desc: [
+		"&lWhy:&r The heater warms basins electrically; solar plates use the sun."
+		"You can use a Heating Plate to generate heat during daytime. Heat pipes can be used to spread heat around. 240 ˚T. 0 ˚T. 0 ˚T. 120 ˚T. 120 ˚T. 0 ˚T."
+	]
+	quest.7D3D5663B01AB817.title: "Stirling Engine"
+	quest.7D3D5663B01AB817.quest_desc: [
+		"&lWhy:&r The Stirling engine turns heat into rotation."
+	]
+	quest.631BCF0A3E165B06.title: "Thorium"
+	quest.631BCF0A3E165B06.quest_desc: [
+		"&lWhy:&r Thorium ore fuels the New Age reactor."
+	]
+	quest.658C10E150D0CFD3.title: "Nuclear Fuel"
+	quest.658C10E150D0CFD3.quest_desc: [
+		"&lWhy:&r Nuclear fuel is assembled from thorium."
+	]
+	quest.05302F1BE3E73A16.title: "New Age Reactor"
+	quest.05302F1BE3E73A16.quest_desc: [
+		"&lWhy:&r The reactor heats pipes and engines. Overheat it and it melts into corium."
+		"A nuclear reactor is a great way to generate large amounts of heat. The first component of a nuclear reactor are the Reactor Rods, which allow for nuclear reaction to take place. The second component is the Reactor Fuel Inserter which allows you to insert fuel into the reactor. The final component needed for a nuclear reactor is the Reactor Heat Vent which will collect heat from the reactor and distribute it to connected pipes. However as one uses the nuclear reactor they must be careful as the nuclear reactor emits deadly radiation."
+	]
+	quest.3E391D2F6BE7B9BB.title: "Oil Scanner"
+	quest.3E391D2F6BE7B9BB.quest_desc: [
+		"&lWhy:&r The oil scanner finds oil chunks."
+		"Beneath the surface, some chunks hide Crude Oil deposits. To find these Chunks, you'll need to use an Oil Scanner. Right-click the Oil Scanner to see how much oil is in the chunk. Additionally, different Biomes will have different levels of Crude Oil. You can extract the Crude Oil with a pumpjack."
+	]
+	quest.2D2E315729639DE6.title: "Pumpjack"
+	quest.2D2E315729639DE6.quest_desc: [
+		"&lWhy:&r Build the pumpjack over an oil chunk to pump crude oil."
+		"Every Pumpjack needs a Pumpjack Bearing. Next, build the body of the Pumpjack. Attach a Pumpjack Head ... ... and another Pumpjack Bearing. Don't forget to glue the contraption! To power the Pumpjack, you'll need to use a Pumpjack Crank. To start extracting Crude Oil from the chunk, you'll need to excavate a hole below the pumpjack head. Place a straight, vertical pipe going all the way to bedrock ..."
+	]
+	quest.08242C3F070CC02A.title: "Distillation Controller"
+	quest.08242C3F070CC02A.quest_desc: [
+		"&lWhy:&r The distillation tower splits oil into gasoline and diesel."
+		"Apply a Distillation Controller to a at least 3 block tall Fluid tank to create a Distillation Tower. Distillation Towers process fluids by distilling them. Pump in your ingredient at the bottom level. Once you give the distiller the required heat level... ... The distillation tower will start processing. Distillation Towers can have windows."
+	]
+	quest.20553CAD5E1888AF.title: "Biofuel"
+	quest.20553CAD5E1888AF.quest_desc: [
+		"&lWhy:&r No oil? Ferment crops into ethanol and biodiesel."
+		"Basin Lids allow you to process fluids and items into other fluids and items. Once you give it the required ingredients ... ... The Basin Processing Station will start processing them."
+	]
+	quest.02B054896B536846.title: "Diesel Engine"
+	quest.02B054896B536846.quest_desc: [
+		"&lWhy:&r A compact powerful engine burning diesel, gasoline or biofuel."
+		"Diesel Engines provide a compact way of generating kinetic energy. Once you give the engine some fuel, it will start generating rotational force. Engines can be stopped with a redstone signal. You can also add upgrades on diesel engines."
+	]
+	quest.29CA84C57578F99D.title: "Engine on Biofuel"
+	quest.29CA84C57578F99D.quest_desc: [
+		"&lWhy:&r The same engine runs on farm fuel."
+	]
+	quest.68DCA3730C76925E.title: "Large and Huge Engines"
+	quest.68DCA3730C76925E.quest_desc: [
+		"&lWhy:&r Multiblock engines give far more stress."
+		"Huge Diesel Engines connect to Shafts ... ... they will start generating Kinetic Energy, once you give them some fuel."
+	]
+	quest.5F91B48131B8E8CA.title: "Turbocharger and Silencer"
+	quest.5F91B48131B8E8CA.quest_desc: [
+		"&lWhy:&r The turbocharger adds power, the silencer cuts noise."
+		"Use on a Diesel Engine make it faster."
+	]
+	quest.628704E3DB309DE9.title: "Canister and Barrel"
+	quest.628704E3DB309DE9.quest_desc: [
+		"&lWhy:&r Store and carry fuel."
+		"Stores Fluids for you. It doesn't lose its contents when picked up."
+	]
+	quest.240E81039AC4E561.title: "Chemical Turret and Sprayer"
+	quest.240E81039AC4E561.quest_desc: [
+		"&lWhy:&r The chemical turret and sprayer shoot fluids."
+		"Chemical turrets are standalone versions of chemical sprayers. They need to be supplied with a fluid, and powered by a cogwheel. When powered with redstone, the turret will start spraying with the fluid in its tank. Additionally they can be upgraded with a lighter."
+	]
+	quest.44BD612CFC3C524F.title: "Uranium and Lead"
+	quest.44BD612CFC3C524F.quest_desc: [
+		"&lWhy:&r Create Nuclear runs on uranium; lead protects you."
+		"Mine uranium ore to obtain raw uranium for further processing"
+	]
+	quest.1E6050992DC843FF.title: "Yellowcake"
+	quest.1E6050992DC843FF.quest_desc: [
+		"&lWhy:&r Crush uranium into powder, then yellowcake."
+		"Crush raw uranium into powder to prepare for further refining"
+	]
+	quest.4152BC28CBFC1601.title: "Enrichment"
+	quest.4152BC28CBFC1601.quest_desc: [
+		"&lWhy:&r The enriching fire turns yellowcake into enriched fuel."
+		"Craft an Enriching Campfire"
+	]
+	quest.5075D1C08D554077.title: "Anti-Radiation Suit"
+	quest.5075D1C08D554077.quest_desc: [
+		"&lWhy:&r Radiation builds up near the reactor; the suit protects you."
+	]
+	quest.3B26C6B1EA79DAC3.title: "Steel and Graphene"
+	quest.3B26C6B1EA79DAC3.quest_desc: [
+		"&lWhy:&r Steel and graphene build the reactor."
+		"Combine coal dust and iron ingots to create steel ingots"
+	]
+	quest.02FF94F66B647670.title: "Reactor Blueprint and Casing"
+	quest.02FF94F66B647670.quest_desc: [
+		"&lWhy:&r The blueprint sets rod layout; frame and casing build the shell."
+		"Floor 1. Floor 2. Floor 3. Floor 4. Controller: brain of the reactor, and the place where the blueprint goes to start it. Floor 5. Floor 6. Floor 7."
+	]
+	quest.13FAAD631A188037.title: "Core and Controller"
+	quest.13FAAD631A188037.quest_desc: [
+		"&lWhy:&r Controller, core and cooler."
+		"Rod Input: Stores Heating or Cooling Rods. We need one Heating Rod (fuel) to heat the reactor, and one Cooling Rod for stability. Second Rod Input: This is why we need at least two inputs! One for the Heating Rod and one for the Cooling Rod to prevent explosions. Fluid Input: Fluid is also required to cool the reactor and ensure it does not explode. Alarm (Optional): Emits a sound when the reactor becomes unstable and risks exploding. Output: Necessary to extract generated energy. You can place multiple outputs to dispatch the total energy between them."
+	]
+	quest.0114241A966398B7.title: "Reactor Inputs and Output"
+	quest.0114241A966398B7.quest_desc: [
+		"&lWhy:&r Inputs feed fuel and coolant; the output gives huge rotation."
+	]
+	quest.437C11FAA7C6DBDF.title: "Alarm and Reinforced Glass"
+	quest.437C11FAA7C6DBDF.quest_desc: [
+		"&lWhy:&r The alarm warns of overheating; reinforced glass is safe to look through."
+	]
+	quest.33CCA2E85AB72C75.title: "Advanced Energiser"
+	quest.33CCA2E85AB72C75.quest_desc: [
+		"&lWhy:&r Faster charging, overcharges diamond."
+	]
+	quest.79BCF33168C7F47B.title: "Heat Pump"
+	quest.79BCF33168C7F47B.quest_desc: [
+		"&lWhy:&r Moves heat where it is needed."
+	]
+	quest.5F2AA02BD50E04BE.title: "Pistons and Lighter"
+	quest.5F2AA02BD50E04BE.quest_desc: [
+		"&lWhy:&r Pistons for big engines, a lighter for burners."
+	]
+	quest.2F10F7F466FAECB8.title: "Create Nuclear Thorium"
+	quest.2F10F7F466FAECB8.quest_desc: [
+		"&lWhy:&r Thorium: extra fuel and reactor material."
+		"Compact thorium liquid to create a thorium ingot"
+	]
+	quest.187448DB6C0C8AA6.title: "Irradiation Extractor"
+	quest.187448DB6C0C8AA6.quest_desc: [
+		"&lWhy:&r Cleans irradiated biomes."
+		"This item is currently in beta and might change in future updates."
+	]
 	chapter.75D3C2A26C328D05.title: "Sky & Roads"
 	chapter.75D3C2A26C328D05.chapter_subtitle: [
 		"Cars, planes, airships, citadels"
@@ -4466,7 +5081,7 @@
 	quest.1A020305E1D3E7EE.title: "The Diesel Engine"
 	quest.1A020305E1D3E7EE.quest_subtitle: "Power for huge machines"
 	quest.1A020305E1D3E7EE.quest_desc: [
-		"Cylinders, a gearbox and a controller — and the engine drives a whole factory or a heavy Aeronautics vehicle."
+		"An engine, cylinders and an engine gearbox — and it drives a whole factory or a heavy Aeronautics vehicle. Large, radial and turbine versions exist."
 	]
 	quest.294E4669A44B8A90.title: "The Air"
 	quest.294E4669A44B8A90.quest_subtitle: "Airborne: pollution"
@@ -4831,10 +5446,10 @@
 		"&lWhy:&r Winds coils for motors and generators."
 		"Changes the amount of turns on spools and the resistance on resistors"
 	]
-	quest.3B1A72A757EE9C13.title: "Converter"
+	quest.3B1A72A757EE9C13.title: "Voltmeter and Resistor"
 	quest.3B1A72A757EE9C13.quest_desc: [
-		"&lWhy:&r Converts between TFMG power and FE."
-		"Converts FE to TFMG energy and vice versa"
+		"&lWhy:&r The voltmeter reads your grid; the resistor limits current."
+		"Shows various different values about an electric component"
 	]
 	quest.5D7228E0468C2ECE.title: "City Lights"
 	quest.5D7228E0468C2ECE.quest_desc: [
@@ -6645,6 +7260,53 @@
 		"Towers and camps of hostile mages dot the world — necromancers, pyromancers, cultists. This is &lzone 3&r."
 		"Beating them yields rare books, inks and school trophies. Go as a group and bring food."
 	]
+	quest.621DDF4372786ACC.title: "Magic on the Belt"
+	quest.621DDF4372786ACC.quest_desc: [
+		"&lWhy:&r Arcane essence from lapis, amethyst and XP in a mixer."
+		"Synthesize Arcane Essence with Lapis, Amethyst, and Exp."
+	]
+	quest.3643E30DE30A2568.title: "Mana Siphon"
+	quest.3643E30DE30A2568.quest_desc: [
+		"&lWhy:&r The mana siphon draws mana from you or casting mobs."
+		"Create a Mana Siphon to harness your innate AURA (mana)."
+	]
+	quest.306DE50585B4679D.title: "Mana Crystals"
+	quest.306DE50585B4679D.quest_desc: [
+		"&lWhy:&r Mana crystals grow on the siphon: nearly free essence."
+		"Harvest Mana Crystals from a Mana Siphon for (almost) free Arcane Essence."
+	]
+	quest.405C8FCF81CB886B.title: "Arcane Casing and Sheet"
+	quest.405C8FCF81CB886B.quest_desc: [
+		"&lWhy:&r Arcane casing for machines, arcane sheets insulate mana pipes."
+		"Make an Arcane Casing."
+	]
+	quest.2FE98ABE82F48CDC.title: "Arcane Pipes"
+	quest.2FE98ABE82F48CDC.quest_desc: [
+		"&lWhy:&r Mana flows in arcane pipes; insulate long runs."
+		"Insulate pipes with Arcane Sheets to prevent Mana loss."
+	]
+	quest.474FBFD9F6FBAE94.title: "Liquid Mana"
+	quest.474FBFD9F6FBAE94.quest_desc: [
+		"&lWhy:&r Liquid mana in buckets feeds mana machines."
+	]
+	quest.42A496D5D2499B30.title: "Channeler"
+	quest.42A496D5D2499B30.quest_desc: [
+		"&lWhy:&r The channeler harvests liquid lightning in storms."
+		"Craft and Place Down a Channeler to harvest Liquid Lightning."
+	]
+	quest.79229AF55B8A2792.title: "Blaze Caster"
+	quest.79229AF55B8A2792.quest_desc: [
+		"&lWhy:&r The blaze caster casts spells by itself."
+		"Forge the Blaze Caster. And uh, you don't care how big the room is."
+	]
+	quest.1F990B7D5996643A.title: "Crushed Mithril"
+	quest.1F990B7D5996643A.quest_desc: [
+		"&lWhy:&r Crush and wash mithril ore for more mithril."
+	]
+	quest.3A703D2E21CB863D.title: "Caster's Scone"
+	quest.3A703D2E21CB863D.quest_desc: [
+		"&lWhy:&r Mana-infused food for casters."
+	]
 	quest.747EBA05B84FEA8F.title: "Blank and Arcane Runes"
 	quest.747EBA05B84FEA8F.quest_desc: [
 		"&lWhy:&r Blank runes become school runes; the arcane rune powers general upgrades."
@@ -7913,6 +8575,102 @@
 	quest.0BFD3D0FCA556730.title: "Golden Moth Jar"
 	quest.0BFD3D0FCA556730.quest_desc: [
 		"Some treasures can have their own souls, not only devour others..."
+	]
+	quest.0FABC2FDF958727F.title: "Relics"
+	quest.0FABC2FDF958727F.quest_desc: [
+		"&lWhy:&r Relics are found in structure chests; their abilities level up as you use them. Hold Shift on one to see."
+	]
+	quest.4CD744CC5F14F99F.title: "Springy Boot"
+	quest.4CD744CC5F14F99F.quest_desc: [
+		"With this relic, a fall rarely ends with the first touch of the ground. The surface pushes the wearer back into the air, and the movement continues from bounce to bounce until it runs out on its own."
+	]
+	quest.239A82CAA459D514.title: "Roller Skate"
+	quest.239A82CAA459D514.quest_desc: [
+		"With this relic, ordinary running quickly stops being ordinary. The surface slides underfoot, movement becomes sharper, and on a hard drift, sparks fly from under the wheels, cutting no worse than a sword."
+	]
+	quest.1CA39B98944249C1.title: "Cut Glass Boot"
+	quest.1CA39B98944249C1.quest_desc: [
+		"The relic does not always consider liquid an obstacle. It stores it within itself, then recognizes it underfoot and lets the wearer walk across the surface."
+	]
+	quest.19E93944CC87ACD8.title: "Kinetic Belt"
+	quest.19E93944CC87ACD8.quest_desc: [
+		"The relic does not let the wearer truly fly, but it lets them stay in the air longer. The body loses altitude more slowly, preserves momentum better, and lands more softly."
+	]
+	quest.1541B8B6F658001F.title: "Hunting Belt"
+	quest.1541B8B6F658001F.quest_desc: [
+		"The relic does not empower the wearer directly. Instead, it gives its anger to the tamed beasts beside them, and their strikes become noticeably heavier. The more such companions join the fight, the worse it gets for the chosen target."
+	]
+	quest.03F3BDCC5D29E443.title: "Reflective Necklace"
+	quest.03F3BDCC5D29E443.quest_desc: [
+		"The relic does not stop the blow from reaching the body - and that is its unpleasant honesty. It only takes part of the damage onto itself and hides it nearby, in pale spheres that linger beside the wearer. Once the wearer strikes back, the spheres obediently break away: one after another, until they shatter against an enemy, a wall, or something else."
+	]
+	quest.2070071D8E31E601.title: "Jellyfish Necklace"
+	quest.2070071D8E31E601.quest_desc: [
+		"The relic comes alive only where there is water. In the rain or in liquid, it keeps the wearer steadier on their feet and closes their wounds. While electric arcs build up in its tentacles, it is better not to touch it: brush against it, and one of them breaks free, stinging everyone in its path."
+	]
+	quest.7E23F14335E7211F.title: "Leafy Mantle"
+	quest.7E23F14335E7211F.quest_desc: [
+		"With this relic, foliage parts before the wearer: among the branches, they move freely, without obstacles, and gradually restore health. And when death comes too close, the forest takes the blows upon itself."
+	]
+	quest.3C0473C2F2D00A88.title: "Midnight Mantle"
+	quest.3C0473C2F2D00A88.quest_desc: [
+		"The relic changes with the Moon: under a full moon, the wearer strikes faster and harder, while under a new moon, they become tougher and recover from wounds more easily. In darkness, it hides them from prying eyes until light reveals their silhouette again. And if the wearer is wounded, stars flare around them, ready to form a deadly constellation."
+	]
+	quest.6CC0FA478E279B3E.title: "Glitchy Mantle"
+	quest.6CC0FA478E279B3E.quest_desc: [
+		"With this relic, the wearer seems not to fully match what others see. Strikes sometimes pass by, confusing the attacker. Torn copies remain behind, and enemies that collide with them lose themselves for a moment. Even the void beneath the wearer's feet thickens, giving them time to take the next step despite the lack of solid ground."
+	]
+	quest.4D8DD31C9A68423C.title: "Ghostly Mantle"
+	quest.4D8DD31C9A68423C.quest_desc: [
+		"A grave mist trails behind the bearer of this relic. Anyone who enters it begins to suffocate, and each new breath becomes harder than the last. Once an enemy meets the bearer's gaze, their strength begins to leave them. And when death is already raising its hand, the mantle briefly makes the body spectral and lets its wearer escape a cruel fate."
+	]
+	quest.1118A93087BCBF34.title: "Chorus Staff"
+	quest.1118A93087BCBF34.quest_desc: [
+		"The relic handles distance crudely and simply: one swing - and the wearer vanishes from the spot, appearing ahead faster than their own step."
+	]
+	quest.71E0BECFD32CC77E.title: "Piglin Mask"
+	quest.71E0BECFD32CC77E.quest_desc: [
+		"The relic echoes the features of piglins, spawn of the Nether, and even a stranger wearing it is not immediately taken for an enemy. In trades, they take gold as always, but give back more than they should. And if it comes to a fight, they rise to defend a familiar face."
+	]
+	quest.221F97BB14B342DF.title: "Ring of the Seven Deadly Sins"
+	quest.221F97BB14B342DF.quest_desc: [
+		"The relic responds to the wearer's sins, but none of them serves as a gift. It eagerly empowers one who is higher, angrier, hungrier, richer, or more patient than their victim, but leaves a crack in every advantage. Once circumstances change, the same sin begins to work against the owner."
+	]
+	quest.3BC8811B4B10DA8A.title: "Sphere of Self-Sacrifice"
+	quest.3BC8811B4B10DA8A.quest_desc: [
+		"The relic takes health away just as willingly as it later returns it. The wearer opens access to their own blood, and what was lost slowly returns with interest."
+	]
+	quest.0616F8C89D8CEDD0.title: "Rider Flute"
+	quest.0616F8C89D8CEDD0.quest_desc: [
+		"The relic keeps mount animals nearby, even when they are out of sight. The wearer can take a tamed mount inside, release it back out, and call it again the same way. This keeps the mount close at hand at any moment, even when there is neither a stable nor reins nearby."
+	]
+	quest.52BD7873D1774C18.title: "Clot of Time"
+	quest.52BD7873D1774C18.quest_desc: [
+		"The relic pulls the wearer back along the path they recently took. The body returns to where it has already been, rewinding the last moments step by step."
+	]
+	quest.2CEC49185A6D77C8.title: "Chef's Hat"
+	quest.2CEC49185A6D77C8.quest_desc: [
+		"The relic adds food to the spoils. After a target is killed, a meatball may be left nearby, simple and filling, like a piece of raw meat. It can be eaten right away or cooked to get more benefit."
+	]
+	quest.1698AE08C4D1D69E.title: "Experience Disperser"
+	quest.1698AE08C4D1D69E.quest_desc: [
+		"The relic does not like experience settling in one place. Once it receives its share, part of the experience spreads to the others. This way, it accumulates not in a single relic, but across all equipment at once."
+	]
+	quest.184BA0CE3421A828.title: "Shield of Retaliation"
+	quest.184BA0CE3421A828.quest_desc: [
+		"The shield demands not strength, but a flawless choice of moment. A blow met at the right instant dies before the relic's bearer, leaving the enemy with nothing."
+	]
+	quest.45AC18273D2C3164.title: "Golden Tooth"
+	quest.45AC18273D2C3164.quest_desc: [
+		"&lWhy:&r An explorer's charm; hold Shift for its abilities."
+	]
+	quest.19059A871436D6CC.title: "Pet Bone"
+	quest.19059A871436D6CC.quest_desc: [
+		"&lWhy:&r A relic for tamed pets; hold Shift for its abilities."
+	]
+	quest.3DC66B602850A21D.title: "Relic Experience Bottle"
+	quest.3DC66B602850A21D.quest_desc: [
+		"&lWhy:&r Relic experience bottles level a relic instantly."
 	]
 	chapter.6C18F64911A2B1CF.title: "Bosses"
 	chapter.6C18F64911A2B1CF.chapter_subtitle: [
@@ -9520,6 +10278,30 @@
 	quest.533A846AC076473A.quest_desc: [
 		"Infantry, navy, air force and drones. Time to build barracks (Minecolonies) and train guards: nobody takes your colony now."
 	]
+	quest.592FE0CF19A8541E.title: "Factory Gunpowder"
+	quest.592FE0CF19A8541E.quest_desc: [
+		"&lWhy:&r Make guns and ammo with Create; liquid gunpowder from a mixer."
+	]
+	quest.5669672775B13DE6.title: "Nitropowder"
+	quest.5669672775B13DE6.quest_desc: [
+		"&lWhy:&r Nitropowder for strong rounds."
+	]
+	quest.0471D362985C929D.title: "Primers"
+	quest.0471D362985C929D.quest_desc: [
+		"&lWhy:&r Primers ignite the charge."
+	]
+	quest.14A2D1AF4250BB3C.title: "Casings"
+	quest.14A2D1AF4250BB3C.quest_desc: [
+		"&lWhy:&r Press casings, then fill them in sequenced assembly."
+	]
+	quest.01ADA56DB737FE9A.title: "Gun Parts"
+	quest.01ADA56DB737FE9A.quest_desc: [
+		"&lWhy:&r Barrels, triggers and firing mechanisms from the factory."
+	]
+	quest.290882FD588ADAF8.title: "Heavy Rounds"
+	quest.290882FD588ADAF8.quest_desc: [
+		"&lWhy:&r Grenade and 40mm HE casings for launchers."
+	]
 	quest.07DB0886BCE962E0.title: "Cannon Mount and Carriage"
 	quest.07DB0886BCE962E0.quest_desc: [
 		"&lWhy:&r A cannon is assembled on a mount from barrel, chamber and breech."
@@ -9590,7 +10372,7 @@
 	quest.3D8147435B400249.quest_desc: [
 		"&lWhat:&r some nights the sky is streaked with meteors. Most burn up; small ones land in &lthe wilds&r."
 		"&lWhat to do:&r enjoy the view and look for fallen stones — they hold &lmeteorite ore&r. If one lands in water, a &lstar carp&r may be there."
-		"This event is a gift — nothing to fear."
+		"This event is a gift — nothing to fear. &lElite mobs&r of the wilds (beyond 1000 blocks from spawn) also drop meteoric dust."
 	]
 	quest.3E90DEC686D69116.title: "Sky Dust"
 	quest.3E90DEC686D69116.quest_subtitle: "Meteorite ore"
@@ -9814,10 +10596,6 @@
 	quest.7DF2E728DC9D5076.title: "A Village Wedding"
 	quest.7DF2E728DC9D5076.quest_desc: [
 		"In MCA you can marry a villager and raise a family. Children can learn to work the farm."
-	]
-	quest.076FE4C58EDAB8E3.title: "Villagers in Your Pocket"
-	quest.076FE4C58EDAB8E3.quest_desc: [
-		"Easy Villagers: pick up a villager as an item and place it in a trader block. A compact market without huge pens."
 	]
 	quest.04CE5479A8E63247.title: "Supply Chest"
 	quest.04CE5479A8E63247.quest_desc: [
@@ -10291,6 +11069,7 @@
 	quest.265FF61074550E28.quest_subtitle: "A legend of the meteor shower"
 	quest.265FF61074550E28.quest_desc: [
 		"They say when a meteor falls into water, a star carp can be found there. A dinner of it brings luck."
+		"Not waiting for a shower? Raw fish + 2 meteoric dust on a crafting table makes one too."
 	]
 	quest.00665D425DD344B3.title: "10 Bee Species"
 	quest.00665D425DD344B3.quest_subtitle: "Beekeeper"

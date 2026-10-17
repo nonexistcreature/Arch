@@ -1,0 +1,73 @@
+# Create cross-overs, wave 13: Create: Wizardry (Iron's Spells) — goes into the Iron's chapter.
+extends: irons
+lang: [create_wizardry]
+out: create_wizardry_gen
+quests:
+  - id: cwz_essence
+    deps: [irons_essence, c_mixer]
+    roles: [mage, engineer]
+    items: [irons_spellbooks:arcane_essence*8]
+    title: {ru: "Магия на конвейере", en: "Magic on the Belt"}
+    doc: advancement.create_wizardry.alch_101.desc
+    why: {ru: "Create: Wizardry связывает Create и Iron's Spells. Первое — тайная эссенция в миксере из лазурита, аметиста и опыта, без ручной работы.", en: "Arcane essence from lapis, amethyst and XP in a mixer."}
+  - id: cwz_siphon
+    title: {ru: "Манасифон", en: "Mana Siphon"}
+    deps: [cwz_essence]
+    roles: [mage, engineer]
+    items: [create_wizardry:mana_siphon]
+    doc: advancement.create_wizardry.aura_monster.desc
+    why: {ru: "Манасифон вытягивает ману из тебя или из магических мобов и превращает её в жидкость.", en: "The mana siphon draws mana from you or casting mobs."}
+  - id: cwz_crystal
+    deps: [cwz_siphon]
+    roles: [mage]
+    icon: create_wizardry:mana_siphon
+    title: {ru: "Кристаллы маны", en: "Mana Crystals"}
+    doc: advancement.create_wizardry.baby_blue.desc
+    why: {ru: "На сифоне растут кристаллы маны — почти бесплатная тайная эссенция.", en: "Mana crystals grow on the siphon: nearly free essence."}
+  - id: cwz_casing
+    deps: [cwz_essence, c_brass]
+    roles: [engineer, mage]
+    items: [create_wizardry:arcane_casing, create_wizardry:arcane_sheet]
+    doc: advancement.create_wizardry.enlightenment_age.desc
+    title: {ru: "Тайный корпус и лист", en: "Arcane Casing and Sheet"}
+    why: {ru: "Тайный корпус — основа магических машин, тайный лист изолирует трубы с маной.", en: "Arcane casing for machines, arcane sheets insulate mana pipes."}
+  - id: cwz_pipes
+    title: {ru: "Тайные трубы", en: "Arcane Pipes"}
+    deps: [cwz_casing]
+    roles: [engineer]
+    items: [create_wizardry:arcane_pipe*8, create_wizardry:arcane_pump]
+    doc: advancement.create_wizardry.splash_guard_on.desc
+    why: {ru: "Мана течёт по тайным трубам. Без изоляции листами на длинных трассах она теряется — оборачивай трубы.", en: "Mana flows in arcane pipes; insulate long runs."}
+  - id: cwz_mana
+    deps: [cwz_pipes]
+    roles: [mage]
+    items: [create_wizardry:mana_bucket]
+    title: {ru: "Жидкая мана", en: "Liquid Mana"}
+    why: {ru: "Жидкую ману собирают в вёдра и перекачивают по тайным трубам к машинам, которым она нужна.", en: "Liquid mana in buckets feeds mana machines."}
+  - id: cwz_channeler
+    title: {ru: "Канализатор молний", en: "Channeler"}
+    deps: [cwz_casing]
+    roles: [mage, engineer]
+    items: [create_wizardry:channeler, create_wizardry:lightning_bucket]
+    doc: advancement.create_wizardry.channeler.desc
+    why: {ru: "Канализатор ловит молнии в грозу и собирает жидкую молнию для сильных рецептов.", en: "The channeler harvests liquid lightning in storms."}
+  - id: cwz_caster
+    title: {ru: "Огненный кастер", en: "Blaze Caster"}
+    deps: [cwz_channeler, c_deployer]
+    roles: [mage, warrior]
+    items: [create_wizardry:blaze_caster]
+    doc: advancement.create_wizardry.i_cast_fireball.desc
+    why: {ru: "Огненный кастер — механическая установка, которая сама произносит заклинания. Мощная оборона базы.", en: "The blaze caster casts spells by itself."}
+  - id: cwz_mithril
+    title: {ru: "Дроблёный мифрил", en: "Crushed Mithril"}
+    deps: [irons_essence, c_crushing]
+    roles: [engineer, mage]
+    items: [create_wizardry:crushed_mithril*4]
+    why: {ru: "Мифриловую руду можно дробить и промывать в Create — больше мифрила для магической брони.", en: "Crush and wash mithril ore for more mithril."}
+
+  - id: cwz_scone
+    deps: [cwz_mana]
+    roles: [mage, cook]
+    items: [create_wizardry:casters_scone]
+    title: {ru: "Булочка заклинателя", en: "Caster's Scone"}
+    why: {ru: "Булочка с маной — еда магов: восполняет силы для заклинаний.", en: "Mana-infused food for casters."}

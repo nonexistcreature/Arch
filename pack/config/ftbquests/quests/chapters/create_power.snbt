@@ -1,0 +1,1106 @@
+{
+	id: "52730C101397E84C"
+	group: ""
+	order_index: 77
+	filename: "create_power"
+	icon: {
+		id: "createdieselgenerators:diesel_engine"
+		count: 1
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "7CE06CBFFC56FC66"
+			x: -0.61d
+			y: 0.0d
+			shape: "gear"
+			icon: {
+				id: "create:steam_engine"
+				count: 1
+			}
+			dependencies: [
+				"16E227013AEA622A"
+			]
+			tasks: [
+				{
+					id: "44E3B16DE7CED431"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			id: "61B0CB4F4BB1914E"
+			x: -5.02d
+			y: 2.0d
+			icon: {
+				id: "create_new_age:redstone_magnet"
+				count: 1
+			}
+			dependencies: [
+				"7CE06CBFFC56FC66"
+			]
+			tasks: [
+				{
+					id: "74FDE22DAA27B5F3"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:redstone_magnet"
+					}
+				}
+			]
+		}
+		{
+			id: "20028F4A73C143AA"
+			x: -5.02d
+			y: 4.0d
+			icon: {
+				id: "create_new_age:generator_coil"
+				count: 1
+			}
+			dependencies: [
+				"61B0CB4F4BB1914E"
+			]
+			tasks: [
+				{
+					id: "6240C123DCE003EC"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:generator_coil"
+					}
+				}
+				{
+					id: "3888A8EE4B5F62F2"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:carbon_brushes"
+					}
+				}
+			]
+		}
+		{
+			id: "4DD3D010A7A82C06"
+			x: -4.43d
+			y: 6.0d
+			icon: {
+				id: "create_new_age:copper_wire"
+				count: 1
+			}
+			dependencies: [
+				"20028F4A73C143AA"
+			]
+			tasks: [
+				{
+					id: "0FD2E2C9B3D50546"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:copper_wire"
+					}
+					count: 8L
+				}
+				{
+					id: "769A4E20CF0A3CFA"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:electrical_connector"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "06ADCACF28DEF424"
+			x: -4.43d
+			y: 8.0d
+			icon: {
+				id: "create_new_age:basic_motor"
+				count: 1
+			}
+			dependencies: [
+				"4DD3D010A7A82C06"
+			]
+			tasks: [
+				{
+					id: "15A778A3FC7E2681"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:basic_motor"
+					}
+				}
+			]
+		}
+		{
+			id: "3B3BC84B04654FDA"
+			x: -5.93d
+			y: 8.0d
+			icon: {
+				id: "create_new_age:basic_energiser"
+				count: 1
+			}
+			dependencies: [
+				"4DD3D010A7A82C06"
+			]
+			tasks: [
+				{
+					id: "5FDA25391441BA42"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:basic_energiser"
+					}
+				}
+				{
+					id: "146CE1E98789BAE3"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:overcharged_iron"
+					}
+				}
+			]
+		}
+		{
+			id: "5F47721BAC2805A1"
+			x: -6.32d
+			y: 10.0d
+			icon: {
+				id: "create_new_age:fluxuated_magnetite"
+				count: 1
+			}
+			dependencies: [
+				"3B3BC84B04654FDA"
+			]
+			tasks: [
+				{
+					id: "3591DA062F0E2D04"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:fluxuated_magnetite"
+					}
+				}
+				{
+					id: "7B85AED659ED9EC8"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:netherite_magnet"
+					}
+				}
+			]
+		}
+		{
+			id: "3CF0C34380ECF05E"
+			x: -5.48d
+			y: 12.0d
+			icon: {
+				id: "create_new_age:advanced_motor"
+				count: 1
+			}
+			dependencies: [
+				"06ADCACF28DEF424"
+				"5F47721BAC2805A1"
+			]
+			tasks: [
+				{
+					id: "2493A54046A9ADBF"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:advanced_motor"
+					}
+				}
+				{
+					id: "1525DEC0E1713BD5"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:reinforced_motor"
+					}
+				}
+			]
+		}
+		{
+			id: "61B61BDED36E2B9D"
+			x: -2.93d
+			y: 8.0d
+			icon: {
+				id: "create_new_age:heater"
+				count: 1
+			}
+			dependencies: [
+				"4DD3D010A7A82C06"
+			]
+			tasks: [
+				{
+					id: "36F4239F0408B904"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:heater"
+					}
+				}
+				{
+					id: "00282168591BD762"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:basic_solar_heating_plate"
+					}
+				}
+			]
+		}
+		{
+			id: "7D3D5663B01AB817"
+			x: -3.32d
+			y: 10.0d
+			icon: {
+				id: "create_new_age:stirling_engine"
+				count: 1
+			}
+			dependencies: [
+				"61B61BDED36E2B9D"
+			]
+			tasks: [
+				{
+					id: "1E0FCACF3B0549CC"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:stirling_engine"
+					}
+				}
+				{
+					id: "4045846FDC89155A"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:heat_pipe"
+					}
+				}
+			]
+		}
+		{
+			id: "631BCF0A3E165B06"
+			x: -6.98d
+			y: 12.0d
+			icon: {
+				id: "create_new_age:thorium"
+				count: 1
+			}
+			dependencies: [
+				"5F47721BAC2805A1"
+			]
+			tasks: [
+				{
+					id: "0AD511E98399F150"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:thorium"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "658C10E150D0CFD3"
+			x: -6.98d
+			y: 14.0d
+			icon: {
+				id: "create_new_age:nuclear_fuel"
+				count: 1
+			}
+			dependencies: [
+				"631BCF0A3E165B06"
+				"40070ED0DEB601C3"
+			]
+			tasks: [
+				{
+					id: "7D64F9D8651B37C2"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:nuclear_fuel"
+					}
+				}
+			]
+		}
+		{
+			id: "05302F1BE3E73A16"
+			x: -6.98d
+			y: 16.0d
+			icon: {
+				id: "create_new_age:reactor_casing"
+				count: 1
+			}
+			dependencies: [
+				"658C10E150D0CFD3"
+			]
+			tasks: [
+				{
+					id: "6BF23C2EA6284025"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:reactor_casing"
+					}
+					count: 16L
+				}
+				{
+					id: "5F4AD2B3920D3389"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:reactor_fuel_acceptor"
+					}
+				}
+				{
+					id: "3BDA1A742225C2A1"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:reactor_heat_vent"
+					}
+				}
+			]
+		}
+		{
+			id: "3E391D2F6BE7B9BB"
+			x: 0.23d
+			y: 2.0d
+			icon: {
+				id: "createdieselgenerators:oil_scanner"
+				count: 1
+			}
+			dependencies: [
+				"7CE06CBFFC56FC66"
+			]
+			tasks: [
+				{
+					id: "42491D23AC2E8875"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:oil_scanner"
+					}
+				}
+			]
+		}
+		{
+			id: "2D2E315729639DE6"
+			x: 0.23d
+			y: 4.0d
+			icon: {
+				id: "createdieselgenerators:pumpjack_head"
+				count: 1
+			}
+			dependencies: [
+				"3E391D2F6BE7B9BB"
+				"189B47E1DFEF15C5"
+			]
+			tasks: [
+				{
+					id: "26A06762D28A22D5"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:pumpjack_head"
+					}
+				}
+				{
+					id: "61A8D7B580F7A0DE"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:pumpjack_bearing"
+					}
+				}
+				{
+					id: "292407F214F1BD7C"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:pumpjack_crank"
+					}
+				}
+				{
+					id: "292DDDE8DD1CCFF1"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:pumpjack_hole"
+					}
+				}
+			]
+		}
+		{
+			id: "08242C3F070CC02A"
+			x: 0.82d
+			y: 6.0d
+			icon: {
+				id: "createdieselgenerators:distillation_controller"
+				count: 1
+			}
+			dependencies: [
+				"2D2E315729639DE6"
+			]
+			tasks: [
+				{
+					id: "04848D3BCF9D3C9B"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:distillation_controller"
+					}
+				}
+			]
+		}
+		{
+			id: "20553CAD5E1888AF"
+			x: -2.19d
+			y: 2.0d
+			icon: {
+				id: "createdieselgenerators:basin_lid"
+				count: 1
+			}
+			dependencies: [
+				"7CE06CBFFC56FC66"
+				"3F74EE2573975D1F"
+			]
+			tasks: [
+				{
+					id: "51AAD250CEFF2D0C"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:basin_lid"
+					}
+				}
+				{
+					id: "08F234B2B6B61AD5"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:bulk_fermenter"
+					}
+				}
+			]
+		}
+		{
+			id: "02B054896B536846"
+			x: -0.68d
+			y: 8.0d
+			icon: {
+				id: "createdieselgenerators:diesel_engine"
+				count: 1
+			}
+			dependencies: [
+				"08242C3F070CC02A"
+			]
+			tasks: [
+				{
+					id: "6A794B25B4D3492C"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:diesel_engine"
+					}
+				}
+			]
+		}
+		{
+			id: "29CA84C57578F99D"
+			x: -2.19d
+			y: 4.0d
+			icon: {
+				id: "createdieselgenerators:diesel_engine"
+				count: 1
+			}
+			dependencies: [
+				"20553CAD5E1888AF"
+			]
+			tasks: [
+				{
+					id: "3F9A5E7F73D8ACB2"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:diesel_engine"
+					}
+				}
+			]
+		}
+		{
+			id: "68DCA3730C76925E"
+			x: -1.82d
+			y: 10.0d
+			icon: {
+				id: "createdieselgenerators:large_diesel_engine"
+				count: 1
+			}
+			dependencies: [
+				"02B054896B536846"
+			]
+			tasks: [
+				{
+					id: "74C5DF05C3278AF8"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:large_diesel_engine"
+					}
+				}
+				{
+					id: "1519514CC7AFBAA0"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:huge_diesel_engine"
+					}
+				}
+			]
+		}
+		{
+			id: "5F91B48131B8E8CA"
+			x: -0.32d
+			y: 10.0d
+			icon: {
+				id: "createdieselgenerators:engine_turbocharger"
+				count: 1
+			}
+			dependencies: [
+				"02B054896B536846"
+			]
+			tasks: [
+				{
+					id: "303157CA5F7FEDDD"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:engine_turbocharger"
+					}
+				}
+				{
+					id: "591F27F96FE03104"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:engine_silencer"
+					}
+				}
+			]
+		}
+		{
+			id: "628704E3DB309DE9"
+			x: 2.32d
+			y: 8.0d
+			icon: {
+				id: "createdieselgenerators:canister"
+				count: 1
+			}
+			dependencies: [
+				"08242C3F070CC02A"
+			]
+			tasks: [
+				{
+					id: "0F93DFEDFD77043F"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:canister"
+					}
+				}
+				{
+					id: "67C218D81C68C109"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:oil_barrel"
+					}
+				}
+			]
+		}
+		{
+			id: "240E81039AC4E561"
+			x: 2.68d
+			y: 10.0d
+			icon: {
+				id: "createdieselgenerators:chemical_turret"
+				count: 1
+			}
+			dependencies: [
+				"628704E3DB309DE9"
+			]
+			tasks: [
+				{
+					id: "1DB3428EF48EE884"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:chemical_turret"
+					}
+				}
+				{
+					id: "5F20570929089174"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:chemical_sprayer"
+					}
+				}
+			]
+		}
+		{
+			id: "44BD612CFC3C524F"
+			x: 4.54d
+			y: 2.0d
+			icon: {
+				id: "createnuclear:raw_uranium"
+				count: 1
+			}
+			dependencies: [
+				"7CE06CBFFC56FC66"
+			]
+			tasks: [
+				{
+					id: "34E7CA6D68CD709C"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:raw_uranium"
+					}
+					count: 4L
+				}
+				{
+					id: "3B4D296133586E1F"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:raw_lead"
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			id: "1E6050992DC843FF"
+			x: 3.98d
+			y: 4.0d
+			icon: {
+				id: "createnuclear:uranium_powder"
+				count: 1
+			}
+			dependencies: [
+				"44BD612CFC3C524F"
+				"55D84A0552C38733"
+			]
+			tasks: [
+				{
+					id: "55D7DCD48C8A177C"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:uranium_powder"
+					}
+					count: 4L
+				}
+				{
+					id: "2995CC6424B0C61E"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:yellowcake"
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			id: "4152BC28CBFC1601"
+			x: 4.57d
+			y: 6.0d
+			icon: {
+				id: "createnuclear:enriching_campfire"
+				count: 1
+			}
+			dependencies: [
+				"1E6050992DC843FF"
+			]
+			tasks: [
+				{
+					id: "09F29ED4BDC10E64"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:enriching_campfire"
+					}
+				}
+				{
+					id: "1A24AF159804F0BE"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:enriched_yellowcake"
+					}
+				}
+			]
+		}
+		{
+			id: "5075D1C08D554077"
+			x: 1.73d
+			y: 4.0d
+			icon: {
+				id: "createnuclear:default_anti_radiation_helmet"
+				count: 1
+			}
+			dependencies: [
+				"44BD612CFC3C524F"
+			]
+			tasks: [
+				{
+					id: "2ABF7B4F79ED5353"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:default_anti_radiation_helmet"
+					}
+				}
+				{
+					id: "41C12DBDFAD27621"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:default_anti_radiation_chestplate"
+					}
+				}
+				{
+					id: "09601C8BB5EE7A22"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:default_anti_radiation_leggings"
+					}
+				}
+				{
+					id: "12F8DDB600DD3BFC"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:default_anti_radiation_boots"
+					}
+				}
+			]
+		}
+		{
+			id: "3B26C6B1EA79DAC3"
+			x: 5.48d
+			y: 4.0d
+			icon: {
+				id: "createnuclear:steel_ingot"
+				count: 1
+			}
+			dependencies: [
+				"44BD612CFC3C524F"
+			]
+			tasks: [
+				{
+					id: "67035E7AAD383941"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:steel_ingot"
+					}
+					count: 8L
+				}
+				{
+					id: "26E5E74A8FFB880E"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:graphene"
+					}
+				}
+			]
+		}
+		{
+			id: "02FF94F66B647670"
+			x: 4.57d
+			y: 8.0d
+			icon: {
+				id: "createnuclear:reactor_blueprint_item"
+				count: 1
+			}
+			dependencies: [
+				"3B26C6B1EA79DAC3"
+				"4152BC28CBFC1601"
+			]
+			tasks: [
+				{
+					id: "7C8A2C569C65AE5C"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_blueprint_item"
+					}
+				}
+				{
+					id: "01AAB0894F108206"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_frame"
+					}
+				}
+				{
+					id: "51FF7056499B54BA"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_casing"
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			id: "13FAAD631A188037"
+			x: 4.93d
+			y: 10.0d
+			icon: {
+				id: "createnuclear:reactor_controller"
+				count: 1
+			}
+			dependencies: [
+				"02FF94F66B647670"
+			]
+			tasks: [
+				{
+					id: "4194D6635FFB529C"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_controller"
+					}
+				}
+				{
+					id: "42287DDB185B5AD8"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_core"
+					}
+				}
+				{
+					id: "0F51217633AAB25E"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_cooler"
+					}
+				}
+			]
+		}
+		{
+			id: "0114241A966398B7"
+			x: 3.52d
+			y: 12.0d
+			icon: {
+				id: "createnuclear:reactor_rod_input"
+				count: 1
+			}
+			dependencies: [
+				"13FAAD631A188037"
+			]
+			tasks: [
+				{
+					id: "47CA266C1F93755C"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_rod_input"
+					}
+				}
+				{
+					id: "727DA03D62FF6994"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_fluid_input"
+					}
+				}
+				{
+					id: "5CD00C665437D2A1"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_output"
+					}
+				}
+			]
+		}
+		{
+			id: "437C11FAA7C6DBDF"
+			x: 5.02d
+			y: 12.0d
+			icon: {
+				id: "createnuclear:reactor_alarm"
+				count: 1
+			}
+			dependencies: [
+				"13FAAD631A188037"
+			]
+			tasks: [
+				{
+					id: "1C97856408929A23"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_alarm"
+					}
+				}
+				{
+					id: "7BCA88065BFFFA98"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:reinforced_glass"
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			id: "33CCA2E85AB72C75"
+			x: -4.82d
+			y: 10.0d
+			icon: {
+				id: "create_new_age:advanced_energiser"
+				count: 1
+			}
+			dependencies: [
+				"3B3BC84B04654FDA"
+			]
+			tasks: [
+				{
+					id: "6D063128B7146253"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:advanced_energiser"
+					}
+				}
+				{
+					id: "40A43D4511C899FC"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:overcharged_diamond"
+					}
+				}
+			]
+		}
+		{
+			id: "79BCF33168C7F47B"
+			x: -3.98d
+			y: 12.0d
+			icon: {
+				id: "create_new_age:heat_pump"
+				count: 1
+			}
+			dependencies: [
+				"7D3D5663B01AB817"
+			]
+			tasks: [
+				{
+					id: "7D5CF90C1A7FE9EB"
+					type: "item"
+					item: {
+						count: 1
+						id: "create_new_age:heat_pump"
+					}
+				}
+			]
+		}
+		{
+			id: "5F2AA02BD50E04BE"
+			x: 1.18d
+			y: 10.0d
+			icon: {
+				id: "createdieselgenerators:engine_piston"
+				count: 1
+			}
+			dependencies: [
+				"02B054896B536846"
+			]
+			tasks: [
+				{
+					id: "457CAFD6B8C19B18"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:engine_piston"
+					}
+				}
+				{
+					id: "620A72C195B01453"
+					type: "item"
+					item: {
+						count: 1
+						id: "createdieselgenerators:lighter"
+					}
+				}
+			]
+		}
+		{
+			id: "2F10F7F466FAECB8"
+			x: 6.98d
+			y: 4.0d
+			icon: {
+				id: "createnuclear:thorium_ingot"
+				count: 1
+			}
+			dependencies: [
+				"44BD612CFC3C524F"
+			]
+			tasks: [
+				{
+					id: "2D68619D9A4EC18F"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:thorium_ingot"
+					}
+				}
+			]
+		}
+		{
+			id: "187448DB6C0C8AA6"
+			x: 6.52d
+			y: 12.0d
+			icon: {
+				id: "createnuclear:biome_irradiation_extractor"
+				count: 1
+			}
+			dependencies: [
+				"13FAAD631A188037"
+			]
+			tasks: [
+				{
+					id: "085A298E985EDB5B"
+					type: "item"
+					item: {
+						count: 1
+						id: "createnuclear:biome_irradiation_extractor"
+					}
+				}
+			]
+		}
+	]
+}
