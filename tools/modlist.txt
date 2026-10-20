@@ -246,3 +246,4 @@ create-mobile-packages | 12 | Create: доставка посылок прямо
 create-trading-floor | 12 | Create: автоматическая торговля с жителями (мэр)
 create-pattern-schematics | 12 | Create: схемы-узоры для строителя
 # waterframes/watermedia убраны 2026-10-16: WaterFrames 2.1.23 требует WATERMeDIA [2.1.34,2.2), а FancyMenu 3.9.9+ (её требует Drippy Loading Screen) — WATERMeDIA 3.0.0.22+. Клиент падал при загрузке.
+create-ultimine | 14 | ключ Create работает с FTB Ultimine (жалоба shxtai: блоки пропадали)

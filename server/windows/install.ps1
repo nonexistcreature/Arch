@@ -49,7 +49,7 @@ simulation-distance=6
 sync-chunk-writes=false
 spawn-protection=0
 allow-flight=true
-max-tick-time=-1
+max-tick-time=180000
 enable-rcon=false
 "@ | Write-Utf8 "$Dir\server\server.properties"
 }
