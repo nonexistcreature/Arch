@@ -47,6 +47,9 @@ jobs:
       - name: All release files exist
         shell: bash
         run: ls -la launcher/dist && test -f launcher/dist/Arkhaven-Prism-Instance.zip && test -f launcher/dist/Arkhaven-Own-Launcher.zip && ls launcher/dist/Arkhaven-Setup-*.exe launcher/dist/Arkhaven-*.mrpack
+      - name: Stable .mrpack name for releases/latest/download/Arkhaven.mrpack
+        shell: bash
+        run: cp "launcher/dist/Arkhaven-${GITHUB_REF_NAME#v}.mrpack" launcher/dist/Arkhaven.mrpack
       - uses: softprops/action-gh-release@v2
         with:
           files: |
@@ -55,4 +58,5 @@ jobs:
             launcher/dist/Arkhaven-Prism-Instance.zip
             launcher/dist/Arkhaven-Own-Launcher.zip
             launcher/dist/Arkhaven-*.mrpack
+            launcher/dist/Arkhaven.mrpack
             launcher/dist/Arkhaven-ZeroTier.cmd
