@@ -37,7 +37,9 @@
   "ignored_tags": [],
   "ignored_items": [],
   "ignored_recipe_types": [
-    "cucumber:shaped_tag"
+    "cucumber:shaped_tag",
+    "createmetallurgy:casting_in_basin",
+    "createmetallurgy:casting_in_table"
   ],
   "ignored_recipe_ids": [],
   "recipe_viewer_hiding": true,

@@ -1,0 +1,24 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "item": "vintage:nethersteel_rod"
+    }
+  ],
+  "results": [
+    {
+      "id": "vintage:nethersteel_wire",
+      "count": 2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createaddition"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createbigcannons"
+    }
+  ]
+}

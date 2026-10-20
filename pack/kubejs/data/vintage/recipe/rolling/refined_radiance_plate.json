@@ -1,0 +1,20 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "tag": "c:plates/refined_radiance"
+    }
+  ],
+  "results": [
+    {
+      "id": "vintage:refined_radiance_wire",
+      "count": 2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createaddition"
+    }
+  ]
+}

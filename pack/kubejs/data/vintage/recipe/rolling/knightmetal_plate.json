@@ -1,0 +1,24 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "tag": "c:plates/knightmetal"
+    }
+  ],
+  "results": [
+    {
+      "id": "vintage:knightmetal_wire",
+      "count": 2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createaddition"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
+}

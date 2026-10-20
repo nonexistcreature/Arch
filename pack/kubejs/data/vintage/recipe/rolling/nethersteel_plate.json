@@ -1,0 +1,24 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "item": "vintage:nethersteel_sheet"
+    }
+  ],
+  "results": [
+    {
+      "id": "vintage:nethersteel_rod",
+      "count": 2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createaddition"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createbigcannons"
+    }
+  ]
+}

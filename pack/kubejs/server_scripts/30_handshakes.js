@@ -4,7 +4,7 @@
 ServerEvents.recipes(event => {
   const mixing = (out, ins, heat, id) => event.custom({ type: 'create:mixing', heat_requirement: heat || 'none', ingredients: ins, results: [out] }).id(id)
   const imbue = (input, out, pedestals, source, id) => event.custom({ type: 'ars_nouveau:imbuement', input: input, output: out, pedestalItems: pedestals, source: source }).id(id)
-  const filling = (input, fluid, mb, out, id) => event.custom({ type: 'create:filling', ingredients: [input, { type: 'fluid_stack', fluid: fluid, amount: mb }], results: [out] }).id(id)
+  const filling = (input, fluid, mb, out, id) => event.custom({ type: 'create:filling', ingredients: [input, { type: 'neoforge:single', fluid: fluid, amount: mb }], results: [out] }).id(id)
 
   // --- 1. Levitite: renewable mage route (natural source stays). HANDSHAKE: mage -> engineer/builder
   imbue({ item: 'minecraft:calcite' }, { id: 'aeronautics:levitite', count: 2 },

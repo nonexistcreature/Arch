@@ -1,0 +1,24 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "tag": "c:ingots/fiery"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:blaze_rod",
+      "count": 2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createaddition"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
+}

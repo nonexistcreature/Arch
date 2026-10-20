@@ -1,0 +1,27 @@
+{
+  "type": "createaddition:rolling",
+  "ingredients": [
+    {
+      "tag": "c:plates/osmium"
+    }
+  ],
+  "results": [
+    {
+      "id": "vintage:osmium_wire",
+      "count": 2
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createaddition"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:plates/osmium"
+      }
+    }
+  ]
+}
