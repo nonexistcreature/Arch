@@ -1033,6 +1033,10 @@ file = "kubejs/server_scripts/70_reports.js"
 hash = "055b09c2f02275fc4d4b0a90ffb341ce784ccc732270dbfa886477965cbf0e79"
 
 [[files]]
+file = "kubejs/server_scripts/72_autoupdate_hint.js"
+hash = "0ccbc379bff5f35c379689fda157c19ba88be5d4af32a8ef9c9f189168fe9ccb"
+
+[[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
 hash = "3da2feed819f16f34a53ba3d3a4bd19a3b18ef1be521c7c8055cf6e3ad7073af"
 
