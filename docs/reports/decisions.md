@@ -172,3 +172,13 @@ Hostile Neural Networks (обходят гейты и упрощают фарм)
 (обходит эндгейм), Apotheosis (запрещён), Embeddium/Rubidium Extra (Embeddium не обновлялся с 01.2025, Sodium на
 NeoForge официальный, Oculus сломал бы шейдеры), AutoModpack (rc; обновления уже делает packwiz).
 Не найдены, нужны ссылки: «Create: Lanterns», «Create LTAB».
+
+## 2026-10-21 — волна 15: аддоны Ars Nouveau (список ars.guide, ~100 шт.)
+Подходят 19, добавлено 13: Not Enough Glyphs (тянет Too Many Glyphs, Ars Omega, Ars Controle, Ars Trinkets, Ars Scalaes),
+Ars Skyweave Shader Fix (клиент), Crafting Terminal Improvements, Ars Polymorphia + Polymorph, Ars NumericHUD (клиент),
+Ars Ocultas, Ars Énergistique, Sophisticated Backpacks/Storage Ars Compat, Create: Ars Nouveau Compat (+Create Compat Core),
+StarbuncleMania, Ars Sable, Ars Nouveau's Flavors & Delight. Квесты: quests_spec/ars_addons.yaml (17, глава Ars).
+Не добавлены: Cat's Jewelry Tweaks (требует Apothic Attributes — семейство Apotheosis), Archwood Colonies (тянет Biomes O' Plenty);
+Skill Tree for Ars, Ars Mekanica, Reliquified Ars Nouveau (баланс не оценён), Ars Technica (пересекается с Ars Creo),
+компат Modular/Custom Machinery (своих машин на мане пока нет). Остальное — аддоны для модов, которых нет, «Use With Caution»,
+несовместимые, WIP или ретекстуры.

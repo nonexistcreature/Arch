@@ -12,7 +12,7 @@
 	quests: [
 		{
 			id: "653C10B3F4E99952"
-			x: 16.79d
+			x: 15.46d
 			y: 0.0d
 			shape: "gear"
 			icon: {
@@ -45,7 +45,7 @@
 		}
 		{
 			id: "22E3A91D0CD8AF70"
-			x: 7.02d
+			x: 7.9d
 			y: 2.0d
 			icon: {
 				id: "ars_nouveau:source_gem"
@@ -68,7 +68,7 @@
 		}
 		{
 			id: "2EA1CE047C193DCE"
-			x: -7.74d
+			x: -2.01d
 			y: 4.0d
 			icon: {
 				id: "ars_nouveau:scribes_table"
@@ -90,7 +90,7 @@
 		}
 		{
 			id: "5664F89936D9EBEF"
-			x: 7.21d
+			x: 9.82d
 			y: 4.0d
 			icon: {
 				id: "ars_nouveau:source_jar"
@@ -112,7 +112,7 @@
 		}
 		{
 			id: "7055B3AF6E8AB129"
-			x: 1.27d
+			x: 4.31d
 			y: 6.0d
 			shape: "hexagon"
 			icon: {
@@ -135,7 +135,7 @@
 		}
 		{
 			id: "285AF3BB0E17A1D1"
-			x: 2.77d
+			x: 5.81d
 			y: 6.0d
 			icon: {
 				id: "ars_nouveau:agronomic_sourcelink"
@@ -158,7 +158,7 @@
 		}
 		{
 			id: "339F37A57CCF42F6"
-			x: 8.77d
+			x: 11.81d
 			y: 6.0d
 			icon: {
 				id: "ars_nouveau:enchanting_apparatus"
@@ -189,7 +189,7 @@
 		}
 		{
 			id: "728DE8639046E9C8"
-			x: -3.71d
+			x: -1.74d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:apprentice_spell_book"
@@ -218,7 +218,7 @@
 		}
 		{
 			id: "5005922F7F263D60"
-			x: -2.21d
+			x: 4.34d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:starbuncle_charm"
@@ -241,7 +241,7 @@
 		}
 		{
 			id: "07D1DF3649F23B99"
-			x: -11.62d
+			x: -12.45d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:ritual_flight"
@@ -272,7 +272,7 @@
 		}
 		{
 			id: "091A81DFA2C750F9"
-			x: -4.12d
+			x: -1.78d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:stable_warp_scroll"
@@ -295,7 +295,7 @@
 		}
 		{
 			id: "74DB104AC5A8EE45"
-			x: -7.12d
+			x: -3.28d
 			y: 10.0d
 			icon: {
 				id: "create:brass_casing"
@@ -315,7 +315,7 @@
 		}
 		{
 			id: "677C27BAE7F82E5C"
-			x: 19.52d
+			x: 17.22d
 			y: 2.0d
 			icon: {
 				id: "ars_nouveau:dowsing_rod"
@@ -338,7 +338,7 @@
 		}
 		{
 			id: "6B1AE1B499DAEBEF"
-			x: 11.31d
+			x: 7.39d
 			y: 4.0d
 			icon: {
 				id: "ars_nouveau:magebloom"
@@ -361,7 +361,7 @@
 		}
 		{
 			id: "2B62BAEEEC251847"
-			x: 6.86d
+			x: 7.59d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:fire_essence"
@@ -407,7 +407,7 @@
 		}
 		{
 			id: "641B4C6B4F82C9E9"
-			x: 17.31d
+			x: 16.39d
 			y: 4.0d
 			icon: {
 				id: "ars_nouveau:imbuement_chamber"
@@ -429,7 +429,7 @@
 		}
 		{
 			id: "03B748F649B91F40"
-			x: 4.27d
+			x: 7.31d
 			y: 6.0d
 			icon: {
 				id: "ars_nouveau:volcanic_sourcelink"
@@ -452,7 +452,7 @@
 		}
 		{
 			id: "58097CE85FFDA488"
-			x: 5.77d
+			x: 8.81d
 			y: 6.0d
 			icon: {
 				id: "ars_nouveau:vitalic_sourcelink"
@@ -475,7 +475,7 @@
 		}
 		{
 			id: "0FD04222AFCD4D58"
-			x: 7.27d
+			x: 10.31d
 			y: 6.0d
 			icon: {
 				id: "ars_nouveau:alchemical_sourcelink"
@@ -498,7 +498,7 @@
 		}
 		{
 			id: "7228CAAC64556133"
-			x: 16.2d
+			x: 19.31d
 			y: 6.0d
 			icon: {
 				id: "ars_nouveau:relay"
@@ -522,7 +522,7 @@
 		}
 		{
 			id: "6E24501F5DDB485C"
-			x: 7.98d
+			x: 8.72d
 			y: 10.0d
 			shape: "hexagon"
 			icon: {
@@ -553,7 +553,7 @@
 		}
 		{
 			id: "658707DB87E893AB"
-			x: -1.02d
+			x: 2.72d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:wixie_charm"
@@ -576,7 +576,7 @@
 		}
 		{
 			id: "6B966748AE6AB149"
-			x: 0.48d
+			x: 4.22d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:drygmy_charm"
@@ -599,7 +599,7 @@
 		}
 		{
 			id: "12E80AFF249EC3C8"
-			x: -5.62d
+			x: 1.22d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:whirlisprig_charm"
@@ -622,7 +622,7 @@
 		}
 		{
 			id: "0CD69A9B09F54808"
-			x: 15.22d
+			x: 20.76d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:ring_of_potential"
@@ -653,7 +653,7 @@
 		}
 		{
 			id: "09E9C69607F1C726"
-			x: 15.48d
+			x: 23.72d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:belt_of_levitation"
@@ -676,7 +676,7 @@
 		}
 		{
 			id: "75F214C699D14F96"
-			x: -2.62d
+			x: -0.28d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:wilden_horn"
@@ -715,7 +715,7 @@
 		}
 		{
 			id: "26441D1B5F1BFDE4"
-			x: 8.11d
+			x: 6.71d
 			y: 12.0d
 			icon: {
 				id: "ars_elemental:fire_focus"
@@ -737,8 +737,463 @@
 			]
 		}
 		{
+			id: "424D4B15E9A60621"
+			x: -22.36d
+			y: 8.0d
+			shape: "gear"
+			icon: {
+				id: "not_enough_glyphs:spell_binder"
+				count: 1
+			}
+			dependencies: [
+				"70EE5377275D6AD4"
+			]
+			tasks: [
+				{
+					id: "0735234B32955F9A"
+					type: "item"
+					item: {
+						count: 1
+						id: "not_enough_glyphs:spell_binder"
+					}
+				}
+			]
+		}
+		{
+			id: "711889423C929166"
+			x: -19.78d
+			y: 10.0d
+			icon: {
+				id: "not_enough_glyphs:glyph_contingency_health"
+				count: 1
+			}
+			dependencies: [
+				"424D4B15E9A60621"
+			]
+			tasks: [
+				{
+					id: "466A09F1D292A49E"
+					type: "item"
+					item: {
+						count: 1
+						id: "not_enough_glyphs:glyph_contingency_health"
+					}
+				}
+				{
+					id: "02E34F22CC3EF7D7"
+					type: "item"
+					item: {
+						count: 1
+						id: "not_enough_glyphs:glyph_contingency_fall"
+					}
+				}
+			]
+		}
+		{
+			id: "575E6E883605F48E"
+			x: -18.28d
+			y: 10.0d
+			icon: {
+				id: "not_enough_glyphs:glyph_plow"
+				count: 1
+			}
+			dependencies: [
+				"424D4B15E9A60621"
+			]
+			tasks: [
+				{
+					id: "01687F01C632D825"
+					type: "item"
+					item: {
+						count: 1
+						id: "not_enough_glyphs:glyph_plow"
+					}
+				}
+				{
+					id: "734EBA39751547EB"
+					type: "item"
+					item: {
+						count: 1
+						id: "not_enough_glyphs:glyph_feed"
+					}
+				}
+				{
+					id: "29076AE9338E1E4A"
+					type: "item"
+					item: {
+						count: 1
+						id: "not_enough_glyphs:glyph_ride"
+					}
+				}
+			]
+		}
+		{
+			id: "025E46AA4755D33C"
+			x: -30.09d
+			y: 10.0d
+			icon: {
+				id: "toomanyglyphs:glyph_filter_monster"
+				count: 1
+			}
+			dependencies: [
+				"424D4B15E9A60621"
+			]
+			tasks: [
+				{
+					id: "550A58E0E947E17C"
+					type: "item"
+					item: {
+						count: 1
+						id: "toomanyglyphs:glyph_filter_monster"
+					}
+				}
+				{
+					id: "577120E1DCA26E79"
+					type: "item"
+					item: {
+						count: 1
+						id: "toomanyglyphs:glyph_filter_player"
+					}
+				}
+				{
+					id: "752AD641E106E8A6"
+					type: "item"
+					item: {
+						count: 1
+						id: "toomanyglyphs:glyph_filter_animal"
+					}
+				}
+			]
+		}
+		{
+			id: "3B7C3A1DEC19C1AB"
+			x: -28.0d
+			y: 12.0d
+			icon: {
+				id: "toomanyglyphs:glyph_ray"
+				count: 1
+			}
+			dependencies: [
+				"025E46AA4755D33C"
+			]
+			tasks: [
+				{
+					id: "2CC46A0C05DFEB91"
+					type: "item"
+					item: {
+						count: 1
+						id: "toomanyglyphs:glyph_ray"
+					}
+				}
+				{
+					id: "6033616E91BA3E34"
+					type: "item"
+					item: {
+						count: 1
+						id: "toomanyglyphs:glyph_chaining"
+					}
+				}
+			]
+		}
+		{
+			id: "71550D45CA38F076"
+			x: -16.78d
+			y: 10.0d
+			icon: {
+				id: "not_enough_glyphs:thread_wild_magic"
+				count: 1
+			}
+			dependencies: [
+				"424D4B15E9A60621"
+			]
+			tasks: [
+				{
+					id: "17AF14D6A274D429"
+					type: "item"
+					item: {
+						count: 1
+						id: "not_enough_glyphs:thread_wild_magic"
+					}
+				}
+			]
+		}
+		{
+			id: "73C54DD3EB0AF0BD"
+			x: -32.72d
+			y: 8.0d
+			shape: "gear"
+			icon: {
+				id: "arseng:source_storage_cell_1k"
+				count: 1
+			}
+			dependencies: [
+				"4886C83968921E76"
+				"70EE5377275D6AD4"
+			]
+			tasks: [
+				{
+					id: "503D289341A06130"
+					type: "item"
+					item: {
+						count: 1
+						id: "arseng:source_storage_cell_1k"
+					}
+				}
+			]
+		}
+		{
+			id: "4422A3E0EF59DF0A"
+			x: -31.59d
+			y: 10.0d
+			icon: {
+				id: "arseng:me_source_jar"
+				count: 1
+			}
+			dependencies: [
+				"73C54DD3EB0AF0BD"
+			]
+			tasks: [
+				{
+					id: "7CD056C2305C5F9B"
+					type: "item"
+					item: {
+						count: 1
+						id: "arseng:me_source_jar"
+					}
+				}
+				{
+					id: "50992AB48786B550"
+					type: "item"
+					item: {
+						count: 1
+						id: "arseng:source_acceptor"
+					}
+				}
+			]
+		}
+		{
+			id: "63FA1478939AFF94"
+			x: -29.5d
+			y: 12.0d
+			icon: {
+				id: "arseng:source_p2p_tunnel"
+				count: 1
+			}
+			dependencies: [
+				"4422A3E0EF59DF0A"
+			]
+			tasks: [
+				{
+					id: "24EC534E1EB725E3"
+					type: "item"
+					item: {
+						count: 1
+						id: "arseng:source_p2p_tunnel"
+					}
+				}
+			]
+		}
+		{
+			id: "50C334BE9A6C5439"
+			x: 11.72d
+			y: 10.0d
+			shape: "gear"
+			icon: {
+				id: "starbunclemania:fluid_jar"
+				count: 1
+			}
+			dependencies: [
+				"5005922F7F263D60"
+			]
+			tasks: [
+				{
+					id: "188DC3AD8F0E63D9"
+					type: "item"
+					item: {
+						count: 1
+						id: "starbunclemania:fluid_jar"
+					}
+				}
+			]
+		}
+		{
+			id: "278B07FBF70634AA"
+			x: 8.21d
+			y: 12.0d
+			icon: {
+				id: "starbunclemania:star_bucket"
+				count: 1
+			}
+			dependencies: [
+				"50C334BE9A6C5439"
+			]
+			tasks: [
+				{
+					id: "1EEF6445D3658E80"
+					type: "item"
+					item: {
+						count: 1
+						id: "starbunclemania:star_bucket"
+					}
+				}
+				{
+					id: "4D80B3FA5382F76B"
+					type: "item"
+					item: {
+						count: 1
+						id: "starbunclemania:star_battery"
+					}
+				}
+			]
+		}
+		{
+			id: "53A1B9D6A791F9BF"
+			x: 9.71d
+			y: 12.0d
+			icon: {
+				id: "starbunclemania:source_condenser"
+				count: 1
+			}
+			dependencies: [
+				"50C334BE9A6C5439"
+			]
+			tasks: [
+				{
+					id: "7834EFCAA651CE8E"
+					type: "item"
+					item: {
+						count: 1
+						id: "starbunclemania:source_condenser"
+					}
+				}
+			]
+		}
+		{
+			id: "1C51014F83D00FD6"
+			x: 14.21d
+			y: 12.0d
+			icon: {
+				id: "starbunclemania:cooking_pot_wixie_cauldron"
+				count: 1
+			}
+			dependencies: [
+				"50C334BE9A6C5439"
+				"5238FD9DA6380669"
+			]
+			tasks: [
+				{
+					id: "1ED5F47A7B9D4795"
+					type: "item"
+					item: {
+						count: 1
+						id: "starbunclemania:cooking_pot_wixie_cauldron"
+					}
+				}
+			]
+		}
+		{
+			id: "6BA59845CD6161C5"
+			x: -6.24d
+			y: 8.0d
+			icon: {
+				id: "ars_ocultas:altar"
+				count: 1
+			}
+			dependencies: [
+				"3249B651AE7FF470"
+				"70EE5377275D6AD4"
+			]
+			tasks: [
+				{
+					id: "7D035176951CD090"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_ocultas:altar"
+					}
+				}
+			]
+		}
+		{
+			id: "0678D85BACBFCC71"
+			x: -4.74d
+			y: 8.0d
+			icon: {
+				id: "arsdelight:enchanters_knife"
+				count: 1
+			}
+			dependencies: [
+				"70EE5377275D6AD4"
+				"5238FD9DA6380669"
+			]
+			tasks: [
+				{
+					id: "689AB4155C6EA33D"
+					type: "item"
+					item: {
+						count: 1
+						id: "arsdelight:enchanters_knife"
+					}
+				}
+			]
+		}
+		{
+			id: "3EA7884EAEAF0087"
+			x: -3.24d
+			y: 8.0d
+			icon: {
+				id: "arssophisticatedcompat:magic_backpack_upgrade_template"
+				count: 1
+			}
+			dependencies: [
+				"5FDAC3643835B9B1"
+				"70EE5377275D6AD4"
+			]
+			tasks: [
+				{
+					id: "228E67DD265EBCEE"
+					type: "item"
+					item: {
+						count: 1
+						id: "arssophisticatedcompat:magic_backpack_upgrade_template"
+					}
+				}
+				{
+					id: "172FD0CF57863359"
+					type: "item"
+					item: {
+						count: 1
+						id: "arssophisticatedcompat:source_storage_upgrade"
+					}
+				}
+			]
+		}
+		{
+			id: "410E23A4A7148203"
+			x: -0.24d
+			y: 8.0d
+			icon: {
+				id: "ars_sable:glyph_miniaturize"
+				count: 1
+			}
+			dependencies: [
+				"70EE5377275D6AD4"
+				"3AB03905AB6EF5E3"
+			]
+			tasks: [
+				{
+					id: "4F46FD30F4B42BBD"
+					type: "item"
+					item: {
+						count: 1
+						id: "ars_sable:glyph_miniaturize"
+					}
+				}
+			]
+		}
+		{
 			id: "4E176049191FFEEA"
-			x: 23.81d
+			x: 21.27d
 			y: 2.0d
 			icon: {
 				id: "ars_nouveau:novice_spell_book"
@@ -756,7 +1211,7 @@
 		}
 		{
 			id: "42E6307F696C36A1"
-			x: 18.81d
+			x: 22.39d
 			y: 4.0d
 			icon: {
 				id: "ars_nouveau:sourceberry_bush"
@@ -778,7 +1233,7 @@
 		}
 		{
 			id: "13E932A95A85C46D"
-			x: 20.31d
+			x: 26.89d
 			y: 4.0d
 			icon: {
 				id: "ars_nouveau:blue_archwood_log"
@@ -801,7 +1256,7 @@
 		}
 		{
 			id: "70EE5377275D6AD4"
-			x: -22.82d
+			x: -14.18d
 			y: 6.0d
 			icon: {
 				id: "ars_nouveau:blank_glyph"
@@ -823,7 +1278,7 @@
 		}
 		{
 			id: "1920413ABE5E39A6"
-			x: 27.22d
+			x: 31.26d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:relay_splitter"
@@ -845,7 +1300,7 @@
 		}
 		{
 			id: "4FDB9D9557C77EE0"
-			x: 22.98d
+			x: 28.22d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:relay_warp"
@@ -867,7 +1322,7 @@
 		}
 		{
 			id: "045E4DF07ADA97A8"
-			x: 2.79d
+			x: 5.84d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:source_jar"
@@ -894,7 +1349,7 @@
 		}
 		{
 			id: "1D1D4E99997FB1CE"
-			x: 17.7d
+			x: 16.31d
 			y: 6.0d
 			icon: {
 				id: "ars_nouveau:arcane_pedestal"
@@ -917,7 +1372,7 @@
 		}
 		{
 			id: "206EE22AAE892841"
-			x: 19.72d
+			x: 23.76d
 			y: 8.0d
 			icon: {
 				id: "minecraft:enchanted_book"
@@ -939,7 +1394,7 @@
 		}
 		{
 			id: "2A1975EFA7DC9A10"
-			x: 19.98d
+			x: 22.22d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:spell_parchment"
@@ -961,7 +1416,7 @@
 		}
 		{
 			id: "6448B9F48E0F9798"
-			x: 5.36d
+			x: 13.09d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:basic_spell_turret"
@@ -983,7 +1438,7 @@
 		}
 		{
 			id: "752430A21D3E840F"
-			x: 3.48d
+			x: 7.22d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:rotating_spell_turret"
@@ -1005,7 +1460,7 @@
 		}
 		{
 			id: "2B34CDFC8809AFAA"
-			x: 13.98d
+			x: 20.72d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:spell_prism"
@@ -1027,7 +1482,7 @@
 		}
 		{
 			id: "104996AFE6559440"
-			x: 18.61d
+			x: 21.71d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:enchanters_sword"
@@ -1049,7 +1504,7 @@
 		}
 		{
 			id: "75B39896169E71E9"
-			x: 17.61d
+			x: 19.26d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:enchanters_shield"
@@ -1071,7 +1526,7 @@
 		}
 		{
 			id: "53F653AE1FF03B77"
-			x: 14.31d
+			x: 11.89d
 			y: 4.0d
 			icon: {
 				id: "ars_nouveau:enchanters_mirror"
@@ -1093,7 +1548,7 @@
 		}
 		{
 			id: "3C6D96AB50637D7A"
-			x: 16.11d
+			x: 17.76d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:spell_bow"
@@ -1115,7 +1570,7 @@
 		}
 		{
 			id: "037246CB240983F6"
-			x: 12.86d
+			x: 16.21d
 			y: 16.0d
 			icon: {
 				id: "ars_nouveau:spell_crossbow"
@@ -1137,7 +1592,7 @@
 		}
 		{
 			id: "172486C0A007A2F5"
-			x: 19.11d
+			x: 20.76d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:enchanters_gauntlet"
@@ -1159,7 +1614,7 @@
 		}
 		{
 			id: "21A3B8E069D5C396"
-			x: 15.81d
+			x: 13.39d
 			y: 4.0d
 			icon: {
 				id: "ars_nouveau:enchanters_fishing_rod"
@@ -1181,7 +1636,7 @@
 		}
 		{
 			id: "29EB7A6F200629F9"
-			x: 19.33d
+			x: 21.85d
 			y: 6.0d
 			icon: {
 				id: "ars_nouveau:potion_flask"
@@ -1203,7 +1658,7 @@
 		}
 		{
 			id: "154416231C2F76E8"
-			x: 16.72d
+			x: 19.26d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:splash_flask_cannon"
@@ -1225,7 +1680,7 @@
 		}
 		{
 			id: "6E59CE5F5C83E272"
-			x: 18.22d
+			x: 22.26d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:potion_jar"
@@ -1255,7 +1710,7 @@
 		}
 		{
 			id: "633AA32EA34D7061"
-			x: 18.48d
+			x: 19.22d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:jump_ring"
@@ -1277,7 +1732,7 @@
 		}
 		{
 			id: "279AB0FC8F611A73"
-			x: 12.48d
+			x: 17.72d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:amulet_of_mana_regen"
@@ -1299,7 +1754,7 @@
 		}
 		{
 			id: "59E1AE454D70F39B"
-			x: 16.98d
+			x: 26.72d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:ring_of_lesser_discount"
@@ -1321,7 +1776,7 @@
 		}
 		{
 			id: "6E14FFA9CCE9A7CE"
-			x: 14.11d
+			x: 23.21d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:belt_of_unstable_gifts"
@@ -1343,7 +1798,7 @@
 		}
 		{
 			id: "7E13C03E04ADD748"
-			x: 6.48d
+			x: 16.22d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:dominion_wand"
@@ -1365,7 +1820,7 @@
 		}
 		{
 			id: "0E5FE0A30306EC2F"
-			x: 5.11d
+			x: 15.71d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:allow_scroll"
@@ -1395,7 +1850,7 @@
 		}
 		{
 			id: "4F1E2023AFA94234"
-			x: 20.83d
+			x: 26.72d
 			y: 6.0d
 			icon: {
 				id: "ars_nouveau:repository"
@@ -1418,7 +1873,7 @@
 		}
 		{
 			id: "28F0FA2905918F94"
-			x: 21.22d
+			x: 28.26d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:storage_lectern"
@@ -1440,7 +1895,7 @@
 		}
 		{
 			id: "23BFF9C277F8C594"
-			x: 24.48d
+			x: 29.72d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:bookwyrm_charm"
@@ -1462,7 +1917,7 @@
 		}
 		{
 			id: "3839B36CEF452636"
-			x: 25.98d
+			x: 31.22d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:repository_controller"
@@ -1484,7 +1939,7 @@
 		}
 		{
 			id: "3CAD5052819B777C"
-			x: 27.48d
+			x: 32.72d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:item_detector"
@@ -1506,7 +1961,7 @@
 		}
 		{
 			id: "2EE3E2A5CC03A321"
-			x: 8.36d
+			x: 9.09d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:alteration_table"
@@ -1528,7 +1983,7 @@
 		}
 		{
 			id: "07FFE018E9BEFB8C"
-			x: 10.98d
+			x: 13.22d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:sorcerer_robes"
@@ -1574,7 +2029,7 @@
 		}
 		{
 			id: "01CAFE98321BB2D6"
-			x: 9.48d
+			x: 10.22d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:arcanist_robes"
@@ -1620,7 +2075,7 @@
 		}
 		{
 			id: "0CF962DA69866229"
-			x: 4.98d
+			x: 5.72d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:battlemage_robes"
@@ -1666,7 +2121,7 @@
 		}
 		{
 			id: "6F1261F9C2723A08"
-			x: 11.11d
+			x: 11.21d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:blank_thread"
@@ -1688,7 +2143,7 @@
 		}
 		{
 			id: "16BB5DC8FD9AC769"
-			x: -16.41d
+			x: -14.8d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:ritual_awakening"
@@ -1710,7 +2165,7 @@
 		}
 		{
 			id: "1E0AC6CFD51CC217"
-			x: -0.89d
+			x: 0.71d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:ritual_binding"
@@ -1732,7 +2187,7 @@
 		}
 		{
 			id: "070432BFD467ACDA"
-			x: -6.39d
+			x: -4.74d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:ritual_containment"
@@ -1762,7 +2217,7 @@
 		}
 		{
 			id: "5832947FD82D4604"
-			x: -26.86d
+			x: -25.56d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:ritual_sunrise"
@@ -1784,7 +2239,7 @@
 		}
 		{
 			id: "0417263A3AAB284F"
-			x: -22.89d
+			x: -21.24d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:ritual_moonfall"
@@ -1806,7 +2261,7 @@
 		}
 		{
 			id: "7CD13204170C4C96"
-			x: -27.0d
+			x: -25.35d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:ritual_cloudshaping"
@@ -1828,7 +2283,7 @@
 		}
 		{
 			id: "378A386846920E3B"
-			x: -13.41d
+			x: -11.8d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:ritual_overgrowth"
@@ -1850,7 +2305,7 @@
 		}
 		{
 			id: "3F90ABC846576DB6"
-			x: -13.89d
+			x: -12.24d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:ritual_harvest"
@@ -1872,7 +2327,7 @@
 		}
 		{
 			id: "5461E590E1F01494"
-			x: -12.39d
+			x: -10.74d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:ritual_fertility"
@@ -1894,7 +2349,7 @@
 		}
 		{
 			id: "7D1EECCF6E402A55"
-			x: -9.39d
+			x: -7.74d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:ritual_forestation"
@@ -1916,7 +2371,7 @@
 		}
 		{
 			id: "5CAEC38CBEDFE5F6"
-			x: 3.61d
+			x: 2.21d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:ritual_restoration"
@@ -1938,7 +2393,7 @@
 		}
 		{
 			id: "7663D1448EE06D9C"
-			x: 2.61d
+			x: 4.26d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:ritual_sanctuary"
@@ -1960,7 +2415,7 @@
 		}
 		{
 			id: "591A5B36BD57EC66"
-			x: -11.31d
+			x: -10.0d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:ritual_scrying"
@@ -1982,7 +2437,7 @@
 		}
 		{
 			id: "5B201DF395D5CCC4"
-			x: -7.89d
+			x: -6.24d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:ritual_burrowing"
@@ -2004,7 +2459,7 @@
 		}
 		{
 			id: "231E10FEAEB1BFC8"
-			x: 3.86d
+			x: 5.71d
 			y: 16.0d
 			icon: {
 				id: "ars_nouveau:ritual_disintegration"
@@ -2026,7 +2481,7 @@
 		}
 		{
 			id: "7DB905138567A025"
-			x: -14.91d
+			x: -13.3d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:ritual_gravity"
@@ -2048,7 +2503,7 @@
 		}
 		{
 			id: "66C04B592F90514C"
-			x: -24.69d
+			x: -23.53d
 			y: 16.0d
 			icon: {
 				id: "ars_nouveau:ritual_conjure_island_plains"
@@ -2070,7 +2525,7 @@
 		}
 		{
 			id: "18A1689A31C40F63"
-			x: -2.39d
+			x: -0.79d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:ritual_challenge"
@@ -2092,7 +2547,7 @@
 		}
 		{
 			id: "0C5E869F026825FF"
-			x: -8.39d
+			x: -6.79d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:ritual_warping"
@@ -2114,7 +2569,7 @@
 		}
 		{
 			id: "530BC067BF6E1EA5"
-			x: -21.39d
+			x: -19.74d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:brazier_relay"
@@ -2136,7 +2591,7 @@
 		}
 		{
 			id: "13E8B84B96C128B0"
-			x: 4.11d
+			x: 7.26d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:amethyst_golem_charm"
@@ -2158,7 +2613,7 @@
 		}
 		{
 			id: "077E63FB066093F8"
-			x: -19.89d
+			x: -18.24d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:green_archwood_sapling"
@@ -2176,7 +2631,7 @@
 		}
 		{
 			id: "53B1B43E512492DB"
-			x: 2.11d
+			x: 5.21d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:alakarkinos_charm"
@@ -2198,7 +2653,7 @@
 		}
 		{
 			id: "022E4B84065E57CF"
-			x: 5.61d
+			x: 8.76d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:familiar_starbuncle"
@@ -2216,7 +2671,7 @@
 		}
 		{
 			id: "6197C666E8AD149F"
-			x: 21.81d
+			x: 17.89d
 			y: 4.0d
 			icon: {
 				id: "ars_nouveau:sconce"
@@ -2239,7 +2694,7 @@
 		}
 		{
 			id: "0DDF4F22665E681A"
-			x: 0.22d
+			x: 1.26d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:mirrorweave"
@@ -2262,7 +2717,7 @@
 		}
 		{
 			id: "24A8B12CEC2DAE22"
-			x: 9.61d
+			x: 12.71d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:portal"
@@ -2284,7 +2739,7 @@
 		}
 		{
 			id: "06B2954D508D8530"
-			x: 7.11d
+			x: 10.26d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:planarium"
@@ -2306,7 +2761,7 @@
 		}
 		{
 			id: "2A4234012CF07503"
-			x: -10.89d
+			x: -9.24d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:scryers_crystal"
@@ -2336,7 +2791,7 @@
 		}
 		{
 			id: "3A0AA55BF72A51A3"
-			x: 3.9d
+			x: 6.15d
 			y: 18.0d
 			shape: "hexagon"
 			icon: {
@@ -2370,7 +2825,7 @@
 		}
 		{
 			id: "78BDF73412328DE7"
-			x: -21.3d
+			x: -18.94d
 			y: 8.0d
 			shape: "gear"
 			icon: {
@@ -2409,7 +2864,7 @@
 		}
 		{
 			id: "24D0209C3889558D"
-			x: -23.52d
+			x: -22.38d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:glyph_break"
@@ -2431,7 +2886,7 @@
 		}
 		{
 			id: "2540AEFB991B8860"
-			x: -29.48d
+			x: -28.49d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:glyph_harm"
@@ -2461,7 +2916,7 @@
 		}
 		{
 			id: "6D83861EB1C2C0DE"
-			x: -32.31d
+			x: -31.0d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:glyph_ignite"
@@ -2499,7 +2954,7 @@
 		}
 		{
 			id: "3CC0C102FF6C2B49"
-			x: -30.39d
+			x: -28.74d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:glyph_explosion"
@@ -2521,7 +2976,7 @@
 		}
 		{
 			id: "160F8912F1DEB75E"
-			x: -14.62d
+			x: -10.95d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:glyph_blink"
@@ -2559,7 +3014,7 @@
 		}
 		{
 			id: "57F419C894D0DECF"
-			x: -13.12d
+			x: -9.45d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:glyph_amplify"
@@ -2605,7 +3060,7 @@
 		}
 		{
 			id: "22F729FD1B39A859"
-			x: -23.39d
+			x: -21.79d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:glyph_summon_wolves"
@@ -2627,7 +3082,7 @@
 		}
 		{
 			id: "15A355AA90D78334"
-			x: -21.89d
+			x: -20.29d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:glyph_harvest"
@@ -2649,7 +3104,7 @@
 		}
 		{
 			id: "1238C80D9EC2A5D3"
-			x: 1.98d
+			x: 14.72d
 			y: 10.0d
 			icon: {
 				id: "ars_nouveau:spell_turret"
@@ -2679,7 +3134,7 @@
 		}
 		{
 			id: "7CCE4C089A5ABF74"
-			x: 22.72d
+			x: 25.26d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:potion_diffuser"
@@ -2701,7 +3156,7 @@
 		}
 		{
 			id: "5A4EE7B1B71B9F8D"
-			x: 25.72d
+			x: 26.76d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:alchemists_crown"
@@ -2723,7 +3178,7 @@
 		}
 		{
 			id: "1C230EF38756757A"
-			x: 0.61d
+			x: 3.71d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:wixie_cauldron"
@@ -2745,7 +3200,7 @@
 		}
 		{
 			id: "1ABCE6C2DF8B63F4"
-			x: 11.74d
+			x: 13.31d
 			y: 6.0d
 			icon: {
 				id: "ars_nouveau:void_jar"
@@ -2767,7 +3222,7 @@
 		}
 		{
 			id: "6DF2C63B3937AA32"
-			x: 12.22d
+			x: 14.76d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:relay_collector"
@@ -2797,7 +3252,7 @@
 		}
 		{
 			id: "6073DD8DA99D4B2C"
-			x: 23.31d
+			x: 14.89d
 			y: 4.0d
 			icon: {
 				id: "ars_nouveau:enchanters_eye"
@@ -2819,7 +3274,7 @@
 		}
 		{
 			id: "41A90AAC146322F0"
-			x: 15.61d
+			x: 24.71d
 			y: 12.0d
 			icon: {
 				id: "ars_nouveau:ring_of_greater_discount"
@@ -2841,7 +3296,7 @@
 		}
 		{
 			id: "558805074661EC74"
-			x: 24.81d
+			x: 19.39d
 			y: 4.0d
 			icon: {
 				id: "ars_nouveau:caster_tome"
@@ -2863,7 +3318,7 @@
 		}
 		{
 			id: "7C59D9611D40FC57"
-			x: -0.39d
+			x: 1.26d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:summon_focus"
@@ -2893,7 +3348,7 @@
 		}
 		{
 			id: "2EC8A3954F9FC6E0"
-			x: 26.31d
+			x: 20.89d
 			y: 4.0d
 			icon: {
 				id: "ars_nouveau:wand"
@@ -2915,7 +3370,7 @@
 		}
 		{
 			id: "31569837C9CFDD87"
-			x: 22.33d
+			x: 17.81d
 			y: 6.0d
 			icon: {
 				id: "ars_nouveau:jar_of_light"
@@ -2937,7 +3392,7 @@
 		}
 		{
 			id: "3E82992E5804F7A8"
-			x: -9.69d
+			x: -8.53d
 			y: 16.0d
 			icon: {
 				id: "ars_nouveau:scryer_scroll"
@@ -2959,7 +3414,7 @@
 		}
 		{
 			id: "4613034D1CED05E8"
-			x: 13.11d
+			x: 13.26d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:thread_spellpower"
@@ -2989,7 +3444,7 @@
 		}
 		{
 			id: "36959042C74C2998"
-			x: -18.39d
+			x: -16.74d
 			y: 14.0d
 			icon: {
 				id: "ars_nouveau:ritual_flowering"
@@ -3019,7 +3474,7 @@
 		}
 		{
 			id: "28E0B185EB26A742"
-			x: 27.81d
+			x: 23.89d
 			y: 4.0d
 			icon: {
 				id: "ars_nouveau:annotated_codex"
@@ -3041,7 +3496,7 @@
 		}
 		{
 			id: "62C5D2015F490B69"
-			x: 24.22d
+			x: 29.76d
 			y: 8.0d
 			icon: {
 				id: "ars_nouveau:experience_gem"
@@ -3063,7 +3518,7 @@
 		}
 		{
 			id: "347F018C6B91F9BC"
-			x: 10.11d
+			x: 14.76d
 			y: 14.0d
 			icon: {
 				id: "ars_elemental:earth_focus"
@@ -3109,7 +3564,7 @@
 		}
 		{
 			id: "03F9260A3FA3CB96"
-			x: 1.11d
+			x: 2.76d
 			y: 14.0d
 			icon: {
 				id: "ars_elemental:lesser_fire_focus"
@@ -3131,7 +3586,7 @@
 		}
 		{
 			id: "7D1F095AD4ABA1DF"
-			x: 5.36d
+			x: 7.21d
 			y: 16.0d
 			icon: {
 				id: "ars_elemental:fire_chestplate"
@@ -3177,7 +3632,7 @@
 		}
 		{
 			id: "5D6F9FA45F7FED07"
-			x: 5.4d
+			x: 7.65d
 			y: 18.0d
 			icon: {
 				id: "ars_elemental:mark_of_mastery"
@@ -3199,7 +3654,7 @@
 		}
 		{
 			id: "29098A9D3DEF7117"
-			x: 6.86d
+			x: 8.71d
 			y: 16.0d
 			icon: {
 				id: "ars_elemental:fire_caster_tome"
@@ -3221,7 +3676,7 @@
 		}
 		{
 			id: "1F70B8398072528F"
-			x: 2.36d
+			x: 14.71d
 			y: 16.0d
 			icon: {
 				id: "ars_elemental:fire_turret"
@@ -3244,7 +3699,7 @@
 		}
 		{
 			id: "0CD713B012CA7C05"
-			x: 8.36d
+			x: 10.21d
 			y: 16.0d
 			icon: {
 				id: "ars_elemental:base_bangle"
@@ -3274,7 +3729,7 @@
 		}
 		{
 			id: "4C88B5097924F8FC"
-			x: 8.61d
+			x: 5.76d
 			y: 14.0d
 			icon: {
 				id: "ars_elemental:siren_charm"
@@ -3312,7 +3767,7 @@
 		}
 		{
 			id: "4DA14F02A0A0674D"
-			x: 9.86d
+			x: 11.71d
 			y: 16.0d
 			icon: {
 				id: "ars_elemental:spell_horn"
@@ -3334,7 +3789,7 @@
 		}
 		{
 			id: "4D6E63F0811169A9"
-			x: 11.61d
+			x: 11.76d
 			y: 14.0d
 			icon: {
 				id: "ars_elemental:caster_bag"
@@ -3356,7 +3811,7 @@
 		}
 		{
 			id: "706F4F1C750EA3CA"
-			x: 12.61d
+			x: 20.21d
 			y: 12.0d
 			icon: {
 				id: "ars_elemental:homing_prism_lens"
@@ -3386,7 +3841,7 @@
 		}
 		{
 			id: "14443E04F2A6B4D0"
-			x: 13.72d
+			x: 16.26d
 			y: 8.0d
 			icon: {
 				id: "ars_elemental:fire_relay"
@@ -3408,7 +3863,7 @@
 		}
 		{
 			id: "258CC9B74CCF9708"
-			x: 11.36d
+			x: 13.21d
 			y: 16.0d
 			icon: {
 				id: "ars_elemental:glyph_spark"
@@ -3454,7 +3909,7 @@
 		}
 		{
 			id: "1D06571D72F4825A"
-			x: 17.11d
+			x: 18.71d
 			y: 12.0d
 			icon: {
 				id: "ars_additions:undying_charm"
@@ -3492,7 +3947,7 @@
 		}
 		{
 			id: "1E356454A2DDCB4D"
-			x: 14.61d
+			x: 16.26d
 			y: 14.0d
 			icon: {
 				id: "ars_additions:fire_resistance_charm"
@@ -3522,7 +3977,7 @@
 		}
 		{
 			id: "24F607E78EFCAB56"
-			x: -6.89d
+			x: -5.29d
 			y: 12.0d
 			icon: {
 				id: "ars_additions:warp_index"
@@ -3552,7 +4007,7 @@
 		}
 		{
 			id: "62271614A8A5B8C8"
-			x: -5.39d
+			x: -3.79d
 			y: 12.0d
 			icon: {
 				id: "ars_additions:wayfinder"
@@ -3574,7 +4029,7 @@
 		}
 		{
 			id: "476D450609D18739"
-			x: 29.31d
+			x: 25.39d
 			y: 4.0d
 			icon: {
 				id: "ars_additions:handy_haversack"
@@ -3596,7 +4051,7 @@
 		}
 		{
 			id: "753E0CB331EFBAE3"
-			x: 21.48d
+			x: 25.22d
 			y: 10.0d
 			icon: {
 				id: "ars_additions:xp_jar"
@@ -3626,7 +4081,7 @@
 		}
 		{
 			id: "6C977C2FD51BD227"
-			x: 13.24d
+			x: 14.81d
 			y: 6.0d
 			icon: {
 				id: "ars_additions:source_spawner"
@@ -3648,7 +4103,7 @@
 		}
 		{
 			id: "405000651C767FEE"
-			x: 30.81d
+			x: 28.39d
 			y: 4.0d
 			icon: {
 				id: "ars_additions:unstable_reliquary"
@@ -3670,7 +4125,7 @@
 		}
 		{
 			id: "3746C02161AE6FB0"
-			x: 6.61d
+			x: 17.21d
 			y: 12.0d
 			icon: {
 				id: "ars_additions:advanced_dominion_wand"
@@ -3692,7 +4147,7 @@
 		}
 		{
 			id: "140369FB899A7FE5"
-			x: -16.89d
+			x: -15.24d
 			y: 14.0d
 			icon: {
 				id: "ars_additions:ritual_chunk_loading"
@@ -3722,7 +4177,7 @@
 		}
 		{
 			id: "4597D4398D1C2E76"
-			x: 32.31d
+			x: 29.89d
 			y: 4.0d
 			icon: {
 				id: "ars_additions:memory_crystal"

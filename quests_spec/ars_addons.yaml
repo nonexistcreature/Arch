@@ -1,0 +1,121 @@
+# Ars Nouveau addons (wave 15, 2026-10-21): Not Enough Glyphs (+ bundled glyph packs), Ars Énergistique,
+# StarbuncleMania, Ars Ocultas, Ars Delight, Sophisticated Ars compat, Ars Sable. Texts: each addon's lang/notebook
+# pages; our «why» lines where the mod has no description.
+extends: ars
+lang: [not_enough_glyphs, arseng, starbunclemania, ars_ocultas, arsdelight, arssophisticatedcompat, ars_sable, ars_nouveau]
+autodoc: ["{ns}.glyph_desc.{path}", "{ns}.page.{path}", "{ns}.page1.{path}", "{ns}.perk_desc.{path}",
+  "{ns}.adv.desc.{path}", "item.{ns}.{path}.tooltip"]
+out: ars_addons_gen
+quests:
+  # --- Not Enough Glyphs and the glyph packs it bundles
+  - id: arsx_spell_binder
+    title: {ru: "Сборник заклинаний", en: 'Spell Binder'}
+    deps: [arsg_glyph]
+    roles: [mage]
+    shape: gear
+    items: [not_enough_glyphs:spell_binder]
+    doc: page.spell_binder
+    why: {ru: "Сборник заклинаний: кладёшь внутрь свитки и тома и колдуешь их через круговое меню, как из книги. Удобно держать боевой и рабочий наборы отдельно.", en: "Cast from parchments and caster tomes stored inside, through the radial menu."}
+  - id: arsx_contingency
+    deps: [arsx_spell_binder]
+    roles: [mage, warrior]
+    items: [not_enough_glyphs:glyph_contingency_health, not_enough_glyphs:glyph_contingency_fall]
+    title: {ru: "Глифы-страховки", en: "Contingency Glyphs"}
+    why: {ru: "Заклинание срабатывает само, когда случается беда: здоровье упало ниже порога, ты падаешь и так далее. Повесь на себя исцеление или скачок и забудь.", en: "The spell fires by itself when something goes wrong: low health, a fall and so on."}
+  - id: arsx_utility_glyphs
+    deps: [arsx_spell_binder]
+    roles: [mage, gardener]
+    items: [not_enough_glyphs:glyph_plow, not_enough_glyphs:glyph_feed, not_enough_glyphs:glyph_ride]
+    title: {ru: "Глифы на каждый день", en: "Everyday Glyphs"}
+    why: {ru: "«Вспашка» работает как мотыга по площади, «Накормить» скармливает цели еду из твоего инвентаря, «Оседлать» сажает тебя верхом на существо (управлять им нельзя).", en: "Plow works like a hoe, Feed feeds the target from your inventory, Ride mounts you on a creature."}
+  - id: arsx_filters
+    deps: [arsx_spell_binder]
+    roles: [mage]
+    items: [toomanyglyphs:glyph_filter_monster, toomanyglyphs:glyph_filter_player, toomanyglyphs:glyph_filter_animal]
+    title: {ru: "Фильтры целей", en: "Target Filters"}
+    why: {ru: "Фильтр ставят после формы: дальше по цепочке эффект действует только на монстров, только на игроков или только на животных. Так площадное лечение не лечит врагов, а взрыв не задевает друзей.", en: "After a form, the following effects only hit monsters, players or animals."}
+  - id: arsx_ray_chain
+    deps: [arsx_filters]
+    roles: [mage, warrior]
+    items: [toomanyglyphs:glyph_ray, toomanyglyphs:glyph_chaining]
+    title: {ru: "Луч и цепь", en: "Ray and Chaining"}
+    why: {ru: "«Луч» бьёт мгновенно по прямой, «Цепь» перескакивает с цели на соседние. Вместе с фильтром «только монстры» это лучший способ чистить толпы, не задевая своих.", en: "Ray hits instantly in a line, Chaining jumps to nearby targets."}
+  - id: arsx_wild_magic
+    title: {ru: "Колесо фортуны", en: 'Wheel of Fortune'}
+    deps: [arsx_spell_binder]
+    roles: [mage]
+    items: [not_enough_glyphs:thread_wild_magic]
+    why: {ru: "Обложка для сборника заклинаний: иногда случайно добавляет к эффектам полезные усилители. Бесплатный бонус для тех, кто колдует много.", en: "A Spell Binder cover that sometimes adds random positive augments."}
+
+  # --- Ars Énergistique: Source in the ME network
+  - id: arsx_ae_source_cell
+    deps: [ae_network, arsg_glyph]
+    roles: [mage, engineer]
+    shape: gear
+    items: [arseng:source_storage_cell_1k]
+    why: {ru: "Ячейка МЭ, в которой хранится Source, а не предметы. Вставь её в привод: мана всей базы будет лежать в сети AE2 вместе с остальным.", en: "An ME cell that stores Source instead of items: keep the base's mana in AE2."}
+  - id: arsx_ae_source_jar
+    deps: [arsx_ae_source_cell]
+    roles: [mage, engineer]
+    items: [arseng:me_source_jar, arseng:source_acceptor]
+    title: {ru: "Сеть маны", en: "Source on the Network"}
+    why: {ru: "МЭ-сосуд работает как обычный сосуд Source, только берёт и отдаёт ману из сети AE2. Преобразователь Source принимает ману от реле и кладёт её в сеть. Ритуалы и аппараты в любой точке базы питаются из одного хранилища.", en: "The ME Source Jar draws from and feeds the AE2 network; the converter puts relayed Source into it."}
+  - id: arsx_ae_p2p
+    deps: [arsx_ae_source_jar]
+    roles: [mage, engineer]
+    items: [arseng:source_p2p_tunnel]
+    why: {ru: "P2P-туннель для маны: передаёт Source по сети AE2 на любое расстояние без цепочек реле.", en: "A P2P tunnel for Source: no relay chains across the base."}
+
+  # --- StarbuncleMania: fluids, energy and Wixie automation
+  - id: arsx_fluid_jar
+    title: {ru: "Сосуд для жидкостей", en: 'Fluid Jar'}
+    deps: [ars_starbuncle]
+    roles: [mage, engineer]
+    shape: gear
+    items: [starbunclemania:fluid_jar]
+    why: {ru: "Сосуд для жидкостей в духе Ars. С него начинается ветка StarbuncleMania: старбанклы учатся носить жидкости и энергию, а Source можно превращать в жидкость.", en: "A fluid jar; StarbuncleMania teaches Starbuncles to carry fluids and energy."}
+  - id: arsx_star_bucket
+    deps: [arsx_fluid_jar]
+    roles: [mage, engineer]
+    items: [starbunclemania:star_bucket, starbunclemania:star_battery]
+    title: {ru: "Старбанкл-водовоз и старбанкл-батарейка", en: "Starbucket and StarbAttery"}
+    why: {ru: "Отдай старбанклу «Старведро», и он будет переносить жидкости между сосудами. С «Старбатарейкой» он носит энергию. Труб не нужно, только точки «откуда» и «куда».", en: "Give a Starbuncle a Starbucket to move fluids, or a StarbAttery to move energy."}
+  - id: arsx_source_condenser
+    title: {ru: "Конденсатор Source", en: 'Source Condenser'}
+    deps: [arsx_fluid_jar]
+    roles: [mage, engineer]
+    items: [starbunclemania:source_condenser]
+    why: {ru: "Превращает Source в жидкость. Жидкую ману можно хранить в баках и гонять по трубам Create и Mekanism.", en: "Turns Source into a fluid you can pipe and store."}
+  - id: arsx_wixie_pot
+    title: {ru: "Кастрюля Уикси", en: 'Wixie''s Cooking Pot'}
+    deps: [arsx_fluid_jar, k_pot]
+    roles: [mage, cook]
+    items: [starbunclemania:cooking_pot_wixie_cauldron]
+    why: {ru: "Котёл Уикси в виде кастрюли Farmer's Delight: Уикси сама готовит блюда по рецептам кастрюли. Автоматическая кухня для тех, кто не хочет строить её на Create.", en: "A Wixie cauldron that cooks Farmer's Delight cooking pot recipes for you."}
+
+  # --- small bridges
+  - id: arsx_ocultas_altar
+    title: {ru: "Жертвенный алтарь", en: 'Sacrificial Altar'}
+    deps: [occ_chalk, arsg_glyph]
+    roles: [mage, alchemist]
+    items: [ars_ocultas:altar]
+    why: {ru: "Алтарь из связки Ars Nouveau и Occultism. Рецепт и что он делает, смотри в EMI (рецепты и применение алтаря).", en: "The Ars Nouveau and Occultism bridge altar; see EMI for its recipe and uses."}
+  - id: arsx_enchanters_knife
+    title: {ru: "Нож зачарователя", en: 'Enchanter''s Knife'}
+    deps: [arsg_glyph, k_pot]
+    roles: [mage, cook, warrior]
+    items: [arsdelight:enchanters_knife]
+    doc: page1.enchanters_knife
+    why: {ru: "Нож Farmer's Delight с заклинанием: перед ударом применяет записанное касание. Запиши в него эффект без формы (например, «Поджог → Продление»). В отличие от меча зачарователя, бесплатного «Усиления» не даёт.", en: "A Farmer's Delight knife that casts a Touch spell before each hit."}
+  - id: arsx_backpack_source
+    deps: [fs_backpack, arsg_glyph]
+    roles: [mage]
+    items: [arssophisticatedcompat:magic_backpack_upgrade_template, arssophisticatedcompat:source_storage_upgrade]
+    title: {ru: "Магический рюкзак", en: "Magic Backpack"}
+    why: {ru: "Улучшение рюкзака, которое хранит Source. Объём растёт вместе с улучшениями стака. Есть и «Улучшение зачарователя»: оно чинит зачарованные вещи в рюкзаке за 25 Source на единицу прочности.", en: "A backpack upgrade that stores Source; the Enchanter's Upgrade repairs enchanted gear for Source."}
+  - id: arsx_miniaturize
+    title: {ru: "Глиф «Уменьшение»", en: 'Miniaturize Glyph'}
+    deps: [arsg_glyph, cag_airship]
+    roles: [mage, engineer]
+    items: [ars_sable:glyph_miniaturize]
+    why: {ru: "Глиф «Уменьшение» превращает корабль или другую физическую постройку Sable в предмет, который потом можно поставить обратно в мир. Носи свой дирижабль в кармане.", en: "Turns a Sable sub-level (an airship) into an item you can place again."}

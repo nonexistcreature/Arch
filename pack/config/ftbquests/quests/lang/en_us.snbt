@@ -6665,6 +6665,82 @@
 	quest.26441D1B5F1BFDE4.quest_desc: [
 		"Ars Elemental: a school focus empowers spells of one element. Pick yours."
 	]
+	quest.424D4B15E9A60621.title: "Spell Binder"
+	quest.424D4B15E9A60621.quest_desc: [
+		"&lWhy:&r Cast from parchments and caster tomes stored inside, through the radial menu."
+		"An alternative to the traditional spellcasting, the Spell Binder is a tool that allows to cast spells from the spell parchemnts and caster tomes put inside it. The left side will hold the 10 spells for the radial menu (V), while the right side allow to keep additional 15 spells to switch when needed."
+	]
+	quest.711889423C929166.title: "Contingency Glyphs"
+	quest.711889423C929166.quest_desc: [
+		"&lWhy:&r The spell fires by itself when something goes wrong: low health, a fall and so on."
+		"The contingency will trigger after the target's health falls below a certain threshold, casting the spell contained within. Base at 20% and increases by 10% per Amplify."
+	]
+	quest.575E6E883605F48E.title: "Everyday Glyphs"
+	quest.575E6E883605F48E.quest_desc: [
+		"&lWhy:&r Plow works like a hoe, Feed feeds the target from your inventory, Ride mounts you on a creature."
+		"Simulate the use of an Hoe on blocks."
+	]
+	quest.025E46AA4755D33C.title: "Target Filters"
+	quest.025E46AA4755D33C.quest_desc: [
+		"&lWhy:&r After a form, the following effects only hit monsters, players or animals."
+	]
+	quest.3B7C3A1DEC19C1AB.title: "Ray and Chaining"
+	quest.3B7C3A1DEC19C1AB.quest_desc: [
+		"&lWhy:&r Ray hits instantly in a line, Chaining jumps to nearby targets."
+	]
+	quest.71550D45CA38F076.title: "Wheel of Fortune"
+	quest.71550D45CA38F076.quest_desc: [
+		"&lWhy:&r A Spell Binder cover that sometimes adds random positive augments."
+		"Cover Sigil for the Spell Binder. Will randomly add positive augments to effects of your spells when equipped."
+	]
+	quest.73C54DD3EB0AF0BD.title: "1k ME Source Storage Cell"
+	quest.73C54DD3EB0AF0BD.quest_desc: [
+		"&lWhy:&r An ME cell that stores Source instead of items: keep the base's mana in AE2."
+	]
+	quest.4422A3E0EF59DF0A.title: "Source on the Network"
+	quest.4422A3E0EF59DF0A.quest_desc: [
+		"&lWhy:&r The ME Source Jar draws from and feeds the AE2 network; the converter puts relayed Source into it."
+	]
+	quest.63FA1478939AFF94.title: "ME Source P2P Tunnel"
+	quest.63FA1478939AFF94.quest_desc: [
+		"&lWhy:&r A P2P tunnel for Source: no relay chains across the base."
+	]
+	quest.50C334BE9A6C5439.title: "Fluid Jar"
+	quest.50C334BE9A6C5439.quest_desc: [
+		"&lWhy:&r A fluid jar; StarbuncleMania teaches Starbuncles to carry fluids and energy."
+		"A tank made from cascading archwood logs that can hold up to 16 buckets of fluid. If used to store a potion fluid and a potion jar is placed above it, the fluid will be converted to the jar for flask/melding use."
+	]
+	quest.278B07FBF70634AA.title: "Starbucket and StarbAttery"
+	quest.278B07FBF70634AA.quest_desc: [
+		"&lWhy:&r Give a Starbuncle a Starbucket to move fluids, or a StarbAttery to move energy."
+		"Allows Starbuncles to transport fluids. Once wearing the accessory, use the Dominion wand to connect them between tanks."
+	]
+	quest.53A1B9D6A791F9BF.title: "Source Condenser"
+	quest.53A1B9D6A791F9BF.quest_desc: [
+		"&lWhy:&r Turns Source into a fluid you can pipe and store."
+		"Condense the Source from Jars into a stable fluid. Will automatically output to tanks below it if possible. A specific source can be linked to it with the Dominion Wand, pulling from all nearby jars otherwise."
+	]
+	quest.1C51014F83D00FD6.title: "Wixie's Cooking Pot"
+	quest.1C51014F83D00FD6.quest_desc: [
+		"&lWhy:&r A Wixie cauldron that cooks Farmer's Delight cooking pot recipes for you."
+	]
+	quest.6BA59845CD6161C5.title: "Sacrificial Altar"
+	quest.6BA59845CD6161C5.quest_desc: [
+		"&lWhy:&r The Ars Nouveau and Occultism bridge altar; see EMI for its recipe and uses."
+	]
+	quest.0678D85BACBFCC71.title: "Enchanter's Knife"
+	quest.0678D85BACBFCC71.quest_desc: [
+		"&lWhy:&r A Farmer's Delight knife that casts a Touch spell before each hit."
+	]
+	quest.3EA7884EAEAF0087.title: "Magic Backpack"
+	quest.3EA7884EAEAF0087.quest_desc: [
+		"&lWhy:&r A backpack upgrade that stores Source; the Enchanter's Upgrade repairs enchanted gear for Source."
+	]
+	quest.410E23A4A7148203.title: "Miniaturize Glyph"
+	quest.410E23A4A7148203.quest_desc: [
+		"&lWhy:&r Turns a Sable sub-level (an airship) into an item you can place again."
+		"Converts a targeted sublevel into an item that can be placed in the world."
+	]
 	quest.4E176049191FFEEA.title: "How Spellcasting Works"
 	quest.4E176049191FFEEA.quest_subtitle: "C to craft, X to switch, right click to cast"
 	quest.4E176049191FFEEA.quest_desc: [

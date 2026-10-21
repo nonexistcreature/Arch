@@ -1,0 +1,13 @@
+name = "Sophisticated Storage: Ars Compat | Sophisticated Storage Ars-Nouveau Compatibility"
+filename = "arssophisticatedstoragecompat-0.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1a5b5e262b577a0ffa015060bdfe610c0bc7ba01"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8655579
+project-id = 1653878

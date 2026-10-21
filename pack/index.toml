@@ -54,7 +54,7 @@ hash = "cbff76147b5bd7ba80ede84b1573a6a6a7f177796744402439b51a7091559283"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars.snbt"
-hash = "5d122cbd6eefb6591d47758c8d00ec9cfa972a8f252e5739cb4f9894e6f3d50d"
+hash = "30d1b86790366245ab592c4d78deb9e979efcc2725d967b686ca36b9e445da22"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/atom.snbt"
@@ -214,11 +214,11 @@ hash = "462be260324d4e1288a1a4476d4de0ec35126e18a4ce443be04df10d784560c5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "583b7d45671be981e5fa972d7ce479ff77de2d3e09975dd0665692b4f99f91f6"
+hash = "6de19b3ad3975ba35a75538ddc6712074f21a922a7f2313d0ab01c361cdd5c0a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "59c4882aac0c514add589680360f86f6c1a6f10311676716e51301538cd462d3"
+hash = "6a5f88146b50ad6220cad9aad477d4ce7a498ed54a3991e1d77c4b9139885510"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -1038,7 +1038,7 @@ hash = "0ccbc379bff5f35c379689fda157c19ba88be5d4af32a8ef9c9f189168fe9ccb"
 
 [[files]]
 file = "kubejs/server_scripts/generated/quest_ids.js"
-hash = "3da2feed819f16f34a53ba3d3a4bd19a3b18ef1be521c7c8055cf6e3ad7073af"
+hash = "378b4313b4635534441ef26c26b269de184d36ac115c1851ca05948392c995dd"
 
 [[files]]
 file = "kubejs/startup_scripts/alchemy_effects.js"
@@ -1153,8 +1153,48 @@ hash = "8e9f867e9c0ff53e08e779ae54fd1bbead92f1d7323b75369e64ade719d5d7c1"
 metafile = true
 
 [[files]]
+file = "mods/ars-energistique.pw.toml"
+hash = "8ad679c28c8d8ebf85609b571b4556bfd9f605506efbaa6907a3045c965ce8b8"
+metafile = true
+
+[[files]]
+file = "mods/ars-nouveau-crafting-terminal-improvements.pw.toml"
+hash = "0ea0061a292ff316e1d331fdd40b02991ef9ca907c0a7bb3ee08173d238dd098"
+metafile = true
+
+[[files]]
 file = "mods/ars-nouveau.pw.toml"
 hash = "21dfd3b22c8fd9ea0b89f53460169693258b31dbcbdb3b6fea73c76d29fd1b84"
+metafile = true
+
+[[files]]
+file = "mods/ars-numerichud.pw.toml"
+hash = "5d2eb89720ab0e767cd03b8cd943f08eb143996baf23dbc48ab75b0f02407ca2"
+metafile = true
+
+[[files]]
+file = "mods/ars-ocultas.pw.toml"
+hash = "79b83cf9e61a927c48df33564bcf46f6e4ca861aa79249d2d6d87a99df09a96d"
+metafile = true
+
+[[files]]
+file = "mods/ars-polymorphia.pw.toml"
+hash = "d27c3146f8dc2face0cdd258bb7a9fc57308043bae378210f0bf3f4075827bc8"
+metafile = true
+
+[[files]]
+file = "mods/ars-sable.pw.toml"
+hash = "638ff2ed5dda7a0214183615e90638c0c52ae402296572b2153fb67dc6709d59"
+metafile = true
+
+[[files]]
+file = "mods/ars-sky-shader-fix.pw.toml"
+hash = "95d80a9efda371d1aa086bc394f8f22c3d66be0264d8377196f0b1297a1514a2"
+metafile = true
+
+[[files]]
+file = "mods/arsdelight.pw.toml"
+hash = "8df9034b79a4332d57e4ec26c1940d8dfda1c0eacd771cacf6017f705bd1bd8b"
 metafile = true
 
 [[files]]
@@ -1368,6 +1408,11 @@ hash = "ad732ada7e42c44f0d5eaf45f5edfb7e90bc615ba6e50a3bb974250dfb36e83f"
 metafile = true
 
 [[files]]
+file = "mods/create-ars-nouveau-compat.pw.toml"
+hash = "a2ad64c11c1a8a7b0f88ec846907f2f57d54c9fdd7b2410c88f89ff11553583a"
+metafile = true
+
+[[files]]
 file = "mods/create-big-cannons.pw.toml"
 hash = "a0e9ff95570cd9af3374ca8b44aa095447baf94e565f46ae99819d52a9b48dc1"
 metafile = true
@@ -1390,6 +1435,11 @@ metafile = true
 [[files]]
 file = "mods/create-coasters-simulated.pw.toml"
 hash = "d5aad6415413aa777ed89ae55912f33c86757321c7c16c8392ce2e1429b920d5"
+metafile = true
+
+[[files]]
+file = "mods/create-compat-core.pw.toml"
+hash = "39d60522ed3966e0da6c610e7ec88bed68d4f8fd6397e2b58077ac6db42a504a"
 metafile = true
 
 [[files]]
@@ -2348,6 +2398,11 @@ hash = "e0f1cef5482844e62c6fc3c7771fc9ef8385c47092248f76aa1fa271220b24e8"
 metafile = true
 
 [[files]]
+file = "mods/not-enough-glyphs.pw.toml"
+hash = "075f7f59fc5fb819085bda32a70cea764a21dc0f3b5f3a461cd54519b9da27d9"
+metafile = true
+
+[[files]]
 file = "mods/nullscape.pw.toml"
 hash = "dcfbfa39abeaba554c2c5323f9b9a3ec58dfc386aca2d237f73948abdbdc7125"
 metafile = true
@@ -2405,6 +2460,11 @@ metafile = true
 [[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
+metafile = true
+
+[[files]]
+file = "mods/polymorph.pw.toml"
+hash = "d935e4ce118d15c88b10809df85e801f0e9577855f870f3c28e5a0bd5e7fecf6"
 metafile = true
 
 [[files]]
@@ -2543,6 +2603,11 @@ hash = "2a001cdb3d5ac4970d422914083c27380eba8ebd40dfd435754fe6566ba78beb"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks-ars-compat-sophisticated-backpack.pw.toml"
+hash = "79547014e3ec85c7c2a770eafcbe590dceeebbdc1302cf9a589e897cdf3b360c"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks-create-integration.pw.toml"
 hash = "62763719713397981d04896274e48579e8d425d23bf2f1999184072aea53e193"
 metafile = true
@@ -2555,6 +2620,11 @@ metafile = true
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
 hash = "960a56ecd60197601d3f32e37aa68284c77d01f88a27a63d210ebbf1afa4df27"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-ars-compat-sophisticated.pw.toml"
+hash = "85ae9babecffad4a52f57fe105b393a23acd61a904d4b63feb015a8b72489ee0"
 metafile = true
 
 [[files]]
@@ -2580,6 +2650,11 @@ metafile = true
 [[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "e520ad446364dff7dd50896108a96140f3f5598b72003dade5b17308fa9ef2a9"
+metafile = true
+
+[[files]]
+file = "mods/starbunclemania.pw.toml"
+hash = "ab2c89f6522d1d30ccec20d200e9a19418979edd8b19efa24b31f0464959e47b"
 metafile = true
 
 [[files]]

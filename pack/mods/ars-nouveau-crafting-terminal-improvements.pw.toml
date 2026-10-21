@@ -1,0 +1,13 @@
+name = "Ars Nouveau: Crafting Terminal Improvements"
+filename = "ars_nouveau_crafting_terminal-1.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4307ee611f33464440667c8a7cfac9662245597b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8393895
+project-id = 1381821

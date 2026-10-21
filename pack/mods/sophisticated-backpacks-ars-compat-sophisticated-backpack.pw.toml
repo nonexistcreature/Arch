@@ -1,0 +1,13 @@
+name = "Sophisticated Backpacks: Ars Compat   |   Sophisticated Backpack"
+filename = "arssophisticatedcompat-0.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pQY1Hq2y/versions/tdcQchIW/arssophisticatedcompat-0.3.0.jar"
+hash-format = "sha512"
+hash = "eb90e23481d40f714f827a2a5dc3e8412caa31d721ce8da8fe8b02139bc987ed9e52d9d93d30bd62851b36b3c457ea687e88949ad30254a31350e046a0ae9579"
+
+[update]
+[update.modrinth]
+mod-id = "pQY1Hq2y"
+version = "tdcQchIW"
