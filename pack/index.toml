@@ -1238,6 +1238,11 @@ hash = "da045434a9f317ecfef588e409566b6679c76eed01ddc3a0652edce203113a68"
 metafile = true
 
 [[files]]
+file = "mods/bow-infinity-fix.pw.toml"
+hash = "b8837889b804dacb837572fcf16032cd531b5814e1817ed0d6a35523cc9c5d86"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "22d9510588b081cf9905f6549d24bc11012aa8d9c7d38a8619ab9db5ccb7b9a8"
 metafile = true
@@ -1333,8 +1338,18 @@ hash = "f13994485d9005720181e64c20c8b20204edea6749030877fdcbe0b6fd6de443"
 metafile = true
 
 [[files]]
+file = "mods/crawl.pw.toml"
+hash = "349b56aa9ea8284fb89e880941d319ce52e50e51d63084472ea93493cff105b7"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics-automated-logistics.pw.toml"
 hash = "39c088076ac598ef07bb287d525160504cb3f6aad61931a45beecd7cf4d9b7c2"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-throwable-rope-connector.pw.toml"
+hash = "ede459754df771b7fed0268f983b67f9f98ccccd60df8958ffa49d28f0481106"
 metafile = true
 
 [[files]]
@@ -1370,6 +1385,11 @@ metafile = true
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "3752b1dcdfebbb1e79c97c847095153155d64636576a9c0ac11ffa6506c62922"
+metafile = true
+
+[[files]]
+file = "mods/create-coasters-simulated.pw.toml"
+hash = "d5aad6415413aa777ed89ae55912f33c86757321c7c16c8392ce2e1429b920d5"
 metafile = true
 
 [[files]]
@@ -1410,6 +1430,11 @@ metafile = true
 [[files]]
 file = "mods/create-droneworks-simulated.pw.toml"
 hash = "f8af9277f307db54a20d1eb432e5a29aa39cf7acaf0d2e051644743de22b74d8"
+metafile = true
+
+[[files]]
+file = "mods/create-encased.pw.toml"
+hash = "5625c978cee5102013e027c07d7ba815c597799a14cc447dfff63104d76b74be"
 metafile = true
 
 [[files]]
@@ -1523,6 +1548,11 @@ hash = "c24712eb82bb29d7ed210d7bc175baeb3b022c3b365b2dd0275c25f690e98f52"
 metafile = true
 
 [[files]]
+file = "mods/create-railways-navigator.pw.toml"
+hash = "c0cb2bd911bed59edcc68e7c1e8e044acb51e791ff0d5f376138097def308cb6"
+metafile = true
+
+[[files]]
 file = "mods/create-sifting.pw.toml"
 hash = "464baff9adb918c7eb8fbfdb2efedeba5f1d3f6eebe87fc3fad5649e8e4ee18e"
 metafile = true
@@ -1555,6 +1585,11 @@ metafile = true
 [[files]]
 file = "mods/create-trading-floor.pw.toml"
 hash = "dd46758c8eb82deb6dcd56a9879dc5e583ff812245ebb357fd79053a60c58871"
+metafile = true
+
+[[files]]
+file = "mods/create-transmission.pw.toml"
+hash = "663f6f9ee22b3f7ce9f84542842319249fb28ca5a5e26039575834f1ea602d68"
 metafile = true
 
 [[files]]
@@ -1673,6 +1708,11 @@ hash = "d46331e2fffde2c3c2a952575e61827fb67ecbc200a030649bf3e08ad637c049"
 metafile = true
 
 [[files]]
+file = "mods/dragonlib.pw.toml"
+hash = "7c811f8e9168cabfadc3a37cd995a5faf25962032d86f85e49a30b635da76b76"
+metafile = true
+
+[[files]]
 file = "mods/drink-beer-refill.pw.toml"
 hash = "e48c58c6c2c660f7c45e7cfad3339317fee2edef0207a069b361134282f50cfa"
 metafile = true
@@ -1708,6 +1748,16 @@ hash = "b83c611b1787a2c9341046f97f0d29c609873c65addda83e7eaf74728cd748b3"
 metafile = true
 
 [[files]]
+file = "mods/emi-create-schematics.pw.toml"
+hash = "e0da63d5ba6b0649e29325584dd15046070f7b5b251f41fc7e33ce85be240f8f"
+metafile = true
+
+[[files]]
+file = "mods/emi-enchanting.pw.toml"
+hash = "ff029ee6fc50f2696e96cdbcc696f42e75b483c9d7b83f2b1447dcf5c865e664"
+metafile = true
+
+[[files]]
 file = "mods/emi-loot.pw.toml"
 hash = "519f011d36736129795025f19301ad2d6141f422857d6154a3df2e2019f416f3"
 metafile = true
@@ -1720,6 +1770,11 @@ metafile = true
 [[files]]
 file = "mods/emi.pw.toml"
 hash = "67bb77eae0b644960be3b1074178ceb5d54facbb42f326981b9d94625238a54a"
+metafile = true
+
+[[files]]
+file = "mods/emiffect.pw.toml"
+hash = "b53c40130b7c2f91237cf62480877414296fbea3525f2c824351c0c07f136ddb"
 metafile = true
 
 [[files]]
@@ -2045,6 +2100,11 @@ metafile = true
 [[files]]
 file = "mods/l_enders-cataclysm.pw.toml"
 hash = "f262b49b1038ef9f67704e0629da6aafa84cf4f760273589f5d73530ca5d74b5"
+metafile = true
+
+[[files]]
+file = "mods/leaves-be-gone.pw.toml"
+hash = "583a335211bc3a21bb379394344b67d64bffea421e7f7942c254903e1d607814"
 metafile = true
 
 [[files]]

@@ -157,3 +157,18 @@ Alt — раса/голос/сумки, Ctrl — режимы брони, Shift 
   запасом на долгие тики (прегенерация, сохранение); при зависании будет crash-report с дампом потоков и авторестарт.
 - Create Ultimine (ключ Create с FTB Ultimine) вместо исключения ключа из Ultimine тегом: игрок просил именно цепную
   работу ключом, а исключение было временной заплаткой против пропажи блоков.
+
+## 2026-10-21 — обращение игрока «расширение сборки» (проверено по Modrinth API, тест загрузки OK)
+Добавлено: Leaves Be Gone (сервер), Create Railways Navigator (+DragonLib, бета), Create: Coasters Simulated,
+EMIffect, EMI Enchanting, EMI: Create Schematics (клиент), Crawl, Bow Infinity Fix, Create Encased,
+Create: Transmission! (один блок — цепь для ремней, не передача на расстояние), Throwable Rope Connector.
+Отложено до замера/дизайна гейтов: Create Propulsion: Simulated (физика Sable, TPS), Gadgets & Gizmos (пре-релиз),
+Expanded AE / AE Additions / Neo Eco AE (новые детали AE2 вне гейтов; Neo Eco тянет LDLib), Mekanism Additions
+(спавнит детёнышей враждебных мобов — против «мир спокойный», польза мала).
+Отклонено: JEI WorldGen (дубль EMI Ores), Smooth Skies (небо подменяют шейдеры), Trash Cans (дубль TrashSlot),
+Disenchanting Table (дубль Create Enchantment Industry, нет на Modrinth), Alloyed (бета, дубль металлов Metallurgy/TFMG),
+Industrial Foregoing (вторая «автоматизация» рядом с Create/Mekanism), Mystical Agradditions, AE Infinity Booster,
+Hostile Neural Networks (обходят гейты и упрощают фарм), Silent Gear (вторая система снаряжения), AvaritiaNeo
+(обходит эндгейм), Apotheosis (запрещён), Embeddium/Rubidium Extra (Embeddium не обновлялся с 01.2025, Sodium на
+NeoForge официальный, Oculus сломал бы шейдеры), AutoModpack (rc; обновления уже делает packwiz).
+Не найдены, нужны ссылки: «Create: Lanterns», «Create LTAB».
